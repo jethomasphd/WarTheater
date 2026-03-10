@@ -461,7 +461,7 @@ h4 { font-size: var(--text-lg); }
   border-top: 1px solid var(--border);
   display: flex;
   align-items: center;
-  height: 32px;
+  height: 30px;
   overflow: hidden;
 }
 
@@ -473,30 +473,28 @@ h4 { font-size: var(--text-lg); }
   letter-spacing: 0.1em;
   color: var(--bg-primary);
   background: var(--strike-us);
-  padding: 0 12px;
+  padding: 0 10px;
   height: 100%;
   display: flex;
   align-items: center;
   flex-shrink: 0;
-  z-index: 1;
 }
 
 .ticker-track {
   flex: 1;
   overflow: hidden;
-  position: relative;
 }
 
 .ticker-content {
   display: flex;
   white-space: nowrap;
-  animation: tickerScroll 60s linear infinite;
+  animation: tickerScroll 30s linear infinite;
   font-family: 'JetBrains Mono', monospace;
   font-size: 11px;
 }
 
 .ticker-item {
-  padding: 0 32px;
+  padding: 0 40px;
   flex-shrink: 0;
 }
 
@@ -519,81 +517,79 @@ h4 { font-size: var(--text-lg); }
   background: #000;
   z-index: 99999;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
   padding: var(--space-2xl);
-  cursor: pointer;
-  overflow: hidden;
 }
 
 .cinematic-intro::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: 0; left: 0; width: 100%; height: 100%;
   background: var(--scanline);
   pointer-events: none;
   z-index: 1;
 }
 
-.intro-content {
+.intro-inner {
   position: relative;
   z-index: 2;
-  max-width: 700px;
-  opacity: 0;
-  animation: introFadeIn 2s ease-out 0.5s forwards;
+  max-width: 640px;
+  text-align: center;
 }
 
-.intro-epigraph {
-  font-family: 'IBM Plex Sans', serif;
-  font-size: var(--text-base);
-  font-style: italic;
-  color: var(--text-secondary);
-  line-height: 1.8;
-  margin-bottom: var(--space-2xl);
-  opacity: 0;
-  animation: introFadeIn 2s ease-out 0.3s forwards;
-}
-
-.intro-title {
-  font-family: 'Barlow Condensed', sans-serif;
-  font-size: var(--text-hero);
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--text-primary);
-  margin-bottom: var(--space-sm);
-  opacity: 0;
-  animation: introFadeIn 1.5s ease-out 2s forwards;
-}
-
-.intro-title .accent {
-  color: var(--text-accent);
-}
-
-.intro-subtitle {
+.intro-line {
   font-family: 'JetBrains Mono', monospace;
-  font-size: var(--text-xs);
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  color: var(--text-dim);
-  margin-bottom: var(--space-2xl);
-  opacity: 0;
-  animation: introFadeIn 1.5s ease-out 2.5s forwards;
-}
-
-.intro-philosophy {
-  font-family: 'IBM Plex Sans', sans-serif;
   font-size: var(--text-sm);
   color: var(--text-secondary);
   line-height: 1.8;
-  margin-bottom: var(--space-xl);
+  min-height: 1.8em;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid var(--text-dim);
+  width: 0;
+  margin: 0 auto;
   opacity: 0;
-  animation: introFadeIn 2s ease-out 3.5s forwards;
+}
+
+.intro-line.typing {
+  opacity: 1;
+  animation: typingCaret 0.6s step-end infinite;
+}
+
+.intro-line.done {
+  opacity: 1;
+  border-right-color: transparent;
+  white-space: normal;
+  overflow: visible;
+}
+
+.intro-title-line {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: var(--text-3xl);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-xs);
+}
+
+.intro-dim {
+  font-size: var(--text-xs);
+  color: var(--text-dim);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-xl);
+}
+
+.intro-enter-wrap {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.intro-enter-wrap.visible {
+  opacity: 1;
 }
 
 .intro-enter {
@@ -602,8 +598,6 @@ h4 { font-size: var(--text-lg); }
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: var(--text-accent);
-  opacity: 0;
-  animation: introFadeIn 1s ease-out 5s forwards, glowBreathe 3s ease-in-out 6s infinite;
   border: 1px solid var(--text-accent);
   padding: var(--space-sm) var(--space-xl);
   background: transparent;
@@ -615,17 +609,16 @@ h4 { font-size: var(--text-lg); }
   background: rgba(212, 120, 42, 0.1);
 }
 
-@keyframes introFadeIn {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
+@keyframes typingCaret {
+  50% { border-right-color: transparent; }
 }
 
 .cinematic-intro.fade-out {
-  animation: introFadeOut 1s ease-in forwards;
+  animation: introFadeOut 0.8s ease-in forwards;
 }
 
 @keyframes introFadeOut {
-  to { opacity: 0; pointer-events: none; }
+  to { opacity: 0; }
 }
 
 /* === METRIC GRID === */

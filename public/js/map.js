@@ -182,95 +182,93 @@ WarTheater.Map = {
   // ─── US NAVAL ASSETS ───────────────────────────────────
   addCarriers(carriers) {
     if (!carriers) return;
-    const layer = this.layers['carriers'];
+    var layer = this.layers['carriers'];
     layer.clearLayers();
 
-    const typeLabels = {
+    var typeLabels = {
       carrier: 'AIRCRAFT CARRIER',
       amphibious: 'AMPHIBIOUS ASSAULT SHIP',
       destroyer: 'GUIDED MISSILE DESTROYER',
       submarine: 'GUIDED MISSILE SUBMARINE'
     };
-
-    const typeColors = {
+    var typeColors = {
       carrier: '#4a9eff',
       amphibious: '#3b82f6',
       destroyer: '#60a5fa',
       submarine: '#818cf8'
     };
 
-    carriers.forEach(c => {
-      const color = typeColors[c.type] || '#60a5fa';
-      const typeLabel = typeLabels[c.type] || 'US NAVAL ASSET';
-      const isCapitalShip = c.type === 'carrier' || c.type === 'amphibious';
+    carriers.forEach(function(c) {
+      var color = typeColors[c.type] || '#60a5fa';
+      var typeLabel = typeLabels[c.type] || 'US NAVAL ASSET';
+      var isCapital = (c.type === 'carrier' || c.type === 'amphibious');
+      var dotPx = isCapital ? 20 : 12;
+      var shortName = c.name.replace('USS ', '');
 
-      // Much larger, more visible icons with permanent labels
-      const dotSize = isCapitalShip ? 22 : 14;
-      const glowSize = isCapitalShip ? 30 : 18;
-      const shortName = c.name.replace('USS ', '');
+      // Build icon HTML with permanent label below
+      var shapeStyle = isCapital
+        ? 'width:' + dotPx + 'px;height:' + dotPx + 'px;background:' + color + ';transform:rotate(45deg);border:2px solid #fff;box-shadow:0 0 16px ' + color + ',0 0 32px ' + color + ';'
+        : 'width:' + dotPx + 'px;height:' + dotPx + 'px;background:' + color + ';border-radius:50%;border:2px solid #fff;box-shadow:0 0 12px ' + color + ',0 0 24px ' + color + ';';
 
-      const iconHtml = isCapitalShip
-        ? '<div class="naval-marker naval-marker-capital" style="position:relative; width:' + glowSize + 'px; height:' + glowSize + 'px;">' +
-          '<div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%) rotate(45deg); width:' + dotSize + 'px; height:' + dotSize + 'px; background:' + color + '; border:2px solid #fff; box-shadow: 0 0 20px ' + color + ', 0 0 40px ' + color + '80;"></div>' +
-          '</div>' +
-          '<div style="position:absolute; top:' + (glowSize + 2) + 'px; left:50%; transform:translateX(-50%); white-space:nowrap; font-family:Barlow Condensed,sans-serif; font-size:11px; font-weight:600; color:' + color + '; text-transform:uppercase; letter-spacing:0.06em; text-shadow:0 0 6px rgba(0,0,0,1), 0 0 12px rgba(0,0,0,0.8); text-align:center; line-height:1.2;">' + shortName + '<br><span style="font-size:9px; color:#8a8a8a; font-weight:400;">' + c.hull + '</span></div>'
-        : '<div class="naval-marker" style="position:relative; width:' + glowSize + 'px; height:' + glowSize + 'px;">' +
-          '<div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:' + dotSize + 'px; height:' + dotSize + 'px; background:' + color + '; border-radius:50%; border:2px solid #fff; box-shadow: 0 0 14px ' + color + ', 0 0 28px ' + color + '60;"></div>' +
-          '</div>' +
-          '<div style="position:absolute; top:' + (glowSize + 2) + 'px; left:50%; transform:translateX(-50%); white-space:nowrap; font-family:Barlow Condensed,sans-serif; font-size:10px; font-weight:600; color:' + color + '; text-transform:uppercase; letter-spacing:0.06em; text-shadow:0 0 6px rgba(0,0,0,1), 0 0 12px rgba(0,0,0,0.8);">' + shortName + '</div>';
+      var labelHtml = '<div style="position:absolute;top:' + (dotPx + 4) + 'px;left:50%;transform:translateX(-50%);white-space:nowrap;' +
+        'font-family:Barlow Condensed,sans-serif;font-size:' + (isCapital ? '11' : '10') + 'px;font-weight:600;color:' + color + ';' +
+        'text-transform:uppercase;letter-spacing:0.06em;text-shadow:0 0 6px #000,0 0 12px #000;text-align:center;line-height:1.2;">' +
+        shortName + (isCapital ? '<br><span style="font-size:9px;color:#8a8a8a;font-weight:400;">' + c.hull + '</span>' : '') + '</div>';
 
-      const icon = L.divIcon({
-        className: isCapitalShip ? 'carrier-icon' : 'naval-icon',
-        html: iconHtml,
-        iconSize: [glowSize, glowSize + 24],
-        iconAnchor: [glowSize / 2, glowSize / 2]
+      var html = '<div style="position:relative;width:' + dotPx + 'px;height:' + dotPx + 'px;">' +
+        '<div style="position:absolute;top:0;left:0;' + shapeStyle + '"></div>' +
+        '</div>' + labelHtml;
+
+      var icon = L.divIcon({
+        className: isCapital ? 'carrier-icon' : 'naval-icon',
+        html: html,
+        iconSize: [dotPx, dotPx + 28],
+        iconAnchor: [dotPx / 2, dotPx / 2]
       });
 
-      const marker = L.marker([c.lat, c.lng], { icon, zIndexOffset: isCapitalShip ? 1000 : 500 });
+      var marker = L.marker([c.lat, c.lng], { icon: icon, zIndexOffset: isCapital ? 1000 : 500 });
 
-      // Operational radius (only for capital ships)
-      if (isCapitalShip) {
-        const radius = c.type === 'carrier' ? 150000 : 100000;
-        const area = L.circle([c.lat, c.lng], {
+      // Operational radius ring for capital ships
+      if (isCapital) {
+        var radius = c.type === 'carrier' ? 150000 : 100000;
+        var area = L.circle([c.lat, c.lng], {
           radius: radius,
           color: color,
           fillColor: color,
           fillOpacity: 0.04,
           weight: 1,
-          opacity: 0.3,
+          opacity: 0.25,
           dashArray: '6 4'
         });
         layer.addLayer(area);
       }
 
-      // Escorts section
-      const escortsHtml = c.escorts && c.escorts.length > 0
-        ? '<div style="font-size: 10px; color: #555; margin-top: 8px; padding-top: 6px; border-top: 1px solid #1a1a1a;"><strong>Escorts:</strong><br>' + c.escorts.map(e => '&nbsp;&nbsp;▸ ' + e).join('<br>') + '</div>'
+      // Rich popup
+      var escortsHtml = (c.escorts && c.escorts.length > 0)
+        ? '<div style="font-size:10px;color:#555;margin-top:8px;padding-top:6px;border-top:1px solid #1a1a1a;"><strong>Escorts:</strong><br>' + c.escorts.map(function(e) { return '&nbsp;&nbsp;▸ ' + e; }).join('<br>') + '</div>'
+        : '';
+      var classifiedNote = (c.type === 'submarine')
+        ? '<div style="font-size:9px;color:#818cf8;margin-top:6px;font-style:italic;">Position approximate — exact location classified</div>'
         : '';
 
-      const classifiedNote = c.type === 'submarine'
-        ? '<div style="font-size: 9px; color: #818cf8; margin-top: 6px; font-style: italic;">Position approximate — exact location classified</div>'
-        : '';
+      var popupContent =
+        '<div style="min-width:240px;">' +
+        '<h4 style="color:' + color + ';margin-bottom:4px;font-size:14px;">' + c.name + '</h4>' +
+        '<div style="color:' + color + ';font-size:10px;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:8px;font-weight:600;">' + typeLabel + '</div>' +
+        '<div style="font-size:11px;color:#8a8a8a;line-height:1.7;">' +
+        '<strong>Hull:</strong> ' + c.hull + '<br>' +
+        '<strong>Formation:</strong> ' + c.strike_group + '<br>' +
+        '<strong>Area:</strong> ' + c.area + '<br>' +
+        '<strong>Status:</strong> <span style="color:#22c55e;">' + c.status + '</span><br>' +
+        (c.aircraft !== 'N/A' ? '<strong>Air Wing:</strong> ' + c.aircraft + '<br>' : '') +
+        '<strong>Deployed:</strong> ' + WarTheater.Utils.formatDateFull(c.deployed_since) +
+        '</div>' +
+        escortsHtml +
+        (c.notes ? '<div style="font-size:10px;color:' + color + ';margin-top:8px;font-style:italic;">' + c.notes + '</div>' : '') +
+        classifiedNote +
+        '</div>';
 
-      const popupContent = `
-        <div style="min-width: 240px;">
-          <h4 style="color: ${color}; margin-bottom: 4px; font-size: 14px;">${c.name}</h4>
-          <div style="color: ${color}; font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px; font-weight: 600;">${typeLabel}</div>
-          <div style="font-size: 11px; color: #8a8a8a; line-height: 1.7;">
-            <strong>Hull:</strong> ${c.hull}<br>
-            <strong>Formation:</strong> ${c.strike_group}<br>
-            <strong>Area:</strong> ${c.area}<br>
-            <strong>Status:</strong> <span style="color: #22c55e;">${c.status}</span><br>
-            ${c.aircraft !== 'N/A' ? '<strong>Air Wing:</strong> ' + c.aircraft + '<br>' : ''}
-            <strong>Deployed:</strong> ${WarTheater.Utils.formatDateFull(c.deployed_since)}
-          </div>
-          ${escortsHtml}
-          ${c.notes ? '<div style="font-size: 10px; color: ' + color + '; margin-top: 8px; font-style: italic;">' + c.notes + '</div>' : ''}
-          ${classifiedNote}
-        </div>
-      `;
       marker.bindPopup(popupContent, { maxWidth: 320 });
-
       layer.addLayer(marker);
     });
   },
@@ -370,137 +368,105 @@ WarTheater.Map = {
 
     layer.addLayer(polygon);
 
-    // ─── SUBTLE HORMUZ LABEL ───
+    // ─── PERMANENT HORMUZ LABEL (Stark × Trump agreement) ───
     const hormuzLabel = L.divIcon({
       className: 'hormuz-permanent-label',
       html: '<div style="' +
-        'font-family: JetBrains Mono, monospace;' +
-        'font-size: 9px;' +
-        'font-weight: 400;' +
-        'letter-spacing: 0.06em;' +
-        'color: rgba(212,160,32,0.5);' +
-        'text-shadow: 0 1px 3px rgba(0,0,0,0.8);' +
+        'font-family: Barlow Condensed, sans-serif;' +
+        'font-size: 11px;' +
+        'font-weight: 600;' +
+        'text-transform: uppercase;' +
+        'letter-spacing: 0.08em;' +
+        'color: #d4a020;' +
+        'text-shadow: 0 0 8px rgba(212,160,32,0.4), 0 1px 3px rgba(0,0,0,0.8);' +
         'white-space: nowrap;' +
         'text-align: center;' +
+        'line-height: 1.6;' +
         '">' +
-        'STRAIT OF HORMUZ — <span style="color: rgba(239,68,68,0.6);">CLOSED</span>' +
+        '20% of global oil passes through this waterway.<br>' +
+        '<span style="color: #ef4444;">It is currently closed.</span>' +
         '</div>',
-      iconSize: [220, 16],
-      iconAnchor: [110, 8]
+      iconSize: [280, 40],
+      iconAnchor: [140, 50]
     });
-    const labelMarker = L.marker([26.56, 56.55], { icon: hormuzLabel, interactive: false });
+    const labelMarker = L.marker([26.35, 56.55], { icon: hormuzLabel, interactive: false });
     layer.addLayer(labelMarker);
   },
 
-  // ─── NEWS TICKER ─────────────────────────────────────────
+  // ─── NEWS TICKER (replaces timeline scrubber) ────────────
   buildNewsTicker(events) {
-    const container = document.getElementById('ticker-content');
+    var container = document.getElementById('ticker-content');
     if (!container || !events) return;
 
-    // Sort events most recent first, take last 10
-    const sorted = [...events].sort((a, b) => {
-      const da = a.date + 'T' + (a.time || '00:00');
-      const db = b.date + 'T' + (b.time || '00:00');
-      return db.localeCompare(da);
-    }).slice(0, 10);
-
-    const categoryColors = {
-      military: '#d4782a',
-      financial: '#ef4444',
-      humanitarian: '#f59e0b',
-      diplomatic: '#4a9eff',
-      domestic: '#7b3fa0'
+    var catColors = {
+      military: '#d4782a', financial: '#ef4444', humanitarian: '#f59e0b',
+      diplomatic: '#4a9eff', domestic: '#7b3fa0'
     };
 
-    const items = sorted.map(e => {
-      const day = WarTheater.Utils.getWarDay(e.date);
-      const color = categoryColors[e.category] || '#8a8a8a';
-      const dataPoint = e.data_point ? ' — ' + e.data_point : '';
+    // Sort most recent first, take 3
+    var sorted = events.slice().sort(function(a, b) {
+      return (b.date + 'T' + (b.time || '00:00')).localeCompare(a.date + 'T' + (a.time || '00:00'));
+    }).slice(0, 3);
+
+    var items = sorted.map(function(e) {
+      var day = WarTheater.Utils.getWarDay(e.date);
+      var color = catColors[e.category] || '#8a8a8a';
+      var dp = e.data_point ? ' — ' + e.data_point : '';
       return '<span class="ticker-item">' +
-        '<span style="color:' + color + '; font-weight:600;">DAY ' + day + '</span> ' +
+        '<span style="color:' + color + ';font-weight:600;">DAY ' + day + '</span> ' +
         '<span style="color:#555;">|</span> ' +
         '<span style="color:#e0e0e0;">' + e.title + '</span>' +
-        '<span style="color:#8a8a8a;">' + dataPoint + '</span>' +
+        '<span style="color:#8a8a8a;">' + dp + '</span>' +
         '</span>';
     });
 
-    // Duplicate for seamless loop
+    // Duplicate for seamless CSS scroll loop
     container.innerHTML = items.join('') + items.join('');
-
-    // Click to go to The Record
     container.style.cursor = 'pointer';
-    container.addEventListener('click', () => {
-      const navBtn = document.querySelector('[data-panel="record"]');
-      if (navBtn) navBtn.click();
+    container.addEventListener('click', function() {
+      var btn = document.querySelector('[data-panel="record"]');
+      if (btn) btn.click();
     });
   },
 
-  // ─── GLOBAL BASES (visible at zoom out) ─────────────────
+  // ─── GLOBAL BASES & LANDMARKS ──────────────────────────
   addGlobalBases() {
-    const layer = this.layers['global-bases'];
+    var layer = this.layers['global-bases'];
     layer.clearLayers();
 
-    const bases = [
-      // US Military Installations
-      { name: 'Norfolk Naval Station', lat: 36.95, lng: -76.30, type: 'naval', note: 'Largest naval base in the world. Home port for multiple carrier strike groups.' },
-      { name: 'Pearl Harbor', lat: 21.35, lng: -157.95, type: 'naval', note: 'US Pacific Fleet headquarters. Key logistics hub for Indo-Pacific operations.' },
-      { name: 'Ramstein AB', lat: 49.44, lng: 7.60, type: 'air', note: 'USAFE headquarters. Critical node for airlift operations to Middle East.' },
-      { name: 'Diego Garcia', lat: -7.32, lng: 72.41, type: 'air', note: 'B-2 and B-52 staging base. Tomahawk launch platform for Indian Ocean operations.' },
-      { name: 'Al Udeid AB', lat: 25.12, lng: 51.31, type: 'air', note: 'CENTCOM forward HQ. Combined Air Operations Center managing all air sorties.' },
-      { name: 'Yokosuka', lat: 35.29, lng: 139.67, type: 'naval', note: '7th Fleet headquarters. Only forward-deployed carrier (USS Ronald Reagan) home port.' },
-      { name: 'Incirlik AB', lat: 37.00, lng: 35.43, type: 'air', note: 'NATO base in Turkey. Critical for northern approach operations.' },
-      { name: 'Camp Lemonnier', lat: 11.55, lng: 43.15, type: 'base', note: 'Djibouti. Only permanent US base in Africa. Drone operations and counter-terrorism.' },
-      { name: 'Bahrain (5th Fleet)', lat: 26.23, lng: 50.48, type: 'naval', note: 'US 5th Fleet HQ. Naval Forces Central Command. Direct operational control of Gulf assets.' },
-      { name: 'RAF Fairford', lat: 51.68, lng: -1.79, type: 'air', note: 'UK. B-52 forward deployment base for European and Middle East operations.' },
-      // US Landmarks (context)
-      { name: 'Pentagon', lat: 38.87, lng: -77.06, type: 'landmark', note: 'Department of Defense headquarters. Where Operation Epic Fury is commanded.' },
-      { name: 'New York', lat: 40.71, lng: -74.01, type: 'landmark', note: 'Financial center. NYSE and commodity exchanges processing war-driven market volatility.' },
-      { name: 'Houston', lat: 29.76, lng: -95.37, type: 'landmark', note: 'US energy capital. Oil refinery hub feeling the Hormuz closure firsthand.' },
+    var bases = [
+      { name: 'Norfolk Naval Station', lat: 36.95, lng: -76.30, type: 'naval', note: 'Largest naval base in the world. Home port for carrier strike groups.' },
+      { name: 'Pearl Harbor', lat: 21.35, lng: -157.95, type: 'naval', note: 'US Pacific Fleet HQ. Key logistics hub for Indo-Pacific.' },
+      { name: 'Ramstein AB', lat: 49.44, lng: 7.60, type: 'air', note: 'USAFE HQ. Critical airlift node for Middle East operations.' },
+      { name: 'Diego Garcia', lat: -7.32, lng: 72.41, type: 'air', note: 'B-2/B-52 staging. Tomahawk launch platform, Indian Ocean.' },
+      { name: 'Al Udeid AB', lat: 25.12, lng: 51.31, type: 'air', note: 'CENTCOM forward HQ. Combined Air Ops Center for all sorties.' },
+      { name: 'Yokosuka', lat: 35.29, lng: 139.67, type: 'naval', note: '7th Fleet HQ. Forward-deployed carrier home port.' },
+      { name: 'Incirlik AB', lat: 37.00, lng: 35.43, type: 'air', note: 'NATO base, Turkey. Northern approach operations.' },
+      { name: 'Camp Lemonnier', lat: 11.55, lng: 43.15, type: 'base', note: 'Djibouti. Only permanent US base in Africa.' },
+      { name: 'Bahrain (5th Fleet)', lat: 26.23, lng: 50.48, type: 'naval', note: '5th Fleet HQ. Direct control of Gulf naval assets.' },
+      { name: 'RAF Fairford', lat: 51.68, lng: -1.79, type: 'air', note: 'UK. B-52 forward deployment for CENTCOM operations.' },
+      { name: 'Pentagon', lat: 38.87, lng: -77.06, type: 'landmark', note: 'DoD HQ. Where Operation Epic Fury is commanded.' },
+      { name: 'New York', lat: 40.71, lng: -74.01, type: 'landmark', note: 'NYSE/NYMEX. Processing war-driven market volatility.' },
+      { name: 'Houston', lat: 29.76, lng: -95.37, type: 'landmark', note: 'US energy capital. Refinery hub feeling Hormuz closure.' }
     ];
 
-    const baseColors = {
-      naval: '#4a9eff',
-      air: '#d4782a',
-      base: '#22c55e',
-      landmark: '#8a8a8a'
-    };
+    var colors = { naval: '#4a9eff', air: '#d4782a', base: '#22c55e', landmark: '#8a8a8a' };
+    var labels = { naval: 'US NAVAL INSTALLATION', air: 'US AIR FORCE BASE', base: 'US MILITARY BASE', landmark: 'KEY LOCATION' };
 
-    const baseLabels = {
-      naval: 'US NAVAL INSTALLATION',
-      air: 'US AIR FORCE BASE',
-      base: 'US MILITARY BASE',
-      landmark: 'KEY LOCATION'
-    };
-
-    bases.forEach(b => {
-      const color = baseColors[b.type] || '#8a8a8a';
-
-      const marker = L.circleMarker([b.lat, b.lng], {
-        radius: 5,
-        fillColor: color,
-        color: color,
-        weight: 1,
-        opacity: 0.7,
-        fillOpacity: 0.5
+    bases.forEach(function(b) {
+      var c = colors[b.type] || '#8a8a8a';
+      var m = L.circleMarker([b.lat, b.lng], {
+        radius: 5, fillColor: c, color: c, weight: 1, opacity: 0.7, fillOpacity: 0.5
       });
-
-      marker.bindTooltip(b.name, {
-        permanent: false,
-        direction: 'top',
-        offset: [0, -6],
-        className: 'base-tooltip'
-      });
-
-      marker.bindPopup(
+      m.bindTooltip(b.name, { permanent: false, direction: 'top', offset: [0, -6] });
+      m.bindPopup(
         '<div style="min-width:200px;">' +
-        '<h4 style="color:' + color + '; margin-bottom:4px; font-size:13px;">' + b.name + '</h4>' +
-        '<div style="color:' + color + '; font-size:9px; text-transform:uppercase; letter-spacing:0.1em; margin-bottom:8px; font-weight:600;">' + baseLabels[b.type] + '</div>' +
-        '<div style="font-size:11px; color:#8a8a8a; line-height:1.6;">' + b.note + '</div>' +
-        '</div>',
-        { maxWidth: 260 }
+        '<h4 style="color:' + c + ';margin-bottom:4px;font-size:13px;">' + b.name + '</h4>' +
+        '<div style="color:' + c + ';font-size:9px;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:8px;font-weight:600;">' + (labels[b.type] || '') + '</div>' +
+        '<div style="font-size:11px;color:#8a8a8a;line-height:1.6;">' + b.note + '</div>' +
+        '</div>', { maxWidth: 260 }
       );
-
-      layer.addLayer(marker);
+      layer.addLayer(m);
     });
   },
 

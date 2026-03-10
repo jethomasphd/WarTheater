@@ -62,34 +62,80 @@
     }
   }
 
-  // Cinematic intro
+  // Cinematic intro — typewriter reveal, then fade
   function initIntro() {
-    const intro = document.getElementById('cinematic-intro');
-    const enterBtn = document.getElementById('intro-enter');
+    var intro = document.getElementById('cinematic-intro');
     if (!intro) return;
 
-    // Check if already seen this session
     if (sessionStorage.getItem('wt-intro-seen')) {
       intro.remove();
       return;
     }
 
-    const dismiss = () => {
+    var lines = [
+      { id: 'intro-line-1', text: '"Every gun that is made, every warship launched, every rocket fired signifies, in the final sense, a theft from those who hunger and are not fed."' },
+      { id: 'intro-line-2', text: '— Eisenhower, 1953' },
+      { id: 'intro-line-3', text: '' },
+      { id: 'intro-line-4', text: 'THE WAR THEATER' },
+      { id: 'intro-line-5', text: 'Public Intelligence Dashboard' }
+    ];
+
+    var charDelay = 28;
+    var lineGap = 400;
+    var totalDelay = 0;
+
+    lines.forEach(function(line, idx) {
+      var el = document.getElementById(line.id);
+      if (!el) return;
+
+      if (!line.text) {
+        totalDelay += lineGap;
+        return;
+      }
+
+      setTimeout(function() {
+        el.classList.add('typing');
+        var chars = line.text.split('');
+        var i = 0;
+
+        function typeChar() {
+          if (i < chars.length) {
+            el.textContent += chars[i];
+            // Grow width to fit
+            el.style.width = 'auto';
+            i++;
+            setTimeout(typeChar, charDelay);
+          } else {
+            el.classList.remove('typing');
+            el.classList.add('done');
+          }
+        }
+        typeChar();
+      }, totalDelay);
+
+      totalDelay += (line.text.length * charDelay) + lineGap;
+    });
+
+    // Show enter button after typing completes
+    setTimeout(function() {
+      var wrap = document.getElementById('intro-enter-wrap');
+      if (wrap) wrap.classList.add('visible');
+    }, totalDelay + 300);
+
+    function dismiss() {
       intro.classList.add('fade-out');
       sessionStorage.setItem('wt-intro-seen', '1');
-      setTimeout(() => intro.remove(), 1000);
-    };
+      setTimeout(function() { intro.remove(); }, 800);
+    }
 
-    enterBtn.addEventListener('click', dismiss);
-    // Also dismiss on Escape
-    document.addEventListener('keydown', (e) => {
+    document.getElementById('intro-enter').addEventListener('click', dismiss);
+    document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape' && intro.parentNode) dismiss();
     });
   }
 
   // ─── BOOT ───────────────────────────────────────────────
   try {
-    // Cinematic intro
     initIntro();
 
     // Navigation
