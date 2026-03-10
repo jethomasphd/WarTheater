@@ -110,18 +110,6 @@
     display: none;
   }
 
-  .timeline-scrubber {
-    padding: var(--space-md) var(--space-sm) var(--space-sm);
-  }
-
-  .timeline-day {
-    min-width: 40px;
-  }
-
-  .timeline-day .event-label {
-    display: none;
-  }
-
   .chart-container {
     padding: var(--space-md);
   }
@@ -160,6 +148,34 @@
   .infrastructure-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  /* Intro */
+  .intro-title {
+    font-size: 2.5rem;
+    letter-spacing: 0.12em;
+  }
+
+  .intro-epigraph {
+    font-size: var(--text-base);
+  }
+
+  /* About */
+  .about-container {
+    padding: var(--space-xl) var(--space-md) 60px;
+  }
+
+  .about-pullquote {
+    padding: var(--space-md) var(--space-md) var(--space-md) var(--space-lg);
+    margin: var(--space-xl) 0;
+  }
+
+  .about-pullquote p {
+    font-size: var(--text-base);
+  }
+
+  .about-lede p:first-child {
+    font-size: var(--text-lg);
+  }
 }
 
 /* === SMALL MOBILE (<480px) === */
@@ -183,6 +199,20 @@
   .filter-btn {
     font-size: 9px;
     padding: 2px var(--space-sm);
+  }
+
+  .intro-title {
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+  }
+
+  .intro-epigraph {
+    font-size: var(--text-sm);
+  }
+
+  .intro-subtitle {
+    letter-spacing: 0.15em;
+    font-size: 10px;
   }
 }
 
