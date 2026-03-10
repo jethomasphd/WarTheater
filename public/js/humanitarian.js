@@ -1,5 +1,6 @@
 /* ═══════════════════════════════════════════════════════════════
    THE WAR THEATER — Humanitarian Panel
+   Every number was a person. The counter preserves that.
    ═══════════════════════════════════════════════════════════════ */
 
 WarTheater.Humanitarian = {
@@ -11,14 +12,14 @@ WarTheater.Humanitarian = {
     this.renderHistoricalComparison();
   },
 
-  // Animate all counter elements
+  // Animate all counter elements on scroll into view
   animateCounters() {
-    const counters = document.querySelectorAll('.counter');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
+    var counters = document.querySelectorAll('.counter');
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
         if (entry.isIntersecting) {
-          const el = entry.target;
-          const target = parseInt(el.dataset.target, 10);
+          var el = entry.target;
+          var target = parseInt(el.dataset.target, 10);
           if (target && !el.dataset.animated) {
             el.dataset.animated = 'true';
             WarTheater.Utils.animateCounter(el, target, 2500);
@@ -27,23 +28,38 @@ WarTheater.Humanitarian = {
       });
     }, { threshold: 0.3 });
 
-    counters.forEach(c => observer.observe(c));
+    counters.forEach(function(c) { observer.observe(c); });
   },
 
+  // ─── CASUALTIES BY DAY ────────────────────────────────────
   renderCasualtiesChart() {
-    const ctx = document.getElementById('chart-casualties');
+    var ctx = document.getElementById('chart-casualties');
     if (!ctx) return;
 
-    const labels = ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10'];
-    const defaults = WarTheater.Utils.chartDefaults();
+    var labels = ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10'];
+    var defaults = WarTheater.Utils.chartDefaults();
+
+    var dayContexts = [
+      'Day 1 — First strikes and Iranian retaliation',
+      'Day 2 — Hormuz closure, sustained bombing',
+      'Day 3 — Hezbollah enters the war',
+      'Day 4 — Houthi attacks expand conflict',
+      'Day 5 — Minab school incident (23 children killed)',
+      'Day 6 — Global protests, air campaign continues',
+      'Day 7 — One week of conflict',
+      'Day 8 — Oil infrastructure strikes begin',
+      'Day 9 — SPR release, strikes continue',
+      'Day 10 — New Supreme Leader named',
+      'Day 11 — No ceasefire in sight'
+    ];
 
     this.charts.casualties = new Chart(ctx, {
       type: 'bar',
       data: {
-        labels,
+        labels: labels,
         datasets: [
           {
-            label: 'Iranian (Military)',
+            label: 'Iranian Military',
             data: [80, 120, 150, 130, 110, 100, 90, 140, 120, 80, 80],
             backgroundColor: 'rgba(184, 28, 28, 0.6)',
             borderColor: '#b81c1c',
@@ -51,9 +67,9 @@ WarTheater.Humanitarian = {
             stack: 'casualties'
           },
           {
-            label: 'Iranian (Civilian)',
+            label: 'Iranian Civilian',
             data: [5, 10, 15, 12, 35, 20, 15, 25, 18, 10, 8],
-            backgroundColor: 'rgba(255, 255, 255, 0.4)',
+            backgroundColor: 'rgba(255, 255, 255, 0.35)',
             borderColor: '#ffffff',
             borderWidth: 1,
             stack: 'casualties'
@@ -67,7 +83,7 @@ WarTheater.Humanitarian = {
             stack: 'casualties'
           },
           {
-            label: 'Lebanese',
+            label: 'Lebanese (all)',
             data: [0, 0, 40, 55, 60, 65, 58, 72, 55, 45, 36],
             backgroundColor: 'rgba(123, 63, 160, 0.6)',
             borderColor: '#7b3fa0',
@@ -78,6 +94,29 @@ WarTheater.Humanitarian = {
       },
       options: {
         ...defaults,
+        plugins: {
+          ...defaults.plugins,
+          tooltip: {
+            ...defaults.plugins.tooltip,
+            callbacks: {
+              title: function(items) {
+                var idx = items[0].dataIndex;
+                return dayContexts[idx] || items[0].label;
+              },
+              afterBody: function(items) {
+                var idx = items[0].dataIndex;
+                var total = 0;
+                items.forEach(function(item) { total += item.raw; });
+                var lines = ['', 'Total this day: ~' + total + ' estimated casualties'];
+                if (idx === 4) lines.push('Includes 23 children at Minab girls\' school');
+                return lines;
+              },
+              footer: function() {
+                return 'Source: ACLED, DoD, Lebanese Health Ministry, IRNA';
+              }
+            }
+          }
+        },
         scales: {
           ...defaults.scales,
           x: { ...defaults.scales.x, stacked: true },
@@ -86,7 +125,7 @@ WarTheater.Humanitarian = {
             stacked: true,
             ticks: {
               ...defaults.scales.y.ticks,
-              callback: (v) => v + ' est.'
+              callback: function(v) { return v + ' est.'; }
             }
           }
         }
@@ -94,39 +133,85 @@ WarTheater.Humanitarian = {
     });
   },
 
+  // ─── INFRASTRUCTURE DAMAGE ────────────────────────────────
   renderInfrastructureGrid() {
-    const grid = document.getElementById('infrastructure-grid');
+    var grid = document.getElementById('infrastructure-grid');
     if (!grid) return;
 
-    const items = [
-      { icon: '🏥', label: 'Hospitals Damaged', count: '3+', note: 'Southern Lebanon' },
-      { icon: '🏫', label: 'Schools Destroyed', count: '1', note: 'Minab girls\' school' },
-      { icon: '⚡', label: 'Power Plants Hit', count: '4+', note: 'Iran grid disruption' },
-      { icon: '🛢️', label: 'Oil Facilities Hit', count: '3', note: 'Kharg, Abadan + more' },
-      { icon: '✈️', label: 'Airports Damaged', count: '5+', note: 'Iran + region' },
-      { icon: '🌉', label: 'Bridges Destroyed', count: '8+', note: 'Western Iran' }
+    var items = [
+      {
+        label: 'Hospitals Damaged',
+        count: '3+',
+        note: 'Southern Lebanon',
+        source: 'OCHA',
+        detail: 'Structural damage from strikes on adjacent Hezbollah positions. Medical capacity in south Lebanon degraded. At least 3 facilities reporting inability to operate.'
+      },
+      {
+        label: 'Schools Destroyed',
+        count: '1',
+        note: 'Minab, Iran',
+        source: 'Iranian Red Crescent / AP',
+        detail: 'Girls\' school destroyed by secondary explosion from adjacent IRGC ammunition depot strike. 23 children killed. 40+ wounded. Pentagon investigation underway.'
+      },
+      {
+        label: 'Power Plants Hit',
+        count: '4+',
+        note: 'Western Iran',
+        source: 'DoD / satellite imagery',
+        detail: 'Grid disruptions across western Iran. Isfahan, Kermanshah, Ahvaz power infrastructure degraded. Civilian blackouts reported in multiple provinces.'
+      },
+      {
+        label: 'Oil Facilities Hit',
+        count: '3',
+        note: 'Kharg, Abadan + storage',
+        source: 'DoD / shipping data',
+        detail: '90% of Iran\'s oil export capacity targeted since March 7. Kharg Island terminal — which handles 90% of Iranian oil exports — effectively destroyed.'
+      },
+      {
+        label: 'Airports Damaged',
+        count: '5+',
+        note: 'Iran + region',
+        source: 'ACLED / Flightradar24',
+        detail: 'Mehrabad (Tehran), Shiraz TAB 6, Tabriz TAB 2 runways cratered in first wave. Regional airspace closures affect 14,000+ commercial flights.'
+      },
+      {
+        label: 'Bridges Destroyed',
+        count: '8+',
+        note: 'Western Iran',
+        source: 'Satellite imagery',
+        detail: 'Road and rail bridges in Kermanshah, Lorestan, and Khuzestan provinces destroyed to degrade IRGC logistics and prevent resupply to missile launch sites.'
+      }
     ];
 
-    grid.innerHTML = items.map(item => `
-      <div style="text-align: center; padding: var(--space-md);">
-        <div style="font-size: 2rem; margin-bottom: var(--space-sm);" aria-hidden="true">${item.icon}</div>
-        <div class="font-data" style="font-size: var(--text-xl); color: var(--humanitarian);">${item.count}</div>
-        <div style="font-family: 'Barlow Condensed', sans-serif; font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-secondary); margin-top: 4px;">${item.label}</div>
-        <div style="font-size: 10px; color: var(--text-dim); margin-top: 2px;">${item.note}</div>
-      </div>
-    `).join('');
+    grid.innerHTML = items.map(function(item) {
+      return '<div class="card" style="text-align: center; padding: var(--space-lg);" title="' + item.detail.replace(/"/g, '&quot;') + '">' +
+        '<div class="font-data" style="font-size: var(--text-2xl); color: var(--humanitarian); line-height: 1;">' + item.count + '</div>' +
+        '<div style="font-family: \'Barlow Condensed\', sans-serif; font-size: var(--text-sm); text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-primary); margin-top: 8px;">' + item.label + '</div>' +
+        '<div style="font-size: 10px; color: var(--text-dim); margin-top: 4px;">' + item.note + '</div>' +
+        '<div style="font-size: 10px; color: var(--text-secondary); margin-top: 8px; padding-top: 6px; border-top: 1px solid var(--border); text-align: left; line-height: 1.5;">' + item.detail + '</div>' +
+        '<div style="font-size: 9px; color: var(--text-dim); margin-top: 6px; font-family: \'JetBrains Mono\', monospace;">Source: ' + item.source + '</div>' +
+        '</div>';
+    }).join('');
   },
 
+  // ─── HISTORICAL COMPARISON ────────────────────────────────
   renderHistoricalComparison() {
-    const ctx = document.getElementById('chart-historical');
+    var ctx = document.getElementById('chart-historical');
     if (!ctx) return;
 
-    const defaults = WarTheater.Utils.chartDefaults();
+    var defaults = WarTheater.Utils.chartDefaults();
+
+    var conflictNotes = {
+      0: 'Operation Epic Fury — air campaign only, no ground invasion. 3 carrier groups. Hormuz closed.',
+      1: 'Operation Iraqi Freedom — "shock and awe" + ground invasion. 300,000 troops deployed.',
+      2: 'Operation Odyssey Dawn / Unified Protector — NATO no-fly zone. Limited US role.',
+      3: 'Operation Desert Storm — 38-day air campaign + 100-hour ground war. 700,000 coalition troops.'
+    };
 
     this.charts.historical = new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: ['Iran 2026\n(Day 11)', 'Iraq 2003\n(Day 11)', 'Libya 2011\n(Day 11)', 'Gulf War 1991\n(Day 11)'],
+        labels: ['Iran 2026 (Day 11)', 'Iraq 2003 (Day 11)', 'Libya 2011 (Day 11)', 'Gulf 1991 (Day 11)'],
         datasets: [
           {
             label: 'Total Strikes',
@@ -143,7 +228,7 @@ WarTheater.Humanitarian = {
             borderWidth: 1
           },
           {
-            label: 'Est. Daily Cost ($M)',
+            label: 'Est. Daily Cost ($M, 2026 dollars)',
             data: [500, 720, 120, 600],
             backgroundColor: 'rgba(239, 68, 68, 0.5)',
             borderColor: '#ef4444',
@@ -154,6 +239,24 @@ WarTheater.Humanitarian = {
       options: {
         ...defaults,
         indexAxis: 'y',
+        plugins: {
+          ...defaults.plugins,
+          tooltip: {
+            ...defaults.plugins.tooltip,
+            callbacks: {
+              title: function(items) {
+                return items[0].label;
+              },
+              afterBody: function(items) {
+                var idx = items[0].dataIndex;
+                return conflictNotes[idx] ? ['\n' + conflictNotes[idx]] : [];
+              },
+              footer: function() {
+                return 'Sources: CRS, DoD historical data, ACLED, CBO';
+              }
+            }
+          }
+        },
         scales: {
           x: {
             ...defaults.scales.x,
