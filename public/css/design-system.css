@@ -389,8 +389,13 @@ h4 { font-size: var(--text-lg); }
 }
 
 .map-legend {
-  bottom: 100px;
+  position: absolute;
+  bottom: 44px;
   left: var(--space-md);
+  z-index: 1000;
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  padding: var(--space-sm) var(--space-md);
   font-size: var(--text-xs);
 }
 
@@ -410,8 +415,12 @@ h4 { font-size: var(--text-lg); }
 }
 
 .map-coords {
-  bottom: 100px;
+  position: absolute;
+  bottom: 44px;
   right: var(--space-md);
+  z-index: 1000;
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
   font-family: 'JetBrains Mono', monospace;
   font-size: var(--text-xs);
   color: var(--text-dim);
@@ -557,6 +566,25 @@ h4 { font-size: var(--text-lg); }
   animation: introReveal 2.5s ease-out forwards;
 }
 
+.intro-eisenhower {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: var(--text-sm);
+  font-style: italic;
+  font-weight: 300;
+  color: var(--text-secondary);
+  line-height: 2;
+  letter-spacing: 0.01em;
+  max-width: 520px;
+  margin: 0 auto var(--space-sm);
+}
+
+.intro-eisenhower-attr {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: var(--text-xs);
+  color: var(--text-dim);
+  margin-bottom: var(--space-2xl);
+}
+
 .intro-epigraph {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: var(--text-lg);
@@ -621,6 +649,7 @@ h4 { font-size: var(--text-lg); }
 
 @keyframes introFadeOut {
   to { opacity: 0; }
+}
 
 /* === METRIC GRID === */
 .metrics-grid {
@@ -1025,6 +1054,24 @@ h4 { font-size: var(--text-lg); }
   color: var(--text-dim);
   font-style: italic;
   margin-bottom: var(--space-md);
+}
+
+.about-signature .sig-method {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: var(--text-sm);
+  color: var(--text-dim);
+  margin-bottom: var(--space-md);
+}
+
+.about-signature .sig-method a {
+  color: var(--text-accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(212, 120, 42, 0.3);
+  transition: border-color 0.2s;
+}
+
+.about-signature .sig-method a:hover {
+  border-bottom-color: var(--text-accent);
 }
 
 .about-signature .sig-contact {
