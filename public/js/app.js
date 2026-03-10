@@ -28,6 +28,13 @@
         if (panel) {
           panel.classList.add('active');
 
+          // Toggle footer visibility — hide on full-viewport map panel
+          if (target === 'theater') {
+            document.body.classList.add('theater-active');
+          } else {
+            document.body.classList.remove('theater-active');
+          }
+
           // Trigger chart resize on panel switch
           if (target === 'cost' && WarTheater.Financial.charts) {
             Object.values(WarTheater.Financial.charts).forEach(c => c && c.resize());
@@ -70,6 +77,8 @@
     // Navigation
     initNavigation();
     updateTimestamp();
+    // Theater panel is active on load — hide footer
+    document.body.classList.add('theater-active');
     setInterval(updateTimestamp, 60000);
 
     // Initialize map
