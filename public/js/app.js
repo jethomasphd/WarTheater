@@ -62,16 +62,6 @@
     }
   }
 
-  // Arc layer toggle integration
-  function initArcToggle() {
-    const arcCheckbox = document.querySelector('[data-layer="arcs"]');
-    if (arcCheckbox) {
-      arcCheckbox.addEventListener('change', (e) => {
-        WarTheater.Arcs.toggle(e.target.checked);
-      });
-    }
-  }
-
   // ─── BOOT ───────────────────────────────────────────────
   try {
     // Navigation
@@ -89,11 +79,6 @@
 
     // Populate map
     await WarTheater.Map.populate(data);
-
-    // Initialize arcs
-    WarTheater.Arcs.init(WarTheater.Map.map);
-    WarTheater.Arcs.toggle(false); // Off by default
-    initArcToggle();
 
     // Financial charts
     WarTheater.Financial.init(data);
