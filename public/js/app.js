@@ -62,7 +62,7 @@
     }
   }
 
-  // Cinematic intro — typewriter reveal, then fade
+  // Cinematic intro — staggered fade reveal
   function initIntro() {
     var intro = document.getElementById('cinematic-intro');
     if (!intro) return;
@@ -72,60 +72,10 @@
       return;
     }
 
-    var lines = [
-      { id: 'intro-line-1', text: '"Every gun that is made, every warship launched, every rocket fired signifies, in the final sense, a theft from those who hunger and are not fed."' },
-      { id: 'intro-line-2', text: '— Eisenhower, 1953' },
-      { id: 'intro-line-3', text: '' },
-      { id: 'intro-line-4', text: 'THE WAR THEATER' },
-      { id: 'intro-line-5', text: 'Public Intelligence Dashboard' }
-    ];
-
-    var charDelay = 28;
-    var lineGap = 400;
-    var totalDelay = 0;
-
-    lines.forEach(function(line, idx) {
-      var el = document.getElementById(line.id);
-      if (!el) return;
-
-      if (!line.text) {
-        totalDelay += lineGap;
-        return;
-      }
-
-      setTimeout(function() {
-        el.classList.add('typing');
-        var chars = line.text.split('');
-        var i = 0;
-
-        function typeChar() {
-          if (i < chars.length) {
-            el.textContent += chars[i];
-            // Grow width to fit
-            el.style.width = 'auto';
-            i++;
-            setTimeout(typeChar, charDelay);
-          } else {
-            el.classList.remove('typing');
-            el.classList.add('done');
-          }
-        }
-        typeChar();
-      }, totalDelay);
-
-      totalDelay += (line.text.length * charDelay) + lineGap;
-    });
-
-    // Show enter button after typing completes
-    setTimeout(function() {
-      var wrap = document.getElementById('intro-enter-wrap');
-      if (wrap) wrap.classList.add('visible');
-    }, totalDelay + 300);
-
     function dismiss() {
       intro.classList.add('fade-out');
       sessionStorage.setItem('wt-intro-seen', '1');
-      setTimeout(function() { intro.remove(); }, 800);
+      setTimeout(function() { intro.remove(); }, 1000);
     }
 
     document.getElementById('intro-enter').addEventListener('click', dismiss);

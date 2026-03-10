@@ -125,16 +125,9 @@
   background: var(--hezbollah-glow);
 }
 
-/* === CARRIER CONSTELLATION === */
-@keyframes carrierFloat {
-  0%, 100% { transform: translate(0, 0); }
-  25% { transform: translate(1px, -1px); }
-  50% { transform: translate(-1px, 1px); }
-  75% { transform: translate(1px, 1px); }
-}
-
+/* === CARRIER ICON (no animation — stable positioning) === */
 .carrier-icon {
-  animation: carrierFloat 8s ease-in-out infinite;
+  /* intentionally static */
 }
 
 /* === NUMBER TICK === */

@@ -395,35 +395,39 @@ WarTheater.Map = {
 
   // ─── NEWS TICKER (replaces timeline scrubber) ────────────
   buildNewsTicker(events) {
-    var container = document.getElementById('ticker-content');
-    if (!container || !events) return;
+    var ticker = document.getElementById('news-ticker');
+    if (!ticker || !events) return;
 
     var catColors = {
       military: '#d4782a', financial: '#ef4444', humanitarian: '#f59e0b',
       diplomatic: '#4a9eff', domestic: '#7b3fa0'
     };
 
-    // Sort most recent first, take 3
-    var sorted = events.slice().sort(function(a, b) {
+    // Get the single most recent event
+    var latest = events.slice().sort(function(a, b) {
       return (b.date + 'T' + (b.time || '00:00')).localeCompare(a.date + 'T' + (a.time || '00:00'));
-    }).slice(0, 3);
+    })[0];
 
-    var items = sorted.map(function(e) {
-      var day = WarTheater.Utils.getWarDay(e.date);
-      var color = catColors[e.category] || '#8a8a8a';
-      var dp = e.data_point ? ' — ' + e.data_point : '';
-      return '<span class="ticker-item">' +
-        '<span style="color:' + color + ';font-weight:600;">DAY ' + day + '</span> ' +
-        '<span style="color:#555;">|</span> ' +
-        '<span style="color:#e0e0e0;">' + e.title + '</span>' +
-        '<span style="color:#8a8a8a;">' + dp + '</span>' +
-        '</span>';
-    });
+    if (!latest) return;
 
-    // Duplicate for seamless CSS scroll loop
-    container.innerHTML = items.join('') + items.join('');
-    container.style.cursor = 'pointer';
-    container.addEventListener('click', function() {
+    var day = WarTheater.Utils.getWarDay(latest.date);
+    var color = catColors[latest.category] || '#8a8a8a';
+    var dp = latest.data_point ? ' — ' + latest.data_point : '';
+
+    // Replace entire ticker with static latest + CTA
+    ticker.innerHTML =
+      '<div class="ticker-label">LATEST</div>' +
+      '<div class="ticker-track" style="display:flex;align-items:center;padding:0 12px;overflow:hidden;">' +
+        '<span style="font-family:JetBrains Mono,monospace;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' +
+          '<span style="color:' + color + ';font-weight:600;">DAY ' + day + '</span> ' +
+          '<span style="color:#555;">|</span> ' +
+          '<span style="color:#e0e0e0;">' + latest.title + '</span>' +
+          '<span style="color:#8a8a8a;">' + dp + '</span>' +
+        '</span>' +
+      '</div>' +
+      '<div class="ticker-cta" id="ticker-cta">THE RECORD &#x25B8;</div>';
+
+    document.getElementById('ticker-cta').addEventListener('click', function() {
       var btn = document.querySelector('[data-panel="record"]');
       if (btn) btn.click();
     });
