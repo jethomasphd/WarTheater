@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE WAR THEATER — Live Intelligence Dashboard</title>
+  <meta name="description" content="Real-time tracking of the 2026 Iran War: financial impact, humanitarian cost, military operations. The definitive public intelligence resource.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="THE WAR THEATER — Live Intelligence Dashboard">
+  <meta property="og:description" content="Real-time tracking of the 2026 Iran War: financial impact, humanitarian cost, military operations. The definitive public intelligence resource.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="THE WAR THEATER — Live Intelligence Dashboard">
+  <meta name="twitter:description" content="Every bomb has a price tag. Every missile has a human cost. Track it all in real time.">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <!-- Design System -->
+  <link rel="stylesheet" href="css/design-system.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- CLASSIFICATION BANNER -->
+  <div class="classification-banner" role="banner">
+    UNCLASSIFIED // PUBLIC INTELLIGENCE DASHBOARD — THE WAR THEATER
+  </div>
+
+  <!-- SITE HEADER -->
+  <header class="site-header">
+    <h1 class="site-title">THE <span class="accent">WAR</span> THEATER</h1>
+    <div class="live-indicator" aria-live="polite">
+      <span class="live-dot" aria-hidden="true"></span>
+      <span>LIVE</span>
+      <span id="last-updated" class="font-data" style="color: var(--text-dim)"></span>
+    </div>
+  </header>
+
+  <!-- PANEL NAVIGATION -->
+  <nav class="panel-nav" role="tablist" aria-label="Dashboard panels">
+    <button role="tab" class="active" data-panel="theater" aria-selected="true" aria-controls="panel-theater">
+      I. The Theater
+    </button>
+    <button role="tab" data-panel="cost" aria-selected="false" aria-controls="panel-cost">
+      II. The Cost
+    </button>
+    <button role="tab" data-panel="toll" aria-selected="false" aria-controls="panel-toll">
+      III. The Toll
+    </button>
+    <button role="tab" data-panel="briefing" aria-selected="false" aria-controls="panel-briefing">
+      IV. The Briefing
+    </button>
+    <button role="tab" data-panel="record" aria-selected="false" aria-controls="panel-record">
+      V. The Record
+    </button>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- PANEL 1: THE THEATER                                    -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section id="panel-theater" class="panel active" role="tabpanel" aria-label="Theater Map">
+      <div class="map-container">
+        <div id="theater-map"></div>
+
+        <!-- Layer Controls -->
+        <div class="layer-controls" id="layer-controls">
+          <h4>Layers</h4>
+          <label class="layer-toggle">
+            <input type="checkbox" checked data-layer="us-strikes"> US/Israel Strikes
+          </label>
+          <label class="layer-toggle">
+            <input type="checkbox" checked data-layer="iran-retaliation"> Iranian Retaliation
+          </label>
+          <label class="layer-toggle">
+            <input type="checkbox" checked data-layer="carriers"> Carrier Groups
+          </label>
+          <label class="layer-toggle">
+            <input type="checkbox" checked data-layer="hormuz"> Strait of Hormuz
+          </label>
+          <label class="layer-toggle">
+            <input type="checkbox" checked data-layer="hezbollah"> Hezbollah Front
+          </label>
+          <label class="layer-toggle">
+            <input type="checkbox" data-layer="missile-ranges"> Missile Ranges
+          </label>
+          <label class="layer-toggle">
+            <input type="checkbox" data-layer="arcs"> Missile Arcs
+          </label>
+        </div>
+
+        <!-- Map Legend -->
+        <div class="map-legend" id="map-legend">
+          <div class="legend-item">
+            <span class="legend-dot" style="background: var(--strike-us);"></span>
+            <span>US/Israel → Iran</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot" style="background: var(--strike-iran);"></span>
+            <span>Iran → Region</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot" style="background: #ffffff;"></span>
+            <span>Civilian Casualty Site</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot" style="background: var(--hezbollah);"></span>
+            <span>Hezbollah / Lebanon</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot" style="background: var(--carrier);"></span>
+            <span>US Naval Assets</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot" style="background: var(--hormuz);"></span>
+            <span>Hormuz Chokepoint</span>
+          </div>
+        </div>
+
+        <!-- Cursor Coordinates -->
+        <div class="map-coords" id="map-coords">—</div>
+
+        <!-- Timeline Scrubber -->
+        <div class="timeline-scrubber" id="timeline-scrubber">
+          <div class="timeline-days" id="timeline-days">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- PANEL 2: THE COST                                       -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section id="panel-cost" class="panel" role="tabpanel" aria-label="Financial Impact">
+      <div class="panel-section" style="padding: var(--space-lg);">
+
+        <!-- Hero Metrics -->
+        <div class="metrics-grid" id="financial-metrics" aria-label="Key financial indicators">
+          <div class="hero-metric">
+            <div class="value font-data" id="brent-price" style="color: var(--financial-up);">$101.50</div>
+            <div class="label">Brent Crude</div>
+            <div class="change up font-data" id="brent-change">+40.2% since Feb 27</div>
+          </div>
+          <div class="hero-metric">
+            <div class="value font-data" id="wti-price" style="color: var(--financial-up);">$98.20</div>
+            <div class="label">WTI Crude</div>
+            <div class="change up font-data" id="wti-change">+38.7% since Feb 27</div>
+          </div>
+          <div class="hero-metric">
+            <div class="value font-data" id="gas-price" style="color: var(--financial-up);">$3.48</div>
+            <div class="label">US Gas Avg/Gal</div>
+            <div class="change up font-data" id="gas-change">+14.1% since Feb 27</div>
+          </div>
+          <div class="hero-metric">
+            <div class="value font-data" id="sp500-value" style="color: var(--financial-down);">5,251</div>
+            <div class="label">S&P 500</div>
+            <div class="change down font-data" id="sp500-change">−8.3% since Feb 27</div>
+          </div>
+          <div class="hero-metric">
+            <div class="value font-data" id="daily-cost" style="color: var(--text-accent);">$500M</div>
+            <div class="label">Est. Daily US Cost</div>
+            <div class="change font-data" style="color: var(--text-dim);" id="daily-cost-note">DoD operational estimate</div>
+          </div>
+          <div class="hero-metric">
+            <div class="value font-data" id="total-cost" style="color: var(--text-accent);">$5.0B</div>
+            <div class="label">Est. Total Cost</div>
+            <div class="change font-data" style="color: var(--text-dim);" id="total-cost-note">11 days of operations</div>
+          </div>
+        </div>
+
+        <!-- Charts -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 1px; background: var(--border); margin-top: 1px;">
+
+          <!-- Oil Price Timeline -->
+          <div class="chart-container">
+            <div class="chart-title">Oil Price — Brent & WTI (2026)</div>
+            <div class="chart-wrapper" style="height: 280px;">
+              <canvas id="chart-oil" aria-label="Oil price chart showing Brent and WTI crude since January 2026"></canvas>
+            </div>
+          </div>
+
+          <!-- Market Impact -->
+          <div class="chart-container">
+            <div class="chart-title">Market Impact — Indexed to Feb 27 = 100</div>
+            <div class="chart-wrapper" style="height: 280px;">
+              <canvas id="chart-markets" aria-label="Market impact chart showing stocks indexed to pre-war baseline"></canvas>
+            </div>
+          </div>
+
+          <!-- Hormuz Chokepoint -->
+          <div class="chart-container">
+            <div class="chart-title">Strait of Hormuz — Daily Tanker Transits</div>
+            <div class="chart-wrapper" style="height: 280px;">
+              <canvas id="chart-hormuz" aria-label="Chart showing tanker transit volume through Strait of Hormuz"></canvas>
+            </div>
+          </div>
+
+          <!-- Cost Per Day -->
+          <div class="chart-container">
+            <div class="chart-title">Estimated Daily US Military Cost</div>
+            <div class="chart-wrapper" style="height: 280px;">
+              <canvas id="chart-daily-cost" aria-label="Chart showing estimated daily military operational cost"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- Consumer Impact Calculator -->
+        <div style="padding: var(--space-xl) 0;">
+          <h3 style="font-size: var(--text-lg); color: var(--text-accent); margin-bottom: var(--space-lg); padding: 0 var(--space-md);">
+            How Much More Are YOU Paying?
+          </h3>
+          <div class="calculator-card" id="impact-calculator">
+            <label for="calc-miles">Miles driven per week</label>
+            <input type="number" id="calc-miles" value="250" min="0" max="2000">
+
+            <label for="calc-mpg">Vehicle MPG</label>
+            <input type="number" id="calc-mpg" value="28" min="5" max="100">
+
+            <label for="calc-state">State</label>
+            <select id="calc-state">
+              <option value="avg">National Average</option>
+              <option value="CA">California</option>
+              <option value="TX" selected>Texas</option>
+              <option value="FL">Florida</option>
+              <option value="NY">New York</option>
+              <option value="PA">Pennsylvania</option>
+              <option value="OH">Ohio</option>
+              <option value="IL">Illinois</option>
+            </select>
+
+            <div class="calculator-result" id="calc-result">
+              <div class="result-value" id="calc-output">$15.43</div>
+              <div class="result-label">Additional Monthly Gas Cost Since War Began</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- PANEL 3: THE TOLL                                       -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section id="panel-toll" class="panel" role="tabpanel" aria-label="Humanitarian Impact">
+      <div class="panel-section" style="padding: var(--space-lg);">
+
+        <!-- Hero Counters -->
+        <div class="metrics-grid" id="humanitarian-metrics" aria-label="Humanitarian indicators">
+          <div class="hero-metric">
+            <div class="value font-data counter" data-target="3000" style="color: var(--strike-us);">0</div>
+            <div class="label">Total Strikes</div>
+            <div class="change font-data" style="color: var(--text-dim);">US/Israel on Iran — and counting</div>
+          </div>
+          <div class="hero-metric">
+            <div class="value font-data counter" data-target="6" style="color: var(--civilian);">0</div>
+            <div class="label">US Service Members KIA</div>
+            <div class="change font-data" style="color: var(--text-dim);">Ali Al Salem, Kuwait</div>
+          </div>
+          <div class="hero-metric">
+            <div class="value font-data counter" data-target="10" style="color: var(--civilian);">0</div>
+            <div class="label">US Service Members WIA</div>
+            <div class="change font-data" style="color: var(--text-dim);">And counting</div>
+          </div>
+          <div class="hero-metric">
+            <div class="value font-data counter" data-target="1200" style="color: var(--strike-iran);">0</div>
+            <div class="label">Iranian Casualties (Reported)</div>
+            <div class="change font-data" style="color: var(--text-dim);">ACLED / Iranian media</div>
+          </div>
+          <div class="hero-metric">
+            <div class="value font-data counter" data-target="486" style="color: var(--hezbollah);">0</div>
+            <div class="label">Lebanese Casualties</div>
+            <div class="change font-data" style="color: var(--text-dim);">Lebanese Health Ministry</div>
+          </div>
+          <div class="hero-metric">
+            <div class="value font-data counter" data-target="450000" style="color: var(--humanitarian);">0</div>
+            <div class="label">Displaced Persons</div>
+            <div class="change font-data" style="color: var(--text-dim);">Lebanon — UNHCR</div>
+          </div>
+          <div class="hero-metric">
+            <div class="value font-data counter" data-target="14000" style="color: var(--text-secondary);">0</div>
+            <div class="label">Flights Cancelled</div>
+            <div class="change font-data" style="color: var(--text-dim);">IATA / Flightradar24</div>
+          </div>
+          <div class="hero-metric">
+            <div class="value font-data counter" data-target="23" style="color: var(--civilian);">0</div>
+            <div class="label">Children Killed — Minab</div>
+            <div class="change font-data" style="color: var(--text-dim);">Girls' school, March 4</div>
+          </div>
+        </div>
+
+        <!-- Charts -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 1px; background: var(--border); margin-top: 1px;">
+
+          <!-- Casualty Timeline -->
+          <div class="chart-container">
+            <div class="chart-title">Casualties by Day</div>
+            <div class="chart-wrapper" style="height: 280px;">
+              <canvas id="chart-casualties" aria-label="Stacked area chart showing casualties by day and category"></canvas>
+            </div>
+          </div>
+
+          <!-- Infrastructure Damage -->
+          <div class="chart-container">
+            <div class="chart-title">Civilian Infrastructure Damaged or Destroyed</div>
+            <div class="infrastructure-grid" id="infrastructure-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-md); padding: var(--space-md) 0;">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Historical Comparison -->
+        <div class="chart-container" style="margin-top: 1px;">
+          <div class="chart-title">Historical Comparison — Day 11 of Conflict</div>
+          <div class="chart-wrapper" style="height: 250px;">
+            <canvas id="chart-historical" aria-label="Chart comparing Day 11 metrics with past US conflicts"></canvas>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- PANEL 4: THE BRIEFING                                   -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section id="panel-briefing" class="panel" role="tabpanel" aria-label="AI Intelligence Briefing">
+      <div class="briefing-container" id="briefing-content">
+
+        <div class="briefing-header">
+          <h2 style="margin-bottom: var(--space-sm);">Daily Intelligence Briefing</h2>
+          <div class="briefing-date" id="briefing-date">MARCH 10, 2026 — DAY 11</div>
+          <div style="font-size: var(--text-xs); color: var(--text-dim); margin-top: var(--space-sm); font-family: 'JetBrains Mono', monospace;">
+            AI-generated analysis — Claude via Cloudflare Worker
+          </div>
+        </div>
+
+        <!-- Situation Summary -->
+        <div class="briefing-section">
+          <h3>Situation Summary</h3>
+          <p>Operation Epic Fury enters its eleventh day with no ceasefire negotiations underway and no indication either side is prepared to de-escalate. US and Israeli air operations continue across Iran, with the second week marked by a significant expansion of targeting to include oil infrastructure — a move that has pushed Brent crude past $100/barrel for the first time since 2022.</p>
+          <p>The appointment of Mojtaba Khamenei as Iran's new Supreme Leader on March 9 signals continuity rather than compromise. His first public statement rejected any ceasefire and pledged "resistance until victory," suggesting the Iranian leadership succession has not produced the hoped-for opening for diplomacy.</p>
+          <p>The Strait of Hormuz remains effectively closed to commercial shipping for the tenth consecutive day. The global oil supply shortfall of approximately 12.35 million barrels per day — accounting for pipeline alternatives operating at capacity — continues to ripple through energy markets and consumer prices worldwide.</p>
+        </div>
+
+        <!-- Key Developments -->
+        <div class="briefing-section">
+          <h3>Key Developments</h3>
+          <ul>
+            <li>Mojtaba Khamenei named Supreme Leader by Assembly of Experts; vows continued resistance</li>
+            <li>US strikes on Kharg Island oil terminal continue for third consecutive day; 90% of Iran's oil export capacity now degraded</li>
+            <li>Hezbollah rocket attacks on northern Israel intensify; IDF responds with expanded strikes in Beirut and southern Lebanon</li>
+            <li>President Trump authorizes 30M barrel Strategic Petroleum Reserve release; critics note this covers less than 3 days of Hormuz shortfall</li>
+            <li>National average gas price reaches $3.48/gallon, up 14.1% from pre-war baseline</li>
+            <li>S&P 500 remains in correction territory at 5,251, down 8.3% from February 27</li>
+            <li>UNHCR reports 450,000+ displaced in Lebanon; humanitarian corridors overwhelmed</li>
+          </ul>
+        </div>
+
+        <!-- Financial Outlook -->
+        <div class="briefing-section">
+          <h3>Financial Outlook</h3>
+          <p>The decision to strike Iranian oil infrastructure has fundamentally altered the economic calculus of this conflict. With Brent at $101.50 and Hormuz still closed, the dual supply shock is unprecedented in modern energy markets. Alternative pipeline capacity can replace roughly 8.15 million barrels per day of the 20.5 million that normally transits Hormuz — leaving a shortfall that Strategic Petroleum Reserve releases can only temporarily mask.</p>
+          <p>Defense sector stocks continue outperforming the broader market (RTX +14.2%, LMT +11.8%), while airlines face mounting fuel cost pressure (DAL −18.3%, UAL −22.1%). The divergence between defense and consumer-facing sectors is the clearest market signal of the war's distributional impact: the cost is not borne equally.</p>
+        </div>
+
+        <!-- Humanitarian Update -->
+        <div class="briefing-section">
+          <h3>Humanitarian Update</h3>
+          <p>The Minab school incident on March 4 — in which 23 children were killed by a secondary explosion from a strike on an adjacent IRGC ammunition depot — remains the single deadliest confirmed civilian casualty event. The Pentagon has stated the school was not the intended target and an investigation is underway. Iranian state media continues to broadcast footage of the aftermath to international audiences.</p>
+          <p>In Lebanon, the displacement crisis is accelerating faster than humanitarian infrastructure can absorb. UNHCR reports 450,000 displaced, with flows primarily northward toward Tripoli and eastward toward Syria. Medical facilities in southern Lebanon are operating at or beyond capacity, and at least three hospitals have reported structural damage from Israeli strikes targeting Hezbollah positions in adjacent buildings.</p>
+        </div>
+
+        <!-- What to Watch -->
+        <div class="briefing-section">
+          <h3>What to Watch</h3>
+          <ul>
+            <li><strong>Mojtaba Khamenei's consolidation</strong> — Whether the new Supreme Leader can maintain IRGC cohesion and command authority during active combat</li>
+            <li><strong>Hormuz mine-clearing operations</strong> — US Navy has begun limited minesweeping; timeline to partial reopening is key market variable</li>
+            <li><strong>Hezbollah escalation ceiling</strong> — Whether Hezbollah commits deeper forces or maintains current rocket-and-raid tempo</li>
+            <li><strong>Congressional war powers debate</strong> — Multiple bills introduced to invoke War Powers Act; floor votes expected this week</li>
+            <li><strong>Gas price trajectory</strong> — Analysts project $4+/gallon within 2 weeks if Hormuz remains closed; political pressure will intensify</li>
+          </ul>
+        </div>
+
+        <div style="border-top: 1px solid var(--border); padding-top: var(--space-lg); margin-top: var(--space-xl);">
+          <p style="font-size: var(--text-xs); color: var(--text-dim); font-family: 'JetBrains Mono', monospace;">
+            Sources: ACLED, CENTCOM, DoD press briefings, ICE/NYMEX, AAA, UNHCR, OCHA, Reuters, AP, Iranian state media (IRNA/PressTV). This briefing is AI-generated analysis of publicly available data. It does not represent the views of any government or intelligence agency.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- PANEL 5: THE RECORD                                     -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section id="panel-record" class="panel" role="tabpanel" aria-label="Event Timeline">
+      <div class="timeline-container">
+
+        <h2 style="margin-bottom: var(--space-lg);">The Record</h2>
+        <p style="color: var(--text-secondary); margin-bottom: var(--space-xl); font-size: var(--text-sm);">
+          Every significant event since February 28, 2026. The historical record of Operation Epic Fury.
+        </p>
+
+        <!-- Filters -->
+        <div class="timeline-filters" id="timeline-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="military">Military</button>
+          <button class="filter-btn" data-filter="financial">Financial</button>
+          <button class="filter-btn" data-filter="humanitarian">Humanitarian</button>
+          <button class="filter-btn" data-filter="diplomatic">Diplomatic</button>
+          <button class="filter-btn" data-filter="domestic">Domestic</button>
+        </div>
+
+        <!-- Timeline Events -->
+        <div id="timeline-events">
+          <!-- Populated by JS from timeline-events.json -->
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p class="eisenhower">
+      "Every gun that is made, every warship launched, every rocket fired signifies,
+      in the final sense, a theft from those who hunger and are not fed,
+      those who are cold and are not clothed."
+      <br>— Dwight D. Eisenhower, 1953
+    </p>
+    <p class="attribution">
+      THE WAR THEATER — Public Intelligence Dashboard
+      <br>Data: ACLED, FRED, UNHCR, OCHA, DoD, CENTCOM, Reuters, AP
+      <br>Built as a public utility. Open source.
+    </p>
+  </footer>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!-- Application JS -->
+  <script src="js/utils.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/arcs.js"></script>
+  <script src="js/financial.js"></script>
+  <script src="js/humanitarian.js"></script>
+  <script src="js/briefing.js"></script>
+  <script src="js/timeline.js"></script>
+  <script src="js/calculator.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

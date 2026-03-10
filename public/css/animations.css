@@ -1,0 +1,157 @@
+/* ═══════════════════════════════════════════════════════════════
+   THE WAR THEATER — Animations
+   ═══════════════════════════════════════════════════════════════ */
+
+/* === LIVE INDICATOR PULSE === */
+@keyframes livePulse {
+  0%, 100% { opacity: 1; box-shadow: 0 0 4px #22c55e; }
+  50% { opacity: 0.4; box-shadow: 0 0 8px #22c55e; }
+}
+
+/* === STRIKE PULSE === */
+@keyframes strikePulse {
+  0% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.5); opacity: 0.3; }
+  100% { transform: scale(2); opacity: 0; }
+}
+
+/* === HORMUZ GLOW === */
+@keyframes hormuzGlow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+/* === COUNTER COUNT-UP === */
+@keyframes countUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* === SHIMMER (loading skeleton) === */
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* === PANEL ENTER === */
+@keyframes panelEnter {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.panel.active {
+  animation: panelEnter 0.3s ease-out;
+}
+
+/* === FADE IN === */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* === MARKER PING === */
+@keyframes markerPing {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  70% {
+    transform: scale(3);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+/* === ARC DASH === */
+@keyframes arcDash {
+  to { stroke-dashoffset: 0; }
+}
+
+/* === GLOW BREATHE === */
+@keyframes glowBreathe {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(212, 120, 42, 0.1),
+                inset 0 0 5px rgba(212, 120, 42, 0.05);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(212, 120, 42, 0.2),
+                inset 0 0 10px rgba(212, 120, 42, 0.1);
+  }
+}
+
+/* === METRIC UPDATE FLASH === */
+@keyframes metricFlash {
+  0% { background-color: rgba(212, 120, 42, 0.15); }
+  100% { background-color: transparent; }
+}
+
+.metric-updated {
+  animation: metricFlash 1s ease-out;
+}
+
+/* === PULSING MARKER (Leaflet custom) === */
+.pulse-marker {
+  position: relative;
+}
+
+.pulse-marker::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation: markerPing 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.pulse-marker.us-strike::after {
+  background: var(--strike-us-glow);
+}
+
+.pulse-marker.iran-strike::after {
+  background: var(--strike-iran-glow);
+}
+
+.pulse-marker.civilian::after {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.pulse-marker.hezbollah::after {
+  background: var(--hezbollah-glow);
+}
+
+/* === CARRIER CONSTELLATION === */
+@keyframes carrierFloat {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(1px, -1px); }
+  50% { transform: translate(-1px, 1px); }
+  75% { transform: translate(1px, 1px); }
+}
+
+.carrier-icon {
+  animation: carrierFloat 8s ease-in-out infinite;
+}
+
+/* === NUMBER TICK === */
+.tick-up {
+  animation: tickUp 0.3s ease-out;
+}
+
+@keyframes tickUp {
+  0% { transform: translateY(100%); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+/* === REDUCED MOTION === */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

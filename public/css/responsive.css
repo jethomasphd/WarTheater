@@ -1,0 +1,206 @@
+/* ═══════════════════════════════════════════════════════════════
+   THE WAR THEATER — Responsive Breakpoints
+   ═══════════════════════════════════════════════════════════════ */
+
+/* === TABLET (768 - 1024px) === */
+@media (max-width: 1024px) {
+  :root {
+    --text-hero: 2.5rem;
+    --text-3xl: 2rem;
+  }
+
+  .map-container {
+    height: 60vh;
+  }
+
+  .metrics-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .financial-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .layer-controls {
+    max-width: 180px;
+    font-size: var(--text-xs);
+  }
+
+  .briefing-container {
+    padding: var(--space-lg);
+  }
+
+  .timeline-container {
+    padding: var(--space-lg);
+  }
+}
+
+/* === MOBILE (<768px) === */
+@media (max-width: 768px) {
+  :root {
+    --text-hero: 2rem;
+    --text-3xl: 1.75rem;
+    --text-2xl: 1.5rem;
+  }
+
+  .classification-banner {
+    font-size: 9px;
+    letter-spacing: 0.08em;
+  }
+
+  .site-header {
+    padding: 0 var(--space-md);
+    height: 48px;
+  }
+
+  .site-title {
+    font-size: var(--text-lg);
+    letter-spacing: 0.08em;
+  }
+
+  .panel-nav {
+    top: 76px;
+    padding: 0 var(--space-sm);
+  }
+
+  .panel-nav button {
+    font-size: 11px;
+    padding: var(--space-xs) var(--space-sm);
+  }
+
+  .main-content {
+    margin-top: 112px;
+  }
+
+  .map-container {
+    height: calc(100vh - 112px);
+  }
+
+  .metrics-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-metric .value {
+    font-size: var(--text-2xl);
+  }
+
+  .hero-metric .label {
+    font-size: 10px;
+  }
+
+  .layer-controls {
+    top: auto;
+    bottom: 80px;
+    right: var(--space-sm);
+    max-width: 160px;
+    padding: var(--space-sm);
+    font-size: 10px;
+    max-height: 50vh;
+    overflow-y: auto;
+  }
+
+  .map-legend {
+    bottom: 80px;
+    left: var(--space-sm);
+    padding: var(--space-sm);
+    font-size: 10px;
+  }
+
+  .map-coords {
+    display: none;
+  }
+
+  .timeline-scrubber {
+    padding: var(--space-md) var(--space-sm) var(--space-sm);
+  }
+
+  .timeline-day {
+    min-width: 40px;
+  }
+
+  .timeline-day .event-label {
+    display: none;
+  }
+
+  .chart-container {
+    padding: var(--space-md);
+  }
+
+  .briefing-container {
+    padding: var(--space-md);
+  }
+
+  .timeline-container {
+    padding: var(--space-md);
+  }
+
+  .timeline-event {
+    gap: var(--space-md);
+  }
+
+  .timeline-event .event-date {
+    min-width: 44px;
+    font-size: 10px;
+  }
+
+  .timeline-event::before {
+    left: 52px;
+  }
+
+  .calculator-card {
+    max-width: 100%;
+  }
+
+  /* Panel section padding */
+  .panel-section {
+    padding: var(--space-md);
+  }
+
+  /* Humanitarian panel */
+  .infrastructure-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* === SMALL MOBILE (<480px) === */
+@media (max-width: 480px) {
+  :root {
+    --text-hero: 1.75rem;
+  }
+
+  .metrics-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero-metric {
+    padding: var(--space-md);
+  }
+
+  .timeline-filters {
+    gap: 4px;
+  }
+
+  .filter-btn {
+    font-size: 9px;
+    padding: 2px var(--space-sm);
+  }
+}
+
+/* === LARGE DESKTOP (>1280px) === */
+@media (min-width: 1280px) {
+  .theater-split {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    min-height: calc(100vh - 120px);
+  }
+
+  .theater-split .map-container {
+    height: 100%;
+  }
+
+  .theater-split .side-panel {
+    height: calc(100vh - 120px);
+    overflow-y: auto;
+    border-left: 1px solid var(--border);
+  }
+}

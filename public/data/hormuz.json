@@ -1,0 +1,56 @@
+{
+  "strait": {
+    "name": "Strait of Hormuz",
+    "width_km": 33,
+    "shipping_lane_width_km": 3,
+    "daily_oil_flow_prewar_mbd": 20.5,
+    "daily_oil_flow_current_mbd": 0.3,
+    "percent_global_oil": 20,
+    "percent_global_lng": 25,
+    "closure_date": "2026-03-01",
+    "closure_method": "Iranian naval mines, IRGC Navy fast attack craft, anti-ship missile batteries on islands and coastline",
+    "status": "Effectively closed to commercial traffic"
+  },
+  "geometry": {
+    "chokepoint": [
+      [26.5800, 56.2500],
+      [26.3500, 56.4000],
+      [26.1000, 56.5500],
+      [25.9000, 56.7500],
+      [26.0000, 57.0000],
+      [26.3000, 56.8000],
+      [26.6000, 56.5000],
+      [26.8000, 56.3000],
+      [26.5800, 56.2500]
+    ],
+    "shipping_lanes": [
+      {
+        "direction": "inbound",
+        "path": [[25.9500, 56.9000], [26.2500, 56.5500], [26.5000, 56.3500]]
+      },
+      {
+        "direction": "outbound",
+        "path": [[26.6500, 56.4000], [26.3500, 56.6500], [26.0500, 56.8500]]
+      }
+    ],
+    "islands": [
+      {"name": "Qeshm Island", "lat": 26.8500, "lng": 56.2700, "control": "Iran", "military": true},
+      {"name": "Hormuz Island", "lat": 27.0600, "lng": 56.4600, "control": "Iran", "military": true},
+      {"name": "Larak Island", "lat": 26.8600, "lng": 56.3700, "control": "Iran", "military": true},
+      {"name": "Abu Musa", "lat": 25.8700, "lng": 55.0300, "control": "Iran (disputed)", "military": true},
+      {"name": "Greater Tunb", "lat": 26.2700, "lng": 55.3200, "control": "Iran (disputed)", "military": true}
+    ]
+  },
+  "impact": {
+    "tankers_transiting_prewar_daily": 85,
+    "tankers_transiting_current_daily": 2,
+    "insurance_cost_increase_pct": 800,
+    "alternative_routes": [
+      {"name": "East-West Pipeline (Saudi)", "capacity_mbd": 5.0, "status": "Operating at capacity"},
+      {"name": "IPSA Pipeline (Iraq)", "capacity_mbd": 1.65, "status": "Partially operational"},
+      {"name": "Habshan-Fujairah (UAE)", "capacity_mbd": 1.5, "status": "Operating at capacity"}
+    ],
+    "total_alternative_capacity_mbd": 8.15,
+    "shortfall_mbd": 12.35
+  }
+}

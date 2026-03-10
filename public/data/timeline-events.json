@@ -1,0 +1,182 @@
+[
+  {
+    "date": "2026-02-28",
+    "time": "02:00",
+    "title": "Operation Epic Fury begins",
+    "description": "US and Israeli forces launch coordinated strikes on Iranian nuclear facilities, IRGC command centers, and air defense networks. Supreme Leader Ali Khamenei killed in strike on Leadership House compound in Tehran.",
+    "category": "military",
+    "source": "DoD / White House",
+    "data_point": "3,000+ targets struck in first 72 hours"
+  },
+  {
+    "date": "2026-02-28",
+    "time": "06:30",
+    "title": "Iran retaliates on Gulf states and Israel",
+    "description": "IRGC Aerospace Force launches ballistic missile salvos at US bases in Kuwait, Qatar, UAE, and Bahrain. Simultaneous strikes on Israeli military targets including Nevatim Air Base and Ben Gurion Airport perimeter.",
+    "category": "military",
+    "source": "CENTCOM / IDF",
+    "data_point": "200+ missiles launched in first wave"
+  },
+  {
+    "date": "2026-02-28",
+    "time": "08:00",
+    "title": "6 US service members killed at Ali Al Salem, Kuwait",
+    "description": "Fattah hypersonic missiles penetrate Patriot air defense coverage at Ali Al Salem Air Base. Six US service members killed, ten or more wounded. First US combat deaths of the conflict.",
+    "category": "military",
+    "source": "DoD / CENTCOM",
+    "data_point": "6 KIA, 10+ WIA"
+  },
+  {
+    "date": "2026-02-28",
+    "time": "09:00",
+    "title": "Oil markets surge",
+    "description": "Brent crude spikes 18% in early trading as markets absorb the reality of a major Middle East conflict. Trading halted briefly on circuit breakers. WTI follows with 16% jump.",
+    "category": "financial",
+    "source": "ICE / NYMEX",
+    "data_point": "Brent +18% in first trading session"
+  },
+  {
+    "date": "2026-02-28",
+    "time": "14:00",
+    "title": "President Trump addresses the nation",
+    "description": "Trump announces Operation Epic Fury from the Oval Office. Calls it 'a decisive action to prevent a nuclear Iran.' Pledges 'no ground troops' and 'total air dominance.'",
+    "category": "diplomatic",
+    "source": "White House",
+    "data_point": null
+  },
+  {
+    "date": "2026-03-01",
+    "time": "00:00",
+    "title": "Strait of Hormuz effectively closed",
+    "description": "Iran deploys naval mines and activates anti-ship missile batteries along the Strait of Hormuz. IRGC Navy fast attack craft patrol the waterway. Commercial shipping diverts. Lloyd's of London suspends Gulf transit insurance.",
+    "category": "financial",
+    "source": "US Navy / Lloyd's / shipping industry",
+    "data_point": "20% of global oil supply route closed"
+  },
+  {
+    "date": "2026-03-01",
+    "time": "10:00",
+    "title": "UN Security Council emergency session",
+    "description": "Emergency UNSC meeting called. Russia and China condemn US strikes. US and UK defend action under self-defense and non-proliferation mandates. No resolution passed.",
+    "category": "diplomatic",
+    "source": "UN",
+    "data_point": null
+  },
+  {
+    "date": "2026-03-02",
+    "time": "04:00",
+    "title": "Hezbollah enters the war",
+    "description": "Hezbollah launches massive rocket and missile barrage on northern Israel. Radwan Force units attempt cross-border incursion at Metula. IDF responds with airstrikes across Lebanon.",
+    "category": "military",
+    "source": "IDF / Lebanese media",
+    "data_point": "500+ rockets launched at Israel in first 12 hours"
+  },
+  {
+    "date": "2026-03-02",
+    "time": "12:00",
+    "title": "Gas prices begin climbing across US",
+    "description": "National average gas price rises to $3.25/gallon, up from $3.05 pre-war. Analysts project $4+ within weeks if Hormuz remains closed.",
+    "category": "financial",
+    "source": "AAA / GasBuddy",
+    "data_point": "Gas +$0.20/gal in 48 hours"
+  },
+  {
+    "date": "2026-03-03",
+    "time": "06:00",
+    "title": "Houthi attacks on Saudi oil infrastructure",
+    "description": "Yemen's Houthi forces launch drones and cruise missiles at Ras Tanura oil loading terminal in Saudi Arabia. Partial damage to loading platforms. Saudi Aramco reduces exports.",
+    "category": "military",
+    "source": "Saudi MoD / Aramco",
+    "data_point": "World's largest oil terminal struck"
+  },
+  {
+    "date": "2026-03-04",
+    "time": "11:00",
+    "title": "Minab girls' school struck — 23 children killed",
+    "description": "Strike on IRGC ammunition depot near Minab causes secondary explosion that destroys adjacent girls' school. 23 children killed, 40+ wounded. Pentagon states school was not the target. Iranian state media broadcasts footage worldwide.",
+    "category": "humanitarian",
+    "source": "Iranian Red Crescent / AP / DoD",
+    "data_point": "23 children killed"
+  },
+  {
+    "date": "2026-03-04",
+    "time": "16:00",
+    "title": "Global protests erupt",
+    "description": "Mass anti-war protests in London, Paris, Berlin, Istanbul, Baghdad, and dozens of US cities. Estimated 2 million people march globally.",
+    "category": "domestic",
+    "source": "AP / Reuters",
+    "data_point": "2M+ global protesters"
+  },
+  {
+    "date": "2026-03-05",
+    "time": "09:00",
+    "title": "S&P 500 enters correction territory",
+    "description": "US stock markets fall sharply as conflict escalation fears mount. S&P 500 down 8.3% from pre-war levels. Defense stocks surge; airlines collapse.",
+    "category": "financial",
+    "source": "NYSE / Bloomberg",
+    "data_point": "S&P 500 -8.3%"
+  },
+  {
+    "date": "2026-03-05",
+    "time": "14:00",
+    "title": "14,000+ flights cancelled across Middle East and Europe",
+    "description": "Airspace closures over Iran, Iraq, and parts of the Persian Gulf force massive flight cancellations. European carriers reroute around conflict zone, adding hours and fuel costs.",
+    "category": "financial",
+    "source": "IATA / Flightradar24",
+    "data_point": "14,000+ flights cancelled"
+  },
+  {
+    "date": "2026-03-06",
+    "time": "08:00",
+    "title": "450,000 displaced in Lebanon",
+    "description": "UNHCR reports 450,000 people displaced in Lebanon as Israeli strikes intensify against Hezbollah positions. Refugee flows toward Syria and northern Lebanon overwhelm capacity.",
+    "category": "humanitarian",
+    "source": "UNHCR / OCHA",
+    "data_point": "450,000 displaced"
+  },
+  {
+    "date": "2026-03-07",
+    "time": "03:00",
+    "title": "US strikes Iranian oil infrastructure",
+    "description": "In major escalation, US strikes Kharg Island oil terminal (90% of Iran's exports), Abadan refinery, and oil storage facilities. Stated objective: degrade Iran's ability to fund ongoing retaliation.",
+    "category": "military",
+    "source": "DoD / satellite imagery",
+    "data_point": "90% of Iran's oil export capacity targeted"
+  },
+  {
+    "date": "2026-03-07",
+    "time": "10:00",
+    "title": "Brent crude breaks $100/barrel",
+    "description": "Oil strikes push Brent past the $100 psychological barrier for the first time since 2022. WTI at $97. Analysts warn of $120+ if conflict extends beyond 30 days.",
+    "category": "financial",
+    "source": "ICE / Bloomberg",
+    "data_point": "Brent $101.50 — first time above $100 since 2022"
+  },
+  {
+    "date": "2026-03-08",
+    "time": "12:00",
+    "title": "Strategic Petroleum Reserve release authorized",
+    "description": "President Trump authorizes release of 30 million barrels from the Strategic Petroleum Reserve over 60 days. Critics note this replaces less than 3 days of Hormuz flow.",
+    "category": "financial",
+    "source": "White House / DoE",
+    "data_point": "30M barrels authorized"
+  },
+  {
+    "date": "2026-03-09",
+    "time": "15:00",
+    "title": "Mojtaba Khamenei named Supreme Leader",
+    "description": "Iran's Assembly of Experts names Mojtaba Khamenei, son of the killed Supreme Leader, as the new Supreme Leader. Mojtaba vows 'resistance until victory' and rejects any ceasefire.",
+    "category": "diplomatic",
+    "source": "Iranian state media / IRNA",
+    "data_point": null
+  },
+  {
+    "date": "2026-03-10",
+    "time": "08:00",
+    "title": "Day 11 — War continues with no ceasefire in sight",
+    "description": "Strikes continue across Iran. Hezbollah front intensifies. Oil at $101.50. Gas national average at $3.48 and climbing. Estimated US operational cost: $500M/day.",
+    "category": "military",
+    "source": "Multiple",
+    "data_point": "Estimated total cost: $5B+"
+  }
+]

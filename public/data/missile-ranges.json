@@ -1,0 +1,54 @@
+{
+  "origin": {
+    "lat": 35.6892,
+    "lng": 51.3890,
+    "label": "Tehran"
+  },
+  "systems": [
+    {
+      "id": "shahab-3",
+      "name": "Shahab-3",
+      "range_km": 2000,
+      "type": "MRBM",
+      "status": "Deployed",
+      "color": "#b81c1c",
+      "notes": "Liquid-fueled MRBM. Can reach all of Israel, most of Saudi Arabia, all Gulf states."
+    },
+    {
+      "id": "fattah",
+      "name": "Fattah",
+      "range_km": 1400,
+      "type": "Hypersonic glide vehicle",
+      "status": "Deployed — used in retaliation",
+      "color": "#ff3333",
+      "notes": "Iran's claimed hypersonic missile. Mach 13-15 terminal velocity. Used against Ali Al Salem, Kuwait. Penetrated Patriot defenses."
+    },
+    {
+      "id": "kheibar-shekan",
+      "name": "Kheibar Shekan",
+      "range_km": 1450,
+      "type": "Solid-fueled MRBM",
+      "status": "Deployed",
+      "color": "#d4782a",
+      "notes": "Solid-fueled for rapid launch. Maneuverable reentry vehicle. Used against Haifa."
+    },
+    {
+      "id": "emad",
+      "name": "Emad",
+      "range_km": 1700,
+      "type": "MRBM",
+      "status": "Deployed",
+      "color": "#8b4513",
+      "notes": "Guided reentry vehicle variant of Shahab-3. Improved accuracy."
+    },
+    {
+      "id": "sejjil",
+      "name": "Sejjil",
+      "range_km": 2500,
+      "type": "MRBM/IRBM",
+      "status": "Limited deployment",
+      "color": "#660000",
+      "notes": "Longest-range confirmed Iranian missile. Solid-fueled, two-stage. Can reach southeastern Europe."
+    }
+  ]
+}

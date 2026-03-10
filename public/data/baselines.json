@@ -1,0 +1,51 @@
+{
+  "date": "2026-02-27",
+  "label": "Pre-war baseline (last full trading day before Operation Epic Fury)",
+  "oil": {
+    "brent": 72.38,
+    "wti": 70.82,
+    "source": "ICE / NYMEX closing prices"
+  },
+  "gas": {
+    "national_avg": 3.05,
+    "source": "AAA national average",
+    "unit": "USD/gallon"
+  },
+  "markets": {
+    "sp500": 5726,
+    "nasdaq": 18450,
+    "djia": 42800,
+    "source": "NYSE / NASDAQ closing prices"
+  },
+  "defense_stocks": {
+    "RTX": 128.50,
+    "LMT": 485.20,
+    "NOC": 520.80,
+    "GD": 298.40,
+    "BA": 178.90,
+    "source": "NYSE closing prices"
+  },
+  "oil_stocks": {
+    "XOM": 108.30,
+    "CVX": 152.60,
+    "COP": 112.40,
+    "source": "NYSE closing prices"
+  },
+  "airline_stocks": {
+    "DAL": 62.50,
+    "UAL": 98.20,
+    "AAL": 17.80,
+    "source": "NYSE/NASDAQ closing prices"
+  },
+  "hormuz": {
+    "daily_tanker_transits": 85,
+    "daily_oil_flow_mbd": 20.5,
+    "source": "US EIA / shipping data"
+  },
+  "humanitarian": {
+    "us_kia": 0,
+    "us_wounded": 0,
+    "total_strikes": 0,
+    "displaced": 0
+  }
+}
