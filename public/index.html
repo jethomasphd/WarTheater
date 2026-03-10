@@ -30,17 +30,22 @@
 
   <!-- CINEMATIC INTRO -->
   <div class="cinematic-intro" id="cinematic-intro">
+    <div class="intro-vignette"></div>
     <div class="intro-inner">
-      <div class="intro-fade" style="animation-delay:0.5s;">
-        <p class="intro-quote">"Every gun that is made, every warship launched, every rocket fired signifies, in the final sense, a theft from those who hunger and are not fed, those who are cold and are not clothed."</p>
-        <p class="intro-attribution">— Dwight D. Eisenhower, 1953</p>
+      <div class="intro-fade" style="animation-delay:1s;">
+        <p class="intro-epigraph">This is not news. This is not commentary.</p>
       </div>
-      <div class="intro-fade" style="animation-delay:3.5s;">
+      <div class="intro-fade" style="animation-delay:3s;">
+        <p class="intro-epigraph">This is data.</p>
+      </div>
+      <div class="intro-fade" style="animation-delay:5.5s;">
         <div class="intro-title">THE <span style="color:var(--text-accent);">WAR</span> THEATER</div>
-        <div class="intro-subtitle">Public Intelligence Dashboard</div>
       </div>
-      <div class="intro-fade intro-enter-wrap" style="animation-delay:5.5s;">
-        <button class="intro-enter" id="intro-enter">ENTER</button>
+      <div class="intro-fade" style="animation-delay:7s;">
+        <div class="intro-subtitle">A Public Intelligence Dashboard</div>
+      </div>
+      <div class="intro-fade intro-enter-wrap" style="animation-delay:8.5s;">
+        <button class="intro-enter" id="intro-enter">ENTER THE THEATER</button>
       </div>
     </div>
   </div>
@@ -462,12 +467,19 @@
     <section id="panel-about" class="panel" role="tabpanel" aria-label="About This Project">
       <div class="about-container">
 
-        <h2 style="margin-bottom: var(--space-2xl); text-align: center;">Why This Exists</h2>
+        <div class="about-header">
+          <h2>Why This Exists</h2>
+          <div class="about-rule"></div>
+        </div>
 
-        <div class="about-section">
+        <div class="about-section about-lede">
           <p>You are looking at a war.</p>
-          <p>Not through the lens of a cable news chyron designed to hold your attention between car commercials. Not through the sanitized language of a Pentagon briefing where "kinetic engagement" means a family no longer exists. Not through the algorithmic feed that buries the death toll beneath celebrity gossip and outrage bait.</p>
-          <p>You are looking at it through data. Raw, sourced, unfiltered. Every number on this dashboard represents something real — a dollar extracted from your paycheck, a barrel of oil that won't reach a port, a building that used to be a school, a person who used to be alive.</p>
+          <p>Not through the lens of a cable news chyron. Not through the sanitized language of a Pentagon briefing where "kinetic engagement" means a family no longer exists. Not through the algorithmic feed that buries the death toll beneath outrage bait.</p>
+          <p>You are looking at it through data. Raw, sourced, unfiltered.</p>
+        </div>
+
+        <div class="about-pullquote">
+          <p>Every number on this dashboard represents something real — a dollar extracted from your paycheck, a barrel of oil that won't reach a port, a building that used to be a school, a person who used to be alive.</p>
         </div>
 
         <div class="about-section">
@@ -477,36 +489,39 @@
         </div>
 
         <div class="about-section">
-          <h3>The Theater</h3>
-          <p>This dashboard is the opposite of the flood. It takes the chaos of a war — the airstrikes, the market swings, the refugee columns, the diplomatic posturing, the human suffering — and makes it legible. Not simple. Legible. Because the truth of war is complex, and you deserve to see it in its complexity rather than have it pre-digested for you by people who profit from your confusion.</p>
-          <p>Every data point is sourced. Every number has context. Every chart tells a story that someone, somewhere, would prefer you didn't hear.</p>
+          <h3>The Space Between</h3>
+          <p>There is a space between the data and understanding. Between knowing the number 23 and knowing that each digit was a child who had a favorite color and a best friend and a laugh that their parents will never hear again. Most information systems are designed to keep you on one side of that space — the side where numbers stay abstract, where "surgical strike" sounds clean, where "degraded capability" doesn't sound like screaming.</p>
+          <p>This dashboard is designed to pull you across. Not by manipulating you. By attending. By placing every data point in context, connected to every other data point, until the picture becomes too coherent to dismiss and too human to ignore.</p>
+          <p>The quality of understanding is not bounded by data volume. It is bounded by attention. And attention — truly attending to what the numbers mean for real lives — is the rarest resource in the information age.</p>
         </div>
 
         <div class="about-section">
-          <h3>The Cost of Silence</h3>
-          <p>Twenty-three children died in Minab on March 4th. The Pentagon called it collateral damage. The school was not the target, they said. As if that distinction matters to a mother pulling her daughter from the rubble.</p>
-          <p>We put that number on this dashboard not because it is the most strategically significant data point, but because it is the most important one. Because if you can look at the number 23 and understand that each digit was a child who had a favorite color and a best friend and a laugh that their parents will never hear again — then this dashboard has done its job.</p>
-          <p>War thrives in abstraction. "Surgical strike." "Neutralized." "Degraded capability." Every euphemism is a small act of violence against the truth. We refuse the euphemism here. We count the dead by name when we can, by number when we must, and we never, ever call them collateral.</p>
+          <h3>The Theater</h3>
+          <p>This dashboard takes the chaos of a war — the airstrikes, the market swings, the refugee columns, the diplomatic posturing — and makes it legible. Not simple. Legible. Because the truth of war is complex, and you deserve to see it in its complexity rather than have it pre-digested by people who profit from your confusion.</p>
+          <p>Every data point is sourced. Every chart tells a story that someone, somewhere, would prefer you didn't hear.</p>
+        </div>
+
+        <div class="about-pullquote">
+          <p>War thrives in abstraction. "Surgical strike." "Neutralized." "Degraded capability." Every euphemism is a small act of violence against the truth.</p>
         </div>
 
         <div class="about-section">
           <h3>Who Has the Right to Know</h3>
-          <p>Intelligence briefings were once prepared exclusively for presidents and generals — the people who start wars. The public that funds them, fights them, and dies in them was given press conferences and talking points. Curated narratives. Managed perception.</p>
-          <p>This dashboard is built on a simple premise: the people who pay for a war have the right to understand it. Not the version approved for public consumption. The real version. With the dollar amounts and the body counts and the market data and the displacement figures all in one place, connected, contextualized, and impossible to look away from.</p>
-          <p>An informed public is the only check on power that has ever worked. Not institutions. Not norms. Not good intentions. Information. The kind that makes you uncomfortable. The kind that keeps you up at night. The kind that makes you ask questions that nobody in power wants to answer.</p>
+          <p>Intelligence briefings were once prepared exclusively for presidents and generals — the people who start wars. The public that funds them, fights them, and dies in them was given press conferences and talking points.</p>
+          <p>This dashboard exists on a simple premise: the people who pay for a war have the right to understand it. Not the version approved for public consumption. The real version. With the dollar amounts and the body counts and the market data and the displacement figures all in one place, connected, contextualized, and impossible to look away from.</p>
         </div>
 
         <div class="about-section">
           <h3>A Note on Violence</h3>
-          <p>This project is fundamentally antiwar. Not strategically, not politically — morally. We believe that the act of killing human beings in organized fashion, no matter how justified the stated objective, is a failure of civilization that demands relentless scrutiny rather than patriotic celebration.</p>
-          <p>We do not take sides between combatants. We take the side of the people caught between them — the families in Minab, the displaced in Lebanon, the service members at Ali Al Salem, the gas station worker in Ohio who doesn't know why her commute suddenly costs $30 more a month. Every one of them is paying for decisions made by people who will never feel the consequences.</p>
+          <p>This project is fundamentally antiwar. Not strategically, not politically — morally. The act of killing human beings in organized fashion, no matter how justified the stated objective, is a failure of civilization that demands relentless scrutiny rather than patriotic celebration.</p>
+          <p>We do not take sides between combatants. We take the side of the people caught between them — the families in Minab, the displaced in Lebanon, the service members at Ali Al Salem, the gas station worker in Ohio who doesn't know why her commute suddenly costs $30 more a month.</p>
           <p>If this dashboard makes war harder to ignore, harder to abstract, harder to celebrate — then it is doing exactly what it was built to do.</p>
         </div>
 
-        <div class="about-section" style="border-top: 1px solid var(--border); padding-top: var(--space-xl); margin-top: var(--space-xl);">
-          <p style="font-style: italic; color: var(--text-dim); text-align: center;">
-            Built as a public utility. Open source. No ads. No sponsors. No agenda except clarity.
-          </p>
+        <div class="about-signature">
+          <div class="about-rule"></div>
+          <p class="sig-line">No ads. No sponsors. No agenda except clarity.</p>
+          <p class="sig-contact">JEThomasPhD@gmail.com</p>
         </div>
 
       </div>
@@ -516,17 +531,11 @@
 
   <!-- FOOTER -->
   <footer class="site-footer">
-    <p class="eisenhower">
-      "Every gun that is made, every warship launched, every rocket fired signifies,
-      in the final sense, a theft from those who hunger and are not fed,
-      those who are cold and are not clothed."
-      <br>— Dwight D. Eisenhower, 1953
-    </p>
     <p class="attribution">
       THE WAR THEATER — Public Intelligence Dashboard
       <br>Data: ACLED, FRED, UNHCR, OCHA, DoD, CENTCOM, Reuters, AP
-      <br>Built as a public utility. Because an informed public is the only check on power.
     </p>
+    <p class="footer-contact">JEThomasPhD@gmail.com</p>
   </footer>
 
   <!-- Leaflet JS -->

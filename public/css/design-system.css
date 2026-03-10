@@ -532,6 +532,18 @@ h4 { font-size: var(--text-lg); }
   z-index: 1;
 }
 
+.intro-vignette {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 30%,
+    rgba(0,0,0,0.7) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
 .intro-inner {
   position: relative;
   z-index: 2;
@@ -541,74 +553,74 @@ h4 { font-size: var(--text-lg); }
 
 .intro-fade {
   opacity: 0;
-  transform: translateY(6px);
-  animation: introReveal 2s ease-out forwards;
+  transform: translateY(8px);
+  animation: introReveal 2.5s ease-out forwards;
 }
 
-.intro-quote {
-  font-family: 'IBM Plex Sans', serif;
-  font-size: var(--text-sm);
-  font-style: italic;
+.intro-epigraph {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: var(--text-lg);
+  font-weight: 300;
   color: var(--text-secondary);
-  line-height: 1.9;
-  margin-bottom: var(--space-sm);
-}
-
-.intro-attribution {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: var(--text-xs);
-  color: var(--text-dim);
-  margin-bottom: var(--space-2xl);
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+  margin-bottom: var(--space-lg);
 }
 
 .intro-title {
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: var(--text-hero);
+  font-size: 4.5rem;
   font-weight: 700;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--text-primary);
-  margin-bottom: var(--space-xs);
+  margin-bottom: var(--space-sm);
+  text-shadow: 0 0 60px rgba(212, 120, 42, 0.15);
 }
 
 .intro-subtitle {
   font-family: 'JetBrains Mono', monospace;
   font-size: var(--text-xs);
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.3em;
   color: var(--text-dim);
   margin-bottom: var(--space-2xl);
+}
+
+.intro-enter-wrap {
+  margin-top: var(--space-xl);
 }
 
 .intro-enter {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: var(--text-sm);
   text-transform: uppercase;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.2em;
   color: var(--text-accent);
-  border: 1px solid var(--text-accent);
-  padding: var(--space-sm) var(--space-xl);
+  border: 1px solid rgba(212, 120, 42, 0.4);
+  padding: var(--space-md) var(--space-2xl);
   background: transparent;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: all 0.4s ease;
 }
 
 .intro-enter:hover {
-  background: rgba(212, 120, 42, 0.1);
+  background: rgba(212, 120, 42, 0.08);
+  border-color: var(--text-accent);
+  box-shadow: 0 0 30px rgba(212, 120, 42, 0.1);
 }
 
 @keyframes introReveal {
-  from { opacity: 0; transform: translateY(6px); }
-  to { opacity: 1; transform: translateY(0); }
+  0% { opacity: 0; transform: translateY(8px); }
+  100% { opacity: 1; transform: translateY(0); }
 }
 
 .cinematic-intro.fade-out {
-  animation: introFadeOut 1s ease-in forwards;
+  animation: introFadeOut 1.2s ease-in forwards;
 }
 
 @keyframes introFadeOut {
   to { opacity: 0; }
-}
 
 /* === METRIC GRID === */
 .metrics-grid {
@@ -924,20 +936,52 @@ h4 { font-size: var(--text-lg); }
 
 /* === ABOUT PANEL === */
 .about-container {
-  max-width: 720px;
+  max-width: 680px;
   margin: 0 auto;
-  padding: var(--space-xl) var(--space-xl) var(--space-2xl);
+  padding: var(--space-2xl) var(--space-xl) 80px;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.about-header h2 {
+  font-size: var(--text-2xl);
+  letter-spacing: 0.12em;
+  margin-bottom: var(--space-md);
+}
+
+.about-rule {
+  width: 60px;
+  height: 1px;
+  background: var(--text-accent);
+  margin: 0 auto;
+  opacity: 0.6;
+}
+
+.about-lede p:first-child {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: var(--text-xl);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--text-primary);
+  margin-bottom: var(--space-lg);
 }
 
 .about-section {
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-2xl);
 }
 
 .about-section h3 {
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: var(--text-base);
+  font-weight: 600;
   color: var(--text-accent);
-  margin-bottom: var(--space-md);
-  padding-bottom: var(--space-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-sm);
   border-bottom: 1px solid var(--border);
 }
 
@@ -945,8 +989,49 @@ h4 { font-size: var(--text-lg); }
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: var(--text-base);
   color: var(--text-primary);
-  line-height: 1.85;
+  line-height: 1.9;
   margin-bottom: var(--space-md);
+}
+
+.about-pullquote {
+  margin: var(--space-2xl) 0;
+  padding: var(--space-xl) var(--space-xl) var(--space-xl) var(--space-2xl);
+  border-left: 2px solid var(--text-accent);
+  position: relative;
+}
+
+.about-pullquote p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: var(--text-lg);
+  font-weight: 300;
+  color: var(--text-primary);
+  line-height: 1.8;
+  font-style: italic;
+  margin: 0;
+}
+
+.about-signature {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.about-signature .about-rule {
+  margin-bottom: var(--space-xl);
+}
+
+.about-signature .sig-line {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: var(--text-sm);
+  color: var(--text-dim);
+  font-style: italic;
+  margin-bottom: var(--space-md);
+}
+
+.about-signature .sig-contact {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: var(--text-xs);
+  color: var(--text-secondary);
+  letter-spacing: 0.05em;
 }
 
 /* === LOADING STATE === */
@@ -1034,15 +1119,17 @@ body.theater-active .site-footer {
   display: none;
 }
 
-.site-footer .eisenhower {
-  font-style: italic;
-  color: var(--text-secondary);
-  max-width: 600px;
-  margin: 0 auto var(--space-md);
-  line-height: 1.6;
-}
-
 .site-footer .attribution {
   font-family: 'JetBrains Mono', monospace;
   letter-spacing: 0.05em;
+  line-height: 1.8;
+  margin-bottom: var(--space-sm);
+}
+
+.site-footer .footer-contact {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: var(--text-xs);
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  margin-top: var(--space-sm);
 }
