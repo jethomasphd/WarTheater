@@ -146,35 +146,35 @@
 
         <!-- Hero Metrics -->
         <div class="metrics-grid" id="financial-metrics" aria-label="Key financial indicators">
-          <div class="hero-metric">
+          <div class="hero-metric" title="Brent Crude: The international benchmark. Pre-war close: $72.38/bbl (Feb 27). Source: ICE Futures Europe.">
             <div class="value font-data" id="brent-price" style="color: var(--financial-up);">$101.50</div>
-            <div class="label">Brent Crude</div>
+            <div class="label">Brent Crude $/bbl</div>
             <div class="change up font-data" id="brent-change">+40.2% since Feb 27</div>
           </div>
-          <div class="hero-metric">
+          <div class="hero-metric" title="West Texas Intermediate: The US benchmark. Pre-war close: $70.82/bbl (Feb 27). Source: NYMEX.">
             <div class="value font-data" id="wti-price" style="color: var(--financial-up);">$98.20</div>
-            <div class="label">WTI Crude</div>
+            <div class="label">WTI Crude $/bbl</div>
             <div class="change up font-data" id="wti-change">+38.7% since Feb 27</div>
           </div>
-          <div class="hero-metric">
+          <div class="hero-metric" title="National average retail gasoline price. Pre-war: $3.05/gal (Feb 27). Driven by oil spike + Hormuz closure. Source: AAA.">
             <div class="value font-data" id="gas-price" style="color: var(--financial-up);">$3.48</div>
             <div class="label">US Gas Avg/Gal</div>
-            <div class="change up font-data" id="gas-change">+14.1% since Feb 27</div>
+            <div class="change up font-data" id="gas-change">+$0.43 / +14.1% since Feb 27</div>
           </div>
-          <div class="hero-metric">
+          <div class="hero-metric" title="S&P 500 index. Pre-war close: 5,726 (Feb 27). Now in correction territory. Defense stocks up; airlines down. Source: NYSE.">
             <div class="value font-data" id="sp500-value" style="color: var(--financial-down);">5,251</div>
             <div class="label">S&P 500</div>
-            <div class="change down font-data" id="sp500-change">−8.3% since Feb 27</div>
+            <div class="change down font-data" id="sp500-change">-475 pts / -8.3% since Feb 27</div>
           </div>
-          <div class="hero-metric">
+          <div class="hero-metric" title="Estimated daily operational cost based on 3 carrier strike groups, 1,000+ daily sorties, Tomahawk launches, and support operations. Source: DoD budget analysis / CBO estimates.">
             <div class="value font-data" id="daily-cost" style="color: var(--text-accent);">$500M</div>
             <div class="label">Est. Daily US Cost</div>
             <div class="change font-data" style="color: var(--text-dim);" id="daily-cost-note">DoD operational estimate</div>
           </div>
-          <div class="hero-metric">
-            <div class="value font-data" id="total-cost" style="color: var(--text-accent);">$5.0B</div>
-            <div class="label">Est. Total Cost</div>
-            <div class="change font-data" style="color: var(--text-dim);" id="total-cost-note">11 days of operations</div>
+          <div class="hero-metric" title="Cumulative estimated cost since Feb 28. Comparable to the entire annual FEMA budget. Does not include long-term VA costs or economic impact. Source: DoD / CBO.">
+            <div class="value font-data" id="total-cost" style="color: var(--text-accent);">$5.3B</div>
+            <div class="label">Est. Total Cost (11 Days)</div>
+            <div class="change font-data" style="color: var(--text-dim);" id="total-cost-note">= entire annual FEMA budget</div>
           </div>
         </div>
 
@@ -228,14 +228,7 @@
 
             <label for="calc-state">State</label>
             <select id="calc-state">
-              <option value="avg">National Average</option>
-              <option value="CA">California</option>
-              <option value="TX" selected>Texas</option>
-              <option value="FL">Florida</option>
-              <option value="NY">New York</option>
-              <option value="PA">Pennsylvania</option>
-              <option value="OH">Ohio</option>
-              <option value="IL">Illinois</option>
+              <!-- Populated dynamically by calculator.js -->
             </select>
 
             <div class="calculator-result" id="calc-result">
@@ -256,45 +249,45 @@
 
         <!-- Hero Counters -->
         <div class="metrics-grid" id="humanitarian-metrics" aria-label="Humanitarian indicators">
-          <div class="hero-metric">
+          <div class="hero-metric" title="Total confirmed US/Israeli airstrikes and cruise missile strikes on Iranian territory since Feb 28. Includes Tomahawk, JDAM, GBU-57, and standoff munitions. Source: DoD / ACLED.">
             <div class="value font-data counter" data-target="3000" style="color: var(--strike-us);">0</div>
             <div class="label">Total Strikes</div>
             <div class="change font-data" style="color: var(--text-dim);">US/Israel on Iran — and counting</div>
           </div>
-          <div class="hero-metric">
+          <div class="hero-metric" title="US service members killed in action. All 6 died at Ali Al Salem Air Base, Kuwait on Day 1 when Fattah hypersonic missiles penetrated Patriot air defense coverage. Source: DoD / CENTCOM.">
             <div class="value font-data counter" data-target="6" style="color: var(--civilian);">0</div>
             <div class="label">US Service Members KIA</div>
-            <div class="change font-data" style="color: var(--text-dim);">Ali Al Salem, Kuwait</div>
+            <div class="change font-data" style="color: var(--text-dim);">Ali Al Salem, Kuwait — Day 1</div>
           </div>
-          <div class="hero-metric">
+          <div class="hero-metric" title="US service members wounded in action across multiple bases in the Persian Gulf region. Source: DoD / CENTCOM.">
             <div class="value font-data counter" data-target="10" style="color: var(--civilian);">0</div>
             <div class="label">US Service Members WIA</div>
-            <div class="change font-data" style="color: var(--text-dim);">And counting</div>
+            <div class="change font-data" style="color: var(--text-dim);">Multiple bases — Source: CENTCOM</div>
           </div>
-          <div class="hero-metric">
+          <div class="hero-metric" title="Estimated Iranian casualties (military and civilian combined). Exact figures unknown — Iran controls information. Includes IRGC personnel, air force, navy, and civilian casualties. Source: ACLED estimates / Iranian state media / satellite analysis.">
             <div class="value font-data counter" data-target="1200" style="color: var(--strike-iran);">0</div>
-            <div class="label">Iranian Casualties (Reported)</div>
-            <div class="change font-data" style="color: var(--text-dim);">ACLED / Iranian media</div>
+            <div class="label">Iranian Casualties (Est.)</div>
+            <div class="change font-data" style="color: var(--text-dim);">ACLED / Iranian media — likely undercount</div>
           </div>
-          <div class="hero-metric">
+          <div class="hero-metric" title="Lebanese casualties from Israeli strikes on Hezbollah positions across Lebanon. Includes Hezbollah fighters and civilians. Southern Beirut (Dahieh), Tyre, and southern Lebanon most affected. Source: Lebanese Health Ministry.">
             <div class="value font-data counter" data-target="486" style="color: var(--hezbollah);">0</div>
             <div class="label">Lebanese Casualties</div>
             <div class="change font-data" style="color: var(--text-dim);">Lebanese Health Ministry</div>
           </div>
-          <div class="hero-metric">
+          <div class="hero-metric" title="People displaced from their homes in Lebanon due to Israeli strikes on Hezbollah positions. Flows primarily northward toward Tripoli and eastward toward Syria. Humanitarian corridors overwhelmed. Source: UNHCR / OCHA.">
             <div class="value font-data counter" data-target="450000" style="color: var(--humanitarian);">0</div>
             <div class="label">Displaced Persons</div>
-            <div class="change font-data" style="color: var(--text-dim);">Lebanon — UNHCR</div>
+            <div class="change font-data" style="color: var(--text-dim);">Lebanon — UNHCR / OCHA</div>
           </div>
-          <div class="hero-metric">
+          <div class="hero-metric" title="Commercial flights cancelled due to airspace closures over Iran, Iraq, and parts of the Persian Gulf. European and Asian carriers rerouting around conflict zone, adding hours and fuel costs. Source: IATA / Flightradar24.">
             <div class="value font-data counter" data-target="14000" style="color: var(--text-secondary);">0</div>
             <div class="label">Flights Cancelled</div>
             <div class="change font-data" style="color: var(--text-dim);">IATA / Flightradar24</div>
           </div>
-          <div class="hero-metric">
+          <div class="hero-metric" title="Children killed when a US strike on an adjacent IRGC ammunition depot caused a secondary explosion that destroyed a girls' school in Minab, Iran on March 4 (Day 5). 40+ additional children wounded. Pentagon states school was not the target. Under investigation. Source: Iranian Red Crescent / AP / DoD.">
             <div class="value font-data counter" data-target="23" style="color: var(--civilian);">0</div>
             <div class="label">Children Killed — Minab</div>
-            <div class="change font-data" style="color: var(--text-dim);">Girls' school, March 4</div>
+            <div class="change font-data" style="color: var(--text-dim);">Girls' school, March 4 — Day 5</div>
           </div>
         </div>
 

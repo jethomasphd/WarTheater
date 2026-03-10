@@ -1,5 +1,6 @@
 /* ═══════════════════════════════════════════════════════════════
    THE WAR THEATER — Financial Panel (Chart.js)
+   Every chart tells the story of what this war costs.
    ═══════════════════════════════════════════════════════════════ */
 
 WarTheater.Financial = {
@@ -12,13 +13,13 @@ WarTheater.Financial = {
     this.renderDailyCostChart();
   },
 
+  // ─── OIL PRICE TIMELINE ──────────────────────────────────
   renderOilChart() {
     const ctx = document.getElementById('chart-oil');
     if (!ctx) return;
 
-    // Simulated daily oil price data Jan-Mar 2026
     const labels = [
-      'Jan 1', 'Jan 8', 'Jan 15', 'Jan 22', 'Jan 29',
+      'Jan 2', 'Jan 8', 'Jan 15', 'Jan 22', 'Jan 29',
       'Feb 5', 'Feb 12', 'Feb 19', 'Feb 27',
       'Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5',
       'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10'
@@ -46,26 +47,28 @@ WarTheater.Financial = {
         labels,
         datasets: [
           {
-            label: 'Brent Crude',
+            label: 'Brent Crude ($/bbl)',
             data: brent,
             borderColor: '#d4782a',
-            backgroundColor: 'rgba(212, 120, 42, 0.1)',
+            backgroundColor: 'rgba(212, 120, 42, 0.08)',
             borderWidth: 2,
             fill: true,
             tension: 0.3,
-            pointRadius: 0,
-            pointHitRadius: 8
+            pointRadius: labels.map(function(_, i) { return i === 8 || i === labels.length - 1 ? 4 : 0; }),
+            pointBackgroundColor: '#d4782a',
+            pointHitRadius: 10
           },
           {
-            label: 'WTI Crude',
+            label: 'WTI Crude ($/bbl)',
             data: wti,
             borderColor: '#8a8a8a',
-            backgroundColor: 'rgba(138, 138, 138, 0.05)',
+            backgroundColor: 'rgba(138, 138, 138, 0.04)',
             borderWidth: 1.5,
             fill: true,
             tension: 0.3,
-            pointRadius: 0,
-            pointHitRadius: 8
+            pointRadius: labels.map(function(_, i) { return i === 8 || i === labels.length - 1 ? 3 : 0; }),
+            pointBackgroundColor: '#8a8a8a',
+            pointHitRadius: 10
           }
         ]
       },
@@ -73,15 +76,25 @@ WarTheater.Financial = {
         ...defaults,
         plugins: {
           ...defaults.plugins,
-          annotation: {
-            annotations: {
-              warStart: {
-                type: 'line',
-                xMin: 8,
-                xMax: 8,
-                borderColor: 'rgba(212, 120, 42, 0.5)',
-                borderWidth: 1,
-                borderDash: [4, 4]
+          tooltip: {
+            ...defaults.plugins.tooltip,
+            callbacks: {
+              title: function(items) {
+                var idx = items[0].dataIndex;
+                var label = items[0].label;
+                if (idx === 8) return label + ' — PRE-WAR CLOSE';
+                if (idx >= 9) return label + ' — Day ' + (idx - 8) + ' of conflict';
+                return label;
+              },
+              label: function(item) {
+                var val = item.raw;
+                var baseline = item.datasetIndex === 0 ? 72.38 : 70.82;
+                var name = item.datasetIndex === 0 ? 'Brent' : 'WTI';
+                if (item.dataIndex <= 8) {
+                  return name + ': $' + val.toFixed(2) + '/bbl';
+                }
+                var change = ((val - baseline) / baseline * 100).toFixed(1);
+                return name + ': $' + val.toFixed(2) + '/bbl  (+' + change + '% since pre-war)';
               }
             }
           }
@@ -94,7 +107,7 @@ WarTheater.Financial = {
             max: 110,
             ticks: {
               ...defaults.scales.y.ticks,
-              callback: (v) => '$' + v
+              callback: function(v) { return '$' + v; }
             }
           }
         }
@@ -102,17 +115,33 @@ WarTheater.Financial = {
     });
   },
 
+  // ─── MARKET IMPACT ────────────────────────────────────────
   renderMarketsChart() {
-    const ctx = document.getElementById('chart-markets');
+    var ctx = document.getElementById('chart-markets');
     if (!ctx) return;
 
-    const labels = ['Feb 27', 'Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10'];
-    const defaults = WarTheater.Utils.chartDefaults();
+    var labels = ['Feb 27', 'Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10'];
+    var defaults = WarTheater.Utils.chartDefaults();
+
+    var contexts = [
+      'Pre-war close — baseline',
+      'War begins — markets crash on open',
+      'Hormuz closure — oil stocks surge',
+      'Hezbollah enters — second front opens',
+      'Houthi attacks on Saudi oil',
+      'Minab school incident — global protests',
+      'S&P enters correction territory',
+      'Markets stabilize slightly',
+      'US strikes Iranian oil — Brent tops $100',
+      'SPR release announced',
+      'New Supreme Leader — no ceasefire',
+      'Day 11 — no end in sight'
+    ];
 
     this.charts.markets = new Chart(ctx, {
       type: 'line',
       data: {
-        labels,
+        labels: labels,
         datasets: [
           {
             label: 'S&P 500',
@@ -120,36 +149,63 @@ WarTheater.Financial = {
             borderColor: '#ef4444',
             borderWidth: 2,
             tension: 0.3,
-            pointRadius: 0
+            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+            pointBackgroundColor: '#ef4444'
           },
           {
-            label: 'Defense (RTX, LMT avg)',
+            label: 'Defense (RTX + LMT)',
             data: [100, 105.2, 107.8, 109.1, 110.5, 111.2, 112.0, 112.4, 113.1, 113.5, 113.8, 112.4],
             borderColor: '#22c55e',
             borderWidth: 1.5,
             tension: 0.3,
-            pointRadius: 0
+            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+            pointBackgroundColor: '#22c55e'
           },
           {
-            label: 'Oil Majors (XOM, CVX avg)',
+            label: 'Oil Majors (XOM + CVX)',
             data: [100, 108.1, 112.5, 114.2, 116.8, 118.1, 119.5, 121.2, 125.8, 124.9, 125.3, 124.7],
             borderColor: '#d4a020',
             borderWidth: 1.5,
             tension: 0.3,
-            pointRadius: 0
+            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+            pointBackgroundColor: '#d4a020'
           },
           {
-            label: 'Airlines (DAL, UAL avg)',
+            label: 'Airlines (DAL + UAL)',
             data: [100, 91.2, 87.5, 85.1, 83.2, 81.5, 79.8, 78.2, 76.5, 77.1, 77.8, 78.2],
             borderColor: '#7b3fa0',
             borderWidth: 1.5,
             tension: 0.3,
-            pointRadius: 0
+            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+            pointBackgroundColor: '#7b3fa0'
           }
         ]
       },
       options: {
         ...defaults,
+        plugins: {
+          ...defaults.plugins,
+          tooltip: {
+            ...defaults.plugins.tooltip,
+            callbacks: {
+              title: function(items) {
+                var idx = items[0].dataIndex;
+                if (idx === 0) return items[0].label + ' — BASELINE (pre-war close)';
+                return items[0].label + ' — Day ' + idx;
+              },
+              label: function(item) {
+                var val = item.raw;
+                var change = (val - 100).toFixed(1);
+                var sign = val >= 100 ? '+' : '';
+                return item.dataset.label + ': ' + val.toFixed(1) + ' (' + sign + change + '%)';
+              },
+              afterBody: function(items) {
+                var idx = items[0].dataIndex;
+                return contexts[idx] ? ['\n' + contexts[idx]] : [];
+              }
+            }
+          }
+        },
         scales: {
           ...defaults.scales,
           y: {
@@ -158,7 +214,10 @@ WarTheater.Financial = {
             max: 130,
             ticks: {
               ...defaults.scales.y.ticks,
-              callback: (v) => v
+              callback: function(v) {
+                if (v === 100) return '100 (baseline)';
+                return v;
+              }
             }
           }
         }
@@ -166,22 +225,24 @@ WarTheater.Financial = {
     });
   },
 
+  // ─── HORMUZ TANKER CHART ──────────────────────────────────
   renderHormuzChart() {
-    const ctx = document.getElementById('chart-hormuz');
+    var ctx = document.getElementById('chart-hormuz');
     if (!ctx) return;
 
-    const labels = ['Feb 25', 'Feb 26', 'Feb 27', 'Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10'];
-    const defaults = WarTheater.Utils.chartDefaults();
+    var labels = ['Feb 25', 'Feb 26', 'Feb 27', 'Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10'];
+    var data = [85, 84, 85, 42, 5, 3, 2, 2, 2, 3, 2, 2, 3, 2];
+    var defaults = WarTheater.Utils.chartDefaults();
 
     this.charts.hormuz = new Chart(ctx, {
       type: 'bar',
       data: {
-        labels,
+        labels: labels,
         datasets: [{
           label: 'Daily Tanker Transits',
-          data: [85, 84, 85, 42, 5, 3, 2, 2, 2, 3, 2, 2, 3, 2],
-          backgroundColor: labels.map((_, i) => i < 3 ? 'rgba(212, 160, 32, 0.6)' : 'rgba(239, 68, 68, 0.6)'),
-          borderColor: labels.map((_, i) => i < 3 ? '#d4a020' : '#ef4444'),
+          data: data,
+          backgroundColor: data.map(function(v) { return v > 40 ? 'rgba(212, 160, 32, 0.6)' : 'rgba(239, 68, 68, 0.6)'; }),
+          borderColor: data.map(function(v) { return v > 40 ? '#d4a020' : '#ef4444'; }),
           borderWidth: 1
         }]
       },
@@ -189,7 +250,32 @@ WarTheater.Financial = {
         ...defaults,
         plugins: {
           ...defaults.plugins,
-          legend: { display: false }
+          legend: { display: false },
+          tooltip: {
+            ...defaults.plugins.tooltip,
+            callbacks: {
+              title: function(items) {
+                var idx = items[0].dataIndex;
+                if (idx < 3) return items[0].label + ' — Pre-war normal';
+                if (idx === 3) return items[0].label + ' — WAR BEGINS';
+                return items[0].label + ' — Day ' + (idx - 2) + ' of closure';
+              },
+              label: function(item) {
+                var v = item.raw;
+                if (v >= 40) return v + ' tankers/day (normal traffic)';
+                var pctDown = ((85 - v) / 85 * 100).toFixed(0);
+                return v + ' tankers/day (' + pctDown + '% below normal)';
+              },
+              afterLabel: function(item) {
+                var v = item.raw;
+                if (v <= 5) {
+                  var lostBbl = ((85 - v) / 85 * 20.5).toFixed(1);
+                  return 'Approx. ' + lostBbl + 'M barrels/day blocked\nInsurance premiums up 800%';
+                }
+                return '';
+              }
+            }
+          }
         },
         scales: {
           ...defaults.scales,
@@ -199,7 +285,7 @@ WarTheater.Financial = {
             max: 100,
             ticks: {
               ...defaults.scales.y.ticks,
-              callback: (v) => v + ' ships'
+              callback: function(v) { return v + ' ships'; }
             }
           }
         }
@@ -207,23 +293,37 @@ WarTheater.Financial = {
     });
   },
 
+  // ─── DAILY COST CHART ─────────────────────────────────────
   renderDailyCostChart() {
-    const ctx = document.getElementById('chart-daily-cost');
+    var ctx = document.getElementById('chart-daily-cost');
     if (!ctx) return;
 
-    const labels = ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7', 'Day 8', 'Day 9', 'Day 10', 'Day 11'];
-    // Estimated daily cost ramp-up (millions)
-    const costs = [380, 420, 480, 500, 510, 490, 500, 520, 510, 505, 500];
-    const cumulative = [];
-    let sum = 0;
-    costs.forEach(c => { sum += c; cumulative.push(sum); });
+    var labels = ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7', 'Day 8', 'Day 9', 'Day 10', 'Day 11'];
+    var costs = [380, 420, 480, 500, 510, 490, 500, 520, 510, 505, 500];
+    var cumulative = [];
+    var sum = 0;
+    costs.forEach(function(c) { sum += c; cumulative.push(sum); });
 
-    const defaults = WarTheater.Utils.chartDefaults();
+    var dayNotes = [
+      'First strikes — Tomahawks + B-2s + F-35s',
+      'Sustained air campaign — 1,000+ sorties',
+      'Escalation — 3 carrier groups fully engaged',
+      'Full tempo operations',
+      'Minab incident — global scrutiny intensifies',
+      'Continued operations — week 1 ends',
+      'One week mark — $3.3B spent',
+      'Oil infrastructure strikes begin',
+      'Brent crosses $100/barrel',
+      'SPR release — costs continue mounting',
+      'Day 11 — no ceasefire in sight'
+    ];
+
+    var defaults = WarTheater.Utils.chartDefaults();
 
     this.charts.dailyCost = new Chart(ctx, {
       type: 'bar',
       data: {
-        labels,
+        labels: labels,
         datasets: [
           {
             label: 'Daily Cost ($M)',
@@ -234,19 +334,43 @@ WarTheater.Financial = {
             yAxisID: 'y'
           },
           {
-            label: 'Cumulative ($M)',
+            label: 'Cumulative Total ($M)',
             data: cumulative,
             type: 'line',
             borderColor: '#ef4444',
             borderWidth: 2,
             tension: 0.3,
-            pointRadius: 0,
+            pointRadius: labels.map(function(_, i) { return i === labels.length - 1 ? 5 : 0; }),
+            pointBackgroundColor: '#ef4444',
             yAxisID: 'y1'
           }
         ]
       },
       options: {
         ...defaults,
+        plugins: {
+          ...defaults.plugins,
+          tooltip: {
+            ...defaults.plugins.tooltip,
+            callbacks: {
+              title: function(items) {
+                return items[0].label + ' of Operation Epic Fury';
+              },
+              afterBody: function(items) {
+                var idx = items[0].dataIndex;
+                var total = cumulative[idx];
+                var lines = [
+                  'Running total: $' + (total / 1000).toFixed(2) + 'B'
+                ];
+                if (dayNotes[idx]) lines.push(dayNotes[idx]);
+                // Opportunity cost context
+                var homes = Math.round(costs[idx] / 0.2);
+                lines.push('This day alone = ' + WarTheater.Utils.formatNumber(homes) + ' median US homes');
+                return lines;
+              }
+            }
+          }
+        },
         scales: {
           ...defaults.scales,
           y: {
@@ -254,7 +378,7 @@ WarTheater.Financial = {
             position: 'left',
             ticks: {
               ...defaults.scales.y.ticks,
-              callback: (v) => '$' + v + 'M'
+              callback: function(v) { return '$' + v + 'M'; }
             }
           },
           y1: {
@@ -263,7 +387,7 @@ WarTheater.Financial = {
             grid: { drawOnChartArea: false },
             ticks: {
               ...defaults.scales.y.ticks,
-              callback: (v) => '$' + (v / 1000).toFixed(1) + 'B'
+              callback: function(v) { return '$' + (v / 1000).toFixed(1) + 'B'; }
             }
           }
         }
