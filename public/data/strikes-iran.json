@@ -1,0 +1,269 @@
+[
+  {
+    "id": "tehran-leadership",
+    "city": "Tehran",
+    "lat": 35.6892,
+    "lng": 51.3890,
+    "type": "us_strike",
+    "targets": [
+      "Leadership House compound",
+      "IRGC Malek-Ashtar building",
+      "Mehrabad Airport cargo aircraft",
+      "Parliament building",
+      "IRIB state broadcaster HQ"
+    ],
+    "first_strike": "2026-02-28",
+    "casualties_reported": "Unknown — heavy",
+    "casualties_source": "ACLED / Iranian state media",
+    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "notes": "Continuous bombardment since Day 1. Supreme Leader Khamenei killed in initial strike."
+  },
+  {
+    "id": "isfahan-nuclear",
+    "city": "Isfahan",
+    "lat": 32.6546,
+    "lng": 51.6680,
+    "type": "us_strike",
+    "targets": [
+      "Natanz uranium enrichment facility",
+      "Isfahan Nuclear Technology Center",
+      "Uranium Conversion Facility"
+    ],
+    "first_strike": "2026-02-28",
+    "casualties_reported": "Unknown",
+    "casualties_source": "Satellite imagery / IAEA",
+    "active_days": [1, 2, 3],
+    "notes": "Primary nuclear targets struck in first wave. Deep penetrating munitions used."
+  },
+  {
+    "id": "bushehr-nuclear",
+    "city": "Bushehr",
+    "lat": 28.9234,
+    "lng": 50.8203,
+    "type": "us_strike",
+    "targets": [
+      "Bushehr Nuclear Power Plant (perimeter)",
+      "IRGC Navy coastal defense batteries"
+    ],
+    "first_strike": "2026-02-28",
+    "casualties_reported": "Minimal — military targets",
+    "casualties_source": "DoD",
+    "active_days": [1, 2],
+    "notes": "Reactor itself reportedly not directly struck. Surrounding military infrastructure destroyed."
+  },
+  {
+    "id": "bandar-abbas",
+    "city": "Bandar Abbas",
+    "lat": 27.1832,
+    "lng": 56.2666,
+    "type": "us_strike",
+    "targets": [
+      "IRIN naval base",
+      "Anti-ship missile batteries",
+      "Fast attack craft pens",
+      "Qeshm Island forward positions"
+    ],
+    "first_strike": "2026-02-28",
+    "casualties_reported": "Unknown",
+    "casualties_source": "DoD / ACLED",
+    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "notes": "Key Strait of Hormuz control point. Continuous strikes to suppress coastal batteries."
+  },
+  {
+    "id": "shiraz-airbase",
+    "city": "Shiraz",
+    "lat": 29.5918,
+    "lng": 52.5836,
+    "type": "us_strike",
+    "targets": [
+      "Shiraz Air Base (TAB 6)",
+      "F-14 / Su-24 hangars",
+      "Runway complexes"
+    ],
+    "first_strike": "2026-02-28",
+    "casualties_reported": "Unknown",
+    "casualties_source": "DoD",
+    "active_days": [1, 2],
+    "notes": "Iranian Air Force base. Runways cratered in first 90 minutes."
+  },
+  {
+    "id": "tabriz-airbase",
+    "city": "Tabriz",
+    "lat": 38.0800,
+    "lng": 46.2919,
+    "type": "us_strike",
+    "targets": [
+      "Tabriz Air Base (TAB 2)",
+      "MiG-29 / F-5 hangars",
+      "Air defense radar sites"
+    ],
+    "first_strike": "2026-02-28",
+    "casualties_reported": "Unknown",
+    "casualties_source": "DoD",
+    "active_days": [1],
+    "notes": "Northwestern air base near Azerbaijan border."
+  },
+  {
+    "id": "parchin-military",
+    "city": "Parchin",
+    "lat": 35.5200,
+    "lng": 51.7700,
+    "type": "us_strike",
+    "targets": [
+      "Parchin military complex",
+      "Weapons research facilities",
+      "Underground test chambers"
+    ],
+    "first_strike": "2026-02-28",
+    "casualties_reported": "Unknown",
+    "casualties_source": "Satellite imagery",
+    "active_days": [1, 2, 3],
+    "notes": "Long-suspected nuclear weapons research site southeast of Tehran."
+  },
+  {
+    "id": "arak-reactor",
+    "city": "Arak",
+    "lat": 34.0954,
+    "lng": 49.7013,
+    "type": "us_strike",
+    "targets": [
+      "IR-40 heavy water reactor",
+      "Heavy water production plant"
+    ],
+    "first_strike": "2026-02-28",
+    "casualties_reported": "Minimal",
+    "casualties_source": "IAEA",
+    "active_days": [1],
+    "notes": "Plutonium production pathway. Struck to eliminate weapons-grade material route."
+  },
+  {
+    "id": "fordow-enrichment",
+    "city": "Fordow (Qom)",
+    "lat": 34.7089,
+    "lng": 51.0336,
+    "type": "us_strike",
+    "targets": [
+      "Fordow Fuel Enrichment Plant",
+      "Mountain tunnel entrances",
+      "Ventilation shafts"
+    ],
+    "first_strike": "2026-02-28",
+    "casualties_reported": "Unknown",
+    "casualties_source": "DoD / IAEA",
+    "active_days": [1, 2, 3, 4],
+    "notes": "Deeply buried enrichment facility near Qom. GBU-57 bunker busters deployed."
+  },
+  {
+    "id": "kharg-island",
+    "city": "Kharg Island",
+    "lat": 29.2333,
+    "lng": 50.3167,
+    "type": "us_strike",
+    "targets": [
+      "Oil export terminal",
+      "Loading platforms",
+      "Storage tanks"
+    ],
+    "first_strike": "2026-03-07",
+    "casualties_reported": "Unknown",
+    "casualties_source": "Satellite imagery / shipping data",
+    "active_days": [8, 9, 10],
+    "notes": "90% of Iran's oil exports flow through Kharg. Struck in second-week escalation."
+  },
+  {
+    "id": "abadan-refinery",
+    "city": "Abadan",
+    "lat": 30.3392,
+    "lng": 48.3043,
+    "type": "us_strike",
+    "targets": [
+      "Abadan oil refinery",
+      "IRGC positions near refinery"
+    ],
+    "first_strike": "2026-03-07",
+    "casualties_reported": "Civilian casualties reported",
+    "casualties_source": "Iranian state media / ACLED",
+    "active_days": [8, 9],
+    "notes": "Major refinery. Strikes on oil infrastructure began March 7."
+  },
+  {
+    "id": "minab-school",
+    "city": "Minab",
+    "lat": 27.1053,
+    "lng": 57.0681,
+    "type": "us_strike",
+    "subtype": "civilian_casualty",
+    "targets": [
+      "Girls' school (reported secondary explosion from nearby IRGC depot)"
+    ],
+    "first_strike": "2026-03-04",
+    "casualties_reported": "23 children killed, 40+ wounded",
+    "casualties_source": "Iranian Red Crescent / ACLED / multiple news agencies",
+    "active_days": [5],
+    "notes": "Deadliest confirmed civilian casualty incident. Pentagon stated IRGC ammunition depot was the target; secondary explosion hit adjacent school. Under investigation."
+  },
+  {
+    "id": "kermanshah-irgc",
+    "city": "Kermanshah",
+    "lat": 34.3142,
+    "lng": 47.0650,
+    "type": "us_strike",
+    "targets": [
+      "IRGC Hamzeh Seyyed al-Shohada base",
+      "Missile storage facilities"
+    ],
+    "first_strike": "2026-02-28",
+    "casualties_reported": "Unknown",
+    "casualties_source": "DoD",
+    "active_days": [1, 2, 3, 4],
+    "notes": "Western Iran IRGC hub. Key missile launch suppression target."
+  },
+  {
+    "id": "dezful-missile",
+    "city": "Dezful",
+    "lat": 32.3842,
+    "lng": 48.4026,
+    "type": "us_strike",
+    "targets": [
+      "IRGC Aerospace Force missile base",
+      "Underground launch facilities"
+    ],
+    "first_strike": "2026-02-28",
+    "casualties_reported": "Unknown",
+    "casualties_source": "DoD",
+    "active_days": [1, 2, 3],
+    "notes": "Home to Shahab and Fattah ballistic missile units."
+  },
+  {
+    "id": "chabahar-port",
+    "city": "Chabahar",
+    "lat": 25.2919,
+    "lng": 60.6430,
+    "type": "us_strike",
+    "targets": [
+      "IRIN submarine pens",
+      "Coastal defense installations"
+    ],
+    "first_strike": "2026-03-01",
+    "casualties_reported": "Unknown",
+    "casualties_source": "DoD",
+    "active_days": [2, 3],
+    "notes": "Southeastern naval base. Ghadir-class submarine facilities targeted."
+  },
+  {
+    "id": "mashhad-irgc",
+    "city": "Mashhad",
+    "lat": 36.2972,
+    "lng": 59.6067,
+    "type": "us_strike",
+    "targets": [
+      "IRGC regional command center",
+      "Air defense radar installations"
+    ],
+    "first_strike": "2026-03-01",
+    "casualties_reported": "Unknown",
+    "casualties_source": "DoD / ACLED",
+    "active_days": [2, 3],
+    "notes": "Northeastern Iran. Iran's second-largest city."
+  }
+]

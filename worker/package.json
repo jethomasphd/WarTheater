@@ -1,0 +1,14 @@
+{
+  "name": "wartheater-api",
+  "version": "1.0.0",
+  "description": "THE WAR THEATER — Cloudflare Worker API proxy and AI briefing engine",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
