@@ -389,7 +389,7 @@ h4 { font-size: var(--text-lg); }
 }
 
 .map-legend {
-  bottom: 80px;
+  bottom: 100px;
   left: var(--space-md);
   font-size: var(--text-xs);
 }
@@ -410,7 +410,7 @@ h4 { font-size: var(--text-lg); }
 }
 
 .map-coords {
-  bottom: var(--space-md);
+  bottom: 100px;
   right: var(--space-md);
   font-family: 'JetBrains Mono', monospace;
   font-size: var(--text-xs);
@@ -904,6 +904,14 @@ h4 { font-size: var(--text-lg); }
   text-align: center;
   font-size: var(--text-xs);
   color: var(--text-dim);
+  position: relative;
+  z-index: 1;
+  background: var(--bg-primary);
+}
+
+/* Hide footer when the full-viewport map panel is active */
+body.theater-active .site-footer {
+  display: none;
 }
 
 .site-footer .eisenhower {
