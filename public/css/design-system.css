@@ -450,71 +450,175 @@ h4 { font-size: var(--text-lg); }
   accent-color: var(--strike-us);
 }
 
-/* === TIMELINE SCRUBBER === */
-.timeline-scrubber {
+/* === NEWS TICKER === */
+.news-ticker {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: linear-gradient(transparent, var(--bg-panel) 30%);
-  padding: var(--space-lg) var(--space-lg) var(--space-md);
-}
-
-.timeline-days {
+  background: rgba(8, 8, 8, 0.92);
+  border-top: 1px solid var(--border);
   display: flex;
-  gap: var(--space-sm);
-  align-items: flex-end;
-  overflow-x: auto;
-  padding-bottom: var(--space-sm);
-  -webkit-overflow-scrolling: touch;
-}
-
-.timeline-day {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 4px;
-  cursor: pointer;
-  min-width: 48px;
+  height: 30px;
+  overflow: hidden;
 }
 
-.timeline-day .dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: var(--border);
-  border: 1px solid var(--text-dim);
-  transition: all 0.2s;
-}
-
-.timeline-day.active .dot {
-  background: var(--strike-us);
-  border-color: var(--strike-us-glow);
-  box-shadow: 0 0 8px var(--strike-us-glow);
-}
-
-.timeline-day.past .dot {
-  background: var(--text-dim);
-  border-color: var(--text-secondary);
-}
-
-.timeline-day .date-label {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 9px;
-  color: var(--text-dim);
-  white-space: nowrap;
-}
-
-.timeline-day .event-label {
+.ticker-label {
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: 9px;
-  color: var(--text-accent);
+  font-size: 10px;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  max-width: 80px;
+  letter-spacing: 0.1em;
+  color: var(--bg-primary);
+  background: var(--strike-us);
+  padding: 0 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.ticker-track {
+  flex: 1;
+  overflow: hidden;
+}
+
+.ticker-content {
+  display: flex;
+  white-space: nowrap;
+  animation: tickerScroll 30s linear infinite;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+}
+
+.ticker-item {
+  padding: 0 40px;
+  flex-shrink: 0;
+}
+
+@keyframes tickerScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.news-ticker:hover .ticker-content {
+  animation-play-state: paused;
+}
+
+/* === CINEMATIC INTRO === */
+.cinematic-intro {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-2xl);
+}
+
+.cinematic-intro::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: var(--scanline);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.intro-inner {
+  position: relative;
+  z-index: 2;
+  max-width: 640px;
   text-align: center;
-  line-height: 1.2;
+}
+
+.intro-line {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  line-height: 1.8;
+  min-height: 1.8em;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid var(--text-dim);
+  width: 0;
+  margin: 0 auto;
+  opacity: 0;
+}
+
+.intro-line.typing {
+  opacity: 1;
+  animation: typingCaret 0.6s step-end infinite;
+}
+
+.intro-line.done {
+  opacity: 1;
+  border-right-color: transparent;
+  white-space: normal;
+  overflow: visible;
+}
+
+.intro-title-line {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: var(--text-3xl);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-xs);
+}
+
+.intro-dim {
+  font-size: var(--text-xs);
+  color: var(--text-dim);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-xl);
+}
+
+.intro-enter-wrap {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.intro-enter-wrap.visible {
+  opacity: 1;
+}
+
+.intro-enter {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--text-accent);
+  border: 1px solid var(--text-accent);
+  padding: var(--space-sm) var(--space-xl);
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.intro-enter:hover {
+  background: rgba(212, 120, 42, 0.1);
+}
+
+@keyframes typingCaret {
+  50% { border-right-color: transparent; }
+}
+
+.cinematic-intro.fade-out {
+  animation: introFadeOut 0.8s ease-in forwards;
+}
+
+@keyframes introFadeOut {
+  to { opacity: 0; }
 }
 
 /* === METRIC GRID === */

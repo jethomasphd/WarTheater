@@ -28,6 +28,20 @@
 </head>
 <body>
 
+  <!-- CINEMATIC INTRO -->
+  <div class="cinematic-intro" id="cinematic-intro">
+    <div class="intro-inner">
+      <div class="intro-line" id="intro-line-1"></div>
+      <div class="intro-line" id="intro-line-2"></div>
+      <div class="intro-line" id="intro-line-3"></div>
+      <div class="intro-line intro-title-line" id="intro-line-4"></div>
+      <div class="intro-line intro-dim" id="intro-line-5"></div>
+      <div class="intro-enter-wrap" id="intro-enter-wrap">
+        <button class="intro-enter" id="intro-enter" aria-label="Enter the dashboard">ENTER</button>
+      </div>
+    </div>
+  </div>
+
   <!-- CLASSIFICATION BANNER -->
   <div class="classification-banner" role="banner">
     UNCLASSIFIED // PUBLIC INTELLIGENCE DASHBOARD — THE WAR THEATER
@@ -90,6 +104,9 @@
           <label class="layer-toggle">
             <input type="checkbox" checked data-layer="hezbollah"> Hezbollah Front
           </label>
+          <label class="layer-toggle">
+            <input type="checkbox" checked data-layer="global-bases"> US Global Bases
+          </label>
         </div>
 
         <!-- Map Legend -->
@@ -127,10 +144,11 @@
         <!-- Cursor Coordinates -->
         <div class="map-coords" id="map-coords">—</div>
 
-        <!-- Timeline Scrubber -->
-        <div class="timeline-scrubber" id="timeline-scrubber">
-          <div class="timeline-days" id="timeline-days">
-            <!-- Populated by JS -->
+        <!-- News Ticker -->
+        <div class="news-ticker" id="news-ticker">
+          <div class="ticker-label">LATEST</div>
+          <div class="ticker-track">
+            <div class="ticker-content" id="ticker-content"></div>
           </div>
         </div>
       </div>
@@ -330,7 +348,7 @@
           <h2 style="margin-bottom: var(--space-sm);">Daily Intelligence Briefing</h2>
           <div class="briefing-date" id="briefing-date">MARCH 10, 2026 — DAY 11</div>
           <div style="font-size: var(--text-xs); color: var(--text-dim); margin-top: var(--space-sm); font-family: 'JetBrains Mono', monospace;">
-            AI-generated analysis — Claude via Cloudflare Worker
+            AI-generated analysis of public data — not state-approved, not classified
           </div>
         </div>
 
@@ -433,7 +451,7 @@
     <p class="attribution">
       THE WAR THEATER — Public Intelligence Dashboard
       <br>Data: ACLED, FRED, UNHCR, OCHA, DoD, CENTCOM, Reuters, AP
-      <br>Built as a public utility. Open source.
+      <br>Built as a public utility. Because an informed public is the only check on power.
     </p>
   </footer>
 

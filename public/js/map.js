@@ -11,7 +11,7 @@ WarTheater.Map = {
     this.map = L.map('theater-map', {
       center: [29.5, 52.0],
       zoom: 5,
-      minZoom: 4,
+      minZoom: 2,
       maxZoom: 10,
       zoomControl: true,
       attributionControl: false
@@ -37,7 +37,8 @@ WarTheater.Map = {
       'iran-retaliation': L.layerGroup().addTo(this.map),
       'carriers': L.layerGroup().addTo(this.map),
       'hormuz': L.layerGroup().addTo(this.map),
-      'hezbollah': L.layerGroup().addTo(this.map)
+      'hezbollah': L.layerGroup().addTo(this.map),
+      'global-bases': L.layerGroup().addTo(this.map)
     };
 
     // Bind layer toggles
@@ -181,86 +182,93 @@ WarTheater.Map = {
   // ─── US NAVAL ASSETS ───────────────────────────────────
   addCarriers(carriers) {
     if (!carriers) return;
-    const layer = this.layers['carriers'];
+    var layer = this.layers['carriers'];
     layer.clearLayers();
 
-    // Icon styles by asset type
-    const iconStyles = {
-      carrier: { size: 16, color: '#4a9eff', shape: 'rotate(45deg)', glow: 'rgba(74,158,255,0.4)', radius: 150000 },
-      amphibious: { size: 13, color: '#3b82f6', shape: 'rotate(45deg)', glow: 'rgba(59,130,246,0.3)', radius: 100000 },
-      destroyer: { size: 8, color: '#60a5fa', shape: 'none', glow: 'rgba(96,165,250,0.3)', radius: 0 },
-      submarine: { size: 9, color: '#818cf8', shape: 'none', glow: 'rgba(129,140,248,0.3)', radius: 0 }
-    };
-
-    const typeLabels = {
+    var typeLabels = {
       carrier: 'AIRCRAFT CARRIER',
       amphibious: 'AMPHIBIOUS ASSAULT SHIP',
       destroyer: 'GUIDED MISSILE DESTROYER',
       submarine: 'GUIDED MISSILE SUBMARINE'
     };
+    var typeColors = {
+      carrier: '#4a9eff',
+      amphibious: '#3b82f6',
+      destroyer: '#60a5fa',
+      submarine: '#818cf8'
+    };
 
-    carriers.forEach(c => {
-      const style = iconStyles[c.type] || iconStyles.destroyer;
-      const typeLabel = typeLabels[c.type] || 'US NAVAL ASSET';
+    carriers.forEach(function(c) {
+      var color = typeColors[c.type] || '#60a5fa';
+      var typeLabel = typeLabels[c.type] || 'US NAVAL ASSET';
+      var isCapital = (c.type === 'carrier' || c.type === 'amphibious');
+      var dotPx = isCapital ? 20 : 12;
+      var shortName = c.name.replace('USS ', '');
 
-      // Icon — diamond for capital ships, circle for escorts/subs
-      const isCapitalShip = c.type === 'carrier' || c.type === 'amphibious';
-      const iconHtml = isCapitalShip
-        ? '<div style="width: ' + style.size + 'px; height: ' + style.size + 'px; background: ' + style.color + '; transform: ' + style.shape + '; border: 1px solid ' + style.color + '; box-shadow: 0 0 10px ' + style.glow + ';"></div>'
-        : '<div style="width: ' + style.size + 'px; height: ' + style.size + 'px; background: ' + style.color + '; border-radius: 50%; border: 1px solid ' + style.color + '; box-shadow: 0 0 8px ' + style.glow + ';"></div>';
+      // Build icon HTML with permanent label below
+      var shapeStyle = isCapital
+        ? 'width:' + dotPx + 'px;height:' + dotPx + 'px;background:' + color + ';transform:rotate(45deg);border:2px solid #fff;box-shadow:0 0 16px ' + color + ',0 0 32px ' + color + ';'
+        : 'width:' + dotPx + 'px;height:' + dotPx + 'px;background:' + color + ';border-radius:50%;border:2px solid #fff;box-shadow:0 0 12px ' + color + ',0 0 24px ' + color + ';';
 
-      const icon = L.divIcon({
-        className: c.type === 'carrier' ? 'carrier-icon' : 'naval-icon',
-        html: iconHtml,
-        iconSize: [style.size, style.size],
-        iconAnchor: [style.size / 2, style.size / 2]
+      var labelHtml = '<div style="position:absolute;top:' + (dotPx + 4) + 'px;left:50%;transform:translateX(-50%);white-space:nowrap;' +
+        'font-family:Barlow Condensed,sans-serif;font-size:' + (isCapital ? '11' : '10') + 'px;font-weight:600;color:' + color + ';' +
+        'text-transform:uppercase;letter-spacing:0.06em;text-shadow:0 0 6px #000,0 0 12px #000;text-align:center;line-height:1.2;">' +
+        shortName + (isCapital ? '<br><span style="font-size:9px;color:#8a8a8a;font-weight:400;">' + c.hull + '</span>' : '') + '</div>';
+
+      var html = '<div style="position:relative;width:' + dotPx + 'px;height:' + dotPx + 'px;">' +
+        '<div style="position:absolute;top:0;left:0;' + shapeStyle + '"></div>' +
+        '</div>' + labelHtml;
+
+      var icon = L.divIcon({
+        className: isCapital ? 'carrier-icon' : 'naval-icon',
+        html: html,
+        iconSize: [dotPx, dotPx + 28],
+        iconAnchor: [dotPx / 2, dotPx / 2]
       });
 
-      const marker = L.marker([c.lat, c.lng], { icon });
+      var marker = L.marker([c.lat, c.lng], { icon: icon, zIndexOffset: isCapital ? 1000 : 500 });
 
-      // Operational radius (only for capital ships)
-      if (style.radius > 0) {
-        const area = L.circle([c.lat, c.lng], {
-          radius: style.radius,
-          color: style.color,
-          fillColor: style.color,
-          fillOpacity: 0.03,
-          weight: 0.5,
-          opacity: 0.2,
-          dashArray: '4 4'
+      // Operational radius ring for capital ships
+      if (isCapital) {
+        var radius = c.type === 'carrier' ? 150000 : 100000;
+        var area = L.circle([c.lat, c.lng], {
+          radius: radius,
+          color: color,
+          fillColor: color,
+          fillOpacity: 0.04,
+          weight: 1,
+          opacity: 0.25,
+          dashArray: '6 4'
         });
         layer.addLayer(area);
       }
 
-      // Escorts section
-      const escortsHtml = c.escorts && c.escorts.length > 0
-        ? '<div style="font-size: 10px; color: #555; margin-top: 8px; padding-top: 6px; border-top: 1px solid #1a1a1a;"><strong>Escorts:</strong><br>' + c.escorts.map(e => '&nbsp;&nbsp;▸ ' + e).join('<br>') + '</div>'
+      // Rich popup
+      var escortsHtml = (c.escorts && c.escorts.length > 0)
+        ? '<div style="font-size:10px;color:#555;margin-top:8px;padding-top:6px;border-top:1px solid #1a1a1a;"><strong>Escorts:</strong><br>' + c.escorts.map(function(e) { return '&nbsp;&nbsp;▸ ' + e; }).join('<br>') + '</div>'
+        : '';
+      var classifiedNote = (c.type === 'submarine')
+        ? '<div style="font-size:9px;color:#818cf8;margin-top:6px;font-style:italic;">Position approximate — exact location classified</div>'
         : '';
 
-      const classifiedNote = c.type === 'submarine'
-        ? '<div style="font-size: 9px; color: #818cf8; margin-top: 6px; font-style: italic;">Position approximate — exact location classified</div>'
-        : '';
+      var popupContent =
+        '<div style="min-width:240px;">' +
+        '<h4 style="color:' + color + ';margin-bottom:4px;font-size:14px;">' + c.name + '</h4>' +
+        '<div style="color:' + color + ';font-size:10px;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:8px;font-weight:600;">' + typeLabel + '</div>' +
+        '<div style="font-size:11px;color:#8a8a8a;line-height:1.7;">' +
+        '<strong>Hull:</strong> ' + c.hull + '<br>' +
+        '<strong>Formation:</strong> ' + c.strike_group + '<br>' +
+        '<strong>Area:</strong> ' + c.area + '<br>' +
+        '<strong>Status:</strong> <span style="color:#22c55e;">' + c.status + '</span><br>' +
+        (c.aircraft !== 'N/A' ? '<strong>Air Wing:</strong> ' + c.aircraft + '<br>' : '') +
+        '<strong>Deployed:</strong> ' + WarTheater.Utils.formatDateFull(c.deployed_since) +
+        '</div>' +
+        escortsHtml +
+        (c.notes ? '<div style="font-size:10px;color:' + color + ';margin-top:8px;font-style:italic;">' + c.notes + '</div>' : '') +
+        classifiedNote +
+        '</div>';
 
-      const popupContent = `
-        <div style="min-width: 240px;">
-          <h4 style="color: ${style.color}; margin-bottom: 4px; font-size: 14px;">${c.name}</h4>
-          <div style="color: ${style.color}; font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px; font-weight: 600;">${typeLabel}</div>
-          <div style="font-size: 11px; color: #8a8a8a; line-height: 1.7;">
-            <strong>Hull:</strong> ${c.hull}<br>
-            <strong>Formation:</strong> ${c.strike_group}<br>
-            <strong>Area:</strong> ${c.area}<br>
-            <strong>Status:</strong> <span style="color: #22c55e;">${c.status}</span><br>
-            ${c.aircraft !== 'N/A' ? '<strong>Air Wing:</strong> ' + c.aircraft + '<br>' : ''}
-            <strong>Deployed:</strong> ${WarTheater.Utils.formatDateFull(c.deployed_since)}
-          </div>
-          ${escortsHtml}
-          ${c.notes ? '<div style="font-size: 10px; color: ' + style.color + '; margin-top: 8px; font-style: italic;">' + c.notes + '</div>' : ''}
-          ${classifiedNote}
-        </div>
-      `;
       marker.bindPopup(popupContent, { maxWidth: 320 });
-      marker.bindTooltip(c.name + ' (' + c.hull + ')', { permanent: false, direction: 'top', offset: [0, -10] });
-
       layer.addLayer(marker);
     });
   },
@@ -385,62 +393,80 @@ WarTheater.Map = {
     layer.addLayer(labelMarker);
   },
 
-  // ─── TIMELINE SCRUBBER ────────────────────────────────────
-  buildTimelineScrubber(events) {
-    const container = document.getElementById('timeline-days');
+  // ─── NEWS TICKER (replaces timeline scrubber) ────────────
+  buildNewsTicker(events) {
+    var container = document.getElementById('ticker-content');
     if (!container || !events) return;
 
-    const warStart = new Date('2026-02-28');
-    const today = new Date('2026-03-10');
-    const days = [];
-    const current = new Date(warStart);
+    var catColors = {
+      military: '#d4782a', financial: '#ef4444', humanitarian: '#f59e0b',
+      diplomatic: '#4a9eff', domestic: '#7b3fa0'
+    };
 
-    while (current <= today) {
-      const dateStr = current.toISOString().split('T')[0];
-      const dayNum = WarTheater.Utils.getWarDay(dateStr);
-      const dayEvents = events.filter(e => e.date === dateStr);
+    // Sort most recent first, take 3
+    var sorted = events.slice().sort(function(a, b) {
+      return (b.date + 'T' + (b.time || '00:00')).localeCompare(a.date + 'T' + (a.time || '00:00'));
+    }).slice(0, 3);
 
-      days.push({
-        date: dateStr,
-        day: dayNum,
-        label: WarTheater.Utils.formatDate(dateStr),
-        events: dayEvents,
-        isToday: dateStr === '2026-03-10'
+    var items = sorted.map(function(e) {
+      var day = WarTheater.Utils.getWarDay(e.date);
+      var color = catColors[e.category] || '#8a8a8a';
+      var dp = e.data_point ? ' — ' + e.data_point : '';
+      return '<span class="ticker-item">' +
+        '<span style="color:' + color + ';font-weight:600;">DAY ' + day + '</span> ' +
+        '<span style="color:#555;">|</span> ' +
+        '<span style="color:#e0e0e0;">' + e.title + '</span>' +
+        '<span style="color:#8a8a8a;">' + dp + '</span>' +
+        '</span>';
+    });
+
+    // Duplicate for seamless CSS scroll loop
+    container.innerHTML = items.join('') + items.join('');
+    container.style.cursor = 'pointer';
+    container.addEventListener('click', function() {
+      var btn = document.querySelector('[data-panel="record"]');
+      if (btn) btn.click();
+    });
+  },
+
+  // ─── GLOBAL BASES & LANDMARKS ──────────────────────────
+  addGlobalBases() {
+    var layer = this.layers['global-bases'];
+    layer.clearLayers();
+
+    var bases = [
+      { name: 'Norfolk Naval Station', lat: 36.95, lng: -76.30, type: 'naval', note: 'Largest naval base in the world. Home port for carrier strike groups.' },
+      { name: 'Pearl Harbor', lat: 21.35, lng: -157.95, type: 'naval', note: 'US Pacific Fleet HQ. Key logistics hub for Indo-Pacific.' },
+      { name: 'Ramstein AB', lat: 49.44, lng: 7.60, type: 'air', note: 'USAFE HQ. Critical airlift node for Middle East operations.' },
+      { name: 'Diego Garcia', lat: -7.32, lng: 72.41, type: 'air', note: 'B-2/B-52 staging. Tomahawk launch platform, Indian Ocean.' },
+      { name: 'Al Udeid AB', lat: 25.12, lng: 51.31, type: 'air', note: 'CENTCOM forward HQ. Combined Air Ops Center for all sorties.' },
+      { name: 'Yokosuka', lat: 35.29, lng: 139.67, type: 'naval', note: '7th Fleet HQ. Forward-deployed carrier home port.' },
+      { name: 'Incirlik AB', lat: 37.00, lng: 35.43, type: 'air', note: 'NATO base, Turkey. Northern approach operations.' },
+      { name: 'Camp Lemonnier', lat: 11.55, lng: 43.15, type: 'base', note: 'Djibouti. Only permanent US base in Africa.' },
+      { name: 'Bahrain (5th Fleet)', lat: 26.23, lng: 50.48, type: 'naval', note: '5th Fleet HQ. Direct control of Gulf naval assets.' },
+      { name: 'RAF Fairford', lat: 51.68, lng: -1.79, type: 'air', note: 'UK. B-52 forward deployment for CENTCOM operations.' },
+      { name: 'Pentagon', lat: 38.87, lng: -77.06, type: 'landmark', note: 'DoD HQ. Where Operation Epic Fury is commanded.' },
+      { name: 'New York', lat: 40.71, lng: -74.01, type: 'landmark', note: 'NYSE/NYMEX. Processing war-driven market volatility.' },
+      { name: 'Houston', lat: 29.76, lng: -95.37, type: 'landmark', note: 'US energy capital. Refinery hub feeling Hormuz closure.' }
+    ];
+
+    var colors = { naval: '#4a9eff', air: '#d4782a', base: '#22c55e', landmark: '#8a8a8a' };
+    var labels = { naval: 'US NAVAL INSTALLATION', air: 'US AIR FORCE BASE', base: 'US MILITARY BASE', landmark: 'KEY LOCATION' };
+
+    bases.forEach(function(b) {
+      var c = colors[b.type] || '#8a8a8a';
+      var m = L.circleMarker([b.lat, b.lng], {
+        radius: 5, fillColor: c, color: c, weight: 1, opacity: 0.7, fillOpacity: 0.5
       });
-      current.setDate(current.getDate() + 1);
-    }
-
-    container.innerHTML = days.map(d => {
-      const majorEvent = d.events.find(e => e.category === 'military') || d.events[0];
-      const eventCount = d.events.length;
-      const eventSummary = d.events.map(e => e.title).join(' | ');
-
-      return `
-        <div class="timeline-day ${d.isToday ? 'active' : 'past'}" data-date="${d.date}"
-             title="Day ${d.day} — ${d.label}&#10;${eventSummary || 'No major events recorded'}">
-          <div style="font-family: 'Barlow Condensed', sans-serif; font-size: 9px; color: ${d.isToday ? 'var(--text-accent)' : 'var(--text-dim)'}; text-transform: uppercase; letter-spacing: 0.05em;">Day ${d.day}</div>
-          <div class="dot" style="${eventCount > 2 ? 'width: 12px; height: 12px;' : ''}"></div>
-          <div class="date-label">${d.label}</div>
-          ${majorEvent ? '<div class="event-label">' + (majorEvent.title.length > 25 ? majorEvent.title.substring(0, 25) + '...' : majorEvent.title) + '</div>' : ''}
-          ${eventCount > 1 ? '<div style="font-size: 8px; color: var(--text-dim);">+' + (eventCount - 1) + ' more</div>' : ''}
-        </div>
-      `;
-    }).join('');
-
-    // Click handler for scrubber days
-    container.querySelectorAll('.timeline-day').forEach(day => {
-      day.style.cursor = 'pointer';
-      day.addEventListener('click', () => {
-        const date = day.dataset.date;
-        // Navigate to The Record panel, filtered to this date
-        const navBtn = document.querySelector('[data-panel="record"]');
-        if (navBtn) navBtn.click();
-        // Scroll to relevant events
-        setTimeout(() => {
-          const eventEl = document.querySelector('.timeline-event[data-date="' + date + '"]');
-          if (eventEl) eventEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }, 300);
-      });
+      m.bindTooltip(b.name, { permanent: false, direction: 'top', offset: [0, -6] });
+      m.bindPopup(
+        '<div style="min-width:200px;">' +
+        '<h4 style="color:' + c + ';margin-bottom:4px;font-size:13px;">' + b.name + '</h4>' +
+        '<div style="color:' + c + ';font-size:9px;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:8px;font-weight:600;">' + (labels[b.type] || '') + '</div>' +
+        '<div style="font-size:11px;color:#8a8a8a;line-height:1.6;">' + b.note + '</div>' +
+        '</div>', { maxWidth: 260 }
+      );
+      layer.addLayer(m);
     });
   },
 
@@ -450,6 +476,7 @@ WarTheater.Map = {
     this.addRetaliation(data.retaliation);
     this.addCarriers(data.carriers);
     this.addHormuz(data.hormuz);
-    this.buildTimelineScrubber(data.timeline);
+    this.addGlobalBases();
+    this.buildNewsTicker(data.timeline);
   }
 };
