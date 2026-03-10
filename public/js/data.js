@@ -98,17 +98,16 @@ WarTheater.Data = {
 
   // Load all initial data
   async loadAll() {
-    const [strikes, retaliation, carriers, hormuz, missiles, timeline, baselines, financial] = await Promise.all([
+    const [strikes, retaliation, carriers, hormuz, timeline, baselines, financial] = await Promise.all([
       this.getStrikesIran(),
       this.getStrikesRetaliation(),
       this.getCarriers(),
       this.getHormuz(),
-      this.getMissileRanges(),
       this.getTimeline(),
       this.getBaselines(),
       this.getFinancial()
     ]);
 
-    return { strikes, retaliation, carriers, hormuz, missiles, timeline, baselines, financial };
+    return { strikes, retaliation, carriers, hormuz, timeline, baselines, financial };
   }
 };

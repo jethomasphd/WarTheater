@@ -37,14 +37,11 @@ WarTheater.Map = {
       'iran-retaliation': L.layerGroup().addTo(this.map),
       'carriers': L.layerGroup().addTo(this.map),
       'hormuz': L.layerGroup().addTo(this.map),
-      'hezbollah': L.layerGroup().addTo(this.map),
-      'missile-ranges': L.layerGroup(),
-      'arcs': L.layerGroup()
+      'hezbollah': L.layerGroup().addTo(this.map)
     };
 
     // Bind layer toggles
     document.querySelectorAll('[data-layer]').forEach(checkbox => {
-      if (checkbox.dataset.layer === 'arcs') return; // Handled separately
       checkbox.addEventListener('change', (e) => {
         const layerName = e.target.dataset.layer;
         const layer = this.layers[layerName];
@@ -181,56 +178,89 @@ WarTheater.Map = {
     });
   },
 
-  // ─── CARRIER STRIKE GROUPS ────────────────────────────────
+  // ─── US NAVAL ASSETS ───────────────────────────────────
   addCarriers(carriers) {
     if (!carriers) return;
     const layer = this.layers['carriers'];
     layer.clearLayers();
 
+    // Icon styles by asset type
+    const iconStyles = {
+      carrier: { size: 16, color: '#4a9eff', shape: 'rotate(45deg)', glow: 'rgba(74,158,255,0.4)', radius: 150000 },
+      amphibious: { size: 13, color: '#3b82f6', shape: 'rotate(45deg)', glow: 'rgba(59,130,246,0.3)', radius: 100000 },
+      destroyer: { size: 8, color: '#60a5fa', shape: 'none', glow: 'rgba(96,165,250,0.3)', radius: 0 },
+      submarine: { size: 9, color: '#818cf8', shape: 'none', glow: 'rgba(129,140,248,0.3)', radius: 0 }
+    };
+
+    const typeLabels = {
+      carrier: 'AIRCRAFT CARRIER',
+      amphibious: 'AMPHIBIOUS ASSAULT SHIP',
+      destroyer: 'GUIDED MISSILE DESTROYER',
+      submarine: 'GUIDED MISSILE SUBMARINE'
+    };
+
     carriers.forEach(c => {
+      const style = iconStyles[c.type] || iconStyles.destroyer;
+      const typeLabel = typeLabels[c.type] || 'US NAVAL ASSET';
+
+      // Icon — diamond for capital ships, circle for escorts/subs
+      const isCapitalShip = c.type === 'carrier' || c.type === 'amphibious';
+      const iconHtml = isCapitalShip
+        ? '<div style="width: ' + style.size + 'px; height: ' + style.size + 'px; background: ' + style.color + '; transform: ' + style.shape + '; border: 1px solid ' + style.color + '; box-shadow: 0 0 10px ' + style.glow + ';"></div>'
+        : '<div style="width: ' + style.size + 'px; height: ' + style.size + 'px; background: ' + style.color + '; border-radius: 50%; border: 1px solid ' + style.color + '; box-shadow: 0 0 8px ' + style.glow + ';"></div>';
+
       const icon = L.divIcon({
-        className: 'carrier-icon',
-        html: '<div style="width: 14px; height: 14px; background: #4a9eff; transform: rotate(45deg); border: 1px solid #6db4ff; box-shadow: 0 0 10px rgba(74,158,255,0.4);"></div>',
-        iconSize: [14, 14],
-        iconAnchor: [7, 7]
+        className: c.type === 'carrier' ? 'carrier-icon' : 'naval-icon',
+        html: iconHtml,
+        iconSize: [style.size, style.size],
+        iconAnchor: [style.size / 2, style.size / 2]
       });
 
       const marker = L.marker([c.lat, c.lng], { icon });
 
-      // Operational radius
-      const area = L.circle([c.lat, c.lng], {
-        radius: 150000,
-        color: '#4a9eff',
-        fillColor: '#4a9eff',
-        fillOpacity: 0.03,
-        weight: 0.5,
-        opacity: 0.3,
-        dashArray: '4 4'
-      });
+      // Operational radius (only for capital ships)
+      if (style.radius > 0) {
+        const area = L.circle([c.lat, c.lng], {
+          radius: style.radius,
+          color: style.color,
+          fillColor: style.color,
+          fillOpacity: 0.03,
+          weight: 0.5,
+          opacity: 0.2,
+          dashArray: '4 4'
+        });
+        layer.addLayer(area);
+      }
+
+      // Escorts section
+      const escortsHtml = c.escorts && c.escorts.length > 0
+        ? '<div style="font-size: 10px; color: #555; margin-top: 8px; padding-top: 6px; border-top: 1px solid #1a1a1a;"><strong>Escorts:</strong><br>' + c.escorts.map(e => '&nbsp;&nbsp;▸ ' + e).join('<br>') + '</div>'
+        : '';
+
+      const classifiedNote = c.type === 'submarine'
+        ? '<div style="font-size: 9px; color: #818cf8; margin-top: 6px; font-style: italic;">Position approximate — exact location classified</div>'
+        : '';
 
       const popupContent = `
         <div style="min-width: 240px;">
-          <h4 style="color: #4a9eff; margin-bottom: 4px; font-size: 14px;">${c.name}</h4>
-          <div style="color: #4a9eff; font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px; font-weight: 600;">US CARRIER STRIKE GROUP</div>
+          <h4 style="color: ${style.color}; margin-bottom: 4px; font-size: 14px;">${c.name}</h4>
+          <div style="color: ${style.color}; font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px; font-weight: 600;">${typeLabel}</div>
           <div style="font-size: 11px; color: #8a8a8a; line-height: 1.7;">
             <strong>Hull:</strong> ${c.hull}<br>
-            <strong>Strike Group:</strong> ${c.strike_group}<br>
+            <strong>Formation:</strong> ${c.strike_group}<br>
             <strong>Area:</strong> ${c.area}<br>
             <strong>Status:</strong> <span style="color: #22c55e;">${c.status}</span><br>
-            <strong>Air Wing:</strong> ${c.aircraft}<br>
+            ${c.aircraft !== 'N/A' ? '<strong>Air Wing:</strong> ' + c.aircraft + '<br>' : ''}
             <strong>Deployed:</strong> ${WarTheater.Utils.formatDateFull(c.deployed_since)}
           </div>
-          <div style="font-size: 10px; color: #555; margin-top: 8px; padding-top: 6px; border-top: 1px solid #1a1a1a;">
-            <strong>Escorts:</strong><br>
-            ${c.escorts.map(e => '&nbsp;&nbsp;▸ ' + e).join('<br>')}
-          </div>
-          ${c.notes ? '<div style="font-size: 10px; color: #4a9eff; margin-top: 8px; font-style: italic;">' + c.notes + '</div>' : ''}
+          ${escortsHtml}
+          ${c.notes ? '<div style="font-size: 10px; color: ' + style.color + '; margin-top: 8px; font-style: italic;">' + c.notes + '</div>' : ''}
+          ${classifiedNote}
         </div>
       `;
       marker.bindPopup(popupContent, { maxWidth: 320 });
       marker.bindTooltip(c.name + ' (' + c.hull + ')', { permanent: false, direction: 'top', offset: [0, -10] });
 
-      layer.addLayer(area);
       layer.addLayer(marker);
     });
   },
@@ -355,50 +385,6 @@ WarTheater.Map = {
     layer.addLayer(labelMarker);
   },
 
-  // ─── MISSILE RANGE RINGS ──────────────────────────────────
-  addMissileRanges(data) {
-    if (!data) return;
-    const layer = this.layers['missile-ranges'];
-    layer.clearLayers();
-
-    const origin = data.origin;
-
-    data.systems.forEach(sys => {
-      const circle = L.circle([origin.lat, origin.lng], {
-        radius: sys.range_km * 1000,
-        color: sys.color,
-        fillColor: sys.color,
-        fillOpacity: 0.02,
-        weight: 1,
-        opacity: 0.25,
-        dashArray: '6 4'
-      });
-
-      circle.bindTooltip(
-        '<div style="text-align: center;">' +
-        '<strong style="color: ' + sys.color + ';">' + sys.name + '</strong><br>' +
-        '<span style="font-size: 10px; color: #8a8a8a;">' + sys.type + ' — ' + sys.range_km + 'km range</span><br>' +
-        '<span style="font-size: 10px; color: #555;">' + sys.status + '</span><br>' +
-        '<span style="font-size: 9px; color: #555; font-style: italic;">' + sys.notes + '</span>' +
-        '</div>',
-        { permanent: false, direction: 'top', maxWidth: 250 }
-      );
-
-      layer.addLayer(circle);
-    });
-
-    // Origin marker
-    const originMarker = L.circleMarker([origin.lat, origin.lng], {
-      radius: 3,
-      fillColor: '#ff3333',
-      color: '#ff3333',
-      fillOpacity: 1,
-      weight: 0
-    });
-    originMarker.bindTooltip('Tehran — Missile Origin Point', { direction: 'top' });
-    layer.addLayer(originMarker);
-  },
-
   // ─── TIMELINE SCRUBBER ────────────────────────────────────
   buildTimelineScrubber(events) {
     const container = document.getElementById('timeline-days');
@@ -464,7 +450,6 @@ WarTheater.Map = {
     this.addRetaliation(data.retaliation);
     this.addCarriers(data.carriers);
     this.addHormuz(data.hormuz);
-    this.addMissileRanges(data.missiles);
     this.buildTimelineScrubber(data.timeline);
   }
 };
