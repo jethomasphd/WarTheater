@@ -62,8 +62,36 @@
     }
   }
 
+  // Cinematic intro
+  function initIntro() {
+    const intro = document.getElementById('cinematic-intro');
+    const enterBtn = document.getElementById('intro-enter');
+    if (!intro) return;
+
+    // Check if already seen this session
+    if (sessionStorage.getItem('wt-intro-seen')) {
+      intro.remove();
+      return;
+    }
+
+    const dismiss = () => {
+      intro.classList.add('fade-out');
+      sessionStorage.setItem('wt-intro-seen', '1');
+      setTimeout(() => intro.remove(), 1000);
+    };
+
+    enterBtn.addEventListener('click', dismiss);
+    // Also dismiss on Escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && intro.parentNode) dismiss();
+    });
+  }
+
   // ─── BOOT ───────────────────────────────────────────────
   try {
+    // Cinematic intro
+    initIntro();
+
     // Navigation
     initNavigation();
     updateTimestamp();

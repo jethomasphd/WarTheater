@@ -28,6 +28,30 @@
 </head>
 <body>
 
+  <!-- CINEMATIC INTRO -->
+  <div class="cinematic-intro" id="cinematic-intro">
+    <div class="intro-epigraph">
+      "Every gun that is made, every warship launched, every rocket fired signifies,
+      in the final sense, a theft from those who hunger and are not fed,
+      those who are cold and are not clothed."<br>
+      <span style="color: var(--text-dim);">— Dwight D. Eisenhower, 1953</span>
+    </div>
+    <div class="intro-content">
+      <div class="intro-title">THE <span class="accent">WAR</span> THEATER</div>
+      <div class="intro-subtitle">Public Intelligence Dashboard</div>
+      <div class="intro-philosophy">
+        The powerful have always controlled the narrative of war.<br>
+        They sanitize the language. They redact the cost. They bury the dead in footnotes.<br><br>
+        This dashboard exists because you have the right to see what your government is doing in your name,
+        with your money, using your children. Every dollar tracked. Every life counted. Every lie exposed.<br><br>
+        The flood of information is designed to overwhelm you into silence.
+        The War Theater cuts through the noise — not with opinion, but with data.
+        Because an informed public is the only check on power that has ever worked.
+      </div>
+      <button class="intro-enter" id="intro-enter">Enter the Theater</button>
+    </div>
+  </div>
+
   <!-- CLASSIFICATION BANNER -->
   <div class="classification-banner" role="banner">
     UNCLASSIFIED // PUBLIC INTELLIGENCE DASHBOARD — THE WAR THEATER
@@ -90,6 +114,9 @@
           <label class="layer-toggle">
             <input type="checkbox" checked data-layer="hezbollah"> Hezbollah Front
           </label>
+          <label class="layer-toggle">
+            <input type="checkbox" checked data-layer="global-bases"> US Global Bases
+          </label>
         </div>
 
         <!-- Map Legend -->
@@ -127,10 +154,13 @@
         <!-- Cursor Coordinates -->
         <div class="map-coords" id="map-coords">—</div>
 
-        <!-- Timeline Scrubber -->
-        <div class="timeline-scrubber" id="timeline-scrubber">
-          <div class="timeline-days" id="timeline-days">
-            <!-- Populated by JS -->
+        <!-- News Ticker -->
+        <div class="news-ticker" id="news-ticker">
+          <div class="ticker-label">LATEST</div>
+          <div class="ticker-track">
+            <div class="ticker-content" id="ticker-content">
+              <!-- Populated by JS from timeline-events.json -->
+            </div>
           </div>
         </div>
       </div>
@@ -141,6 +171,15 @@
     <!-- ═══════════════════════════════════════════════════════ -->
     <section id="panel-cost" class="panel" role="tabpanel" aria-label="Financial Impact">
       <div class="panel-section" style="padding: var(--space-lg);">
+
+        <div style="text-align:center; padding: var(--space-lg) var(--space-xl) var(--space-xl); max-width:700px; margin:0 auto;">
+          <p style="font-style:italic; color:var(--text-secondary); font-size:var(--text-sm); line-height:1.8;">
+            War is a wealth transfer. From the many to the few. From the public treasury to defense contractors.
+            From the price of gas in your tank to the stock price of Raytheon.
+            Every dollar below is a dollar not spent on schools, hospitals, or infrastructure.
+            Follow the money. It never lies.
+          </p>
+        </div>
 
         <!-- Hero Metrics -->
         <div class="metrics-grid" id="financial-metrics" aria-label="Key financial indicators">
@@ -245,6 +284,16 @@
     <section id="panel-toll" class="panel" role="tabpanel" aria-label="Humanitarian Impact">
       <div class="panel-section" style="padding: var(--space-lg);">
 
+        <div style="text-align:center; padding: var(--space-lg) var(--space-xl) var(--space-xl); max-width:700px; margin:0 auto;">
+          <p style="font-style:italic; color:var(--text-secondary); font-size:var(--text-sm); line-height:1.8;">
+            These are not statistics. Each number below was a person with a name,
+            a family, a life that will never be lived. The language of war obscures this.
+            "Collateral damage" means a child who will never come home from school.
+            "Surgical strike" means a neighborhood that no longer exists.
+            We refuse the euphemism. We count the dead.
+          </p>
+        </div>
+
         <!-- Hero Counters -->
         <div class="metrics-grid" id="humanitarian-metrics" aria-label="Humanitarian indicators">
           <div class="hero-metric" title="Total confirmed US/Israeli airstrikes and cruise missile strikes on Iranian territory since Feb 28. Includes Tomahawk, JDAM, GBU-57, and standoff munitions. Source: DoD / ACLED.">
@@ -330,7 +379,11 @@
           <h2 style="margin-bottom: var(--space-sm);">Daily Intelligence Briefing</h2>
           <div class="briefing-date" id="briefing-date">MARCH 10, 2026 — DAY 11</div>
           <div style="font-size: var(--text-xs); color: var(--text-dim); margin-top: var(--space-sm); font-family: 'JetBrains Mono', monospace;">
-            AI-generated analysis — Claude via Cloudflare Worker
+            AI-generated analysis — not state-approved, not corporate-filtered, not classified
+          </div>
+          <div style="font-size: var(--text-xs); color: var(--text-secondary); margin-top: var(--space-sm); font-style:italic; max-width:600px;">
+            Intelligence briefings were once reserved for presidents and generals.
+            This one is for you. Because the public funds the war, and the public deserves to understand it.
           </div>
         </div>
 
@@ -398,8 +451,11 @@
       <div class="timeline-container">
 
         <h2 style="margin-bottom: var(--space-lg);">The Record</h2>
-        <p style="color: var(--text-secondary); margin-bottom: var(--space-xl); font-size: var(--text-sm);">
+        <p style="color: var(--text-secondary); margin-bottom: var(--space-md); font-size: var(--text-sm);">
           Every significant event since February 28, 2026. The historical record of Operation Epic Fury.
+        </p>
+        <p style="color: var(--text-dim); margin-bottom: var(--space-xl); font-size: var(--text-xs); font-style:italic;">
+          Governments rewrite history. Algorithms bury it. This record exists so the truth has a timestamp.
         </p>
 
         <!-- Filters -->
