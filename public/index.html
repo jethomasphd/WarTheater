@@ -31,13 +31,16 @@
   <!-- CINEMATIC INTRO -->
   <div class="cinematic-intro" id="cinematic-intro">
     <div class="intro-inner">
-      <div class="intro-line" id="intro-line-1"></div>
-      <div class="intro-line" id="intro-line-2"></div>
-      <div class="intro-line" id="intro-line-3"></div>
-      <div class="intro-line intro-title-line" id="intro-line-4"></div>
-      <div class="intro-line intro-dim" id="intro-line-5"></div>
-      <div class="intro-enter-wrap" id="intro-enter-wrap">
-        <button class="intro-enter" id="intro-enter" aria-label="Enter the dashboard">ENTER</button>
+      <div class="intro-fade" style="animation-delay:0.5s;">
+        <p class="intro-quote">"Every gun that is made, every warship launched, every rocket fired signifies, in the final sense, a theft from those who hunger and are not fed, those who are cold and are not clothed."</p>
+        <p class="intro-attribution">— Dwight D. Eisenhower, 1953</p>
+      </div>
+      <div class="intro-fade" style="animation-delay:3.5s;">
+        <div class="intro-title">THE <span style="color:var(--text-accent);">WAR</span> THEATER</div>
+        <div class="intro-subtitle">Public Intelligence Dashboard</div>
+      </div>
+      <div class="intro-fade intro-enter-wrap" style="animation-delay:5.5s;">
+        <button class="intro-enter" id="intro-enter">ENTER</button>
       </div>
     </div>
   </div>
@@ -73,6 +76,9 @@
     </button>
     <button role="tab" data-panel="record" aria-selected="false" aria-controls="panel-record">
       V. The Record
+    </button>
+    <button role="tab" data-panel="about" aria-selected="false" aria-controls="panel-about">
+      VI. About
     </button>
   </nav>
 
@@ -138,6 +144,18 @@
           <div class="legend-item">
             <span class="legend-dot" style="background: var(--hormuz);"></span>
             <span>Hormuz Chokepoint</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot" style="background: var(--strike-us); width: 8px; height: 8px;"></span>
+            <span>US Air Base</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot" style="background: #4a9eff; width: 8px; height: 8px;"></span>
+            <span>US Naval Base</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot" style="background: #8a8a8a; width: 8px; height: 8px;"></span>
+            <span>Key Landmark</span>
           </div>
         </div>
 
@@ -433,6 +451,62 @@
         <!-- Timeline Events -->
         <div id="timeline-events">
           <!-- Populated by JS from timeline-events.json -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- PANEL 6: ABOUT                                          -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section id="panel-about" class="panel" role="tabpanel" aria-label="About This Project">
+      <div class="about-container">
+
+        <h2 style="margin-bottom: var(--space-2xl); text-align: center;">Why This Exists</h2>
+
+        <div class="about-section">
+          <p>You are looking at a war.</p>
+          <p>Not through the lens of a cable news chyron designed to hold your attention between car commercials. Not through the sanitized language of a Pentagon briefing where "kinetic engagement" means a family no longer exists. Not through the algorithmic feed that buries the death toll beneath celebrity gossip and outrage bait.</p>
+          <p>You are looking at it through data. Raw, sourced, unfiltered. Every number on this dashboard represents something real — a dollar extracted from your paycheck, a barrel of oil that won't reach a port, a building that used to be a school, a person who used to be alive.</p>
+        </div>
+
+        <div class="about-section">
+          <h3>The Flood</h3>
+          <p>We live in the age of information warfare waged against the public itself. The strategy is not censorship — it's flooding. Bury the signal in noise. Overwhelm the citizen with so much conflicting data, so many hot takes, so many breaking alerts, that comprehension becomes impossible and apathy becomes rational.</p>
+          <p>The flood is not an accident. It is a weapon. When you can't tell what's true, you stop trying. When you stop trying, power operates without scrutiny. That is the goal.</p>
+        </div>
+
+        <div class="about-section">
+          <h3>The Theater</h3>
+          <p>This dashboard is the opposite of the flood. It takes the chaos of a war — the airstrikes, the market swings, the refugee columns, the diplomatic posturing, the human suffering — and makes it legible. Not simple. Legible. Because the truth of war is complex, and you deserve to see it in its complexity rather than have it pre-digested for you by people who profit from your confusion.</p>
+          <p>Every data point is sourced. Every number has context. Every chart tells a story that someone, somewhere, would prefer you didn't hear.</p>
+        </div>
+
+        <div class="about-section">
+          <h3>The Cost of Silence</h3>
+          <p>Twenty-three children died in Minab on March 4th. The Pentagon called it collateral damage. The school was not the target, they said. As if that distinction matters to a mother pulling her daughter from the rubble.</p>
+          <p>We put that number on this dashboard not because it is the most strategically significant data point, but because it is the most important one. Because if you can look at the number 23 and understand that each digit was a child who had a favorite color and a best friend and a laugh that their parents will never hear again — then this dashboard has done its job.</p>
+          <p>War thrives in abstraction. "Surgical strike." "Neutralized." "Degraded capability." Every euphemism is a small act of violence against the truth. We refuse the euphemism here. We count the dead by name when we can, by number when we must, and we never, ever call them collateral.</p>
+        </div>
+
+        <div class="about-section">
+          <h3>Who Has the Right to Know</h3>
+          <p>Intelligence briefings were once prepared exclusively for presidents and generals — the people who start wars. The public that funds them, fights them, and dies in them was given press conferences and talking points. Curated narratives. Managed perception.</p>
+          <p>This dashboard is built on a simple premise: the people who pay for a war have the right to understand it. Not the version approved for public consumption. The real version. With the dollar amounts and the body counts and the market data and the displacement figures all in one place, connected, contextualized, and impossible to look away from.</p>
+          <p>An informed public is the only check on power that has ever worked. Not institutions. Not norms. Not good intentions. Information. The kind that makes you uncomfortable. The kind that keeps you up at night. The kind that makes you ask questions that nobody in power wants to answer.</p>
+        </div>
+
+        <div class="about-section">
+          <h3>A Note on Violence</h3>
+          <p>This project is fundamentally antiwar. Not strategically, not politically — morally. We believe that the act of killing human beings in organized fashion, no matter how justified the stated objective, is a failure of civilization that demands relentless scrutiny rather than patriotic celebration.</p>
+          <p>We do not take sides between combatants. We take the side of the people caught between them — the families in Minab, the displaced in Lebanon, the service members at Ali Al Salem, the gas station worker in Ohio who doesn't know why her commute suddenly costs $30 more a month. Every one of them is paying for decisions made by people who will never feel the consequences.</p>
+          <p>If this dashboard makes war harder to ignore, harder to abstract, harder to celebrate — then it is doing exactly what it was built to do.</p>
+        </div>
+
+        <div class="about-section" style="border-top: 1px solid var(--border); padding-top: var(--space-xl); margin-top: var(--space-xl);">
+          <p style="font-style: italic; color: var(--text-dim); text-align: center;">
+            Built as a public utility. Open source. No ads. No sponsors. No agenda except clarity.
+          </p>
         </div>
 
       </div>
