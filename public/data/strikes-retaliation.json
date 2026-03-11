@@ -94,8 +94,8 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "3 Israeli civilians killed",
     "casualties_source": "IDF / Israeli media",
-    "active_days": [1, 2, 5],
-    "notes": "Hezbollah and direct Iranian missile strikes on northern Israel."
+    "active_days": [1, 2, 5, 12],
+    "notes": "Hezbollah and direct Iranian missile strikes on northern Israel. Day 12: Fresh Iranian barrage over Netanya, all intercepted."
   },
   {
     "id": "tel-aviv-israel",
@@ -108,8 +108,8 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Iron Dome / Arrow intercepted most; debris casualties",
     "casualties_source": "IDF",
-    "active_days": [1, 2, 3, 5],
-    "notes": "Largest missile barrage on Tel Aviv since October 2023 escalation."
+    "active_days": [1, 2, 3, 5, 12],
+    "notes": "Largest missile barrage on Tel Aviv since October 2023 escalation. Day 12: Overnight Iranian salvo, all intercepted by Arrow/Iron Dome."
   },
   {
     "id": "nevatim-israel",
@@ -148,10 +148,10 @@
     "weapon": "Israeli airstrikes (in response to Hezbollah entry)",
     "origin": "IDF",
     "first_strike": "2026-03-02",
-    "casualties_reported": "486+ Lebanese casualties",
+    "casualties_reported": "570+ Lebanese casualties (including 83 children)",
     "casualties_source": "Lebanese Health Ministry / ACLED",
-    "active_days": [3, 4, 5, 6, 7, 8, 9, 10],
-    "notes": "Hezbollah entered war March 2. Israel responded with massive strikes on Dahieh and southern Lebanon."
+    "active_days": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "notes": "Hezbollah entered war March 2. Israel responded with massive strikes on Dahieh and southern Lebanon. Day 12: IDF strikes command centers in Dahieh. Lebanese government bans Hezbollah military activities."
   },
   {
     "id": "tyre-lebanon",
@@ -164,8 +164,8 @@
     "first_strike": "2026-03-02",
     "casualties_reported": "Included in Lebanese total",
     "casualties_source": "ACLED",
-    "active_days": [3, 4, 5, 6, 7],
-    "notes": "Southern Lebanese city. Hezbollah rocket launch sites targeted."
+    "active_days": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "notes": "Southern Lebanese city. Hezbollah rocket launch sites targeted. Israel ordered all residents south of Litani to move north on Day 6."
   },
   {
     "id": "saudi-oil",
@@ -180,5 +180,33 @@
     "casualties_source": "Saudi MoD",
     "active_days": [4, 5],
     "notes": "World's largest oil loading facility. Houthi attacks on Saudi infrastructure to widen conflict."
+  },
+  {
+    "id": "hormuz-shipping-attacks",
+    "city": "Strait of Hormuz (maritime)",
+    "lat": 26.35,
+    "lng": 56.55,
+    "type": "iran_retaliation",
+    "weapon": "Anti-ship missiles / projectiles",
+    "origin": "IRGC Navy / coastal batteries",
+    "first_strike": "2026-03-11",
+    "casualties_reported": "Ship damage — no crew casualties reported",
+    "casualties_source": "UK Maritime Trade Operations / Bloomberg",
+    "active_days": [12],
+    "notes": "Three vessels struck in single day: Thai-flagged bulk carrier Mayruree Naree off Oman, container vessel near Ras Al-Khaimah, bulk carrier northwest of Dubai. First maritime attacks after 72-hour lull."
+  },
+  {
+    "id": "saudi-base-attack",
+    "city": "US base, Saudi Arabia",
+    "lat": 24.95,
+    "lng": 46.70,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles",
+    "origin": "Iranian-backed proxies",
+    "first_strike": "2026-03-01",
+    "casualties_reported": "1 US service member died from injuries (8th US KIA total)",
+    "casualties_source": "DoD / Pentagon",
+    "active_days": [2, 12],
+    "notes": "US service member who sustained injuries in March 1 attack succumbed to wounds on March 11. Eighth US combat death of the conflict."
   }
 ]

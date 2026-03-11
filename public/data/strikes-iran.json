@@ -15,8 +15,8 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown — heavy",
     "casualties_source": "ACLED / Iranian state media",
-    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-    "notes": "Continuous bombardment since Day 1. Supreme Leader Khamenei killed in initial strike."
+    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "notes": "Continuous bombardment since Day 1. Supreme Leader Khamenei killed in initial strike. Day 11: 40 killed in eastern Tehran residential area. Day 12: IDF destroys IRGC Air Force HQ."
   },
   {
     "id": "isfahan-nuclear",
@@ -66,7 +66,7 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "DoD / ACLED",
-    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     "notes": "Key Strait of Hormuz control point. Continuous strikes to suppress coastal batteries."
   },
   {
@@ -167,8 +167,8 @@
     "first_strike": "2026-03-07",
     "casualties_reported": "Unknown",
     "casualties_source": "Satellite imagery / shipping data",
-    "active_days": [8, 9, 10],
-    "notes": "90% of Iran's oil exports flow through Kharg. Struck in second-week escalation."
+    "active_days": [8, 9, 10, 11, 12],
+    "notes": "90% of Iran's oil exports flow through Kharg. Struck in second-week escalation. Israel bombed 30 additional oil depots on Day 10."
   },
   {
     "id": "abadan-refinery",
@@ -183,8 +183,8 @@
     "first_strike": "2026-03-07",
     "casualties_reported": "Civilian casualties reported",
     "casualties_source": "Iranian state media / ACLED",
-    "active_days": [8, 9],
-    "notes": "Major refinery. Strikes on oil infrastructure began March 7."
+    "active_days": [8, 9, 10, 11],
+    "notes": "Major refinery. Strikes on oil infrastructure began March 7. Toxic smoke blanketed Tehran."
   },
   {
     "id": "minab-school",
@@ -265,5 +265,37 @@
     "casualties_source": "DoD / ACLED",
     "active_days": [2, 3],
     "notes": "Northeastern Iran. Iran's second-largest city."
+  },
+  {
+    "id": "tehran-irgc-af-hq",
+    "city": "Tehran (West)",
+    "lat": 35.7100,
+    "lng": 51.3200,
+    "type": "us_strike",
+    "targets": [
+      "IRGC Aerospace Force headquarters",
+      "Command and control infrastructure"
+    ],
+    "first_strike": "2026-03-11",
+    "casualties_reported": "Unknown — military target",
+    "casualties_source": "IDF / DoD",
+    "active_days": [12],
+    "notes": "Israeli military announced destruction of IRGC Air Force HQ on Day 12. Major command node eliminated."
+  },
+  {
+    "id": "tehran-east-residential",
+    "city": "Tehran (East)",
+    "lat": 35.7200,
+    "lng": 51.4800,
+    "type": "us_strike",
+    "subtype": "civilian_casualty",
+    "targets": [
+      "Residential buildings in eastern Tehran (reported collateral from nearby military target)"
+    ],
+    "first_strike": "2026-03-10",
+    "casualties_reported": "40+ killed",
+    "casualties_source": "Iranian state media / Al Jazeera",
+    "active_days": [11, 12],
+    "notes": "Strike on residential area in eastern Tehran killed at least 40 people. Second major civilian casualty incident after Minab."
   }
 ]
