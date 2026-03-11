@@ -178,5 +178,77 @@
     "category": "military",
     "source": "Multiple",
     "data_point": "Estimated total cost: $5B+"
+  },
+  {
+    "date": "2026-03-11",
+    "time": "02:00",
+    "title": "Oil crashes after Energy Secretary's false Hormuz claim",
+    "description": "Energy Secretary Chris Wright posts on social media that the US Navy has escorted a tanker through the Strait of Hormuz. The claim is false — no escort occurred. Brent crude plunges 11.3% to $87.80 before partially recovering. The incident raises questions about information discipline within the administration during wartime.",
+    "category": "financial",
+    "source": "CNBC / DoD denial / ICE",
+    "data_point": "Brent -11.3% in single session"
+  },
+  {
+    "date": "2026-03-11",
+    "time": "06:00",
+    "title": "Three ships hit in Strait of Hormuz and Persian Gulf",
+    "description": "UK Navy reports three vessels struck by suspected projectiles: Thai-flagged bulk carrier Mayruree Naree in the Strait off Oman, a container vessel west of Ras Al-Khaimah, and a bulk carrier northwest of Dubai. Attacks come after a 72-hour lull in maritime targeting.",
+    "category": "military",
+    "source": "UK Maritime Trade Operations / Bloomberg",
+    "data_point": "3 vessels struck in single day"
+  },
+  {
+    "date": "2026-03-11",
+    "time": "08:00",
+    "title": "Iran fires fresh missile barrage at Israel",
+    "description": "Rocket trails seen over Netanya as Iran launches overnight ballistic missile salvo at Israeli territory. No direct impacts or injuries reported. Arrow and Iron Dome systems intercept all incoming. Fourth major Iranian salvo since Day 1.",
+    "category": "military",
+    "source": "IDF / Israeli media",
+    "data_point": "All missiles intercepted"
+  },
+  {
+    "date": "2026-03-11",
+    "time": "10:00",
+    "title": "IDF strikes Hezbollah command centers in Beirut suburbs",
+    "description": "Israeli airstrikes target Hezbollah command centers and weapons sites in Dahieh (southern Beirut suburbs). Four killed in strike on central Beirut apartment linked to Hezbollah operations. Lebanese displaced now exceeds 700,000.",
+    "category": "military",
+    "source": "IDF / Times of Israel / UNHCR",
+    "data_point": "700,000+ displaced in Lebanon"
+  },
+  {
+    "date": "2026-03-11",
+    "time": "12:00",
+    "title": "NATO shoots down Iranian ballistic missile over Turkey",
+    "description": "Turkey confirms NATO air defenses shot down a ballistic missile in Turkish airspace fired from Iran — the first such incident in NATO history. The missile was likely targeting Israeli assets or a wayward retaliatory launch. Turkey had previously deployed a Patriot system to protect a NATO radar station in eastern Turkey.",
+    "category": "military",
+    "source": "Turkish MoD / NATO",
+    "data_point": "First NATO intercept of Iranian missile"
+  },
+  {
+    "date": "2026-03-11",
+    "time": "14:00",
+    "title": "Trump sends mixed signals on war's end",
+    "description": "President Trump tells CBS News the war is 'pretty much complete' but later tells House Republicans 'we haven't won enough.' Demands 'unconditional surrender' from Iran. Mixed messaging roils markets and confuses diplomatic channels.",
+    "category": "diplomatic",
+    "source": "CBS News / AP / Reuters",
+    "data_point": null
+  },
+  {
+    "date": "2026-03-11",
+    "time": "16:00",
+    "title": "US death toll rises to 8",
+    "description": "Pentagon confirms an eighth US service member has died from injuries sustained during an Iranian missile attack on US troops stationed in Saudi Arabia on March 1. The soldier had been in critical condition since Day 2.",
+    "category": "military",
+    "source": "DoD / Pentagon",
+    "data_point": "8 US KIA total"
+  },
+  {
+    "date": "2026-03-11",
+    "time": "18:00",
+    "title": "Gas prices hit $3.63/gallon despite oil retreat",
+    "description": "National average gas price rises to $3.63/gallon even as crude prices retreat. AAA notes gas prices lag oil by 7-10 days. California hits $4.81/gal. Analysts project continued climb as refinery capacity remains constrained by regional disruption.",
+    "category": "financial",
+    "source": "AAA / GasBuddy / YCharts",
+    "data_point": "$3.63/gal — +19% since pre-war"
   }
 ]
