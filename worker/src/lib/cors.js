@@ -1,7 +1,7 @@
 /* CORS Middleware */
 
 export function corsHeaders(env) {
-  const allowed = env.ALLOWED_ORIGINS || 'https://wartheater.org,http://localhost:8788';
+  const allowed = env.ALLOWED_ORIGINS || 'https://iranwar.ai,http://localhost:8788';
   return {
     'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',

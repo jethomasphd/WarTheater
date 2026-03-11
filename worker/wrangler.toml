@@ -15,7 +15,7 @@ id = "YOUR_KV_NAMESPACE_ID_HERE"
 
 # Environment variables (non-secret)
 [vars]
-ALLOWED_ORIGINS = "https://wartheater.org,https://www.wartheater.org,http://localhost:8788"
+ALLOWED_ORIGINS = "https://iranwar.ai,https://www.iranwar.ai,http://localhost:8788"
 
 # Secrets (set via: wrangler secret put SECRET_NAME)
 # ANTHROPIC_API_KEY
@@ -26,7 +26,7 @@ ALLOWED_ORIGINS = "https://wartheater.org,https://www.wartheater.org,http://loca
 # Routes
 # Configure in Cloudflare Dashboard or via:
 # routes = [
-#   { pattern = "wartheater.org/api/*", zone_name = "wartheater.org" }
+#   { pattern = "iranwar.ai/api/*", zone_name = "iranwar.ai" }
 # ]
 
 # Development
