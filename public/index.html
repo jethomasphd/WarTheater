@@ -54,6 +54,54 @@
     </div>
   </div>
 
+  <!-- DISCLAIMER GATE -->
+  <div class="disclaimer-overlay" id="disclaimer-overlay">
+    <div class="disclaimer-vignette"></div>
+    <div class="disclaimer-inner">
+
+      <div class="disclaimer-header">
+        <span class="disclaimer-icon">&#9888;</span>
+        <h2 class="disclaimer-title">BEFORE YOU PROCEED</h2>
+        <p class="disclaimer-subtitle">READ AND ACKNOWLEDGE</p>
+      </div>
+
+      <div class="disclaimer-body">
+
+        <div class="disclaimer-section">
+          <h3 class="disclaimer-label">I. UPDATE FREQUENCY</h3>
+          <p>This dashboard is currently updated <strong>once daily</strong>, typically in the morning (US Eastern). The architecture supports real-time data feeds, but that capability is not yet implemented. Data you see may lag current events by hours.</p>
+        </div>
+
+        <div class="disclaimer-section">
+          <h3 class="disclaimer-label">II. AI-ASSISTED CONSTRUCTION</h3>
+          <p>Much of the code, data aggregation, and enrichment behind this dashboard was built and maintained with the assistance of AI agents. While the creator applies filters, audits, and domain-informed guardrails, <strong>do not treat this data as gospel</strong>. AI models can and do produce incorrect date references, miscalculations, and hallucinated figures without proper review by domain experts.</p>
+        </div>
+
+        <div class="disclaimer-section">
+          <h3 class="disclaimer-label">III. THE INFORMATION FLOOD</h3>
+          <p>In a kinetic conflict, accurate and comprehensive information is extraordinarily difficult to obtain. Sources conflict. Fog of war is real. Propaganda is pervasive on all sides. This project makes the effort to source data with fidelity from ACLED, FRED, OCHA, CENTCOM, Reuters, AP, Bloomberg, and others &mdash; but <strong>no guarantees of accuracy are made</strong>.</p>
+        </div>
+
+        <div class="disclaimer-section disclaimer-thought">
+          <h3 class="disclaimer-label">IV. A THOUGHT</h3>
+          <p>Intelligence professionals inside the Pentagon are using these exact same AI models to inform decisions with real consequences. These models confidently produce bad data without audit by domain experts.</p>
+          <p class="disclaimer-kicker">How confident are we that the Pentagon has domain experts reviewing every output of their AI tools?</p>
+          <p class="disclaimer-flood">Welcome to the flood.</p>
+        </div>
+
+      </div>
+
+      <div class="disclaimer-action">
+        <label class="disclaimer-checkbox-wrap">
+          <input type="checkbox" id="disclaimer-agree">
+          <span>I understand the limitations of this data and will not rely on it for financial, military, or life-safety decisions.</span>
+        </label>
+        <button class="disclaimer-enter" id="disclaimer-enter" disabled>ACKNOWLEDGED &mdash; ENTER</button>
+      </div>
+
+    </div>
+  </div>
+
   <!-- CLASSIFICATION BANNER -->
   <div class="classification-banner" role="banner">
     UNCLASSIFIED // PUBLIC INTELLIGENCE DASHBOARD — THE WAR THEATER
@@ -189,25 +237,25 @@
 
         <!-- Hero Metrics -->
         <div class="metrics-grid" id="financial-metrics" aria-label="Key financial indicators">
-          <div class="hero-metric" title="Brent Crude: The international benchmark. Pre-war close: $72.38/bbl (Feb 27). Rebounded 4.8% on Mar 12 after yesterday's false-claim crash as fundamentals reassert. Source: ICE Futures Europe.">
-            <div class="value font-data" id="brent-price" style="color: var(--financial-up);">$92.50</div>
+          <div class="hero-metric" title="Brent Crude: The international benchmark. Pre-war close: $72.38/bbl (Feb 27). Surges back above $100 on Mar 12 after yesterday's false-claim crash. Intraday range $92.89–$101.53. Source: ICE Futures Europe / Bloomberg.">
+            <div class="value font-data" id="brent-price" style="color: var(--financial-up);">$100.11</div>
             <div class="label">Brent Crude $/bbl</div>
-            <div class="change up font-data" id="brent-change">+27.8% since Feb 27 — rebounding after crash</div>
+            <div class="change up font-data" id="brent-change">+38.3% since Feb 27 — back above $100</div>
           </div>
-          <div class="hero-metric" title="West Texas Intermediate: The US benchmark. Pre-war close: $70.82/bbl (Feb 27). Recovering alongside Brent as IRGC fires on US Navy near Hormuz. Source: NYMEX.">
-            <div class="value font-data" id="wti-price" style="color: var(--financial-up);">$89.40</div>
+          <div class="hero-metric" title="West Texas Intermediate: The US benchmark. Pre-war close: $70.82/bbl (Feb 27). Up 9.2% on the day as fundamentals reassert after false Hormuz claim. Source: NYMEX / Yahoo Finance.">
+            <div class="value font-data" id="wti-price" style="color: var(--financial-up);">$95.28</div>
             <div class="label">WTI Crude $/bbl</div>
-            <div class="change up font-data" id="wti-change">+26.2% since Feb 27 — IRGC-Navy clash drives rebound</div>
+            <div class="change up font-data" id="wti-change">+34.5% since Feb 27 — Hormuz shortfall persists</div>
           </div>
           <div class="hero-metric" title="National average retail gasoline price. Pre-war: $3.05/gal (Feb 27). Still climbing — gas lags oil by 7-10 days. California breaks $5.00. Source: AAA / YCharts.">
             <div class="value font-data" id="gas-price" style="color: var(--financial-up);">$3.72</div>
             <div class="label">US Gas Avg/Gal</div>
             <div class="change up font-data" id="gas-change">+$0.67 / +22.0% since Feb 27 — CA breaks $5.00</div>
           </div>
-          <div class="hero-metric" title="S&P 500 index. Pre-war close: 5,726 (Feb 27). Plunges as IRGC fires on US Navy and IDF launches ground war in Lebanon. Source: NYSE.">
-            <div class="value font-data" id="sp500-value" style="color: var(--financial-down);">5,181</div>
+          <div class="hero-metric" title="S&P 500 index. Pre-war close: 6,867 (Feb 27). Drops on war escalation, IRGC fires on US Navy and IDF launches ground war in Lebanon. Source: NYSE / Yahoo Finance.">
+            <div class="value font-data" id="sp500-value" style="color: var(--financial-down);">6,694</div>
             <div class="label">S&P 500</div>
-            <div class="change down font-data" id="sp500-change">-545 pts / -9.5% since Feb 27</div>
+            <div class="change down font-data" id="sp500-change">-173 pts / -2.5% since Feb 27</div>
           </div>
           <div class="hero-metric" title="Estimated daily operational cost. Day 13 spike reflects Hormuz convoy escort operations, retaliatory strikes on IRGC coastal batteries, and IDF ground support. Source: DoD budget analysis / CBO estimates.">
             <div class="value font-data" id="daily-cost" style="color: var(--text-accent);">$560M</div>

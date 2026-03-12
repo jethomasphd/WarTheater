@@ -12,10 +12,28 @@
     "unit": "USD/gallon"
   },
   "markets": {
-    "sp500": 5726,
-    "nasdaq": 18450,
-    "djia": 42800,
-    "source": "NYSE / NASDAQ closing prices"
+    "sp500": 6867,
+    "nasdaq": 22100,
+    "djia": 51300,
+    "source": "NYSE / NASDAQ closing prices, cross-referenced Yahoo Finance / FRED"
+  },
+  "treasury": {
+    "us_10yr_yield": 4.05,
+    "fed_funds_rate_upper": 3.75,
+    "fed_funds_rate_lower": 3.50,
+    "dxy": 98.20,
+    "source": "FRED DGS10 / Federal Reserve H.15 / ICE"
+  },
+  "commodities": {
+    "gold_oz": 4980.00,
+    "silver_oz": 71.50,
+    "vix": 19.20,
+    "source": "COMEX / CBOE"
+  },
+  "national_debt": {
+    "total_trillions": 38.86,
+    "debt_to_gdp_pct": 100,
+    "source": "Treasury FiscalData — Debt to the Penny / CBO"
   },
   "defense_stocks": {
     "RTX": 128.50,
