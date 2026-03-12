@@ -1361,6 +1361,57 @@ h4 { font-size: var(--text-lg); }
   margin: 0;
 }
 
+.about-fidelity-list {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-lg) 0 0 0;
+}
+
+.about-fidelity-list li {
+  position: relative;
+  padding-left: 1.4em;
+  margin-bottom: var(--space-md);
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: var(--text-base);
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.about-fidelity-list li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--text-accent);
+}
+
+.about-fidelity-list li strong {
+  color: var(--text-primary);
+}
+
+.about-fidelity-list li em {
+  color: var(--text-accent);
+  font-style: italic;
+}
+
+.about-contact-cta {
+  margin-top: var(--space-xl);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: var(--text-sm);
+  color: var(--text-dim);
+  letter-spacing: 0.03em;
+}
+
+.about-contact-cta a {
+  color: var(--text-accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(212, 120, 42, 0.3);
+  transition: border-color 0.2s;
+}
+
+.about-contact-cta a:hover {
+  border-bottom-color: var(--text-accent);
+}
+
 .about-signature {
   margin-top: 60px;
   text-align: center;
