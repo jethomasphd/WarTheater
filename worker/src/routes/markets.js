@@ -11,7 +11,7 @@ export async function handleMarkets(request, env, ctx) {
   // Curated snapshot (would be replaced by live financial API)
   const snapshot = {
     timestamp: new Date().toISOString(),
-    sp500: { value: 5251, change_pct: -8.3, baseline: 5726 },
+    sp500: { value: 6694, change_pct: -2.5, baseline: 6867 },
     defense_stocks: {
       RTX: { price: 146.4, change_pct: 14.2 },
       LMT: { price: 542.4, change_pct: 11.8 },
