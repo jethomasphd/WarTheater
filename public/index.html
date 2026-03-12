@@ -370,13 +370,6 @@
     <!-- ═══════════════════════════════════════════════════════ -->
     <section id="panel-briefing" class="panel" role="tabpanel" aria-label="AI Intelligence Briefing">
 
-      <!-- Briefing Navigation -->
-      <div class="briefing-nav" id="briefing-nav">
-        <button id="briefing-prev" class="briefing-nav-btn" disabled>&#9664; Previous Day</button>
-        <div id="briefing-nav-indicator" class="briefing-nav-indicator"></div>
-        <button id="briefing-next" class="briefing-nav-btn" disabled>Next Day &#9654;</button>
-      </div>
-
       <div class="briefing-container" id="briefing-content">
 
         <div class="briefing-header">
@@ -446,6 +439,13 @@
           <p style="font-size: var(--text-xs); color: var(--text-dim); font-family: 'JetBrains Mono', monospace;">
             Sources: ACLED, CENTCOM, NAVCENT, DoD press briefings, ICE/NYMEX, AAA, YCharts, UNHCR, OCHA, Reuters, AP, Bloomberg, CNBC, Al Jazeera, IDF, Hezbollah media office, NATO, Turkish MoD, Iranian state media (IRNA/PressTV), Senate.gov, UN Security Council. This briefing is AI-generated analysis of publicly available data. It does not represent the views of any government or intelligence agency.
           </p>
+        </div>
+
+        <!-- Archive CTA -->
+        <div class="briefing-archive-cta">
+          <div class="briefing-archive-cta-rule"></div>
+          <p class="briefing-archive-cta-label">Previous briefings are preserved in the archive</p>
+          <a href="archive.html" class="briefing-archive-btn">Enter The Archive &#9654;</a>
         </div>
 
       </div>
@@ -553,8 +553,9 @@
   <footer class="site-footer">
     <p class="attribution">
       THE WAR THEATER — Public Intelligence Dashboard
-      <br>Data: ACLED, FRED, UNHCR, OCHA, DoD, CENTCOM, Reuters, AP
+      <br>Data: ACLED, FRED, UNHCR, OCHA, DoD, CENTCOM, Reuters, AP, Bloomberg, NYMEX, UNHCR
     </p>
+    <p class="footer-cta">Questions, corrections, or tips? Report errors or reach out:</p>
     <p class="footer-contact">JEThomasPhD@gmail.com</p>
   </footer>
 
