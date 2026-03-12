@@ -1,0 +1,23 @@
+[
+  {
+    "day": 11,
+    "date": "2026-03-10",
+    "label": "MARCH 10, 2026 — DAY 11",
+    "headline": "Day 11 — War continues with no ceasefire in sight",
+    "file": "data/briefings/day-11.html"
+  },
+  {
+    "day": 12,
+    "date": "2026-03-11",
+    "label": "MARCH 11, 2026 — DAY 12",
+    "headline": "Oil crashes on false Hormuz claim; NATO intercepts missile over Turkey",
+    "file": "data/briefings/day-12.html"
+  },
+  {
+    "day": 13,
+    "date": "2026-03-12",
+    "label": "MARCH 12, 2026 — DAY 13",
+    "headline": "Hormuz convoy; IRGC fires on US Navy; IDF ground war in Lebanon",
+    "file": "data/briefings/day-13.html"
+  }
+]
