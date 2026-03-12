@@ -117,7 +117,7 @@
     await WarTheater.Timeline.init();
 
     // Briefing
-    WarTheater.Briefing.init();
+    await WarTheater.Briefing.init();
 
     console.log('[War Theater] Dashboard initialized. Day ' + WarTheater.Utils.getWarDay() + ' of Operation Epic Fury.');
   } catch (e) {

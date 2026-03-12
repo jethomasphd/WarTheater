@@ -32,23 +32,23 @@
   <div class="cinematic-intro" id="cinematic-intro">
     <div class="intro-vignette"></div>
     <div class="intro-inner">
-      <div class="intro-fade" style="animation-delay:1s;">
+      <div class="intro-fade" style="animation-delay:0.5s;">
         <p class="intro-eisenhower">"Every gun that is made, every warship launched, every rocket fired signifies, in the final sense, a theft from those who hunger and are not fed, those who are cold and are not clothed."</p>
         <p class="intro-eisenhower-attr">— Dwight D. Eisenhower, 1953</p>
       </div>
-      <div class="intro-fade" style="animation-delay:5s;">
+      <div class="intro-fade" style="animation-delay:3s;">
         <p class="intro-epigraph">This is not news. This is not commentary.</p>
       </div>
-      <div class="intro-fade" style="animation-delay:7s;">
+      <div class="intro-fade" style="animation-delay:4.5s;">
         <p class="intro-epigraph">This is data.</p>
       </div>
-      <div class="intro-fade" style="animation-delay:9.5s;">
+      <div class="intro-fade" style="animation-delay:6s;">
         <div class="intro-title">THE <span style="color:var(--text-accent);">WAR</span> THEATER</div>
       </div>
-      <div class="intro-fade" style="animation-delay:11s;">
+      <div class="intro-fade" style="animation-delay:7s;">
         <div class="intro-subtitle">A Public Intelligence Dashboard</div>
       </div>
-      <div class="intro-fade intro-enter-wrap" style="animation-delay:12.5s;">
+      <div class="intro-fade intro-enter-wrap" style="animation-delay:8s;">
         <button class="intro-enter" id="intro-enter">ENTER THE THEATER</button>
       </div>
     </div>
@@ -371,16 +371,10 @@
     <section id="panel-briefing" class="panel" role="tabpanel" aria-label="AI Intelligence Briefing">
 
       <!-- Briefing Navigation -->
-      <div class="briefing-nav" id="briefing-nav" style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-md) var(--space-lg); border-bottom: 1px solid var(--border); background: rgba(0,0,0,0.2);">
-        <button id="briefing-prev" class="briefing-nav-btn" disabled style="background: none; border: 1px solid var(--border); color: var(--text-secondary); padding: 6px 14px; font-family: 'Barlow Condensed', sans-serif; font-size: var(--text-sm); text-transform: uppercase; letter-spacing: 0.08em; cursor: pointer; transition: all 0.2s;">
-          &#9664; Previous Day
-        </button>
-        <div id="briefing-nav-indicator" style="font-family: 'JetBrains Mono', monospace; font-size: var(--text-xs); color: var(--text-secondary); letter-spacing: 0.06em;">
-          <!-- Updated by JS -->
-        </div>
-        <button id="briefing-next" class="briefing-nav-btn" disabled style="background: none; border: 1px solid var(--border); color: var(--text-secondary); padding: 6px 14px; font-family: 'Barlow Condensed', sans-serif; font-size: var(--text-sm); text-transform: uppercase; letter-spacing: 0.08em; cursor: pointer; transition: all 0.2s;">
-          Next Day &#9654;
-        </button>
+      <div class="briefing-nav" id="briefing-nav">
+        <button id="briefing-prev" class="briefing-nav-btn" disabled>&#9664; Previous Day</button>
+        <div id="briefing-nav-indicator" class="briefing-nav-indicator"></div>
+        <button id="briefing-next" class="briefing-nav-btn" disabled>Next Day &#9654;</button>
       </div>
 
       <div class="briefing-container" id="briefing-content">
