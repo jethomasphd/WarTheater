@@ -94,8 +94,8 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "3 Israeli civilians killed",
     "casualties_source": "IDF / Israeli media",
-    "active_days": [1, 2, 5, 12],
-    "notes": "Hezbollah and direct Iranian missile strikes on northern Israel. Day 12: Fresh Iranian barrage over Netanya, all intercepted."
+    "active_days": [1, 2, 5, 12, 13],
+    "notes": "Hezbollah and direct Iranian missile strikes on northern Israel. Day 12: Fresh Iranian barrage over Netanya, all intercepted. Day 13: Rocket fire from Lebanon continues as IDF ground operation begins."
   },
   {
     "id": "tel-aviv-israel",
@@ -108,8 +108,8 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Iron Dome / Arrow intercepted most; debris casualties",
     "casualties_source": "IDF",
-    "active_days": [1, 2, 3, 5, 12],
-    "notes": "Largest missile barrage on Tel Aviv since October 2023 escalation. Day 12: Overnight Iranian salvo, all intercepted by Arrow/Iron Dome."
+    "active_days": [1, 2, 3, 5, 12, 13],
+    "notes": "Largest missile barrage on Tel Aviv since October 2023 escalation. Day 12: Overnight Iranian salvo, all intercepted by Arrow/Iron Dome. Day 13: Hezbollah retaliatory strikes intensify as IDF crosses into southern Lebanon."
   },
   {
     "id": "nevatim-israel",
@@ -150,8 +150,8 @@
     "first_strike": "2026-03-02",
     "casualties_reported": "570+ Lebanese casualties (including 83 children)",
     "casualties_source": "Lebanese Health Ministry / ACLED",
-    "active_days": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    "notes": "Hezbollah entered war March 2. Israel responded with massive strikes on Dahieh and southern Lebanon. Day 12: IDF strikes command centers in Dahieh. Lebanese government bans Hezbollah military activities."
+    "active_days": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "notes": "Hezbollah entered war March 2. Israel responded with massive strikes on Dahieh and southern Lebanon. Day 12: IDF strikes command centers in Dahieh. Lebanese government bans Hezbollah military activities. Day 13: IDF launches ground incursion into southern Lebanon — first since 2006. Heavy fighting near Marjayoun. 2 Merkava tanks destroyed by ATGMs."
   },
   {
     "id": "tyre-lebanon",
@@ -164,8 +164,8 @@
     "first_strike": "2026-03-02",
     "casualties_reported": "Included in Lebanese total",
     "casualties_source": "ACLED",
-    "active_days": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    "notes": "Southern Lebanese city. Hezbollah rocket launch sites targeted. Israel ordered all residents south of Litani to move north on Day 6."
+    "active_days": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "notes": "Southern Lebanese city. Hezbollah rocket launch sites targeted. Israel ordered all residents south of Litani to move north on Day 6. Day 13: IDF ground forces advance toward Tyre axis; heavy urban combat reported."
   },
   {
     "id": "saudi-oil",
@@ -192,8 +192,8 @@
     "first_strike": "2026-03-11",
     "casualties_reported": "Ship damage — no crew casualties reported",
     "casualties_source": "UK Maritime Trade Operations / Bloomberg",
-    "active_days": [12],
-    "notes": "Three vessels struck in single day: Thai-flagged bulk carrier Mayruree Naree off Oman, container vessel near Ras Al-Khaimah, bulk carrier northwest of Dubai. First maritime attacks after 72-hour lull."
+    "active_days": [12, 13],
+    "notes": "Three vessels struck on Day 12. Day 13: IRGC fires anti-ship missiles at US convoy escort vessels; USS Paul Ignatius intercepts both. IRGC fast attack craft driven off by helicopter gunships. First direct US Navy-IRGC naval engagement of the war."
   },
   {
     "id": "saudi-base-attack",

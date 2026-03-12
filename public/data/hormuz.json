@@ -4,12 +4,12 @@
     "width_km": 33,
     "shipping_lane_width_km": 3,
     "daily_oil_flow_prewar_mbd": 20.5,
-    "daily_oil_flow_current_mbd": 0.5,
+    "daily_oil_flow_current_mbd": 1.2,
     "percent_global_oil": 20,
     "percent_global_lng": 25,
     "closure_date": "2026-03-01",
-    "closure_method": "Iranian naval mines, IRGC Navy fast attack craft, anti-ship missile batteries on islands and coastline. Three vessels struck by projectiles on March 11.",
-    "status": "Effectively closed to commercial traffic. Shadow tankers only vessels still transiting. 400+ tankers stranded in Persian Gulf."
+    "closure_method": "Iranian naval mines, IRGC Navy fast attack craft, anti-ship missile batteries on islands and coastline. Three vessels struck on March 11. IRGC fired on US Navy convoy escort on March 12.",
+    "status": "Partially breached. US Navy escorted first 3-tanker convoy through on March 12 under heavy guard. IRGC fired anti-ship missiles at escort vessels — intercepted. Transit remains extremely dangerous. 400+ tankers still stranded."
   },
   "geometry": {
     "chokepoint": [
@@ -43,7 +43,7 @@
   },
   "impact": {
     "tankers_transiting_prewar_daily": 85,
-    "tankers_transiting_current_daily": 3,
+    "tankers_transiting_current_daily": 6,
     "insurance_cost_increase_pct": 1200,
     "alternative_routes": [
       {"name": "East-West Pipeline (Saudi)", "capacity_mbd": 5.0, "status": "Operating at capacity"},
@@ -54,7 +54,9 @@
     "shortfall_mbd": 12.35,
     "stranded_tankers": 400,
     "shadow_tanker_transits_daily": 13,
-    "vessels_attacked_total": 6,
-    "vessels_attacked_march_11": 3
+    "escorted_convoy_transits": 3,
+    "vessels_attacked_total": 8,
+    "vessels_attacked_march_11": 3,
+    "us_navy_engaged_march_12": true
   }
 }

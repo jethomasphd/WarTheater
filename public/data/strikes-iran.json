@@ -15,8 +15,8 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown — heavy",
     "casualties_source": "ACLED / Iranian state media",
-    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    "notes": "Continuous bombardment since Day 1. Supreme Leader Khamenei killed in initial strike. Day 11: 40 killed in eastern Tehran residential area. Day 12: IDF destroys IRGC Air Force HQ."
+    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "notes": "Continuous bombardment since Day 1. Supreme Leader Khamenei killed in initial strike. Day 11: 40 killed in eastern Tehran residential area. Day 12: IDF destroys IRGC Air Force HQ. Day 13: Strikes continue on remaining IRGC infrastructure."
   },
   {
     "id": "isfahan-nuclear",
@@ -66,8 +66,8 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "DoD / ACLED",
-    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    "notes": "Key Strait of Hormuz control point. Continuous strikes to suppress coastal batteries."
+    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "notes": "Key Strait of Hormuz control point. Continuous strikes to suppress coastal batteries. Day 13: Intensified strikes after IRGC fires on US convoy escort."
   },
   {
     "id": "shiraz-airbase",
@@ -167,8 +167,8 @@
     "first_strike": "2026-03-07",
     "casualties_reported": "Unknown",
     "casualties_source": "Satellite imagery / shipping data",
-    "active_days": [8, 9, 10, 11, 12],
-    "notes": "90% of Iran's oil exports flow through Kharg. Struck in second-week escalation. Israel bombed 30 additional oil depots on Day 10."
+    "active_days": [8, 9, 10, 11, 12, 13],
+    "notes": "90% of Iran's oil exports flow through Kharg. Struck in second-week escalation. Israel bombed 30 additional oil depots on Day 10. Day 13: Continued suppression of remaining export infrastructure."
   },
   {
     "id": "abadan-refinery",
@@ -183,8 +183,8 @@
     "first_strike": "2026-03-07",
     "casualties_reported": "Civilian casualties reported",
     "casualties_source": "Iranian state media / ACLED",
-    "active_days": [8, 9, 10, 11],
-    "notes": "Major refinery. Strikes on oil infrastructure began March 7. Toxic smoke blanketed Tehran."
+    "active_days": [8, 9, 10, 11, 13],
+    "notes": "Major refinery. Strikes on oil infrastructure began March 7. Toxic smoke blanketed Tehran. Day 13: Additional strikes on refinery perimeter."
   },
   {
     "id": "minab-school",
@@ -297,5 +297,22 @@
     "casualties_source": "Iranian state media / Al Jazeera",
     "active_days": [11, 12],
     "notes": "Strike on residential area in eastern Tehran killed at least 40 people. Second major civilian casualty incident after Minab."
+  },
+  {
+    "id": "ahvaz-hospital",
+    "city": "Ahvaz",
+    "lat": 31.3183,
+    "lng": 48.6706,
+    "type": "us_strike",
+    "subtype": "civilian_casualty",
+    "targets": [
+      "IRGC logistics hub (stated target)",
+      "Hospital (reported collateral damage from secondary explosion)"
+    ],
+    "first_strike": "2026-03-12",
+    "casualties_reported": "12 killed per Iranian claims — under investigation",
+    "casualties_source": "IRNA / PressTV / DoD denial",
+    "active_days": [13],
+    "notes": "Iranian state media claims hospital struck by US airstrike, killing 12 patients and staff. Pentagon states target was IRGC logistics hub 400m away; hospital damage from secondary explosions. Third major civilian infrastructure incident after Minab and Tehran East."
   }
 ]
