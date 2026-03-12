@@ -16,14 +16,14 @@ export async function handleBriefing(request, env, ctx) {
   // Generate new briefing
   try {
     const contextData = {
-      brent: '101.50',
-      brentChange: '+40.2',
-      wti: '98.20',
-      wtiChange: '+38.7',
-      gas: '3.48',
-      gasChange: '+14.1',
-      sp500: '5,251',
-      sp500Change: '-8.3',
+      brent: '100.11',
+      brentChange: '+38.3',
+      wti: '95.28',
+      wtiChange: '+34.5',
+      gas: '3.72',
+      gasChange: '+22.0',
+      sp500: '6,694',
+      sp500Change: '-2.5',
       headlines: [
         'Mojtaba Khamenei named Supreme Leader, vows resistance',
         'US strikes on Kharg Island oil terminal continue',
