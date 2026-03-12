@@ -18,7 +18,7 @@
   Content-Type: application/json
 
 /css/*
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=300
 
 /js/*
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=300
