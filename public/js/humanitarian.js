@@ -36,7 +36,7 @@ WarTheater.Humanitarian = {
     var ctx = document.getElementById('chart-casualties');
     if (!ctx) return;
 
-    var labels = ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11'];
+    var labels = ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12'];
     var defaults = WarTheater.Utils.chartDefaults();
 
     var dayContexts = [
@@ -51,7 +51,8 @@ WarTheater.Humanitarian = {
       'Day 9 — SPR release, strikes continue',
       'Day 10 — New Supreme Leader named',
       'Day 11 — No ceasefire in sight',
-      'Day 12 — NATO intercepts Iranian missile over Turkey; 8th US KIA'
+      'Day 12 — NATO intercepts Iranian missile over Turkey; 8th US KIA',
+      'Day 13 — IDF ground war in Lebanon; IRGC fires on US Navy; Ahvaz hospital incident'
     ];
 
     this.charts.casualties = new Chart(ctx, {
@@ -61,7 +62,7 @@ WarTheater.Humanitarian = {
         datasets: [
           {
             label: 'Iranian Military',
-            data: [80, 120, 150, 130, 110, 100, 90, 140, 120, 80, 80, 95],
+            data: [80, 120, 150, 130, 110, 100, 90, 140, 120, 80, 80, 95, 110],
             backgroundColor: 'rgba(184, 28, 28, 0.6)',
             borderColor: '#b81c1c',
             borderWidth: 1,
@@ -69,7 +70,7 @@ WarTheater.Humanitarian = {
           },
           {
             label: 'Iranian Civilian',
-            data: [5, 10, 15, 12, 35, 20, 15, 25, 18, 10, 8, 45],
+            data: [5, 10, 15, 12, 35, 20, 15, 25, 18, 10, 8, 45, 20],
             backgroundColor: 'rgba(255, 255, 255, 0.35)',
             borderColor: '#ffffff',
             borderWidth: 1,
@@ -77,7 +78,7 @@ WarTheater.Humanitarian = {
           },
           {
             label: 'US Military',
-            data: [6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2],
+            data: [6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0],
             backgroundColor: 'rgba(74, 158, 255, 0.6)',
             borderColor: '#4a9eff',
             borderWidth: 1,
@@ -85,9 +86,17 @@ WarTheater.Humanitarian = {
           },
           {
             label: 'Lebanese (all)',
-            data: [0, 0, 40, 55, 60, 65, 58, 72, 55, 45, 36, 42],
+            data: [0, 0, 40, 55, 60, 65, 58, 72, 55, 45, 36, 42, 85],
             backgroundColor: 'rgba(123, 63, 160, 0.6)',
             borderColor: '#7b3fa0',
+            borderWidth: 1,
+            stack: 'casualties'
+          },
+          {
+            label: 'Israeli Military',
+            data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4],
+            backgroundColor: 'rgba(255, 200, 50, 0.6)',
+            borderColor: '#ffc832',
             borderWidth: 1,
             stack: 'casualties'
           }
@@ -142,10 +151,10 @@ WarTheater.Humanitarian = {
     var items = [
       {
         label: 'Hospitals Damaged',
-        count: '3+',
-        note: 'Southern Lebanon',
-        source: 'OCHA',
-        detail: 'Structural damage from strikes on adjacent Hezbollah positions. Medical capacity in south Lebanon degraded. At least 3 facilities reporting inability to operate.'
+        count: '4+',
+        note: 'Lebanon + Ahvaz, Iran',
+        source: 'OCHA / IRNA',
+        detail: 'Structural damage from strikes on adjacent military positions. 3+ facilities in south Lebanon degraded. Day 13: Hospital in Ahvaz damaged — Iran claims 12 killed; Pentagon says IRGC logistics hub was target, hospital hit by secondary explosion.'
       },
       {
         label: 'Schools Destroyed',
@@ -203,7 +212,7 @@ WarTheater.Humanitarian = {
     var defaults = WarTheater.Utils.chartDefaults();
 
     var conflictNotes = {
-      0: 'Operation Epic Fury — air campaign only, no ground invasion. 3 carrier groups. Hormuz closed. NATO intercept over Turkey.',
+      0: 'Operation Epic Fury — air + ground (Lebanon). 3 carrier groups. Hormuz partially breached. First US-IRGC naval engagement.',
       1: 'Operation Iraqi Freedom — "shock and awe" + ground invasion. 300,000 troops deployed.',
       2: 'Operation Odyssey Dawn / Unified Protector — NATO no-fly zone. Limited US role.',
       3: 'Operation Desert Storm — 38-day air campaign + 100-hour ground war. 700,000 coalition troops.'
@@ -212,11 +221,11 @@ WarTheater.Humanitarian = {
     this.charts.historical = new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: ['Iran 2026 (Day 12)', 'Iraq 2003 (Day 12)', 'Libya 2011 (Day 12)', 'Gulf 1991 (Day 12)'],
+        labels: ['Iran 2026 (Day 13)', 'Iraq 2003 (Day 13)', 'Libya 2011 (Day 13)', 'Gulf 1991 (Day 13)'],
         datasets: [
           {
             label: 'Total Strikes',
-            data: [3200, 13000, 440, 19500],
+            data: [3500, 14200, 480, 21000],
             backgroundColor: 'rgba(212, 120, 42, 0.5)',
             borderColor: '#d4782a',
             borderWidth: 1
@@ -230,7 +239,7 @@ WarTheater.Humanitarian = {
           },
           {
             label: 'Est. Daily Cost ($M, 2026 dollars)',
-            data: [500, 720, 120, 600],
+            data: [560, 750, 125, 620],
             backgroundColor: 'rgba(239, 68, 68, 0.5)',
             borderColor: '#ef4444',
             borderWidth: 1

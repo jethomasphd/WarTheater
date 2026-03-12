@@ -250,5 +250,86 @@
     "category": "financial",
     "source": "AAA / GasBuddy / YCharts",
     "data_point": "$3.63/gal — +19% since pre-war"
+  },
+  {
+    "date": "2026-03-12",
+    "time": "02:00",
+    "title": "NATO invokes Article 4 consultations over Turkey missile incident",
+    "description": "NATO convenes emergency Article 4 consultations after Turkey's request following the intercept of an Iranian ballistic missile in Turkish airspace. While stopping short of Article 5 collective defense, allies agree to deploy additional Patriot batteries to southeastern Turkey and upgrade AWACS coverage. Iran warns Turkey of 'severe consequences' for 'siding with the aggressors.'",
+    "category": "diplomatic",
+    "source": "NATO / Turkish MoD / Reuters",
+    "data_point": "First Article 4 invocation over direct Iranian threat"
+  },
+  {
+    "date": "2026-03-12",
+    "time": "06:00",
+    "title": "Oil rebounds as markets reassess fundamentals",
+    "description": "Brent crude rebounds 4.8% to $92.50/bbl as traders recognize that yesterday's crash was driven by a false claim, not a genuine change in supply conditions. The Strait of Hormuz remains closed, 400+ tankers remain stranded, and the 12.35 MBD shortfall persists. WTI recovers to $89.40. Analysts warn the rebound could accelerate if any new escalation occurs.",
+    "category": "financial",
+    "source": "ICE / NYMEX / Bloomberg",
+    "data_point": "Brent rebounds to $92.50 — +4.8% from crash low"
+  },
+  {
+    "date": "2026-03-12",
+    "time": "08:00",
+    "title": "US Navy escorts first convoy through Hormuz corridor",
+    "description": "US Fifth Fleet announces the first escorted convoy of three tankers has transited a narrow, partially cleared corridor through the Strait of Hormuz under heavy naval escort. USS Abraham Lincoln strike group and mine countermeasures vessels provided cover. Transit took 14 hours — normally 2. One mine detonated in cleared lane; no damage. Iran's IRGC Navy observed but did not engage.",
+    "category": "military",
+    "source": "NAVCENT / Fifth Fleet / Reuters",
+    "data_point": "3 tankers through — first since closure Day 2"
+  },
+  {
+    "date": "2026-03-12",
+    "time": "10:00",
+    "title": "IDF launches ground incursion into southern Lebanon",
+    "description": "Israeli armored and infantry units cross the Blue Line into southern Lebanon in what the IDF describes as a 'limited ground operation' to push Hezbollah back from the border. Golani Brigade and 7th Armored Brigade spearhead the advance toward the Litani River. Heavy fighting reported near Marjayoun. Hezbollah's Radwan Force engages with ATGMs, destroying at least 2 Merkava tanks.",
+    "category": "military",
+    "source": "IDF / Hezbollah media / Al Jazeera",
+    "data_point": "First Israeli ground operation in Lebanon since 2006"
+  },
+  {
+    "date": "2026-03-12",
+    "time": "12:00",
+    "title": "Bipartisan group of senators demands AUMF vote",
+    "description": "A bipartisan group of 34 senators — 18 Democrats and 16 Republicans — sends a letter to Senate leadership demanding a vote on Authorization for Use of Military Force within 72 hours. Senator Tim Kaine calls the war 'unconstitutional' without Congressional authorization. White House cites the 2001 AUMF and Article II powers.",
+    "category": "domestic",
+    "source": "AP / Senate.gov / Reuters",
+    "data_point": "34 senators demand war authorization vote"
+  },
+  {
+    "date": "2026-03-12",
+    "time": "14:00",
+    "title": "Iran strikes back at Hormuz convoy — 2 escort ships targeted",
+    "description": "Hours after the successful convoy transit, IRGC coastal batteries launch anti-ship missiles at US escort vessels in the Strait. USS Paul Ignatius (DDG-117) engages with SM-2 and CIWS, intercepting both missiles. A second salvo of fast attack craft approaches but is driven off by helicopter gunships from USS America. No US casualties. Pentagon calls it 'an act of escalation that will be answered.'",
+    "category": "military",
+    "source": "CENTCOM / NAVCENT / DoD",
+    "data_point": "First direct engagement between US Navy and IRGC Navy"
+  },
+  {
+    "date": "2026-03-12",
+    "time": "16:00",
+    "title": "Iranian state media claims hospital hit in Ahvaz",
+    "description": "Iranian state television broadcasts footage of a damaged hospital in Ahvaz, claiming a US airstrike struck the facility, killing 12 patients and staff. Pentagon states the target was an IRGC logistics hub 400 meters away and that the hospital damage was caused by secondary explosions. Independent verification not yet possible. Third major civilian infrastructure incident.",
+    "category": "humanitarian",
+    "source": "IRNA / PressTV / DoD denial / AP",
+    "data_point": "12 killed per Iranian claims — under investigation"
+  },
+  {
+    "date": "2026-03-12",
+    "time": "17:00",
+    "title": "China proposes 72-hour ceasefire at UNSC — US vetoes",
+    "description": "China introduces a UN Security Council resolution calling for an immediate 72-hour humanitarian ceasefire and negotiations. Russia co-sponsors. France and UK abstain. US vetoes, stating it will not accept conditions that allow Iran to 'reconstitute its nuclear program or rearm Hezbollah.' Ambassador Linda Thomas-Greenfield calls the resolution 'a shield for Iranian aggression.'",
+    "category": "diplomatic",
+    "source": "UN / AP / Reuters",
+    "data_point": "US vetoes ceasefire resolution"
+  },
+  {
+    "date": "2026-03-12",
+    "time": "18:00",
+    "title": "Gas prices climb to $3.72/gallon — California breaks $5.00",
+    "description": "National average gas price reaches $3.72/gallon, continuing its relentless climb despite yesterday's oil price dip. California becomes the first state to break $5.00/gallon since the war began, hitting $5.02. AAA warns that the oil rebound today means no near-term pump relief. Trucking industry warns of freight surcharges that will ripple through consumer goods prices.",
+    "category": "financial",
+    "source": "AAA / GasBuddy / YCharts",
+    "data_point": "$3.72/gal — +22% since pre-war. CA breaks $5.00"
   }
 ]
