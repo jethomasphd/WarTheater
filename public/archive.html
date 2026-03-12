@@ -16,48 +16,57 @@
   <!-- DISCLAIMER GATE -->
   <div class="disclaimer-overlay" id="disclaimer-overlay">
     <div class="disclaimer-vignette"></div>
-    <div class="disclaimer-inner">
+    <div class="disclaimer-scroll">
+      <div class="disclaimer-inner">
 
-      <div class="disclaimer-header">
-        <span class="disclaimer-icon">&#9888;</span>
-        <h2 class="disclaimer-title">BEFORE YOU PROCEED</h2>
-        <p class="disclaimer-subtitle">READ AND ACKNOWLEDGE</p>
+        <div class="disclaimer-header">
+          <div class="disclaimer-rule"></div>
+          <h2 class="disclaimer-title">KNOW WHAT YOU'RE WALKING INTO</h2>
+          <div class="disclaimer-rule"></div>
+        </div>
+
+        <div class="disclaimer-body">
+
+          <div class="disclaimer-section">
+            <p>This dashboard is updated <strong>once daily</strong>, typically mornings US Eastern. The architecture supports real-time feeds &mdash; that capability is not yet live. What you see may lag current events by hours.</p>
+          </div>
+
+          <div class="disclaimer-section">
+            <p>This entire project &mdash; the code, the data pipelines, the enrichment &mdash; was built with AI agents. I audit it. I apply domain-informed guardrails. I catch what I can. But these models hallucinate dates, fabricate figures, and miscalculate with total confidence. <strong>I'm pretty good at this and I still get errors all the time.</strong></p>
+          </div>
+
+          <div class="disclaimer-section">
+            <p>Intelligence professionals inside the Pentagon use these same models to inform decisions with real consequences. The models don't know when they're wrong. <strong>How confident are we that the Pentagon has domain experts reviewing every output?</strong></p>
+          </div>
+
+          <div class="disclaimer-divider"></div>
+
+          <div class="disclaimer-section disclaimer-flood-section">
+            <p>Here is the harder truth: in a kinetic conflict, accurate information is nearly impossible to obtain. Sources contradict each other. Governments lie. Propaganda is pervasive on every side. The volume of data is overwhelming and much of it is engineered to mislead.</p>
+            <p>This is <em>the flood</em>.</p>
+            <p>No dashboard can drain it. No model can filter it perfectly. What you can do is approach it with <strong>good faith and transparency</strong> &mdash; which is what this project attempts.</p>
+          </div>
+
+          <div class="disclaimer-section">
+            <p>Every line of code is open. Every data source is cited. The entire repository is public on GitHub. Fork it. Audit it. Improve it. Call it profound, call it naive, call it silly &mdash; the effort is what matters. Sunlight is the only disinfectant that works in the flood.</p>
+            <p class="disclaimer-repo"><a href="https://github.com/jethomasphd/WarTheater" target="_blank" rel="noopener">github.com/jethomasphd/WarTheater</a></p>
+          </div>
+
+          <div class="disclaimer-divider"></div>
+
+          <p class="disclaimer-closing">This project is built in good faith. No guarantees are made.</p>
+
+        </div>
+
+        <div class="disclaimer-action">
+          <label class="disclaimer-checkbox-wrap">
+            <input type="checkbox" id="disclaimer-agree">
+            <span>I understand this data is AI-assisted, updated daily, and comes with no guarantees of accuracy. I will not rely on it for financial, military, or life-safety decisions.</span>
+          </label>
+          <button class="disclaimer-enter" id="disclaimer-enter" disabled>I UNDERSTAND &mdash; ENTER THE THEATER</button>
+        </div>
+
       </div>
-
-      <div class="disclaimer-body">
-
-        <div class="disclaimer-section">
-          <h3 class="disclaimer-label">I. UPDATE FREQUENCY</h3>
-          <p>This dashboard is currently updated <strong>once daily</strong>, typically in the morning (US Eastern). The architecture supports real-time data feeds, but that capability is not yet implemented. Data you see may lag current events by hours.</p>
-        </div>
-
-        <div class="disclaimer-section">
-          <h3 class="disclaimer-label">II. AI-ASSISTED CONSTRUCTION</h3>
-          <p>Much of the code, data aggregation, and enrichment behind this dashboard was built and maintained with the assistance of AI agents. While the creator applies filters, audits, and domain-informed guardrails, <strong>do not treat this data as gospel</strong>. AI models can and do produce incorrect date references, miscalculations, and hallucinated figures without proper review by domain experts.</p>
-        </div>
-
-        <div class="disclaimer-section">
-          <h3 class="disclaimer-label">III. THE INFORMATION FLOOD</h3>
-          <p>In a kinetic conflict, accurate and comprehensive information is extraordinarily difficult to obtain. Sources conflict. Fog of war is real. Propaganda is pervasive on all sides. This project makes the effort to source data with fidelity from ACLED, FRED, OCHA, CENTCOM, Reuters, AP, Bloomberg, and others &mdash; but <strong>no guarantees of accuracy are made</strong>.</p>
-        </div>
-
-        <div class="disclaimer-section disclaimer-thought">
-          <h3 class="disclaimer-label">IV. A THOUGHT</h3>
-          <p>Intelligence professionals inside the Pentagon are using these exact same AI models to inform decisions with real consequences. These models confidently produce bad data without audit by domain experts.</p>
-          <p class="disclaimer-kicker">How confident are we that the Pentagon has domain experts reviewing every output of their AI tools?</p>
-          <p class="disclaimer-flood">Welcome to the flood.</p>
-        </div>
-
-      </div>
-
-      <div class="disclaimer-action">
-        <label class="disclaimer-checkbox-wrap">
-          <input type="checkbox" id="disclaimer-agree">
-          <span>I understand the limitations of this data and will not rely on it for financial, military, or life-safety decisions.</span>
-        </label>
-        <button class="disclaimer-enter" id="disclaimer-enter" disabled>ACKNOWLEDGED &mdash; ENTER</button>
-      </div>
-
     </div>
   </div>
 

@@ -43,6 +43,29 @@
     --text-2xl: 1.5rem;
   }
 
+  .disclaimer-inner {
+    padding: 48px 20px 40px;
+  }
+
+  .disclaimer-title {
+    font-size: var(--text-base);
+    letter-spacing: 0.18em;
+  }
+
+  .disclaimer-header {
+    margin-bottom: 36px;
+  }
+
+  .disclaimer-section p {
+    font-size: 0.8125rem;
+    line-height: 1.9;
+  }
+
+  .disclaimer-enter {
+    max-width: 100%;
+    padding: 14px 24px;
+  }
+
   .classification-banner {
     font-size: 9px;
     letter-spacing: 0.08em;
@@ -182,6 +205,28 @@
 @media (max-width: 480px) {
   :root {
     --text-hero: 1.75rem;
+  }
+
+  .disclaimer-inner {
+    padding: 36px 16px 32px;
+  }
+
+  .disclaimer-title {
+    font-size: var(--text-sm);
+    letter-spacing: 0.15em;
+  }
+
+  .disclaimer-section p {
+    font-size: 0.75rem;
+  }
+
+  .disclaimer-checkbox-wrap span {
+    font-size: 0.6875rem;
+  }
+
+  .disclaimer-enter {
+    font-size: var(--text-xs);
+    padding: 12px 20px;
   }
 
   .metrics-grid {
