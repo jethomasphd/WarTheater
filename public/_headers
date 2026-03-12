@@ -6,6 +6,13 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
 
+# HTML pages — no aggressive caching so deploys propagate immediately
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
 /data/*
   Cache-Control: public, max-age=300
   Content-Type: application/json
