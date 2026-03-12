@@ -369,6 +369,20 @@
     <!-- PANEL 4: THE BRIEFING                                   -->
     <!-- ═══════════════════════════════════════════════════════ -->
     <section id="panel-briefing" class="panel" role="tabpanel" aria-label="AI Intelligence Briefing">
+
+      <!-- Briefing Navigation -->
+      <div class="briefing-nav" id="briefing-nav" style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-md) var(--space-lg); border-bottom: 1px solid var(--border); background: rgba(0,0,0,0.2);">
+        <button id="briefing-prev" class="briefing-nav-btn" disabled style="background: none; border: 1px solid var(--border); color: var(--text-secondary); padding: 6px 14px; font-family: 'Barlow Condensed', sans-serif; font-size: var(--text-sm); text-transform: uppercase; letter-spacing: 0.08em; cursor: pointer; transition: all 0.2s;">
+          &#9664; Previous Day
+        </button>
+        <div id="briefing-nav-indicator" style="font-family: 'JetBrains Mono', monospace; font-size: var(--text-xs); color: var(--text-secondary); letter-spacing: 0.06em;">
+          <!-- Updated by JS -->
+        </div>
+        <button id="briefing-next" class="briefing-nav-btn" disabled style="background: none; border: 1px solid var(--border); color: var(--text-secondary); padding: 6px 14px; font-family: 'Barlow Condensed', sans-serif; font-size: var(--text-sm); text-transform: uppercase; letter-spacing: 0.08em; cursor: pointer; transition: all 0.2s;">
+          Next Day &#9654;
+        </button>
+      </div>
+
       <div class="briefing-container" id="briefing-content">
 
         <div class="briefing-header">

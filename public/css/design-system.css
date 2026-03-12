@@ -744,6 +744,17 @@ h4 { font-size: var(--text-lg); }
   color: var(--text-accent);
 }
 
+/* === BRIEFING NAV === */
+.briefing-nav-btn:hover:not(:disabled) {
+  border-color: var(--text-accent);
+  color: var(--text-accent);
+}
+
+.briefing-nav-btn:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
 /* === TIMELINE PANEL === */
 .timeline-container {
   max-width: 900px;
