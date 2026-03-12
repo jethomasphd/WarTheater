@@ -111,10 +111,10 @@
     "date": "2026-03-05",
     "time": "09:00",
     "title": "S&P 500 enters correction territory",
-    "description": "US stock markets fall sharply as conflict escalation fears mount. S&P 500 down 8.3% from pre-war levels. Defense stocks surge; airlines collapse.",
+    "description": "US stock markets fall sharply as conflict escalation fears mount. S&P 500 drops to 6,297 — down 8.3% from pre-war close of 6,867. Defense stocks surge; airlines collapse. VIX spikes above 35.",
     "category": "financial",
-    "source": "NYSE / Bloomberg",
-    "data_point": "S&P 500 -8.3%"
+    "source": "NYSE / Bloomberg / Yahoo Finance",
+    "data_point": "S&P 500 6,297 — down 8.3% from 6,867 pre-war"
   },
   {
     "date": "2026-03-05",
@@ -174,7 +174,7 @@
     "date": "2026-03-10",
     "time": "08:00",
     "title": "Day 11 — War continues with no ceasefire in sight",
-    "description": "Strikes continue across Iran. Hezbollah front intensifies. Oil at $101.50. Gas national average at $3.48 and climbing. Estimated US operational cost: $500M/day.",
+    "description": "Strikes continue across Iran. Hezbollah front intensifies. Oil at $101.50. S&P 500 at 6,694 — still 2.5% below pre-war. VIX holds above 25. Gas national average at $3.48 and climbing. Estimated US operational cost: $500M/day.",
     "category": "military",
     "source": "Multiple",
     "data_point": "Estimated total cost: $5B+"
@@ -264,10 +264,10 @@
     "date": "2026-03-12",
     "time": "06:00",
     "title": "Oil rebounds as markets reassess fundamentals",
-    "description": "Brent crude rebounds 4.8% to $92.50/bbl as traders recognize that yesterday's crash was driven by a false claim, not a genuine change in supply conditions. The Strait of Hormuz remains closed, 400+ tankers remain stranded, and the 12.35 MBD shortfall persists. WTI recovers to $89.40. Analysts warn the rebound could accelerate if any new escalation occurs.",
+    "description": "Brent crude surges back above $100 to close at $100.11/bbl (intraday range $92.89–$101.53) as traders recognize that yesterday's crash was driven by a false claim, not a genuine change in supply conditions. The Strait of Hormuz remains closed, 400+ tankers remain stranded, and the 12.35 MBD shortfall persists. WTI closes at $95.28 (+9.2%). Gold breaks $5,126/oz on safe-haven demand.",
     "category": "financial",
-    "source": "ICE / NYMEX / Bloomberg",
-    "data_point": "Brent rebounds to $92.50 — +4.8% from crash low"
+    "source": "ICE / NYMEX / Bloomberg / Yahoo Finance",
+    "data_point": "Brent $100.11 — back above $100. WTI $95.28. Gold $5,127/oz"
   },
   {
     "date": "2026-03-12",

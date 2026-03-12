@@ -69,13 +69,17 @@
 
     if (sessionStorage.getItem('wt-intro-seen')) {
       intro.remove();
+      showDisclaimer();
       return;
     }
 
     function dismiss() {
       intro.classList.add('fade-out');
       sessionStorage.setItem('wt-intro-seen', '1');
-      setTimeout(function() { intro.remove(); }, 1000);
+      setTimeout(function() {
+        intro.remove();
+        showDisclaimer();
+      }, 1000);
     }
 
     document.getElementById('intro-enter').addEventListener('click', dismiss);
@@ -84,9 +88,39 @@
     });
   }
 
+  // Disclaimer gate — must acknowledge before viewing dashboard
+  function showDisclaimer() {
+    var overlay = document.getElementById('disclaimer-overlay');
+    if (!overlay) return;
+
+    if (sessionStorage.getItem('wt-disclaimer-ack')) {
+      overlay.remove();
+      return;
+    }
+
+    overlay.style.display = 'flex';
+
+    var checkbox = document.getElementById('disclaimer-agree');
+    var enterBtn = document.getElementById('disclaimer-enter');
+
+    checkbox.addEventListener('change', function() {
+      enterBtn.disabled = !checkbox.checked;
+    });
+
+    enterBtn.addEventListener('click', function() {
+      overlay.classList.add('fade-out');
+      sessionStorage.setItem('wt-disclaimer-ack', '1');
+      setTimeout(function() { overlay.remove(); }, 1000);
+    });
+  }
+
   // ─── BOOT ───────────────────────────────────────────────
   try {
     initIntro();
+    // If intro was absent, ensure disclaimer still fires
+    if (!document.getElementById('cinematic-intro')) {
+      showDisclaimer();
+    }
 
     // Navigation
     initNavigation();

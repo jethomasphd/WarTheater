@@ -13,6 +13,54 @@
 </head>
 <body>
 
+  <!-- DISCLAIMER GATE -->
+  <div class="disclaimer-overlay" id="disclaimer-overlay">
+    <div class="disclaimer-vignette"></div>
+    <div class="disclaimer-inner">
+
+      <div class="disclaimer-header">
+        <span class="disclaimer-icon">&#9888;</span>
+        <h2 class="disclaimer-title">BEFORE YOU PROCEED</h2>
+        <p class="disclaimer-subtitle">READ AND ACKNOWLEDGE</p>
+      </div>
+
+      <div class="disclaimer-body">
+
+        <div class="disclaimer-section">
+          <h3 class="disclaimer-label">I. UPDATE FREQUENCY</h3>
+          <p>This dashboard is currently updated <strong>once daily</strong>, typically in the morning (US Eastern). The architecture supports real-time data feeds, but that capability is not yet implemented. Data you see may lag current events by hours.</p>
+        </div>
+
+        <div class="disclaimer-section">
+          <h3 class="disclaimer-label">II. AI-ASSISTED CONSTRUCTION</h3>
+          <p>Much of the code, data aggregation, and enrichment behind this dashboard was built and maintained with the assistance of AI agents. While the creator applies filters, audits, and domain-informed guardrails, <strong>do not treat this data as gospel</strong>. AI models can and do produce incorrect date references, miscalculations, and hallucinated figures without proper review by domain experts.</p>
+        </div>
+
+        <div class="disclaimer-section">
+          <h3 class="disclaimer-label">III. THE INFORMATION FLOOD</h3>
+          <p>In a kinetic conflict, accurate and comprehensive information is extraordinarily difficult to obtain. Sources conflict. Fog of war is real. Propaganda is pervasive on all sides. This project makes the effort to source data with fidelity from ACLED, FRED, OCHA, CENTCOM, Reuters, AP, Bloomberg, and others &mdash; but <strong>no guarantees of accuracy are made</strong>.</p>
+        </div>
+
+        <div class="disclaimer-section disclaimer-thought">
+          <h3 class="disclaimer-label">IV. A THOUGHT</h3>
+          <p>Intelligence professionals inside the Pentagon are using these exact same AI models to inform decisions with real consequences. These models confidently produce bad data without audit by domain experts.</p>
+          <p class="disclaimer-kicker">How confident are we that the Pentagon has domain experts reviewing every output of their AI tools?</p>
+          <p class="disclaimer-flood">Welcome to the flood.</p>
+        </div>
+
+      </div>
+
+      <div class="disclaimer-action">
+        <label class="disclaimer-checkbox-wrap">
+          <input type="checkbox" id="disclaimer-agree">
+          <span>I understand the limitations of this data and will not rely on it for financial, military, or life-safety decisions.</span>
+        </label>
+        <button class="disclaimer-enter" id="disclaimer-enter" disabled>ACKNOWLEDGED &mdash; ENTER</button>
+      </div>
+
+    </div>
+  </div>
+
   <!-- CLASSIFICATION BANNER -->
   <div class="classification-banner" role="banner">
     UNCLASSIFIED // PUBLIC INTELLIGENCE DASHBOARD — THE WAR THEATER
@@ -250,5 +298,21 @@
     <p class="footer-contact">JEThomasPhD@gmail.com</p>
   </footer>
 
+  <script>
+    (function() {
+      var overlay = document.getElementById('disclaimer-overlay');
+      if (!overlay) return;
+      if (sessionStorage.getItem('wt-disclaimer-ack')) { overlay.remove(); return; }
+      overlay.style.display = 'flex';
+      var cb = document.getElementById('disclaimer-agree');
+      var btn = document.getElementById('disclaimer-enter');
+      cb.addEventListener('change', function() { btn.disabled = !cb.checked; });
+      btn.addEventListener('click', function() {
+        overlay.classList.add('fade-out');
+        sessionStorage.setItem('wt-disclaimer-ack', '1');
+        setTimeout(function() { overlay.remove(); }, 1000);
+      });
+    })();
+  </script>
 </body>
 </html>
