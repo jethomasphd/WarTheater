@@ -1271,10 +1271,18 @@ body.theater-active .site-footer {
   margin-bottom: var(--space-sm);
 }
 
+.site-footer .footer-cta {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: var(--text-xs);
+  color: var(--text-dim);
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-xs);
+}
+
 .site-footer .footer-contact {
   font-family: 'JetBrains Mono', monospace;
   font-size: var(--text-xs);
   letter-spacing: 0.05em;
   color: var(--text-secondary);
-  margin-top: var(--space-sm);
+  margin-top: var(--space-xs);
 }
