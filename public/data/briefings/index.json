@@ -19,5 +19,12 @@
     "label": "MARCH 12, 2026 — DAY 13",
     "headline": "Hormuz convoy; IRGC fires on US Navy; IDF ground war in Lebanon",
     "file": "data/briefings/day-13.html"
+  },
+  {
+    "day": 14,
+    "date": "2026-03-13",
+    "label": "MARCH 13, 2026 — DAY 14",
+    "headline": "IRGC batteries destroyed; second convoy; IDF at Bint Jbeil; AUMF debate",
+    "file": "data/briefings/day-14.html"
   }
 ]

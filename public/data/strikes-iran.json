@@ -15,8 +15,8 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown — heavy",
     "casualties_source": "ACLED / Iranian state media",
-    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
-    "notes": "Continuous bombardment since Day 1. Supreme Leader Khamenei killed in initial strike. Day 11: 40 killed in eastern Tehran residential area. Day 12: IDF destroys IRGC Air Force HQ. Day 13: Strikes continue on remaining IRGC infrastructure."
+    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "notes": "Continuous bombardment since Day 1. Supreme Leader Khamenei killed in initial strike. Day 11: 40 killed in eastern Tehran residential area. Day 12: IDF destroys IRGC Air Force HQ. Day 14: Continued strikes on remaining command and control nodes."
   },
   {
     "id": "isfahan-nuclear",
@@ -66,8 +66,8 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "DoD / ACLED",
-    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
-    "notes": "Key Strait of Hormuz control point. Continuous strikes to suppress coastal batteries. Day 13: Intensified strikes after IRGC fires on US convoy escort."
+    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "notes": "Key Strait of Hormuz control point. Continuous strikes to suppress coastal batteries. Day 14: US retaliatory strikes destroy 5 IRGC coastal battery positions — the batteries that fired on USS Paul Ignatius."
   },
   {
     "id": "shiraz-airbase",
@@ -167,8 +167,8 @@
     "first_strike": "2026-03-07",
     "casualties_reported": "Unknown",
     "casualties_source": "Satellite imagery / shipping data",
-    "active_days": [8, 9, 10, 11, 12, 13],
-    "notes": "90% of Iran's oil exports flow through Kharg. Struck in second-week escalation. Israel bombed 30 additional oil depots on Day 10. Day 13: Continued suppression of remaining export infrastructure."
+    "active_days": [8, 9, 10, 11, 12, 13, 14],
+    "notes": "90% of Iran's oil exports flow through Kharg. Struck in second-week escalation. Israel bombed 30 additional oil depots on Day 10. Day 14: Continued suppression of remaining export infrastructure."
   },
   {
     "id": "abadan-refinery",
@@ -183,8 +183,8 @@
     "first_strike": "2026-03-07",
     "casualties_reported": "Civilian casualties reported",
     "casualties_source": "Iranian state media / ACLED",
-    "active_days": [8, 9, 10, 11, 13],
-    "notes": "Major refinery. Strikes on oil infrastructure began March 7. Toxic smoke blanketed Tehran. Day 13: Additional strikes on refinery perimeter."
+    "active_days": [8, 9, 10, 11, 13, 14],
+    "notes": "Major refinery. Strikes on oil infrastructure began March 7. Toxic smoke blanketed Tehran. Day 14: Continued strikes on remaining refinery capacity."
   },
   {
     "id": "minab-school",

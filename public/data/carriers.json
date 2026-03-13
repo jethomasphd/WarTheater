@@ -5,14 +5,14 @@
     "hull": "CVN-72",
     "type": "carrier",
     "strike_group": "Carrier Strike Group 3",
-    "lat": 25.80,
-    "lng": 56.50,
-    "area": "Strait of Hormuz approaches — convoy escort operations",
+    "lat": 25.90,
+    "lng": 56.40,
+    "area": "Strait of Hormuz — convoy escort and retaliatory strike ops",
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye",
     "escorts": ["CG-52 USS Bunker Hill", "DDG-105 USS Dewey", "DDG-110 USS William P. Lawrence"],
-    "status": "Engaged — convoy escort and strike operations",
+    "status": "Engaged — convoy escort and retaliatory strike operations",
     "deployed_since": "2026-02-15",
-    "notes": "Primary strike platform for Operation Epic Fury. Day 13: Provided air cover for first escorted tanker convoy through Hormuz. Moved closer to strait entrance. Air wing flying 220+ sorties/day including CAP over convoy route."
+    "notes": "Primary strike platform for Operation Epic Fury. Day 14: Provided air cover for second escorted convoy (5 tankers). Air wing flew retaliatory strikes on IRGC coastal batteries at Bandar Abbas and Qeshm Island overnight. 230+ sorties/day."
   },
   {
     "id": "cvn-78",
@@ -20,14 +20,14 @@
     "hull": "CVN-78",
     "type": "carrier",
     "strike_group": "Carrier Strike Group 12",
-    "lat": 34.00,
-    "lng": 33.50,
-    "area": "Eastern Mediterranean — off Lebanese coast",
+    "lat": 33.80,
+    "lng": 34.00,
+    "area": "Eastern Mediterranean — closer to Lebanese coast for ground support",
     "aircraft": "F/A-18E/F Super Hornets, F-35C Lightning II, EA-18G Growlers",
     "escorts": ["CG-68 USS Anzio", "DDG-107 USS Gravely", "DDG-119 USS Delbert D. Black"],
     "status": "Engaged — supporting IDF Lebanon ground operation and Iran strikes",
     "deployed_since": "2026-02-20",
-    "notes": "Day 13: Shifted closer to Lebanese coast to support IDF ground incursion into southern Lebanon. F-35Cs providing deep strike into western Iran. Dual mission intensifies as Lebanon front escalates to ground war."
+    "notes": "Day 14: Moved further toward Lebanese coast as IDF ground ops enter Day 2. F-35Cs supporting close air support near Bint Jbeil. F/A-18s continue deep strike missions into western Iran. Dual mission at maximum intensity."
   },
   {
     "id": "cvn-77",
@@ -35,14 +35,14 @@
     "hull": "CVN-77",
     "type": "carrier",
     "strike_group": "Carrier Strike Group 10",
-    "lat": 24.50,
-    "lng": 58.50,
-    "area": "Gulf of Oman — southern convoy screening",
+    "lat": 24.60,
+    "lng": 58.20,
+    "area": "Gulf of Oman — southern convoy screening and ASW ops",
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye",
     "escorts": ["CG-56 USS San Jacinto", "DDG-86 USS Shoup", "DDG-100 USS Kidd"],
     "status": "Engaged — convoy screen and southern interdiction",
     "deployed_since": "2026-02-25",
-    "notes": "Day 13: Moved into Gulf of Oman to provide southern screening for Hormuz convoy operations. Covering approaches from the Arabian Sea. ASW helicopters active after unconfirmed submarine contact."
+    "notes": "Day 14: Continued southern screening for second convoy transit. ASW helicopters prosecuted possible submarine contact — results inconclusive. P-8 Poseidons from Bahrain augmenting coverage."
   },
   {
     "id": "lha-6",
@@ -50,14 +50,14 @@
     "hull": "LHA-6",
     "type": "amphibious",
     "strike_group": "Amphibious Ready Group / 11th MEU",
-    "lat": 26.00,
-    "lng": 57.20,
-    "area": "Gulf of Oman (near Strait of Hormuz) — mine-clearing ops",
+    "lat": 26.05,
+    "lng": 57.00,
+    "area": "Strait of Hormuz — active convoy escort and mine countermeasures",
     "aircraft": "F-35B Lightning II, MV-22 Osprey, AH-1Z Viper, CH-53E Super Stallion",
     "escorts": ["LPD-27 USS Portland", "LSD-52 USS Pearl Harbor"],
     "status": "Standing by — mine countermeasures support, TRAP",
     "deployed_since": "2026-02-22",
-    "notes": "Day 13: Directly involved in convoy escort through Hormuz. MH-53E mine countermeasures helicopters cleared lane ahead of tankers. AH-1Z Vipers drove off IRGC fast attack craft. Marines on heightened readiness."
+    "notes": "Day 14: Led mine countermeasures for second convoy (5 tankers). Cleared corridor widened to 1.2km. AH-1Z Vipers fired warning shots at approaching IRGC fast boats — boats withdrew. Marines remain at heightened readiness."
   },
   {
     "id": "ddg-117",
@@ -72,7 +72,7 @@
     "escorts": [],
     "status": "Engaged — Hormuz patrol, MCM escort",
     "deployed_since": "2026-02-27",
-    "notes": "Day 13: Lead escort for first tanker convoy through Hormuz. Intercepted 2 IRGC anti-ship missiles with SM-2 and CIWS. First direct US Navy-IRGC engagement. Ship undamaged. Aegis BMD capable."
+    "notes": "Day 14: Escorted second convoy (5 tankers). IRGC coastal batteries that targeted her yesterday destroyed in overnight retaliatory strikes. No missiles fired at convoy today. Ship undamaged. Remains lead Hormuz escort."
   },
   {
     "id": "ssgn-728",
@@ -87,7 +87,7 @@
     "escorts": [],
     "status": "Deployed — Tomahawk strike platform",
     "deployed_since": "2026-02-20",
-    "notes": "Ohio-class guided missile submarine. Carries up to 154 Tomahawk cruise missiles. Day 13: Likely repositioned to support retaliatory strikes on IRGC coastal batteries after Hormuz convoy engagement. Exact position classified."
+    "notes": "Ohio-class guided missile submarine. Carries up to 154 Tomahawk cruise missiles. Day 14: Launched Tomahawks in overnight retaliatory strikes on 5 IRGC coastal battery positions. Exact position classified."
   },
   {
     "id": "ddg-113",

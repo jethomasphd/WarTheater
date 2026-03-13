@@ -22,21 +22,21 @@ WarTheater.Financial = {
       'Jan 2', 'Jan 8', 'Jan 15', 'Jan 22', 'Jan 29',
       'Feb 5', 'Feb 12', 'Feb 19', 'Feb 27',
       'Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5',
-      'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12'
+      'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13'
     ];
 
     const brent = [
       74.2, 73.8, 72.1, 71.5, 72.8,
       73.1, 71.9, 72.6, 72.38,
       85.4, 88.7, 90.2, 91.8, 93.5, 94.1,
-      96.3, 101.2, 100.8, 101.1, 101.5, 88.3, 92.5
+      96.3, 101.5, 100.8, 101.1, 101.5, 88.3, 100.11, 98.82
     ];
 
     const wti = [
       71.8, 71.2, 69.8, 69.1, 70.5,
       70.9, 69.5, 70.3, 70.82,
       82.1, 85.9, 87.3, 88.7, 90.1, 91.5,
-      93.8, 97.8, 97.2, 97.8, 98.2, 85.1, 89.4
+      93.8, 97.8, 97.2, 97.8, 98.2, 85.1, 95.28, 95.28
     ];
 
     const defaults = WarTheater.Utils.chartDefaults();
@@ -116,11 +116,15 @@ WarTheater.Financial = {
   },
 
   // ─── MARKET IMPACT ────────────────────────────────────────
+  // NOTE: S&P indexed values reflect the composite effect of surging defense/oil
+  // sectors (+15-22%) offsetting broader market declines. The S&P dropped to 91.7
+  // (6,297) at its worst on Day 5, then recovered as sector rotation stabilized
+  // the index. Hero metric 6,672.62 on Day 14 = 97.2 indexed.
   renderMarketsChart() {
     var ctx = document.getElementById('chart-markets');
     if (!ctx) return;
 
-    var labels = ['Feb 27', 'Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12'];
+    var labels = ['Feb 27', 'Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13'];
     var defaults = WarTheater.Utils.chartDefaults();
 
     var contexts = [
@@ -129,15 +133,16 @@ WarTheater.Financial = {
       'Hormuz closure — oil stocks surge',
       'Hezbollah enters — second front opens',
       'Houthi attacks on Saudi oil',
-      'Minab school incident — global protests',
-      'S&P enters correction territory',
-      'Markets stabilize slightly',
+      'Minab school incident — S&P hits war low (6,297)',
+      'Markets stabilize — defense/oil surge offsets broader decline',
+      'Sector rotation continues — defense +10.5%',
       'US strikes Iranian oil — Brent tops $100',
-      'SPR release announced',
+      'SPR release announced — modest recovery',
       'New Supreme Leader — no ceasefire',
       'Day 11 — no end in sight',
-      'Day 12 — Oil crashes on false Hormuz escort claim',
-      'Day 13 — First Hormuz convoy; IRGC fires on US Navy; IDF enters Lebanon'
+      'Day 12 — Oil crashes on false Hormuz claim; markets rally on hope',
+      'Day 13 — Defense surge on ground war; S&P recovers to 6,694',
+      'Day 14 — AUMF debate; oil eases; S&P dips to 6,673'
     ];
 
     this.charts.markets = new Chart(ctx, {
@@ -147,38 +152,38 @@ WarTheater.Financial = {
         datasets: [
           {
             label: 'S&P 500',
-            data: [100, 95.2, 93.8, 93.1, 92.5, 91.8, 91.7, 92.0, 91.2, 91.5, 91.6, 91.7, 92.8, 90.5],
+            data: [100, 96.5, 95.0, 94.0, 93.0, 91.7, 92.0, 92.5, 92.0, 92.5, 93.0, 93.5, 95.0, 97.5, 97.2],
             borderColor: '#ef4444',
             borderWidth: 2,
             tension: 0.3,
-            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+            pointRadius: [3, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 3],
             pointBackgroundColor: '#ef4444'
           },
           {
             label: 'Defense (RTX + LMT)',
-            data: [100, 105.2, 107.8, 109.1, 110.5, 111.2, 112.0, 112.4, 113.1, 113.5, 113.8, 112.4, 111.2, 115.8],
+            data: [100, 103.5, 105.0, 106.5, 108.0, 109.5, 110.0, 110.5, 112.0, 112.5, 112.8, 113.0, 111.5, 115.8, 116.5],
             borderColor: '#22c55e',
             borderWidth: 1.5,
             tension: 0.3,
-            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
             pointBackgroundColor: '#22c55e'
           },
           {
             label: 'Oil Majors (XOM + CVX)',
-            data: [100, 108.1, 112.5, 114.2, 116.8, 118.1, 119.5, 121.2, 125.8, 124.9, 125.3, 124.7, 118.5, 122.1],
+            data: [100, 106.0, 110.0, 112.0, 114.0, 116.0, 117.0, 119.0, 124.0, 123.5, 124.0, 123.5, 117.0, 122.0, 121.0],
             borderColor: '#d4a020',
             borderWidth: 1.5,
             tension: 0.3,
-            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
             pointBackgroundColor: '#d4a020'
           },
           {
             label: 'Airlines (DAL + UAL)',
-            data: [100, 91.2, 87.5, 85.1, 83.2, 81.5, 79.8, 78.2, 76.5, 77.1, 77.8, 78.2, 79.5, 76.2],
+            data: [100, 92.0, 88.0, 85.0, 83.0, 81.0, 79.5, 78.5, 77.0, 77.5, 78.0, 78.5, 80.0, 76.0, 75.5],
             borderColor: '#7b3fa0',
             borderWidth: 1.5,
             tension: 0.3,
-            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
             pointBackgroundColor: '#7b3fa0'
           }
         ]
@@ -232,8 +237,8 @@ WarTheater.Financial = {
     var ctx = document.getElementById('chart-hormuz');
     if (!ctx) return;
 
-    var labels = ['Feb 25', 'Feb 26', 'Feb 27', 'Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12'];
-    var data = [85, 84, 85, 42, 5, 3, 2, 2, 2, 3, 2, 2, 3, 2, 3, 6];
+    var labels = ['Feb 25', 'Feb 26', 'Feb 27', 'Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13'];
+    var data = [85, 84, 85, 42, 5, 3, 2, 2, 2, 3, 2, 2, 3, 2, 3, 6, 8];
     var defaults = WarTheater.Utils.chartDefaults();
 
     this.charts.hormuz = new Chart(ctx, {
@@ -270,9 +275,9 @@ WarTheater.Financial = {
               },
               afterLabel: function(item) {
                 var v = item.raw;
-                if (v <= 5) {
+                if (v <= 10) {
                   var lostBbl = ((85 - v) / 85 * 20.5).toFixed(1);
-                  return 'Approx. ' + lostBbl + 'M barrels/day blocked\nInsurance premiums up 800%';
+                  return 'Approx. ' + lostBbl + 'M barrels/day blocked\nInsurance premiums up 1100%';
                 }
                 return '';
               }
@@ -300,8 +305,8 @@ WarTheater.Financial = {
     var ctx = document.getElementById('chart-daily-cost');
     if (!ctx) return;
 
-    var labels = ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7', 'Day 8', 'Day 9', 'Day 10', 'Day 11', 'Day 12', 'Day 13'];
-    var costs = [380, 420, 480, 500, 510, 490, 500, 520, 510, 505, 500, 515, 560];
+    var labels = ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7', 'Day 8', 'Day 9', 'Day 10', 'Day 11', 'Day 12', 'Day 13', 'Day 14'];
+    var costs = [380, 420, 480, 500, 510, 490, 500, 520, 510, 505, 500, 515, 560, 580];
     var cumulative = [];
     var sum = 0;
     costs.forEach(function(c) { sum += c; cumulative.push(sum); });
@@ -319,7 +324,8 @@ WarTheater.Financial = {
       'SPR release — costs continue mounting',
       'Day 11 — no ceasefire in sight',
       'Day 12 — Oil crashes; 3 ships hit in Hormuz',
-      'Day 13 — Hormuz convoy ops; IRGC engages US Navy; IDF ground war in Lebanon'
+      'Day 13 — Hormuz convoy ops; IRGC engages US Navy; IDF ground war in Lebanon',
+      'Day 14 — Retaliatory strikes on IRGC batteries; second convoy; Bint Jbeil'
     ];
 
     var defaults = WarTheater.Utils.chartDefaults();

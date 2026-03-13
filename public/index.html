@@ -22,9 +22,9 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 
   <!-- Design System -->
-  <link rel="stylesheet" href="css/design-system.css?v=20260312">
-  <link rel="stylesheet" href="css/animations.css?v=20260312">
-  <link rel="stylesheet" href="css/responsive.css?v=20260312">
+  <link rel="stylesheet" href="css/design-system.css?v=20260313">
+  <link rel="stylesheet" href="css/animations.css?v=20260313">
+  <link rel="stylesheet" href="css/responsive.css?v=20260313">
 </head>
 <body>
 
@@ -241,35 +241,35 @@
 
         <!-- Hero Metrics -->
         <div class="metrics-grid" id="financial-metrics" aria-label="Key financial indicators">
-          <div class="hero-metric" title="Brent Crude: The international benchmark. Pre-war close: $72.38/bbl (Feb 27). Surges back above $100 on Mar 12 after yesterday's false-claim crash. Intraday range $92.89–$101.53. Source: ICE Futures Europe / Bloomberg.">
-            <div class="value font-data" id="brent-price" style="color: var(--financial-up);">$100.11</div>
+          <div class="hero-metric" title="Brent Crude: The international benchmark. Pre-war close: $72.38/bbl (Feb 27). Eases 1.3% on second successful convoy transit and IRGC battery destruction. Source: ICE Futures Europe / Bloomberg.">
+            <div class="value font-data" id="brent-price" style="color: var(--financial-up);">$98.82</div>
             <div class="label">Brent Crude $/bbl</div>
-            <div class="change up font-data" id="brent-change">+38.3% since Feb 27 — back above $100</div>
+            <div class="change up font-data" id="brent-change">+36.6% since Feb 27 — eases on convoy success</div>
           </div>
-          <div class="hero-metric" title="West Texas Intermediate: The US benchmark. Pre-war close: $70.82/bbl (Feb 27). Up 9.2% on the day as fundamentals reassert after false Hormuz claim. Source: NYMEX / Yahoo Finance.">
+          <div class="hero-metric" title="West Texas Intermediate: The US benchmark. Pre-war close: $70.82/bbl (Feb 27). Holding flat at $95.28 as Hormuz shortfall persists despite convoy operations. Source: NYMEX / Yahoo Finance.">
             <div class="value font-data" id="wti-price" style="color: var(--financial-up);">$95.28</div>
             <div class="label">WTI Crude $/bbl</div>
-            <div class="change up font-data" id="wti-change">+34.5% since Feb 27 — Hormuz shortfall persists</div>
+            <div class="change up font-data" id="wti-change">+34.5% since Feb 27 — flat; Hormuz shortfall persists</div>
           </div>
-          <div class="hero-metric" title="National average retail gasoline price. Pre-war: $3.05/gal (Feb 27). Still climbing — gas lags oil by 7-10 days. California breaks $5.00. Source: AAA / YCharts.">
-            <div class="value font-data" id="gas-price" style="color: var(--financial-up);">$3.72</div>
+          <div class="hero-metric" title="National average retail gasoline price. Pre-war: $3.05/gal (Feb 27). Trucking surcharges take effect today. California at $5.15. Source: AAA / YCharts.">
+            <div class="value font-data" id="gas-price" style="color: var(--financial-up);">$3.82</div>
             <div class="label">US Gas Avg/Gal</div>
-            <div class="change up font-data" id="gas-change">+$0.67 / +22.0% since Feb 27 — CA breaks $5.00</div>
+            <div class="change up font-data" id="gas-change">+$0.77 / +25.2% since Feb 27 — CA at $5.15</div>
           </div>
-          <div class="hero-metric" title="S&P 500 index. Pre-war close: 6,867 (Feb 27). Drops on war escalation, IRGC fires on US Navy and IDF launches ground war in Lebanon. Source: NYSE / Yahoo Finance.">
-            <div class="value font-data" id="sp500-value" style="color: var(--financial-up);">6,694</div>
+          <div class="hero-metric" title="S&P 500 index. Pre-war close: 6,867 (Feb 27). Dips 0.3% on AUMF debate uncertainty. Defense +16.5%, airlines -24.5%. Source: NYSE / Yahoo Finance.">
+            <div class="value font-data" id="sp500-value" style="color: var(--financial-up);">6,672.62</div>
             <div class="label">S&P 500</div>
-            <div class="change up font-data" id="sp500-change">-173 pts / -2.5% since Feb 27</div>
+            <div class="change up font-data" id="sp500-change">-194 pts / -2.8% since Feb 27</div>
           </div>
-          <div class="hero-metric" title="Estimated daily operational cost. Day 13 spike reflects Hormuz convoy escort operations, retaliatory strikes on IRGC coastal batteries, and IDF ground support. Source: DoD budget analysis / CBO estimates.">
-            <div class="value font-data" id="daily-cost" style="color: var(--text-accent);">$560M</div>
+          <div class="hero-metric" title="Estimated daily operational cost. Day 14 reflects retaliatory strikes on IRGC coastal batteries, second convoy escort, and IDF ground support operations. Source: DoD budget analysis / CBO estimates.">
+            <div class="value font-data" id="daily-cost" style="color: var(--text-accent);">$580M</div>
             <div class="label">Est. Daily US Cost</div>
-            <div class="change font-data" style="color: var(--text-dim);" id="daily-cost-note">Highest single day — convoy ops + retaliation</div>
+            <div class="change font-data" style="color: var(--text-dim);" id="daily-cost-note">New high — retaliatory strikes + convoy + ground support</div>
           </div>
-          <div class="hero-metric" title="Cumulative estimated cost since Feb 28. Approaching $6.4B. Does not include long-term VA costs or economic impact. Source: DoD / CBO.">
-            <div class="value font-data" id="total-cost" style="color: var(--text-accent);">$6.4B</div>
-            <div class="label">Est. Total Cost (13 Days)</div>
-            <div class="change font-data" style="color: var(--text-dim);" id="total-cost-note">= 29,000 fully-funded 4-year college scholarships</div>
+          <div class="hero-metric" title="Cumulative estimated cost since Feb 28. Approaching $7.0B. Does not include long-term VA costs or economic impact. Source: DoD / CBO.">
+            <div class="value font-data" id="total-cost" style="color: var(--text-accent);">$7.0B</div>
+            <div class="label">Est. Total Cost (14 Days)</div>
+            <div class="change font-data" style="color: var(--text-dim);" id="total-cost-note">= 31,800 fully-funded 4-year college scholarships</div>
           </div>
         </div>
 
@@ -344,45 +344,45 @@
 
         <!-- Hero Counters -->
         <div class="metrics-grid" id="humanitarian-metrics" aria-label="Humanitarian indicators">
-          <div class="hero-metric" title="Total confirmed US/Israeli airstrikes and cruise missile strikes on Iranian territory since Feb 28. Includes Tomahawk, JDAM, GBU-57, and standoff munitions. Day 13 includes retaliatory strikes on IRGC coastal batteries. Source: DoD / ACLED.">
-            <div class="value font-data counter" data-target="3500" style="color: var(--strike-us);">0</div>
+          <div class="hero-metric" title="Total confirmed US/Israeli airstrikes and cruise missile strikes on Iranian territory since Feb 28. Includes Tomahawk, JDAM, GBU-57, and standoff munitions. Day 14 includes retaliatory strikes on 5 IRGC coastal battery positions. Source: DoD / ACLED.">
+            <div class="value font-data counter" data-target="3700" style="color: var(--strike-us);">0</div>
             <div class="label">Total Strikes</div>
             <div class="change font-data" style="color: var(--text-dim);">US/Israel on Iran — and counting</div>
           </div>
-          <div class="hero-metric" title="US service members killed in action. 6 at Ali Al Salem (Day 1), 1 Saudi Arabia (Day 2), 8th confirmed March 11. No new US KIA on Day 13. Source: DoD / CENTCOM.">
+          <div class="hero-metric" title="US service members killed in action. 6 at Ali Al Salem (Day 1), 1 Saudi Arabia (Day 2), 8th confirmed March 11. No new US KIA Days 13-14. Source: DoD / CENTCOM.">
             <div class="value font-data counter" data-target="8" style="color: var(--civilian);">0</div>
             <div class="label">US Service Members KIA</div>
-            <div class="change font-data" style="color: var(--text-dim);">No new KIA Day 13 — 8 total</div>
+            <div class="change font-data" style="color: var(--text-dim);">No new KIA Day 14 — 8 total</div>
           </div>
-          <div class="hero-metric" title="US service members wounded in action across multiple bases in the Persian Gulf region. Source: DoD / CENTCOM.">
-            <div class="value font-data counter" data-target="12" style="color: var(--civilian);">0</div>
+          <div class="hero-metric" title="US service members wounded in action across multiple bases and convoy operations. 2 additional WIA on Day 14 from mine countermeasures during convoy escort. Source: DoD / CENTCOM.">
+            <div class="value font-data counter" data-target="14" style="color: var(--civilian);">0</div>
             <div class="label">US Service Members WIA</div>
-            <div class="change font-data" style="color: var(--text-dim);">Multiple bases — Source: CENTCOM</div>
+            <div class="change font-data" style="color: var(--text-dim);">+2 Day 14 (mine clearance ops) — Source: CENTCOM</div>
           </div>
-          <div class="hero-metric" title="Estimated Iranian casualties (military and civilian combined). Iran reports 1,385+ killed. Includes 12 killed in Ahvaz hospital incident (Day 13). Source: Iranian Health Ministry / ACLED / state media.">
-            <div class="value font-data counter" data-target="1385" style="color: var(--strike-iran);">0</div>
+          <div class="hero-metric" title="Estimated Iranian casualties (military and civilian combined). Iran reports 1,500+ killed. Day 14: ~115 additional from continued strikes. Source: Iranian Health Ministry / ACLED / state media.">
+            <div class="value font-data counter" data-target="1500" style="color: var(--strike-iran);">0</div>
             <div class="label">Iranian Killed (Est.)</div>
-            <div class="change font-data" style="color: var(--text-dim);">+130 Day 13 — incl. Ahvaz hospital incident</div>
+            <div class="change font-data" style="color: var(--text-dim);">+115 Day 14 — continued strikes across Iran</div>
           </div>
-          <div class="hero-metric" title="Lebanese casualties from Israeli strikes and now ground operations in southern Lebanon. IDF ground incursion began Day 13. Hezbollah destroyed 2 Merkava tanks. 4 IDF soldiers killed. Source: Lebanese Health Ministry / IDF.">
-            <div class="value font-data counter" data-target="655" style="color: var(--hezbollah);">0</div>
+          <div class="hero-metric" title="Lebanese casualties from Israeli strikes and ground operations in southern Lebanon. IDF ground war Day 2 — 6 more IDF soldiers killed at Bint Jbeil. Source: Lebanese Health Ministry / IDF.">
+            <div class="value font-data counter" data-target="720" style="color: var(--hezbollah);">0</div>
             <div class="label">Lebanese Casualties</div>
-            <div class="change font-data" style="color: var(--text-dim);">+85 Day 13 — ground war begins — 4 IDF KIA</div>
+            <div class="change font-data" style="color: var(--text-dim);">+65 Day 14 — ground war Day 2 — 10 IDF KIA total</div>
           </div>
-          <div class="hero-metric" title="People displaced from their homes in Lebanon. IDF ground incursion accelerates displacement. Surge toward 800,000 as ground combat begins south of Litani. Source: UNHCR / OCHA.">
-            <div class="value font-data counter" data-target="800000" style="color: var(--humanitarian);">0</div>
+          <div class="hero-metric" title="People displaced from their homes in Lebanon. IDF ground ops Day 2 accelerates displacement past 850,000. ICRC requests access south of Litani. Source: UNHCR / OCHA.">
+            <div class="value font-data counter" data-target="850000" style="color: var(--humanitarian);">0</div>
             <div class="label">Displaced Persons</div>
-            <div class="change font-data" style="color: var(--text-dim);">Lebanon — surging as IDF ground ops begin — UNHCR</div>
+            <div class="change font-data" style="color: var(--text-dim);">Lebanon — 850,000+ as ground ops continue — UNHCR</div>
           </div>
-          <div class="hero-metric" title="Commercial flights cancelled due to airspace closures. Expanding as Turkey reinforces southeastern airspace after missile intercept. Source: IATA / Flightradar24.">
-            <div class="value font-data counter" data-target="18000" style="color: var(--text-secondary);">0</div>
+          <div class="hero-metric" title="Commercial flights cancelled due to airspace closures and expanding conflict zone. Source: IATA / Flightradar24.">
+            <div class="value font-data counter" data-target="19500" style="color: var(--text-secondary);">0</div>
             <div class="label">Flights Cancelled</div>
-            <div class="change font-data" style="color: var(--text-dim);">+1,500 as Turkey tightens airspace — IATA</div>
+            <div class="change font-data" style="color: var(--text-dim);">+1,500 Day 14 — airspace closures expanding — IATA</div>
           </div>
-          <div class="hero-metric" title="Children killed in the conflict. 23 at Minab (Day 5), 83+ in Lebanon (ongoing), additional in Tehran and Ahvaz. Source: Iranian Red Crescent / Lebanese Health Ministry / AP / DoD.">
-            <div class="value font-data counter" data-target="118" style="color: var(--civilian);">0</div>
+          <div class="hero-metric" title="Children killed in the conflict. 23 at Minab (Day 5), 102 in Lebanon (ongoing), additional in Tehran and Ahvaz. Source: Iranian Red Crescent / Lebanese Health Ministry / AP / DoD.">
+            <div class="value font-data counter" data-target="125" style="color: var(--civilian);">0</div>
             <div class="label">Children Killed</div>
-            <div class="change font-data" style="color: var(--text-dim);">23 Minab + 95 Lebanon — Source: ACLED / AP</div>
+            <div class="change font-data" style="color: var(--text-dim);">23 Minab + 102 Lebanon — Source: ACLED / AP</div>
           </div>
         </div>
 
@@ -408,7 +408,7 @@
 
         <!-- Historical Comparison -->
         <div class="chart-container" style="margin-top: 1px;">
-          <div class="chart-title">Historical Comparison — Day 13 of Conflict</div>
+          <div class="chart-title">Historical Comparison — Day 14 of Conflict</div>
           <div class="chart-wrapper" style="height: 250px;">
             <canvas id="chart-historical" aria-label="Chart comparing Day 11 metrics with past US conflicts"></canvas>
           </div>
@@ -426,7 +426,7 @@
 
         <div class="briefing-header">
           <h2 style="margin-bottom: var(--space-sm);">Daily Intelligence Briefing</h2>
-          <div class="briefing-date" id="briefing-date">MARCH 12, 2026 — DAY 13</div>
+          <div class="briefing-date" id="briefing-date">MARCH 13, 2026 — DAY 14</div>
           <div style="font-size: var(--text-xs); color: var(--text-dim); margin-top: var(--space-sm); font-family: 'JetBrains Mono', monospace;">
             AI-generated analysis of public data — not state-approved, not classified
           </div>
@@ -435,61 +435,61 @@
         <!-- Situation Summary -->
         <div class="briefing-section">
           <h3>Situation Summary</h3>
-          <p>Day 13 of Operation Epic Fury marks a pivotal escalation on three fronts simultaneously. The US Navy escorted its first tanker convoy through a partially cleared corridor in the Strait of Hormuz — then Iran's IRGC Navy fired anti-ship missiles at the escort vessels. USS Paul Ignatius intercepted both missiles. This is the first direct naval engagement between US and Iranian forces in the conflict, crossing a threshold that turns a blockade into a shooting war at sea.</p>
-          <p>On the northern front, the IDF launched a ground incursion into southern Lebanon — the first Israeli ground operation there since 2006. Golani Brigade and 7th Armored Brigade crossed the Blue Line toward the Litani River. Hezbollah's Radwan Force destroyed at least 2 Merkava tanks with ATGMs, killing 4 IDF soldiers. What began as an air campaign against Hezbollah is now a ground war.</p>
-          <p>And in the diplomatic arena, China introduced a 72-hour ceasefire resolution at the UN Security Council. The United States vetoed it. Meanwhile, 34 US senators — bipartisan — demanded a vote on Authorization for Use of Military Force, calling the war unconstitutional without Congressional approval. The war is now being fought on the battlefield, at sea, and in the halls of Congress simultaneously.</p>
+          <p>Day 14 of Operation Epic Fury marks the beginning of a new phase — one defined less by dramatic escalation than by the grinding reality of a war that has settled into multiple simultaneous fronts with no exit in sight. The US executed overnight retaliatory strikes against the IRGC coastal batteries that fired on USS Paul Ignatius yesterday, destroying five sites along the Hormuz coastline. Then it sent a second, larger convoy — five tankers this time — through the strait under escort. IRGC fast boats approached but withdrew after warning shots. No missiles were fired. The US is methodically establishing a precedent: the strait will be transited, under guns, whether Iran likes it or not.</p>
+          <p>On the ground in southern Lebanon, the IDF advanced five kilometers north of the Blue Line to the outskirts of Bint Jbeil — the same town that became a graveyard for Israeli soldiers in 2006. Hezbollah's Radwan Force employed IEDs, tunnel systems, and anti-tank missiles, killing six more IDF soldiers. Ten Israeli soldiers are now dead in two days of ground operations. Hezbollah fired over 300 rockets into northern Israel in retaliation. The ground war that began yesterday is now a grinding urban and rural fight with no clear endgame.</p>
+          <p>And in Washington, the Senate took up the AUMF debate. For the first time since the war began, elected representatives are publicly arguing about whether the President has the constitutional authority to wage it. The floor debate was fierce. A vote is expected tomorrow. Markets dipped on the uncertainty — not because investors think the war will end, but because they don't know what happens if Congress says it should.</p>
         </div>
 
         <!-- Key Developments -->
         <div class="briefing-section">
           <h3>Key Developments</h3>
           <ul>
-            <li>US Navy escorts first 3-tanker convoy through Hormuz — 14-hour transit through partially cleared corridor; one mine detonated harmlessly in cleared lane</li>
-            <li>IRGC fires 2 anti-ship missiles at USS Paul Ignatius (DDG-117) — both intercepted by SM-2 and CIWS; IRGC fast attack craft driven off by helicopter gunships</li>
-            <li>IDF launches ground incursion into southern Lebanon — Golani Brigade and 7th Armored toward Litani; Hezbollah destroys 2 Merkava tanks; 4 IDF soldiers killed</li>
-            <li>NATO invokes Article 4 consultations over Turkey; additional Patriot batteries deploying to southeastern Turkey</li>
-            <li>Iran threatens Turkey with "severe consequences" for "siding with aggressors"</li>
-            <li>Oil rebounds 4.8% — Brent to $92.50 as IRGC-Navy clash confirms Hormuz fundamentals unchanged</li>
-            <li>34 US senators demand AUMF vote within 72 hours; White House cites Article II powers</li>
-            <li>China's 72-hour ceasefire resolution vetoed by US at UNSC</li>
-            <li>Hospital in Ahvaz damaged — Iran claims 12 killed; Pentagon says secondary explosion from nearby IRGC logistics hub</li>
-            <li>Gas hits $3.72/gallon nationally; California breaks $5.00/gallon</li>
-            <li>Lebanese displaced surges toward 800,000 as ground operations begin</li>
+            <li>US retaliatory strikes destroy 5 IRGC coastal missile battery positions at Bandar Abbas, Qeshm Island, and three additional sites — the batteries that fired on USS Paul Ignatius</li>
+            <li>Second Hormuz convoy — 5 tankers escorted through in 11 hours; IRGC fast boats approach but withdraw after warning shots; no missiles fired</li>
+            <li>IDF advances 5km into southern Lebanon — heavy fighting at Bint Jbeil; Hezbollah employs IEDs, tunnels, and ATGMs; 6 more IDF soldiers killed (10 total in ground op)</li>
+            <li>Hezbollah fires 300+ rockets at northern Israel in retaliation for IDF advance</li>
+            <li>Senate begins heated AUMF debate — vote expected March 14; White House cites Article II powers</li>
+            <li>Russia introduces rival ceasefire resolution at UNSC — US veto expected</li>
+            <li>EU announces sanctions package on IRGC and Iranian oil; Iran recalls ambassadors from France, Germany, Netherlands</li>
+            <li>Oil eases — Brent $98.82 (-1.3%); WTI $95.28 (flat) — convoy success tempers fears slightly</li>
+            <li>S&P 500 closes at 6,672.62 — down 0.3% on AUMF uncertainty; defense stocks +16.5%</li>
+            <li>Gas hits $3.82/gallon nationally — trucking war surcharges take effect; CA at $5.15</li>
+            <li>Displaced in Lebanon surges past 850,000; 720+ killed including 102 children</li>
           </ul>
         </div>
 
         <!-- Financial Outlook -->
         <div class="briefing-section">
           <h3>Financial Outlook</h3>
-          <p>Yesterday's oil crash on the Energy Secretary's false Hormuz claim has reversed — violently. Brent rebounded 4.8% to $92.50 as the IRGC's attack on the convoy escort confirmed what the market feared: the Strait of Hormuz is not reopening peacefully. The first successful convoy transit is a tactical achievement, but three tankers under heavy military escort is not "reopening" — it's a proof of concept at best. The underlying shortfall of 12.35 million barrels per day remains.</p>
-          <p>Markets cratered on the escalation. The S&P 500 fell to 5,181 — down 9.5% from pre-war levels and approaching bear market territory. The combination of a direct US-Iran naval engagement and an Israeli ground war in Lebanon is the kind of multi-front escalation that investors had been pricing in as a tail risk. It is no longer a tail risk. Defense stocks surged to +15.8% (their highest war gain) as the market prices in a longer, costlier conflict. Oil majors recovered most of yesterday's crash. Airlines plunged to -23.8% from baseline as the war's expansion promises higher fuel costs for longer.</p>
-          <p>Gas prices climbed to $3.72/gallon nationally — up 22% from pre-war — and California has broken through $5.00 for the first time since the war began. With oil rebounding sharply today, any hope of near-term pump relief has evaporated. The trucking industry has announced freight surcharges that will ripple through consumer goods prices within days.</p>
+          <p>Oil prices eased modestly — Brent to $98.82 and WTI holding flat at $95.28 — as the second successful convoy transit and the destruction of IRGC coastal batteries provided the market with a sliver of evidence that the Hormuz situation is, if not improving, at least being managed. But the math hasn't changed: eight escorted tankers in two days replace less than 1% of normal Hormuz traffic. The 12.35 million barrel per day shortfall persists. Oil remains up 36.6% from pre-war levels and every analyst on the Street is saying the same thing: sustained convoys under fire are not a substitute for an open strait.</p>
+          <p>The S&P 500 closed at 6,672.62 — down just 2.8% from pre-war levels, a remarkably modest decline for a two-week war. The explanation lies in sector rotation: defense stocks are now up 16.5% (RTX and LMT both at war-highs) and oil majors are up 21% — these gains have largely offset the 24.5% collapse in airlines and 8-12% declines in consumer discretionary and travel sectors. The S&P is telling a story of who benefits and who pays. The AUMF debate introduced a new variable: if Congress constrains the war, defense stocks could reverse sharply.</p>
+          <p>Gas prices climbed to $3.82/gallon nationally — up 25.2% from pre-war — with California at $5.15. Today the trucking industry's war surcharges took effect, adding 8-12% to freight costs. Grocery chains have warned that perishable goods prices will rise within 3-5 days. The war is no longer an abstraction on a dashboard — it is arriving at every checkout counter and gas pump in the country.</p>
         </div>
 
         <!-- Humanitarian Update -->
         <div class="briefing-section">
           <h3>Humanitarian Update</h3>
-          <p>Day 13 is the deadliest day on the Lebanon front since the war began. The IDF ground incursion has transformed the conflict from an air campaign into a ground war, with heavy fighting reported near Marjayoun. An estimated 85 Lebanese were killed today — the highest single-day toll — bringing the total to at least 655 including 95 children. Displaced persons have surged toward 800,000 as civilians flee the advancing ground operation. The humanitarian corridor from southern Lebanon northward is overwhelmed.</p>
-          <p>In Iran, a hospital in Ahvaz was damaged in what Iranian state media calls an American airstrike. The Pentagon states the target was an IRGC logistics hub 400 meters away and attributes the hospital damage to secondary explosions. This is the third major civilian infrastructure incident after Minab (Day 5) and eastern Tehran (Day 11). Iran's total reported killed has risen to approximately 1,385, with over 10,000 injured. Independent verification remains difficult with press access severely restricted.</p>
-          <p>The first Israeli military casualties of the war — 4 IDF soldiers killed when Hezbollah's Radwan Force destroyed their Merkava tanks with anti-tank guided missiles — mark a new dimension of the human cost. No new US service member deaths were reported today, but the IRGC's direct attack on USS Paul Ignatius raises the stakes for the next naval engagement.</p>
+          <p>The IDF ground operation in southern Lebanon entered its second day with heavy casualties on both sides. Six more IDF soldiers were killed — bringing the total to ten in just two days — as Hezbollah's Radwan Force used the same defensive tactics that devastated Israeli forces at Bint Jbeil in 2006: IEDs, anti-tank guided missiles fired from tunnel openings, and fortified underground positions. An estimated 65 Lebanese were killed today, bringing the total to at least 720 including 102 children. Displaced persons have surged past 850,000 as the ground operation pushes deeper. The ICRC has requested immediate humanitarian access for civilians trapped south of the Litani River.</p>
+          <p>In Iran, strikes continued on remaining military infrastructure in Tehran, Bandar Abbas, Kharg Island, and Abadan. Approximately 115 additional Iranian casualties are estimated today — 95 military and 20 civilian — bringing the total to approximately 1,500 killed since February 28. The Sidon field hospital in southern Lebanon reported structural damage from nearby ground combat, the fifth medical facility affected since the war began.</p>
+          <p>No new US service member deaths were reported. The total remains at 8 KIA and 14 wounded (2 additional WIA from mine countermeasures operations during convoy escort). The growing Israeli casualty toll — 10 KIA in two days — is dominating Israeli media and raising questions about whether the IDF can sustain a ground campaign against a Hezbollah force that is better equipped than in 2006.</p>
         </div>
 
         <!-- What to Watch -->
         <div class="briefing-section">
           <h3>What to Watch</h3>
           <ul>
-            <li><strong>Hormuz convoy operations</strong> — Will the US attempt daily escorted convoys? Each transit is a potential flashpoint for a larger naval battle. IRGC has demonstrated willingness to fire on US warships</li>
-            <li><strong>Lebanon ground war escalation</strong> — How deep will the IDF push? The 2006 war lasted 34 days and cost 121 IDF lives. Hezbollah is better armed now than in 2006</li>
-            <li><strong>AUMF vote</strong> — 34 senators demanding war authorization within 72 hours creates a constitutional showdown; if the vote fails, it legitimizes the war; if it succeeds, it constrains the President</li>
-            <li><strong>Iran's response to naval engagement</strong> — The IRGC fired on a US destroyer and missed. Retaliation could include mining new areas, deploying submarines, or escalating attacks on Gulf state infrastructure</li>
-            <li><strong>Turkey-Iran tensions</strong> — Iran's threat of "severe consequences" against a NATO member could trigger the Article 5 discussions that Article 4 consultations are designed to precede</li>
-            <li><strong>Consumer price cascade</strong> — Trucking surcharges announced today will hit grocery and retail prices within 5-7 days; the war's economic impact is about to become personal for every American household</li>
+            <li><strong>AUMF vote</strong> — Expected March 14. If it passes, the President may face constraints on the war's scope and duration. If it fails, it effectively gives retroactive authorization. Either outcome reshapes the war's trajectory</li>
+            <li><strong>Hormuz convoy cadence</strong> — Can the US sustain daily convoys? Each transit requires enormous naval resources. The IRGC didn't fire today, but mobile launchers remain intact. The question is whether deterrence holds or whether Iran is simply waiting</li>
+            <li><strong>Bint Jbeil</strong> — The town was the scene of the IDF's worst defeat in the 2006 Lebanon War. If the IDF gets bogged down there again, domestic pressure in Israel to halt the ground operation will mount rapidly</li>
+            <li><strong>Consumer price cascade</strong> — Trucking surcharges took effect today. Grocery and retail price increases will be visible within 3-5 days. This is the moment the war becomes personal for tens of millions of Americans who aren't watching the news</li>
+            <li><strong>EU-Iran diplomatic break</strong> — Iran recalling ambassadors from three EU nations signals diplomatic isolation deepening. But isolation can make escalation more likely, not less</li>
+            <li><strong>Russian ceasefire resolution</strong> — The language condemning "unilateral military aggression" makes a US veto certain, but the diplomatic signal matters: Russia is building a coalition narrative that the US is the obstacle to peace</li>
           </ul>
         </div>
 
         <div style="border-top: 1px solid var(--border); padding-top: var(--space-lg); margin-top: var(--space-xl);">
           <p style="font-size: var(--text-xs); color: var(--text-dim); font-family: 'JetBrains Mono', monospace;">
-            Sources: ACLED, CENTCOM, NAVCENT, DoD press briefings, ICE/NYMEX, AAA, YCharts, UNHCR, OCHA, Reuters, AP, Bloomberg, CNBC, Al Jazeera, IDF, Hezbollah media office, NATO, Turkish MoD, Iranian state media (IRNA/PressTV), Senate.gov, UN Security Council. This briefing is AI-generated analysis of publicly available data. It does not represent the views of any government or intelligence agency.
+            Sources: ACLED, CENTCOM, NAVCENT, DoD press briefings, ICE/NYMEX, AAA, YCharts, UNHCR, OCHA, ICRC, Reuters, AP, Bloomberg, CNBC, Al Jazeera, IDF, Hezbollah media office, NATO, European Council, Iranian state media (IRNA/PressTV), Senate.gov/C-SPAN, UN Security Council. This briefing is AI-generated analysis of publicly available data. It does not represent the views of any government or intelligence agency.
           </p>
         </div>
 
@@ -650,14 +650,14 @@
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
   <!-- Application JS -->
-  <script src="js/utils.js?v=20260312"></script>
-  <script src="js/data.js?v=20260312"></script>
-  <script src="js/map.js?v=20260312"></script>
-  <script src="js/financial.js?v=20260312"></script>
-  <script src="js/humanitarian.js?v=20260312"></script>
-  <script src="js/briefing.js?v=20260312"></script>
-  <script src="js/timeline.js?v=20260312"></script>
-  <script src="js/calculator.js?v=20260312"></script>
-  <script src="js/app.js?v=20260312"></script>
+  <script src="js/utils.js?v=20260313"></script>
+  <script src="js/data.js?v=20260313"></script>
+  <script src="js/map.js?v=20260313"></script>
+  <script src="js/financial.js?v=20260313"></script>
+  <script src="js/humanitarian.js?v=20260313"></script>
+  <script src="js/briefing.js?v=20260313"></script>
+  <script src="js/timeline.js?v=20260313"></script>
+  <script src="js/calculator.js?v=20260313"></script>
+  <script src="js/app.js?v=20260313"></script>
 </body>
 </html>

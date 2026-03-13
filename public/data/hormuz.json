@@ -8,8 +8,8 @@
     "percent_global_oil": 20,
     "percent_global_lng": 25,
     "closure_date": "2026-03-01",
-    "closure_method": "Iranian naval mines, IRGC Navy fast attack craft, anti-ship missile batteries on islands and coastline. Three vessels struck on March 11. IRGC fired on US Navy convoy escort on March 12.",
-    "status": "Partially breached. US Navy escorted first 3-tanker convoy through on March 12 under heavy guard. IRGC fired anti-ship missiles at escort vessels — intercepted. Transit remains extremely dangerous. 400+ tankers still stranded."
+    "closure_method": "Iranian naval mines, IRGC Navy fast attack craft, anti-ship missile batteries on islands and coastline. Three vessels struck on March 11. IRGC fired on US Navy convoy escort on March 12. US retaliatory strikes destroyed 5 IRGC coastal battery positions on March 13.",
+    "status": "Partially breached — second convoy completed. US Navy escorted 5 tankers through on March 13 (8 total since reopening). IRGC coastal batteries degraded by retaliatory strikes but mobile launchers remain. Transit corridor widened to 1.2km. 390+ tankers still stranded."
   },
   "geometry": {
     "chokepoint": [
@@ -43,8 +43,8 @@
   },
   "impact": {
     "tankers_transiting_prewar_daily": 85,
-    "tankers_transiting_current_daily": 6,
-    "insurance_cost_increase_pct": 1200,
+    "tankers_transiting_current_daily": 8,
+    "insurance_cost_increase_pct": 1100,
     "alternative_routes": [
       {"name": "East-West Pipeline (Saudi)", "capacity_mbd": 5.0, "status": "Operating at capacity"},
       {"name": "IPSA Pipeline (Iraq)", "capacity_mbd": 1.65, "status": "Partially operational"},
@@ -52,11 +52,12 @@
     ],
     "total_alternative_capacity_mbd": 8.15,
     "shortfall_mbd": 12.35,
-    "stranded_tankers": 400,
+    "stranded_tankers": 390,
     "shadow_tanker_transits_daily": 13,
-    "escorted_convoy_transits": 3,
+    "escorted_convoy_transits": 8,
     "vessels_attacked_total": 8,
     "vessels_attacked_march_11": 3,
-    "us_navy_engaged_march_12": true
+    "us_navy_engaged_march_12": true,
+    "irgc_batteries_destroyed_march_13": 5
   }
 }
