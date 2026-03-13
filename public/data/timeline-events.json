@@ -331,5 +331,95 @@
     "category": "financial",
     "source": "AAA / GasBuddy / YCharts",
     "data_point": "$3.72/gal — +22% since pre-war. CA breaks $5.00"
+  },
+  {
+    "date": "2026-03-13",
+    "time": "01:00",
+    "title": "US retaliatory strikes destroy IRGC coastal batteries",
+    "description": "In direct response to yesterday's anti-ship missile attack on USS Paul Ignatius, US strikes hit IRGC coastal missile batteries and fast-attack-craft pens at Bandar Abbas, Qeshm Island, and three additional sites along the Hormuz coastline. Pentagon calls it a 'proportional response to ensure freedom of navigation.' Iran's ability to threaten the strait corridor is degraded but not eliminated — mobile launchers remain operational.",
+    "category": "military",
+    "source": "CENTCOM / DoD",
+    "data_point": "5 IRGC coastal sites destroyed"
+  },
+  {
+    "date": "2026-03-13",
+    "time": "06:00",
+    "title": "Second Hormuz convoy — 5 tankers escorted through under tighter security",
+    "description": "US Navy escorts a second, larger convoy of 5 tankers through the partially cleared Strait of Hormuz corridor. Transit time reduced to 11 hours from yesterday's 14 as mine countermeasures widen the lane. IRGC fast boats approach but withdraw after warning shots from escort helicopters. No missiles fired. Pentagon calls it 'proof of concept becoming routine.' Analysts note 5 tankers per day replaces less than 3% of pre-war Hormuz flow.",
+    "category": "military",
+    "source": "NAVCENT / Fifth Fleet / Reuters",
+    "data_point": "5 tankers through — 8 total since reopening"
+  },
+  {
+    "date": "2026-03-13",
+    "time": "08:00",
+    "title": "Oil eases slightly — Brent to $98.82 as convoy success tempers fears",
+    "description": "Brent crude dips 1.3% to $98.82 as the second successful convoy transit and destruction of IRGC coastal batteries provide modest reassurance. WTI holds flat at $95.28. Analysts caution that the psychological impact of convoys exceeds the material impact — 5 tankers cannot replace 85. The fundamental shortfall of 12.35 MBD persists. Gold eases to $5,080/oz.",
+    "category": "financial",
+    "source": "ICE / NYMEX / Bloomberg",
+    "data_point": "Brent $98.82 (-1.3%). WTI $95.28 (flat). Gold $5,080/oz"
+  },
+  {
+    "date": "2026-03-13",
+    "time": "10:00",
+    "title": "IDF ground forces advance 5km into Lebanon — heavy fighting at Bint Jbeil",
+    "description": "IDF ground forces push 5km north of the Blue Line into southern Lebanon on the second day of ground operations. Heavy fighting erupts near Bint Jbeil, a Hezbollah stronghold that was the scene of intense combat in 2006. Hezbollah's Radwan Force employs IEDs, anti-tank missiles, and tunnel positions. Six additional IDF soldiers killed — bringing the total to 10 since the ground incursion began. Hezbollah fires 300+ rockets at northern Israel in retaliation.",
+    "category": "military",
+    "source": "IDF / Al Jazeera / Hezbollah media office",
+    "data_point": "6 more IDF KIA — 10 total in ground operation"
+  },
+  {
+    "date": "2026-03-13",
+    "time": "12:00",
+    "title": "Senate begins heated AUMF debate",
+    "description": "The US Senate takes up the Authorization for Use of Military Force resolution demanded by 34 senators. Floor debate is heated — supporters argue the war is unconstitutional without explicit Congressional authorization; opponents call the debate 'aiding the enemy during wartime.' White House issues statement reaffirming Article II authority. Vote expected within 24 hours. Markets watch closely — an AUMF rejection could force a withdrawal timeline.",
+    "category": "domestic",
+    "source": "C-SPAN / Senate.gov / AP",
+    "data_point": "AUMF floor debate begins — vote expected March 14"
+  },
+  {
+    "date": "2026-03-13",
+    "time": "14:00",
+    "title": "Russia introduces rival ceasefire resolution at UNSC",
+    "description": "Russia introduces its own ceasefire resolution at the UN Security Council, calling for an immediate cessation of hostilities, withdrawal of all foreign forces from Iranian territory, and an international conference on Persian Gulf security. Unlike China's vetoed resolution, Russia's draft includes language condemning 'unilateral military aggression.' US, UK, and France expected to veto. Diplomatic paralysis at the UNSC deepens.",
+    "category": "diplomatic",
+    "source": "UN / Reuters / AP",
+    "data_point": "Second ceasefire resolution in 48 hours — US veto expected"
+  },
+  {
+    "date": "2026-03-13",
+    "time": "15:00",
+    "title": "EU announces sanctions package on IRGC and Iranian oil",
+    "description": "The European Union announces a comprehensive sanctions package targeting IRGC leadership, Iranian oil exports, and entities supporting Iran's ballistic missile program. The EU simultaneously calls for an 'immediate humanitarian pause' and offers to mediate. Iran responds by recalling its ambassadors from France, Germany, and the Netherlands. The sanctions signal Europe is aligning with the US position while maintaining diplomatic distance.",
+    "category": "diplomatic",
+    "source": "European Council / Reuters",
+    "data_point": "EU sanctions on IRGC + Iranian oil — Iran recalls 3 ambassadors"
+  },
+  {
+    "date": "2026-03-13",
+    "time": "16:00",
+    "title": "S&P 500 closes at 6,672.62 — slight decline on continued uncertainty",
+    "description": "Markets drift lower as the AUMF debate introduces political uncertainty. S&P 500 closes at 6,672.62, down 0.3% on the day and 2.8% below pre-war levels. Defense stocks remain elevated at +16.5%. Oil majors ease 1% with crude. Airlines extend losses to -24.5% as fuel cost fears mount. VIX holds at 27.5 — elevated but below crisis peaks.",
+    "category": "financial",
+    "source": "NYSE / Bloomberg / Yahoo Finance",
+    "data_point": "S&P 6,672.62 (-2.8% from pre-war 6,867)"
+  },
+  {
+    "date": "2026-03-13",
+    "time": "17:00",
+    "title": "Displaced in Lebanon surges past 850,000",
+    "description": "UNHCR reports displaced persons in Lebanon have surged past 850,000 as IDF ground operations enter their second day. Humanitarian corridors from southern Lebanon are overwhelmed. At least 65 Lebanese killed today, bringing the total to 720+, including 102 children. Medical facilities in Tyre and Sidon are operating beyond capacity. ICRC requests immediate humanitarian access for trapped civilians south of the Litani River.",
+    "category": "humanitarian",
+    "source": "UNHCR / OCHA / ICRC / Lebanese Health Ministry",
+    "data_point": "850,000+ displaced — 720+ killed including 102 children"
+  },
+  {
+    "date": "2026-03-13",
+    "time": "18:00",
+    "title": "Gas prices hit $3.82/gallon — trucking surcharges take effect",
+    "description": "National average gas price climbs to $3.82/gallon — up 25.2% from pre-war $3.05. California hits $5.15/gallon. The trucking industry's war surcharges announced yesterday take effect today, adding 8-12% to freight costs. Grocery chains warn of price increases on perishables within 3-5 days. The war's cost is no longer abstract — it is arriving at every checkout counter in America.",
+    "category": "financial",
+    "source": "AAA / GasBuddy / American Trucking Associations / YCharts",
+    "data_point": "$3.82/gal — +25.2% since pre-war. CA at $5.15"
   }
 ]

@@ -94,8 +94,8 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "3 Israeli civilians killed",
     "casualties_source": "IDF / Israeli media",
-    "active_days": [1, 2, 5, 12, 13],
-    "notes": "Hezbollah and direct Iranian missile strikes on northern Israel. Day 12: Fresh Iranian barrage over Netanya, all intercepted. Day 13: Rocket fire from Lebanon continues as IDF ground operation begins."
+    "active_days": [1, 2, 5, 12, 13, 14],
+    "notes": "Hezbollah and direct Iranian missile strikes on northern Israel. Day 13: Rocket fire from Lebanon continues as IDF ground operation begins. Day 14: 300+ Hezbollah rockets hit northern Israel in retaliation for IDF advance to Bint Jbeil."
   },
   {
     "id": "tel-aviv-israel",
@@ -108,8 +108,8 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Iron Dome / Arrow intercepted most; debris casualties",
     "casualties_source": "IDF",
-    "active_days": [1, 2, 3, 5, 12, 13],
-    "notes": "Largest missile barrage on Tel Aviv since October 2023 escalation. Day 12: Overnight Iranian salvo, all intercepted by Arrow/Iron Dome. Day 13: Hezbollah retaliatory strikes intensify as IDF crosses into southern Lebanon."
+    "active_days": [1, 2, 3, 5, 12, 13, 14],
+    "notes": "Largest missile barrage on Tel Aviv since October 2023 escalation. Day 13: Hezbollah retaliatory strikes intensify as IDF crosses into southern Lebanon. Day 14: Continued Hezbollah rocket fire; some reaching further south than previous days."
   },
   {
     "id": "nevatim-israel",
@@ -148,10 +148,10 @@
     "weapon": "Israeli airstrikes (in response to Hezbollah entry)",
     "origin": "IDF",
     "first_strike": "2026-03-02",
-    "casualties_reported": "570+ Lebanese casualties (including 83 children)",
+    "casualties_reported": "720+ Lebanese casualties (including 102 children)",
     "casualties_source": "Lebanese Health Ministry / ACLED",
-    "active_days": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
-    "notes": "Hezbollah entered war March 2. Israel responded with massive strikes on Dahieh and southern Lebanon. Day 12: IDF strikes command centers in Dahieh. Lebanese government bans Hezbollah military activities. Day 13: IDF launches ground incursion into southern Lebanon — first since 2006. Heavy fighting near Marjayoun. 2 Merkava tanks destroyed by ATGMs."
+    "active_days": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "notes": "Hezbollah entered war March 2. Israel responded with massive strikes on Dahieh and southern Lebanon. Day 13: IDF launches ground incursion — first since 2006. Day 14: IDF advances 5km to Bint Jbeil. Heavy fighting. 6 more IDF soldiers killed (10 total in ground op). 65 Lebanese killed on Day 14."
   },
   {
     "id": "tyre-lebanon",
@@ -164,8 +164,8 @@
     "first_strike": "2026-03-02",
     "casualties_reported": "Included in Lebanese total",
     "casualties_source": "ACLED",
-    "active_days": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
-    "notes": "Southern Lebanese city. Hezbollah rocket launch sites targeted. Israel ordered all residents south of Litani to move north on Day 6. Day 13: IDF ground forces advance toward Tyre axis; heavy urban combat reported."
+    "active_days": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "notes": "Southern Lebanese city. Hezbollah rocket launch sites targeted. Israel ordered all residents south of Litani to move north on Day 6. Day 14: IDF ground forces engage Hezbollah near Bint Jbeil; IEDs and tunnel warfare reported."
   },
   {
     "id": "saudi-oil",
@@ -192,8 +192,8 @@
     "first_strike": "2026-03-11",
     "casualties_reported": "Ship damage — no crew casualties reported",
     "casualties_source": "UK Maritime Trade Operations / Bloomberg",
-    "active_days": [12, 13],
-    "notes": "Three vessels struck on Day 12. Day 13: IRGC fires anti-ship missiles at US convoy escort vessels; USS Paul Ignatius intercepts both. IRGC fast attack craft driven off by helicopter gunships. First direct US Navy-IRGC naval engagement of the war."
+    "active_days": [12, 13, 14],
+    "notes": "Three vessels struck on Day 12. Day 13: IRGC fires anti-ship missiles at US convoy escort vessels; USS Paul Ignatius intercepts both. Day 14: IRGC fast boats approach second convoy but withdraw after warning shots. US retaliatory strikes destroy 5 IRGC coastal battery positions overnight."
   },
   {
     "id": "saudi-base-attack",
