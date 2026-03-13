@@ -53,14 +53,7 @@
     });
   }
 
-  // Update timestamp
-  function updateTimestamp() {
-    const el = document.getElementById('last-updated');
-    if (el) {
-      const now = new Date();
-      el.textContent = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false });
-    }
-  }
+  // Timestamp is now static — set in HTML as "LAST UPDATED" date
 
   // Cinematic intro — staggered fade reveal
   function initIntro() {
@@ -124,10 +117,8 @@
 
     // Navigation
     initNavigation();
-    updateTimestamp();
     // Theater panel is active on load — hide footer
     document.body.classList.add('theater-active');
-    setInterval(updateTimestamp, 60000);
 
     // Initialize map
     WarTheater.Map.init();
