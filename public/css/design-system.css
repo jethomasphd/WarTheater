@@ -809,6 +809,7 @@ h4 { font-size: var(--text-lg); }
 .disclaimer-action {
   text-align: center;
   padding-top: 28px;
+  padding-bottom: 120px;
   border-top: 1px solid var(--border);
 }
 
