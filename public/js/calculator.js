@@ -27,9 +27,9 @@ WarTheater.Calculator = {
   },
 
   // Gas price data
-  preWarBase: 3.05,
-  currentBase: 3.48,
-  warIncrease: 0.43, // currentBase - preWarBase
+  preWarBase: 2.98,
+  currentBase: 3.95,
+  warIncrease: 0.97, // currentBase - preWarBase
 
   init() {
     var miles = document.getElementById('calc-miles');

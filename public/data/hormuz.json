@@ -4,12 +4,15 @@
     "width_km": 33,
     "shipping_lane_width_km": 3,
     "daily_oil_flow_prewar_mbd": 20.5,
-    "daily_oil_flow_current_mbd": 1.2,
+    "daily_oil_flow_current_mbd": 1.3,
     "percent_global_oil": 20,
-    "percent_global_lng": 25,
-    "closure_date": "2026-03-01",
-    "closure_method": "Iranian naval mines, IRGC Navy fast attack craft, anti-ship missile batteries on islands and coastline. Three vessels struck on March 11. IRGC fired on US Navy convoy escort on March 12. US retaliatory strikes destroyed 5 IRGC coastal battery positions on March 13.",
-    "status": "Partially breached — second convoy completed. US Navy escorted 5 tankers through on March 13 (8 total since reopening). IRGC coastal batteries degraded by retaliatory strikes but mobile launchers remain. Transit corridor widened to 1.2km. 390+ tankers still stranded."
+    "percent_global_lng": 20,
+    "closure_date": "2026-03-04",
+    "closure_declared_by": "IRGC",
+    "closure_type": "De facto (insurance-driven + active attacks on vessels)",
+    "closure_method": "Asymmetric denial via drone and missile strikes on commercial vessels, triggering insurance-driven shutdown. IRGC used sea drones, anti-ship missiles, and shore-launched projectiles to strike 16+ vessels since Feb 28. War risk insurance withdrawn or repriced at 4-5x prewar rates, making transit economically unviable. Reports of naval mine deployment began ~March 10; US destroyed 16 Iranian minelayers in response. IRGC fast attack craft fleet largely intact per US assessments. Chinese-flagged and shadow fleet vessels continue transiting with de facto Iranian permission.",
+    "status": "Effectively closed to Western-allied shipping. No US Navy escort convoys have been conducted as of March 14. Energy Secretary Wright confirmed March 12 the US is 'not ready' to escort tankers. Trump said March 13 escorts will happen 'soon.' Iran selectively permitting passage for non-Western vessels: Turkish ship approved March 13, two Indian LPG carriers and one Saudi tanker carrying oil for India allowed through. Shadow fleet and Chinese-flagged vessels account for majority of remaining transits. Approximately 1,000 ships anchored near strait entrance including ~200 oil tankers. US struck Kharg Island military targets March 13, threatening oil infrastructure if strait passage not restored.",
+    "kharg_island_distance_from_strait_km": 483
   },
   "geometry": {
     "chokepoint": [
@@ -42,9 +45,10 @@
     ]
   },
   "impact": {
-    "tankers_transiting_prewar_daily": 85,
-    "tankers_transiting_current_daily": 8,
-    "insurance_cost_increase_pct": 1100,
+    "tankers_transiting_prewar_daily": 50,
+    "tankers_transiting_current_daily": null,
+    "tankers_transiting_current_note": "Virtually zero for Western-allied tankers. A small number of shadow fleet, Chinese-flagged, and Iranian-permitted vessels transit daily. Precise count unavailable — most tracking relies on AIS signals which many vessels have disabled.",
+    "insurance_cost_increase_pct": 400,
     "alternative_routes": [
       {"name": "East-West Pipeline (Saudi)", "capacity_mbd": 5.0, "status": "Operating at capacity"},
       {"name": "IPSA Pipeline (Iraq)", "capacity_mbd": 1.65, "status": "Partially operational"},
@@ -52,12 +56,28 @@
     ],
     "total_alternative_capacity_mbd": 8.15,
     "shortfall_mbd": 12.35,
-    "stranded_tankers": 390,
-    "shadow_tanker_transits_daily": 13,
-    "escorted_convoy_transits": 8,
-    "vessels_attacked_total": 8,
+    "stranded_tankers": 1000,
+    "stranded_tankers_oil_only": 200,
+    "shadow_tanker_transits_daily": null,
+    "shadow_tanker_transit_note": "USNI/Lloyd's List reports shadow fleet ships made approximately half of all Strait of Hormuz transits in March 2026. Daily count not independently verifiable.",
+    "escorted_convoy_transits": 0,
+    "vessels_attacked_total": 16,
     "vessels_attacked_march_11": 3,
-    "us_navy_engaged_march_12": true,
-    "irgc_batteries_destroyed_march_13": 5
+    "us_navy_engaged_march_12": false,
+    "irgc_batteries_destroyed_march_13": null,
+    "kharg_island_strike_march_13": true,
+    "kharg_island_strike_note": "US struck military targets on Kharg Island. Oil infrastructure deliberately spared. Trump threatened to reconsider if Iran continues blocking strait.",
+    "vessels_sunk_or_damaged_by_us": 90,
+    "iranian_minelayers_destroyed": 16,
+    "us_military_deaths": 13,
+    "seafarer_fatalities": 6,
+    "brent_crude_prewar_usd": 71.00,
+    "brent_crude_current_usd": 103.86,
+    "brent_crude_increase_pct": 46,
+    "iea_reserve_release_mbarrels": 400,
+    "us_spr_release_mbarrels": 172,
+    "iran_selective_passage": true,
+    "iran_selective_passage_note": "Iran permitting transit for non-Western vessels on case-by-case basis. Turkish, Indian, and Saudi (India-bound) ships allowed through. Chinese-flagged vessels transiting continuously. Iran exporting 1.1-1.5 mbd to China.",
+    "us_escort_status": "Not yet operational. Pentagon describes strait as 'kill box.' Escorts planned for late March at earliest. 2,500 Marines (31st MEU aboard USS Tripoli) deploying to region."
   }
 }

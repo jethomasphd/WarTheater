@@ -82,12 +82,12 @@ WarTheater.Data = {
     // Return curated current snapshot
     return {
       timestamp: new Date().toISOString(),
-      brent: { price: 100.11, change_pct: 38.3, baseline: 72.38 },
-      wti: { price: 95.28, change_pct: 34.5, baseline: 70.82 },
-      gas: { price: 3.72, change_pct: 22.0, baseline: 3.05 },
-      sp500: { value: 6694, change_pct: -2.5, baseline: 6867 },
-      daily_cost: 500000000,
-      total_cost: 5000000000
+      brent: { price: 103.86, change_pct: 46.3, baseline: 71.00 },
+      wti: { price: 99.50, change_pct: 49.6, baseline: 66.50 },
+      gas: { price: 3.95, change_pct: 32.6, baseline: 2.98 },
+      sp500: { value: 6632.19, change_pct: -3.6, baseline: 6878.88 },
+      daily_cost: 590000000,
+      total_cost: 7600000000
     };
   },
 

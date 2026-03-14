@@ -22,9 +22,9 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 
   <!-- Design System -->
-  <link rel="stylesheet" href="css/design-system.css?v=20260313">
-  <link rel="stylesheet" href="css/animations.css?v=20260313">
-  <link rel="stylesheet" href="css/responsive.css?v=20260313">
+  <link rel="stylesheet" href="css/design-system.css?v=20260314">
+  <link rel="stylesheet" href="css/animations.css?v=20260314">
+  <link rel="stylesheet" href="css/responsive.css?v=20260314">
 </head>
 <body>
 
@@ -240,35 +240,35 @@
 
         <!-- Hero Metrics -->
         <div class="metrics-grid" id="financial-metrics" aria-label="Key financial indicators">
-          <div class="hero-metric" title="Brent Crude: The international benchmark. Pre-war close: $72.38/bbl (Feb 27). Eases 1.3% on second successful convoy transit and IRGC battery destruction. Source: ICE Futures Europe / Bloomberg.">
-            <div class="value font-data" id="brent-price" style="color: var(--financial-up);">$98.82</div>
+          <div class="hero-metric" title="Brent Crude: The international benchmark. Pre-war close: $71.00/bbl (Feb 27). Surges back above $100 on continued Hormuz closure and no escort convoys. Source: ICE Futures Europe / Bloomberg.">
+            <div class="value font-data" id="brent-price" style="color: var(--financial-up);">$103.86</div>
             <div class="label">Brent Crude $/bbl</div>
-            <div class="change up font-data" id="brent-change">+36.6% since Feb 27 — eases on convoy success</div>
+            <div class="change up font-data" id="brent-change">+46.3% since Feb 27 — Hormuz still closed</div>
           </div>
-          <div class="hero-metric" title="West Texas Intermediate: The US benchmark. Pre-war close: $70.82/bbl (Feb 27). Holding flat at $95.28 as Hormuz shortfall persists despite convoy operations. Source: NYMEX / Yahoo Finance.">
-            <div class="value font-data" id="wti-price" style="color: var(--financial-up);">$95.28</div>
+          <div class="hero-metric" title="West Texas Intermediate: The US benchmark. Pre-war close: $66.50/bbl (Feb 27). Tracking Brent higher as Hormuz shortfall persists. Source: NYMEX / Yahoo Finance.">
+            <div class="value font-data" id="wti-price" style="color: var(--financial-up);">$99.50</div>
             <div class="label">WTI Crude $/bbl</div>
-            <div class="change up font-data" id="wti-change">+34.5% since Feb 27 — flat; Hormuz shortfall persists</div>
+            <div class="change up font-data" id="wti-change">+49.6% since Feb 27 — Hormuz shortfall persists</div>
           </div>
-          <div class="hero-metric" title="National average retail gasoline price. Pre-war: $3.05/gal (Feb 27). Trucking surcharges take effect today. California at $5.15. Source: AAA / YCharts.">
-            <div class="value font-data" id="gas-price" style="color: var(--financial-up);">$3.82</div>
+          <div class="hero-metric" title="National average retail gasoline price. Pre-war: $2.98/gal (Feb 27). Trucking surcharges compounding. California above $5.20. Source: AAA / YCharts.">
+            <div class="value font-data" id="gas-price" style="color: var(--financial-up);">$3.95</div>
             <div class="label">US Gas Avg/Gal</div>
-            <div class="change up font-data" id="gas-change">+$0.77 / +25.2% since Feb 27 — CA at $5.15</div>
+            <div class="change up font-data" id="gas-change">+$0.97 / +32.6% since Feb 27 — CA at $5.25</div>
           </div>
-          <div class="hero-metric" title="S&P 500 index. Pre-war close: 6,867 (Feb 27). Dips 0.3% on AUMF debate uncertainty. Defense +16.5%, airlines -24.5%. Source: NYSE / Yahoo Finance.">
-            <div class="value font-data" id="sp500-value" style="color: var(--financial-up);">6,672.62</div>
+          <div class="hero-metric" title="S&P 500 index. Pre-war close: 6,878.88 (Feb 27). Declines on AUMF vote and continued war uncertainty. Source: NYSE / Yahoo Finance.">
+            <div class="value font-data" id="sp500-value" style="color: var(--financial-up);">6,632.19</div>
             <div class="label">S&P 500</div>
-            <div class="change up font-data" id="sp500-change">-194 pts / -2.8% since Feb 27</div>
+            <div class="change up font-data" id="sp500-change">-247 pts / -3.6% since Feb 27</div>
           </div>
-          <div class="hero-metric" title="Estimated daily operational cost. Day 14 reflects retaliatory strikes on IRGC coastal batteries, second convoy escort, and IDF ground support operations. Source: DoD budget analysis / CBO estimates.">
-            <div class="value font-data" id="daily-cost" style="color: var(--text-accent);">$580M</div>
+          <div class="hero-metric" title="Estimated daily operational cost. Day 15 reflects continued air campaign, IDF ground support, and Houthi interdiction operations. Source: DoD budget analysis / CBO estimates.">
+            <div class="value font-data" id="daily-cost" style="color: var(--text-accent);">$590M</div>
             <div class="label">Est. Daily US Cost</div>
-            <div class="change font-data" style="color: var(--text-dim);" id="daily-cost-note">New high — retaliatory strikes + convoy + ground support</div>
+            <div class="change font-data" style="color: var(--text-dim);" id="daily-cost-note">Air campaign + IDF support + Houthi interdiction</div>
           </div>
-          <div class="hero-metric" title="Cumulative estimated cost since Feb 28. Approaching $7.0B. Does not include long-term VA costs or economic impact. Source: DoD / CBO.">
-            <div class="value font-data" id="total-cost" style="color: var(--text-accent);">$7.0B</div>
-            <div class="label">Est. Total Cost (14 Days)</div>
-            <div class="change font-data" style="color: var(--text-dim);" id="total-cost-note">= 31,800 fully-funded 4-year college scholarships</div>
+          <div class="hero-metric" title="Cumulative estimated cost since Feb 28. Does not include long-term VA costs or economic impact. Source: DoD / CBO.">
+            <div class="value font-data" id="total-cost" style="color: var(--text-accent);">$7.6B</div>
+            <div class="label">Est. Total Cost (15 Days)</div>
+            <div class="change font-data" style="color: var(--text-dim);" id="total-cost-note">= 34,500 fully-funded 4-year college scholarships</div>
           </div>
         </div>
 
@@ -348,10 +348,10 @@
             <div class="label">Total Strikes</div>
             <div class="change font-data" style="color: var(--text-dim);">US/Israel on Iran — and counting</div>
           </div>
-          <div class="hero-metric" title="US service members killed in action. 6 at Ali Al Salem (Day 1), 1 Saudi Arabia (Day 2), 8th confirmed March 11. No new US KIA Days 13-14. Source: DoD / CENTCOM.">
-            <div class="value font-data counter" data-target="8" style="color: var(--civilian);">0</div>
-            <div class="label">US Service Members KIA</div>
-            <div class="change font-data" style="color: var(--text-dim);">No new KIA Day 14 — 8 total</div>
+          <div class="hero-metric" title="US military deaths. 6 at Port Shuaiba, Kuwait (Day 2). 1 died of wounds at Prince Sultan AB, Saudi Arabia (Day 9). 6 killed in KC-135 crash over Iraq (Day 13). 1 health-related death at Camp Buehring (Day 7). Source: DoD / CENTCOM.">
+            <div class="value font-data counter" data-target="13" style="color: var(--civilian);">0</div>
+            <div class="label">US Military Deaths</div>
+            <div class="change font-data" style="color: var(--text-dim);">7 enemy fire + 6 KC-135 crash — 13 total</div>
           </div>
           <div class="hero-metric" title="US service members wounded in action across multiple bases and convoy operations. 2 additional WIA on Day 14 from mine countermeasures during convoy escort. Source: DoD / CENTCOM.">
             <div class="value font-data counter" data-target="14" style="color: var(--civilian);">0</div>
@@ -470,7 +470,7 @@
           <h3>Humanitarian Update</h3>
           <p>The IDF ground operation in southern Lebanon entered its second day with heavy casualties on both sides. Six more IDF soldiers were killed — bringing the total to ten in just two days — as Hezbollah's Radwan Force used the same defensive tactics that devastated Israeli forces at Bint Jbeil in 2006: IEDs, anti-tank guided missiles fired from tunnel openings, and fortified underground positions. An estimated 65 Lebanese were killed today, bringing the total to at least 720 including 102 children. Displaced persons have surged past 850,000 as the ground operation pushes deeper. The ICRC has requested immediate humanitarian access for civilians trapped south of the Litani River.</p>
           <p>In Iran, strikes continued on remaining military infrastructure in Tehran, Bandar Abbas, Kharg Island, and Abadan. Approximately 115 additional Iranian casualties are estimated today — 95 military and 20 civilian — bringing the total to approximately 1,500 killed since February 28. The Sidon field hospital in southern Lebanon reported structural damage from nearby ground combat, the fifth medical facility affected since the war began.</p>
-          <p>No new US service member deaths were reported. The total remains at 8 KIA and 14 wounded (2 additional WIA from mine countermeasures operations during convoy escort). The growing Israeli casualty toll — 10 KIA in two days — is dominating Israeli media and raising questions about whether the IDF can sustain a ground campaign against a Hezbollah force that is better equipped than in 2006.</p>
+          <p>Six US crew members were killed when a KC-135 refueling aircraft was lost over western Iraq on March 12 — not due to hostile or friendly fire. Total US military deaths now stand at 13 (7 enemy fire + 6 KC-135 crash). The growing Israeli casualty toll — 10 KIA in two days — is dominating Israeli media and raising questions about whether the IDF can sustain a ground campaign against a Hezbollah force that is better equipped than in 2006.</p>
         </div>
 
         <!-- What to Watch -->
@@ -509,9 +509,43 @@
       <div class="timeline-container">
 
         <h2 style="margin-bottom: var(--space-lg);">The Record</h2>
-        <p style="color: var(--text-secondary); margin-bottom: var(--space-xl); font-size: var(--text-sm);">
+        <p style="color: var(--text-secondary); margin-bottom: var(--space-md); font-size: var(--text-sm);">
           Every significant event since February 28, 2026. The historical record of Operation Epic Fury.
         </p>
+
+        <!-- Search and Controls -->
+        <div style="display: flex; align-items: center; gap: var(--space-md); margin-bottom: var(--space-md); flex-wrap: wrap;">
+          <input type="text" id="timeline-search" placeholder="Search events..." style="
+            flex: 1;
+            min-width: 200px;
+            padding: 8px 12px;
+            background: rgba(26,26,26,0.8);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: var(--text-sm);
+            border-radius: 4px;
+            outline: none;
+          ">
+          <button id="timeline-sort-btn" style="
+            padding: 8px 14px;
+            background: rgba(26,26,26,0.8);
+            border: 1px solid var(--border);
+            color: var(--text-accent);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.04em;
+            cursor: pointer;
+            border-radius: 4px;
+            white-space: nowrap;
+          ">Newest First</button>
+          <span id="timeline-result-count" style="
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--text-dim);
+            white-space: nowrap;
+          "></span>
+        </div>
 
         <!-- Filters -->
         <div class="timeline-filters" id="timeline-filters">
@@ -521,6 +555,7 @@
           <button class="filter-btn" data-filter="humanitarian">Humanitarian</button>
           <button class="filter-btn" data-filter="diplomatic">Diplomatic</button>
           <button class="filter-btn" data-filter="domestic">Domestic</button>
+          <button class="filter-btn" data-filter="cyber">Cyber</button>
         </div>
 
         <!-- Timeline Events -->
@@ -544,8 +579,7 @@
 
         <div class="about-section about-lede">
           <p>You are looking at a war.</p>
-          <p>Not through the lens of a cable news chyron. Not through the sanitized language of a Pentagon briefing where "kinetic engagement" means a family no longer exists. Not through the algorithmic feed that buries the death toll beneath outrage bait.</p>
-          <p>You are looking at it through data. Raw, sourced, unfiltered.</p>
+          <p>Not through the lens of a cable news chyron or the algorithmic feed that buries the death toll beneath outrage bait. You are looking at it through data. Raw, sourced, unfiltered.</p>
         </div>
 
         <div class="about-pullquote">
@@ -553,72 +587,57 @@
         </div>
 
         <div class="about-section">
-          <h3>The Flood</h3>
-          <p>We live in the age of information warfare waged against the public itself. The strategy is not censorship — it's flooding. Bury the signal in noise. Overwhelm the citizen with so much conflicting data, so many hot takes, so many breaking alerts, that comprehension becomes impossible and apathy becomes rational.</p>
-          <p>The flood is not an accident. It is a weapon. When you can't tell what's true, you stop trying. When you stop trying, power operates without scrutiny. That is the goal.</p>
+          <h3>Signal and Noise</h3>
+          <p>Modern information warfare is not about censorship. It is about volume. Bury the signal in noise. Overwhelm the citizen with so much conflicting data that comprehension becomes impossible and apathy becomes rational.</p>
+          <p>This dashboard is an attempt at the opposite: take the chaos of a war — airstrikes, market swings, refugee columns, diplomatic posturing — and make it legible. Not simple. Legible. Every data point sourced, every chart connected to the human reality it represents.</p>
         </div>
 
         <div class="about-section">
-          <h3>The Space Between</h3>
-          <p>There is a space between the data and understanding. Between knowing the number 23 and knowing that each digit was a child who had a favorite color and a best friend and a laugh that their parents will never hear again. Most information systems are designed to keep you on one side of that space — the side where numbers stay abstract, where "surgical strike" sounds clean, where "degraded capability" doesn't sound like screaming.</p>
-          <p>This dashboard is designed to pull you across. Not by manipulating you. By attending. By placing every data point in context, connected to every other data point, until the picture becomes too coherent to dismiss and too human to ignore.</p>
-          <p>The quality of understanding is not bounded by data volume. It is bounded by attention. And attention — truly attending to what the numbers mean for real lives — is the rarest resource in the information age.</p>
-        </div>
-
-        <div class="about-section">
-          <h3>The Theater</h3>
-          <p>This dashboard takes the chaos of a war — the airstrikes, the market swings, the refugee columns, the diplomatic posturing — and makes it legible. Not simple. Legible. Because the truth of war is complex, and you deserve to see it in its complexity rather than have it pre-digested by people who profit from your confusion.</p>
-          <p>Every data point is sourced. Every chart tells a story that someone, somewhere, would prefer you didn't hear.</p>
-        </div>
-
-        <div class="about-pullquote">
-          <p>War thrives in abstraction. "Surgical strike." "Neutralized." "Degraded capability." Every euphemism is a small act of violence against the truth.</p>
+          <h3>The Space Between Data and Understanding</h3>
+          <p>There is a gap between knowing a number and understanding what it means. Between reading "165 killed" and grasping that each was a child who had a favorite color and a laugh their parents will never hear again. Most information systems are designed to keep you on the abstract side of that gap.</p>
+          <p>This dashboard is designed to pull you across. Not by manipulating you — by attending. By placing every data point in context until the picture becomes too coherent to dismiss and too human to ignore.</p>
         </div>
 
         <div class="about-section">
           <h3>Who Has the Right to Know</h3>
           <p>Intelligence briefings were once prepared exclusively for presidents and generals — the people who start wars. The public that funds them, fights them, and dies in them was given press conferences and talking points.</p>
-          <p>This dashboard exists on a simple premise: the people who pay for a war have the right to understand it. Not the version approved for public consumption. The real version. With the dollar amounts and the body counts and the market data and the displacement figures all in one place, connected, contextualized, and impossible to look away from.</p>
+          <p>This dashboard exists on a simple premise: the people who pay for a war have the right to understand it. The real version. With the dollar amounts and the body counts and the displacement figures all in one place, connected, contextualized, and impossible to look away from.</p>
         </div>
 
         <div class="about-section">
           <h3>A Note on Violence</h3>
-          <p>This project is fundamentally antiwar. Not strategically, not politically — morally. The act of killing human beings in organized fashion, no matter how justified the stated objective, is a failure of civilization that demands relentless scrutiny rather than patriotic celebration.</p>
-          <p>We do not take sides between combatants. We take the side of the people caught between them — the families in Minab, the displaced in Lebanon, the service members at Ali Al Salem, the gas station worker in Ohio who doesn't know why her commute suddenly costs $30 more a month.</p>
-          <p>If this dashboard makes war harder to ignore, harder to abstract, harder to celebrate — then it is doing exactly what it was built to do.</p>
+          <p>This project is fundamentally antiwar. Not strategically, not politically — morally. The act of killing human beings in organized fashion, no matter how justified the stated objective, demands relentless scrutiny rather than patriotic celebration.</p>
+          <p>We do not take sides between combatants. We take the side of the people caught between them — the families in Minab, the displaced in Lebanon, the service members at Port Shuaiba, the gas station worker in Ohio who doesn't know why her commute suddenly costs $30 more a month.</p>
         </div>
 
         <div class="about-section">
           <h3>Data Fidelity</h3>
           <p>Honesty about what this is and what it isn't:</p>
           <ul class="about-fidelity-list">
-            <li><strong>Financial baselines</strong> are cross-referenced against FRED, Yahoo Finance, ICE/NYMEX, Treasury FiscalData, and COMEX. These are the hardest numbers on the dashboard.</li>
-            <li><strong>Conflict data</strong> is sourced from ACLED, CENTCOM, and DoD press releases. Strike coordinates are approximate. Casualty figures draw from multiple sources that frequently contradict each other — because that is the nature of war reporting.</li>
-            <li><strong>Humanitarian data</strong> comes from UNHCR, OCHA, ICRC, and the Iranian Red Crescent. Displacement figures are conservative estimates by design.</li>
-            <li><strong>AI-generated content</strong> includes timeline descriptions, daily briefings, geolocation data, and some enrichment calculations. These are audited by the creator but <em>models hallucinate with total confidence</em> — errors survive audits. They always do.</li>
-            <li><strong>Update cadence</strong> is once daily, typically mornings US Eastern. The architecture supports real-time feeds. That capability is not yet live.</li>
+            <li><strong>Financial baselines</strong> are cross-referenced against FRED, Yahoo Finance, ICE/NYMEX, Treasury FiscalData, COMEX, and EIA. Pre-war values are independently sourced with confidence levels documented in the audit trail. These are the hardest numbers on the dashboard.</li>
+            <li><strong>Conflict data</strong> is sourced from ACLED, CENTCOM, DoD press releases, CRS reports, OSINT analysts, and verified satellite imagery. Strike coordinates are approximate. Casualty figures draw from multiple sources that frequently contradict each other — because that is the nature of war reporting.</li>
+            <li><strong>Humanitarian data</strong> comes from UNHCR, OCHA, ICRC, WHO, the Iranian Red Crescent, and the Lebanese Health Ministry. Displacement figures are conservative estimates by design.</li>
+            <li><strong>AI-generated content</strong> includes timeline descriptions, daily briefings, and some enrichment calculations. These are audited by the creator, but <em>models hallucinate with total confidence</em> — errors survive audits. A detailed correction and verification trail is maintained in the project repository.</li>
+            <li><strong>Update cadence</strong> is daily. Each update cycle includes a full audit of all JSON data files against primary sources.</li>
             <li><strong>No data on this dashboard should be used for financial, military, or life-safety decisions.</strong> It is built for comprehension, not action.</li>
           </ul>
         </div>
 
         <div class="about-section">
           <h3>The Experiment</h3>
-          <p>Here is the part that bends back on itself.</p>
-          <p>This project — a dashboard built largely by AI, citing sources that are themselves under informational siege, published into the same internet that constitutes the flood — is <em>itself</em> a piece of data in the flood. You are looking at an artifact of the very system it claims to critique. That is either a fatal contradiction or the only honest place to start. We think it's the latter.</p>
-          <p>The War Theater is an experiment. Can a thing built in the flood survive the flood? Can open-source transparency, radical citation, and good faith outrun the entropy of misinformation? Can data, presented with enough context and enough humanity, actually change how someone understands what their government is doing with their money and in their name?</p>
-          <p>We don't know yet. The experiment is running. You are part of it now.</p>
+          <p>This project — a dashboard built largely by AI, citing sources that are themselves contested, published into the same information ecosystem it critiques — is an artifact of the very system it seeks to clarify. That is either a fatal contradiction or the only honest place to start.</p>
+          <p>Can open-source transparency, radical citation, and good faith produce genuine understanding? Can data, presented with enough context and enough humanity, actually change how someone understands what their government is doing with their money and in their name? The experiment is running. You are part of it now.</p>
         </div>
 
         <div class="about-pullquote">
-          <p>The flood wins when you look away. Every pair of eyes on this dashboard is a small act of resistance against the strategy of overwhelm.</p>
+          <p>Every pair of eyes on this dashboard is a small act of resistance against the strategy of overwhelm.</p>
         </div>
 
         <div class="about-section">
-          <h3>Spread the Signal</h3>
+          <h3>Contribute</h3>
           <p>This project is open source. Every line of code, every data pipeline, every editorial decision is public and auditable on <a href="https://github.com/jethomasphd/WarTheater" target="_blank" rel="noopener">GitHub</a>. That is not a feature. It is the point.</p>
-          <p>If you have domain expertise — conflict data, financial modeling, humanitarian reporting, OSINT, infrastructure, design — we want your eyes on this. Fork the repo. Open an issue. Tell us what we got wrong. The dashboard gets more honest every time someone does.</p>
-          <p>If you don't code, you can still help. Share it. Send it to the person who thinks they understand the war because they watched a panel show. Send it to the person who stopped paying attention because the flood won. Send it to the person who doesn't know what their tax dollars bought this week.</p>
-          <p>The flood is coordinated. The signal doesn't have to be — it just has to be persistent.</p>
+          <p>If you have domain expertise — conflict data, financial modeling, humanitarian reporting, OSINT, infrastructure, design — we want your eyes on this. Fork the repo. Open an issue. Tell us what we got wrong.</p>
+          <p>If you don't code, you can still help. Share it. Send it to someone who thinks they understand the war because they watched a panel show, or to someone who stopped paying attention entirely.</p>
           <p class="about-contact-cta">Contribute, correct, or just make contact: <a href="mailto:JEThomasPhD@gmail.com">JEThomasPhD@gmail.com</a></p>
         </div>
 
@@ -649,14 +668,14 @@
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
   <!-- Application JS -->
-  <script src="js/utils.js?v=20260313"></script>
-  <script src="js/data.js?v=20260313"></script>
-  <script src="js/map.js?v=20260313"></script>
-  <script src="js/financial.js?v=20260313"></script>
-  <script src="js/humanitarian.js?v=20260313"></script>
-  <script src="js/briefing.js?v=20260313"></script>
-  <script src="js/timeline.js?v=20260313"></script>
-  <script src="js/calculator.js?v=20260313"></script>
-  <script src="js/app.js?v=20260313"></script>
+  <script src="js/utils.js?v=20260314"></script>
+  <script src="js/data.js?v=20260314"></script>
+  <script src="js/map.js?v=20260314"></script>
+  <script src="js/financial.js?v=20260314"></script>
+  <script src="js/humanitarian.js?v=20260314"></script>
+  <script src="js/briefing.js?v=20260314"></script>
+  <script src="js/timeline.js?v=20260314"></script>
+  <script src="js/calculator.js?v=20260314"></script>
+  <script src="js/app.js?v=20260314"></script>
 </body>
 </html>

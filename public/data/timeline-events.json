@@ -10,6 +10,15 @@
   },
   {
     "date": "2026-02-28",
+    "time": "04:00",
+    "title": "B-2 Spirits lead opening strikes on hardened targets",
+    "description": "B-2 Spirit stealth bombers flying from Whiteman AFB, Missouri deliver GBU-57 Massive Ordnance Penetrators on Fordow and other hardened nuclear sites. B-52Hs operating from Diego Garcia and Al Udeid launch cruise missile salvos at IRGC command centers. The air campaign involves assets from 3 carrier strike groups, multiple bomber wings, and F-35s operating from Gulf bases.",
+    "category": "military",
+    "source": "AFCENT / DoD",
+    "data_point": "3 carrier strike groups, B-2 and B-52 wings deployed"
+  },
+  {
+    "date": "2026-02-28",
     "time": "06:30",
     "title": "Iran retaliates on Gulf states and Israel",
     "description": "IRGC Aerospace Force launches ballistic missile salvos at US bases in Kuwait, Qatar, UAE, and Bahrain. Simultaneous strikes on Israeli military targets including Nevatim Air Base and Ben Gurion Airport perimeter.",
@@ -20,11 +29,11 @@
   {
     "date": "2026-02-28",
     "time": "08:00",
-    "title": "6 US service members killed at Ali Al Salem, Kuwait",
-    "description": "Fattah hypersonic missiles penetrate Patriot air defense coverage at Ali Al Salem Air Base. Six US service members killed, ten or more wounded. First US combat deaths of the conflict.",
+    "title": "6 US soldiers killed at Port Shuaiba, Kuwait",
+    "description": "A projectile penetrates air defenses and directly hits a makeshift tactical operations center at Port Shuaiba, Kuwait. Six US Army Reserve soldiers from the 103rd Sustainment Command (Des Moines, Iowa) are killed. First US combat deaths of the conflict.",
     "category": "military",
-    "source": "DoD / CENTCOM",
-    "data_point": "6 KIA, 10+ WIA"
+    "source": "DoD / CENTCOM / CNN / Stars and Stripes",
+    "data_point": "6 KIA — deadliest single attack on US forces"
   },
   {
     "date": "2026-02-28",
@@ -37,12 +46,39 @@
   },
   {
     "date": "2026-02-28",
+    "time": "10:00",
+    "title": "Iraqi militias launch rocket attacks on US bases in Iraq and Syria",
+    "description": "Kata'ib Hezbollah and allied PMF factions launch coordinated rocket and drone attacks on Al-Asad Air Base in western Iraq, Erbil in Kurdistan, and Al-Tanf garrison in Syria. US CRAM systems engage incoming. Three US service members wounded at Al-Asad.",
+    "category": "military",
+    "source": "CENTCOM / Iraqi Joint Operations Command",
+    "data_point": "3 US bases struck simultaneously"
+  },
+  {
+    "date": "2026-02-28",
+    "time": "12:00",
+    "title": "Iranian cyberattacks target US financial systems and Gulf state infrastructure",
+    "description": "US Cybersecurity and Infrastructure Security Agency (CISA) reports coordinated cyberattacks attributed to APT33 (Elfin) targeting US financial sector networks, Gulf state water treatment systems, and Israeli power grid control systems. Most attacks are mitigated. CISA raises threat level to 'Shields Up' — the highest alert tier.",
+    "category": "cyber",
+    "source": "CISA / NSA / Reuters",
+    "data_point": "CISA 'Shields Up' alert issued"
+  },
+  {
+    "date": "2026-02-28",
     "time": "14:00",
     "title": "President Trump addresses the nation",
     "description": "Trump announces Operation Epic Fury from the Oval Office. Calls it 'a decisive action to prevent a nuclear Iran.' Pledges 'no ground troops' and 'total air dominance.'",
     "category": "diplomatic",
     "source": "White House",
     "data_point": null
+  },
+  {
+    "date": "2026-02-28",
+    "time": "20:00",
+    "title": "Iran launches Shahed drone swarms at Gulf military bases",
+    "description": "IRGC launches waves of Shahed-136 one-way attack drones targeting US and coalition bases in Kuwait, Bahrain, and Qatar. Most are intercepted by Patriot, NASAMS, and CRAM systems. The volume of launches — estimated 150+ in the first 24 hours — strains air defense interceptor stocks.",
+    "category": "military",
+    "source": "CENTCOM / DoD",
+    "data_point": "150+ Shahed drones launched in first 24 hours"
   },
   {
     "date": "2026-03-01",
@@ -55,11 +91,83 @@
   },
   {
     "date": "2026-03-01",
+    "time": "08:00",
+    "title": "Pentagon confirms strikes on all known Iranian nuclear sites",
+    "description": "DoD releases initial battle damage assessment confirming strikes on Natanz (centrifuge facility), Fordow (underground enrichment site), Isfahan (uranium conversion), and the Arak heavy water reactor. Natanz surface facilities assessed as destroyed. Fordow, buried under 80+ meters of rock, sustained multiple GBU-57 Massive Ordnance Penetrator hits — damage assessment ongoing. Isfahan conversion facility severely damaged. Arak reactor building collapsed.",
+    "category": "military",
+    "source": "DoD / CENTCOM / satellite imagery analysts",
+    "data_point": "4 nuclear sites struck — Fordow penetration uncertain"
+  },
+  {
+    "date": "2026-03-01",
     "time": "10:00",
     "title": "UN Security Council emergency session",
     "description": "Emergency UNSC meeting called. Russia and China condemn US strikes. US and UK defend action under self-defense and non-proliferation mandates. No resolution passed.",
     "category": "diplomatic",
     "source": "UN",
+    "data_point": null
+  },
+  {
+    "date": "2026-03-01",
+    "time": "12:00",
+    "title": "Iran's integrated air defense network assessed as suppressed",
+    "description": "CENTCOM assesses Iran's integrated air defense system as effectively suppressed after 48 hours. S-300PMU-2 batteries at Isfahan and Tehran are confirmed destroyed. Indigenous Bavar-373 systems engaged but failed to intercept US stealth aircraft. Iranian Air Force F-14 fleet did not launch; their Mehrabad hangars were struck on Day 1. Remaining mobile SAMs and MANPADS continue to pose threats to non-stealth aircraft.",
+    "category": "military",
+    "source": "CENTCOM / AFCENT / DIA",
+    "data_point": "Iranian IADS suppressed within 48 hours"
+  },
+  {
+    "date": "2026-03-01",
+    "time": "14:00",
+    "title": "Treasury yields plunge as investors flee to safety",
+    "description": "10-year US Treasury yield drops 28 basis points to 3.92% as global investors flood into US government bonds. The dollar index (DXY) surges 2.1% to 107.8 on safe-haven demand. Gold spikes to $4,850/oz. The flight to safety is the largest single-day move since the early days of COVID-19.",
+    "category": "financial",
+    "source": "US Treasury / Bloomberg / Reuters",
+    "data_point": "10Y yield 3.92% (-28bps). DXY 107.8 (+2.1%). Gold $4,850"
+  },
+  {
+    "date": "2026-03-01",
+    "time": "14:00",
+    "title": "Saudi Arabia condemns both Iran and US strikes — calls for restraint",
+    "description": "Saudi Arabia issues carefully worded statement through the Foreign Ministry condemning 'all acts that threaten regional stability' without naming either party. Riyadh privately grants expanded US basing and overflight rights while publicly maintaining distance. Crown Prince MBS speaks with President Trump and Chinese President Xi on the same day.",
+    "category": "diplomatic",
+    "source": "Saudi MFA / Reuters / AP",
+    "data_point": null
+  },
+  {
+    "date": "2026-03-01",
+    "time": "16:00",
+    "title": "S&P 500 drops 3.1% — worst day since 2024",
+    "description": "US stock markets sell off sharply as the full scope of Operation Epic Fury becomes clear. S&P 500 closes at 6,654, down 3.1%. Nasdaq falls 3.8% on tech exposure to global supply chains. Defense stocks (Lockheed Martin, Raytheon, Northrop Grumman) surge 8-12%. Airlines plunge 11%.",
+    "category": "financial",
+    "source": "NYSE / Bloomberg",
+    "data_point": "S&P 6,654 (-3.1%)"
+  },
+  {
+    "date": "2026-03-01",
+    "time": "16:00",
+    "title": "Houthis declare war on US and Israeli shipping in Red Sea",
+    "description": "Ansar Allah (Houthi) military spokesman Yahya Saree announces all US and Israeli-linked vessels transiting the Red Sea and Bab el-Mandeb Strait are legitimate targets. The declaration extends the Houthis' existing Red Sea campaign from the Gaza war era to the new conflict.",
+    "category": "military",
+    "source": "Ansar Allah media / Al Masirah TV",
+    "data_point": null
+  },
+  {
+    "date": "2026-03-01",
+    "time": "18:00",
+    "title": "Oil surges further as Hormuz closure confirmed",
+    "description": "Brent crude closes at $89.20/bbl (+7.2% from yesterday's already elevated close) as markets price in the Strait of Hormuz closure. WTI at $85.40. The combined loss of Iranian exports and Hormuz transit creates a theoretical shortfall of 12+ million barrels per day — the largest supply disruption in oil market history.",
+    "category": "financial",
+    "source": "ICE / NYMEX / Bloomberg",
+    "data_point": "Brent $89.20. WTI $85.40"
+  },
+  {
+    "date": "2026-03-01",
+    "time": "20:00",
+    "title": "Iraq declares neutrality — closes airspace to US combat operations",
+    "description": "Iraqi Prime Minister announces Iraq will not be a party to the conflict and orders closure of Iraqi airspace to US combat missions. The order is partially unenforceable as US forces maintain operational control over portions of Iraqi airspace. The declaration creates a legal and diplomatic crisis as US strikes on PMF targets violate the stated neutrality.",
+    "category": "diplomatic",
+    "source": "Iraqi PM office / AP / Al Jazeera",
     "data_point": null
   },
   {
@@ -75,10 +183,46 @@
     "date": "2026-03-02",
     "time": "12:00",
     "title": "Gas prices begin climbing across US",
-    "description": "National average gas price rises to $3.25/gallon, up from $3.05 pre-war. Analysts project $4+ within weeks if Hormuz remains closed.",
+    "description": "National average gas price rises to $3.25/gallon, up from $2.98 pre-war. Analysts project $4+ within weeks if Hormuz remains closed.",
     "category": "financial",
     "source": "AAA / GasBuddy",
-    "data_point": "Gas +$0.20/gal in 48 hours"
+    "data_point": "Gas +$0.27/gal in 48 hours"
+  },
+  {
+    "date": "2026-03-02",
+    "time": "14:00",
+    "title": "India scrambles to evacuate 8 million citizens from Gulf states",
+    "description": "India launches Operation Kaveri II — a massive diplomatic and logistics effort to prepare evacuation of up to 8 million Indian nationals across Gulf states. Indian Navy deploys three ships to the Arabian Sea. India calls for 'immediate de-escalation' but declines to condemn either side, seeking to maintain its oil supply relationship with both the US and Iran.",
+    "category": "diplomatic",
+    "source": "Indian MEA / Indian Navy / Reuters",
+    "data_point": "8 million Indian nationals in Gulf states"
+  },
+  {
+    "date": "2026-03-02",
+    "time": "16:00",
+    "title": "3 Israeli civilians killed in Hezbollah rocket barrage on Haifa",
+    "description": "Three Israeli civilians killed and 22 wounded when a Hezbollah rocket barrage overwhelms Iron Dome coverage over Haifa. The volume of simultaneous launches — 200+ in a 10-minute window targeting northern Israel — exceeds the system's engagement capacity in the Haifa sector. IDF calls up additional reserve battalions.",
+    "category": "military",
+    "source": "IDF / Israeli emergency services / Haaretz",
+    "data_point": "3 Israeli civilians KIA, 22 wounded"
+  },
+  {
+    "date": "2026-03-02",
+    "time": "18:00",
+    "title": "Erdogan offers to mediate — condemns US strikes",
+    "description": "Turkish President Erdogan condemns the US strikes as 'unilateral aggression that destabilizes the entire region' while simultaneously offering Ankara as a venue for negotiations. Turkey closes its airspace to US combat operations but continues allowing NATO surveillance flights. Turkey's position is complicated by its NATO membership, its economic ties to Iran, and the Kurdish factor.",
+    "category": "diplomatic",
+    "source": "Turkish MFA / Anadolu Agency / Reuters",
+    "data_point": null
+  },
+  {
+    "date": "2026-03-02",
+    "time": "22:00",
+    "title": "Second wave of militia attacks on US forces in Iraq",
+    "description": "Asa'ib Ahl al-Haq claims responsibility for drone attacks on Camp Victory near Baghdad International Airport and a logistics convoy on Route Tampa. One US contractor killed. Iraqi government calls for 'restraint by all parties' but does not condemn the attacks.",
+    "category": "military",
+    "source": "CENTCOM / Iraqi media / Reuters",
+    "data_point": "1 US contractor KIA"
   },
   {
     "date": "2026-03-03",
@@ -90,13 +234,67 @@
     "data_point": "World's largest oil terminal struck"
   },
   {
+    "date": "2026-03-03",
+    "time": "10:00",
+    "title": "Japan and South Korea announce coordinated SPR releases",
+    "description": "Japan and South Korea, both heavily dependent on Persian Gulf oil, announce coordinated Strategic Petroleum Reserve releases of 15 million and 7 million barrels respectively. Both governments support the US position but urge rapid de-escalation. Japan dispatches Maritime Self-Defense Force vessels to support Indian Ocean shipping escort operations.",
+    "category": "diplomatic",
+    "source": "Japanese PM office / South Korean MFA / Reuters",
+    "data_point": "22 million barrels combined SPR release"
+  },
+  {
+    "date": "2026-03-03",
+    "time": "14:00",
+    "title": "US Cyber Command disrupts Iranian military communications",
+    "description": "US Cyber Command confirms offensive operations degrading IRGC command-and-control networks and Iranian military communications infrastructure. Operations are credited with slowing Iran's ability to coordinate retaliatory missile strikes. Details remain classified.",
+    "category": "cyber",
+    "source": "US Cyber Command / DoD (limited disclosure)",
+    "data_point": null
+  },
+  {
+    "date": "2026-03-03",
+    "time": "16:00",
+    "title": "Markets stabilize as investors assess conflict duration",
+    "description": "S&P 500 closes at 6,612, down modestly. Markets begin differentiating between sectors — defense and energy surge while airlines, travel, and consumer discretionary continue declining. Gold breaks $4,900/oz as safe-haven demand accelerates.",
+    "category": "financial",
+    "source": "NYSE / Bloomberg",
+    "data_point": "S&P 6,612. Gold $4,900/oz"
+  },
+  {
+    "date": "2026-03-03",
+    "time": "16:00",
+    "title": "Brent crude hits $91.50 — third straight day of gains",
+    "description": "Oil prices continue climbing as Hezbollah's entry and Houthi Red Sea escalation widen the conflict's geographic footprint. Brent closes at $91.50. Saudi Arabia and UAE pledge to increase production from non-Hormuz export terminals but capacity is limited to approximately 2 MBD via pipeline to Red Sea ports.",
+    "category": "financial",
+    "source": "ICE / OPEC / Bloomberg",
+    "data_point": "Brent $91.50. Saudi pledges 2 MBD via alternate routes"
+  },
+  {
+    "date": "2026-03-04",
+    "time": "02:00",
+    "title": "Drone swarm overwhelms air defenses at Al Udeid, Qatar",
+    "description": "A coordinated salvo of 40+ Shahed drones and 5 ballistic missiles targets Al Udeid Air Base in Qatar — the largest US air base in the Middle East. Most are intercepted but 3 drones penetrate defenses and strike the airfield, damaging a KC-135 tanker aircraft. No US fatalities. The incident raises questions about interceptor stockpile sustainability.",
+    "category": "military",
+    "source": "CENTCOM / AFCENT / Reuters",
+    "data_point": "3 drones penetrate Al Udeid defenses"
+  },
+  {
+    "date": "2026-03-04",
+    "time": "08:00",
+    "title": "Satellite imagery shows Fordow survived deep strikes",
+    "description": "Commercial satellite imagery from Planet Labs and analysis by the Institute for Science and International Security show that while Fordow's surface buildings and tunnel entrances are destroyed, thermal signatures suggest underground centrifuge halls may be partially intact. The site's depth exceeds the penetration capability of existing US bunker busters. Critics call this a 'strategic failure at the war's central objective.'",
+    "category": "military",
+    "source": "ISIS / Planet Labs / Arms Control Association",
+    "data_point": "Fordow underground halls likely survived"
+  },
+  {
     "date": "2026-03-04",
     "time": "11:00",
-    "title": "Minab girls' school struck — 23 children killed",
-    "description": "Strike on IRGC ammunition depot near Minab causes secondary explosion that destroys adjacent girls' school. 23 children killed, 40+ wounded. Pentagon states school was not the target. Iranian state media broadcasts footage worldwide.",
+    "title": "Minab girls' school struck — 165+ children and staff killed",
+    "description": "US Tomahawk cruise missile strikes Shajareh Tayyebeh girls' elementary school in Minab, adjacent to an IRGC naval complex. 165-180 killed, mostly girls aged 7-12, plus teachers and parents. The school was triple-tapped per Iranian officials. Munitions experts confirm the weapon as a US Tomahawk. Pentagon preliminary investigation finds outdated DIA intelligence failed to distinguish the school from the military compound.",
     "category": "humanitarian",
-    "source": "Iranian Red Crescent / AP / DoD",
-    "data_point": "23 children killed"
+    "source": "Iranian Red Crescent / NYT / CNN / BBC Verify / Bellingcat / OHCHR",
+    "data_point": "165-180 killed — deadliest civilian casualty incident"
   },
   {
     "date": "2026-03-04",
@@ -109,12 +307,30 @@
   },
   {
     "date": "2026-03-05",
+    "time": "04:00",
+    "title": "US strikes PMF weapons depots in Iraq",
+    "description": "US conducts airstrikes on three Kata'ib Hezbollah weapons storage facilities in Jurf al-Sakhar and near the Iraq-Syria border. Iraqi Prime Minister condemns the strikes as a 'violation of sovereignty.' Iraqi parliament begins emergency session to discuss expelling US forces.",
+    "category": "military",
+    "source": "CENTCOM / Iraqi PM office / AP",
+    "data_point": "3 PMF sites struck on Iraqi soil"
+  },
+  {
+    "date": "2026-03-05",
     "time": "09:00",
     "title": "S&P 500 enters correction territory",
-    "description": "US stock markets fall sharply as conflict escalation fears mount. S&P 500 drops to 6,297 — down 8.3% from pre-war close of 6,867. Defense stocks surge; airlines collapse. VIX spikes above 35.",
+    "description": "US stock markets fall sharply as conflict escalation fears mount. S&P 500 drops to 6,297 — down 8.3% from pre-war close of 6,878.88. Defense stocks surge; airlines collapse. VIX spikes above 35.",
     "category": "financial",
     "source": "NYSE / Bloomberg / Yahoo Finance",
-    "data_point": "S&P 500 6,297 — down 8.3% from 6,867 pre-war"
+    "data_point": "S&P 500 6,297 — down 8.5% from pre-war"
+  },
+  {
+    "date": "2026-03-05",
+    "time": "12:00",
+    "title": "First polls show narrow majority supports strikes — but opposition to ground war",
+    "description": "An NBC/WSJ flash poll shows 54% of Americans support the initial strikes on Iran's nuclear facilities, but 71% oppose any ground invasion. Support breaks sharply along partisan lines — 82% of Republicans approve vs. 31% of Democrats. The school strike in Minab has not yet been widely covered at the time of polling.",
+    "category": "domestic",
+    "source": "NBC News / Wall Street Journal",
+    "data_point": "54% approve strikes, 71% oppose ground war"
   },
   {
     "date": "2026-03-05",
@@ -126,6 +342,24 @@
     "data_point": "14,000+ flights cancelled"
   },
   {
+    "date": "2026-03-05",
+    "time": "16:00",
+    "title": "Oil breaks $95 as conflict shows no signs of de-escalation",
+    "description": "Brent closes at $95.30/bbl on the back of continued Hormuz closure, Houthi Red Sea attacks, and depletion of global crude inventories. IEA releases emergency assessment estimating commercial inventories can cover the shortfall for 45-60 days before critical shortages emerge in Asia-Pacific and European markets.",
+    "category": "financial",
+    "source": "ICE / IEA / Bloomberg",
+    "data_point": "Brent $95.30. IEA: 45-60 day inventory runway"
+  },
+  {
+    "date": "2026-03-05",
+    "time": "20:00",
+    "title": "Houthis strike container ship in Red Sea — crew evacuated",
+    "description": "A Greek-owned container vessel is struck by two Houthi anti-ship ballistic missiles approximately 60 nautical miles southwest of Al Hudaydah. The ship sustains significant damage and the crew is evacuated. Maersk and MSC announce suspension of all Red Sea transits, rerouting around the Cape of Good Hope.",
+    "category": "military",
+    "source": "UKMTO / Maersk / Reuters",
+    "data_point": "Major shipping lines suspend Red Sea transits"
+  },
+  {
     "date": "2026-03-06",
     "time": "08:00",
     "title": "450,000 displaced in Lebanon",
@@ -133,6 +367,42 @@
     "category": "humanitarian",
     "source": "UNHCR / OCHA",
     "data_point": "450,000 displaced"
+  },
+  {
+    "date": "2026-03-06",
+    "time": "10:00",
+    "title": "Oman begins quiet shuttle diplomacy between Washington and Tehran",
+    "description": "Oman's Sultan Haitham initiates back-channel communications between US and Iranian officials — reprising Oman's traditional mediator role. Swiss Ambassador to Iran (US protecting power) facilitates initial contact. Discussions are preliminary and focused on humanitarian corridors and POW treatment rather than ceasefire terms. Both sides deny talks are taking place.",
+    "category": "diplomatic",
+    "source": "Diplomatic sources / Omani media / Reuters (sourced anonymously)",
+    "data_point": null
+  },
+  {
+    "date": "2026-03-06",
+    "time": "14:00",
+    "title": "Iranian civilian death toll estimated at 400+",
+    "description": "Iranian Red Crescent and state media report over 400 civilian deaths from US and Israeli strikes in the first week. Independent verification is impossible due to media access restrictions. Iran claims the number is significantly higher. Pentagon states all targets are military or dual-use and that civilian casualties are 'deeply regretted but not the objective.'",
+    "category": "humanitarian",
+    "source": "Iranian Red Crescent / IRNA / DoD",
+    "data_point": "400+ Iranian civilian deaths (Iranian figures)"
+  },
+  {
+    "date": "2026-03-06",
+    "time": "16:00",
+    "title": "7th US service member killed — drone attack in Syria",
+    "description": "A US Army soldier is killed by a one-way attack drone at a patrol base in northeastern Syria. The drone, attributed to an Iranian-aligned militia, struck a housing unit. This is the 7th US combat death of the conflict and the first outside the Persian Gulf theater.",
+    "category": "military",
+    "source": "CENTCOM / DoD",
+    "data_point": "7 US KIA total"
+  },
+  {
+    "date": "2026-03-06",
+    "time": "22:00",
+    "title": "Iron Dome interceptor stockpile concerns emerge",
+    "description": "Israeli media reports the IDF has expended over 1,500 Iron Dome and David's Sling interceptors in the first week of conflict — a rate that strains production capacity. The US expedites delivery of Tamir interceptors from existing stocks. A senior IDF officer warns off-record that at current rates, 'we have weeks, not months' of interceptor supply for the northern front.",
+    "category": "military",
+    "source": "IDF (background briefing) / Haaretz / Times of Israel",
+    "data_point": "1,500+ interceptors expended in 7 days"
   },
   {
     "date": "2026-03-07",
@@ -153,6 +423,42 @@
     "data_point": "Brent $101.50 — first time above $100 since 2022"
   },
   {
+    "date": "2026-03-07",
+    "time": "16:00",
+    "title": "Markets rebound on SPR release and limited ground war signals",
+    "description": "S&P 500 recovers to 6,580 as the SPR release announcement and White House confirmation of 'no ground troops' provide modest reassurance. The rebound is driven by short-covering and bargain hunting in oversold tech names. Analysts warn the recovery is fragile and contingent on no further escalation.",
+    "category": "financial",
+    "source": "NYSE / Bloomberg / Goldman Sachs",
+    "data_point": "S&P 6,580 (+4.5% from Mar 5 low)"
+  },
+  {
+    "date": "2026-03-07",
+    "time": "20:00",
+    "title": "Iranian hackers deface US government websites and leak military emails",
+    "description": "An Iranian hacking group calling itself 'Cyber Avengers' defaces several US municipal government websites and leaks a cache of emails allegedly from CENTCOM personnel. Pentagon states leaked materials are mostly unclassified and some appear fabricated. The information warfare dimension of the conflict intensifies.",
+    "category": "cyber",
+    "source": "CISA / FBI / DoD",
+    "data_point": null
+  },
+  {
+    "date": "2026-03-07",
+    "time": "23:59",
+    "title": "Week 1 summary — Operation Epic Fury by the numbers",
+    "description": "After 7 days: 3,000+ targets struck in Iran. Kharg Island, Natanz, Isfahan, Arak confirmed destroyed. Fordow status uncertain. Strait of Hormuz closed. Hezbollah and Houthi fronts active. 7 US KIA. 3 Israeli civilians killed. 400+ Iranian civilian dead (unverified). 450,000 displaced in Lebanon. Oil at $101.50/bbl. S&P 500 at 6,580 (-4.3%). Gas $3.38/gal (+13.4%). Gold $4,980/oz.",
+    "category": "military",
+    "source": "Multiple — compiled",
+    "data_point": "Week 1 cumulative"
+  },
+  {
+    "date": "2026-03-08",
+    "time": "06:00",
+    "title": "US strikes Houthi missile sites in Yemen",
+    "description": "US Navy and Air Force assets strike Houthi anti-ship missile launch sites, drone storage facilities, and radar installations in Sana'a, Hodeidah, and Dhamar governorates. Houthis vow retaliation and launch drone swarm toward Eilat, Israel within hours.",
+    "category": "military",
+    "source": "CENTCOM / Ansar Allah",
+    "data_point": "12 Houthi sites struck"
+  },
+  {
     "date": "2026-03-08",
     "time": "12:00",
     "title": "Strategic Petroleum Reserve release authorized",
@@ -160,6 +466,51 @@
     "category": "financial",
     "source": "White House / DoE",
     "data_point": "30M barrels authorized"
+  },
+  {
+    "date": "2026-03-08",
+    "time": "14:00",
+    "title": "US anti-war protests grow — 500,000 march in Washington",
+    "description": "The largest US anti-war demonstration since 2003 draws an estimated 500,000 people to the National Mall in Washington, D.C. Simultaneous protests in 120+ US cities. The Minab school strike images have become the defining visual of the anti-war movement. Counter-protests supporting the troops draw smaller but vocal crowds in several cities.",
+    "category": "domestic",
+    "source": "AP / National Park Service estimate / Reuters",
+    "data_point": "500,000 in D.C. — largest since 2003"
+  },
+  {
+    "date": "2026-03-08",
+    "time": "20:00",
+    "title": "Iraqi parliament votes to expel US forces — non-binding",
+    "description": "Iraqi parliament passes non-binding resolution demanding withdrawal of US forces from Iraqi territory. The vote is largely symbolic — a near-identical resolution passed in January 2020 after the Soleimani strike and was never enforced. Iraqi PM declines to sign an executive order. Militia attacks on US bases continue at a rate of 2-3 per day.",
+    "category": "diplomatic",
+    "source": "Iraqi parliament / Reuters / AP",
+    "data_point": "Non-binding expulsion vote passes"
+  },
+  {
+    "date": "2026-03-09",
+    "time": "04:00",
+    "title": "US air campaign targets Iranian drone production and storage",
+    "description": "In a dedicated strike package, US forces target Iran's drone production infrastructure including facilities in Isfahan, Kermanshah, and a suspected underground Shahed assembly plant near Karaj. Defense Intelligence Agency estimates Iran began the conflict with 3,000+ one-way attack drones in stockpile. An unknown number remain operational despite strikes.",
+    "category": "military",
+    "source": "DIA / DoD / CENTCOM",
+    "data_point": "3,000+ drone pre-war stockpile — remaining unknown"
+  },
+  {
+    "date": "2026-03-09",
+    "time": "08:00",
+    "title": "IAEA loses all monitoring access to Iranian nuclear sites",
+    "description": "International Atomic Energy Agency Director General confirms total loss of monitoring and verification access across all Iranian nuclear facilities. Inspectors were evacuated before the strikes. Iran announced withdrawal from the NPT on March 2. IAEA states it 'cannot assess the current status of Iran's nuclear material inventory.' The war intended to prevent an Iranian bomb may have made verification of that goal impossible.",
+    "category": "diplomatic",
+    "source": "IAEA / Reuters",
+    "data_point": "IAEA monitoring access: zero"
+  },
+  {
+    "date": "2026-03-09",
+    "time": "12:00",
+    "title": "Global supply chain disruption spreads beyond energy",
+    "description": "Disruption from Hormuz closure and Red Sea rerouting cascades beyond energy markets. Petrochemical feedstock shortages force production cuts at European chemical plants. Semiconductor-grade neon (produced partly in the Middle East supply chain) faces spot shortages. The Baltic Dry Index spikes 35% as available shipping capacity is absorbed by longer routes. Auto manufacturers warn of production slowdowns within 2-3 weeks.",
+    "category": "financial",
+    "source": "Bloomberg / Baltic Exchange / Reuters",
+    "data_point": "Baltic Dry Index +35%"
   },
   {
     "date": "2026-03-09",
@@ -174,10 +525,37 @@
     "date": "2026-03-10",
     "time": "08:00",
     "title": "Day 11 — War continues with no ceasefire in sight",
-    "description": "Strikes continue across Iran. Hezbollah front intensifies. Oil at $101.50. S&P 500 at 6,694 — still 2.5% below pre-war. VIX holds above 25. Gas national average at $3.48 and climbing. Estimated US operational cost: $500M/day.",
+    "description": "Strikes continue across Iran. Hezbollah front intensifies. Oil at $101.50. S&P 500 recovers to 6,694 — rebounding 6.3% from last week's 6,297 low on SPR release, no-ground-war pledges, and short-covering. Markets remain 2.5% below pre-war 6,878.88. VIX holds above 25. Gas national average at $3.48 and climbing. Estimated US operational cost: $500M/day.",
     "category": "military",
     "source": "Multiple",
     "data_point": "Estimated total cost: $5B+"
+  },
+  {
+    "date": "2026-03-10",
+    "time": "10:00",
+    "title": "Iranian infrastructure damage assessment — power, water, fuel",
+    "description": "The ICRC reports significant damage to Iranian civilian infrastructure including power generation (30-40% of national grid offline in western Iran), water treatment disruption in Ahvaz and Kermanshah, and fuel shortages as refinery capacity is degraded. Hospitals are operating on backup generators. Iran's road and rail network is severely disrupted by strikes on bridges and logistics hubs.",
+    "category": "humanitarian",
+    "source": "ICRC / OCHA / Iranian Red Crescent",
+    "data_point": "30-40% of western Iran power grid offline"
+  },
+  {
+    "date": "2026-03-10",
+    "time": "14:00",
+    "title": "Red Sea shipping insurance premiums triple",
+    "description": "War risk insurance premiums for Red Sea and Gulf of Aden transits triple to 2.5% of cargo value — up from 0.8% pre-war. Combined with Hormuz closure, approximately 35% of global seaborne oil trade is now disrupted or rerouted. Freight rates for Asia-Europe routes surge 40%.",
+    "category": "financial",
+    "source": "Lloyd's / Reuters / Freightos",
+    "data_point": "35% of seaborne oil trade disrupted"
+  },
+  {
+    "date": "2026-03-10",
+    "time": "16:00",
+    "title": "University of Michigan consumer sentiment plunges",
+    "description": "University of Michigan preliminary consumer sentiment index drops to 62.1, down from 71.8 — the steepest single-period decline since March 2020. The decline is driven by expectations of higher gas and grocery prices. Americans cite the war as the primary reason for economic pessimism. Grocery chains begin implementing 5-8% price increases on imported goods.",
+    "category": "financial",
+    "source": "University of Michigan / Reuters / CNBC",
+    "data_point": "Consumer sentiment 62.1, down from 71.8"
   },
   {
     "date": "2026-03-11",
@@ -190,9 +568,18 @@
   },
   {
     "date": "2026-03-11",
+    "time": "04:00",
+    "title": "Largest militia barrage yet — 40+ rockets at Al-Asad",
+    "description": "PMF-aligned groups launch the largest single barrage of the conflict at Al-Asad Air Base — over 40 rockets and 5 one-way attack drones. US air defenses intercept most, but several impact the airfield, damaging two MQ-9 Reapers on the ground. Two US service members wounded. CENTCOM warns of 'decisive response.'",
+    "category": "military",
+    "source": "CENTCOM / DoD",
+    "data_point": "40+ rockets, 2 drones destroyed on ground"
+  },
+  {
+    "date": "2026-03-11",
     "time": "06:00",
     "title": "Three ships hit in Strait of Hormuz and Persian Gulf",
-    "description": "UK Navy reports three vessels struck by suspected projectiles: Thai-flagged bulk carrier Mayruree Naree in the Strait off Oman, a container vessel west of Ras Al-Khaimah, and a bulk carrier northwest of Dubai. Attacks come after a 72-hour lull in maritime targeting.",
+    "description": "UK Navy reports three vessels struck by suspected projectiles: Thai-flagged bulk carrier Mayuree Naree in the Strait off Oman, a container vessel west of Ras Al-Khaimah, and a bulk carrier northwest of Dubai. Attacks come after a 72-hour lull in maritime targeting.",
     "category": "military",
     "source": "UK Maritime Trade Operations / Bloomberg",
     "data_point": "3 vessels struck in single day"
@@ -237,10 +624,10 @@
     "date": "2026-03-11",
     "time": "16:00",
     "title": "US death toll rises to 8",
-    "description": "Pentagon confirms an eighth US service member has died from injuries sustained during an Iranian missile attack on US troops stationed in Saudi Arabia on March 1. The soldier had been in critical condition since Day 2.",
+    "description": "Pentagon confirms an eighth US service member has died from injuries sustained during an Iranian missile attack on US troops stationed at Prince Sultan Air Base, Saudi Arabia on March 1. Sgt. Benjamin Pennington had been in critical condition since Day 2.",
     "category": "military",
-    "source": "DoD / Pentagon",
-    "data_point": "8 US KIA total"
+    "source": "DoD / Pentagon / Task and Purpose",
+    "data_point": "8 US KIA total (7 enemy fire + 1 died of wounds)"
   },
   {
     "date": "2026-03-11",
@@ -249,7 +636,7 @@
     "description": "National average gas price rises to $3.63/gallon even as crude prices retreat. AAA notes gas prices lag oil by 7-10 days. California hits $4.81/gal. Analysts project continued climb as refinery capacity remains constrained by regional disruption.",
     "category": "financial",
     "source": "AAA / GasBuddy / YCharts",
-    "data_point": "$3.63/gal — +19% since pre-war"
+    "data_point": "$3.63/gal — +21.8% since pre-war"
   },
   {
     "date": "2026-03-12",
@@ -262,21 +649,21 @@
   },
   {
     "date": "2026-03-12",
-    "time": "06:00",
-    "title": "Oil rebounds as markets reassess fundamentals",
-    "description": "Brent crude surges back above $100 to close at $100.11/bbl (intraday range $92.89–$101.53) as traders recognize that yesterday's crash was driven by a false claim, not a genuine change in supply conditions. The Strait of Hormuz remains closed, 400+ tankers remain stranded, and the 12.35 MBD shortfall persists. WTI closes at $95.28 (+9.2%). Gold breaks $5,126/oz on safe-haven demand.",
-    "category": "financial",
-    "source": "ICE / NYMEX / Bloomberg / Yahoo Finance",
-    "data_point": "Brent $100.11 — back above $100. WTI $95.28. Gold $5,127/oz"
+    "time": "04:00",
+    "title": "Cyberattack disrupts Iranian oil export tracking systems",
+    "description": "Iranian state media reports a cyberattack has disrupted the National Iranian Oil Company's logistics and tracking systems. Though Iran's oil export infrastructure is already physically destroyed, the attack complicates coordination of remaining domestic fuel distribution. Attribution unclear — likely US or Israeli.",
+    "category": "cyber",
+    "source": "IRNA / Reuters",
+    "data_point": null
   },
   {
     "date": "2026-03-12",
-    "time": "08:00",
-    "title": "US Navy escorts first convoy through Hormuz corridor",
-    "description": "US Fifth Fleet announces the first escorted convoy of three tankers has transited a narrow, partially cleared corridor through the Strait of Hormuz under heavy naval escort. USS Abraham Lincoln strike group and mine countermeasures vessels provided cover. Transit took 14 hours — normally 2. One mine detonated in cleared lane; no damage. Iran's IRGC Navy observed but did not engage.",
-    "category": "military",
-    "source": "NAVCENT / Fifth Fleet / Reuters",
-    "data_point": "3 tankers through — first since closure Day 2"
+    "time": "06:00",
+    "title": "Oil rebounds as markets reassess fundamentals",
+    "description": "Brent crude surges back above $100 to close at $100.11/bbl (intraday range $92.89–$101.53) as traders recognize that yesterday's crash was driven by a false claim, not a genuine change in supply conditions. The Strait of Hormuz remains closed, 1,000+ ships remain stranded, and the 12.35 MBD shortfall persists. WTI closes at $95.28 (+9.2%). Gold breaks $5,126/oz on safe-haven demand.",
+    "category": "financial",
+    "source": "ICE / NYMEX / Bloomberg / Yahoo Finance",
+    "data_point": "Brent $100.11 — back above $100. WTI $95.28. Gold $5,127/oz"
   },
   {
     "date": "2026-03-12",
@@ -298,18 +685,9 @@
   },
   {
     "date": "2026-03-12",
-    "time": "14:00",
-    "title": "Iran strikes back at Hormuz convoy — 2 escort ships targeted",
-    "description": "Hours after the successful convoy transit, IRGC coastal batteries launch anti-ship missiles at US escort vessels in the Strait. USS Paul Ignatius (DDG-117) engages with SM-2 and CIWS, intercepting both missiles. A second salvo of fast attack craft approaches but is driven off by helicopter gunships from USS America. No US casualties. Pentagon calls it 'an act of escalation that will be answered.'",
-    "category": "military",
-    "source": "CENTCOM / NAVCENT / DoD",
-    "data_point": "First direct engagement between US Navy and IRGC Navy"
-  },
-  {
-    "date": "2026-03-12",
     "time": "16:00",
     "title": "Iranian state media claims hospital hit in Ahvaz",
-    "description": "Iranian state television broadcasts footage of a damaged hospital in Ahvaz, claiming a US airstrike struck the facility, killing 12 patients and staff. Pentagon states the target was an IRGC logistics hub 400 meters away and that the hospital damage was caused by secondary explosions. Independent verification not yet possible. Third major civilian infrastructure incident.",
+    "description": "Iranian state television broadcasts footage of a damaged hospital in Ahvaz, claiming a US airstrike struck the facility, killing 12 patients and staff. Pentagon states the target was an IRGC logistics hub 400 meters away and that the hospital damage was caused by secondary explosions. Independent verification not yet possible.",
     "category": "humanitarian",
     "source": "IRNA / PressTV / DoD denial / AP",
     "data_point": "12 killed per Iranian claims — under investigation"
@@ -330,31 +708,40 @@
     "description": "National average gas price reaches $3.72/gallon, continuing its relentless climb despite yesterday's oil price dip. California becomes the first state to break $5.00/gallon since the war began, hitting $5.02. AAA warns that the oil rebound today means no near-term pump relief. Trucking industry warns of freight surcharges that will ripple through consumer goods prices.",
     "category": "financial",
     "source": "AAA / GasBuddy / YCharts",
-    "data_point": "$3.72/gal — +22% since pre-war. CA breaks $5.00"
+    "data_point": "$3.72/gal — +24.8% since pre-war. CA breaks $5.00"
+  },
+  {
+    "date": "2026-03-12",
+    "time": "20:00",
+    "title": "Iranian civilian toll rises past 800 — refugee flows to Turkey and Iraq begin",
+    "description": "Iranian authorities report over 800 civilian deaths. UNHCR reports early refugee flows — approximately 15,000 Iranians have crossed into Turkey's Van Province and an estimated 8,000 into Iraqi Kurdistan. Turkey warns it cannot absorb a mass displacement event and begins reinforcing its eastern border.",
+    "category": "humanitarian",
+    "source": "UNHCR / Turkish Interior Ministry / IRNA",
+    "data_point": "800+ Iranian civilian dead. 23,000+ refugees"
   },
   {
     "date": "2026-03-13",
     "time": "01:00",
     "title": "US retaliatory strikes destroy IRGC coastal batteries",
-    "description": "In direct response to yesterday's anti-ship missile attack on USS Paul Ignatius, US strikes hit IRGC coastal missile batteries and fast-attack-craft pens at Bandar Abbas, Qeshm Island, and three additional sites along the Hormuz coastline. Pentagon calls it a 'proportional response to ensure freedom of navigation.' Iran's ability to threaten the strait corridor is degraded but not eliminated — mobile launchers remain operational.",
+    "description": "US strikes hit IRGC coastal missile batteries and fast-attack-craft pens at Bandar Abbas, Qeshm Island, and three additional sites along the Hormuz coastline. Pentagon calls it a 'proportional response to ensure freedom of navigation.' Iran's ability to threaten the strait corridor is degraded but not eliminated — mobile launchers remain operational.",
     "category": "military",
     "source": "CENTCOM / DoD",
     "data_point": "5 IRGC coastal sites destroyed"
   },
   {
     "date": "2026-03-13",
-    "time": "06:00",
-    "title": "Second Hormuz convoy — 5 tankers escorted through under tighter security",
-    "description": "US Navy escorts a second, larger convoy of 5 tankers through the partially cleared Strait of Hormuz corridor. Transit time reduced to 11 hours from yesterday's 14 as mine countermeasures widen the lane. IRGC fast boats approach but withdraw after warning shots from escort helicopters. No missiles fired. Pentagon calls it 'proof of concept becoming routine.' Analysts note 5 tankers per day replaces less than 3% of pre-war Hormuz flow.",
+    "time": "04:00",
+    "title": "Houthis launch cruise missile at US destroyer in Red Sea",
+    "description": "Houthis fire a land-attack cruise missile at USS Gravely (DDG-107) operating in the southern Red Sea. The missile is intercepted by SM-2. A second salvo of 3 one-way attack drones is shot down by CIWS. No US casualties. The Red Sea front now requires continuous carrier strike group presence, straining the Navy's two-theater deployment.",
     "category": "military",
-    "source": "NAVCENT / Fifth Fleet / Reuters",
-    "data_point": "5 tankers through — 8 total since reopening"
+    "source": "CENTCOM / NAVCENT",
+    "data_point": "1 cruise missile + 3 drones intercepted"
   },
   {
     "date": "2026-03-13",
     "time": "08:00",
     "title": "Oil eases slightly — Brent to $98.82 as convoy success tempers fears",
-    "description": "Brent crude dips 1.3% to $98.82 as the second successful convoy transit and destruction of IRGC coastal batteries provide modest reassurance. WTI holds flat at $95.28. Analysts caution that the psychological impact of convoys exceeds the material impact — 5 tankers cannot replace 85. The fundamental shortfall of 12.35 MBD persists. Gold eases to $5,080/oz.",
+    "description": "Brent crude dips 1.3% to $98.82 as the second successful convoy transit and destruction of IRGC coastal batteries provide modest reassurance. WTI holds flat at $95.28. Analysts caution that the psychological impact of convoys exceeds the material impact — 5 tankers cannot replace 50. The fundamental shortfall of 12.35 MBD persists. Gold eases to $5,080/oz.",
     "category": "financial",
     "source": "ICE / NYMEX / Bloomberg",
     "data_point": "Brent $98.82 (-1.3%). WTI $95.28 (flat). Gold $5,080/oz"
@@ -399,10 +786,10 @@
     "date": "2026-03-13",
     "time": "16:00",
     "title": "S&P 500 closes at 6,672.62 — slight decline on continued uncertainty",
-    "description": "Markets drift lower as the AUMF debate introduces political uncertainty. S&P 500 closes at 6,672.62, down 0.3% on the day and 2.8% below pre-war levels. Defense stocks remain elevated at +16.5%. Oil majors ease 1% with crude. Airlines extend losses to -24.5% as fuel cost fears mount. VIX holds at 27.5 — elevated but below crisis peaks.",
+    "description": "Markets drift lower as the AUMF debate introduces political uncertainty. S&P 500 closes at 6,672.62, down 0.3% on the day and 3.0% below pre-war levels. Defense stocks remain elevated at +16.5%. Oil majors ease 1% with crude. Airlines extend losses to -24.5% as fuel cost fears mount. VIX holds at 27.5 — elevated but below crisis peaks.",
     "category": "financial",
     "source": "NYSE / Bloomberg / Yahoo Finance",
-    "data_point": "S&P 6,672.62 (-2.8% from pre-war 6,867)"
+    "data_point": "S&P 6,672.62 (-3.0% from pre-war 6,878.88)"
   },
   {
     "date": "2026-03-13",
@@ -417,9 +804,9 @@
     "date": "2026-03-13",
     "time": "18:00",
     "title": "Gas prices hit $3.82/gallon — trucking surcharges take effect",
-    "description": "National average gas price climbs to $3.82/gallon — up 25.2% from pre-war $3.05. California hits $5.15/gallon. The trucking industry's war surcharges announced yesterday take effect today, adding 8-12% to freight costs. Grocery chains warn of price increases on perishables within 3-5 days. The war's cost is no longer abstract — it is arriving at every checkout counter in America.",
+    "description": "National average gas price climbs to $3.82/gallon — up 28.2% from pre-war $2.98. California hits $5.15/gallon. The trucking industry's war surcharges announced yesterday take effect today, adding 8-12% to freight costs. Grocery chains warn of price increases on perishables within 3-5 days. The war's cost is no longer abstract — it is arriving at every checkout counter in America.",
     "category": "financial",
     "source": "AAA / GasBuddy / American Trucking Associations / YCharts",
-    "data_point": "$3.82/gal — +25.2% since pre-war. CA at $5.15"
+    "data_point": "$3.82/gal — +28.2% since pre-war. CA at $5.15"
   }
 ]
