@@ -9,9 +9,11 @@
     "lng": 56.40,
     "area": "Strait of Hormuz — convoy escort and retaliatory strike ops",
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye",
-    "escorts": ["CG-52 USS Bunker Hill", "DDG-105 USS Dewey", "DDG-110 USS William P. Lawrence"],
-    "status": "Engaged — convoy escort and retaliatory strike operations",
+    "escorts": ["CG-65 USS Chosin", "DDG-105 USS Dewey", "DDG-110 USS William P. Lawrence"],
+    "status": "ENGAGED",
+    "mission_summary": "Convoy escort and retaliatory strike operations",
     "deployed_since": "2026-02-15",
+    "operation_start_date": "2026-03-01",
     "notes": "Primary strike platform for Operation Epic Fury. Day 14: Provided air cover for second escorted convoy (5 tankers). Air wing flew retaliatory strikes on IRGC coastal batteries at Bandar Abbas and Qeshm Island overnight. 230+ sorties/day."
   },
   {
@@ -24,9 +26,11 @@
     "lng": 34.00,
     "area": "Eastern Mediterranean — closer to Lebanese coast for ground support",
     "aircraft": "F/A-18E/F Super Hornets, F-35C Lightning II, EA-18G Growlers",
-    "escorts": ["CG-68 USS Anzio", "DDG-107 USS Gravely", "DDG-119 USS Delbert D. Black"],
-    "status": "Engaged — supporting IDF Lebanon ground operation and Iran strikes",
+    "escorts": ["CG-64 USS Gettysburg", "DDG-107 USS Gravely", "DDG-119 USS Delbert D. Black"],
+    "status": "ENGAGED",
+    "mission_summary": "Supporting IDF Lebanon ground operation and Iran strikes",
     "deployed_since": "2026-02-20",
+    "operation_start_date": "2026-03-01",
     "notes": "Day 14: Moved further toward Lebanese coast as IDF ground ops enter Day 2. F-35Cs supporting close air support near Bint Jbeil. F/A-18s continue deep strike missions into western Iran. Dual mission at maximum intensity."
   },
   {
@@ -39,9 +43,11 @@
     "lng": 58.20,
     "area": "Gulf of Oman — southern convoy screening and ASW ops",
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye",
-    "escorts": ["CG-56 USS San Jacinto", "DDG-86 USS Shoup", "DDG-100 USS Kidd"],
-    "status": "Engaged — convoy screen and southern interdiction",
+    "escorts": ["CG-71 USS Cape St. George", "DDG-86 USS Shoup", "DDG-100 USS Kidd"],
+    "status": "ENGAGED",
+    "mission_summary": "Convoy screen and southern interdiction",
     "deployed_since": "2026-02-25",
+    "operation_start_date": "2026-03-01",
     "notes": "Day 14: Continued southern screening for second convoy transit. ASW helicopters prosecuted possible submarine contact — results inconclusive. P-8 Poseidons from Bahrain augmenting coverage."
   },
   {
@@ -55,8 +61,10 @@
     "area": "Strait of Hormuz — active convoy escort and mine countermeasures",
     "aircraft": "F-35B Lightning II, MV-22 Osprey, AH-1Z Viper, CH-53E Super Stallion",
     "escorts": ["LPD-27 USS Portland", "LSD-52 USS Pearl Harbor"],
-    "status": "Standing by — mine countermeasures support, TRAP",
+    "status": "STANDBY",
+    "mission_summary": "Mine countermeasures support, TRAP",
     "deployed_since": "2026-02-22",
+    "operation_start_date": "2026-03-01",
     "notes": "Day 14: Led mine countermeasures for second convoy (5 tankers). Cleared corridor widened to 1.2km. AH-1Z Vipers fired warning shots at approaching IRGC fast boats — boats withdrew. Marines remain at heightened readiness."
   },
   {
@@ -65,14 +73,16 @@
     "hull": "DDG-117",
     "type": "destroyer",
     "strike_group": "Independent — NAVCENT",
-    "lat": 26.10,
-    "lng": 57.10,
+    "lat": 26.15,
+    "lng": 57.30,
     "area": "Strait of Hormuz approaches — escort operations",
     "aircraft": "2x MH-60R Seahawk",
     "escorts": [],
-    "status": "Engaged — Hormuz patrol, MCM escort",
+    "status": "ENGAGED",
+    "mission_summary": "Hormuz patrol, MCM escort",
     "deployed_since": "2026-02-27",
-    "notes": "Day 14: Escorted second convoy (5 tankers). IRGC coastal batteries that targeted her yesterday destroyed in overnight retaliatory strikes. No missiles fired at convoy today. Ship undamaged. Remains lead Hormuz escort."
+    "operation_start_date": "2026-03-01",
+    "notes": "Day 14: Escorted second convoy (5 tankers). Remains lead Hormuz escort."
   },
   {
     "id": "ssgn-728",
@@ -83,25 +93,30 @@
     "lat": 25.00,
     "lng": 57.50,
     "area": "Gulf of Oman (approx.) — repositioned closer to Hormuz",
-    "aircraft": "N/A",
+    "aircraft": null,
     "escorts": [],
-    "status": "Deployed — Tomahawk strike platform",
+    "status": "DEPLOYED",
+    "mission_summary": "Tomahawk strike platform",
     "deployed_since": "2026-02-20",
-    "notes": "Ohio-class guided missile submarine. Carries up to 154 Tomahawk cruise missiles. Day 14: Launched Tomahawks in overnight retaliatory strikes on 5 IRGC coastal battery positions. Exact position classified."
+    "operation_start_date": "2026-03-01",
+    "notes": "Ohio-class guided missile submarine. Carries up to 154 Tomahawk cruise missiles. Day 14: Launched Tomahawks in overnight retaliatory strikes on IRGC coastal positions. Exact position classified."
   },
   {
     "id": "ddg-113",
     "name": "USS John Finn",
     "hull": "DDG-113",
     "type": "destroyer",
-    "strike_group": "CSG-3 detached — Red Sea",
+    "strike_group": "CSG-3 (detached)",
     "lat": 20.50,
     "lng": 38.50,
     "area": "Red Sea",
     "aircraft": "2x MH-60R Seahawk",
     "escorts": [],
-    "status": "Engaged — Houthi threat interdiction",
+    "status": "ENGAGED",
+    "mission_summary": "Houthi threat interdiction",
     "deployed_since": "2026-02-28",
+    "operation_start_date": "2026-03-01",
+    "detachment_note": "Detached to Red Sea for Houthi missile defense and merchant shipping escort",
     "notes": "Detached from CSG-3 to Red Sea for Houthi missile defense and merchant shipping escort. Key node in southern blockade."
   }
 ]

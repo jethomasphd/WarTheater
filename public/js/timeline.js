@@ -6,6 +6,8 @@
 WarTheater.Timeline = {
   events: [],
   currentFilter: 'all',
+  searchQuery: '',
+  sortOrder: 'newest',
 
   async init() {
     this.events = await WarTheater.Data.getTimeline() || [];
@@ -15,6 +17,8 @@ WarTheater.Timeline = {
     }
     this.render();
     this.bindFilters();
+    this.bindSearch();
+    this.bindSort();
   },
 
   bindFilters() {
@@ -29,6 +33,27 @@ WarTheater.Timeline = {
     });
   },
 
+  bindSearch() {
+    var self = this;
+    var input = document.getElementById('timeline-search');
+    if (!input) return;
+    input.addEventListener('input', function(e) {
+      self.searchQuery = e.target.value.toLowerCase().trim();
+      self.render();
+    });
+  },
+
+  bindSort() {
+    var self = this;
+    var sortBtn = document.getElementById('timeline-sort-btn');
+    if (!sortBtn) return;
+    sortBtn.addEventListener('click', function() {
+      self.sortOrder = self.sortOrder === 'newest' ? 'oldest' : 'newest';
+      sortBtn.textContent = self.sortOrder === 'newest' ? 'Newest First' : 'Oldest First';
+      self.render();
+    });
+  },
+
   // Category descriptions for cognitive handholds
   getCategoryLabel(cat) {
     var labels = {
@@ -36,7 +61,8 @@ WarTheater.Timeline = {
       financial: 'FINANCIAL IMPACT',
       humanitarian: 'HUMANITARIAN',
       diplomatic: 'DIPLOMATIC',
-      domestic: 'DOMESTIC / CIVIL'
+      domestic: 'DOMESTIC / CIVIL',
+      cyber: 'CYBER WARFARE'
     };
     return labels[cat] || cat.toUpperCase();
   },
@@ -48,7 +74,8 @@ WarTheater.Timeline = {
       financial: '#ef4444',
       humanitarian: '#f59e0b',
       diplomatic: '#4a9eff',
-      domestic: '#7b3fa0'
+      domestic: '#7b3fa0',
+      cyber: '#10b981'
     };
     return colors[cat] || '#8a8a8a';
   },
@@ -58,12 +85,44 @@ WarTheater.Timeline = {
     if (!container) return;
     var self = this;
 
+    // Filter by category
     var filtered = this.currentFilter === 'all'
-      ? this.events
+      ? this.events.slice()
       : this.events.filter(function(e) { return e.category === self.currentFilter; });
 
+    // Filter by search query
+    if (this.searchQuery) {
+      filtered = filtered.filter(function(e) {
+        return (e.title && e.title.toLowerCase().indexOf(self.searchQuery) !== -1) ||
+               (e.description && e.description.toLowerCase().indexOf(self.searchQuery) !== -1) ||
+               (e.data_point && e.data_point.toLowerCase().indexOf(self.searchQuery) !== -1) ||
+               (e.source && e.source.toLowerCase().indexOf(self.searchQuery) !== -1);
+      });
+    }
+
+    // Sort order
+    if (this.sortOrder === 'newest') {
+      filtered.sort(function(a, b) {
+        var dateComp = b.date.localeCompare(a.date);
+        if (dateComp !== 0) return dateComp;
+        return (b.time || '').localeCompare(a.time || '');
+      });
+    } else {
+      filtered.sort(function(a, b) {
+        var dateComp = a.date.localeCompare(b.date);
+        if (dateComp !== 0) return dateComp;
+        return (a.time || '').localeCompare(b.time || '');
+      });
+    }
+
+    // Update result count
+    var countEl = document.getElementById('timeline-result-count');
+    if (countEl) {
+      countEl.textContent = filtered.length + ' event' + (filtered.length !== 1 ? 's' : '');
+    }
+
     if (filtered.length === 0) {
-      container.innerHTML = '<div style="text-align: center; padding: var(--space-xl); color: var(--text-dim); font-style: italic;">No events in this category.</div>';
+      container.innerHTML = '<div style="text-align: center; padding: var(--space-xl); color: var(--text-dim); font-style: italic;">No events match your search.</div>';
       return;
     }
 

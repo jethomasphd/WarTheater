@@ -2,58 +2,58 @@
   "date": "2026-02-27",
   "label": "Pre-war baseline (last full trading day before Operation Epic Fury)",
   "oil": {
-    "brent": 72.38,
-    "wti": 70.82,
-    "source": "ICE / NYMEX closing prices"
+    "brent": 71.00,
+    "wti": 66.50,
+    "source": "EIA STEO (March 10, 2026) / FX Daily Report"
   },
   "gas": {
-    "national_avg": 3.05,
-    "source": "AAA national average",
+    "national_avg": 2.98,
+    "source": "AAA weekly fuel report (Feb 26, 2026)",
     "unit": "USD/gallon"
   },
   "markets": {
-    "sp500": 6867,
-    "nasdaq": 22100,
-    "djia": 51300,
-    "source": "NYSE / NASDAQ closing prices, cross-referenced Yahoo Finance / FRED"
+    "sp500": 6878.88,
+    "nasdaq": 22668.21,
+    "djia": 48977.92,
+    "source": "CNBC market close reporting, Feb 27, 2026"
   },
   "treasury": {
-    "us_10yr_yield": 4.05,
+    "us_10yr_yield": 3.97,
     "fed_funds_rate_upper": 3.75,
     "fed_funds_rate_lower": 3.50,
-    "dxy": 98.20,
-    "source": "FRED DGS10 / Federal Reserve H.15 / ICE"
+    "dxy": 97.57,
+    "source": "FRED DGS10 / Advisor Perspectives / FX Daily Report / Federal Reserve H.15"
   },
   "commodities": {
-    "gold_oz": 4980.00,
-    "silver_oz": 71.50,
-    "vix": 19.20,
-    "source": "COMEX / CBOE"
+    "gold_oz": 5236.00,
+    "silver_oz": 92.06,
+    "vix": 19.86,
+    "source": "Fortune daily commodity prices / FX Daily Report / Cboe Index Insights Feb 2026 / World Gold Council"
   },
   "national_debt": {
-    "total_trillions": 38.86,
+    "total_trillions": 38.73,
     "debt_to_gdp_pct": 100,
-    "source": "Treasury FiscalData — Debt to the Penny / CBO"
+    "source": "Treasury FiscalData — Debt to the Penny / CBO / JEC Monthly Debt Update"
   },
   "defense_stocks": {
-    "RTX": 128.50,
-    "LMT": 485.20,
-    "NOC": 520.80,
-    "GD": 298.40,
-    "BA": 178.90,
-    "source": "NYSE closing prices"
+    "RTX": 200.00,
+    "LMT": 647.00,
+    "NOC": 640.00,
+    "GD": 325.00,
+    "BA": 200.00,
+    "source": "NYSE closing prices (RTX, LMT, NOC, GD, BA estimated from war-rally reversal; flagged for direct verification)"
   },
   "oil_stocks": {
-    "XOM": 108.30,
-    "CVX": 152.60,
+    "XOM": 122.00,
+    "CVX": 186.75,
     "COP": 112.40,
-    "source": "NYSE closing prices"
+    "source": "NYSE closing prices (CVX verified close; XOM estimated; COP unverified)"
   },
   "airline_stocks": {
     "DAL": 62.50,
     "UAL": 98.20,
     "AAL": 17.80,
-    "source": "NYSE/NASDAQ closing prices"
+    "source": "NYSE/NASDAQ closing prices (all three unverified — flagged for Yahoo Finance historical data verification)"
   },
   "hormuz": {
     "daily_tanker_transits": 85,
@@ -65,5 +65,22 @@
     "us_wounded": 0,
     "total_strikes": 0,
     "displaced": 0
+  },
+  "audit": {
+    "date": "2026-03-14",
+    "verified_closes": ["sp500", "nasdaq", "djia", "cvx", "us_10yr_yield", "vix"],
+    "estimated_from_context": ["rtx", "lmt", "noc", "gd", "ba", "xom", "wti", "dxy"],
+    "unverified": ["cop", "dal", "ual", "aal"],
+    "primary_sources": [
+      "EIA STEO March 10, 2026",
+      "CNBC market close Feb 27, 2026",
+      "Advisor Perspectives Treasury Snapshot Feb 27, 2026",
+      "Cboe Index Insights February 2026",
+      "AAA weekly fuel report Feb 26, 2026",
+      "Fortune daily commodity prices Feb 27, 2026",
+      "World Gold Council GRAM Feb 2026",
+      "JEC Monthly Debt Update March 2026",
+      "Simply Wall St CVX analysis"
+    ]
   }
 }

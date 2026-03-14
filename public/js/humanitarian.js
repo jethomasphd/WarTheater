@@ -48,7 +48,7 @@ WarTheater.Humanitarian = {
       'Day 2 — Hormuz closure, sustained bombing',
       'Day 3 — Hezbollah enters the war',
       'Day 4 — Houthi attacks expand conflict',
-      'Day 5 — Minab school incident (23 children killed)',
+      'Day 5 — Minab school incident (165+ killed)',
       'Day 6 — Global protests, air campaign continues',
       'Day 7 — One week of conflict',
       'Day 8 — Oil infrastructure strikes begin',
@@ -123,7 +123,7 @@ WarTheater.Humanitarian = {
                 var total = 0;
                 items.forEach(function(item) { total += item.raw; });
                 var lines = ['', 'Total this day: ~' + total + ' estimated casualties'];
-                if (idx === 4) lines.push('Includes 23 children at Minab girls\' school');
+                if (idx === 4) lines.push('Includes 165+ killed at Minab girls\' school');
                 return lines;
               },
               footer: function() {
@@ -166,7 +166,7 @@ WarTheater.Humanitarian = {
         count: '1',
         note: 'Minab, Iran',
         source: 'Iranian Red Crescent / AP',
-        detail: 'Girls\' school destroyed by secondary explosion from adjacent IRGC ammunition depot strike. 23 children killed. 40+ wounded. Pentagon investigation underway.'
+        detail: 'Girls\' school struck by US Tomahawk cruise missile adjacent to IRGC naval complex. 165-180 killed (mostly girls aged 7-12). School triple-tapped per Iranian officials. Pentagon investigation underway.'
       },
       {
         label: 'Power Plants Hit',
