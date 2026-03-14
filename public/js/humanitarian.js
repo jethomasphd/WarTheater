@@ -44,11 +44,11 @@ WarTheater.Humanitarian = {
     var defaults = WarTheater.Utils.chartDefaults();
 
     var dayContexts = [
-      'Day 1 — First strikes and Iranian retaliation',
+      'Day 1 — First strikes, Minab school (165+ killed), Iranian retaliation',
       'Day 2 — Hormuz closure, sustained bombing',
       'Day 3 — Hezbollah enters the war',
       'Day 4 — Houthi attacks expand conflict',
-      'Day 5 — Minab school incident (165+ killed)',
+      'Day 5 — Fordow assessment, global protests',
       'Day 6 — Global protests, air campaign continues',
       'Day 7 — One week of conflict',
       'Day 8 — Oil infrastructure strikes begin',
@@ -123,7 +123,7 @@ WarTheater.Humanitarian = {
                 var total = 0;
                 items.forEach(function(item) { total += item.raw; });
                 var lines = ['', 'Total this day: ~' + total + ' estimated casualties'];
-                if (idx === 4) lines.push('Includes 165+ killed at Minab girls\' school');
+                if (idx === 0) lines.push('Includes 165+ killed at Minab girls\' school');
                 return lines;
               },
               footer: function() {

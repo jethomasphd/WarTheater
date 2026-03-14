@@ -55,6 +55,15 @@
   },
   {
     "date": "2026-02-28",
+    "time": "10:45",
+    "title": "Minab girls' school struck — 165+ children and staff killed",
+    "description": "US Tomahawk cruise missile strikes Shajareh Tayyebeh girls' elementary school in Minab, adjacent to an IRGC naval complex, during the opening wave at approximately 10:45 AM local time. 165-180 killed, mostly girls aged 7-12, plus teachers and parents. The school was triple-tapped per Iranian officials. Munitions experts confirm the weapon as a US Tomahawk. Pentagon preliminary investigation finds outdated DIA intelligence failed to distinguish the school from the military compound.",
+    "category": "humanitarian",
+    "source": "Iranian Red Crescent / NYT / CNN / BBC Verify / Bellingcat / OHCHR",
+    "data_point": "165-180 killed — deadliest civilian casualty incident"
+  },
+  {
+    "date": "2026-02-28",
     "time": "12:00",
     "title": "Iranian cyberattacks target US financial systems and Gulf state infrastructure",
     "description": "US Cybersecurity and Infrastructure Security Agency (CISA) reports coordinated cyberattacks attributed to APT33 (Elfin) targeting US financial sector networks, Gulf state water treatment systems, and Israeli power grid control systems. Most attacks are mitigated. CISA raises threat level to 'Shields Up' — the highest alert tier.",
@@ -286,15 +295,6 @@
     "category": "military",
     "source": "ISIS / Planet Labs / Arms Control Association",
     "data_point": "Fordow underground halls likely survived"
-  },
-  {
-    "date": "2026-02-28",
-    "time": "10:45",
-    "title": "Minab girls' school struck — 165+ children and staff killed",
-    "description": "US Tomahawk cruise missile strikes Shajareh Tayyebeh girls' elementary school in Minab, adjacent to an IRGC naval complex, during the opening wave at approximately 10:45 AM local time. 165-180 killed, mostly girls aged 7-12, plus teachers and parents. The school was triple-tapped per Iranian officials. Munitions experts confirm the weapon as a US Tomahawk. Pentagon preliminary investigation finds outdated DIA intelligence failed to distinguish the school from the military compound.",
-    "category": "humanitarian",
-    "source": "Iranian Red Crescent / NYT / CNN / BBC Verify / Bellingcat / OHCHR",
-    "data_point": "165-180 killed — deadliest civilian casualty incident"
   },
   {
     "date": "2026-03-04",
