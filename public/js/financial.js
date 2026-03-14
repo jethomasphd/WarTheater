@@ -22,21 +22,21 @@ WarTheater.Financial = {
       'Jan 2', 'Jan 8', 'Jan 15', 'Jan 22', 'Jan 29',
       'Feb 5', 'Feb 12', 'Feb 19', 'Feb 27',
       'Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5',
-      'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13', 'Mar 14'
+      'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13'
     ];
 
     const brent = [
       74.2, 73.8, 72.1, 71.5, 72.8,
       73.1, 71.9, 72.6, 71.00,
       85.4, 89.2, 90.2, 91.5, 93.5, 95.3,
-      96.3, 101.5, 100.8, 101.1, 101.5, 88.3, 100.11, 98.82, 103.86
+      96.3, 101.5, 100.8, 101.1, 101.5, 88.3, 100.11, 98.82
     ];
 
     const wti = [
       71.8, 71.2, 69.8, 69.1, 70.5,
       70.9, 69.5, 70.3, 66.50,
       82.1, 85.4, 87.3, 88.7, 90.1, 91.5,
-      93.8, 97.8, 97.2, 97.8, 98.2, 85.1, 95.28, 95.28, 99.50
+      93.8, 97.8, 97.2, 97.8, 98.2, 85.1, 95.28, 95.28
     ];
 
     const defaults = WarTheater.Utils.chartDefaults();
@@ -124,7 +124,7 @@ WarTheater.Financial = {
     var ctx = document.getElementById('chart-markets');
     if (!ctx) return;
 
-    var labels = ['Feb 27', 'Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13', 'Mar 14'];
+    var labels = ['Feb 27', 'Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13'];
     var defaults = WarTheater.Utils.chartDefaults();
 
     var contexts = [
@@ -142,8 +142,7 @@ WarTheater.Financial = {
       'Day 11 — no end in sight',
       'Day 12 — Oil crashes on false Hormuz claim; markets rally on hope',
       'Day 13 — Defense surge on ground war; S&P recovers to 6,694',
-      'Day 14 — AUMF debate; oil eases; S&P dips to 6,673',
-      'Day 15 — Brent $103.86; S&P 6,632; no escort convoys yet'
+      'Day 14 — AUMF debate; oil eases; S&P dips to 6,673'
     ];
 
     this.charts.markets = new Chart(ctx, {
@@ -153,38 +152,38 @@ WarTheater.Financial = {
         datasets: [
           {
             label: 'S&P 500',
-            data: [100, 96.5, 96.7, 94.0, 96.1, 91.5, 92.0, 92.5, 95.7, 92.5, 93.0, 97.3, 95.0, 97.5, 97.0, 96.4],
+            data: [100, 96.5, 96.7, 94.0, 96.1, 91.5, 92.0, 92.5, 95.7, 92.5, 93.0, 97.3, 95.0, 97.5, 97.0],
             borderColor: '#ef4444',
             borderWidth: 2,
             tension: 0.3,
-            pointRadius: [3, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+            pointRadius: [3, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 3],
             pointBackgroundColor: '#ef4444'
           },
           {
             label: 'Defense (RTX + LMT)',
-            data: [100, 103.5, 105.0, 106.5, 108.0, 109.5, 110.0, 110.5, 112.0, 112.5, 112.8, 113.0, 111.5, 115.8, 116.5, 117.0],
+            data: [100, 103.5, 105.0, 106.5, 108.0, 109.5, 110.0, 110.5, 112.0, 112.5, 112.8, 113.0, 111.5, 115.8, 116.5],
             borderColor: '#22c55e',
             borderWidth: 1.5,
             tension: 0.3,
-            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
             pointBackgroundColor: '#22c55e'
           },
           {
             label: 'Oil Majors (XOM + CVX)',
-            data: [100, 106.0, 110.0, 112.0, 114.0, 116.0, 117.0, 119.0, 124.0, 123.5, 124.0, 123.5, 117.0, 122.0, 121.0, 126.0],
+            data: [100, 106.0, 110.0, 112.0, 114.0, 116.0, 117.0, 119.0, 124.0, 123.5, 124.0, 123.5, 117.0, 122.0, 121.0],
             borderColor: '#d4a020',
             borderWidth: 1.5,
             tension: 0.3,
-            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
             pointBackgroundColor: '#d4a020'
           },
           {
             label: 'Airlines (DAL + UAL)',
-            data: [100, 92.0, 88.0, 85.0, 83.0, 81.0, 79.5, 78.5, 77.0, 77.5, 78.0, 78.5, 80.0, 76.0, 75.5, 74.0],
+            data: [100, 92.0, 88.0, 85.0, 83.0, 81.0, 79.5, 78.5, 77.0, 77.5, 78.0, 78.5, 80.0, 76.0, 75.5],
             borderColor: '#7b3fa0',
             borderWidth: 1.5,
             tension: 0.3,
-            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
             pointBackgroundColor: '#7b3fa0'
           }
         ]
@@ -238,8 +237,8 @@ WarTheater.Financial = {
     var ctx = document.getElementById('chart-hormuz');
     if (!ctx) return;
 
-    var labels = ['Feb 25', 'Feb 26', 'Feb 27', 'Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13', 'Mar 14'];
-    var data = [50, 50, 50, 25, 5, 3, 2, 2, 2, 3, 2, 2, 3, 2, 3, 3, 3, 2];
+    var labels = ['Feb 25', 'Feb 26', 'Feb 27', 'Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13'];
+    var data = [50, 50, 50, 25, 5, 3, 2, 2, 2, 3, 2, 2, 3, 2, 3, 3, 3];
     var defaults = WarTheater.Utils.chartDefaults();
 
     this.charts.hormuz = new Chart(ctx, {
@@ -306,8 +305,8 @@ WarTheater.Financial = {
     var ctx = document.getElementById('chart-daily-cost');
     if (!ctx) return;
 
-    var labels = ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7', 'Day 8', 'Day 9', 'Day 10', 'Day 11', 'Day 12', 'Day 13', 'Day 14', 'Day 15'];
-    var costs = [380, 420, 480, 500, 510, 490, 500, 520, 510, 505, 500, 515, 560, 580, 590];
+    var labels = ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7', 'Day 8', 'Day 9', 'Day 10', 'Day 11', 'Day 12', 'Day 13', 'Day 14'];
+    var costs = [380, 420, 480, 500, 510, 490, 500, 520, 510, 505, 500, 515, 560, 580];
     var cumulative = [];
     var sum = 0;
     costs.forEach(function(c) { sum += c; cumulative.push(sum); });
@@ -326,8 +325,7 @@ WarTheater.Financial = {
       'Day 11 — no ceasefire in sight',
       'Day 12 — Oil crashes; 3 ships hit in Hormuz',
       'Day 13 — Hormuz convoy ops; IRGC engages US Navy; IDF ground war in Lebanon',
-      'Day 14 — Retaliatory strikes on IRGC batteries; second convoy; Bint Jbeil',
-      'Day 15 — Brent $103.86; KC-135 crash; AUMF vote; no escort convoys'
+      'Day 14 — Retaliatory strikes on IRGC batteries; second convoy; Bint Jbeil'
     ];
 
     var defaults = WarTheater.Utils.chartDefaults();
