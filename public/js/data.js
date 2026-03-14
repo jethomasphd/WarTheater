@@ -40,9 +40,11 @@ WarTheater.Data = {
     return null;
   },
 
-  // Strike data
+  // Strike data (filter out _metadata entry)
   async getStrikesIran() {
-    return this.loadLocal('data/strikes-iran.json');
+    const raw = await this.loadLocal('data/strikes-iran.json');
+    if (Array.isArray(raw)) return raw.filter(s => s.id !== '_metadata');
+    return raw;
   },
 
   async getStrikesRetaliation() {
