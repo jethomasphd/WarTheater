@@ -139,7 +139,7 @@
     "casualties_reported": "Runway damage, aircraft losses not confirmed",
     "casualties_source": "IDF",
     "active_days": [1],
-    "notes": "Home of Israeli F-35I Adir squadron. Priority target for Iran. [NOTE: Nevatim was confirmed targeted in 2024 and 2025 Iran-Israel exchanges. Targeting during 2026 conflict is plausible but specific damage reports for this war unverified in open-source reporting as of March 14.]",
+    "notes": "Home of Israeli F-35I Adir squadron. Priority target for Iran. [NOTE: Nevatim was confirmed targeted in 2024 and 2025 Iran-Israel exchanges. Targeting during 2026 conflict is plausible but specific damage reports for this war unverified in open-source reporting as of March 13.]",
     "verified": false,
     "last_updated": "2026-03-14"
   },
@@ -155,7 +155,7 @@
     "casualties_reported": "All intercepted — no impact",
     "casualties_source": "IDF / Arrow system",
     "active_days": [1],
-    "notes": "Symbolic targeting near Israeli nuclear facility. Arrow-3 exoatmospheric intercepts. [NOTE: Symbolic targeting plausible given precedent. Arrow-3 intercepts plausible. But specific confirmed reporting of Dimona-area strikes during 2026 war not found in open sources as of March 14.]",
+    "notes": "Symbolic targeting near Israeli nuclear facility. Arrow-3 exoatmospheric intercepts. [NOTE: Symbolic targeting plausible given precedent. Arrow-3 intercepts plausible. But specific confirmed reporting of Dimona-area strikes during 2026 war not found in open sources as of March 13.]",
     "verified": false,
     "last_updated": "2026-03-14"
   },
@@ -168,7 +168,7 @@
     "weapon": "Israeli airstrikes (in response to Hezbollah entry)",
     "origin": "IDF",
     "first_strike": "2026-03-02",
-    "casualties_reported": "773+ killed (as of March 14), 1,774+ wounded. 850,000+ displaced. At least 102 children among dead.",
+    "casualties_reported": "773+ killed (as of March 13), 1,774+ wounded. 850,000+ displaced. At least 102 children among dead.",
     "casualties_source": "Lebanese Health Ministry / OCHA / ACLED / CIR",
     "active_days": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
     "notes": "Hezbollah entered war March 2 after Khamenei assassination. Israel responded with massive strikes on Dahieh (southern suburbs) and throughout Lebanon. IDF struck 250+ targets. CIR verified 99 Israeli airstrikes between March 2-9 including 41 in Beirut. Ramada Plaza Hotel in Raouche struck March 8 (4 killed, 10 injured). Lebanese army withdrew from forward border positions. IDF limited ground incursions verified up to 2.75km inside Lebanese territory (Qaouzah village). As of March 14, Israel planning large-scale ground invasion south of Litani River per Axios/Israeli officials — NOT YET LAUNCHED. Lebanon ordered Hezbollah to disarm; Hezbollah refused.",
@@ -187,7 +187,7 @@
     "casualties_reported": "Included in Lebanese total",
     "casualties_source": "ACLED",
     "active_days": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
-    "notes": "Southern Lebanese city, Hezbollah rocket launch sites targeted. IDF issued evacuation orders for all residents south of Litani on ~Day 5, affecting 250-300 settlements. IDF 36th Division operating in southern Lebanon as of March 9. Limited incursions and active combat between IDF and Hezbollah confirmed in eastern sector near Khiyam and Ed Dhayra. Large-scale invasion south of Litani being planned but NOT YET LAUNCHED as of March 14.",
+    "notes": "Southern Lebanese city, Hezbollah rocket launch sites targeted. IDF issued evacuation orders for all residents south of Litani on ~Day 5, affecting 250-300 settlements. IDF 36th Division operating in southern Lebanon as of March 9. Limited incursions and active combat between IDF and Hezbollah confirmed in eastern sector near Khiyam and Ed Dhayra. Large-scale invasion south of Litani being planned but NOT YET LAUNCHED as of March 13.",
     "verified": true,
     "last_updated": "2026-03-14"
   },
