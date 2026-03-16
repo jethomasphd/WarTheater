@@ -11,7 +11,8 @@
     "closure_declared_by": "IRGC",
     "closure_type": "De facto (insurance-driven + active attacks on vessels)",
     "closure_method": "Asymmetric denial via drone and missile strikes on commercial vessels, triggering insurance-driven shutdown. IRGC used sea drones, anti-ship missiles, and shore-launched projectiles to strike 16+ vessels since Feb 28. War risk insurance withdrawn or repriced at 4-5x prewar rates, making transit economically unviable. Reports of naval mine deployment began ~March 10; US destroyed 16 Iranian minelayers in response. IRGC fast attack craft fleet largely intact per US assessments. Chinese-flagged and shadow fleet vessels continue transiting with de facto Iranian permission.",
-    "status": "Effectively closed to Western-allied shipping. No US Navy escort convoys have been conducted as of March 13. Energy Secretary Wright confirmed March 12 the US is 'not ready' to escort tankers. Trump said March 13 escorts will happen 'soon.' Iran selectively permitting passage for non-Western vessels: Turkish ship approved March 13, two Indian LPG carriers and one Saudi tanker carrying oil for India allowed through. Shadow fleet and Chinese-flagged vessels account for majority of remaining transits. Approximately 1,000 ships anchored near strait entrance including ~200 oil tankers. US struck Kharg Island military targets March 13, threatening oil infrastructure if strait passage not restored.",
+    "status": "Effectively closed to Western-allied shipping. US struck 90+ military targets on Kharg Island March 13, sparing oil infrastructure but threatening future strikes if Strait remains blocked. Iran selectively permitting passage for non-Western vessels: Turkish, Indian, and Saudi (India-bound) ships allowed through on case-by-case basis. Shadow fleet and Chinese-flagged vessels account for majority of remaining transits (approximately half of all transits per USNI/Lloyd's List). Approximately 1,000 ships anchored near strait entrance including ~200 oil tankers. Maritime traffic down 97% from pre-war levels. Iran's new Supreme Leader Mojtaba Khamenei declared Strait remains closed as 'tool of pressure.' 2,500 Marines (31st MEU) deploying aboard USS Tripoli for potential escort operations. Escorts planned for late March at earliest.",
+    "last_updated": "2026-03-16",
     "kharg_island_distance_from_strait_km": 483
   },
   "geometry": {
@@ -72,12 +73,15 @@
     "us_military_deaths": 13,
     "seafarer_fatalities": 6,
     "brent_crude_prewar_usd": 71.00,
-    "brent_crude_current_usd": 103.86,
-    "brent_crude_increase_pct": 46,
+    "brent_crude_current_usd": 106.18,
+    "brent_crude_increase_pct": 49.5,
     "iea_reserve_release_mbarrels": 400,
     "us_spr_release_mbarrels": 172,
     "iran_selective_passage": true,
     "iran_selective_passage_note": "Iran permitting transit for non-Western vessels on case-by-case basis. Turkish, Indian, and Saudi (India-bound) ships allowed through. Chinese-flagged vessels transiting continuously. Iran exporting 1.1-1.5 mbd to China.",
-    "us_escort_status": "Not yet operational. Pentagon describes strait as 'kill box.' Escorts planned for late March at earliest. 2,500 Marines (31st MEU aboard USS Tripoli) deploying to region."
+    "us_escort_status": "Not yet operational. Pentagon describes strait as 'kill box.' Escorts planned for late March at earliest. 2,500 Marines (31st MEU aboard USS Tripoli) deploying to region. USS Nimitz deployment extended. Australia and Japan both refused to send warships on March 16 despite Trump pressure. No allied nation has made firm commitment.",
+    "day_15_events": "Fujairah oil hub fire from intercepted drone debris. Qatar: 4 ballistic missiles intercepted. Ahmed al-Jaber Air Base: 2 drones struck, 3 Kuwaiti soldiers injured. US struck 90+ Kharg Island military targets. Kharg oil infrastructure deliberately preserved.",
+    "day_16_events": "7 ballistic missile salvos at Israel. Continued sporadic fire at reduced intensity. Trump says may hit Kharg again. Urges allies to send warships.",
+    "day_17_events": "Second Fujairah drone attack — oil loading suspended again. Drone strikes Dubai International Airport fuel tank, flights suspended several hours. 1 killed in Abu Dhabi (Al Bahyah). Kuwait airport radar damaged. Brent surges to $106.18 (+3%). Australia and Japan refuse to send warships. Iran FM: 'We never asked for a ceasefire.' Senate AUMF vote fails 47-53. IDF 91st Division expands ground ops at Khiam, Lebanon."
   }
 }

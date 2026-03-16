@@ -808,5 +808,203 @@
     "category": "financial",
     "source": "AAA / GasBuddy / American Trucking Associations / YCharts",
     "data_point": "$3.82/gal — +28.2% since pre-war. CA at $5.15"
+  },
+  {
+    "date": "2026-03-14",
+    "time": "01:30",
+    "title": "Qatar intercepts 4 ballistic missiles — first evacuation orders in Doha",
+    "description": "Qatar Defense Ministry intercepts 4 ballistic missiles and several drones targeting Doha. Large blast visible over Doha at approximately 1:30 AM from Patriot intercept. First evacuation orders issued in some Doha city districts. All incoming projectiles neutralized. Qatar has been targeted continuously since Feb 28 but this represents the heaviest single-night attack on the capital.",
+    "category": "military",
+    "source": "Qatar Defence Ministry / Al Jazeera",
+    "data_point": "4 ballistic missiles + several drones — all intercepted"
+  },
+  {
+    "date": "2026-03-14",
+    "time": "06:00",
+    "title": "US strikes 90+ military targets on Kharg Island — oil infrastructure spared",
+    "description": "CENTCOM executes large-scale precision strike on Kharg Island, targeting 90+ military objectives including naval mine storage, missile storage bunkers, air defense facilities, naval base, airport, and helicopter hangar. Oil infrastructure deliberately preserved. Trump warns he will 'reconsider' sparing oil assets if Iran continues blocking the Strait of Hormuz. Trump called it 'one of the most powerful bombing raids in the History of the Middle East.' Iran FM vows retaliation.",
+    "category": "military",
+    "source": "CENTCOM / Trump Truth Social / NPR / CNN / Washington Post",
+    "data_point": "90+ military targets struck — oil infrastructure deliberately spared"
+  },
+  {
+    "date": "2026-03-14",
+    "time": "08:00",
+    "title": "Fujairah oil hub fire — intercepted drone debris strikes bunkering facility",
+    "description": "Debris from an intercepted Iranian drone strikes the major Fujairah oil bunkering hub in the UAE, starting a fire. One Jordanian citizen lightly injured. Oil-loading operations suspended at the facility. Fujairah is a critical alternative to Hormuz-dependent ports for oil exports via the Habshan-Fujairah pipeline.",
+    "category": "military",
+    "source": "UAE Emergency Management / Reuters",
+    "data_point": "Fujairah bunkering operations suspended"
+  },
+  {
+    "date": "2026-03-14",
+    "time": "10:00",
+    "title": "Iran Health Ministry: 1,444 killed, 18,551 injured",
+    "description": "Iranian Health Ministry releases updated casualty figures: 1,444 killed and 18,551 injured since February 28. Separately, Hengaw (Kurdish human rights organization) reports 4,400+ Iranian military personnel killed, a significantly higher figure. Iranian Red Crescent reports 20,000+ civilian buildings affected including 16,000 residential units. 31 major hospitals damaged, 12 rendered inactive. WHO has verified 13 attacks on healthcare infrastructure in Iran.",
+    "category": "humanitarian",
+    "source": "Iranian Health Ministry / Hengaw / Iranian Red Crescent / WHO",
+    "data_point": "1,444 killed + 18,551 injured (Health Min.) — 4,400+ military (Hengaw)"
+  },
+  {
+    "date": "2026-03-14",
+    "time": "12:00",
+    "title": "Ahmed al-Jaber Air Base struck — 3 Kuwaiti soldiers injured",
+    "description": "Two Iranian drones strike Ahmed al-Jaber Air Base in Kuwait. Three Kuwaiti soldiers injured. Of 7 drones detected targeting the base, 3 were intercepted and 2 fell outside the threat zone. Kuwait has been targeted continuously since Day 1, with Ali al-Salem and Camp Buehring also receiving regular attacks.",
+    "category": "military",
+    "source": "Kuwaiti MoD",
+    "data_point": "2 of 7 drones struck base — 3 soldiers injured"
+  },
+  {
+    "date": "2026-03-14",
+    "time": "14:00",
+    "title": "2,500 Marines ordered to Middle East — USS Tripoli deployment",
+    "description": "The 31st Marine Expeditionary Unit (2,500 Marines) aboard USS Tripoli (amphibious assault ship) is ordered to the Middle East, pulled from waters near Taiwan. USS Nimitz deployment also extended. The Marine deployment signals preparation for potential Strait of Hormuz escort operations planned for late March. This represents a significant reallocation of Pacific-focused naval assets to the Persian Gulf theater.",
+    "category": "military",
+    "source": "AP / Fortune / NPR / Pentagon",
+    "data_point": "2,500 Marines (31st MEU) + USS Tripoli redeployed from Pacific"
+  },
+  {
+    "date": "2026-03-14",
+    "time": "16:00",
+    "title": "France and Italy open diplomatic talks with Iran",
+    "description": "French and Italian foreign ministries announce preliminary diplomatic contacts with Iranian officials through Omani intermediaries. The talks represent the first direct Western diplomatic engagement since the war began. EU sanctions on IRGC and Iranian oil announced alongside the outreach. Iran had recalled ambassadors from France, Germany, and the Netherlands on March 13.",
+    "category": "diplomatic",
+    "source": "French MFA / Italian MFA / Reuters",
+    "data_point": "First Western diplomatic contact since war began"
+  },
+  {
+    "date": "2026-03-14",
+    "time": "18:00",
+    "title": "Gas reaches $3.675/gallon — AAA confirmed",
+    "description": "AAA reports national average gasoline price at $3.675 per gallon, confirmed via OPIS credit card transaction data from ~130,000 stations. This represents a $0.695 increase (+23.3%) from the pre-war baseline of $2.98. The EIA Short-Term Energy Outlook (March 10) had forecast a March average of $3.58 — a figure already exceeded by mid-month.",
+    "category": "financial",
+    "source": "AAA / EIA STEO",
+    "data_point": "$3.675/gal — +23.3% since pre-war $2.98"
+  },
+  {
+    "date": "2026-03-15",
+    "time": "06:00",
+    "title": "7 ballistic missile salvos target Israel — cluster munitions in central Israel",
+    "description": "Iran launches 7 ballistic missile salvos since midnight targeting central Israel and Eilat. In the Holon area, a cluster bomb warhead injures three people: two men in their 50s lightly injured, one man in his 60s moderately hurt by glass and submunitions. Apartment damage and vehicle fires reported. A separate salvo at Eilat causes no injuries. Iran continues averaging ~10 attack waves per day despite 80%+ degradation of offensive capability.",
+    "category": "military",
+    "source": "IDF / Magen David Adom / Israeli media",
+    "data_point": "7 salvos — 3 injured in Holon by cluster munitions"
+  },
+  {
+    "date": "2026-03-15",
+    "time": "10:00",
+    "title": "Trump threatens to hit Kharg Island again — urges allied warships to Strait",
+    "description": "President Trump states he may strike Kharg Island again 'just for fun' and urges allied nations to send warships to the Strait of Hormuz. Iranian FM vows retaliation for the March 13 Kharg strikes. The USS Nimitz deployment is extended. The rhetoric signals continued US pressure on Iran to reopen the Strait while the military prepares for escort operations in late March.",
+    "category": "diplomatic",
+    "source": "Trump Truth Social / Reuters / AP",
+    "data_point": "Trump threatens additional Kharg strikes; urges allied naval deployment"
+  },
+  {
+    "date": "2026-03-15",
+    "time": "12:00",
+    "title": "Estimated war cost reaches $20 billion — conflict enters third week",
+    "description": "Extrapolating from the Pentagon's confirmed $11.3B through Day 6 and CSIS's $16.5B through Day 12 at a daily run rate of approximately $850M, cumulative direct military costs are estimated to have reached approximately $20 billion as of Day 16. Penn Wharton projects total direct budgetary costs of $40-95 billion (central estimate ~$65B) if the conflict lasts two months. The Pentagon is preparing a ~$50B supplemental funding request. Additional US economic losses from energy disruption estimated at $50-210B by Penn Wharton.",
+    "category": "financial",
+    "source": "Pentagon / CSIS (Cancian & Park) / Penn Wharton / NYT / Military Times",
+    "data_point": "~$20B cumulative — $50B supplemental request pending"
+  },
+  {
+    "date": "2026-03-15",
+    "time": "14:00",
+    "title": "Lebanese casualties reach 826+ killed — IDF ground operations continue",
+    "description": "Lebanese Health Ministry reports cumulative death toll from Israeli strikes and ground operations has reached 826+ killed and 2,009+ wounded since March 2. At least 102 children among the dead. 850,000+ displaced. IDF ground operations in southern Lebanon continue with heavy fighting around Bint Jbeil and the eastern sector. Hezbollah's Radwan Force continues to employ IEDs, tunnel systems, and anti-tank missiles against advancing IDF forces.",
+    "category": "humanitarian",
+    "source": "Lebanese Health Ministry / OCHA / ACLED / CIR",
+    "data_point": "826+ killed — 2,009+ wounded — 850,000+ displaced"
+  },
+  {
+    "date": "2026-03-15",
+    "time": "16:00",
+    "title": "Gas estimated at ~$3.69/gallon — weekend data",
+    "description": "Based on interpolation from AAA's confirmed $3.675 on March 14 and the ongoing upward trend, national average gasoline is estimated at approximately $3.69 per gallon. The increase of ~$0.71 from pre-war represents a 23.8% jump in just over two weeks. GasBuddy called the week of March 2-9 the 'largest weekly gas price jump of the century.'",
+    "category": "financial",
+    "source": "AAA (interpolated) / GasBuddy / EIA",
+    "data_point": "~$3.69/gal estimated — +$0.71 / +23.8% from pre-war"
+  },
+  {
+    "date": "2026-03-16",
+    "time": "04:00",
+    "title": "Second Fujairah drone attack — oil loading suspended again",
+    "description": "Iran launches a second drone attack on the Fujairah oil hub in the UAE, just two days after the first strike caused fires on March 14. Oil-loading operations are suspended for the second time in three days. Fujairah is the key bypass route for oil exports around the Strait of Hormuz, making these attacks strategically significant in maintaining the effectiveness of the Hormuz closure.",
+    "category": "military",
+    "source": "CNBC / Reuters / Bloomberg",
+    "data_point": "Fujairah oil loading suspended twice in 3 days"
+  },
+  {
+    "date": "2026-03-16",
+    "time": "06:00",
+    "title": "Drone strikes Dubai International Airport — fuel tank hit, flights suspended",
+    "description": "An Iranian drone strikes a fuel tank near Dubai International Airport, the world's busiest for international passengers. All flights are suspended for several hours. Emirates diverts flights to Abu Dhabi and Al Maktoum Airport; one Dublin-bound flight turns around over Egypt. Emirates resumes limited service after 10am local time. The attack on a major civilian hub represents significant escalation.",
+    "category": "military",
+    "source": "Washington Post / CNBC / Emirates",
+    "data_point": "Dubai airport flights suspended — fuel tank struck by drone"
+  },
+  {
+    "date": "2026-03-16",
+    "time": "07:00",
+    "title": "1 killed in Abu Dhabi missile strike — Kuwait airport radar damaged",
+    "description": "A missile strikes a vehicle in Abu Dhabi's Al Bahyah area, killing one person — the first confirmed fatality in Abu Dhabi from the conflict. Separately, Kuwait International Airport sustains radar equipment damage from an Iranian strike. Both attacks demonstrate continued Iranian targeting of Gulf civilian infrastructure despite 80%+ degradation of offensive capability.",
+    "category": "military",
+    "source": "CNBC / Reuters / Kuwaiti Civil Aviation",
+    "data_point": "1 killed in Abu Dhabi; Kuwait airport radar damaged"
+  },
+  {
+    "date": "2026-03-16",
+    "time": "09:00",
+    "title": "Australia and Japan refuse to send warships to Hormuz",
+    "description": "Despite President Trump's public call for allied nations to deploy warships to help reopen the Strait of Hormuz, both Australia and Japan decline. Australia's Defense Minister says the commitment is 'not appropriate at this time.' Japan's PM rules out sending naval assets. No allied nation has made a firm commitment to join US escort operations, underscoring the diplomatic isolation of the US-led war effort.",
+    "category": "diplomatic",
+    "source": "Reuters / Al Jazeera / NHK",
+    "data_point": "Australia and Japan refuse Hormuz warship request"
+  },
+  {
+    "date": "2026-03-16",
+    "time": "10:00",
+    "title": "Iran FM: 'We never asked for a ceasefire' — diplomacy stalls",
+    "description": "Iranian FM Abbas Araghchi declares 'We never asked for a ceasefire' and vows Iran 'is ready to defend ourselves as long as it takes.' The Trump administration separately rebuffs ceasefire efforts by Middle Eastern allies. Oman's mediation attempt fails to produce talks. The Pope calls for an immediate ceasefire. China condemns the attacks. A US Senate vote to curb Trump's war powers fails 47-53.",
+    "category": "diplomatic",
+    "source": "NPR / Reuters / Al Jazeera / Vatican",
+    "data_point": "Both sides reject ceasefire — Senate AUMF vote fails 47-53"
+  },
+  {
+    "date": "2026-03-16",
+    "time": "11:00",
+    "title": "IDF 91st Division expands ground operations — Khiam targeted",
+    "description": "The IDF announces the 91st 'Galilee' Division is pushing deeper into southern Lebanon to expand the buffer zone against Hezbollah. Intense fighting around the strategic town of Khiam, which sits on high ground overlooking northern Israel. At least 3 airstrikes hit Khiam. Israel planning to seize entire area south of Litani River. Defense Minister Katz compares operation to Gaza ground ops. Lebanon indicates readiness for direct ceasefire talks without preconditions.",
+    "category": "military",
+    "source": "Al Jazeera / Times of Israel / Axios / CNN",
+    "data_point": "91st Division at Khiam — planning full Litani buffer zone"
+  },
+  {
+    "date": "2026-03-16",
+    "time": "12:00",
+    "title": "Mojtaba Khamenei reportedly wounded — Hegseth",
+    "description": "US Defense Secretary Pete Hegseth states that Iran's new Supreme Leader Mojtaba Khamenei has been wounded, though details are not provided. If confirmed, this would be the second consecutive Iranian Supreme Leader to be directly affected by US-Israeli strikes — his father Ayatollah Ali Khamenei was killed in the opening hours of the war on February 28.",
+    "category": "military",
+    "source": "Pentagon / Hegseth statement",
+    "data_point": "New Supreme Leader reportedly wounded"
+  },
+  {
+    "date": "2026-03-16",
+    "time": "14:00",
+    "title": "Brent surges to $106.18 — markets react to Fujairah/Dubai attacks",
+    "description": "Brent crude surges 3% to $106.18 per barrel on Monday as markets react to the second Fujairah attack and Dubai airport strike. The rise demonstrates that Iran's ability to target alternative oil routes keeps upward pressure on prices even as its main military capability degrades. S&P 500 futures trade up ~0.5% pre-market near 6,664. Oil options markets price 30% probability of Brent above $120 within two weeks.",
+    "category": "financial",
+    "source": "Bloomberg / Fortune / CNBC / Polymarket",
+    "data_point": "Brent $106.18 (+3%) — S&P futures +0.5%"
+  },
+  {
+    "date": "2026-03-16",
+    "time": "15:00",
+    "title": "56% of Americans oppose the war — NPR/PBS/Marist poll",
+    "description": "A new NPR/PBS NewsHour/Marist poll finds 56% of Americans are against the war with Iran. The figure represents a significant public opinion shift given that the conflict is only 17 days old. Combined with the failed Senate AUMF vote (47-53) and the approaching $50B supplemental request, domestic political pressure on the war effort is building.",
+    "category": "diplomatic",
+    "source": "NPR / PBS NewsHour / Marist",
+    "data_point": "56% opposed — first majority-oppose poll of the war"
   }
 ]
