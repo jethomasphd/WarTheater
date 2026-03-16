@@ -1,0 +1,879 @@
+{
+  "metadata": {
+    "title": "Operation Epic Fury / Operation Roaring Lion — US & Israel Strikes on Iran",
+    "description": "Comprehensive record of US and Israeli military strikes against Iran since February 28, 2026",
+    "us_codename": "Operation Epic Fury",
+    "israel_codename": "Operation Roaring Lion (also: Operation Lion's Roar)",
+    "israel_opening_sortie_codename": "Operation Genesis (Hebrew: מטס בראשית)",
+    "start_date": "2026-02-28",
+    "status_as_of": "2026-03-15",
+    "status": "ONGOING",
+    "data_sources": [
+      "Wikipedia — 2026 Israeli–United States strikes on Iran",
+      "Wikipedia — 2026 Iran war",
+      "Wikipedia — Assassination of Ali Khamenei",
+      "Wikipedia — 2026 Minab school airstrike",
+      "Wikipedia — List of Iranian officials killed during the 2026 Iran war",
+      "Flashpoint — Escalation in the Middle East: Tracking Operation Epic Fury",
+      "Britannica — 2026 Iran conflict",
+      "CSIS — Operation Epic Fury and the Remnants of Iran's Nuclear Program",
+      "Hudson Institute — Operation Epic Fury: Iran's Declining Capabilities",
+      "JINSA — Operations Epic Fury and Roaring Lion updates",
+      "Al Jazeera live coverage and investigations",
+      "NPR reporting and investigations",
+      "CNN live coverage and geolocated analysis",
+      "Fox News — CENTCOM fact sheets",
+      "SOF News — Epic Fury updates",
+      "Defcon Level — Operation Epic Fury Naval Strikes",
+      "NBC News — strike investigations",
+      "Bellingcat — geolocated video analysis",
+      "TIME Magazine — Minab investigation",
+      "The Washington Post — investigations",
+      "GlobalSecurity.org — Target Iran",
+      "All Israel News",
+      "The Hill",
+      "The Jewish Chronicle",
+      "RealClearDefense / AP reporting",
+      "Fortune / Bloomberg reporting",
+      "PBS NewsHour / AP reporting",
+      "Stimson Center expert analysis"
+    ],
+    "caveats": [
+      "Fog of war: Many details remain unconfirmed or disputed",
+      "Casualty figures vary significantly between Iranian, US, Israeli, and independent sources",
+      "Coordinates are approximate, based on known facility locations and geolocated media",
+      "Weapons attributions are based on expert analysis of available footage and debris",
+      "This dataset is necessarily incomplete given ongoing hostilities and information blackouts",
+      "Internet blackouts in Iran have severely limited independent verification",
+      "Some strikes are reported in aggregate (e.g., '200 targets in 24 hours') without individual enumeration"
+    ]
+  },
+
+  "aggregate_statistics": {
+    "total_targets_struck_by_day_3": {
+      "us_targets": 1700,
+      "israel_targets_day_1": 500,
+      "combined_first_12_hours": 900,
+      "source": "CENTCOM fact sheet; IDF; senior US official"
+    },
+    "total_targets_struck_by_day_14": {
+      "combined": 15000,
+      "rate": "more than 1000 per day",
+      "source": "US Defense Secretary Pete Hegseth, March 13 briefing"
+    },
+    "israel_claimed_strikes_by_day_7": 2500,
+    "israel_air_defense_destruction_claim": "80% of Iran's air defense systems destroyed",
+    "us_assets_deployed": {
+      "strategic_bombers": ["B-1 Lancer", "B-2 Spirit", "B-52 Stratofortress"],
+      "fighter_jets": ["F-15 Eagle", "F-16 Fighting Falcon", "F/A-18 Super Hornet", "F-22 Raptor", "F-35 Lightning II"],
+      "attack_aircraft": ["A-10 Thunderbolt II", "EA-18G Growler (electronic attack)"],
+      "drones": ["MQ-9 Reaper", "Low-cost one-way attack drones (Task Force Scorpion Strike)"],
+      "missiles": ["Tomahawk cruise missiles (BGM/UGM-109 TLAM)", "GBU-31 JDAM bunker busters", "GBU-57 A/B Massive Ordnance Penetrator"],
+      "missile_defense": ["Patriot interceptors", "THAAD anti-ballistic missile systems"],
+      "artillery": ["M-142 HIMARS"],
+      "naval": ["Nuclear-powered aircraft carriers (USS Abraham Lincoln, USS Gerald R. Ford)", "Guided-missile destroyers", "USS Tripoli (amphibious assault ship, en route)"],
+      "reconnaissance": ["P-8 Poseidon maritime patrol", "RC-135 reconnaissance", "AWACS (NATO, from Konya Airport Turkey)"],
+      "support": ["KC-135 refueling tankers", "C-17 Globemaster III", "C-130 Hercules"],
+      "source": "Fox News CENTCOM summary; multiple reports"
+    },
+    "israel_assets_deployed": {
+      "fighter_jets_day_1": "~200 aircraft",
+      "bombs_first_24_hours": "1,200+",
+      "aircraft_types": ["F-35I Adir", "F-15I Ra'am", "other IAF inventory"],
+      "source": "IDF statements; Israel N12"
+    },
+    "us_mq9_losses": {
+      "count": 11,
+      "cost_per_unit_millions_usd": "13-16",
+      "source": "CBS News, March 11"
+    },
+    "cost_estimate_first_100_hours": {
+      "total_billions_usd": 3.7,
+      "per_day_millions_usd": 891,
+      "unbudgeted_billions_usd": 3.5,
+      "source": "CSIS estimate, March 6"
+    },
+    "us_missile_defense_spending_week_1_billions_usd": 4.0
+  },
+
+  "casualty_summary": {
+    "iranian_casualties": {
+      "killed_iranian_health_ministry_as_of_mar_14": 1444,
+      "injured_iranian_health_ministry_as_of_mar_14": 18551,
+      "killed_red_crescent_as_of_mar_3": 600,
+      "killed_human_rights_activists_iran_as_of_mar_3": 742,
+      "killed_al_jazeera_as_of_day_7_mar_6": 1332,
+      "military_killed_idf_estimate_mar_13": "3000-4000",
+      "military_killed_hengaw_org_mar_14": "4400+",
+      "military_killed_hengaw_progression": {
+        "mar_2": "1300+",
+        "mar_4": "2100+",
+        "mar_10": "3900+",
+        "mar_14": "4400+"
+      },
+      "senior_officials_killed_day_1": "40+",
+      "civilian_units_targeted_per_red_crescent_mar_7": 6668,
+      "iranian_warships_sunk": 43,
+      "source": "Multiple — see individual entries"
+    },
+    "us_casualties": {
+      "service_members_killed_as_of_mar_14": 13,
+      "includes_kc135_crew": {
+        "count": 6,
+        "date": "2026-03-12",
+        "unit": "Ohio Air National Guard 121st Air Refueling Wing",
+        "location": "Iraq",
+        "details": "KC-135 refueling aircraft crashed"
+      },
+      "friendly_fire_incident": {
+        "aircraft_lost": "3 F-15s",
+        "location": "Kuwait",
+        "details": "Shot down in friendly fire incident"
+      },
+      "source": "CENTCOM; Fox News; NPR; Fortune/AP"
+    },
+    "israeli_casualties": {
+      "civilians_killed": 12,
+      "notable_incident": {
+        "location": "Beit Shemesh",
+        "killed": 9,
+        "details": "Iranian ballistic missile struck public bomb shelter"
+      },
+      "soldiers_killed_in_lebanon": 2,
+      "source": "Israeli authorities; JINSA; NPR"
+    },
+    "displaced_persons_across_middle_east": "330,000+"
+  },
+
+  "senior_iranian_officials_killed": [
+    {
+      "name": "Ayatollah Ali Khamenei",
+      "title": "Supreme Leader of Iran",
+      "age": 86,
+      "date_killed": "2026-02-28",
+      "location": "Leadership compound, Pasteur district, Tehran",
+      "approximate_coordinates": {"lat": 35.6892, "lon": 51.3890},
+      "method": "Israeli precision airstrike (approximately 50 aircraft dropped 100+ bombs on underground bunker)",
+      "confirmed_by": ["Iranian state media (IRNA) on March 1", "Israeli officials", "US President Trump"],
+      "additional_family_killed": ["Daughter", "Son-in-law", "Granddaughter"],
+      "notes": "CIA tracked location for months; accelerated timeline due to target of opportunity when senior officials gathered"
+    },
+    {
+      "name": "Ali Shamkhani",
+      "title": "Secretary of Iranian Security/Defense Council; Senior Adviser to Khamenei",
+      "age": 70,
+      "date_killed": "2026-02-28",
+      "location": "Tehran",
+      "notes": "Previously targeted and injured in Israeli strike during June 2025 Twelve-Day War; was overseeing nuclear negotiations with US"
+    },
+    {
+      "name": "Mohammad Pakpour",
+      "title": "Commander of the Islamic Revolutionary Guard Corps (IRGC)",
+      "age": 64,
+      "date_killed": "2026-02-28",
+      "location": "Tehran",
+      "notes": "Replaced Hossein Salami who was killed in June 2025 Twelve-Day War; described as leader of 'destruction of Israel' plan"
+    },
+    {
+      "name": "Brigadier General Aziz Nasirzadeh",
+      "title": "Defense Minister of Iran",
+      "date_killed": "2026-02-28",
+      "location": "Tehran",
+      "notes": "Former air force commander; served as defense minister for ~18 months"
+    },
+    {
+      "name": "Major General Abdolrahim Mousavi",
+      "title": "Chief of Staff of Iran's Armed Forces",
+      "date_killed": "2026-02-28",
+      "location": "Tehran",
+      "notes": "Appointed by Khamenei after death of predecessor Mohammad Bagheri in June 2025 war; previously commander-in-chief of Iranian Army 2017-2025; US/EU/UK/Australia sanctioned for human rights abuses"
+    },
+    {
+      "name": "Mohammad Shirazi",
+      "title": "Head of the Military Bureau of Supreme Leader since 1989",
+      "date_killed": "2026-02-28",
+      "location": "Tehran"
+    },
+    {
+      "name": "Hossein Jabal Amelian",
+      "title": "Deputy Defense Minister; Chairman of the SPND Organization",
+      "date_killed": "2026-02-28",
+      "location": "Tehran"
+    },
+    {
+      "name": "Saleh Asadi",
+      "title": "Head of Intelligence Directorate, Khatam al-Anbiya emergency command; Senior Intelligence Officer, Supreme Command of Iranian Forces",
+      "date_killed": "2026-02-28",
+      "location": "Tehran"
+    },
+    {
+      "name": "Mahmoud Ahmadinejad",
+      "title": "Former President of Iran",
+      "date_killed": "2026-02-28",
+      "location": "Tehran",
+      "notes": "Per timeline tracker opepicfury.info"
+    },
+    {
+      "name": "Mohammad Nasseri",
+      "title": "Official in Ministry of Intelligence",
+      "date_killed": "2026-03-01",
+      "location": "Tehran",
+      "source": "BBC"
+    },
+    {
+      "name": "Gholamreza Rezaeian",
+      "title": "Head of Intelligence Department of FARAJA Police",
+      "date_killed": "2026-03-01",
+      "location": "Tehran",
+      "source": "BBC"
+    },
+    {
+      "name": "Hussein Makled",
+      "title": "Head of Hezbollah Intelligence Headquarters",
+      "date_killed": "2026-03-01",
+      "location": "Lebanon (Israeli strike during Lebanon escalation)",
+      "source": "IDF"
+    },
+    {
+      "name": "Four unnamed top officials from Ministry of Intelligence",
+      "date_killed": "2026-02-28",
+      "notes": "Contributing to estimated total of ~48 senior officials killed"
+    }
+  ],
+
+  "strikes_by_phase": {
+    "phase_1_opening_salvo": {
+      "date": "2026-02-28",
+      "time_local": "~09:45 IRST (01:15 EST)",
+      "description": "Coordinated decapitation strike and air defense suppression",
+      "cities_struck": ["Tehran", "Isfahan", "Qom", "Karaj", "Kermanshah", "Tabriz", "Parchin", "Shiraz", "Bushehr", "Lorestan", "Minab"],
+      "strikes": [
+        {
+          "id": "EF-001",
+          "target": "Supreme Leader's Compound / Leadership House",
+          "type": "LEADERSHIP",
+          "city": "Tehran",
+          "district": "Pasteur district",
+          "approximate_coordinates": {"lat": 35.6892, "lon": 51.3890},
+          "conducted_by": "Israel (IAF)",
+          "weapons": "~100+ bombs dropped by ~50 aircraft on underground bunker",
+          "result": "Compound destroyed; Khamenei killed along with family members and senior officials",
+          "casualties_killed": "Multiple senior officials (see officials list)",
+          "notes": "Three separate gatherings of senior officials struck simultaneously; 7+ missiles confirmed striking the area"
+        },
+        {
+          "id": "EF-002",
+          "target": "Presidential Palace / Office of President Pezeshkian",
+          "type": "LEADERSHIP",
+          "city": "Tehran",
+          "district": "Pasteur district",
+          "approximate_coordinates": {"lat": 35.6995, "lon": 51.4215},
+          "conducted_by": "Israel/US joint",
+          "result": "Hit during strikes; Pezeshkian survived",
+          "source": "BBC"
+        },
+        {
+          "id": "EF-003",
+          "target": "Supreme National Security Council building",
+          "type": "LEADERSHIP / C2",
+          "city": "Tehran",
+          "approximate_coordinates": {"lat": 35.6892, "lon": 51.3890},
+          "conducted_by": "Israel/US joint",
+          "result": "Struck"
+        },
+        {
+          "id": "EF-004",
+          "target": "Iranian Ministry of Intelligence",
+          "type": "INTELLIGENCE",
+          "city": "Tehran",
+          "conducted_by": "US/Israel",
+          "result": "Confirmed struck",
+          "source": "GlobalSecurity.org open-source monitors"
+        },
+        {
+          "id": "EF-005",
+          "target": "Iranian Ministry of Defense",
+          "type": "MILITARY/GOVERNMENT",
+          "city": "Tehran",
+          "conducted_by": "US/Israel",
+          "result": "Confirmed struck",
+          "source": "GlobalSecurity.org"
+        },
+        {
+          "id": "EF-006",
+          "target": "Iran Electronics Industries facility (Defense Ministry)",
+          "type": "MILITARY INDUSTRY",
+          "city": "Isfahan",
+          "approximate_coordinates": {"lat": 32.6546, "lon": 51.6680},
+          "conducted_by": "US/Israel",
+          "result": "Struck",
+          "source": "Flashpoint"
+        },
+        {
+          "id": "EF-007",
+          "target": "Iranian Atomic Energy Agency headquarters",
+          "type": "NUCLEAR",
+          "city": "Tehran",
+          "conducted_by": "US",
+          "result": "Unconfirmed reports of strike",
+          "source": "CSIS"
+        },
+        {
+          "id": "EF-008",
+          "target": "Parchin explosive research/testing facility",
+          "type": "NUCLEAR/MILITARY",
+          "city": "Parchin",
+          "approximate_coordinates": {"lat": 35.5200, "lon": 51.7700},
+          "conducted_by": "US",
+          "result": "Confirmed struck",
+          "source": "CSIS; open-source monitors"
+        },
+        {
+          "id": "EF-009",
+          "target": "IRGC Joint Headquarters",
+          "type": "MILITARY C2",
+          "city": "Tehran",
+          "conducted_by": "US",
+          "result": "Destroyed",
+          "source": "CENTCOM fact sheet"
+        },
+        {
+          "id": "EF-010",
+          "target": "IRGC Aerospace Forces Headquarters",
+          "type": "MILITARY C2",
+          "city": "Tehran",
+          "conducted_by": "US",
+          "result": "Destroyed",
+          "source": "CENTCOM fact sheet"
+        },
+        {
+          "id": "EF-011",
+          "target": "Sayyid al-Shuhada military complex / IRGC Navy Asif Brigade HQ and adjacent Shajareh Tayyebeh girls' school",
+          "type": "MILITARY (adjacent civilian site struck)",
+          "city": "Minab, Hormozgan province",
+          "approximate_coordinates": {"lat": 27.1500, "lon": 57.0800},
+          "conducted_by": "United States",
+          "weapons": "Tomahawk cruise missile (BGM/UGM-109 TLAM) — confirmed by video analysis from Bellingcat, BBC Verify, CNN, NPR, NYT, Washington Post, and multiple munitions experts",
+          "result": "School and 7 buildings in compound destroyed; triple-tap strike reported",
+          "casualties_killed": "168-180 (mostly schoolchildren and 14 teachers)",
+          "casualties_injured": "Unknown",
+          "notes": "Deadliest single strike of the war in terms of civilian casualties. School was formerly part of IRGC base but walled off since 2013-2016. Pentagon internal probe points to US Tomahawk as responsible. Trump initially blamed Iran. NPR reported only 1 staffer assigned to civilian casualty mitigation after Hegseth cutbacks.",
+          "investigations": ["NYT", "CBC", "NPR", "BBC Verify", "Bellingcat", "Washington Post", "TIME", "Human Rights Watch", "Al Jazeera English"],
+          "source": "Multiple — see Minab school airstrike sources"
+        },
+        {
+          "id": "EF-012",
+          "target": "Air defense systems and ballistic missile launchers across western and central Iran",
+          "type": "AIR DEFENSE / MISSILE",
+          "region": "Western and central Iran",
+          "conducted_by": "Israel (IAF — ~200 aircraft, largest combat sortie in IAF history)",
+          "weapons": "1,200+ bombs in first 24 hours",
+          "result": "~500 military targets struck on Day 1 by Israel alone",
+          "source": "IDF statements"
+        },
+        {
+          "id": "EF-013",
+          "target": "Bushehr (port city; unclear if nuclear reactor hit)",
+          "type": "MILITARY / POSSIBLY NUCLEAR",
+          "city": "Bushehr",
+          "approximate_coordinates": {"lat": 28.9234, "lon": 50.8203},
+          "conducted_by": "US/Israel",
+          "result": "City struck; unclear if Bushehr Nuclear Power Plant damaged",
+          "source": "Iran International via ISNA"
+        },
+        {
+          "id": "EF-014",
+          "target": "Multiple locations in Tehran — University Street, Jomhouri area, Seyed Khandan",
+          "type": "VARIOUS",
+          "city": "Tehran",
+          "conducted_by": "US/Israel",
+          "result": "Missile strikes confirmed; communications impaired; near-total internet blackout per NetBlocks (54% of normal)",
+          "source": "Wikipedia citing Fars News, CNN, BBC, Netblocks"
+        },
+        {
+          "id": "EF-015",
+          "target": "Iranian naval vessels (9 warships on Day 1)",
+          "type": "NAVAL",
+          "region": "Persian Gulf / Strait of Hormuz area",
+          "conducted_by": "United States",
+          "weapons": "Various (naval and air strikes)",
+          "result": "9 ships destroyed and sunk per Trump/White House; includes Jamaran-class corvette sunk at Chah Bahar",
+          "source": "White House statement; Trump Truth Social; Defcon Level"
+        },
+        {
+          "id": "EF-016",
+          "target": "Iranian naval headquarters",
+          "type": "NAVAL C2",
+          "conducted_by": "United States",
+          "result": "Destroyed per Trump",
+          "source": "Trump Truth Social, March 1"
+        },
+        {
+          "id": "EF-017",
+          "target": "Jurf al-Sakhar (Iraq) — Popular Mobilization Forces positions",
+          "type": "PROXY FORCES",
+          "city": "Jurf al-Sakhar, south of Baghdad, Iraq",
+          "approximate_coordinates": {"lat": 32.8800, "lon": 44.1500},
+          "conducted_by": "US/Israel",
+          "casualties_killed": 2,
+          "casualties_injured": 3,
+          "notes": "PMF fighters killed",
+          "source": "PMF spokesperson"
+        }
+      ]
+    },
+
+    "phase_2_continued_degradation": {
+      "dates": "2026-03-01 to 2026-03-03",
+      "description": "Expanded strikes against state apparatus, broadcasting, government institutions, naval assets",
+      "strikes": [
+        {
+          "id": "EF-018",
+          "target": "IRGC Malek-Ashtar building",
+          "type": "MILITARY",
+          "city": "Tehran",
+          "date": "2026-03-02",
+          "conducted_by": "US/Israel joint",
+          "result": "Completely destroyed — video released by Iran International",
+          "source": "Iran International"
+        },
+        {
+          "id": "EF-019",
+          "target": "Islamic Republic of Iran Broadcasting (IRIB) headquarters — state broadcaster",
+          "type": "MEDIA / STATE APPARATUS",
+          "city": "Tehran",
+          "date": "2026-03-03",
+          "conducted_by": "Israel (separate IAF operation)",
+          "result": "Parts of facilities struck; no casualties reported by Iranian authorities",
+          "source": "Wikipedia; Flashpoint"
+        },
+        {
+          "id": "EF-020",
+          "target": "Assembly of Experts building",
+          "type": "GOVERNMENT",
+          "city": "Tehran",
+          "date": "2026-03-03",
+          "conducted_by": "Israel",
+          "result": "Destroyed while Assembly expected to convene to select new Supreme Leader — delayed succession process",
+          "notes": "Deliberate targeting to prevent leadership continuity",
+          "source": "Britannica; Flashpoint"
+        },
+        {
+          "id": "EF-021",
+          "target": "Tehran Revolutionary Court",
+          "type": "GOVERNMENT / JUDICIARY",
+          "city": "Tehran",
+          "date": "2026-03-01",
+          "conducted_by": "US/Israel",
+          "result": "Building destroyed",
+          "source": "Wikipedia"
+        },
+        {
+          "id": "EF-022",
+          "target": "Mehrabad Airport",
+          "type": "AVIATION / MILITARY",
+          "city": "Tehran",
+          "approximate_coordinates": {"lat": 35.6892, "lon": 51.3134},
+          "conducted_by": "US/Israel",
+          "result": "Destroyed — to prevent regime officials from fleeing",
+          "source": "Flashpoint"
+        },
+        {
+          "id": "EF-023",
+          "target": "Niloofar Square area",
+          "type": "UNCLEAR — civilian casualties reported",
+          "city": "Tehran",
+          "date": "2026-03-02",
+          "casualties_killed": 20,
+          "source": "Iranian state-owned media"
+        },
+        {
+          "id": "EF-024",
+          "target": "Near Azadi Stadium, Azadi Square, Milad Tower",
+          "type": "VARIOUS",
+          "city": "Tehran",
+          "date": "2026-03-01",
+          "conducted_by": "US/Israel",
+          "result": "Explosions reported in vicinity",
+          "source": "BBC"
+        },
+        {
+          "id": "EF-025",
+          "target": "Iranian Parliament building",
+          "type": "GOVERNMENT",
+          "city": "Tehran",
+          "conducted_by": "US/Israel",
+          "result": "Targeted by airstrikes per Iranian state-linked media",
+          "source": "Iranian state media"
+        },
+        {
+          "id": "EF-026",
+          "target": "IRGC-linked site in Urmia",
+          "type": "MILITARY",
+          "city": "Urmia",
+          "approximate_coordinates": {"lat": 37.5527, "lon": 45.0761},
+          "conducted_by": "United States",
+          "weapons": "GBU-31 bunker-buster bomb",
+          "result": "Destroyed",
+          "source": "Flashpoint"
+        },
+        {
+          "id": "EF-027",
+          "target": "Iranian warships — cumulative to March 3",
+          "type": "NAVAL",
+          "region": "Persian Gulf",
+          "date": "through 2026-03-03",
+          "conducted_by": "United States",
+          "result": "17 ships destroyed including Iran's most operational submarine (hole in side) per CENTCOM commander Admiral Brad Cooper",
+          "source": "Admiral Brad Cooper, CENTCOM"
+        },
+        {
+          "id": "EF-028",
+          "target": "Russian consulate (collateral damage)",
+          "type": "COLLATERAL",
+          "city": "Isfahan",
+          "conducted_by": "US/Israel",
+          "result": "Damaged during airstrikes",
+          "source": "Wikipedia"
+        },
+        {
+          "id": "EF-029",
+          "target": "IRGC Intelligence building on 22 Bahman Street",
+          "type": "INTELLIGENCE",
+          "city": "Isfahan",
+          "date": "2026-03-08",
+          "conducted_by": "US/Israel",
+          "result": "Building collapsed — struck with precision; only server sections hit",
+          "notes": "Citizen reports: 'Before the 12-day war, this was the main data center'",
+          "source": "opepicfury.info"
+        },
+        {
+          "id": "EF-030",
+          "target": "Rayaneh Khadamat Omid Sepah (Sepah Hope Computer Services) on Haghani Highway",
+          "type": "CYBER / DATA INFRASTRUCTURE",
+          "city": "Tehran",
+          "conducted_by": "US/Israel",
+          "result": "Server sections precisely struck — company had helped Bank Sepah recover data after earlier hack",
+          "source": "opepicfury.info citizen reports"
+        },
+        {
+          "id": "EF-031",
+          "target": "Saudi Aramco facility at Ras Tanura (Iranian strike, not US/Israel — listed for context)",
+          "type": "IRANIAN RETALIATION TARGET",
+          "notes": "This was an Iranian retaliatory strike, not a US/Israel strike. Included for context of escalation."
+        }
+      ]
+    },
+
+    "phase_3_systematic_degradation": {
+      "dates": "2026-03-04 to 2026-03-10",
+      "description": "Shift to systematic targeting of energy, logistics, C2 infrastructure, continued TEL hunting, drone pre-launch strikes",
+      "strikes": [
+        {
+          "id": "EF-032",
+          "target": "Transporter-Erector-Launchers (TELs) — ongoing campaign",
+          "type": "MISSILE LAUNCH SYSTEMS",
+          "region": "Across Iran",
+          "conducted_by": "US and Israel",
+          "weapons": "Various (air strikes, MQ-9 Reaper strikes, HIMARS)",
+          "result": "Iran's missile salvos dropped ~86%; drone attacks dropped ~73% from opening rate. From ~350 missiles/day to ~50 missiles/day.",
+          "notes": "MQ-9 Reapers actively hunting and striking TELs; 11 MQ-9s lost by March 11",
+          "source": "Hudson Institute; CBS News; Air and Space Forces Magazine"
+        },
+        {
+          "id": "EF-033",
+          "target": "Shahed drone pre-launch sites",
+          "type": "DRONE LAUNCH SITES",
+          "region": "Across Iran",
+          "conducted_by": "United States",
+          "result": "Drones struck on the ground before launch — described as significant operational development (rare in modern warfare)",
+          "source": "Hudson Institute"
+        },
+        {
+          "id": "EF-034",
+          "target": "16 Iranian mine-laying vessels near Strait of Hormuz",
+          "type": "NAVAL",
+          "region": "Strait of Hormuz",
+          "date": "2026-03-10",
+          "conducted_by": "United States",
+          "result": "All 16 vessels destroyed",
+          "source": "CENTCOM"
+        },
+        {
+          "id": "EF-035",
+          "target": "400+ targets in western Iran (single day)",
+          "type": "MILITARY — missile launchers, drone storage",
+          "region": "Western Iran",
+          "date": "2026-03-06",
+          "conducted_by": "Israel",
+          "result": "Ballistic missile launchers and drone storage facilities destroyed",
+          "source": "Al Jazeera Day 7 coverage"
+        },
+        {
+          "id": "EF-036",
+          "target": "Natanz nuclear facility",
+          "type": "NUCLEAR",
+          "city": "Natanz",
+          "approximate_coordinates": {"lat": 33.7244, "lon": 51.7267},
+          "conducted_by": "United States",
+          "weapons": "GBU-57 A/B Massive Ordnance Penetrator (bunker busters) dropped by B-2 bombers",
+          "result": "Underground enrichment facilities struck. DIA preliminary assessment (leaked): Iran may have moved enriched uranium stockpile before strikes; strikes set back nuclear capability by 'months'. CIA director Ratcliffe contradicted: said new info indicated 'severe damage' requiring 'years to rebuild'.",
+          "notes": "Previously struck in Operation Midnight Hammer, June 2025. Iran had not significantly rehabilitated since.",
+          "source": "Britannica; CSIS"
+        },
+        {
+          "id": "EF-037",
+          "target": "Fordow enrichment facility",
+          "type": "NUCLEAR",
+          "city": "Fordow (near Qom)",
+          "approximate_coordinates": {"lat": 34.8800, "lon": 51.0000},
+          "conducted_by": "United States",
+          "weapons": "GBU-57 A/B Massive Ordnance Penetrator",
+          "result": "Underground facility struck; conflicting assessments on damage (see Natanz entry). IAEA had discovered hidden highly enriched uranium in undamaged underground facility prior to strike.",
+          "source": "Britannica; CSIS"
+        },
+        {
+          "id": "EF-038",
+          "target": "Isfahan nuclear metallurgy facilities",
+          "type": "NUCLEAR",
+          "city": "Isfahan",
+          "approximate_coordinates": {"lat": 32.6546, "lon": 51.6680},
+          "conducted_by": "United States",
+          "result": "Destroyed (had been struck previously in June 2025 Operation Midnight Hammer)",
+          "source": "CSIS"
+        },
+        {
+          "id": "EF-039",
+          "target": "~200 targets over 72 hours (Mar 4-6)",
+          "type": "VARIOUS — ballistic missile launchers, naval vessels",
+          "region": "Across Iran",
+          "conducted_by": "US Central Command",
+          "source": "CENTCOM reporting via Al Jazeera"
+        },
+        {
+          "id": "EF-040",
+          "target": "Iranian warships — cumulative total ~43 by ~Mar 10",
+          "type": "NAVAL",
+          "region": "Persian Gulf / Gulf of Oman",
+          "conducted_by": "United States",
+          "result": "43 warships sunk total (per opepicfury.info tracker)",
+          "notes": "Trump: Iran has 'no navy'",
+          "source": "Multiple"
+        }
+      ]
+    },
+
+    "phase_4_kharg_island_and_escalation": {
+      "dates": "2026-03-11 to 2026-03-15 (ongoing)",
+      "description": "Intensified operations including Kharg Island strikes; oil infrastructure threatened; continued bombardment",
+      "strikes": [
+        {
+          "id": "EF-041",
+          "target": "Kharg Island — military sites",
+          "type": "MILITARY / STRATEGIC INFRASTRUCTURE",
+          "city": "Kharg Island",
+          "approximate_coordinates": {"lat": 29.2333, "lon": 50.3167},
+          "date": "2026-03-13",
+          "conducted_by": "United States",
+          "weapons": "Large-scale precision strike",
+          "targets_struck": "90+ military targets",
+          "specific_targets": [
+            "Naval mine storage facilities",
+            "Missile storage bunkers",
+            "Air defense facility",
+            "Naval base",
+            "Airport control tower / runway / airport facilities",
+            "Offshore oil company helicopter hangar"
+          ],
+          "result": "Military targets destroyed; oil infrastructure explicitly spared (Trump: 'for reasons of decency'). 15+ explosions reported. Trump called it 'one of the most powerful bombing raids in the History of the Middle East'",
+          "oil_infrastructure_status": "Intact — but Trump threatened future strikes if Strait of Hormuz interference continues",
+          "source": "CENTCOM; Trump Truth Social; CNN geolocated video; Fars News Agency; NPR; Al Jazeera; Washington Post; NBC News; Fortune"
+        },
+        {
+          "id": "EF-042",
+          "target": "200+ targets in 24 hours (Mar 13-14)",
+          "type": "VARIOUS — missile launchers, defense systems, weapons production",
+          "region": "Across Iran",
+          "date": "2026-03-13 to 2026-03-14",
+          "conducted_by": "Israel",
+          "result": "Missile launchers, defense systems, and weapons production sites struck",
+          "source": "IDF statement via Fortune/AP"
+        },
+        {
+          "id": "EF-043",
+          "target": "Southern Tehran — central square during rally",
+          "type": "UNCLEAR",
+          "city": "Tehran",
+          "date": "2026-03-14",
+          "conducted_by": "US/Israel",
+          "result": "Large explosion during annual state-organized pro-Palestinian rally with thousands gathered",
+          "source": "AP via RealClearDefense"
+        },
+        {
+          "id": "EF-044",
+          "target": "Continued strikes across Tehran, Karaj, Isfahan, Tabriz",
+          "type": "VARIOUS",
+          "date": "2026-03-14",
+          "conducted_by": "US/Israel",
+          "result": "Ongoing bombardment; sign that 'we are not close to de-escalation' per Al Jazeera Tehran correspondent",
+          "source": "Al Jazeera"
+        },
+        {
+          "id": "EF-045",
+          "target": "5 USAF KC-135 refueling planes at Prince Sultan Air Base",
+          "type": "IRANIAN STRIKE ON US ASSET (for context)",
+          "location": "Prince Sultan Air Base, Saudi Arabia",
+          "date": "2026-03-13",
+          "notes": "Iranian strike damaged but did not destroy 5 US tankers. Listed for operational context.",
+          "source": "Wall Street Journal, March 13"
+        },
+        {
+          "id": "EF-046",
+          "target": "Abu Musa Island military sites",
+          "type": "MILITARY",
+          "approximate_coordinates": {"lat": 25.8700, "lon": 55.0300},
+          "date": "2026-03-13",
+          "conducted_by": "United States",
+          "result": "Struck from UAE territory per Iranian FM Araghchi",
+          "source": "Iranian FM Araghchi via Al Jazeera"
+        },
+        {
+          "id": "EF-047",
+          "target": "Iranian oil production facilities (reported Israeli strikes)",
+          "type": "ENERGY INFRASTRUCTURE",
+          "region": "Various locations in Iran",
+          "date": "~2026-03-10 onwards",
+          "conducted_by": "Israel",
+          "result": "Reports that Israel has been striking Iranian oil production facilities",
+          "source": "SOF News"
+        },
+        {
+          "id": "EF-048",
+          "target": "Marine deployment: 2,500 Marines + USS Tripoli (amphibious assault ship)",
+          "type": "FORCE BUILDUP",
+          "date": "2026-03-13",
+          "unit": "31st Marine Expeditionary Unit",
+          "notes": "Pulled from waters near Taiwan; sent to Middle East",
+          "source": "AP via Fortune; NPR"
+        }
+      ]
+    }
+  },
+
+  "nuclear_facility_strikes_summary": {
+    "note": "Nuclear facilities were previously struck in Operation Midnight Hammer (June 2025). The 2026 strikes targeted residual/peripheral capabilities.",
+    "facilities": [
+      {
+        "name": "Fordow Fuel Enrichment Plant",
+        "location": "Near Qom",
+        "coordinates": {"lat": 34.88, "lon": 51.00},
+        "struck_in_2025": true,
+        "struck_in_2026": true,
+        "weapon_2026": "GBU-57 A/B Massive Ordnance Penetrator (B-2 delivery)",
+        "assessment": "Conflicting: DIA says 'months' setback; CIA says 'years to rebuild'"
+      },
+      {
+        "name": "Natanz Enrichment Facility",
+        "location": "Natanz, Isfahan province",
+        "coordinates": {"lat": 33.7244, "lon": 51.7267},
+        "struck_in_2025": true,
+        "struck_in_2026": true,
+        "weapon_2026": "GBU-57 A/B Massive Ordnance Penetrator (B-2 delivery)",
+        "assessment": "Underground facility targeted; DIA leaked report says strikes did not collapse facilities"
+      },
+      {
+        "name": "Isfahan Nuclear Technology Center (metallurgy)",
+        "location": "Isfahan",
+        "coordinates": {"lat": 32.65, "lon": 51.67},
+        "struck_in_2025": true,
+        "struck_in_2026": true,
+        "assessment": "Metallurgy facilities destroyed"
+      },
+      {
+        "name": "Iran Atomic Energy Agency HQ",
+        "location": "Tehran",
+        "struck_in_2026": "Unconfirmed reports",
+        "source": "CSIS"
+      },
+      {
+        "name": "Parchin Military Complex (explosive research)",
+        "location": "Parchin, southeast of Tehran",
+        "coordinates": {"lat": 35.52, "lon": 51.77},
+        "struck_in_2026": true,
+        "source": "CSIS; open-source monitors"
+      }
+    ]
+  },
+
+  "weapons_systems_confirmed_used": {
+    "us_weapons": {
+      "cruise_missiles": [
+        {
+          "name": "Tomahawk Land Attack Missile (TLAM) BGM/UGM-109",
+          "launch_platform": "Naval vessels (destroyers, submarines)",
+          "confirmed_use": "Confirmed by Gen. Dan Caine: 'First shooters at sea were Tomahawks'; confirmed in Minab school strike investigation",
+          "notes": "Gen. Caine described Tomahawks as opening salvo from sea"
+        }
+      ],
+      "precision_guided_munitions": [
+        {
+          "name": "GBU-31 JDAM (2,000 lb bunker buster)",
+          "confirmed_use": "IRGC-linked site in Urmia",
+          "source": "Flashpoint"
+        },
+        {
+          "name": "GBU-57 A/B Massive Ordnance Penetrator (30,000 lb)",
+          "launch_platform": "B-2 Spirit stealth bomber",
+          "confirmed_use": "Fordow, Natanz, Isfahan nuclear facilities",
+          "source": "Britannica"
+        }
+      ],
+      "drones": [
+        {
+          "name": "MQ-9 Reaper",
+          "role": "ISR and strike (TEL hunting)",
+          "losses": "11 lost as of March 11",
+          "source": "CBS News; Air & Space Forces Magazine"
+        },
+        {
+          "name": "Low-cost one-way attack drones (Task Force Scorpion Strike)",
+          "notes": "First-ever combat use; adapted from Iranian drone designs",
+          "source": "Wikipedia; Defcon Level"
+        }
+      ],
+      "rocket_artillery": [
+        {
+          "name": "M-142 HIMARS",
+          "confirmed_use": "Live-fire missions during Operation Epic Fury, CENTCOM AOR, photographed March 9",
+          "source": "SOF News (US Army photo)"
+        }
+      ],
+      "aircraft": ["B-1 Lancer", "B-2 Spirit", "B-52 Stratofortress", "F-15 Eagle", "F-16 Fighting Falcon", "F/A-18 Super Hornet", "F-22 Raptor", "F-35 Lightning II", "A-10 Thunderbolt II", "EA-18G Growler"],
+      "support_systems": ["Patriot missile defense", "THAAD missile defense", "KC-135 refueling tankers", "AWACS", "P-8 Poseidon", "RC-135"]
+    },
+    "israel_weapons": {
+      "aircraft": ["F-35I Adir", "F-15I Ra'am", "Other IAF inventory"],
+      "munitions": "1,200+ bombs in first 24 hours; hundreds more daily",
+      "cyber": "Cyberattacks targeting Iranian media and phone apps with messages calling on Iranians to rise up (per WSJ)",
+      "opening_sortie": "~200 fighter jets — largest combat sortie in IAF history"
+    }
+  },
+
+  "key_dates_timeline": [
+    {"date": "2026-02-28", "event": "Operation begins ~09:45 IRST. 900 strikes in first 12 hours. Khamenei killed. 40+ senior officials killed. Minab school struck (168-180 killed). 9 Iranian warships sunk. 3 US service members killed. Iran retaliates with ~420 missiles across 9 countries."},
+    {"date": "2026-03-01", "event": "Strikes continue. Explosions near Azadi Stadium/Tower. Iran fires missiles at Israel, UAE, Qatar, Kuwait, Bahrain, Jordan, Saudi Arabia. Trump: US accepted Iranian proposal for negotiations. Ali Larijani announces interim leadership council. Hezbollah joins war. Israel strikes Lebanon."},
+    {"date": "2026-03-02", "event": "IRGC Malek-Ashtar building in Tehran destroyed. 20 civilians killed at Niloofar Square. IRIB state broadcaster HQ struck. US embassy in Kuwait struck by Iran and closed. Drone hits RAF Akrotiri, Cyprus."},
+    {"date": "2026-03-03", "event": "Assembly of Experts building bombed. CENTCOM: 17 Iranian ships destroyed including submarine. Total US targets: 1,700 in 72 hours. Red Crescent: 600+ killed. F-15 friendly fire incident in Kuwait."},
+    {"date": "2026-03-04", "event": "Senate votes on War Powers Resolution (S.J.Res. 104). House votes 219-212 against effort to halt war."},
+    {"date": "2026-03-06", "event": "Day 7. At least 1,332 killed in Iran. Israel claims 2,500 strikes and 80% air defense destroyed. Israel strikes 400+ targets in western Iran in single day. CSIS estimates $3.7B cost for first 100 hours."},
+    {"date": "2026-03-07", "event": "Mojtaba Khamenei elected new Supreme Leader by Assembly of Experts."},
+    {"date": "2026-03-08", "event": "New video surfaces showing Tomahawk striking near Minab school — geolocated by Bellingcat."},
+    {"date": "2026-03-09", "event": "HIMARS live-fire missions photographed in CENTCOM AOR."},
+    {"date": "2026-03-10", "event": "US destroys 16 Iranian mine-laying vessels near Strait of Hormuz. Iranian missile/drone rate down 86%/73% from opening."},
+    {"date": "2026-03-11", "event": "NPR: Pentagon probe points to US Tomahawk responsible for school strike. 11 MQ-9 Reapers lost. CBS reports."},
+    {"date": "2026-03-12", "event": "KC-135 crashes in Iraq — all 6 crew killed (3 from Ohio ANG). US death toll reaches 13."},
+    {"date": "2026-03-13", "event": "Day 14. Hegseth briefing: 15,000+ targets struck. Large-scale precision strike on Kharg Island (90+ military targets, oil spared). Israel hits 200+ targets in 24 hours. 2,500 Marines + USS Tripoli ordered to Middle East. Iranian warships: ~43 sunk total. Pentagon briefing with SecDef and JCS Chairman."},
+    {"date": "2026-03-14", "event": "Iran threatens to strike UAE ports. Explosion in Fujairah from intercepted Iranian drone debris hitting oil facility. Iran issues evacuation warning for 3 UAE ports. Trump: US 'destroyed 100%' of Iran's military capability. Iran Health Ministry: 1,444 killed, 18,551 injured. Hengaw: 4,400+ military killed. Ongoing strikes across Tehran, Karaj, Isfahan, Tabriz."},
+    {"date": "2026-03-15", "event": "Trump says may hit Kharg Island again 'just for fun'. Urges allies to send warships to Strait of Hormuz. USS Nimitz deployment extended. Iran FM vows retaliation for Kharg strikes. Conflict in third week."}
+  ]
+}
