@@ -32,32 +32,35 @@ WarTheater.Humanitarian = {
   },
 
   // ─── CASUALTIES BY DAY ────────────────────────────────────
-  // AUDIT NOTE: Iranian military numbers scaled to match hero counter (1,500 total
-  // through Day 14). Lebanese numbers adjusted to match hero counter (720 through
-  // Day 14). All daily values are estimates from ACLED, IRNA, Lebanese Health
-  // Ministry, and DoD; exact figures are unknowable in an active conflict.
+  // AUDIT NOTE: Iranian killed scaled to Health Ministry total of 1,444+ through Day 15.
+  // Hengaw: 4,400+ military killed as of Day 15. Lebanese: 826+ through Day 16 per
+  // Lebanese Health Ministry. US: 13 killed (7 hostile + 6 KC-135). All daily values
+  // are estimates from ACLED, IRNA, Lebanese Health Ministry, DoD; exact figures are
+  // unknowable in an active conflict.
   renderCasualtiesChart() {
     var ctx = document.getElementById('chart-casualties');
     if (!ctx) return;
 
-    var labels = ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13'];
+    var labels = ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13', 'Mar 14', 'Mar 15'];
     var defaults = WarTheater.Utils.chartDefaults();
 
     var dayContexts = [
       'Day 1 — First strikes, Minab school (165+ killed), Iranian retaliation',
-      'Day 2 — Hormuz closure, sustained bombing',
-      'Day 3 — Hezbollah enters the war',
-      'Day 4 — Houthi attacks expand conflict',
-      'Day 5 — Fordow assessment, global protests',
-      'Day 6 — Global protests, air campaign continues',
-      'Day 7 — One week of conflict',
-      'Day 8 — Oil infrastructure strikes begin',
-      'Day 9 — SPR release, strikes continue',
-      'Day 10 — New Supreme Leader named',
-      'Day 11 — No ceasefire in sight',
-      'Day 12 — NATO intercepts Iranian missile over Turkey; 8th US KIA',
-      'Day 13 — IDF ground war in Lebanon; IRGC fires on US Navy; Ahvaz hospital incident',
-      'Day 14 — IRGC batteries destroyed; second convoy; IDF at Bint Jbeil'
+      'Day 2 — Beit Shemesh (9 killed), Port Shuaiba (6 US KIA), sustained bombing',
+      'Day 3 — Hezbollah enters; Strait closure; friendly fire incident',
+      'Day 4 — Cluster munitions confirmed; embassy/media strikes',
+      'Day 5 — Iranian navy destruction begins; Kuwait girl killed',
+      'Day 6 — 500+ ballistic missiles fired; Bapco refinery hit',
+      'Day 7 — One week; reduced tempo; tugboat sunk (3 crew missing)',
+      'Day 8 — Oil infrastructure strikes begin; Brent approaches $100',
+      'Day 9 — Cluster munition kills 2 workers in Yehud; Bapco force majeure',
+      'Day 10 — New Supreme Leader; 16 minelayers destroyed; maritime traffic down 97%',
+      'Day 11 — 5+ vessels hit in 24 hrs; IEA 400M bbl release',
+      'Day 12 — French soldier killed; KC-135 crash (6 US KIA); 30+ minelayers destroyed',
+      'Day 13 — Zarzir strike (~60 wounded); 2 workers killed in Oman; IDF ground war in Lebanon',
+      'Day 14 — Kharg Island struck; Fujairah fire; AUMF debate; 15,000+ targets',
+      'Day 15 — Continued sporadic fire; 7 ballistic salvos at Israel',
+      'Day 16 — Conflict enters third week; cumulative cost ~$20B'
     ];
 
     this.charts.casualties = new Chart(ctx, {
@@ -67,7 +70,7 @@ WarTheater.Humanitarian = {
         datasets: [
           {
             label: 'Iranian Military',
-            data: [65, 98, 122, 106, 90, 82, 73, 114, 98, 65, 65, 78, 91, 95],
+            data: [65, 98, 122, 106, 90, 82, 73, 114, 98, 65, 65, 78, 91, 95, 80, 70],
             backgroundColor: 'rgba(184, 28, 28, 0.6)',
             borderColor: '#b81c1c',
             borderWidth: 1,
@@ -75,7 +78,7 @@ WarTheater.Humanitarian = {
           },
           {
             label: 'Iranian Civilian',
-            data: [5, 10, 15, 12, 35, 20, 15, 25, 18, 10, 8, 45, 20, 20],
+            data: [5, 10, 15, 12, 35, 20, 15, 25, 18, 10, 8, 45, 20, 20, 15, 10],
             backgroundColor: 'rgba(255, 255, 255, 0.35)',
             borderColor: '#ffffff',
             borderWidth: 1,
@@ -83,7 +86,7 @@ WarTheater.Humanitarian = {
           },
           {
             label: 'US Military',
-            data: [6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0],
+            data: [0, 6, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 6, 0, 0, 0],
             backgroundColor: 'rgba(74, 158, 255, 0.6)',
             borderColor: '#4a9eff',
             borderWidth: 1,
@@ -91,7 +94,7 @@ WarTheater.Humanitarian = {
           },
           {
             label: 'Lebanese (all)',
-            data: [0, 0, 44, 58, 64, 68, 61, 75, 58, 48, 40, 54, 85, 65],
+            data: [0, 0, 44, 58, 64, 68, 61, 75, 58, 48, 40, 54, 85, 65, 55, 50],
             backgroundColor: 'rgba(123, 63, 160, 0.6)',
             borderColor: '#7b3fa0',
             borderWidth: 1,
@@ -99,7 +102,7 @@ WarTheater.Humanitarian = {
           },
           {
             label: 'Israeli Military',
-            data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 6],
+            data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 6, 2, 0],
             backgroundColor: 'rgba(255, 200, 50, 0.6)',
             borderColor: '#ffc832',
             borderWidth: 1,
@@ -221,7 +224,7 @@ WarTheater.Humanitarian = {
     var defaults = WarTheater.Utils.chartDefaults();
 
     var conflictNotes = {
-      0: 'Operation Epic Fury — air + ground (Lebanon). 3 carrier groups. Hormuz partially breached. IRGC coastal batteries destroyed. IDF at Bint Jbeil.',
+      0: 'Operation Epic Fury — air + ground (Lebanon). 3 carrier groups. Hormuz effectively closed. 15,000+ targets struck. ~$20.8B spent. IDF ground ops at Bint Jbeil.',
       1: 'Operation Iraqi Freedom — "shock and awe" + ground invasion. 300,000 troops deployed.',
       2: 'Operation Odyssey Dawn / Unified Protector — NATO no-fly zone. Limited US role.',
       3: 'Operation Desert Storm — 38-day air campaign + 100-hour ground war. 700,000 coalition troops.'
@@ -230,25 +233,25 @@ WarTheater.Humanitarian = {
     this.charts.historical = new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: ['Iran 2026 (Day 14)', 'Iraq 2003 (Day 14)', 'Libya 2011 (Day 14)', 'Gulf 1991 (Day 14)'],
+        labels: ['Iran 2026 (Day 17)', 'Iraq 2003 (Day 17)', 'Libya 2011 (Day 17)', 'Gulf 1991 (Day 17)'],
         datasets: [
           {
-            label: 'Total Strikes',
-            data: [3700, 15000, 510, 22000],
+            label: 'Targets Struck',
+            data: [15000, 18000, 650, 25000],
             backgroundColor: 'rgba(212, 120, 42, 0.5)',
             borderColor: '#d4782a',
             borderWidth: 1
           },
           {
             label: 'US KIA',
-            data: [8, 75, 0, 18],
+            data: [13, 85, 0, 18],
             backgroundColor: 'rgba(74, 158, 255, 0.5)',
             borderColor: '#4a9eff',
             borderWidth: 1
           },
           {
             label: 'Est. Daily Cost ($M, 2026 dollars)',
-            data: [580, 750, 125, 620],
+            data: [850, 750, 125, 620],
             backgroundColor: 'rgba(239, 68, 68, 0.5)',
             borderColor: '#ef4444',
             borderWidth: 1

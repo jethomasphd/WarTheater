@@ -4,15 +4,16 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-03-14",
+    "last_updated": "2026-03-16",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "5,000+ (per CENTCOM, as of March 10)",
+    "total_targets_struck": "15,000+ (per Defense Secretary Hegseth, March 13 briefing)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
-      "killed": "1,245–1,444+",
-      "injured": "10,000–12,000+",
-      "sources": "HRANA / Iranian Red Crescent / Iranian Deputy Health Minister / ACLED",
-      "as_of": "2026-03-13"
+      "killed": "1,444+",
+      "injured": "18,551+",
+      "military_killed_hengaw": "4,400+",
+      "sources": "Iranian Health Ministry (as of Mar 14) / Hengaw / HRANA / ACLED",
+      "as_of": "2026-03-14"
     },
     "civilian_buildings_affected": "~20,000 (including 16,000 residential units) per Iranian Red Crescent as of Day 11",
     "healthcare_facilities_affected": "77 per Red Crescent; 31 major hospitals damaged, 12 inactive per Deputy Health Minister; WHO verified 13 attacks on healthcare",
@@ -197,8 +198,8 @@
     "first_strike": "2026-03-07",
     "casualties_reported": "Unknown",
     "casualties_source": "Satellite imagery / shipping data",
-    "active_days": [8, 9, 10, 11, 12, 13, 14],
-    "notes": "90% of Iran's oil exports flow through Kharg. Struck in second-week escalation. Israel bombed 30 additional oil depots on Day 10. Day 14: Continued suppression of remaining export infrastructure."
+    "active_days": [8, 9, 10, 11, 12, 13, 14, 15, 16],
+    "notes": "90% of Iran's oil exports flow through Kharg. Struck in second-week escalation. Israel bombed 30 additional oil depots on Day 10. Day 15 (Mar 13): US executed large-scale precision strike on 90+ military targets including naval mine storage, missile storage bunkers, air defense facility, naval base, airport control tower/runway, and helicopter hangar. Oil infrastructure deliberately preserved. Trump warned of future strikes if Hormuz remains blocked. Trump called it 'one of the most powerful bombing raids in the History of the Middle East.' Day 16: Trump threatens to hit Kharg again 'just for fun.'"
   },
   {
     "id": "abadan-refinery",

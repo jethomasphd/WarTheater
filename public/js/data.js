@@ -81,15 +81,16 @@ WarTheater.Data = {
     const apiData = await this.fetchWithFallback('/oil', null);
     if (apiData) return apiData;
 
-    // Return curated current snapshot
+    // Return curated current snapshot — Source: Financials.md (Mar 13 close / Mar 15 gas est.)
+    // Anchor points: Pentagon $11.3B Day 6, CSIS $16.5B Day 12, extrapolated to Day 17
     return {
       timestamp: new Date().toISOString(),
-      brent: { price: 103.86, change_pct: 46.3, baseline: 71.00 },
-      wti: { price: 99.50, change_pct: 49.6, baseline: 66.50 },
-      gas: { price: 3.95, change_pct: 32.6, baseline: 2.98 },
+      brent: { price: 103.14, change_pct: 45.3, baseline: 71.00 },
+      wti: { price: 98.71, change_pct: 48.4, baseline: 66.50 },
+      gas: { price: 3.69, change_pct: 23.8, baseline: 2.98 },
       sp500: { value: 6632.19, change_pct: -3.6, baseline: 6878.88 },
-      daily_cost: 590000000,
-      total_cost: 7600000000
+      daily_cost: 850000000,
+      total_cost: 20800000000
     };
   },
 

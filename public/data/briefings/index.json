@@ -26,5 +26,26 @@
     "label": "MARCH 13, 2026 — DAY 14",
     "headline": "IRGC batteries destroyed; second convoy; IDF at Bint Jbeil; AUMF debate",
     "file": "data/briefings/day-14.html"
+  },
+  {
+    "day": 15,
+    "date": "2026-03-14",
+    "label": "MARCH 14, 2026 — DAY 15",
+    "headline": "US strikes 90+ Kharg Island targets; Fujairah fire; 1,444 killed per Iran Health Ministry",
+    "file": "data/briefings/day-15.html"
+  },
+  {
+    "day": 16,
+    "date": "2026-03-15",
+    "label": "MARCH 15, 2026 — DAY 16",
+    "headline": "7 missile salvos at Israel; cluster munitions in Holon; war cost hits $20B",
+    "file": "data/briefings/day-16.html"
+  },
+  {
+    "day": 17,
+    "date": "2026-03-16",
+    "label": "MARCH 16, 2026 — DAY 17",
+    "headline": "Third week begins — Hormuz still closed; Brent above $100; 15,000+ targets struck",
+    "file": "data/briefings/day-17.html"
   }
 ]
