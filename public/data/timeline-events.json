@@ -925,5 +925,86 @@
     "category": "financial",
     "source": "AAA (interpolated) / GasBuddy / EIA",
     "data_point": "~$3.69/gal estimated — +$0.71 / +23.8% from pre-war"
+  },
+  {
+    "date": "2026-03-16",
+    "time": "04:00",
+    "title": "Second Fujairah drone attack — oil loading suspended again",
+    "description": "Iran launches a second drone attack on the Fujairah oil hub in the UAE, just two days after the first strike caused fires on March 14. Oil-loading operations are suspended for the second time in three days. Fujairah is the key bypass route for oil exports around the Strait of Hormuz, making these attacks strategically significant in maintaining the effectiveness of the Hormuz closure.",
+    "category": "military",
+    "source": "CNBC / Reuters / Bloomberg",
+    "data_point": "Fujairah oil loading suspended twice in 3 days"
+  },
+  {
+    "date": "2026-03-16",
+    "time": "06:00",
+    "title": "Drone strikes Dubai International Airport — fuel tank hit, flights suspended",
+    "description": "An Iranian drone strikes a fuel tank near Dubai International Airport, the world's busiest for international passengers. All flights are suspended for several hours. Emirates diverts flights to Abu Dhabi and Al Maktoum Airport; one Dublin-bound flight turns around over Egypt. Emirates resumes limited service after 10am local time. The attack on a major civilian hub represents significant escalation.",
+    "category": "military",
+    "source": "Washington Post / CNBC / Emirates",
+    "data_point": "Dubai airport flights suspended — fuel tank struck by drone"
+  },
+  {
+    "date": "2026-03-16",
+    "time": "07:00",
+    "title": "1 killed in Abu Dhabi missile strike — Kuwait airport radar damaged",
+    "description": "A missile strikes a vehicle in Abu Dhabi's Al Bahyah area, killing one person — the first confirmed fatality in Abu Dhabi from the conflict. Separately, Kuwait International Airport sustains radar equipment damage from an Iranian strike. Both attacks demonstrate continued Iranian targeting of Gulf civilian infrastructure despite 80%+ degradation of offensive capability.",
+    "category": "military",
+    "source": "CNBC / Reuters / Kuwaiti Civil Aviation",
+    "data_point": "1 killed in Abu Dhabi; Kuwait airport radar damaged"
+  },
+  {
+    "date": "2026-03-16",
+    "time": "09:00",
+    "title": "Australia and Japan refuse to send warships to Hormuz",
+    "description": "Despite President Trump's public call for allied nations to deploy warships to help reopen the Strait of Hormuz, both Australia and Japan decline. Australia's Defense Minister says the commitment is 'not appropriate at this time.' Japan's PM rules out sending naval assets. No allied nation has made a firm commitment to join US escort operations, underscoring the diplomatic isolation of the US-led war effort.",
+    "category": "diplomatic",
+    "source": "Reuters / Al Jazeera / NHK",
+    "data_point": "Australia and Japan refuse Hormuz warship request"
+  },
+  {
+    "date": "2026-03-16",
+    "time": "10:00",
+    "title": "Iran FM: 'We never asked for a ceasefire' — diplomacy stalls",
+    "description": "Iranian FM Abbas Araghchi declares 'We never asked for a ceasefire' and vows Iran 'is ready to defend ourselves as long as it takes.' The Trump administration separately rebuffs ceasefire efforts by Middle Eastern allies. Oman's mediation attempt fails to produce talks. The Pope calls for an immediate ceasefire. China condemns the attacks. A US Senate vote to curb Trump's war powers fails 47-53.",
+    "category": "diplomatic",
+    "source": "NPR / Reuters / Al Jazeera / Vatican",
+    "data_point": "Both sides reject ceasefire — Senate AUMF vote fails 47-53"
+  },
+  {
+    "date": "2026-03-16",
+    "time": "11:00",
+    "title": "IDF 91st Division expands ground operations — Khiam targeted",
+    "description": "The IDF announces the 91st 'Galilee' Division is pushing deeper into southern Lebanon to expand the buffer zone against Hezbollah. Intense fighting around the strategic town of Khiam, which sits on high ground overlooking northern Israel. At least 3 airstrikes hit Khiam. Israel planning to seize entire area south of Litani River. Defense Minister Katz compares operation to Gaza ground ops. Lebanon indicates readiness for direct ceasefire talks without preconditions.",
+    "category": "military",
+    "source": "Al Jazeera / Times of Israel / Axios / CNN",
+    "data_point": "91st Division at Khiam — planning full Litani buffer zone"
+  },
+  {
+    "date": "2026-03-16",
+    "time": "12:00",
+    "title": "Mojtaba Khamenei reportedly wounded — Hegseth",
+    "description": "US Defense Secretary Pete Hegseth states that Iran's new Supreme Leader Mojtaba Khamenei has been wounded, though details are not provided. If confirmed, this would be the second consecutive Iranian Supreme Leader to be directly affected by US-Israeli strikes — his father Ayatollah Ali Khamenei was killed in the opening hours of the war on February 28.",
+    "category": "military",
+    "source": "Pentagon / Hegseth statement",
+    "data_point": "New Supreme Leader reportedly wounded"
+  },
+  {
+    "date": "2026-03-16",
+    "time": "14:00",
+    "title": "Brent surges to $106.18 — markets react to Fujairah/Dubai attacks",
+    "description": "Brent crude surges 3% to $106.18 per barrel on Monday as markets react to the second Fujairah attack and Dubai airport strike. The rise demonstrates that Iran's ability to target alternative oil routes keeps upward pressure on prices even as its main military capability degrades. S&P 500 futures trade up ~0.5% pre-market near 6,664. Oil options markets price 30% probability of Brent above $120 within two weeks.",
+    "category": "financial",
+    "source": "Bloomberg / Fortune / CNBC / Polymarket",
+    "data_point": "Brent $106.18 (+3%) — S&P futures +0.5%"
+  },
+  {
+    "date": "2026-03-16",
+    "time": "15:00",
+    "title": "56% of Americans oppose the war — NPR/PBS/Marist poll",
+    "description": "A new NPR/PBS NewsHour/Marist poll finds 56% of Americans are against the war with Iran. The figure represents a significant public opinion shift given that the conflict is only 17 days old. Combined with the failed Senate AUMF vote (47-53) and the approaching $50B supplemental request, domestic political pressure on the war effort is building.",
+    "category": "diplomatic",
+    "source": "NPR / PBS NewsHour / Marist",
+    "data_point": "56% opposed — first majority-oppose poll of the war"
   }
 ]

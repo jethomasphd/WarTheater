@@ -73,14 +73,15 @@
     "us_military_deaths": 13,
     "seafarer_fatalities": 6,
     "brent_crude_prewar_usd": 71.00,
-    "brent_crude_current_usd": 103.86,
-    "brent_crude_increase_pct": 46,
+    "brent_crude_current_usd": 106.18,
+    "brent_crude_increase_pct": 49.5,
     "iea_reserve_release_mbarrels": 400,
     "us_spr_release_mbarrels": 172,
     "iran_selective_passage": true,
     "iran_selective_passage_note": "Iran permitting transit for non-Western vessels on case-by-case basis. Turkish, Indian, and Saudi (India-bound) ships allowed through. Chinese-flagged vessels transiting continuously. Iran exporting 1.1-1.5 mbd to China.",
-    "us_escort_status": "Not yet operational. Pentagon describes strait as 'kill box.' Escorts planned for late March at earliest. 2,500 Marines (31st MEU aboard USS Tripoli) deploying to region. USS Nimitz deployment extended.",
+    "us_escort_status": "Not yet operational. Pentagon describes strait as 'kill box.' Escorts planned for late March at earliest. 2,500 Marines (31st MEU aboard USS Tripoli) deploying to region. USS Nimitz deployment extended. Australia and Japan both refused to send warships on March 16 despite Trump pressure. No allied nation has made firm commitment.",
     "day_15_events": "Fujairah oil hub fire from intercepted drone debris. Qatar: 4 ballistic missiles intercepted. Ahmed al-Jaber Air Base: 2 drones struck, 3 Kuwaiti soldiers injured. US struck 90+ Kharg Island military targets. Kharg oil infrastructure deliberately preserved.",
-    "day_16_events": "7 ballistic missile salvos at Israel. Continued sporadic fire at reduced intensity. Trump says may hit Kharg again. Urges allies to send warships."
+    "day_16_events": "7 ballistic missile salvos at Israel. Continued sporadic fire at reduced intensity. Trump says may hit Kharg again. Urges allies to send warships.",
+    "day_17_events": "Second Fujairah drone attack — oil loading suspended again. Drone strikes Dubai International Airport fuel tank, flights suspended several hours. 1 killed in Abu Dhabi (Al Bahyah). Kuwait airport radar damaged. Brent surges to $106.18 (+3%). Australia and Japan refuse to send warships. Iran FM: 'We never asked for a ceasefire.' Senate AUMF vote fails 47-53. IDF 91st Division expands ground ops at Khiam, Lebanon."
   }
 }

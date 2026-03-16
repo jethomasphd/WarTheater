@@ -85,7 +85,7 @@ WarTheater.Data = {
     // Anchor points: Pentagon $11.3B Day 6, CSIS $16.5B Day 12, extrapolated to Day 17
     return {
       timestamp: new Date().toISOString(),
-      brent: { price: 103.14, change_pct: 45.3, baseline: 71.00 },
+      brent: { price: 106.18, change_pct: 49.5, baseline: 71.00 },
       wti: { price: 98.71, change_pct: 48.4, baseline: 66.50 },
       gas: { price: 3.69, change_pct: 23.8, baseline: 2.98 },
       sp500: { value: 6632.19, change_pct: -3.6, baseline: 6878.88 },
