@@ -200,7 +200,8 @@ h4 { font-size: var(--text-lg); }
 /* === IRAN — Flag Background Text === */
 .iran-text {
   background-image: url('../img/iran-flag.svg');
-  background-size: cover;
+  background-size: auto 100%;
+  background-repeat: repeat-x;
   background-position: center;
   -webkit-background-clip: text;
   background-clip: text;
