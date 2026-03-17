@@ -193,10 +193,31 @@ h4 { font-size: var(--text-lg); }
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--text-primary);
+  display: flex;
+  align-items: baseline;
 }
 
-.site-title span.accent {
-  color: var(--text-accent);
+/* === IRAN — Flag Gradient Text === */
+.iran-text {
+  background: linear-gradient(180deg, #239f40 15%, #ffffff 50%, #da0000 85%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 12px rgba(35, 159, 64, 0.12));
+}
+
+/* === WAR.AI — Carved from the American Flag === */
+.warai-text {
+  background-image: url('../img/us-flag.svg');
+  background-size: cover;
+  background-position: left center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter:
+    drop-shadow(1px 2px 1px rgba(0, 0, 0, 0.85))
+    drop-shadow(0 0 4px rgba(0, 0, 0, 0.4));
+  padding-left: 0.08em;
 }
 
 .live-indicator {
@@ -599,7 +620,22 @@ h4 { font-size: var(--text-lg); }
   text-transform: uppercase;
   color: var(--text-primary);
   margin-bottom: var(--space-sm);
-  text-shadow: 0 0 60px rgba(212, 120, 42, 0.15);
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+/* Scale up effects for cinematic intro */
+.intro-title .iran-text {
+  filter: drop-shadow(0 0 30px rgba(35, 159, 64, 0.2))
+          drop-shadow(0 0 60px rgba(35, 159, 64, 0.08));
+}
+
+.intro-title .warai-text {
+  filter:
+    drop-shadow(2px 3px 2px rgba(0, 0, 0, 0.9))
+    drop-shadow(0 0 8px rgba(0, 0, 0, 0.5))
+    drop-shadow(0 0 40px rgba(178, 34, 52, 0.12));
 }
 
 .intro-subtitle {
