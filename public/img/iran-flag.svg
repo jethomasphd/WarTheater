@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 252 144">
+  <!-- Flag of the Islamic Republic of Iran — Accurate proportions (7:4) -->
+  <defs>
+    <!-- Kufic border pattern — geometric approximation of "Allahu Akbar" -->
+    <pattern id="k" width="18" height="5" patternUnits="userSpaceOnUse">
+      <rect width="2.5" height="5" fill="#fff"/>
+      <rect x="3.5" width="4" height="3" fill="#fff"/>
+      <rect x="3.5" width="1.2" height="5" fill="#fff"/>
+      <rect x="9" width="2.5" height="5" fill="#fff"/>
+      <rect x="12.5" width="1.5" height="3.5" fill="#fff"/>
+      <rect x="15" width="2.5" height="5" fill="#fff"/>
+    </pattern>
+  </defs>
+  <!-- Green stripe -->
+  <rect width="252" height="48" fill="#239f40"/>
+  <!-- White stripe -->
+  <rect y="48" width="252" height="48" fill="#fff"/>
+  <!-- Red stripe -->
+  <rect y="96" width="252" height="48" fill="#da0000"/>
+  <!-- Kufic border — bottom of green stripe -->
+  <rect y="43" width="252" height="5" fill="url(#k)"/>
+  <!-- Kufic border — top of red stripe -->
+  <rect y="96" width="252" height="5" fill="url(#k)"/>
+  <!-- Central Emblem — Stylized tulip/Allah symbol -->
+  <g transform="translate(126,72)" fill="#da0000">
+    <!-- Outer tulip silhouette -->
+    <path d="M0,-20 C-6,-17 -15,-7 -15,1 C-15,11 -8,19 0,22 C8,19 15,11 15,1 C15,-7 6,-17 0,-20Z"/>
+    <!-- Left crescent (white cutout) -->
+    <path d="M0,-13 C-4,-10 -8,-4 -8,1 C-8,8 -4,14 0,17 C-2,12 -4,6 -4,1 C-4,-4 -3,-9 0,-13Z" fill="#fff"/>
+    <!-- Right crescent (white cutout) -->
+    <path d="M0,-13 C4,-10 8,-4 8,1 C8,8 4,14 0,17 C2,12 4,6 4,1 C4,-4 3,-9 0,-13Z" fill="#fff"/>
+    <!-- Central sword (restored over crescents) -->
+    <rect x="-1.2" y="-22" width="2.4" height="44" rx="0.5"/>
+    <!-- Sword pommel -->
+    <circle cx="0" cy="-23" r="1.8"/>
+  </g>
+</svg>

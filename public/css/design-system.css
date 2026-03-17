@@ -197,9 +197,11 @@ h4 { font-size: var(--text-lg); }
   align-items: baseline;
 }
 
-/* === IRAN — Flag Gradient Text === */
+/* === IRAN — Flag Background Text === */
 .iran-text {
-  background: linear-gradient(180deg, #239f40 15%, #ffffff 50%, #da0000 85%);
+  background-image: url('../img/iran-flag.svg');
+  background-size: cover;
+  background-position: center;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
