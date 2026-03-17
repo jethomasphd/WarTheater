@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 100">
+  <!-- United States Flag — Accurate proportions -->
+  <defs>
+    <polygon id="s" points="0,-1.5 0.34,-0.46 1.43,-0.46 0.55,0.18 0.88,1.21 0,0.57 -0.88,1.21 -0.55,0.18 -1.43,-0.46 -0.34,-0.46" fill="#fff"/>
+  </defs>
+  <!-- Red field -->
+  <rect width="190" height="100" fill="#B22234"/>
+  <!-- White stripes -->
+  <rect y="7.69" width="190" height="7.69" fill="#fff"/>
+  <rect y="23.08" width="190" height="7.69" fill="#fff"/>
+  <rect y="38.46" width="190" height="7.69" fill="#fff"/>
+  <rect y="53.85" width="190" height="7.69" fill="#fff"/>
+  <rect y="69.23" width="190" height="7.69" fill="#fff"/>
+  <rect y="84.62" width="190" height="7.69" fill="#fff"/>
+  <!-- Blue canton -->
+  <rect width="76" height="53.85" fill="#3C3B6E"/>
+  <!-- 50 Stars — 9 rows alternating 6 and 5 -->
+  <g>
+    <!-- Row 1: 6 stars -->
+    <use href="#s" x="6.3" y="2.7"/>
+    <use href="#s" x="19" y="2.7"/>
+    <use href="#s" x="31.7" y="2.7"/>
+    <use href="#s" x="44.3" y="2.7"/>
+    <use href="#s" x="57" y="2.7"/>
+    <use href="#s" x="69.7" y="2.7"/>
+    <!-- Row 2: 5 stars -->
+    <use href="#s" x="12.7" y="8.1"/>
+    <use href="#s" x="25.3" y="8.1"/>
+    <use href="#s" x="38" y="8.1"/>
+    <use href="#s" x="50.7" y="8.1"/>
+    <use href="#s" x="63.3" y="8.1"/>
+    <!-- Row 3: 6 stars -->
+    <use href="#s" x="6.3" y="13.5"/>
+    <use href="#s" x="19" y="13.5"/>
+    <use href="#s" x="31.7" y="13.5"/>
+    <use href="#s" x="44.3" y="13.5"/>
+    <use href="#s" x="57" y="13.5"/>
+    <use href="#s" x="69.7" y="13.5"/>
+    <!-- Row 4: 5 stars -->
+    <use href="#s" x="12.7" y="18.8"/>
+    <use href="#s" x="25.3" y="18.8"/>
+    <use href="#s" x="38" y="18.8"/>
+    <use href="#s" x="50.7" y="18.8"/>
+    <use href="#s" x="63.3" y="18.8"/>
+    <!-- Row 5: 6 stars -->
+    <use href="#s" x="6.3" y="24.2"/>
+    <use href="#s" x="19" y="24.2"/>
+    <use href="#s" x="31.7" y="24.2"/>
+    <use href="#s" x="44.3" y="24.2"/>
+    <use href="#s" x="57" y="24.2"/>
+    <use href="#s" x="69.7" y="24.2"/>
+    <!-- Row 6: 5 stars -->
+    <use href="#s" x="12.7" y="29.6"/>
+    <use href="#s" x="25.3" y="29.6"/>
+    <use href="#s" x="38" y="29.6"/>
+    <use href="#s" x="50.7" y="29.6"/>
+    <use href="#s" x="63.3" y="29.6"/>
+    <!-- Row 7: 6 stars -->
+    <use href="#s" x="6.3" y="35"/>
+    <use href="#s" x="19" y="35"/>
+    <use href="#s" x="31.7" y="35"/>
+    <use href="#s" x="44.3" y="35"/>
+    <use href="#s" x="57" y="35"/>
+    <use href="#s" x="69.7" y="35"/>
+    <!-- Row 8: 5 stars -->
+    <use href="#s" x="12.7" y="40.4"/>
+    <use href="#s" x="25.3" y="40.4"/>
+    <use href="#s" x="38" y="40.4"/>
+    <use href="#s" x="50.7" y="40.4"/>
+    <use href="#s" x="63.3" y="40.4"/>
+    <!-- Row 9: 6 stars -->
+    <use href="#s" x="6.3" y="45.8"/>
+    <use href="#s" x="19" y="45.8"/>
+    <use href="#s" x="31.7" y="45.8"/>
+    <use href="#s" x="44.3" y="45.8"/>
+    <use href="#s" x="57" y="45.8"/>
+    <use href="#s" x="69.7" y="45.8"/>
+  </g>
+</svg>
