@@ -4,9 +4,9 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-03-16",
+    "last_updated": "2026-03-17",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "15,000+ (per Defense Secretary Hegseth, March 13 briefing)",
+    "total_targets_struck": "~19,000+ (15,000+ per Hegseth March 13, extrapolated at 1,000+/day through Day 18)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
       "killed": "1,444+",

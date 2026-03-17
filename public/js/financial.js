@@ -22,24 +22,25 @@ WarTheater.Financial = {
       'Jan 2', 'Jan 8', 'Jan 15', 'Jan 22', 'Jan 29',
       'Feb 5', 'Feb 12', 'Feb 19', 'Feb 27',
       'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5',
-      'Mar 6', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13', 'Mar 16'
+      'Mar 6', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13', 'Mar 16', 'Mar 17'
     ];
 
     // Source: Financials.md source of truth (CNBC/FRED/EIA confirmed settlements)
     // Pre-war weekly prices, then trading-day-only post-war data
     // Mar 16: Brent +3% on Fujairah/Dubai attacks (CNBC/Bloomberg)
+    // Mar 17 (Day 18): Brent $101.00, WTI ~$96.50 per user-provided data
     const brent = [
       74.2, 73.8, 72.1, 71.5, 72.8,
       73.1, 71.9, 72.6, 71.00,
       77.74, 81.40, 82.50, 82.73,
-      92.66, 98.96, 87.80, 91.98, 100.46, 103.14, 106.18
+      92.66, 98.96, 87.80, 91.98, 100.46, 103.14, 106.18, 101.00
     ];
 
     const wti = [
       71.8, 71.2, 69.8, 69.1, 70.5,
       70.9, 69.5, 70.3, 66.50,
       71.23, 74.56, 77.50, 80.97,
-      90.86, 94.77, 83.45, 87.25, 95.73, 98.71, 100.66
+      90.86, 94.77, 83.45, 87.25, 95.73, 98.71, 100.66, 96.50
     ];
 
     const defaults = WarTheater.Utils.chartDefaults();
@@ -89,7 +90,7 @@ WarTheater.Financial = {
                 if (idx >= 9) {
                   // Trading-day-only labels: Mar 2=Day 3, Mar 3=Day 4, Mar 4=Day 5, Mar 5=Day 6,
                   // Mar 6=Day 7, Mar 9=Day 10, Mar 10=Day 11, Mar 11=Day 12, Mar 12=Day 13, Mar 13=Day 14
-                  var dayMap = [3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 17];
+                  var dayMap = [3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 17, 18];
                   var day = dayMap[idx - 9] || (idx - 8);
                   return label + ' — Day ' + day + ' of conflict';
                 }
@@ -113,7 +114,7 @@ WarTheater.Financial = {
           y: {
             ...defaults.scales.y,
             min: 65,
-            max: 110,
+            max: 115,
             ticks: {
               ...defaults.scales.y.ticks,
               callback: function(v) { return '$' + v; }
@@ -134,7 +135,7 @@ WarTheater.Financial = {
     if (!ctx) return;
 
     // Markets chart uses trading days only (Feb 28 and Mar 1 were weekend — no trading)
-    var labels = ['Feb 27', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13', 'Mar 16'];
+    var labels = ['Feb 27', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13', 'Mar 16', 'Mar 17'];
     var defaults = WarTheater.Utils.chartDefaults();
 
     var contexts = [
@@ -149,7 +150,8 @@ WarTheater.Financial = {
       'Day 12 — IEA 400M bbl reserve release; CSIS: $16.5B cumulative',
       'Day 13 — Brent closes above $100; S&P -1.52% (worst since Feb)',
       'Day 14 — S&P hits 2026 low at 6,632; Brent $103.14; AUMF debate',
-      'Day 17 — Brent $106.18 on Fujairah/Dubai attacks; S&P futures +0.5%'
+      'Day 17 — Brent $106.18 on Fujairah/Dubai attacks; S&P futures +0.5%',
+      'Day 18 — Brent pulls back to $101; S&P recovers to 6,735; Ford fire contained'
     ];
 
     this.charts.markets = new Chart(ctx, {
@@ -161,39 +163,40 @@ WarTheater.Financial = {
             // S&P 500 indexed: baseline 6878.88 = 100
             // Confirmed closes: 6881.62, 6816.63, 6869.50, 6830.71, 6740.02, 6795.99, 6781.48, 6775.80, 6672.62, 6632.19
             // Mar 16: futures +0.5% from 6632.19 ≈ 6664 = 96.9 indexed (intraday, not close)
+            // Mar 17 (Day 18): S&P 6,734.87 = 97.9 indexed
             label: 'S&P 500',
-            data: [100, 100.0, 99.1, 99.9, 99.3, 98.0, 98.8, 98.6, 98.5, 97.0, 96.4, 96.9],
+            data: [100, 100.0, 99.1, 99.9, 99.3, 98.0, 98.8, 98.6, 98.5, 97.0, 96.4, 96.9, 97.9],
             borderColor: '#ef4444',
             borderWidth: 2,
             tension: 0.3,
-            pointRadius: [3, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 3],
+            pointRadius: [3, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 3],
             pointBackgroundColor: '#ef4444'
           },
           {
             label: 'Defense (RTX + LMT)',
-            data: [100, 103.5, 106.0, 108.0, 109.5, 110.5, 112.5, 113.0, 113.5, 115.8, 116.5, 117.0],
+            data: [100, 103.5, 106.0, 108.0, 109.5, 110.5, 112.5, 113.0, 113.5, 115.8, 116.5, 117.0, 116.5],
             borderColor: '#22c55e',
             borderWidth: 1.5,
             tension: 0.3,
-            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
             pointBackgroundColor: '#22c55e'
           },
           {
             label: 'Oil Majors (XOM + CVX)',
-            data: [100, 106.0, 110.0, 112.0, 114.0, 119.0, 124.0, 117.0, 121.0, 128.0, 130.0, 133.0],
+            data: [100, 106.0, 110.0, 112.0, 114.0, 119.0, 124.0, 117.0, 121.0, 128.0, 130.0, 133.0, 129.0],
             borderColor: '#d4a020',
             borderWidth: 1.5,
             tension: 0.3,
-            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
             pointBackgroundColor: '#d4a020'
           },
           {
             label: 'Airlines (DAL + UAL)',
-            data: [100, 92.0, 88.0, 85.0, 83.0, 81.0, 78.0, 78.5, 78.0, 76.0, 75.5, 74.0],
+            data: [100, 92.0, 88.0, 85.0, 83.0, 81.0, 78.0, 78.5, 78.0, 76.0, 75.5, 74.0, 75.5],
             borderColor: '#7b3fa0',
             borderWidth: 1.5,
             tension: 0.3,
-            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+            pointRadius: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
             pointBackgroundColor: '#7b3fa0'
           }
         ]
@@ -247,10 +250,11 @@ WarTheater.Financial = {
     var ctx = document.getElementById('chart-hormuz');
     if (!ctx) return;
 
-    var labels = ['Feb 25', 'Feb 26', 'Feb 27', 'Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13', 'Mar 14', 'Mar 15', 'Mar 16'];
+    var labels = ['Feb 25', 'Feb 26', 'Feb 27', 'Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13', 'Mar 14', 'Mar 15', 'Mar 16', 'Mar 17'];
     // Source: USNI/Lloyd's List AIS data. Pre-war ~50/day. Traffic down 97% by Day 11.
     // Shadow fleet/Chinese-flagged vessels account for remaining transits.
-    var data = [50, 50, 50, 25, 5, 0, 2, 2, 2, 3, 2, 2, 3, 2, 3, 3, 3, 3, 3, 3];
+    // Day 18: Strait remains effectively closed. ~3 shadow fleet transits per day.
+    var data = [50, 50, 50, 25, 5, 0, 2, 2, 2, 3, 2, 2, 3, 2, 3, 3, 3, 3, 3, 3, 3];
     var defaults = WarTheater.Utils.chartDefaults();
 
     this.charts.hormuz = new Chart(ctx, {
@@ -319,8 +323,8 @@ WarTheater.Financial = {
 
     // Source: Financials.md — Pentagon $11.3B Day 6, CSIS $16.5B Day 12, Penn Wharton daily estimates
     // Values in $M. Front-loaded: ~$3B/day opening then declining to ~$850M/day steady state
-    var labels = ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7', 'Day 8', 'Day 9', 'Day 10', 'Day 11', 'Day 12', 'Day 13', 'Day 14', 'Day 15', 'Day 16', 'Day 17'];
-    var costs = [3000, 2600, 2000, 1500, 1100, 1100, 1000, 900, 800, 800, 850, 850, 900, 900, 850, 850, 850];
+    var labels = ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7', 'Day 8', 'Day 9', 'Day 10', 'Day 11', 'Day 12', 'Day 13', 'Day 14', 'Day 15', 'Day 16', 'Day 17', 'Day 18'];
+    var costs = [3000, 2600, 2000, 1500, 1100, 1100, 1000, 900, 800, 800, 850, 850, 900, 900, 850, 850, 850, 850];
     var cumulative = [];
     var sum = 0;
     costs.forEach(function(c) { sum += c; cumulative.push(sum); });
@@ -342,7 +346,8 @@ WarTheater.Financial = {
       'Kharg Island struck — 15,000+ targets — AUMF debate',
       'Weekend — France/Italy open talks with Iran',
       'Weekend — gas at $3.69 — war cost at ~$20B',
-      'Day 17 — Dubai airport struck; Brent $106.18; 56% oppose war'
+      'Day 17 — Dubai airport struck; Brent $106.18; 56% oppose war',
+      'Day 18 — Brent pulls back to $101; S&P recovers +1.5%; Ford fire contained; war cost ~$21.7B'
     ];
 
     var defaults = WarTheater.Utils.chartDefaults();

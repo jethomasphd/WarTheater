@@ -1006,5 +1006,68 @@
     "category": "diplomatic",
     "source": "NPR / PBS NewsHour / Marist",
     "data_point": "56% opposed — first majority-oppose poll of the war"
+  },
+  {
+    "date": "2026-03-17",
+    "time": "02:00",
+    "title": "USS Ford fire contained — carrier fully operational after 30+ hour blaze",
+    "description": "The non-combat fire aboard USS Gerald R. Ford (CVN-78) that broke out March 12 in main laundry spaces has been contained after burning for more than 30 hours, per New York Times reporting. Two sailors sustained non-life-threatening injuries. Propulsion plant undamaged. Carrier remains fully operational and continues round-the-clock strike operations from the Central Red Sea. Ford has been at sea 265+ days, approaching an 11-month deployment record.",
+    "category": "military",
+    "source": "NYT / CNN / Stars and Stripes",
+    "data_point": "Ford fire contained — 265+ days at sea approaching deployment record"
+  },
+  {
+    "date": "2026-03-17",
+    "time": "06:00",
+    "title": "CRITICAL CORRECTION: Ford in Red Sea, not Eastern Med — naval disposition updated",
+    "description": "USNI Fleet Tracker (March 16) and Defence Security Asia satellite analysis confirm USS Gerald R. Ford transited the Suez Canal on March 5 and is now operating in the Central Red Sea — NOT the Eastern Mediterranean as previously reported. USS George H.W. Bush (CVN-77) is deploying from the Atlantic to backfill Ford's vacated Med position. USS America (LHA-6) / 11th MEU has NO confirmed theater presence — actual amphibious asset is USS Tripoli (LHA-7) / 31st MEU, currently transiting South China Sea. Lincoln (CSG-3) repositioned to ~1,100km from Iran with 8 destroyers.",
+    "category": "military",
+    "source": "USNI Fleet Tracker 3/16 / Defence Security Asia 3/15 / USNI News",
+    "data_point": "Ford in Red Sea — Bush deploying to Med — Tripoli replaces America"
+  },
+  {
+    "date": "2026-03-17",
+    "time": "08:00",
+    "title": "Three LCS mine countermeasure ships operating from Bahrain",
+    "description": "Three Littoral Combat Ships — USS Canberra (LCS-30), USS Tulsa (LCS-16), and USS Santa Barbara (LCS-32) — confirmed operating Navy's first operational mine countermeasure mission packages in U.S. 5th Fleet out of Bahrain. Critical asset given confirmed Iranian mine-laying operations in the Strait of Hormuz. U.S. has destroyed 30+ Iranian minelayers but Iran deployed 'a few dozen' mines from a stockpile of 2,000-6,000.",
+    "category": "military",
+    "source": "USNI Fleet Tracker / ABC7",
+    "data_point": "3 LCS MCM ships — 30+ minelayers destroyed — dozens of mines laid"
+  },
+  {
+    "date": "2026-03-17",
+    "time": "10:00",
+    "title": "Brent pulls back to $101 — S&P recovers to 6,735",
+    "description": "Brent crude retreats 5% from Monday's $106.18 peak to $101.00, likely on profit-taking. Oil remains 42.3% above pre-war baseline of $71.00. S&P 500 recovers to 6,734.87, up 1.5% from its 2026 closing low of 6,632. Defense stocks ease slightly from highs. Oil majors pull back with crude. Airlines show modest recovery. Fundamentals unchanged: Hormuz closed, Fujairah intermittently attacked, 12.35 mbd shortfall persists.",
+    "category": "financial",
+    "source": "CNBC / Bloomberg / ICE / NYMEX",
+    "data_point": "Brent $101.00 (+42.3% from pre-war) — S&P 6,734.87 (-2.1%)"
+  },
+  {
+    "date": "2026-03-17",
+    "time": "12:00",
+    "title": "USS Tripoli ARG transits South China Sea — ETA Hormuz March 23-28",
+    "description": "USS Tripoli (LHA-7) with 31st MEU (~2,500 Marines, BLT 3/1) continues transit through South China Sea en route to Middle East. Ship spotted sailing south of Taiwan through Luzon Strait on March 13. Naval News estimates 10-15 days to reach Strait of Hormuz area, placing ETA at March 23-28. The ARG includes CG-62 Robert Smalls, DDG-115 Rafael Peralta, and LPD-18 New Orleans. MEU brings F-35B strike capability and potential for island seizure operations near Hormuz.",
+    "category": "military",
+    "source": "USNI Fleet Tracker / Naval News / Stars and Stripes",
+    "data_point": "ETA March 23-28 — 2,500 Marines + F-35Bs for Hormuz ops"
+  },
+  {
+    "date": "2026-03-17",
+    "time": "14:00",
+    "title": "War cost estimated at ~$21.7B — $50B supplemental not yet submitted",
+    "description": "Cumulative estimated direct military cost reaches approximately $21.7 billion through Day 18, extrapolated from Pentagon's $11.3B through Day 6 and CSIS's $16.5B through Day 12 at ~$850M daily run rate. The $50B supplemental funding request led by Deputy Defense Secretary Steve Feinberg has not yet been formally submitted to Congress. Penn Wharton projects $40-95B total direct costs if conflict reaches two months, with additional $50-210B in economic losses.",
+    "category": "financial",
+    "source": "Pentagon / CSIS / Penn Wharton",
+    "data_point": "~$21.7B cumulative — ~$850M/day — $50B supplemental pending"
+  },
+  {
+    "date": "2026-03-17",
+    "time": "16:00",
+    "title": "Strait of Hormuz still closed — zero allied warships committed",
+    "description": "Day 18 and the Strait of Hormuz remains effectively closed to Western-allied shipping. Maritime traffic down 97% from pre-war levels. ~1,000 ships anchored near strait entrance including ~200 oil tankers. ~3 shadow fleet/Chinese-flagged vessels transiting daily. Iran continues selective passage for non-Western vessels. No allied nation has committed warships to an escort coalition despite direct Trump pressure on Australia, Japan, UK, France, and Italy.",
+    "category": "military",
+    "source": "USNI / Lloyd's List / Pentagon / Reuters",
+    "data_point": "97% traffic reduction — 0 allied warships committed — ~3 transits/day"
   }
 ]

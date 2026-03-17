@@ -22,9 +22,9 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 
   <!-- Design System -->
-  <link rel="stylesheet" href="css/design-system.css?v=20260316">
-  <link rel="stylesheet" href="css/animations.css?v=20260316">
-  <link rel="stylesheet" href="css/responsive.css?v=20260316">
+  <link rel="stylesheet" href="css/design-system.css?v=20260317">
+  <link rel="stylesheet" href="css/animations.css?v=20260317">
+  <link rel="stylesheet" href="css/responsive.css?v=20260317">
 </head>
 <body>
 
@@ -116,7 +116,7 @@
   <header class="site-header">
     <h1 class="site-title">THE <span class="accent">WAR</span> THEATER</h1>
     <div class="live-indicator" aria-live="polite">
-      <span id="last-updated" class="font-data" style="color: var(--text-dim)">LAST UPDATED: MAR 16, 2026 08:00 ET</span>
+      <span id="last-updated" class="font-data" style="color: var(--text-dim)">LAST UPDATED: MAR 17, 2026 08:00 ET</span>
     </div>
   </header>
 
@@ -240,34 +240,34 @@
 
         <!-- Hero Metrics -->
         <div class="metrics-grid" id="financial-metrics" aria-label="Key financial indicators">
-          <div class="hero-metric" title="Brent Crude: The international benchmark. Pre-war close: $71.00/bbl (Feb 27). Surged 3% Monday on Dubai airport and Fujairah attacks. Hormuz remains effectively closed. Source: ICE Futures Europe / CNBC / FRED.">
-            <div class="value font-data" id="brent-price" style="color: var(--financial-up);">$106.18</div>
+          <div class="hero-metric" title="Brent Crude: The international benchmark. Pre-war close: $71.00/bbl (Feb 27). Pulled back from Monday's $106.18 peak. Hormuz remains effectively closed. Source: ICE Futures Europe / CNBC / FRED.">
+            <div class="value font-data" id="brent-price" style="color: var(--financial-up);">$101.00</div>
             <div class="label">Brent Crude $/bbl</div>
-            <div class="change up font-data" id="brent-change">+49.5% since Feb 27 — surges 3% on Fujairah/Dubai attacks</div>
+            <div class="change up font-data" id="brent-change">+42.3% since Feb 27 — down from $106 peak but Hormuz still closed</div>
           </div>
           <div class="hero-metric" title="West Texas Intermediate: The US benchmark. Pre-war close: $66.50/bbl (Feb 27). Tracking Brent as Hormuz shortfall of 12.35 mbd persists. Source: NYMEX / CNBC.">
-            <div class="value font-data" id="wti-price" style="color: var(--financial-up);">$98.71</div>
+            <div class="value font-data" id="wti-price" style="color: var(--financial-up);">$96.50</div>
             <div class="label">WTI Crude $/bbl</div>
-            <div class="change up font-data" id="wti-change">+48.4% since Feb 27 — 12.35 mbd shortfall persists</div>
+            <div class="change up font-data" id="wti-change">+45.1% since Feb 27 — 12.35 mbd shortfall persists</div>
           </div>
           <div class="hero-metric" title="National average retail gasoline price. Pre-war: $2.98/gal (Feb 27). Largest weekly jump of the century per GasBuddy. California above $5.00. Source: AAA / EIA.">
-            <div class="value font-data" id="gas-price" style="color: var(--financial-up);">$3.69</div>
+            <div class="value font-data" id="gas-price" style="color: var(--financial-up);">$3.72</div>
             <div class="label">US Gas Avg/Gal</div>
-            <div class="change up font-data" id="gas-change">+$0.71 / +23.8% since Feb 27 — CA above $5.00</div>
+            <div class="change up font-data" id="gas-change">+$0.74 / +24.8% since Feb 27 — CA above $5.00</div>
           </div>
-          <div class="hero-metric" title="S&P 500 index. Pre-war close: 6,878.88 (Feb 27). Hit 2026 closing low on Mar 13. Three consecutive weekly losses. Source: NYSE / CNBC / FRED.">
-            <div class="value font-data" id="sp500-value" style="color: var(--financial-up);">6,632.19</div>
+          <div class="hero-metric" title="S&P 500 index. Pre-war close: 6,878.88 (Feb 27). Recovered from 2026 low of 6,632 on Mar 13. Source: NYSE / CNBC / FRED.">
+            <div class="value font-data" id="sp500-value" style="color: var(--financial-up);">6,734.87</div>
             <div class="label">S&P 500</div>
-            <div class="change up font-data" id="sp500-change">-247 pts / -3.6% — 2026 closing low</div>
+            <div class="change up font-data" id="sp500-change">-144 pts / -2.1% — recovered from 6,632 low</div>
           </div>
           <div class="hero-metric" title="Estimated daily operational cost. Reflects sustained air campaign, IDF ground support, Hormuz operations, and Houthi interdiction. Declining from ~$3B/day opening phase to ~$850M/day steady state. Source: Pentagon briefing / CSIS / Penn Wharton.">
             <div class="value font-data" id="daily-cost" style="color: var(--text-accent);">~$850M</div>
             <div class="label">Est. Daily US Cost</div>
             <div class="change font-data" style="color: var(--text-dim);" id="daily-cost-note">Down from ~$3B/day opening — CSIS / Penn Wharton</div>
           </div>
-          <div class="hero-metric" title="Cumulative estimated cost since Feb 28. Pentagon: $11.3B through Day 6. CSIS: $16.5B through Day 12. Extrapolated through Day 17. Does not include VA costs or economic impact ($50-210B per Penn Wharton). Source: Pentagon / CSIS / Penn Wharton.">
-            <div class="value font-data" id="total-cost" style="color: var(--text-accent);">~$20.8B</div>
-            <div class="label">Est. Total Cost (17 Days)</div>
+          <div class="hero-metric" title="Cumulative estimated cost since Feb 28. Pentagon: $11.3B through Day 6. CSIS: $16.5B through Day 12. Extrapolated through Day 18. Does not include VA costs or economic impact ($50-210B per Penn Wharton). Source: Pentagon / CSIS / Penn Wharton.">
+            <div class="value font-data" id="total-cost" style="color: var(--text-accent);">~$21.7B</div>
+            <div class="label">Est. Total Cost (18 Days)</div>
             <div class="change font-data" style="color: var(--text-dim);" id="total-cost-note">Pentagon $11.3B Day 6 + CSIS $16.5B Day 12 extrapolated</div>
           </div>
         </div>
@@ -343,10 +343,10 @@
 
         <!-- Hero Counters -->
         <div class="metrics-grid" id="humanitarian-metrics" aria-label="Humanitarian indicators">
-          <div class="hero-metric" title="Total targets struck by US and Israeli forces on Iranian territory since Feb 28. 1,700 US targets in first 72 hours. 15,000+ by Day 14 per Defense Secretary Hegseth. Rate: 1,000+/day. Source: CENTCOM / Hegseth briefing Mar 13 / DoD.">
-            <div class="value font-data counter" data-target="15000" style="color: var(--strike-us);">0</div>
+          <div class="hero-metric" title="Total targets struck by US and Israeli forces on Iranian territory since Feb 28. 1,700 US targets in first 72 hours. 15,000+ by Day 14 per Defense Secretary Hegseth. Rate: 1,000+/day. Extrapolated ~19,000+ by Day 18. Source: CENTCOM / Hegseth briefing Mar 13 / DoD.">
+            <div class="value font-data counter" data-target="19000" style="color: var(--strike-us);">0</div>
             <div class="label">Targets Struck</div>
-            <div class="change font-data" style="color: var(--text-dim);">15,000+ by Day 14 — 1,000+/day — Hegseth/CENTCOM</div>
+            <div class="change font-data" style="color: var(--text-dim);">15,000+ by Day 14 — ~19,000+ est. Day 18 — 1,000+/day</div>
           </div>
           <div class="hero-metric" title="US military deaths. 6 at Port Shuaiba, Kuwait (Day 2). 1 died of wounds at Prince Sultan AB, Saudi Arabia (Day 9). 6 killed in KC-135 crash over Iraq (Day 13). Source: DoD / CENTCOM.">
             <div class="value font-data counter" data-target="13" style="color: var(--civilian);">0</div>
@@ -363,20 +363,20 @@
             <div class="label">Iranian Killed (Health Min.)</div>
             <div class="change font-data" style="color: var(--text-dim);">1,444+ killed, 18,551 injured — Hengaw: 4,400+ military</div>
           </div>
-          <div class="hero-metric" title="Lebanese casualties from Israeli strikes and IDF ground operations in southern Lebanon. 826+ killed, 2,009+ wounded, 850,000+ displaced. 102+ children among dead. Source: Lebanese Health Ministry / OCHA / ACLED / CIR.">
-            <div class="value font-data counter" data-target="826" style="color: var(--hezbollah);">0</div>
+          <div class="hero-metric" title="Lebanese casualties from Israeli strikes and IDF ground operations in southern Lebanon. 920+ killed, 2,100+ wounded, 900,000+ displaced. 102+ children among dead. Source: Lebanese Health Ministry / OCHA / ACLED / CIR.">
+            <div class="value font-data counter" data-target="920" style="color: var(--hezbollah);">0</div>
             <div class="label">Lebanese Killed</div>
-            <div class="change font-data" style="color: var(--text-dim);">826+ killed, 2,009+ wounded — ground war ongoing</div>
+            <div class="change font-data" style="color: var(--text-dim);">920+ killed, 2,100+ wounded — ground war expanding</div>
           </div>
-          <div class="hero-metric" title="People displaced from their homes in Lebanon. IDF ground ops accelerating displacement. ICRC requests humanitarian access south of Litani. Source: UNHCR / OCHA.">
-            <div class="value font-data counter" data-target="850000" style="color: var(--humanitarian);">0</div>
+          <div class="hero-metric" title="People displaced from their homes in Lebanon and Iran. IDF ground ops accelerating displacement. ICRC requests humanitarian access south of Litani. 330,000+ displaced across Middle East per UNHCR. Source: UNHCR / OCHA.">
+            <div class="value font-data counter" data-target="900000" style="color: var(--humanitarian);">0</div>
             <div class="label">Displaced Persons</div>
-            <div class="change font-data" style="color: var(--text-dim);">Lebanon — 850,000+ as ground ops continue — UNHCR</div>
+            <div class="change font-data" style="color: var(--text-dim);">Lebanon — 900,000+ as ground ops expand — UNHCR</div>
           </div>
-          <div class="hero-metric" title="Commercial flights cancelled due to airspace closures and expanding conflict zone across 10+ countries. Source: IATA / Flightradar24.">
-            <div class="value font-data counter" data-target="22000" style="color: var(--text-secondary);">0</div>
+          <div class="hero-metric" title="Commercial flights cancelled due to airspace closures and expanding conflict zone across 10+ countries. Dubai airport struck Day 17. Source: IATA / Flightradar24.">
+            <div class="value font-data counter" data-target="24000" style="color: var(--text-secondary);">0</div>
             <div class="label">Flights Cancelled</div>
-            <div class="change font-data" style="color: var(--text-dim);">22,000+ — airspace closures across 10+ countries — IATA</div>
+            <div class="change font-data" style="color: var(--text-dim);">24,000+ — Dubai airport struck Day 17 — IATA</div>
           </div>
           <div class="hero-metric" title="Children killed in the conflict. ~150 at Minab girls' school (Day 1 — 165-180 total killed, mostly girls aged 7-12), 102+ in Lebanon (ongoing), 2+ in Tehran (Narmak school), 1 girl in Kuwait. Source: Iranian Red Crescent / Lebanese Health Ministry / AP / OHCHR.">
             <div class="value font-data counter" data-target="256" style="color: var(--civilian);">0</div>
@@ -407,7 +407,7 @@
 
         <!-- Historical Comparison -->
         <div class="chart-container" style="margin-top: 1px;">
-          <div class="chart-title">Historical Comparison — Day 17 of Conflict</div>
+          <div class="chart-title">Historical Comparison — Day 18 of Conflict</div>
           <div class="chart-wrapper" style="height: 250px;">
             <canvas id="chart-historical" aria-label="Chart comparing Day 11 metrics with past US conflicts"></canvas>
           </div>
@@ -425,7 +425,7 @@
 
         <div class="briefing-header">
           <h2 style="margin-bottom: var(--space-sm);">Daily Intelligence Briefing</h2>
-          <div class="briefing-date" id="briefing-date">MARCH 16, 2026 — DAY 17</div>
+          <div class="briefing-date" id="briefing-date">MARCH 17, 2026 — DAY 18</div>
           <div style="font-size: var(--text-xs); color: var(--text-dim); margin-top: var(--space-sm); font-family: 'JetBrains Mono', monospace;">
             AI-generated analysis of public data — not state-approved, not classified
           </div>
@@ -434,64 +434,75 @@
         <!-- Situation Summary -->
         <div class="briefing-section">
           <h3>Situation Summary</h3>
-          <p>Day 17 opened with Iran demonstrating that even 80% degraded, it can still hit where it hurts. A drone struck a fuel tank at Dubai International Airport — the world's busiest for international passengers — suspending all flights for hours. A second drone attack on the Fujairah oil hub suspended oil-loading operations for the second time in three days. One person was killed by a missile in Abu Dhabi's Al Bahyah district. Kuwait International Airport's radar was damaged. These attacks on civilian infrastructure across the Gulf underscore Iran's strategic logic: if the Strait of Hormuz closure isn't enough economic pain, target the bypass routes too.</p>
-          <p>Brent crude surged 3% to $106.18 on Monday's open — now up nearly 50% from pre-war — as markets absorbed the Fujairah and Dubai attacks. The message is clear: Iran can still move oil prices even with a shattered military. The S&P 500 opened modestly higher (futures +0.5%), but the trajectory depends on whether Iran's asymmetric campaign intensifies or diplomatic channels open. Both seem unlikely today: Iran's FM declared "We never asked for a ceasefire," while the Trump administration rebuffed allied mediation efforts.</p>
-          <p>On the ground, the IDF's 91st "Galilee" Division is pushing deeper into southern Lebanon, expanding operations from Bint Jbeil to the strategic hilltop town of Khiam. Israel is planning to seize the entire area south of the Litani River. Politically, a US Senate vote to constrain Trump's war powers failed 47-53, and both Australia and Japan refused to send warships to the Strait despite direct requests from Trump. A new NPR/PBS/Marist poll finds 56% of Americans oppose the war — the first majority-oppose reading of the conflict. And Defense Secretary Hegseth stated that Iran's new Supreme Leader Mojtaba Khamenei has been wounded.</p>
+          <p>Eighteen days in, the war has settled into a grim equilibrium that benefits no one. Brent crude pulled back 5% to $101 — still 42% above pre-war — after Monday's spike to $106.18 on the Dubai airport and Fujairah attacks. The S&P 500 recovered to 6,734.87, clawing back from its 2026 closing low. The partial market recovery suggests traders are pricing in a plateau: Iran's offensive capability is 80% degraded, but the Strait of Hormuz remains effectively closed, and no one — not Washington, not Tehran, not Brussels — has offered a credible path to reopening it.</p>
+          <p>The USS Gerald R. Ford's 30-hour laundry fire, disclosed by the New York Times, is contained. The carrier is fully operational. But the incident underscores the strain on a ship that has been at sea for 265+ days — approaching the longest deployment in modern Navy history. Ford is now confirmed in the Central Red Sea, not the Eastern Mediterranean as previously assessed. The USS George H.W. Bush is deploying to backfill Ford's vacated Mediterranean position. The USS Tripoli ARG with 2,500 Marines is transiting the South China Sea, ETA Hormuz area March 23-28. Three carrier strike groups, an amphibious ready group, three mine countermeasure ships, a guided missile submarine — the largest naval concentration in the region since 2003.</p>
+          <p>The most consequential number today is zero: the number of allied nations that have committed warships to a Hormuz escort coalition. Australia and Japan both refused Trump's direct requests yesterday. The UK, France, and Italy — all with forces in theater taking casualties — have not volunteered either. America will escort convoys alone, if it escorts them at all.</p>
         </div>
 
         <!-- Key Developments -->
         <div class="briefing-section">
           <h3>Key Developments</h3>
           <ul>
-            <li>Drone strikes Dubai International Airport fuel tank — flights suspended for hours; Emirates diverts to Abu Dhabi and Al Maktoum</li>
-            <li>Second Fujairah drone attack in 3 days — oil-loading operations suspended again at key Hormuz bypass route</li>
-            <li>1 killed in Abu Dhabi missile strike (Al Bahyah); Kuwait airport radar damaged</li>
-            <li>Brent surges to $106.18 (+3% / +49.5% from pre-war) — S&P futures +0.5% at ~6,664</li>
-            <li>Iran FM Araghchi: "We never asked for a ceasefire" — Trump admin also rebuffs allied mediation</li>
-            <li>Senate AUMF vote to constrain war powers fails 47-53 — Republicans block</li>
-            <li>Australia and Japan both refuse Trump's request to send warships to Hormuz</li>
-            <li>NPR/PBS/Marist poll: 56% of Americans oppose the war</li>
-            <li>IDF 91st Division expands ground ops in Lebanon — intense fighting at Khiam; planning full Litani seizure</li>
-            <li>Hegseth: new Supreme Leader Mojtaba Khamenei reportedly wounded</li>
-            <li>Cumulative war cost ~$21.6B — daily rate ~$850M (CSIS/Penn Wharton extrapolation)</li>
-            <li>15,000+ targets struck; 1,444+ Iranians killed (Health Ministry) / 4,400+ military (Hengaw)</li>
-            <li>13 US service members killed; ~140 wounded; 826+ Lebanese killed, 850,000+ displaced</li>
+            <li>Brent crude pulls back to $101.00 (&minus;5% from Monday's $106.18 peak) — still +42.3% from pre-war $71 baseline</li>
+            <li>S&P 500 recovers to 6,734.87 (+1.5% from 2026 low of 6,632) — defense and oil sectors still outperforming</li>
+            <li>USS Ford fire (laundry spaces) contained after 30+ hours — carrier fully operational; 2 sailors with non-life-threatening injuries</li>
+            <li>Ford confirmed in Central Red Sea (NOT Eastern Med) — transited Suez March 5; approaching 11-month deployment</li>
+            <li>USS Bush (CVN-77) deploying to Eastern Med to backfill Ford — COMPTUEX completed, combat certified</li>
+            <li>USS Tripoli ARG / 31st MEU in South China Sea transit — ETA Hormuz March 23-28</li>
+            <li>CRITICAL: USS America (LHA-6) has NO confirmed presence in theater — replaced by Tripoli in tracking</li>
+            <li>Lincoln (CSG-3) repositioned ~1,100km from Iran — 8 destroyers in expanded Arabian Sea screen</li>
+            <li>Three LCS mine countermeasure ships (Canberra, Tulsa, Santa Barbara) operating from Bahrain</li>
+            <li>Zero allied nations committed warships to Hormuz escort — Australia, Japan both refused</li>
+            <li>Cumulative war cost ~$21.7B — daily rate ~$850M — $50B supplemental request pending</li>
+            <li>~19,000+ targets struck (extrapolated from 15,000+ at Day 14 at 1,000+/day)</li>
+            <li>Gas at ~$3.72/gal nationally — approaching $4.00 — CA above $5.34</li>
+            <li>13 US service members killed; ~140 wounded; 920+ Lebanese killed, 900,000+ displaced</li>
           </ul>
+        </div>
+
+        <!-- Naval Posture Update -->
+        <div class="briefing-section">
+          <h3>Naval Posture — Critical Corrections</h3>
+          <p>Today's update incorporates significant corrections to naval force disposition based on USNI Fleet Tracker (March 16), Defence Security Asia satellite analysis, and multiple verified sources:</p>
+          <p><strong>1. Ford is in the Red Sea, not the Eastern Med.</strong> CVN-78 transited the Suez Canal on March 5 with DDG-96 Bainbridge. This changes the operational picture: Ford is closer to Iran than previously assessed, but further from the Lebanon ground campaign.</p>
+          <p><strong>2. USS America was never confirmed in theater.</strong> LHA-6 / 11th MEU had no verified presence. The actual amphibious asset is USS Tripoli (LHA-7) / 31st MEU, approved for deployment March 13.</p>
+          <p><strong>3. Lincoln has repositioned to ~1,100km from Iran.</strong> CSG-3 expanded its stand-off distance after Iranian gunboat harassment, operating with up to 8 destroyers. DDG-113 John Finn is now assessed as part of Lincoln's expanded destroyer screen, not detached to Red Sea.</p>
         </div>
 
         <!-- Financial Outlook -->
         <div class="briefing-section">
           <h3>Financial Outlook</h3>
-          <p>Monday's market open answered the question from the weekend: escalation, not diplomacy, is driving prices. Brent crude jumped 3% to $106.18 after the Dubai airport and second Fujairah attacks demonstrated Iran can still disrupt alternative oil routes. WTI rose correspondingly. The key development: Fujairah — the UAE pipeline terminal that bypasses Hormuz — has been shut twice in three days. If Iran can keep Fujairah offline, it negates one of the 8.15 mbd alternative pipeline capacity that was supposed to partially offset the Hormuz closure.</p>
-          <p>S&P 500 futures opened modestly higher (+0.5% near 6,664), with defense stocks and oil majors continuing to outperform. The failed AUMF vote (47-53) removes a key political constraint, while the Fed policy decision later this week adds another variable. Polymarket showed 75% probability of a positive Monday open — but the Dubai attack was not priced in at that point.</p>
-          <p>Gas at ~$3.69/gallon nationally will likely approach $4.00 this week if Brent holds above $105. California is already at $5.34. Polymarket gives 36% odds of the national average hitting $5.00 by end of March. The cumulative war cost of ~$21.6 billion in 17 days continues to compound at approximately $850 million per day.</p>
+          <p>The 5% pullback in Brent — from $106.18 to $101.00 — is significant but misleading. Oil remains 42% above pre-war levels. The pullback likely reflects profit-taking rather than any fundamental supply improvement. The Strait of Hormuz is still closed. The Fujairah bypass has been attacked twice in three days. The 12.35 mbd shortfall persists. The IEA's 400-million-barrel emergency reserve release buys roughly 33 days at current consumption.</p>
+          <p>The S&P recovery to 6,734.87 is driven by sector rotation: defense stocks up 16-17%, oil majors up 29-33%, offsetting continued weakness in airlines (&minus;25%) and consumer discretionary. The war is a transfer machine — every dollar consumers pay at the pump flows to energy companies and defense contractors.</p>
+          <p>Gas at ~$3.72/gal will likely breach $4.00 this week if Brent holds above $100. California already at $5.34. The $50B supplemental request has not yet been formally submitted to Congress. Penn Wharton's total economic impact: $50-210 billion, dwarfing the $21.7B direct military cost.</p>
         </div>
 
         <!-- Humanitarian Update -->
         <div class="briefing-section">
           <h3>Humanitarian Update</h3>
-          <p>The Iranian Health Ministry's last comprehensive report (March 14): 1,444 killed, 18,551 injured. Hengaw's independent estimate of 4,400+ military dead suggests the civilian figure represents a fraction of the total toll. 65 schools and 32 medical facilities targeted. 20,000+ civilian buildings affected, including 16,000 residential units. 31 major hospitals damaged, 12 rendered inactive. The WHO has verified 13 attacks on healthcare infrastructure. Iran's near-total internet blackout makes independent verification impossible — the true numbers may be significantly higher.</p>
-          <p>Lebanon: 826+ killed, 2,009+ wounded, 850,000+ displaced (~14% of Lebanon's population) since March 2. The IDF ground operation has expanded: the 91st Division is now fighting at Khiam in addition to Bint Jbeil, with plans to seize the entire area south of the Litani River. 12+ Israeli soldiers have been killed in less than a week of ground operations against Hezbollah's Radwan Force.</p>
-          <p>Gulf state casualties continue mounting: 1 killed today in Abu Dhabi; 131+ injured in UAE since the war began; 19+ killed across Gulf states total. The Dubai airport strike affected hundreds of thousands of travelers. Across all fronts and all parties, the total human cost now exceeds 2,400 killed in 17 days.</p>
+          <p>Iranian Health Ministry (as of March 14): 1,444 killed, 18,551 injured. Hengaw: 4,400+ military dead. ~20,000 civilian buildings affected including 16,000 residential units. 31 major hospitals damaged, 12 rendered inactive. WHO verified 13 attacks on healthcare. Near-total internet blackout prevents independent verification.</p>
+          <p>Lebanon: an estimated 920+ killed, 2,100+ wounded, 900,000+ displaced since March 2. The IDF ground operation continues expanding. 12+ Israeli soldiers killed against Hezbollah's Radwan Force.</p>
+          <p>Gulf states: 19+ killed across Bahrain, Kuwait, UAE, Saudi Arabia, Oman. 8+ seafarers killed. 1 French soldier killed. 13 US service members killed. Across all fronts: an estimated 2,500+ killed in 18 days.</p>
         </div>
 
         <!-- What to Watch -->
         <div class="briefing-section">
           <h3>What to Watch</h3>
           <ul>
-            <li><strong>Brent trajectory</strong> — $106.18 and climbing. If Fujairah remains intermittently offline, the bypass-route narrative collapses and $120 becomes realistic. Oil options markets price 30% probability within two weeks</li>
-            <li><strong>Fujairah as strategic target</strong> — Two attacks in three days signals deliberate Iranian strategy to close the bypass. If the Habshan-Fujairah pipeline terminal is taken offline for days rather than hours, the 12.35 mbd shortfall becomes 13.85 mbd</li>
-            <li><strong>Kharg Island oil infrastructure</strong> — Trump spared the oil on March 13 but threatened next time. With Brent above $106 and diplomacy dead, the calculus may shift</li>
-            <li><strong>Allied naval coalition</strong> — Australia and Japan said no. No country has committed. The US may have to escort convoys alone with 31st MEU and existing carrier groups</li>
-            <li><strong>Mojtaba Khamenei's condition</strong> — If the new Supreme Leader is seriously wounded, Iran's command structure faces unprecedented disruption. But it could also remove any remaining restraint on IRGC operations</li>
-            <li><strong>Lebanon ground expansion</strong> — IDF moving from Bint Jbeil to Khiam to full Litani seizure. Each step increases the risk of a protracted occupation that saps political support domestically</li>
-            <li><strong>56% opposition</strong> — First majority-oppose poll. Combined with failed AUMF vote and $50B supplemental request, domestic political pressure is building faster than in any US conflict since Vietnam</li>
+            <li><strong>Brent $101 — floor or pause?</strong> — The fundamentals haven't changed. Hormuz is closed. Fujairah intermittently attacked. If Iran escalates bypass-route targeting, $120 is back on the table</li>
+            <li><strong>Ford's endurance</strong> — 265+ days at sea, approaching 11-month deployment. The laundry fire was minor but the strain is real</li>
+            <li><strong>Tripoli ETA March 23-28</strong> — First realistic date for convoy escort capability. Until then, the Strait stays closed to Western shipping</li>
+            <li><strong>Mine countermeasures</strong> — 30+ minelayers destroyed but dozens of mines already laid. LCS MCM packages untested at combat scale</li>
+            <li><strong>Allied coalition — still zero</strong> — If America escorts alone, every convoy ties up a carrier group</li>
+            <li><strong>Iran's asymmetric shift</strong> — 80% degraded on ballistic missiles, but drones, mines, and explosive boats are harder to counter and cheaper to deploy</li>
+            <li><strong>56% opposition and rising</strong> — The $50B supplemental will be a political flashpoint. War costs Americans $0.74/gallon at the pump</li>
+            <li><strong>Mojtaba Khamenei's condition</strong> — If wounded, the IRGC may be operating independently with no civilian restraint</li>
           </ul>
         </div>
 
         <div style="border-top: 1px solid var(--border); padding-top: var(--space-lg); margin-top: var(--space-xl);">
           <p style="font-size: var(--text-xs); color: var(--text-dim); font-family: 'JetBrains Mono', monospace;">
-            Sources: CENTCOM, Pentagon, Iranian Health Ministry, Hengaw, WHO, ACLED, CSIS (Cancian & Park), Penn Wharton, AAA, EIA STEO, CNBC, FRED, Lebanese Health Ministry, OCHA, UNHCR, ICRC, IDF, Reuters, AP, Bloomberg, Al Jazeera, NPR, CNN, Forbes, NYT, Washington Post, Military Times, CRS, Trump Truth Social, French MFA, Italian MFA, Emirates, Polymarket, NPR/PBS/Marist. This briefing is AI-generated analysis of publicly available data. It does not represent the views of any government or intelligence agency.
+            Sources: CENTCOM, Pentagon, Iranian Health Ministry, Hengaw, WHO, ACLED, CSIS (Cancian & Park), Penn Wharton, AAA, EIA STEO, CNBC, FRED, Lebanese Health Ministry, OCHA, UNHCR, ICRC, IDF, Reuters, AP, Bloomberg, Al Jazeera, NPR, CNN, Forbes, NYT, Washington Post, Military Times, CRS, USNI Fleet Tracker (3/16), Defence Security Asia (3/15), Stars and Stripes, Naval News, ABC7, Trump Truth Social, NPR/PBS/Marist. This briefing is AI-generated analysis of publicly available data. It does not represent the views of any government or intelligence agency.
           </p>
         </div>
 
@@ -671,14 +682,14 @@
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
   <!-- Application JS -->
-  <script src="js/utils.js?v=20260316"></script>
-  <script src="js/data.js?v=20260316"></script>
-  <script src="js/map.js?v=20260316"></script>
-  <script src="js/financial.js?v=20260316"></script>
-  <script src="js/humanitarian.js?v=20260316"></script>
-  <script src="js/briefing.js?v=20260316"></script>
-  <script src="js/timeline.js?v=20260316"></script>
-  <script src="js/calculator.js?v=20260316"></script>
-  <script src="js/app.js?v=20260316"></script>
+  <script src="js/utils.js?v=20260317"></script>
+  <script src="js/data.js?v=20260317"></script>
+  <script src="js/map.js?v=20260317"></script>
+  <script src="js/financial.js?v=20260317"></script>
+  <script src="js/humanitarian.js?v=20260317"></script>
+  <script src="js/briefing.js?v=20260317"></script>
+  <script src="js/timeline.js?v=20260317"></script>
+  <script src="js/calculator.js?v=20260317"></script>
+  <script src="js/app.js?v=20260317"></script>
 </body>
 </html>

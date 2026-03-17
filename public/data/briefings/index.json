@@ -47,5 +47,12 @@
     "label": "MARCH 16, 2026 — DAY 17",
     "headline": "Third week begins — Hormuz still closed; Brent above $100; 15,000+ targets struck",
     "file": "data/briefings/day-17.html"
+  },
+  {
+    "day": 18,
+    "date": "2026-03-17",
+    "label": "MARCH 17, 2026 — DAY 18",
+    "headline": "Brent pulls back to $101; Ford fire contained; zero allies commit warships; naval corrections",
+    "file": "data/briefings/day-18.html"
   }
 ]
