@@ -54,5 +54,12 @@
     "label": "MARCH 17, 2026 — DAY 18",
     "headline": "Brent pulls back to $101; Ford fire contained; zero allies commit warships; naval corrections",
     "file": "data/briefings/day-18.html"
+  },
+  {
+    "day": 19,
+    "date": "2026-03-18",
+    "label": "MARCH 18, 2026 — DAY 19",
+    "headline": "South Pars struck — energy war begins; 3 officials killed in 24 hrs; 3,200 vessels stranded; Brent $108",
+    "file": "data/briefings/day-19.html"
   }
 ]

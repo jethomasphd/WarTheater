@@ -4,9 +4,9 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-03-17",
+    "last_updated": "2026-03-18",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "~19,000+ (15,000+ per Hegseth March 13, extrapolated at 1,000+/day through Day 18)",
+    "total_targets_struck": "~20,000+ (DoD Mar 16: 7,000+ US targets, 6,500+ combat flights. Hegseth Mar 13: 15,000+ combined. Reuters Mar 18: 'more than 7,000' US. Extrapolated at ~1,000+/day through Day 19)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
       "killed": "1,444+",
@@ -18,6 +18,7 @@
     "civilian_buildings_affected": "~20,000 (including 16,000 residential units) per Iranian Red Crescent as of Day 11",
     "healthcare_facilities_affected": "77 per Red Crescent; 31 major hospitals damaged, 12 inactive per Deputy Health Minister; WHO verified 13 attacks on healthcare",
     "us_operation_name": "Operation Epic Fury",
+    "weapons_confirmed": "B-2 Spirit bombers (37-hour CONUS round-trips from Whiteman AFB), Tomahawk cruise missiles (including Block Va Maritime Strike variant with radar-absorbent 'black' coating), GBU-57 Massive Ordnance Penetrators, Precision Strike Missiles (first combat use), LUCAS low-cost attack drones (first combat use), 5,000-lb deep penetrator munitions",
     "notes": "Casualty figures are Iranian government claims via Red Crescent and health ministry; independently difficult to verify due to internet blackout. HRANA (US-based) figures broadly consistent. ACLED tracking ongoing. Scope of this dataset: strikes ON Iranian territory by US and Israeli forces only. Iranian counter-strikes and regional escalation tracked in separate dataset."
   },
   {
@@ -517,5 +518,124 @@
     "casualties_source": "Critical Threats / ISW / OSINT accounts",
     "active_days": [9, 10],
     "notes": "Part of the combined force campaign against Iran's internal security apparatus. LEC institutions targeted in cities that saw significant anti-government protests in Dec 2025–Jan 2026. CTP-ISW confirmed protests had occurred in Eslamabad-e Gharb, Borujerd, and Abdanan during the protest wave."
+  },
+  {
+    "id": "south-pars-gas",
+    "city": "South Pars / Asaluyeh (Bushehr Province)",
+    "lat": 27.4800,
+    "lng": 52.6000,
+    "type": "us_strike",
+    "subtype": "energy_infrastructure",
+    "actor": "israel_us_coordinated",
+    "targets": [
+      "South Pars natural gas field — Phases 3, 4, 5, 6",
+      "Asaluyeh processing hub",
+      "Two associated refineries"
+    ],
+    "first_strike": "2026-03-18",
+    "casualties_reported": "Unknown — infrastructure target",
+    "casualties_source": "Bloomberg / Axios",
+    "active_days": [19],
+    "notes": "CRITICAL ESCALATION — First strike on Iran's upstream energy infrastructure since Operation Epic Fury began. Israeli Air Force with explicit US coordination struck South Pars Phases 3/4/5/6 and Asaluyeh hub early Wednesday March 18. Two refineries taken offline with combined capacity of ~100 million cubic meters/day of gas — roughly one-fifth of the field's total capacity. South Pars is the world's largest natural gas field, shared with Qatar's North Dome reserves. Qatar immediately condemned the strike. Crosses a line Trump had previously drawn — he said he spared Kharg Island oil facilities 'for reasons of decency.' Bloomberg confirmed oil facilities also hit. IRGC issued 'urgent warning' naming SAMREF, Jubail, Al Hosn, Mesaieed, Ras Laffan as retaliatory targets. Brent spiked to $108.78; TTF gas +7.9%."
+  },
+  {
+    "id": "hormuz-coastal-march17",
+    "city": "Strait of Hormuz Coastline",
+    "lat": 26.4000,
+    "lng": 56.4000,
+    "type": "us_strike",
+    "actor": "us",
+    "targets": [
+      "Hardened Iranian anti-ship cruise missile sites along Hormuz coastline"
+    ],
+    "first_strike": "2026-03-17",
+    "casualties_reported": "Unknown — military targets",
+    "casualties_source": "CENTCOM via social media",
+    "active_days": [18],
+    "notes": "CENTCOM announced via social media that US forces employed multiple 5,000-pound deep penetrator munitions against hardened Iranian anti-ship cruise missile sites along the Strait of Hormuz coastline. CENTCOM stated the missiles 'posed a risk to international shipping in the strait.' No formal CENTCOM press releases published March 17-18; last official release dates to March 14."
+  },
+  {
+    "id": "tehran-north-residential-march18",
+    "city": "Tehran (Northern neighborhood)",
+    "lat": 35.7600,
+    "lng": 51.4000,
+    "type": "us_strike",
+    "subtype": "civilian_casualty",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Northern Tehran neighborhood — target unknown"
+    ],
+    "first_strike": "2026-03-18",
+    "casualties_reported": "2+ killed",
+    "casualties_source": "Iranian state media / CNN live updates",
+    "active_days": [19],
+    "notes": "Iranian state media reported early Wednesday strikes on northern Tehran neighborhood. Emergency crews recovered two bodies. Part of continued bombardment of Tehran that has killed 460+ in the capital since Day 1."
+  },
+  {
+    "id": "bushehr-nuclear-march18",
+    "city": "Bushehr Nuclear Power Plant",
+    "lat": 28.8300,
+    "lng": 50.8900,
+    "type": "us_strike",
+    "actor": "unknown",
+    "targets": [
+      "Bushehr Nuclear Power Plant — projectile strike"
+    ],
+    "first_strike": "2026-03-18",
+    "casualties_reported": "No injuries per IAEA/Rosatom",
+    "casualties_source": "IAEA / Rosatom / multiple",
+    "active_days": [19],
+    "notes": "Projectile struck Bushehr nuclear power plant on March 18. No injuries reported per IAEA and Rosatom. ~480 Russian citizens remain on site. FLAG: single-source on specifics. Separate from earlier Day 1-2 perimeter strikes tracked under bushehr-nuclear entry."
+  },
+  {
+    "id": "larijani-killing",
+    "city": "Unknown location (Iran)",
+    "lat": 35.6900,
+    "lng": 51.3900,
+    "type": "us_strike",
+    "subtype": "targeted_killing",
+    "actor": "israel",
+    "targets": [
+      "Ali Larijani — Secretary of Supreme National Security Council"
+    ],
+    "first_strike": "2026-03-17",
+    "casualties_reported": "Ali Larijani killed — confirmed by Iranian state media",
+    "casualties_source": "Al Jazeera / Times of Israel / CNN / CBS",
+    "active_days": [18],
+    "notes": "Third most senior Iranian official killed since the war began. Funeral procession drew thousands March 18."
+  },
+  {
+    "id": "soleimani-basij-killing",
+    "city": "Unknown location (Iran)",
+    "lat": 35.6800,
+    "lng": 51.4000,
+    "type": "us_strike",
+    "subtype": "targeted_killing",
+    "actor": "israel",
+    "targets": [
+      "Gholamreza Soleimani — Basij paramilitary organization chief"
+    ],
+    "first_strike": "2026-03-17",
+    "casualties_reported": "Gholamreza Soleimani killed — confirmed by Iranian state media",
+    "casualties_source": "Al Jazeera / Times of Israel",
+    "active_days": [18],
+    "notes": "Fourth most senior Iranian official killed since the war began. Killed same day as Larijani."
+  },
+  {
+    "id": "khatib-killing",
+    "city": "Unknown location (Iran)",
+    "lat": 35.7000,
+    "lng": 51.3800,
+    "type": "us_strike",
+    "subtype": "targeted_killing",
+    "actor": "israel",
+    "targets": [
+      "Esmail Khatib — Intelligence Minister"
+    ],
+    "first_strike": "2026-03-18",
+    "casualties_reported": "Esmail Khatib killed — confirmed by Iranian state media",
+    "casualties_source": "NPR / Al Jazeera / Times of Israel",
+    "active_days": [19],
+    "notes": "Fifth most senior Iranian official killed since the war began. Third killed in 24 hours (after Larijani and Soleimani on March 17). Systematic decapitation of Iranian leadership continues without producing capitulation."
   }
 ]

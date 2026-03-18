@@ -33,15 +33,15 @@ WarTheater.Humanitarian = {
 
   // ─── CASUALTIES BY DAY ────────────────────────────────────
   // AUDIT NOTE: Iranian killed scaled to Health Ministry total of 1,444+ through Day 15.
-  // Hengaw: 4,400+ military killed as of Day 15. Lebanese: 826+ through Day 18 per
-  // Lebanese Health Ministry. US: 13 killed (7 hostile + 6 KC-135). All daily values
-  // are estimates from ACLED, IRNA, Lebanese Health Ministry, DoD; exact figures are
-  // unknowable in an active conflict.
+  // Hengaw: 4,400+ military killed as of Day 15. Lebanese: 920+ through Day 19 per
+  // Lebanese Health Ministry. Israeli: 16+ killed, 3,400+ wounded. US: 13 killed (7 hostile + 6 KC-135).
+  // Gulf states: 11+ killed (268+ injuries), predominantly migrant workers (HRW).
+  // All daily values are estimates from ACLED, IRNA, Lebanese Health Ministry, DoD.
   renderCasualtiesChart() {
     var ctx = document.getElementById('chart-casualties');
     if (!ctx) return;
 
-    var labels = ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13', 'Mar 14', 'Mar 15', 'Mar 16', 'Mar 17'];
+    var labels = ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11', 'Mar 12', 'Mar 13', 'Mar 14', 'Mar 15', 'Mar 16', 'Mar 17', 'Mar 18'];
     var defaults = WarTheater.Utils.chartDefaults();
 
     var dayContexts = [
@@ -61,8 +61,9 @@ WarTheater.Humanitarian = {
       'Day 14 — Kharg Island struck; Fujairah fire; AUMF debate; 15,000+ targets',
       'Day 15 — Continued sporadic fire; 7 ballistic salvos at Israel',
       'Day 16 — Conflict enters third week; cumulative cost ~$20B',
-      'Day 18 — Dubai airport struck; 1 killed Abu Dhabi; Brent $106; 56% oppose war',
-      'Day 18 — Brent pulls back to $101; S&P recovers; Ford fire contained; war cost ~$21.7B'
+      'Day 17 — Larijani + Soleimani killed; 2 Israeli civilians Ramat Gan; Dubai airport struck; Brent $106',
+      'Day 18 — Brent pulls back to $101; S&P recovers; Ford fire contained; war cost ~$21.7B',
+      'Day 19 — South Pars struck; Khatib killed; IRGC threatens Gulf energy; Brent $108; 3,200 vessels stranded'
     ];
 
     this.charts.casualties = new Chart(ctx, {
@@ -72,7 +73,7 @@ WarTheater.Humanitarian = {
         datasets: [
           {
             label: 'Iranian Military',
-            data: [65, 98, 122, 106, 90, 82, 73, 114, 98, 65, 65, 78, 91, 95, 80, 70, 65, 60],
+            data: [65, 98, 122, 106, 90, 82, 73, 114, 98, 65, 65, 78, 91, 95, 80, 70, 65, 60, 55],
             backgroundColor: 'rgba(184, 28, 28, 0.6)',
             borderColor: '#b81c1c',
             borderWidth: 1,
@@ -80,7 +81,7 @@ WarTheater.Humanitarian = {
           },
           {
             label: 'Iranian Civilian',
-            data: [5, 10, 15, 12, 35, 20, 15, 25, 18, 10, 8, 45, 20, 20, 15, 10, 8, 8],
+            data: [5, 10, 15, 12, 35, 20, 15, 25, 18, 10, 8, 45, 20, 20, 15, 10, 8, 8, 10],
             backgroundColor: 'rgba(255, 255, 255, 0.35)',
             borderColor: '#ffffff',
             borderWidth: 1,
@@ -88,7 +89,7 @@ WarTheater.Humanitarian = {
           },
           {
             label: 'US Military',
-            data: [0, 6, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0],
+            data: [0, 6, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0],
             backgroundColor: 'rgba(74, 158, 255, 0.6)',
             borderColor: '#4a9eff',
             borderWidth: 1,
@@ -96,7 +97,7 @@ WarTheater.Humanitarian = {
           },
           {
             label: 'Lebanese (all)',
-            data: [0, 0, 44, 58, 64, 68, 61, 75, 58, 48, 40, 54, 85, 65, 55, 50, 48, 45],
+            data: [0, 0, 44, 58, 64, 68, 61, 75, 58, 48, 40, 54, 85, 65, 55, 50, 48, 45, 50],
             backgroundColor: 'rgba(123, 63, 160, 0.6)',
             borderColor: '#7b3fa0',
             borderWidth: 1,
@@ -104,7 +105,7 @@ WarTheater.Humanitarian = {
           },
           {
             label: 'Israeli Military',
-            data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 6, 2, 0, 2, 1],
+            data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 6, 2, 0, 2, 1, 1],
             backgroundColor: 'rgba(255, 200, 50, 0.6)',
             borderColor: '#ffc832',
             borderWidth: 1,
@@ -181,11 +182,11 @@ WarTheater.Humanitarian = {
         detail: 'Grid disruptions across western Iran. Isfahan, Kermanshah, Ahvaz power infrastructure degraded. Civilian blackouts reported in multiple provinces.'
       },
       {
-        label: 'Oil Facilities Hit',
-        count: '3',
-        note: 'Kharg, Abadan + storage',
-        source: 'DoD / shipping data',
-        detail: '90% of Iran\'s oil export capacity targeted since March 7. Kharg Island terminal — which handles 90% of Iranian oil exports — effectively destroyed.'
+        label: 'Oil/Gas Facilities Hit',
+        count: '4+',
+        note: 'Kharg, Abadan, South Pars + storage',
+        source: 'DoD / Bloomberg / satellite imagery',
+        detail: '90% of Iran\'s oil export capacity targeted since March 7. Kharg Island terminal effectively destroyed. March 18: South Pars gas field Phases 3/4/5/6 struck — first upstream energy infrastructure — ~100M cm³/day gas offline. Two refineries halted at Asaluyeh hub. Qatar condemned (shared North Dome field).'
       },
       {
         label: 'Airports Damaged',
@@ -226,7 +227,7 @@ WarTheater.Humanitarian = {
     var defaults = WarTheater.Utils.chartDefaults();
 
     var conflictNotes = {
-      0: 'Operation Epic Fury — air + ground (Lebanon). 3 carrier groups. Hormuz effectively closed. 15,000+ targets struck. ~$21.7B spent. IDF ground ops at Bint Jbeil/Khiam.',
+      0: 'Operation Epic Fury — air + ground (Lebanon). 3 carrier groups. Hormuz effectively closed. ~20,000+ targets struck. ~$22.5B spent. South Pars energy strike. 5 senior officials killed. IDF ground invasion of Lebanon.',
       1: 'Operation Iraqi Freedom — "shock and awe" + ground invasion. 300,000 troops deployed.',
       2: 'Operation Odyssey Dawn / Unified Protector — NATO no-fly zone. Limited US role.',
       3: 'Operation Desert Storm — 38-day air campaign + 100-hour ground war. 700,000 coalition troops.'
@@ -235,11 +236,11 @@ WarTheater.Humanitarian = {
     this.charts.historical = new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: ['Iran 2026 (Day 18)', 'Iraq 2003 (Day 18)', 'Libya 2011 (Day 18)', 'Gulf 1991 (Day 18)'],
+        labels: ['Iran 2026 (Day 19)', 'Iraq 2003 (Day 19)', 'Libya 2011 (Day 19)', 'Gulf 1991 (Day 19)'],
         datasets: [
           {
             label: 'Targets Struck',
-            data: [15000, 18000, 650, 25000],
+            data: [20000, 19000, 700, 26000],
             backgroundColor: 'rgba(212, 120, 42, 0.5)',
             borderColor: '#d4782a',
             borderWidth: 1
