@@ -1069,5 +1069,203 @@
     "category": "military",
     "source": "USNI / Lloyd's List / Pentagon / Reuters",
     "data_point": "97% traffic reduction — 0 allied warships committed — ~3 transits/day"
+  },
+  {
+    "date": "2026-03-17",
+    "time": "08:00",
+    "title": "Israel kills Ali Larijani (SNSC Secretary) and Basij chief Soleimani",
+    "description": "Israeli airstrikes killed Ali Larijani (Secretary of Iran's Supreme National Security Council) and Gholamreza Soleimani (Basij paramilitary chief) — the third and fourth most senior Iranian officials killed since the war began. Confirmed by Iranian state media. Funeral procession for Larijani drew thousands on March 18.",
+    "category": "military",
+    "source": "Al Jazeera / Times of Israel / CNN / CBS News",
+    "data_point": "3rd and 4th most senior officials killed — systematic decapitation"
+  },
+  {
+    "date": "2026-03-17",
+    "time": "10:00",
+    "title": "Iran retaliatory barrage kills 2 Israeli civilians in Ramat Gan",
+    "description": "IRGC launched '57th wave of Operation True Promise 4' — combined drone/missile attacks on Israel and Gulf states. Two Israeli civilians (couple in their 70s) killed in Ramat Gan by cluster-munition warheads from a ballistic missile. 25-year-old wounded by shrapnel in Bnei Brak. Tel Aviv train station damaged. Cumulative Israeli casualties: 16+ killed, 3,400+ wounded. ~50% of ballistic missiles now carry cluster warheads. 290 of 410-440 Iranian launch vehicles destroyed.",
+    "category": "military",
+    "source": "NPR / Times of Israel / PressTV / IDF",
+    "data_point": "2 Israeli civilians killed — 16+ total killed — 50% cluster warhead use"
+  },
+  {
+    "date": "2026-03-17",
+    "time": "11:00",
+    "title": "US destroys Hormuz coastal missile sites with 5,000-lb penetrators",
+    "description": "CENTCOM announced US forces employed multiple 5,000-pound deep penetrator munitions against hardened Iranian anti-ship cruise missile sites along the Strait of Hormuz coastline. CENTCOM stated missiles 'posed a risk to international shipping.' No formal press releases since March 14.",
+    "category": "military",
+    "source": "CENTCOM via social media / Jerusalem Post",
+    "data_point": "5,000-lb penetrator munitions on hardened Hormuz missile sites"
+  },
+  {
+    "date": "2026-03-17",
+    "time": "12:00",
+    "title": "Gulf infrastructure attacks — Fujairah (4th), Abu Dhabi, Umm Al Quwain, tanker struck",
+    "description": "Iran continued attacking Gulf targets: Drone hit Fujairah Oil Industry Zone (4th attack since Mar 9). Drone struck Abu Dhabi Shah oil field. Missile killed Palestinian civilian in Al Bahyan, Abu Dhabi. Drone attacked Umm Al Quwain residential building. Kuwait-flagged LPG tanker Gas Al Ahmadiah struck 23nm east of Fujairah (17th vessel attack). UAE total: 314 ballistic missiles, 15 cruise missiles, 1,672 drones since Feb 28. 11+ Gulf state civilian deaths (268+ injuries).",
+    "category": "military",
+    "source": "UKMTO / Al Jazeera / CNBC / HRW",
+    "data_point": "17th vessel attack — 314 ballistic + 15 cruise + 1,672 drones at UAE"
+  },
+  {
+    "date": "2026-03-17",
+    "time": "13:00",
+    "title": "USS Tripoli transits Singapore Strait — ~1 week from theater",
+    "description": "Reuters footage confirmed USS Tripoli (LHA-7) passing through Singapore Strait. Carrying 31st MEU (~2,200 Marines) with F-35B Lightning IIs (VMFA-121), MV-22B Ospreys, attack helicopters. Escorted by USS Robert Smalls (CG-62) and USS Rafael Peralta (DDG-115). ETA operations area approximately one week. MEU capable of amphibious assault and maritime platform seizure.",
+    "category": "military",
+    "source": "Reuters / CNN / Nation Thailand / USNI",
+    "data_point": "Singapore Strait transit — 2,200 Marines — ETA ~1 week"
+  },
+  {
+    "date": "2026-03-17",
+    "time": "15:00",
+    "title": "NCTC Director Joe Kent resigns — says war started 'due to Israeli lobby pressure'",
+    "description": "National Counterterrorism Center Director Joe Kent resigned, stating the war was started 'due to pressure from Israel and its powerful American lobby.' Trump called it a 'good thing.'",
+    "category": "domestic",
+    "source": "Fox News / CNN / multiple",
+    "data_point": "First senior resignation citing Israeli influence"
+  },
+  {
+    "date": "2026-03-17",
+    "time": "16:00",
+    "title": "Trump renounces allied help — 'WE DO NOT NEED THE HELP OF ANYONE'",
+    "description": "Trump posted on Truth Social rebuking Japan, Australia, South Korea: 'WE DO NOT NEED THE HELP OF ANYONE.' Suggested leaving NATO. Every named ally has declined to send warships for Hormuz escort.",
+    "category": "diplomatic",
+    "source": "Truth Social / multiple",
+    "data_point": "All allies declined — Trump threatens NATO departure"
+  },
+  {
+    "date": "2026-03-17",
+    "time": "17:00",
+    "title": "Israel launches ground invasion of southern Lebanon",
+    "description": "IDF launched ground invasion of southern Lebanon, concurrent with Iran campaign. This expands the multi-front war to include a full ground operation beyond the air campaign that began March 2.",
+    "category": "military",
+    "source": "Al Jazeera / Times of Israel",
+    "data_point": "Ground invasion concurrent with Iran air campaign"
+  },
+  {
+    "date": "2026-03-17",
+    "time": "18:00",
+    "title": "Amnesty confirms US responsible for Minab school strike — 168-170 girls killed",
+    "description": "Amnesty International published investigation confirming US responsibility for the Minab school strike on Day 1 (February 28). Revised death toll to 168-170 schoolgirls killed. Pentagon investigation still underway months later.",
+    "category": "humanitarian",
+    "source": "Amnesty International / NPR / NYT",
+    "data_point": "168-170 schoolgirls confirmed killed — US confirmed responsible"
+  },
+  {
+    "date": "2026-03-17",
+    "time": "19:00",
+    "title": "UK shares Hormuz coalition plan with allies",
+    "description": "UK drafted a Hormuz escort coalition plan and shared it with the US and allies. However, UK has not committed its own forces. Plan shared via diplomatic channels.",
+    "category": "diplomatic",
+    "source": "Axios / Barak Ravid",
+    "data_point": "UK plan drafted but no forces committed"
+  },
+  {
+    "date": "2026-03-18",
+    "time": "04:00",
+    "title": "CRITICAL: South Pars gas field struck — first upstream energy infrastructure hit",
+    "description": "Israeli Air Force, operating with explicit US coordination, struck Iran's South Pars natural gas field infrastructure and the Asaluyeh processing hub in Bushehr province. Phases 3, 4, 5, and 6 taken offline to control fires, halting two refineries with combined capacity of ~100 million cubic meters/day of gas — roughly one-fifth of the field's total capacity. First strike on Iran's upstream energy infrastructure since Operation Epic Fury began, crossing a line Trump had previously drawn. Qatar condemned the strike — South Pars is shared with Qatar's North Dome reserves.",
+    "category": "military",
+    "source": "Bloomberg / Axios / Jerusalem Post / Saudi Gazette",
+    "data_point": "~100M cm³/day gas offline — first upstream energy strike — Qatar condemns"
+  },
+  {
+    "date": "2026-03-18",
+    "time": "06:00",
+    "title": "Israel kills Intelligence Minister Esmail Khatib — 3rd official in 24 hours",
+    "description": "Israeli strike killed Iranian Intelligence Minister Esmail Khatib — the fifth most senior Iranian official killed since the war began and the third in just 24 hours (after Larijani and Soleimani on March 17). Confirmed by Iranian state media.",
+    "category": "military",
+    "source": "NPR / Al Jazeera / Times of Israel",
+    "data_point": "5th senior official killed — 3 in 24 hours — systematic decapitation"
+  },
+  {
+    "date": "2026-03-18",
+    "time": "07:00",
+    "title": "IRGC threatens Gulf energy targets — names SAMREF, Jubail, Al Hosn, Ras Laffan",
+    "description": "Following South Pars strike, IRGC issued 'urgent warning' declaring specific Gulf energy facilities as 'direct and legitimate targets in the coming hours': Saudi Arabia's SAMREF Refinery and Jubail Petrochemical Complex, UAE's Al Hosn Gas Field, Qatar's Mesaieed and Ras Laffan facilities. Civilians and workers urged to 'immediately leave.'",
+    "category": "military",
+    "source": "Fars News / CNBC / multiple",
+    "data_point": "Named 5 Gulf energy facilities as imminent targets"
+  },
+  {
+    "date": "2026-03-18",
+    "time": "08:00",
+    "title": "Brent crude spikes to $108.78 on South Pars news — European gas TTF +7.9%",
+    "description": "Brent spiked to $108.78/barrel (+5.6%) on South Pars strike before easing slightly on Iraq-Kurdistan pipeline deal news. WTI traded around $94-96. European gas benchmark TTF jumped 7.9% on South Pars fears. Bitcoin fell below $73,000. Pre-war Brent was ~$67-71/barrel; intraday conflict high was $119.50 on March 10. US gas averages $3.79/gallon (+27%), CA above $5, diesel $5.04 (+34%).",
+    "category": "financial",
+    "source": "Fortune / Bloomberg / CNBC",
+    "data_point": "Brent $108.78 spike — TTF +7.9% — gas $3.79/gal — diesel $5.04"
+  },
+  {
+    "date": "2026-03-18",
+    "time": "09:00",
+    "title": "US Embassy Baghdad attacked by explosive drones",
+    "description": "Explosive drones targeted the US Embassy compound in Baghdad, triggering sirens. Explosion heard near the diplomatic compound.",
+    "category": "military",
+    "source": "Reuters / CNBC",
+    "data_point": "Baghdad embassy compound attacked"
+  },
+  {
+    "date": "2026-03-18",
+    "time": "10:00",
+    "title": "IMO emergency session — 3,200 vessels, 20,000 seafarers stranded",
+    "description": "IMO convened emergency session in London reporting ~3,200 vessels and ~20,000 seafarers stranded west of the Strait of Hormuz. CBS/60 Minutes: ~700 ships including 400 oil tankers holding 200 million barrels. Lloyd's List: 60 VLCCs (8% of global compliant fleet). Secretary-General Dominguez: 'unacceptable and unsustainable.' Proposed non-binding safe maritime corridor resolution. Insurance premiums at ~5% of vessel value (100x increase).",
+    "category": "financial",
+    "source": "Euronews / CNBC / IMO / CBS / Lloyd's List",
+    "data_point": "3,200 vessels — 20,000 seafarers — 60 VLCCs — 200M barrels stranded"
+  },
+  {
+    "date": "2026-03-18",
+    "time": "11:00",
+    "title": "Iraq-Kurdistan pipeline restarts at ~250,000 bpd — marginal but symbolic",
+    "description": "Iraq resumed oil exports from Kirkuk to Turkey's Ceyhan port at ~250,000 bpd, with potential to reach 450,000 bpd. KRG PM Barzani cited 'extraordinary circumstances.' This represents only 6-13% of Iraq's pre-war southern export volumes (3.4 million bpd from Basra, now halted). Brent briefly eased 1.38% on the news.",
+    "category": "financial",
+    "source": "The National / Iraq Business News",
+    "data_point": "250,000 bpd — potential 450,000 — 6-13% of pre-war Basra exports"
+  },
+  {
+    "date": "2026-03-18",
+    "time": "12:00",
+    "title": "Ford heading to Souda Bay, Crete — MCM ships in Malaysia — MCM crisis",
+    "description": "USS Ford transiting to Souda Bay, Crete for 1+ week pierside repairs. ~200 sailors treated for smoke inhalation, ~600 displaced. ~267 days deployed, approaching post-Vietnam record. CRITICAL MCM GAP: 2 of 3 LCS MCM ships (Tulsa, Santa Barbara) spotted in Penang, Malaysia. 4 Avenger-class minesweepers decommissioned Jan 2026. Washington Institute: 16 MCM vessels needed, Navy has 7. Iran retains 80%+ of minelayers.",
+    "category": "military",
+    "source": "USNI / Navy Times / Reuters / Washington Institute",
+    "data_point": "Ford down for 1+ week — 2/3 MCM ships in Malaysia — 16 needed, 7 available"
+  },
+  {
+    "date": "2026-03-18",
+    "time": "13:00",
+    "title": "Tehran residential strike kills at least 2 — Bushehr nuclear plant hit",
+    "description": "Iranian state media reported early Wednesday strikes on northern Tehran neighborhood; emergency crews recovered two bodies. Separately, a projectile struck the Bushehr nuclear power plant — no injuries per IAEA/Rosatom. ~480 Russian citizens remain on site.",
+    "category": "humanitarian",
+    "source": "CNN live updates / IAEA / Rosatom",
+    "data_point": "2+ killed Tehran — Bushehr nuclear plant struck — 480 Russians on site"
+  },
+  {
+    "date": "2026-03-18",
+    "time": "14:00",
+    "title": "War cost reaches ~$22.5B — S&P 500 at 6,677 — energy war premium",
+    "description": "Cumulative war cost estimated at ~$22.5 billion through Day 19. S&P 500 at 6,677.00 (-2.9% from pre-war). Defense and oil sectors surge on energy war escalation while airlines decline further. IRGC Gulf energy threats introduce new risk tier for markets.",
+    "category": "financial",
+    "source": "Pentagon / CSIS / Penn Wharton / CNBC",
+    "data_point": "~$22.5B cumulative — S&P 6,677 — energy war reshapes markets"
+  },
+  {
+    "date": "2026-03-18",
+    "time": "15:00",
+    "title": "Iran FM Araghchi: 'We need new arrangements for the Strait of Hormuz'",
+    "description": "Iranian Foreign Minister Araghchi told Al Jazeera 'We need to design new arrangements for the Strait of Hormuz,' signaling Iran views the strait as its most powerful remaining leverage and will not relinquish control cheaply.",
+    "category": "diplomatic",
+    "source": "Al Jazeera",
+    "data_point": "Iran signals Hormuz as primary leverage — no intent to reopen"
+  },
+  {
+    "date": "2026-03-18",
+    "time": "16:00",
+    "title": "Mojtaba Khamenei status unknown — not seen since March 8",
+    "description": "Iran's new Supreme Leader Mojtaba Khamenei has not been seen publicly since his appointment on March 8. Leaked audio suggests minor leg injury. Hegseth claims 'wounded and likely disfigured.' Trump questioned whether he is alive. No new public statement issued. Command authority in Tehran unclear — IRGC may be operating independently.",
+    "category": "domestic",
+    "source": "Multiple sources",
+    "data_point": "Not seen in 10 days — health unknown — IRGC possibly autonomous"
   }
 ]
