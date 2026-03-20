@@ -41,19 +41,15 @@ The model is the [Johns Hopkins COVID-19 Dashboard](https://coronavirus.jhu.edu/
 └─────────────────────────────────────────────────────────┘
 ```
 
-The dashboard reads ALL data from JSON files in `public/data/`. No data lives in HTML or JS — code is presentation only. See `ops/protocol.md` for the full operational protocol.
+The dashboard reads ALL data from 15 JSON files in `public/data/`. No data lives in HTML or JS — code is presentation only. See `ops/protocol.md` for the full operational protocol.
 
 **Data sources:**
 - **Financial**: FRED, Yahoo Finance, Bloomberg, ICE, NYMEX, AAA, GasBuddy
-- **Military/Conflict**: ACLED, CENTCOM, DoD press releases
+- **Military/Conflict**: ACLED, CENTCOM, DoD press releases, USNI Fleet Tracker
 - **Humanitarian**: UNHCR, OCHA, ICRC, Iranian Red Crescent
 - **News Wire**: Reuters, AP, Al Jazeera, Times of Israel
 
 Updates are published **once daily**, typically mornings US Eastern.
-
-### Future: Live API Integration
-
-The architecture includes a Cloudflare Worker (`/worker`) designed to serve live data from financial and conflict APIs. The worker routes exist (`/api/markets`, `/api/oil`, `/api/timeline`, etc.) and the caching layer is built. API keys are referenced but not yet connected. This is a known limitation, not a bug.
 
 ---
 
@@ -78,11 +74,27 @@ WarTheater/
 ├── public/                    # Static site (Cloudflare Pages deploy root)
 │   ├── index.html             # Main dashboard
 │   ├── archive.html           # Briefing archive
-│   ├── css/                   # design-system, animations, responsive
-│   ├── js/                    # app, map, financial, timeline, etc.
-│   ├── img/                   # SVG assets
-│   └── data/                  # ALL dashboard data (agent update target)
-│       ├── hero-stats.json          # Hero panel metrics (daily snapshot)
+│   ├── _headers               # Cloudflare Pages headers
+│   ├── _redirects              # SPA fallback
+│   ├── css/
+│   │   ├── design-system.css  # Core design tokens and layout
+│   │   ├── animations.css     # Transitions and keyframes
+│   │   └── responsive.css     # Mobile/tablet breakpoints
+│   ├── js/
+│   │   ├── app.js             # Boot sequence and navigation
+│   │   ├── data.js            # Data loader (fetches all 15 JSONs)
+│   │   ├── map.js             # Leaflet map + strike/carrier layers
+│   │   ├── financial.js       # Oil, markets, Hormuz, cost charts
+│   │   ├── humanitarian.js    # Casualties, infrastructure, comparison
+│   │   ├── calculator.js      # Gas cost calculator
+│   │   ├── timeline.js        # Conflict timeline
+│   │   ├── briefing.js        # Daily briefing loader
+│   │   └── utils.js           # Shared utilities
+│   ├── img/
+│   │   ├── us-flag.svg
+│   │   └── iran-flag.svg
+│   └── data/                  # ALL dashboard data (update target)
+│       ├── hero-stats.json          # Hero panel metrics + history
 │       ├── strikes-iran.json        # U.S./Israeli strike locations
 │       ├── strikes-retaliation.json # Iranian retaliation strikes
 │       ├── carriers.json            # Naval force disposition
@@ -90,13 +102,13 @@ WarTheater/
 │       ├── baselines.json           # Pre-war financial baselines
 │       ├── hormuz.json              # Strait of Hormuz incidents
 │       ├── oil-prices.json          # Oil price time series
-│       ├── markets.json             # S&P 500 series + contexts
-│       ├── war-costs.json           # Daily war cost + notes
+│       ├── markets.json             # S&P 500 + sector indices
+│       ├── war-costs.json           # Daily war cost + tanker transits
 │       ├── casualties.json          # Daily casualty breakdown
-│       ├── infrastructure.json      # Infrastructure damage
+│       ├── infrastructure.json      # Infrastructure damage grid
 │       ├── historical-comparison.json
 │       ├── global-bases.json        # US military base locations
-│       ├── calculator.json          # Gas cost calculator config
+│       ├── calculator.json          # Gas calculator config
 │       └── briefings/               # Daily HTML briefings + index.json
 │
 ├── ops/                       # Operational protocol
@@ -106,33 +118,26 @@ WarTheater/
 │       ├── phase1-deep-research.md   # Claude Deep Research template
 │       └── phase2-code-execution.md  # Claude Code agent template
 │
-├── scripts/                   # Helpers
-│   ├── validate-data.sh       # Validate all JSON data files
-│   └── war-day.sh             # Calculate current war day
+├── scripts/
+│   ├── validate-data.sh       # Validate all 15 JSON data files
+│   └── war-day.sh             # Calculate current war day number
 │
 ├── updates/                   # Historical update tracking
 │   ├── manifests/             # Archived update manifests
-│   └── YYYY-MM-DD*/           # Per-day logs and corrections
+│   └── YYYY-MM-DD*/           # Per-day update logs and corrections
 │
-├── worker/                    # Cloudflare Worker API (future)
-│   ├── src/
-│   │   ├── index.js           # Router
-│   │   ├── routes/            # API route handlers
-│   │   └── lib/               # Cache, CORS, Claude integration
-│   └── wrangler.toml          # Worker configuration
-│
-├── CLAUDE.md                  # Agent context for Claude Code sessions
+├── CLAUDE.md                  # Agent context (auto-read by Claude Code)
 └── README.md
 ```
 
 ### Tech Stack
 
-- **Hosting**: Cloudflare Pages (static) + Cloudflare Workers (API, future)
+- **Hosting**: Cloudflare Pages (static)
 - **Maps**: Leaflet.js with OpenStreetMap
 - **Charts**: Chart.js 4.x
 - **Fonts**: Barlow Condensed, JetBrains Mono, IBM Plex Sans
-- **AI**: Claude (Anthropic) for data enrichment, briefing generation, and build assistance
-- **No framework**. No build step. No npm for the frontend. Just HTML, CSS, and vanilla JS.
+- **AI**: Claude (Anthropic) for research, data enrichment, and code execution
+- **No framework**. No build step. No npm. Just HTML, CSS, and vanilla JS.
 
 ---
 

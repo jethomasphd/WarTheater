@@ -42,6 +42,176 @@
       "tooltip": "Cumulative estimated cost since Feb 28. Pentagon: $11.3B through Day 6. CSIS: $16.5B through Day 12. Extrapolated through Day 20. Does not include VA costs or economic impact ($50-210B per Penn Wharton). Source: Pentagon / CSIS / Penn Wharton."
     }
   },
+  "history": [
+    {
+      "date": "2026-02-27", "war_day": 0, "label": "Pre-war baseline",
+      "brent": 71.00, "wti": 66.50, "gas": 2.98, "sp500": 6878.88,
+      "daily_cost_millions": null, "total_cost_billions": null,
+      "targets_struck": null, "us_kia": 0, "us_wia": 0,
+      "iranian_killed": null, "lebanese_killed": null,
+      "displaced": null, "flights_cancelled": null, "children_killed": null
+    },
+    {
+      "date": "2026-02-28", "war_day": 1,
+      "brent": null, "wti": null, "gas": null, "sp500": null,
+      "daily_cost_millions": 3000, "total_cost_billions": 3.0,
+      "targets_struck": null, "us_kia": 0, "us_wia": null,
+      "iranian_killed": null, "lebanese_killed": null,
+      "displaced": null, "flights_cancelled": null, "children_killed": null
+    },
+    {
+      "date": "2026-03-01", "war_day": 2,
+      "brent": null, "wti": null, "gas": null, "sp500": null,
+      "daily_cost_millions": 2600, "total_cost_billions": 5.6,
+      "targets_struck": null, "us_kia": 6, "us_wia": null,
+      "iranian_killed": null, "lebanese_killed": null,
+      "displaced": null, "flights_cancelled": null, "children_killed": null
+    },
+    {
+      "date": "2026-03-02", "war_day": 3,
+      "brent": 77.74, "wti": 71.23, "gas": null, "sp500": 6878.88,
+      "daily_cost_millions": 2000, "total_cost_billions": 7.6,
+      "targets_struck": null, "us_kia": 6, "us_wia": null,
+      "iranian_killed": null, "lebanese_killed": null,
+      "displaced": null, "flights_cancelled": null, "children_killed": null
+    },
+    {
+      "date": "2026-03-03", "war_day": 4,
+      "brent": 81.40, "wti": 74.56, "gas": null, "sp500": 6817.01,
+      "daily_cost_millions": 1500, "total_cost_billions": 9.1,
+      "targets_struck": null, "us_kia": 6, "us_wia": null,
+      "iranian_killed": null, "lebanese_killed": null,
+      "displaced": null, "flights_cancelled": null, "children_killed": null
+    },
+    {
+      "date": "2026-03-04", "war_day": 5,
+      "brent": 82.50, "wti": 77.50, "gas": null, "sp500": 6872.09,
+      "daily_cost_millions": 1100, "total_cost_billions": 10.2,
+      "targets_struck": null, "us_kia": 6, "us_wia": null,
+      "iranian_killed": null, "lebanese_killed": null,
+      "displaced": null, "flights_cancelled": null, "children_killed": null
+    },
+    {
+      "date": "2026-03-05", "war_day": 6,
+      "brent": 82.73, "wti": 80.97, "gas": null, "sp500": 6831.15,
+      "daily_cost_millions": 1100, "total_cost_billions": 11.3,
+      "targets_struck": null, "us_kia": 6, "us_wia": null,
+      "iranian_killed": null, "lebanese_killed": null,
+      "displaced": null, "flights_cancelled": null, "children_killed": null
+    },
+    {
+      "date": "2026-03-06", "war_day": 7,
+      "brent": 92.66, "wti": 90.86, "gas": null, "sp500": 6739.30,
+      "daily_cost_millions": 1000, "total_cost_billions": 12.3,
+      "targets_struck": null, "us_kia": 6, "us_wia": null,
+      "iranian_killed": null, "lebanese_killed": null,
+      "displaced": null, "flights_cancelled": null, "children_killed": null
+    },
+    {
+      "date": "2026-03-07", "war_day": 8,
+      "brent": null, "wti": null, "gas": null, "sp500": null,
+      "daily_cost_millions": 900, "total_cost_billions": 13.2,
+      "targets_struck": null, "us_kia": 6, "us_wia": null,
+      "iranian_killed": null, "lebanese_killed": null,
+      "displaced": null, "flights_cancelled": null, "children_killed": null
+    },
+    {
+      "date": "2026-03-08", "war_day": 9,
+      "brent": null, "wti": null, "gas": null, "sp500": null,
+      "daily_cost_millions": 800, "total_cost_billions": 14.0,
+      "targets_struck": null, "us_kia": 7, "us_wia": null,
+      "iranian_killed": null, "lebanese_killed": null,
+      "displaced": null, "flights_cancelled": null, "children_killed": null
+    },
+    {
+      "date": "2026-03-09", "war_day": 10,
+      "brent": 98.96, "wti": 94.77, "gas": null, "sp500": 6796.39,
+      "daily_cost_millions": 800, "total_cost_billions": 14.8,
+      "targets_struck": null, "us_kia": 7, "us_wia": null,
+      "iranian_killed": null, "lebanese_killed": null,
+      "displaced": null, "flights_cancelled": null, "children_killed": null
+    },
+    {
+      "date": "2026-03-10", "war_day": 11,
+      "brent": 87.80, "wti": 83.45, "gas": null, "sp500": 6781.69,
+      "daily_cost_millions": 850, "total_cost_billions": 15.65,
+      "targets_struck": null, "us_kia": 7, "us_wia": null,
+      "iranian_killed": null, "lebanese_killed": null,
+      "displaced": null, "flights_cancelled": null, "children_killed": null
+    },
+    {
+      "date": "2026-03-11", "war_day": 12,
+      "brent": 91.98, "wti": 87.25, "gas": null, "sp500": 6775.80,
+      "daily_cost_millions": 850, "total_cost_billions": 16.5,
+      "targets_struck": null, "us_kia": 7, "us_wia": null,
+      "iranian_killed": null, "lebanese_killed": null,
+      "displaced": null, "flights_cancelled": null, "children_killed": null
+    },
+    {
+      "date": "2026-03-12", "war_day": 13,
+      "brent": 100.46, "wti": 95.73, "gas": null, "sp500": 6672.52,
+      "daily_cost_millions": 900, "total_cost_billions": 17.4,
+      "targets_struck": null, "us_kia": 13, "us_wia": null,
+      "iranian_killed": null, "lebanese_killed": null,
+      "displaced": null, "flights_cancelled": null, "children_killed": null
+    },
+    {
+      "date": "2026-03-13", "war_day": 14,
+      "brent": 103.14, "wti": 98.71, "gas": 3.82, "sp500": 6632.19,
+      "daily_cost_millions": 900, "total_cost_billions": 18.3,
+      "targets_struck": 15000, "us_kia": 13, "us_wia": 14,
+      "iranian_killed": 1500, "lebanese_killed": 720,
+      "displaced": 850000, "flights_cancelled": 19500, "children_killed": 125
+    },
+    {
+      "date": "2026-03-14", "war_day": 15,
+      "brent": null, "wti": null, "gas": 3.95, "sp500": null,
+      "daily_cost_millions": 850, "total_cost_billions": 19.15,
+      "targets_struck": null, "us_kia": 13, "us_wia": null,
+      "iranian_killed": null, "lebanese_killed": null,
+      "displaced": null, "flights_cancelled": null, "children_killed": null
+    },
+    {
+      "date": "2026-03-15", "war_day": 16,
+      "brent": null, "wti": null, "gas": null, "sp500": null,
+      "daily_cost_millions": 850, "total_cost_billions": 20.0,
+      "targets_struck": null, "us_kia": 13, "us_wia": null,
+      "iranian_killed": null, "lebanese_killed": null,
+      "displaced": null, "flights_cancelled": null, "children_killed": null
+    },
+    {
+      "date": "2026-03-16", "war_day": 17,
+      "brent": 106.18, "wti": 100.66, "gas": null, "sp500": 6668.90,
+      "daily_cost_millions": 850, "total_cost_billions": 20.85,
+      "targets_struck": null, "us_kia": 13, "us_wia": null,
+      "iranian_killed": null, "lebanese_killed": null,
+      "displaced": null, "flights_cancelled": null, "children_killed": null
+    },
+    {
+      "date": "2026-03-17", "war_day": 18,
+      "brent": 101.00, "wti": 96.50, "gas": 3.72, "sp500": 6734.87,
+      "daily_cost_millions": 850, "total_cost_billions": 21.7,
+      "targets_struck": 19000, "us_kia": 13, "us_wia": null,
+      "iranian_killed": null, "lebanese_killed": 920,
+      "displaced": 900000, "flights_cancelled": 24000, "children_killed": null
+    },
+    {
+      "date": "2026-03-18", "war_day": 19,
+      "brent": 108.43, "wti": 103.50, "gas": 3.79, "sp500": 6677.22,
+      "daily_cost_millions": 850, "total_cost_billions": 22.55,
+      "targets_struck": null, "us_kia": 13, "us_wia": null,
+      "iranian_killed": null, "lebanese_killed": null,
+      "displaced": null, "flights_cancelled": null, "children_killed": null
+    },
+    {
+      "date": "2026-03-19", "war_day": 20,
+      "brent": 100.82, "wti": 96.50, "gas": 3.86, "sp500": 6617.89,
+      "daily_cost_millions": 900, "total_cost_billions": 23.4,
+      "targets_struck": 21000, "us_kia": 13, "us_wia": 200,
+      "iranian_killed": 5300, "lebanese_killed": 968,
+      "displaced": 4200000, "flights_cancelled": 24000, "children_killed": 276
+    }
+  ],
   "toll": {
     "targets_struck": {
       "value": 21000,

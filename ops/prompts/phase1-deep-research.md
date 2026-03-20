@@ -5,12 +5,28 @@ dashboard tracking the 2026 U.S.-Iran conflict (Operation Epic Fury).
 
 Today is ________. The war began February 28, 2026 (Day 1). Today is Day ___.
 
-I am providing you with the current state of my 5 data files:
-- strikes-iran.json (U.S./Israeli strikes on Iranian territory)
-- strikes-retaliation.json (Iranian retaliation on U.S. bases, Gulf states, Israel)
-- carriers.json (U.S. naval force disposition)
-- timeline-events.json (Chronological conflict timeline)
-- financial-metrics.json (Economic/market impact data)
+I am providing you with the current state of the dashboard data files:
+
+CORE FILES (updated daily):
+- hero-stats.json — Hero panel metrics (cost + toll counters, labels, tooltips, history)
+- oil-prices.json — Oil price time series (Brent, WTI)
+- markets.json — S&P 500 + sector indices with trading day contexts
+- war-costs.json — Daily war cost estimates + tanker transit data
+- casualties.json — Daily casualty breakdown by nationality
+- timeline-events.json — Chronological conflict timeline
+- calculator.json — Gas cost calculator config (prices, state premiums)
+
+EVENT-DRIVEN FILES (updated as needed):
+- strikes-iran.json — U.S./Israeli strikes on Iranian territory
+- strikes-retaliation.json — Iranian retaliation on U.S. bases, Gulf states, Israel
+- carriers.json — U.S. naval force disposition
+- hormuz.json — Strait of Hormuz incidents
+- infrastructure.json — Infrastructure damage grid
+- global-bases.json — US military base locations
+- historical-comparison.json — Comparison with past conflicts
+
+REFERENCE FILE (rarely changes):
+- baselines.json — Pre-war financial baselines (Feb 27 snapshot)
 
 Your mission:
 1. Identify the most recent entry/date in each file (the "data horizon")
@@ -32,21 +48,34 @@ OPERATIONAL RULES
   Ministry, CENTCOM, ACLED, Hengaw, etc.). Never synthesize incompatible sources.
 - For strikes: Cross-reference Wikipedia's running article, Al Jazeera's
   live tracker, and ACLED event data where available.
+- For financial data: Use FRED, Yahoo Finance, ICE/NYMEX for oil, AAA for gas.
 
 RESEARCH DOMAINS
 ================
 For each domain, identify what has changed since the data horizon:
 
-1. STRIKES ON IRAN — New targets, updated casualties, new weapons employed,
-   corrections to existing entries
-2. IRANIAN RETALIATION — New IRGC/proxy strikes, Strait of Hormuz incidents,
-   Houthi/Hezbollah actions
-3. NAVAL FORCE DISPOSITION — CSG repositioning, escort changes, new deployments,
-   ship incidents (verify against USNI Fleet Tracker)
-4. TIMELINE EVENTS — Political/diplomatic developments, military escalations,
-   humanitarian milestones, economic events
-5. FINANCIAL METRICS — Oil prices (Brent/WTI), shipping costs, war spending,
-   defense stocks, humanitarian costs
+1. HERO STATS — Update the daily snapshot: oil prices, gas price, S&P 500,
+   daily/total war cost, toll counters (targets struck, KIA, WIA, displaced,
+   children killed, flights cancelled). Include labels, change indicators,
+   tooltips, and notes. Add a history entry for the new day.
+
+2. STRIKES ON IRAN — New targets, updated casualties, new weapons employed,
+   corrections to existing entries.
+
+3. IRANIAN RETALIATION — New IRGC/proxy strikes, Strait of Hormuz incidents,
+   Houthi/Hezbollah actions.
+
+4. NAVAL FORCE DISPOSITION — CSG repositioning, escort changes, new deployments,
+   ship incidents (verify against USNI Fleet Tracker).
+
+5. TIMELINE EVENTS — Political/diplomatic developments, military escalations,
+   humanitarian milestones, economic events.
+
+6. FINANCIAL DATA — Oil prices (Brent/WTI close), S&P 500 + sector indices,
+   war cost estimates, tanker transits, gas prices.
+
+7. HUMANITARIAN DATA — Casualty updates by nationality, infrastructure damage,
+   displacement figures.
 
 OUTPUT FORMAT — UPDATE MANIFEST
 ================================
@@ -61,19 +90,55 @@ A coding agent will consume this — precision and schema compliance are critica
 
 ### METADATA
 - Data horizon per file:
+  - hero-stats.json: war_day [N]
   - strikes-iran.json: last_updated [date]
   - strikes-retaliation.json: last_updated [date]
   - carriers.json: last_updated [date]
   - timeline-events.json: last entry [date]
-  - financial-metrics.json: last entry [date]
+  - oil-prices.json: last data point [date]
+  - markets.json: last trading day [date]
+  - war-costs.json: last day entry [N]
+  - casualties.json: last day entry [N]
+  - infrastructure.json: last_updated [date]
+  - calculator.json: current_gas [value]
 - Sources consulted: [list]
 - Confidence: [HIGH/MEDIUM/LOW per domain]
 
 ---
 
-### 1. STRIKES-IRAN UPDATES
+### 1. HERO-STATS UPDATES
 
-#### 1a. NEW ENTRIES
+#### 1a. CURRENT SNAPSHOT
+Provide the complete updated hero-stats snapshot values:
+
+```
+COST PANEL:
+  brent: price, change, label, tooltip
+  wti: price, change, label, tooltip
+  gas: price, change, label, tooltip
+  sp500: value, change, label, tooltip
+  daily_cost: value, unit, label, tooltip, note
+  total_cost: value, unit, label, tooltip, note
+
+TOLL PANEL:
+  targets_struck: value, label, note, tooltip
+  us_kia: value, label, note, tooltip
+  us_wia: value, label, note, tooltip
+  iranian_killed: value, label, note, tooltip
+  lebanese_killed: value, label, note, tooltip
+  displaced: value, label, note, tooltip
+  flights_cancelled: value, label, note, tooltip
+  children_killed: value, label, note, tooltip
+```
+
+#### 1b. HISTORY ENTRY
+New history object for today's war day (matches history array schema).
+
+---
+
+### 2. STRIKES-IRAN UPDATES
+
+#### 2a. NEW ENTRIES
 Provide COMPLETE JSON objects matching the file's schema:
 
 ```json
@@ -93,7 +158,7 @@ Provide COMPLETE JSON objects matching the file's schema:
 }
 ```
 
-#### 1b. MODIFICATIONS TO EXISTING ENTRIES
+#### 2b. MODIFICATIONS TO EXISTING ENTRIES
 
 ```
 ENTRY ID: [id]
@@ -103,19 +168,19 @@ NEW VALUE: [corrected value]
 REASON: [why, with source]
 ```
 
-#### 1c. GLOBAL UPDATES
+#### 2c. GLOBAL UPDATES
 File-level metadata changes (last_updated, summary fields).
 
 ---
 
-### 2. STRIKES-RETALIATION UPDATES
-[Same structure: 2a NEW ENTRIES, 2b MODIFICATIONS, 2c GLOBAL]
+### 3. STRIKES-RETALIATION UPDATES
+[Same structure: 3a NEW ENTRIES, 3b MODIFICATIONS, 3c GLOBAL]
 
 ---
 
-### 3. CARRIERS UPDATES
+### 4. CARRIERS UPDATES
 
-#### 3a. POSITION/STATUS CHANGES
+#### 4a. POSITION/STATUS CHANGES
 
 ```
 SHIP: [name] ([hull_number])
@@ -126,20 +191,20 @@ SOURCE: [USNI Fleet Tracker / CENTCOM / etc.]
 VERIFIED: [date]
 ```
 
-#### 3b. NEW ASSETS
+#### 4b. NEW ASSETS
 Complete JSON objects for newly deployed ships.
 
-#### 3c. ESCORT COMPOSITION CHANGES
+#### 4c. ESCORT COMPOSITION CHANGES
 Verified changes per CSG with source.
 
-#### 3d. REMOVALS
+#### 4d. REMOVALS
 Ships that have left theater.
 
 ---
 
-### 4. TIMELINE-EVENTS UPDATES
+### 5. TIMELINE-EVENTS UPDATES
 
-#### 4a. NEW EVENTS
+#### 5a. NEW EVENTS
 
 ```json
 {
@@ -155,24 +220,50 @@ Ships that have left theater.
 
 ---
 
-### 5. FINANCIAL-METRICS UPDATES
+### 6. FINANCIAL DATA UPDATES
 
-#### 5a. UPDATED VALUES
+#### 6a. OIL PRICES
+New data point for oil-prices.json (Brent and WTI arrays).
 
-```
-METRIC: [metric_name]
-DATE: [date]
-VALUE: [new value]
-SOURCE: [source]
-```
+#### 6b. MARKETS
+New trading day entry for markets.json (S&P 500, defense, oil majors, airlines indices + context).
+
+#### 6c. WAR COSTS
+New day entry for war-costs.json (daily cost, cumulative, note) + tanker transit data point.
+
+#### 6d. CALCULATOR
+Updated gas prices for calculator.json if changed (current_gas, war_increase).
 
 ---
 
-### 6. DISCREPANCIES & UNVERIFIED INTELLIGENCE
+### 7. HUMANITARIAN DATA UPDATES
+
+#### 7a. CASUALTIES
+New day entry for casualties.json (US, Israeli, Iranian, Lebanese, Iraqi breakdown).
+
+#### 7b. INFRASTRUCTURE
+Updates to infrastructure.json damage counts.
+
+#### 7c. HORMUZ
+New incidents for hormuz.json.
+
+---
+
+### 8. OTHER UPDATES
+
+#### 8a. GLOBAL BASES
+New base markers for global-bases.json.
+
+#### 8b. HISTORICAL COMPARISON
+Updates to historical-comparison.json.
+
+---
+
+### 9. DISCREPANCIES & UNVERIFIED INTELLIGENCE
 Items requiring human judgment before inclusion.
 Each item includes: the claim, competing sources, and your assessment.
 
-### 7. ANALYST NOTES
+### 10. ANALYST NOTES
 Patterns, emerging trends, structural observations for the next cycle.
 
 ---
