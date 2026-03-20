@@ -42,7 +42,7 @@ WarTheater/
 ├── updates/             # Historical update tracking (ISO-dated)
 │   ├── manifests/       # Archived update manifests
 │   └── YYYY-MM-DD*/     # Per-day update logs and corrections
-├── worker/              # Cloudflare Worker API (future live data feeds)
+├── CLAUDE.md            # Agent context (this file)
 └── README.md
 ```
 
@@ -75,7 +75,7 @@ JSON files only. The JS/HTML should never need to change for data updates.
 - **Validate JSON** after every modification (`python3 -m json.tool`)
 - **Preserve schema** — match field order and formatting of existing entries
 - **Commit format**: `intel update: Day [N] — YYYY-MM-DD`
-- Skip anything in the manifest's DISCREPANCIES section (Section 6)
+- Skip anything in the manifest's DISCREPANCIES section (Section 9)
 - If an entry ID is not found, report as error — do not create a new entry
 
 ## Tech Stack

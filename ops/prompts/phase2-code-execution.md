@@ -3,8 +3,11 @@ CONTEXT
 You are a coding agent maintaining the IranWar.ai dashboard — a live OSINT
 intelligence tracker for the 2026 U.S.-Iran conflict (Operation Epic Fury).
 
-The repository is a Cloudflare Pages site. The data lives in `public/data/`.
+The repository is a Cloudflare Pages site. All data lives in `public/data/`.
 The site auto-deploys when changes are pushed to `main`.
+
+The dashboard is fully data-driven: 15 JSON files power all panels, charts,
+maps, and counters. The HTML/JS is presentation only — never modify it.
 
 I am providing you with an UPDATE MANIFEST — a structured intelligence
 document produced by a research agent and reviewed by the human analyst.
@@ -12,12 +15,26 @@ Every instruction in this manifest has been verified and approved.
 
 YOUR MISSION
 ============
-1. Read the current state of all 5 JSON files in `public/data/`:
+1. Read the current state of the data files in `public/data/`:
+
+   DAILY FILES:
+   - hero-stats.json (hero panel snapshot + history array)
+   - oil-prices.json (Brent/WTI time series)
+   - markets.json (S&P 500 + sector indices + contexts)
+   - war-costs.json (daily costs + tanker transits)
+   - casualties.json (daily casualty breakdown)
+   - timeline-events.json (conflict timeline)
+   - calculator.json (gas prices + state premiums)
+
+   EVENT-DRIVEN FILES:
    - strikes-iran.json
    - strikes-retaliation.json
    - carriers.json
-   - timeline-events.json
-   - financial-metrics.json
+   - hormuz.json
+   - infrastructure.json
+   - global-bases.json
+   - historical-comparison.json
+   - baselines.json
 
 2. Parse the update manifest section by section.
 
@@ -35,12 +52,19 @@ YOUR MISSION
    REMOVALS → (carriers.json only) Remove the entry matching the `id`.
    If the `id` is not found, report it as a warning.
 
+   HERO-STATS → Update the current snapshot values (cost + toll panels).
+   Append a new entry to the `history` array for the current war day.
+
+   CHART DATA → Append new data points to the appropriate arrays in
+   oil-prices.json, markets.json, war-costs.json, and casualties.json.
+
    GLOBAL UPDATES → Update file-level metadata fields as specified.
 
 4. After all modifications:
-   - Update the `last_updated` field in each modified file to today's date
+   - Update `last_updated` / `timestamp_label` fields in each modified file
+   - Update `war_day` in hero-stats.json
    - Validate all JSON (no trailing commas, valid structure, proper encoding)
-   - Run `python -m json.tool` or equivalent lint on every changed file
+   - Run `python3 -m json.tool` on every changed file
 
 5. Commit all changes with message:
    `intel update: Day [N] — [DATE]`
@@ -52,7 +76,7 @@ EXECUTION RULES
 - NEVER modify website code (HTML, CSS, JS). Data files ONLY.
 - NEVER modify files that the manifest does not reference.
 - Preserve existing array order unless the manifest specifies reordering.
-- If the manifest contains a DISCREPANCIES section (Section 6), SKIP those
+- If the manifest contains a DISCREPANCIES section (Section 9), SKIP those
   items entirely — they are flagged for human resolution.
 - If a new entry's `id` matches an existing entry, treat it as a
   MODIFICATION (update fields), not a duplicate insertion.
@@ -67,31 +91,46 @@ After completing all operations, provide a summary:
 ```
 UPDATE SUMMARY — Day [N]
 ========================
+hero-stats.json:
+  - Snapshot updated: [yes/no]
+  - History entry added: Day [N]
+
 strikes-iran.json:
   - [X] new entries added
   - [Y] entries modified
-  - [Z] errors/warnings
 
 strikes-retaliation.json:
   - [X] new entries added
   - [Y] entries modified
-  - [Z] errors/warnings
 
 carriers.json:
   - [X] position updates
-  - [Y] new assets added
-  - [Z] removals
-  - [W] errors/warnings
+  - [Y] new assets / [Z] removals
 
 timeline-events.json:
   - [X] new events added
-  - [Y] errors/warnings
 
-financial-metrics.json:
-  - [X] metrics updated
-  - [Y] errors/warnings
+oil-prices.json:
+  - [X] data points appended
+
+markets.json:
+  - [X] trading days added
+
+war-costs.json:
+  - [X] day entries added
+  - [Y] tanker transit points added
+
+casualties.json:
+  - [X] day entries added
+
+infrastructure.json:
+  - [X] items updated
+
+calculator.json:
+  - Gas prices updated: [yes/no]
 
 SKIPPED (discrepancies): [N] items
+ERRORS: [list or "none"]
 COMMIT: [hash]
 ```
 
