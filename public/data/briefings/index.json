@@ -61,5 +61,12 @@
     "label": "MARCH 18, 2026 — DAY 19",
     "headline": "South Pars struck — energy war begins; 3 officials killed in 24 hrs; 3,200 vessels stranded; Brent $108",
     "file": "data/briefings/day-19.html"
+  },
+  {
+    "day": 20,
+    "date": "2026-03-19",
+    "label": "MARCH 19, 2026 — DAY 20",
+    "headline": "Iran retaliates on Gulf energy — Ras Laffan, SAMREF, Kuwait hit; Brent spikes to $119; Fed holds; carrier gap widens",
+    "file": "data/briefings/day-20.html"
   }
 ]

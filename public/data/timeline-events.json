@@ -1267,5 +1267,149 @@
     "category": "domestic",
     "source": "Multiple sources",
     "data_point": "Not seen in 10 days — health unknown — IRGC possibly autonomous"
+  },
+  {
+    "date": "2026-03-19",
+    "time": "00:30",
+    "title": "Iran strikes Ras Laffan LNG facility with ballistic missile",
+    "description": "IRGC strikes Qatar's Ras Laffan Industrial City — the world's largest LNG production facility handling ~20% of global LNG supply — with at least one ballistic missile, causing fires and 'extensive damage' per QatarEnergy. A second strike followed early March 19. Qatar declared Iranian embassy military attachés persona non grata, invoked Article 51, and condemned the attack as 'a dangerous escalation and a direct threat to national security.'",
+    "category": "military",
+    "source": "QatarEnergy / Reuters / Al Jazeera",
+    "data_point": "Ras Laffan struck — 20% of global LNG — Qatar invokes Article 51"
+  },
+  {
+    "date": "2026-03-19",
+    "time": "02:00",
+    "title": "Saudi Arabia intercepts 4 ballistic missiles, 12+ drones — SAMREF refinery hit",
+    "description": "Riyadh intercepted 4 ballistic missiles and shot down 12+ drones in eastern regions. Debris fell near Prince Sultan Air Base — no damage. Four civilians injured by debris in a Riyadh residential area. A drone struck the SAMREF refinery in Yanbu — the only functioning crude export outlet for Gulf Arab states — described as 'minimal impact.' Saudi FM Prince Faisal bin Farhan said the kingdom 'reserved the right to take military action' against Iran.",
+    "category": "military",
+    "source": "Saudi Press Agency / Reuters / Bloomberg",
+    "data_point": "SAMREF refinery struck — Saudi warns of military action — strongest language yet"
+  },
+  {
+    "date": "2026-03-19",
+    "time": "03:00",
+    "title": "Kuwait refineries hit by Iranian drones — arrests of Hezbollah-linked plotters",
+    "description": "Drones targeted units at Mina al-Ahmadi and Mina Abdullah refineries, causing fires at both. Kuwait arrested 10-14 Kuwaiti nationals and 2 Lebanese affiliated with Hezbollah for plotting 'terrorist actions against vital infrastructure.'",
+    "category": "military",
+    "source": "KUNA / Reuters",
+    "data_point": "Two Kuwait refineries struck — 14+ arrested for Hezbollah-linked plots"
+  },
+  {
+    "date": "2026-03-19",
+    "time": "04:00",
+    "title": "UAE suspends Habshan gas operations — Al Minhad Air Base struck near Australian troops",
+    "description": "Abu Dhabi's Habshan gas facilities suspended operations after intercepted missile debris fell on site. An Iranian projectile struck near Al Minhad Air Base hosting Australian troops; PM Albanese confirmed 'minor damage' to accommodation and medical facilities, no casualties. Dubai intercepted all inbound threats. Cumulative UAE data: 314 ballistic missiles, 15 cruise missiles, 1,672 drones fired by Iran.",
+    "category": "military",
+    "source": "Reuters / Australian PM statement / UAE Defense Ministry",
+    "data_point": "UAE gas suspended — Australian base struck — 314 BMs + 1,672 drones cumulative"
+  },
+  {
+    "date": "2026-03-19",
+    "time": "06:00",
+    "title": "Brent crude spikes to $119.11 — highest of the war — on Gulf energy attacks",
+    "description": "Brent crude surged past $118/barrel intraday, reaching $119.11 — the highest since the war began — as Iran's retaliatory strikes on Gulf energy infrastructure hit markets. Session range $109.21-$119.11. WTI approached $100. Diesel trading 'north of $180/barrel.' European gas TTF surged 23-35% to near €67/MWh — highest since early 2023.",
+    "category": "financial",
+    "source": "Bloomberg / CNBC / ICE / NYMEX",
+    "data_point": "Brent $119.11 intraday — TTF +35% to €67/MWh — diesel $180+/bbl"
+  },
+  {
+    "date": "2026-03-19",
+    "time": "08:00",
+    "title": "Hegseth: 7,000+ targets struck — 'largest strike package yet' — 120 vessels destroyed",
+    "description": "Defense Secretary Hegseth announced 7,000+ US targets struck across Iran. March 19 would feature 'the largest strike package yet' — approximately 20% larger than previous day. Joint Chiefs Chairman Caine: 120 Iranian vessels and 44 minelayers destroyed. A-10C Thunderbolt IIs hunting fast attack craft in Hormuz. AH-64 Apaches striking Iraqi militias. Pentagon requesting $200+ billion supplemental.",
+    "category": "military",
+    "source": "DoD / Pentagon briefing / Reuters",
+    "data_point": "7,000+ US targets — 120 vessels destroyed — $200B supplemental requested"
+  },
+  {
+    "date": "2026-03-19",
+    "time": "09:00",
+    "title": "IDF strikes Caspian Sea for first time — Bandar Anzali naval base",
+    "description": "In a major geographic expansion, the IDF struck Iranian Navy vessels at Bandar Anzali on the Caspian Sea coast — approximately 1,300 km from Israel. More than five vessels targeted per Axios. Bandar Anzali hosts Iran's Northern Fleet headquarters and is a key node in the Iran-Russia weapons supply corridor. First Israeli strike in the Caspian Sea region.",
+    "category": "military",
+    "source": "Axios / IDF statement",
+    "data_point": "First Caspian Sea strikes — 1,300km from Israel — Iran-Russia supply corridor"
+  },
+  {
+    "date": "2026-03-19",
+    "time": "10:00",
+    "title": "Projectile strikes Bushehr nuclear plant premises — IAEA: 'reddest line of all'",
+    "description": "A projectile struck Bushehr Nuclear Power Plant premises at ~15:11 GMT March 18, hitting a structure 350 meters from the reactor (metrology service building). IAEA DG Grossi confirmed impact and called it 'the reddest line of all.' Appears to be drone damage. No party claimed responsibility. 250 Rosatom employees partially evacuated. Reactor sustained no damage; radiation levels normal.",
+    "category": "military",
+    "source": "IAEA / Rosatom / Fox News / Russia Today",
+    "data_point": "350m from reactor — IAEA 'reddest line' — no party claimed responsibility"
+  },
+  {
+    "date": "2026-03-19",
+    "time": "11:00",
+    "title": "Hezbollah fires 100+ rockets — first to reach southern Israel — largest barrage yet",
+    "description": "Hezbollah fired more than 100 rockets in a single barrage targeting northern, central, and southern Israel simultaneously — the first Hezbollah rocket attack to reach southern Israel since the war began. Synchronized with Iranian ballistic missile salvos. Israel killed 20+ in Lebanon on March 18 including 6 in central Beirut. Israel issued widest forced evacuation in southern Lebanon since 2006 war.",
+    "category": "military",
+    "source": "IDF / Reuters / Al Jazeera",
+    "data_point": "100+ rockets — first to reach southern Israel — widest Lebanon evacuation since 2006"
+  },
+  {
+    "date": "2026-03-19",
+    "time": "12:00",
+    "title": "Riyadh emergency summit — 12 Arab/Islamic FMs — missiles intercepted during meeting",
+    "description": "Saudi Arabia hosted emergency consultative meeting of 12 Arab and Islamic foreign ministers (Azerbaijan, Bahrain, Egypt, Jordan, Kuwait, Lebanon, Pakistan, Qatar, Saudi Arabia, Syria, Turkey, UAE). Iranian ballistic missiles intercepted over Riyadh during the meeting itself. Joint statement called on Iran to 'immediately halt its attacks.' Saudi FM: 'almost nothing can re-establish trust.'",
+    "category": "diplomatic",
+    "source": "Saudi Press Agency / Reuters / Al Jazeera",
+    "data_point": "12 FMs meet — missiles intercepted during summit — Saudi confrontation posture"
+  },
+  {
+    "date": "2026-03-19",
+    "time": "13:00",
+    "title": "Iran FM rejects ceasefire — 'We believe in ending the war on all fronts'",
+    "description": "Iranian FM Abbas Araghchi told Al Jazeera: 'We don't believe in a ceasefire. We believe in ending the war on all fronts.' He rejected any suggestion Iran was seeking negotiations. Combined with the killing of Larijani — Iran's most prominent pragmatist — this effectively closes the most visible diplomatic channel for de-escalation.",
+    "category": "diplomatic",
+    "source": "Al Jazeera",
+    "data_point": "Iran explicitly rejects ceasefire — no diplomatic channel visible"
+  },
+  {
+    "date": "2026-03-19",
+    "time": "14:00",
+    "title": "Federal Reserve holds rates at 3.50-3.75% — inflation forecast raised",
+    "description": "The Fed held rates at 3.50-3.75% with one dissent (Miran favoring cut). Inflation forecast revised up to 2.7% from 2.5%. Powell: 'Higher energy prices will push up overall inflation, but it is too soon to know the scope and duration.' Seven of 19 FOMC participants projected no rate cuts in 2026. Market rate cut expectations pushed to April 2027.",
+    "category": "financial",
+    "source": "Federal Reserve / CNBC / Bloomberg",
+    "data_point": "Rates held 3.50-3.75% — inflation raised to 2.7% — cuts pushed to April 2027"
+  },
+  {
+    "date": "2026-03-19",
+    "time": "15:00",
+    "title": "Joe Kent resigns as NCTC Director — highest-ranking Trump official to quit over war",
+    "description": "Joe Kent, Director of the National Counterterrorism Center, resigned March 17 — the highest-ranking Trump official to resign over the war. A retired Green Beret with 11 combat tours and Gold Star spouse, Kent posted: 'Iran posed no imminent threat to our nation.' He told Tucker Carlson there was 'no intelligence' of an imminent attack. Now under FBI investigation for allegedly leaking classified information.",
+    "category": "domestic",
+    "source": "NBC News / Tucker Carlson / Joe Kent statement",
+    "data_point": "Highest Trump official to resign — under FBI investigation — 'no imminent threat'"
+  },
+  {
+    "date": "2026-03-19",
+    "time": "16:00",
+    "title": "Markets close at 2026 lows — Dow -768 — S&P 6,618 — Nikkei -3.38%",
+    "description": "Dow Jones lost 768 points (-1.63%) to 46,225 — new 2026 low below 200-day MA. S&P 500 fell 1.36% to 6,624.70 — lowest closing level of 2026. Nasdaq shed 1.46% to 22,152. VIX at 25.09 (+12%). Global: Nikkei -3.38%, Hang Seng -2.02%, Euro Stoxx 50 -1.71%. Energy stocks outperformed: Occidental +36% Q1; ExxonMobil and Chevron at all-time highs. Brent settled at $100.82.",
+    "category": "financial",
+    "source": "CNBC / Bloomberg / Yahoo Finance",
+    "data_point": "S&P 6,618 new 2026 low — Dow -768 — Brent settled $100.82 — VIX 25.09"
+  },
+  {
+    "date": "2026-03-19",
+    "time": "17:00",
+    "title": "Hengaw 5th report: 5,300 killed in 18 days — 511 civilians — 120 children",
+    "description": "Hengaw Organization's 5th report documents 5,300 killed in the first 18 days of the war — 511 civilians (9.6%), including 120 minors and 160 women, plus 4,800+ military personnel. Strikes recorded in 178 cities across 25 provinces. Iran Health Ministry separately reports 1,444 killed and 18,551 injured. HRANA documented 3,114 deaths. US: 13 KIA, ~200 wounded.",
+    "category": "humanitarian",
+    "source": "Hengaw Organization / Iran Health Ministry / HRANA / DoD",
+    "data_point": "Hengaw: 5,300 killed — 511 civilian — 120 children — 178 cities — 25 provinces"
+  },
+  {
+    "date": "2026-03-19",
+    "time": "18:00",
+    "title": "War cost reaches ~$23.4B — gas $3.86/gal — 4.2M+ displaced",
+    "description": "Cumulative war cost estimated at ~$23.4 billion through Day 20. Daily cost ~$900M ('largest strike package yet'). National gas average $3.84-$3.88/gal (+29% since pre-war). Diesel near $5.07/gal. Eight states above $4, three above $5. EIA revised 2026 forecast from $2.91 to $3.34/gal. Total displacement: 4.2M+ (Iran 3.2M + Lebanon 1M+). Internet at 4%.",
+    "category": "financial",
+    "source": "Pentagon / AAA / EIA / CNN / OCHA / NetBlocks",
+    "data_point": "~$23.4B cumulative — $900M/day — gas $3.86 — 4.2M displaced — internet 4%"
   }
 ]
