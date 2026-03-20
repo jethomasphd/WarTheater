@@ -1411,5 +1411,122 @@
     "category": "financial",
     "source": "Pentagon / AAA / EIA / CNN / OCHA / NetBlocks",
     "data_point": "~$23.4B cumulative — $900M/day — gas $3.86 — 4.2M displaced — internet 4%"
+  },
+  {
+    "date": "2026-03-20",
+    "time": "01:00",
+    "title": "CENTCOM confirms 7,800+ targets — 4 senior Iranian officials killed overnight",
+    "description": "CENTCOM confirmed 7,800+ cumulative US targets struck by March 20, up from 7,000+ the prior day. IDF struck 130+ regime infrastructure targets in 24 hours. Four senior Iranian officials confirmed killed March 19-20: Ali Mohammad Naini (IRGC spokesperson, IAF airstrike), General Afshin Nakshabandi (Armed Forces HQ representative in Basij), Esmail Ahmadi (IRGC head of intelligence), and Mehdi Karishi (IRGC Aerospace Forces commander, Isfahan sector). Also confirmed: Ahmad Abdallah (Hamas military wing commander) died of wounds from Mar 11 Israeli strike; Hassan Ali Marwan (Hezbollah Imam Hussein Division commander) eliminated Mar 19.",
+    "category": "military",
+    "source": "CENTCOM / IDF / multiple",
+    "data_point": "7,800+ US targets — 9+ senior officials killed total — ballistic missile launch rate down ~90%"
+  },
+  {
+    "date": "2026-03-20",
+    "time": "03:00",
+    "title": "Ras Laffan damage assessment: 12.8 MTPA offline, 3-5 year repair, $20B/yr loss",
+    "description": "QatarEnergy confirmed LNG Trains 4 and 6 at Ras Laffan were damaged in IRGC strikes March 18-19, representing 12.8 MTPA and 17% of Qatar's LNG exports. Repair timeline: 3-5 years. Force majeure declared on contracts to Belgium, Italy, South Korea, and China. Estimated revenue loss: ~$20 billion per year (~9% of Qatar's GDP). Pearl GTL (Shell-operated) also damaged — offline minimum 1 year. Qatar expelled Iran's military attachés. Wood Mackenzie: 'fundamentally reshaping the global LNG outlook.'",
+    "category": "financial",
+    "source": "QatarEnergy / Wood Mackenzie / Reuters",
+    "data_point": "12.8 MTPA offline — 3-5yr repair — $20B/yr loss — ~9% of Qatar's GDP"
+  },
+  {
+    "date": "2026-03-20",
+    "time": "05:00",
+    "title": "Saudi Arabia intercepts missile, shoots down 10+ drones — Yanbu only export outlet",
+    "description": "Saudi Arabia intercepted a missile over northern Al Jouf and shot down 10 drones in the east and 1 in the north on March 20. SAMREF refinery at Yanbu (400,000 bpd Aramco-ExxonMobil JV) was struck by drone Mar 19 with 'minimal impact.' A ballistic missile aimed at Yanbu port was intercepted. Critically, Yanbu is now Saudi Arabia's only functional crude export terminal due to Hormuz closure — Saudi ramped volume to ~5.9 million bpd through the East-West pipeline.",
+    "category": "military",
+    "source": "Saudi Press Agency / Reuters / Bloomberg",
+    "data_point": "Yanbu only export terminal — 5.9 mbd through East-West pipeline"
+  },
+  {
+    "date": "2026-03-20",
+    "time": "06:00",
+    "title": "UAE intercepts 7 BMs + 15 UAVs — cumulative: 334 BMs, 1,714 drones",
+    "description": "UAE air defenses intercepted 7 ballistic missiles and 15 UAVs on March 20. Cumulative totals since Feb 28: 334 ballistic missiles, 15 cruise missiles, 1,714 UAVs launched at the UAE. Total UAE fatalities: 8 (2 armed forces, 6 foreign nationals). Abu Dhabi shut Habshan gas facilities after intercept debris damage. UAE dismantled Iran/Hezbollah terrorist network using business fronts.",
+    "category": "military",
+    "source": "UAE Defense Ministry / Reuters",
+    "data_point": "334 BMs + 15 CMs + 1,714 UAVs cumulative — 8 UAE fatalities"
+  },
+  {
+    "date": "2026-03-20",
+    "time": "07:00",
+    "title": "F-35 makes emergency landing after possible Iranian anti-aircraft fire",
+    "description": "A US F-35 fighter jet made an emergency landing at a Middle East airbase on March 19 after a combat mission over Iran. Sources told CNN the aircraft was struck by what is believed to be Iranian anti-aircraft fire. The pilot is in stable condition. If confirmed, this would be the first US jet struck by Iran in the war. CENTCOM is investigating. The incident remains unconfirmed.",
+    "category": "military",
+    "source": "CNN / CENTCOM",
+    "data_point": "First US jet potentially struck — pilot stable — under investigation"
+  },
+  {
+    "date": "2026-03-20",
+    "time": "08:00",
+    "title": "Missile strikes Jerusalem's Old City — 300 cumulative attack waves on Israel",
+    "description": "An Iranian missile struck Jerusalem's Old City on March 20 — Israeli police photographed shrapnel damage. Multiple salvos targeted Jerusalem near midnight and early morning hours. Cumulative total since Feb 28: 300 Iranian attack waves on Israel. March 19 alone saw 19 separate attack waves — exceptionally high. Iran used cluster munitions on March 19 killing a Thai agricultural worker at Adanim; 3 women killed in Bayt Awwa, West Bank when fragments struck a hair salon.",
+    "category": "military",
+    "source": "Israeli Police / IDF / Israeli media",
+    "data_point": "300 cumulative attack waves — 19 on March 19 alone — 18 Israeli civilians killed total"
+  },
+  {
+    "date": "2026-03-20",
+    "time": "09:00",
+    "title": "USS Boxer ARG leaves San Diego — 4,400 Marines heading to Middle East",
+    "description": "USS Boxer (LHD-4) with 11th MEU left San Diego March 19, accompanied by USS Comstock and USS Portland. Carrying 2,200+ Marines plus 2,000 sailors. Originally scheduled for Indo-Pacific, deployment rerouted and accelerated to Middle East. ETA: approximately 3 weeks (early April). Combined with USS Tripoli ARG (ETA March 24-25), this will bring ~4,400 additional Marines to the theater — the largest Marine deployment since the war began.",
+    "category": "military",
+    "source": "Pentagon / USNI News / CNN",
+    "data_point": "~4,400 Marines deploying — largest Marine reinforcement of the war"
+  },
+  {
+    "date": "2026-03-20",
+    "time": "10:00",
+    "title": "Iran FM rejects ceasefire — 'We believe in ending the war on all fronts'",
+    "description": "Iranian FM Araghchi stated March 18: 'We don't believe in a ceasefire. We believe in ending the war on all fronts.' He said there is 'no reason to talk with Americans.' Pre-war Omani mediation had achieved a 'breakthrough' on enrichment — Oman's FM called the US attack a betrayal. Seven-nation joint statement (US, UK, France, Germany, Italy, Japan) expressed readiness for 'preparatory planning' on Hormuz, but France, Germany, Italy, and Japan had all ruled out sending ships. Analysts called it 'largely a gesture to placate Trump.' Trump responded: 'WE DO NOT NEED THE HELP OF ANYONE!' and called NATO allies 'COWARDS.'",
+    "category": "diplomatic",
+    "source": "Al Jazeera / Axios / Reuters",
+    "data_point": "No ceasefire negotiations exist — no diplomatic track — all allies decline forces"
+  },
+  {
+    "date": "2026-03-20",
+    "time": "11:00",
+    "title": "Nowruz: Mojtaba Khamenei issues written statement — still no video or audio",
+    "description": "On Iran's Nowruz new year, Supreme Leader Mojtaba Khamenei issued a written statement calling the US-Israeli expectation of regime collapse a 'gross miscalculation' and praising national unity. He has still not appeared in video or audio since taking power February 28. President Pezeshkian addressed Gulf neighbors: 'You are our brothers... We have come to resolve all these differences with you.' Trump told Naval Academy midshipmen: 'Their leaders are all gone. The next set of leaders are all gone. And the next set of leaders are mostly gone... We want to talk to them and there's nobody to talk to.'",
+    "category": "diplomatic",
+    "source": "Iranian state media / White House / Reuters",
+    "data_point": "Khamenei still not seen publicly — Iran warns 'zero restraint' if energy hit again"
+  },
+  {
+    "date": "2026-03-20",
+    "time": "12:00",
+    "title": "S&P 500 closes at new 2026 low — Quadruple Witching — VIX 25.80",
+    "description": "S&P 500 fell to ~6,595 — new 2026 closing low, 4th consecutive weekly loss, and first close below the 200-day moving average in 214 sessions. Dow fell ~148 points to ~45,973. Nasdaq dropped ~0.52%. March 20 was Quadruple Witching Friday, amplifying volatility. VIX surged to 25.80 intraday. Some traders pricing possible 2026 rate hike. Treasury 10-year yield climbed to 6.75-month high of 4.32%. Goldman Sachs warned oil could stay above $100 through 2027.",
+    "category": "financial",
+    "source": "CNBC / Bloomberg / Goldman Sachs",
+    "data_point": "S&P ~6,595 — below 200-day MA — VIX 25.80 — 10yr at 4.32%"
+  },
+  {
+    "date": "2026-03-20",
+    "time": "14:00",
+    "title": "Gas hits $3.91/gallon — Georgia first state to suspend fuel taxes — diesel $5.07",
+    "description": "AAA national average on March 20: $3.912/gallon (up from $2.93 on Feb 20 — $0.98/gallon increase, +33% since war began). Diesel: $5.07/gallon (highest since 2022). Georgia became the first state to suspend fuel taxes — a 60-day suspension of 33¢/gal gas tax and 37¢/gal diesel tax, forgoing $360-400M in revenue. California gas averaged $5.34-$5.53/gal. IEA classified the disruption as 'the largest supply disruption in the history of the global oil market' with at least 8 million bpd curtailed.",
+    "category": "financial",
+    "source": "AAA / IEA / Georgia Governor / Reuters",
+    "data_point": "$3.91/gal (+33%) — diesel $5.07 — GA suspends taxes — IEA: largest disruption ever"
+  },
+  {
+    "date": "2026-03-20",
+    "time": "16:00",
+    "title": "War cost reaches ~$24.3B — $200B supplemental still not sent to Congress",
+    "description": "Cumulative estimated cost reaches ~$24.3 billion through Day 21. Pentagon requesting $200B supplemental — Hegseth confirmed request sent to White House but not yet formally to Congress. Trump has not signed off. Bipartisan skepticism intense: Rep. Boebert 'is a no'; Sen. Schumer said $200B 'means he believes we might be in a war for a very, very long time'; Sen. Murkowski demands a plan before funding. No Iran-specific AUMF passed — administration invokes Article II.",
+    "category": "financial",
+    "source": "Pentagon / Congressional sources / Reuters",
+    "data_point": "~$24.3B cumulative — $200B request in limbo — no AUMF — bipartisan skepticism"
+  },
+  {
+    "date": "2026-03-20",
+    "time": "18:00",
+    "title": "MCM capability crisis exposed — Christian Science Monitor investigation",
+    "description": "The Christian Science Monitor published a major exposé on the mine countermeasure capability deficit. USS Tulsa (LCS-16) and USS Santa Barbara (LCS-32) are in Singapore as of March 18 — thousands of miles from Bahrain. USS Canberra (LCS-30) location uncertain. These are the only 3 dedicated US surface MCM platforms in the region after 4 Avenger-class minesweepers were decommissioned in January 2026. A prior Navy assessment found 'unreliable unmanned vehicles, critical single-point failures, and sonar that couldn't see.'",
+    "category": "military",
+    "source": "Christian Science Monitor / Washington Institute / USNI",
+    "data_point": "Only 3 MCM platforms — 2 in Singapore — 4 minesweepers decommissioned Jan 2026"
   }
 ]

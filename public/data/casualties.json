@@ -1,5 +1,5 @@
 {
-  "labels": ["Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15", "Mar 16", "Mar 17", "Mar 18", "Mar 19"],
+  "labels": ["Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15", "Mar 16", "Mar 17", "Mar 18", "Mar 19", "Mar 20"],
   "day_contexts": [
     "Day 1 — First strikes, Minab school (165+ killed), Iranian retaliation",
     "Day 2 — Beit Shemesh (9 killed), Port Shuaiba (6 US KIA), sustained bombing",
@@ -20,34 +20,35 @@
     "Day 17 — Larijani + Soleimani killed; 2 Israeli civilians Ramat Gan; Dubai airport struck; Brent $106",
     "Day 18 — Brent pulls back to $101; S&P recovers; Ford fire contained; war cost ~$21.7B",
     "Day 19 — South Pars struck; Khatib killed; IRGC threatens Gulf energy; Brent $108; 3,200 vessels stranded",
-    "Day 20 — Iran retaliates: Ras Laffan, SAMREF, Kuwait hit; Hezbollah 100+ rockets; Brent $119 intraday; Fed holds; carrier gap"
+    "Day 20 — Iran retaliates: Ras Laffan, SAMREF, Kuwait hit; Hezbollah 100+ rockets; Brent $119 intraday; Fed holds; carrier gap",
+    "Day 21 — 7,800+ targets; 4 senior officials killed; F-35 struck; 300 attack waves on Israel; Haifa BAZAN refinery hit; Jerusalem Old City; Boxer deploys"
   ],
   "datasets": {
     "iranian_military": {
       "label": "Iranian Military",
-      "data": [65, 98, 122, 106, 90, 82, 73, 114, 98, 65, 65, 78, 91, 95, 80, 70, 65, 60, 55, 70],
+      "data": [65, 98, 122, 106, 90, 82, 73, 114, 98, 65, 65, 78, 91, 95, 80, 70, 65, 60, 55, 70, 75],
       "color": "#b81c1c"
     },
     "iranian_civilian": {
       "label": "Iranian Civilian",
-      "data": [5, 10, 15, 12, 35, 20, 15, 25, 18, 10, 8, 45, 20, 20, 15, 10, 8, 8, 10, 15],
+      "data": [5, 10, 15, 12, 35, 20, 15, 25, 18, 10, 8, 45, 20, 20, 15, 10, 8, 8, 10, 15, 12],
       "color": "#ffffff"
     },
     "us_military": {
       "label": "US Military",
-      "data": [0, 6, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0],
+      "data": [0, 6, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0],
       "color": "#4a9eff"
     },
     "lebanese": {
       "label": "Lebanese (all)",
-      "data": [0, 0, 44, 58, 64, 68, 61, 75, 58, 48, 40, 54, 85, 65, 55, 50, 48, 45, 50, 48],
+      "data": [0, 0, 44, 58, 64, 68, 61, 75, 58, 48, 40, 54, 85, 65, 55, 50, 48, 45, 50, 48, 33],
       "color": "#7b3fa0"
     },
     "israeli_military": {
       "label": "Israeli Military",
-      "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 6, 2, 0, 2, 1, 1, 2],
+      "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 6, 2, 0, 2, 1, 1, 2, 0],
       "color": "#ffc832"
     }
   },
-  "last_updated": "2026-03-19"
+  "last_updated": "2026-03-20"
 }
