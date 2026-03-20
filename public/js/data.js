@@ -1,6 +1,7 @@
 /* ═══════════════════════════════════════════════════════════════
    THE WAR THEATER — Data Layer
-   Fetches from local JSON files + API proxy when available
+   Fetches from local JSON files + API proxy when available.
+   ALL dashboard data lives in public/data/ JSON files.
    ═══════════════════════════════════════════════════════════════ */
 
 WarTheater.Data = {
@@ -40,7 +41,12 @@ WarTheater.Data = {
     return null;
   },
 
-  // Strike data (filter out _metadata entry)
+  // ─── Data accessors ─────────────────────────────────────
+
+  async getHeroStats() {
+    return this.loadLocal('data/hero-stats.json');
+  },
+
   async getStrikesIran() {
     const raw = await this.loadLocal('data/strikes-iran.json');
     if (Array.isArray(raw)) return raw.filter(s => s.id !== '_metadata');
@@ -51,48 +57,52 @@ WarTheater.Data = {
     return this.loadLocal('data/strikes-retaliation.json');
   },
 
-  // Carrier data
   async getCarriers() {
     return this.loadLocal('data/carriers.json');
   },
 
-  // Hormuz data
   async getHormuz() {
     return this.loadLocal('data/hormuz.json');
   },
 
-  // Missile ranges
-  async getMissileRanges() {
-    return this.loadLocal('data/missile-ranges.json');
-  },
-
-  // Timeline events
   async getTimeline() {
     return this.fetchWithFallback('/timeline', 'data/timeline-events.json');
   },
 
-  // Baselines
   async getBaselines() {
     return this.loadLocal('data/baselines.json');
   },
 
-  // Financial data (from API or curated)
-  async getFinancial() {
-    const apiData = await this.fetchWithFallback('/oil', null);
-    if (apiData) return apiData;
+  async getOilPrices() {
+    return this.loadLocal('data/oil-prices.json');
+  },
 
-    // Return curated current snapshot — Source: Financials.md + user-provided Mar 17 data
-    // Anchor points: Pentagon $11.3B Day 6, CSIS $16.5B Day 12, extrapolated to Day 18
-    // Mar 17 (Day 18): Brent $101.00, SP500 6,734.87 per user-provided market data
-    return {
-      timestamp: new Date().toISOString(),
-      brent: { price: 101.00, change_pct: 42.3, baseline: 71.00 },
-      wti: { price: 96.50, change_pct: 45.1, baseline: 66.50 },
-      gas: { price: 3.72, change_pct: 24.8, baseline: 2.98 },
-      sp500: { value: 6734.87, change_pct: -2.1, baseline: 6878.88 },
-      daily_cost: 850000000,
-      total_cost: 21650000000
-    };
+  async getMarkets() {
+    return this.loadLocal('data/markets.json');
+  },
+
+  async getWarCosts() {
+    return this.loadLocal('data/war-costs.json');
+  },
+
+  async getCasualties() {
+    return this.loadLocal('data/casualties.json');
+  },
+
+  async getInfrastructure() {
+    return this.loadLocal('data/infrastructure.json');
+  },
+
+  async getHistoricalComparison() {
+    return this.loadLocal('data/historical-comparison.json');
+  },
+
+  async getGlobalBases() {
+    return this.loadLocal('data/global-bases.json');
+  },
+
+  async getCalculator() {
+    return this.loadLocal('data/calculator.json');
   },
 
   // AI Briefing
@@ -102,16 +112,34 @@ WarTheater.Data = {
 
   // Load all initial data
   async loadAll() {
-    const [strikes, retaliation, carriers, hormuz, timeline, baselines, financial] = await Promise.all([
+    const [
+      heroStats, strikes, retaliation, carriers, hormuz,
+      timeline, baselines, oilPrices, markets, warCosts,
+      casualties, infrastructure, historicalComparison,
+      globalBases, calculator
+    ] = await Promise.all([
+      this.getHeroStats(),
       this.getStrikesIran(),
       this.getStrikesRetaliation(),
       this.getCarriers(),
       this.getHormuz(),
       this.getTimeline(),
       this.getBaselines(),
-      this.getFinancial()
+      this.getOilPrices(),
+      this.getMarkets(),
+      this.getWarCosts(),
+      this.getCasualties(),
+      this.getInfrastructure(),
+      this.getHistoricalComparison(),
+      this.getGlobalBases(),
+      this.getCalculator()
     ]);
 
-    return { strikes, retaliation, carriers, hormuz, timeline, baselines, financial };
+    return {
+      heroStats, strikes, retaliation, carriers, hormuz,
+      timeline, baselines, oilPrices, markets, warCosts,
+      casualties, infrastructure, historicalComparison,
+      globalBases, calculator
+    };
   }
 };
