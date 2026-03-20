@@ -116,6 +116,9 @@ a required step in every daily update.
     "file": "data/briefings/day-N.html"
   }
   ```
+- NOTE: The archive page (`archive.html`) dynamically loads briefings from
+  `index.json` — no manual archive editing is needed. Adding the entry to
+  `index.json` is sufficient; the archive will pick it up automatically.
 
 **Step 3: Update the hardcoded briefing panel in index.html**
 - The briefing panel in `public/index.html` (inside `<section id="panel-briefing">`)

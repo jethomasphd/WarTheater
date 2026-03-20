@@ -9,7 +9,7 @@ Live at https://iranwar.ai. Hosted on Cloudflare Pages (auto-deploys on push to 
 WarTheater/
 ├── public/              # Static site (Cloudflare Pages deploy root)
 │   ├── index.html       # Main dashboard (single-page app)
-│   ├── archive.html     # Briefing archive
+│   ├── archive.html     # Briefing archive (dynamic, reads index.json)
 │   ├── css/             # design-system.css, animations.css, responsive.css
 │   ├── js/              # app.js, map.js, financial.js, timeline.js, etc.
 │   ├── data/            # ALL DASHBOARD DATA (your primary target)
@@ -28,7 +28,11 @@ WarTheater/
 │   │   ├── historical-comparison.json
 │   │   ├── global-bases.json        # US military base locations (map)
 │   │   ├── calculator.json          # Gas cost calculator config
-│   │   └── briefings/               # Daily HTML briefings + index.json
+│   │   └── briefings/               # Daily briefing archive
+│   │       ├── index.json           # Briefing index (archive.html reads this)
+│   │       ├── day-1.html           # Day 1 briefing (HTML fragment)
+│   │       ├── day-2.html           # ...
+│   │       └── day-N.html           # Latest briefing
 │   └── img/             # SVG assets
 ├── ops/                 # Operational protocol and prompts
 │   ├── protocol.md      # Full daily update protocol
@@ -77,6 +81,39 @@ JSON files only. The JS/HTML should never need to change for data updates.
 - **Commit format**: `intel update: Day [N] — YYYY-MM-DD`
 - Skip anything in the manifest's DISCREPANCIES section (Section 9)
 - If an entry ID is not found, report as error — do not create a new entry
+
+## Briefing Archive Architecture
+
+The archive page (`public/archive.html`) dynamically loads briefings — no hardcoded HTML.
+
+**How it works:**
+1. `archive.html` fetches `data/briefings/index.json` on page load
+2. Sorts entries by `day` descending (most recent first)
+3. Renders each briefing as a collapsible card (day label + headline)
+4. The latest briefing auto-expands and lazy-loads its HTML
+5. Other briefings lazy-load their HTML on first expand (click)
+
+**Daily update workflow for briefings:**
+1. Create `public/data/briefings/day-[N].html` — the briefing content (HTML fragment, not a full page)
+2. Append an entry to `public/data/briefings/index.json` with day, date, label, headline, and file path
+3. Update the hardcoded briefing panel in `index.html` (the ONE exception to "never modify HTML")
+4. That's it — `archive.html` picks up the new briefing automatically from `index.json`
+
+**Briefing HTML files** are HTML fragments (not full pages). They use the dashboard's CSS classes:
+- `briefing-header`, `briefing-date` — title block
+- `briefing-section` with `<h3>` — each analytical section
+- Standard `<ul><li>` for bullet lists
+
+**index.json schema:**
+```json
+{
+  "day": 21,
+  "date": "2026-03-20",
+  "label": "MARCH 20, 2026 — DAY 21",
+  "headline": "Short headline summarizing the day's key developments",
+  "file": "data/briefings/day-21.html"
+}
+```
 
 ## Tech Stack
 - Pure HTML/CSS/JS (no framework, no build step)
