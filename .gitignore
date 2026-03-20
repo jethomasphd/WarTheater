@@ -6,3 +6,10 @@ node_modules/
 *.log
 .DS_Store
 Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/

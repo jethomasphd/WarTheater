@@ -14,33 +14,34 @@ The model is the [Johns Hopkins COVID-19 Dashboard](https://coronavirus.jhu.edu/
 
 ---
 
-## How It Works Today
+## How It Works
 
-**This dashboard is currently powered by AI-agent web crawling, not live API feeds.**
+**Two-phase AI-assisted update cycle, once daily.**
 
-A Claude Code agent scrapes, cross-references, and curates data from public sources each morning. The creator audits the output, applies domain-informed guardrails, and publishes updates. This is a manual-with-AI-assistance workflow — not an automated pipeline.
+Each morning, a Claude Deep Research agent analyzes OSINT sources and produces a structured Update Manifest. The analyst reviews the manifest against a QA checklist, then a Claude Code agent applies the approved changes to the data files. Cloudflare Pages auto-deploys on push to `main`.
 
-Data is sourced from:
+```
+06:00  ./scripts/prep-update.sh        # Calculate war day, validate data, render prompts
+06:05  Claude Deep Research             # Phase 1: produces Update Manifest
+06:30  Human QA review                  # ops/daily-checklist.md
+07:00  Claude Code                      # Phase 2: applies manifest to JSON files
+07:15  git push → Cloudflare deploys    # Live at iranwar.ai
+07:20  ./scripts/archive-manifest.sh    # Archive the manifest
+```
+
+See `ops/protocol.md` for the full operational protocol.
+
+**Data sources:**
 - **Financial**: FRED, Yahoo Finance, Bloomberg, ICE, NYMEX, AAA, GasBuddy
 - **Military/Conflict**: ACLED, CENTCOM, DoD press releases
 - **Humanitarian**: UNHCR, OCHA, ICRC, Iranian Red Crescent
 - **News Wire**: Reuters, AP, Al Jazeera, Times of Israel
 
-Updates are published **once daily**, typically mornings US Eastern. The data you see may lag current events by hours.
+Updates are published **once daily**, typically mornings US Eastern.
 
 ### Future: Live API Integration
 
-The architecture includes a Cloudflare Worker (`/worker`) designed to serve live data from financial and conflict APIs:
-
-| API | Purpose | Status |
-|-----|---------|--------|
-| FRED (Federal Reserve) | Treasury yields, fed funds rate, economic indicators | Planned |
-| Yahoo Finance / Alpha Vantage | S&P 500, sector stocks, VIX, DXY | Planned |
-| ACLED | Conflict event data, strike counts | Planned |
-| EIA | Oil prices, petroleum supply data | Planned |
-| Anthropic Claude API | Daily AI-generated intelligence briefings | Scaffolded |
-
-The worker routes exist (`/api/markets`, `/api/oil`, `/api/timeline`, etc.) and the caching layer is built. API keys are referenced but not yet connected to live data. This is a known limitation, not a bug.
+The architecture includes a Cloudflare Worker (`/worker`) designed to serve live data from financial and conflict APIs. The worker routes exist (`/api/markets`, `/api/oil`, `/api/timeline`, etc.) and the caching layer is built. API keys are referenced but not yet connected. This is a known limitation, not a bug.
 
 ---
 
@@ -62,31 +63,37 @@ This project is built in good faith. Fork it. Audit it. Improve it.
 
 ```
 WarTheater/
-├── public/                    # Static site (Cloudflare Pages)
+├── public/                    # Static site (Cloudflare Pages deploy root)
 │   ├── index.html             # Main dashboard
 │   ├── archive.html           # Briefing archive
-│   ├── css/
-│   │   ├── design-system.css  # Core design system
-│   │   ├── animations.css     # Transitions and effects
-│   │   └── responsive.css     # Mobile breakpoints
-│   ├── js/
-│   │   ├── app.js             # Boot, intro, disclaimer gate
-│   │   ├── data.js            # Data loading and fallbacks
-│   │   ├── map.js             # Leaflet theater map
-│   │   ├── financial.js       # Chart.js financial panels
-│   │   ├── timeline.js        # Conflict timeline
-│   │   ├── humanitarian.js    # Casualty and displacement
-│   │   ├── briefing.js        # AI briefing display
-│   │   ├── calculator.js      # Cost calculator
-│   │   └── utils.js           # Shared utilities
-│   └── data/                  # Static JSON datasets
-│       ├── baselines.json     # Pre-war financial baselines
-│       ├── timeline-events.json
+│   ├── css/                   # design-system, animations, responsive
+│   ├── js/                    # app, map, financial, timeline, etc.
+│   ├── img/                   # SVG assets
+│   └── data/                  # JSON datasets (agent update target)
 │       ├── strikes-iran.json
 │       ├── strikes-retaliation.json
 │       ├── carriers.json
+│       ├── timeline-events.json
+│       ├── baselines.json
 │       ├── hormuz.json
-│       └── briefings/         # Daily HTML briefings
+│       └── briefings/         # Daily HTML briefings + index.json
+│
+├── ops/                       # Operational protocol
+│   ├── protocol.md            # Full daily update protocol
+│   ├── daily-checklist.md     # QA checklist for manifest review
+│   └── prompts/
+│       ├── phase1-deep-research.md   # Claude Deep Research template
+│       └── phase2-code-execution.md  # Claude Code agent template
+│
+├── scripts/                   # Automation helpers
+│   ├── prep-update.sh         # Daily update prep (renders prompts)
+│   ├── validate-data.sh       # JSON validation for all data files
+│   ├── war-day.sh             # Calculate current war day
+│   └── archive-manifest.sh    # Archive completed manifests
+│
+├── updates/                   # Historical update tracking
+│   ├── manifests/             # Archived update manifests
+│   └── YYYY-MM-DD*/           # Per-day logs and corrections
 │
 ├── worker/                    # Cloudflare Worker API (future)
 │   ├── src/
@@ -95,7 +102,7 @@ WarTheater/
 │   │   └── lib/               # Cache, CORS, Claude integration
 │   └── wrangler.toml          # Worker configuration
 │
-├── seed.md                    # Original project brief
+├── CLAUDE.md                  # Agent context for Claude Code sessions
 └── README.md
 ```
 
