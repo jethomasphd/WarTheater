@@ -1,0 +1,15 @@
+[
+  { "name": "Norfolk Naval Station", "lat": 36.95, "lng": -76.30, "type": "naval", "note": "Largest naval base in the world. Home port for carrier strike groups." },
+  { "name": "Pearl Harbor", "lat": 21.35, "lng": -157.95, "type": "naval", "note": "US Pacific Fleet HQ. Key logistics hub for Indo-Pacific." },
+  { "name": "Ramstein AB", "lat": 49.44, "lng": 7.60, "type": "air", "note": "USAFE HQ. Critical airlift node for Middle East operations." },
+  { "name": "Diego Garcia", "lat": -7.32, "lng": 72.41, "type": "air", "note": "B-2/B-52 staging. Tomahawk launch platform, Indian Ocean." },
+  { "name": "Al Udeid AB", "lat": 25.12, "lng": 51.31, "type": "air", "note": "CENTCOM forward HQ. Combined Air Ops Center for all sorties." },
+  { "name": "Yokosuka", "lat": 35.29, "lng": 139.67, "type": "naval", "note": "7th Fleet HQ. Forward-deployed carrier home port." },
+  { "name": "Incirlik AB", "lat": 37.00, "lng": 35.43, "type": "air", "note": "NATO base, Turkey. Northern approach operations." },
+  { "name": "Camp Lemonnier", "lat": 11.55, "lng": 43.15, "type": "base", "note": "Djibouti. Only permanent US base in Africa." },
+  { "name": "Bahrain (5th Fleet)", "lat": 26.23, "lng": 50.48, "type": "naval", "note": "5th Fleet HQ. Direct control of Gulf naval assets." },
+  { "name": "RAF Fairford", "lat": 51.68, "lng": -1.79, "type": "air", "note": "UK. B-52 forward deployment for CENTCOM operations." },
+  { "name": "Pentagon", "lat": 38.87, "lng": -77.06, "type": "landmark", "note": "DoD HQ. Where Operation Epic Fury is commanded." },
+  { "name": "New York", "lat": 40.71, "lng": -74.01, "type": "landmark", "note": "NYSE/NYMEX. Processing war-driven market volatility." },
+  { "name": "Houston", "lat": 29.76, "lng": -95.37, "type": "landmark", "note": "US energy capital. Refinery hub feeling Hormuz closure." }
+]

@@ -1,0 +1,26 @@
+{
+  "pre_war_gas": 2.98,
+  "current_gas": 3.95,
+  "war_increase": 0.97,
+  "states": [
+    { "code": "avg", "label": "National Average", "premium": 0 },
+    { "code": "CA", "label": "California", "premium": 1.15 },
+    { "code": "TX", "label": "Texas", "premium": -0.12 },
+    { "code": "FL", "label": "Florida", "premium": 0.08 },
+    { "code": "NY", "label": "New York", "premium": 0.52 },
+    { "code": "PA", "label": "Pennsylvania", "premium": 0.10 },
+    { "code": "OH", "label": "Ohio", "premium": -0.08 },
+    { "code": "IL", "label": "Illinois", "premium": 0.28 },
+    { "code": "AZ", "label": "Arizona", "premium": -0.02 },
+    { "code": "GA", "label": "Georgia", "premium": -0.05 },
+    { "code": "WA", "label": "Washington", "premium": 0.65 },
+    { "code": "MI", "label": "Michigan", "premium": 0.05 },
+    { "code": "NJ", "label": "New Jersey", "premium": 0.12 },
+    { "code": "VA", "label": "Virginia", "premium": -0.03 },
+    { "code": "CO", "label": "Colorado", "premium": 0.05 },
+    { "code": "NC", "label": "North Carolina", "premium": -0.05 }
+  ],
+  "default_state": "TX",
+  "source": "AAA state averages",
+  "last_updated": "2026-03-19"
+}

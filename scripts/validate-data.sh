@@ -6,12 +6,21 @@ DATA_DIR="$(cd "$(dirname "$0")/../public/data" && pwd)"
 ERRORS=0
 
 FILES=(
+  "hero-stats.json"
   "strikes-iran.json"
   "strikes-retaliation.json"
   "carriers.json"
   "timeline-events.json"
   "baselines.json"
   "hormuz.json"
+  "oil-prices.json"
+  "markets.json"
+  "war-costs.json"
+  "casualties.json"
+  "infrastructure.json"
+  "historical-comparison.json"
+  "global-bases.json"
+  "calculator.json"
 )
 
 for f in "${FILES[@]}"; do

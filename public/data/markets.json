@@ -1,0 +1,43 @@
+{
+  "labels": ["Feb 27", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 16", "Mar 17", "Mar 18", "Mar 19"],
+  "contexts": [
+    "Pre-war close — baseline",
+    "Day 3 — First trading session; S&P recovers from -1.2% intraday to flat",
+    "Day 4 — S&P -0.94%; Brent +4.71%; Hormuz closure formal",
+    "Day 5 — S&P bounces +0.78%; oil prices steady",
+    "Day 6 — Pentagon: $11.3B cumulative cost; S&P -0.56%",
+    "Day 7 — S&P -1.33%; WTI best week since 1983; worst S&P week in 5 months",
+    "Day 10 — Brent intraday $119.50; Trump says war \"very complete\"",
+    "Day 11 — Brent crashes 11.3% on false Hormuz escort report",
+    "Day 12 — IEA 400M bbl reserve release; CSIS: $16.5B cumulative",
+    "Day 13 — Brent closes above $100; S&P -1.52% (worst since Feb)",
+    "Day 14 — S&P hits 2026 low at 6,632; Brent $103.14; AUMF debate",
+    "Day 17 — Brent $106.18 on Fujairah/Dubai attacks; S&P futures +0.5%",
+    "Day 18 — Brent pulls back to $101; S&P recovers to 6,735; Ford fire contained",
+    "Day 19 — South Pars struck; Brent $108.43 (+52.7%); IRGC threatens Gulf energy; 3 officials killed",
+    "Day 20 — Iran retaliates on Gulf energy; Brent intraday $119.11; S&P 6,618 new 2026 low; Dow -768; Fed holds 3.50-3.75%"
+  ],
+  "datasets": {
+    "sp500": {
+      "label": "S&P 500",
+      "data": [100, 100.0, 99.1, 99.9, 99.3, 98.0, 98.8, 98.6, 98.5, 97.0, 96.4, 96.9, 97.9, 97.1, 96.2],
+      "color": "#ef4444"
+    },
+    "defense": {
+      "label": "Defense (RTX + LMT)",
+      "data": [100, 103.5, 106.0, 108.0, 109.5, 110.5, 112.5, 113.0, 113.5, 115.8, 116.5, 117.0, 116.5, 118.0, 120.0],
+      "color": "#22c55e"
+    },
+    "oil_majors": {
+      "label": "Oil Majors (XOM + CVX)",
+      "data": [100, 106.0, 110.0, 112.0, 114.0, 119.0, 124.0, 117.0, 121.0, 128.0, 130.0, 133.0, 129.0, 137.0, 142.0],
+      "color": "#d4a020"
+    },
+    "airlines": {
+      "label": "Airlines (DAL + UAL)",
+      "data": [100, 92.0, 88.0, 85.0, 83.0, 81.0, 78.0, 78.5, 78.0, 76.0, 75.5, 74.0, 75.5, 73.0, 70.0],
+      "color": "#7b3fa0"
+    }
+  },
+  "last_updated": "2026-03-19"
+}

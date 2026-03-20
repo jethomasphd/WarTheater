@@ -2,46 +2,38 @@
    THE WAR THEATER — Consumer Impact Calculator
    "How much more are YOU paying?"
    This is the viral engine. Personal relevance drives sharing.
+   All data loaded from JSON files in public/data/.
    ═══════════════════════════════════════════════════════════════ */
 
 WarTheater.Calculator = {
-  // State gas price premiums (cents above/below national average)
-  // Source: AAA state averages, approximate differentials
-  statePremiums: {
-    'avg': 0,
-    'CA': 1.15,
-    'TX': -0.12,
-    'FL': 0.08,
-    'NY': 0.52,
-    'PA': 0.10,
-    'OH': -0.08,
-    'IL': 0.28,
-    'AZ': -0.02,
-    'GA': -0.05,
-    'WA': 0.65,
-    'MI': 0.05,
-    'NJ': 0.12,
-    'VA': -0.03,
-    'CO': 0.05,
-    'NC': -0.05
-  },
+  statePremiums: {},
+  preWarBase: 0,
+  currentBase: 0,
+  warIncrease: 0,
 
-  // Gas price data
-  preWarBase: 2.98,
-  currentBase: 3.95,
-  warIncrease: 0.97, // currentBase - preWarBase
+  init(calcData) {
+    if (!calcData) return;
 
-  init() {
+    // Load config from JSON
+    this.preWarBase = calcData.pre_war_gas;
+    this.currentBase = calcData.current_gas;
+    this.warIncrease = calcData.war_increase;
+
+    // Build premiums lookup
+    var self = this;
+    calcData.states.forEach(function(s) {
+      self.statePremiums[s.code] = s.premium;
+    });
+
     var miles = document.getElementById('calc-miles');
     var mpg = document.getElementById('calc-mpg');
     var state = document.getElementById('calc-state');
 
     if (!miles || !mpg || !state) return;
 
-    // Populate states dynamically
-    this.populateStates(state);
+    // Populate states dynamically from JSON
+    this.populateStates(state, calcData.states, calcData.default_state);
 
-    var self = this;
     var calc = function() { self.calculate(); };
     miles.addEventListener('input', calc);
     mpg.addEventListener('input', calc);
@@ -50,28 +42,9 @@ WarTheater.Calculator = {
     this.calculate();
   },
 
-  populateStates(select) {
-    var states = [
-      { val: 'avg', label: 'National Average' },
-      { val: 'CA', label: 'California' },
-      { val: 'TX', label: 'Texas' },
-      { val: 'FL', label: 'Florida' },
-      { val: 'NY', label: 'New York' },
-      { val: 'PA', label: 'Pennsylvania' },
-      { val: 'OH', label: 'Ohio' },
-      { val: 'IL', label: 'Illinois' },
-      { val: 'AZ', label: 'Arizona' },
-      { val: 'GA', label: 'Georgia' },
-      { val: 'WA', label: 'Washington' },
-      { val: 'MI', label: 'Michigan' },
-      { val: 'NJ', label: 'New Jersey' },
-      { val: 'VA', label: 'Virginia' },
-      { val: 'CO', label: 'Colorado' },
-      { val: 'NC', label: 'North Carolina' }
-    ];
-
+  populateStates(select, states, defaultState) {
     select.innerHTML = states.map(function(s) {
-      return '<option value="' + s.val + '"' + (s.val === 'TX' ? ' selected' : '') + '>' + s.label + '</option>';
+      return '<option value="' + s.code + '"' + (s.code === defaultState ? ' selected' : '') + '>' + s.label + '</option>';
     }).join('');
   },
 
@@ -96,7 +69,6 @@ WarTheater.Calculator = {
     var additionalWeeklyCost = weeklyGallons * priceIncrease;
 
     // Number of fill-ups per month (assume 14 gallon tank)
-    var fillUpsPerMonth = monthlyGallons / 14;
     var extraPerFillUp = 14 * priceIncrease;
 
     // Update output

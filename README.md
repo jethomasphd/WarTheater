@@ -18,18 +18,30 @@ The model is the [Johns Hopkins COVID-19 Dashboard](https://coronavirus.jhu.edu/
 
 **Two-phase AI-assisted update cycle, once daily.**
 
-Each morning, a Claude Deep Research agent analyzes OSINT sources and produces a structured Update Manifest. The analyst reviews the manifest against a QA checklist, then a Claude Code agent applies the approved changes to the data files. Cloudflare Pages auto-deploys on push to `main`.
-
 ```
-06:00  ./scripts/prep-update.sh        # Calculate war day, validate data, render prompts
-06:05  Claude Deep Research             # Phase 1: produces Update Manifest
-06:30  Human QA review                  # ops/daily-checklist.md
-07:00  Claude Code                      # Phase 2: applies manifest to JSON files
-07:15  git push → Cloudflare deploys    # Live at iranwar.ai
-07:20  ./scripts/archive-manifest.sh    # Archive the manifest
+┌─────────────────────────────────────────────────────────┐
+│  PHASE 1 — Deep Research                                │
+│                                                         │
+│  1. Export the current data JSONs from public/data/     │
+│  2. Upload them to Claude Deep Research along with      │
+│     ops/prompts/phase1-deep-research.md                 │
+│  3. Claude researches overnight events and produces     │
+│     a structured Update Manifest (.md)                  │
+│  4. QA review the manifest (ops/daily-checklist.md)     │
+│                                                         │
+├─────────────────────────────────────────────────────────┤
+│  PHASE 2 — Code Execution                               │
+│                                                         │
+│  1. Open Claude Code (connected to this repo)           │
+│  2. Paste ops/prompts/phase2-code-execution.md          │
+│     + the approved Update Manifest                      │
+│  3. Claude Code updates the JSON data files             │
+│  4. Review, commit, push → Cloudflare auto-deploys      │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
 ```
 
-See `ops/protocol.md` for the full operational protocol.
+The dashboard reads ALL data from JSON files in `public/data/`. No data lives in HTML or JS — code is presentation only. See `ops/protocol.md` for the full operational protocol.
 
 **Data sources:**
 - **Financial**: FRED, Yahoo Finance, Bloomberg, ICE, NYMEX, AAA, GasBuddy
@@ -69,14 +81,23 @@ WarTheater/
 │   ├── css/                   # design-system, animations, responsive
 │   ├── js/                    # app, map, financial, timeline, etc.
 │   ├── img/                   # SVG assets
-│   └── data/                  # JSON datasets (agent update target)
-│       ├── strikes-iran.json
-│       ├── strikes-retaliation.json
-│       ├── carriers.json
-│       ├── timeline-events.json
-│       ├── baselines.json
-│       ├── hormuz.json
-│       └── briefings/         # Daily HTML briefings + index.json
+│   └── data/                  # ALL dashboard data (agent update target)
+│       ├── hero-stats.json          # Hero panel metrics (daily snapshot)
+│       ├── strikes-iran.json        # U.S./Israeli strike locations
+│       ├── strikes-retaliation.json # Iranian retaliation strikes
+│       ├── carriers.json            # Naval force disposition
+│       ├── timeline-events.json     # Conflict timeline
+│       ├── baselines.json           # Pre-war financial baselines
+│       ├── hormuz.json              # Strait of Hormuz incidents
+│       ├── oil-prices.json          # Oil price time series
+│       ├── markets.json             # S&P 500 series + contexts
+│       ├── war-costs.json           # Daily war cost + notes
+│       ├── casualties.json          # Daily casualty breakdown
+│       ├── infrastructure.json      # Infrastructure damage
+│       ├── historical-comparison.json
+│       ├── global-bases.json        # US military base locations
+│       ├── calculator.json          # Gas cost calculator config
+│       └── briefings/               # Daily HTML briefings + index.json
 │
 ├── ops/                       # Operational protocol
 │   ├── protocol.md            # Full daily update protocol
@@ -85,11 +106,9 @@ WarTheater/
 │       ├── phase1-deep-research.md   # Claude Deep Research template
 │       └── phase2-code-execution.md  # Claude Code agent template
 │
-├── scripts/                   # Automation helpers
-│   ├── prep-update.sh         # Daily update prep (renders prompts)
-│   ├── validate-data.sh       # JSON validation for all data files
-│   ├── war-day.sh             # Calculate current war day
-│   └── archive-manifest.sh    # Archive completed manifests
+├── scripts/                   # Helpers
+│   ├── validate-data.sh       # Validate all JSON data files
+│   └── war-day.sh             # Calculate current war day
 │
 ├── updates/                   # Historical update tracking
 │   ├── manifests/             # Archived update manifests
