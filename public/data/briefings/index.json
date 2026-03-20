@@ -1,5 +1,75 @@
 [
   {
+    "day": 1,
+    "date": "2026-02-28",
+    "label": "FEBRUARY 28, 2026 — DAY 1",
+    "headline": "Operation Epic Fury begins — Khamenei killed; 6 US soldiers KIA at Port Shuaiba; Minab school strike kills 165+; Brent surges 18%",
+    "file": "data/briefings/day-1.html"
+  },
+  {
+    "day": 2,
+    "date": "2026-03-01",
+    "label": "MARCH 1, 2026 — DAY 2",
+    "headline": "Hormuz closed — mines deployed; all nuclear sites struck; S&P drops 3.1%; Houthis declare war on US shipping; Iraq declares neutrality",
+    "file": "data/briefings/day-2.html"
+  },
+  {
+    "day": 3,
+    "date": "2026-03-02",
+    "label": "MARCH 2, 2026 — DAY 3",
+    "headline": "Hezbollah enters the war — 500+ rockets at Israel; 3 civilians killed in Haifa; gas hits $3.25; India preps 8M evacuation",
+    "file": "data/briefings/day-3.html"
+  },
+  {
+    "day": 4,
+    "date": "2026-03-03",
+    "label": "MARCH 3, 2026 — DAY 4",
+    "headline": "Houthis strike Ras Tanura; Japan/SK release 22M barrel SPR; US Cyber Command degrades IRGC C2; Brent hits $91.50",
+    "file": "data/briefings/day-4.html"
+  },
+  {
+    "day": 5,
+    "date": "2026-03-04",
+    "label": "MARCH 4, 2026 — DAY 5",
+    "headline": "Al Udeid penetrated by 3 drones; Fordow survived deep strikes; 2M+ march globally in anti-war protests",
+    "file": "data/briefings/day-5.html"
+  },
+  {
+    "day": 6,
+    "date": "2026-03-05",
+    "label": "MARCH 5, 2026 — DAY 6",
+    "headline": "S&P enters correction (-8.3%); US strikes PMF in Iraq; Brent breaks $95; Maersk/MSC suspend Red Sea; 54% approve strikes in polls",
+    "file": "data/briefings/day-6.html"
+  },
+  {
+    "day": 7,
+    "date": "2026-03-06",
+    "label": "MARCH 6, 2026 — DAY 7",
+    "headline": "450,000 displaced in Lebanon; Oman begins back-channel diplomacy; 7th US KIA in Syria; Iron Dome: 1,500+ interceptors expended",
+    "file": "data/briefings/day-7.html"
+  },
+  {
+    "day": 8,
+    "date": "2026-03-07",
+    "label": "MARCH 7, 2026 — DAY 8",
+    "headline": "US strikes Kharg Island — 90% of Iran oil exports targeted; Brent breaks $100; Week 1 summary: 7 KIA, 3,000+ targets, Hormuz closed",
+    "file": "data/briefings/day-8.html"
+  },
+  {
+    "day": 9,
+    "date": "2026-03-08",
+    "label": "MARCH 8, 2026 — DAY 9",
+    "headline": "US strikes 12 Houthi sites in Yemen; 500,000 march in Washington; Trump authorizes 30M barrel SPR release; Iraqi parliament votes to expel US",
+    "file": "data/briefings/day-9.html"
+  },
+  {
+    "day": 10,
+    "date": "2026-03-09",
+    "label": "MARCH 9, 2026 — DAY 10",
+    "headline": "Drone production facilities struck; IAEA loses all nuclear monitoring; Mojtaba Khamenei named Supreme Leader; supply chain cascade beyond energy",
+    "file": "data/briefings/day-10.html"
+  },
+  {
     "day": 11,
     "date": "2026-03-10",
     "label": "MARCH 10, 2026 — DAY 11",
