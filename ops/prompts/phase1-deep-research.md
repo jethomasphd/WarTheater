@@ -263,7 +263,18 @@ Updates to historical-comparison.json.
 Items requiring human judgment before inclusion.
 Each item includes: the claim, competing sources, and your assessment.
 
-### 10. ANALYST NOTES
+### 10. BRIEFING METADATA
+
+Provide the briefing index entry for today:
+
+```
+HEADLINE: [Short headline summarizing the day's key developments — used in archive cards]
+```
+
+This headline appears on the archive page as a one-line summary. Keep it under
+120 characters. Focus on 3-4 key events separated by semicolons.
+
+### 11. ANALYST NOTES
 Patterns, emerging trends, structural observations for the next cycle.
 
 ---

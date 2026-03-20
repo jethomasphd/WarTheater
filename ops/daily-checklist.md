@@ -63,6 +63,12 @@
   - [ ] Financial charts have new data points
   - [ ] Casualty chart updated
   - [ ] Calculator reflects current gas price
+  - [ ] Briefing panel shows today's briefing
+- [ ] Open iranwar.ai/archive — verify:
+  - [ ] Today's briefing appears at the top with "Latest" badge
+  - [ ] Briefing card auto-expands and content loads
+  - [ ] Previous day's briefing is collapsed but loads on click
+  - [ ] Briefing count is correct
 - [ ] No console errors in browser dev tools
 
 ## Done

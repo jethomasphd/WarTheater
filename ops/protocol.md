@@ -132,11 +132,24 @@ Review the manifest against `ops/daily-checklist.md`:
 5. Commits: `intel update: Day [N] — YYYY-MM-DD`
 6. Pushes to `main`
 
+### Briefing Archive
+
+The archive page (`archive.html`) is fully dynamic — it reads from `data/briefings/index.json`
+and lazy-loads individual briefing HTML files on demand. **No manual archive.html editing is needed.**
+
+During Phase 2, the code agent:
+1. Creates `public/data/briefings/day-[N].html` (HTML fragment matching previous briefings)
+2. Appends an entry to `public/data/briefings/index.json`
+3. Updates the hardcoded briefing panel in `index.html`
+
+The archive page automatically picks up the new briefing from `index.json`.
+
 ### Post-Execution
 
 - Review the agent's change summary
 - Verify Cloudflare Pages deployment
 - Spot-check live dashboard
+- Verify archive page shows the new briefing at the top
 
 ---
 

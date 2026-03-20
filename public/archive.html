@@ -7,9 +7,100 @@
   <meta name="description" content="Complete archive of daily intelligence briefings from IRANWAR.AI.">
 
   <!-- Design System -->
-  <link rel="stylesheet" href="css/design-system.css?v=20260313">
-  <link rel="stylesheet" href="css/animations.css?v=20260313">
-  <link rel="stylesheet" href="css/responsive.css?v=20260313">
+  <link rel="stylesheet" href="css/design-system.css?v=20260320">
+  <link rel="stylesheet" href="css/animations.css?v=20260320">
+  <link rel="stylesheet" href="css/responsive.css?v=20260320">
+
+  <style>
+    /* Archive-specific styles */
+    .archive-card {
+      border: 1px solid var(--border);
+      margin-bottom: var(--space-md);
+      transition: border-color 0.2s;
+    }
+    .archive-card:hover {
+      border-color: var(--text-accent);
+    }
+    .archive-card.expanded {
+      border-color: var(--text-accent);
+    }
+    .archive-card-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: var(--space-lg) var(--space-xl);
+      cursor: pointer;
+      user-select: none;
+      gap: var(--space-md);
+    }
+    .archive-card-header:hover {
+      background: rgba(255,255,255,0.02);
+    }
+    .archive-card-meta {
+      flex: 1;
+      min-width: 0;
+    }
+    .archive-card-day {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: var(--text-xs);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-accent);
+      margin-bottom: var(--space-xs);
+    }
+    .archive-card-headline {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: var(--text-sm);
+      color: var(--text-secondary);
+      line-height: 1.4;
+    }
+    .archive-card-toggle {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: var(--text-xs);
+      color: var(--text-dim);
+      flex-shrink: 0;
+      transition: transform 0.2s;
+      padding-top: 2px;
+    }
+    .archive-card.expanded .archive-card-toggle {
+      transform: rotate(90deg);
+    }
+    .archive-card-body {
+      display: none;
+      padding: 0 var(--space-xl) var(--space-xl);
+      border-top: 1px solid var(--border);
+    }
+    .archive-card.expanded .archive-card-body {
+      display: block;
+    }
+    .archive-card-loading {
+      text-align: center;
+      padding: var(--space-xl) 0;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: var(--text-xs);
+      color: var(--text-dim);
+      letter-spacing: 0.06em;
+    }
+    .archive-card-latest {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--bg);
+      background: var(--text-accent);
+      padding: 2px 8px;
+      margin-left: var(--space-sm);
+      vertical-align: middle;
+    }
+    .archive-count {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: var(--text-xs);
+      color: var(--text-dim);
+      text-align: center;
+      margin-bottom: var(--space-xl);
+      letter-spacing: 0.06em;
+    }
+  </style>
 </head>
 <body>
 
@@ -89,278 +180,11 @@
         <p>Complete briefing history — Operation Epic Fury</p>
       </div>
 
-      <!-- DAY 14 — LATEST -->
-      <div class="archive-day-label">March 13, 2026 — Day 14 (Latest)</div>
+      <div class="archive-count" id="archive-count"></div>
 
-      <div class="briefing-header">
-        <h2 style="margin-bottom: var(--space-sm);">Daily Intelligence Briefing</h2>
-        <div class="briefing-date">MARCH 13, 2026 — DAY 14</div>
-        <div style="font-size: var(--text-xs); color: var(--text-dim); margin-top: var(--space-sm); font-family: 'JetBrains Mono', monospace;">
-          AI-generated analysis of public data — not state-approved, not classified
-        </div>
-      </div>
+      <!-- Briefings loaded dynamically -->
+      <div id="archive-list"></div>
 
-      <div class="briefing-section">
-        <h3>Situation Summary</h3>
-        <p>Day 14 of Operation Epic Fury marks the beginning of a new phase — one defined less by dramatic escalation than by the grinding reality of a war that has settled into multiple simultaneous fronts with no exit in sight. The US executed overnight retaliatory strikes against the IRGC coastal batteries that fired on USS Paul Ignatius yesterday, destroying five sites along the Hormuz coastline. Then it sent a second, larger convoy — five tankers this time — through the strait under escort. IRGC fast boats approached but withdrew after warning shots. No missiles were fired. The US is methodically establishing a precedent: the strait will be transited, under guns, whether Iran likes it or not.</p>
-        <p>On the ground in southern Lebanon, the IDF advanced five kilometers north of the Blue Line to the outskirts of Bint Jbeil — the same town that became a graveyard for Israeli soldiers in 2006. Hezbollah's Radwan Force employed IEDs, tunnel systems, and anti-tank missiles, killing six more IDF soldiers. Ten Israeli soldiers are now dead in two days of ground operations. Hezbollah fired over 300 rockets into northern Israel in retaliation. The ground war that began yesterday is now a grinding urban and rural fight with no clear endgame.</p>
-        <p>And in Washington, the Senate took up the AUMF debate. For the first time since the war began, elected representatives are publicly arguing about whether the President has the constitutional authority to wage it. The floor debate was fierce. A vote is expected tomorrow. Markets dipped on the uncertainty — not because investors think the war will end, but because they don't know what happens if Congress says it should.</p>
-      </div>
-
-      <div class="briefing-section">
-        <h3>Key Developments</h3>
-        <ul>
-          <li>US retaliatory strikes destroy 5 IRGC coastal missile battery positions at Bandar Abbas, Qeshm Island, and three additional sites — the batteries that fired on USS Paul Ignatius</li>
-          <li>Second Hormuz convoy — 5 tankers escorted through in 11 hours; IRGC fast boats approach but withdraw after warning shots; no missiles fired</li>
-          <li>IDF advances 5km into southern Lebanon — heavy fighting at Bint Jbeil; Hezbollah employs IEDs, tunnels, and ATGMs; 6 more IDF soldiers killed (10 total in ground op)</li>
-          <li>Hezbollah fires 300+ rockets at northern Israel in retaliation for IDF advance</li>
-          <li>Senate begins heated AUMF debate — vote expected March 14; White House cites Article II powers</li>
-          <li>Russia introduces rival ceasefire resolution at UNSC — US veto expected</li>
-          <li>EU announces sanctions package on IRGC and Iranian oil; Iran recalls ambassadors from France, Germany, Netherlands</li>
-          <li>Oil eases — Brent $98.82 (-1.3%); WTI $95.28 (flat) — convoy success tempers fears slightly</li>
-          <li>S&P 500 closes at 6,672.62 — down 0.3% on AUMF uncertainty; defense stocks +16.5%</li>
-          <li>Gas hits $3.82/gallon nationally — trucking war surcharges take effect; CA at $5.15</li>
-          <li>Displaced in Lebanon surges past 850,000; 773+ killed including 102 children</li>
-        </ul>
-      </div>
-
-      <div class="briefing-section">
-        <h3>Financial Outlook</h3>
-        <p>Oil prices eased modestly — Brent to $98.82 and WTI holding flat at $95.28 — as the second successful convoy transit and the destruction of IRGC coastal batteries provided the market with a sliver of evidence that the Hormuz situation is, if not improving, at least being managed. But the math hasn't changed: eight escorted tankers in two days replace less than 1% of normal Hormuz traffic. The 12.35 million barrel per day shortfall persists. Oil remains up 36.6% from pre-war levels and every analyst on the Street is saying the same thing: sustained convoys under fire are not a substitute for an open strait.</p>
-        <p>The S&P 500 closed at 6,672.62 — down just 2.8% from pre-war levels, a remarkably modest decline for a two-week war. The explanation lies in sector rotation: defense stocks are now up 16.5% (RTX and LMT both at war-highs) and oil majors are up 21% — these gains have largely offset the 24.5% collapse in airlines and 8-12% declines in consumer discretionary and travel sectors. The S&P is telling a story of who benefits and who pays. The AUMF debate introduced a new variable: if Congress constrains the war, defense stocks could reverse sharply.</p>
-        <p>Gas prices climbed to $3.82/gallon nationally — up 25.2% from pre-war — with California at $5.15. Today the trucking industry's war surcharges took effect, adding 8-12% to freight costs. Grocery chains have warned that perishable goods prices will rise within 3-5 days. The war is no longer an abstraction on a dashboard — it is arriving at every checkout counter and gas pump in the country.</p>
-      </div>
-
-      <div class="briefing-section">
-        <h3>Humanitarian Update</h3>
-        <p>The IDF ground operation in southern Lebanon entered its second day with heavy casualties on both sides. Six more IDF soldiers were killed — bringing the total to ten in just two days — as Hezbollah's Radwan Force used the same defensive tactics that devastated Israeli forces at Bint Jbeil in 2006: IEDs, anti-tank guided missiles fired from tunnel openings, and fortified underground positions. An estimated 65 Lebanese were killed today, bringing the total to at least 773 including 102 children. Displaced persons have surged past 850,000 as the ground operation pushes deeper. The ICRC has requested immediate humanitarian access for civilians trapped south of the Litani River.</p>
-        <p>In Iran, strikes continued on remaining military infrastructure in Tehran, Bandar Abbas, Kharg Island, and Abadan. Approximately 115 additional Iranian casualties are estimated today — 95 military and 20 civilian — bringing the total to approximately 1,500 killed since February 28. The Sidon field hospital in southern Lebanon reported structural damage from nearby ground combat, the fifth medical facility affected since the war began.</p>
-        <p>No new US service member deaths were reported. The total remains at 8 KIA and 14 wounded (2 additional WIA from mine countermeasures operations during convoy escort). The growing Israeli casualty toll — 10 KIA in two days — is dominating Israeli media and raising questions about whether the IDF can sustain a ground campaign against a Hezbollah force that is better equipped than in 2006.</p>
-      </div>
-
-      <div class="briefing-section">
-        <h3>What to Watch</h3>
-        <ul>
-          <li><strong>AUMF vote</strong> — Expected March 14. If it passes, the President may face constraints on the war's scope and duration. If it fails, it effectively gives retroactive authorization. Either outcome reshapes the war's trajectory</li>
-          <li><strong>Hormuz convoy cadence</strong> — Can the US sustain daily convoys? Each transit requires enormous naval resources. The IRGC didn't fire today, but mobile launchers remain intact. The question is whether deterrence holds or whether Iran is simply waiting</li>
-          <li><strong>Bint Jbeil</strong> — The town was the scene of the IDF's worst defeat in the 2006 Lebanon War. If the IDF gets bogged down there again, domestic pressure in Israel to halt the ground operation will mount rapidly</li>
-          <li><strong>Consumer price cascade</strong> — Trucking surcharges took effect today. Grocery and retail price increases will be visible within 3-5 days. This is the moment the war becomes personal for tens of millions of Americans who aren't watching the news</li>
-          <li><strong>EU-Iran diplomatic break</strong> — Iran recalling ambassadors from three EU nations signals diplomatic isolation deepening. But isolation can make escalation more likely, not less</li>
-          <li><strong>Russian ceasefire resolution</strong> — The language condemning "unilateral military aggression" makes a US veto certain, but the diplomatic signal matters: Russia is building a coalition narrative that the US is the obstacle to peace</li>
-        </ul>
-      </div>
-
-      <div style="border-top: 1px solid var(--border); padding-top: var(--space-lg); margin-top: var(--space-xl);">
-        <p style="font-size: var(--text-xs); color: var(--text-dim); font-family: 'JetBrains Mono', monospace;">
-          Sources: ACLED, CENTCOM, NAVCENT, DoD press briefings, ICE/NYMEX, AAA, YCharts, UNHCR, OCHA, ICRC, Reuters, AP, Bloomberg, CNBC, Al Jazeera, IDF, Hezbollah media office, NATO, European Council, Iranian state media (IRNA/PressTV), Senate.gov/C-SPAN, UN Security Council.
-        </p>
-      </div>
-
-      <!-- ═══════════════════════════════════════════════ -->
-      <hr class="archive-divider">
-      <!-- ═══════════════════════════════════════════════ -->
-
-      <!-- DAY 13 -->
-      <div class="archive-day-label">March 12, 2026 — Day 13</div>
-
-      <div class="briefing-header">
-        <h2 style="margin-bottom: var(--space-sm);">Daily Intelligence Briefing</h2>
-        <div class="briefing-date">MARCH 12, 2026 — DAY 13</div>
-        <div style="font-size: var(--text-xs); color: var(--text-dim); margin-top: var(--space-sm); font-family: 'JetBrains Mono', monospace;">
-          AI-generated analysis of public data — not state-approved, not classified
-        </div>
-      </div>
-
-      <div class="briefing-section">
-        <h3>Situation Summary</h3>
-        <p>Day 13 of Operation Epic Fury marks a pivotal escalation on three fronts simultaneously. The US Navy escorted its first tanker convoy through a partially cleared corridor in the Strait of Hormuz — then Iran's IRGC Navy fired anti-ship missiles at the escort vessels. USS Paul Ignatius intercepted both missiles. This is the first direct naval engagement between US and Iranian forces in the conflict, crossing a threshold that turns a blockade into a shooting war at sea.</p>
-        <p>On the northern front, the IDF launched a ground incursion into southern Lebanon — the first Israeli ground operation there since 2006. Golani Brigade and 7th Armored Brigade crossed the Blue Line toward the Litani River. Hezbollah's Radwan Force destroyed at least 2 Merkava tanks with ATGMs, killing 4 IDF soldiers. What began as an air campaign against Hezbollah is now a ground war.</p>
-        <p>And in the diplomatic arena, China introduced a 72-hour ceasefire resolution at the UN Security Council. The United States vetoed it. Meanwhile, 34 US senators — bipartisan — demanded a vote on Authorization for Use of Military Force, calling the war unconstitutional without Congressional approval. The war is now being fought on the battlefield, at sea, and in the halls of Congress simultaneously.</p>
-      </div>
-
-      <div class="briefing-section">
-        <h3>Key Developments</h3>
-        <ul>
-          <li>US Navy escorts first 3-tanker convoy through Hormuz — 14-hour transit through partially cleared corridor; one mine detonated harmlessly in cleared lane</li>
-          <li>IRGC fires 2 anti-ship missiles at USS Paul Ignatius (DDG-117) — both intercepted by SM-2 and CIWS; IRGC fast attack craft driven off by helicopter gunships</li>
-          <li>IDF launches ground incursion into southern Lebanon — Golani Brigade and 7th Armored toward Litani; Hezbollah destroys 2 Merkava tanks; 4 IDF soldiers killed</li>
-          <li>NATO invokes Article 4 consultations over Turkey; additional Patriot batteries deploying to southeastern Turkey</li>
-          <li>Iran threatens Turkey with "severe consequences" for "siding with aggressors"</li>
-          <li>Oil surges — Brent closes at $100.11, back above $100 as IRGC-Navy clash confirms Hormuz shortfall unchanged</li>
-          <li>34 US senators demand AUMF vote within 72 hours; White House cites Article II powers</li>
-          <li>China's 72-hour ceasefire resolution vetoed by US at UNSC</li>
-          <li>Hospital in Ahvaz damaged — Iran claims 12 killed; Pentagon says secondary explosion from nearby IRGC logistics hub</li>
-          <li>Gas hits $3.72/gallon nationally; California breaks $5.00/gallon</li>
-          <li>Lebanese displaced surges toward 800,000 as ground operations begin</li>
-        </ul>
-      </div>
-
-      <div class="briefing-section">
-        <h3>Financial Outlook</h3>
-        <p>Yesterday's oil crash on the Energy Secretary's false Hormuz claim has reversed — violently. Brent surged back above $100 to close at $100.11 (intraday range $92.89-$101.53) as the IRGC's attack on the convoy escort confirmed what the market feared: the Strait of Hormuz is not reopening peacefully. The first successful convoy transit is a tactical achievement, but three tankers under heavy military escort is not "reopening" — it's a proof of concept at best. The underlying shortfall of 12.35 million barrels per day remains.</p>
-        <p>The S&P 500 recovered to 6,694 — down just 2.5% from pre-war levels — as defense stocks surged to +15.8% (their highest war gain) and oil majors recovered most of yesterday's crash. The combination of defense sector gains (+15.8%) and energy sector gains (+22.1%) has largely offset the broader market decline, making the headline index deceptively mild. Airlines plunged to -23.8% from baseline as the war's expansion promises higher fuel costs for longer. The S&P's modest decline masks a violent sector rotation: the war has winners and losers, and the index averages them into a number that understates the disruption.</p>
-        <p>Gas prices climbed to $3.72/gallon nationally — up 22% from pre-war — and California has broken through $5.00 for the first time since the war began. With oil rebounding sharply today, any hope of near-term pump relief has evaporated. The trucking industry has announced freight surcharges that will ripple through consumer goods prices within days.</p>
-      </div>
-
-      <div class="briefing-section">
-        <h3>Humanitarian Update</h3>
-        <p>Day 13 is the deadliest day on the Lebanon front since the war began. The IDF ground incursion has transformed the conflict from an air campaign into a ground war, with heavy fighting reported near Marjayoun. An estimated 85 Lebanese were killed today — the highest single-day toll — bringing the total to at least 655 including 95 children. Displaced persons have surged toward 800,000 as civilians flee the advancing ground operation. The humanitarian corridor from southern Lebanon northward is overwhelmed.</p>
-        <p>In Iran, a hospital in Ahvaz was damaged in what Iranian state media calls an American airstrike. The Pentagon states the target was an IRGC logistics hub 400 meters away and attributes the hospital damage to secondary explosions. This is the third major civilian infrastructure incident after Minab (Day 1) and eastern Tehran (Day 11). Iran's total reported killed has risen to approximately 1,385, with over 10,000 injured. Independent verification remains difficult with press access severely restricted.</p>
-        <p>The first Israeli military casualties of the war — 4 IDF soldiers killed when Hezbollah's Radwan Force destroyed their Merkava tanks with anti-tank guided missiles — mark a new dimension of the human cost. No new US service member deaths were reported today, but the IRGC's direct attack on USS Paul Ignatius raises the stakes for the next naval engagement.</p>
-      </div>
-
-      <div class="briefing-section">
-        <h3>What to Watch</h3>
-        <ul>
-          <li><strong>Hormuz convoy operations</strong> — Will the US attempt daily escorted convoys? Each transit is a potential flashpoint for a larger naval battle. IRGC has demonstrated willingness to fire on US warships</li>
-          <li><strong>Lebanon ground war escalation</strong> — How deep will the IDF push? The 2006 war lasted 34 days and cost 121 IDF lives. Hezbollah is better armed now than in 2006</li>
-          <li><strong>AUMF vote</strong> — 34 senators demanding war authorization within 72 hours creates a constitutional showdown; if the vote fails, it legitimizes the war; if it succeeds, it constrains the President</li>
-          <li><strong>Iran's response to naval engagement</strong> — The IRGC fired on a US destroyer and missed. Retaliation could include mining new areas, deploying submarines, or escalating attacks on Gulf state infrastructure</li>
-          <li><strong>Turkey-Iran tensions</strong> — Iran's threat of "severe consequences" against a NATO member could trigger the Article 5 discussions that Article 4 consultations are designed to precede</li>
-          <li><strong>Consumer price cascade</strong> — Trucking surcharges announced today will hit grocery and retail prices within 5-7 days; the war's economic impact is about to become personal for every American household</li>
-        </ul>
-      </div>
-
-      <div style="border-top: 1px solid var(--border); padding-top: var(--space-lg); margin-top: var(--space-xl);">
-        <p style="font-size: var(--text-xs); color: var(--text-dim); font-family: 'JetBrains Mono', monospace;">
-          Sources: ACLED, CENTCOM, NAVCENT, DoD press briefings, ICE/NYMEX, AAA, YCharts, UNHCR, OCHA, Reuters, AP, Bloomberg, CNBC, Al Jazeera, IDF, Hezbollah media office, NATO, Turkish MoD, Iranian state media (IRNA/PressTV), Senate.gov, UN Security Council.
-        </p>
-      </div>
-
-      <!-- ═══════════════════════════════════════════════ -->
-      <hr class="archive-divider">
-      <!-- ═══════════════════════════════════════════════ -->
-
-      <!-- DAY 12 -->
-      <div class="archive-day-label">March 11, 2026 — Day 12</div>
-
-      <div class="briefing-header">
-        <h2 style="margin-bottom: var(--space-sm);">Daily Intelligence Briefing</h2>
-        <div class="briefing-date">MARCH 11, 2026 — DAY 12</div>
-        <div style="font-size: var(--text-xs); color: var(--text-dim); margin-top: var(--space-sm); font-family: 'JetBrains Mono', monospace;">
-          AI-generated analysis of public data — not state-approved, not classified
-        </div>
-      </div>
-
-      <div class="briefing-section">
-        <h3>Situation Summary</h3>
-        <p>Day 12 of Operation Epic Fury is defined by chaos — not on the battlefield, but in the information space. Energy Secretary Chris Wright posted a false claim that the US Navy escorted a tanker through the Strait of Hormuz, triggering an 11.3% crash in Brent crude before the Pentagon could issue a denial. The incident underscores how fragile markets have become: a single social media post by a cabinet official moved billions of dollars in minutes.</p>
-        <p>Meanwhile, the war itself shows no signs of slowing. Three ships were struck in the Strait of Hormuz and Persian Gulf — the first maritime attacks in 72 hours — demonstrating that Iran's ability to threaten commercial shipping remains intact. Iran launched a fresh ballistic missile barrage at Israel overnight, all intercepted. And in a historic first, NATO air defenses shot down an Iranian ballistic missile in Turkish airspace.</p>
-        <p>President Trump sent contradictory signals, telling CBS News the war is "pretty much complete" before telling House Republicans "we haven't won enough" and demanding Iran's "unconditional surrender." The gap between these statements is the gap between hope and reality. Ceasefire contacts via China, Russia, and France have been reported by Iranian state media, but no formal negotiations are underway.</p>
-      </div>
-
-      <div class="briefing-section">
-        <h3>Key Developments</h3>
-        <ul>
-          <li>Brent crude crashes 11.3% to $87.80 after Energy Secretary's false claim of Navy-escorted Hormuz transit; partially recovers to ~$88.30</li>
-          <li>Three vessels struck by projectiles in Strait of Hormuz and Persian Gulf — Thai-flagged bulk carrier Mayruree Naree, plus two others near UAE</li>
-          <li>NATO air defenses shoot down Iranian ballistic missile in Turkish airspace — first such incident in NATO history</li>
-          <li>IDF strikes Hezbollah command centers in Beirut suburbs; 4 killed in central Beirut apartment strike</li>
-          <li>Iran fires overnight missile barrage at Israel; rocket trails seen over Netanya; all intercepted by Arrow/Iron Dome</li>
-          <li>8th US service member dies from injuries sustained in March 1 Saudi Arabia attack</li>
-          <li>Trump gives contradictory war signals: "pretty much complete" vs. "haven't won enough"</li>
-          <li>Lebanese displaced exceeds 700,000 — up from 450,000 five days ago; Lebanese government bans Hezbollah military activities</li>
-          <li>Gas prices reach $3.63/gallon despite oil retreat — lag effect continues to hit consumers</li>
-        </ul>
-      </div>
-
-      <div class="briefing-section">
-        <h3>Financial Outlook</h3>
-        <p>Today's oil crash is the most significant single-session move since the war began — but for all the wrong reasons. Brent's 11.3% plunge was not driven by a genuine breakthrough in Hormuz reopening or a ceasefire agreement. It was driven by a false claim from a cabinet secretary on social media. When the Pentagon denied it, prices partially recovered but remained well below yesterday's $101.50 close, settling around $88.30.</p>
-        <p>The episode reveals two things: first, that markets are desperate for any signal that the Hormuz crisis might end, and will react violently to even unverified claims. Second, that the information environment around this war is dangerously unstable. Oil majors (XOM, CVX) gave back nearly 5% of their war gains. Defense stocks slipped. Airlines rallied on lower fuel hopes. But the underlying fundamentals — Hormuz closed, 12.35 MBD shortfall, 400+ tankers stranded — have not changed.</p>
-        <p>Gas prices, which lag crude by 7-10 days, continue climbing to $3.63/gallon nationally despite today's oil retreat. California has hit $4.81. The disconnect between falling crude and rising pump prices will fuel public anger in the days ahead.</p>
-      </div>
-
-      <div class="briefing-section">
-        <h3>Humanitarian Update</h3>
-        <p>The human cost continues to mount on every front. Iran now reports over 1,255 killed and approximately 10,000 injured since February 28. The eastern Tehran residential strike that killed at least 40 people — including the second significant civilian casualty event after Minab — has intensified international pressure on the US to demonstrate more discriminate targeting.</p>
-        <p>In Lebanon, the crisis has entered a new phase. Displaced persons have surged from 450,000 to over 700,000 in five days as Israeli strikes intensify against Hezbollah positions. The Lebanese government has taken the unprecedented step of banning Hezbollah's military and security activities and instructing the army to accelerate disarmament north of the Litani River. At least 570 Lebanese have been killed, including 83 children. Iran's IRGC Quds Force advisers have reportedly departed Beirut following Lebanon's announcement that it would "arrest and repatriate" anyone connected to Iran's Revolutionary Guards.</p>
-        <p>The eighth US service member has died — a soldier who had been in critical condition since an Iranian missile attack on a US base in Saudi Arabia on March 1. The Pentagon reports 8 KIA and 12 wounded across multiple Gulf bases.</p>
-      </div>
-
-      <div class="briefing-section">
-        <h3>What to Watch</h3>
-        <ul>
-          <li><strong>Ceasefire channels</strong> — Iran reports contacts via China, Russia, and France; Trump's mixed signals create uncertainty about US negotiating posture</li>
-          <li><strong>NATO Article 5 implications</strong> — The Turkish intercept of an Iranian missile raises questions about whether NATO collective defense obligations are triggered</li>
-          <li><strong>Hormuz mine-clearing timeline</strong> — US Navy minesweeping operations continue but the three ship attacks today demonstrate Iran's persistent threat capability</li>
-          <li><strong>Lebanon's Hezbollah crackdown</strong> — Whether the Lebanese Army can or will enforce the ban on Hezbollah military activities, or whether it splits the country</li>
-          <li><strong>Gas price / oil price divergence</strong> — Consumers are paying for yesterday's oil prices; if crude stays down, pump relief could come in 7-10 days, but any new escalation resets the clock</li>
-          <li><strong>Information discipline</strong> — The Energy Secretary incident has damaged administration credibility; future official statements about Hormuz progress will face heightened skepticism</li>
-        </ul>
-      </div>
-
-      <div style="border-top: 1px solid var(--border); padding-top: var(--space-lg); margin-top: var(--space-xl);">
-        <p style="font-size: var(--text-xs); color: var(--text-dim); font-family: 'JetBrains Mono', monospace;">
-          Sources: ACLED, CENTCOM, DoD press briefings, ICE/NYMEX, AAA, YCharts, UNHCR, OCHA, Reuters, AP, Bloomberg, CNBC, Al Jazeera, UK Maritime Trade Operations, Iranian state media (IRNA/PressTV), Times of Israel, Turkish MoD.
-        </p>
-      </div>
-
-      <!-- ═══════════════════════════════════════════════ -->
-      <hr class="archive-divider">
-      <!-- ═══════════════════════════════════════════════ -->
-
-      <!-- DAY 11 -->
-      <div class="archive-day-label">March 10, 2026 — Day 11</div>
-
-      <div class="briefing-header">
-        <h2 style="margin-bottom: var(--space-sm);">Daily Intelligence Briefing</h2>
-        <div class="briefing-date">MARCH 10, 2026 — DAY 11</div>
-        <div style="font-size: var(--text-xs); color: var(--text-dim); margin-top: var(--space-sm); font-family: 'JetBrains Mono', monospace;">
-          AI-generated analysis — Claude via Cloudflare Worker
-        </div>
-      </div>
-
-      <div class="briefing-section">
-        <h3>Situation Summary</h3>
-        <p>Operation Epic Fury enters its eleventh day with no ceasefire negotiations underway and no indication either side is prepared to de-escalate. US and Israeli air operations continue across Iran, with the second week marked by a significant expansion of targeting to include oil infrastructure — a move that has pushed Brent crude past $100/barrel for the first time since 2022.</p>
-        <p>The appointment of Mojtaba Khamenei as Iran's new Supreme Leader on March 9 signals continuity rather than compromise. His first public statement rejected any ceasefire and pledged "resistance until victory," suggesting the Iranian leadership succession has not produced the hoped-for opening for diplomacy.</p>
-        <p>The Strait of Hormuz remains effectively closed to commercial shipping for the tenth consecutive day. The global oil supply shortfall of approximately 12.35 million barrels per day — accounting for pipeline alternatives operating at capacity — continues to ripple through energy markets and consumer prices worldwide.</p>
-      </div>
-
-      <div class="briefing-section">
-        <h3>Key Developments</h3>
-        <ul>
-          <li>Mojtaba Khamenei named Supreme Leader by Assembly of Experts; vows continued resistance</li>
-          <li>US strikes on Kharg Island oil terminal continue for third consecutive day; 90% of Iran's oil export capacity now degraded</li>
-          <li>Hezbollah rocket attacks on northern Israel intensify; IDF responds with expanded strikes in Beirut and southern Lebanon</li>
-          <li>President Trump authorizes 30M barrel Strategic Petroleum Reserve release; critics note this covers less than 3 days of Hormuz shortfall</li>
-          <li>National average gas price reaches $3.48/gallon, up 14.1% from pre-war baseline</li>
-          <li>S&P 500 remains in correction territory at 5,251, down 8.3% from February 27</li>
-          <li>UNHCR reports 450,000+ displaced in Lebanon; humanitarian corridors overwhelmed</li>
-        </ul>
-      </div>
-
-      <div class="briefing-section">
-        <h3>Financial Outlook</h3>
-        <p>The decision to strike Iranian oil infrastructure has fundamentally altered the economic calculus of this conflict. With Brent at $101.50 and Hormuz still closed, the dual supply shock is unprecedented in modern energy markets. Alternative pipeline capacity can replace roughly 8.15 million barrels per day of the 20.5 million that normally transits Hormuz — leaving a shortfall that Strategic Petroleum Reserve releases can only temporarily mask.</p>
-        <p>Defense sector stocks continue outperforming the broader market (RTX +14.2%, LMT +11.8%), while airlines face mounting fuel cost pressure (DAL −18.3%, UAL −22.1%). The divergence between defense and consumer-facing sectors is the clearest market signal of the war's distributional impact: the cost is not borne equally.</p>
-      </div>
-
-      <div class="briefing-section">
-        <h3>Humanitarian Update</h3>
-        <p>The Minab school incident on February 28 — in which 165-180 people were killed (mostly girls aged 7-12) when a US Tomahawk cruise missile struck the Shajareh Tayyebeh girls' elementary school adjacent to an IRGC naval complex — remains the single deadliest confirmed civilian casualty event. The school was triple-tapped per Iranian officials. The Pentagon has stated the school was not the intended target and an investigation is underway; preliminary findings indicate outdated DIA intelligence failed to distinguish the school from the military compound. Iranian state media continues to broadcast footage of the aftermath to international audiences.</p>
-        <p>In Lebanon, the displacement crisis is accelerating faster than humanitarian infrastructure can absorb. UNHCR reports 450,000 displaced, with flows primarily northward toward Tripoli and eastward toward Syria. Medical facilities in southern Lebanon are operating at or beyond capacity, and at least three hospitals have reported structural damage from Israeli strikes targeting Hezbollah positions in adjacent buildings.</p>
-      </div>
-
-      <div class="briefing-section">
-        <h3>What to Watch</h3>
-        <ul>
-          <li><strong>Mojtaba Khamenei's consolidation</strong> — Whether the new Supreme Leader can maintain IRGC cohesion and command authority during active combat</li>
-          <li><strong>Hormuz mine-clearing operations</strong> — US Navy has begun limited minesweeping; timeline to partial reopening is key market variable</li>
-          <li><strong>Hezbollah escalation ceiling</strong> — Whether Hezbollah commits deeper forces or maintains current rocket-and-raid tempo</li>
-          <li><strong>Congressional war powers debate</strong> — Multiple bills introduced to invoke War Powers Act; floor votes expected this week</li>
-          <li><strong>Gas price trajectory</strong> — Analysts project $4+/gallon within 2 weeks if Hormuz remains closed; political pressure will intensify</li>
-        </ul>
-      </div>
-
-      <div style="border-top: 1px solid var(--border); padding-top: var(--space-lg); margin-top: var(--space-xl);">
-        <p style="font-size: var(--text-xs); color: var(--text-dim); font-family: 'JetBrains Mono', monospace;">
-          Sources: ACLED, CENTCOM, DoD press briefings, ICE/NYMEX, AAA, UNHCR, OCHA, Reuters, AP, Iranian state media (IRNA/PressTV).
-        </p>
-      </div>
-
-      <!-- END ARCHIVE -->
       <div style="text-align: center; margin-top: var(--space-2xl); padding: var(--space-2xl) 0;">
         <p style="font-family: 'JetBrains Mono', monospace; font-size: var(--text-xs); color: var(--text-dim); letter-spacing: 0.06em; text-transform: uppercase;">End of Archive — Complete briefing history from Day 1</p>
         <a href="index.html" class="briefing-archive-btn" style="margin-top: var(--space-lg);">&#9664; Return to Dashboard</a>
@@ -379,6 +203,7 @@
   </footer>
 
   <script>
+    /* ── Disclaimer Gate ── */
     (function() {
       var overlay = document.getElementById('disclaimer-overlay');
       if (!overlay) return;
@@ -392,6 +217,97 @@
         sessionStorage.setItem('wt-disclaimer-ack', '1');
         setTimeout(function() { overlay.remove(); }, 1000);
       });
+    })();
+
+    /* ── Archive Loader ── */
+    (function() {
+      var list = document.getElementById('archive-list');
+      var countEl = document.getElementById('archive-count');
+      var cache = {}; // briefing HTML cache keyed by file path
+
+      fetch('data/briefings/index.json')
+        .then(function(r) { return r.json(); })
+        .then(function(index) {
+          // Sort descending by day number (most recent first)
+          index.sort(function(a, b) { return b.day - a.day; });
+
+          countEl.textContent = index.length + ' briefings — Day 1 through Day ' + index[0].day;
+
+          index.forEach(function(entry, i) {
+            var isLatest = i === 0;
+            var card = document.createElement('div');
+            card.className = 'archive-card' + (isLatest ? ' expanded' : '');
+            card.setAttribute('data-file', entry.file);
+            card.setAttribute('data-loaded', 'false');
+
+            var header = document.createElement('div');
+            header.className = 'archive-card-header';
+            header.innerHTML =
+              '<div class="archive-card-meta">' +
+                '<div class="archive-card-day">' +
+                  entry.label +
+                  (isLatest ? '<span class="archive-card-latest">Latest</span>' : '') +
+                '</div>' +
+                '<div class="archive-card-headline">' + escapeHtml(entry.headline) + '</div>' +
+              '</div>' +
+              '<div class="archive-card-toggle">&#9654;</div>';
+
+            var body = document.createElement('div');
+            body.className = 'archive-card-body';
+            body.innerHTML = '<div class="archive-card-loading">Loading briefing...</div>';
+
+            card.appendChild(header);
+            card.appendChild(body);
+            list.appendChild(card);
+
+            // Toggle expand/collapse on header click
+            header.addEventListener('click', function() {
+              var wasExpanded = card.classList.contains('expanded');
+              card.classList.toggle('expanded');
+              if (!wasExpanded && card.getAttribute('data-loaded') === 'false') {
+                loadBriefing(card, entry.file, body);
+              }
+            });
+
+            // Auto-load the latest briefing
+            if (isLatest) {
+              loadBriefing(card, entry.file, body);
+            }
+          });
+        })
+        .catch(function(err) {
+          list.innerHTML = '<p style="color: var(--text-dim); text-align: center; padding: var(--space-2xl);">Failed to load briefing index. Please try refreshing.</p>';
+          console.error('[Archive] Failed to load index:', err);
+        });
+
+      function loadBriefing(card, file, body) {
+        if (cache[file]) {
+          body.innerHTML = cache[file];
+          card.setAttribute('data-loaded', 'true');
+          return;
+        }
+        fetch(file)
+          .then(function(r) {
+            if (!r.ok) throw new Error('HTTP ' + r.status);
+            return r.text();
+          })
+          .then(function(html) {
+            cache[file] = html;
+            body.innerHTML = html;
+            card.setAttribute('data-loaded', 'true');
+          })
+          .catch(function(err) {
+            body.innerHTML = '<p style="color: var(--text-dim); text-align: center; padding: var(--space-xl);">Briefing not available.</p>';
+            card.setAttribute('data-loaded', 'true');
+            console.error('[Archive] Failed to load ' + file + ':', err);
+          });
+      }
+
+      function escapeHtml(str) {
+        var div = document.createElement('div');
+        div.appendChild(document.createTextNode(str));
+        return div.innerHTML;
+      }
     })();
   </script>
 </body>
