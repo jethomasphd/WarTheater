@@ -68,5 +68,12 @@
     "label": "MARCH 19, 2026 — DAY 20",
     "headline": "Iran retaliates on Gulf energy — Ras Laffan, SAMREF, Kuwait hit; Brent spikes to $119; Fed holds; carrier gap widens",
     "file": "data/briefings/day-20.html"
+  },
+  {
+    "day": 21,
+    "date": "2026-03-20",
+    "label": "MARCH 20, 2026 — DAY 21",
+    "headline": "Region-wide energy war erupts — Ras Laffan LNG damaged; IEA declares largest supply disruption in history; Boxer deploys; MCM gap exposed; 22,000+ targets",
+    "file": "data/briefings/day-21.html"
   }
 ]

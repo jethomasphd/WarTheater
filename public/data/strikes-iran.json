@@ -4,16 +4,16 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-03-18",
+    "last_updated": "2026-03-20",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "~20,000+ (DoD Mar 16: 7,000+ US targets, 6,500+ combat flights. Hegseth Mar 13: 15,000+ combined. Reuters Mar 18: 'more than 7,000' US. Extrapolated at ~1,000+/day through Day 19)",
+    "total_targets_struck": "~22,000+ (CENTCOM Mar 20: 7,800+ US targets. IDF: 130+ regime targets in 24 hrs. Extrapolated combined ~22,000+ through Day 21)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
       "killed": "1,444+",
-      "injured": "18,551+",
-      "military_killed_hengaw": "4,400+",
-      "sources": "Iranian Health Ministry (as of Mar 14) / Hengaw / HRANA / ACLED",
-      "as_of": "2026-03-14"
+      "injured": "18,000+",
+      "military_killed_hengaw": "4,800+",
+      "sources": "Al Jazeera tracker (Mar 20) / Iranian Red Crescent / Hengaw / HRANA / ACLED",
+      "as_of": "2026-03-20"
     },
     "civilian_buildings_affected": "~20,000 (including 16,000 residential units) per Iranian Red Crescent as of Day 11",
     "healthcare_facilities_affected": "77 per Red Crescent; 31 major hospitals damaged, 12 inactive per Deputy Health Minister; WHO verified 13 attacks on healthcare",
@@ -38,8 +38,8 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown — heavy",
     "casualties_source": "ACLED / Iranian state media",
-    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
-    "notes": "Continuous bombardment since Day 1. Supreme Leader Khamenei killed in initial strike on Leadership House compound along with his daughter, son-in-law, grandchild, and daughter-in-law Zahra Haddad-Adel. Defense Minister Aziz Nasirzadeh, IRGC commander Mohammad Pakpour, chief of staff Abdolrahim Mousavi, Ali Shamkhani, and multiple other senior officials also killed. Mojtaba Khamenei (son) injured but survived; named new Supreme Leader on Mar 8 (Day 9). Day 11 (Mar 10): 40+ killed in Resalat Square residential area strike in eastern Tehran (see tehran-east-residential). Day 12: IDF destroys IRGC Air Force HQ (see tehran-irgc-af-hq). 460+ killed and 4,300+ wounded in Tehran alone as of Day 11 per Tehran Emergency Health Department. A further 20 civilians killed at Niloofar Square on Mar 2 (Day 3) per Iranian state media."
+    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+    "notes": "Continuous bombardment since Day 1. Supreme Leader Khamenei killed in initial strike on Leadership House compound along with his daughter, son-in-law, grandchild, and daughter-in-law Zahra Haddad-Adel. Defense Minister Aziz Nasirzadeh, IRGC commander Mohammad Pakpour, chief of staff Abdolrahim Mousavi, Ali Shamkhani, and multiple other senior officials also killed. Mojtaba Khamenei (son) injured but survived; named new Supreme Leader on Mar 8 (Day 9). Day 11 (Mar 10): 40+ killed in Resalat Square residential area strike in eastern Tehran (see tehran-east-residential). Day 12: IDF destroys IRGC Air Force HQ (see tehran-irgc-af-hq). 460+ killed and 4,300+ wounded in Tehran alone as of Day 11 per Tehran Emergency Health Department. Days 20-21: Ali Mohammad Naini (IRGC spokesperson) killed in IAF airstrike overnight Mar 19-20. Strikes continue across Tehran. Mojtaba Khamenei issued written Nowruz statement — still no video or audio."
   },
   {
     "id": "isfahan-nuclear",
@@ -92,7 +92,7 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "DoD / ACLED",
-    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
     "notes": "Key Strait of Hormuz control point. Continuous strikes to suppress coastal batteries. Day 14: Continued strikes on remaining coastal defense positions as part of Strait of Hormuz suppression campaign. CENTCOM reported that within 48 hours of war start, all 11 Iranian warships in the Gulf of Oman had been denied presence. Three commercial ships struck by suspected Iranian projectiles in the strait on March 11."
   },
   {
@@ -146,7 +146,7 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "Satellite imagery",
-    "active_days": [1, 2, 3],
+    "active_days": [1, 2, 3, 20, 21],
     "notes": "Long-suspected nuclear weapons research site southeast of Tehran."
   },
   {
@@ -163,7 +163,7 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Minimal",
     "casualties_source": "IAEA",
-    "active_days": [1],
+    "active_days": [1, 20, 21],
     "notes": "Plutonium production pathway. Struck to eliminate weapons-grade material route."
   },
   {
@@ -355,7 +355,7 @@
     "first_strike": "2026-03-01",
     "casualties_reported": "Unknown — military targets; hospital collateral damage reported separately",
     "casualties_source": "Critical Threats / ISW / IDF / satellite imagery",
-    "active_days": [2, 3, 8, 9, 13, 14],
+    "active_days": [2, 3, 8, 9, 13, 14, 20, 21],
     "notes": "Multiple military targets struck across Ahvaz over the course of the war. Aboozar Children's Hospital in Ahvaz reported damaged (not directly struck) as early as March 2 per Iranian authorities and Al Jazeera. IDF announced March 13 strikes on 'headquarters of various regime bodies' in Ahvaz simultaneously with Tehran and Shiraz. Iranian Deputy Health Minister Ali Jafarian reported 31 major clinical facilities and hospitals damaged nationwide, 12 rendered inactive, as of Day 14. WHO verified 13 attacks on healthcare infrastructure in Iran."
   },
   {
@@ -388,7 +388,7 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "Wikipedia (2026 Israeli–United States strikes on Iran)",
-    "active_days": [1],
+    "active_days": [1, 20, 21],
     "notes": "Listed as a Day 1 target city in multiple sources alongside Tehran, Isfahan, Qom, Karaj, and Kermanshah."
   },
   {
@@ -536,7 +536,7 @@
     "casualties_reported": "Unknown — infrastructure target",
     "casualties_source": "Bloomberg / Axios",
     "active_days": [19],
-    "notes": "CRITICAL ESCALATION — First strike on Iran's upstream energy infrastructure since Operation Epic Fury began. Israeli Air Force with explicit US coordination struck South Pars Phases 3/4/5/6 and Asaluyeh hub early Wednesday March 18. Two refineries taken offline with combined capacity of ~100 million cubic meters/day of gas — roughly one-fifth of the field's total capacity. South Pars is the world's largest natural gas field, shared with Qatar's North Dome reserves. Qatar immediately condemned the strike. Crosses a line Trump had previously drawn — he said he spared Kharg Island oil facilities 'for reasons of decency.' Bloomberg confirmed oil facilities also hit. IRGC issued 'urgent warning' naming SAMREF, Jubail, Al Hosn, Mesaieed, Ras Laffan as retaliatory targets. Brent spiked to $108.78; TTF gas +7.9%."
+    "notes": "CRITICAL ESCALATION — First strike on Iran's upstream energy infrastructure since Operation Epic Fury began. Israeli Air Force with explicit US coordination struck South Pars Phases 3/4/5/6 and Asaluyeh hub early Wednesday March 18. Two refineries taken offline with combined capacity of ~100 million cubic meters/day of gas — roughly one-fifth of the field's total capacity. South Pars produces 730 million cm³ of gas/day, supplying 70% of Iran's domestic gas. Qatar immediately condemned the strike. Trump claimed US 'knew nothing' (sources contradicted). Netanyahu confirmed Mar 19 Israel would comply with Trump's demand to stop further energy strikes. IAEA DG Grossi told NPR enrichment capabilities will partially survive, contradicting Netanyahu. IRGC issued 'urgent warning' naming SAMREF, Jubail, Al Hosn, Mesaieed, Ras Laffan as retaliatory targets. Brent spiked to $119.11 intraday; TTF gas +30-33%."
   },
   {
     "id": "hormuz-coastal-march17",
@@ -637,5 +637,123 @@
     "casualties_source": "NPR / Al Jazeera / Times of Israel",
     "active_days": [19],
     "notes": "Fifth most senior Iranian official killed since the war began. Third killed in 24 hours (after Larijani and Soleimani on March 17). Systematic decapitation of Iranian leadership continues without producing capitulation."
+  },
+  {
+    "id": "caspian-sea-bandar-anzali",
+    "city": "Bandar Anzali (Caspian Sea coast)",
+    "lat": 37.4700,
+    "lng": 49.4600,
+    "type": "us_strike",
+    "actor": "israel",
+    "targets": [
+      "Iranian Navy Northern Fleet vessels at Bandar Anzali",
+      "Naval infrastructure on Caspian Sea coast"
+    ],
+    "first_strike": "2026-03-19",
+    "casualties_reported": "Unknown",
+    "casualties_source": "Axios / IDF",
+    "active_days": [20],
+    "notes": "MAJOR GEOGRAPHIC ESCALATION — Israel's first strikes on Iranian naval targets in the Caspian Sea, ~1,300km from Israel and bordering Russia. More than 5 vessels targeted per Axios. Bandar Anzali hosts Iran's Northern Fleet HQ and is a key node in the Iran-Russia weapons supply corridor."
+  },
+  {
+    "id": "naini-killing",
+    "city": "Unknown location (Iran)",
+    "lat": 35.6950,
+    "lng": 51.3850,
+    "type": "us_strike",
+    "subtype": "targeted_killing",
+    "actor": "israel",
+    "targets": [
+      "Ali Mohammad Naini — IRGC spokesperson and head of public relations"
+    ],
+    "first_strike": "2026-03-20",
+    "casualties_reported": "Ali Mohammad Naini killed — confirmed",
+    "casualties_source": "Multiple sources",
+    "active_days": [21],
+    "notes": "IRGC spokesperson killed in IAF airstrike overnight March 19-20. Part of ongoing systematic elimination of senior Iranian officials."
+  },
+  {
+    "id": "nakshabandi-killing",
+    "city": "Unknown location (Iran)",
+    "lat": 35.6850,
+    "lng": 51.3950,
+    "type": "us_strike",
+    "subtype": "targeted_killing",
+    "actor": "israel",
+    "targets": [
+      "General Afshin Nakshabandi — representative of Armed Forces HQ in Basij"
+    ],
+    "first_strike": "2026-03-20",
+    "casualties_reported": "Gen. Afshin Nakshabandi killed — confirmed",
+    "casualties_source": "Multiple sources",
+    "active_days": [21],
+    "notes": "Representative of Iran's Armed Forces Headquarters in the Basij organization. Killed March 19-20."
+  },
+  {
+    "id": "ahmadi-killing",
+    "city": "Unknown location (Iran)",
+    "lat": 35.7050,
+    "lng": 51.3750,
+    "type": "us_strike",
+    "subtype": "targeted_killing",
+    "actor": "israel",
+    "targets": [
+      "Esmail Ahmadi — IRGC head of intelligence"
+    ],
+    "first_strike": "2026-03-20",
+    "casualties_reported": "Esmail Ahmadi killed — confirmed",
+    "casualties_source": "Multiple sources",
+    "active_days": [21],
+    "notes": "IRGC head of intelligence. Killed March 19-20. Part of systematic decapitation campaign that has now eliminated 9+ senior Iranian officials."
+  },
+  {
+    "id": "karishi-killing",
+    "city": "Isfahan",
+    "lat": 32.6546,
+    "lng": 51.6680,
+    "type": "us_strike",
+    "subtype": "targeted_killing",
+    "actor": "israel",
+    "targets": [
+      "Mehdi Karishi — Commander of IRGC Aerospace Forces, Isfahan sector"
+    ],
+    "first_strike": "2026-03-20",
+    "casualties_reported": "Mehdi Karishi killed — confirmed",
+    "casualties_source": "Multiple sources",
+    "active_days": [21],
+    "notes": "Commander of IRGC Aerospace Forces, Isfahan sector. Killed March 19-20. Ballistic missile launch rate down ~90% from Day 1."
+  },
+  {
+    "id": "yazd-military",
+    "city": "Yazd",
+    "lat": 31.8974,
+    "lng": 54.3569,
+    "type": "us_strike",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Military and government sites"
+    ],
+    "first_strike": "2026-03-19",
+    "casualties_reported": "Unknown",
+    "casualties_source": "CENTCOM / IDF",
+    "active_days": [20, 21],
+    "notes": "Strikes expanded to Yazd as part of Day 20-21 record-tempo operations. Hegseth: 'largest strike package yet.'"
+  },
+  {
+    "id": "bandar-lengeh-coastal",
+    "city": "Bandar Lengeh",
+    "lat": 26.5580,
+    "lng": 54.8803,
+    "type": "us_strike",
+    "actor": "us",
+    "targets": [
+      "IRGC coastal defense positions",
+      "Naval facilities"
+    ],
+    "first_strike": "2026-03-19",
+    "casualties_reported": "Unknown",
+    "casualties_source": "CENTCOM",
+    "active_days": [20, 21],
+    "notes": "Bandar Lengeh coastal area struck as part of continued Strait of Hormuz suppression campaign. Part of Day 20-21 record-tempo operations."
   }
 ]

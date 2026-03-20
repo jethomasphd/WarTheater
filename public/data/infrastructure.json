@@ -2,9 +2,9 @@
   {
     "label": "Hospitals Damaged",
     "count": "31+",
-    "note": "Iran (31 major, 12 inactive) + Lebanon",
+    "note": "Iran (31 major, 9 non-operational) + Lebanon",
     "source": "Iranian Deputy Health Min. / WHO / OCHA",
-    "detail": "31 major hospitals damaged in Iran, 12 rendered inactive per Deputy Health Minister. WHO verified 13 attacks on healthcare infrastructure. 77 healthcare facilities affected per Red Crescent. 3+ facilities in south Lebanon degraded. Day 13: Hospital in Ahvaz damaged."
+    "detail": "31 major hospitals damaged in Iran, 9 rendered non-operational per Day 7 reports, 69+ schools damaged. WHO verified 13 attacks on healthcare infrastructure. 77 healthcare facilities affected per Red Crescent. 3+ facilities in south Lebanon degraded."
   },
   {
     "label": "Schools Destroyed",
@@ -22,17 +22,17 @@
   },
   {
     "label": "Oil/Gas Facilities Hit",
-    "count": "4+",
-    "note": "Kharg, Abadan, South Pars + storage",
-    "source": "DoD / Bloomberg / satellite imagery",
-    "detail": "90% of Iran's oil export capacity targeted since March 7. Kharg Island terminal effectively destroyed. March 18: South Pars gas field Phases 3/4/5/6 struck — first upstream energy infrastructure — ~100M cm³/day gas offline. Two refineries halted at Asaluyeh hub. Qatar condemned (shared North Dome field)."
+    "count": "6+",
+    "note": "Kharg, Abadan, South Pars + Ras Laffan (Qatar) + SAMREF (Saudi) + Kuwait refineries",
+    "source": "DoD / Bloomberg / QatarEnergy / Reuters / satellite imagery",
+    "detail": "Iran's energy infrastructure: Kharg Island terminal destroyed. South Pars gas field Phases 3/4/5/6 struck Mar 18 — 730M cm³/day field offline. Netanyahu pledged to stop further energy strikes at Trump's demand. IRGC retaliatory strikes: Ras Laffan LNG Trains 4+6 damaged (12.8 MTPA, 3-5yr repair, $20B/yr loss). SAMREF refinery at Yanbu struck. Kuwait's Mina al-Ahmadi and Mina Abdullah refineries hit. Haifa BAZAN refinery struck. Bahrain Bapco Sitra under force majeure."
   },
   {
     "label": "Airports Damaged",
     "count": "5+",
     "note": "Iran + region",
     "source": "ACLED / Flightradar24",
-    "detail": "Mehrabad (Tehran), Shiraz TAB 6, Tabriz TAB 2 runways cratered in first wave. Regional airspace closures affect 19,500+ commercial flights."
+    "detail": "Mehrabad (Tehran), Shiraz TAB 6, Tabriz TAB 2 runways cratered in first wave. Dubai International Airport struck by drone Mar 16. Regional airspace closures affect 24,000+ commercial flights."
   },
   {
     "label": "Bridges Destroyed",

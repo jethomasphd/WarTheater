@@ -1,28 +1,28 @@
 {
   "conflicts": [
     {
-      "label": "Iran 2026 (Day 20)",
-      "targets_struck": 21000,
+      "label": "Iran 2026 (Day 21)",
+      "targets_struck": 22000,
       "us_kia": 13,
       "daily_cost_millions": 900,
-      "note": "Operation Epic Fury — air + ground (Lebanon). 3 carrier groups. Hormuz effectively closed. ~21,000+ targets struck. ~$23.4B spent. Iran retaliates on Gulf energy after South Pars. 5 senior officials killed. IDF ground invasion of Lebanon. Fed holds rates."
+      "note": "Operation Epic Fury — air + ground (Lebanon). Region-wide energy war erupts. Ras Laffan LNG damaged ($100B+ losses). 7,800+ US targets, ~22,000+ combined. ~$24.3B spent. 9+ senior officials killed. IEA: 'largest supply disruption in history.' Boxer ARG deploys. No diplomatic track exists."
     },
     {
-      "label": "Iraq 2003 (Day 20)",
+      "label": "Iraq 2003 (Day 21)",
       "targets_struck": 19000,
       "us_kia": 85,
       "daily_cost_millions": 750,
       "note": "Operation Iraqi Freedom — \"shock and awe\" + ground invasion. 300,000 troops deployed."
     },
     {
-      "label": "Libya 2011 (Day 20)",
+      "label": "Libya 2011 (Day 21)",
       "targets_struck": 700,
       "us_kia": 0,
       "daily_cost_millions": 125,
       "note": "Operation Odyssey Dawn / Unified Protector — NATO no-fly zone. Limited US role."
     },
     {
-      "label": "Gulf 1991 (Day 20)",
+      "label": "Gulf 1991 (Day 21)",
       "targets_struck": 26000,
       "us_kia": 18,
       "daily_cost_millions": 620,
@@ -30,5 +30,5 @@
     }
   ],
   "sources": "CRS Reports R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya). Costs inflation-adjusted to 2026 dollars using BLS CPI-U.",
-  "last_updated": "2026-03-19"
+  "last_updated": "2026-03-20"
 }
