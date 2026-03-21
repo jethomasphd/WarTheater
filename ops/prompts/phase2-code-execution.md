@@ -66,10 +66,13 @@ YOUR MISSION
    - Update `last_updated` / `timestamp_label` fields in each modified file
    - Update `war_day` in hero-stats.json
    - CRITICAL: Update the `timestamp_label` in hero-stats.json to reflect
-     TODAY's date in the format: "LAST UPDATED: MMM DD, YYYY HH:MM ET"
-     (e.g., "LAST UPDATED: MAR 20, 2026 08:00 ET"). This label is displayed
-     on the dashboard via app.js and must always reflect the current update date.
-     Also update the `last_updated` ISO date field to today's date.
+     the ACTUAL TIME of this update execution. Use the current wall-clock
+     time in Eastern Time by running: TZ='America/New_York' date '+%H:%M'
+     Format: "LAST UPDATED: MMM DD, YYYY HH:MM ET"
+     (e.g., "LAST UPDATED: MAR 20, 2026 14:35 ET"). This label is displayed
+     on the dashboard home screen via app.js and tells readers exactly when
+     the data was last refreshed. Do NOT hardcode a time — always query the
+     system clock. Also update the `last_updated` ISO date field to today's date.
    - Validate all JSON (no trailing commas, valid structure, proper encoding)
    - Run `python3 -m json.tool` on every changed file
 

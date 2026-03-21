@@ -4,16 +4,16 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-03-20",
+    "last_updated": "2026-03-21",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "~22,000+ (CENTCOM Mar 20: 7,800+ US targets. IDF: 130+ regime targets in 24 hrs. Extrapolated combined ~22,000+ through Day 21)",
+    "total_targets_struck": "~23,000+ (CENTCOM Mar 21: 8,000+ US targets, 8,000+ combat sorties. 130 Iranian naval vessels destroyed. Combined US/Israeli extrapolated ~23,000+ through Day 22)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
       "killed": "1,444+",
       "injured": "18,000+",
       "military_killed_hengaw": "4,800+",
       "sources": "Al Jazeera tracker (Mar 20) / Iranian Red Crescent / Hengaw / HRANA / ACLED",
-      "as_of": "2026-03-20"
+      "as_of": "2026-03-21"
     },
     "civilian_buildings_affected": "~20,000 (including 16,000 residential units) per Iranian Red Crescent as of Day 11",
     "healthcare_facilities_affected": "77 per Red Crescent; 31 major hospitals damaged, 12 inactive per Deputy Health Minister; WHO verified 13 attacks on healthcare",
@@ -38,8 +38,8 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown — heavy",
     "casualties_source": "ACLED / Iranian state media",
-    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-    "notes": "Continuous bombardment since Day 1. Supreme Leader Khamenei killed in initial strike on Leadership House compound along with his daughter, son-in-law, grandchild, and daughter-in-law Zahra Haddad-Adel. Defense Minister Aziz Nasirzadeh, IRGC commander Mohammad Pakpour, chief of staff Abdolrahim Mousavi, Ali Shamkhani, and multiple other senior officials also killed. Mojtaba Khamenei (son) injured but survived; named new Supreme Leader on Mar 8 (Day 9). Day 11 (Mar 10): 40+ killed in Resalat Square residential area strike in eastern Tehran (see tehran-east-residential). Day 12: IDF destroys IRGC Air Force HQ (see tehran-irgc-af-hq). 460+ killed and 4,300+ wounded in Tehran alone as of Day 11 per Tehran Emergency Health Department. Days 20-21: Ali Mohammad Naini (IRGC spokesperson) killed in IAF airstrike overnight Mar 19-20. Strikes continue across Tehran. Mojtaba Khamenei issued written Nowruz statement — still no video or audio."
+    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+    "notes": "Continuous bombardment since Day 1. Supreme Leader Khamenei killed in initial strike on Leadership House compound along with his daughter, son-in-law, grandchild, and daughter-in-law Zahra Haddad-Adel. Defense Minister Aziz Nasirzadeh, IRGC commander Mohammad Pakpour, chief of staff Abdolrahim Mousavi, Ali Shamkhani, and multiple other senior officials also killed. Mojtaba Khamenei (son) injured but survived; named new Supreme Leader on Mar 8 (Day 9). Day 11 (Mar 10): 40+ killed in Resalat Square residential area strike in eastern Tehran (see tehran-east-residential). Day 12: IDF destroys IRGC Air Force HQ (see tehran-irgc-af-hq). 460+ killed and 4,300+ wounded in Tehran alone as of Day 11 per Tehran Emergency Health Department. Days 20-21: Ali Mohammad Naini (IRGC spokesperson) killed in IAF airstrike overnight Mar 19-20. Strikes continue across Tehran. Mojtaba Khamenei issued written Nowruz statement — still no video or audio. Day 22: Continued strikes on Tehran military and government infrastructure."
   },
   {
     "id": "isfahan-nuclear",
@@ -56,8 +56,8 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "Satellite imagery / IAEA",
-    "active_days": [1, 2, 3],
-    "notes": "Primary nuclear targets struck in first wave. Deep penetrating munitions used."
+    "active_days": [1, 2, 3, 22],
+    "notes": "Primary nuclear targets struck in first wave. Deep penetrating munitions used. Day 22 (Mar 21): Natanz nuclear enrichment facility struck in joint US-Israeli operation. Iran's Mizan News confirmed attack, claimed no radiation leakage. IAEA DG Grossi: no increase in off-site radiation, called for 'military restraint to avoid any risk of a nuclear accident.' Israel denied responsibility; Iran blamed joint US-Israeli strike. Russia condemned as 'real risk of catastrophic disaster.' Second Natanz strike during Operation Epic Fury, third since June 2025 Operation Midnight Hammer."
   },
   {
     "id": "bushehr-nuclear",
@@ -755,5 +755,37 @@
     "casualties_source": "CENTCOM",
     "active_days": [20, 21],
     "notes": "Bandar Lengeh coastal area struck as part of continued Strait of Hormuz suppression campaign. Part of Day 20-21 record-tempo operations."
+  },
+  {
+    "id": "hormuz-coastal-bunkerbuster-march21",
+    "city": "Strait of Hormuz Southern Coastline",
+    "lat": 26.30,
+    "lng": 56.50,
+    "type": "us_strike",
+    "actor": "us",
+    "targets": [
+      "Hardened underground facilities along southern coastline — anti-ship cruise missiles, mobile launchers, maritime surveillance equipment"
+    ],
+    "first_strike": "2026-03-21",
+    "casualties_reported": "Unknown — military targets",
+    "casualties_source": "CENTCOM / Adm. Brad Cooper briefing",
+    "active_days": [22],
+    "notes": "Day 22: US employed 5,000-pound bunker-buster bombs against hardened underground facilities along Iran's southern coastline used to store anti-ship cruise missiles, mobile launchers, and maritime surveillance equipment threatening Strait of Hormuz shipping. Adm. Cooper stated Iran's ability to threaten freedom of navigation is now 'degraded.' Part of ongoing aerial campaign (begun Mar 19) using A-10 Warthogs and Apache gunships to reopen the Strait."
+  },
+  {
+    "id": "army-precision-strike-march19",
+    "city": "Iran (location classified)",
+    "lat": 28.00,
+    "lng": 54.00,
+    "type": "us_strike",
+    "actor": "us",
+    "targets": [
+      "Iranian military infrastructure — precision strike missiles"
+    ],
+    "first_strike": "2026-03-19",
+    "casualties_reported": "Unknown",
+    "casualties_source": "CENTCOM",
+    "active_days": [20],
+    "notes": "US Army executed what CENTCOM called the 'longest field artillery strike in Army combat history' on March 19, using precision strike missiles against Iranian military infrastructure. First operational combat use of this capability at extreme range."
   }
 ]

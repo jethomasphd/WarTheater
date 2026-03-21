@@ -42,10 +42,10 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "8 total killed (2 armed forces, 6 foreign nationals). 131+ injured across UAE.",
     "casualties_source": "UAE MoD / Abu Dhabi Media Office / Xinhua / CNBC",
-    "active_days": [1, 2, 3, 4, 5, 6, 17, 18, 19, 20, 21],
-    "notes": "Joint US-UAE base. Mar 20: UAE intercepted 7 ballistic missiles and 15 UAVs. Cumulative since Feb 28: 334 ballistic missiles, 15 cruise missiles, 1,714 UAVs launched at UAE. 8 total fatalities (2 armed forces, 6 foreign nationals). Abu Dhabi shut Habshan gas facilities after intercept debris damage. Iran/Hezbollah terrorist network dismantled using business fronts.",
+    "active_days": [1, 2, 3, 4, 5, 6, 17, 18, 19, 20, 21, 22],
+    "notes": "Mar 21: UAE air defenses engaged 3 ballistic missiles and 8 UAVs. Cumulative since Feb 28: 341 ballistic missiles, 15 cruise missiles, and 1,748 UAVs intercepted.",
     "verified": true,
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-21"
   },
   {
     "id": "bahrain-nsab",
@@ -555,9 +555,9 @@
     "casualties_reported": "Minimal impact per Reuters. Ballistic missile aimed at Yanbu port intercepted.",
     "casualties_source": "Saudi Press Agency / Reuters / Bloomberg",
     "active_days": [20, 21],
-    "notes": "STRATEGIC — Yanbu is now Saudi Arabia's only functional crude export terminal due to Hormuz closure. SAMREF refinery (400,000 bpd JV between Aramco and ExxonMobil) struck by drone Mar 19 — 'minimal impact.' Ballistic missile aimed at Yanbu port intercepted. Mar 20: Saudi intercepted missile over northern Al Jouf, shot down 10 drones in east and 1 in north. Saudi ramped Yanbu volume to ~5.9 mbd through East-West pipeline (from pre-war 1-1.5 mbd).",
+    "notes": "STRATEGIC — Yanbu is now Saudi Arabia's only functional crude export terminal due to Hormuz closure. SAMREF refinery (400,000 bpd JV between Aramco and ExxonMobil) struck by drone Mar 19 — 'minimal impact.' Ballistic missile aimed at Yanbu port intercepted. Mar 20: Saudi intercepted missile over northern Al Jouf, shot down 10 drones in east and 1 in north. Saudi ramped Yanbu volume to ~5.9 mbd through East-West pipeline (from pre-war 1-1.5 mbd). Saudi shot down at least 47 drones including 38 within a three-hour window over eastern oil-rich region on Mar 21.",
     "verified": true,
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-21"
   },
   {
     "id": "kuwait-refineries",
@@ -570,10 +570,10 @@
     "first_strike": "2026-03-19",
     "casualties_reported": "No casualties reported. Precautionary shutdowns.",
     "casualties_source": "KUNA / Reuters / Kuwait Petroleum Corporation",
-    "active_days": [20, 21],
-    "notes": "IRGC drone attacks hit two of Kuwait's three refineries March 19-20: Mina al-Ahmadi (346,000 bpd, fire in one unit) and Mina Abdullah (454,000 bpd, fire in one unit). Kuwait Petroleum Corporation issued precautionary shutdowns. Kuwait also thwarted a Hezbollah-linked terror cell with 10 arrests.",
+    "active_days": [20, 21, 22],
+    "notes": "IRGC drone attacks hit two of Kuwait's three refineries March 19-20: Mina al-Ahmadi (346,000 bpd, fire in one unit) and Mina Abdullah (454,000 bpd, fire in one unit). Kuwait Petroleum Corporation issued precautionary shutdowns. Kuwait also thwarted a Hezbollah-linked terror cell with 10 arrests. Mar 21: Mina al-Ahmadi refinery struck by two waves of Iranian drones, sparking fires. Iran also claimed destruction of Ali Al Salem Air Base facilities.",
     "verified": true,
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-21"
   },
   {
     "id": "haifa-bazan-refinery",
@@ -602,9 +602,73 @@
     "first_strike": "2026-03-20",
     "casualties_reported": "Shrapnel damage photographed by Israeli police. No casualties reported.",
     "casualties_source": "Israeli Police / Israeli media",
-    "active_days": [21],
-    "notes": "Iranian missile struck Jerusalem's Old City on March 20. Israeli police photographed shrapnel damage. Multiple salvos targeted Jerusalem near midnight and early morning. Cumulative: 300 Iranian attack waves on Israel since Feb 28.",
+    "active_days": [21, 22],
+    "notes": "Day 22: Missile fragments fell in occupied East Jerusalem, 350 meters from the Al-Aqsa Mosque compound. Multiple salvos targeted Jerusalem. Part of nine Iranian salvos on March 21.",
     "verified": true,
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-21"
+  },
+  {
+    "id": "diego-garcia-attack",
+    "city": "Diego Garcia, British Indian Ocean Territory",
+    "lat": -7.32,
+    "lng": 72.41,
+    "type": "iran_retaliation",
+    "weapon": "Intermediate-range ballistic missiles (2x)",
+    "origin": "Iran — ~2,500 miles (4,000 km) from Iranian territory",
+    "first_strike": "2026-03-21",
+    "casualties_reported": "No impact on base. One missile failed in flight; US warship fired SM-3 interceptor at the other.",
+    "casualties_source": "Wall Street Journal / IDF Chief of Staff Zamir",
+    "active_days": [22],
+    "notes": "UNPRECEDENTED RANGE — Iran fired two intermediate-range ballistic missiles at joint US-UK base on Diego Garcia, approximately 2,500 miles (4,000 km) from Iranian territory. Far exceeds Iran's previously acknowledged 2,000 km missile range. IDF Chief Zamir noted 4,000 km range puts European capitals (Berlin, Paris, Rome) within Iranian reach. Speculation centers on possible use of space launch vehicle to extend range. Neither struck the base.",
+    "verified": true,
+    "last_updated": "2026-03-21"
+  },
+  {
+    "id": "dimona-strike-march21",
+    "city": "Dimona, Israel",
+    "lat": 31.06,
+    "lng": 35.21,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missile",
+    "origin": "Iran (IRGC — part of '70th wave of attacks')",
+    "first_strike": "2026-03-21",
+    "casualties_reported": "47 people hospitalized including 12-year-old boy in serious condition. Interceptors failed to knock down the missile.",
+    "casualties_source": "IDF / Israeli media",
+    "active_days": [22],
+    "notes": "Iranian ballistic missile struck Dimona — city hosting Israel's Shimon Peres Negev Nuclear Research Center. IDF confirmed interceptors FAILED to knock down the missile. 47 hospitalized. IRGC called it 'revenge for Natanz.' Part of nine separate missile salvos from Iran on March 21.",
+    "verified": true,
+    "last_updated": "2026-03-21"
+  },
+  {
+    "id": "rishon-lezion-cluster-march21",
+    "city": "Rishon Lezion / Bnei Brak / Shoham, Israel",
+    "lat": 31.96,
+    "lng": 34.80,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missile with cluster munitions",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-03-21",
+    "casualties_reported": "Building was empty — no casualties from daycare impact. 7 impact sites across area. Residential damage in Bnei Brak, Shoham, Rosh Ha'ayin.",
+    "casualties_source": "IDF / Israeli media",
+    "active_days": [22],
+    "notes": "Iranian cluster bombs hit a daycare/kindergarten in central Israel. Building was empty. 7 impact sites recorded across the area including damage to residential buildings in Bnei Brak, Shoham, and Rosh Ha'ayin. Part of nine separate salvos on March 21.",
+    "verified": true,
+    "last_updated": "2026-03-21"
+  },
+  {
+    "id": "bahrain-intercepts-cumulative",
+    "city": "Bahrain",
+    "lat": 26.07,
+    "lng": 50.55,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles / drones",
+    "origin": "Iran",
+    "first_strike": "2026-02-28",
+    "casualties_reported": "No reported casualties from March 21 intercepts.",
+    "casualties_source": "Bahrain Defence Force",
+    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+    "notes": "Day 22: Bahrain intercepted 2 more missiles. Cumulative since Feb 28: 143 missiles and 242 drones destroyed by Bahrain air defenses.",
+    "verified": true,
+    "last_updated": "2026-03-21"
   }
 ]
