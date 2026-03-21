@@ -16,12 +16,12 @@
     "Day 18 — Brent pulls back to $101; S&P recovers to 6,735; Ford fire contained",
     "Day 19 — South Pars struck; Brent $108.43 (+52.7%); IRGC threatens Gulf energy; 3 officials killed",
     "Day 20 — Iran retaliates on Gulf energy; Brent intraday $119.11; S&P 6,618 new 2026 low; Dow -768; Fed holds 3.50-3.75%",
-    "Day 21 — Quadruple Witching; S&P new 2026 low below 200-day MA; Brent $108.19; 7,800+ targets; 4 officials killed; Boxer deploys"
+    "Day 21 — Quadruple Witching; S&P 6,506 new 6-month low below 200-day MA; Brent $108.19; VIX 26.78; only 43.9% above 200-day MA"
   ],
   "datasets": {
     "sp500": {
       "label": "S&P 500",
-      "data": [100, 100.0, 99.1, 99.9, 99.3, 98.0, 98.8, 98.6, 98.5, 97.0, 96.4, 96.9, 97.9, 97.1, 96.2, 95.9],
+      "data": [100, 100.0, 99.1, 99.9, 99.3, 98.0, 98.8, 98.6, 98.5, 97.0, 96.4, 96.9, 97.9, 97.1, 96.2, 94.6],
       "color": "#ef4444"
     },
     "defense": {
@@ -40,5 +40,5 @@
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-03-20"
+  "last_updated": "2026-03-21"
 }

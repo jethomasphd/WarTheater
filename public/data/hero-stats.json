@@ -1,45 +1,45 @@
 {
-  "last_updated": "2026-03-20",
-  "war_day": 21,
-  "timestamp_label": "LAST UPDATED: MAR 20, 2026 08:00 ET",
+  "last_updated": "2026-03-21",
+  "war_day": 22,
+  "timestamp_label": "LAST UPDATED: MAR 21, 2026 08:00 ET",
   "cost": {
     "brent": {
-      "price": 108.19,
+      "price": 108,
       "label": "Brent Crude $/bbl",
-      "change": "+52.4% since Feb 27 — $105-$111 range; Goldman warns >$100 through 2027; IEA: largest supply disruption ever",
-      "tooltip": "Brent Crude: The international benchmark. Pre-war close: $71.00/bbl (Feb 27). Mar 20 range $105.06-$111.22, settling ~$108.19. Hit $119.11 intraday Mar 19. Goldman Sachs warns oil could stay >$100 through 2027. IEA: 'largest supply disruption in history' — 8+ mbd curtailed. Source: ICE Futures Europe / CNBC / Bloomberg / Goldman Sachs."
+      "change": "+52.1% since Feb 27 — $107-$112 volatile; Goldman warns could exceed 2008 high ($147.50); IEA: largest supply disruption ever",
+      "tooltip": "Brent Crude: The international benchmark. Pre-war close: $71.00/bbl (Feb 27). Mar 21 intraday ~$107-112, volatile. Hit $119.11 intraday Mar 19. Goldman Sachs warned Brent 'likely to exceed 2008 all-time high ($147.50)' if disruptions persist. Worst case: additional $42/bbl through end of 2027. IEA: 'largest supply disruption in history.' Source: ICE Futures Europe / CNBC / Bloomberg / Goldman Sachs."
     },
     "wti": {
-      "price": 94.40,
+      "price": 98,
       "label": "WTI Crude $/bbl",
-      "change": "+41.9% since Feb 27 — tracking Brent; 8+ mbd curtailed per IEA; worst case could exceed $147 (2008 high)",
-      "tooltip": "West Texas Intermediate: The US benchmark. Pre-war close: $66.50/bbl (Feb 27). Trading ~$94.40. IEA: at least 8 mbd curtailed plus 2 mbd condensates/NGLs. Goldman worst case could exceed all-time $147 high from 2008. Source: NYMEX / CNBC / Goldman Sachs."
+      "change": "+47.4% since Feb 27 — day range $93-$100; 8+ mbd curtailed; Goldman worst case could exceed $147",
+      "tooltip": "West Texas Intermediate: The US benchmark. Pre-war close: $66.50/bbl (Feb 27). Mar 21 intraday ~$98, day range $93-$100. IEA: at least 8 mbd curtailed plus 2 mbd condensates/NGLs. Goldman worst case projects additional $42/bbl through end of 2027. Source: NYMEX / CNBC / Goldman Sachs."
     },
     "gas": {
       "price": 3.91,
       "label": "US Gas Avg/Gal",
-      "change": "+$0.93 / +31.2% since Feb 27 — GA suspends fuel tax — diesel $5.07 (highest since 2022) — CA $5.34-$5.53",
-      "tooltip": "National average retail gasoline price. Pre-war: $2.98/gal (Feb 27). AAA Mar 20: $3.912/gal (+33% since war began). Diesel $5.07 (highest since 2022). Georgia first state to suspend fuel taxes. CA $5.34-$5.53. Jones Act waived Mar 18. Source: AAA / EIA / CNN."
+      "change": "+$0.93 / +31.2% since Feb 27 — highest since Oct 2022 — diesel $5.07 — CA $5.34-$5.53",
+      "tooltip": "National average retail gasoline price. Pre-war: $2.98/gal (Feb 27). AAA Mar 20: $3.91/gal (+31% since war began). Highest since October 2022. Diesel $5.07 (highest since 2022). CA $5.34-$5.53. Georgia suspended fuel taxes. Jones Act waived Mar 18. Source: AAA / EIA / CNN."
     },
     "sp500": {
-      "value": 6595,
+      "value": 6506,
       "label": "S&P 500",
-      "change": "-284 pts / -4.1% — new 2026 low below 200-day MA; Dow ~45,973; VIX 25.80; 4th weekly loss",
-      "tooltip": "S&P 500 index. Pre-war close: 6,878.88 (Feb 27). New 2026 closing low ~6,595 on Quadruple Witching Friday — first close below 200-day MA in 214 sessions. 4th consecutive weekly loss. VIX surged to 25.80 intraday. Some traders pricing possible 2026 rate hike. 10-yr yield at 6.75-month high of 4.32%. Source: NYSE / CNBC / FRED."
+      "change": "-373 pts / -5.4% — 6-month low below 200-day MA 2nd day; VIX 26.78; RSI 23.34 (deep oversold)",
+      "tooltip": "S&P 500 index. Pre-war close: 6,878.88 (Feb 27). Mar 20 close: 6,506.48 — below 200-day MA (~6,615) for 2nd consecutive day. RSI at 23.34 (deep oversold). Only 43.9% of S&P stocks above their 200-day MAs. VIX at 26.78 (+11.31%). Quadruple Witching day. Goldman: 'equities have not priced in enough risk premium.' HSBC: markets 'pricing in a recession.' Source: NYSE / CNBC / Goldman / HSBC."
     },
     "daily_cost": {
-      "value": 900,
+      "value": 1000,
       "unit": "M",
       "label": "Est. Daily US Cost",
-      "note": "Record tempo continues — 7,800+ cumulative targets — $200B supplemental requested",
-      "tooltip": "Estimated daily operational cost. Day 21: CENTCOM confirmed 7,800+ targets struck cumulative. IDF struck 130+ targets in 24 hrs including first Caspian Sea strikes. Pentagon requesting $200B supplemental. Source: CENTCOM / Pentagon briefing / CSIS / Penn Wharton."
+      "note": "~$1B/day run rate — 8,000+ targets — 130 vessels destroyed — $200B supplemental pending",
+      "tooltip": "Estimated daily operational cost. Day 22: CENTCOM confirmed 8,000+ targets struck, 8,000+ combat sorties. Adm. Brad Cooper: 130 Iranian naval vessels destroyed — 'largest elimination of a navy since WWII.' 5,000-lb bunker-busters on Hormuz coastal sites. 50,000+ US troops in CENTCOM AOR. $200B supplemental pending. Source: CENTCOM / Adm. Cooper / Pentagon."
     },
     "total_cost": {
-      "value": 24.3,
+      "value": 25.3,
       "unit": "B",
-      "label": "Est. Total Cost (21 Days)",
-      "note": "Pentagon $11.3B Day 6 + CSIS $16.5B Day 12 + $200B supplemental requested",
-      "tooltip": "Cumulative estimated cost since Feb 28. Pentagon: $11.3B through Day 6. CSIS: $16.5B through Day 12. Extrapolated through Day 21 at ~$900M/day. Does not include VA costs or economic impact ($50-210B per Penn Wharton). Source: Pentagon / CSIS / Penn Wharton."
+      "label": "Est. Total Cost (22 Days)",
+      "note": "Pentagon $11.3B Day 6 + CSIS $16.5B Day 12 + ~$1B/day ongoing — $200B supplemental pending",
+      "tooltip": "Cumulative estimated cost since Feb 28. Pentagon: $11.3B through Day 6. CSIS: $16.5B through Day 12. Extrapolated through Day 22 at ~$1B/day. Penn Wharton: $40-95B direct + up to $210B total economic impact. $200B supplemental pending (faces Republican resistance — GOP leaders 'do not believe they have the votes'). Source: Pentagon / CSIS / Penn Wharton."
     }
   },
   "history": [
@@ -213,68 +213,76 @@
     },
     {
       "date": "2026-03-20", "war_day": 21,
-      "brent": 108.19, "wti": 94.40, "gas": 3.91, "sp500": 6595,
+      "brent": 108.19, "wti": 94.40, "gas": 3.91, "sp500": 6506,
       "daily_cost_millions": 900, "total_cost_billions": 24.3,
       "targets_struck": 22000, "us_kia": 13, "us_wia": 140,
+      "iranian_killed": 5300, "lebanese_killed": 1001,
+      "displaced": 4200000, "flights_cancelled": 24000, "children_killed": 322
+    },
+    {
+      "date": "2026-03-21", "war_day": 22,
+      "brent": 108, "wti": 98, "gas": 3.91, "sp500": 6506,
+      "daily_cost_millions": 1000, "total_cost_billions": 25.3,
+      "targets_struck": 23000, "us_kia": 13, "us_wia": 200,
       "iranian_killed": 5300, "lebanese_killed": 1001,
       "displaced": 4200000, "flights_cancelled": 24000, "children_killed": 322
     }
   ],
   "toll": {
     "targets_struck": {
-      "value": 22000,
+      "value": 23000,
       "label": "Targets Struck",
-      "note": "CENTCOM: 7,800+ US — 120+ vessels destroyed — IDF 130+ in 24 hrs — ~22,000+ combined est.",
-      "tooltip": "Total targets struck by US and Israeli forces since Feb 28. CENTCOM confirmed 7,800+ US targets by Mar 20. IDF struck 130+ regime infrastructure targets in 24 hrs including first Caspian Sea strikes. 120+ Iranian naval vessels and 44 minelayers destroyed. Combined US/Israeli extrapolated ~22,000+. Source: CENTCOM / IDF / Hegseth briefing.",
+      "note": "CENTCOM: 8,000+ US — 130 vessels destroyed — 8,000+ sorties — ~23,000+ combined est.",
+      "tooltip": "Total targets struck by US and Israeli forces since Feb 28. CENTCOM confirmed 8,000+ US targets by Mar 21 (up from 7,800+ Mar 20). 8,000+ combat sorties flown. 130 Iranian naval vessels destroyed — 'largest elimination of a navy since WWII' per Adm. Cooper. Combined US/Israeli extrapolated ~23,000+. Source: CENTCOM / Adm. Brad Cooper / IDF.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
       "value": 13,
       "label": "US Military Deaths",
-      "note": "13 KIA confirmed + 1 non-hostile death — F-35 struck by possible AA fire Mar 19",
-      "tooltip": "US military deaths. 6 at Port Shuaiba, Kuwait (Day 2). 1 died of wounds at Prince Sultan AB, Saudi Arabia (Day 9). 6 killed in KC-135 crash over Iraq (Day 13). 1 non-hostile death in Kuwait. F-35 emergency landing Mar 19 — pilot stable — CENTCOM investigating possible hostile fire (first US jet struck if confirmed). Source: DoD / CENTCOM / CNN.",
+      "note": "13 KIA confirmed — Sgt. Pennington (26, Glendale KY) announced Day 22",
+      "tooltip": "US military deaths. 7 by enemy fire: 6 at Port Shuaiba, Kuwait (Day 2), 1 died of wounds at Prince Sultan AB (Day 9). 6 killed in KC-135 crash over Iraq (Day 13). Sgt. Benjamin N. Pennington (26, Glendale KY) death announced Mar 21. F-35 struck by Iranian ground fire Mar 19 — pilot stable — first confirmed combat damage to F-35. Source: DoD / CENTCOM.",
       "color": "var(--civilian)"
     },
     "us_wia": {
-      "value": 140,
+      "value": 200,
       "label": "US Service Members WIA",
-      "note": "140+ total — F-35 pilot in stable condition after emergency landing",
-      "tooltip": "US service members wounded/injured across all theaters since Feb 28. 140+ total. Includes casualties at Port Shuaiba, Prince Sultan AB, mine countermeasures, and base attacks. F-35 pilot in stable condition after emergency landing Mar 19. Source: DoD / CENTCOM.",
+      "note": "~200 total — vast majority minor — 180+ returned to duty",
+      "tooltip": "US service members wounded/injured across all theaters since Feb 28. ~200 total, vast majority minor. 180+ returned to duty. 50,000+ US service members deployed to CENTCOM AOR. Source: DoD / CENTCOM.",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
       "value": 5300,
       "label": "Iranian Killed (Hengaw est.)",
-      "note": "Hengaw: 5,300 (511 civilian) — Al Jazeera: 1,444 — HRANA: 3,154 — Red Crescent: 204 children",
-      "tooltip": "Iranian casualties. Al Jazeera tracker (Mar 20): 1,444 killed including 204 children per Iranian Red Crescent, 18,000+ injured. Hengaw (5th report, Mar 18): 5,300 killed — 511 civilians (120 minors, 160 women), 4,800+ military. HRANA (Mar 17): ~3,154 deaths. 9 hospitals non-operational. Source: Al Jazeera / Hengaw / HRANA / Iranian Red Crescent.",
+      "note": "Hengaw: 5,300 (511 civilian) — Al Jazeera: 1,444 — HRANA: 3,114 — attack rate down 90%",
+      "tooltip": "Iranian casualties — significant discrepancies across sources. Hengaw Organization (Mar 17): 5,300 killed (511 civilian, 4,789 military). HRANA (Mar 17): 3,114 deaths. Al Jazeera tracker (~Mar 20): 1,444. Iranian government via TIME (Mar 11): 1,300+. WHO (Mar 11): 1,300+ dead, 9,000+ injured. Iranian missile/drone attack rates down 90% from opening days. 9+ senior officials killed. Source: Hengaw / HRANA / Al Jazeera / WHO / TIME.",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
       "value": 1001,
       "label": "Lebanese Killed",
-      "note": "1,001+ killed, 2,584+ wounded — 1M+ displaced — 118+ children — 570+ Hezbollah operatives eliminated",
-      "tooltip": "Lebanese casualties from Israeli strikes and IDF ground operations since March 2. 1,001+ killed including 118+ children, 2,584+ wounded, 1M+ displaced (~1/5 of population). IDF struck 2,000+ targets in Lebanon, eliminated 570+ operatives including 220 Radwan Force members. Hezbollah: 668 cumulative attack waves (daily avg 37, trending up). Source: Lebanese Health Ministry / OCHA / IDF.",
+      "note": "1,001+ killed, 2,000+ wounded — 1M+ displaced — 118 children — 570+ Hezbollah eliminated",
+      "tooltip": "Lebanese casualties from Israeli strikes and IDF ground operations since March 2. 1,001+ killed including 118 children, 2,000+ wounded, 1M+ displaced (~1/5 of population). IDF struck 2,000+ Hezbollah targets, killed 570+ operatives including 220 Radwan Force members. 12 medical workers killed in Hezbollah health center strike Day 22. New Beirut evacuation orders: Haret Hreik, Ghobeiry, Hadath. Source: Lebanese Health Ministry / OCHA / IDF.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
       "value": 4200000,
       "label": "Displaced Persons",
-      "note": "Iran: up to 3.2M + Lebanon: 1M+ — internet at 4% — UNHCR / OCHA",
-      "tooltip": "People displaced from their homes across all fronts. Iran: 600,000-1M households (up to 3.2M people). Lebanon: 1M+. Internet at 4% of normal. 25+ hospitals damaged, 9 forced out of service. Source: UNHCR / OCHA / NetBlocks.",
+      "note": "Iran: up to 3.2M + Lebanon: 1M+ — 24,600 Afghans returned — UNHCR / OCHA",
+      "tooltip": "People displaced from their homes across all fronts. Iran: 600,000-1M households (up to 3.2M people per UNHCR). Lebanon: ~1M (~19% of population). 125,000+ Lebanese crossed into Syria by Mar 18. 24,600 Afghans returned to Afghanistan since Feb 28. Internet at 4% of normal. Source: UNHCR / OCHA / NetBlocks.",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 24000,
       "label": "Flights Cancelled",
-      "note": "24,000+ flights — 3,200 vessels stranded — 20+ vessel attacks — 15,000 cruise passengers",
-      "tooltip": "Commercial flights cancelled due to airspace closures. IMO: 3,200 vessels, 20,000-40,000 seafarers stranded. 15,000 cruise passengers stranded on 6+ ships. ~400 vessels in Gulf of Oman backlog. 20+ confirmed maritime incidents. 44 GPS injection zones + 92 denial areas. Jones Act waived. Source: IATA / Flightradar24 / IMO / Bloomberg.",
+      "note": "24,000+ flights — 2,000-3,000 vessels stranded — 21+ vessel attacks — 8+ maritime workers killed",
+      "tooltip": "Commercial flights cancelled due to airspace closures. 2,000-3,000 vessels stranded. 20,000-40,000 seafarers stranded. 21+ commercial vessels attacked, 8+ maritime workers killed. JMIC/UKMTO threat level: CRITICAL. War risk insurance at ~5% of vessel value. 22 countries condemn Hormuz closure. Source: IATA / Flightradar24 / IMO / UKMTO.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
       "value": 322,
       "label": "Children Killed",
       "note": "Iran: 204 (Red Crescent) inc. ~168 Minab — Lebanon: 118+ — OHCHR",
-      "tooltip": "Children killed in the conflict. Iranian Red Crescent (Mar 20): 204 children killed including ~168 at Minab girls' school (Day 1). Lebanon: 118+ children among 1,001+ total dead. Amnesty confirmed US responsible for Minab via Tomahawk missile. Source: Iranian Red Crescent / Amnesty / Lebanese Health Ministry / OHCHR.",
+      "tooltip": "Children killed in the conflict. Iranian Red Crescent: 204 children killed including ~168 at Minab girls' school (Day 1, Tomahawk — US confirmed responsible per NYT/Amnesty). Lebanon: 118+ children among 1,001+ total dead. Dimona strike Day 22 hospitalized 12-year-old boy in serious condition. UN investigation ongoing. Source: Iranian Red Crescent / NYT / Amnesty / Lebanese Health Ministry / OHCHR.",
       "color": "var(--civilian)"
     }
   }

@@ -15,8 +15,8 @@
     "mission_summary": "Primary strike platform — deep strike into Iran and attrition of Iranian naval capabilities",
     "deployed_since": "2025-11-21",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 21: CSG-3 remains primary strike platform for Operation Epic Fury. Continuously operating in Arabian Sea. CVW-9 with F-35Cs (VMFA-314) sustaining high-tempo operations — CENTCOM confirmed 7,800+ targets cumulative. Escort ships: USS Spruance (DDG-111), USS Frank E. Petersen Jr. (DDG-121), USS Michael Murphy (DDG-112). Up to 15+ Arleigh Burke destroyers total in region.",
-    "source": "USNI Fleet Tracker 3/16, Defence Security Asia satellite analysis 3/15, CENTCOM 3/20"
+    "notes": "Day 22: CSG-3 remains sole carrier in combat zone. CVW-9 with F-35Cs (VMFA-314) sustaining high-tempo operations. CENTCOM: 8,000+ targets struck, 8,000+ combat sorties, 130 Iranian naval vessels destroyed — 'largest elimination of a navy since WWII' per Adm. Brad Cooper. Total air superiority maintained over Iranian airspace. 50,000+ US service members in CENTCOM AOR. Up to 15+ Arleigh Burke destroyers in region.",
+    "source": "USNI Fleet Tracker 3/16, Defence Security Asia satellite analysis 3/15, CENTCOM 3/21, Adm. Brad Cooper briefing"
   },
   {
     "id": "cvn-78",
@@ -26,14 +26,14 @@
     "strike_group": "Carrier Strike Group 12",
     "lat": 35.50,
     "lng": 24.10,
-    "area": "Naval Support Activity Souda Bay, Crete — pierside fire repairs",
+    "area": "En route to Souda Bay, Crete — heading for 1+ week pierside fire repairs",
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye",
     "escorts": ["DDG-96 USS Bainbridge", "DDG-72 USS Mahan", "DDG-81 USS Winston S. Churchill"],
-    "status": "REPAIRS — SOUDA BAY",
-    "mission_summary": "Pierside at Souda Bay, Crete for fire damage repairs — 266+ days deployed",
+    "status": "REPAIRS — EN ROUTE SOUDA BAY",
+    "mission_summary": "Heading to Souda Bay, Crete for fire damage repairs — 270+ days deployed",
     "deployed_since": "2025-05-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 21: Ford at Souda Bay, Crete for pierside fire repairs. Non-combat fire (Mar 12) destroyed 100+ beds, displaced 600+ sailors, required 30 hours to control. Nearly 200 treated for smoke inhalation. Ford deployed 266+ days (departed Norfolk June 24, 2025). Escorts remain on station — USS Bainbridge (DDG-96), USS Mahan (DDG-72), USS Winston S. Churchill (DDG-81) and others in Red Sea/Arabian Sea.",
+    "notes": "Day 22: Ford en route to Souda Bay, Crete for 1+ week pierside repairs. Non-combat fire (Mar 12) destroyed 100+ beds, displaced 600+ sailors, required 30 hours to control. Nearly 200 treated for smoke inhalation. Ford deployed 270+ days. Escorts remain on station — USS Bainbridge (DDG-96), USS Mahan (DDG-72), USS Winston S. Churchill (DDG-81) and others in Red Sea/Arabian Sea.",
     "source": "USNI News, Navy Times, Reuters, NYT 3/17, CNN 3/17, Kathimerini, USNI Fleet Tracker 3/16"
   },
   {
@@ -42,17 +42,17 @@
     "hull": "CVN-77",
     "type": "carrier",
     "strike_group": "Carrier Strike Group 10",
-    "lat": 35.50,
-    "lng": 25.00,
-    "area": "Atlantic / Eastern Mediterranean — preparing to deploy",
+    "lat": 36.95,
+    "lng": -76.30,
+    "area": "Naval Station Norfolk, VA — NOT yet deployed",
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye, MH-60R/S Seahawk",
     "escorts": [],
-    "status": "DEPLOYING",
-    "mission_summary": "Third carrier deploying — would create unprecedented three-carrier Middle East presence to backfill Ford",
-    "deployed_since": "2026-03-06",
+    "status": "PRE-DEPLOYMENT",
+    "mission_summary": "Awaiting deployment — needs minor maintenance and pre-deployment leave — earliest departure ~March 30",
+    "deployed_since": null,
     "operation_start_date": null,
-    "notes": "Day 21: RADM Alexis Walker declared strike group 'ready to deploy today.' Multiple outlets report deployment imminent/underway toward Mediterranean to relieve Ford. No official deployment order publicly confirmed as of Mar 20. CVW-7 flew 1,586 sorties during 28-day COMPTUEX workup (Mar 5-6). CO Capt. Robert Bibeau.",
-    "source": "USNI News 3/6, Navy Times 3/9, 19FortyFive 3/11, DPI 3/16, USNI Fleet Tracker 3/16"
+    "notes": "Day 22: CORRECTION — Bush has NOT officially deployed despite widespread media speculation. Completed COMPTUEX March 5. Navy spokesman (WHRO report Mar 16): needs 'minor maintenance and pre-deployment leave,' not expected to leave for 'at least two weeks' (~March 30 earliest). USS Gonzalez (DDG-66) departed Norfolk March 16 independently, likely deploying ahead to Eastern Mediterranean to relieve Ford. CVW-7 flew 1,586 sorties during 28-day COMPTUEX workup. CO Capt. Robert Bibeau.",
+    "source": "WHRO/Navy spokesman 3/16, USNI News 3/6, Navy Times 3/9, 19FortyFive 3/11, DPI 3/16"
   },
   {
     "id": "lha-7",
@@ -60,17 +60,17 @@
     "hull": "LHA-7",
     "type": "amphibious",
     "strike_group": "Tripoli Amphibious Ready Group / 31st Marine Expeditionary Unit",
-    "lat": 8.00,
-    "lng": 80.00,
-    "area": "Indian Ocean — exited Malacca Strait March 18, transiting to CENTCOM AOR",
+    "lat": 10.00,
+    "lng": 65.00,
+    "area": "Indian Ocean — approaching Arabian Sea, ETA March 22-23",
     "aircraft": "F-35B Lightning II (VMFA-121), MV-22B Osprey (VMM-265), AH-1Z Viper, UH-1Y Venom, CH-53E Super Stallion",
     "escorts": ["LPD-22 USS San Diego", "LPD-18 USS New Orleans", "CG-62 USS Robert Smalls", "DDG-115 USS Rafael Peralta"],
     "status": "DEPLOYING",
     "mission_summary": "Rapid-response force for Strait of Hormuz — littoral warfare, mine countermeasures, maritime security, potential island seizure operations",
     "deployed_since": "2026-03-13",
     "operation_start_date": null,
-    "eta_theater": "2026-03-24 to 2026-03-25",
-    "notes": "Day 21: Exited Malacca Strait March 18 with USS San Diego (LPD-22) and USS New Orleans (LPD-18). ETA CENTCOM AOR: March 24-25. 31st MEU (~2,200 Marines) with F-35B Lightning IIs (VMFA-121). Combined with USS Boxer ARG (departed San Diego Mar 19), this will bring ~4,400 additional Marines to the theater.",
+    "eta_theater": "2026-03-22 to 2026-03-23",
+    "notes": "Day 22: Approaching Arabian Sea. Exited Malacca Strait March 18 with USS San Diego (LPD-22) and USS New Orleans (LPD-18). ETA CENTCOM AOR: March 22-23. 31st MEU (~2,200 Marines) with F-35B Lightning IIs (VMFA-121). Includes 2,500 additional Marines ordered to Middle East. Combined with USS Boxer ARG, will bring ~4,400 additional Marines to theater.",
     "replaces": "lha-6 (USS America — unconfirmed in theater)",
     "source": "Reuters footage 3/17, USNI News 3/13, Axios 3/13, CNN, Nation Thailand, USNI Fleet Tracker 3/16"
   },
@@ -90,8 +90,8 @@
     "mission_summary": "Mine countermeasure operations in Strait of Hormuz — SEVERELY DEGRADED",
     "deployed_since": "2025-01-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 21: CRITICAL MCM GAP. Christian Science Monitor published major exposé (Mar 20) on MCM capability deficit. USS Tulsa (LCS-16) and USS Santa Barbara (LCS-32) are in Singapore as of Mar 18 — thousands of miles from Bahrain. USS Canberra (LCS-30) somewhere in Indian Ocean. These are the only 3 dedicated US surface MCM platforms after 4 Avenger-class minesweepers decommissioned Jan 2026. Prior Navy assessment found 'unreliable unmanned vehicles, critical single-point failures, and sonar that couldn't see.' Gen. Caine downplayed mine threat — missiles, not mines, primary concern.",
-    "source": "USNI Fleet Tracker 3/16, Washington Institute, Christian Science Monitor 3/20"
+    "notes": "Day 22: CRITICAL MCM GAP. Christian Science Monitor (Mar 20) exposé: MCM technology works only ~30% of the time. Naval News: 'no known robust mine countermeasures force currently deployed in the region.' USS Tulsa (LCS-16) and USS Santa Barbara (LCS-32) are in Singapore as of Mar 18 — thousands of miles from Bahrain. USS Canberra (LCS-30) somewhere in Indian Ocean. These are the only 3 dedicated US surface MCM platforms after 4 Avenger-class minesweepers decommissioned Jan 2026. CNN (Mar 11): Iran laid 'a few dozen' mines, retains 80%+ of small boats and minelayers with capacity for hundreds more.",
+    "source": "USNI Fleet Tracker 3/16, Washington Institute, Christian Science Monitor 3/20, CNN 3/11, Naval News"
   },
   {
     "id": "ssgn-728",
@@ -108,7 +108,7 @@
     "mission_summary": "Tomahawk cruise missile strike platform",
     "deployed_since": "2026-02-20",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 19: Ohio-class SSGN. Carries up to 154 Tomahawk cruise missiles. Submarine operations remain classified — position is approximate/notional. Conducted record 727-day deployment in 2022-2024. Weapons confirmed in use during conflict include Tomahawk Block Va Maritime Strike variant with radar-absorbent 'black' coating. CENTCOM confirms >7,000 US targets struck, >15,000 combined by Day 14.",
+    "notes": "Day 22: Ohio-class SSGN. Carries up to 154 Tomahawk cruise missiles. Submarine operations remain classified — position is approximate/notional. Weapons confirmed in use include Tomahawk Block Va Maritime Strike variant with radar-absorbent 'black' coating. CENTCOM confirms 8,000+ US targets struck cumulative.",
     "source": "CENTCOM statements, classification prevents specific confirmation"
   },
   {
@@ -126,7 +126,7 @@
     "mission_summary": "Air defense, escort operations, strike support",
     "deployed_since": "2026-02-28",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 19: Part of expanded ~15+ destroyer presence in region. Operating in Arabian Sea/Gulf of Oman supporting Lincoln's expanded destroyer screen. Eastern Med destroyers: USS Roosevelt (DDG-80), USS Bulkeley (DDG-84), USS Oscar Austin (DDG-79 — intercepted Iranian ballistic missile over Turkey using SM-3), USS Thomas Hudner (DDG-116).",
+    "notes": "Day 22: Part of expanded ~15+ destroyer presence in region. Operating in Arabian Sea/Gulf of Oman supporting Lincoln's expanded destroyer screen. Eastern Med destroyers: USS Roosevelt (DDG-80), USS Bulkeley (DDG-84), USS Oscar Austin (DDG-79 — intercepted Iranian ballistic missile over Turkey using SM-3), USS Thomas Hudner (DDG-116).",
     "detachment_note": "Operating with CSG-3 destroyer screen in Arabian Sea",
     "source": "ABC7 3/12, USNI Fleet Tracker 3/16"
   },
@@ -138,7 +138,7 @@
     "strike_group": "Boxer Amphibious Ready Group / 11th Marine Expeditionary Unit",
     "lat": 25.00,
     "lng": -118.00,
-    "area": "Eastern Pacific — departed San Diego March 19, en route to Middle East",
+    "area": "Eastern Pacific — departed San Diego March 19-20, en route to Middle East",
     "aircraft": "AV-8B Harrier II or F-35B Lightning II, MV-22B Osprey, AH-1Z Viper, UH-1Y Venom, CH-53E Super Stallion",
     "escorts": ["LSD-45 USS Comstock", "LPD-27 USS Portland"],
     "status": "DEPLOYING",
@@ -146,7 +146,7 @@
     "deployed_since": "2026-03-19",
     "operation_start_date": null,
     "eta_theater": "2026-04-09",
-    "notes": "Day 21: NEW DEPLOYMENT. Left San Diego March 19 with USS Comstock and USS Portland, carrying 2,200+ Marines from 11th MEU plus 2,000 sailors. Originally scheduled for Indo-Pacific deployment, rerouted and accelerated to Middle East. ETA approximately 3 weeks (early April). Combined with Tripoli ARG, will bring ~4,400 additional Marines to theater.",
+    "notes": "Day 22: Left San Diego March 19-20 with USS Comstock and USS Portland, carrying 2,200+ Marines from 11th MEU plus 2,000 sailors. Originally scheduled for Indo-Pacific deployment, rerouted and accelerated to Middle East. ETA approximately 3 weeks (early April). Combined with Tripoli ARG, will bring ~4,400 additional Marines to theater.",
     "source": "Pentagon / USNI News / CNN 3/19"
   }
 ]

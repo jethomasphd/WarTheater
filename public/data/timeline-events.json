@@ -1528,5 +1528,113 @@
     "category": "military",
     "source": "Christian Science Monitor / Washington Institute / USNI",
     "data_point": "Only 3 MCM platforms — 2 in Singapore — 4 minesweepers decommissioned Jan 2026"
+  },
+  {
+    "date": "2026-03-21",
+    "time": "02:00",
+    "title": "Iran fires IRBMs at Diego Garcia — 2,500 miles from Iranian territory",
+    "description": "Iran fired two intermediate-range ballistic missiles at the joint US-UK military base on Diego Garcia in the Indian Ocean, approximately 2,500 miles (4,000 km) from Iranian territory — far exceeding Iran's previously acknowledged 2,000 km missile range. One missile failed in flight; a US warship fired an SM-3 interceptor at the other. Neither struck the base. IDF Chief of Staff Zamir noted the 4,000 km range puts European capitals including Berlin, Paris, and Rome within Iranian reach. Speculation centers on possible use of space launch vehicle.",
+    "category": "military",
+    "source": "Wall Street Journal / IDF / Reuters",
+    "data_point": "2,500-mile strike — Iran's longest-range operational attack — European capitals in range"
+  },
+  {
+    "date": "2026-03-21",
+    "time": "04:00",
+    "title": "Natanz nuclear facility struck — IAEA confirms no radiation increase",
+    "description": "The Natanz nuclear enrichment facility — Iran's primary uranium enrichment site — was struck on March 21. Iran's Mizan News confirmed the attack but claimed no radiation leakage. IAEA DG Rafael Grossi reported no increase in off-site radiation and called for 'military restraint to avoid any risk of a nuclear accident.' Israel denied responsibility; Iran blamed a joint US-Israeli strike. Russia condemned as posing 'real risk of catastrophic disaster.' This is the second Natanz strike during Operation Epic Fury and the third since June 2025 Operation Midnight Hammer.",
+    "category": "military",
+    "source": "IAEA / Mizan News / Reuters / Russia MFA",
+    "data_point": "2nd Natanz strike in war — IAEA: no radiation increase — Russia condemns"
+  },
+  {
+    "date": "2026-03-21",
+    "time": "06:00",
+    "title": "CENTCOM: 8,000+ targets struck, 130 vessels destroyed — 'largest navy elimination since WWII'",
+    "description": "Admiral Brad Cooper's Day 22 video update confirmed over 8,000 military targets struck in Iran since February 28, up from 7,800+ on Day 21. The US has flown 8,000+ combat sorties maintaining total air superiority. Cooper described destruction of 130 Iranian naval vessels as 'the largest elimination of a navy over a three-week period since World War II.' 5,000-pound bunker-buster bombs employed against hardened underground facilities along southern coastline. Iranian missile and drone attack rates down 90% from opening days. 50,000+ US service members in CENTCOM AOR.",
+    "category": "military",
+    "source": "CENTCOM / Adm. Brad Cooper briefing",
+    "data_point": "8,000+ targets — 8,000+ sorties — 130 vessels — 50,000+ troops"
+  },
+  {
+    "date": "2026-03-21",
+    "time": "08:00",
+    "title": "Dimona struck — interceptors fail — 47 hospitalized including 12-year-old",
+    "description": "An Iranian ballistic missile struck Dimona, the city hosting Israel's Shimon Peres Negev Nuclear Research Center. 47 people hospitalized including a 12-year-old boy in serious condition. IDF confirmed interceptors failed to knock down the missile. IRGC called it 'revenge for Natanz.' This was one of nine separate missile salvos from Iran throughout March 21 — Iran's declared '70th wave of attacks.'",
+    "category": "military",
+    "source": "IDF / Israeli media / IRGC statement",
+    "data_point": "47 hospitalized — interceptor failure — IRGC: 'revenge for Natanz'"
+  },
+  {
+    "date": "2026-03-21",
+    "time": "09:00",
+    "title": "Cluster munitions hit Israeli daycare — 7 impact sites across central Israel",
+    "description": "Iranian cluster bombs hit a daycare/kindergarten in Rishon Lezion area of central Israel. The building was empty — no casualties from that specific impact — but 7 impact sites were recorded across the area including damage to residential buildings in Bnei Brak, Shoham, and Rosh Ha'ayin. Separately, missile fragments fell in occupied East Jerusalem, 350 meters from the Al-Aqsa Mosque compound. IDF detected a ballistic missile attack targeting Eilat in southern Israel.",
+    "category": "military",
+    "source": "IDF / Israeli media / Israeli Police",
+    "data_point": "9 salvos at Israel — daycare hit (empty) — 350m from Al-Aqsa"
+  },
+  {
+    "date": "2026-03-21",
+    "time": "10:00",
+    "title": "Gulf states under continued barrage — UAE 341 BMs, Bahrain 143, Saudi 47 drones",
+    "description": "Gulf state defenses engaged multiple waves: UAE intercepted 3 ballistic missiles and 8 UAVs (cumulative: 341 BMs, 15 cruise missiles, 1,748 UAVs since Feb 28). Bahrain intercepted 2 missiles (cumulative: 143 missiles, 242 drones). Saudi Arabia shot down at least 47 drones including 38 within a three-hour window over its eastern oil-rich region. Kuwait's Mina al-Ahmadi refinery struck by two more waves of Iranian drones, sparking fires.",
+    "category": "military",
+    "source": "UAE MoD / Bahrain Defence Force / Saudi MoD / KUNA",
+    "data_point": "UAE: 341 BMs cumulative — Saudi: 47 drones in one day — Kuwait refinery hit again"
+  },
+  {
+    "date": "2026-03-21",
+    "time": "11:00",
+    "title": "Hezbollah fires ~10-rocket barrages — IDF deploys additional armored division",
+    "description": "Hezbollah fired ~10-rocket barrages at northern Israel around noon, striking homes in Ma'alot-Tarshiha (5 injured) and Metula. Sirens sounded across Safed, the Galilee, and the Golan Heights. IDF conducted 'targeted ground operation' in southern Lebanon with aircraft and tank support, killing multiple fighters with no IDF casualties. An additional armored division finished preparing to deploy. IDF killed over 570 Hezbollah operatives (including 220 Radwan Force) and struck 2,000+ targets since March 2. Reuters revealed IRGC rebuilt Hezbollah into decentralized 'flat' command with smaller 5-rocket cells. 12 medical workers killed in strike on Hezbollah health center. New Beirut evacuation orders for Haret Hreik, Ghobeiry, Hadath.",
+    "category": "military",
+    "source": "IDF / Reuters / Lebanese Health Ministry",
+    "data_point": "570+ Hezbollah killed — 2,000+ targets — decentralized command revealed — 12 medics killed"
+  },
+  {
+    "date": "2026-03-21",
+    "time": "12:00",
+    "title": "Sgt. Pennington death announced — 13th US military fatality",
+    "description": "The death of Sgt. Benjamin N. Pennington, 26, of Glendale, Kentucky was announced on March 21. US total: 13 killed (7 by enemy fire, 6 in KC-135 crash), approximately 200 wounded with vast majority minor and 180+ returned to duty. F-35 damaged on March 19 confirmed as first combat damage to F-35 by enemy fire — struck by suspected Iranian IR/passive sensor-based air defense. Chinese analysts publicly noted implications for stealth aircraft vulnerability.",
+    "category": "humanitarian",
+    "source": "DoD / CENTCOM",
+    "data_point": "13 US KIA — ~200 WIA — F-35 first confirmed combat damage"
+  },
+  {
+    "date": "2026-03-21",
+    "time": "13:00",
+    "title": "22 countries condemn Hormuz closure — South Korea joins coalition — sanctions lifted",
+    "description": "22 countries released joint statement condemning Iran's closure of the Strait of Hormuz. South Korea joined the seven-nation Hormuz coalition (now 8: UK, France, Germany, Italy, Japan, Netherlands, Canada, South Korea) expressing 'readiness to contribute.' Italian PM Meloni: no EU state considering military mission. France, Germany, Italy, Japan all ruled out warships. US Treasury temporarily lifted sanctions on Iranian oil already loaded on ships (Mar 21 - Apr 19), expecting ~140M barrels to global supply. Iran dismissed, saying no surplus crude to sell. Houthis have NOT resumed Red Sea attacks despite solidarity declarations.",
+    "category": "diplomatic",
+    "source": "Joint statement / Reuters / US Treasury / AP",
+    "data_point": "22 countries condemn — South Korea joins — sanctions lifted on loaded oil — Houthis still on sideline"
+  },
+  {
+    "date": "2026-03-21",
+    "time": "14:00",
+    "title": "Trump: 'You don't do a ceasefire when you're literally obliterating the other side'",
+    "description": "Trump told reporters March 20: 'You don't do a ceasefire when you're literally obliterating the other side.' Iran's FM Araghchi rejected ceasefire talks, demanding 'complete, comprehensive and lasting end to the war' with reparations and security guarantees. IDF Chief Zamir said military is 'about halfway through' campaign. Israeli Defense Minister Katz: offensive would 'increase significantly' in coming week. Trump's Truth Social 'winding down' rhetoric contradicted by 2,500 additional Marines and pending $200B supplemental. Public opposition: 56% (NPR), 53% (Quinnipiac), 53% disapprove (Data for Progress). Fox News: 51-29% say Trump's handling made US 'less safe.'",
+    "category": "diplomatic",
+    "source": "Reuters / AP / NPR / Quinnipiac / Fox News",
+    "data_point": "No ceasefire path — 56% oppose war — 51% say 'less safe' — 'about halfway through'"
+  },
+  {
+    "date": "2026-03-21",
+    "time": "15:00",
+    "title": "Markets: Brent ~$108, S&P at 6-month low, gas $3.91 — Goldman warns of $147",
+    "description": "Brent crude trades ~$107-112 (volatile intraday). S&P 500 closed March 20 at 6,506.48 (-1.51%), below 200-day MA for 2nd consecutive day. RSI at 23.34 (deep oversold). Only 43.9% of stocks above their 200-day MAs. VIX at 26.78. US gas at $3.91/gal — highest since Oct 2022. Goldman Sachs warned Brent 'likely to exceed 2008 all-time high ($147.50)' with worst case additional $42/bbl through 2027. Fed held at 3.50-3.75%; 95% probability of April hold. Defense stocks at all-time highs: LMT backlog record $194B; THAAD production ramping from 96/yr to 400/yr. $200B supplemental faces significant Republican resistance.",
+    "category": "financial",
+    "source": "CNBC / Goldman Sachs / HSBC / AAA / Federal Reserve",
+    "data_point": "Brent ~$108 — S&P 6,506 (6-month low) — gas $3.91 — Goldman: could exceed $147"
+  },
+  {
+    "date": "2026-03-21",
+    "time": "16:00",
+    "title": "War cost reaches ~$25.3B — $200B supplemental faces Republican resistance",
+    "description": "Cumulative war costs through Day 22 estimated at approximately $22-24 billion based on Pentagon's $11.3B Day 6, CSIS's $16.5B Day 12, and ongoing ~$1B/day run rate. Extrapolated: ~$25.3B. The $200B supplemental request has NOT been formally submitted to Congress. Reps. Boebert, Roy, Burchett, Ogles, and Burlison expressed opposition. GOP leaders 'do not believe they have the votes.' Penn Wharton: $40-95B direct costs, up to $210B total economic impact. Hegseth: 'It takes money to kill bad guys.' Axios: Washington considering plans to blockade or occupy Iran's Kharg Island oil hub.",
+    "category": "financial",
+    "source": "Pentagon / CSIS / Penn Wharton / Axios / Congress",
+    "data_point": "~$25.3B cumulative — $200B supplemental faces GOP resistance — Kharg Island plan considered"
   }
 ]

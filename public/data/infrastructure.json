@@ -4,14 +4,14 @@
     "count": "31+",
     "note": "Iran (31 major, 9 non-operational) + Lebanon",
     "source": "Iranian Deputy Health Min. / WHO / OCHA",
-    "detail": "31 major hospitals damaged in Iran, 9 rendered non-operational per Day 7 reports, 69+ schools damaged. WHO verified 13 attacks on healthcare infrastructure. 77 healthcare facilities affected per Red Crescent. 3+ facilities in south Lebanon degraded."
+    "detail": "31 major hospitals damaged in Iran, 9 rendered non-operational per Day 7 reports, 69+ schools damaged. WHO verified 13 attacks on healthcare infrastructure. 77 healthcare facilities affected per Red Crescent. 3+ facilities in south Lebanon degraded. 12 medical workers killed in strike on Hezbollah-run health center Day 22."
   },
   {
     "label": "Schools Destroyed",
     "count": "1",
     "note": "Minab, Iran",
-    "source": "Iranian Red Crescent / AP",
-    "detail": "Girls' school struck by US Tomahawk cruise missile adjacent to IRGC naval complex. 165-180 killed (mostly girls aged 7-12). School triple-tapped per Iranian officials. Pentagon investigation underway."
+    "source": "Iranian Red Crescent / AP / NYT / Amnesty",
+    "detail": "Girls' school struck by US Tomahawk cruise missile adjacent to IRGC naval compound. 165-180 killed (mostly girls aged 7-12). NYT (Mar 11): preliminary investigation determined US responsible due to outdated DIA targeting coordinates — school was part of IRGC compound until ~2013-2016. Amnesty (Mar 16) confirmed 'serious breach of international humanitarian law.' UN investigation ongoing. Trump: 'I don't know about that.'"
   },
   {
     "label": "Power Plants Hit",
@@ -25,7 +25,14 @@
     "count": "6+",
     "note": "Kharg, Abadan, South Pars + Ras Laffan (Qatar) + SAMREF (Saudi) + Kuwait refineries",
     "source": "DoD / Bloomberg / QatarEnergy / Reuters / satellite imagery",
-    "detail": "Iran's energy infrastructure: Kharg Island terminal destroyed. South Pars gas field Phases 3/4/5/6 struck Mar 18 — 730M cm³/day field offline. Netanyahu pledged to stop further energy strikes at Trump's demand. IRGC retaliatory strikes: Ras Laffan LNG Trains 4+6 damaged (12.8 MTPA, 3-5yr repair, $20B/yr loss). SAMREF refinery at Yanbu struck. Kuwait's Mina al-Ahmadi and Mina Abdullah refineries hit. Haifa BAZAN refinery struck. Bahrain Bapco Sitra under force majeure."
+    "detail": "Iran's energy infrastructure: Kharg Island terminal destroyed. South Pars gas field Phases 3/4/5/6 struck Mar 18 — 730M cm\u00b3/day field offline. Ras Laffan LNG Trains 4+6 damaged (12.8 MTPA, 3-5yr repair, $20B/yr loss). Pearl GTL offline 1+ year. SAMREF refinery at Yanbu struck. Kuwait's Mina al-Ahmadi (2 drone waves Mar 19-20) and Mina Abdullah struck. Haifa BAZAN refinery struck. Bahrain Bapco Sitra under force majeure. Ruwais (UAE, 922k bpd) remains shut. Panama Canal at max capacity (36-38/day) due to LNG rerouting."
+  },
+  {
+    "label": "Nuclear Facilities Struck",
+    "count": "4+",
+    "note": "Fordow, Isfahan UCF, Natanz (2x), Bushehr perimeter",
+    "source": "IAEA / DoD / IDF / satellite imagery",
+    "detail": "Fordow enrichment facility struck Day 1 with B-2/GBU-57 MOPs. Isfahan UCF struck Day 1. Natanz enrichment facility struck Day 22 (joint US-Israeli) — IAEA confirmed no radiation increase, DG Grossi called for 'military restraint to avoid any risk of nuclear accident.' Russia condemned. Israel denied responsibility. Second Natanz strike in Operation Epic Fury, third since June 2025 Operation Midnight Hammer. Bushehr NPP perimeter hit by projectile Day 19 — no damage to reactor, ~480 Russians on site."
   },
   {
     "label": "Airports Damaged",

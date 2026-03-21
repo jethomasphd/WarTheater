@@ -145,5 +145,12 @@
     "label": "MARCH 20, 2026 — DAY 21",
     "headline": "Region-wide energy war erupts — Ras Laffan LNG damaged; IEA declares largest supply disruption in history; Boxer deploys; MCM gap exposed; 22,000+ targets",
     "file": "data/briefings/day-21.html"
+  },
+  {
+    "day": 22,
+    "date": "2026-03-21",
+    "label": "MARCH 21, 2026 — DAY 22",
+    "headline": "Iran fires IRBMs at Diego Garcia 2,500mi away; Natanz struck; Dimona hit as interceptors fail; 8,000+ targets; Goldman warns oil could exceed $147",
+    "file": "data/briefings/day-22.html"
   }
 ]
