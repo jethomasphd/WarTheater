@@ -144,6 +144,8 @@ A two-phase, human-in-the-loop AI workflow runs once daily:
 
 **The Update Manifest is the contract between phases.** It's structured enough for a coding agent to execute without ambiguity, and sourced enough for the analyst to audit before execution.
 
+**Automated Data Snapshots:** A GitHub Action runs daily at 3:00 AM CT, bundling all 15 dashboard JSON files + the briefings index into a zip archive at `snapshots/YYYY-MM-DD_DATABASE_SNAPSHOT.zip`. This automates the pre-flight data export step — download the latest snapshot from [`snapshots/`](snapshots/) and upload it with the Phase 1 prompt to begin the daily update cycle. The action can also be triggered manually from the Actions tab.
+
 ---
 
 ## The Briefing Archive

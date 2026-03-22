@@ -1,0 +1,38 @@
+name: Daily Data Snapshot
+
+on:
+  schedule:
+    # 3:00 AM Central Time (CDT = UTC-5, CST = UTC-6)
+    # Using 8:00 AM UTC for CDT (summer) — adjust to 9:00 AM UTC for CST (winter)
+    - cron: '0 8 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Calculate date and war day
+        id: meta
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          WAR_DAY=$(./scripts/war-day.sh "$TODAY")
+          echo "date=$TODAY" >> "$GITHUB_OUTPUT"
+          echo "war_day=$WAR_DAY" >> "$GITHUB_OUTPUT"
+          echo "Date: $TODAY | War Day: $WAR_DAY"
+
+      - name: Create data snapshot
+        run: ./scripts/snapshot-data.sh "${{ steps.meta.outputs.date }}"
+
+      - name: Commit and push snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add snapshots/
+          git commit -m "snapshot: Day ${{ steps.meta.outputs.war_day }} — ${{ steps.meta.outputs.date }}"
+          git push

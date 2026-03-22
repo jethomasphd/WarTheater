@@ -6,7 +6,7 @@
 
 ## Pre-flight (2 min)
 - [ ] Calculate war day: (today - Feb 28, 2026) + 1 = Day ___
-- [ ] Export current data JSONs from `public/data/` in GitHub repo
+- [ ] Download today's snapshot from `snapshots/YYYY-MM-DD_DATABASE_SNAPSHOT.zip` (auto-generated at 3 AM CT)
 
 ## Phase 1: Deep Research (~25 min)
 - [ ] Open Claude Deep Research (new conversation)
