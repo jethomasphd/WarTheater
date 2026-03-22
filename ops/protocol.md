@@ -82,9 +82,9 @@ These change only when new events occur:
 ### Pre-flight
 
 1. Calculate war day: `(today - Feb 28, 2026) + 1`
-2. Export the current data JSONs from `public/data/`
+2. Download today's snapshot from `snapshots/YYYY-MM-DD_DATABASE_SNAPSHOT.zip` (auto-generated at 3 AM CT by GitHub Action; can also be triggered manually from the Actions tab, or run `./scripts/snapshot-data.sh` locally)
 3. Open Claude Deep Research (new conversation)
-4. Upload the data files
+4. Upload the snapshot zip
 5. Paste the Phase 1 prompt from `ops/prompts/phase1-deep-research.md` (fill in date and war day)
 
 ### What the Research Agent Produces

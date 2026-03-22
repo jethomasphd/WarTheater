@@ -42,7 +42,12 @@ WarTheater/
 │       └── phase2-code-execution.md  # Template for Claude Code (you)
 ├── scripts/             # Helpers
 │   ├── validate-data.sh # Validate all JSON data files
-│   └── war-day.sh       # Calculate current war day number
+│   ├── war-day.sh       # Calculate current war day number
+│   └── snapshot-data.sh # Bundle data JSONs into daily snapshot zip
+├── snapshots/           # Daily data snapshots (auto-generated at 3 AM CT)
+│   └── YYYY-MM-DD_DATABASE_SNAPSHOT.zip
+├── .github/workflows/
+│   └── daily-data-snapshot.yml  # GitHub Action: daily snapshot
 ├── updates/             # Historical update tracking (ISO-dated)
 │   ├── manifests/       # Archived update manifests
 │   └── YYYY-MM-DD*/     # Per-day update logs and corrections
@@ -68,7 +73,8 @@ JSON files only. The JS/HTML should never need to change for data updates.
 - `calculator.json` — update gas prices if changed
 
 ## Daily Update Workflow
-1. **Phase 1**: Operator uploads data JSONs + `ops/prompts/phase1-deep-research.md` to Claude Deep Research → gets Update Manifest
+0. **Snapshot**: A GitHub Action runs at 3 AM CT, creating `snapshots/YYYY-MM-DD_DATABASE_SNAPSHOT.zip` with all data JSONs. This automates the pre-flight data export.
+1. **Phase 1**: Operator downloads today's snapshot + uploads it with `ops/prompts/phase1-deep-research.md` to Claude Deep Research → gets Update Manifest
 2. **QA**: Operator reviews manifest against `ops/daily-checklist.md`
 3. **Phase 2**: Operator pastes `ops/prompts/phase2-code-execution.md` + approved manifest into Claude Code
 4. **Deploy**: Push to `main` triggers Cloudflare Pages auto-deploy
