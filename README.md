@@ -253,7 +253,14 @@ WarTheater/
 │
 ├── scripts/
 │   ├── validate-data.sh              # Validate all 15 JSON data files
-│   └── war-day.sh                    # Calculate current war day number
+│   ├── war-day.sh                    # Calculate current war day number
+│   └── snapshot-data.sh              # Bundle data JSONs into daily snapshot zip
+│
+├── snapshots/                        # Daily data snapshots (auto-generated)
+│   └── YYYY-MM-DD_DATABASE_SNAPSHOT.zip
+│
+├── .github/workflows/
+│   └── daily-data-snapshot.yml       # Runs at 3 AM CT — creates daily snapshot
 │
 ├── updates/                          # Historical update tracking
 │   ├── manifests/                    # Archived update manifests
