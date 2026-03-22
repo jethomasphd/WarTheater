@@ -4,16 +4,16 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-03-21",
+    "last_updated": "2026-03-22",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "~23,000+ (CENTCOM Mar 21: 8,000+ US targets, 8,000+ combat sorties. 130 Iranian naval vessels destroyed. Combined US/Israeli extrapolated ~23,000+ through Day 22)",
+    "total_targets_struck": "~24,000+ (CENTCOM Mar 22: 8,000+ US targets, 8,000+ combat sorties, 130 Iranian naval vessels destroyed. Iranian missile/drone launch rate down 90%. Combined US/Israeli extrapolated ~24,000+ through Day 23)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
       "killed": "1,444+",
-      "injured": "18,000+",
-      "military_killed_hengaw": "4,800+",
-      "sources": "Al Jazeera tracker (Mar 20) / Iranian Red Crescent / Hengaw / HRANA / ACLED",
-      "as_of": "2026-03-21"
+      "injured": "18,551+",
+      "military_killed_hengaw": "4,789+",
+      "sources": "Iran Health Ministry via Al Jazeera / Hengaw / HRANA / ACLED",
+      "as_of": "2026-03-22"
     },
     "civilian_buildings_affected": "~20,000 (including 16,000 residential units) per Iranian Red Crescent as of Day 11",
     "healthcare_facilities_affected": "77 per Red Crescent; 31 major hospitals damaged, 12 inactive per Deputy Health Minister; WHO verified 13 attacks on healthcare",
@@ -57,7 +57,7 @@
     "casualties_reported": "Unknown",
     "casualties_source": "Satellite imagery / IAEA",
     "active_days": [1, 2, 3, 22],
-    "notes": "Primary nuclear targets struck in first wave. Deep penetrating munitions used. Day 22 (Mar 21): Natanz nuclear enrichment facility struck in joint US-Israeli operation. Iran's Mizan News confirmed attack, claimed no radiation leakage. IAEA DG Grossi: no increase in off-site radiation, called for 'military restraint to avoid any risk of a nuclear accident.' Israel denied responsibility; Iran blamed joint US-Israeli strike. Russia condemned as 'real risk of catastrophic disaster.' Second Natanz strike during Operation Epic Fury, third since June 2025 Operation Midnight Hammer."
+    "notes": "Primary nuclear targets struck in first wave. Deep penetrating munitions used. Day 22 (Mar 21): Natanz Shahid Ahmadi-Roshan Enrichment Complex struck with bunker-buster bombs (likely GBU-57 MOPs and/or GBU-72 5,000-lb penetrators). Israel denied involvement ('did not conduct any strikes in the area'). IAEA: 'No increase in off-site radiation levels.' DG Grossi called for 'military restraint to avoid any risk of nuclear accident.' Russia condemned as 'blatant violation of international law.' Entrance buildings of underground Fuel Enrichment Plant damaged. Bulk of Iran's enriched uranium (~440 kg) believed at Isfahan, not Natanz. Third strike on Natanz (after June 2025 Operation Midnight Hammer and early March 2026)."
   },
   {
     "id": "bushehr-nuclear",
@@ -92,8 +92,8 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "DoD / ACLED",
-    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-    "notes": "Key Strait of Hormuz control point. Continuous strikes to suppress coastal batteries. Day 14: Continued strikes on remaining coastal defense positions as part of Strait of Hormuz suppression campaign. CENTCOM reported that within 48 hours of war start, all 11 Iranian warships in the Gulf of Oman had been denied presence. Three commercial ships struck by suspected Iranian projectiles in the strait on March 11."
+    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+    "notes": "Key Strait of Hormuz control point. Continuous strikes to suppress coastal batteries. Day 14: Continued strikes on remaining coastal defense positions as part of Strait of Hormuz suppression campaign. CENTCOM reported that within 48 hours of war start, all 11 Iranian warships in the Gulf of Oman had been denied presence. Three commercial ships struck by suspected Iranian projectiles in the strait on March 11. Day 23: Aerial campaign continues (Day 4) with A-10 Warthogs and Apache helicopters."
   },
   {
     "id": "shiraz-airbase",
@@ -764,13 +764,15 @@
     "type": "us_strike",
     "actor": "us",
     "targets": [
-      "Hardened underground facilities along southern coastline — anti-ship cruise missiles, mobile launchers, maritime surveillance equipment"
+      "Hardened underground facilities along southern coastline — anti-ship cruise missiles, mobile launchers, maritime surveillance equipment",
+      "Underground coastal facility storing anti-ship cruise missiles and mobile launchers (Mar 22)",
+      "Intelligence support sites and missile radar relays (Mar 22)"
     ],
     "first_strike": "2026-03-21",
     "casualties_reported": "Unknown — military targets",
     "casualties_source": "CENTCOM / Adm. Brad Cooper briefing",
-    "active_days": [22],
-    "notes": "Day 22: US employed 5,000-pound bunker-buster bombs against hardened underground facilities along Iran's southern coastline used to store anti-ship cruise missiles, mobile launchers, and maritime surveillance equipment threatening Strait of Hormuz shipping. Adm. Cooper stated Iran's ability to threaten freedom of navigation is now 'degraded.' Part of ongoing aerial campaign (begun Mar 19) using A-10 Warthogs and Apache gunships to reopen the Strait."
+    "active_days": [22, 23],
+    "notes": "Day 22-23: US employed GBU-72 5,000-pound bunker-buster bombs against hardened underground facilities along Iran's southern coastline. Day 22: Anti-ship cruise missiles, mobile launchers, and maritime surveillance equipment struck. Day 23 (Mar 22): Adm. Cooper video update confirmed destruction of underground coastal facility storing anti-ship cruise missiles and mobile launchers, plus 'intelligence support sites and missile radar relays.' Iran's combat capability 'on steady decline, as our offensive strikes ramp up.' Part of Day 4 of aerial campaign (begun Mar 19) using A-10 Warthogs and Apache gunships."
   },
   {
     "id": "army-precision-strike-march19",

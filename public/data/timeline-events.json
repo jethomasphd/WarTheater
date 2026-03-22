@@ -1636,5 +1636,140 @@
     "category": "financial",
     "source": "Pentagon / CSIS / Penn Wharton / Axios / Congress",
     "data_point": "~$25.3B cumulative — $200B supplemental faces GOP resistance — Kharg Island plan considered"
+  },
+  {
+    "date": "2026-03-21",
+    "time": "17:00",
+    "title": "US strikes Natanz nuclear facility with bunker-buster bombs",
+    "description": "US struck the Shahid Ahmadi-Roshan Enrichment Complex at Natanz with bunker-buster bombs (likely GBU-57 MOPs and/or GBU-72 5,000-lb penetrators). Israel denied involvement: 'did not conduct any strikes in the area.' IAEA confirmed no increase in off-site radiation levels. DG Rafael Grossi reiterated call for 'military restraint to avoid any risk of a nuclear accident.' Russia condemned as 'a blatant violation of international law.' Entrance buildings of underground Fuel Enrichment Plant damaged. Third strike on Natanz (after June 2025 and early March 2026).",
+    "category": "military",
+    "source": "Times of Israel / Al Jazeera / IAEA / Common Dreams / Euronews / NBC News",
+    "data_point": "Natanz struck — IAEA: no radiation — Russia condemns — 3rd strike since June 2025"
+  },
+  {
+    "date": "2026-03-21",
+    "time": "19:00",
+    "title": "Iran strikes Dimona and Arad, Israel — 180-200 injured near nuclear center",
+    "description": "Iran launched ballistic missiles with conventional warheads at Dimona and Arad in southern Israel, near the Shimon Peres Negev Nuclear Research Center. At least 2 missiles penetrated air defenses. 180-200 injured including a 12-year-old boy and 5-year-old girl in serious condition. 10+ apartment buildings damaged in Arad, 3 in danger of collapse. Mass casualty event declared at Soroka Hospital, Beersheba. IAEA: no abnormal radiation detected. Iran's Ghalibaf: 'If the Israeli regime is unable to intercept missiles in the heavily protected Dimona area, it is operationally a sign of entering a new phase of the battle.'",
+    "category": "military",
+    "source": "Times of Israel / Al Jazeera / Haaretz / Jerusalem Post / PBS/AP / CNN",
+    "data_point": "Dimona/Arad struck — 180-200 injured — air defenses failed — near nuclear center"
+  },
+  {
+    "date": "2026-03-21",
+    "time": "18:00",
+    "title": "Diego Garcia attacked by 2 Iranian IRBMs at 4,000 km range — both miss",
+    "description": "Iran fired 2 intermediate-range ballistic missiles (described by IDF as 'two-stage ICBM with range of 4,000 km,' possibly improvised Simorgh space launch rocket) at the US-UK military base on Diego Garcia. Both missed — one malfunctioned in flight, one intercepted. First attack on Diego Garcia in history. Demonstrates Iranian missile range of ~4,000 km — double the previously self-imposed 2,000 km limit. IDF Chief Zamir: 'Europe is within range.' UK approved US use of Diego Garcia and RAF Fairford for 'specific and limited defensive operations' against Iranian missile sites.",
+    "category": "military",
+    "source": "Bloomberg / CNN / Times of Israel / Euronews / CNBC / Fox News / WSJ",
+    "data_point": "First attack on Diego Garcia — 4,000 km range — Europe within reach — both missiles missed"
+  },
+  {
+    "date": "2026-03-20",
+    "time": "10:00",
+    "title": "Iraq declares force majeure on all foreign-operated oilfields",
+    "description": "Iraq declared force majeure on all foreign-operated oilfields. Basra production dropped from 3.3M bpd to 900K bpd. Iraq depends on crude sales for 90%+ of government income. Major blow to global oil supply as Iraq was the second-largest OPEC producer before the conflict.",
+    "category": "economic",
+    "source": "Reuters / Bloomberg / The National",
+    "data_point": "Iraq force majeure — Basra from 3.3M to 900K bpd — 90%+ of government income from oil"
+  },
+  {
+    "date": "2026-03-20",
+    "time": "16:00",
+    "title": "Treasury issues GL U — 30-day sanctions waiver on ~140M barrels of Iranian oil at sea",
+    "description": "US Treasury issued General License U — a 30-day sanctions waiver (effective through Apr 19) on approximately 140 million barrels of Iranian oil currently loaded on ships at sea. Allows any buyer except DPRK, Cuba, and Russian-occupied Ukraine. Treasury Secretary Bessent: 'Using the Iranian barrels against Tehran to keep the price down.' Analysts note 140M barrels = ~1.5 days of global consumption; impact 'likely short-lived.'",
+    "category": "economic",
+    "source": "US Treasury / Reuters / Bloomberg / CNBC",
+    "data_point": "GL U waiver — 140M barrels unsanctioned for 30 days — 'likely short-lived' impact"
+  },
+  {
+    "date": "2026-03-20",
+    "time": "14:00",
+    "title": "Trump: 'winding down' — followed 24 hours later by power plant ultimatum",
+    "description": "Trump posted on Truth Social: 'We are getting very close to meeting our objectives as we consider winding down our great Military efforts.' This conciliatory messaging lasted approximately 24 hours before being replaced by the 48-hour ultimatum to destroy Iran's power plants.",
+    "category": "diplomatic",
+    "source": "Truth Social / Reuters / AP",
+    "data_point": "'Winding down' rhetoric contradicted by 48-hour ultimatum next day"
+  },
+  {
+    "date": "2026-03-21",
+    "time": "19:44",
+    "title": "Trump 48-hour ultimatum: fully open Hormuz or power plants destroyed",
+    "description": "Trump posted on Truth Social at 7:44 PM ET: 'If Iran doesn't FULLY OPEN, WITHOUT THREAT, the Strait of Hormuz, within 48 HOURS... the United States of America will hit and obliterate their various POWER PLANTS, STARTING WITH THE BIGGEST ONE FIRST!' Deadline: March 23, 7:44 PM ET. Iran's largest power plants: Damavand (2,868 MW), Shahid Salimi (2,215 MW), Shahid Rajai (2,043 MW).",
+    "category": "diplomatic",
+    "source": "Truth Social / Reuters / AP / Bloomberg",
+    "data_point": "48-hour ultimatum — deadline Mar 23 7:44 PM ET — 'obliterate power plants'"
+  },
+  {
+    "date": "2026-03-22",
+    "time": "08:00",
+    "title": "Iran responds to ultimatum — threatens destruction of all regional energy infrastructure",
+    "description": "Iran's Parliament Speaker Ghalibaf threatened on X: 'Immediately after power plants and infrastructure in our country are targeted, vital infrastructure as well as energy and oil infrastructure across the entire region will be considered legitimate targets and will be irreversibly destroyed.' IRGC Khatam Al-Anbiya command warned all US energy, IT, and desalination infrastructure in region would be targeted. Iran also threatened permanent Hormuz closure.",
+    "category": "diplomatic",
+    "source": "Ghalibaf on X / IRGC / Al Jazeera / Reuters",
+    "data_point": "Iran threatens regional energy destruction if power plants hit — permanent Hormuz closure"
+  },
+  {
+    "date": "2026-03-22",
+    "time": "10:00",
+    "title": "CENTCOM Adm. Cooper video update — 8,000+ targets, 130 vessels, Iran declining",
+    "description": "CENTCOM Admiral Brad Cooper released video update: 8,000+ targets struck, 130 Iranian naval vessels destroyed, 8,000+ combat flights. 'Iran's combat capability is on the steady decline, as our offensive strikes ramp up.' Fighter jets used GBU-72 5,000-lb bunker-buster bombs to destroy underground coastal facility storing anti-ship cruise missiles, mobile launchers, plus 'intelligence support sites and missile radar relays.'",
+    "category": "military",
+    "source": "Al Jazeera / Stars and Stripes / The Hill (citing CENTCOM Adm. Cooper)",
+    "data_point": "8,000+ targets — 130 vessels — 8,000+ flights — Iran 'on steady decline'"
+  },
+  {
+    "date": "2026-03-22",
+    "time": "09:00",
+    "title": "IDF announces 'wave of extensive strikes' on Hezbollah in Lebanon",
+    "description": "IDF announced a new 'wave of extensive strikes' on Hezbollah in southern Lebanon and Dahiyeh (Beirut). Lebanese death toll at 1,001+ including 67 women and 111 children. 1M+ displaced (19% of population). 280+ Hezbollah attacks claimed with ~100 rockets/day into Israel.",
+    "category": "military",
+    "source": "IDF / Lebanon Health Ministry / OCHA",
+    "data_point": "IDF escalates Lebanon strikes — 1,001+ killed — 1M displaced — ~100 rockets/day"
+  },
+  {
+    "date": "2026-03-21",
+    "time": "12:00",
+    "title": "Iran FM Araghchi offers Japan safe passage through Hormuz — Japan declines",
+    "description": "Iranian Foreign Minister Araghchi offered Japan safe passage through the Strait of Hormuz in a Kyodo News interview. Japan declined the unilateral deal, maintaining coalition solidarity.",
+    "category": "diplomatic",
+    "source": "Kyodo News / Reuters",
+    "data_point": "Japan offered safe passage — declined unilateral deal"
+  },
+  {
+    "date": "2026-03-21",
+    "time": "20:00",
+    "title": "Houthis warn of response to Hormuz escalation",
+    "description": "Houthis warned they would respond to any escalation including efforts to reopen the Strait of Hormuz. Despite repeated threats, Houthis have NOT resumed Red Sea attacks — now Day 23 of 'strategic pause.' Declared 'Hour Zero' Mar 14 but no follow-through. Analysts baffled; possible deal with US/Saudis.",
+    "category": "military",
+    "source": "Al Jazeera / FDD / Reuters",
+    "data_point": "Houthis warn but still on sideline — 23 days without Red Sea ops"
+  },
+  {
+    "date": "2026-03-22",
+    "time": "06:00",
+    "title": "USS Tripoli ARG expected to arrive CENTCOM AOR",
+    "description": "USS Tripoli (LHA-7) Amphibious Ready Group with 31st MEU (~2,200 Marines) expected to arrive in CENTCOM area of operations. ETA window Mar 22-23. One source (GlobalSecurity.org) references Red Sea/northern Arabian Sea operations but USNI and CENTCOM have not confirmed arrival. Most significant force addition since war began — opens ground/amphibious options.",
+    "category": "military",
+    "source": "GlobalSecurity.org / USNI / Reuters",
+    "data_point": "Tripoli arrival imminent — 2,200 Marines — F-35Bs — amphibious capability"
+  },
+  {
+    "date": "2026-03-20",
+    "time": "17:00",
+    "title": "Markets: Brent $112.19 (+3.26%), S&P 6,506 new 2026 low, gas $3.93",
+    "description": "Friday March 20 close: Brent crude $112.19/bbl (+3.26%), WTI $98.32/bbl (+2.27%). RBOB gasoline futures +5.09% — 3.5-year high. S&P 500 at 6,506.48 (−1.51%), new 2026 low. Dow 45,577.47 (−0.96%). Nasdaq 21,647.61 (−2.01%). 3 consecutive weekly losses. National gas average $3.93/gal (AAA Mar 21). Goldman year-end target 7,600 (adverse: 6,300). JPMorgan cut to 7,200. Sunday Mar 22: no US trading.",
+    "category": "financial",
+    "source": "CNBC / Fortune / Bloomberg / Barchart / AAA via NBC News",
+    "data_point": "Brent $112.19 — S&P 6,506 new 2026 low — gas $3.93 — 3 weekly losses"
+  },
+  {
+    "date": "2026-03-18",
+    "time": "12:00",
+    "title": "Kirkuk-Ceyhan pipeline restarted at 250K bpd — first flow in decade",
+    "description": "The Kirkuk-Ceyhan oil pipeline restarted at 250,000 bpd, with potential for 450,000 bpd. First flow in over a decade following Baghdad-KRG agreement. Hydrostatic testing ongoing on 100km section. Represents only 6-13% of Iraq's pre-war Basra exports.",
+    "category": "economic",
+    "source": "The National / TRT World / Bloomberg",
+    "data_point": "Kirkuk-Ceyhan restarted — 250K bpd — first in decade"
   }
 ]

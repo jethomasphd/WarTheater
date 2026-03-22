@@ -4,7 +4,7 @@
     "count": "31+",
     "note": "Iran (31 major, 9 non-operational) + Lebanon",
     "source": "Iranian Deputy Health Min. / WHO / OCHA",
-    "detail": "31 major hospitals damaged in Iran, 9 rendered non-operational per Day 7 reports, 69+ schools damaged. WHO verified 13 attacks on healthcare infrastructure. 77 healthcare facilities affected per Red Crescent. 3+ facilities in south Lebanon degraded. 12 medical workers killed in strike on Hezbollah-run health center Day 22."
+    "detail": "31 major hospitals damaged in Iran, 9 rendered non-operational per Day 7 reports, 69+ schools damaged. WHO verified 18 attacks on healthcare in Iran (8 health worker deaths) and 25 attacks on healthcare in Lebanon (16 deaths, 29 injuries) as of Mar 11. 77 healthcare facilities affected per Red Crescent. 12 medical workers killed in strike on Hezbollah-run health center Day 22."
   },
   {
     "label": "Schools Destroyed",
@@ -30,9 +30,9 @@
   {
     "label": "Nuclear Facilities Struck",
     "count": "4+",
-    "note": "Fordow, Isfahan UCF, Natanz (2x), Bushehr perimeter",
+    "note": "Fordow, Isfahan UCF, Natanz (3x since Jun 2025), Bushehr perimeter",
     "source": "IAEA / DoD / IDF / satellite imagery",
-    "detail": "Fordow enrichment facility struck Day 1 with B-2/GBU-57 MOPs. Isfahan UCF struck Day 1. Natanz enrichment facility struck Day 22 (joint US-Israeli) — IAEA confirmed no radiation increase, DG Grossi called for 'military restraint to avoid any risk of nuclear accident.' Russia condemned. Israel denied responsibility. Second Natanz strike in Operation Epic Fury, third since June 2025 Operation Midnight Hammer. Bushehr NPP perimeter hit by projectile Day 19 — no damage to reactor, ~480 Russians on site."
+    "detail": "Fordow enrichment facility struck Day 1 with B-2/GBU-57 MOPs. Isfahan UCF struck Day 1. Natanz Shahid Ahmadi-Roshan Enrichment Complex struck Day 22 with bunker-buster bombs (likely GBU-57 MOPs and/or GBU-72). IAEA: no radiation increase. DG Grossi: 'military restraint to avoid nuclear accident.' Russia condemned. Israel denied involvement. Entrance buildings of underground Fuel Enrichment Plant damaged. Bulk of Iran's enriched uranium (~440 kg) believed at Isfahan, not Natanz. Third Natanz strike since June 2025. Bushehr NPP perimeter hit Day 19 — ~480 Russians on site."
   },
   {
     "label": "Airports Damaged",

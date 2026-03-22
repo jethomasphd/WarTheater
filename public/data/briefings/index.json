@@ -152,5 +152,12 @@
     "label": "MARCH 21, 2026 — DAY 22",
     "headline": "Iran fires IRBMs at Diego Garcia 2,500mi away; Natanz struck; Dimona hit as interceptors fail; 8,000+ targets; Goldman warns oil could exceed $147",
     "file": "data/briefings/day-22.html"
+  },
+  {
+    "day": 23,
+    "date": "2026-03-22",
+    "label": "MARCH 22, 2026 — DAY 23",
+    "headline": "Trump's 48-hour Hormuz ultimatum follows Natanz re-strike and Iranian missiles near Dimona; USS Tripoli nears theater",
+    "file": "data/briefings/day-23.html"
   }
 ]
