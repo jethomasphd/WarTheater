@@ -1,11 +1,11 @@
 {
   "conflicts": [
     {
-      "label": "Iran 2026 (Day 22)",
-      "targets_struck": 23000,
+      "label": "Iran 2026 (Day 23)",
+      "targets_struck": 24000,
       "us_kia": 13,
       "daily_cost_millions": 1000,
-      "note": "Operation Epic Fury — air + ground (Lebanon). 8,000+ US targets, 8,000+ sorties, ~23,000+ combined. 130 naval vessels destroyed — 'largest since WWII.' Natanz struck. Diego Garcia attacked 2,500mi away. ~$25.3B spent. 9+ senior officials killed. Goldman: oil could exceed $147. No ceasefire path."
+      "note": "Operation Epic Fury — air + ground (Lebanon). 8,000+ US targets, 8,000+ sorties, ~24,000+ combined. 130 naval vessels destroyed. Trump 48-hr ultimatum on power plants. Iran threatens regional energy destruction. ~$27.3B spent. Tripoli arriving. Brent $112.19. Iraq force majeure. No ceasefire path."
     },
     {
       "label": "Iraq 2003 (Day 21)",
@@ -30,5 +30,5 @@
     }
   ],
   "sources": "CRS Reports R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya). Costs inflation-adjusted to 2026 dollars using BLS CPI-U.",
-  "last_updated": "2026-03-21"
+  "last_updated": "2026-03-22"
 }

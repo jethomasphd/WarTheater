@@ -670,5 +670,37 @@
     "notes": "Day 22: Bahrain intercepted 2 more missiles. Cumulative since Feb 28: 143 missiles and 242 drones destroyed by Bahrain air defenses.",
     "verified": true,
     "last_updated": "2026-03-21"
+  },
+  {
+    "id": "dimona-arad-march21",
+    "city": "Dimona and Arad, Israel",
+    "lat": 31.07,
+    "lng": 35.21,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles with conventional warheads (hundreds of kg of explosives)",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-03-21",
+    "casualties_reported": "180-200 injured. Dimona: ~47 injured incl. 12-year-old boy (serious). Arad: ~84-116 injured incl. 5-year-old girl (serious), 10 serious, 19 moderate. Mass casualty event declared at Soroka Hospital, Beersheba. 8 killed per Greek City Times ONLY — UNVERIFIED.",
+    "casualties_source": "Times of Israel / Al Jazeera / Haaretz / Jerusalem Post / PBS/AP / CNN",
+    "active_days": [22],
+    "notes": "At least 2 missiles penetrated Israeli air defenses and struck near Shimon Peres Negev Nuclear Research Center. 10+ apartment buildings damaged in Arad, 3 in danger of collapse. Near-miss on Dimona nuclear research center. No abnormal radiation detected (IAEA). Retaliation for US bunker-buster strike on Natanz same day. Iran's Ghalibaf: 'If the Israeli regime is unable to intercept missiles in the heavily protected Dimona area, it is operationally a sign of entering a new phase of the battle.'",
+    "verified": true,
+    "last_updated": "2026-03-22"
+  },
+  {
+    "id": "diego-garcia-march21",
+    "city": "Diego Garcia, British Indian Ocean Territory",
+    "lat": -7.32,
+    "lng": 72.41,
+    "type": "iran_retaliation",
+    "weapon": "2 intermediate-range ballistic missiles (two-stage, ~4,000 km range; possibly improvised Simorgh space launch rocket)",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-03-21",
+    "casualties_reported": "No casualties. Both missiles missed — 1 malfunctioned in flight, 1 intercepted (Euronews citing British official).",
+    "casualties_source": "Bloomberg / CNN / Times of Israel / Euronews / CNBC / Fox News / WSJ",
+    "active_days": [22],
+    "notes": "First attack on Diego Garcia in history. Demonstrates Iranian missile range of ~4,000 km — double the previously self-imposed 2,000 km limit. IDF Chief Zamir: 'Europe is within range.' Raised alarm across European capitals. US-UK military base used for B-2 bomber staging and Tomahawk launches. UK approved US use of Diego Garcia and RAF Fairford for 'specific and limited defensive operations' against Iranian missile sites. UK MoD confirmed attack.",
+    "verified": true,
+    "last_updated": "2026-03-22"
   }
 ]
