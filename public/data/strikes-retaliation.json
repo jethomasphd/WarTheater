@@ -42,10 +42,10 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "8 total killed (2 armed forces, 6 foreign nationals). 131+ injured across UAE.",
     "casualties_source": "UAE MoD / Abu Dhabi Media Office / Xinhua / CNBC",
-    "active_days": [1, 2, 3, 4, 5, 6, 17, 18, 19, 20, 21, 22],
-    "notes": "Mar 21: UAE air defenses engaged 3 ballistic missiles and 8 UAVs. Cumulative since Feb 28: 341 ballistic missiles, 15 cruise missiles, and 1,748 UAVs intercepted.",
+    "active_days": [1, 2, 3, 4, 5, 6, 17, 18, 19, 20, 21, 22, 24],
+    "notes": "Mar 22-23: UAE intercepted 8+ UAVs and 3+ ballistic missiles. Cumulative damage includes hits on Al Dhafra AB, Dubai International Airport, Palm Jumeirah, Burj Al Arab, Jebel Ali Port. 8 people killed (2 military, 6 foreign national civilians). Habshan gas facilities shut down.",
     "verified": true,
-    "last_updated": "2026-03-21"
+    "last_updated": "2026-03-23"
   },
   {
     "id": "bahrain-nsab",
@@ -666,10 +666,10 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "No reported casualties from March 21 intercepts.",
     "casualties_source": "Bahrain Defence Force",
-    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
-    "notes": "Day 22: Bahrain intercepted 2 more missiles. Cumulative since Feb 28: 143 missiles and 242 drones destroyed by Bahrain air defenses.",
+    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24],
+    "notes": "Day 24 (Mar 23): Bahrain intercepted 32 drones and 2 ballistic missiles. Cumulative war total: 143 missiles and 242 drones intercepted. US Navy 5th Fleet HQ targeted multiple times.",
     "verified": true,
-    "last_updated": "2026-03-21"
+    "last_updated": "2026-03-23"
   },
   {
     "id": "dimona-arad-march21",
@@ -702,5 +702,85 @@
     "notes": "First attack on Diego Garcia in history. Demonstrates Iranian missile range of ~4,000 km — double the previously self-imposed 2,000 km limit. IDF Chief Zamir: 'Europe is within range.' Raised alarm across European capitals. US-UK military base used for B-2 bomber staging and Tomahawk launches. UK approved US use of Diego Garcia and RAF Fairford for 'specific and limited defensive operations' against Iranian missile sites. UK MoD confirmed attack.",
     "verified": true,
     "last_updated": "2026-03-22"
+  },
+  {
+    "id": "netanya-israel-march23",
+    "city": "Netanya, Israel",
+    "lat": 32.3215,
+    "lng": 34.8532,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles",
+    "origin": "Iran",
+    "first_strike": "2026-03-23",
+    "casualties_reported": "Unknown — rocket trails photographed over city",
+    "casualties_source": "Israeli media / Reuters",
+    "active_days": [24],
+    "notes": "Day 24 (Mar 23): Fresh Iranian missile barrage struck over the Israeli coastal city of Netanya on Monday. Rocket trails photographed. Iranian strikes continued against Israel throughout the day despite Trump's announcement of 5-day power plant pause and claims of 'productive conversations.'",
+    "verified": true,
+    "last_updated": "2026-03-23"
+  },
+  {
+    "id": "saudi-intercepts-march23",
+    "city": "Riyadh, Saudi Arabia",
+    "lat": 24.7136,
+    "lng": 46.6753,
+    "type": "iran_retaliation",
+    "weapon": "3 ballistic missiles + multiple drones",
+    "origin": "Iran",
+    "first_strike": "2026-03-22",
+    "casualties_reported": "Intercepted. Saudi expelled Iran's military attach&eacute; and 4 embassy staff within 24 hours.",
+    "casualties_source": "Saudi MoD / Reuters",
+    "active_days": [23, 24],
+    "notes": "Day 23-24 (Mar 22-23): Saudi Arabia intercepted 3 ballistic missiles aimed at Riyadh plus multiple drones. In response, Saudi Arabia expelled Iran's military attach&eacute; and 4 embassy staff within 24 hours, citing 'flagrant violation' of international conventions.",
+    "verified": true,
+    "last_updated": "2026-03-23"
+  },
+  {
+    "id": "kuwait-intercepts-march23",
+    "city": "Kuwait",
+    "lat": 29.3759,
+    "lng": 47.9774,
+    "type": "iran_retaliation",
+    "weapon": "9 ballistic missiles",
+    "origin": "Iran",
+    "first_strike": "2026-03-22",
+    "casualties_reported": "Cumulative: 6 US soldiers killed at Port Shuaiba, 2 Kuwaiti Navy servicemen killed, 67 army servicemen wounded.",
+    "casualties_source": "Kuwaiti MoD / CENTCOM",
+    "active_days": [23, 24],
+    "notes": "Day 23-24 (Mar 22-23): 9 ballistic missiles shot down over Kuwait in 24-hour period. Mina al-Ahmadi refinery (346,000 bpd) hit by drone March 20. Cumulative war toll: 6 US soldiers killed, 2 Kuwaiti Navy servicemen killed, 67 Kuwaiti army servicemen wounded.",
+    "verified": true,
+    "last_updated": "2026-03-23"
+  },
+  {
+    "id": "qatar-helicopter-crash",
+    "city": "Qatar",
+    "lat": 25.2854,
+    "lng": 51.5310,
+    "type": "operational_loss",
+    "weapon": "Helicopter crash during routine duty",
+    "origin": "N/A — operational accident",
+    "first_strike": "2026-03-23",
+    "casualties_reported": "7 killed (4 Qatari + 3 Turkish military)",
+    "casualties_source": "Qatar MoD / Turkish MoD / Reuters",
+    "active_days": [24],
+    "notes": "Day 24 (Mar 23): 7 killed in helicopter crash during routine duty — 4 Qatari and 3 Turkish military personnel. Separately, Ras Laffan LNG damage confirmed: 2 production trains knocked out — 12.8 MTPA lost (17% of Qatar's LNG exports), repair timeline 3-5 years, revenue loss ~$20B/year. QatarEnergy declared force majeure on entire LNG output.",
+    "verified": true,
+    "last_updated": "2026-03-23"
+  },
+  {
+    "id": "hezbollah-kiryat-shmona-march23",
+    "city": "Kiryat Shmona, Israel",
+    "lat": 33.2072,
+    "lng": 35.5706,
+    "type": "hezbollah_front",
+    "weapon": "Missiles",
+    "origin": "Hezbollah / Lebanon",
+    "first_strike": "2026-03-23",
+    "casualties_reported": "One person moderately-to-severely wounded",
+    "casualties_source": "IDF / Israeli media",
+    "active_days": [24],
+    "notes": "Day 24 (Mar 23): Hezbollah launched missiles at northern Israel; one person in Kiryat Shmona moderately-to-severely wounded. IDF struck a Quds Force affiliate in Beirut in response. An Israeli civilian killed near the Lebanon border on March 22 may have been hit by Israeli artillery fire, not Hezbollah — IDF investigating.",
+    "verified": true,
+    "last_updated": "2026-03-23"
   }
 ]

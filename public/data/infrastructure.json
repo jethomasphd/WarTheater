@@ -22,10 +22,10 @@
   },
   {
     "label": "Oil/Gas Facilities Hit",
-    "count": "6+",
-    "note": "Kharg, Abadan, South Pars + Ras Laffan (Qatar) + SAMREF (Saudi) + Kuwait refineries",
-    "source": "DoD / Bloomberg / QatarEnergy / Reuters / satellite imagery",
-    "detail": "Iran's energy infrastructure: Kharg Island terminal destroyed. South Pars gas field Phases 3/4/5/6 struck Mar 18 — 730M cm\u00b3/day field offline. Ras Laffan LNG Trains 4+6 damaged (12.8 MTPA, 3-5yr repair, $20B/yr loss). Pearl GTL offline 1+ year. SAMREF refinery at Yanbu struck. Kuwait's Mina al-Ahmadi (2 drone waves Mar 19-20) and Mina Abdullah struck. Haifa BAZAN refinery struck. Bahrain Bapco Sitra under force majeure. Ruwais (UAE, 922k bpd) remains shut. Panama Canal at max capacity (36-38/day) due to LNG rerouting."
+    "count": "44+",
+    "note": "IEA: 44+ energy assets severely damaged across 9 countries — worst since combined 1973 + 1979 oil shocks",
+    "source": "IEA / DoD / Bloomberg / QatarEnergy / Reuters / satellite imagery",
+    "detail": "IEA (Mar 23): At least 44 energy assets severely damaged across 9 countries — 'very severe, worse than the combined 1973 and 1979 oil shocks.' IEA released record 400M barrels from strategic stockpiles (US: 172M from SPR). Iraq declared force majeure on all foreign-operated oilfields (production collapsed from 4.2M to ~1.2-1.4M bpd). Combined Gulf production cuts exceed 10M bpd (JPMorgan). Iran: Kharg destroyed, South Pars Phases 3/4/5/6 struck. Qatar: Ras Laffan 12.8 MTPA lost (17% of LNG exports, 3-5yr repair). SAMREF (Saudi) struck. Kuwait: Mina al-Ahmadi hit. Haifa BAZAN refinery. Bahrain Bapco under force majeure. Iran sanctions lifted on ~140M barrels at sea (30 days). Jones Act waived 60 days."
   },
   {
     "label": "Nuclear Facilities Struck",
@@ -43,9 +43,9 @@
   },
   {
     "label": "Bridges Destroyed",
-    "count": "8+",
-    "note": "Western Iran",
-    "source": "Satellite imagery",
-    "detail": "Road and rail bridges in Kermanshah, Lorestan, and Khuzestan provinces destroyed to degrade IRGC logistics and prevent resupply to missile launch sites."
+    "count": "11+",
+    "note": "Western Iran + 3 Litani River bridges in Lebanon",
+    "source": "Satellite imagery / IDF / Lebanese media",
+    "detail": "Iran: Road and rail bridges in Kermanshah, Lorestan, and Khuzestan provinces destroyed to degrade IRGC logistics. Lebanon: IDF struck Qasmiyeh Bridge over Litani River Mar 22 — Lebanese President Aoun called it 'prelude to ground invasion.' Two additional Litani crossings destroyed Mar 23, systematically severing southern Lebanon from rest of country. Defense Minister Katz ordered demolition of border villages using 'Beit Hanoun and Rafah models.'"
   }
 ]

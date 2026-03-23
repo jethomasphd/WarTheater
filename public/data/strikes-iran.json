@@ -4,16 +4,16 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-03-22",
+    "last_updated": "2026-03-23",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "~24,000+ (CENTCOM Mar 22: 8,000+ US targets, 8,000+ combat sorties, 130 Iranian naval vessels destroyed. Iranian missile/drone launch rate down 90%. Combined US/Israeli extrapolated ~24,000+ through Day 23)",
+    "total_targets_struck": "~25,000+ (CENTCOM Mar 23: 8,000+ US targets, 8,000+ combat sorties, 130+ Iranian naval vessels destroyed. Ballistic missile fire down 90%, drones down 83%. Combined US/Israeli extrapolated ~25,000+ through Day 24)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
-      "killed": "1,444+",
+      "killed": "1,500+",
       "injured": "18,551+",
-      "military_killed_hengaw": "4,789+",
-      "sources": "Iran Health Ministry via Al Jazeera / Hengaw / HRANA / ACLED",
-      "as_of": "2026-03-22"
+      "military_killed_hengaw": "5,305+",
+      "sources": "Iran Health Ministry / Hengaw / HRANA / ACLED / AP",
+      "as_of": "2026-03-23"
     },
     "civilian_buildings_affected": "~20,000 (including 16,000 residential units) per Iranian Red Crescent as of Day 11",
     "healthcare_facilities_affected": "77 per Red Crescent; 31 major hospitals damaged, 12 inactive per Deputy Health Minister; WHO verified 13 attacks on healthcare",
@@ -38,8 +38,8 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown — heavy",
     "casualties_source": "ACLED / Iranian state media",
-    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
-    "notes": "Continuous bombardment since Day 1. Supreme Leader Khamenei killed in initial strike on Leadership House compound along with his daughter, son-in-law, grandchild, and daughter-in-law Zahra Haddad-Adel. Defense Minister Aziz Nasirzadeh, IRGC commander Mohammad Pakpour, chief of staff Abdolrahim Mousavi, Ali Shamkhani, and multiple other senior officials also killed. Mojtaba Khamenei (son) injured but survived; named new Supreme Leader on Mar 8 (Day 9). Day 11 (Mar 10): 40+ killed in Resalat Square residential area strike in eastern Tehran (see tehran-east-residential). Day 12: IDF destroys IRGC Air Force HQ (see tehran-irgc-af-hq). 460+ killed and 4,300+ wounded in Tehran alone as of Day 11 per Tehran Emergency Health Department. Days 20-21: Ali Mohammad Naini (IRGC spokesperson) killed in IAF airstrike overnight Mar 19-20. Strikes continue across Tehran. Mojtaba Khamenei issued written Nowruz statement — still no video or audio. Day 22: Continued strikes on Tehran military and government infrastructure."
+    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24],
+    "notes": "Continuous bombardment since Day 1. Supreme Leader Khamenei killed in initial strike on Leadership House compound along with his daughter, son-in-law, grandchild, and daughter-in-law Zahra Haddad-Adel. Defense Minister Aziz Nasirzadeh, IRGC commander Mohammad Pakpour, chief of staff Abdolrahim Mousavi, Ali Shamkhani, and multiple other senior officials also killed. Mojtaba Khamenei (son) injured but survived; named new Supreme Leader on Mar 8 (Day 9). Day 11 (Mar 10): 40+ killed in Resalat Square residential area strike in eastern Tehran (see tehran-east-residential). Day 12: IDF destroys IRGC Air Force HQ (see tehran-irgc-af-hq). 460+ killed and 4,300+ wounded in Tehran alone as of Day 11 per Tehran Emergency Health Department. Days 20-21: Ali Mohammad Naini (IRGC spokesperson) killed in IAF airstrike overnight Mar 19-20. Day 22: Continued strikes on Tehran military and government infrastructure. Day 24 (Mar 23): IDF launched 'broad wave of attacks' on Tehran early Monday, targeting 'terror regime targets' in 'the heart of Tehran.' Iranian state media reported airstrikes across multiple areas of the capital. Strikes continued despite Trump's 5-day power plant pause."
   },
   {
     "id": "isfahan-nuclear",
@@ -92,8 +92,8 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "DoD / ACLED",
-    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
-    "notes": "Key Strait of Hormuz control point. Continuous strikes to suppress coastal batteries. Day 14: Continued strikes on remaining coastal defense positions as part of Strait of Hormuz suppression campaign. CENTCOM reported that within 48 hours of war start, all 11 Iranian warships in the Gulf of Oman had been denied presence. Three commercial ships struck by suspected Iranian projectiles in the strait on March 11. Day 23: Aerial campaign continues (Day 4) with A-10 Warthogs and Apache helicopters."
+    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+    "notes": "Key Strait of Hormuz control point. Continuous strikes to suppress coastal batteries. Day 14: Continued strikes on remaining coastal defense positions as part of Strait of Hormuz suppression campaign. CENTCOM reported that within 48 hours of war start, all 11 Iranian warships in the Gulf of Oman had been denied presence. Three commercial ships struck by suspected Iranian projectiles in the strait on March 11. Day 23: Aerial campaign continues (Day 4) with A-10 Warthogs and Apache helicopters. Day 24 (Mar 23): One person killed and one wounded in Bandar Abbas from attack targeting Persian Gulf Broadcasting Center radio transmitter."
   },
   {
     "id": "shiraz-airbase",
@@ -789,5 +789,37 @@
     "casualties_source": "CENTCOM",
     "active_days": [20],
     "notes": "US Army executed what CENTCOM called the 'longest field artillery strike in Army combat history' on March 19, using precision strike missiles against Iranian military infrastructure. First operational combat use of this capability at extreme range."
+  },
+  {
+    "id": "urmia-residential-march23",
+    "city": "Urmia",
+    "lat": 37.5527,
+    "lng": 45.0761,
+    "type": "us_strike",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Residential area in Urmia"
+    ],
+    "first_strike": "2026-03-23",
+    "casualties_reported": "Unknown — Iranian Red Crescent responding",
+    "casualties_source": "Iranian state media / Red Crescent",
+    "active_days": [24],
+    "notes": "Day 24 (Mar 23): Iranian Red Crescent responded to strikes on a residential area in Urmia, northwest Iran. First reported strike on Urmia — extends campaign to West Azerbaijan province."
+  },
+  {
+    "id": "khorramabad-residential-march23",
+    "city": "Khorramabad",
+    "lat": 33.4878,
+    "lng": 48.3558,
+    "type": "us_strike",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Residential area in Khorramabad"
+    ],
+    "first_strike": "2026-03-23",
+    "casualties_reported": "Several killed and wounded",
+    "casualties_source": "Fars News Agency",
+    "active_days": [24],
+    "notes": "Day 24 (Mar 23): Fars news agency reported strikes in a residential area of Khorramabad killed and wounded several people. Khorramabad is the capital of Lorestan province in western Iran."
   }
 ]
