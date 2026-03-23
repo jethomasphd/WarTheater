@@ -1771,5 +1771,95 @@
     "category": "economic",
     "source": "The National / TRT World / Bloomberg",
     "data_point": "Kirkuk-Ceyhan restarted — 250K bpd — first in decade"
+  },
+  {
+    "date": "2026-03-23",
+    "time": "07:00",
+    "title": "Trump postpones power plant strikes for 5 days — claims 'productive conversations' with Iran",
+    "description": "Trump posted on Truth Social in ALL CAPS that he had 'INSTRUCTED THE DEPARTMENT OF WAR TO POSTPONE ANY AND ALL MILITARY STRIKES AGAINST IRANIAN POWER PLANTS AND ENERGY INFRASTRUCTURE FOR A FIVE DAY PERIOD.' Claimed '15 points of agreement' with Iran. Said Kushner and Witkoff held talks Sunday evening with 'a top person' in Iran. New deadline approximately March 28.",
+    "category": "diplomatic",
+    "source": "Truth Social / CNBC / Fox Business / Reuters",
+    "data_point": "5-day power plant pause — new deadline ~Mar 28 — '15 points of agreement' claimed"
+  },
+  {
+    "date": "2026-03-23",
+    "time": "08:00",
+    "title": "Iran categorically denies any dialogue with Washington",
+    "description": "Iran's Foreign Ministry stated: 'There is no dialogue between Tehran and Washington.' IRIB: 'U.S. president backs down following Iran's firm warning.' IRGC-affiliated Tasnim: 'No negotiations have taken place.' Iran characterized postponement as Trump attempting to reduce energy prices and buy time. The actual channel: indirect messages passed via Oman, Turkey, Egypt, and Pakistan, with Parliament Speaker Ghalibaf as key interlocutor.",
+    "category": "diplomatic",
+    "source": "Iran FM / IRIB / Tasnim / Fars / Axios / JPost",
+    "data_point": "Iran denies talks — intermediaries: Oman, Turkey, Egypt, Pakistan — Ghalibaf key interlocutor"
+  },
+  {
+    "date": "2026-03-23",
+    "time": "04:00",
+    "title": "IDF launches 'broad wave of attacks' on Tehran",
+    "description": "The IDF launched a 'broad wave of attacks' on Tehran early Monday, targeting 'terror regime targets' in 'the heart of Tehran.' Iranian state media reported airstrikes across multiple areas of the capital. Strikes continued despite Trump's diplomatic signals.",
+    "category": "military",
+    "source": "IDF / Iranian state media / Al Jazeera",
+    "data_point": "IDF strikes Tehran despite diplomatic pause — 'broad wave'"
+  },
+  {
+    "date": "2026-03-23",
+    "time": "10:00",
+    "title": "Iranian missiles strike over Netanya, Israel — strikes continue both sides",
+    "description": "A fresh Iranian missile barrage struck over the Israeli coastal city of Netanya on Monday. Rocket trails photographed. Iranian strikes continued throughout the day. Separately, Hezbollah launched missiles at northern Israel — one person moderately-to-severely wounded in Kiryat Shmona. IDF struck a Quds Force affiliate in Beirut.",
+    "category": "military",
+    "source": "Israeli media / Reuters / IDF",
+    "data_point": "Netanya struck — Kiryat Shmona casualty — war continues despite diplomatic signals"
+  },
+  {
+    "date": "2026-03-23",
+    "time": "09:30",
+    "title": "Markets whipsaw: Brent crashes 13.6% then recovers; Dow surges 960 pts",
+    "description": "Brent crude crashed from $112.19 to intraday low of $96.91 (-13.6%) on Trump's postponement, then recovered to settle ~$104. WTI crashed to $85.66. S&P 500 surged ~1.7-2.2% to ~6,628. Dow +960 pts. Gold crashed 6.3% to $4,285.70. Asian markets crashed overnight (Nikkei -3.5%, Kospi -6.5%). Defense stocks fell on de-escalation hopes (LMT -1.58%, RTX -1.28%).",
+    "category": "financial",
+    "source": "CNBC / Reuters / Bloomberg",
+    "data_point": "Brent -13.6% intraday then recovers — S&P +1.7% — Dow +960 — gold -6.3% — largest oil swing of war"
+  },
+  {
+    "date": "2026-03-23",
+    "time": "12:00",
+    "title": "USS Ford arrives Souda Bay, Crete for emergency repairs — Lincoln sole carrier",
+    "description": "USS Gerald R. Ford (CVN-78) arrived at Naval Support Activity Souda Bay, Crete for emergency pierside repairs following non-combat fire Mar 12. Two sailors injured, 200+ treated for smoke inhalation, 600+ lost berthing. Expected stay at least 1 week. Deployed since June 24, 2025 (~9 months). USS Abraham Lincoln remains sole operational carrier in direct theater.",
+    "category": "military",
+    "source": "USNI News / Navy Times / Reuters",
+    "data_point": "Ford at Souda Bay — Lincoln sole carrier — Tripoli ETA Mar 25-30"
+  },
+  {
+    "date": "2026-03-23",
+    "time": "11:00",
+    "title": "IEA: worst supply disruption since combined 1973 and 1979 oil shocks",
+    "description": "IEA Executive Director Fatih Birol called the crisis 'very severe — worse than the combined 1973 and 1979 oil shocks.' At least 44 energy assets severely damaged across 9 countries. IEA released record 400M barrels from strategic stockpiles. Combined Gulf production cuts exceed 10M bpd. Birol: 'The single most important solution is opening up the Hormuz trade.'",
+    "category": "economic",
+    "source": "IEA / CNBC / Reuters",
+    "data_point": "IEA: 44+ energy assets damaged, 9 countries — worst since 1973+1979 — 400M bbl released"
+  },
+  {
+    "date": "2026-03-23",
+    "time": "06:00",
+    "title": "Saudi Arabia expels Iranian military attach\u00e9 — Gulf states intercept fresh barrages",
+    "description": "Saudi Arabia intercepted 3 ballistic missiles aimed at Riyadh plus multiple drones, then expelled Iran's military attach\u00e9 and 4 embassy staff within 24 hours. Bahrain intercepted 32 drones and 2 ballistic missiles. Kuwait intercepted 9 ballistic missiles in 24 hours. UAE intercepted 8+ UAVs and 3+ ballistic missiles.",
+    "category": "military",
+    "source": "Saudi MoD / Bahrain DF / Kuwaiti MoD / UAE MoD / Reuters",
+    "data_point": "Saudi expels attach\u00e9 — Bahrain: 32 drones + 2 missiles — Kuwait: 9 missiles — bombardment continues"
+  },
+  {
+    "date": "2026-03-23",
+    "time": "13:00",
+    "title": "AAA: gas hits $3.96 — 23rd consecutive daily increase — highest since Aug 2022",
+    "description": "National average gas price hit $3.96/gal — the 23rd consecutive daily increase and highest since August 2022. Up ~$1.00/gal from a month ago. California at $5.53+/gal. Wholesale gasoline futures fell 8.5-9% on Monday's oil plunge, but retail prices lag wholesale by several days. Goldman Sachs raised Brent avg forecast to $110 for March-April.",
+    "category": "economic",
+    "source": "AAA / CNBC / Goldman Sachs",
+    "data_point": "Gas $3.96 — 23rd daily increase — CA $5.53+ — wholesale futures down 9% but retail lags"
+  },
+  {
+    "date": "2026-03-23",
+    "time": "14:00",
+    "title": "HRW: IDF operations in Lebanon constitute war crimes — 3 Litani bridges destroyed",
+    "description": "Human Rights Watch issued report stating IDF operations in Lebanon constitute war crimes: forcible displacement, wanton destruction, and attacks targeting civilians. 1,029+ killed, 1M+ displaced, 31 healthcare workers killed. IDF destroyed 3 Litani River bridges, severing southern Lebanon. Defense Minister Katz ordered demolition of border villages. Finance Minister Smotrich called for Litani as new border.",
+    "category": "military",
+    "source": "HRW / Lebanese media / IDF / Reuters",
+    "data_point": "HRW: war crimes in Lebanon — 1,029+ killed — 3 Litani bridges destroyed — potential ground invasion"
   }
 ]

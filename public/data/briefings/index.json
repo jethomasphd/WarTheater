@@ -159,5 +159,12 @@
     "label": "MARCH 22, 2026 — DAY 23",
     "headline": "Trump's 48-hour Hormuz ultimatum follows Natanz re-strike and Iranian missiles near Dimona; USS Tripoli nears theater",
     "file": "data/briefings/day-23.html"
+  },
+  {
+    "day": 24,
+    "date": "2026-03-23",
+    "label": "MARCH 23, 2026 — DAY 24",
+    "headline": "Trump postpones power plant strikes 5 days claiming Iran talks — Tehran denies; Brent crashes 13.6% then recovers; IDF strikes Tehran; 3 Litani bridges destroyed",
+    "file": "data/briefings/day-24.html"
   }
 ]

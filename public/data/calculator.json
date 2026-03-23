@@ -1,10 +1,10 @@
 {
   "pre_war_gas": 2.98,
-  "current_gas": 3.93,
-  "war_increase": 0.95,
+  "current_gas": 3.96,
+  "war_increase": 0.98,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
-    { "code": "CA", "label": "California", "premium": 1.15 },
+    { "code": "CA", "label": "California", "premium": 1.57 },
     { "code": "TX", "label": "Texas", "premium": -0.12 },
     { "code": "FL", "label": "Florida", "premium": 0.08 },
     { "code": "NY", "label": "New York", "premium": 0.52 },
@@ -22,5 +22,5 @@
   ],
   "default_state": "TX",
   "source": "AAA state averages",
-  "last_updated": "2026-03-22"
+  "last_updated": "2026-03-23"
 }
