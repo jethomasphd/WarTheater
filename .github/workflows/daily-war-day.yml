@@ -1,0 +1,51 @@
+name: Daily War Day Calculation
+
+on:
+  schedule:
+    # 3:30 AM Central Time (CDT = UTC-5, CST = UTC-6)
+    # Using 8:30 AM UTC for CDT (summer) — adjust to 9:30 AM UTC for CST (winter)
+    - cron: '30 8 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  war-day:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Calculate war day
+        id: calc
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          WAR_DAY=$(./scripts/war-day.sh "$TODAY")
+          echo "date=$TODAY" >> "$GITHUB_OUTPUT"
+          echo "war_day=$WAR_DAY" >> "$GITHUB_OUTPUT"
+          echo "Date: $TODAY | War Day: $WAR_DAY"
+
+      - name: Write war-day.json
+        run: |
+          cat > public/data/war-day.json <<EOF
+          {
+            "war_day": ${{ steps.calc.outputs.war_day }},
+            "date": "${{ steps.calc.outputs.date }}",
+            "label": "DAY ${{ steps.calc.outputs.war_day }}",
+            "start_date": "2026-02-28"
+          }
+          EOF
+          # Normalize formatting
+          python3 -m json.tool public/data/war-day.json > /tmp/war-day-fmt.json
+          mv /tmp/war-day-fmt.json public/data/war-day.json
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/war-day.json
+          # Only commit if there are changes
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "war day: Day ${{ steps.calc.outputs.war_day }} — ${{ steps.calc.outputs.date }}"
+          git push
