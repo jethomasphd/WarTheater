@@ -279,6 +279,25 @@ h4 { font-size: var(--text-lg); }
   border-bottom-color: var(--text-accent);
 }
 
+.panel-nav-link {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding: var(--space-sm) var(--space-md);
+  white-space: nowrap;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.panel-nav-link:hover {
+  color: var(--text-accent);
+  border-bottom-color: var(--text-accent);
+}
+
 /* === MAIN CONTENT === */
 .main-content {
   margin-top: 120px;

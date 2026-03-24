@@ -1,3 +1,7 @@
 # Cloudflare Pages Redirects
-# SPA fallback
+
+# Blueprint direct access (case-insensitive friendly)
+/blueprint  /Blueprint.html  200
+
+# SPA fallback (must be last)
 /*  /index.html  200

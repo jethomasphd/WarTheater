@@ -310,6 +310,22 @@ WarTheater/
 
 ---
 
+## Version 2: Join the Mission
+
+Version 1 is live and operational — a single-researcher intelligence system powered by frontier AI. But the architecture has hard ceilings: one analyst's throughput, one analytical thread, no multilingual coverage, no structural disagreement detection.
+
+**Version 2 — "Corpus of War" — is a blueprint for what comes next:** a corpus-grounded, multi-model intelligence fusion engine that replaces model knowledge with verified evidence and uses competitive analysis across multiple AI systems to surface ambiguity rather than hide it.
+
+We don't need more engineers. We need the people whose knowledge makes the numbers mean something: **historians, conflict researchers, public health workers, veterans, economists, Farsi and Arabic speakers, clinicians, community organizers** — anyone with domain expertise the machines don't have.
+
+Read the full blueprint: [iranwar.ai/Blueprint](https://iranwar.ai/Blueprint)
+
+No credentials required. No security clearance. No technical prerequisites. Every pair of eyes on this project is a small act of resistance against the strategy of overwhelm.
+
+**Contact:** [JEThomasPhD@gmail.com](mailto:JEThomasPhD@gmail.com) — or find Jacob E. Thomas, PhD on LinkedIn.
+
+---
+
 ## Contributing
 
 This is an open project. If you find an error, fix it. If you have better data, submit it.
