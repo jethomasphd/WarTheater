@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>IranWar.ai — Corpus of War Blueprint</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=IBM+Plex+Mono:wght@300;400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#030303;--bg2:#0a0908;--bg3:#12110f;
+  --gold:#c9a227;--gold-d:#8a6e1a;--gold-dd:#5a4711;--gold-f:rgba(201,162,39,.06);
+  --tp:#e8e6df;--ts:#9c9a92;--tt:#6b6a64;--ttt:#4a4944;
+  --red:#c0392b;--blu:#5b9bd5;--grn:#27ae60;--org:#e67e22;
+  --bdr:rgba(201,162,39,.08);
+  --sf:'Cormorant Garamond',Georgia,serif;
+  --mn:'IBM Plex Mono',monospace;
+  --sn:'IBM Plex Sans',sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{font-size:16px;scroll-behavior:smooth}
+body{background:var(--bg);color:var(--tp);font-family:var(--sn);font-weight:300;line-height:1.8;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+
+/* ── SCROLL REVEAL SYSTEM ── */
+.r{opacity:0;transform:translateY(40px);transition:opacity .9s cubic-bezier(.16,1,.3,1),transform .9s cubic-bezier(.16,1,.3,1)}
+.r.v{opacity:1;transform:translateY(0)}
+.r-d1{transition-delay:.1s}.r-d2{transition-delay:.2s}.r-d3{transition-delay:.3s}.r-d4{transition-delay:.4s}.r-d5{transition-delay:.5s}.r-d6{transition-delay:.6s}.r-d7{transition-delay:.7s}.r-d8{transition-delay:.8s}
+.r-up{transform:translateY(60px)}
+.r-left{opacity:0;transform:translateX(-40px);transition:opacity .9s cubic-bezier(.16,1,.3,1),transform .9s cubic-bezier(.16,1,.3,1)}
+.r-left.v{opacity:1;transform:translateX(0)}
+.r-right{opacity:0;transform:translateX(40px);transition:opacity .9s cubic-bezier(.16,1,.3,1),transform .9s cubic-bezier(.16,1,.3,1)}
+.r-right.v{opacity:1;transform:translateX(0)}
+.r-scale{opacity:0;transform:scale(.92);transition:opacity 1s cubic-bezier(.16,1,.3,1),transform 1s cubic-bezier(.16,1,.3,1)}
+.r-scale.v{opacity:1;transform:scale(1)}
+
+/* ── BANNER ── */
+.clf{background:var(--red);color:#fff;text-align:center;font-family:var(--mn);font-size:.62rem;font-weight:500;letter-spacing:.3em;text-transform:uppercase;padding:5px 0;position:fixed;top:0;left:0;right:0;z-index:100}
+
+/* ── LAYOUT ── */
+.wrap{max-width:720px;margin:0 auto;padding:0 1.5rem}
+.wrap-w{max-width:900px;margin:0 auto;padding:0 1.5rem}
+.sec{padding:6rem 0;position:relative}
+.sec-l{padding:10rem 0}
+
+/* ── TYPOGRAPHY ── */
+.tag{font-family:var(--mn);font-size:.6rem;font-weight:500;letter-spacing:.25em;text-transform:uppercase;color:var(--gold-d)}
+h2{font-family:var(--sf);font-size:clamp(1.8rem,5vw,2.8rem);font-weight:700;color:var(--tp);line-height:1.15;margin-bottom:1.5rem}
+h2 em{color:var(--gold);font-style:normal}
+h3{font-family:var(--sn);font-size:.95rem;font-weight:500;color:var(--gold);margin-bottom:.75rem;margin-top:2.5rem;letter-spacing:.02em}
+p{margin-bottom:1.25rem;color:var(--ts);font-size:.95rem}
+p strong{color:var(--tp);font-weight:500}
+
+/* ── PROSE (cinematic narrative) ── */
+.prose{font-family:var(--sf);font-size:clamp(1.05rem,2.5vw,1.25rem);color:var(--ts);line-height:1.75;margin-bottom:1.5rem}
+.prose strong{color:var(--tp);font-weight:600}
+.prose em{color:var(--tp)}
+
+/* ── HERO ── */
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:6rem 0 4rem;position:relative}
+.hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:200px;background:linear-gradient(transparent,var(--bg));pointer-events:none}
+.hero .tag{margin-bottom:2rem}
+.hero h1{font-family:var(--sf);font-size:clamp(2.5rem,8vw,4.5rem);font-weight:700;color:var(--tp);line-height:1.05;margin-bottom:1rem}
+.hero h1 em{color:var(--gold);font-style:normal}
+.hero-sub{font-family:var(--sf);font-size:clamp(1rem,2.5vw,1.35rem);font-weight:300;font-style:italic;color:var(--ts);max-width:580px;line-height:1.6;margin-bottom:3rem}
+.hero-meta{display:flex;flex-wrap:wrap;gap:.75rem;font-family:var(--mn);font-size:.65rem}
+.vb{display:inline-block;padding:4px 12px;border-radius:3px;letter-spacing:.1em;text-transform:uppercase;font-weight:500}
+.vb-1{background:rgba(91,155,213,.12);color:var(--blu);border:1px solid rgba(91,155,213,.25)}
+.vb-2{background:rgba(201,162,39,.12);color:var(--gold);border:1px solid rgba(201,162,39,.25)}
+.vb-3{background:rgba(192,57,43,.12);color:#e74c3c;border:1px solid rgba(192,57,43,.25)}
+
+/* ── CALLOUT ── */
+.co{border-left:2px solid var(--gold);padding:1.5rem 2rem;margin:2.5rem 0;background:var(--gold-f)}
+.co p{font-family:var(--sf);font-size:1.15rem;font-style:italic;color:var(--tp);margin:0;line-height:1.6}
+.co-r{border-left-color:var(--red);background:rgba(192,57,43,.06)}
+
+/* ── DIVIDER ── */
+.div-line{width:60px;height:1px;background:var(--gold-dd);margin:3rem auto}
+.div-dot{text-align:center;color:var(--gold-dd);font-family:var(--mn);font-size:.7rem;letter-spacing:.4em;margin:3rem 0}
+
+/* ── VIGNETTE CARDS ── */
+.vig{background:var(--bg2);border:1px solid var(--bdr);border-radius:4px;padding:2rem;margin-bottom:1.5rem}
+.vig-loc{font-family:var(--mn);font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-d);margin-bottom:1rem}
+.vig p{font-family:var(--sf);font-size:1.05rem;color:var(--ts);margin:0;line-height:1.7}
+
+/* ── DIAGRAM CONTAINERS ── */
+.dia{margin:2.5rem 0;padding:1.5rem 1rem;background:var(--bg2);border:1px solid var(--bdr);border-radius:4px;overflow-x:auto}
+.dia-l{font-family:var(--mn);font-size:.58rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gold-dd);margin-bottom:1rem;padding-left:.25rem}
+.dia svg{width:100%;height:auto;display:block}
+
+/* ── STAT ROW ── */
+.stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:2rem 0}
+.stat{text-align:center;padding:1.5rem 1rem;background:var(--bg2);border:1px solid var(--bdr);border-radius:4px}
+.stat .n{font-family:var(--sf);font-size:2rem;font-weight:700;color:var(--gold);line-height:1}
+.stat .l{font-family:var(--mn);font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:var(--tt);margin-top:.5rem}
+
+/* ── MODEL CARDS ── */
+.mcg{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:2rem 0}
+.mc{background:var(--bg2);border:1px solid var(--bdr);border-radius:4px;padding:1.5rem;position:relative;overflow:hidden}
+.mc::before{content:'';position:absolute;top:0;left:0;right:0;height:2px}
+.mc-c::before{background:var(--blu)}.mc-g::before{background:var(--grn)}.mc-m::before{background:var(--org)}
+.mc-t{font-family:var(--mn);font-size:.58rem;letter-spacing:.15em;text-transform:uppercase;margin-bottom:.5rem}
+.mc-c .mc-t{color:var(--blu)}.mc-g .mc-t{color:var(--grn)}.mc-m .mc-t{color:var(--org)}
+.mc h4{font-size:.95rem;font-weight:500;color:var(--tp);margin-bottom:.15rem}
+.mc .rl{font-family:var(--sf);font-style:italic;font-size:.85rem;color:var(--ts);margin-bottom:.75rem}
+.mc ul{list-style:none;padding:0}
+.mc li{font-size:.75rem;color:var(--tt);padding:.2rem 0 .2rem .75rem;position:relative}
+.mc li::before{content:'—';position:absolute;left:0;color:var(--ttt)}
+
+/* ── PRINCIPLE GRID ── */
+.pg2{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:2rem 0}
+.pb{background:var(--bg2);border:1px solid var(--bdr);border-radius:4px;padding:1.25rem}
+.pb .n{font-family:var(--mn);font-size:.58rem;color:var(--gold-dd);letter-spacing:.1em;margin-bottom:.4rem}
+.pb h4{font-size:.85rem;font-weight:500;color:var(--tp);margin-bottom:.4rem}
+.pb p{font-size:.78rem;margin:0;color:var(--tt);line-height:1.6}
+
+/* ── COMPARISON TABLE ── */
+.tbl{width:100%;border-collapse:collapse;margin:2rem 0;font-size:.8rem}
+.tbl thead th{font-family:var(--mn);font-size:.58rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);text-align:left;padding:.6rem .5rem;border-bottom:1px solid var(--gold-dd)}
+.tbl td{padding:.6rem .5rem;border-bottom:1px solid var(--bdr);color:var(--ts);vertical-align:top}
+.tbl td:first-child{color:var(--tp);font-weight:400}
+.tbl tr:last-child td{border-bottom:none}
+
+/* ── RISK ── */
+.rr{display:grid;grid-template-columns:80px 1fr 1fr;gap:.75rem;padding:.75rem 0;border-bottom:1px solid var(--bdr);font-size:.8rem}
+.rr:last-child{border-bottom:none}
+.rl2{font-family:var(--mn);font-size:.7rem;font-weight:500}
+.rl-h{color:var(--red)}.rl-m{color:var(--gold)}.rl-l{color:var(--grn)}
+
+/* ── VOICE / COLLABORATOR CARDS ── */
+.voice-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin:2rem 0}
+.voice{background:var(--bg2);border:1px solid var(--bdr);border-radius:4px;padding:1.5rem}
+.voice h4{font-family:var(--sf);font-size:1.05rem;font-weight:600;color:var(--tp);margin-bottom:.3rem}
+.voice .who{font-family:var(--mn);font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-dd);margin-bottom:.75rem}
+.voice p{font-size:.8rem;color:var(--tt);margin:0;line-height:1.65}
+.voice-full{grid-column:1/-1}
+
+/* ── CTA ── */
+.cta{background:var(--gold-f);border:1px solid rgba(201,162,39,.18);border-radius:4px;padding:2.5rem;margin:3rem 0;text-align:center}
+.cta h3{color:var(--gold);margin-bottom:.75rem;font-family:var(--sn);font-size:1rem;font-weight:500}
+.cta p{color:var(--ts);margin-bottom:.5rem;font-size:.88rem}
+.cta p:last-child{margin-bottom:0}
+.cta a{color:var(--gold);text-decoration:none;border-bottom:1px solid var(--gold-dd)}
+.cta a:hover{color:var(--tp)}
+
+/* ── FINALE ── */
+.finale{padding:8rem 0;text-align:center}
+.finale p{font-family:var(--sf);font-size:clamp(1.3rem,4vw,2rem);font-weight:400;color:var(--tp);max-width:600px;margin:0 auto;line-height:1.5}
+.finale .small{font-family:var(--mn);font-size:.65rem;color:var(--gold-dd);letter-spacing:.15em;margin-top:2.5rem}
+
+/* ── FOOTER ── */
+.footer{padding:3rem 0;text-align:center;font-family:var(--mn);font-size:.65rem;color:var(--ttt);letter-spacing:.1em;border-top:1px solid var(--bdr)}
+.footer .g{color:var(--gold-dd)}
+
+@media(max-width:700px){
+  .mcg{grid-template-columns:1fr}
+  .pg2,.voice-grid{grid-template-columns:1fr}
+  .stat-row{grid-template-columns:1fr}
+  .rr{grid-template-columns:1fr;gap:.4rem}
+  .voice-full{grid-column:auto}
+  .wrap{padding:0 1.25rem}
+  .sec{padding:4rem 0}
+  .sec-l{padding:6rem 0}
+  .hero{min-height:90vh;padding:5rem 0 3rem}
+}
+</style>
+</head>
+<body>
+
+<div class="clf">Unclassified // OSINT — IranWar.ai — Blueprint v2.0</div>
+
+<!-- ═════════════════════ HERO ═════════════════════ -->
+<div class="hero">
+  <div class="wrap">
+    <div class="tag r">Blueprint — Proposed Version 2.0</div>
+    <h1 class="r r-d1">Corpus of <em>War</em></h1>
+    <div class="hero-sub r r-d2">A blueprint for evolving IranWar.ai from an advanced human-directed intelligence system into a corpus-grounded, multi-model intelligence fusion engine.</div>
+    <div class="hero-meta r r-d3">
+      <span class="vb vb-1">V1 Live at iranwar.ai</span>
+      <span class="vb vb-2">V2 Proposed</span>
+      <span class="vb vb-3">Seeking collaborators</span>
+    </div>
+    <p class="r r-d4" style="margin-top:2rem;font-family:var(--mn);font-size:.7rem;color:var(--tt)">Jacob E. Thomas, PhD — Principal Investigator — March 2026</p>
+  </div>
+</div>
+
+<!-- ═════════════════════ THE FLOOD ═════════════════════ -->
+<div class="sec-l" style="background:var(--bg2)">
+  <div class="wrap">
+    <div class="tag r">Section 01</div>
+    <h2 class="r r-d1">The <em>flood</em></h2>
+
+    <div class="vig r r-d2">
+      <div class="vig-loc">Tehran, Iran</div>
+      <p>A mother is trying to find out if her sister's neighborhood was hit last night. She opens Telegram. Forty channels claim to have footage. Half are regime propaganda. A quarter are opposition accounts recycling clips from Syria in 2018. The rest are real, but she can't tell which. She watches seven videos. One is AI-generated. She doesn't know that. She calls her sister. The line is dead.</p>
+    </div>
+
+    <div class="vig r r-d3">
+      <div class="vig-loc">Arlington, Virginia</div>
+      <p>A staff sergeant is preparing the morning intelligence summary. She has satellite imagery, SIGINT intercepts, and CENTCOM's own reports. She also has a ChatGPT window open, because the volume of overnight reporting exceeds what she can process before the 0700 briefing. The model generates a confident summary. It hallucinates the name of a missile system that doesn't exist. She doesn't catch it. The summary goes upstairs.</p>
+    </div>
+
+    <div class="vig r r-d4">
+      <div class="vig-loc">Odessa, Texas</div>
+      <p>A gas station manager is changing the price sign for the third time in two weeks. $3.79 a gallon — up from $2.61 before the strikes started. His phone buzzes: <em>US strikes expand to Iranian oil infrastructure.</em> He doesn't know what the Strait of Hormuz is. He knows his regulars are angry, and the oilfield hands who drive sixty miles round-trip to their rigs are doing the math on whether the commute still makes sense at a dollar more per gallon.</p>
+    </div>
+
+    <div class="div-dot r">• • •</div>
+
+    <p class="prose r">Three people. Three information environments. All of them failing.</p>
+
+    <p class="prose r">This is what modern war does to information. Not censorship — the old strategy, the one we were taught to watch for. <strong>Volume.</strong> Bury the signal in noise. Overwhelm the citizen with so much conflicting data that comprehension becomes impossible and apathy becomes rational.</p>
+
+    <p class="prose r">The result is a new category of casualty. Not killed by a missile. Killed by the inability to know what is happening. <strong>Cognitive casualties</strong> — people functionally removed from democratic participation because the information environment has made it impossible for them to form accurate beliefs about what their government is doing with their money and in their name.</p>
+
+    <div class="co co-r r">
+      <p>This is the flood. No dashboard can drain it. No model can filter it perfectly. But you can build a levee — a system that reads everything, cites everything, and tells you not just what it found, but where it disagrees with itself.</p>
+    </div>
+
+    <h3 class="r">OSINT as counter-technology</h3>
+
+    <p class="r">Intelligence briefings were once prepared exclusively for presidents and generals — the people who start wars. The public that funds them, fights them, and dies in them was given press conferences and talking points. Open-source intelligence changes that equation. OSINT is a <strong>counter-technology</strong> — built not to extend institutional power, but to give the public the same analytical capability previously reserved for the decision-makers.</p>
+
+    <p class="r">IranWar.ai is that tool. Modeled on the Johns Hopkins COVID-19 Dashboard. Every bomb has a price tag. Every missile has a human cost. Every day the Strait of Hormuz stays contested, a gas station in Texas charges more. The dashboard makes those connections visible.</p>
+  </div>
+</div>
+
+<!-- ═════════════════════ V1 ═════════════════════ -->
+<div class="sec-l">
+  <div class="wrap">
+    <div class="tag r">Section 02</div>
+    <h2 class="r r-d1">What exists today</h2>
+
+    <p class="prose r r-d2">Version 1 is live. It is not a prototype. It is an advanced, production-grade intelligence system built by a single researcher using frontier AI as a force multiplier — a chained pipeline of deep research agents, adversarial human review, and agentic code execution that would have required a team of analysts five years ago.</p>
+
+    <div class="stat-row">
+      <div class="stat r r-d2"><div class="n">15</div><div class="l">JSON datasets</div></div>
+      <div class="stat r r-d3"><div class="n">5</div><div class="l">Intelligence domains</div></div>
+      <div class="stat r r-d4"><div class="n">Daily</div><div class="l">Briefing cycle</div></div>
+    </div>
+
+    <p class="r"><strong>Phase 1</strong> deploys Claude Deep Research as a semi-autonomous agent. It ingests all 15 datasets, identifies the data horizon, and researches overnight developments across the full conflict landscape — producing a structured <strong>Update Manifest</strong> with complete JSON objects, sourced citations, and analytical judgments ready for machine execution.</p>
+
+    <p class="r">A <strong>human QA gate</strong> sits between phases. The Principal Investigator reviews every manifest with adversarial intent — treating the AI's output as an untrusted source, because it is one. Schema compliance, geographic plausibility, cross-reference verification.</p>
+
+    <p class="r"><strong>Phase 2</strong> deploys Claude Code as an agentic executor — updates all 15 JSON files, creates the daily intelligence briefing, validates, commits, pushes. Cloudflare Pages auto-deploys. A GitHub Action snapshots the entire dataset nightly.</p>
+
+    <div class="dia r-scale">
+      <div class="dia-l">Figure 1 — V1 daily intelligence cycle (live)</div>
+      <svg width="100%" viewBox="0 0 700 230" xmlns="http://www.w3.org/2000/svg">
+      <defs><marker id="a1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+      <text x="16" y="14" fill="#5a4711" font-family="IBM Plex Mono,monospace" font-size="9" font-weight="500" letter-spacing=".08em">PHASE 1 — AI-DIRECTED RESEARCH</text>
+      <rect x="16" y="24" width="164" height="68" rx="3" fill="rgba(91,155,213,.06)" stroke="rgba(91,155,213,.2)" stroke-width=".5"/>
+      <text x="98" y="46" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11.5" font-weight="500">Deep Research</text>
+      <text x="98" y="62" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Multi-source verification</text>
+      <text x="98" y="78" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Structured output</text>
+      <line x1="180" y1="58" x2="204" y2="58" stroke="#6b6a64" stroke-width=".75" marker-end="url(#a1)"/>
+      <rect x="208" y="24" width="148" height="68" rx="3" fill="rgba(201,162,39,.05)" stroke="rgba(201,162,39,.15)" stroke-width=".5"/>
+      <text x="282" y="46" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11.5" font-weight="500">Update manifest</text>
+      <text x="282" y="62" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">JSON + citations</text>
+      <text x="282" y="78" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Analytical judgments</text>
+      <line x1="356" y1="58" x2="380" y2="58" stroke="#6b6a64" stroke-width=".75" marker-end="url(#a1)"/>
+      <rect x="384" y="24" width="130" height="68" rx="3" fill="rgba(192,57,43,.06)" stroke="rgba(192,57,43,.2)" stroke-width=".5"/>
+      <text x="449" y="40" text-anchor="middle" fill="#c0392b" font-family="IBM Plex Mono,monospace" font-size="8.5" font-weight="500" letter-spacing=".06em">HUMAN QA GATE</text>
+      <text x="449" y="58" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11.5" font-weight="500">Analyst review</text>
+      <text x="449" y="78" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Adversarial audit</text>
+      <text x="16" y="118" fill="#5a4711" font-family="IBM Plex Mono,monospace" font-size="9" font-weight="500" letter-spacing=".08em">PHASE 2 — AGENTIC EXECUTION</text>
+      <line x1="449" y1="92" x2="449" y2="128" stroke="#6b6a64" stroke-width=".75" marker-end="url(#a1)"/>
+      <rect x="384" y="132" width="130" height="56" rx="3" fill="rgba(91,155,213,.06)" stroke="rgba(91,155,213,.2)" stroke-width=".5"/>
+      <text x="449" y="154" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11.5" font-weight="500">Code agent</text>
+      <text x="449" y="172" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Update + validate + push</text>
+      <line x1="384" y1="160" x2="360" y2="160" stroke="#6b6a64" stroke-width=".75" marker-end="url(#a1)"/>
+      <rect x="208" y="132" width="148" height="56" rx="3" fill="rgba(39,174,96,.05)" stroke="rgba(39,174,96,.15)" stroke-width=".5"/>
+      <text x="282" y="154" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11.5" font-weight="500">Git push → deploy</text>
+      <text x="282" y="172" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Cloudflare Pages</text>
+      <line x1="208" y1="160" x2="184" y2="160" stroke="#6b6a64" stroke-width=".75" marker-end="url(#a1)"/>
+      <rect x="16" y="136" width="164" height="48" rx="3" fill="rgba(201,162,39,.03)" stroke="rgba(201,162,39,.1)" stroke-width=".5"/>
+      <text x="98" y="164" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11.5" font-weight="500">iranwar.ai — live</text>
+      <rect x="80" y="210" width="540" height="18" rx="3" fill="none" stroke="#4a4944" stroke-width=".5" stroke-dasharray="5 3"/>
+      <text x="350" y="222" text-anchor="middle" fill="#4a4944" font-family="IBM Plex Mono,monospace" font-size="8.5">Nightly snapshot — GitHub Action at 0300 CT</text>
+      </svg>
+    </div>
+
+    <h3 class="r">Why V1 is not enough</h3>
+    <p class="r">Version 1 is advanced. It is also the work of one human being. That imposes hard ceilings:</p>
+
+    <div class="pg2">
+      <div class="pb r r-d1"><div class="n">01</div><h4>One researcher's throughput</h4><p>Thousands of documents per day across dozens of languages. One analyst can direct only so many sessions. Farsi and Arabic sources effectively inaccessible.</p></div>
+      <div class="pb r r-d2"><div class="n">02</div><h4>Single analytical thread</h4><p>No structural mechanism for competitive analysis — independent models examining the same evidence and surfacing where they disagree.</p></div>
+      <div class="pb r r-d3"><div class="n">03</div><h4>Human relay bottleneck</h4><p>The pipeline stalls when the human does. The manifest relay requires the analyst to be present, available, and awake.</p></div>
+      <div class="pb r r-d4"><div class="n">04</div><h4>No versioned corpus</h4><p>Source material consumed during research but not archived in a searchable, auditable evidence base. Auditability depends on discipline, not architecture.</p></div>
+    </div>
+
+    <p class="r">These aren't design flaws. They're the natural limits of a single-operator system. To produce Pentagon-grade intelligence — multi-source, multilingual, structurally disagreement-aware — the architecture must evolve.</p>
+  </div>
+</div>
+
+<!-- ═════════════════════ V2 ARCHITECTURE ═════════════════════ -->
+<div class="sec-l" style="background:var(--bg2)">
+  <div class="wrap-w">
+    <div class="tag r">Section 03</div>
+    <h2 class="r r-d1">Version 2: the <em>architecture</em></h2>
+
+    <p class="r r-d2">Seven tiers. Information flows from collection to distribution. Each tier has one job. Boundaries enforced by code, not convention.</p>
+
+    <div class="dia r-scale">
+      <div class="dia-l">Figure 2 — Corpus of war: end-to-end architecture (v2)</div>
+      <svg width="100%" viewBox="0 0 700 880" xmlns="http://www.w3.org/2000/svg">
+      <defs><marker id="a2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+
+      <!-- T1 -->
+      <text x="18" y="14" fill="#5a4711" font-family="IBM Plex Mono,monospace" font-size="9" font-weight="500" letter-spacing=".08em">01 — COLLECTION</text>
+      <rect x="18" y="24" width="120" height="44" rx="3" fill="rgba(192,57,43,.06)" stroke="rgba(192,57,43,.18)" stroke-width=".5"/>
+      <text x="78" y="42" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11" font-weight="500">News wires</text>
+      <text x="78" y="58" text-anchor="middle" fill="#6b6a64" font-family="IBM Plex Sans,sans-serif" font-size="9">AP, Reuters, GDELT</text>
+      <rect x="152" y="24" width="120" height="44" rx="3" fill="rgba(192,57,43,.06)" stroke="rgba(192,57,43,.18)" stroke-width=".5"/>
+      <text x="212" y="42" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11" font-weight="500">Social / OSINT</text>
+      <text x="212" y="58" text-anchor="middle" fill="#6b6a64" font-family="IBM Plex Sans,sans-serif" font-size="9">Reddit, Telegram, X</text>
+      <rect x="286" y="24" width="120" height="44" rx="3" fill="rgba(192,57,43,.06)" stroke="rgba(192,57,43,.18)" stroke-width=".5"/>
+      <text x="346" y="42" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11" font-weight="500">Official sources</text>
+      <text x="346" y="58" text-anchor="middle" fill="#6b6a64" font-family="IBM Plex Sans,sans-serif" font-size="9">DoD, CENTCOM</text>
+      <rect x="420" y="24" width="120" height="44" rx="3" fill="rgba(192,57,43,.06)" stroke="rgba(192,57,43,.18)" stroke-width=".5"/>
+      <text x="480" y="42" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11" font-weight="500">Geospatial</text>
+      <text x="480" y="58" text-anchor="middle" fill="#6b6a64" font-family="IBM Plex Sans,sans-serif" font-size="9">ADS-B, AIS</text>
+      <rect x="554" y="24" width="120" height="44" rx="3" fill="rgba(192,57,43,.06)" stroke="rgba(192,57,43,.18)" stroke-width=".5"/>
+      <text x="614" y="42" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11" font-weight="500">Financial</text>
+      <text x="614" y="58" text-anchor="middle" fill="#6b6a64" font-family="IBM Plex Sans,sans-serif" font-size="9">Oil, sanctions, FX</text>
+
+      <line x1="78" y1="68" x2="240" y2="102" stroke="#4a4944" stroke-width=".75" marker-end="url(#a2)"/>
+      <line x1="212" y1="68" x2="290" y2="102" stroke="#4a4944" stroke-width=".75" marker-end="url(#a2)"/>
+      <line x1="346" y1="68" x2="346" y2="102" stroke="#4a4944" stroke-width=".75" marker-end="url(#a2)"/>
+      <line x1="480" y1="68" x2="402" y2="102" stroke="#4a4944" stroke-width=".75" marker-end="url(#a2)"/>
+      <line x1="614" y1="68" x2="452" y2="102" stroke="#4a4944" stroke-width=".75" marker-end="url(#a2)"/>
+
+      <!-- T2 -->
+      <text x="18" y="98" fill="#5a4711" font-family="IBM Plex Mono,monospace" font-size="9" font-weight="500" letter-spacing=".08em">02 — INGESTION</text>
+      <rect x="110" y="106" width="472" height="34" rx="3" fill="rgba(201,162,39,.04)" stroke="rgba(201,162,39,.12)" stroke-width=".5"/>
+      <text x="346" y="127" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11" font-weight="500">Deduplicate, normalize, embed, tag credibility</text>
+
+      <line x1="346" y1="140" x2="346" y2="170" stroke="#4a4944" stroke-width=".75" marker-end="url(#a2)"/>
+
+      <!-- T3 -->
+      <text x="18" y="168" fill="#5a4711" font-family="IBM Plex Mono,monospace" font-size="9" font-weight="500" letter-spacing=".08em">03 — CORPUS OF WAR</text>
+      <rect x="42" y="178" width="616" height="66" rx="5" fill="rgba(201,162,39,.05)" stroke="rgba(201,162,39,.18)" stroke-width=".75"/>
+      <text x="350" y="204" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11.5" font-weight="500">Daily-versioned evidence archive (ground truth)</text>
+      <text x="350" y="224" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="10">Every claim traces to a timestamped source. No hallucination enters the record.</text>
+
+      <text x="164" y="278" text-anchor="middle" fill="#4a4944" font-family="IBM Plex Mono,monospace" font-size="8">Evidence</text>
+      <text x="350" y="278" text-anchor="middle" fill="#4a4944" font-family="IBM Plex Mono,monospace" font-size="8">Evidence</text>
+      <text x="536" y="278" text-anchor="middle" fill="#4a4944" font-family="IBM Plex Mono,monospace" font-size="8">Evidence</text>
+      <line x1="164" y1="244" x2="164" y2="296" stroke="#4a4944" stroke-width=".75" marker-end="url(#a2)"/>
+      <line x1="350" y1="244" x2="350" y2="296" stroke="#4a4944" stroke-width=".75" marker-end="url(#a2)"/>
+      <line x1="536" y1="244" x2="536" y2="296" stroke="#4a4944" stroke-width=".75" marker-end="url(#a2)"/>
+
+      <!-- T4 -->
+      <text x="18" y="294" fill="#5a4711" font-family="IBM Plex Mono,monospace" font-size="9" font-weight="500" letter-spacing=".08em">04 — MULTI-MODEL ANALYSIS</text>
+      <rect x="30" y="306" width="640" height="216" rx="5" fill="rgba(108,92,231,.03)" stroke="rgba(108,92,231,.1)" stroke-width=".5"/>
+      <text x="350" y="324" text-anchor="middle" fill="#6b6a64" font-family="IBM Plex Sans,sans-serif" font-size="10">Same evidence — different missions — independent outputs</text>
+
+      <!-- Claude -->
+      <rect x="50" y="340" width="184" height="160" rx="3" fill="rgba(91,155,213,.05)" stroke="rgba(91,155,213,.18)" stroke-width=".5"/>
+      <text x="142" y="360" text-anchor="middle" fill="#5b9bd5" font-family="IBM Plex Sans,sans-serif" font-size="11.5" font-weight="500">Claude (Anthropic)</text>
+      <line x1="76" y1="370" x2="208" y2="370" stroke="rgba(91,155,213,.08)" stroke-width=".5"/>
+      <text x="142" y="390" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="10.5" font-weight="500">Strategic analyst</text>
+      <text x="142" y="408" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Causal chain reasoning</text>
+      <text x="142" y="424" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Escalation detection</text>
+      <text x="142" y="440" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Second-order effects</text>
+      <text x="142" y="456" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Confidence calibration</text>
+      <text x="142" y="488" text-anchor="middle" fill="#4a4944" font-family="IBM Plex Mono,monospace" font-size="8.5">What does this mean?</text>
+
+      <!-- GPT-5 -->
+      <rect x="258" y="340" width="184" height="160" rx="3" fill="rgba(39,174,96,.05)" stroke="rgba(39,174,96,.18)" stroke-width=".5"/>
+      <text x="350" y="360" text-anchor="middle" fill="#27ae60" font-family="IBM Plex Sans,sans-serif" font-size="11.5" font-weight="500">GPT-5 (OpenAI)</text>
+      <line x1="284" y1="370" x2="416" y2="370" stroke="rgba(39,174,96,.08)" stroke-width=".5"/>
+      <text x="350" y="390" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="10.5" font-weight="500">Structured extractor</text>
+      <text x="350" y="408" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Entity identification</text>
+      <text x="350" y="424" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Order of battle tracking</text>
+      <text x="350" y="440" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Weapon system tagging</text>
+      <text x="350" y="456" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Structured JSON output</text>
+      <text x="350" y="488" text-anchor="middle" fill="#4a4944" font-family="IBM Plex Mono,monospace" font-size="8.5">What happened?</text>
+
+      <!-- Gemini -->
+      <rect x="466" y="340" width="184" height="160" rx="3" fill="rgba(230,126,34,.05)" stroke="rgba(230,126,34,.18)" stroke-width=".5"/>
+      <text x="558" y="360" text-anchor="middle" fill="#e67e22" font-family="IBM Plex Sans,sans-serif" font-size="11.5" font-weight="500">Gemini (Google)</text>
+      <line x1="492" y1="370" x2="624" y2="370" stroke="rgba(230,126,34,.08)" stroke-width=".5"/>
+      <text x="558" y="390" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="10.5" font-weight="500">Multilingual analyst</text>
+      <text x="558" y="408" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Farsi + Arabic sources</text>
+      <text x="558" y="424" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">IRGC media decoding</text>
+      <text x="558" y="440" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Cross-language entities</text>
+      <text x="558" y="456" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Regime messaging shifts</text>
+      <text x="558" y="488" text-anchor="middle" fill="#4a4944" font-family="IBM Plex Mono,monospace" font-size="8.5">What are they saying?</text>
+
+      <line x1="234" y1="410" x2="258" y2="410" stroke="#4a4944" stroke-width=".5" stroke-dasharray="4 3"/>
+      <line x1="442" y1="410" x2="466" y2="410" stroke="#4a4944" stroke-width=".5" stroke-dasharray="4 3"/>
+
+      <!-- Down -->
+      <line x1="142" y1="522" x2="242" y2="562" stroke="#4a4944" stroke-width=".75" marker-end="url(#a2)"/>
+      <line x1="350" y1="522" x2="350" y2="562" stroke="#4a4944" stroke-width=".75" marker-end="url(#a2)"/>
+      <line x1="558" y1="522" x2="458" y2="562" stroke="#4a4944" stroke-width=".75" marker-end="url(#a2)"/>
+
+      <!-- T5 -->
+      <text x="18" y="558" fill="#5a4711" font-family="IBM Plex Mono,monospace" font-size="9" font-weight="500" letter-spacing=".08em">05 — CONSENSUS</text>
+      <rect x="104" y="568" width="492" height="48" rx="3" fill="rgba(201,162,39,.04)" stroke="rgba(201,162,39,.12)" stroke-width=".5"/>
+      <text x="350" y="586" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11" font-weight="500">Agreement = high confidence</text>
+      <text x="350" y="604" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Disagreement = flag, re-query, preserve minority report</text>
+
+      <path d="M102 592 L24 592 L24 410 L48 410" fill="none" stroke="#4a4944" stroke-width=".75" stroke-dasharray="4 3" marker-end="url(#a2)"/>
+      <text x="18" y="508" text-anchor="end" fill="#4a4944" font-family="IBM Plex Mono,monospace" font-size="8">Conflicts</text>
+      <text x="18" y="520" text-anchor="end" fill="#4a4944" font-family="IBM Plex Mono,monospace" font-size="8">re-query</text>
+
+      <!-- Down -->
+      <line x1="260" y1="616" x2="210" y2="656" stroke="#4a4944" stroke-width=".75" marker-end="url(#a2)"/>
+      <line x1="440" y1="616" x2="490" y2="656" stroke="#4a4944" stroke-width=".75" marker-end="url(#a2)"/>
+
+      <!-- T6 -->
+      <text x="18" y="654" fill="#5a4711" font-family="IBM Plex Mono,monospace" font-size="9" font-weight="500" letter-spacing=".08em">06 — PRODUCTS</text>
+      <rect x="48" y="662" width="244" height="56" rx="3" fill="rgba(39,174,96,.04)" stroke="rgba(39,174,96,.12)" stroke-width=".5"/>
+      <text x="170" y="684" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11" font-weight="500">Daily intelligence brief</text>
+      <text x="170" y="702" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">Narrative — every claim cites source</text>
+
+      <rect x="408" y="662" width="244" height="56" rx="3" fill="rgba(39,174,96,.04)" stroke="rgba(39,174,96,.12)" stroke-width=".5"/>
+      <text x="530" y="684" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11" font-weight="500">Structured datasets</text>
+      <text x="530" y="702" text-anchor="middle" fill="#9c9a92" font-family="IBM Plex Sans,sans-serif" font-size="9.5">15 JSON files + briefing archive</text>
+
+      <!-- Down -->
+      <line x1="170" y1="718" x2="154" y2="762" stroke="#4a4944" stroke-width=".75" marker-end="url(#a2)"/>
+      <line x1="350" y1="718" x2="350" y2="762" stroke="#4a4944" stroke-width=".75" marker-end="url(#a2)"/>
+      <line x1="530" y1="718" x2="546" y2="762" stroke="#4a4944" stroke-width=".75" marker-end="url(#a2)"/>
+
+      <!-- T7 -->
+      <text x="18" y="760" fill="#5a4711" font-family="IBM Plex Mono,monospace" font-size="9" font-weight="500" letter-spacing=".08em">07 — DISTRIBUTION</text>
+      <rect x="42" y="768" width="192" height="34" rx="3" fill="rgba(201,162,39,.03)" stroke="rgba(201,162,39,.08)" stroke-width=".5"/>
+      <text x="138" y="789" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11" font-weight="500">IranWar.ai</text>
+      <rect x="254" y="768" width="192" height="34" rx="3" fill="rgba(201,162,39,.03)" stroke="rgba(201,162,39,.08)" stroke-width=".5"/>
+      <text x="350" y="789" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11" font-weight="500">Automated alerts</text>
+      <rect x="466" y="768" width="192" height="34" rx="3" fill="rgba(201,162,39,.03)" stroke="rgba(201,162,39,.08)" stroke-width=".5"/>
+      <text x="562" y="789" text-anchor="middle" fill="#e8e6df" font-family="IBM Plex Sans,sans-serif" font-size="11" font-weight="500">Permanent archive</text>
+
+      <rect x="170" y="832" width="360" height="20" rx="3" fill="none" stroke="#4a4944" stroke-width=".5" stroke-dasharray="5 3"/>
+      <text x="350" y="846" text-anchor="middle" fill="#4a4944" font-family="IBM Plex Mono,monospace" font-size="8.5">Full cycle daily at 0600 UTC</text>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<!-- ═════════════════════ CORPUS + 3 MODELS (condensed) ═════════════════════ -->
+<div class="sec">
+  <div class="wrap">
+    <div class="tag r">Section 04</div>
+    <h2 class="r r-d1">The corpus + three <em>analysts</em></h2>
+
+    <p class="r r-d2">The Corpus of War is the architectural lynchpin — a versioned evidence archive that <strong>replaces</strong> model knowledge rather than augmenting it. Models receive evidence chunks, not questions. If it isn't in the corpus, it isn't in the product. Hallucination becomes structurally impossible.</p>
+
+    <div class="co r">
+      <p>The point of three models is not to get three answers. It is to see where the answers diverge — because that is where the war is most ambiguous, and ambiguity is what decision-makers need to know about.</p>
+    </div>
+
+    <div class="mcg">
+      <div class="mc mc-c r r-d1">
+        <div class="mc-t">Analyst 01</div>
+        <h4>Claude</h4>
+        <div class="rl">"What does this mean?"</div>
+        <ul><li>Causal chains + second-order effects</li><li>Escalation pattern detection</li><li>Calibrated confidence</li><li>Flags what the evidence doesn't show</li></ul>
+      </div>
+      <div class="mc mc-g r r-d2">
+        <div class="mc-t">Analyst 02</div>
+        <h4>GPT-5</h4>
+        <div class="rl">"What happened?"</div>
+        <ul><li>Entity extraction at scale</li><li>Order of battle parsing</li><li>Weapon system ID</li><li>Structured JSON output</li></ul>
+      </div>
+      <div class="mc mc-m r r-d3">
+        <div class="mc-t">Analyst 03</div>
+        <h4>Gemini</h4>
+        <div class="rl">"What are they saying?"</div>
+        <ul><li>Native Farsi + Arabic</li><li>IRGC Telegram decoding</li><li>Cross-language entities</li><li>Regime messaging shifts</li></ul>
+      </div>
+    </div>
+
+    <div class="co r" style="margin-top:2.5rem">
+      <p>The goal is not artificial intelligence. It is artificial diligence — the tireless, citation-disciplined reading of everything, so that the humans making decisions can focus on what the evidence means rather than whether they've seen it all.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ═════════════════════ COLLABORATORS ═════════════════════ -->
+<div class="sec-l">
+  <div class="wrap">
+    <div class="tag r">Section 05</div>
+    <h2 class="r r-d1">Who we <em>need</em></h2>
+
+    <p class="prose r r-d2">I built Version 1 alone. One researcher, a Claude subscription, and the conviction that the public deserves a situation room for the war being fought with their money and in their name.</p>
+
+    <p class="prose r r-d3">The technical architecture in this blueprint — the corpus, the multi-model pipeline, the consensus engine — I can build that with agents. That is what agents are for.</p>
+
+    <p class="prose r r-d4">What I cannot build with agents is the thing that separates intelligence from information.</p>
+
+    <div class="div-line r"></div>
+
+    <p class="prose r">An AI can extract every entity from a CENTCOM press release. It cannot tell you that the language in paragraph three echoes the framing used six weeks before the 2003 invasion.</p>
+    <p class="prose r">An AI can count the dead. It cannot tell you what a hospital closure means for a pregnant woman in Isfahan who was already driving forty minutes to the only facility with an ultrasound machine.</p>
+    <p class="prose r">An AI can track oil futures. It cannot tell you what a dollar-twelve price spike does to a single mother's budget in Odessa, Texas, who was already choosing between the electric bill and groceries.</p>
+
+    <p class="prose r" style="color:var(--tp)"><strong>I don't need more engineers. I need the people whose knowledge makes the numbers mean something.</strong></p>
+
+    <div class="voice-grid">
+      <div class="voice r r-d1">
+        <h4>Historians &amp; political scientists</h4>
+        <div class="who">Humanities scholars</div>
+        <p>You know 1953, 1979, 1988, 2003. You read today's CENTCOM statement and hear echoes. We need the seventy-year context that no language model has.</p>
+      </div>
+      <div class="voice r r-d2">
+        <h4>Trauma &amp; conflict researchers</h4>
+        <div class="who">War studies, forced migration, civilian harm</div>
+        <p>You know that "precision strike" has a blast radius that extends into neighborhoods, water systems, the ability of a city to function. We need your frameworks.</p>
+      </div>
+      <div class="voice r r-d3">
+        <h4>Public health workers</h4>
+        <div class="who">Epidemiologists, field medics, aid coordinators</div>
+        <p>You've been in the places that become coordinates on our map. You know what cholera looks like when water treatment stops. Your field knowledge is ground truth.</p>
+      </div>
+      <div class="voice r r-d4">
+        <h4>Nurses &amp; clinicians</h4>
+        <div class="who">Frontline healthcare, military medicine</div>
+        <p>You see what arrives at the other end of our numbers. You know what "infrastructure damage to medical facilities" means in terms of people who will die of treatable conditions.</p>
+      </div>
+      <div class="voice r r-d5">
+        <h4>Military veterans</h4>
+        <div class="who">All branches, all eras</div>
+        <p>You know the gap between what a military says and what it does — not from cynicism, from experience. If you've served in CENTCOM's AOR, your knowledge is irreplaceable.</p>
+      </div>
+      <div class="voice r r-d6">
+        <h4>Community organizers</h4>
+        <div class="who">Domestic impact, diaspora communities</div>
+        <p>Wars are fought over there and paid for over here. You work with Iranian-American families watching their relatives' cities on our strike map. You connect the geopolitical to the personal.</p>
+      </div>
+      <div class="voice r r-d7">
+        <h4>Farsi &amp; Arabic speakers</h4>
+        <div class="who">Native speakers, regional analysts</div>
+        <p>The adversary's own words are the most important intelligence this system can process. These aren't translation problems — they're cultural interpretation problems.</p>
+      </div>
+      <div class="voice r r-d8">
+        <h4>Economists</h4>
+        <div class="who">Energy markets, sanctions, defense budgets</div>
+        <p>You read oil futures and see political risk before it's a headline. The financial dimension is where domestic politics and geopolitics collide.</p>
+      </div>
+      <div class="voice voice-full r">
+        <h4>Anyone with knowledge the machines don't have</h4>
+        <div class="who">The perspectives we haven't thought to ask for</div>
+        <p>Maybe you're a shipping expert who reads AIS data and sees sanctions evasion. Maybe you're a theologian who can contextualize Shia eschatological rhetoric. Maybe you're a teacher in Tehran with a VPN. Maybe you're a Gold Star parent who knows what "acceptable losses" sounds like from the receiving end. If you're reading this and thinking <em>I know something relevant that isn't on this list</em> — you're exactly who we need.</p>
+      </div>
+    </div>
+
+    <div class="cta r">
+      <h3>Get involved</h3>
+      <p>Open source: <a href="https://github.com/jethomasphd/WarTheater">github.com/jethomasphd/WarTheater</a></p>
+      <p>Live dashboard: <a href="https://iranwar.ai">iranwar.ai</a> — archive: <a href="https://iranwar.ai/archive">iranwar.ai/archive</a></p>
+      <p>Contact: <a href="mailto:JEThomasPhD@gmail.com">JEThomasPhD@gmail.com</a> — or find Jacob E. Thomas, PhD on LinkedIn.</p>
+      <p style="margin-top:.75rem;color:var(--tt);font-size:.8rem">No credentials required. No security clearance. No technical prerequisites.<br>Every pair of eyes on this project is a small act of resistance against the strategy of overwhelm.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ═════════════════════ FINALE ═════════════════════ -->
+<div class="finale r">
+  <div class="wrap">
+    <p>The machines can read everything.<br><em style="color:var(--gold)">We need the humans who know what it means.</em></p>
+    <div class="small">No ads. No sponsors. No agenda except clarity.</div>
+  </div>
+</div>
+
+<div class="footer">
+  <p class="g">IranWar.ai</p>
+  <p>Corpus of War — Blueprint v2.0 — March 2026</p>
+  <p>Jacob E. Thomas, PhD</p>
+</div>
+
+<script>
+const io=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('v');io.unobserve(e.target)}})
+},{threshold:0.08,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.r,.r-left,.r-right,.r-scale').forEach(el=>io.observe(el));
+</script>
+
+</body>
+</html>
