@@ -166,5 +166,12 @@
     "label": "MARCH 23, 2026 — DAY 24",
     "headline": "Trump postpones power plant strikes 5 days claiming Iran talks — Tehran denies; Brent crashes 13.6% then recovers; IDF strikes Tehran; 3 Litani bridges destroyed",
     "file": "data/briefings/day-24.html"
+  },
+  {
+    "day": 25,
+    "date": "2026-03-24",
+    "label": "MARCH 24, 2026 — DAY 25",
+    "headline": "Iran strikes Tel Aviv in 7 waves; Tripoli ARG enters CENTCOM Friday; oil rebounds to ~$103; Pakistan emerges as lead mediator; Houthis still dormant",
+    "file": "data/briefings/day-25.html"
   }
 ]

@@ -1861,5 +1861,158 @@
     "category": "military",
     "source": "HRW / Lebanese media / IDF / Reuters",
     "data_point": "HRW: war crimes in Lebanon — 1,029+ killed — 3 Litani bridges destroyed — potential ground invasion"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "01:00",
+    "title": "Iran launches 7 waves of ballistic missiles at Israel — 4 impacts in Tel Aviv",
+    "description": "Iran launched seven waves of ballistic missiles at Israel since midnight. At least 4 impact sites confirmed in central Tel Aviv with buildings damaged and vehicles burning. Magen David Adom reported 6 people wounded. Sirens sounded in Dimona near Negev Nuclear Research Center. A cluster munition struck Nesher near Haifa with no injuries. 4 people including 2 infants injured by missile fragment in a southern Bedouin community.",
+    "category": "military",
+    "source": "CNN / Magen David Adom / Times of Israel",
+    "data_point": "7 missile waves — 4 Tel Aviv impacts — 6 wounded — Dimona sirens — Nesher cluster munition"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "02:00",
+    "title": "IAF strikes 50+ targets overnight in Iran — IDF cumulative 3,000+",
+    "description": "Israeli Air Force struck more than 50 targets overnight in Iran including missile launch sites and military facilities. IDF cumulative total since war began: 3,000+ targets in Iran. Strikes continued despite Trump's 5-day power plant pause.",
+    "category": "military",
+    "source": "CNN / IDF",
+    "data_point": "50+ targets overnight — IDF cumulative 3,000+ Iran targets"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "03:00",
+    "title": "Kuwait air defense alarms sound 7 times overnight",
+    "description": "Kuwait air defense alarms sounded 7 times overnight during Iranian missile and drone attacks across the Gulf region.",
+    "category": "military",
+    "source": "Al Jazeera",
+    "data_point": "7 alarms overnight — broad Gulf barrage continues"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "04:00",
+    "title": "Saudi Arabia intercepts ~20 drones targeting Eastern Province",
+    "description": "Saudi Arabia intercepted approximately 20 drones targeting the Eastern Province oil region, maintaining air defense of critical energy infrastructure.",
+    "category": "military",
+    "source": "Al Jazeera",
+    "data_point": "~20 drones intercepted — Eastern Province oil region targeted"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "05:00",
+    "title": "IRGC attacks US Fifth Fleet in Bahrain — 1 Emirati soldier KIA",
+    "description": "IRGC launched missiles and drones at US 5th Fleet headquarters in Bahrain. One Emirati soldier killed alongside Bahraini forces — first confirmed UAE combat death in a direct Iranian attack on Bahrain. Bahrain cumulative: 153 missiles and 301 drones intercepted since war began.",
+    "category": "military",
+    "source": "Al Jazeera / Bahrain MoD / Times of Israel",
+    "data_point": "1 Emirati KIA — first UAE combat death in Bahrain — 153 missiles, 301 drones cumulative"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "06:00",
+    "title": "UAE intercepts ballistic missile targeting Abu Dhabi",
+    "description": "UAE air defenses intercepted a ballistic missile targeting Abu Dhabi. One Indian national suffered minor injuries from debris.",
+    "category": "military",
+    "source": "Al Jazeera",
+    "data_point": "Abu Dhabi missile intercepted — 1 minor injury from debris"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "07:00",
+    "title": "Oil rebounds: Brent ~$103, WTI ~$91 — Iran denies all negotiations",
+    "description": "Oil prices rebounded 3-4% as Iran denied Trump's peace talk claims, erasing Monday's crash. Brent rose to ~$103-104 from Monday's settlement of ~$104 (which had recovered from $96.91 intraday low). WTI to ~$91-92. Markets oscillated throughout the day.",
+    "category": "financial",
+    "source": "CNBC / CNN / FinancialContent",
+    "data_point": "Brent ~$103-104 — WTI ~$91-92 — +3-4% rebound on Iran denial"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "08:00",
+    "title": "US strike in Iraq's Anbar Province targets Iran-backed commander",
+    "description": "US forces struck the headquarters of an Iran-backed group in Iraq's Anbar Province, targeting senior commander Saad Dawai.",
+    "category": "military",
+    "source": "Al Jazeera",
+    "data_point": "Anbar Province — Iran-backed commander Saad Dawai targeted"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "09:00",
+    "title": "Israel DM Katz announces intent to occupy S. Lebanon to Litani River",
+    "description": "Israeli Defense Minister Israel Katz made the first explicit statement of intent to occupy southern Lebanon up to the Litani River. IDF struck Hezbollah command centers in Beirut's southern suburbs and destroyed a bridge linking southern Lebanon to the Bekaa Valley.",
+    "category": "military",
+    "source": "Reuters / Al Jazeera / Times of Israel",
+    "data_point": "First explicit occupation statement — Litani River as objective"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "10:00",
+    "title": "CENTCOM updates: 9,000+ targets, 140+ vessels, 9,000+ combat flights",
+    "description": "CENTCOM released updated operational statistics: 9,000+ targets struck (up from 8,000+), 140+ Iranian naval vessels destroyed (up from 130+), 9,000+ combat flights. CBS News confirmed 12+ underwater Iranian mines in the Strait (Maham 3 and Maham 7 types).",
+    "category": "military",
+    "source": "CBS News / CENTCOM",
+    "data_point": "9,000+ targets — 140+ vessels — 9,000+ flights — 12+ mines confirmed"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "11:00",
+    "title": "WSJ: Tripoli ARG enters CENTCOM AOR Friday (Mar 25)",
+    "description": "Wall Street Journal confirmed USS Tripoli (LHA-7) Amphibious Ready Group will enter CENTCOM area of operations approximately March 25 (Friday). Several additional days to reach Hormuz area. Carries ~2,200 Marines (31st MEU) and ~20 F-35Bs.",
+    "category": "military",
+    "source": "WSJ / USNI Fleet Tracker",
+    "data_point": "Tripoli enters CENTCOM Friday — 2,200 Marines — ~20 F-35Bs"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "12:00",
+    "title": "Lebanon declares Iran ambassador persona non grata — deadline March 29",
+    "description": "Lebanon declared Iran's ambassador persona non grata with a deadline of March 29, but stopped short of fully severing diplomatic relations.",
+    "category": "diplomatic",
+    "source": "CNN",
+    "data_point": "Iran ambassador expelled — deadline Mar 29 — not full break"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "13:00",
+    "title": "Iran FM Araghchi: 'We don't ask for ceasefire, but this war must end'",
+    "description": "Iran FM Araghchi stated 'We don't ask for ceasefire' but said 'war must end' so enemies 'never repeat' such actions. Pakistan FM offered to host talks 'if both sides agree.' Egypt working on 30-60 day ceasefire framework.",
+    "category": "diplomatic",
+    "source": "Al Jazeera / CNN / NPR",
+    "data_point": "Iran rejects ceasefire framing — Pakistan offers to host — Egypt 30-60 day framework"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "14:00",
+    "title": "UK PM Starmer convenes emergency meeting on war's economic fallout",
+    "description": "UK Prime Minister Starmer convened an emergency meeting on the economic impact of the conflict. UK announced plans to send short-range air defense systems to Gulf allies.",
+    "category": "diplomatic",
+    "source": "Al Jazeera",
+    "data_point": "UK emergency meeting — short-range air defense to Gulf"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "15:00",
+    "title": "IDF strikes Hezbollah command centers in Beirut and S. Lebanon bridges",
+    "description": "IDF struck Hezbollah command centers in Beirut's southern suburbs after issuing evacuation warnings. Also struck a bridge linking southern Lebanon to the Bekaa Valley and bombed a petrol station in southern Lebanon. Finance Minister Smotrich called for annexing southern Lebanon to the Litani River.",
+    "category": "military",
+    "source": "Al Jazeera / Times of Israel / IDF",
+    "data_point": "Beirut command centers — S. Lebanon bridge — Smotrich: annex to Litani"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "16:00",
+    "title": "AAA: gas at $3.956 national average — Bahrain UNSC resolution — France alternative",
+    "description": "AAA gas price update: $3.956 national average. Bahrain circulated a new UNSC Chapter VII draft resolution on Hormuz authorizing 'all necessary means' for safe passage. France proposed alternative draft without naming Iran and not invoking Chapter VII. Russia/China likely to veto Bahrain's version.",
+    "category": "financial",
+    "source": "AAA / Al Jazeera / Arab News",
+    "data_point": "$3.956/gal — Bahrain Chapter VII draft — France alternative — Russia/China likely veto"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "17:00",
+    "title": "War cost reaches ~$29.3B — Day 25 summary",
+    "description": "Cumulative war cost through Day 25 estimated at ~$29.3 billion. Oil rebounded 3-4% to ~$103 Brent / ~$91 WTI. S&P roughly flat. Gas $3.956. Pakistan emerging as lead mediator — Islamabad meeting being arranged between Ghalibaf and Witkoff/Kushner. 5-day power plant pause deadline ~March 28. New SNSC secretary Zolghadr replaces killed Larijani.",
+    "category": "financial",
+    "source": "Pentagon / CSIS / CNBC / Multiple",
+    "data_point": "~$29.3B cumulative — oil +3-4% — Pakistan mediating — deadline Mar 28"
   }
 ]

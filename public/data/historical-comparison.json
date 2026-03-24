@@ -1,11 +1,11 @@
 {
   "conflicts": [
     {
-      "label": "Iran 2026 (Day 24)",
-      "targets_struck": 25000,
+      "label": "Iran 2026 (Day 25)",
+      "targets_struck": 26000,
       "us_kia": 14,
       "daily_cost_millions": 1000,
-      "note": "Operation Epic Fury — air + ground (Lebanon). 8,000+ US targets, 130+ vessels destroyed. Trump postpones power plant strikes 5 days — claims talks via intermediaries. Brent crashes 13.6% then recovers to ~$104. S&P surges. IDF strikes Tehran. Iran strikes Netanya. IEA: 44+ energy assets damaged, worst since 1973+1979. ~$28.3B spent. Ford at Souda Bay. Gas $3.96."
+      "note": "Operation Epic Fury — air + ground (Lebanon). 9,000+ US targets, 140+ vessels destroyed. 5-day power plant pause deadline ~Mar 28. Iran launches 7 missile waves at Israel. Oil rebounds to ~$103. Tripoli ARG enters CENTCOM Friday. Pakistan mediating. ~$29.3B spent. Gas $3.956."
     },
     {
       "label": "Iraq 2003 (Day 21)",
@@ -30,5 +30,5 @@
     }
   ],
   "sources": "CRS Reports R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya). Costs inflation-adjusted to 2026 dollars using BLS CPI-U.",
-  "last_updated": "2026-03-22"
+  "last_updated": "2026-03-24"
 }
