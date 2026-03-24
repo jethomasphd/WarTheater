@@ -140,9 +140,11 @@ and lazy-loads individual briefing HTML files on demand. **No manual archive.htm
 During Phase 2, the code agent:
 1. Creates `public/data/briefings/day-[N].html` (HTML fragment matching previous briefings)
 2. Appends an entry to `public/data/briefings/index.json`
-3. Updates the hardcoded briefing panel in `index.html`
 
-The archive page automatically picks up the new briefing from `index.json`.
+Both the main dashboard and the archive page automatically load the latest briefing
+from `index.json` — no manual HTML editing is needed. The dashboard's briefing panel
+(`js/briefing.js`) fetches the index, finds the highest day number, and loads that
+briefing's HTML fragment dynamically.
 
 ### Post-Execution
 

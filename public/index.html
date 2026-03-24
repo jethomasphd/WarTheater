@@ -423,93 +423,14 @@
 
       <div class="briefing-container" id="briefing-content">
 
+        <!-- Briefing content is dynamically loaded by js/briefing.js -->
+        <!-- It fetches data/briefings/index.json, finds the latest day, and loads the HTML fragment -->
         <div class="briefing-header">
           <h2 style="margin-bottom: var(--space-sm);">Daily Intelligence Briefing</h2>
-          <div class="briefing-date" id="briefing-date">MARCH 22, 2026 — DAY 23</div>
-          <div style="font-size: var(--text-xs); color: var(--text-dim); margin-top: var(--space-sm); font-family: 'JetBrains Mono', monospace;">
-            AI-generated analysis of public data — not state-approved, not classified
-          </div>
+          <div class="briefing-date" style="opacity: 0.5;">Loading latest briefing...</div>
         </div>
 
-        <!-- Situation Summary -->
-        <div class="briefing-section">
-          <h3>Situation Summary</h3>
-          <p>Day 23 of Operation Epic Fury is defined by a single question: will the United States strike Iran&rsquo;s power grid? President Trump&rsquo;s 48-hour ultimatum &mdash; posted on Truth Social at 7:44 PM ET on March 21 &mdash; demands Iran &ldquo;FULLY OPEN, WITHOUT THREAT, the Strait of Hormuz&rdquo; or the US will &ldquo;hit and obliterate their various POWER PLANTS, STARTING WITH THE BIGGEST ONE FIRST.&rdquo; The deadline expires Monday, March 23 at 7:44 PM ET. Iran&rsquo;s response was immediate and unambiguous: Parliament Speaker Ghalibaf promised the &ldquo;irreversible destruction&rdquo; of all regional energy infrastructure, and the IRGC&rsquo;s Khatam Al-Anbiya command declared every American energy, IT, and desalination facility in the region a legitimate target.</p>
-          <p>This ultimatum follows the most significant escalation of the nuclear dimension yet. On March 21, US forces struck the Natanz enrichment facility with bunker-buster bombs &mdash; the third strike on the site since June 2025. Hours later, Iran retaliated with ballistic missiles that struck Dimona and Arad in southern Israel, injuring 180&ndash;200 people near the Shimon Peres Negev Nuclear Research Center. That Israeli interceptors failed to stop at least two missiles near the country&rsquo;s most sensitive nuclear facility sent a clear message about the limits of air defense. Separately, Iran demonstrated unprecedented long-range capability by firing two IRBMs at Diego Garcia at a range of 4,000 km &mdash; double its previously acknowledged limit &mdash; putting European capitals within striking distance.</p>
-          <p>CENTCOM Admiral Brad Cooper&rsquo;s video update confirmed the scale of the campaign: 8,000+ targets struck, 130 Iranian naval vessels destroyed, and 8,000+ combat flights. He assessed Iran&rsquo;s combat capability as being &ldquo;on the steady decline.&rdquo; But the Strait of Hormuz remains effectively closed, oil sits at $112 per barrel, the S&amp;P 500 has hit a new 2026 low, and the humanitarian toll &mdash; over 4.2 million displaced, 3,000+ vessels stranded, 52,000+ flights cancelled &mdash; continues to mount. Iraq&rsquo;s declaration of force majeure on all foreign-operated oilfields and the USS Tripoli&rsquo;s imminent arrival with 2,200 Marines add further complexity to what is rapidly becoming the most consequential 48 hours of the conflict.</p>
-        </div>
-
-        <!-- Key Developments -->
-        <div class="briefing-section">
-          <h3>Key Developments</h3>
-          <ul>
-            <li><strong>Trump 48-hour ultimatum (Mar 21, 7:44 PM ET):</strong> &ldquo;obliterate power plants starting with the biggest one first&rdquo; if Hormuz not fully reopened &mdash; deadline Mar 23 7:44 PM ET</li>
-            <li><strong>Iran threatens regional energy destruction</strong> &mdash; Ghalibaf: all regional energy/IT/desalination infrastructure will be &ldquo;irreversibly destroyed&rdquo; if power plants hit</li>
-            <li><strong>Natanz struck with bunker-busters (Mar 21)</strong> &mdash; IAEA: no radiation &mdash; DG Grossi calls for restraint &mdash; Russia condemns &mdash; Israel denies involvement</li>
-            <li><strong>Iran strikes Dimona and Arad, Israel</strong> &mdash; 180&ndash;200 injured &mdash; 2+ missiles evade interceptors near nuclear research center &mdash; mass casualty event at Soroka Hospital</li>
-            <li><strong>Diego Garcia attacked by 2 IRBMs at 4,000 km</strong> &mdash; both miss &mdash; first attack on base in history &mdash; IDF Chief: &ldquo;Europe is within range&rdquo;</li>
-            <li><strong>CENTCOM Adm. Cooper video:</strong> 8,000+ targets, 130 vessels destroyed, 8,000+ flights &mdash; &ldquo;Iran&rsquo;s combat capability on steady decline&rdquo;</li>
-            <li><strong>GBU-72 bunker-busters destroy underground coastal missile facility</strong> &mdash; intelligence support sites and missile radar relays also hit</li>
-            <li><strong>Iraq force majeure</strong> on all foreign-operated oilfields &mdash; Basra from 3.3M to 900K bpd &mdash; 90%+ of government income from crude</li>
-            <li><strong>GL U sanctions waiver:</strong> 140M barrels of Iranian oil at sea unsanctioned for 30 days &mdash; analysts: impact &ldquo;likely short-lived&rdquo;</li>
-            <li><strong>IDF &ldquo;wave of extensive strikes&rdquo;</strong> on Hezbollah in Lebanon and Dahiyeh &mdash; 1,001+ killed &mdash; 1M+ displaced</li>
-            <li><strong>USS Tripoli arrival imminent (ETA Mar 22&ndash;23)</strong> &mdash; 2,200 Marines, F-35Bs &mdash; most significant force addition since war began</li>
-            <li><strong>Brent $112.19 (Fri close, +3.26%)</strong> &mdash; S&amp;P 6,506 new 2026 low &mdash; gas $3.93 &mdash; 3 consecutive weekly losses &mdash; Sunday: no trading</li>
-            <li><strong>Iran offers Japan safe passage through Hormuz</strong> &mdash; Japan declines unilateral deal</li>
-            <li><strong>Houthis warn</strong> of response to Hormuz escalation but remain inactive &mdash; Day 23 of &ldquo;strategic pause&rdquo;</li>
-            <li><strong>Kirkuk-Ceyhan pipeline restarted</strong> at 250K bpd &mdash; first flow in a decade</li>
-          </ul>
-        </div>
-
-        <!-- The 48-Hour Ultimatum -->
-        <div class="briefing-section">
-          <h3>The 48-Hour Ultimatum: Countdown to Escalation</h3>
-          <p>Trump&rsquo;s messaging over a 24-hour period went from &ldquo;winding down&rdquo; (Friday afternoon) to threatening to &ldquo;obliterate&rdquo; Iran&rsquo;s power grid (Saturday evening). This whiplash pattern has repeated throughout the conflict &mdash; conciliatory signals followed by escalatory threats &mdash; but the specificity of the current ultimatum is unprecedented. Iran&rsquo;s largest power plants &mdash; Damavand (2,868 MW), Shahid Salimi (2,215 MW), and Shahid Rajai (2,043 MW) &mdash; are the named targets. Destroying them would trigger cascading humanitarian catastrophe: water pumps, hospitals, agriculture, and what remains of civilian infrastructure would collapse in a country already at 4% internet connectivity with 3.2 million displaced.</p>
-          <p>Iran&rsquo;s response leaves no ambiguity about the consequences. The IRGC&rsquo;s Khatam Al-Anbiya headquarters &mdash; which controls Iran&rsquo;s asymmetric warfare apparatus &mdash; explicitly warned that all US energy, IT, and desalination infrastructure across the region would be targeted. Ghalibaf&rsquo;s X post used the word &ldquo;irreversibly,&rdquo; suggesting Iran would seek to cause permanent damage to Saudi, UAE, Kuwaiti, Qatari, and Bahraini energy assets. Given that Iran has already struck Ras Laffan (17% of Qatar&rsquo;s LNG offline for 3&ndash;5 years), SAMREF, Fujairah, and Kuwaiti refineries, this is not an idle threat. The deadline creates the hardest decision point of the conflict: if Trump follows through, the war expands into a region-wide energy apocalypse. If he backs down, the deterrent credibility of the ultimatum evaporates.</p>
-        </div>
-
-        <!-- Nuclear Tit-for-Tat -->
-        <div class="briefing-section">
-          <h3>Nuclear Tit-for-Tat: Natanz and Dimona</h3>
-          <p>The March 21 exchange marks the first time both sides struck near each other&rsquo;s nuclear facilities on the same day. The US hit Natanz with what Israeli broadcaster Kan described as bunker-buster bombs &mdash; likely GBU-57 Massive Ordnance Penetrators and/or GBU-72 5,000-lb penetrators. The IAEA confirmed no radiation leakage, but the entrance buildings of the underground Fuel Enrichment Plant were damaged. Israel denied any involvement, while Iran blamed a joint operation. Notably, the bulk of Iran&rsquo;s enriched uranium (~440 kg) is believed to be stored at Isfahan, not Natanz, suggesting the strategic value was more symbolic than material.</p>
-          <p>Iran&rsquo;s retaliation was precisely calibrated: ballistic missiles struck Dimona and Arad, home to the Shimon Peres Negev Nuclear Research Center. The failure of Israeli air defenses to intercept at least two missiles near the country&rsquo;s most sensitive nuclear site was perhaps more significant than the strike itself. Ghalibaf explicitly framed this as proof of a &ldquo;new phase of the battle.&rdquo; The 180&ndash;200 injured &mdash; including children in serious condition &mdash; represent the largest single Israeli casualty event of the conflict. Combined with the Diego Garcia demonstration of 4,000 km missile range, Iran showed that degraded does not mean defeated, and that its remaining missiles can reach the most consequential targets.</p>
-        </div>
-
-        <!-- The Energy War -->
-        <div class="briefing-section">
-          <h3>The Energy War: Hormuz as Iran&rsquo;s Ultimate Weapon</h3>
-          <p>Despite 8,000+ US strikes and 130 naval vessels destroyed, Iran&rsquo;s effective closure of the Strait of Hormuz remains its most consequential achievement. The numbers tell the story: bypass pipeline capacity of ~3.5 million barrels per day versus a pre-war throughput of 20 million &mdash; a structural gap of ~16.5 million barrels per day that no combination of alternative routes can close. Iraq&rsquo;s force majeure on all foreign-operated oilfields, dropping Basra production from 3.3M to 900K bpd, eliminates the region&rsquo;s second-largest oil producer from meaningful exports. The Kirkuk-Ceyhan pipeline restart at 250K bpd is a positive development but represents just 6&ndash;13% of lost Iraqi capacity.</p>
-          <p>Brent crude closed Friday at $112.19 &mdash; up 58% since the war began. VLCC charter rates have hit an all-time record of $423,736 per day. War risk insurance stands at 5% of vessel value &mdash; a 100x increase. The Treasury&rsquo;s GL U sanctions waiver &mdash; unsanctioning 140 million barrels of Iranian oil at sea for 30 days &mdash; is creative but represents barely 1.5 days of global consumption. Goldman Sachs forecasts Brent averaging $98 in March but warns prices could exceed the 2008 all-time high of $147.50 if disruptions persist beyond 60 days. The A-10 Warthog and Apache helicopter campaign entering its fourth day is degrading Iranian fast-attack capability, but mines, underground coastal missiles, and the strait&rsquo;s 21-mile geography make full reopening a multi-week proposition at minimum.</p>
-        </div>
-
-        <!-- Force Posture -->
-        <div class="briefing-section">
-          <h3>Force Buildup: The Tripoli Factor</h3>
-          <p>The USS Tripoli&rsquo;s expected arrival in the CENTCOM area of operations today or tomorrow represents the most significant force addition since the war began. The Tripoli Amphibious Ready Group brings 2,200 Marines of the 31st MEU equipped with F-35B Lightning IIs, MV-22 Ospreys, CH-53K King Stallions, and AH-1Z Vipers &mdash; a combined arms package designed for exactly the kind of littoral operations the Strait of Hormuz demands. With the USS Boxer ARG (11th MEU) also deploying from San Diego, the US is building toward 4,400 additional Marines in theater, opening options that an air-only campaign cannot achieve.</p>
-          <p>The amphibious buildup, combined with Trump&rsquo;s $200 billion supplemental request and the FY2027 War Department budget of $1.5 trillion (a record), suggests contingency planning well beyond the current air and naval campaign. Analysts have speculated about limited-objective operations: securing Kharg Island (90% of Iran&rsquo;s pre-war oil exports), the Strait islands (Qeshm, Hormuz, Larak), or Iranian coastal missile sites. While Trump has publicly &ldquo;ruled out ground troops,&rdquo; the force posture tells a different story. Meanwhile, HMS Anson &mdash; a British Astute-class nuclear submarine &mdash; has been confirmed in the Arabian Sea, and the UK has dispatched two additional warships, making it the only coalition partner with tangible military assets in theater.</p>
-        </div>
-
-        <!-- What to Watch -->
-        <div class="briefing-section">
-          <h3>What to Watch</h3>
-          <ul>
-            <li><strong>48-hour ultimatum expiration: Mar 23, 7:44 PM ET</strong> &mdash; will Trump follow through? Iran has explicitly promised regional energy infrastructure destruction in response</li>
-            <li><strong>USS Tripoli arrival confirmation</strong> &mdash; CENTCOM/USNI announcement would signal new phase of operations; 2,200 Marines with amphibious capability</li>
-            <li><strong>Monday market open</strong> &mdash; first trading since ultimatum, Dimona, Diego Garcia, GL U waiver; potential for significant volatility</li>
-            <li><strong>Houthi activation</strong> &mdash; any Red Sea attacks would threaten Yanbu (Petroline terminus) and could push oil above $150/bbl</li>
-            <li><strong>IAEA access to Natanz</strong> &mdash; post-strike inspection critical for assessing damage to enrichment capability</li>
-            <li><strong>Congressional response to $200B supplemental</strong> &mdash; faces significant Republican resistance</li>
-            <li><strong>USS George H.W. Bush deployment</strong> &mdash; announcement would create rare 3-carrier Middle East posture</li>
-          </ul>
-        </div>
-
-        <div style="border-top: 1px solid var(--border); padding-top: var(--space-lg); margin-top: var(--space-xl);">
-          <p style="font-size: var(--text-xs); color: var(--text-dim); font-family: 'JetBrains Mono', monospace;">
-            Sources: CENTCOM, Adm. Brad Cooper, DoD, IAEA, IDF, Times of Israel, Al Jazeera, Haaretz, Jerusalem Post, Bloomberg, CNN, CNBC, Reuters, AP, USNI News, Stars and Stripes, The Hill, Fortune, Barchart, Investing.com, Goldman Sachs, JPMorgan, CSIS, NBC News, AAA, IMO, Lloyd&rsquo;s List, S&amp;P Global, UNHCR, OCHA, UNICEF, WHO, HRANA, Hengaw, UK GOV.UK, Kyodo News. This briefing is AI-generated analysis of publicly available data. It does not represent the views of any government or intelligence agency.
-          </p>
-        </div>
-
-        <!-- Archive CTA -->
+        <!-- Archive CTA (preserved as fallback; briefing.js replaces entire container content) -->
         <div class="briefing-archive-cta">
           <div class="briefing-archive-cta-rule"></div>
           <p class="briefing-archive-cta-label">Previous briefings are preserved in the archive</p>

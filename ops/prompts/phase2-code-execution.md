@@ -8,8 +8,9 @@ The site auto-deploys when changes are pushed to `main`.
 
 The dashboard is fully data-driven: 15 JSON files power all panels, charts,
 maps, and counters. The HTML/JS is presentation only — never modify it,
-EXCEPT for the hardcoded briefing panel in `index.html` (see BRIEFING
-CREATION section below).
+EXCEPT for the historical comparison chart title in `index.html` (see BRIEFING
+CREATION section below). The briefing panel now loads dynamically from
+`data/briefings/index.json` via `js/briefing.js`.
 
 I am providing you with an UPDATE MANIFEST — a structured intelligence
 document produced by a research agent and reviewed by the human analyst.
@@ -123,21 +124,19 @@ a required step in every daily update.
   `index.json` — no manual archive editing is needed. Adding the entry to
   `index.json` is sufficient; the archive will pick it up automatically.
 
-**Step 3: Update the hardcoded briefing panel in index.html**
-- The briefing panel in `public/index.html` (inside `<section id="panel-briefing">`)
-  contains the CURRENT day's briefing hardcoded in HTML. This is the ONE exception
-  to the "never modify HTML" rule.
-- Replace the entire contents of `<div class="briefing-container" id="briefing-content">`
-  (from the `briefing-header` through the sources footer, NOT including the
-  archive CTA at the bottom) with the Day [N] briefing content.
-- Also update the historical comparison chart title
-  (`Historical Comparison — Day [N] of Conflict`) in the same file.
+**Step 3: Update the historical comparison chart title**
+- Update the historical comparison chart title in `public/index.html`:
+  (`Historical Comparison — Day [N] of Conflict`)
+- NOTE: The briefing panel in `index.html` is now DYNAMIC. `js/briefing.js`
+  automatically fetches the latest entry from `data/briefings/index.json` and
+  loads its HTML fragment. No manual HTML editing is needed for the briefing panel.
 
 EXECUTION RULES
 ===============
-- NEVER modify website code (HTML, CSS, JS) EXCEPT for the hardcoded briefing
-  panel in `index.html` and the historical comparison chart title as described
-  in BRIEFING CREATION above. All other changes are data files ONLY.
+- NEVER modify website code (HTML, CSS, JS) EXCEPT for the historical comparison
+  chart title in `index.html` as described in BRIEFING CREATION above. All other
+  changes are data files ONLY. The briefing panel loads dynamically from
+  `data/briefings/index.json` — no HTML editing needed for briefings.
 - NEVER modify files that the manifest does not reference.
 - Preserve existing array order unless the manifest specifies reordering.
 - If the manifest contains a DISCREPANCIES section (Section 9), SKIP those
@@ -196,7 +195,7 @@ calculator.json:
 briefing:
   - day-[N].html created: [yes/no]
   - index.json updated: [yes/no]
-  - index.html briefing panel updated: [yes/no]
+  - (briefing panel loads dynamically — no index.html edit needed)
 
 SKIPPED (discrepancies): [N] items
 ERRORS: [list or "none"]
