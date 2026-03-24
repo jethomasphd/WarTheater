@@ -88,12 +88,19 @@ JSON files only. The JS/HTML should never need to change for data updates.
 - Skip anything in the manifest's DISCREPANCIES section (Section 9)
 - If an entry ID is not found, report as error — do not create a new entry
 
-## Briefing Archive Architecture
+## Briefing Architecture (Dynamic Loading)
 
-The archive page (`public/archive.html`) dynamically loads briefings — no hardcoded HTML.
+Both the main dashboard and the archive page load briefings dynamically from
+`data/briefings/index.json` — no hardcoded HTML anywhere.
 
-**How it works:**
-1. `archive.html` fetches `data/briefings/index.json` on page load
+**How the main dashboard works (`js/briefing.js`):**
+1. Fetches `data/briefings/index.json` on page load
+2. Sorts by `day` descending, picks the highest (latest) entry
+3. Fetches that entry's HTML fragment file and injects it into `#briefing-content`
+4. Appends the "Enter The Archive" CTA link after the briefing content
+
+**How the archive page works (`archive.html`):**
+1. Fetches `data/briefings/index.json` on page load
 2. Sorts entries by `day` descending (most recent first)
 3. Renders each briefing as a collapsible card (day label + headline)
 4. The latest briefing auto-expands and lazy-loads its HTML
@@ -102,8 +109,7 @@ The archive page (`public/archive.html`) dynamically loads briefings — no hard
 **Daily update workflow for briefings:**
 1. Create `public/data/briefings/day-[N].html` — the briefing content (HTML fragment, not a full page)
 2. Append an entry to `public/data/briefings/index.json` with day, date, label, headline, and file path
-3. Update the hardcoded briefing panel in `index.html` (the ONE exception to "never modify HTML")
-4. That's it — `archive.html` picks up the new briefing automatically from `index.json`
+3. That's it — both `index.html` and `archive.html` pick up the new briefing automatically
 
 **Briefing HTML files** are HTML fragments (not full pages). They use the dashboard's CSS classes:
 - `briefing-header`, `briefing-date` — title block
