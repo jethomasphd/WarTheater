@@ -15,8 +15,8 @@
     "mission_summary": "Primary strike platform — deep strike into Iran and attrition of Iranian naval capabilities",
     "deployed_since": "2025-11-21",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 24: Sole operational carrier in direct theater. Operating in Arabian Sea 'close to Iran.' Chinese satellite intelligence claimed Lincoln pulled back to waters off SW Oman coast — unverified. CENTCOM Adm. Cooper: 8,000+ targets, 130+ vessels destroyed, missile fire down 90%, drones down 83%. US maintains air superiority over Iran. Strait 'physically open' but ships avoid due to Iranian fire. 50,000+ US in CENTCOM AOR.",
-    "source": "USNI Fleet Tracker 3/16, CENTCOM 3/23, Adm. Brad Cooper, CNBC"
+    "notes": "Day 25: Sole operational carrier in direct theater. Active combat ops: F/A-18 launches, Tomahawk strikes ongoing. CSG-3 with CVW-9, DESRON 21. CENTCOM updated Mar 24: 9,000+ targets struck, 140+ vessels destroyed, 9,000+ combat flights. USS Mitscher (DDG-57) and USS Michael Murphy (DDG-112) active in Persian Gulf/Strait patrols. USS Spruance (DDG-111) fired Tomahawks from Arabian Sea.",
+    "source": "USNI Fleet Tracker 3/23, CENTCOM 3/24, CBS News, CNBC"
   },
   {
     "id": "cvn-78",
@@ -33,8 +33,8 @@
     "mission_summary": "Arrived Souda Bay, Crete Mar 23 for emergency pierside repairs — at least 1 week — 270+ days deployed",
     "deployed_since": "2025-05-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 24: Arrived at NSA Souda Bay, Crete on Mar 23 for emergency pierside repairs following non-combat fire Mar 12 in aft laundry facility. Two sailors injured, 200+ treated for smoke inhalation, 600+ lost berthing. Expected stay at least 1 week. Escorts (DDGs) remain on station. Deployed since June 24, 2025 (~9 months). If stays until mid-April, would set longest carrier deployment since Vietnam.",
-    "source": "USNI News, Navy Times, Reuters, NYT 3/17, CNN 3/17, Kathimerini, USNI Fleet Tracker 3/16"
+    "notes": "Day 25: At NSA Souda Bay, Crete for pierside repairs. Arrived Mar 23 following non-combat fire Mar 12 in aft laundry facility. 1+ week expected. 600+ sailors displaced; 1,000 mattresses shipped from CVN-79 Kennedy. 272 days deployed, nearing post-Vietnam record. Navy says 'fully mission capable.' Escorts USS Bainbridge (DDG-96) and USS Mahan (DDG-72) remain with Ford.",
+    "source": "USNI News, Navy official announcement, USNI Fleet Tracker 3/23"
   },
   {
     "id": "cvn-77",
@@ -51,8 +51,8 @@
     "mission_summary": "Awaiting deployment — needs minor maintenance and pre-deployment leave — earliest departure ~March 30",
     "deployed_since": null,
     "operation_start_date": null,
-    "notes": "Day 24: Completed COMPTUEX certification ~Mar 5; at Norfolk, deploy-ready. Atlantic Council tracker (Mar 18) noted 'reportedly being considered to join Operation Epic Fury.' No official deployment order confirmed. Would create rare 3-carrier Middle East posture if deployed.",
-    "source": "WHRO/Navy spokesman 3/16, USNI News 3/6, Navy Times 3/9, 19FortyFive 3/11, DPI 3/16"
+    "notes": "Day 25: Deployment-certified (COMPTUEX Mar 5); CSG-10/CVW-7 ready at Norfolk. Widely expected for Med/ME deployment but NO confirmed orders as of Mar 24. CO Bibeau: 'When they need us…we are ready.' Creating rare potential 3-carrier Middle East posture if deployed.",
+    "source": "USNI News (Mar 6), Navy Times, USNI Fleet Tracker 3/23"
   },
   {
     "id": "lha-7",
@@ -60,19 +60,19 @@
     "hull": "LHA-7",
     "type": "amphibious",
     "strike_group": "Tripoli Amphibious Ready Group / 31st Marine Expeditionary Unit",
-    "lat": 20.00,
-    "lng": 60.00,
-    "area": "CENTCOM AOR — Arabian Sea / Gulf of Oman (ETA Mar 25-30 for full operational capability)",
+    "lat": 18.00,
+    "lng": 62.00,
+    "area": "Arabian Sea — entering CENTCOM AOR ~March 25 per WSJ",
     "aircraft": "F-35B Lightning II (VMFA-121), MV-22B Osprey (VMM-265), AH-1Z Viper, UH-1Y Venom, CH-53K King Stallion",
     "escorts": ["LPD-18 USS New Orleans", "CG-62 USS Robert Smalls", "DDG-115 USS Rafael Peralta"],
-    "status": "ARRIVING — ETA CENTCOM AOR MAR 25-30",
+    "status": "ARRIVING — ENTERS CENTCOM AOR ~MAR 25",
     "mission_summary": "Rapid-response force for Strait of Hormuz — littoral warfare, mine countermeasures, maritime security, potential island seizure operations",
     "deployed_since": "2026-03-13",
     "operation_start_date": null,
     "eta_theater": "2026-03-25 to 2026-03-30",
-    "notes": "Day 24: Departed Okinawa ~Mar 11, transited Strait of Malacca ~Mar 18. ETA in CENTCOM AOR: Mar 25-30. USS San Diego (LPD-22) did NOT transit Malacca — remained at Sasebo. Composition: Tripoli + USS New Orleans (LPD-18) + CG-62 + DDG-115. 31st MEU embarked (VMFA-121 F-35Bs, ~2,200-2,500 Marines). Most significant force addition since war began.",
+    "notes": "Day 25: WSJ confirmed (Mar 24) Tripoli ARG enters CENTCOM AOR approximately March 25 (Friday). Several additional days to reach Hormuz area. Diego Garcia as of Mar 23 per USNI Fleet Tracker. ~2,200 Marines (31st MEU), ~20 F-35Bs. Most significant force addition since war began.",
     "replaces": "lha-6 (USS America — unconfirmed in theater)",
-    "source": "Reuters footage 3/17, USNI News 3/13, Axios 3/13, CNN, GlobalSecurity.org, USNI Fleet Tracker 3/16"
+    "source": "WSJ (Mar 24), USNI Fleet Tracker (Mar 23), Reuters, USNI News"
   },
   {
     "id": "lcs-mcm-bahrain",
@@ -146,8 +146,8 @@
     "deployed_since": "2026-03-19",
     "operation_start_date": null,
     "eta_theater": "2026-04-09",
-    "notes": "Day 24: Departed San Diego Mar 18-19 in 'accelerated deployment.' USS Portland (LPD-27) and USS Comstock (LSD-45) departed Mar 19-20. Currently transiting Pacific — weeks from the Middle East. 11th MEU embarked. Combined with Tripoli ARG, will bring ~4,400 additional Marines to theater.",
-    "source": "Pentagon / USNI News / CNN 3/19"
+    "notes": "Day 25: Departed San Diego Mar 18-19 in 'accelerated deployment.' Currently transiting Pacific — ETA theater early-to-mid April (~3 weeks from departure). 11th MEU embarked (~2,200 Marines), F-35Bs. Combined with Tripoli ARG arrival, will bring ~4,400 additional Marines to theater. Indo-Pacific coverage gap: only CVN-73 George Washington (in maintenance at Yokosuka) remains in Pacific.",
+    "source": "USNI Fleet Tracker (Mar 23), AP, Stars and Stripes, Pentagon"
   },
   {
     "id": "ssn-anson",

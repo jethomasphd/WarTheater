@@ -1,45 +1,45 @@
 {
-  "last_updated": "2026-03-23",
-  "war_day": 24,
-  "timestamp_label": "LAST UPDATED: MAR 23, 2026 13:40 ET",
+  "last_updated": "2026-03-24",
+  "war_day": 25,
+  "timestamp_label": "LAST UPDATED: MAR 24, 2026 12:48 ET",
   "cost": {
     "brent": {
-      "price": 104.00,
+      "price": 103.50,
       "label": "Brent Crude $/bbl",
-      "change": "+46.5% since Feb 27 — crashed 13.6% to $96.91 on Trump pause, settled ~$104; historic single-day swing",
-      "tooltip": "Brent Crude: The international benchmark. Pre-war close: $71.00/bbl (Feb 27). Mar 23 (Mon): Crashed from $112.19 to intraday low $96.91 (-13.6%) on Trump's 5-day postponement of power plant strikes, then recovered to settle ~$104 (-7.3% on day). Largest single-day oil price swing of the war. Goldman Sachs raised March-April avg forecast to $110; warns could exceed $147 if Hormuz stays at 5% of normal for 10 weeks. IEA: 'largest supply disruption in history.' Source: ICE Futures Europe / CNBC / Reuters."
+      "change": "+45.8% since Feb 27 — rebounded 3-4% after Mon crash as Iran denied talks; Hormuz still closed; 12+ mines confirmed",
+      "tooltip": "Brent Crude: The international benchmark. Pre-war close: $71.00/bbl (Feb 27). Mar 24 (Tue): Rebounded ~3-4% to ~$103-104 after Iran denied Trump's peace talk claims, erasing Monday's crash. Mar 23 saw largest single-day swing of war ($112→$97→$104). Strait still functionally closed (~95-97% traffic reduction). 12+ Iranian mines confirmed (CBS). Goldman Sachs March-April avg forecast $110; warns could exceed $147. IEA: 'largest supply disruption in history.' Source: ICE Futures Europe / CNBC / CNN."
     },
     "wti": {
-      "price": 91.40,
+      "price": 91.50,
       "label": "WTI Crude $/bbl",
-      "change": "+37.4% since Feb 27 — crashed to $85.66 (-12.8%) on Trump pause, settled ~$91.40; gasoline futures -9%",
-      "tooltip": "West Texas Intermediate: The US benchmark. Pre-war close: $66.50/bbl (Feb 27). Mar 23 (Mon): Crashed from $98.32 to intraday low $85.66 (-12.8%) on Trump postponement, settled ~$91.40 (-6.9%). Gasoline futures fell 9%, diesel futures -8.5%. Goldman raised March-April Brent avg to $110. Source: NYMEX / CNBC / Reuters."
+      "change": "+37.6% since Feb 27 — rebounded 3-4% to ~$91-92; oil market remains volatile on diplomacy signals",
+      "tooltip": "West Texas Intermediate: The US benchmark. Pre-war close: $66.50/bbl (Feb 27). Mar 24 (Tue): Rebounded ~3-4% to ~$91-92 after Iran FM Araghchi denied talks, saying 'we don't ask for ceasefire.' Previous session crashed 12.8% to $85.66 before recovering. Gas at $3.956/gal national average. Goldman raised March-April Brent avg to $110. Source: NYMEX / CNBC / CNN."
     },
     "gas": {
       "price": 3.96,
       "label": "US Gas Avg/Gal",
-      "change": "+$0.98 / +32.9% since Feb 27 — 23rd consecutive daily increase — highest since Aug 2022 — CA $5.53+",
-      "tooltip": "National average retail gasoline price. Pre-war: $2.98/gal (Feb 27). AAA Mar 23: $3.96/gal (+32.9% since war began). 23rd consecutive daily increase. Highest since August 2022. Up ~$1.00/gal from a month ago. California $5.53+/gal. Wholesale gasoline futures fell 9% Monday on Trump pause, but retail prices lag wholesale by days. Source: AAA / CNBC / NBC News."
+      "change": "+$0.98 / +32.9% since Feb 27 — $3.956 AAA avg — +$0.24/week — +$1.02/month — CA $5.65 — OK $3.25",
+      "tooltip": "National average retail gasoline price. Pre-war: $2.98/gal (Feb 27). AAA Mar 24: $3.956/gal (+32.9% since war began). Up $0.24 from a week ago. Up ~$1.02 from a month ago. California $5.65/gal (highest). Oklahoma $3.25/gal (lowest). Wholesale gasoline futures fell 9% Monday on Trump pause, but retail prices lag wholesale by days. Source: AAA / CNBC."
     },
     "sp500": {
-      "value": 6628,
+      "value": 6570,
       "label": "S&P 500",
-      "change": "-251 pts / -3.6% — massive relief rally +1.7-2.2% on Trump pause; Dow +960 pts; 445 of 503 advancing",
-      "tooltip": "S&P 500 index. Pre-war close: 6,878.88 (Feb 27). Mar 23 (Mon): ~6,628 (+1.7-2.2% on day). Massive relief rally on Trump's 5-day postponement of power plant strikes. Dow gained ~960-1,000 points (+2.1%). Nasdaq +2.3%. Russell 2000 +3%+. 445 of 503 S&P constituents advancing. Defense stocks fell: LMT -1.58%, RTX -1.28%. Energy stocks fell with oil: XOM -1.7%, OXY -4.0%. Gold crashed 6.3% to $4,285.70. Asian markets did NOT benefit: Nikkei -3.5%, Kospi -6.5%. Source: NYSE / CNBC / Reuters."
+      "change": "-309 pts / -4.5% — roughly flat Tue after Mon's +1.7% rally; volatile on Iran denial of talks; defense -1.5%; energy outperforms",
+      "tooltip": "S&P 500 index. Pre-war close: 6,878.88 (Feb 27). Mar 24 (Tue): ~6,559-6,588 range, roughly flat to -0.3% on day. Iran's denial of any negotiations reversed some of Monday's relief rally optimism. Defense stocks fell ~1.5% on residual de-escalation hopes (LMT -1.64%, RTX -1.42%). Energy stocks outperformed with oil rebound (XOM +2.8%, CVX +1.01%). Dow ~flat at ~46,250. Source: NYSE / CNBC / Reuters."
     },
     "daily_cost": {
       "value": 1000,
       "unit": "M",
       "label": "Est. Daily US Cost",
-      "note": "~$1.0-1.43B/day — 8,000+ targets — 130+ vessels destroyed — $200B supplemental pending — 5-day pause on power plants",
-      "tooltip": "Estimated daily operational cost. Day 24: Trump postponed power plant strikes for 5 days, claiming 'productive conversations' with Iran. Strikes continue on all other fronts — IDF struck Tehran, Iran struck Netanya, Gulf states intercepted fresh barrages. 8,000+ targets struck, 8,000+ combat sorties, 130+ naval vessels destroyed. 50,000+ US troops in CENTCOM AOR. CSIS/WSJ estimate $1.0-1.43B/day. $200B supplemental pending. Source: CENTCOM / CSIS / WSJ."
+      "note": "~$1.0-1.43B/day — 9,000+ targets — 140+ vessels destroyed — $200B supplemental pending — 5-day pause on power plants (deadline ~Mar 28)",
+      "tooltip": "Estimated daily operational cost. Day 25: Trump's 5-day pause on power plant strikes continues (deadline ~Mar 28). CENTCOM updated totals: 9,000+ US targets struck, 9,000+ combat flights, 140+ vessels destroyed. IAF struck 50+ targets overnight in Iran. US struck Iran-backed commander in Iraq's Anbar province. Pakistan emerging as lead mediator; Islamabad meeting being arranged. 50,000+ US troops in CENTCOM AOR. Source: CENTCOM / CBS / CSIS / WSJ."
     },
     "total_cost": {
-      "value": 28.3,
+      "value": 29.3,
       "unit": "B",
-      "label": "Est. Total Cost (24 Days)",
-      "note": "Pentagon $11.3B Day 6 + CSIS $16.5B Day 12 + ~$1B/day ongoing — ~$28-34B range — $200B supplemental pending",
-      "tooltip": "Cumulative estimated cost since Feb 28. Pentagon: $11.3B through Day 6. CSIS: $16.5B through Day 12. Extrapolated through Day 24 at ~$1-1.43B/day: ~$28-34B range. No official Day 24 total released. Penn Wharton: $40-95B direct + up to $210B total economic impact. $200B supplemental pending (faces Republican resistance). FY2027 War Dept budget: $1.5T (record). Source: Pentagon / CSIS / Penn Wharton / The Intercept."
+      "label": "Est. Total Cost (25 Days)",
+      "note": "Pentagon $11.3B Day 6 + CSIS $16.5B Day 12 + ~$1B/day ongoing — ~$29-35B range — $200B supplemental pending",
+      "tooltip": "Cumulative estimated cost since Feb 28. Pentagon: $11.3B through Day 6. CSIS: $16.5B through Day 12. Extrapolated through Day 25 at ~$1-1.43B/day: ~$29-35B range. No official Day 25 total released. $200B supplemental pending but faces significant Republican resistance. Harvard est: $1T+ long-term total cost incl. $600B future medical. Source: Pentagon / CSIS / CNBC / Harvard."
     }
   },
   "history": [
@@ -242,14 +242,22 @@
       "targets_struck": 25000, "us_kia": 14, "us_wia": 200,
       "iranian_killed": 5900, "lebanese_killed": 1029,
       "displaced": 4100000, "flights_cancelled": 52000, "children_killed": 338
+    },
+    {
+      "date": "2026-03-24", "war_day": 25,
+      "brent": 103.50, "wti": 91.50, "gas": 3.96, "sp500": 6570,
+      "daily_cost_millions": 1000, "total_cost_billions": 29.3,
+      "targets_struck": 26000, "us_kia": 14, "us_wia": 200,
+      "iranian_killed": 5900, "lebanese_killed": 1029,
+      "displaced": 4200000, "flights_cancelled": 52000, "children_killed": 338
     }
   ],
   "toll": {
     "targets_struck": {
-      "value": 25000,
+      "value": 26000,
       "label": "Targets Struck",
-      "note": "CENTCOM: 8,000+ US — 8,000+ sorties — 130+ vessels destroyed — ~25,000+ combined est. — strikes continue despite diplomatic pause",
-      "tooltip": "Total targets struck by US and Israeli forces since Feb 28. CENTCOM (Mar 23): 8,000+ US targets, 8,000+ combat sorties, 130+ naval vessels destroyed. Iran's ballistic missile fire down 90%, drone attacks down 83%. IDF struck Tehran on Mar 23 despite Trump's 5-day pause on power plants. Strikes continue on all non-power-plant targets. Combined US/Israeli extrapolated ~25,000+. Source: CENTCOM / IDF / CNBC.",
+      "note": "CENTCOM: 9,000+ US — 9,000+ sorties — 140+ vessels destroyed — ~26,000+ combined est. — IDF: 3,000+ Iran targets — 50+ overnight",
+      "tooltip": "Total targets struck by US and Israeli forces since Feb 28. CENTCOM (Mar 24): 9,000+ US targets, 9,000+ combat flights, 140+ naval vessels destroyed. IDF cumulative: 3,000+ targets in Iran (CNN). IAF struck 50+ targets overnight Mar 24. CENTCOM update via CBS News. Combined US/Israeli extrapolated ~26,000+. Source: CENTCOM / IDF / CBS News / CNN.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
@@ -281,10 +289,10 @@
       "color": "var(--hezbollah)"
     },
     "displaced": {
-      "value": 4100000,
+      "value": 4200000,
       "label": "Displaced Persons",
-      "note": "4.1M+ across Iran, Lebanon, Afghanistan, Pakistan — 3,000+ vessels stranded — 15,000 cruise passengers — UNHCR / OCHA",
-      "tooltip": "People displaced from their homes across all fronts. UNHCR: 4.1M+ internally displaced across Afghanistan, Iran, Lebanon, and Pakistan since escalation began. Iran: 3.2M (UNHCR Mar 12). Lebanon: 1M+ (~19% of pop). 125,000+ Lebanese crossed into Syria. 3,000+ vessels stranded (IMO). 600+ in immediate Gulf area. 15,000 cruise passengers on 6+ ships. 40,000+ sailors stranded. Iran internet traffic down 98%. Source: UNHCR / OCHA / IMO.",
+      "note": "4.2M+ across Iran, Lebanon, Afghanistan, Pakistan — 3,000+ vessels stranded — 400 in Gulf of Oman — UNHCR / OCHA",
+      "tooltip": "People displaced from their homes across all fronts. UNHCR: 4.2M+ internally displaced across Afghanistan, Iran, Lebanon, and Pakistan. Iran: 3.2M (UNHCR). Lebanon: 1M+ (~19% of pop). 125,000+ Lebanese crossed into Syria. 3,000+ vessels stranded (IMO). ~400 vessels backed up in Gulf of Oman (Windward). 40,000+ sailors stranded. Source: UNHCR / OCHA / IMO / Windward.",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
@@ -297,8 +305,8 @@
     "children_killed": {
       "value": 338,
       "label": "Children Killed",
-      "note": "Iran 210+ (Health Min) + Hengaw 127 minors + Lebanon 111+ + Israel 4 + Kuwait 1 — 1,800+ killed or injured",
-      "tooltip": "Children killed in the conflict. Iran Health Ministry: 210+ children killed. Hengaw: 127 minors among 595 civilian dead. Lebanon: 111+ children. Israel: 4. Kuwait: 1. UNICEF (post-Mar 12): 1,800+ children killed or injured across region. 'One classroom of children every day' — UNICEF. Dimona/Arad Day 22: 19 children hospitalized incl. 12-year-old boy and 5-year-old girl in serious condition. 36 total hospitalized from Dimona/Arad. Source: UNICEF / Iran Health Min / Hengaw / Lebanese MoPH.",
+      "note": "Iran 210+ (Health Min) + HRANA 214 + Lebanon 118+ + Israel 4 + Kuwait 1 — 2,100+ killed or injured — UNICEF",
+      "tooltip": "Children killed in the conflict. Iran Health Ministry: 210+ children killed. HRANA (Mar 23): 214 children confirmed killed in Iran. Lebanon: 118+ children (UNICEF). Israel: 4. Kuwait: 1. UNICEF (Mar 17): 2,100+ children killed or injured total across region. 324 children killed (206 Iran, 118 Lebanon). Source: UNICEF / Iran Health Min / HRANA / Lebanese MoPH.",
       "color": "var(--civilian)"
     }
   }
