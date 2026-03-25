@@ -58,10 +58,10 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "2 killed. Bapco Sitra refinery under force majeure since March 9.",
     "casualties_source": "Bahrain Ministry of Interior / Bahrain Defence Force / Xinhua",
-    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
-    "notes": "US Fifth Fleet / NAVCENT HQ. Cumulative interceptions: 139 missiles and 238 drones since Feb 28. Defence Force reported shooting down 5 missiles recently. Bapco's 380,000 bpd Sitra refinery remains under force majeure since March 9.",
+    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 26],
+    "notes": "US Fifth Fleet / NAVCENT HQ. Day 26 (Mar 25): Bahrain air raid sirens activated. Cumulative since war start: 153 missiles and 301 drones intercepted. IRGC fires 'precision-guided' missiles and drones at US-hosting bases in Bahrain.",
     "verified": true,
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-25"
   },
   {
     "id": "erbil-iraq",
@@ -74,10 +74,10 @@
     "first_strike": "2026-03-01",
     "casualties_reported": "1 French chief warrant officer KIA. Several French soldiers wounded. 1 airport guard killed. Iraqi Kurdish casualties reported. 27 total killed in Iraq (including 21 pro-Iran faction fighters, 3 Iranian Kurdish fighters, 1 civilian near Baghdad).",
     "casualties_source": "KRG / ACLED / French MoD / Al Jazeera",
-    "active_days": [2, 3],
-    "notes": "US consulate area and Erbil International Airport targeted. Smoke seen rising from US base near airport. Kurdish Peshmerga positions also targeted. French soldiers casualties confirmed in Erbil region attack.",
+    "active_days": [2, 3, 26],
+    "notes": "Day 26 (Mar 25): 6 Kurdish Peshmerga killed, 30 wounded in Iranian ballistic missile strikes north of Erbil. Cumulative: US consulate area, airport targeted. French soldier KIA. Kurdish Peshmerga positions targeted.",
     "verified": true,
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-03-25"
   },
   {
     "id": "ain-al-asad-iraq",
@@ -122,10 +122,10 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "18 Israeli civilians killed total since Feb 28. 4,002+ injured. Thai worker killed by cluster munitions at Adanim (Mar 19). 3 women killed in West Bank salon (Mar 19).",
     "casualties_source": "IDF / Magen David Adom / Israeli media",
-    "active_days": [1, 2, 3, 5, 12, 13, 14, 18, 19, 20, 21],
-    "notes": "Cumulative: 300 Iranian attack waves on Israel since Feb 28. 19 attack waves on March 19 alone — 6 at Tel Aviv, 6 northern, 5 Jerusalem, 2 southern. Mar 20: missile struck Jerusalem's Old City. Iran used cluster munitions Mar 19 in central Israel — Thai agricultural worker killed at Adanim in Sharon region. 3 women killed in Bayt Awwa, West Bank when rocket fragments struck hair salon. 18 total Israeli civilians killed, 4,002+ injured.",
+    "active_days": [1, 2, 3, 5, 12, 13, 14, 18, 19, 20, 21, 26],
+    "notes": "Day 26 (Mar 25): Missile hits Tel Aviv street — air defenses fail to intercept. Significant property damage, vehicles destroyed. Missile alerts across Israel: sirens in Dimona (near Negev Nuclear Research Center), Eilat, Netanya, central Israel. IRGC fires 'precision-guided' missiles and drones at Israel. Total Israeli killed since Feb 28: 17-18 (15 civilians + 2-3 soldiers). 4,800+ wounded (Al Jazeera tracker).",
     "verified": true,
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-03-25"
   },
   {
     "id": "nevatim-israel",
@@ -846,5 +846,69 @@
     "notes": "Day 25 (Mar 24): UAE intercepted ballistic missile targeting Abu Dhabi. 1 Indian national suffered minor injuries from debris.",
     "verified": true,
     "last_updated": "2026-03-24"
+  },
+  {
+    "id": "kuwait-airport-march25",
+    "city": "Kuwait International Airport",
+    "lat": 29.2266,
+    "lng": 47.9689,
+    "type": "iran_retaliation",
+    "weapon": "Drone",
+    "origin": "Iran",
+    "first_strike": "2026-03-25",
+    "casualties_reported": "No casualties. Fuel tank hit, large fire. Damage limited to property.",
+    "casualties_source": "Al Jazeera / Kuwait media",
+    "active_days": [26],
+    "notes": "Day 26 (Mar 25): Kuwait International Airport drone strike. Fuel tank hit, large fire. No casualties — 'damage limited to property.'",
+    "verified": true,
+    "last_updated": "2026-03-25"
+  },
+  {
+    "id": "saudi-32drones-march25",
+    "city": "Eastern Province, Saudi Arabia",
+    "lat": 26.43,
+    "lng": 50.10,
+    "type": "iran_retaliation",
+    "weapon": "32+ drones and 1 ballistic missile",
+    "origin": "Iran",
+    "first_strike": "2026-03-25",
+    "casualties_reported": "All intercepted. No casualties reported.",
+    "casualties_source": "Al Jazeera / Saudi media",
+    "active_days": [26],
+    "notes": "Day 26 (Mar 25): Saudi Arabia intercepted 32+ drones and 1 ballistic missile over Eastern Province (near Ras Tanura, Ghawar, Abqaiq energy facilities) in 11 hours.",
+    "verified": true,
+    "last_updated": "2026-03-25"
+  },
+  {
+    "id": "orot-rabin-israel-march25",
+    "city": "Hadera, Israel",
+    "lat": 32.4340,
+    "lng": 34.9196,
+    "type": "iran_retaliation",
+    "weapon": "Missile",
+    "origin": "Iran",
+    "first_strike": "2026-03-25",
+    "casualties_reported": "No damage or injuries reported.",
+    "casualties_source": "Israeli media / IDF",
+    "active_days": [26],
+    "notes": "Day 26 (Mar 25): Iran targets Israel's Orot Rabin power plant in Hadera — largest energy facility providing 20-25% of electricity. No damage or injuries reported. Missile defense successful.",
+    "verified": true,
+    "last_updated": "2026-03-25"
+  },
+  {
+    "id": "habbaniyah-iraq-march25",
+    "city": "Habbaniyah, Anbar Province, Iraq",
+    "lat": 33.3739,
+    "lng": 43.5683,
+    "type": "us_strike_on_militia",
+    "weapon": "US strike",
+    "origin": "US",
+    "first_strike": "2026-03-25",
+    "casualties_reported": "7 Iraqi soldiers killed, 13 wounded in Habbaniyah Military Clinic strike.",
+    "casualties_source": "NBC / Iraq Defense Ministry",
+    "active_days": [26],
+    "notes": "Day 26 (Mar 25): US strike on Habbaniyah Military Clinic in Anbar Province killed 7 Iraqi soldiers and wounded 13. Iraq grants PMF 'right to respond' after Habbaniyah attack killed 15 PMF fighters (Mar 23). Iraq summons US and Iranian diplomats. Islamic Resistance in Iraq claims 23 operations in 24 hours.",
+    "verified": true,
+    "last_updated": "2026-03-25"
   }
 ]

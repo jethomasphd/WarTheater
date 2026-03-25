@@ -1,10 +1,10 @@
 [
   {
     "label": "Hospitals Damaged",
-    "count": "31+",
-    "note": "Iran (31 major, 9 non-operational) + Lebanon",
-    "source": "Iranian Deputy Health Min. / WHO / OCHA",
-    "detail": "31 major hospitals damaged in Iran, 9 rendered non-operational per Day 7 reports, 69+ schools damaged. WHO verified 18 attacks on healthcare in Iran (8 health worker deaths) and 25 attacks on healthcare in Lebanon (16 deaths, 29 injuries) as of Mar 11. 77 healthcare facilities affected per Red Crescent. 12 medical workers killed in strike on Hezbollah-run health center Day 22. 300+ health/emergency facilities damaged per Iran Health Ministry (Day 25). 82,000+ civilian structures damaged/destroyed. 17 Red Crescent bases struck. 94 ambulances/emergency vehicles hit."
+    "count": "25+",
+    "note": "Iran (25 hospitals damaged, 9 out of service) + 14 medical centers + Lebanon",
+    "source": "Iranian Health Ministry / WHO / OCHA",
+    "detail": "25 hospitals damaged in Iran (9 out of service). 14 medical centers affected. 65 schools damaged. 5,535+ residential units, 1,041 commercial units damaged. 13 Red Crescent centers struck. 55 healthcare workers wounded, 11 killed. 300+ health/emergency facilities damaged per Iran Health Ministry. WHO verified attacks on healthcare in Iran and Lebanon. 12 medical workers killed in strike on Hezbollah-run health center Day 22."
   },
   {
     "label": "Schools Destroyed",
@@ -44,8 +44,8 @@
   {
     "label": "Bridges Destroyed",
     "count": "11+",
-    "note": "Western Iran + 3 Litani River bridges in Lebanon",
+    "note": "Western Iran + all Litani River bridges in Lebanon destroyed",
     "source": "Satellite imagery / IDF / Lebanese media",
-    "detail": "Iran: Road and rail bridges in Kermanshah, Lorestan, and Khuzestan provinces destroyed to degrade IRGC logistics. Lebanon: IDF struck Qasmiyeh Bridge over Litani River Mar 22 — Lebanese President Aoun called it 'prelude to ground invasion.' Two additional Litani crossings destroyed Mar 23, systematically severing southern Lebanon from rest of country. Defense Minister Katz ordered demolition of border villages using 'Beit Hanoun and Rafah models.'"
+    "detail": "Iran: Road and rail bridges in Kermanshah, Lorestan, and Khuzestan provinces destroyed to degrade IRGC logistics. Lebanon: IDF claims all bridges over Litani destroyed. Israel declares 'security zone' south of Litani River (~30 km) — DM Katz says displaced Lebanese 'will not return south of the Litani.' Defense Minister Katz ordered demolition of border villages using 'Beit Hanoun and Rafah models.'"
   }
 ]

@@ -2014,5 +2014,176 @@
     "category": "financial",
     "source": "Pentagon / CSIS / CNBC / Multiple",
     "data_point": "~$29.3B cumulative — oil +3-4% — Pakistan mediating — deadline Mar 28"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "02:00",
+    "title": "IDF launches 'new wide-scale attacks' on Iranian government infrastructure",
+    "description": "IDF launched new wide-scale attacks on Iranian government infrastructure, including targets in Tehran, Qazvin (northwestern Iran), and an Iranian submarine research center in Isfahan. South Tehran strike killed at least 12, wounded 28. Eastern Tehran strikes destroyed school and residential buildings.",
+    "category": "military",
+    "source": "IDF / Iranian state media",
+    "data_point": "Tehran, Qazvin, Isfahan struck — 12 killed in south Tehran"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "03:00",
+    "title": "Israeli strikes on Beirut southern suburbs after evacuation warnings",
+    "description": "IDF struck Beirut's southern suburbs after issuing renewed evacuation warnings. Streets covered in debris per AFP. Israel declared 'security zone' south of Litani River (~30 km). Defense Minister Katz said displaced Lebanese 'will not return south of the Litani.' Claims all bridges over Litani destroyed.",
+    "category": "military",
+    "source": "IDF / AFP / Al Jazeera",
+    "data_point": "Beirut suburbs struck — Israel declares Litani security zone"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "04:00",
+    "title": "IRGC fires precision-guided missiles and drones at Israel and US-hosting bases",
+    "description": "IRGC launched precision-guided missiles and drones at Israel and US-hosting bases in Kuwait, Jordan, and Bahrain. Missile hits Tel Aviv street — air defenses fail to intercept. Significant property damage, vehicles destroyed. Missile alerts triggered across Israel including Dimona, Eilat, Netanya, and central Israel.",
+    "category": "military",
+    "source": "IRGC / IDF / Israeli media",
+    "data_point": "Tel Aviv street hit — Dimona sirens — Eilat, Netanya alerts"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "05:00",
+    "title": "Iran targets Israel's Orot Rabin power plant",
+    "description": "Iran targeted Israel's Orot Rabin power plant in Hadera — the country's largest energy facility providing 20-25% of electricity. No damage or injuries reported. Missile defense intercepted successfully.",
+    "category": "military",
+    "source": "Israeli media / IDF",
+    "data_point": "Largest Israeli power plant targeted — no damage"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "06:00",
+    "title": "Kuwait International Airport drone strike — fuel tank fire",
+    "description": "Drone struck Kuwait International Airport hitting a fuel tank, causing a large fire. No casualties reported. Kuwait stated 'damage limited to property.'",
+    "category": "military",
+    "source": "Al Jazeera / Kuwait media",
+    "data_point": "Airport fuel tank hit — no casualties"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "06:30",
+    "title": "Saudi Arabia intercepts 32+ drones and 1 ballistic missile in 11 hours",
+    "description": "Saudi air defenses intercepted 32+ drones and 1 ballistic missile targeting the Eastern Province near Ras Tanura, Ghawar, and Abqaiq energy facilities over an 11-hour period.",
+    "category": "military",
+    "source": "Al Jazeera / Saudi media",
+    "data_point": "32+ drones, 1 ballistic missile intercepted over Eastern Province"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "07:00",
+    "title": "Bahrain air raid sirens activated — cumulative: 153 missiles, 301 drones intercepted",
+    "description": "Bahrain activated air raid sirens during continued Iranian attacks. Cumulative since war start: 153 missiles and 301 drones intercepted by Bahrain.",
+    "category": "military",
+    "source": "Bahrain MoD",
+    "data_point": "153 missiles + 301 drones intercepted since Feb 28"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "08:00",
+    "title": "Fars News: 'Iran will not accept a ceasefire' — equity futures cut gains",
+    "description": "Fars News Agency reported ~8:00 AM ET that Iran will not accept a ceasefire. Pre-market equity futures, which had surged >1% on ceasefire-plan headlines, were immediately cut in half.",
+    "category": "diplomatic",
+    "source": "Fars News Agency / CNBC / Bloomberg",
+    "data_point": "Iran rejects ceasefire — futures gains halved"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "10:00",
+    "title": "Pentagon confirms 82nd Airborne deployment to CENTCOM",
+    "description": "Pentagon formally confirmed deployment of 82nd Airborne Division elements to CENTCOM: HQ elements, division enablers, and 1st BCT. ~1,000-2,000 troops under Maj. Gen. Brandon Tegtmeier. IRF can deploy within 18 hours. First ground combat unit ordered to theater. Possible mission includes Kharg Island seizure.",
+    "category": "military",
+    "source": "Pentagon / The Hill",
+    "data_point": "82nd Airborne — first ground combat unit to theater — ~2,000 troops"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "11:00",
+    "title": "Iran rejects US 15-point ceasefire plan as 'extremely maximalist and unreasonable'",
+    "description": "Iran responded to the US 15-point ceasefire plan via Al Jazeera: 'extremely maximalist and unreasonable — it is not beautiful even on paper.' Iran outlined 5-7 counter-conditions including closure of all US bases in Gulf, reparations, Hormuz transit-fee arrangement, end to Israeli strikes on Hezbollah, lifting all sanctions, and preservation of missile program. IRGC spokesman Zolfaqari: 'People like us will never make a deal with you. Not now. Not ever.'",
+    "category": "diplomatic",
+    "source": "Al Jazeera / Fars News / Iranian state media",
+    "data_point": "15-point plan rejected — 5-7 counter-conditions — 'never make a deal'"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "12:00",
+    "title": "AP-NORC poll: 59% of Americans say war has 'gone too far'",
+    "description": "AP-NORC poll published showing 59% of Americans say military action has 'gone too far.' 45% extremely or very concerned about gas affordability. Significant shift in domestic opinion.",
+    "category": "political",
+    "source": "AP-NORC",
+    "data_point": "59% say 'gone too far' — 45% gas affordability concerns"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "12:30",
+    "title": "Speaker Johnson: 'Operation Epic Fury is almost done'",
+    "description": "Speaker Mike Johnson told reporters 'Operation Epic Fury is almost done... I think we're wrapping up Operation Epic Fury, and I think it will be done in short order.' Said $200B supplemental would 'probably' be part of reconciliation bill.",
+    "category": "political",
+    "source": "Anadolu Agency / Newsweek",
+    "data_point": "Speaker: 'almost done' — supplemental in reconciliation bill"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "13:00",
+    "title": "Hezbollah fires 100+ rockets at Israeli positions",
+    "description": "Hezbollah chief Naim Qassem vowed to fight 'without limits' and rejected negotiations 'under fire.' Hezbollah fired 100+ rockets at Israeli positions in Naqura, Qawzah, and northern Israel.",
+    "category": "military",
+    "source": "Al Jazeera / IDF",
+    "data_point": "100+ rockets — Qassem: fight 'without limits'"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "14:00",
+    "title": "Iraq grants PMF 'right to respond' — 7 Iraqi soldiers killed in Habbaniyah",
+    "description": "Iraq granted Popular Mobilization Forces 'right to respond' to US strikes after Habbaniyah attack killed 15 PMF fighters (Mar 23). 7 Iraqi soldiers killed, 13 wounded in Habbaniyah Military Clinic strike (Anbar Province). Iraq summoned US and Iranian diplomats. Islamic Resistance in Iraq claimed 23 operations in 24 hours.",
+    "category": "military",
+    "source": "NBC / Iraq Defense Ministry",
+    "data_point": "PMF 'right to respond' — 7 Iraqi soldiers KIA — 23 militia ops in 24 hrs"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "14:30",
+    "title": "6 Kurdish Peshmerga killed in Iranian missile strikes near Erbil",
+    "description": "6 Kurdish Peshmerga killed and 30 wounded in Iranian ballistic missile strikes north of Erbil, Iraqi Kurdistan.",
+    "category": "military",
+    "source": "CNN",
+    "data_point": "6 Peshmerga KIA, 30 wounded — Iranian missiles near Erbil"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "15:00",
+    "title": "Iran's Hormuz letter to UN/IMO — 'non-hostile' vessels may transit",
+    "description": "Iran sent a letter to the UN and IMO stating 'non-hostile vessels' may transit the Strait of Hormuz after coordination. No passage for US or Israeli vessels. Transit fees confirmed at $2M per vessel. Marks shift from total closure to selective Iranian-controlled passage system.",
+    "category": "diplomatic",
+    "source": "Iranian state media / Reuters",
+    "data_point": "Hormuz partial opening — $2M transit fee — no US/Israeli vessels"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "15:30",
+    "title": "Diplomatic channels active — Pakistan, Egypt, Turkey, China",
+    "description": "White House arranging possible in-person talks in Pakistan 'this weekend' (2 Trump officials → CNN). US agreed 'in principle.' Egypt FM says Cairo 'ready to host.' Turkey confirmed 'playing a role passing messages.' China 'supports all efforts conducive to easing tensions.'",
+    "category": "diplomatic",
+    "source": "CNN / NPR / Al Jazeera",
+    "data_point": "Pakistan in-person talks this weekend — Egypt, Turkey, China active"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "16:00",
+    "title": "Brent crude closes at $96.68 — largest single-day drop of war (−3.5%)",
+    "description": "Brent crude closed at $96.68, down 3.5% — the largest single-day drop since the war began. Intraday sank ~7% to near $93 on ceasefire-plan headlines before recovering after Iran rejection. S&P +0.6% to ~6,596. Gold rebounded +2.1% to $4,560-4,568. All 11 S&P sectors green except energy producers.",
+    "category": "financial",
+    "source": "ICE / CNBC / Bloomberg",
+    "data_point": "Brent $96.68 (−3.5%) — S&P +0.6% — gold +2.1% — all sectors green except energy"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "17:00",
+    "title": "War cost reaches ~$30.5B — Day 26 summary",
+    "description": "Cumulative war cost through Day 26 estimated at ~$30.3-30.8 billion. Pentagon sent White House $200B supplemental funding proposal. CSIS estimates replenishment cost at $3.1B+ rising ~$758M/day. Penn Wharton projects $40-95B direct military, $50-210B economic losses. 82nd Airborne deploying. 15-point ceasefire plan rejected. Brent at lowest since early war at $96.68. AP-NORC: 59% say war 'gone too far.'",
+    "category": "financial",
+    "source": "Pentagon / CSIS / Penn Wharton / AP-NORC / Multiple",
+    "data_point": "~$30.5B cumulative — $200B supplemental — 59% oppose — Brent $96.68"
   }
 ]

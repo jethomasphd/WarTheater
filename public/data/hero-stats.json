@@ -1,45 +1,45 @@
 {
-  "last_updated": "2026-03-24",
-  "war_day": 25,
-  "timestamp_label": "LAST UPDATED: MAR 24, 2026 12:48 ET",
+  "last_updated": "2026-03-25",
+  "war_day": 26,
+  "timestamp_label": "LAST UPDATED: MAR 25, 2026 15:17 ET",
   "cost": {
     "brent": {
-      "price": 103.50,
+      "price": 96.68,
       "label": "Brent Crude $/bbl",
-      "change": "+45.8% since Feb 27 — rebounded 3-4% after Mon crash as Iran denied talks; Hormuz still closed; 12+ mines confirmed",
-      "tooltip": "Brent Crude: The international benchmark. Pre-war close: $71.00/bbl (Feb 27). Mar 24 (Tue): Rebounded ~3-4% to ~$103-104 after Iran denied Trump's peace talk claims, erasing Monday's crash. Mar 23 saw largest single-day swing of war ($112→$97→$104). Strait still functionally closed (~95-97% traffic reduction). 12+ Iranian mines confirmed (CBS). Goldman Sachs March-April avg forecast $110; warns could exceed $147. IEA: 'largest supply disruption in history.' Source: ICE Futures Europe / CNBC / CNN."
+      "change": "+36.2% since Feb 27 — largest single-day drop of war (−3.5%) on ceasefire-plan headlines; partial reversal after Iran rejection",
+      "tooltip": "Brent Crude: The international benchmark. Pre-war close: $71.00/bbl (Feb 27). Mar 25 (Wed): $96.68 close, down 3.5% — largest single-day drop since war began. Intraday sank ~7% to near $93 on ceasefire-plan headlines before recovering after Iran rejected the 15-point proposal as 'extremely maximalist and unreasonable.' Now ~$17 below $113.41 war-peak (Mar 10-12). Goldman Sachs: 'largest shock in decades as share of global supply.' IEA cut demand growth by 210 kb/d; 400M bbl reserves released. Source: ICE Futures Europe / CNBC / Bloomberg / Goldman Sachs."
     },
     "wti": {
-      "price": 91.50,
+      "price": 89.01,
       "label": "WTI Crude $/bbl",
-      "change": "+37.6% since Feb 27 — rebounded 3-4% to ~$91-92; oil market remains volatile on diplomacy signals",
-      "tooltip": "West Texas Intermediate: The US benchmark. Pre-war close: $66.50/bbl (Feb 27). Mar 24 (Tue): Rebounded ~3-4% to ~$91-92 after Iran FM Araghchi denied talks, saying 'we don't ask for ceasefire.' Previous session crashed 12.8% to $85.66 before recovering. Gas at $3.956/gal national average. Goldman raised March-April Brent avg to $110. Source: NYMEX / CNBC / CNN."
+      "change": "+33.8% since Feb 27 — fell 2.7-3.6% on ceasefire plan; $89.01 close per CNBC",
+      "tooltip": "West Texas Intermediate: The US benchmark. Pre-war close: $66.50/bbl (Feb 27). Mar 25 (Wed): $89.01 close (CNBC), down ~2.7-3.6% from prev. Ceasefire-plan headlines drove prices lower before partial recovery after Iran rejection at ~8 AM ET. Gas at ~$3.96/gal national average (up 10 consecutive weeks, +$1.02 in March, +41% YTD). California $5.62/gal. Source: NYMEX / CNBC / AAA."
     },
     "gas": {
       "price": 3.96,
       "label": "US Gas Avg/Gal",
-      "change": "+$0.98 / +32.9% since Feb 27 — $3.956 AAA avg — +$0.24/week — +$1.02/month — CA $5.65 — OK $3.25",
-      "tooltip": "National average retail gasoline price. Pre-war: $2.98/gal (Feb 27). AAA Mar 24: $3.956/gal (+32.9% since war began). Up $0.24 from a week ago. Up ~$1.02 from a month ago. California $5.65/gal (highest). Oklahoma $3.25/gal (lowest). Wholesale gasoline futures fell 9% Monday on Trump pause, but retail prices lag wholesale by days. Source: AAA / CNBC."
+      "change": "+$0.98 / +32.9% since Feb 27 — ~$3.96 AAA avg — up 10 consecutive weeks — +$1.02 in March — +41% YTD — CA $5.62",
+      "tooltip": "National average retail gasoline price. Pre-war: $2.98/gal (Feb 27). AAA Mar 25: ~$3.96/gal (+32.9% since war began). Up 10 consecutive weeks. +$1.02 in March alone. +41% YTD. California $5.62/gal (highest). AP-NORC poll: 45% extremely/very concerned about gas affordability. 59% say war has 'gone too far.' Source: AAA / AP-NORC / CNBC."
     },
     "sp500": {
-      "value": 6570,
+      "value": 6596,
       "label": "S&P 500",
-      "change": "-309 pts / -4.5% — roughly flat Tue after Mon's +1.7% rally; volatile on Iran denial of talks; defense -1.5%; energy outperforms",
-      "tooltip": "S&P 500 index. Pre-war close: 6,878.88 (Feb 27). Mar 24 (Tue): ~6,559-6,588 range, roughly flat to -0.3% on day. Iran's denial of any negotiations reversed some of Monday's relief rally optimism. Defense stocks fell ~1.5% on residual de-escalation hopes (LMT -1.64%, RTX -1.42%). Energy stocks outperformed with oil rebound (XOM +2.8%, CVX +1.01%). Dow ~flat at ~46,250. Source: NYSE / CNBC / Reuters."
+      "change": "-283 pts / -4.1% — +0.6% on ceasefire plan + oil plunge; all sectors green except energy; approaching 200-day MA",
+      "tooltip": "S&P 500 index. Pre-war close: 6,878.88 (Feb 27). Mar 25 (Wed): ~6,596 (+0.6%). Second day of rebound. Pre-market futures surged >1% on 15-point ceasefire plan, cut in half after Iran rejection at 8 AM ET, recovered through session. Approached but did not breach 200-day MA (~6,624). All 11 sectors green except energy producers. Dow ~46,454 (+0.72%). Nasdaq ~21,985 (+0.92%). ARM +15%, AMD/Intel +5% each. VIX 26.3 (−0.65). Source: NYSE / CNBC / Bloomberg."
     },
     "daily_cost": {
-      "value": 1000,
+      "value": 1250,
       "unit": "M",
       "label": "Est. Daily US Cost",
-      "note": "~$1.0-1.43B/day — 9,000+ targets — 140+ vessels destroyed — $200B supplemental pending — 5-day pause on power plants (deadline ~Mar 28)",
-      "tooltip": "Estimated daily operational cost. Day 25: Trump's 5-day pause on power plant strikes continues (deadline ~Mar 28). CENTCOM updated totals: 9,000+ US targets struck, 9,000+ combat flights, 140+ vessels destroyed. IAF struck 50+ targets overnight in Iran. US struck Iran-backed commander in Iraq's Anbar province. Pakistan emerging as lead mediator; Islamabad meeting being arranged. 50,000+ US troops in CENTCOM AOR. Source: CENTCOM / CBS / CSIS / WSJ."
+      "note": "~$1.0-1.5B/day — 9,000+ targets — 9,000+ sorties — 82nd Airborne deploying — $200B supplemental proposed — power plant pause deadline ~Mar 28",
+      "tooltip": "Estimated daily operational cost. Day 26: ~$1.0-1.5B/day. 82nd Airborne deployment confirmed — HQ, division enablers, and 1st BCT deploying to CENTCOM. Pentagon sent White House $200B supplemental funding proposal. Speaker Johnson: 'Operation Epic Fury is almost done.' Penn Wharton: $40-95B direct military ($65B most likely), $50-210B economic ($115B most likely). Replenishment cost $3.1B+ and rising ~$758M/day (CSIS). Source: Pentagon / CSIS / The Hill / Penn Wharton."
     },
     "total_cost": {
-      "value": 29.3,
+      "value": 30.55,
       "unit": "B",
-      "label": "Est. Total Cost (25 Days)",
-      "note": "Pentagon $11.3B Day 6 + CSIS $16.5B Day 12 + ~$1B/day ongoing — ~$29-35B range — $200B supplemental pending",
-      "tooltip": "Cumulative estimated cost since Feb 28. Pentagon: $11.3B through Day 6. CSIS: $16.5B through Day 12. Extrapolated through Day 25 at ~$1-1.43B/day: ~$29-35B range. No official Day 25 total released. $200B supplemental pending but faces significant Republican resistance. Harvard est: $1T+ long-term total cost incl. $600B future medical. Source: Pentagon / CSIS / CNBC / Harvard."
+      "label": "Est. Total Cost (26 Days)",
+      "note": "Pentagon $11.3B Day 6 + CSIS $16.5B Day 12 + ~$1-1.5B/day ongoing — ~$30.3-30.8B — $200B supplemental proposed",
+      "tooltip": "Cumulative estimated cost since Feb 28. Pentagon: $11.3B through Day 6. CSIS: $16.5B through Day 12. Extrapolated through Day 26: ~$30.3-30.8B. Pentagon sent $200B supplemental to White House. Speaker Johnson says 'probably' part of reconciliation bill. Penn Wharton full-war projection: $40-95B direct military, $50-210B economic losses. Replenishment: $3.1B+ (~$758M/day). Source: Pentagon / CSIS / The Hill / Penn Wharton."
     }
   },
   "history": [
@@ -250,42 +250,50 @@
       "targets_struck": 26000, "us_kia": 14, "us_wia": 200,
       "iranian_killed": 5900, "lebanese_killed": 1029,
       "displaced": 4200000, "flights_cancelled": 52000, "children_killed": 338
+    },
+    {
+      "date": "2026-03-25", "war_day": 26,
+      "brent": 96.68, "wti": 89.01, "gas": 3.96, "sp500": 6596,
+      "daily_cost_millions": 1250, "total_cost_billions": 30.55,
+      "targets_struck": 27000, "us_kia": 14, "us_wia": 140,
+      "iranian_killed": 5900, "lebanese_killed": 1072,
+      "displaced": 4200000, "flights_cancelled": 52000, "children_killed": 338
     }
   ],
   "toll": {
     "targets_struck": {
-      "value": 26000,
+      "value": 27000,
       "label": "Targets Struck",
-      "note": "CENTCOM: 9,000+ US — 9,000+ sorties — 140+ vessels destroyed — ~26,000+ combined est. — IDF: 3,000+ Iran targets — 50+ overnight",
-      "tooltip": "Total targets struck by US and Israeli forces since Feb 28. CENTCOM (Mar 24): 9,000+ US targets, 9,000+ combat flights, 140+ naval vessels destroyed. IDF cumulative: 3,000+ targets in Iran (CNN). IAF struck 50+ targets overnight Mar 24. CENTCOM update via CBS News. Combined US/Israeli extrapolated ~26,000+. Source: CENTCOM / IDF / CBS News / CNN.",
+      "note": "CENTCOM: 9,000+ US — 9,000+ combat flights — 130+ vessels — ~27,000+ combined est. — IDF: wide-scale attacks on Tehran govt infrastructure",
+      "tooltip": "Total targets struck by US and Israeli forces since Feb 28. CENTCOM (Mar 25): 9,000+ US targets, 9,000+ combat flights confirmed (CBS). IDF launched 'new wide-scale attacks' on Iranian government infrastructure including Tehran, Qazvin, Isfahan submarine research center. South Tehran strike killed 12, wounded 28. Combined US/Israeli extrapolated ~27,000+ through Day 26. Source: CENTCOM / IDF / CBS News.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
       "value": 14,
       "label": "US Military Deaths",
-      "note": "13 KIA hostile + 1 health-related death in Kuwait — ~200 wounded",
-      "tooltip": "US military deaths. 7 by enemy fire: 6 at Port Shuaiba, Kuwait (Day 2), 1 died of wounds at Prince Sultan AB (Day 9). 6 killed in KC-135 crash over Iraq (Day 13, non-hostile). 1 health-related death in Kuwait. Total: 13 hostile + 1 non-hostile = 14. ~200 wounded (vast majority minor; 180+ returned to duty). Source: CENTCOM / AP.",
+      "note": "7 KIA combat + 6 KC-135 crash + 1 health-related — ~140 WIA (8 severely)",
+      "tooltip": "US military deaths. 7 KIA combat: 6 at Port Shuaiba, Kuwait (Day 2), 1 died of wounds at Prince Sultan AB (Day 9). 6 killed in KC-135 crash over Iraq (Day 13, non-combat). 1 health-related death. Total: 13-14 KIA. ~140 WIA (8 severely) per Al Jazeera tracker. 82nd Airborne deploying to CENTCOM (~1,000-2,000 troops). Source: CENTCOM / AP / Al Jazeera.",
       "color": "var(--civilian)"
     },
     "us_wia": {
-      "value": 200,
+      "value": 140,
       "label": "US Service Members WIA",
-      "note": "~200 total — vast majority minor — 180+ returned to duty",
-      "tooltip": "US service members wounded/injured across all theaters since Feb 28. ~200 total, vast majority minor. 180+ returned to duty. 50,000+ US service members deployed to CENTCOM AOR. Source: DoD / CENTCOM.",
+      "note": "~140 total — 8 severely wounded — 50,000+ deployed + 2,000 82nd ABN incoming",
+      "tooltip": "US service members wounded/injured across all theaters since Feb 28. ~140 WIA (8 severely) per Al Jazeera tracker. 50,000+ US troops in CENTCOM AOR plus 2,000 82nd Airborne ordered. Source: CENTCOM / Al Jazeera / Pentagon.",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
       "value": 5900,
       "label": "Iranian Killed (Hengaw est.)",
-      "note": "Hengaw: 5,900 (595 civ incl. 127 minors) — HRANA: 3,114 — Health Min: 1,500+ — AP: 1,500+",
-      "tooltip": "Iranian casualties — significant discrepancies across sources. Hengaw (21-day total): 5,900 killed (595 civilian incl. 127 minors). HRANA: 3,114 deaths (1,354 civ, 1,138 mil). Iran Health Ministry: 1,500+ killed, 18,551 injured. AP (Mar 23): 1,500+ in Iran. Israeli military estimate: 3,000-4,000 soldiers only. 3.9x divergence between Health Ministry and Hengaw. 210+ children killed per Health Ministry. 80,000+ civilian units damaged incl. 300+ health/emergency facilities. Source: Hengaw / HRANA / Iran Health Ministry / AP / Israeli military.",
+      "note": "Health Min: 1,500 killed / 18,551 wounded — Red Crescent: 1,200+ — Hengaw thru Day 18: 5,300 (511 civ / 4,789 mil) — Newsweek: 1,348+",
+      "tooltip": "Iranian casualties — significant discrepancies across sources. Iran Health Ministry: 1,500 killed, 18,551 wounded. Red Crescent: 1,200+ killed. Hengaw (thru Day 18): 5,300 killed (511 civilian, 4,789 military). Newsweek aggregated: 1,348+. Infrastructure: 5,535+ residential units, 1,041 commercial, 14 medical centers, 65 schools, 25 hospitals damaged (9 out of service), 13 Red Crescent centers. 55 healthcare workers wounded, 11 killed. Aggregate cross-theater: ~2,600-7,500+ killed. Source: Iran Health Ministry / Red Crescent / Hengaw / Newsweek / Britannica.",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
-      "value": 1029,
+      "value": 1072,
       "label": "Lebanese Killed",
-      "note": "1,029+ killed — 31 healthcare workers — 1M+ displaced — 125K crossed into Syria — 3 Litani bridges destroyed",
-      "tooltip": "Lebanese casualties from Israeli strikes and IDF ground operations since March 2. 1,029+ killed including 31 healthcare workers. 1M+ displaced (~19% of population). 125,000+ crossed from Lebanon into Syria. 472 schools used as shelters. IDF destroyed 3 Litani River bridges — Lebanon's president calls it 'prelude to ground invasion.' Defense Min Katz ordered demolition of border villages. HRW (Mar 23): IDF operations constitute war crimes. Source: Lebanon Health Ministry / OCHA / IDF / HRW.",
+      "note": "1,001-1,072 killed — 2,584-2,966 wounded — 33 killed last 24 hrs — 1.0-1.2M displaced (1 in 5-6 Lebanese)",
+      "tooltip": "Lebanese casualties from Israeli strikes and Hezbollah operations since March 2. 1,001-1,072 killed (Lebanese Health Ministry / NBC). 2,584-2,966 wounded. 33 killed in last 24 hrs. 1.0-1.2 million displaced (1 in 5-6 Lebanese). Israel declared 'security zone' south of Litani (~30km) — DM Katz says displaced 'will not return.' All bridges over Litani destroyed. Hezbollah chief Qassem vows to fight 'without limits.' Hezbollah fires 100+ rockets at Israeli positions. Source: Lebanon Health Ministry / NBC / NPR / UNHCR.",
       "color": "var(--hezbollah)"
     },
     "displaced": {

@@ -15,8 +15,8 @@
     "mission_summary": "Primary strike platform — deep strike into Iran and attrition of Iranian naval capabilities",
     "deployed_since": "2025-11-21",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 25: Sole operational carrier in direct theater. Active combat ops: F/A-18 launches, Tomahawk strikes ongoing. CSG-3 with CVW-9, DESRON 21. CENTCOM updated Mar 24: 9,000+ targets struck, 140+ vessels destroyed, 9,000+ combat flights. USS Mitscher (DDG-57) and USS Michael Murphy (DDG-112) active in Persian Gulf/Strait patrols. USS Spruance (DDG-111) fired Tomahawks from Arabian Sea.",
-    "source": "USNI Fleet Tracker 3/23, CENTCOM 3/24, CBS News, CNBC"
+    "notes": "Day 26: Sole operational carrier in direct theater. Conducting sustained flight operations; CAW-9 embarked. Iran claimed cruise missile attack on Lincoln; Trump said 100+ missiles intercepted. CSG-3 with CVW-9, DESRON 21. CENTCOM: 9,000+ targets, 9,000+ combat flights. USS Mitscher and USS Michael Murphy active in Persian Gulf/Strait patrols.",
+    "source": "USNI Fleet Tracker 3/23, CENTCOM 3/25, CBS News, CNBC"
   },
   {
     "id": "cvn-78",
@@ -30,10 +30,10 @@
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye",
     "escorts": ["DDG-96 USS Bainbridge", "DDG-72 USS Mahan", "DDG-81 USS Winston S. Churchill"],
     "status": "REPAIRS — PIERSIDE SOUDA BAY",
-    "mission_summary": "Arrived Souda Bay, Crete Mar 23 for emergency pierside repairs — at least 1 week — 270+ days deployed",
+    "mission_summary": "At NSA Souda Bay, Crete for emergency pierside repairs — non-combat laundry room fire Mar 12; repair timeline unclear",
     "deployed_since": "2025-05-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 25: At NSA Souda Bay, Crete for pierside repairs. Arrived Mar 23 following non-combat fire Mar 12 in aft laundry facility. 1+ week expected. 600+ sailors displaced; 1,000 mattresses shipped from CVN-79 Kennedy. 272 days deployed, nearing post-Vietnam record. Navy says 'fully mission capable.' Escorts USS Bainbridge (DDG-96) and USS Mahan (DDG-72) remain with Ford.",
+    "notes": "Day 26: At NSA Souda Bay, Crete for pierside repairs. Non-combat laundry room fire Mar 12; left Red Sea ~Mar 17-18; arrived Souda Bay Mar 23. Repair timeline unclear. 600+ sailors displaced. Escorts USS Bainbridge (DDG-96) and USS Mahan (DDG-72) remain with Ford.",
     "source": "USNI News, Navy official announcement, USNI Fleet Tracker 3/23"
   },
   {
@@ -48,10 +48,10 @@
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye, MH-60R/S Seahawk",
     "escorts": [],
     "status": "PRE-DEPLOYMENT",
-    "mission_summary": "Awaiting deployment — needs minor maintenance and pre-deployment leave — earliest departure ~March 30",
+    "mission_summary": "Pre-deployment workups — expected to relieve Ford; completing exercises",
     "deployed_since": null,
     "operation_start_date": null,
-    "notes": "Day 25: Deployment-certified (COMPTUEX Mar 5); CSG-10/CVW-7 ready at Norfolk. Widely expected for Med/ME deployment but NO confirmed orders as of Mar 24. CO Bibeau: 'When they need us…we are ready.' Creating rare potential 3-carrier Middle East posture if deployed.",
+    "notes": "Day 26: Pre-deployment workups likely East Coast. Expected to relieve Ford. CSG-10/CVW-7 ready at Norfolk. No confirmed deployment orders as of Mar 25.",
     "source": "USNI News (Mar 6), Navy Times, USNI Fleet Tracker 3/23"
   },
   {
@@ -62,15 +62,15 @@
     "strike_group": "Tripoli Amphibious Ready Group / 31st Marine Expeditionary Unit",
     "lat": 18.00,
     "lng": 62.00,
-    "area": "Arabian Sea — entering CENTCOM AOR ~March 25 per WSJ",
+    "area": "Arabian Sea — entered CENTCOM AOR ~March 25; several days to reach Hormuz area",
     "aircraft": "F-35B Lightning II (VMFA-121), MV-22B Osprey (VMM-265), AH-1Z Viper, UH-1Y Venom, CH-53K King Stallion",
     "escorts": ["LPD-18 USS New Orleans", "CG-62 USS Robert Smalls", "DDG-115 USS Rafael Peralta"],
-    "status": "ARRIVING — ENTERS CENTCOM AOR ~MAR 25",
+    "status": "EN ROUTE — IN CENTCOM AOR",
     "mission_summary": "Rapid-response force for Strait of Hormuz — littoral warfare, mine countermeasures, maritime security, potential island seizure operations",
     "deployed_since": "2026-03-13",
     "operation_start_date": null,
     "eta_theater": "2026-03-25 to 2026-03-30",
-    "notes": "Day 25: WSJ confirmed (Mar 24) Tripoli ARG enters CENTCOM AOR approximately March 25 (Friday). Several additional days to reach Hormuz area. Diego Garcia as of Mar 23 per USNI Fleet Tracker. ~2,200 Marines (31st MEU), ~20 F-35Bs. Most significant force addition since war began.",
+    "notes": "Day 26: EN ROUTE — NOT YET in operational area. Last confirmed Diego Garcia (Mar 23 satellite imagery). With USS New Orleans (LPD-18); carrying ~2,200 Marines (31st MEU from Sasebo, Japan). WSJ reports due in Middle East ~Mar 27. Departed Sasebo Mar 13, transited Strait of Malacca. Several additional days to reach Hormuz area.",
     "replaces": "lha-6 (USS America — unconfirmed in theater)",
     "source": "WSJ (Mar 24), USNI Fleet Tracker (Mar 23), Reuters, USNI News"
   },
@@ -138,15 +138,15 @@
     "strike_group": "Boxer Amphibious Ready Group / 11th Marine Expeditionary Unit",
     "lat": 25.00,
     "lng": -118.00,
-    "area": "Eastern Pacific — departed San Diego March 19-20, en route to Middle East",
+    "area": "Pacific Ocean — en route to Middle East; departed San Diego Mar 19-20; ETA mid-April at earliest",
     "aircraft": "AV-8B Harrier II or F-35B Lightning II, MV-22B Osprey, AH-1Z Viper, UH-1Y Venom, CH-53E Super Stallion",
     "escorts": ["LSD-45 USS Comstock", "LPD-27 USS Portland"],
-    "status": "DEPLOYING",
+    "status": "EN ROUTE — WEEKS OUT",
     "mission_summary": "Rapid reinforcement — originally scheduled Indo-Pacific, rerouted and accelerated to Middle East",
     "deployed_since": "2026-03-19",
     "operation_start_date": null,
     "eta_theater": "2026-04-09",
-    "notes": "Day 25: Departed San Diego Mar 18-19 in 'accelerated deployment.' Currently transiting Pacific — ETA theater early-to-mid April (~3 weeks from departure). 11th MEU embarked (~2,200 Marines), F-35Bs. Combined with Tripoli ARG arrival, will bring ~4,400 additional Marines to theater. Indo-Pacific coverage gap: only CVN-73 George Washington (in maintenance at Yokosuka) remains in Pacific.",
+    "notes": "Day 26: EN ROUTE in Pacific Ocean. With 11th MEU; departed San Diego Mar 19-20. ETA mid-April at earliest (~22,200 km transit). 11th MEU embarked (~2,200 Marines), F-35Bs. Combined with Tripoli ARG, will bring ~4,500 Marines/sailors to theater.",
     "source": "USNI Fleet Tracker (Mar 23), AP, Stars and Stripes, Pentagon"
   },
   {
@@ -166,5 +166,41 @@
     "operation_start_date": "2026-03-01",
     "notes": "Day 23: Astute-class nuclear-powered attack submarine. In Arabian Sea. UK also dispatched 2 additional warships toward Gulf. UK military planners embedded at CENTCOM Tampa. UK approved US use of Diego Garcia and RAF Fairford for 'specific and limited defensive operations' against Iranian missile sites following Diego Garcia IRBM attack.",
     "source": "UK MoD, GOV.UK, multiple outlets"
+  },
+  {
+    "id": "82nd-airborne",
+    "name": "82nd Airborne Division",
+    "hull": null,
+    "type": "ground",
+    "strike_group": "XVIII Airborne Corps — CENTCOM",
+    "lat": 35.14,
+    "lng": -79.00,
+    "area": "Fort Bragg → CENTCOM — deployment confirmed March 25",
+    "aircraft": null,
+    "escorts": [],
+    "status": "DEPLOYING",
+    "mission_summary": "Ground combat force — HQ elements, division enablers, and 1st BCT deploying to CENTCOM; IRF can deploy within 18 hours",
+    "deployed_since": "2026-03-25",
+    "operation_start_date": null,
+    "notes": "Day 26: Pentagon formally confirmed deployment. HQ elements, division enablers, and 1st BCT. ~1,000-2,000 troops. Maj. Gen. Brandon Tegtmeier commanding. IRF can deploy within 18 hours. Possible mission: Kharg Island seizure. First ground combat unit ordered to theater. Atlantic Council: current force 'not sufficient for a major invasion nor to hold a single city — says limited/targeted ops only.'",
+    "source": "Pentagon confirmation Mar 25, The Hill, Atlantic Council"
+  },
+  {
+    "id": "vmfa-311-f35c",
+    "name": "VMFA-311 Marine F-35Cs",
+    "hull": null,
+    "type": "air",
+    "strike_group": "Independent — staging through UK",
+    "lat": 52.39,
+    "lng": 0.56,
+    "area": "RAF Lakenheath, UK — staging en route to CENTCOM",
+    "aircraft": "F-35C Lightning II (10 aircraft — 5 arrived Mar 24, 5 more due Mar 25)",
+    "escorts": [],
+    "status": "STAGING",
+    "mission_summary": "Marine F-35C squadron staging through UK en route to CENTCOM theater",
+    "deployed_since": "2026-03-24",
+    "operation_start_date": null,
+    "notes": "Day 26: 5 F-35Cs arrived RAF Lakenheath Mar 24; 5 more due Mar 25. En route to CENTCOM. VMFA-311 'Tomcats.'",
+    "source": "USNI News, Pentagon"
   }
 ]
