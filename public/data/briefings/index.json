@@ -173,5 +173,12 @@
     "label": "MARCH 24, 2026 — DAY 25",
     "headline": "Iran strikes Tel Aviv in 7 waves; Tripoli ARG enters CENTCOM Friday; oil rebounds to ~$103; Pakistan emerges as lead mediator; Houthis still dormant",
     "file": "data/briefings/day-25.html"
+  },
+  {
+    "day": 26,
+    "date": "2026-03-25",
+    "label": "MARCH 25, 2026 — DAY 26",
+    "headline": "15-point ceasefire plan rejected by Iran; 82nd Airborne deploying; Brent drops 3.5% to $96.68; IDF wide-scale attacks on Tehran; 59% of Americans say war has 'gone too far'",
+    "file": "data/briefings/day-26.html"
   }
 ]
