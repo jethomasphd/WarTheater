@@ -2185,5 +2185,158 @@
     "category": "financial",
     "source": "Pentagon / CSIS / Penn Wharton / AP-NORC / Multiple",
     "data_point": "~$30.5B cumulative — $200B supplemental — 59% oppose — Brent $96.68"
+  },
+  {
+    "date": "2026-03-26",
+    "time": "02:00",
+    "title": "Israel kills IRGC Navy Commander Tangsiri in Bandar Abbas precision strike",
+    "description": "Israel killed IRGC Navy Commander Rear Admiral Alireza Tangsiri in an overnight precision strike at a covert naval command center in Bandar Abbas. Based on joint US-Israeli intelligence, the strike also killed senior operational staff including intelligence and operations chiefs. Tangsiri had personally ordered the Strait of Hormuz closure on March 2 and directed the harassment campaign against commercial shipping.",
+    "category": "military",
+    "source": "IDF / Israeli Defense Ministry / NPR",
+    "data_point": "IRGC Navy commander killed — architect of Hormuz blockade eliminated"
+  },
+  {
+    "date": "2026-03-26",
+    "time": "03:00",
+    "title": "Iran formally responds to US 15-point ceasefire plan via intermediaries",
+    "description": "Iran formally responded to the US 15-point ceasefire plan overnight through intermediaries, per Tasnim news agency, and stated it is 'awaiting the other side's response.' Iran issued its own 5-point counterproposal: complete halt to aggression, guarantee mechanisms, war reparations, comprehensive ceasefire across all fronts, and recognition of Iran's sovereignty over the Strait of Hormuz. A senior Iranian official told Reuters the proposal was 'one-sided and unfair' but 'a path forward might still be found if realism prevails in Washington.'",
+    "category": "diplomatic",
+    "source": "Tasnim / Reuters / Press TV",
+    "data_point": "Iran's 5-point counterproposal — 'awaiting Washington's reply'"
+  },
+  {
+    "date": "2026-03-26",
+    "time": "05:00",
+    "title": "Israel launches 'wave of extensive strikes' on central Isfahan",
+    "description": "Israel simultaneously launched a 'wave of extensive strikes' on central Isfahan, targeting remaining missile and drone production infrastructure. Israeli military sources told NPR they want 'several more weeks of war' and are 'speeding up targeting over the next 48 hours' focusing specifically on arms factories. An Al Jazeera correspondent in Tehran reported strikes 'increasing in number and in intensity.'",
+    "category": "military",
+    "source": "IDF / NPR / Al Jazeera",
+    "data_point": "Isfahan arms factories targeted — IDF: 'speeding up targeting over next 48 hours'"
+  },
+  {
+    "date": "2026-03-26",
+    "time": "06:00",
+    "title": "CENTCOM confirms USS Abraham Lincoln continuing flight operations",
+    "description": "CENTCOM confirmed via a post on X that USS Abraham Lincoln (CVN-72) continues flight operations against military targets in Iran while sailing in regional waters — directly rebutting Iranian Navy claims that the carrier had been forced to reposition under cruise missile fire. The US has now struck two-thirds of Iran's missile and drone production facilities. By March 25, CENTCOM had conducted 9,000+ combat sorties striking 9,000+ military targets.",
+    "category": "military",
+    "source": "CENTCOM / ANI News / Tribune India",
+    "data_point": "9,000+ targets — 9,000+ sorties — 2/3 missile/drone production destroyed"
+  },
+  {
+    "date": "2026-03-26",
+    "time": "08:00",
+    "title": "Israeli Defense Minister Katz calls Tangsiri strike a 'clear message'",
+    "description": "Israeli Defense Minister Israel Katz called the Tangsiri strike 'significant news for American partners' and a direct step toward reopening the Strait of Hormuz.",
+    "category": "military",
+    "source": "Israeli Defense Ministry / Reuters",
+    "data_point": "Katz: 'significant news for American partners'"
+  },
+  {
+    "date": "2026-03-26",
+    "time": "09:00",
+    "title": "Brent crude surges past $105 on ceasefire collapse and Tangsiri killing",
+    "description": "Brent crude surged to $105.85-$106.12, up 3.8-6.4% from previous session. WTI hit $93.61 (+3.6%). The Brent-WTI spread of $12.45 reflects acute premium for waterborne crude amid Middle East disruption. Goldman Sachs described pricing as 'a geopolitical risk premium over fundamentals.' Gold fell to ~$4,429 (-2.4-2.9%) — unusual decline driven by rising bond yields and dollar strength.",
+    "category": "financial",
+    "source": "Fortune / TECHi / Goldman Sachs / Bloomberg",
+    "data_point": "Brent $105.85 (+3.8-6.4%) — WTI $93.61 — gold $4,429 (-2.4%)"
+  },
+  {
+    "date": "2026-03-26",
+    "time": "09:30",
+    "title": "Iranian missiles strike multiple Israeli locations",
+    "description": "Two salvoes of Iranian missiles targeted central and northern Israel within 30 minutes, with impact sites reported in Kafr Qasim, Ganei Tikva, Kiryat Ata, and Tel Aviv. CENTCOM stated Iranian weapons capability is 'down 90%+' compared to pre-war levels. Two people were killed in Abu Dhabi from intercepted missile debris, and a fire was reported at a facility in Bahrain. Saudi Arabia intercepted a drone in its Eastern Province.",
+    "category": "military",
+    "source": "Times of Israel / CENTCOM / Reuters",
+    "data_point": "Missiles hit 4 Israeli locations — 2 killed in Abu Dhabi — Iran weapons 'down 90%+'"
+  },
+  {
+    "date": "2026-03-26",
+    "time": "10:00",
+    "title": "Hezbollah rocket kills man in Nahariya; IDF soldier killed in Lebanon",
+    "description": "A man in his 30s was killed and another in his 50s seriously injured in a Hezbollah rocket strike on Nahariya in northern Israel. An IDF soldier was killed in a gunfight with Hezbollah in southern Lebanon. Hezbollah chief Naim Qassem rejected truce talks, saying negotiations 'under fire amounts to imposing surrender.' Hezbollah/Amal ministers boycotted the Lebanese cabinet session over the expulsion of Iran's ambassador.",
+    "category": "military",
+    "source": "Times of Israel / Al Jazeera / IDF",
+    "data_point": "1 killed Nahariya — 1 IDF KIA — Qassem: 'negotiations under fire = surrender'"
+  },
+  {
+    "date": "2026-03-26",
+    "time": "11:00",
+    "title": "Trump posts on Truth Social: 'get serious soon, before it is too late'",
+    "description": "Trump posted on Truth Social telling Iran to 'get serious soon, before it is too late, because once that happens, there is NO TURNING BACK.' US envoy Steve Witkoff told reporters Iran is 'seeking an off-ramp' and there are signs Tehran is interested in the 15-point plan. AP headlined: 'Iran and the US harden their positions.'",
+    "category": "diplomatic",
+    "source": "Truth Social / AP / Reuters",
+    "data_point": "Trump: 'NO TURNING BACK' — Witkoff: Iran 'seeking off-ramp'"
+  },
+  {
+    "date": "2026-03-26",
+    "time": "13:00",
+    "title": "Trump cabinet meeting — confirms 4-6 week war, reveals Iran tanker gesture",
+    "description": "During a cabinet meeting, Trump confirmed he expects the war to last 4-6 weeks and described Iran's leadership as 'begging to make a deal' while being 'militarily obliterated.' Revealed Iran allowed ~8 tankers through Strait as goodwill gesture. White House press secretary Leavitt: 'President Trump does not bluff and is prepared to unleash hell.'",
+    "category": "political",
+    "source": "White House / AP / Reuters",
+    "data_point": "Trump: 4-6 weeks — Iran 'begging' — ~8 tankers allowed through"
+  },
+  {
+    "date": "2026-03-26",
+    "time": "14:00",
+    "title": "Pakistan mediating possible in-person talks March 28",
+    "description": "Pakistani PM Shehbaz Sharif confirmed Pakistan is relaying messages between the US and Iran, pushing for possible in-person talks as early as Friday, March 28, in Pakistan. Israel reportedly removed FM Araghchi and Parliament Speaker Ghalibaf from its target list at Pakistan's request to preserve negotiation channels. Ghalibaf — believed to be Trump's unnamed 'respected' Iranian interlocutor — has repeatedly denied any talks.",
+    "category": "diplomatic",
+    "source": "Reuters / WSJ / Pakistan PM office",
+    "data_point": "Pakistan talks possible March 28 — Araghchi/Ghalibaf removed from target list"
+  },
+  {
+    "date": "2026-03-26",
+    "time": "14:30",
+    "title": "Senate blocks war powers resolution 53-47; Republican fractures deepen",
+    "description": "Senate blocked another war powers resolution 53-47. Rep. Meeks moves to subpoena Rubio, Witkoff, and Kushner for Iran war hearing. Key Republican fractures: Rep. Rogers (Armed Services chair) complained about lack of answers; Rep. Mace won't support ground troops; Rep. Roy called $200B 'a lot of money.' No AUMF has been passed. The 60-day War Powers clock expires April 29.",
+    "category": "political",
+    "source": "The Hill / AP / Congressional Record",
+    "data_point": "War powers blocked 53-47 — Meeks subpoena motion — War Powers expires Apr 29"
+  },
+  {
+    "date": "2026-03-26",
+    "time": "15:00",
+    "title": "82nd Airborne en route as Iran fortifies Kharg Island",
+    "description": "Approximately 2,000 paratroopers from the 82nd Airborne's Immediate Response Force were ordered to the Middle East, including division commander Maj. Gen. Tegtmeier and two battalions. CNN reported Iran is actively building up defenses on Kharg Island in anticipation of a US ground assault. NPR aired interview discussing the 82nd Airborne's capabilities.",
+    "category": "military",
+    "source": "Stars and Stripes / CBS News / CNN / NPR",
+    "data_point": "~2,000 paratroopers — Iran fortifying Kharg Island — arrival not yet confirmed"
+  },
+  {
+    "date": "2026-03-26",
+    "time": "15:30",
+    "title": "Sgt. Benjamin Pennington KIA announced — 13th US service member killed",
+    "description": "The Department of War announced the death of Sgt. Benjamin N. Pennington, 26, of Glendale, Kentucky, supporting Operation Epic Fury. Total US KIA stands at 13 service members, with 290 wounded (255 returned to duty, 10 seriously wounded).",
+    "category": "military",
+    "source": "Department of War",
+    "data_point": "13 US KIA — 290 WIA (255 RTD, 10 seriously wounded)"
+  },
+  {
+    "date": "2026-03-26",
+    "time": "16:00",
+    "title": "UNHCR publishes $454.2M emergency refugee response plan",
+    "description": "UNHCR published an emergency Inter-Agency Refugee Response Plan requiring $454.2 million. Total regional displacement: 4.1 million internally displaced, 117,000 seeking refuge in other countries. 24,600 Afghans returned from Iran to Afghanistan. IFRC emergency appeal of $51.5 million launched to support 5 million people over 16 months.",
+    "category": "humanitarian",
+    "source": "UNHCR / IFRC / OCHA",
+    "data_point": "$454.2M UNHCR appeal — 4.1M displaced — 117K refugees — 24,600 Afghans returned"
+  },
+  {
+    "date": "2026-03-26",
+    "time": "16:30",
+    "title": "Gas hits $3.98 — up $1.00 in one month — highest since August 2022",
+    "description": "AAA reports the national average at $3.981/gallon — up $1.00 in one month from $2.98 on February 26 and the highest since August 2022. California leads at $5.79-$5.82, while Oklahoma is cheapest at $3.24-$3.25. Diesel hit $5.10/gallon. USPS has imposed an 8% fuel surcharge on packages.",
+    "category": "financial",
+    "source": "AAA / USPS",
+    "data_point": "Gas $3.98 — +$1.00/month — CA $5.82 — diesel $5.10 — USPS 8% surcharge"
+  },
+  {
+    "date": "2026-03-26",
+    "time": "17:00",
+    "title": "Day 27 summary — power plant deadline 48 hours away",
+    "description": "Day 27 marks a pivotal inflection: Tangsiri's elimination coincides with diplomatic deadlock and the approaching March 28 power plant strike deadline. Trump's 5-day pause on energy infrastructure strikes (March 23) expires approximately March 28. Convergence of power plant deadline, 82nd Airborne transit, and Tripoli ARG arrival (~March 27) suggests highest-risk escalation window since war began. War cost ~$31.8B. IEA: 'largest supply disruption in the history of the global oil market' — 10 mb/d Gulf production shut in.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "~$31.8B cumulative — power plant deadline ~Mar 28 — Tangsiri killed — ceasefire deadlocked"
   }
 ]

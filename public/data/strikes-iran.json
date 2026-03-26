@@ -4,16 +4,16 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-03-25",
+    "last_updated": "2026-03-26",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "~27,000+ (CENTCOM Mar 25: 9,000+ US targets, 9,000+ combat flights. IDF wide-scale attacks on Iranian govt infrastructure. Combined US/Israeli extrapolated ~27,000+ through Day 26)",
+    "total_targets_struck": "~28,000+ (CENTCOM Mar 26: 9,000+ US targets, 9,000+ combat sorties — ~333/day over 27 days. Two-thirds of missile/drone production destroyed. IDF 'wave of extensive strikes' on Isfahan arms factories. Combined US/Israeli extrapolated ~28,000+ through Day 27)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
       "killed": "1,500+",
       "injured": "18,551+",
       "military_killed_hengaw": "5,305+",
       "sources": "Iran Health Ministry / Hengaw / HRANA / ACLED / AP",
-      "as_of": "2026-03-25"
+      "as_of": "2026-03-26"
     },
     "civilian_buildings_affected": "~20,000 (including 16,000 residential units) per Iranian Red Crescent as of Day 11",
     "healthcare_facilities_affected": "77 per Red Crescent; 31 major hospitals damaged, 12 inactive per Deputy Health Minister; WHO verified 13 attacks on healthcare",
@@ -912,5 +912,42 @@
     "notes": "Day 26 (Mar 25): South Tehran strike killed at least 12, wounded 28. Eastern Tehran strikes destroyed school and residential buildings. Part of IDF 'new wide-scale attacks' on Iranian government infrastructure.",
     "verified": true,
     "last_updated": "2026-03-25"
+  },
+  {
+    "id": "bandar-abbas-tangsiri-march26",
+    "city": "Bandar Abbas",
+    "lat": 27.1865,
+    "lng": 56.2808,
+    "type": "us_strike",
+    "actor": "israel",
+    "targets": [
+      "Covert IRGC naval command center — IRGC Navy Commander Rear Admiral Alireza Tangsiri killed",
+      "Senior IRGC naval operational staff including intelligence and operations chiefs"
+    ],
+    "first_strike": "2026-03-26",
+    "casualties_reported": "IRGC Navy Commander Tangsiri killed along with senior operational staff",
+    "casualties_source": "IDF / Israeli Defense Ministry / NPR",
+    "active_days": [27],
+    "notes": "Day 27 (Mar 26): Israel's precision strike on covert naval command center in Bandar Abbas killed IRGC Navy Commander Rear Admiral Alireza Tangsiri — the architect of the Strait of Hormuz blockade. Based on joint US-Israeli intelligence. Also killed senior intelligence and operations chiefs. Defense Minister Katz called it 'significant news for American partners' and a direct step toward reopening the Strait. Tangsiri had personally ordered Hormuz closure on March 2.",
+    "verified": true,
+    "last_updated": "2026-03-26"
+  },
+  {
+    "id": "isfahan-arms-march26",
+    "city": "Isfahan (Central)",
+    "lat": 32.6546,
+    "lng": 51.6680,
+    "type": "us_strike",
+    "actor": "israel",
+    "targets": [
+      "Remaining missile and drone production infrastructure in central Isfahan"
+    ],
+    "first_strike": "2026-03-26",
+    "casualties_reported": "Unknown — strikes 'increasing in number and in intensity' per Al Jazeera",
+    "casualties_source": "IDF / NPR / Al Jazeera",
+    "active_days": [27],
+    "notes": "Day 27 (Mar 26): Israel launched 'wave of extensive strikes' on central Isfahan targeting remaining missile and drone production infrastructure. Israeli military sources told NPR they want 'several more weeks of war' and are 'speeding up targeting over the next 48 hours' focusing on arms factories. US has now struck two-thirds of Iran's missile and drone production facilities.",
+    "verified": true,
+    "last_updated": "2026-03-26"
   }
 ]
