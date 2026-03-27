@@ -187,5 +187,12 @@
     "label": "MARCH 26, 2026 — DAY 27",
     "headline": "Israel kills IRGC Navy Commander Tangsiri — Hormuz blockade architect eliminated; ceasefire deadlocked; Brent surges past $105; power plant deadline 48 hours away",
     "file": "data/briefings/day-27.html"
+  },
+  {
+    "day": 28,
+    "date": "2026-03-27",
+    "label": "MARCH 27, 2026 — DAY 28",
+    "headline": "Trump extends power plant deadline 10 days to April 6; IDF overnight blitz hits heart of Tehran; G7 fractures without communiqué; CENTCOM: 10,000+ targets — largest navy elimination since WWII; Pakistan pushes in-person Islamabad talks",
+    "file": "data/briefings/day-28.html"
   }
 ]

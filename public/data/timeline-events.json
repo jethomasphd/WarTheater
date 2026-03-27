@@ -2338,5 +2338,131 @@
     "category": "summary",
     "source": "Multiple",
     "data_point": "~$31.8B cumulative — power plant deadline ~Mar 28 — Tangsiri killed — ceasefire deadlocked"
+  },
+  {
+    "date": "2026-03-27",
+    "time": "01:00",
+    "title": "IDF launches heaviest overnight strikes deep into Tehran and western Iran",
+    "description": "Israeli Air Force conducted what the IDF called a 'wide-scale wave of strikes' in 'the heart of Tehran' overnight, hitting dozens of weapon manufacturing sites including Iran's 'most central' naval arms production facility, a ballistic missile component factory, an anti-aircraft system storage base, and a weapons battery production site. Strikes also hit Kermanshah and Dezful in western Iran with approximately 70 bombs targeting missile launch sites, ballistic missile storage, and air defense systems. IDF Spokesman Brig. Gen. Defrin confirmed Iranian soldiers killed at those sites. IDF has now struck more than 1,000 targets in Iran's weapons production sector alone. Six civilians reported killed in Qom and additional casualties in Urmia from overnight strikes on residential buildings.",
+    "category": "military",
+    "source": "IDF / NPR / Al Jazeera / Reuters",
+    "data_point": "1,000+ weapons targets struck — 70 bombs on Kermanshah/Dezful — 6 killed in Qom"
+  },
+  {
+    "date": "2026-03-27",
+    "time": "03:00",
+    "title": "CENTCOM: US has struck over 10,000 Iranian targets — largest navy elimination since WWII",
+    "description": "CENTCOM Commander Admiral Brad Cooper confirmed the US has struck over 10,000 Iranian targets, destroyed two-thirds of Iran's arms manufacturing facilities, flown 8,000+ combat flights, and eliminated 130+ Iranian naval vessels and 44 minelayers. Cooper stated this represents 'the largest elimination of a navy over a three-week period since World War II.' Pentagon assesses Iranian missile and drone attacks are down 90% from the early days of the war.",
+    "category": "military",
+    "source": "CENTCOM / Admiral Cooper briefing",
+    "data_point": "10,000+ targets — 130+ naval vessels — 44 minelayers — 8,000+ flights — 'largest navy elimination since WWII'"
+  },
+  {
+    "date": "2026-03-27",
+    "time": "05:00",
+    "title": "Iran fires 7 missile salvos at Israel — cluster warheads hit near Netanya and Kfar Qasim",
+    "description": "Iran fired at least 7 missile salvos at Israel within hours on March 26-27, many armed with cluster warheads. Missiles triggered sirens in Jerusalem, the West Bank, and central Israel. Strikes hit areas near Netanya, Kfar Qasim, and Ganei Tikva, wounding at least 10 people. IRGC drones struck Haifa port in what Iran described as its 82nd wave of attacks. Kuwait's National Guard shot down two Iranian drones on March 27, and the UAE and Kuwait both reported interceptions. Falling debris from an intercepted missile killed 2 people in Abu Dhabi on March 26.",
+    "category": "military",
+    "source": "Times of Israel / CENTCOM / IDF / Reuters",
+    "data_point": "7 salvos at Israel — 10 wounded — Haifa port struck — 2 killed Abu Dhabi — Kuwait intercepts 2 drones"
+  },
+  {
+    "date": "2026-03-27",
+    "time": "06:00",
+    "title": "IDF Sgt. Volansky killed in Lebanon — Hezbollah fires 100+ rockets",
+    "description": "IDF Sgt. Aviaad Elchanan Volansky, 21, was killed by anti-tank fire in southern Lebanon. A civilian woman was killed in Nahariya by Hezbollah rocket fire, and 14 others were wounded. An IDF officer and soldier were severely wounded by an accidental grenade explosion during a Hezbollah engagement overnight. Israeli airstrikes hit Beirut's Burj al-Barajneh neighborhood and Qlaileh village. The 162nd Division is pushing deeper toward the Litani River. Hezbollah chief Naim Qassem vowed to fight 'without limits.' Senior anti-tank commander Hassan Mohammad Bashir was killed in an Israeli airstrike.",
+    "category": "military",
+    "source": "IDF / Times of Israel / Al Jazeera",
+    "data_point": "IDF Sgt. Volansky KIA — 100+ Hezbollah rockets — woman killed Nahariya — Bashir killed"
+  },
+  {
+    "date": "2026-03-27",
+    "time": "08:00",
+    "title": "Trump extends power plant strike deadline 10 days to April 6",
+    "description": "Trump posted on Truth Social: 'As per Iranian Government request, please let this statement serve to represent that I am pausing the period of Energy Plant destruction by 10 Days to Monday, April 6, 2026, at 8 P.M., Eastern Time. Talks are ongoing and... they are going very well.' Amnesty International, Human Rights Watch, and UN officials had characterized the original threat as 'an open threat to possibly commit a war crime.' The extension provides diplomatic space for Pakistan-mediated talks.",
+    "category": "diplomatic",
+    "source": "Truth Social / Amnesty International / HRW",
+    "data_point": "Power plant deadline extended to April 6 — 'talks ongoing and going very well'"
+  },
+  {
+    "date": "2026-03-27",
+    "time": "09:00",
+    "title": "Brent crude surges past $108 — up 5.66% on Iran rejection and deadline extension",
+    "description": "Brent crude surged to $108.01/bbl (+5.66%) and WTI to $94.48 (+4.61%) after Iran's rejection of the 15-point peace framework. Oil held gains despite Trump's deadline extension. Gold rose to ~$4,430-$4,454/oz (+$53, +1.2%). Brent has surged approximately 52% since February 28. US gas remains at $3.98/gallon national average. IEA describes this as the biggest energy supply disruption ever measured by barrels per day.",
+    "category": "financial",
+    "source": "ICE / NYMEX / Bloomberg / AAA",
+    "data_point": "Brent $108.01 (+5.66%) — WTI $94.48 (+4.61%) — gold ~$4,430 — gas $3.98"
+  },
+  {
+    "date": "2026-03-27",
+    "time": "10:00",
+    "title": "G7 summit fractures — no communiqué produced amid deep US-allied divisions",
+    "description": "Secretary of State Marco Rubio attended Day 2 of the G7 foreign ministers summit at Vaux-de-Cernay, France — his first overseas trip since the war began. Bloomberg reported Rubio and counterparts 'traded barbs' over Iran and Ukraine. No final communiqué was produced. Rubio urged allies to 'step up' on reopening Hormuz and warned NATO the US will 'never forget' their refusal to help. EU's Kallas accused Russia of providing intelligence to Iran 'to kill Americans.' Germany's Wadephul said Washington has 'no exit strategy.' France hosted military talks with 35 countries on reopening the strait.",
+    "category": "diplomatic",
+    "source": "Bloomberg / Reuters / AP",
+    "data_point": "No communiqué — Rubio: 'never forget' — Kallas: Russia aiding Iran — France: 35-country military talks"
+  },
+  {
+    "date": "2026-03-27",
+    "time": "11:00",
+    "title": "Pakistan confirms indirect US-Iran talks — in-person meeting possible this weekend in Islamabad",
+    "description": "Pakistan's Deputy PM/FM Ishaq Dar publicly confirmed for the first time that 'US-Iran indirect talks are taking place through messages being relayed by Pakistan,' with Turkey and Egypt also supporting. NBC News reported an in-person meeting could occur as soon as this weekend in Islamabad between senior US and Iranian officials. Pakistan reportedly persuaded the US to have Israel remove FM Araghchi and Parliament Speaker Qalibaf from Israel's hit list, arguing 'if they are also eliminated then there is no one else to talk to.' Iran rejected the 15-point plan as 'extremely maximalist and unreasonable' and submitted a 5-point counterproposal.",
+    "category": "diplomatic",
+    "source": "NBC News / Reuters / Pakistan FM office",
+    "data_point": "In-person Islamabad talks possible this weekend — Pakistan confirms relay of messages"
+  },
+  {
+    "date": "2026-03-27",
+    "time": "12:00",
+    "title": "82nd Airborne paratroopers deploying — Pentagon considers up to 10,000 troops",
+    "description": "The Pentagon confirmed ~2,000-3,000 paratroopers from the 82nd Airborne Division's 1st Brigade Combat Team are deploying to the CENTCOM AOR, led by Maj. Gen. Brandon Tegtmeier. Initial elements were expected to begin arriving 'within a week' of the March 24 announcement. The Wall Street Journal reported on March 26 that the Pentagon is considering up to 10,000 additional ground troops for the theater — the largest ground deployment since the Iraq War. Iran is actively fortifying Kharg Island.",
+    "category": "military",
+    "source": "Stars and Stripes / WSJ / CBS News / CNN",
+    "data_point": "2,000-3,000 82nd Airborne + up to 10,000 more — largest ground deployment since Iraq"
+  },
+  {
+    "date": "2026-03-27",
+    "time": "13:00",
+    "title": "Strait of Hormuz: fewer than 6 vessels per day — 2,000 vessels stranded",
+    "description": "Pre-war traffic of ~110-138 vessels per day has plummeted to fewer than 6 per day. Only 21 tankers transited between March 1-15 (S&P Global). Approximately 2,000 vessels and 20,000 seafarers are stranded on both sides. Eight 'dark ships' detected transiting with AIS off. IRGC operating a vetting and toll system charging up to $2 million per transit. VLCC freight rates hit all-time high of $423,736/day. Insurance premiums surged from 0.125-0.25% to 5-10% of hull value.",
+    "category": "military",
+    "source": "S&P Global / Lloyd's List / IMO",
+    "data_point": "<6 vessels/day — $2M transit tolls — $423,736/day VLCC rates — 2,000 vessels stranded"
+  },
+  {
+    "date": "2026-03-27",
+    "time": "14:00",
+    "title": "S&P 500 closes at 6,477 (-1.74%) — VIX jumps to 27.44",
+    "description": "The S&P 500 closed at 6,477.16 (-1.74%), the Dow at 45,960.11 (-1.01%), and the Nasdaq at 21,408.08 (-2.38%) on March 26. The VIX surged 8.33% to 27.44. March 27 futures recovered modestly (+0.39%) on the deadline extension and tanker goodwill gesture. Energy stocks up 18.2% MTD, defense up 19-22% MTD. Airlines down 19-24% MTD. Jet fuel costs up ~31% since March 1.",
+    "category": "financial",
+    "source": "NYSE / CNBC / Bloomberg",
+    "data_point": "S&P 6,477 (-1.74%) — VIX 27.44 (+8.33%) — energy +18.2% MTD — airlines -19 to -24%"
+  },
+  {
+    "date": "2026-03-27",
+    "time": "15:00",
+    "title": "ICRC: 'civilians bearing the brunt' — Philippines declares state of emergency",
+    "description": "ICRC President Mirjana Spoljaric Egger stated 'civilians are bearing the brunt' and called attacks on civilian infrastructure 'unacceptable.' Up to 3.2 million Iranians are internally displaced. 830,000 Lebanese displaced (20% of population). 25 hospitals damaged in Iran, 9 out of service. 42,000+ civilian sites damaged. IFRC launched CHF 40 million emergency appeal for Iran. The Philippines declared a state of emergency over the energy crisis with fuel prices more than doubled and nationwide protests in Manila.",
+    "category": "humanitarian",
+    "source": "ICRC / UNHCR / OCHA / IFRC / Reuters",
+    "data_point": "3.2M displaced Iran — 830K Lebanon — 25 hospitals damaged — Philippines emergency"
+  },
+  {
+    "date": "2026-03-27",
+    "time": "16:00",
+    "title": "Iran FM Araghchi addresses UN Human Rights Council — accuses coalition of genocide",
+    "description": "FM Abbas Araghchi addressed the UN Human Rights Council by video on March 27, accusing the US-Israel coalition of 'clear intent to commit genocide,' claiming 600+ schools damaged and 1,000+ students/teachers killed or wounded. Araghchi stated: 'No negotiations have happened with the enemy until now, and we do not plan on any negotiations.' UNSC held an urgent debate on the Minab school strike (175+ killed, mostly girls aged 7-12), requested by Iran, China, and Cuba.",
+    "category": "diplomatic",
+    "source": "UN / Reuters / Al Jazeera",
+    "data_point": "Araghchi: 'clear intent to commit genocide' — UNSC debate on Minab school — 600+ schools damaged"
+  },
+  {
+    "date": "2026-03-27",
+    "time": "17:00",
+    "title": "Day 28 summary — war at inflection point with three converging timelines",
+    "description": "Day 28 finds Operation Epic Fury at a critical juncture. Militarily: 10,000+ targets, 92% of navy, 2/3 arms manufacturing destroyed. Diplomatically: Trump extends deadline to April 6; Pakistan pushes for in-person Islamabad talks this weekend; G7 fractures without communiqué. Economically: Brent $108, gas $3.98, airlines hemorrhaging, Philippines in emergency mode. The next 72 hours are pivotal — if Pakistan-mediated face-to-face talks materialize this weekend, they would be the first direct US-Iranian contact of the war. Estimated cumulative cost: ~$33.1B.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "~$33.1B cumulative — deadline Apr 6 — Islamabad talks possible — 10,000+ targets — G7 fractures"
   }
 ]

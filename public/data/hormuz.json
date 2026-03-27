@@ -4,15 +4,15 @@
     "width_km": 33,
     "shipping_lane_width_km": 3,
     "daily_oil_flow_prewar_mbd": 20.5,
-    "daily_oil_flow_current_mbd": 0.8,
+    "daily_oil_flow_current_mbd": 0.5,
     "percent_global_oil": 20,
     "percent_global_lng": 20,
     "closure_date": "2026-03-04",
     "closure_declared_by": "IRGC",
     "closure_type": "De facto (insurance-driven + active attacks on vessels)",
     "closure_method": "Asymmetric denial via drone and missile strikes on commercial vessels, triggering insurance-driven shutdown. IRGC used sea drones, anti-ship missiles, and shore-launched projectiles to strike 21+ vessels since Feb 28. War risk insurance withdrawn or repriced at ~5% of vessel value — a 100x increase from pre-war 0.02-0.05%. For a $100M tanker, $5M per transit. At least one tanker paid $2M for transit rights through Iran-approved Larak Island corridor. Trump ordered DFC to provide $20B in political risk reinsurance (Chubb as lead underwriter), but JPMorgan estimates actual exposure at $352B across 329 tankers. Reports of naval mine deployment began ~March 10; US destroyed 44+ Iranian minelayers. Iran's stockpile estimated at 2,000-6,000 naval mines. Iran retains 80%+ of its small boats and minelayers. London Joint War Committee extended high-risk area to include waters around Oman.",
-    "status": "IRGC Navy command decapitated — Tangsiri killed Mar 26. Only 138 vessels crossed during entirety of March. Ship traffic down ~95% from pre-war (135-140/day to 4-6/day). 21 confirmed attacks on merchant ships as of Mar 12. Iran continues $2M transit charges. Trump revealed Iran allowed ~8 tankers through as goodwill gesture. Iran's 5-point counterproposal includes 'recognition of Iran's sovereignty over Strait of Hormuz.' Iran's parliament drafting legislation to codify Hormuz sovereignty. Power plant pause deadline ~Mar 28. War risk insurance premiums surged 300%+ ($1-5M per voyage for $100M tanker). Major P&I clubs cancelled war risk coverage. US $20B reinsurance program via DFC.",
-    "last_updated": "2026-03-26",
+    "status": "IRGC Navy command decapitated — Tangsiri killed Mar 26. Fewer than 6 vessels per day. Only 21 tankers transited Mar 1-15 (S&P Global). ~2,000 vessels and 20,000 seafarers stranded. 8 'dark ships' detected with AIS off. IRGC operating $2M toll system — at least 2 vessels paid in yuan. Iran designated China, Russia, India, Iraq, Pakistan as 'friendly nations' for passage. Trump extends power plant deadline to Apr 6. VLCC rates hit all-time $423,736/day. Insurance premiums 5-10% of hull value. Iran deployed 12+ mines (Maham-3/Maham-7); stockpile ~6,000. ~1,500 IRGC drone boats along coast.",
+    "last_updated": "2026-03-27",
     "kharg_island_distance_from_strait_km": 483
   },
   "geometry": {
@@ -48,7 +48,7 @@
   "impact": {
     "tankers_transiting_prewar_daily": 50,
     "tankers_transiting_total_since_war": 138,
-    "tankers_transiting_current_note": "Only 138 vessels have crossed during the entirety of March. Ship traffic down ~95% from pre-war levels (135-140/day to 4-6/day). 21 confirmed attacks on merchant ships as of Mar 12. Trump revealed Iran allowed ~8 tankers through as goodwill gesture. Shadow fleet ~50% of transits. Iran operating selective blockade — friendly nations allowed while US allies blocked. ~150 ships anchored outside Hormuz. ~170 containerships (450,000 TEU) trapped inside Gulf. 15,000+ cruise passengers on 6+ ships. 20,000-40,000 seafarers stranded on both sides.",
+    "tankers_transiting_current_note": "Fewer than 6 vessels per day. Only 21 tankers transited Mar 1-15 (S&P Global). ~2,000 vessels and 20,000 seafarers stranded. 8 'dark ships' detected with AIS transponders off. Iran operating selective blockade with $2M transit fees — at least 2 vessels paid in Chinese yuan. VLCC freight rates hit all-time high $423,736/day. Shadow fleet ~50% of transits.",
     "insurance_cost_increase_pct": 10000,
     "insurance_cost_note": "War-risk premiums surged 300%+, with coverage for $100M tanker jumping from ~$200,000 to $1-5M per voyage. Major P&I clubs (Gard, Skuld, NorthStandard, London P&I Club) cancelled war risk coverage effective March 5. Trump: $20B DFC reinsurance (Chubb lead). JPMorgan: $352B actual exposure across 329 tankers. London Joint War Committee extended high-risk area to include Oman waters.",
     "alternative_routes": [
@@ -81,13 +81,13 @@
     "natanz_strike_note": "Joint US-Israeli strike on Natanz nuclear enrichment facility March 21. IAEA confirmed no radiation increase. DG Grossi called for 'military restraint.' Russia condemned. Israel denied responsibility. Second Natanz strike in Operation Epic Fury.",
     "hormuz_aerial_campaign_march_19": true,
     "hormuz_aerial_campaign_note": "US began aerial campaign to reopen Strait March 19 using A-10 Warthogs and Apache gunships against Iranian fast-attack boats, drones, and coastal positions.",
-    "vessels_sunk_or_damaged_by_us": 140,
+    "vessels_sunk_or_damaged_by_us": 130,
     "iranian_minelayers_destroyed": 44,
     "us_military_deaths": 13,
     "seafarer_fatalities": 11,
     "brent_crude_prewar_usd": 71.00,
-    "brent_crude_current_usd": 105.85,
-    "brent_crude_increase_pct": 49.1,
+    "brent_crude_current_usd": 108.01,
+    "brent_crude_increase_pct": 52.1,
     "brent_crude_intraday_high_usd": 119.11,
     "brent_crude_intraday_high_date": "2026-03-19",
     "iea_reserve_release_mbarrels": 400,
@@ -97,7 +97,7 @@
     "us_spr_release_mbarrels": 172,
     "iran_selective_passage": true,
     "iran_selective_passage_note": "Iran operating de facto selective blockade — vessel registration and vetting system. Friendly nations (China, India, Pakistan, Turkey, Japan under negotiation) allowed passage. Iran exporting ~1.5 mbd to China uninterrupted. At least one tanker paid $2M for Larak Island corridor transit. US allies blocked.",
-    "us_escort_status": "IRGC Navy Commander Tangsiri killed Mar 26 — Hormuz blockade architect eliminated. Tripoli arriving ~Mar 27 with 31st MEU + 20 F-35Bs. Boxer weeks out (Pacific, ETA mid-April). 82nd Airborne (~2,000) en route — Iran fortifying Kharg Island (CNN). CRITICAL MCM GAP persists: 2 of 3 LCS hulls in SE Asia. CENTCOM destroyed 16 minelayers. Power plant pause deadline ~Mar 28.",
+    "us_escort_status": "IRGC Navy command decapitated — Tangsiri killed Mar 26. Trump extends power plant deadline to Apr 6. Tripoli with 31st MEU + 20 F-35Bs in CENTCOM AOR. Boxer weeks out (Pacific). 82nd Airborne (~2,000-3,000) deploying — WSJ: up to 10,000 more considered. Iran fortifying Kharg Island. CRITICAL MCM GAP persists: 2 of 3 LCS hulls in SE Asia. CENTCOM destroyed 44 minelayers. ~1,500 IRGC drone boats along coast.",
     "us_sanctions_lift_march_21": true,
     "us_sanctions_lift_note": "US Treasury temporarily lifted sanctions on Iranian oil already loaded on ships (effective Mar 21 until Apr 19), expecting ~140M barrels to global supply. Iran dismissed, saying it has no surplus crude to sell.",
     "irgc_threat_march_18": "IRGC issued 'urgent warning' following South Pars strike — named SAMREF Refinery (Saudi), Jubail Petrochemical Complex (Saudi), Al Hosn Gas Field (UAE), Mesaieed (Qatar), Ras Laffan (Qatar) as 'direct and legitimate targets in the coming hours.' Urged civilian/worker evacuation.",
@@ -107,6 +107,7 @@
     "day_24_events": "Day 24 — Trump postpones power plant strikes 5 days, claims 'productive conversations' with Iran via intermediaries (Oman, Turkey, Egypt, Pakistan). Parliament Speaker Ghalibaf is key Iranian interlocutor — no direct talks, per Iran FM. Brent crashes 13.6% to $96.91 intraday (largest single-day swing of war) then recovers to ~$104. S&P surges +1.7-2.2%. IDF strikes Tehran; Iran strikes Netanya. Gulf states intercept fresh barrages. Saudi expels Iranian military attach\u00e9. Ford arrives Souda Bay for repairs. IEA: 44+ energy assets damaged across 9 countries, 'worst since combined 1973+1979.' 3,000+ vessels stranded. 600+ in immediate Gulf. $2M IRGC passage corridor. Houthis still dormant — ~30 tankers near Yanbu within range. New deadline ~Mar 28.",
     "day_26_events": "Day 26 — 82nd Airborne deployment confirmed. 15-point ceasefire plan rejected by Iran as 'extremely maximalist and unreasonable.' Iran outlines 5-7 counter-conditions: closure of US bases in Gulf, reparations, Hormuz transit-fee arrangement, end to Israeli strikes on Hezbollah, lifting all sanctions, preservation of missile program. Iran's Hormuz letter to UN/IMO: 'non-hostile vessels' may transit after coordination; no passage for US/Israeli vessels. Brent $96.68 (−3.5%). S&P ~6,596 (+0.6%). Tripoli ARG in CENTCOM AOR. Boxer weeks out. Kuwait airport drone strike. Saudi intercepts 32+ drones. AP-NORC: 59% say war 'gone too far.' Speaker Johnson: 'almost done.'",
     "day_25_events": "Day 25 — Iran launches 7 waves of ballistic missiles at Israel, 4 impacts in Tel Aviv, 6 wounded. IAF strikes 50+ targets overnight in Iran (IDF cumulative 3,000+). CENTCOM: 9,000+ targets, 140+ vessels destroyed, 9,000+ combat flights. 12+ underwater mines confirmed (Maham 3/7 types). CBS News confirms mine types. Kuwait alarms 7 times. Saudi intercepts ~20 drones. IRGC attacks US 5th Fleet in Bahrain — 1 Emirati KIA (first UAE combat death). UAE intercepts Abu Dhabi missile. Oil rebounds 3-4% to ~$103 Brent / ~$91 WTI after Iran denies all negotiations. Tripoli ARG enters CENTCOM AOR ~Mar 25. Lebanon expels Iran ambassador (deadline Mar 29). Israel DM Katz: occupy S. Lebanon to Litani. IDF strikes Beirut command centers. Pakistan emerging as lead mediator. Gas $3.956. ~$29.3B cumulative. Bahrain UNSC Chapter VII draft; France alternative. UK emergency meeting on economic fallout.",
-    "day_27_events": "Day 27 — Israel kills IRGC Navy Commander Tangsiri in Bandar Abbas precision strike — architect of Hormuz blockade eliminated. Senior IRGC naval leadership killed. Iran formally responds to 15-point plan with 5-point counterproposal including Hormuz sovereignty. Brent surges to $105.85 (+3.8-6.4%). Trump: 'get serious soon, before it is too late — NO TURNING BACK.' Confirms 4-6 week war. Reveals Iran allowed ~8 tankers through as gesture. IDF 'wave of extensive strikes' on Isfahan arms factories. Iranian missiles hit 4 Israeli locations. 2 killed Abu Dhabi from debris. Hezbollah rocket kills man in Nahariya. IDF soldier killed in Lebanon. Senate blocks war powers 53-47. Pakistan pushing in-person talks Mar 28. Gas $3.98 (+$1.00/month). Power plant deadline ~Mar 28. Iran fortifying Kharg Island. 82nd Airborne en route. ~$31.8B cumulative."
+    "day_27_events": "Day 27 — Israel kills IRGC Navy Commander Tangsiri in Bandar Abbas precision strike — architect of Hormuz blockade eliminated. Senior IRGC naval leadership killed. Iran formally responds to 15-point plan with 5-point counterproposal including Hormuz sovereignty. Brent surges to $105.85 (+3.8-6.4%). Trump: 'get serious soon, before it is too late — NO TURNING BACK.' Confirms 4-6 week war. Reveals Iran allowed ~8 tankers through as gesture. IDF 'wave of extensive strikes' on Isfahan arms factories. Iranian missiles hit 4 Israeli locations. 2 killed Abu Dhabi from debris. Hezbollah rocket kills man in Nahariya. IDF soldier killed in Lebanon. Senate blocks war powers 53-47. Pakistan pushing in-person talks Mar 28. Gas $3.98 (+$1.00/month). Power plant deadline ~Mar 28. Iran fortifying Kharg Island. 82nd Airborne en route. ~$31.8B cumulative.",
+    "day_28_events": "Day 28 — Trump extends power plant deadline 10 days to Apr 6; G7 summit fractures — no communiqué; IDF overnight blitz Tehran/Kermanshah/Dezful; CENTCOM: 10,000+ targets, 130+ vessels, 8,000+ flights, 'largest navy elimination since WWII'; Iran submits 5-point counterproposal including Hormuz sovereignty; Pakistan pushes in-person Islamabad talks this weekend; Brent $108.01; VLCC rates $423,736/day all-time high; ~2,000 vessels stranded; 20,000 seafarers; insurance 5-10% of hull value; Iran mines (12+, Maham-3/7) + 1,500 drone boats; Philippines declares emergency"
   }
 }
