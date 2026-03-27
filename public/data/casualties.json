@@ -1,5 +1,5 @@
 {
-  "labels": ["Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15", "Mar 16", "Mar 17", "Mar 18", "Mar 19", "Mar 20", "Mar 21", "Mar 22", "Mar 23", "Mar 24", "Mar 25", "Mar 26"],
+  "labels": ["Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15", "Mar 16", "Mar 17", "Mar 18", "Mar 19", "Mar 20", "Mar 21", "Mar 22", "Mar 23", "Mar 24", "Mar 25", "Mar 26", "Mar 27"],
   "day_contexts": [
     "Day 1 — First strikes, Minab school (165+ killed), Iranian retaliation",
     "Day 2 — Beit Shemesh (9 killed), Port Shuaiba (6 US KIA), sustained bombing",
@@ -27,34 +27,35 @@
     "Day 24 — Trump postpones power plant strikes 5 days; IDF strikes Tehran; Iran strikes Netanya; 3 Litani bridges destroyed; HRW: war crimes in Lebanon; Urmia/Khorramabad residential areas struck; gas $3.96; oil crashes then recovers",
     "Day 25 — 7 Iranian missile waves on Israel; 4 Tel Aviv impacts (6 wounded); IRGC attacks 5th Fleet Bahrain (1 Emirati KIA); IAF 50+ targets; Dimona sirens; Nesher cluster munition; Israel DM: occupy Lebanon to Litani",
     "Day 26 — IDF wide-scale attacks on Tehran govt infrastructure; south Tehran 12 killed/28 wounded; 82nd Airborne deploying; Habbaniyah strike kills 7 Iraqi soldiers; 6 Peshmerga killed near Erbil; missile hits Tel Aviv street; Kuwait airport drone strike; 33 Lebanese killed in 24 hrs",
-    "Day 27 — Israel kills IRGC Navy Cmdr Tangsiri + senior staff in Bandar Abbas; 'wave of extensive strikes' on Isfahan; Iranian missiles hit Kafr Qasim, Ganei Tikva, Kiryat Ata, Tel Aviv; 2 killed in Abu Dhabi from debris; Bahrain fire; Hezbollah rocket kills man in Nahariya; IDF soldier killed in Lebanon; Sgt. Pennington KIA announced; total 13 US KIA, 290 WIA"
+    "Day 27 — Israel kills IRGC Navy Cmdr Tangsiri + senior staff in Bandar Abbas; 'wave of extensive strikes' on Isfahan; Iranian missiles hit Kafr Qasim, Ganei Tikva, Kiryat Ata, Tel Aviv; 2 killed in Abu Dhabi from debris; Bahrain fire; Hezbollah rocket kills man in Nahariya; IDF soldier killed in Lebanon; Sgt. Pennington KIA announced; total 13 US KIA, 290 WIA",
+    "Day 28 — IDF overnight blitz in Tehran and western Iran; 6 civilians killed in Qom; casualties in Urmia from overnight strikes; Hezbollah 100+ rockets at Israel; woman killed Nahariya; IDF Sgt. Volansky killed S. Lebanon; 10 wounded by missiles in Israel; 2 killed Abu Dhabi from debris; Kuwait shoots down 2 drones"
   ],
   "datasets": {
     "iranian_military": {
       "label": "Iranian Military",
-      "data": [65, 98, 122, 106, 90, 82, 73, 114, 98, 65, 65, 78, 91, 95, 80, 70, 65, 60, 55, 70, 75, 55, 50, 45, 40, 45, 55],
+      "data": [65, 98, 122, 106, 90, 82, 73, 114, 98, 65, 65, 78, 91, 95, 80, 70, 65, 60, 55, 70, 75, 55, 50, 45, 40, 45, 55, 60],
       "color": "#b81c1c"
     },
     "iranian_civilian": {
       "label": "Iranian Civilian",
-      "data": [5, 10, 15, 12, 35, 20, 15, 25, 18, 10, 8, 45, 20, 20, 15, 10, 8, 8, 10, 15, 12, 8, 6, 8, 6, 12, 10],
+      "data": [5, 10, 15, 12, 35, 20, 15, 25, 18, 10, 8, 45, 20, 20, 15, 10, 8, 8, 10, 15, 12, 8, 6, 8, 6, 12, 10, 8],
       "color": "#ffffff"
     },
     "us_military": {
       "label": "US Military",
-      "data": [0, 6, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "data": [0, 6, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "color": "#4a9eff"
     },
     "lebanese": {
       "label": "Lebanese (all)",
-      "data": [0, 0, 44, 58, 64, 68, 61, 75, 58, 48, 40, 54, 85, 65, 55, 50, 48, 45, 50, 48, 33, 40, 45, 28, 30, 33, 30],
+      "data": [0, 0, 44, 58, 64, 68, 61, 75, 58, 48, 40, 54, 85, 65, 55, 50, 48, 45, 50, 48, 33, 40, 45, 28, 30, 33, 30, 28],
       "color": "#7b3fa0"
     },
     "israeli_military": {
       "label": "Israeli Military",
-      "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 6, 2, 0, 2, 1, 1, 2, 0, 0, 0, 0, 0, 0, 1],
+      "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 6, 2, 0, 2, 1, 1, 2, 0, 0, 0, 0, 0, 0, 1, 1],
       "color": "#ffc832"
     }
   },
-  "last_updated": "2026-03-26"
+  "last_updated": "2026-03-27"
 }

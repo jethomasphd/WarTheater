@@ -15,8 +15,9 @@
     "mission_summary": "Primary strike platform — deep strike into Iran and attrition of Iranian naval capabilities",
     "deployed_since": "2025-11-21",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 27: Sole operational carrier in direct theater. CENTCOM confirmed Mar 26 via X that Lincoln continues flight operations against military targets in Iran — rebutting Iranian claims carrier was forced to reposition. CSG-3 with CVW-9 (F/A-18E/F, F-35C VMFA-314, EA-18G, E-2D). Escorts: Spruance (DDG-111), Petersen Jr. (DDG-121), Murphy (DDG-112), plus independently deployed DDGs McFaul, Milius, Delbert D. Black, Pinckney, Mitscher. 9,000+ targets, 9,000+ combat sorties.",
-    "source": "USNI Fleet Tracker 3/23, CENTCOM 3/26, ANI News, Tribune India"
+    "area": "Arabian Sea — continuous combat ops — CENTCOM confirms 10,000+ US targets struck",
+    "notes": "Day 28: Sole operational carrier in direct theater. CENTCOM confirms 10,000+ US targets struck, 8,000+ combat flights, 130+ naval vessels and 44 minelayers destroyed. CSG-3 with CVW-9 (F/A-18E/F, F-35C VMFA-314, EA-18G, E-2D). Escorts: Spruance (DDG-111), Petersen Jr. (DDG-121), Murphy (DDG-112), plus independently deployed DDGs McFaul, Milius, Delbert D. Black, Pinckney, Mitscher.",
+    "source": "USNI Fleet Tracker 3/23, CENTCOM 3/27, ANI News, Tribune India"
   },
   {
     "id": "cvn-78",
@@ -33,7 +34,7 @@
     "mission_summary": "At NSA Souda Bay, Crete for emergency pierside repairs — non-combat laundry room fire Mar 12; repair timeline unclear",
     "deployed_since": "2025-05-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 27: At NATO Marathi Pier Complex, Souda Bay, Crete for repairs following non-combat fire in aft laundry room Mar 12. Fire displaced sailors, destroyed 100+ racks; 1,000 replacement mattresses sourced from future USS John F. Kennedy (CVN-79). Navy states carrier 'remains fully mission capable.' Ford deployed 272+ days (departed Norfolk Jun 24, 2025), approaching post-Vietnam record of 294 days. USS George H.W. Bush (CVN-77) reportedly being prepared as potential relief vessel. Escorts Bainbridge (DDG-96), Mahan (DDG-72), Churchill (DDG-81).",
+    "notes": "Day 28: At NATO Marathi Pier Complex, Souda Bay, Crete for repairs following non-combat fire in aft laundry room Mar 12. Fire displaced sailors, destroyed 100+ racks; 1,000 replacement mattresses sourced from future USS John F. Kennedy (CVN-79). Navy states carrier 'remains fully mission capable.' Ford deployed 274+ days (departed Norfolk Jun 24, 2025), approaching post-Vietnam record of 294 days. USS George H.W. Bush (CVN-77) reportedly being prepared as potential relief vessel. Escorts Bainbridge (DDG-96), Mahan (DDG-72), Churchill (DDG-81).",
     "source": "USNI News, Navy official announcement, USNI Fleet Tracker 3/23"
   },
   {
@@ -51,7 +52,7 @@
     "mission_summary": "Pre-deployment workups — expected to relieve Ford; completing exercises",
     "deployed_since": null,
     "operation_start_date": null,
-    "notes": "Day 27: Reportedly being prepared as potential relief vessel for Ford. Pre-deployment workups East Coast. CSG-10/CVW-7 ready at Norfolk. No confirmed deployment orders as of Mar 26.",
+    "notes": "Day 28: Completed COMPTUEX; certified for major combat ops; likely deploying to relieve Ford.",
     "source": "USNI News (Mar 6), Navy Times, USNI Fleet Tracker 3/23"
   },
   {
@@ -60,9 +61,9 @@
     "hull": "LHA-7",
     "type": "amphibious",
     "strike_group": "Tripoli Amphibious Ready Group / 31st Marine Expeditionary Unit",
-    "lat": 18.00,
+    "lat": 20.00,
     "lng": 62.00,
-    "area": "Arabian Sea — in CENTCOM AOR; WSJ reports due in Middle East ~Mar 27; in port at Diego Garcia Mar 23",
+    "area": "Arabian Sea — in CENTCOM AOR; expected on station by end of March",
     "aircraft": "F-35B Lightning II (VMFA-121), MV-22B Osprey (VMM-265), AH-1Z Viper, UH-1Y Venom, CH-53K King Stallion",
     "escorts": ["LPD-18 USS New Orleans", "CG-62 USS Robert Smalls", "DDG-115 USS Rafael Peralta"],
     "status": "EN ROUTE — IN CENTCOM AOR",
@@ -70,7 +71,7 @@
     "deployed_since": "2026-03-13",
     "operation_start_date": null,
     "eta_theater": "2026-03-25 to 2026-03-30",
-    "notes": "Day 27: Confirmed in port at Diego Garcia as of Mar 23 USNI Fleet Tracker. Carrying 31st MEU (~2,200 Marines) and approximately 20 F-35Bs from VMFA-121. WSJ reported arrival in CENTCOM operational area around Mar 27 — meaning Tripoli should reach station imminently or within 24 hours. No Mar 26 position update found.",
+    "notes": "Day 28: Transiting Arabian Sea toward operational station. Carrying 31st MEU (~2,200 Marines) and approximately 20 F-35Bs from VMFA-121. WSJ reported arrival in CENTCOM operational area around Mar 27. Expected on station by end of March.",
     "replaces": "lha-6 (USS America — unconfirmed in theater)",
     "source": "WSJ (Mar 24), USNI Fleet Tracker (Mar 23), Reuters, USNI News"
   },
@@ -138,7 +139,7 @@
     "strike_group": "Boxer Amphibious Ready Group / 11th Marine Expeditionary Unit",
     "lat": 25.00,
     "lng": -118.00,
-    "area": "Pacific Ocean — en route to Middle East; departed San Diego Mar 19-20; ETA mid-April at earliest",
+    "area": "Eastern Pacific — en route to Middle East",
     "aircraft": "AV-8B Harrier II or F-35B Lightning II, MV-22B Osprey, AH-1Z Viper, UH-1Y Venom, CH-53E Super Stallion",
     "escorts": ["LSD-45 USS Comstock", "LPD-27 USS Portland"],
     "status": "EN ROUTE — WEEKS OUT",
@@ -146,7 +147,7 @@
     "deployed_since": "2026-03-19",
     "operation_start_date": null,
     "eta_theater": "2026-04-09",
-    "notes": "Day 27: Departed San Diego Mar 18-19 with USS Comstock (LSD-45) and USS Portland (LPD-27), embarking 11th MEU. DVIDSHUB photos from Mar 20-21 show underway Pacific operations. Still in the Pacific and weeks from CENTCOM area. With 11th MEU (~2,200 Marines), F-35Bs. Combined with Tripoli ARG, will bring ~4,500 Marines/sailors to theater.",
+    "notes": "Day 28: Departed San Diego Mar 18-19 with USS Comstock (LSD-45) and USS Portland (LPD-27), embarking 11th MEU. In the Eastern Pacific, weeks from CENTCOM area. With 11th MEU (~2,200 Marines), F-35Bs. Combined with Tripoli ARG, will bring ~4,500 Marines/sailors to theater.",
     "source": "USNI Fleet Tracker (Mar 23), DVIDSHUB, AP, Stars and Stripes, Pentagon"
   },
   {
@@ -164,7 +165,7 @@
     "mission_summary": "UK submarine supporting coalition operations in Arabian Sea",
     "deployed_since": "2026-03-01",
     "operation_start_date": "2026-03-01",
-    "notes": "Day 27: Royal Navy's only fully operational Astute-class attack submarine confirmed on station in the northern Arabian Sea as of ~Mar 21. Armed with Tomahawk Block IV cruise missiles and Spearfish torpedoes. Deployment follows PM Starmer's authorization for US forces to use UK bases.",
+    "notes": "Day 28: Royal Navy's only fully operational Astute-class attack submarine confirmed on station in the Northern Arabian Sea, armed with Tomahawk Block IV and Spearfish torpedoes — any launch requires PM Starmer's authorization.",
     "source": "UK MoD, GOV.UK, multiple outlets"
   },
   {
@@ -175,14 +176,14 @@
     "strike_group": "XVIII Airborne Corps — CENTCOM",
     "lat": 35.14,
     "lng": -79.00,
-    "area": "En route to CENTCOM — ~2,000 paratroopers — Kharg Island seizure suspected",
+    "area": "En route to CENTCOM — ~2,000-3,000 paratroopers — WSJ: up to 10,000 more considered",
     "aircraft": null,
     "escorts": [],
     "status": "DEPLOYING",
     "mission_summary": "Ground combat force — HQ elements, division enablers, and 1st BCT deploying to CENTCOM; IRF can deploy within 18 hours",
     "deployed_since": "2026-03-25",
     "operation_start_date": null,
-    "notes": "Day 27: ~2,000 paratroopers from 82nd Airborne Immediate Response Force ordered to Middle East including division commander Maj. Gen. Brandon Tegtmeier and two battalions of ~800 soldiers each. Suspected mission: seizing Kharg Island (90% of Iranian oil exports). CNN reported Mar 25-26 that Iran is actively building up defenses on Kharg Island in anticipation. Arrival in theater not publicly confirmed as of Mar 26. NPR aired Mar 26 interview on 82nd capabilities.",
+    "notes": "Day 28: ~2,000-3,000 paratroopers from 82nd Airborne Immediate Response Force ordered to Middle East including division commander Maj. Gen. Brandon Tegtmeier and two battalions of ~800 soldiers each. WSJ reports Pentagon considering up to 10,000 additional troops for the theater. Suspected mission: seizing Kharg Island (90% of Iranian oil exports). CNN reported Mar 25-26 that Iran is actively building up defenses on Kharg Island in anticipation.",
     "source": "Stars and Stripes Mar 25, CBS News, CNN, NPR Mar 26"
   },
   {

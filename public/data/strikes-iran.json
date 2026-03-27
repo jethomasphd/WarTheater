@@ -4,16 +4,16 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-03-26",
+    "last_updated": "2026-03-27",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "~28,000+ (CENTCOM Mar 26: 9,000+ US targets, 9,000+ combat sorties — ~333/day over 27 days. Two-thirds of missile/drone production destroyed. IDF 'wave of extensive strikes' on Isfahan arms factories. Combined US/Israeli extrapolated ~28,000+ through Day 27)",
+    "total_targets_struck": "~29,000+ (CENTCOM Mar 27: 10,000+ US targets, 8,000+ combat flights, 130+ naval vessels, 44 minelayers destroyed. Two-thirds of arms manufacturing facilities destroyed. IDF: 1,000+ weapons production targets struck. Combined US/Israeli extrapolated ~29,000+ through Day 28)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
-      "killed": "1,500+",
+      "killed": "1,937+",
       "injured": "18,551+",
-      "military_killed_hengaw": "5,305+",
+      "military_killed_hengaw": "5,890+",
       "sources": "Iran Health Ministry / Hengaw / HRANA / ACLED / AP",
-      "as_of": "2026-03-26"
+      "as_of": "2026-03-27"
     },
     "civilian_buildings_affected": "~20,000 (including 16,000 residential units) per Iranian Red Crescent as of Day 11",
     "healthcare_facilities_affected": "77 per Red Crescent; 31 major hospitals damaged, 12 inactive per Deputy Health Minister; WHO verified 13 attacks on healthcare",
@@ -404,7 +404,7 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "Multiple sources list Qom as Day 1 target city / NCRI reports 6 explosions on Day 13",
-    "active_days": [1, 2, 3, 13],
+    "active_days": [1, 2, 3, 13, 28],
     "notes": "Qom city listed as a Day 1 target alongside Tehran, Isfahan, Karaj, Kermanshah, and Kerman. Fordow enrichment facility (near Qom) tracked separately. Continued strikes reported in subsequent days."
   },
   {
@@ -945,9 +945,69 @@
     "first_strike": "2026-03-26",
     "casualties_reported": "Unknown — strikes 'increasing in number and in intensity' per Al Jazeera",
     "casualties_source": "IDF / NPR / Al Jazeera",
-    "active_days": [27],
-    "notes": "Day 27 (Mar 26): Israel launched 'wave of extensive strikes' on central Isfahan targeting remaining missile and drone production infrastructure. Israeli military sources told NPR they want 'several more weeks of war' and are 'speeding up targeting over the next 48 hours' focusing on arms factories. US has now struck two-thirds of Iran's missile and drone production facilities.",
+    "active_days": [27, 28],
+    "notes": "Day 27 (Mar 26): Israel launched 'wave of extensive strikes' on central Isfahan targeting remaining missile and drone production infrastructure. Israeli military sources told NPR they want 'several more weeks of war' and are 'speeding up targeting over the next 48 hours' focusing on arms factories. US has now struck two-thirds of Iran's missile and drone production facilities. Day 28 (Mar 27): Continued strikes on weapons production facilities in Isfahan.",
     "verified": true,
-    "last_updated": "2026-03-26"
+    "last_updated": "2026-03-27"
+  },
+  {
+    "id": "tehran-weapons-march27",
+    "city": "Tehran (Heart of Tehran)",
+    "lat": 35.6892,
+    "lng": 51.3890,
+    "type": "us_strike",
+    "actor": "israel",
+    "targets": [
+      "Iran's 'most central' naval arms production facility",
+      "Ballistic missile component factory",
+      "Anti-aircraft system storage base",
+      "Weapons battery production site"
+    ],
+    "first_strike": "2026-03-27",
+    "casualties_reported": "Iranian soldiers killed at sites per IDF",
+    "casualties_source": "IDF / Brig. Gen. Defrin / NPR",
+    "active_days": [28],
+    "notes": "Day 28 (Mar 27): IDF conducted 'wide-scale wave of strikes' in 'the heart of Tehran' overnight, hitting dozens of weapon manufacturing sites. IDF Spokesman Brig. Gen. Effie Defrin confirmed Iranian soldiers killed. IDF has now struck more than 1,000 targets in Iran's weapons production sector alone.",
+    "verified": true,
+    "last_updated": "2026-03-27"
+  },
+  {
+    "id": "kermanshah-dezful-march27",
+    "city": "Kermanshah / Dezful",
+    "lat": 34.3142,
+    "lng": 47.0650,
+    "type": "us_strike",
+    "actor": "israel",
+    "targets": [
+      "Missile launch sites",
+      "Ballistic missile storage facilities",
+      "Air defense systems"
+    ],
+    "first_strike": "2026-03-27",
+    "casualties_reported": "Iranian soldiers killed per IDF",
+    "casualties_source": "IDF / Brig. Gen. Defrin",
+    "active_days": [28],
+    "notes": "Day 28 (Mar 27): IAF dropped approximately 70 bombs on missile launch sites, ballistic missile storage, and air defense systems in Kermanshah and Dezful in western Iran overnight.",
+    "verified": true,
+    "last_updated": "2026-03-27"
+  },
+  {
+    "id": "qom-civilian-march27",
+    "city": "Qom",
+    "lat": 34.6416,
+    "lng": 50.8746,
+    "type": "us_strike",
+    "subtype": "civilian_casualties",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Military/government targets — 6 civilians killed from overnight strikes"
+    ],
+    "first_strike": "2026-03-27",
+    "casualties_reported": "6 civilians killed in Qom",
+    "casualties_source": "Iranian state media / Reuters",
+    "active_days": [28],
+    "notes": "Day 28 (Mar 27): Six civilians reported killed in Qom from overnight strikes. Additional casualties reported in Urmia from strikes on residential buildings.",
+    "verified": true,
+    "last_updated": "2026-03-27"
   }
 ]
