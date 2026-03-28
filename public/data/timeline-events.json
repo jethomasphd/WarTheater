@@ -2464,5 +2464,95 @@
     "category": "summary",
     "source": "Multiple",
     "data_point": "~$33.1B cumulative — deadline Apr 6 — Islamabad talks possible — 10,000+ targets — G7 fractures"
+  },
+  {
+    "date": "2026-03-28",
+    "time": "03:00",
+    "title": "BREAKING: Houthis launch first missile barrage at Israel — third active front opens",
+    "description": "Yemen's Houthis launched their first military operation of the war — a barrage of ballistic missiles targeting 'sensitive Israeli military sites' in southern Israel. Sirens sounded in Beersheba near Israel's Dimona nuclear research center. Israel intercepted at least one missile. Houthi spokesman Brig. Gen. Yahya Saree announced the attack on Al Masirah TV. Houthi deputy information minister declared 'closing the Bab al-Mandeb strait is among our options.' Approximately 30 tankers staged near Yanbu within Houthi strike range. This ends 28 days of surprising Houthi restraint.",
+    "category": "military",
+    "source": "Al Masirah TV / Reuters / INSS / Soufan Center",
+    "data_point": "First Houthi attack of war — Bab al-Mandeb closure threatened — 30 tankers at risk near Yanbu"
+  },
+  {
+    "date": "2026-03-28",
+    "time": "05:00",
+    "title": "Iranian missiles strike 8 sites in Tel Aviv — 1 killed, 2 injured; Kuwait airport radar damaged",
+    "description": "On March 28, Iranian missiles struck 8 sites in Tel Aviv including a university, killing 1 and injuring 2. Iran has fired 500+ ballistic/naval missiles and ~2,000 drones since Day 1 — roughly 40% at Israel, 60% at US regional targets. Over 90% intercepted but attacks on radar systems have eroded detection network. Kuwait International Airport radar was damaged by a drone strike. Iran's missile launch rate has declined since early March — analysts cite stock depletion and rationing strategy.",
+    "category": "military",
+    "source": "IDF / Times of Israel / Reuters / Kuwait MoD",
+    "data_point": "500+ ballistic missiles + ~2,000 drones fired total — 90% intercepted — launch rate declining"
+  },
+  {
+    "date": "2026-03-28",
+    "time": "06:00",
+    "title": "10 US troops injured at Prince Sultan Air Base — 300+ total US wounded",
+    "description": "At least 10 US troops were injured in an Iranian attack on Prince Sultan Air Base, Saudi Arabia (March 27-28), which also damaged refueling aircraft. CENTCOM reports 300+ US wounded since Day 1. Total US deaths remain at 13: 6 in Kuwait drone attack (March 1), 1 from Saudi injuries (Sgt. Benjamin N. Pennington, 26), and 6 in KC-135 crash in western Iraq (March 12). Total US forces in region: approximately 50,000, with Trump considering 10,000 additional combat troops.",
+    "category": "military",
+    "source": "CENTCOM / Pentagon / Stars and Stripes",
+    "data_point": "300+ US wounded total — 10 injured Prince Sultan AB — 13 KIA — 50,000 troops deployed"
+  },
+  {
+    "date": "2026-03-28",
+    "time": "07:00",
+    "title": "CENTCOM: 850+ Tomahawks expended — 330 of 470 Iranian missile launchers destroyed — 92% of navy eliminated",
+    "description": "CENTCOM Commander Adm. Brad Cooper reported 8,000+ combat flights flown and 850+ Tomahawk missiles expended in the first month. Over 10,000 Iranian military targets struck. 92% of Iran's large naval vessels destroyed — over 150 sunk — described as 'the largest elimination of a navy over a three-week period since WWII.' Israeli assessment: 330 of Iran's ~470 ballistic missile launchers destroyed or disabled, though US intelligence can only confirm destruction of roughly one-third.",
+    "category": "military",
+    "source": "CENTCOM / Israeli assessments / DoD",
+    "data_point": "850+ Tomahawks — 150+ vessels sunk — 330/470 launchers destroyed — 8,000+ flights"
+  },
+  {
+    "date": "2026-03-28",
+    "time": "08:00",
+    "title": "Lebanon war intensifies — Division 162 deploys, Hezbollah fires 600 in 24 hours",
+    "description": "The 2026 Lebanon war entered a critical phase. Division 162 deployed to expand the buffer zone in the western sector, joining two divisions already operating. IDF ordered destruction of all Litani River crossings. Lebanese casualties: 1,116+ killed, 3,229 injured since March 2, with 1.2 million displaced (one in five residents). IDF claims 750+ Hezbollah fighters killed. Hezbollah escalated to 600 rockets/missiles/drones in a single 24-hour period and claims 20 Israeli tanks destroyed. PM Salam banned Hezbollah military activities and expelled Iran's ambassador.",
+    "category": "military",
+    "source": "IDF / Lebanese MoH / Al Jazeera / Reuters",
+    "data_point": "Division 162 deployed — 1,116+ Lebanese killed — 1.2M displaced — 600 Hezbollah rockets in 24 hrs"
+  },
+  {
+    "date": "2026-03-28",
+    "time": "09:00",
+    "title": "Brent $112.57 (+4.22%) — WTI briefly crosses $100 — Dow enters correction territory",
+    "description": "Brent crude closed Friday at $112.57 (+4.22%), highest since July 2022 and up 49% in March alone — strongest monthly gain since November 1973. WTI closed at $99.64 (+5.46%) with intraday high of $100.04 — briefly crossing $100. Goldman Sachs estimates $14-18/bbl geopolitical risk premium. S&P 500 closed at 6,368.85 (-1.67%), fifth straight weekly decline. Dow 45,167 entered correction territory (>10% below recent high). VIX surged to 31.05 above 30. CNN Fear & Greed Index at 'extreme fear.'",
+    "category": "financial",
+    "source": "ICE / NYMEX / NYSE / Bloomberg / Goldman Sachs / CNN",
+    "data_point": "Brent $112.57 — WTI $100.04 intraday — S&P 6,369 — VIX 31.05 — Dow correction — 'extreme fear'"
+  },
+  {
+    "date": "2026-03-28",
+    "time": "10:00",
+    "title": "VP Vance takes lead on negotiations — Iran rejects 15-point plan — Trump extends Hormuz deadline to April 6",
+    "description": "VP JD Vance is reportedly taking the lead role in negotiations (Axios). Iran rejected the US 15-point ceasefire proposal transmitted March 25 via Pakistan — FM Araghchi declared 'we do not plan on any negotiations.' Iran's 5-point counterproposal demands: complete halt to aggression, guarantees, reparations, comprehensive end across all fronts, Iranian sovereignty over Hormuz. Despite public rejection, Reuters notes a senior Iranian source confirmed the plan is being reviewed. Secretary Rubio told G7 allies the war could last 'another 2 to 4 weeks.' UNSC Resolution 2817 gained 135 co-sponsors.",
+    "category": "diplomatic",
+    "source": "Axios / Reuters / Iran International / G7 / UNSC",
+    "data_point": "Vance leads negotiations — Iran rejects 15-pt plan — Rubio: '2-4 more weeks' — 135 UNSC co-sponsors"
+  },
+  {
+    "date": "2026-03-28",
+    "time": "11:00",
+    "title": "Public opinion sharply against war — 61% disapprove, 74% oppose ground troops",
+    "description": "Pew Research (Mar 16-22, n=3,524): 61% disapprove of Trump's handling, 59% say striking Iran was wrong. Economist/YouGov: only 33% support the war. Quinnipiac: 74% oppose ground troops (including 52% of Republicans). Fox News poll: 58% oppose the war. Trump approval on Iran among independents: 24% approve / 63% disapprove (-39 net). Generic ballot (Emerson): Democrats 49% vs Republicans 42%. NCTC Director has resigned over the war. Protests continue for 27 consecutive days.",
+    "category": "diplomatic",
+    "source": "Pew / Economist-YouGov / Quinnipiac / Fox News / Emerson",
+    "data_point": "61% disapprove — 74% oppose ground troops — 33% support war — NCTC Director resigns"
+  },
+  {
+    "date": "2026-03-28",
+    "time": "12:00",
+    "title": "Humanitarian toll approaches 3,000 killed — Iran agrees to facilitate aid through Hormuz",
+    "description": "Iranian casualties range from 1,750 (Iran deputy UN rep) to 3,114 (HRANA) with dramatic discrepancies. HRANA documented 3,114 deaths by March 17 (1,354 civilians, 1,138 military, 622 unclassified). 217 children killed per HRANA. WHO reports 13+ hospitals/health facilities attacked, 6 evacuated. OCHA: 6,668+ civilian structures targeted. Minab school (Feb 28) killed 150-170+ (mostly schoolchildren) — UN investigating as potential war crime. In a breakthrough, Iran agreed March 27 to 'facilitate and expedite' humanitarian aid through Strait of Hormuz.",
+    "category": "humanitarian",
+    "source": "HRANA / WHO / OCHA / UNHRC / WaPo / Iran UN Mission",
+    "data_point": "1,750-3,114 Iranian killed — 217 children — 6,668 structures targeted — Iran allows Hormuz aid"
+  },
+  {
+    "date": "2026-03-28",
+    "time": "13:00",
+    "title": "Day 29 summary — Houthi entry opens third front, dual chokepoint closure threatened",
+    "description": "Day 29 of Operation Epic Fury marks a major escalation with Houthi entry into the war. If Houthis follow through on closing Bab al-Mandeb, the dual closure of Hormuz and the Red Sea would eliminate both major Middle Eastern shipping chokepoints simultaneously — an unprecedented scenario. Markets closed the week with WTI briefly crossing $100, the Dow in correction territory, and VIX above 30. The April 6 Trump deadline for Iran to reopen Hormuz is the next critical decision point. Force posture — 82nd Airborne deploying, two ARGs converging, Bush CSG potentially en route — suggests planning for possible ground operations. Estimated cumulative cost: ~$34.3B.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "~$34.3B cumulative — Houthi third front — dual chokepoint threat — Apr 6 deadline — VIX 31 — Dow correction"
   }
 ]

@@ -1,45 +1,45 @@
 {
-  "last_updated": "2026-03-27",
-  "war_day": 28,
-  "timestamp_label": "LAST UPDATED: MAR 27, 2026 07:24 ET",
+  "last_updated": "2026-03-28",
+  "war_day": 29,
+  "timestamp_label": "LAST UPDATED: MAR 28, 2026 09:52 ET",
   "cost": {
     "brent": {
-      "price": 108.01,
+      "price": 112.57,
       "label": "Brent Crude $/bbl",
-      "change": "+52.1% since Feb 27 — surges past $108 after Iran rejects peace framework; Trump extends power plant deadline 10 days to Apr 6; IEA: largest supply disruption ever",
-      "tooltip": "Brent Crude: The international benchmark. Pre-war close: $71.00/bbl (Feb 27). Mar 27 (Fri): Brent $108.01/bbl, +5.66% on the day — Iran rejection of 15-point peace plan drives further surge. Trump extends power plant strike deadline 10 days to Apr 6. IEA: 'largest supply disruption in the history of the global oil market' — 8 mb/d supply plunge in March, Gulf production cut 10+ mb/d. Brent-WTI spread ~$13.53 reflects acute waterborne premium. Source: ICE Futures Europe / Fortune / TECHi / IEA."
+      "change": "+58.6% since Feb 27 — Brent surges to $112.57 on Houthi missile launch at Israel; WTI briefly crosses $100; strongest monthly gain since Nov 1973; +49% in March",
+      "tooltip": "Brent Crude: The international benchmark. Pre-war close: $71.00/bbl (Feb 27). Mar 27 (Fri close): Brent $112.57/bbl, +4.22% on the day. Houthi missile barrage at Israel opens third front — Bab al-Mandeb closure threatened. WTI intraday $100.04 — briefly crossed $100. Brent up ~49% in March alone — strongest monthly gain since November 1973. Goldman: $14-18/bbl geopolitical risk premium. Brent-WTI spread $12.93. Source: ICE Futures Europe / Bloomberg / Goldman Sachs."
     },
     "wti": {
-      "price": 94.48,
+      "price": 99.64,
       "label": "WTI Crude $/bbl",
-      "change": "+42.1% since Feb 27 — WTI rebounds to $94.48 on Iran rejection; gas steady at $3.98; Brent-WTI spread ~$13.53",
-      "tooltip": "West Texas Intermediate: The US benchmark. Pre-war close: $66.50/bbl (Feb 27). Mar 27 (Fri): WTI $94.48, rebounding on Iran's rejection of peace framework. Gas at $3.98/gal national average (AAA) — up $1.00 in one month from $2.98. Brent-WTI spread ~$13.53. California $5.79-$5.82. Oklahoma cheapest at $3.24-$3.25. Diesel $5.10. USPS 8% fuel surcharge. Source: NYMEX / AAA / AP."
+      "change": "+49.8% since Feb 27 — WTI $99.64, intraday crossed $100; Houthi entry threatens Bab al-Mandeb; Brent-WTI spread $12.93",
+      "tooltip": "West Texas Intermediate: The US benchmark. Pre-war close: $66.50/bbl (Feb 27). Mar 27 (Fri close): WTI $99.64, +5.46%. Intraday high $100.04 — briefly crossed $100 for first time. Houthi missile barrage at Israel opens third front. Gas at $3.98/gal national average (AAA). Brent-WTI spread $12.93. Dow enters correction territory. VIX above 30. Source: NYMEX / AAA / Bloomberg."
     },
     "gas": {
       "price": 3.98,
       "label": "US Gas Avg/Gal",
-      "change": "+$1.00 / +33.6% since Feb 27 — $3.98 AAA avg — up $1.00 in one month — highest since Aug 2022 — CA $5.79-$5.82",
-      "tooltip": "National average retail gasoline price. Pre-war: $2.98/gal (Feb 27). AAA Mar 26: $3.981/gal (+33.6% since war began). Up $1.00 in one month — highest since August 2022. California $5.79-$5.82 (highest). Oklahoma $3.24-$3.25 (cheapest). Diesel $5.10. USPS imposed 8% fuel surcharge. AP-NORC: 45% extremely/very concerned about gas affordability (up from 30% pre-war). 59% say war 'gone too far.' Source: AAA / AP-NORC."
+      "change": "+$1.00 / +33.6% since Feb 27 — $3.98 AAA avg — up $1.00 in one month — highest since Aug 2022 — EIA: $4.096/gal week ending Mar 23",
+      "tooltip": "National average retail gasoline price. Pre-war: $2.98/gal (Feb 27). AAA Mar 26: $3.981/gal (+33.6% since war began). EIA weekly data: $4.096/gal for week ending Mar 23. Up $1.00 in one month — highest since August 2022. Source: AAA / EIA."
     },
     "sp500": {
-      "value": 6477,
+      "value": 6369,
       "label": "S&P 500",
-      "change": "-402 pts / -5.8% — S&P falls to 6,477 on Iran war uncertainty; VIX 27.44; futures +0.39% on deadline extension",
-      "tooltip": "S&P 500 index. Pre-war close: 6,878.88 (Feb 27). Mar 26 close: 6,477.16, -1.74% on the day. Mar 27 futures +0.39% on Trump extending power plant deadline to Apr 6. VIX 27.44. S&P -5.8% from pre-war. Defense: RTX +22.1%, LMT +19.4% MTD. Energy: XOM +16.4% MTD. Airlines/cruise battered. Source: NYSE / AP / Bloomberg."
+      "change": "-510 pts / -7.4% — S&P 6,369; fifth straight weekly decline; Dow enters correction; VIX 31.05; CNN Fear & Greed at 'extreme fear'",
+      "tooltip": "S&P 500 index. Pre-war close: 6,878.88 (Feb 27). Mar 27 (Fri close): 6,368.85, -1.67% on the day. Fifth consecutive weekly decline — longest since 2022. ~6.77% off January all-time high. Dow 45,167 entered correction territory (>10% below recent high). VIX 31.05 (+13.16%) — above 30 for first time since Mar 9. CNN Fear & Greed Index at 'extreme fear.' Energy only positive S&P sector since war. Source: NYSE / Bloomberg / CNN."
     },
     "daily_cost": {
       "value": 1250,
       "unit": "M",
       "label": "Est. Daily US Cost",
-      "note": "~$1.0-1.5B/day — 10,000+ targets — 8,000+ sorties — 82nd Airborne deploying — Trump extends deadline to Apr 6 — G7 fractures — $200B supplemental",
-      "tooltip": "Estimated daily operational cost. Day 28: ~$1.0-1.5B/day. CENTCOM: 10,000+ targets, 8,000+ combat sorties. Cooper confirmed 10,000+ targets struck. 82nd Airborne deploying to CENTCOM. Trump extends power plant strike deadline 10 days to Apr 6. G7 fractures over continued operations. Pentagon $200B supplemental before Congress. Penn Wharton: $40-95B direct military, $50-210B economic. Replenishment $3.1B+ (~$758M/day). Source: Pentagon / CSIS / CENTCOM / Penn Wharton."
+      "note": "~$1.0-1.5B/day — 10,000+ targets — 850+ Tomahawks expended — 82nd Airborne deploying — Houthi third front opens — $50-200B supplemental",
+      "tooltip": "Estimated daily operational cost. Day 29: ~$1.0-1.5B/day. CENTCOM: 10,000+ targets, 8,000+ combat flights, 850+ Tomahawks expended in first month. 82nd Airborne deploying. Houthis open third front with missile barrage at Israel. Trump extended Hormuz deadline to Apr 6. Pentagon preparing $50-200B supplemental funding request. Penn Wharton: $40-95B direct military, $50-210B economic. Source: Pentagon / CSIS / CENTCOM / Penn Wharton."
     },
     "total_cost": {
-      "value": 33.05,
+      "value": 34.30,
       "unit": "B",
-      "label": "Est. Total Cost (28 Days)",
-      "note": "Pentagon $11.3B Day 6 + CSIS $16.5B Day 12 + ~$1-1.5B/day ongoing — ~$32.8-33.3B — $200B supplemental proposed",
-      "tooltip": "Cumulative estimated cost since Feb 28. Pentagon: $11.3B through Day 6. CSIS: $16.5B through Day 12. Extrapolated through Day 28: ~$32.8-33.3B. Pentagon $200B supplemental before Congress. Speaker Johnson: 'probably' in reconciliation bill. Trump expects war 4-6 weeks. Penn Wharton: $40-95B direct military, $50-210B economic. Replenishment: $3.1B+ (~$758M/day). Source: Pentagon / CSIS / The Hill / Penn Wharton."
+      "label": "Est. Total Cost (29 Days)",
+      "note": "Pentagon $11.3B Day 6 + CSIS $16.5B Day 12 + ~$1-1.5B/day ongoing — ~$34.0-34.6B — $50-200B supplemental proposed",
+      "tooltip": "Cumulative estimated cost since Feb 28. Pentagon: $11.3B through Day 6. CSIS: $16.5B through Day 12. Extrapolated through Day 29: ~$34.0-34.6B. Trump preparing $50-200B supplemental funding request. Rubio told G7 war could last 'another 2 to 4 weeks.' Penn Wharton: $40-95B direct military, $50-210B economic. Replenishment: $3.1B+ (~$758M/day). Source: Pentagon / CSIS / The Hill / Penn Wharton."
     }
   },
   "history": [
@@ -274,63 +274,71 @@
       "targets_struck": 29000, "us_kia": 13, "us_wia": 290,
       "iranian_killed": 6530, "lebanese_killed": 1116,
       "displaced": 4200000, "flights_cancelled": 52000, "children_killed": 338
+    },
+    {
+      "date": "2026-03-28", "war_day": 29,
+      "brent": 112.57, "wti": 99.64, "gas": 3.98, "sp500": 6369,
+      "daily_cost_millions": 1250, "total_cost_billions": 34.30,
+      "targets_struck": 29500, "us_kia": 13, "us_wia": 300,
+      "iranian_killed": 6600, "lebanese_killed": 1116,
+      "displaced": 4400000, "flights_cancelled": 52000, "children_killed": 338
     }
   ],
   "toll": {
     "targets_struck": {
-      "value": 29000,
+      "value": 29500,
       "label": "Targets Struck",
-      "note": "CENTCOM: 10,000+ US targets — 8,000+ combat sorties — IDF: 1,000+ weapons production targets — 92% of large naval vessels destroyed — 2/3 arms manufacturing",
-      "tooltip": "Total targets struck by US and Israeli forces since Feb 28. CENTCOM (Mar 27): 10,000+ US targets, 8,000+ combat sorties — Cooper confirmed 10,000+ targets struck. IDF overnight blitz on Tehran/Kermanshah/Dezful ~70 bombs targeting weapons production. 92% of large naval vessels destroyed. Two-thirds of Iran's arms manufacturing destroyed. Combined US/Israeli extrapolated ~29,000+ through Day 28. Source: CENTCOM / IDF / NPR / Al Jazeera.",
+      "note": "CENTCOM: 10,000+ US targets — 8,000+ combat flights — 850+ Tomahawks — 92% of large naval vessels (150+) destroyed — 330/470 ballistic launchers destroyed/disabled",
+      "tooltip": "Total targets struck by US and Israeli forces since Feb 28. CENTCOM (Mar 28): 10,000+ US targets, 8,000+ combat flights, 850+ Tomahawk missiles expended. 92% of Iran's large naval vessels destroyed — over 150 sunk — 'largest elimination of a navy since WWII.' Israeli assessment: 330 of ~470 ballistic missile launchers destroyed or disabled. Combined US/Israeli extrapolated ~29,500+ through Day 29. Source: CENTCOM / IDF / Israeli assessments.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
       "value": 13,
       "label": "US Military Deaths",
-      "note": "13 US KIA total — Sgt. Pennington (Glendale, KY) latest — IDF Sgt. Volansky killed in Lebanon — 290 WIA (255 RTD, 10 seriously wounded)",
-      "tooltip": "US military deaths. 13 US KIA total including Sgt. Benjamin N. Pennington, 26, of Glendale, Kentucky — latest announced. IDF Sgt. Volansky killed in southern Lebanon (Mar 27). 290 WIA (255 returned to duty, 10 seriously wounded). 82nd Airborne (~2,000 paratroopers) deploying to CENTCOM — Maj. Gen. Tegtmeier commanding. Source: Department of War / CENTCOM / Stars and Stripes.",
+      "note": "13 US KIA total — 6 Kuwait (Mar 1), 1 Saudi (Sgt. Pennington), 6 KC-135 crash (Mar 12) — 300+ WIA per CENTCOM",
+      "tooltip": "US military deaths. 13 US KIA total: 6 in Kuwait drone attack (Mar 1), 1 from injuries in Saudi strike (Sgt. Benjamin N. Pennington, 26), 6 in KC-135 crash in western Iraq (Mar 12). 300+ wounded per CENTCOM (Mar 27-28). 10 US troops injured in Iranian attack on Prince Sultan Air Base, Saudi Arabia (Mar 27-28). 82nd Airborne deploying. Source: CENTCOM / Department of War / Stars and Stripes.",
       "color": "var(--civilian)"
     },
     "us_wia": {
-      "value": 290,
+      "value": 300,
       "label": "US Service Members WIA",
-      "note": "290 total — 255 returned to duty — 10 seriously wounded — 50,000+ deployed + 2,000 82nd ABN deploying",
-      "tooltip": "US service members wounded/injured across all theaters since Feb 28. 290 WIA (255 returned to duty, 10 seriously wounded). 50,000+ US troops in CENTCOM AOR plus ~2,000 82nd Airborne paratroopers deploying. Source: Department of War / CENTCOM / Pentagon.",
+      "note": "300+ total per CENTCOM — 10 injured at Prince Sultan AB (Mar 27-28) — 50,000+ deployed + 2,000 82nd ABN deploying",
+      "tooltip": "US service members wounded/injured across all theaters since Feb 28. 300+ WIA per CENTCOM (Mar 27-28). At least 10 US troops injured in Iranian attack on Prince Sultan Air Base, Saudi Arabia, which also damaged refueling aircraft. 50,000+ US troops in CENTCOM AOR plus ~2,000 82nd Airborne deploying. Trump considering 10,000 additional troops. Source: CENTCOM / Pentagon.",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
-      "value": 6530,
+      "value": 6600,
       "label": "Iranian Killed (est.)",
-      "note": "Hengaw: 6,530 (5,890 military, 640 civilian) — HRANA: 3,291 (1,455 civilian, 217 children) — Iran govt: 1,937 — significant source discrepancy",
-      "tooltip": "Iranian casualties — significant discrepancies across sources. Hengaw (Mar 27): 6,530 total (5,890 military, 640 civilian). HRANA: 3,291 documented (1,455 civilian, 217 children). Iran govt: 1,937. Iranian Red Crescent: 1,400+ killed, 18,000+ civilians injured, 204 children. Tehran alone: 503 killed, 6,848 injured. Health Ministry: 300 health facilities damaged, 210+ children. IRGC Navy Commander Tangsiri killed Mar 26. Navy lost 43+ warships, 80% air defenses destroyed. IDF overnight blitz on Tehran/Kermanshah/Dezful ~70 bombs. Source: Hengaw / HRANA / Red Crescent / Iran Health Ministry.",
+      "note": "HRANA: 3,114 (1,354 civ, 217 children) — WaPo: ~1,500 civilians — Hengaw: 5,300+ military — Iran deputy UN rep: 1,750 — wide discrepancy",
+      "tooltip": "Iranian casualties — dramatic discrepancies across sources. HRANA (US-based, Mar 17): 3,114 documented (1,354 civilian, 1,138 military, 622 unclassified). Washington Post: ~1,500 Iranian civilians killed. Hengaw: 5,300+ military killed by Mar 18. Iran deputy UN rep: 1,750 total. Independent verification severely hampered by internet shutdowns. 500+ ballistic/naval missiles and ~2,000 drones fired by Iran. Source: HRANA / WaPo / Hengaw / Iran UN Mission.",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
       "value": 1116,
       "label": "Lebanese Killed",
-      "note": "1,116 killed — 3,229 wounded — 830,000 displaced (~20% pop) — 121 children — 42 health workers — IDF Sgt. Volansky killed — 162nd Div toward Litani",
-      "tooltip": "Lebanese casualties from Israeli strikes and Hezbollah operations since March 2. 1,116 killed, 3,229 wounded. 830,000+ displaced (~20% of population). 121 children killed. 42 health workers killed. IDF Sgt. Volansky killed in southern Lebanon. 162nd Division advancing toward Litani River. Hezbollah chief Qassem rejected truce: 'negotiations under fire amounts to imposing surrender.' Israel expanding buffer zone (~30km). Hezbollah/Amal ministers boycotted Lebanese cabinet over Iran ambassador expulsion. Source: Lebanon Health Ministry / Times of Israel / Al Jazeera.",
+      "note": "1,116+ killed — 3,229 injured — 1.2M displaced (1 in 5 residents) — Division 162 expanding buffer zone — 750+ Hezbollah fighters killed per IDF",
+      "tooltip": "Lebanese casualties from Israeli strikes and Hezbollah operations since March 2. 1,116+ killed, 3,229 injured per Lebanese MoH (Mar 26). 1.2 million displaced — one in five residents. IDF claims 750+ Hezbollah fighters killed. Division 162 deployed to expand buffer zone in western sector. IDF ordered destruction of all Litani River crossings. PM Salam banned Hezbollah military activities, expelled Iran ambassador. Hezbollah escalated to 600 rockets/missiles/drones in single 24-hour period. Source: Lebanon Health Ministry / IDF / Al Jazeera.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
-      "value": 4200000,
+      "value": 4400000,
       "label": "Displaced Persons",
-      "note": "4.2M+ displaced — Iran 3.2M — Lebanon 830K+ — UNHCR $454.2M appeal — IFRC CHF 40M — Philippines declares state of emergency",
-      "tooltip": "People displaced from their homes across all fronts. 4.2M+ total displaced. Iran: up to 3.2M (UNHCR). Lebanon: 830,000+ (~20% of pop). UNHCR $454.2M Inter-Agency Refugee Response Plan. IFRC CHF 40M appeal. Philippines declares state of emergency over displaced workers. 24,600 Afghans returned from Iran. 20,000-40,000 seafarers stranded. 3,000+ vessels idled. Source: UNHCR / OCHA / IFRC / IMO.",
+      "note": "4.4M+ displaced — Iran 3.2M — Lebanon 1.2M — 2,000 vessels + 20,000 seafarers stranded — Houthi entry threatens Red Sea route",
+      "tooltip": "People displaced from their homes across all fronts. 4.4M+ total displaced. Iran: ~3.2M (UNHCR). Lebanon: 1.2M (one in five residents). Nearly 2,000 vessels and 20,000 seafarers stranded near Strait of Hormuz. Houthi entry into war threatens Bab al-Mandeb — could compound Hormuz closure. 30 tankers staged near Yanbu within Houthi strike range. Source: UNHCR / OCHA / IMO.",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 52000,
       "label": "Flights Cancelled",
-      "note": "52,000+ flights — 3,000+ vessels stranded — 40,000+ seafarers — 21+ vessel attacks — 7+ seafarer deaths",
-      "tooltip": "Commercial flights cancelled due to airspace closures: 52,000+ since Feb 28 (Travel Tourister/Cirium). 3,000+ vessels stranded in Middle East (IMO via NPR Mar 21). 40,000+ seafarers stranded. ~150 ships anchored outside Hormuz, ~170 containerships (450,000 TEU) trapped inside Gulf. 15,000+ cruise passengers on 6+ ships. 21+ maritime attacks, 7+ seafarer fatalities. JMIC/UKMTO: CRITICAL. Insurance at 5% of vessel value. Source: IMO / IATA / Bloomberg / UKMTO.",
+      "note": "52,000+ flights — 2,000 vessels stranded — 20,000 seafarers — Houthi third front opens — Bab al-Mandeb threatened",
+      "tooltip": "Commercial flights cancelled due to airspace closures: 52,000+ since Feb 28. Nearly 2,000 vessels and 20,000 seafarers stranded near Hormuz. Houthis launched first missile barrage at Israel (Mar 28) — threatened to close Bab al-Mandeb strait. ~30 tankers near Yanbu within Houthi range. Red Sea traffic already 'sharply reduced' (Windward). Maersk paused trans-Suez sailings. Source: IMO / IATA / Bloomberg / UKMTO.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
       "value": 338,
       "label": "Children Killed",
-      "note": "Iran 210+ (Health Min) / HRANA 217 / Red Crescent 204 + Lebanon 118+ + Israel 4 + Kuwait 1 — Minab school: 168 killed (100+ schoolchildren)",
-      "tooltip": "Children killed in the conflict. Iran Health Ministry: 210+ children killed. HRANA: 217 children confirmed. Red Crescent: 204 children. Amnesty verified Minab school: 168 killed (100+ schoolchildren aged 7-12) — US Tomahawk fragments confirmed — outdated DIA intel. UN investigation initiated Mar 17, ongoing. Lebanon: 118+ children (UNICEF). Israel: 4. Kuwait: 1. UNICEF: 2,100+ children killed or injured across region. Source: UNICEF / Amnesty / HRANA / Red Crescent / Iran Health Min.",
+      "note": "Iran 217+ (HRANA) + Lebanon 118+ + Israel 4 + Kuwait 1 — Minab school: 150-170+ killed (mostly schoolchildren) — UNHRC investigating",
+      "tooltip": "Children killed in the conflict. HRANA: 217 children confirmed in Iran. At least 217 children killed in Iran per HRANA. Amnesty verified Minab school: 150-170+ killed (mostly schoolchildren aged 7-12, girls' elementary school) — US Tomahawk fragments confirmed — outdated DIA intel. UN Human Rights Council investigating as potential war crime. Lebanon: 118+ children. Israel: 4. Kuwait: 1. Source: UNICEF / Amnesty / HRANA / UNHRC.",
       "color": "var(--civilian)"
     }
   }
