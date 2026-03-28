@@ -194,5 +194,12 @@
     "label": "MARCH 27, 2026 — DAY 28",
     "headline": "Trump extends power plant deadline 10 days to April 6; IDF overnight blitz hits heart of Tehran; G7 fractures without communiqué; CENTCOM: 10,000+ targets — largest navy elimination since WWII; Pakistan pushes in-person Islamabad talks",
     "file": "data/briefings/day-28.html"
+  },
+  {
+    "day": 29,
+    "date": "2026-03-28",
+    "label": "MARCH 28, 2026 — DAY 29",
+    "headline": "Houthis launch first missile barrage at Israel — third front opens; WTI briefly crosses $100; Dow enters correction; VIX above 30; Iran rejects ceasefire; 300+ US wounded; Trump extends Hormuz deadline to April 6",
+    "file": "data/briefings/day-29.html"
   }
 ]

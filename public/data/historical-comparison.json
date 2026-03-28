@@ -1,11 +1,11 @@
 {
   "conflicts": [
     {
-      "label": "Iran 2026 (Day 28)",
-      "targets_struck": 29000,
+      "label": "Iran 2026 (Day 29)",
+      "targets_struck": 29500,
       "us_kia": 13,
       "daily_cost_millions": 1250,
-      "note": "Operation Epic Fury — air + ground (Lebanon). IDF overnight blitz in Tehran and western Iran. CENTCOM: 10,000+ targets, 130+ vessels, 'largest navy elimination since WWII.' Trump extends power plant deadline to Apr 6. G7 fractures. Pakistan pushes Islamabad talks. Brent $108.01. 82nd Airborne deploying. Gas $3.98. ~$33.1B spent."
+      "note": "Operation Epic Fury — air + ground (Lebanon). Houthis launch first missile barrage at Israel — third front opens. WTI briefly crosses $100. Brent $112.57. Dow enters correction. VIX 31.05. 300+ US wounded. 850+ Tomahawks expended. 150+ vessels sunk. Trump extends Hormuz deadline to Apr 6. Vance leads negotiations. ~$34.3B spent."
     },
     {
       "label": "Iraq 2003 (Day 21)",
@@ -30,5 +30,5 @@
     }
   ],
   "sources": "CRS Reports R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya). Costs inflation-adjusted to 2026 dollars using BLS CPI-U.",
-  "last_updated": "2026-03-27"
+  "last_updated": "2026-03-28"
 }
