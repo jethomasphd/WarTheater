@@ -1,11 +1,11 @@
 {
   "conflicts": [
     {
-      "label": "Iran 2026 (Day 29)",
-      "targets_struck": 29500,
+      "label": "Iran 2026 (Day 30)",
+      "targets_struck": 30500,
       "us_kia": 13,
       "daily_cost_millions": 1250,
-      "note": "Operation Epic Fury — air + ground (Lebanon). Houthis launch first missile barrage at Israel — third front opens. WTI briefly crosses $100. Brent $112.57. Dow enters correction. VIX 31.05. 300+ US wounded. 850+ Tomahawks expended. 150+ vessels sunk. Trump extends Hormuz deadline to Apr 6. Vance leads negotiations. ~$34.3B spent."
+      "note": "Operation Epic Fury — one month. Houthi third front active. Islamabad quad summit convenes. CENTCOM: 11,000+ targets, 66% of missile/drone production destroyed. Israel strikes Arak heavy water + Ardakan yellowcake. IRGC university ultimatum expires. 3,200+ 'No Kings' protests. $200B supplemental faces resistance. ~$35.5B spent."
     },
     {
       "label": "Iraq 2003 (Day 21)",
@@ -30,5 +30,5 @@
     }
   ],
   "sources": "CRS Reports R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya). Costs inflation-adjusted to 2026 dollars using BLS CPI-U.",
-  "last_updated": "2026-03-28"
+  "last_updated": "2026-03-29"
 }

@@ -1,10 +1,10 @@
 [
   {
     "label": "Hospitals Damaged",
-    "count": "25+",
-    "note": "Iran (25 hospitals damaged, 9 out of service) + Lebanon — 300+ health facilities damaged — 55 healthcare workers wounded, 11 killed — WHO: 13 health infrastructure sites hit",
-    "source": "Iranian Health Ministry / WHO / OCHA",
-    "detail": "25 hospitals damaged in Iran (9 out of service). 14 medical centers affected. 65 schools damaged. 5,535+ residential units, 1,041 commercial units damaged. 13 Red Crescent centers struck. 55 healthcare workers wounded, 11 killed. 300+ health/emergency facilities damaged per Iran Health Ministry. Khatam-al-Anbia and Gandhi hospitals in Tehran struck (verified by BBC Verify). IRIB headquarters, parliament building, and desalination plants also hit. Iran's Navy lost 43+ warships, 80% air defenses destroyed. WHO verified attacks on healthcare in Iran and Lebanon."
+    "count": "29+",
+    "note": "Iran (25 hospitals damaged, 9 out of service) + Lebanon (4 hospitals + 50+ primary healthcare centers closed) — 42 health workers killed in Lebanon — WHO: 'toxic black rainfall' warning",
+    "source": "Iranian Health Ministry / WHO / OCHA / Lebanese MoH",
+    "detail": "25 hospitals damaged in Iran (9 out of service). Lebanon: 4 hospitals and 50+ primary healthcare centers forced to close; 42 health workers killed. Iran: 14 medical centers affected. 65 schools damaged. 5,535+ residential units, 1,041 commercial units damaged. 13 Red Crescent centers struck. 300+ health/emergency facilities damaged per Iran Health Ministry. Iran University of Science and Technology severely damaged. 10,000-cubic-meter water reservoir in Haftkel, Khuzestan Province destroyed. WHO warned of 'toxic black rainfall' from oil infrastructure strikes. OCHA activated contingency plans across 7 countries."
   },
   {
     "label": "Schools Destroyed",
@@ -29,10 +29,10 @@
   },
   {
     "label": "Nuclear Facilities Struck",
-    "count": "4+",
-    "note": "Fordow, Isfahan UCF, Natanz (3x since Jun 2025), Bushehr perimeter",
+    "count": "6+",
+    "note": "Fordow, Isfahan UCF, Natanz (3x), Bushehr perimeter, Arak Heavy Water (Shahid Khondab), Ardakan yellowcake plant",
     "source": "IAEA / DoD / IDF / satellite imagery",
-    "detail": "Fordow enrichment facility struck Day 1 with B-2/GBU-57 MOPs. Isfahan UCF struck Day 1. Natanz Shahid Ahmadi-Roshan Enrichment Complex struck Day 22 with bunker-buster bombs (likely GBU-57 MOPs and/or GBU-72). IAEA: no radiation increase. DG Grossi: 'military restraint to avoid nuclear accident.' Russia condemned. Israel denied involvement. Entrance buildings of underground Fuel Enrichment Plant damaged. Bulk of Iran's enriched uranium (~440 kg) believed at Isfahan, not Natanz. Third Natanz strike since June 2025. Bushehr NPP perimeter hit Day 19 — ~480 Russians on site."
+    "detail": "Fordow enrichment facility struck Day 1 with B-2/GBU-57 MOPs. Isfahan UCF struck Day 1. Natanz struck Day 22. Day 30: Israel struck Shahid Khondab Heavy Water Complex in Arak and Ardakan yellowcake production plant in Yazd Province. IAEA confirmed no radiological release from any strike. DG Grossi: 'military restraint to avoid nuclear accident.' Bushehr NPP perimeter hit Day 19 — ~480 Russians on site. Steel and cement factories across Isfahan and southern Iran also hit."
   },
   {
     "label": "Airports Damaged",

@@ -7,7 +7,7 @@
     "strike_group": "Carrier Strike Group 3",
     "lat": 20.80,
     "lng": 59.50,
-    "area": "Northern Arabian Sea — repositioned off eastern Oman coast, ~1,100km from Iran",
+    "area": "Arabian Sea — continuous combat ops — CENTCOM confirms 11,000+ US targets struck",
     "aircraft": "F/A-18E/F Super Hornets, F-35C Lightning II (VMFA-314), EA-18G Growlers, E-2D Hawkeye, CMV-22B Osprey, MH-60R/S Seahawk",
     "escorts": ["DDG-121 USS Frank E. Petersen Jr.", "DDG-111 USS Spruance", "DDG-112 USS Michael Murphy", "CG-70 USS Lake Erie"],
     "independently_deployed_destroyers": ["DDG-74 USS McFaul", "DDG-57 USS Mitscher", "DDG-91 USS Pinckney", "DDG-119 USS Delbert D. Black", "DDG-113 USS John Finn", "DDG-69 USS Milius"],
@@ -15,9 +15,8 @@
     "mission_summary": "Primary strike platform — deep strike into Iran and attrition of Iranian naval capabilities",
     "deployed_since": "2025-11-21",
     "operation_start_date": "2026-02-28",
-    "area": "Arabian Sea — continuous combat ops — CENTCOM confirms 10,000+ US targets struck",
-    "notes": "Day 29: Sole operational carrier in direct theater. CENTCOM: 10,000+ US targets struck, 8,000+ combat flights, 850+ Tomahawks expended, 150+ Iranian vessels sunk (92% of large naval vessels). Iran claimed missile hit — CENTCOM denied. Sailor injured in flight ops Mar 26. CSG-3 with CVW-9 and DESRON 21 + 5 independently deployed DDGs.",
-    "source": "USNI Fleet Tracker 3/23, CENTCOM 3/28, ANI News, Tribune India"
+    "notes": "Day 30: Sole operational carrier in direct theater. CENTCOM: 11,000+ US targets struck, 66% of missile/drone/naval production destroyed, 8,000+ combat flights, 850+ Tomahawks expended, 150+ Iranian vessels sunk. CSG-3 with CVW-9 and DESRON 21 + 6 independently deployed DDGs.",
+    "source": "USNI Fleet Tracker 3/23, CENTCOM 3/29, Axios, DoD"
   },
   {
     "id": "cvn-78",
@@ -25,17 +24,17 @@
     "hull": "CVN-78",
     "type": "carrier",
     "strike_group": "Carrier Strike Group 12",
-    "lat": 35.50,
-    "lng": 24.10,
-    "area": "Naval Support Activity Souda Bay, Crete — pierside emergency fire repairs",
+    "lat": 43.51,
+    "lng": 16.44,
+    "area": "Split, Croatia — port visit/crew rest after 277-day deployment; fire damage repairs",
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye",
     "escorts": ["DDG-96 USS Bainbridge", "DDG-72 USS Mahan", "DDG-81 USS Winston S. Churchill"],
-    "status": "REPAIRS — PIERSIDE SOUDA BAY",
-    "mission_summary": "At NSA Souda Bay, Crete for emergency pierside repairs — non-combat laundry room fire Mar 12; repair timeline unclear",
+    "status": "PORT VISIT — SPLIT, CROATIA",
+    "mission_summary": "Port visit and crew rest in Split, Croatia after 277-day deployment; fire damage repairs ongoing",
     "deployed_since": "2025-05-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 29: Pierside at Souda Bay, Crete for repairs after March 12 non-combat fire (~200 treated for smoke inhalation). Navy says 'fully mission capable.' Expected 1+ week repairs. Bush CSG reportedly heading to Mediterranean to relieve Ford.",
-    "source": "USNI News, Navy official announcement, USNI Fleet Tracker 3/23"
+    "notes": "Day 30: Port visit in Split, Croatia (Mar 28) for crew rest after 277-day deployment. Fire damage repairs from March 12 non-combat laundry room fire (~200 treated for smoke inhalation). Bush CSG reportedly heading to Mediterranean to relieve Ford.",
+    "source": "USNI News, USNI Fleet Tracker 3/23, Mar 28 reporting"
   },
   {
     "id": "cvn-77",
@@ -63,17 +62,16 @@
     "strike_group": "Tripoli Amphibious Ready Group / 31st Marine Expeditionary Unit",
     "lat": 20.00,
     "lng": 62.00,
-    "area": "Arabian Sea — in CENTCOM AOR; expected on station by end of March",
+    "area": "CENTCOM AOR — Arabian Sea — operational with F-35Bs, ~3,500 personnel",
     "aircraft": "F-35B Lightning II (VMFA-121), MV-22B Osprey (VMM-265), AH-1Z Viper, UH-1Y Venom, CH-53K King Stallion",
     "escorts": ["LPD-18 USS New Orleans", "CG-62 USS Robert Smalls", "DDG-115 USS Rafael Peralta"],
-    "status": "EN ROUTE — IN CENTCOM AOR",
+    "status": "OPERATIONAL — CENTCOM AOR",
     "mission_summary": "Rapid-response force for Strait of Hormuz — littoral warfare, mine countermeasures, maritime security, potential island seizure operations",
     "deployed_since": "2026-03-13",
-    "operation_start_date": null,
-    "eta_theater": "2026-03-25 to 2026-03-30",
-    "notes": "Day 29: In CENTCOM AOR — Arabian Sea. Carrying 31st MEU (~2,200 Marines) and approximately 20 F-35Bs from VMFA-121. Diego Garcia as of March 23, redirected from Indo-Pacific.",
+    "operation_start_date": "2026-03-27",
+    "notes": "Day 30: Arrived CENTCOM AOR Mar 27. Operational with 31st MEU (~2,200 Marines), ~3,500 total personnel, approximately 20 F-35Bs from VMFA-121. Speculation about island seizure operations (Kharg or Qeshm) intensifying with 82nd Airborne convergence.",
     "replaces": "lha-6 (USS America — unconfirmed in theater)",
-    "source": "WSJ (Mar 24), USNI Fleet Tracker (Mar 23), Reuters, USNI News"
+    "source": "WSJ (Mar 24), USNI Fleet Tracker (Mar 23), USNI News (Mar 28), Reuters"
   },
   {
     "id": "lcs-mcm-bahrain",
@@ -83,16 +81,16 @@
     "strike_group": "U.S. 5th Fleet — Bahrain",
     "lat": 5.42,
     "lng": 100.35,
-    "area": "CRITICAL: 2 of 3 LCS MCM hulls spotted in Southeast Asia (Mar 23 Maritime Executive) — MCM gap severe",
+    "area": "Bahrain / Strait of Hormuz — conducting mine countermeasures",
     "aircraft": null,
     "escorts": [],
-    "vessels": ["LCS-30 USS Canberra (Indian Ocean — location uncertain)", "LCS-16 USS Tulsa (Singapore as of Mar 18)", "LCS-32 USS Santa Barbara (Singapore as of Mar 18)"],
-    "status": "DEGRADED — MCM GAP",
-    "mission_summary": "Mine countermeasure operations in Strait of Hormuz — SEVERELY DEGRADED",
+    "vessels": ["LCS-30 USS Canberra", "LCS-16 USS Tulsa", "LCS-32 USS Santa Barbara"],
+    "status": "MCM OPERATIONS — BAHRAIN",
+    "mission_summary": "Mine countermeasure operations in Strait of Hormuz from Bahrain",
     "deployed_since": "2025-01-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 27: Critical vulnerability persists. Iran has deployed at least a dozen mines (Maham-3 moored mines, Maham-7 bottom mines) in the Strait. 2 of 3 LCS MCM hulls spotted in Southeast Asia as of Mar 23 (Maritime Executive), thousands of miles from strait. DOT&E FY2025 report found insufficient data to determine operational effectiveness of LCS MCM mission packages. CENTCOM has destroyed 16 Iranian minelayers using A-10 Warthogs and Apache helicopters.",
-    "source": "Maritime Executive 3/23, USNI Fleet Tracker 3/23, DOT&E, CENTCOM"
+    "notes": "Day 30: Three LCS conducting MCM from Bahrain per manifest. UK preparing autonomous minehunting capability aboard RFA Lyme Bay and HMS Brocklesby. French company Exail offered 40 unmanned MCM systems. Iran deployed 12+ mines (Maham-3 moored, Maham-7 bottom). CENTCOM destroyed 44+ Iranian minelayers.",
+    "source": "USNI Fleet Tracker 3/23, CRS Report, CENTCOM, UK MoD"
   },
   {
     "id": "ssgn-728",
@@ -147,7 +145,7 @@
     "deployed_since": "2026-03-19",
     "operation_start_date": null,
     "eta_theater": "2026-04-09",
-    "notes": "Day 29: Departed San Diego Mar 18-20, ~3 weeks ahead of schedule. In Pacific (3rd Fleet area). ~2,500 Marines + ~4,000 total. Redirected to Middle East. ETA theater ~Apr 9.",
+    "notes": "Day 30: Departed San Diego Mar 18-20, ~3 weeks ahead of schedule. Transiting Pacific toward CENTCOM. ~2,500 Marines + ~4,000 total. ETA theater < 1 month.",
     "source": "USNI Fleet Tracker (Mar 23), DVIDSHUB, AP, Stars and Stripes, Pentagon"
   },
   {
@@ -183,8 +181,8 @@
     "mission_summary": "Ground combat force — HQ elements, division enablers, and 1st BCT deploying to CENTCOM; IRF can deploy within 18 hours",
     "deployed_since": "2026-03-25",
     "operation_start_date": null,
-    "notes": "Day 29: ~2,000 soldiers from 1st BCT ordered March 24. Immediate Response Force designed to deploy within 18 hours. Trump considering sending 10,000 additional combat troops. Total US forces in region ~50,000.",
-    "source": "Stars and Stripes Mar 25, CBS News, CNN, NPR Mar 26"
+    "notes": "Day 30: 1st BCT, HQ, and division enablers deploying per Pentagon confirmation Mar 25. ~2,000-3,000 paratroopers. IRF can deploy within 18 hours. Trump weighing 10,000 additional combat troops. Total US forces in region ~50,000. Iran's parliament speaker explicitly warned of a US ground invasion.",
+    "source": "Stars and Stripes Mar 25, CBS News, CNN, NPR Mar 26, Pentagon"
   },
   {
     "id": "hms-dragon",
@@ -219,7 +217,7 @@
     "mission_summary": "French carrier operations — Eastern Mediterranean. France pledged 8 frigates + 2 amphibious assault ships.",
     "deployed_since": null,
     "operation_start_date": null,
-    "notes": "Day 29: France pledged 8 frigates + 2 amphibious assault ships for coalition operations. Charles de Gaulle operating in Eastern Mediterranean.",
+    "notes": "Day 30: French CSG operating in Eastern Mediterranean with Spanish and Dutch escorts. France pledged 8 frigates + 2 amphibious assault ships for coalition operations.",
     "source": "French MoD / Reuters"
   },
   {

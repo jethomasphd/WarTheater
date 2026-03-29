@@ -201,5 +201,12 @@
     "label": "MARCH 28, 2026 — DAY 29",
     "headline": "Houthis launch first missile barrage at Israel — third front opens; WTI briefly crosses $100; Dow enters correction; VIX above 30; Iran rejects ceasefire; 300+ US wounded; Trump extends Hormuz deadline to April 6",
     "file": "data/briefings/day-29.html"
+  },
+  {
+    "day": 30,
+    "date": "2026-03-29",
+    "label": "MARCH 29, 2026 — DAY 30",
+    "headline": "One month of war: Islamabad quad summit convenes as IRGC threatens university campuses; 11,000+ targets struck; Houthi dual chokepoint crisis looms; 3,200+ protests across all 50 states",
+    "file": "data/briefings/day-30.html"
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "labels": ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "Day 8", "Day 9", "Day 10", "Day 11", "Day 12", "Day 13", "Day 14", "Day 15", "Day 16", "Day 17", "Day 18", "Day 19", "Day 20", "Day 21", "Day 22", "Day 23", "Day 24", "Day 25", "Day 26", "Day 27", "Day 28", "Day 29"],
-  "daily_cost_millions": [3000, 2600, 2000, 1500, 1100, 1100, 1000, 900, 800, 800, 850, 850, 900, 900, 850, 850, 850, 850, 850, 900, 900, 1000, 1000, 1000, 1000, 1250, 1250, 1250, 1250],
+  "labels": ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "Day 8", "Day 9", "Day 10", "Day 11", "Day 12", "Day 13", "Day 14", "Day 15", "Day 16", "Day 17", "Day 18", "Day 19", "Day 20", "Day 21", "Day 22", "Day 23", "Day 24", "Day 25", "Day 26", "Day 27", "Day 28", "Day 29", "Day 30"],
+  "daily_cost_millions": [3000, 2600, 2000, 1500, 1100, 1100, 1000, 900, 800, 800, 850, 850, 900, 900, 850, 850, 850, 850, 850, 900, 900, 1000, 1000, 1000, 1000, 1250, 1250, 1250, 1250, 1250],
   "day_notes": [
     "First strikes — $5.6B munitions in 48 hrs (WaPo)",
     "Sustained air campaign — 900 targets in first 12 hours",
@@ -30,13 +30,14 @@
     "Day 26 — 82nd Airborne deploying; 15-point ceasefire plan rejected; Brent −3.5% to $96.68; Pentagon $200B supplemental; CSIS replenishment $3.1B+; Speaker Johnson: 'almost done'; ~$30.5B",
     "Day 27 — Israel kills IRGC Navy Cmdr Tangsiri in Bandar Abbas; ceasefire deadlocked; Brent surges to $105.85; 'wave of extensive strikes' on Isfahan arms factories; 82nd Airborne en route; Trump: 4-6 weeks; power plant deadline ~Mar 28; gas $3.98; ~$31.8B",
     "Day 28 — Trump extends power plant deadline 10 days to Apr 6; G7 summit fractures; IDF overnight blitz Tehran/Kermanshah/Dezful ~70 bombs; CENTCOM: 10,000+ targets; Iran rejects 15-pt plan submits 5-pt counter; Brent $108.01; gas $3.98; in-person Islamabad talks pushed; ~$33.1B",
-    "Day 29 — BREAKING: Houthis launch first missile barrage at Israel — third front opens; Brent $112.57 (+4.22%); WTI briefly crosses $100; Dow enters correction; VIX 31.05; 300+ US wounded; 10 injured at Prince Sultan AB; Iran rejects ceasefire; Trump extends Hormuz deadline to Apr 6; Vance takes lead on negotiations; 82nd Airborne deploying; ~$34.3B"
+    "Day 29 — BREAKING: Houthis launch first missile barrage at Israel — third front opens; Brent $112.57 (+4.22%); WTI briefly crosses $100; Dow enters correction; VIX 31.05; 300+ US wounded; 10 injured at Prince Sultan AB; Iran rejects ceasefire; Trump extends Hormuz deadline to Apr 6; Vance takes lead on negotiations; 82nd Airborne deploying; ~$34.3B",
+    "Day 30 — Islamabad quad summit convenes (Pakistan/Saudi/Turkey/Egypt); IRGC ultimatum on university campuses expires noon Mar 30; Israel strikes Arak heavy water + Ardakan yellowcake; CENTCOM: 11,000+ targets, 66% missile/drone production destroyed; 3,200+ 'No Kings' protests all 50 states; $200B supplemental faces bipartisan resistance; Kaine-Paul war powers fails 47-53; SPR 172M bbl exchange underway; ~$35.5B"
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
-    "labels": ["Feb 25", "Feb 26", "Feb 27", "Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15", "Mar 16", "Mar 17", "Mar 18", "Mar 19", "Mar 20", "Mar 21", "Mar 22", "Mar 23", "Mar 24", "Mar 25", "Mar 26", "Mar 27", "Mar 28"],
-    "data": [50, 50, 50, 25, 5, 0, 2, 2, 2, 3, 2, 2, 3, 2, 3, 3, 3, 3, 5, 5, 5, 5, 8, 5, 4, 3, 3, 3, 3, 5, 6, 5],
+    "labels": ["Feb 25", "Feb 26", "Feb 27", "Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15", "Mar 16", "Mar 17", "Mar 18", "Mar 19", "Mar 20", "Mar 21", "Mar 22", "Mar 23", "Mar 24", "Mar 25", "Mar 26", "Mar 27", "Mar 28", "Mar 29"],
+    "data": [50, 50, 50, 25, 5, 0, 2, 2, 2, 3, 2, 2, 3, 2, 3, 3, 3, 3, 5, 5, 5, 5, 8, 5, 4, 3, 3, 3, 3, 5, 6, 5, 5],
     "prewar_daily": 50
   },
-  "last_updated": "2026-03-28"
+  "last_updated": "2026-03-29"
 }
