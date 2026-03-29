@@ -1097,45 +1097,127 @@ def extract_briefings() -> list[dict]:
 # ---------------------------------------------------------------------------
 # Codebook generation (Phase 7)
 # ---------------------------------------------------------------------------
+VARIABLE_METADATA = {
+    "event_id": ("Unique Event Identifier", "string", "all", "Should not be missing",
+                 "Sequential ID (EVT-0001...) assigned during extraction. Stable across re-runs if source data unchanged."),
+    "date": ("Event Date (ISO 8601)", "date", "all", "Should not be missing",
+             "YYYY-MM-DD. Pre-war oil prices go back to 2026-01-02. Conflict events start 2026-02-28."),
+    "datetime_utc": ("Event Datetime", "datetime", "timeline-events.json", "Not available — only timeline events have timestamps",
+                     "YYYY-MM-DDTHH:MM:SS. Times are approximate local time, not true UTC. Events span multiple time zones."),
+    "day_of_conflict": ("Day of Conflict", "integer", "all", "Should not be missing",
+                        "Day 0 = 2026-02-27 (pre-war baseline). Day 1 = 2026-02-28 (first strikes). Max = 30."),
+    "event_domain": ("Event Domain", "categorical", "all", "Should not be missing",
+                     "Primary classification. STRIKE = US/Israeli offensive. RETALIATION = Iranian/proxy response. MILITARY = other military. NAVAL = maritime/fleet. FINANCIAL = economic data. DIPLOMATIC = political/diplomatic. HUMANITARIAN = casualties/damage. CYBER = cyber ops. OTHER = reference/summary."),
+    "event_type": ("Event Type (subcategory)", "categorical", "all", "Should not be missing",
+                   "More specific than event_domain. 25 unique values. Key types: airstrike, missile_attack, rocket_attack, daily_casualty_report, oil_price, market_index, daily_war_cost, tanker_transit, baseline_metric, daily_aggregate_snapshot."),
+    "event_description": ("Event Description", "text", "all", "Should not be missing",
+                          "Free-text description. Format varies by source: timeline events = 'title: description'; strikes = 'city: target'; financial = metric summary."),
+    "source_file": ("Source JSON File", "categorical", "all", "Should not be missing",
+                    "Which JSON file in public/data/ this row was extracted from."),
+    "source_record_id": ("Source Record ID", "string", "strikes-iran.json; strikes-retaliation.json; carriers.json; briefings/index.json", "Not available — source has no record ID",
+                         "Original ID from source data (e.g., 'tehran-leadership', 'cvn-72'). NULL for timeline events, casualties, financial data."),
+    "location_name": ("Location Name", "string", "strikes; carriers; hormuz; global-bases", "Not applicable (non-geographic event)",
+                      "City, base, or area name. Granularity varies: city-level for strikes, operational area for naval assets."),
+    "location_lat": ("Latitude", "float", "strikes; carriers; hormuz; global-bases", "Not applicable (non-geographic event)",
+                     "WGS84 decimal degrees. Precision varies: strike locations ~4 decimal places, naval assets approximate."),
+    "location_lon": ("Longitude", "float", "strikes; carriers; hormuz; global-bases", "Not applicable (non-geographic event)",
+                     "WGS84 decimal degrees."),
+    "country": ("Country", "categorical", "strikes; carriers; hormuz; global-bases", "Not applicable (non-geographic event)",
+                "Extracted from city/location names via pattern matching. 'International Waters' for maritime events."),
+    "actor_initiating": ("Initiating Actor", "string", "strikes; retaliation; carriers; global-bases", "Not applicable or not determinable",
+                         "Who carried out the action. Values: US, Israel, US/Israel (joint), Hezbollah, Iran, IRGC Navy, various proxy groups, UK, France."),
+    "actor_target": ("Target Actor/Entity", "string", "strikes; retaliation; casualties", "Not applicable",
+                     "Who or what was targeted. For casualties, identifies the faction (e.g., 'Iran (military)', 'US (military)')."),
+    "weapon_system": ("Weapon System", "string", "strikes-retaliation.json", "Not applicable (non-retaliation event or not recorded)",
+                      "Weapon type from retaliation records. Examples: 'Ballistic missiles / cruise missiles / drones', 'Fattah hypersonic'."),
+    "military_asset": ("Military Asset", "string", "carriers.json", "Not applicable (non-naval event)",
+                       "Vessel name and hull number. Example: 'USS Abraham Lincoln (CVN-72)'."),
+    "casualties_reported": ("Casualties Reported", "integer", "strikes; retaliation; casualties; hormuz", "Not recorded or not applicable",
+                            "Numeric casualty count when parseable, or text description. For daily casualty reports, this is the estimated daily killed for one faction. For strikes, attached to first target only to avoid double-counting."),
+    "casualties_civilian": ("Civilian Casualties", "integer", "casualties.json", "Not recorded or not applicable",
+                            "Civilian killed count. Populated only for Iranian civilian daily casualty reports. These are daily estimates, not cumulative."),
+    "casualties_military": ("Military Casualties", "integer", "casualties.json; historical-comparison.json", "Not recorded or not applicable",
+                            "Military killed count. Populated for Iranian military, US military, and Israeli military daily reports. Daily estimates, not cumulative."),
+    "infrastructure_target_type": ("Infrastructure Target Type", "categorical", "strikes-iran.json; infrastructure.json", "Not applicable (non-strike or non-infrastructure event)",
+                                   "Inferred from target descriptions. Values: military_base, civilian, nuclear_facility, oil_infrastructure, air_defense, communications, healthcare, power_grid, transportation."),
+    "financial_metric_name": ("Financial Metric Name", "string", "oil-prices; markets; war-costs; baselines; hormuz", "Not applicable (non-financial event)",
+                              "Name of the financial indicator. Examples: 'Brent Crude', 'S&P 500', 'Daily US War Cost', 'Hormuz Tanker Transits'."),
+    "financial_metric_value": ("Financial Metric Value", "float", "oil-prices; markets; war-costs; baselines; hormuz", "Not applicable (non-financial event)",
+                               "Numeric value of the financial metric. Units vary — see financial_metric_unit."),
+    "financial_metric_unit": ("Financial Metric Unit", "categorical", "oil-prices; markets; war-costs; baselines; hormuz", "Not applicable (non-financial event)",
+                              "Unit of measurement. Examples: 'USD/bbl', 'index (Feb 27 = 100)', 'USD millions', 'transits/day'."),
+    "escalation_level": ("Escalation Level", "string", "N/A", "Not available — no escalation scoring in source data",
+                         "Reserved for future use. Not present in source data. Always NULL."),
+    "data_confidence": ("Data Confidence", "categorical", "all", "Should not be missing",
+                        "Assessment of data reliability. HIGH = from structured field with authoritative source. MEDIUM = inferred or from secondary sources. LOW = unverified, imputed, or from Wikipedia."),
+    "timeline_source": ("Timeline Source Attribution", "string", "timeline-events.json", "Not applicable (non-timeline event)",
+                        "Source attribution from timeline record. Examples: 'DoD / White House', 'CENTCOM / IDF'."),
+    "timeline_data_point": ("Timeline Key Data Point", "string", "timeline-events.json", "Not applicable or no data point recorded",
+                            "Quantitative highlight from the timeline event. Example: '3,000+ targets struck in first 72 hours'."),
+    "strike_notes": ("Strike/Source Notes", "text", "strikes-iran.json; strikes-retaliation.json; infrastructure.json; carriers.json", "Not applicable (non-strike/naval event)",
+                     "Detailed operational notes from source record. Often contains sourcing, context, and cross-references."),
+    "strike_verified": ("Strike Verified", "boolean", "strikes-retaliation.json", "Not applicable (non-retaliation event)",
+                        "Whether the retaliation strike was verified in open-source reporting. True/False. 4 of 72 retaliation locations are unverified."),
+    "naval_strike_group": ("Naval Strike Group", "string", "carriers.json", "Not applicable (non-naval event)",
+                           "Strike group or command assignment. Example: 'Carrier Strike Group 3'."),
+    "naval_aircraft": ("Naval Aircraft Complement", "text", "carriers.json", "Not applicable (non-naval event)",
+                       "Aircraft types embarked. Example: 'F/A-18E/F Super Hornets, F-35C Lightning II'."),
+    "naval_escorts": ("Naval Escort Vessels", "text", "carriers.json", "Not applicable (non-naval event)",
+                      "Escort vessels listed, semicolon-separated."),
+    "infrastructure_damage_count": ("Infrastructure Damage Count", "integer", "infrastructure.json", "Not applicable (non-infrastructure event)",
+                                    "Numeric count of damaged facilities. Parsed from text (e.g., '29+' → 29). Minimums; actual totals may be higher."),
+    "snapshot_brent": ("Daily Snapshot: Brent Crude", "float", "hero-stats.json", "Not available for this day (weekend/holiday or not reported)",
+                       "Brent crude price (USD/bbl) from daily aggregate snapshot. NULL on non-trading days."),
+    "snapshot_wti": ("Daily Snapshot: WTI Crude", "float", "hero-stats.json", "Not available for this day",
+                     "WTI crude price (USD/bbl) from daily aggregate snapshot."),
+    "snapshot_gas": ("Daily Snapshot: US Gas Price", "float", "hero-stats.json", "Not available for this day",
+                     "US national average gasoline price (USD/gallon). Reported intermittently."),
+    "snapshot_sp500": ("Daily Snapshot: S&P 500", "float", "hero-stats.json", "Not available for this day",
+                       "S&P 500 index close. NULL on weekends and holidays."),
+    "snapshot_daily_cost_millions": ("Daily Snapshot: Est. Daily US Cost", "float", "hero-stats.json", "Not available for this day",
+                                    "Estimated daily US operational cost in millions USD. Based on Pentagon and CSIS anchor points with interpolation."),
+    "snapshot_total_cost_billions": ("Daily Snapshot: Est. Cumulative Cost", "float", "hero-stats.json", "Not available for this day",
+                                    "Cumulative estimated US cost in billions USD since Feb 28."),
+    "snapshot_targets_struck": ("Daily Snapshot: Targets Struck", "float", "hero-stats.json", "Not available — reported intermittently",
+                                "Cumulative US/Israeli targets struck. Reported at irregular intervals by CENTCOM/IDF."),
+    "snapshot_us_kia": ("Daily Snapshot: US KIA (cumulative)", "float", "hero-stats.json", "Not available for this day",
+                        "Cumulative US military killed in action. NOTE: this is CUMULATIVE, unlike daily casualty reports which are daily estimates."),
+    "snapshot_us_wia": ("Daily Snapshot: US WIA (cumulative)", "float", "hero-stats.json", "Not available — reported intermittently",
+                        "Cumulative US military wounded in action."),
+    "snapshot_iranian_killed": ("Daily Snapshot: Iranian Killed (cumulative)", "float", "hero-stats.json", "Not available — reported intermittently",
+                                "Cumulative Iranian killed. Figures from Red Crescent/HRANA — independently difficult to verify."),
+    "snapshot_lebanese_killed": ("Daily Snapshot: Lebanese Killed (cumulative)", "float", "hero-stats.json", "Not available — reported intermittently",
+                                 "Cumulative Lebanese killed (all factions). Source: Lebanese Health Ministry."),
+    "snapshot_displaced": ("Daily Snapshot: Displaced Persons (cumulative)", "float", "hero-stats.json", "Not available — reported intermittently",
+                           "Cumulative displaced persons across all affected countries."),
+    "snapshot_flights_cancelled": ("Daily Snapshot: Flights Cancelled (cumulative)", "float", "hero-stats.json", "Not available — reported intermittently",
+                                   "Cumulative commercial flights cancelled due to conflict."),
+    "snapshot_children_killed": ("Daily Snapshot: Children Killed (cumulative)", "float", "hero-stats.json", "Not available — reported intermittently",
+                                 "Cumulative children killed across Iran and Lebanon. Figures from HRANA/Red Crescent."),
+}
+
+
 def generate_codebook(df: pd.DataFrame) -> pd.DataFrame:
-    """Introspect the dataset and produce a codebook."""
+    """Introspect the dataset and produce a codebook with researcher-oriented metadata."""
     codebook_rows = []
     for col in df.columns:
         series = df[col]
         non_null = series.dropna()
 
-        # Determine type
-        if col in ("date",):
-            vtype = "date"
-        elif col in ("datetime_utc",):
-            vtype = "datetime"
-        elif col in ("day_of_conflict", "casualties_reported", "casualties_civilian",
-                      "casualties_military", "infrastructure_damage_count"):
-            vtype = "integer"
-        elif col in ("location_lat", "location_lon", "financial_metric_value",
-                      "snapshot_brent", "snapshot_wti", "snapshot_gas",
-                      "snapshot_sp500", "snapshot_daily_cost_millions",
-                      "snapshot_total_cost_billions", "snapshot_targets_struck",
-                      "snapshot_us_kia", "snapshot_us_wia", "snapshot_iranian_killed",
-                      "snapshot_lebanese_killed", "snapshot_displaced",
-                      "snapshot_flights_cancelled", "snapshot_children_killed"):
-            vtype = "float"
-        elif col in ("event_domain", "event_type", "data_confidence",
-                      "infrastructure_target_type", "country",
-                      "financial_metric_unit", "source_file"):
-            vtype = "categorical"
-        elif col in ("strike_verified",):
-            vtype = "boolean"
-        elif col in ("event_description", "strike_notes", "naval_aircraft",
-                      "naval_escorts"):
-            vtype = "text"
+        meta = VARIABLE_METADATA.get(col)
+        if meta:
+            label, vtype, source_domain, missing, notes = meta
         else:
+            label = col.replace("_", " ").title()
             vtype = "string"
+            source_domain = "unknown"
+            missing = "Not applicable or not available"
+            notes = ""
 
-        # Valid values
+        # Valid values — auto-generate from data
         if vtype == "categorical" and len(non_null) > 0:
             uniques = sorted(non_null.unique().tolist())
-            valid = " | ".join(str(v) for v in uniques[:30])
+            valid = " | ".join(str(v) for v in uniques[:40])
         elif vtype in ("integer", "float") and len(non_null) > 0:
             try:
                 nums = pd.to_numeric(non_null, errors="coerce").dropna()
@@ -1145,56 +1227,23 @@ def generate_codebook(df: pd.DataFrame) -> pd.DataFrame:
                     valid = ""
             except Exception:
                 valid = ""
+        elif vtype == "boolean" and len(non_null) > 0:
+            valid = " | ".join(str(v) for v in sorted(non_null.unique().tolist()))
         else:
             valid = ""
 
-        # Missing meaning
-        if col in REQUIRED_COLS:
-            missing = "Should not be missing"
-        elif col.startswith("snapshot_"):
-            missing = "Not available for this day"
-        elif col.startswith("timeline_"):
-            missing = "Not applicable (non-timeline event)"
-        elif col.startswith("strike_"):
-            missing = "Not applicable (non-strike event)"
-        elif col.startswith("naval_"):
-            missing = "Not applicable (non-naval event)"
-        elif col in ("financial_metric_name", "financial_metric_value",
-                      "financial_metric_unit"):
-            missing = "Not applicable (non-financial event)"
-        elif col in ("casualties_civilian", "casualties_military",
-                      "casualties_reported"):
-            missing = "Not recorded or not applicable"
-        else:
-            missing = "Not applicable or not available"
-
-        # Source domain
-        source_domains = set()
-        if col in REQUIRED_COLS:
-            source_domains.add("all")
-        if col.startswith("timeline_"):
-            source_domains.add("timeline-events.json")
-        if col.startswith("strike_"):
-            source_domains.add("strikes-iran.json, strikes-retaliation.json")
-        if col.startswith("naval_"):
-            source_domains.add("carriers.json")
-        if col.startswith("snapshot_"):
-            source_domains.add("hero-stats.json")
-        if col.startswith("financial_"):
-            source_domains.add("oil-prices.json, markets.json, war-costs.json, baselines.json")
-        if col.startswith("infrastructure_"):
-            source_domains.add("infrastructure.json, strikes-iran.json")
-        if not source_domains:
-            source_domains.add("multiple")
+        # Completeness
+        pct = non_null.shape[0] / len(df) * 100 if len(df) > 0 else 0
 
         codebook_rows.append({
             "variable_name": col,
-            "variable_label": col.replace("_", " ").title(),
+            "variable_label": label,
             "variable_type": vtype,
             "valid_values": valid,
+            "pct_non_null": f"{pct:.1f}%",
             "missing_code": missing,
-            "source_domain": "; ".join(sorted(source_domains)),
-            "notes": "",
+            "source_domain": source_domain,
+            "notes": notes,
         })
 
     return pd.DataFrame(codebook_rows)

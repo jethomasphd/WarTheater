@@ -1,49 +1,49 @@
-variable_name,variable_label,variable_type,valid_values,missing_code,source_domain,notes
-event_id,Event Id,string,,Should not be missing,all,
-date,Date,date,,Should not be missing,all,
-datetime_utc,Datetime Utc,datetime,,Should not be missing,all,
-day_of_conflict,Day Of Conflict,integer,0 – 30,Should not be missing,all,
-event_domain,Event Domain,categorical,CYBER | DIPLOMATIC | FINANCIAL | HUMANITARIAN | MILITARY | NAVAL | OTHER | RETALIATION | STRIKE,Should not be missing,all,
-event_type,Event Type,categorical,air | airstrike | alternative_route | amphibious | baseline_metric | carrier | cyber | daily_aggregate_snapshot | daily_briefing | daily_casualty_report | daily_war_cost | destroyer | diplomatic | domestic | economic | financial | ground | historical_comparison | hormuz_daily_narrative | humanitarian | infrastructure_damage | littoral_combat_ship | maritime_attack_summary | market_index | military | military_base | missile_attack | oil_price | operational_loss | political,Should not be missing,all,
-event_description,Event Description,text,,Should not be missing,all,
-source_file,Source File,categorical,baselines.json | briefings/index.json | carriers.json | casualties.json | global-bases.json | hero-stats.json | historical-comparison.json | hormuz.json | infrastructure.json | markets.json | oil-prices.json | strikes-iran.json | strikes-retaliation.json | timeline-events.json | war-costs.json,Should not be missing,all,
-source_record_id,Source Record Id,string,,Should not be missing,all,
-location_name,Location Name,string,,Not applicable or not available,multiple,
-location_lat,Location Lat,float,-7.32 – 52.39,Not applicable or not available,multiple,
-location_lon,Location Lon,float,-157.9 – 139.7,Not applicable or not available,multiple,
-country,Country,categorical,Bahrain | Cyprus | Diego Garcia | International Waters | Iran | Iraq | Israel | Jordan | Kuwait | Lebanon | Oman | Qatar | Saudi Arabia | UAE,Not applicable or not available,multiple,
-actor_initiating,Actor Initiating,string,,Not applicable or not available,multiple,
-actor_target,Actor Target,string,,Not applicable or not available,multiple,
-weapon_system,Weapon System,string,,Not applicable or not available,multiple,
-military_asset,Military Asset,string,,Not applicable or not available,multiple,
-casualties_reported,Casualties Reported,integer,0 – 122,Not recorded or not applicable,multiple,
-casualties_civilian,Casualties Civilian,integer,5 – 45,Not recorded or not applicable,multiple,
-casualties_military,Casualties Military,integer,0 – 122,Not recorded or not applicable,multiple,
-infrastructure_target_type,Infrastructure Target Type,categorical,air_defense | civilian | communications | healthcare | military_base | nuclear_facility | oil_infrastructure | power_grid | transportation,Not applicable or not available,"infrastructure.json, strikes-iran.json",
-financial_metric_name,Financial Metric Name,string,,Not applicable (non-financial event),"oil-prices.json, markets.json, war-costs.json, baselines.json",
-financial_metric_value,Financial Metric Value,float,0 – 4.898e+04,Not applicable (non-financial event),"oil-prices.json, markets.json, war-costs.json, baselines.json",
-financial_metric_unit,Financial Metric Unit,categorical,USD millions | USD trillions | USD/bbl | USD/gallon | USD/oz | USD/share | index (Feb 27 = 100) | index points | million bbl/day | percent | transits/day,Not applicable (non-financial event),"oil-prices.json, markets.json, war-costs.json, baselines.json",
-escalation_level,Escalation Level,string,,Not applicable or not available,multiple,
-data_confidence,Data Confidence,categorical,HIGH | LOW | MEDIUM,Not applicable or not available,multiple,
-timeline_source,Timeline Source,string,,Not applicable (non-timeline event),timeline-events.json,
-timeline_data_point,Timeline Data Point,string,,Not applicable (non-timeline event),timeline-events.json,
-strike_notes,Strike Notes,text,,Not applicable (non-strike event),"strikes-iran.json, strikes-retaliation.json",
-strike_verified,Strike Verified,boolean,,Not applicable (non-strike event),"strikes-iran.json, strikes-retaliation.json",
-naval_strike_group,Naval Strike Group,string,,Not applicable (non-naval event),carriers.json,
-naval_aircraft,Naval Aircraft,text,,Not applicable (non-naval event),carriers.json,
-naval_escorts,Naval Escorts,text,,Not applicable (non-naval event),carriers.json,
-infrastructure_damage_count,Infrastructure Damage Count,integer,1 – 44,Not applicable or not available,"infrastructure.json, strikes-iran.json",
-snapshot_brent,Snapshot Brent,float,71 – 112.6,Not available for this day,hero-stats.json,
-snapshot_wti,Snapshot Wti,float,66.5 – 103.5,Not available for this day,hero-stats.json,
-snapshot_gas,Snapshot Gas,float,2.98 – 3.98,Not available for this day,hero-stats.json,
-snapshot_sp500,Snapshot Sp500,float,6369 – 6879,Not available for this day,hero-stats.json,
-snapshot_daily_cost_millions,Snapshot Daily Cost Millions,float,800 – 3000,Not available for this day,hero-stats.json,
-snapshot_total_cost_billions,Snapshot Total Cost Billions,float,3 – 35.55,Not available for this day,hero-stats.json,
-snapshot_targets_struck,Snapshot Targets Struck,float,1.5e+04 – 3.05e+04,Not available for this day,hero-stats.json,
-snapshot_us_kia,Snapshot Us Kia,float,0 – 14,Not available for this day,hero-stats.json,
-snapshot_us_wia,Snapshot Us Wia,float,0 – 300,Not available for this day,hero-stats.json,
-snapshot_iranian_killed,Snapshot Iranian Killed,float,1500 – 6800,Not available for this day,hero-stats.json,
-snapshot_lebanese_killed,Snapshot Lebanese Killed,float,720 – 1189,Not available for this day,hero-stats.json,
-snapshot_displaced,Snapshot Displaced,float,8.5e+05 – 4.4e+06,Not available for this day,hero-stats.json,
-snapshot_flights_cancelled,Snapshot Flights Cancelled,float,1.95e+04 – 5.2e+04,Not available for this day,hero-stats.json,
-snapshot_children_killed,Snapshot Children Killed,float,125 – 355,Not available for this day,hero-stats.json,
+variable_name,variable_label,variable_type,valid_values,pct_non_null,missing_code,source_domain,notes
+event_id,Unique Event Identifier,string,,100.0%,Should not be missing,all,Sequential ID (EVT-0001...) assigned during extraction. Stable across re-runs if source data unchanged.
+date,Event Date (ISO 8601),date,,100.0%,Should not be missing,all,YYYY-MM-DD. Pre-war oil prices go back to 2026-01-02. Conflict events start 2026-02-28.
+datetime_utc,Event Datetime,datetime,,17.7%,Not available — only timeline events have timestamps,timeline-events.json,"YYYY-MM-DDTHH:MM:SS. Times are approximate local time, not true UTC. Events span multiple time zones."
+day_of_conflict,Day of Conflict,integer,0 – 30,100.0%,Should not be missing,all,Day 0 = 2026-02-27 (pre-war baseline). Day 1 = 2026-02-28 (first strikes). Max = 30.
+event_domain,Event Domain,categorical,CYBER | DIPLOMATIC | FINANCIAL | HUMANITARIAN | MILITARY | NAVAL | OTHER | RETALIATION | STRIKE,100.0%,Should not be missing,all,Primary classification. STRIKE = US/Israeli offensive. RETALIATION = Iranian/proxy response. MILITARY = other military. NAVAL = maritime/fleet. FINANCIAL = economic data. DIPLOMATIC = political/diplomatic. HUMANITARIAN = casualties/damage. CYBER = cyber ops. OTHER = reference/summary.
+event_type,Event Type (subcategory),categorical,air | airstrike | alternative_route | amphibious | baseline_metric | carrier | cyber | daily_aggregate_snapshot | daily_briefing | daily_casualty_report | daily_war_cost | destroyer | diplomatic | domestic | economic | financial | ground | historical_comparison | hormuz_daily_narrative | humanitarian | infrastructure_damage | littoral_combat_ship | maritime_attack_summary | market_index | military | military_base | missile_attack | oil_price | operational_loss | political | rocket_attack | strait_closure | strategic_geography | submarine | summary | tanker_transit,100.0%,Should not be missing,all,"More specific than event_domain. 25 unique values. Key types: airstrike, missile_attack, rocket_attack, daily_casualty_report, oil_price, market_index, daily_war_cost, tanker_transit, baseline_metric, daily_aggregate_snapshot."
+event_description,Event Description,text,,100.0%,Should not be missing,all,Free-text description. Format varies by source: timeline events = 'title: description'; strikes = 'city: target'; financial = metric summary.
+source_file,Source JSON File,categorical,baselines.json | briefings/index.json | carriers.json | casualties.json | global-bases.json | hero-stats.json | historical-comparison.json | hormuz.json | infrastructure.json | markets.json | oil-prices.json | strikes-iran.json | strikes-retaliation.json | timeline-events.json | war-costs.json,100.0%,Should not be missing,all,Which JSON file in public/data/ this row was extracted from.
+source_record_id,Source Record ID,string,,54.4%,Not available — source has no record ID,strikes-iran.json; strikes-retaliation.json; carriers.json; briefings/index.json,"Original ID from source data (e.g., 'tehran-leadership', 'cvn-72'). NULL for timeline events, casualties, financial data."
+location_name,Location Name,string,,54.6%,Not applicable (non-geographic event),strikes; carriers; hormuz; global-bases,"City, base, or area name. Granularity varies: city-level for strikes, operational area for naval assets."
+location_lat,Latitude,float,-7.32 – 52.39,54.4%,Not applicable (non-geographic event),strikes; carriers; hormuz; global-bases,"WGS84 decimal degrees. Precision varies: strike locations ~4 decimal places, naval assets approximate."
+location_lon,Longitude,float,-157.9 – 139.7,54.4%,Not applicable (non-geographic event),strikes; carriers; hormuz; global-bases,WGS84 decimal degrees.
+country,Country,categorical,Bahrain | Cyprus | Diego Garcia | International Waters | Iran | Iraq | Israel | Jordan | Kuwait | Lebanon | Oman | Qatar | Saudi Arabia | UAE,52.8%,Not applicable (non-geographic event),strikes; carriers; hormuz; global-bases,Extracted from city/location names via pattern matching. 'International Waters' for maritime events.
+actor_initiating,Initiating Actor,string,,53.4%,Not applicable or not determinable,strikes; retaliation; carriers; global-bases,"Who carried out the action. Values: US, Israel, US/Israel (joint), Hezbollah, Iran, IRGC Navy, various proxy groups, UK, France."
+actor_target,Target Actor/Entity,string,,60.8%,Not applicable,strikes; retaliation; casualties,"Who or what was targeted. For casualties, identifies the faction (e.g., 'Iran (military)', 'US (military)')."
+weapon_system,Weapon System,string,,14.3%,Not applicable (non-retaliation event or not recorded),strikes-retaliation.json,"Weapon type from retaliation records. Examples: 'Ballistic missiles / cruise missiles / drones', 'Fattah hypersonic'."
+military_asset,Military Asset,string,,0.8%,Not applicable (non-naval event),carriers.json,Vessel name and hull number. Example: 'USS Abraham Lincoln (CVN-72)'.
+casualties_reported,Casualties Reported,integer,0 – 122,25.7%,Not recorded or not applicable,strikes; retaliation; casualties; hormuz,"Numeric casualty count when parseable, or text description. For daily casualty reports, this is the estimated daily killed for one faction. For strikes, attached to first target only to avoid double-counting."
+casualties_civilian,Civilian Casualties,integer,5 – 45,1.8%,Not recorded or not applicable,casualties.json,"Civilian killed count. Populated only for Iranian civilian daily casualty reports. These are daily estimates, not cumulative."
+casualties_military,Military Casualties,integer,0 – 122,5.7%,Not recorded or not applicable,casualties.json; historical-comparison.json,"Military killed count. Populated for Iranian military, US military, and Israeli military daily reports. Daily estimates, not cumulative."
+infrastructure_target_type,Infrastructure Target Type,categorical,air_defense | civilian | communications | healthcare | military_base | nuclear_facility | oil_infrastructure | power_grid | transportation,28.3%,Not applicable (non-strike or non-infrastructure event),strikes-iran.json; infrastructure.json,"Inferred from target descriptions. Values: military_base, civilian, nuclear_facility, oil_infrastructure, air_defense, communications, healthcare, power_grid, transportation."
+financial_metric_name,Financial Metric Name,string,,14.7%,Not applicable (non-financial event),oil-prices; markets; war-costs; baselines; hormuz,"Name of the financial indicator. Examples: 'Brent Crude', 'S&P 500', 'Daily US War Cost', 'Hormuz Tanker Transits'."
+financial_metric_value,Financial Metric Value,float,0 – 4.898e+04,14.6%,Not applicable (non-financial event),oil-prices; markets; war-costs; baselines; hormuz,Numeric value of the financial metric. Units vary — see financial_metric_unit.
+financial_metric_unit,Financial Metric Unit,categorical,USD millions | USD trillions | USD/bbl | USD/gallon | USD/oz | USD/share | index (Feb 27 = 100) | index points | million bbl/day | percent | transits/day,14.7%,Not applicable (non-financial event),oil-prices; markets; war-costs; baselines; hormuz,"Unit of measurement. Examples: 'USD/bbl', 'index (Feb 27 = 100)', 'USD millions', 'transits/day'."
+escalation_level,Escalation Level,string,,0.0%,Not available — no escalation scoring in source data,N/A,Reserved for future use. Not present in source data. Always NULL.
+data_confidence,Data Confidence,categorical,HIGH | LOW | MEDIUM,100.0%,Should not be missing,all,"Assessment of data reliability. HIGH = from structured field with authoritative source. MEDIUM = inferred or from secondary sources. LOW = unverified, imputed, or from Wikipedia."
+timeline_source,Timeline Source Attribution,string,,17.7%,Not applicable (non-timeline event),timeline-events.json,"Source attribution from timeline record. Examples: 'DoD / White House', 'CENTCOM / IDF'."
+timeline_data_point,Timeline Key Data Point,string,,17.0%,Not applicable or no data point recorded,timeline-events.json,"Quantitative highlight from the timeline event. Example: '3,000+ targets struck in first 72 hours'."
+strike_notes,Strike/Source Notes,text,,53.1%,Not applicable (non-strike/naval event),strikes-iran.json; strikes-retaliation.json; infrastructure.json; carriers.json,"Detailed operational notes from source record. Often contains sourcing, context, and cross-references."
+strike_verified,Strike Verified,boolean,False | True,14.3%,Not applicable (non-retaliation event),strikes-retaliation.json,Whether the retaliation strike was verified in open-source reporting. True/False. 4 of 72 retaliation locations are unverified.
+naval_strike_group,Naval Strike Group,string,,0.8%,Not applicable (non-naval event),carriers.json,Strike group or command assignment. Example: 'Carrier Strike Group 3'.
+naval_aircraft,Naval Aircraft Complement,text,,0.5%,Not applicable (non-naval event),carriers.json,"Aircraft types embarked. Example: 'F/A-18E/F Super Hornets, F-35C Lightning II'."
+naval_escorts,Naval Escort Vessels,text,,0.2%,Not applicable (non-naval event),carriers.json,"Escort vessels listed, semicolon-separated."
+infrastructure_damage_count,Infrastructure Damage Count,integer,1 – 44,0.4%,Not applicable (non-infrastructure event),infrastructure.json,"Numeric count of damaged facilities. Parsed from text (e.g., '29+' → 29). Minimums; actual totals may be higher."
+snapshot_brent,Daily Snapshot: Brent Crude,float,71 – 112.6,1.5%,Not available for this day (weekend/holiday or not reported),hero-stats.json,Brent crude price (USD/bbl) from daily aggregate snapshot. NULL on non-trading days.
+snapshot_wti,Daily Snapshot: WTI Crude,float,66.5 – 103.5,1.5%,Not available for this day,hero-stats.json,WTI crude price (USD/bbl) from daily aggregate snapshot.
+snapshot_gas,Daily Snapshot: US Gas Price,float,2.98 – 3.98,1.0%,Not available for this day,hero-stats.json,US national average gasoline price (USD/gallon). Reported intermittently.
+snapshot_sp500,Daily Snapshot: S&P 500,float,6369 – 6879,1.5%,Not available for this day,hero-stats.json,S&P 500 index close. NULL on weekends and holidays.
+snapshot_daily_cost_millions,Daily Snapshot: Est. Daily US Cost,float,800 – 3000,1.8%,Not available for this day,hero-stats.json,Estimated daily US operational cost in millions USD. Based on Pentagon and CSIS anchor points with interpolation.
+snapshot_total_cost_billions,Daily Snapshot: Est. Cumulative Cost,float,3 – 35.55,1.8%,Not available for this day,hero-stats.json,Cumulative estimated US cost in billions USD since Feb 28.
+snapshot_targets_struck,Daily Snapshot: Targets Struck,float,1.5e+04 – 3.05e+04,0.8%,Not available — reported intermittently,hero-stats.json,Cumulative US/Israeli targets struck. Reported at irregular intervals by CENTCOM/IDF.
+snapshot_us_kia,Daily Snapshot: US KIA (cumulative),float,0 – 14,1.9%,Not available for this day,hero-stats.json,"Cumulative US military killed in action. NOTE: this is CUMULATIVE, unlike daily casualty reports which are daily estimates."
+snapshot_us_wia,Daily Snapshot: US WIA (cumulative),float,0 – 300,0.8%,Not available — reported intermittently,hero-stats.json,Cumulative US military wounded in action.
+snapshot_iranian_killed,Daily Snapshot: Iranian Killed (cumulative),float,1500 – 6800,0.7%,Not available — reported intermittently,hero-stats.json,Cumulative Iranian killed. Figures from Red Crescent/HRANA — independently difficult to verify.
+snapshot_lebanese_killed,Daily Snapshot: Lebanese Killed (cumulative),float,720 – 1189,0.8%,Not available — reported intermittently,hero-stats.json,Cumulative Lebanese killed (all factions). Source: Lebanese Health Ministry.
+snapshot_displaced,Daily Snapshot: Displaced Persons (cumulative),float,8.5e+05 – 4.4e+06,0.8%,Not available — reported intermittently,hero-stats.json,Cumulative displaced persons across all affected countries.
+snapshot_flights_cancelled,Daily Snapshot: Flights Cancelled (cumulative),float,1.95e+04 – 5.2e+04,0.8%,Not available — reported intermittently,hero-stats.json,Cumulative commercial flights cancelled due to conflict.
+snapshot_children_killed,Daily Snapshot: Children Killed (cumulative),float,125 – 355,0.7%,Not available — reported intermittently,hero-stats.json,Cumulative children killed across Iran and Lebanon. Figures from HRANA/Red Crescent.
