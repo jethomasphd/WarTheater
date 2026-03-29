@@ -584,28 +584,299 @@ def extract_infrastructure() -> list[dict]:
 
 
 def extract_oil_prices() -> list[dict]:
-    """Phase 5a — TODO"""
-    return []
+    """Phase 5a: Extract daily Brent/WTI oil prices."""
+    data = load_json("oil-prices.json")
+    if data is None:
+        return []
+
+    labels = data.get("labels", [])
+    brent = data.get("brent", [])
+    wti = data.get("wti", [])
+
+    rows = []
+    for i, label in enumerate(labels):
+        d = parse_short_date(label, 2026)
+        day_num = war_day(d)
+
+        for metric_name, values in [("Brent Crude", brent), ("WTI Crude", wti)]:
+            if i >= len(values) or values[i] is None:
+                continue
+            row = empty_row()
+            row["event_id"] = next_event_id()
+            row["date"] = d.isoformat()
+            row["day_of_conflict"] = day_num
+            row["event_domain"] = "FINANCIAL"
+            row["event_type"] = "oil_price"
+            row["event_description"] = f"{metric_name}: ${values[i]:.2f}/bbl on {label}"
+            row["source_file"] = "oil-prices.json"
+            row["financial_metric_name"] = metric_name
+            row["financial_metric_value"] = values[i]
+            row["financial_metric_unit"] = "USD/bbl"
+            row["data_confidence"] = "HIGH"
+            rows.append(row)
+
+    print(f"  oil-prices.json: {len(rows)} price events extracted")
+    return rows
 
 
 def extract_markets() -> list[dict]:
-    """Phase 5b — TODO"""
-    return []
+    """Phase 5b: Extract daily market sector performance."""
+    data = load_json("markets.json")
+    if data is None:
+        return []
+
+    labels = data.get("labels", [])
+    contexts = data.get("contexts", [])
+    datasets = data.get("datasets", {})
+
+    rows = []
+    for i, label in enumerate(labels):
+        d = parse_short_date(label, 2026)
+        day_num = war_day(d)
+        context = contexts[i] if i < len(contexts) else ""
+
+        for sector_key, sector_data in datasets.items():
+            values = sector_data.get("data", [])
+            if i >= len(values) or values[i] is None:
+                continue
+            sector_label = sector_data.get("label", sector_key)
+
+            row = empty_row()
+            row["event_id"] = next_event_id()
+            row["date"] = d.isoformat()
+            row["day_of_conflict"] = day_num
+            row["event_domain"] = "FINANCIAL"
+            row["event_type"] = "market_index"
+            row["event_description"] = f"{sector_label}: {values[i]:.1f} (indexed, Feb 27=100). {context}"
+            row["source_file"] = "markets.json"
+            row["financial_metric_name"] = sector_label
+            row["financial_metric_value"] = values[i]
+            row["financial_metric_unit"] = "index (Feb 27 = 100)"
+            row["data_confidence"] = "HIGH"
+            rows.append(row)
+
+    print(f"  markets.json: {len(rows)} market events extracted")
+    return rows
 
 
 def extract_war_costs() -> list[dict]:
-    """Phase 5c — TODO"""
-    return []
+    """Phase 5c: Extract daily war costs + tanker transits."""
+    data = load_json("war-costs.json")
+    if data is None:
+        return []
+
+    rows = []
+
+    # Daily costs
+    cost_labels = data.get("labels", [])
+    costs = data.get("daily_cost_millions", [])
+    day_notes = data.get("day_notes", [])
+
+    for i, label in enumerate(cost_labels):
+        # Labels are "Day 1", "Day 2", etc.
+        m = re.match(r"Day\s+(\d+)", label)
+        if not m:
+            continue
+        day_num = int(m.group(1))
+        d = date_from_war_day(day_num)
+
+        if i < len(costs) and costs[i] is not None:
+            row = empty_row()
+            row["event_id"] = next_event_id()
+            row["date"] = d.isoformat()
+            row["day_of_conflict"] = day_num
+            row["event_domain"] = "FINANCIAL"
+            row["event_type"] = "daily_war_cost"
+            note = day_notes[i] if i < len(day_notes) else ""
+            row["event_description"] = f"Estimated daily US cost: ${costs[i]}M. {note}"
+            row["source_file"] = "war-costs.json"
+            row["financial_metric_name"] = "Daily US War Cost"
+            row["financial_metric_value"] = costs[i]
+            row["financial_metric_unit"] = "USD millions"
+            row["data_confidence"] = "MEDIUM"
+            rows.append(row)
+
+    # Tanker transits
+    tt = data.get("tanker_transits", {})
+    tt_labels = tt.get("labels", [])
+    tt_data = tt.get("data", [])
+
+    for i, label in enumerate(tt_labels):
+        d = parse_short_date(label, 2026)
+        day_num = war_day(d)
+
+        if i < len(tt_data) and tt_data[i] is not None:
+            row = empty_row()
+            row["event_id"] = next_event_id()
+            row["date"] = d.isoformat()
+            row["day_of_conflict"] = day_num
+            row["event_domain"] = "FINANCIAL"
+            row["event_type"] = "tanker_transit"
+            row["event_description"] = (
+                f"Strait of Hormuz tanker transits: {tt_data[i]} "
+                f"(pre-war baseline: {tt.get('prewar_daily', 50)}/day)"
+            )
+            row["source_file"] = "war-costs.json"
+            row["financial_metric_name"] = "Hormuz Tanker Transits"
+            row["financial_metric_value"] = tt_data[i]
+            row["financial_metric_unit"] = "transits/day"
+            row["data_confidence"] = "HIGH"
+            rows.append(row)
+
+    print(f"  war-costs.json: {len(rows)} events extracted "
+          f"({len(costs)} cost days + {len(tt_data)} tanker days)")
+    return rows
 
 
 def extract_baselines() -> list[dict]:
-    """Phase 5d — TODO"""
-    return []
+    """Phase 5d: Extract pre-war financial baseline as individual metric events."""
+    data = load_json("baselines.json")
+    if data is None:
+        return []
+
+    d = date.fromisoformat(data.get("date", "2026-02-27"))
+    day_num = war_day(d)
+    rows = []
+
+    # Flatten all nested metrics
+    metrics = [
+        ("Brent Crude (baseline)", data.get("oil", {}).get("brent"), "USD/bbl"),
+        ("WTI Crude (baseline)", data.get("oil", {}).get("wti"), "USD/bbl"),
+        ("US Gas National Avg (baseline)", data.get("gas", {}).get("national_avg"), "USD/gallon"),
+        ("S&P 500 (baseline)", data.get("markets", {}).get("sp500"), "index points"),
+        ("Nasdaq (baseline)", data.get("markets", {}).get("nasdaq"), "index points"),
+        ("DJIA (baseline)", data.get("markets", {}).get("djia"), "index points"),
+        ("US 10Y Treasury Yield", data.get("treasury", {}).get("us_10yr_yield"), "percent"),
+        ("Fed Funds Rate Upper", data.get("treasury", {}).get("fed_funds_rate_upper"), "percent"),
+        ("Fed Funds Rate Lower", data.get("treasury", {}).get("fed_funds_rate_lower"), "percent"),
+        ("DXY Dollar Index", data.get("treasury", {}).get("dxy"), "index points"),
+        ("Gold (baseline)", data.get("commodities", {}).get("gold_oz"), "USD/oz"),
+        ("Silver (baseline)", data.get("commodities", {}).get("silver_oz"), "USD/oz"),
+        ("VIX (baseline)", data.get("commodities", {}).get("vix"), "index points"),
+        ("National Debt", data.get("national_debt", {}).get("total_trillions"), "USD trillions"),
+        ("Debt-to-GDP", data.get("national_debt", {}).get("debt_to_gdp_pct"), "percent"),
+    ]
+
+    # Defense stocks
+    for ticker, val in data.get("defense_stocks", {}).items():
+        if ticker == "source":
+            continue
+        if val is not None:
+            metrics.append((f"{ticker} (baseline)", val, "USD/share"))
+
+    # Oil stocks
+    for ticker, val in data.get("oil_stocks", {}).items():
+        if ticker == "source":
+            continue
+        if val is not None:
+            metrics.append((f"{ticker} (baseline)", val, "USD/share"))
+
+    # Airline stocks
+    for ticker, val in data.get("airline_stocks", {}).items():
+        if ticker == "source":
+            continue
+        if val is not None:
+            metrics.append((f"{ticker} (baseline)", val, "USD/share"))
+
+    # Hormuz baseline
+    hormuz = data.get("hormuz", {})
+    if hormuz.get("daily_tanker_transits"):
+        metrics.append(("Hormuz Daily Tanker Transits (baseline)",
+                        hormuz["daily_tanker_transits"], "transits/day"))
+    if hormuz.get("daily_oil_flow_mbd"):
+        metrics.append(("Hormuz Daily Oil Flow (baseline)",
+                        hormuz["daily_oil_flow_mbd"], "million bbl/day"))
+
+    # Audit confidence
+    audit = data.get("audit", {})
+    verified = set(audit.get("verified_closes", []))
+    unverified = set(audit.get("unverified", []))
+
+    for name, val, unit in metrics:
+        if val is None:
+            continue
+        row = empty_row()
+        row["event_id"] = next_event_id()
+        row["date"] = d.isoformat()
+        row["day_of_conflict"] = day_num
+        row["event_domain"] = "FINANCIAL"
+        row["event_type"] = "baseline_metric"
+        row["event_description"] = f"Pre-war baseline — {name}: {val} {unit}"
+        row["source_file"] = "baselines.json"
+        row["financial_metric_name"] = name
+        row["financial_metric_value"] = val
+        row["financial_metric_unit"] = unit
+
+        # Confidence from audit
+        ticker_lower = name.split(" ")[0].lower()
+        if ticker_lower in verified:
+            row["data_confidence"] = "HIGH"
+        elif ticker_lower in unverified:
+            row["data_confidence"] = "LOW"
+        else:
+            row["data_confidence"] = "MEDIUM"
+
+        rows.append(row)
+
+    print(f"  baselines.json: {len(rows)} baseline metric events extracted")
+    return rows
 
 
 def extract_hero_stats_history() -> list[dict]:
-    """Phase 5e — TODO"""
-    return []
+    """Phase 5e: Extract daily aggregate snapshots from hero-stats history."""
+    data = load_json("hero-stats.json")
+    if data is None:
+        return []
+
+    history = data.get("history", [])
+    rows = []
+
+    snapshot_fields = [
+        ("brent", "snapshot_brent"),
+        ("wti", "snapshot_wti"),
+        ("gas", "snapshot_gas"),
+        ("sp500", "snapshot_sp500"),
+        ("daily_cost_millions", "snapshot_daily_cost_millions"),
+        ("total_cost_billions", "snapshot_total_cost_billions"),
+        ("targets_struck", "snapshot_targets_struck"),
+        ("us_kia", "snapshot_us_kia"),
+        ("us_wia", "snapshot_us_wia"),
+        ("iranian_killed", "snapshot_iranian_killed"),
+        ("lebanese_killed", "snapshot_lebanese_killed"),
+        ("displaced", "snapshot_displaced"),
+        ("flights_cancelled", "snapshot_flights_cancelled"),
+        ("children_killed", "snapshot_children_killed"),
+    ]
+
+    for entry in history:
+        d = date.fromisoformat(entry["date"])
+        day_num = entry.get("war_day", war_day(d))
+
+        row = empty_row()
+        row["event_id"] = next_event_id()
+        row["date"] = d.isoformat()
+        row["day_of_conflict"] = day_num
+        row["event_domain"] = "OTHER"
+        row["event_type"] = "daily_aggregate_snapshot"
+        row["source_file"] = "hero-stats.json"
+
+        # Build description from non-null values
+        parts = [f"Day {day_num} snapshot"]
+        for src_key, _ in snapshot_fields:
+            val = entry.get(src_key)
+            if val is not None:
+                parts.append(f"{src_key}={val}")
+        row["event_description"] = "; ".join(parts)
+
+        # Map snapshot fields
+        for src_key, dest_key in snapshot_fields:
+            row[dest_key] = entry.get(src_key)
+
+        row["data_confidence"] = "HIGH"
+        rows.append(row)
+
+    print(f"  hero-stats.json: {len(rows)} daily snapshot events extracted")
+    return rows
 
 
 def extract_hormuz() -> list[dict]:
