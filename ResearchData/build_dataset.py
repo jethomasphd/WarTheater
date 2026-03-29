@@ -880,23 +880,218 @@ def extract_hero_stats_history() -> list[dict]:
 
 
 def extract_hormuz() -> list[dict]:
-    """Phase 6a — TODO"""
-    return []
+    """Phase 6a: Extract Strait of Hormuz closure, maritime impacts, and day narratives."""
+    data = load_json("hormuz.json")
+    if data is None:
+        return []
+
+    rows = []
+    strait = data.get("strait", {})
+    impact = data.get("impact", {})
+    geometry = data.get("geometry", {})
+
+    # 1. Strait closure event
+    closure_date = strait.get("closure_date")
+    if closure_date:
+        row = empty_row()
+        row["event_id"] = next_event_id()
+        d = date.fromisoformat(closure_date)
+        row["date"] = d.isoformat()
+        row["day_of_conflict"] = war_day(d)
+        row["event_domain"] = "NAVAL"
+        row["event_type"] = "strait_closure"
+        row["event_description"] = (
+            f"Strait of Hormuz effectively closed. "
+            f"Type: {strait.get('closure_type', '')}. "
+            f"Method: {strait.get('closure_method', '')}"
+        )
+        row["source_file"] = "hormuz.json"
+        row["location_name"] = "Strait of Hormuz"
+        row["location_lat"] = 26.55
+        row["location_lon"] = 56.25
+        row["country"] = "International Waters"
+        row["actor_initiating"] = strait.get("closure_declared_by", "IRGC")
+        row["data_confidence"] = "HIGH"
+        rows.append(row)
+
+    # 2. Vessel attack summary
+    vessels_attacked = impact.get("vessels_attacked_total")
+    if vessels_attacked:
+        row = empty_row()
+        row["event_id"] = next_event_id()
+        row["date"] = "2026-03-29"
+        row["day_of_conflict"] = 30
+        row["event_domain"] = "RETALIATION"
+        row["event_type"] = "maritime_attack_summary"
+        row["event_description"] = (
+            f"{vessels_attacked} commercial vessels attacked in Strait of Hormuz. "
+            f"{impact.get('vessels_attacked_note', '')}"
+        )
+        row["source_file"] = "hormuz.json"
+        row["location_name"] = "Strait of Hormuz"
+        row["location_lat"] = 26.35
+        row["location_lon"] = 56.55
+        row["country"] = "International Waters"
+        row["actor_initiating"] = "IRGC Navy"
+        row["casualties_reported"] = impact.get("seafarer_fatalities")
+        row["data_confidence"] = "HIGH"
+        rows.append(row)
+
+    # 3. Alternative routes
+    for route in impact.get("alternative_routes", []):
+        row = empty_row()
+        row["event_id"] = next_event_id()
+        row["date"] = "2026-03-29"
+        row["day_of_conflict"] = 30
+        row["event_domain"] = "FINANCIAL"
+        row["event_type"] = "alternative_route"
+        cap = route.get("capacity_mbd", "?")
+        eff = route.get("effective_export_mbd", "?")
+        row["event_description"] = (
+            f"Alternative route: {route.get('name', '')}. "
+            f"Capacity: {cap} mbd, Effective: {eff} mbd. "
+            f"Status: {route.get('status', '')}"
+        )
+        row["source_file"] = "hormuz.json"
+        row["location_name"] = route.get("name")
+        row["financial_metric_name"] = f"{route.get('name', '')} throughput"
+        if isinstance(eff, (int, float)):
+            row["financial_metric_value"] = eff
+        row["financial_metric_unit"] = "million bbl/day"
+        row["data_confidence"] = "MEDIUM"
+        rows.append(row)
+
+    # 4. Islands (strategic geography)
+    for island in geometry.get("islands", []):
+        row = empty_row()
+        row["event_id"] = next_event_id()
+        row["date"] = "2026-02-28"
+        row["day_of_conflict"] = 1
+        row["event_domain"] = "NAVAL"
+        row["event_type"] = "strategic_geography"
+        row["event_description"] = (
+            f"Strategic island: {island.get('name', '')}. "
+            f"Control: {island.get('control', '')}. "
+            f"Military: {island.get('military', False)}"
+        )
+        row["source_file"] = "hormuz.json"
+        row["location_name"] = island.get("name")
+        row["location_lat"] = island.get("lat")
+        row["location_lon"] = island.get("lng")
+        row["country"] = "Iran" if "Iran" in str(island.get("control", "")) else "Disputed"
+        row["data_confidence"] = "HIGH"
+        rows.append(row)
+
+    # 5. Day narrative events (day_22_events through day_30_events)
+    for key, val in impact.items():
+        m = re.match(r"day_(\d+)_events", key)
+        if not m:
+            continue
+        day_num = int(m.group(1))
+        d = date_from_war_day(day_num)
+        row = empty_row()
+        row["event_id"] = next_event_id()
+        row["date"] = d.isoformat()
+        row["day_of_conflict"] = day_num
+        row["event_domain"] = "NAVAL"
+        row["event_type"] = "hormuz_daily_narrative"
+        row["event_description"] = val
+        row["source_file"] = "hormuz.json"
+        row["location_name"] = "Strait of Hormuz"
+        row["location_lat"] = 26.55
+        row["location_lon"] = 56.25
+        row["country"] = "International Waters"
+        row["data_confidence"] = "HIGH"
+        rows.append(row)
+
+    print(f"  hormuz.json: {len(rows)} events extracted")
+    return rows
 
 
 def extract_historical_comparison() -> list[dict]:
-    """Phase 6b — TODO"""
-    return []
+    """Phase 6b: Extract historical conflict comparison records."""
+    data = load_json("historical-comparison.json")
+    if data is None:
+        return []
+
+    rows = []
+    for rec in data.get("conflicts", []):
+        row = empty_row()
+        row["event_id"] = next_event_id()
+        row["date"] = "2026-03-29"  # reference date
+        row["day_of_conflict"] = 30
+        row["event_domain"] = "OTHER"
+        row["event_type"] = "historical_comparison"
+        row["event_description"] = (
+            f"{rec.get('label', '')}: {rec.get('targets_struck', '?')} targets struck, "
+            f"{rec.get('us_kia', '?')} US KIA, "
+            f"${rec.get('daily_cost_millions', '?')}M/day. {rec.get('note', '')}"
+        )
+        row["source_file"] = "historical-comparison.json"
+        row["financial_metric_name"] = f"{rec.get('label', '')} daily cost"
+        row["financial_metric_value"] = rec.get("daily_cost_millions")
+        row["financial_metric_unit"] = "USD millions"
+        row["casualties_military"] = rec.get("us_kia")
+        row["data_confidence"] = "HIGH"
+        rows.append(row)
+
+    print(f"  historical-comparison.json: {len(rows)} comparison records extracted")
+    return rows
 
 
 def extract_global_bases() -> list[dict]:
-    """Phase 6c — TODO"""
-    return []
+    """Phase 6c: Extract US military base reference records."""
+    data = load_json("global-bases.json")
+    if data is None:
+        return []
+
+    rows = []
+    for rec in data:
+        row = empty_row()
+        row["event_id"] = next_event_id()
+        row["date"] = "2026-02-28"  # context date
+        row["day_of_conflict"] = 1
+        row["event_domain"] = "MILITARY"
+        row["event_type"] = "military_base"
+        row["event_description"] = f"{rec.get('name', '')}: {rec.get('note', '')}"
+        row["source_file"] = "global-bases.json"
+        row["location_name"] = rec.get("name")
+        row["location_lat"] = rec.get("lat")
+        row["location_lon"] = rec.get("lng")
+        row["infrastructure_target_type"] = "military_base"
+        row["actor_initiating"] = "US"
+        row["data_confidence"] = "HIGH"
+        rows.append(row)
+
+    print(f"  global-bases.json: {len(rows)} base reference records extracted")
+    return rows
 
 
 def extract_briefings() -> list[dict]:
-    """Phase 6d — TODO"""
-    return []
+    """Phase 6d: Extract daily briefing index entries."""
+    data = load_json("briefings/index.json")
+    if data is None:
+        return []
+
+    rows = []
+    for rec in data:
+        row = empty_row()
+        row["event_id"] = next_event_id()
+        d = date.fromisoformat(rec["date"])
+        row["date"] = d.isoformat()
+        row["day_of_conflict"] = rec.get("day", war_day(d))
+        row["event_domain"] = "OTHER"
+        row["event_type"] = "daily_briefing"
+        row["event_description"] = (
+            f"{rec.get('label', '')}: {rec.get('headline', '')}"
+        )
+        row["source_file"] = "briefings/index.json"
+        row["source_record_id"] = rec.get("file")
+        row["data_confidence"] = "HIGH"
+        rows.append(row)
+
+    print(f"  briefings/index.json: {len(rows)} briefing index entries extracted")
+    return rows
 
 
 # ---------------------------------------------------------------------------
