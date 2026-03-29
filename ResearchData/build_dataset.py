@@ -415,18 +415,172 @@ def extract_strikes_retaliation() -> list[dict]:
 
 
 def extract_carriers() -> list[dict]:
-    """Phase 4a — TODO"""
-    return []
+    """Phase 4a: Extract naval asset deployment/positioning events."""
+    data = load_json("carriers.json")
+    if data is None:
+        return []
+
+    rows = []
+    for rec in data:
+        row = empty_row()
+        row["event_id"] = next_event_id()
+
+        # Use operation_start_date, fall back to deployed_since, then conflict start
+        d_str = rec.get("operation_start_date") or rec.get("deployed_since")
+        if d_str:
+            d = date.fromisoformat(d_str)
+        else:
+            d = CONFLICT_START
+        row["date"] = d.isoformat()
+        row["datetime_utc"] = None
+        row["day_of_conflict"] = war_day(d)
+
+        row["event_domain"] = "NAVAL"
+        row["event_type"] = rec.get("type", "naval_asset")
+        row["event_description"] = (
+            f"{rec.get('name', '')} ({rec.get('hull') or 'N/A'}) — "
+            f"{rec.get('status', '')} — {rec.get('mission_summary', '')}"
+        )
+        row["source_file"] = "carriers.json"
+        row["source_record_id"] = rec.get("id")
+
+        row["location_name"] = rec.get("area")
+        row["location_lat"] = rec.get("lat")
+        row["location_lon"] = rec.get("lng")
+        row["military_asset"] = f"{rec.get('name', '')} ({rec.get('hull') or 'N/A'})"
+
+        # Determine actor
+        name = (rec.get("name") or "").lower()
+        hull = (rec.get("hull") or "").lower()
+        if "hms" in name or hull.startswith("s1") or hull.startswith("d3"):
+            row["actor_initiating"] = "UK"
+        elif name.startswith("fs "):
+            row["actor_initiating"] = "France"
+        elif "82nd airborne" in name.lower():
+            row["actor_initiating"] = "US"
+        else:
+            row["actor_initiating"] = "US"
+
+        row["data_confidence"] = "HIGH"
+
+        # Extra naval columns
+        row["naval_strike_group"] = rec.get("strike_group")
+        row["naval_aircraft"] = rec.get("aircraft") if isinstance(rec.get("aircraft"), str) else None
+        escorts = rec.get("escorts", [])
+        if escorts:
+            row["naval_escorts"] = "; ".join(escorts)
+
+        row["strike_notes"] = rec.get("notes")
+        rows.append(row)
+
+    print(f"  carriers.json: {len(rows)} naval asset events extracted")
+    return rows
 
 
 def extract_casualties() -> list[dict]:
-    """Phase 4b — TODO"""
-    return []
+    """Phase 4b: Extract daily casualty reports (day x faction)."""
+    data = load_json("casualties.json")
+    if data is None:
+        return []
+
+    labels = data.get("labels", [])
+    day_contexts = data.get("day_contexts", [])
+    datasets = data.get("datasets", {})
+
+    faction_meta = {
+        "iranian_military": ("Iran (military)", "military"),
+        "iranian_civilian": ("Iran (civilian)", "civilian"),
+        "us_military": ("US (military)", "military"),
+        "lebanese": ("Lebanon (all)", "all"),
+        "israeli_military": ("Israel (military)", "military"),
+    }
+
+    rows = []
+    for i, label in enumerate(labels):
+        d = parse_short_date(label, 2026)
+        day_num = war_day(d)
+        context = day_contexts[i] if i < len(day_contexts) else ""
+
+        for faction_key, (actor_label, cas_type) in faction_meta.items():
+            ds = datasets.get(faction_key, {})
+            values = ds.get("data", [])
+            if i >= len(values):
+                continue
+            value = values[i]
+
+            row = empty_row()
+            row["event_id"] = next_event_id()
+            row["date"] = d.isoformat()
+            row["datetime_utc"] = None
+            row["day_of_conflict"] = day_num
+            row["event_domain"] = "HUMANITARIAN"
+            row["event_type"] = "daily_casualty_report"
+            row["event_description"] = (
+                f"Day {day_num} estimated killed — {actor_label}: {value}. "
+                f"Context: {context}"
+            )
+            row["source_file"] = "casualties.json"
+            row["source_record_id"] = None
+            row["actor_target"] = actor_label
+            row["casualties_reported"] = value
+
+            if cas_type == "military":
+                row["casualties_military"] = value
+            elif cas_type == "civilian":
+                row["casualties_civilian"] = value
+
+            row["data_confidence"] = "MEDIUM"
+            rows.append(row)
+
+    print(f"  casualties.json: {len(rows)} daily casualty events extracted "
+          f"({len(labels)} days x {len(faction_meta)} factions)")
+    return rows
 
 
 def extract_infrastructure() -> list[dict]:
-    """Phase 4c — TODO"""
-    return []
+    """Phase 4c: Extract cumulative infrastructure damage records."""
+    data = load_json("infrastructure.json")
+    if data is None:
+        return []
+
+    infra_type_map = {
+        "Hospitals Damaged": "healthcare",
+        "Schools Destroyed": "civilian",
+        "Power Plants Hit": "power_grid",
+        "Oil/Gas Facilities Hit": "oil_infrastructure",
+        "Nuclear Facilities Struck": "nuclear_facility",
+        "Airports Damaged": "air_defense",
+        "Bridges Destroyed": "transportation",
+    }
+
+    rows = []
+    for rec in data:
+        row = empty_row()
+        row["event_id"] = next_event_id()
+        row["date"] = "2026-03-29"  # cumulative as-of date
+        row["datetime_utc"] = None
+        row["day_of_conflict"] = 30
+        row["event_domain"] = "HUMANITARIAN"
+        row["event_type"] = "infrastructure_damage"
+        row["event_description"] = rec.get("detail", rec.get("note", ""))
+        row["source_file"] = "infrastructure.json"
+        row["source_record_id"] = None
+
+        label = rec.get("label", "")
+        row["infrastructure_target_type"] = infra_type_map.get(label, "other")
+
+        # Parse count — strip non-numeric chars like "+" and "~"
+        count_str = str(rec.get("count", "")).strip()
+        count_num = re.sub(r"[^\d]", "", count_str)
+        if count_num:
+            row["infrastructure_damage_count"] = int(count_num)
+
+        row["data_confidence"] = "HIGH"
+        row["strike_notes"] = rec.get("source")
+        rows.append(row)
+
+    print(f"  infrastructure.json: {len(rows)} infrastructure damage events extracted")
+    return rows
 
 
 def extract_oil_prices() -> list[dict]:
