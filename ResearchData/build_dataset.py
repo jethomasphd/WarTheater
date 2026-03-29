@@ -197,9 +197,113 @@ def extract_timeline_events() -> list[dict]:
 # ---------------------------------------------------------------------------
 # Placeholder stubs for Phases 2–7 (to be implemented in later phases)
 # ---------------------------------------------------------------------------
+def infer_infrastructure_type(target_text: str, subtype: str | None = None) -> str | None:
+    """Infer infrastructure_target_type from target description or subtype."""
+    if subtype in ("civilian_casualty", "civilian_casualties", "civilian_infrastructure"):
+        return "civilian"
+    if subtype == "energy_infrastructure":
+        return "oil_infrastructure"
+    if subtype == "targeted_killing":
+        return "military_base"
+    text = target_text.lower()
+    if any(k in text for k in ("nuclear", "enrichment", "reactor", "uranium",
+                                "heavy water", "yellowcake", "fordow", "natanz")):
+        return "nuclear_facility"
+    if any(k in text for k in ("oil", "refinery", "gas", "kharg", "petrochemical",
+                                "fuel", "south pars", "pipeline", "lng")):
+        return "oil_infrastructure"
+    if any(k in text for k in ("school", "residential", "civilian", "hospital",
+                                "bazaar", "palace", "stadium", "mosque", "university")):
+        return "civilian"
+    if any(k in text for k in ("radar", "air defense", "s-300", "s-200", "sam site")):
+        return "air_defense"
+    if any(k in text for k in ("irib", "broadcaster", "communications", "radio",
+                                "transmitter", "cyber")):
+        return "communications"
+    if any(k in text for k in ("airbase", "air base", "runway", "naval", "irgc",
+                                "missile", "military", "command", "drone base",
+                                "submarine", "hangar", "weapon", "munition",
+                                "artillery", "fast attack", "leadership")):
+        return "military_base"
+    return None
+
+
+def assess_strike_confidence(rec: dict) -> str:
+    """Assess data confidence for a strike record."""
+    src = (rec.get("casualties_source") or "").lower()
+    if rec.get("verified") is False:
+        return "LOW"
+    if any(k in src for k in ("dod", "centcom", "idf", "iaea", "pentagon")):
+        return "HIGH"
+    if any(k in src for k in ("acled", "satellite")):
+        return "MEDIUM"
+    if any(k in src for k in ("wikipedia", "unconfirmed", "unverified")):
+        return "LOW"
+    return "MEDIUM"
+
+
 def extract_strikes_iran() -> list[dict]:
-    """Phase 2 — TODO"""
-    return []
+    """Phase 2: Extract US/Israeli strikes on Iran, exploded by target x active_day."""
+    data = load_json("strikes-iran.json")
+    if data is None:
+        return []
+
+    records = [r for r in data if r.get("id") != "_metadata"]
+    rows = []
+
+    for rec in records:
+        targets = rec.get("targets", [])
+        active_days = rec.get("active_days", [])
+        subtype = rec.get("subtype")
+        confidence = assess_strike_confidence(rec)
+
+        for day_num in active_days:
+            d = date_from_war_day(day_num)
+            for target_desc in targets:
+                row = empty_row()
+                row["event_id"] = next_event_id()
+                row["date"] = d.isoformat()
+                row["datetime_utc"] = None
+                row["day_of_conflict"] = day_num
+                row["event_domain"] = "STRIKE"
+                row["event_type"] = "airstrike"
+                row["event_description"] = f"{rec.get('city', '')}: {target_desc}"
+                row["source_file"] = "strikes-iran.json"
+                row["source_record_id"] = rec.get("id")
+
+                row["location_name"] = rec.get("city")
+                row["location_lat"] = rec.get("lat")
+                row["location_lon"] = rec.get("lng")
+                row["country"] = "Iran"
+
+                # Normalize actor
+                actor = rec.get("actor", "")
+                actor_map = {
+                    "us": "US",
+                    "israel": "Israel",
+                    "us_israel_joint": "US/Israel (joint)",
+                    "israel_us_coordinated": "US/Israel (coordinated)",
+                    "unknown": "Unknown",
+                }
+                row["actor_initiating"] = actor_map.get(actor, actor)
+                row["actor_target"] = "Iran"
+
+                row["infrastructure_target_type"] = infer_infrastructure_type(
+                    target_desc, subtype
+                )
+
+                # Casualties — attach to first target only to avoid double-counting
+                if target_desc == targets[0]:
+                    row["casualties_reported"] = rec.get("casualties_reported")
+
+                row["data_confidence"] = confidence
+                row["strike_notes"] = rec.get("notes")
+
+                rows.append(row)
+
+    print(f"  strikes-iran.json: {len(rows)} events extracted "
+          f"({len(records)} locations x targets x active_days)")
+    return rows
 
 
 def extract_strikes_retaliation() -> list[dict]:
