@@ -306,9 +306,112 @@ def extract_strikes_iran() -> list[dict]:
     return rows
 
 
+COUNTRY_PATTERNS = [
+    ("Israel", re.compile(r"Israel|Tel Aviv|Haifa|Nevatim|Dimona|Beit Shemesh|Beersheba|Jerusalem|Netanya|Eilat|Nahariya|Ramat Gan|Kafr Qasim|Ganei Tikva|Kiryat Ata", re.I)),
+    ("Kuwait", re.compile(r"Kuwait", re.I)),
+    ("Qatar", re.compile(r"Qatar|Al Udeid|Doha", re.I)),
+    ("UAE", re.compile(r"UAE|Dubai|Abu Dhabi|Fujairah|Al Dhafra|Umm Al Quwain|Jebel Ali|Ruwais|Habshan", re.I)),
+    ("Bahrain", re.compile(r"Bahrain|NAVCENT|Bapco", re.I)),
+    ("Iraq", re.compile(r"Iraq|Erbil|Ain al-Asad|Habbaniyah|Baghdad|Kurdistan", re.I)),
+    ("Saudi Arabia", re.compile(r"Saudi|Prince Sultan|Ras Tanura|SAMREF|Yanbu|Al-Kharj", re.I)),
+    ("Lebanon", re.compile(r"Lebanon|Beirut|Tyre|Litani|Sidon|Jezzine|Nabatieh", re.I)),
+    ("Jordan", re.compile(r"Jordan", re.I)),
+    ("Cyprus", re.compile(r"Cyprus|Akrotiri", re.I)),
+    ("Oman", re.compile(r"Oman|Duqm|Salalah|Sohar", re.I)),
+    ("International Waters", re.compile(r"Hormuz|maritime|Gulf of Oman|Arabian Sea", re.I)),
+    ("Diego Garcia", re.compile(r"Diego Garcia", re.I)),
+]
+
+
+def extract_country(city: str) -> str:
+    """Extract country from city/location string."""
+    for country, pattern in COUNTRY_PATTERNS:
+        if pattern.search(city):
+            return country
+    return "Unknown"
+
+
 def extract_strikes_retaliation() -> list[dict]:
-    """Phase 3 — TODO"""
-    return []
+    """Phase 3: Extract Iranian retaliation / Hezbollah / operational loss events."""
+    data = load_json("strikes-retaliation.json")
+    if data is None:
+        return []
+
+    type_to_event_type = {
+        "iran_retaliation": "missile_attack",
+        "hezbollah_front": "rocket_attack",
+        "hezbollah": "rocket_attack",
+        "operational_loss": "operational_loss",
+        "us_strike_on_militia": "airstrike",
+    }
+
+    type_to_domain = {
+        "iran_retaliation": "RETALIATION",
+        "hezbollah_front": "RETALIATION",
+        "hezbollah": "RETALIATION",
+        "operational_loss": "MILITARY",
+        "us_strike_on_militia": "STRIKE",
+    }
+
+    rows = []
+    for rec in data:
+        active_days = rec.get("active_days", [])
+        rec_type = rec.get("type", "iran_retaliation")
+        confidence = "HIGH" if rec.get("verified") else "LOW"
+        country = extract_country(rec.get("city", ""))
+
+        # Determine initiating actor from origin or type
+        if rec_type == "us_strike_on_militia":
+            actor_init = "US"
+            actor_tgt = rec.get("city", "")
+        elif rec_type in ("hezbollah_front", "hezbollah"):
+            actor_init = "Hezbollah"
+            actor_tgt = country
+        elif rec_type == "operational_loss":
+            actor_init = None
+            actor_tgt = None
+        else:
+            actor_init = rec.get("origin", "Iran")
+            actor_tgt = country
+
+        for day_num in active_days:
+            d = date_from_war_day(day_num)
+            row = empty_row()
+            row["event_id"] = next_event_id()
+            row["date"] = d.isoformat()
+            row["datetime_utc"] = None
+            row["day_of_conflict"] = day_num
+            row["event_domain"] = type_to_domain.get(rec_type, "RETALIATION")
+            row["event_type"] = type_to_event_type.get(rec_type, "missile_attack")
+            row["event_description"] = (
+                f"{rec.get('city', '')}: {rec.get('weapon', 'Unknown weapon')} — "
+                f"{rec.get('casualties_reported', 'No casualty data')}"
+            )
+            row["source_file"] = "strikes-retaliation.json"
+            row["source_record_id"] = rec.get("id")
+
+            row["location_name"] = rec.get("city")
+            row["location_lat"] = rec.get("lat")
+            row["location_lon"] = rec.get("lng")
+            row["country"] = country
+
+            row["actor_initiating"] = actor_init
+            row["actor_target"] = actor_tgt
+            row["weapon_system"] = rec.get("weapon")
+
+            # Casualties on first active day only to avoid double-counting
+            if day_num == active_days[0]:
+                row["casualties_reported"] = rec.get("casualties_reported")
+
+            row["data_confidence"] = confidence
+            row["strike_notes"] = rec.get("notes")
+            row["strike_verified"] = rec.get("verified")
+
+            rows.append(row)
+
+    print(f"  strikes-retaliation.json: {len(rows)} events extracted "
+          f"({len(data)} locations x active_days)")
+    return rows
 
 
 def extract_carriers() -> list[dict]:
