@@ -4,16 +4,18 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-03-27",
+    "last_updated": "2026-03-29",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "~29,000+ (CENTCOM Mar 27: 10,000+ US targets, 8,000+ combat flights, 130+ naval vessels, 44 minelayers destroyed. Two-thirds of arms manufacturing facilities destroyed. IDF: 1,000+ weapons production targets struck. Combined US/Israeli extrapolated ~29,000+ through Day 28)",
+    "total_targets_struck": "~30,500+ (CENTCOM Mar 29: 11,000+ US targets, 66% of missile/drone/naval production destroyed, 8,000+ combat flights, 150+ naval vessels, 44 minelayers destroyed. IDF: Arak heavy water + Ardakan yellowcake struck. Combined US/Israeli extrapolated ~30,500+ through Day 30)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
-      "killed": "1,937+",
-      "injured": "18,551+",
+      "killed": "1,900+ (Red Crescent) / 3,461 (HRANA)",
+      "injured": "23,000+ total casualties (Health Ministry)",
       "military_killed_hengaw": "5,890+",
-      "sources": "Iran Health Ministry / Hengaw / HRANA / ACLED / AP",
-      "as_of": "2026-03-27"
+      "women_killed": "244",
+      "children_killed": "231",
+      "sources": "Iranian Red Crescent / HRANA / Iran Health Ministry / ACLED / AP",
+      "as_of": "2026-03-29"
     },
     "civilian_buildings_affected": "~20,000 (including 16,000 residential units) per Iranian Red Crescent as of Day 11",
     "healthcare_facilities_affected": "77 per Red Crescent; 31 major hospitals damaged, 12 inactive per Deputy Health Minister; WHO verified 13 attacks on healthcare",
@@ -1009,5 +1011,100 @@
     "notes": "Day 28 (Mar 27): Six civilians reported killed in Qom from overnight strikes. Additional casualties reported in Urmia from strikes on residential buildings.",
     "verified": true,
     "last_updated": "2026-03-27"
+  },
+  {
+    "id": "arak-heavy-water-march29",
+    "city": "Arak",
+    "lat": 34.0954,
+    "lng": 49.6891,
+    "type": "us_strike",
+    "actor": "israel",
+    "targets": [
+      "Shahid Khondab Heavy Water Complex"
+    ],
+    "first_strike": "2026-03-29",
+    "casualties_reported": "No radiological release per IAEA",
+    "casualties_source": "IAEA / IDF",
+    "active_days": [30],
+    "notes": "Day 30 (Mar 29): Israel struck the Shahid Khondab Heavy Water Complex in Arak. IAEA confirmed no radiological release. Part of continued targeting of Iran's nuclear infrastructure.",
+    "verified": true,
+    "last_updated": "2026-03-29"
+  },
+  {
+    "id": "ardakan-yellowcake-march29",
+    "city": "Ardakan, Yazd Province",
+    "lat": 32.3100,
+    "lng": 54.0175,
+    "type": "us_strike",
+    "actor": "israel",
+    "targets": [
+      "Ardakan yellowcake production plant"
+    ],
+    "first_strike": "2026-03-29",
+    "casualties_reported": "No radiological release per IAEA",
+    "casualties_source": "IAEA / IDF",
+    "active_days": [30],
+    "notes": "Day 30 (Mar 29): Israel struck the Ardakan yellowcake production plant in Yazd Province. IAEA confirmed no radiological release. Targets uranium mining and conversion capacity.",
+    "verified": true,
+    "last_updated": "2026-03-29"
+  },
+  {
+    "id": "tehran-university-march29",
+    "city": "Tehran",
+    "lat": 35.7447,
+    "lng": 51.3503,
+    "type": "us_strike",
+    "subtype": "civilian_infrastructure",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Iran University of Science and Technology — severely damaged",
+      "Dozens of Tehran infrastructure targets"
+    ],
+    "first_strike": "2026-03-29",
+    "casualties_reported": "Unknown — IRGC issued ultimatum threatening retaliatory attacks on US/Israeli university campuses in Gulf",
+    "casualties_source": "Iranian state media / IRGC",
+    "active_days": [30],
+    "notes": "Day 30 (Mar 29): US-Israeli strikes severely damaged the Iran University of Science and Technology and completed 'extensive' waves against dozens of Tehran infrastructure targets. IRGC responded with ultimatum demanding US condemn strikes on Iranian universities by 12:00 noon March 30, threatening retaliatory attacks on Texas A&M and Northwestern in Qatar, NYU in UAE.",
+    "verified": true,
+    "last_updated": "2026-03-29"
+  },
+  {
+    "id": "haftkel-water-march29",
+    "city": "Haftkel, Khuzestan Province",
+    "lat": 32.2292,
+    "lng": 49.5250,
+    "type": "us_strike",
+    "subtype": "civilian_infrastructure",
+    "actor": "us_israel_joint",
+    "targets": [
+      "10,000-cubic-meter water reservoir"
+    ],
+    "first_strike": "2026-03-29",
+    "casualties_reported": "Unknown — critical civilian infrastructure",
+    "casualties_source": "Iranian state media",
+    "active_days": [30],
+    "notes": "Day 30 (Mar 29): A 10,000-cubic-meter water reservoir in Haftkel, Khuzestan Province was destroyed. Prompted critical IRGC ultimatum threatening attacks on US/Israeli university campuses in the Gulf.",
+    "verified": true,
+    "last_updated": "2026-03-29"
+  },
+  {
+    "id": "isfahan-industry-march29",
+    "city": "Isfahan",
+    "lat": 32.6546,
+    "lng": 51.6680,
+    "type": "us_strike",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Steel factories",
+      "Cement factories",
+      "Industrial infrastructure"
+    ],
+    "first_strike": "2026-03-29",
+    "casualties_reported": "Unknown",
+    "casualties_source": "Iranian state media / satellite imagery",
+    "active_days": [30],
+    "notes": "Day 30 (Mar 29): Steel and cement factories across Isfahan and southern Iran struck as part of expanded infrastructure targeting campaign.",
+    "verified": true,
+    "last_updated": "2026-03-29"
   }
 ]

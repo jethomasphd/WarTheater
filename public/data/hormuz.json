@@ -11,8 +11,8 @@
     "closure_declared_by": "IRGC",
     "closure_type": "De facto (insurance-driven + active attacks on vessels)",
     "closure_method": "Asymmetric denial via drone and missile strikes on commercial vessels, triggering insurance-driven shutdown. IRGC used sea drones, anti-ship missiles, and shore-launched projectiles to strike 21+ vessels since Feb 28. War risk insurance withdrawn or repriced at ~5% of vessel value — a 100x increase from pre-war 0.02-0.05%. For a $100M tanker, $5M per transit. At least one tanker paid $2M for transit rights through Iran-approved Larak Island corridor. Trump ordered DFC to provide $20B in political risk reinsurance (Chubb as lead underwriter), but JPMorgan estimates actual exposure at $352B across 329 tankers. Reports of naval mine deployment began ~March 10; US destroyed 44+ Iranian minelayers. Iran's stockpile estimated at 2,000-6,000 naval mines. Iran retains 80%+ of its small boats and minelayers. London Joint War Committee extended high-risk area to include waters around Oman.",
-    "status": "IRGC Navy command decapitated — Tangsiri killed Mar 26. Only 21 tankers transited since war began. ~2,000 vessels and 20,000 seafarers stranded. IRGC operating yuan-denominated $2M toll system. Trump extended Hormuz deadline to Apr 6. VLCC rates all-time $423,736/day. Insurance 5-10% of hull value. Houthi entry into war Mar 28 threatens Bab al-Mandeb — dual chokepoint closure scenario. UK preparing coalition to reopen strait with autonomous mine-hunting + Type 45 escorts. Iran deployed 12+ mines (Maham-3/Maham-7); stockpile ~6,000.",
-    "last_updated": "2026-03-28",
+    "status": "Effectively closed — traffic down 95%+ from pre-war. Only 142 total transits Mar 1-25 vs normal ~3,800+. 90%+ of transits are Iranian-nexus/shadow fleet via Larak Island yuan-denominated toll. Iran formally closed strait to US/Israeli/allied ports. Selectively opened for China, Russia, India, Iraq, Pakistan, Malaysia, Thailand. Iran agreed to UN humanitarian/fertilizer shipments (Mar 27) and 20 Pakistani-flagged ships (Mar 29). ~3,200 ships (4% global tonnage) idle in Gulf; 500+ waiting outside. Marine war risk insurance effectively unavailable — premiums 5-10% of hull value. VLCC rates peaked $519,104/day (Platts Mar 3), retreated to ~$294,645/day. Houthi Bab al-Mandeb threat creates dual chokepoint scenario. IRGC Navy command decapitated — Tangsiri killed Mar 26. UK preparing coalition with autonomous mine-hunting. SPR 172M bbl exchange underway as part of IEA 400M bbl release (32 countries).",
+    "last_updated": "2026-03-29",
     "kharg_island_distance_from_strait_km": 483
   },
   "geometry": {
@@ -47,8 +47,8 @@
   },
   "impact": {
     "tankers_transiting_prewar_daily": 50,
-    "tankers_transiting_total_since_war": 138,
-    "tankers_transiting_current_note": "Fewer than 6 vessels per day. Only 21 tankers transited Mar 1-15 (S&P Global). ~2,000 vessels and 20,000 seafarers stranded. 8 'dark ships' detected with AIS transponders off. Iran operating selective blockade with $2M transit fees — at least 2 vessels paid in Chinese yuan. VLCC freight rates hit all-time high $423,736/day. Shadow fleet ~50% of transits.",
+    "tankers_transiting_total_since_war": 142,
+    "tankers_transiting_current_note": "142 total transits Mar 1-25 vs normal ~3,800+. 90%+ are Iranian-nexus or shadow fleet via Larak Island yuan-denominated toll. Iran formally closed to US/Israeli/allied ports; selectively opened for China, Russia, India, Pakistan, etc. ~3,200 ships (4% global tonnage) idle; 500+ waiting outside. VLCC rates peaked $519,104/day (Platts Mar 3), retreated to ~$294,645/day. Marine war risk insurance effectively unavailable — premiums 5-10% of hull value; P&I coverage cancelled Mar 5.",
     "insurance_cost_increase_pct": 10000,
     "insurance_cost_note": "War-risk premiums surged 300%+, with coverage for $100M tanker jumping from ~$200,000 to $1-5M per voyage. Major P&I clubs (Gard, Skuld, NorthStandard, London P&I Club) cancelled war risk coverage effective March 5. Trump: $20B DFC reinsurance (Chubb lead). JPMorgan: $352B actual exposure across 329 tankers. London Joint War Committee extended high-risk area to include Oman waters.",
     "alternative_routes": [
@@ -59,7 +59,7 @@
     ],
     "total_alternative_capacity_mbd_effective": "~3.5",
     "shortfall_mbd": "~16.5",
-    "stranded_vessels_total": 3000,
+    "stranded_vessels_total": 3200,
     "stranded_seafarers": 40000,
     "stranded_ships_with_oil": 700,
     "stranded_oil_tankers": 400,
@@ -81,13 +81,13 @@
     "natanz_strike_note": "Joint US-Israeli strike on Natanz nuclear enrichment facility March 21. IAEA confirmed no radiation increase. DG Grossi called for 'military restraint.' Russia condemned. Israel denied responsibility. Second Natanz strike in Operation Epic Fury.",
     "hormuz_aerial_campaign_march_19": true,
     "hormuz_aerial_campaign_note": "US began aerial campaign to reopen Strait March 19 using A-10 Warthogs and Apache gunships against Iranian fast-attack boats, drones, and coastal positions.",
-    "vessels_sunk_or_damaged_by_us": 130,
+    "vessels_sunk_or_damaged_by_us": 150,
     "iranian_minelayers_destroyed": 44,
     "us_military_deaths": 13,
     "seafarer_fatalities": 11,
     "brent_crude_prewar_usd": 71.00,
     "brent_crude_current_usd": 112.57,
-    "brent_crude_increase_pct": 58.6,
+    "brent_crude_increase_pct": 58.5,
     "brent_crude_intraday_high_usd": 119.11,
     "brent_crude_intraday_high_date": "2026-03-19",
     "iea_reserve_release_mbarrels": 400,
@@ -97,7 +97,7 @@
     "us_spr_release_mbarrels": 172,
     "iran_selective_passage": true,
     "iran_selective_passage_note": "Iran operating de facto selective blockade — vessel registration and vetting system. Friendly nations (China, India, Pakistan, Turkey, Japan under negotiation) allowed passage. Iran exporting ~1.5 mbd to China uninterrupted. At least one tanker paid $2M for Larak Island corridor transit. US allies blocked.",
-    "us_escort_status": "IRGC Navy command decapitated — Tangsiri killed Mar 26. Trump extends Hormuz deadline to Apr 6. Houthi entry Mar 28 threatens Bab al-Mandeb — dual chokepoint closure scenario. UK preparing coalition to reopen strait with autonomous mine-hunting + Type 45 escorts. Tripoli ARG + 31st MEU in CENTCOM AOR. Boxer weeks out. 82nd Airborne deploying. Total ~50,000 US troops + 10,000 more considered. Iran fortifying Kharg. CENTCOM destroyed 44 minelayers. ~1,500 IRGC drone boats.",
+    "us_escort_status": "IRGC Navy command decapitated — Tangsiri killed Mar 26. Trump extends Hormuz deadline to Apr 6 — binary escalation trigger one week out. Houthi Bab al-Mandeb threat creates dual chokepoint scenario — 12% of global trade transits Bab al-Mandeb. UK preparing coalition with autonomous mine-hunting (RFA Lyme Bay, HMS Brocklesby) + French Exail 40 unmanned MCM systems. Tripoli ARG + 31st MEU operational in CENTCOM AOR. Boxer en route (ETA < 1 month). 82nd Airborne deploying. ~50,000 US troops + 10,000 more considered. Iran fortifying Kharg. SPR 172M bbl exchange underway. IEA: 'worst disruption in history of global oil market' — Gulf supply down ~8 mb/d.",
     "us_sanctions_lift_march_21": true,
     "us_sanctions_lift_note": "US Treasury temporarily lifted sanctions on Iranian oil already loaded on ships (effective Mar 21 until Apr 19), expecting ~140M barrels to global supply. Iran dismissed, saying it has no surplus crude to sell.",
     "irgc_threat_march_18": "IRGC issued 'urgent warning' following South Pars strike — named SAMREF Refinery (Saudi), Jubail Petrochemical Complex (Saudi), Al Hosn Gas Field (UAE), Mesaieed (Qatar), Ras Laffan (Qatar) as 'direct and legitimate targets in the coming hours.' Urged civilian/worker evacuation.",
@@ -109,6 +109,7 @@
     "day_25_events": "Day 25 — Iran launches 7 waves of ballistic missiles at Israel, 4 impacts in Tel Aviv, 6 wounded. IAF strikes 50+ targets overnight in Iran (IDF cumulative 3,000+). CENTCOM: 9,000+ targets, 140+ vessels destroyed, 9,000+ combat flights. 12+ underwater mines confirmed (Maham 3/7 types). CBS News confirms mine types. Kuwait alarms 7 times. Saudi intercepts ~20 drones. IRGC attacks US 5th Fleet in Bahrain — 1 Emirati KIA (first UAE combat death). UAE intercepts Abu Dhabi missile. Oil rebounds 3-4% to ~$103 Brent / ~$91 WTI after Iran denies all negotiations. Tripoli ARG enters CENTCOM AOR ~Mar 25. Lebanon expels Iran ambassador (deadline Mar 29). Israel DM Katz: occupy S. Lebanon to Litani. IDF strikes Beirut command centers. Pakistan emerging as lead mediator. Gas $3.956. ~$29.3B cumulative. Bahrain UNSC Chapter VII draft; France alternative. UK emergency meeting on economic fallout.",
     "day_27_events": "Day 27 — Israel kills IRGC Navy Commander Tangsiri in Bandar Abbas precision strike — architect of Hormuz blockade eliminated. Senior IRGC naval leadership killed. Iran formally responds to 15-point plan with 5-point counterproposal including Hormuz sovereignty. Brent surges to $105.85 (+3.8-6.4%). Trump: 'get serious soon, before it is too late — NO TURNING BACK.' Confirms 4-6 week war. Reveals Iran allowed ~8 tankers through as gesture. IDF 'wave of extensive strikes' on Isfahan arms factories. Iranian missiles hit 4 Israeli locations. 2 killed Abu Dhabi from debris. Hezbollah rocket kills man in Nahariya. IDF soldier killed in Lebanon. Senate blocks war powers 53-47. Pakistan pushing in-person talks Mar 28. Gas $3.98 (+$1.00/month). Power plant deadline ~Mar 28. Iran fortifying Kharg Island. 82nd Airborne en route. ~$31.8B cumulative.",
     "day_28_events": "Day 28 — Trump extends power plant deadline 10 days to Apr 6; G7 summit fractures — no communiqué; IDF overnight blitz Tehran/Kermanshah/Dezful; CENTCOM: 10,000+ targets, 130+ vessels, 8,000+ flights, 'largest navy elimination since WWII'; Iran submits 5-point counterproposal including Hormuz sovereignty; Pakistan pushes in-person Islamabad talks this weekend; Brent $108.01; VLCC rates $423,736/day all-time high; ~2,000 vessels stranded; 20,000 seafarers; insurance 5-10% of hull value; Iran mines (12+, Maham-3/7) + 1,500 drone boats; Philippines declares emergency",
-    "day_29_events": "Day 29 — BREAKING: Houthis launch first missile barrage at Israel — third active front opens; Bab al-Mandeb closure threatened — dual chokepoint scenario; ~30 tankers near Yanbu within Houthi range; Brent $112.57 (+4.22%); WTI intraday $100.04; Dow enters correction; VIX 31.05; Trump extends Hormuz deadline to Apr 6; VP Vance takes lead on negotiations; Iran rejects 15-point plan; 10 US troops injured Prince Sultan AB; Kuwait airport radar damaged; UK preparing coalition to reopen strait; ~$34.3B cumulative"
+    "day_29_events": "Day 29 — BREAKING: Houthis launch first missile barrage at Israel — third active front opens; Bab al-Mandeb closure threatened — dual chokepoint scenario; ~30 tankers near Yanbu within Houthi range; Brent $112.57 (+4.22%); WTI intraday $100.04; Dow enters correction; VIX 31.05; Trump extends Hormuz deadline to Apr 6; VP Vance takes lead on negotiations; Iran rejects 15-point plan; 10 US troops injured Prince Sultan AB; Kuwait airport radar damaged; UK preparing coalition to reopen strait; ~$34.3B cumulative",
+    "day_30_events": "Day 30 — Islamabad quadrilateral summit convenes (Pakistan/Saudi/Turkey/Egypt); IRGC university ultimatum expires noon Mar 30; Houthi Bab al-Mandeb closure 'among our options' — 12% of global trade at risk; Israel strikes Arak heavy water + Ardakan yellowcake; CENTCOM: 11,000+ targets, 66% missile/drone production destroyed; Iran agreed 20 Pakistani-flagged ships through Hormuz; 142 total transits Mar 1-25 vs normal 3,800+; VLCC rates peaked $519K/day; SPR 172M bbl exchange underway; 3,200+ 'No Kings' protests all 50 states; Kaine-Paul war powers fails 47-53; ~$35.5B cumulative"
   }
 }

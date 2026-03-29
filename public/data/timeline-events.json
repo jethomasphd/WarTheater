@@ -2554,5 +2554,86 @@
     "category": "summary",
     "source": "Multiple",
     "data_point": "~$34.3B cumulative — Houthi third front — dual chokepoint threat — Apr 6 deadline — VIX 31 — Dow correction"
+  },
+  {
+    "date": "2026-03-29",
+    "time": "01:00",
+    "title": "Islamabad quadrilateral summit convenes — Pakistan, Saudi Arabia, Turkey, Egypt seek de-escalation",
+    "description": "Foreign ministers from Pakistan, Saudi Arabia, Turkey, and Egypt convened in Islamabad for a two-day quadrilateral summit (March 29-30). Originally planned for Turkey, the summit moved to Islamabad given Pakistan's deepening intermediary role. PM Shehbaz Sharif held a 90-minute call with Iranian President Pezeshkian on March 28. Germany's FM Wadephul told reporters a direct US-Iran meeting in Pakistan is expected 'very soon' — diplomatic sources suggest around March 31, potentially between Secretary Rubio and Iranian FM Araghchi.",
+    "category": "diplomatic",
+    "source": "Al Jazeera / Dawn / Geo News / ABC News",
+    "data_point": "4-nation summit in Islamabad — possible direct US-Iran talks ~March 31"
+  },
+  {
+    "date": "2026-03-29",
+    "time": "02:00",
+    "title": "CENTCOM: 11,000+ targets struck — 66% of Iranian missile/drone/naval production destroyed",
+    "description": "CENTCOM reported surpassing 11,000 struck targets across Iran since February 28, with over 66% of Iranian missile, drone, and naval production facilities destroyed per a DoD statement to Axios on March 27. IRGC-N Commander Alireza Tangsiri was confirmed killed in an Israeli strike at Bandar Abbas on March 26, along with his senior aides. The 31st MEU aboard USS Tripoli arrived in the CENTCOM AOR on March 27. The 82nd Airborne Division (1st BCT, HQ, division enablers) is deploying. Pentagon is weighing 10,000 additional combat troops.",
+    "category": "military",
+    "source": "CENTCOM / Axios / DoD / Pentagon",
+    "data_point": "11,000+ targets — 66% production destroyed — 150+ vessels sunk — Tripoli operational — 82nd deploying"
+  },
+  {
+    "date": "2026-03-29",
+    "time": "03:00",
+    "title": "Israel strikes Arak heavy water complex and Ardakan yellowcake plant — IAEA confirms no radiological release",
+    "description": "Israel struck the Shahid Khondab Heavy Water Complex in Arak and the Ardakan yellowcake production plant in Yazd Province, completing what IDF described as 'extensive' waves against dozens of Tehran infrastructure targets. IAEA confirmed no radiological release from either strike. Steel and cement factories across Isfahan and southern Iran were also hit. Iran University of Science and Technology and a 10,000-cubic-meter water reservoir in Haftkel, Khuzestan Province were severely damaged.",
+    "category": "military",
+    "source": "IDF / IAEA / Iranian state media",
+    "data_point": "Arak heavy water + Ardakan yellowcake struck — no radiological release — university + water reservoir damaged"
+  },
+  {
+    "date": "2026-03-29",
+    "time": "04:00",
+    "title": "IRGC ultimatum: condemn university strikes by noon March 30 or face retaliatory attacks on US/Israeli campuses in Gulf",
+    "description": "The IRGC demanded the US condemn strikes on Iranian universities by 12:00 noon March 30, threatening retaliatory attacks on US and Israeli university campuses in the Gulf region — specifically naming Texas A&M and Northwestern in Qatar, and NYU in the UAE. The ultimatum was prompted by severe damage to Iran University of Science and Technology and destruction of a water reservoir in Haftkel. IDF spokesperson Nadav Shoshani responded that Israel is 'preparing for a multi-front war.'",
+    "category": "military",
+    "source": "IRGC / Times of Israel / Washington Post",
+    "data_point": "IRGC ultimatum: noon March 30 deadline — Texas A&M, Northwestern (Qatar), NYU (UAE) threatened"
+  },
+  {
+    "date": "2026-03-29",
+    "time": "05:00",
+    "title": "IDF strikes ~170 Hezbollah sites — 800+ Hezbollah killed — 3 journalists and 9 paramedics killed",
+    "description": "IDF struck approximately 170 Hezbollah sites over the weekend, claiming 800+ Hezbollah operatives killed including hundreds from the elite Radwan Force. 2 Israeli soldiers were seriously wounded and 7 moderately wounded in southern Lebanon clashes. Hezbollah fired 5 rockets at Galilee. Earlier in the week, Hezbollah launched 600 rockets/missiles/drones in a single 24-hour period. 3 journalists were killed in Israeli strikes in Jezzine, including Al Manar TV's Ali Shuaib. 9 paramedics were killed on March 28 alone. Lebanese cumulative: 1,189 killed (124 children, 42 health workers), 3,229 injured, ~1 million displaced.",
+    "category": "military",
+    "source": "IDF / Lebanese Health Ministry / CNN / Times of Israel / WHO",
+    "data_point": "~170 Hezbollah sites struck — 1,189 Lebanese killed — 124 children — 3+ IDF divisions advancing toward Litani"
+  },
+  {
+    "date": "2026-03-29",
+    "time": "06:00",
+    "title": "Air raid sirens in Bahrain and Kuwait — Iranian attacks continue against Gulf states",
+    "description": "Air raid sirens activated in Bahrain and Kuwait on March 29 as Iranian attacks on Gulf state targets continued. Iran has fired an estimated 500+ ballistic/naval missiles and ~2,000 drones since the war began. Iran formally closed the Strait of Hormuz to vessels going 'to and from' US, Israeli, and allied ports, while selectively opening access for China, Russia, India, Iraq, Pakistan, Malaysia, and Thailand. Iran agreed to 20 Pakistani-flagged ships and UN humanitarian/fertilizer shipments.",
+    "category": "military",
+    "source": "Multiple / local media / CENTCOM",
+    "data_point": "Air raid sirens Bahrain + Kuwait — 500+ missiles + ~2,000 drones fired total — selective Hormuz passage"
+  },
+  {
+    "date": "2026-03-29",
+    "time": "07:00",
+    "title": "3,200+ 'No Kings' protests across all 50 states — Kaine-Paul war powers fails 47-53",
+    "description": "Over 3,200 'No Kings' protests erupted across all 50 US states on March 28, the third national mobilization since the war began. Clashes reported in Los Angeles (tear gas deployed) and Dallas. The Kaine-Paul bipartisan War Powers Resolution failed 47-53 in the Senate (Rand Paul only GOP yes; Fetterman only Dem no). Multiple subsequent votes failed along identical lines. Reuters/Ipsos: only 27% approve of strikes (43% disapprove). CBS: 60%+ say administration has not provided clear explanation of war goals. Pentagon's $200 billion supplemental faces significant bipartisan resistance.",
+    "category": "diplomatic",
+    "source": "Reuters/Ipsos / CBS / Washington Post / CNBC / The Hill",
+    "data_point": "3,200+ protests all 50 states — 27% approve strikes — war powers fails 47-53 — $200B supplemental resisted"
+  },
+  {
+    "date": "2026-03-29",
+    "time": "08:00",
+    "title": "SPR 172M barrel exchange underway — IEA: 'worst disruption in history of global oil market'",
+    "description": "The 172 million barrel exchange from the US Strategic Petroleum Reserve is underway as part of an IEA-coordinated 400 million barrel release — the largest in IEA history with 32 countries participating. First oil shipped March 20. IEA described the disruption as the 'worst in the history of the global oil market' with Gulf supply down approximately 8 million barrels per day. Markets closed Friday with Brent at $112.57 and WTI at $99.64. Gold at approximately $4,430/oz — down ~20% from January all-time high of $5,589. 10-Year Treasury at 4.44%. Markets now price ~50% chance of a Fed rate hike by December.",
+    "category": "financial",
+    "source": "IEA / DOE / CNBC / Yahoo Finance / FRED",
+    "data_point": "SPR 172M bbl exchange — IEA 400M bbl (32 countries) — Gulf supply down ~8 mb/d — 10Y at 4.44%"
+  },
+  {
+    "date": "2026-03-29",
+    "time": "09:00",
+    "title": "Day 30 summary — One month of war: Islamabad summit, IRGC ultimatum, dual chokepoint threat",
+    "description": "Day 30 marks one month of Operation Epic Fury. The conflict's most volatile inflection point yet features crosscutting signals: the Houthi third front threatens a twin chokepoint crisis, while diplomatic momentum builds at the Islamabad quadrilateral summit. Five flashpoints demand immediate monitoring: IRGC university ultimatum (noon March 30), Houthi Bab al-Mandeb escalation, Islamabad summit outcome, Trump's April 6 Hormuz deadline, and amphibious force convergence for potential island seizure. Estimated cumulative cost: ~$35.5 billion.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "~$35.5B cumulative — Islamabad summit — IRGC ultimatum noon Mar 30 — dual chokepoint threat — Apr 6 deadline"
   }
 ]
