@@ -15,8 +15,8 @@
     "mission_summary": "Primary strike platform — deep strike into Iran and attrition of Iranian naval capabilities",
     "deployed_since": "2025-11-21",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 30: Sole operational carrier in direct theater. CENTCOM: 11,000+ US targets struck, 66% of missile/drone/naval production destroyed, 8,000+ combat flights, 850+ Tomahawks expended, 150+ Iranian vessels sunk. CSG-3 with CVW-9 and DESRON 21 + 6 independently deployed DDGs.",
-    "source": "USNI Fleet Tracker 3/23, CENTCOM 3/29, Axios, DoD"
+    "notes": "Day 31: Sole operational carrier in direct theater. Iranian Navy Commander Shahram Irani directly threatened Lincoln, vowing to launch 'various types of sea-to-sea missiles' once carrier enters firing range. CENTCOM: 11,000+ US targets, 92% of Iranian Navy largest vessels destroyed, 66% missile/drone production destroyed. CSG-3 with CVW-9 and DESRON 21 + 6 independently deployed DDGs.",
+    "source": "USNI Fleet Tracker 3/23, CENTCOM 3/30, Axios, DoD"
   },
   {
     "id": "cvn-78",
@@ -33,7 +33,7 @@
     "mission_summary": "Port visit and crew rest in Split, Croatia after 277-day deployment; fire damage repairs ongoing",
     "deployed_since": "2025-05-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 30: Port visit in Split, Croatia (Mar 28) for crew rest after 277-day deployment. Fire damage repairs from March 12 non-combat laundry room fire (~200 treated for smoke inhalation). Bush CSG reportedly heading to Mediterranean to relieve Ford.",
+    "notes": "Day 31: In port Split, Croatia for crew liberty after 277-day deployment (departed Norfolk June 24, 2025). Fire damage repairs ongoing from March 12 non-combat laundry room fire. Deployment may extend to May (~11 months) — would break post-Vietnam 294-day record if extended past mid-April. Bush CSG reportedly in transit to relieve Ford.",
     "source": "USNI News, USNI Fleet Tracker 3/23, Mar 28 reporting"
   },
   {
@@ -42,17 +42,17 @@
     "hull": "CVN-77",
     "type": "carrier",
     "strike_group": "Carrier Strike Group 10",
-    "lat": 36.95,
-    "lng": -76.30,
-    "area": "Naval Station Norfolk, VA — NOT yet deployed",
+    "lat": 34.00,
+    "lng": -40.00,
+    "area": "In transit to CENTCOM — departed Norfolk 'earlier this week' per CBS (Mar 28); transit time 10-12 days",
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye, MH-60R/S Seahawk",
     "escorts": [],
-    "status": "PRE-DEPLOYMENT",
-    "mission_summary": "Pre-deployment workups — expected to relieve Ford; completing exercises",
-    "deployed_since": null,
+    "status": "IN TRANSIT — CENTCOM",
+    "mission_summary": "Transit to CENTCOM AOR — could create three-carrier presence in theater",
+    "deployed_since": "2026-03-27",
     "operation_start_date": null,
-    "notes": "Day 29: Completed COMPTUEX; certified combat-ready. Reported heading to Mediterranean to relieve Ford. No official DoD confirmation of CENTCOM orders.",
-    "source": "USNI News (Mar 6), Navy Times, USNI Fleet Tracker 3/23"
+    "notes": "Day 31: CBS News (Mar 28) reports Bush departed Norfolk 'earlier this week' citing unnamed officials. Transit time 10-12 days — could arrive theater early-mid April. Would create three-carrier presence if Ford remains in Eastern Med. Single-source reporting — no official DoD confirmation.",
+    "source": "CBS News (Mar 28), USNI News, Navy Times, USNI Fleet Tracker 3/23"
   },
   {
     "id": "lha-7",
@@ -135,9 +135,9 @@
     "hull": "LHD-4",
     "type": "amphibious",
     "strike_group": "Boxer Amphibious Ready Group / 11th Marine Expeditionary Unit",
-    "lat": 25.00,
-    "lng": -118.00,
-    "area": "Eastern Pacific — en route to Middle East",
+    "lat": 15.00,
+    "lng": -155.00,
+    "area": "Pacific / Indian Ocean — in transit to Middle East",
     "aircraft": "AV-8B Harrier II or F-35B Lightning II, MV-22B Osprey, AH-1Z Viper, UH-1Y Venom, CH-53E Super Stallion",
     "escorts": ["LSD-45 USS Comstock", "LPD-27 USS Portland"],
     "status": "EN ROUTE — WEEKS OUT",
@@ -145,7 +145,7 @@
     "deployed_since": "2026-03-19",
     "operation_start_date": null,
     "eta_theater": "2026-04-09",
-    "notes": "Day 30: Departed San Diego Mar 18-20, ~3 weeks ahead of schedule. Transiting Pacific toward CENTCOM. ~2,500 Marines + ~4,000 total. ETA theater < 1 month.",
+    "notes": "Day 31: Departed San Diego Mar 18-19. Transiting Pacific/Indian Ocean toward CENTCOM. ~2,500 Marines (11th MEU) + ~4,000 total. ETA mid-April.",
     "source": "USNI Fleet Tracker (Mar 23), DVIDSHUB, AP, Stars and Stripes, Pentagon"
   },
   {
@@ -181,7 +181,7 @@
     "mission_summary": "Ground combat force — HQ elements, division enablers, and 1st BCT deploying to CENTCOM; IRF can deploy within 18 hours",
     "deployed_since": "2026-03-25",
     "operation_start_date": null,
-    "notes": "Day 30: 1st BCT, HQ, and division enablers deploying per Pentagon confirmation Mar 25. ~2,000-3,000 paratroopers. IRF can deploy within 18 hours. Trump weighing 10,000 additional combat troops. Total US forces in region ~50,000. Iran's parliament speaker explicitly warned of a US ground invasion.",
+    "notes": "Day 31: 1st BCT, HQ, and division enablers deploying. ~2,000-3,000 paratroopers. Maj. Gen. Tegtmeier + HQ staff. Pentagon preparing 'weeks of ground operations' per WaPo (Dan Lamothe) — possible raids on Kharg Island and coastal sites near Hormuz. Sen. Lindsey Graham compared potential Kharg invasion to Iwo Jima. Combined incoming ground forces 7,000-8,000 joining ~50,000 in region.",
     "source": "Stars and Stripes Mar 25, CBS News, CNN, NPR Mar 26, Pentagon"
   },
   {
