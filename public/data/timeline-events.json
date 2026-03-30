@@ -2635,5 +2635,140 @@
     "category": "summary",
     "source": "Multiple",
     "data_point": "~$35.5B cumulative — Islamabad summit — IRGC ultimatum noon Mar 30 — dual chokepoint threat — Apr 6 deadline"
+  },
+  {
+    "date": "2026-03-27",
+    "time": "14:00",
+    "title": "Iranian missile/drone strike damages Prince Sultan Air Base",
+    "description": "On March 27, an Iranian missile and drone barrage struck Prince Sultan Air Base in Saudi Arabia, damaging several US refueling aircraft and an E-3 AWACS. 29 US soldiers were injured, 5 seriously. Multi-source verified.",
+    "category": "military",
+    "source": "CENTCOM / Stars and Stripes / multiple",
+    "data_point": "29 US soldiers injured — 5 seriously"
+  },
+  {
+    "date": "2026-03-28",
+    "time": "06:00",
+    "title": "Houthis launch first missile barrage at Israel — third front opens",
+    "description": "Yemen's Houthi rebels launched their first missile attack on Israel since the war began, targeting 'sensitive Israeli military sites' in southern Israel. Projectiles were intercepted. Houthi deputy info minister warned 'closing the Bab al-Mandeb strait is among our options' — raising specter of second maritime chokepoint crisis alongside Hormuz.",
+    "category": "military",
+    "source": "IDF / Houthi media / Al Jazeera / AP",
+    "data_point": "Third active front — dual chokepoint threat"
+  },
+  {
+    "date": "2026-03-28",
+    "time": "08:00",
+    "title": "USS Tripoli + 31st MEU arrive CENTCOM — 3,500 personnel",
+    "description": "CENTCOM confirmed ~3,500 sailors and Marines arrived in theater aboard USS Tripoli with the 31st Marine Expeditionary Unit. CENTCOM also announced engagement and destruction of 4 Houthi UAS in Yemen — first Red Sea engagement since Houthi entry.",
+    "category": "military",
+    "source": "CENTCOM / USNI News",
+    "data_point": "3,500 sailors/Marines + 4 Houthi UAS destroyed"
+  },
+  {
+    "date": "2026-03-28",
+    "time": "10:00",
+    "title": "$23 billion arms sales bypass Congress under wartime emergency",
+    "description": "Trump administration declared a wartime emergency to bypass Congress on $23B+ in weapons sales to Middle East allies — the second such bypass since the war began.",
+    "category": "diplomatic",
+    "source": "Stars and Stripes",
+    "data_point": "$23B+ weapons sales — second Congressional bypass"
+  },
+  {
+    "date": "2026-03-28",
+    "time": "14:00",
+    "title": "Pentagon preparing 'weeks of ground operations' in Iran",
+    "description": "Washington Post (Dan Lamothe) reported the Pentagon is preparing for 'weeks of ground operations in Iran,' including possible raids on Kharg Island and coastal sites near the Strait of Hormuz. Special operations and conventional infantry would be involved. White House confirmed preparations but said the president has not made a decision.",
+    "category": "military",
+    "source": "Washington Post / Al Jazeera / White House",
+    "data_point": "Ground ops planning — Kharg Island + coastal raids"
+  },
+  {
+    "date": "2026-03-29",
+    "time": "08:00",
+    "title": "Islamabad four-nation summit convenes — most coordinated diplomatic effort",
+    "description": "Foreign ministers of Pakistan, Saudi Arabia, Turkey, and Egypt convened in Islamabad for a two-day summit — the most coordinated regional diplomatic effort since the war began. All four expressed support for Pakistan hosting direct US-Iran talks. Pakistan FM Dar: both sides 'expressed confidence in Pakistan to facilitate their talks.' Germany's FM expects a direct US-Iran meeting 'very soon.'",
+    "category": "diplomatic",
+    "source": "Dawn / Geo News / AP / Al Jazeera",
+    "data_point": "Four-nation summit — direct US-Iran talks expected 'very soon'"
+  },
+  {
+    "date": "2026-03-29",
+    "time": "10:00",
+    "title": "Iran allows 20 Pakistani-flagged vessels through Strait — confidence-building gesture",
+    "description": "Iran agreed to allow 20 Pakistani-flagged vessels through the Strait of Hormuz (2 per day). Two Pakistani cargo ships were released and escorted. FM Dar addressed announcement to VP Vance and Secretary Rubio — signaling diplomatic intent. Trump reposted on Truth Social. Iran also agreed to humanitarian and agricultural shipments.",
+    "category": "diplomatic",
+    "source": "Dawn / AP / Trump Truth Social",
+    "data_point": "20 Pakistani ships allowed — 2 per day — diplomatic signal"
+  },
+  {
+    "date": "2026-03-29",
+    "time": "14:00",
+    "title": "UAE intercepts 16 ballistic missiles and 42 drones in single day",
+    "description": "On March 29, the UAE intercepted 16 ballistic missiles and 42 drones. Kuwait detected 14 missiles and 12 drones. Saudi Arabia intercepted 10 drones. Iranian attacks on Gulf states continue despite 92% destruction of Navy's largest vessels.",
+    "category": "military",
+    "source": "UAE MoD / Kuwait MoD / Saudi MoD",
+    "data_point": "UAE: 16 missiles + 42 drones — Kuwait: 14+12 — Saudi: 10"
+  },
+  {
+    "date": "2026-03-30",
+    "time": "06:00",
+    "title": "Trump threatens to 'completely obliterate' Iran's infrastructure",
+    "description": "Trump posted on Truth Social threatening to 'blow up and completely obliterate all of their Electric Generating Plants, Oil Wells and Kharg Island (and possibly all desalinization plants!)' if a deal is not reached and the Strait of Hormuz not reopened. He told the Financial Times his 'preference would be to take the oil' and discussed seizing Kharg Island. Current deadline is April 6.",
+    "category": "diplomatic",
+    "source": "Truth Social / Financial Times / Axios / CNN / Al Jazeera / AP",
+    "data_point": "April 6 deadline — threatens power plants, oil wells, Kharg, desalination"
+  },
+  {
+    "date": "2026-03-30",
+    "time": "08:00",
+    "title": "Iran strikes chemical plant, Haifa refinery, Kuwait water plant",
+    "description": "Iran struck a chemical plant in Ne'ot Hovav (Israel), an oil refinery in Haifa, and a water/electrical plant in Kuwait. Iranian Navy Commander Shahram Irani directly threatened USS Abraham Lincoln, vowing to launch 'various types of sea-to-sea missiles' once the carrier enters firing range.",
+    "category": "military",
+    "source": "IDF / CENTCOM / Al Jazeera",
+    "data_point": "3 infrastructure targets hit — Lincoln directly threatened"
+  },
+  {
+    "date": "2026-03-30",
+    "time": "09:00",
+    "title": "Brent crude $114.90+ — steepest monthly surge on record",
+    "description": "Brent crude traded at $114.90-$116+ intraday on Monday, with WTI at $101-$103. Brent's 51% monthly surge is the steepest on record, surpassing the 46% in September 1990 (Gulf War). Dubai physical crude at $126/bbl — gap reflects acute physical supply stress. Goldman Sachs warned that if Hormuz remains at 5% flow for 10 weeks, daily Brent could exceed the 2008 record of $147.",
+    "category": "financial",
+    "source": "Bloomberg / ICE / Goldman Sachs",
+    "data_point": "Brent +51% in March — steepest monthly surge on record"
+  },
+  {
+    "date": "2026-03-30",
+    "time": "10:00",
+    "title": "Rubio: war to end 'in weeks, not months' — Vance takes lead role",
+    "description": "Secretary of State Rubio told Al Jazeera that Trump 'prefers diplomacy,' confirmed 'messages and some direct talks' via intermediaries, and stated the Strait 'will reopen one way or another.' VP Vance formally designated lead negotiator. Vance told podcast war will continue 'a little while longer' to 'neuter' Iran. Haaretz: Vance seeking 'a quick exit' with Israeli interests 'not a consideration.'",
+    "category": "diplomatic",
+    "source": "Al Jazeera / Axios / Haaretz / Benny Show podcast",
+    "data_point": "Rubio: 'weeks, not months' — Vance lead negotiator"
+  },
+  {
+    "date": "2026-03-30",
+    "time": "11:00",
+    "title": "Spain closes airspace to US planes involved in Iran attacks",
+    "description": "Spain closed its airspace to US planes involved in attacks against Iran on March 30, joining a growing list of allies distancing from the US-led campaign.",
+    "category": "diplomatic",
+    "source": "AP / Reuters",
+    "data_point": "Spain closes airspace to US military overflights"
+  },
+  {
+    "date": "2026-03-30",
+    "time": "12:00",
+    "title": "Iraq PMF convoys enter Iran — Axis of Resistance solidarity",
+    "description": "Footage on March 29 showed Iraqi Popular Mobilization Forces convoys entering Iran via Khorramshahr, officially as humanitarian aid but signaling Axis of Resistance solidarity. Iran also launched a recruitment campaign called 'Janfada' (Sacrificing Life) for volunteers against potential US ground operations.",
+    "category": "military",
+    "source": "Iraqi media / Al Jazeera",
+    "data_point": "PMF convoys enter Iran — 'Janfada' volunteer recruitment"
+  },
+  {
+    "date": "2026-03-30",
+    "time": "13:00",
+    "title": "Iran parliament pushes NPT exit — unprecedented nuclear escalation",
+    "description": "Iran's parliament pushed legislation to exit the Nuclear Non-Proliferation Treaty — unprecedented if enacted. Israeli airstrikes continued targeting nuclear infrastructure. The Wall Street Journal reported Trump was considering a Special Forces operation to seize enriched uranium stored in Iran.",
+    "category": "diplomatic",
+    "source": "Reuters / WSJ / Al Jazeera",
+    "data_point": "NPT exit legislation — SF uranium seizure considered"
   }
 ]

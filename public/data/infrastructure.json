@@ -1,15 +1,15 @@
 [
   {
     "label": "Hospitals Damaged",
-    "count": "29+",
-    "note": "Iran (25 hospitals damaged, 9 out of service) + Lebanon (4 hospitals + 50+ primary healthcare centers closed) — 42 health workers killed in Lebanon — WHO: 'toxic black rainfall' warning",
-    "source": "Iranian Health Ministry / WHO / OCHA / Lebanese MoH",
-    "detail": "25 hospitals damaged in Iran (9 out of service). Lebanon: 4 hospitals and 50+ primary healthcare centers forced to close; 42 health workers killed. Iran: 14 medical centers affected. 65 schools damaged. 5,535+ residential units, 1,041 commercial units damaged. 13 Red Crescent centers struck. 300+ health/emergency facilities damaged per Iran Health Ministry. Iran University of Science and Technology severely damaged. 10,000-cubic-meter water reservoir in Haftkel, Khuzestan Province destroyed. WHO warned of 'toxic black rainfall' from oil infrastructure strikes. OCHA activated contingency plans across 7 countries."
+    "count": "238+",
+    "note": "Iran: 226 medical/health units damaged, 12 hospitals completely non-operational — Lebanon: 4 hospitals + 50+ primary healthcare centers closed — WHO: 18 verified attacks on healthcare — 8 medics killed",
+    "source": "Iranian Health Ministry / WHO / OCHA / Lebanese MoH / ICRC",
+    "detail": "Iran Health Ministry: 226 medical/health units damaged, 12 hospitals rendered completely non-operational. Lebanon: 4 hospitals and 50+ primary healthcare centers forced to close; 42 health workers killed. WHO has verified 18 attacks on healthcare facilities and 8 medics killed. Iranian Red Crescent: 87,000+ non-military structures damaged or destroyed, ~600 educational centers attacked. 120+ historical sites sustained damage. 10,000-cubic-meter water reservoir in Haftkel destroyed. ICRC: conflict has 'upended the lives of millions and sent shockwaves far beyond the region.' Iranian Red Crescent worker Hamidreza Jahanbakhsh killed on duty. OCHA activated contingency plans across 7 countries."
   },
   {
     "label": "Schools Destroyed",
-    "count": "1",
-    "note": "Minab, Iran. FM Araghchi claims 600+ schools damaged, 1,000+ students/teachers killed or wounded (unverified). Minab school UNSC urgent debate March 27 (175+ killed, mostly girls aged 7-12).",
+    "count": "600+",
+    "note": "~600 educational centers attacked per Iranian Red Crescent. Minab school (168 killed). Iran University of Science and Technology severely damaged. IRGC threatened retaliatory strikes on US/Israeli campuses in Qatar and UAE.",
     "source": "Iranian Red Crescent / AP / NYT / Amnesty",
     "detail": "Girls' school struck by US Tomahawk cruise missile adjacent to IRGC naval compound. Amnesty International verified 168 killed (100+ schoolchildren aged 7-12) at Shajareh Tayyebeh girls' elementary school on February 28. US internal investigation (Mar 11) determined the strike was likely due to outdated DIA intelligence — the school was once part of an IRGC compound but had been walled off since 2016. Weapons experts confirmed Tomahawk missile fragments. UN investigation initiated March 17, ongoing. HRW and Amnesty demanded accountability for potential war crimes."
   },

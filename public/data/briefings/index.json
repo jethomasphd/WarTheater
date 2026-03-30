@@ -208,5 +208,12 @@
     "label": "MARCH 29, 2026 — DAY 30",
     "headline": "One month of war: Islamabad quad summit convenes as IRGC threatens university campuses; 11,000+ targets struck; Houthi dual chokepoint crisis looms; 3,200+ protests across all 50 states",
     "file": "data/briefings/day-30.html"
+  },
+  {
+    "day": 31,
+    "date": "2026-03-30",
+    "label": "MARCH 30, 2026 — DAY 31",
+    "headline": "Pentagon plans 'weeks of ground operations' as Trump threatens to 'obliterate' Iran infrastructure; Brent surges 51% in March — steepest monthly rise on record; Houthis open third front; Pakistan hosts four-nation summit",
+    "file": "data/briefings/day-31.html"
   }
 ]
