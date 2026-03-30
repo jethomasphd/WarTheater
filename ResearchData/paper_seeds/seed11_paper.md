@@ -155,3 +155,179 @@ To assess whether the Minab school strike functioned as a frame-break event, we:
 ### 3.7 Daily Briefing Analysis
 
 The dataset contains 30 daily briefing entries (one per conflict day), each with a headline summarizing the day's key developments. These briefings represent a curated, editorial-level summary --- closer to the kind of framing that elite audiences (policymakers, analysts, journalists) consume. We applied the same keyword dictionary to briefing headlines and also performed qualitative frame assignment, coding each headline for its dominant narrative emphasis. We then compared the briefing-level frame distribution with the event-level frame distribution to identify gaps between what the data show and what the summaries emphasize.
+
+---
+
+## 4. Results
+
+### 4.1 RQ1: Source Attribution Shifts Over Time
+
+*How does source attribution shift over the 30-day period?*
+
+Of the 293 timeline events with source attribution, official military sources (CENTCOM, DoD, Pentagon, IDF) constituted the single largest category at 93 events (31.7%), followed by major media at 119 events (40.6%). However, the temporal distribution of these sources reveals a more complex picture than raw totals suggest.
+
+**Table 1. Source Attribution by Conflict Week (%, n = 293)**
+
+| Source Category | Week 1 | Week 2 | Week 3 | Week 4 |
+|----------------|--------|--------|--------|--------|
+| OFFICIAL_MILITARY | 40.0% | 31.1% | 23.5% | 34.7% |
+| OFFICIAL_GOVERNMENT | 6.7% | 8.9% | 7.1% | 7.6% |
+| MAJOR_MEDIA | 35.6% | 35.6% | 49.4% | 38.1% |
+| IRANIAN_STATE | 4.4% | 8.9% | 1.2% | 6.8% |
+| INTL_ORGANIZATION | 2.2% | 4.4% | 5.9% | 4.2% |
+| INDEPENDENT_INVESTIGATIVE | 0.0% | 0.0% | 1.2% | 0.0% |
+| FINANCIAL_INDUSTRY | 2.2% | 0.0% | 2.4% | 0.0% |
+| OTHER_MEDIA | 8.9% | 11.1% | 9.4% | 8.5% |
+
+Official military sources dominated Week 1 at 40.0% of all attributions --- the highest single-category share for any week. This declined to 31.1% in Week 2 and reached its lowest point at 23.5% in Week 3, before rebounding to 34.7% in Week 4. The Week 3 nadir corresponds to the period when diplomatic channels opened (Oman back-channel, France-Italy talks) and international organizations gained prominence (IAEA monitoring loss, WHO warnings, Amnesty International's Minab verification on Day 18).
+
+The composite official-to-critical source ratio provides the most direct test of the propaganda model:
+
+**Table 2. Official vs. Critical Source Ratio by Week**
+
+| Period | Official Sources | Critical Sources | Ratio |
+|--------|-----------------|-----------------|-------|
+| Week 1 | 21 (46.7%) | 1 (2.2%) | **21.0:1** |
+| Week 2 | 18 (40.0%) | 2 (4.4%) | **9.0:1** |
+| Week 3 | 26 (30.6%) | 6 (7.1%) | **4.3:1** |
+| Week 4 | 50 (42.4%) | 5 (4.2%) | **10.0:1** |
+
+The ratio declined sharply from 21:1 in Week 1 to 4.3:1 in Week 3, consistent with the propaganda model's prediction that critical sources gain access as the conflict matures. However, the Week 4 rebound to 10:1 is notable: as ceasefire negotiations intensified, official sources regained dominance --- this time driven by government/diplomatic sources rather than purely military ones. The Week 4 surge in OFFICIAL_GOVERNMENT attributions (from 7.1% to 7.6%) and OFFICIAL_MILITARY (from 23.5% to 34.7%) reflects the shift from battlefield reporting to diplomatic signaling, where government actors are inherently the primary sources.
+
+Iranian state sources showed an interesting pattern: present at 4.4% in Week 1, rising to 8.9% in Week 2 (as Iranian retaliation became a major story), dropping to 1.2% in Week 3 (as diplomatic and international voices crowded them out), then rebounding to 6.8% in Week 4 (as Iran became a direct party to ceasefire negotiations). This pattern suggests that adversary state voices gain access to the information environment primarily when they are *news actors* --- conducting retaliatory strikes or rejecting ceasefire proposals --- rather than as a steady alternative perspective.
+
+### 4.2 RQ2: Framing Phase Identification
+
+*Can distinct framing phases be identified and dated?*
+
+Keyword-based frame analysis across all 1,653 events reveals four identifiable framing phases, though the boundaries are more fluid than a strict phase model would suggest.
+
+**Table 3. Weekly Frame Distribution (% of total keyword hits)**
+
+| Frame | Week 1 | Week 2 | Week 3 | Week 4 |
+|-------|--------|--------|--------|--------|
+| Security | 37.3% | 33.9% | 30.7% | 33.8% |
+| Humanitarian | 33.6% | 28.9% | 28.5% | 29.2% |
+| Negotiation | 2.2% | 4.5% | 3.6% | 9.7% |
+| Economic | 27.0% | 32.8% | 37.2% | 27.3% |
+
+**Phase 1: Security Dominance (Days 1--2).** The security frame dominated the opening 48 hours, accounting for 52.5% of keyword hits on Day 1 and 49.1% on Day 2. This corresponds to the period of maximum military action: the initial air campaign, Khamenei's killing, nuclear site strikes, and Hormuz closure. The security frame during this phase carried the full weight of the administration's policy narrative --- "decisive action to prevent a nuclear Iran."
+
+**Phase 2: Humanitarian Contestation (Days 3--20).** Beginning on Day 3, the humanitarian frame overtook the security frame for the first time (41.4% vs. 30.6%). This was not a permanent displacement but the beginning of a sustained contestation: across the 18-day span from Day 3 to Day 20, the humanitarian frame exceeded the security frame on 12 of 18 days (Days 3, 5, 7, 11, 12, 13, 16, 18, 20 and others). The security frame reclaimed dominance intermittently --- particularly on days of major military escalation (Day 9: Yemen strikes; Day 14: IRGC battery destruction; Day 21: energy war eruption) --- but never regained the uncontested dominance of Days 1--2.
+
+The economic frame emerged as a third major competitor during this phase, peaking at 37.2% of keyword hits in Week 3. This reflects the real-world escalation of economic consequences: Kharg Island strikes (Day 8), Hormuz convoy operations (Day 13), South Pars targeting (Day 19), and Iran's retaliatory strikes on Gulf energy infrastructure (Day 20). The economic frame operated largely independently of the security-humanitarian contest, driven by market data and shipping disruption rather than by narrative competition.
+
+**Phase 3: Negotiation Emergence (Days 23--30).** The negotiation frame, nearly absent in Weeks 1--2 (2.2% and 4.5%), rose to 9.7% in Week 4 and reached its daily peaks on Day 23 (12.0%), Day 26 (12.8%), and Day 27 (15.8%). These peaks correspond directly to observable diplomatic events: Trump's 48-hour Hormuz ultimatum (Day 23), Iran's rejection of the 15-point ceasefire plan (Day 26), and Pakistan-mediated indirect talks (Day 27). The negotiation frame never came close to displacing security or humanitarian as the dominant frame, but its emergence marks a qualitative shift in the information environment --- from a purely kinetic narrative to one that acknowledges the possibility of a political resolution.
+
+**The Event Domain Shift.** The framing analysis is corroborated by the shift in event domain distribution:
+
+**Table 4. Event Domain Distribution by Week (% of events)**
+
+| Domain | Week 1 | Week 2 | Week 3 | Week 4 |
+|--------|--------|--------|--------|--------|
+| STRIKE | 46.6% | 54.5% | 33.7% | 22.1% |
+| RETALIATION | 21.0% | 14.5% | 20.9% | 20.5% |
+| FINANCIAL | 11.8% | 13.8% | 19.2% | 18.6% |
+| HUMANITARIAN | 8.2% | 9.4% | 11.6% | 14.9% |
+| DIPLOMATIC | 2.1% | 2.7% | 4.7% | 7.7% |
+
+STRIKE events declined from 46.6% of all events in Week 1 to 22.1% in Week 4 --- a halving that reflects the actual de-escalation of the air campaign. DIPLOMATIC events nearly quadrupled from 2.1% to 7.7%. HUMANITARIAN events almost doubled from 8.2% to 14.9%. The information environment shifted from one dominated by military action to one increasingly populated by consequence and response.
+
+### 4.3 RQ3: The Minab School Strike as Frame-Break Event
+
+*Does the Minab school incident function as a "frame break"?*
+
+The Minab girls' school strike occurred on Day 1 --- a US Tomahawk cruise missile struck the Shajareh Tayyebeh girls' elementary school in Minab, adjacent to an IRGC naval compound, killing at least 165 children and staff. The dataset contains 28 events referencing Minab or school-related civilian casualties, spanning Day 1 through Day 30, across five event domains (STRIKE, HUMANITARIAN, DIPLOMATIC, FINANCIAL, OTHER).
+
+The immediate framing impact is visible in the humanitarian-to-security keyword ratio:
+
+**Table 5. Humanitarian-to-Security Ratio, Days 1--10**
+
+| Day | Events | Humanitarian Score | Security Score | Hum/Sec Ratio |
+|-----|--------|--------------------|----------------|---------------|
+| 1 | 93 | 37 | 62 | **0.60** |
+| 2 | 75 | 30 | 54 | **0.56** |
+| 3 | 83 | 46 | 34 | **1.35** |
+| 4 | 59 | 27 | 31 | **0.87** |
+| 5 | 53 | 33 | 26 | **1.27** |
+| 6 | 52 | 24 | 25 | **0.96** |
+| 7 | 51 | 31 | 21 | **1.48** |
+| 8 | 57 | 26 | 34 | **0.76** |
+| 9 | 56 | 21 | 32 | **0.66** |
+| 10 | 57 | 21 | 36 | **0.58** |
+
+The ratio jumped from 0.60 on Day 1 to 1.35 on Day 3 --- more than doubling in 48 hours. This is the sharpest single-day shift in the entire 30-day dataset. The humanitarian frame exceeded the security frame on Days 3, 5, and 7, establishing a pattern of alternating dominance that persisted through the first three weeks.
+
+The comparison of Day 1 frame composition with Days 2--7 confirms the shift:
+
+- **Day 1:** Security 52.5%, Humanitarian 31.4%, Negotiation 0.0%, Economic 16.1%
+- **Days 2--7:** Security 34.0%, Humanitarian 34.0%, Negotiation 2.7%, Economic 29.2%
+
+The security frame's share dropped 18.5 percentage points, while the humanitarian frame rose to exact parity at 34.0%. This is consistent with Entman's (2004) concept of a frame break: an event whose moral clarity is sufficient to disrupt the dominant interpretive frame, even when the dominant frame is backed by the full weight of official messaging.
+
+**The Minab Cascade.** The incident generated a traceable cascade of downstream narrative events:
+
+- **Day 1**: Strike event recorded; referenced in all five faction casualty reports; featured in Day 1 briefing headline
+- **Day 5**: War cost report references "Minab school --- global scrutiny" alongside Pentagon cost estimates
+- **Day 5**: Global protests (2 million people) cite Minab among grievances
+- **Day 6**: First US polls show narrow support for strikes but opposition to ground war
+- **Day 9**: 500,000 march in Washington --- largest US anti-war protest since 2003
+- **Day 18**: Amnesty International publishes investigation confirming US responsibility, verifying 168--170 girls killed
+- **Day 28**: Iran FM Araghchi cites Minab before UN Human Rights Council, accusing coalition of genocide
+- **Day 30**: Infrastructure damage summary records verified death toll of 168
+
+The Minab incident thus operated not as a single frame-break moment but as a *recurring anchor* for the humanitarian counter-narrative. Each new reference --- the protest signs, the Amnesty verification, the UN speech --- reactivated the humanitarian frame and forced the security frame to contest rather than dominate.
+
+### 4.4 RQ4: Daily Briefing Headlines and Narrative Persistence
+
+*How do briefing headlines reflect narrative competition?*
+
+The 30 daily briefing headlines show a strikingly different frame distribution than the event-level data:
+
+**Table 6. Dominant Frame: Briefing Headlines vs. Event-Level Data**
+
+| Frame | Briefing Headlines | Event-Level Data |
+|-------|-------------------|-----------------|
+| Security | **60.0%** (18/30) | 31.5% |
+| Economic | **23.3%** (7/30) | 20.6% |
+| Humanitarian | **10.0%** (3/30) | 18.1% |
+| Negotiation | **6.7%** (2/30) | 2.4% |
+
+The security frame was dominant in 18 of 30 briefing headlines (60.0%) --- nearly double its share in the event-level data (31.5%). The humanitarian frame, which contested the security frame at the event level on 12 of 18 days during Phase 2, was dominant in only 3 briefing headlines (10.0%). This gap --- security overrepresented by a factor of 1.9, humanitarian underrepresented by a factor of 1.8 --- is the most consequential finding for narrative theory.
+
+The three humanitarian-dominant briefing headlines occurred on Day 3 ("Hezbollah enters the war --- 500+ rockets at Israel; 3 civilians killed"), Day 7 ("450,000 displaced in Lebanon"), and Day 29 ("Houthis launch first missile barrage at Israel"). Only the Day 7 headline centered Iranian civilian suffering; the Day 3 and Day 29 headlines focused on Israeli and Lebanese civilian impact. The Minab school strike --- the single most significant humanitarian event in the dataset --- was mentioned in the Day 1 headline but was subordinated to the security frame: "Operation Epic Fury begins --- Khamenei killed; 6 US soldiers KIA at Port Shuaiba; **Minab school strike kills 165+**; Brent surge..."
+
+The frame transitions in briefing headlines reveal a pattern of *security anchoring with periodic disruption*:
+
+- Days 1--2: Security
+- Day 3: Humanitarian (Hezbollah front)
+- Days 4--6: Security
+- Day 7: Humanitarian (Lebanon displacement)
+- Days 8--10: Security
+- Day 11: Negotiation (first ceasefire mention)
+- Days 12--13: Economic (oil crash, Hormuz convoy)
+- Day 14: Security
+- Day 15: Security (Kharg re-strike)
+- Days 16, 18--20: Economic (energy war, market impacts)
+- Days 17, 21--25, 28, 30: Security
+- Day 26: Negotiation (ceasefire plan)
+- Day 27: Economic
+- Day 29: Humanitarian (Houthi barrage)
+
+The briefing headlines thus show the security frame operating as a *default* that is temporarily displaced by economic shocks, humanitarian crises, or diplomatic milestones before reasserting itself. The humanitarian frame penetrates the briefing level only when it involves *new fronts* (Hezbollah, Houthis) or *mass displacement* --- not when it involves Iranian civilian casualties, which are the majority of humanitarian events in the underlying data.
+
+### 4.5 Supplementary Finding: Data Confidence as Information Quality Proxy
+
+The dataset's `data_confidence` field (HIGH/MEDIUM/LOW) provides an additional lens on information quality over time:
+
+**Table 7. Data Confidence by Week**
+
+| Confidence | Week 1 | Week 2 | Week 3 | Week 4 |
+|-----------|--------|--------|--------|--------|
+| HIGH | 301 | 219 | 242 | 283 |
+| MEDIUM | 143 | 179 | 100 | 93 |
+| LOW | 22 | 15 | 2 | 0 |
+
+LOW-confidence events declined from 22 in Week 1 to zero by Week 4, while MEDIUM-confidence events also declined steadily. This suggests that the information environment became *more reliable* over time --- likely reflecting the accumulation of verification (satellite imagery, investigative reports, official acknowledgments) that transforms initial claims into confirmed events. This pattern is relevant for the propaganda model: the early dominance of official sources coincides with the period of lowest information quality, suggesting that official sources fill an *information vacuum* rather than competing on equal terms with alternatives.
+
+The domain-level confidence distribution reveals that RETALIATION events are almost exclusively HIGH confidence (299 of 307), while STRIKE events have the most heterogeneous distribution (279 HIGH, 331 MEDIUM, 31 LOW). This asymmetry likely reflects the verification challenge: US/Israeli strikes in Iran are difficult for independent observers to confirm in real time, while Iranian/proxy retaliation strikes on Gulf bases and Israeli cities are immediately observable.
