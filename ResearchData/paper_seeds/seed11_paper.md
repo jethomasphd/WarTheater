@@ -75,3 +75,83 @@ Drawing on these three theoretical frameworks, we pose four research questions:
 > **RQ3:** Does the Minab school incident function as a "frame break" event that disrupts the dominant security narrative?
 
 > **RQ4:** How do the daily briefing headlines reflect (or obscure) narrative competition between military progress and humanitarian cost?
+
+---
+
+## 3. Data and Methods
+
+### 3.1 The IranWar.ai Event-Level Dataset
+
+This study uses the IranWar.ai Event-Level Research Dataset (Thomas, 2026), a structured CSV containing 1,653 event-level observations across 48 variables, extracted from 17 curated JSON data files that power the IranWar.ai public OSINT intelligence dashboard. Each row represents a discrete observable event --- an airstrike on a specific target on a specific day, a retaliation attack, a financial market data point, a daily casualty estimate, a naval deployment, or a diplomatic development. The dataset spans Day 0 (February 27, 2026, pre-war baseline) through Day 30 (March 29, 2026) and covers nine analytical domains: STRIKE (n = 641, 38.8%), RETALIATION (n = 307, 18.6%), FINANCIAL (n = 301, 18.2%), HUMANITARIAN (n = 173, 10.5%), OTHER (n = 69, 4.2%), DIPLOMATIC (n = 66, 4.0%), MILITARY (n = 64, 3.9%), NAVAL (n = 28, 1.7%), and CYBER (n = 4, 0.2%).
+
+The dataset was constructed through a reproducible two-phase daily protocol. Phase 1 (Deep Research) processed primary sources --- CENTCOM press releases, IDF statements, ACLED event data, wire reports, government statements, satellite imagery analysis, and financial data feeds --- into structured update manifests. Phase 2 (Code Execution) applied each manifest to versioned JSON files with full git history. The extraction script, source data, and codebook are publicly available at the project repository.
+
+### 3.2 Variables Used in This Study
+
+We draw on the following dataset variables:
+
+| Variable | Description | N (non-null) |
+|----------|-------------|--------------|
+| `timeline_source` | Source attribution for timeline events | 293 |
+| `event_domain` | Categorical domain (STRIKE, DIPLOMATIC, etc.) | 1,653 |
+| `event_description` | Free-text description of each event | 1,653 |
+| `event_type` | Subcategory (e.g., `daily_briefing`) | 1,653 |
+| `day_of_conflict` | Integer day number (0 = pre-war, 1 = Feb 28) | 1,653 |
+| `data_confidence` | HIGH / MEDIUM / LOW | 1,653 |
+
+The `timeline_source` field is available only for the 293 events sourced from `timeline-events.json`, which represent the curated conflict narrative --- major events selected and described by the dashboard's editorial process. These 293 events are the primary unit of analysis for RQ1 (source attribution). For RQ2-RQ4, we analyze all 1,653 events.
+
+### 3.3 Source Attribution Classification
+
+We classified all 293 source-attributed timeline events into eight mutually exclusive source categories using keyword matching on the `timeline_source` field:
+
+1. **OFFICIAL_MILITARY** (n = 93, 31.7%): CENTCOM, DoD, Pentagon, US military branches, IDF, Israeli military.
+2. **OFFICIAL_GOVERNMENT** (n = 22, 7.5%): White House, State Department, Congress, National Security Council, foreign ministries, UN Security Council.
+3. **IRANIAN_STATE** (n = 15, 5.1%): IRGC, Tehran government, IRNA, Press TV, Hezbollah, Houthi/Ansar Allah.
+4. **INTL_ORGANIZATION** (n = 13, 4.4%): IAEA, WHO, UNHCR, UNICEF, ICRC, Red Crescent, IMO, Amnesty International, Human Rights Watch, MSF.
+5. **INDEPENDENT_INVESTIGATIVE** (n = 1, 0.3%): Bellingcat, BBC Verify, OSINT analysts, satellite imagery providers, ACLED, Airwars.
+6. **MAJOR_MEDIA** (n = 119, 40.6%): Reuters, AP, AFP, Bloomberg, NYT, Washington Post, BBC, CNN, Al Jazeera, WSJ, Financial Times.
+7. **FINANCIAL_INDUSTRY** (n = 3, 1.0%): EIA, ICE, NYMEX, Goldman Sachs, OPEC, shipping/maritime industry.
+8. **OTHER_MEDIA** (n = 27, 9.2%): Regional outlets, specialist publications, and sources not matching the above categories.
+
+We combined OFFICIAL_MILITARY and OFFICIAL_GOVERNMENT into a composite "official" category, and INTL_ORGANIZATION and INDEPENDENT_INVESTIGATIVE into a composite "critical" category, to compute the official-to-critical source ratio --- a direct operationalization of the propaganda model's sourcing filter.
+
+### 3.4 Frame Identification: Keyword Dictionary Approach
+
+We constructed four frame dictionaries based on established conflict framing literature (Dimitrova & Stromback, 2012; Entman, 2004; Iyengar, 1991):
+
+- **Security frame** (24 keywords): *target, degraded, destroyed, eliminated, neutralized, strike, struck, bombing, operation, sortie, mission, military objective, air campaign, precision, capability, weapons of mass, nuclear, enrichment, threat, defense, deterrence, force, offensive*
+
+- **Humanitarian frame** (31 keywords): *civilian, children, child, school, hospital, refugee, displaced, humanitarian, aid, crisis, casualty, killed, dead, death, wound, injur, victim, suffer, war crime, atrocity, massacre, genocide, famine, water, electricity, power outage, medical, red cross, red crescent, who, unicef*
+
+- **Negotiation frame** (25 keywords): *ceasefire, cease-fire, negotiate, negotiation, talks, peace, diplomacy, diplomatic, resolution, agreement, propose, proposal, mediate, mediation, envoy, de-escalat, off-ramp, ultimatum, demand, condition, framework, deal, compromise, withdrawal, truce*
+
+- **Economic frame** (23 keywords): *oil, crude, brent, wti, gas price, market, stock, economic, sanctions, trade, cost, billion, trillion, recession, inflation, supply chain, shipping, tanker, hormuz, strait, commodity, energy*
+
+For each event, we counted the number of keyword matches in the `event_description` field for each frame. We assigned each event a *dominant frame* based on the frame with the highest keyword count (ties broken by frame order: security > humanitarian > negotiation > economic). Events with zero matches across all frames were classified as UNFRAMED. This approach parallels the dictionary-based methods used by Boydstun et al. (2014) in the Policy Frames Codebook and by Chong and Druckman (2007) in experimental framing research.
+
+We acknowledge the limitations of keyword-based framing (see Section 6). The approach captures frame *salience* --- the degree to which frame-associated language is present --- rather than frame *meaning* or *valence*. A mention of "civilian" in the context of "no civilian casualties reported" would score as humanitarian-framed despite conveying a security-compatible message. We address this limitation through triangulation with the daily briefing headline analysis (RQ4), where the shorter, more interpretable headline texts allow for more confident frame assignment.
+
+### 3.5 Temporal Analysis
+
+We organized the 30-day conflict into four analytical periods:
+
+- **Week 1** (Days 1--7): Opening strikes, Hormuz closure, initial escalation
+- **Week 2** (Days 8--14): Sustained air campaign, AUMF debate begins, first ceasefire vetoed
+- **Week 3** (Days 15--21): Energy infrastructure targeting escalates, diplomatic channels open
+- **Week 4** (Days 22--30): Ultimatum, ceasefire negotiations, multi-party diplomacy
+
+For frame analysis, we computed daily keyword scores, weekly aggregate percentages, and the humanitarian-to-security ratio as a continuous measure of frame contestation. For source attribution, we computed weekly source category distributions and the official-to-critical ratio.
+
+### 3.6 Minab Frame-Break Analysis
+
+To assess whether the Minab school strike functioned as a frame-break event, we:
+
+1. Identified all 28 events containing references to Minab, school strikes, or children in conflict contexts.
+2. Computed the daily humanitarian-to-security keyword ratio for Days 1--10 to trace the immediate trajectory of frame contestation.
+3. Compared the frame composition of Day 1 (the day of the strike) with Days 2--7 (the immediate aftermath) to measure whether the humanitarian frame gained ground relative to the security frame.
+4. Tracked downstream effects: anti-war protests (Day 5, Day 9), Amnesty International verification (Day 18), and diplomatic references to the incident (Day 28).
+
+### 3.7 Daily Briefing Analysis
+
+The dataset contains 30 daily briefing entries (one per conflict day), each with a headline summarizing the day's key developments. These briefings represent a curated, editorial-level summary --- closer to the kind of framing that elite audiences (policymakers, analysts, journalists) consume. We applied the same keyword dictionary to briefing headlines and also performed qualitative frame assignment, coding each headline for its dominant narrative emphasis. We then compared the briefing-level frame distribution with the event-level frame distribution to identify gaps between what the data show and what the summaries emphasize.
