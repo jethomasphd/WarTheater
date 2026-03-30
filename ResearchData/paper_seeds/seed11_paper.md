@@ -331,3 +331,122 @@ The dataset's `data_confidence` field (HIGH/MEDIUM/LOW) provides an additional l
 LOW-confidence events declined from 22 in Week 1 to zero by Week 4, while MEDIUM-confidence events also declined steadily. This suggests that the information environment became *more reliable* over time --- likely reflecting the accumulation of verification (satellite imagery, investigative reports, official acknowledgments) that transforms initial claims into confirmed events. This pattern is relevant for the propaganda model: the early dominance of official sources coincides with the period of lowest information quality, suggesting that official sources fill an *information vacuum* rather than competing on equal terms with alternatives.
 
 The domain-level confidence distribution reveals that RETALIATION events are almost exclusively HIGH confidence (299 of 307), while STRIKE events have the most heterogeneous distribution (279 HIGH, 331 MEDIUM, 31 LOW). This asymmetry likely reflects the verification challenge: US/Israeli strikes in Iran are difficult for independent observers to confirm in real time, while Iranian/proxy retaliation strikes on Gulf bases and Israeli cities are immediately observable.
+
+---
+
+## 5. Discussion
+
+### 5.1 The Propaganda Model Revisited
+
+Our findings offer partial support for the propaganda model. The sourcing filter operated exactly as Herman and Chomsky (1988) predicted during Week 1: official military and government sources accounted for 46.7% of all attributions, the official-to-critical ratio stood at 21:1, and the security frame dominated at 52.5% of keyword hits on Day 1. These conditions --- information scarcity, rally-round-the-flag dynamics, and official source dominance --- are the classic enabling conditions for manufactured consent.
+
+However, three findings complicate the model. First, the humanitarian frame reached parity with the security frame by Day 3 --- far faster than the propaganda model would predict. In the 2003 Iraq case, critical coverage did not emerge until weeks after the invasion, and only after Congressional elite consensus fractured (Bennett et al., 2007). In the 2026 case, the Minab school strike provided an immediate, morally unambiguous counter-frame that could not be easily assimilated into the security narrative. This suggests that the propaganda model's sourcing filter may be less effective when a single catastrophic civilian event occurs on Day 1 --- before the official narrative has had time to consolidate.
+
+Second, the major media category (40.6% of all attributions) operated as a *transmission belt* that amplified both official and critical frames depending on the phase. In Week 1, major media largely echoed official military framing. By Week 3, major media sources had shifted to reporting on humanitarian organizations, diplomatic channels, and independent investigations. The propaganda model treats media as a passive filter; our data suggest that major media actively shifted their sourcing patterns in response to the changing information environment.
+
+Third, the Week 4 rebound in official source dominance (42.4%) occurred not because critical voices were suppressed but because the narrative shifted to diplomacy --- a domain where government actors are inherently the primary sources. This represents what we might call *structural re-officialization*: the information environment returns to official source dominance not through censorship or flak but through the narrative logic of the conflict itself.
+
+### 5.2 Framing Dynamics: Contestation Rather Than Succession
+
+The three-phase model (security dominance → humanitarian contestation → negotiation emergence) is a useful heuristic, but the daily data reveal that framing dynamics are better described as *ongoing contestation* than as clean phase transitions. The security frame never disappeared; it was dominant on Days 1--2, 8--10, 14, 21--22, and 30. The humanitarian frame was strongest on Days 3, 5, 7, 16, 18, 28, and 29. The two frames alternated in a pattern that closely tracked the military tempo: days with major new strikes or escalations favored the security frame, while days focused on consequences and aftermath favored the humanitarian frame.
+
+This finding aligns with Entman's (2004) cascading activation model more than with a linear phase model. The administration's security frame did not *fail* --- it remained the dominant single frame throughout the conflict. Rather, it lost its *monopoly*, forced to share the information environment with an increasingly assertive humanitarian counter-frame and, in the final week, with a negotiation frame that introduced the possibility of a non-military resolution.
+
+The economic frame deserves separate comment. At 20.6% of event-level keyword hits and 23.3% of briefing headlines, the economic frame was the third-largest presence in the information environment. It operated largely orthogonally to the security-humanitarian contest --- driven by oil price movements, shipping disruptions, and market reactions rather than by narrative strategy. However, the economic frame may have played an indirect role in weakening the security frame: by making the material costs of the war visible (Brent crude surging 58%, $34.5 billion in military costs, the Strait of Hormuz closure), it provided an alternative reason for skepticism about the war that did not require moral engagement with civilian suffering. The economic frame may thus have been a more politically potent challenge to the security narrative than the humanitarian frame, precisely because it spoke in the language of self-interest rather than altruism.
+
+### 5.3 The Minab Effect: Moral Shocks and Frame Resilience
+
+The Minab school strike presents a textbook case of what social movement scholars call a "moral shock" (Jasper & Poulsen, 1995) --- an event so viscerally disturbing that it catalyzes rapid attitude change without requiring pre-existing grievances or organizational mobilization. The speed of the frame shift (humanitarian-to-security ratio doubling in 48 hours) and the persistence of the Minab reference across 28 events over 30 days suggest that moral shock events have disproportionate framing power when they occur early in a conflict, before the public has habituated to violence.
+
+Yet the Minab effect also illustrates the *limits* of frame-break events. Despite its moral power, the Minab incident did not displace the security frame from the briefing headlines. Day 1's headline listed Minab third, after the operation name and Khamenei's death. The Amnesty verification on Day 18 did not produce a humanitarian-dominant briefing. The most sustained humanitarian briefing focus came not from Minab but from the Lebanese displacement crisis (Day 7) and the Houthi barrage on Israel (Day 29) --- events that affected US allies rather than US adversary civilians. This pattern suggests that the propaganda model's filters may be asymmetric: civilian suffering among adversary populations is more easily contained within the security frame ("collateral damage in pursuit of legitimate military objectives") than civilian suffering among allied populations.
+
+### 5.4 The Briefing Gap: Curated vs. Raw Information Environments
+
+The most striking finding is the divergence between the event-level frame distribution and the briefing headline frame distribution. The security frame was overrepresented in briefings by a factor of 1.9; the humanitarian frame was underrepresented by a factor of 1.8. This gap reveals a mechanism that is not well captured by existing theories: the *editorial compression* of a complex, multi-frame information environment into a single-frame summary.
+
+Briefing headlines are, by definition, acts of selection and emphasis. A day that includes 50 events across five domains must be summarized in a single sentence. The consistent selection of security-framed elements for headline position suggests not necessarily intentional bias but *structural bias* --- the security frame provides a more narratively coherent, action-oriented summary than the humanitarian or economic frames. "US strikes 90+ Kharg Island targets" is a crisper headline than "WHO reports 12 hospitals non-functional in Hormuzgan province." The grammar of news headlines --- active subjects, dramatic verbs, quantified impacts --- inherently favors the security frame.
+
+This structural bias has implications for the cascading activation model. If elite-consumed summaries (briefings, headlines, situation reports) systematically overrepresent the security frame even when the underlying data do not, then the cascade from elite to public opinion may perpetuate security framing regardless of what the event-level record shows. The raw information environment may be genuinely multi-framed, but the *curated* information environment that shapes elite perception and public discourse remains security-anchored.
+
+---
+
+## 6. Limitations
+
+Several limitations warrant acknowledgment.
+
+**Keyword-based framing.** Our dictionary approach measures frame salience (keyword presence) rather than frame meaning or valence. A phrase like "no civilian casualties confirmed" would register as humanitarian-framed despite potentially conveying a security-compatible message. Future work should employ manual coding or large language model-based coding to validate the dictionary results.
+
+**Single-source dataset.** The IranWar.ai dataset, while comprehensive, represents one editorial team's curation of the conflict. Source attribution patterns may reflect the dashboard's editorial choices rather than the broader media ecosystem. Cross-validation against ACLED, GDELT, or media content analyses would strengthen the findings.
+
+**Source category classification.** Our eight-category source taxonomy was constructed through keyword matching rather than manual classification. Some sources may be miscategorized, particularly in the OTHER_MEDIA category, which may contain sources that belong in more specific categories with additional contextual analysis.
+
+**Timeline event selection.** The 293 source-attributed events are a curated subset of the full 1,653-event dataset. The editorial process that selected these events for inclusion may have introduced selection biases that affect our source attribution analysis.
+
+**Causal inference.** We identify associations between temporal position, source patterns, and frame distributions, but we cannot establish causal relationships. The Minab frame shift may have been caused by the incident itself, by the broader accumulation of violence on Day 1, or by editorial choices in how events were recorded.
+
+**Generalizability.** This is a single-conflict study. The framing dynamics observed here may be specific to the US-Iran case and not generalizable to other interstate conflicts, particularly those with different media ecosystems, different levels of press freedom, or different pre-war public opinion configurations.
+
+---
+
+## 7. Conclusion
+
+This study offers three contributions to the literature on media, war, and information environments.
+
+First, we provide empirical evidence for a *modified propaganda model* in which official source dominance is real but temporally bounded. The official-to-critical source ratio declined from 21:1 in Week 1 to 4.3:1 in Week 3 --- a steep erosion driven by the emergence of international organization and investigative voices. However, official sources regained dominance in Week 4 through structural re-officialization as the narrative shifted to diplomacy. The propaganda model's sourcing filter operates, but it operates dynamically rather than as a fixed constraint.
+
+Second, we demonstrate that framing dynamics in modern conflict are better characterized as *sustained contestation* than as linear phase succession. The security, humanitarian, economic, and negotiation frames coexisted throughout the 30-day period, with their relative salience fluctuating daily in response to military events, humanitarian crises, economic shocks, and diplomatic developments. The security frame remained the single most common frame throughout, but it never recaptured the monopoly it held on Days 1--2.
+
+Third, we identify a *briefing gap* --- a systematic divergence between the frame distribution in the raw event data and the frame distribution in curated daily summaries. Briefing headlines overrepresented the security frame by a factor of 1.9 and underrepresented the humanitarian frame by a factor of 1.8. This gap suggests that editorial compression --- the reduction of a complex, multi-frame information environment to a single-frame headline --- is a significant and undertheorized mechanism of narrative control. Even in an information environment where humanitarian and economic frames are genuine competitors, the structural properties of headline construction favor the security frame.
+
+These findings have implications beyond this specific conflict. As information environments become more data-rich, more multi-sourced, and more rapidly updated, the gap between raw information and curated summary may become the primary site of narrative control. The question is no longer whether alternative frames exist --- they clearly do, even in the first week of a major conflict --- but whether they survive the editorial compression that transforms a 1,653-event dataset into a 30-headline narrative.
+
+---
+
+## References
+
+Aday, S., Livingston, S., & Hebert, M. (2005). Embedding the truth: A cross-cultural analysis of objectivity and television coverage of the Iraq War. *Harvard International Journal of Press/Politics*, 10(1), 3--21.
+
+Bennett, W. L., Lawrence, R. G., & Livingston, S. (2007). *When the Press Fails: Political Power and the News Media from Iraq to Katrina*. University of Chicago Press.
+
+Boydstun, A. E., Gross, J. H., Resnik, P., & Smith, N. A. (2014). Identifying media frames and frame dynamics within and across policy issues. Paper presented at New Directions in Analyzing Text as Data Workshop.
+
+Chong, D., & Druckman, J. N. (2007). Framing theory. *Annual Review of Political Science*, 10, 103--126.
+
+Dimitrova, D. V., & Stromback, J. (2012). Election news coverage in Sweden and the United States: A comparative study of framing. *Mass Communication and Society*, 15(4), 526--546.
+
+Entman, R. M. (1993). Framing: Toward clarification of a fractured paradigm. *Journal of Communication*, 43(4), 51--58.
+
+Entman, R. M. (2004). *Projections of Power: Framing News, Public Opinion, and U.S. Foreign Policy*. University of Chicago Press.
+
+Herman, E. S., & Chomsky, N. (1988). *Manufacturing Consent: The Political Economy of the Mass Media*. Pantheon Books.
+
+Iyengar, S. (1991). *Is Anyone Responsible? How Television Frames Political Issues*. University of Chicago Press.
+
+Jasper, J. M., & Poulsen, J. D. (1995). Recruiting strangers and friends: Moral shocks and social networks in animal rights and anti-nuclear protests. *Social Problems*, 42(4), 493--512.
+
+Miskimmon, A., O'Loughlin, B., & Roselle, L. (2017). *Forging the World: Strategic Narratives and International Relations*. University of Michigan Press.
+
+Reese, S. D. (2001). Prologue --- Framing public life: A bridging model for media research. In S. D. Reese, O. H. Gandy, & A. E. Grant (Eds.), *Framing Public Life* (pp. 7--31). Lawrence Erlbaum.
+
+Robinson, P. (2004). Researching US media-state relations and twenty-first century wars. In S. Allan & B. Zelizer (Eds.), *Reporting War: Journalism in Wartime* (pp. 96--112). Routledge.
+
+Thomas, J. E. (2026). IranWar.ai: An open-source event-level dataset of the 2026 US-Iran conflict. Working paper. https://github.com/jethomasphd/WarTheater
+
+---
+
+## Appendix A: Reproducibility
+
+All analyses reported in this paper can be reproduced using:
+
+- **Dataset:** `ResearchData/iranwar_event_dataset.csv` (1,653 rows, 48 columns)
+- **Analysis script:** `ResearchData/paper_seeds/seed11_analysis.py`
+- **Repository:** https://github.com/jethomasphd/WarTheater
+
+The analysis script runs with Python 3.10+ and requires only `pandas` and `numpy`. Execute:
+
+```bash
+pip install pandas numpy
+python3 ResearchData/paper_seeds/seed11_analysis.py
+```
+
+All source data, extraction scripts, and codebooks are versioned in the repository.
