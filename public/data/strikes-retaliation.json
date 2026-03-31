@@ -1246,5 +1246,37 @@
     "notes": "Day 28 (Mar 27): Iranian missile/drone strike on Prince Sultan Air Base, Saudi Arabia. 29 US soldiers injured (5 seriously). Damaged US refueling aircraft and E-3 AWACS.",
     "verified": true,
     "last_updated": "2026-03-30"
+  },
+  {
+    "id": "dubai-al-salmi-march31",
+    "city": "Port of Dubai, UAE",
+    "lat": 25.2697,
+    "lng": 55.2963,
+    "type": "iran_retaliation",
+    "weapon": "Drone",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-03-31",
+    "casualties_reported": "Major oil spill risk — damage assessment ongoing",
+    "casualties_source": "Reuters / Bloomberg / UAE MoD",
+    "active_days": [32],
+    "notes": "Day 32 (Mar 31): Iranian drone struck the Kuwaiti VLCC Al Salmi at the Port of Dubai, risking a major oil spill at a critical commercial port. Signals Iran's asymmetric capabilities remain potent despite conventional military degradation. Brent surged toward $120 on the attack.",
+    "verified": true,
+    "last_updated": "2026-03-31"
+  },
+  {
+    "id": "houthi-israel-march31",
+    "city": "Southern Israel",
+    "lat": 31.25,
+    "lng": 34.79,
+    "type": "houthi_attack",
+    "weapon": "Ballistic missiles",
+    "origin": "Yemen (Houthi)",
+    "first_strike": "2026-03-28",
+    "casualties_reported": "Intercepted — coordinated with Iran and Hezbollah",
+    "casualties_source": "IDF / Houthi media",
+    "active_days": [29, 30, 31, 32],
+    "notes": "Day 29-32 (Mar 28-31): Continued Houthi missile barrages at Israel, including coordinated strikes alongside Iran and Hezbollah. Houthi deputy information minister stated 'closing the Bab al-Mandeb Strait is among our options' — dual chokepoint scenario. IRGC reportedly pushing Houthis toward Bab al-Mandeb closure.",
+    "verified": true,
+    "last_updated": "2026-03-31"
   }
 ]

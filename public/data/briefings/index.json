@@ -215,5 +215,12 @@
     "label": "MARCH 30, 2026 — DAY 31",
     "headline": "Pentagon plans 'weeks of ground operations' as Trump threatens to 'obliterate' Iran infrastructure; Brent surges 51% in March — steepest monthly rise on record; Houthis open third front; Pakistan hosts four-nation summit",
     "file": "data/briefings/day-31.html"
+  },
+  {
+    "day": 32,
+    "date": "2026-03-31",
+    "label": "MARCH 31, 2026 — DAY 32",
+    "headline": "Iranian drone strikes Kuwaiti VLCC Al Salmi at Port of Dubai; Brent posts largest monthly gain since 1988; gas crosses $4.00; Houthi Bab al-Mandeb closure threatened — dual chokepoint scenario; WSJ: Trump may end war without securing Hormuz",
+    "file": "data/briefings/day-32.html"
   }
 ]

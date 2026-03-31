@@ -1,11 +1,11 @@
 {
   "conflicts": [
     {
-      "label": "Iran 2026 (Day 31)",
+      "label": "Iran 2026 (Day 32)",
       "targets_struck": 31000,
-      "us_kia": 14,
+      "us_kia": 13,
       "daily_cost_millions": 1250,
-      "note": "Operation Epic Fury — Day 31. Pentagon preparing 'weeks of ground operations.' Trump threatens to 'obliterate' infrastructure. Houthi third front active. Brent +51% in March — steepest monthly rise on record. 61% disapprove. Pakistan-led quad summit. $23B arms sales bypass Congress. Iran NPT exit legislation. 7,000-8,000 ground troops incoming. Apr 6 deadline. ~$36.8B spent."
+      "note": "Operation Epic Fury — Day 32. Iranian drone strikes Kuwaiti VLCC Al Salmi at Port of Dubai. Brent +~55% in March — largest monthly gain since 1988. Gas crosses $4.00 nationally. Houthi Bab al-Mandeb closure threatened — dual chokepoint scenario. WSJ: Trump may end war without securing Hormuz. Islamabad talks stalled. 61% disapprove. Apr 6 deadline approaching. ~$38.1B spent."
     },
     {
       "label": "Iraq 2003 (Day 21)",
@@ -30,5 +30,5 @@
     }
   ],
   "sources": "CRS Reports R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya). Costs inflation-adjusted to 2026 dollars using BLS CPI-U.",
-  "last_updated": "2026-03-30"
+  "last_updated": "2026-03-31"
 }
