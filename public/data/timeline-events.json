@@ -2770,5 +2770,86 @@
     "category": "diplomatic",
     "source": "Reuters / WSJ / Al Jazeera",
     "data_point": "NPT exit legislation — SF uranium seizure considered"
+  },
+  {
+    "date": "2026-03-31",
+    "time": "06:00",
+    "title": "Iranian drone strikes Kuwaiti VLCC Al Salmi at Port of Dubai",
+    "description": "The Kuwaiti VLCC Al Salmi was struck by an Iranian drone at the Port of Dubai on March 31, risking a major oil spill at a critical commercial port. The attack signals Iran's asymmetric capabilities remain potent even as its conventional military is degraded.",
+    "category": "military",
+    "source": "Reuters / Bloomberg / Al Jazeera",
+    "data_point": "VLCC struck at Dubai port — major oil spill risk"
+  },
+  {
+    "date": "2026-03-31",
+    "time": "07:00",
+    "title": "Two Chinese container ships transit Hormuz — first cargo since war began",
+    "description": "On March 30, two Chinese container ships successfully transited the Strait of Hormuz — the first cargo vessels to pass through since the war began. Iran's selective passage system continues, requiring ships to submit cargo/crew details, receive clearance codes, and pay approximately $2 million per crossing in Chinese yuan.",
+    "category": "financial",
+    "source": "Lloyd's List / Reuters / Bloomberg",
+    "data_point": "First cargo transits since war — $2M per crossing in yuan"
+  },
+  {
+    "date": "2026-03-31",
+    "time": "08:00",
+    "title": "Gas crosses $4.00 nationally — highest since 2022",
+    "description": "Multiple outlets confirmed the national average gasoline price crossed $4.00/gallon on March 31, the highest since 2022. Up $1.02 in one month from $2.98 pre-war. California leads at $5.88/gallon. Diesel hit $5.42/gallon nationally. The Trump administration is considering waiving the Jones Act to ease distribution.",
+    "category": "financial",
+    "source": "AAA / EIA / AP / Bloomberg",
+    "data_point": "$4.00/gal national average — CA $5.88 — diesel $5.42"
+  },
+  {
+    "date": "2026-03-31",
+    "time": "09:00",
+    "title": "Houthis threaten Bab al-Mandeb closure — dual chokepoint scenario",
+    "description": "Houthi deputy information minister stated that 'closing the Bab al-Mandeb Strait is among our options.' If executed, this would simultaneously shut down both major global maritime chokepoints — an unprecedented scenario. Cambridge expert Elisabeth Kendall described it as a 'nightmare.' The IRGC has reportedly pushed the Houthis toward a Bab al-Mandeb closure to further strain global markets.",
+    "category": "military",
+    "source": "Al Jazeera / Reuters / BBC / Elisabeth Kendall",
+    "data_point": "Dual chokepoint threat — Hormuz + Bab al-Mandeb — 'nightmare' scenario"
+  },
+  {
+    "date": "2026-03-31",
+    "time": "10:00",
+    "title": "Islamabad peace talks stalled — 30-point gap between proposals",
+    "description": "The Pakistan-hosted Islamabad diplomatic track (Pakistan-Turkey-Saudi-Egypt) represents the most structured mediation effort yet, but the gap between the US 15-point proposal and Iran's 5 counter-conditions remains vast. White House claims talks are 'going well' while Iran's parliament speaker Ghalibaf publicly rejected negotiations on March 29. Pakistan confirmed weeks of quiet shuttle diplomacy.",
+    "category": "diplomatic",
+    "source": "WaPo / Reuters / AP / Pakistan FM",
+    "data_point": "15-point US plan vs 5-point Iran counter — vast gap"
+  },
+  {
+    "date": "2026-03-31",
+    "time": "11:00",
+    "title": "Brent nearing $120 after Al Salmi attack — Brent's +55% monthly record since 1988",
+    "description": "Brent crude was nearing $120 again on March 31 after the Iranian drone strike on the Al Salmi tanker. Brent's ~55% monthly gain is the largest since inception in 1988. Goldman Sachs warned that if Hormuz flows remain at 5% for 10 weeks, Brent could exceed the 2008 record of $147/bbl. Société Générale projected prices as high as $150/bbl. The IEA called this 'the largest supply disruption in the history of the global oil market.'",
+    "category": "financial",
+    "source": "Bloomberg / Goldman Sachs / Société Générale / IEA",
+    "data_point": "Brent +55% monthly — largest since 1988 — IEA: 'largest disruption in history'"
+  },
+  {
+    "date": "2026-03-31",
+    "time": "12:00",
+    "title": "WSJ: Trump may end war without securing Hormuz control",
+    "description": "The Wall Street Journal reported Trump told aides he may end the war without securing Strait of Hormuz control. The White House press secretary confirmed reopening the strait is 'not a core objective.' The April 6 deadline for Iran to reopen the strait is approaching, but this report suggests a possible off-ramp that could reshape war aims.",
+    "category": "diplomatic",
+    "source": "WSJ / White House / AP",
+    "data_point": "Hormuz reopening 'not a core objective' — possible off-ramp"
+  },
+  {
+    "date": "2026-03-31",
+    "time": "13:00",
+    "title": "10-year Treasury extreme volatility — swings 12bps intraday",
+    "description": "The 10-year Treasury yield showed extreme intraday volatility on March 31, swinging 12 basis points between 4.31% and 4.43%. The yield reached 4.48% on March 27 (highest since July 2025). February payrolls showed a loss of 92,000 jobs (healthcare strike + federal downsizing), compounding stagflation fears. Moody's AI recession model registered 49% probability.",
+    "category": "financial",
+    "source": "Bloomberg / Treasury / Moody's / BLS",
+    "data_point": "10Y swings 4.31-4.43% — Moody's recession 49% — 92K jobs lost in Feb"
+  },
+  {
+    "date": "2026-03-31",
+    "time": "14:00",
+    "title": "GCC joint condemnation — all six Gulf states attacked by Iran for first time",
+    "description": "For the first time in history, Iran has attacked all six GCC states. On March 26, all six GCC states plus Jordan issued a joint condemnation. UAE hardest hit: 414 ballistic missiles, 1,914 drones, 15 cruise missiles intercepted as of March 29 (11 killed, 178 injured). Kuwait intercepted 97 ballistic missiles and 283 drones. Saudi expelled Iran's military attaché. The 2023 Beijing-brokered Saudi-Iran rapprochement has been 'shattered.'",
+    "category": "diplomatic",
+    "source": "UAE MoD / Saudi FM / GCC Joint Statement / Reuters",
+    "data_point": "First time all 6 GCC states attacked — Saudi-Iran rapprochement 'shattered'"
   }
 ]

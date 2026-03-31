@@ -4,9 +4,9 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-03-30",
+    "last_updated": "2026-03-31",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "~31,000+ (CENTCOM Mar 30: 11,000+ US targets, 66% of missile/drone/naval production destroyed, 8,000+ combat flights, 150+ naval vessels, 44 minelayers destroyed. IDF: Arak heavy water + Ardakan yellowcake struck. Combined US/Israeli extrapolated ~31,000+ through Day 31)",
+    "total_targets_struck": "~31,000+ (CENTCOM Mar 28: 11,000+ US targets up from 8,000 on Day 22, 8,000+ combat flights, 140+ naval vessels — 'largest elimination of a navy since WWII.' GBU-72 5,000-lb penetrators on underground coastal missile silos. A-10/Apache anti-surface warfare since Mar 19. IDF: Yazd yellowcake + Khondab Heavy Water struck Mar 28. 3 projectiles near Bushehr NPP. Combined US/Israeli extrapolated ~31,000+ through Day 32)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
       "killed": "~1,900 (Red Crescent) / 3,389 (HRANA)",
@@ -15,7 +15,7 @@
       "women_killed": "244",
       "children_killed": "228+",
       "sources": "Iranian Red Crescent / HRANA / Iran Health Ministry / ACLED / AP",
-      "as_of": "2026-03-30"
+      "as_of": "2026-03-31"
     },
     "civilian_buildings_affected": "~20,000 (including 16,000 residential units) per Iranian Red Crescent as of Day 11",
     "healthcare_facilities_affected": "226 medical/health units damaged per Health Ministry; 12 hospitals completely non-operational; WHO verified 18 attacks on healthcare",
@@ -1160,5 +1160,59 @@
     "notes": "Day 28 (Mar 27): Steel plants in Ahvaz struck as part of expanded industrial targeting campaign.",
     "verified": true,
     "last_updated": "2026-03-30"
+  },
+  {
+    "id": "yazd-yellowcake-march28",
+    "city": "Ardakan, Yazd Province",
+    "lat": 32.3100,
+    "lng": 54.0200,
+    "type": "us_strike",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Ardakan yellowcake production facility"
+    ],
+    "first_strike": "2026-03-28",
+    "casualties_reported": "Unknown",
+    "casualties_source": "IDF / IAEA",
+    "active_days": [29],
+    "notes": "Day 29 (Mar 28): US-Israeli airstrikes hit the yellowcake facility in Yazd Province. Part of expanded nuclear infrastructure targeting campaign. IAEA warned of potential radiological risks from strikes on nuclear facilities.",
+    "verified": true,
+    "last_updated": "2026-03-31"
+  },
+  {
+    "id": "khondab-heavy-water-march28",
+    "city": "Arak (Khondab)",
+    "lat": 34.3800,
+    "lng": 49.2400,
+    "type": "us_strike",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Shahid Khondab Heavy Water Complex"
+    ],
+    "first_strike": "2026-03-28",
+    "casualties_reported": "Unknown",
+    "casualties_source": "IDF / IAEA",
+    "active_days": [29],
+    "notes": "Day 29 (Mar 28): US-Israeli airstrikes hit the Khondab Heavy Water Complex in Arak. Prompted IAEA warnings about striking nuclear facilities. Multiple Iranian parliamentarians pushing NPT withdrawal legislation in response.",
+    "verified": true,
+    "last_updated": "2026-03-31"
+  },
+  {
+    "id": "bushehr-perimeter-march31",
+    "city": "Bushehr",
+    "lat": 28.9800,
+    "lng": 50.8400,
+    "type": "us_strike",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Bushehr Nuclear Power Plant perimeter (3 projectiles)"
+    ],
+    "first_strike": "2026-03-31",
+    "casualties_reported": "Unknown — IAEA warning of potential major radiological incident",
+    "casualties_source": "IAEA / Iranian state media",
+    "active_days": [32],
+    "notes": "Day 32 (Mar 31): At least three projectiles landed near Bushehr Nuclear Power Plant, prompting IAEA warnings of a potential major radiological incident. ~480 Russians on site at the reactor facility.",
+    "verified": true,
+    "last_updated": "2026-03-31"
   }
 ]
