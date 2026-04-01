@@ -1,10 +1,10 @@
 [
   {
     "label": "Hospitals Damaged",
-    "count": "238+",
-    "note": "Iran: 226 medical/health units damaged, 12 hospitals completely non-operational — Lebanon: 4 hospitals + 50+ primary healthcare centers closed — WHO: 18 verified attacks on healthcare — 8 medics killed",
+    "count": "289+",
+    "note": "Iran: 289 health facilities damaged (OCHA) — 50+ primary care centers + 5 hospitals closed — Lebanon: 4+ hospitals closed — WHO: 53 healthcare worker deaths, 117 injuries in 77 attacks",
     "source": "Iranian Health Ministry / WHO / OCHA / Lebanese MoH / ICRC",
-    "detail": "Iran Health Ministry: 226 medical/health units damaged, 12 hospitals rendered completely non-operational. Lebanon: 4 hospitals and 50+ primary healthcare centers forced to close; 42 health workers killed. WHO has verified 18 attacks on healthcare facilities and 8 medics killed. Iranian Red Crescent: 87,000+ non-military structures damaged or destroyed, ~600 educational centers attacked. 120+ historical sites sustained damage. 10,000-cubic-meter water reservoir in Haftkel destroyed. ICRC: conflict has 'upended the lives of millions and sent shockwaves far beyond the region.' Iranian Red Crescent worker Hamidreza Jahanbakhsh killed on duty. OCHA activated contingency plans across 7 countries."
+    "detail": "OCHA (Mar 25): 289 health facilities damaged in Iran, 50+ primary healthcare centers and 5 hospitals closed. WHO: 53 healthcare worker deaths and 117 injuries in 77 attacks on healthcare. 87,000+ civilian units damaged (61,000 homes, 19,000 commercial). 600 schools damaged. 17 Red Crescent centers hit. Iran displacement: 3.2 million people (~600,000-1 million households). Lebanon: 1,200+ killed (107+ children), 3,000+ wounded, 1 million+ displaced. 472 schools used as shelters. ICRC: conflict has 'upended the lives of millions.'"
   },
   {
     "label": "Schools Destroyed",
@@ -30,9 +30,9 @@
   {
     "label": "Nuclear Facilities Struck",
     "count": "8+",
-    "note": "Fordow, Isfahan UCF, Natanz (3x), Bushehr perimeter (2x), Arak Heavy Water (Shahid Khondab), Ardakan yellowcake plant — IAEA warns radiological risk",
+    "note": "Fordow, Isfahan UCF, Natanz (3x), Bushehr perimeter (3x — closest 350m from reactor), Arak Heavy Water (Shahid Khondab), Ardakan yellowcake — IAEA: Bushehr 'reddest line of all'",
     "source": "IAEA / DoD / IDF / satellite imagery",
-    "detail": "Fordow enrichment facility struck Day 1 with B-2/GBU-57 MOPs. Isfahan UCF struck Day 1. Natanz struck Day 22. Day 29: US-Israeli airstrikes hit Ardakan yellowcake facility in Yazd and Khondab Heavy Water Complex in Arak. Day 32: At least 3 projectiles landed near Bushehr Nuclear Power Plant — IAEA warnings of potential major radiological incident. ~480 Russians on site. Multiple Iranian parliamentarians pushing NPT withdrawal legislation. IAEA has had no access to any of Iran's four declared enrichment facilities since June 2025. Iran possesses 440.9 kg of uranium enriched to 60% — enough for ~9-10 nuclear weapons if further enriched."
+    "detail": "Fordow enrichment facility struck Day 1 with B-2/GBU-57 MOPs. Isfahan UCF struck Day 1. Natanz struck Day 22. Day 29: US-Israeli airstrikes hit Ardakan yellowcake facility in Yazd and Khondab Heavy Water Complex in Arak. Day 32: At least 3 projectiles landed near Bushehr Nuclear Power Plant — IAEA warnings of potential major radiological incident. ~480 Russians on site. Multiple Iranian parliamentarians pushing NPT withdrawal legislation. IAEA has had no access to any of Iran's four declared enrichment facilities since June 2025. Iran possesses 440.9 kg of uranium enriched to 60% — enough for ~9-10 nuclear weapons if further enriched. Day 33: Three projectiles have struck near Bushehr NPP, closest landing 350 meters from the operating reactor (Mar 17). Plant holds 72 tons of fuel and 210 tons of spent fuel. Rosatom CEO Likhachev warned any direct hit could cause 'a regional-scale disaster.' IAEA DG Grossi called Bushehr 'the reddest line of all.' Iran's parliament pushing to exit the Non-Proliferation Treaty. Natanz entrance buildings inaccessible. Fordow significantly damaged from June 2025 strikes. ~480 Russian Rosatom employees remain at Bushehr; third evacuation being prepared."
   },
   {
     "label": "Airports Damaged",

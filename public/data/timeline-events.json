@@ -2851,5 +2851,131 @@
     "category": "diplomatic",
     "source": "UAE MoD / Saudi FM / GCC Joint Statement / Reuters",
     "data_point": "First time all 6 GCC states attacked — Saudi-Iran rapprochement 'shattered'"
+  },
+  {
+    "date": "2026-04-01",
+    "time": "02:00",
+    "title": "Airstrike hits former US Embassy compound in Tehran",
+    "description": "An airstrike penetrated the former US Embassy compound on Taleghani Street, controlled by the IRGC since 1979 and home to a Basij-run anti-American museum. Witnesses reported blown-out windows but no visible external impact crater, suggesting an internally detonating penetrator. Russia's embassy confirmed the blast broke doors and windows at St. Nicholas Orthodox Cathedral across the street and partially collapsed an adjacent Russian nursing home.",
+    "category": "military",
+    "source": "Russian Embassy Tehran / Iranian state media / Reuters",
+    "data_point": "IRGC-controlled former US Embassy compound struck — Russian facilities damaged"
+  },
+  {
+    "date": "2026-04-01",
+    "time": "04:00",
+    "title": "Iranian drones strike Kuwait airport fuel depots — massive blaze",
+    "description": "Iranian drone(s) caused a 'massive blaze' at fuel storage tanks at Kuwait International Airport. Kuwait's Public Authority for Civil Aviation reported 'significant damage' but no injuries. KUNA suggested possible Iraqi militia involvement. The airport has been closed since February 28.",
+    "category": "military",
+    "source": "Kuwait Civil Aviation / KUNA / Reuters",
+    "data_point": "Kuwait airport fuel depots ablaze — airport closed since Feb 28"
+  },
+  {
+    "date": "2026-04-01",
+    "time": "05:00",
+    "title": "Three Iranian cruise missiles target Qatar — tanker Aqua 1 hit",
+    "description": "Three cruise missiles launched from Iran toward Qatar. One struck the QatarEnergy-chartered fuel oil tanker Aqua 1 in northern territorial waters. Two others intercepted. The 21-member crew was evacuated with no casualties or environmental impact. QatarEnergy confirmed the attack.",
+    "category": "military",
+    "source": "QatarEnergy / Reuters / Qatar Defence Ministry",
+    "data_point": "Tanker Aqua 1 struck — 21 crew evacuated safely"
+  },
+  {
+    "date": "2026-04-01",
+    "time": "05:30",
+    "title": "Israeli airstrike on Beirut's Jnah neighborhood kills 7",
+    "description": "An Israeli airstrike without warning on Beirut's Jnah neighborhood killed 7 people and wounded 26, per the Lebanese Health Ministry's final count. In a separate naval strike on Beirut, Israel killed Hajj Yusuf Ismail Hashem, commander of Hezbollah's Southern Front — described by the IDF as the most senior Hezbollah figure eliminated, with '40+ years of experience.' A second 'senior terrorist' killed in separate Beirut strike.",
+    "category": "military",
+    "source": "Lebanese Health Ministry / IDF / Reuters",
+    "data_point": "7 killed, 26 wounded — Hezbollah Southern Front commander eliminated"
+  },
+  {
+    "date": "2026-04-01",
+    "time": "07:30",
+    "title": "IRGC cluster bomb missile strikes Bnei Brak — children critically wounded",
+    "description": "The first wave of three Iranian ballistic missile salvos carried a cluster bomb warhead that struck Bnei Brak, east of Tel Aviv, spreading submunitions over a residential area. 14-16 people wounded including a 10-12-year-old girl critically injured by glass shrapnel in her bed (Sheba Medical Center: 'teams fighting for her life'), a 13-year-old boy seriously wounded while trying to wake his deaf mother (both unable to reach shelter), and the girl's father in moderate condition. Second and third volleys largely intercepted; a fourth salvo of two missiles toward central Israel also defeated.",
+    "category": "military",
+    "source": "Sheba Medical Center / IDF / Times of Israel / CNN",
+    "data_point": "Cluster bomb in Bnei Brak — children critically wounded — most complex Iranian attack of war"
+  },
+  {
+    "date": "2026-04-01",
+    "time": "08:00",
+    "title": "Trump claims Iran 'asked for CEASEFIRE' — schedules prime-time address",
+    "description": "Trump posted on Truth Social: 'Iran's New Regime President, much less Radicalized and far more intelligent than his predecessors, has just asked the United States of America for a CEASEFIRE!' Iran has not confirmed any ceasefire request. White House confirmed Trump's first prime-time address to the nation since the war began, scheduled for 9 PM ET — falling on first night of Passover. Content unknown; speculation ranges from withdrawal timeline to escalation to diplomatic breakthrough.",
+    "category": "diplomatic",
+    "source": "Truth Social / White House / Reuters / AP",
+    "data_point": "Trump claims ceasefire request — 9 PM address — Iran denies"
+  },
+  {
+    "date": "2026-04-01",
+    "time": "09:00",
+    "title": "Israel strikes Tofigh Daru pharmaceutical factory — 10 nurses killed",
+    "description": "Israel struck the Tofigh Daru pharmaceutical factory in Tehran, claiming the plant supplied fentanyl precursors for an alleged chemical weapons program. Iran acknowledged the strike destroyed the R&D department, calling it 'a blow to the national medical supply chain.' Ten nurses were killed 'at the scene of their service,' per ISNA.",
+    "category": "military",
+    "source": "IDF / ISNA / Iranian Health Ministry",
+    "data_point": "Pharmaceutical factory destroyed — 10 nurses killed"
+  },
+  {
+    "date": "2026-04-01",
+    "time": "10:00",
+    "title": "IRGC threatens 17 American corporate headquarters",
+    "description": "The IRGC threatened to physically attack 17 American companies — naming Apple, Microsoft, Google, Meta, IBM, HP, Intel, Tesla, Boeing, JP Morgan, and others — if more Iranian leaders are assassinated. Deadline: 8 PM Tehran time (~11:30 AM ET), April 1. The IRGC urged employees to 'immediately distance themselves from their workplaces' and called on residents within 1 km to evacuate.",
+    "category": "military",
+    "source": "IRGC / Iranian state media / Reuters",
+    "data_point": "17 US companies threatened — Apple, Microsoft, Google, Meta, Boeing, JPMorgan named"
+  },
+  {
+    "date": "2026-04-01",
+    "time": "11:00",
+    "title": "Markets surge on peace hopes — S&P best day since May; Brent drops 5%",
+    "description": "Markets rallied hard on Trump's ceasefire claims and Rubio's 'we can see the finish line' statement. S&P 500 closed March 31 at 6,528.52 (+2.91% — best single-day gain since May). Dow 46,341.51 (+2.49%). Nasdaq 21,590.63 (+3.83%). VIX collapsed 17.5% to 25.25. Asian markets surged overnight: Kospi +8.4%, Nikkei +5.2%. Brent dipped to $104.86-105.27, down ~5% from morning levels. Gold rose to $4,746-4,766. Analyst Neil Crosby (Sparta Commodities): 'A ceasefire does not equal supply restoration.'",
+    "category": "financial",
+    "source": "Yahoo Finance / CNBC / Bloomberg / Sparta Commodities",
+    "data_point": "S&P +2.91% — Brent -5% — VIX -17.5% — Kospi +8.4%"
+  },
+  {
+    "date": "2026-04-01",
+    "time": "12:00",
+    "title": "Pentagon: 200 dynamic strikes in 24 hours; 11,000+ targets in 30 days",
+    "description": "At the March 31 Pentagon briefing, Secretary of War Pete Hegseth disclosed 200 'dynamic strikes' in the preceding 24 hours — missions where pilots received new target packages mid-flight from real-time intelligence. General Dan Caine confirmed 11,000+ targets struck in the first 30 days. The IDF separately stated 800+ attack sorties have dropped approximately 16,000 munitions on Iran since February 28. Hegseth noted Iran's drone attacks are 'down 95%' from peak levels.",
+    "category": "military",
+    "source": "Pentagon / CENTCOM / IDF",
+    "data_point": "200 dynamic strikes — 11,000+ US targets — 16,000 IDF munitions — drones down 95%"
+  },
+  {
+    "date": "2026-04-01",
+    "time": "13:00",
+    "title": "Pakistan FM in Beijing — China-Pakistan propose 5-point ceasefire plan",
+    "description": "Pakistan FM Ishaq Dar traveled to Beijing on March 31 to seek China's role as guarantor for a potential deal — reportedly Iran's precondition for talks. Chinese FM Wang Yi: 'Beijing commends and supports Pakistan's mediation effort.' A China-Pakistan five-point ceasefire plan was proposed. Two possible meeting formats under discussion: (1) Iranian FM Araghchi with US envoys Witkoff/Kushner; (2) VP Vance meeting Iran's parliament speaker Ghalibaf. The 30-point gap between US and Iranian positions persists.",
+    "category": "diplomatic",
+    "source": "Pakistan FM / Chinese MFA / Axios / Reuters",
+    "data_point": "China-Pakistan 5-point plan — China as guarantor — 30-point gap persists"
+  },
+  {
+    "date": "2026-04-01",
+    "time": "14:00",
+    "title": "Gas hits $4.064/gallon — largest monthly jump on record ($1.08)",
+    "description": "National average gasoline reached $4.064 per gallon (AAA, April 1) — the first time above $4 nationally since August 2022. The monthly jump of $1.08 exceeds the steepest climbs after Hurricane Katrina (2005) and the Russia-Ukraine invasion (2022). Mid-grade $4.578, premium $4.943, diesel $5.490. California at approximately $5.89. Year-ago price: $3.201.",
+    "category": "financial",
+    "source": "AAA / EIA",
+    "data_point": "$4.064/gal — $1.08 monthly jump — record — diesel $5.49 — CA $5.89"
+  },
+  {
+    "date": "2026-04-01",
+    "time": "16:00",
+    "title": "Rubio: 'We can see the finish line' — messages being exchanged with Iran",
+    "description": "SecState Rubio stated on Fox News: 'We can see the finish line. It's not today, it's not tomorrow, but it's coming.' Confirmed 'messages are being exchanged' with Iran and a 'potential for a direct meeting at some point.' Trump in a Telegraph interview said he is 'beyond reconsidering' US NATO membership, calling allies 'cowards.' The April 6 energy infrastructure strike deadline is 5 days away with no confirmed diplomatic framework.",
+    "category": "diplomatic",
+    "source": "Fox News / The Telegraph / Reuters / AP",
+    "data_point": "Rubio: 'finish line' — messages exchanged — Trump: 'beyond reconsidering' NATO"
+  },
+  {
+    "date": "2026-04-01",
+    "time": "21:00",
+    "title": "Trump's prime-time address to the nation — 9 PM ET",
+    "description": "President Trump scheduled his first prime-time address to the nation since the war began for 9 PM ET, April 1 — falling on the first night of Passover. Content unknown. Speculation ranges from announcing a ceasefire framework, to declaring a withdrawal timeline, to escalating with energy infrastructure strikes. The address comes as the April 6 deadline for energy strikes is 5 days away, markets have surged on peace hopes, and Rubio confirmed 'messages are being exchanged' with Iran.",
+    "category": "diplomatic",
+    "source": "White House / multiple outlets",
+    "data_point": "First prime-time war address — content unknown — April 6 deadline 5 days out"
   }
 ]
