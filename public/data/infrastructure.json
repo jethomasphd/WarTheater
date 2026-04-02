@@ -1,15 +1,15 @@
 [
   {
     "label": "Hospitals Damaged",
-    "count": "289+",
-    "note": "Iran: 289 health facilities damaged (OCHA) — 50+ primary care centers + 5 hospitals closed — Lebanon: 4+ hospitals closed — WHO: 53 healthcare worker deaths, 117 injuries in 77 attacks",
+    "count": "77+",
+    "note": "Iran: 77+ healthcare facilities damaged (31 major clinical, 12 inactive) — 83,351 residential buildings damaged — Lebanon: 4+ hospitals closed — WHO: 53 healthcare worker deaths, 117 injuries in 77 attacks",
     "source": "Iranian Health Ministry / WHO / OCHA / Lebanese MoH / ICRC",
-    "detail": "OCHA (Mar 25): 289 health facilities damaged in Iran, 50+ primary healthcare centers and 5 hospitals closed. WHO: 53 healthcare worker deaths and 117 injuries in 77 attacks on healthcare. 87,000+ civilian units damaged (61,000 homes, 19,000 commercial). 600 schools damaged. 17 Red Crescent centers hit. Iran displacement: 3.2 million people (~600,000-1 million households). Lebanon: 1,200+ killed (107+ children), 3,000+ wounded, 1 million+ displaced. 472 schools used as shelters. ICRC: conflict has 'upended the lives of millions.'"
+    "detail": "77+ healthcare facilities damaged in Iran including 31 major clinical facilities and 12 rendered completely inactive. 83,351 residential buildings damaged. 65+ schools destroyed. 120+ historical/cultural heritage sites damaged including UNESCO-listed Golestan Palace. Schools ordered closed nationwide. Tehran described as a 'ghost town.' 3.2 million displaced in Iran. Lebanon: 1,200+ killed, 3,119+ wounded, 1 million+ displaced (~20-25% of population), 180,000+ crossed into Syria. 472 schools used as shelters. Source: OCHA / WHO / ICRC / UNHCR."
   },
   {
     "label": "Schools Destroyed",
-    "count": "600+",
-    "note": "~600 educational centers attacked per Iranian Red Crescent. Minab school (168 killed). Iran University of Science and Technology severely damaged. IRGC threatened retaliatory strikes on US/Israeli campuses in Qatar and UAE.",
+    "count": "65+",
+    "note": "65+ schools destroyed per OCHA. Minab school (165-170 killed). 120+ historical/cultural heritage sites damaged. Iran University of Science and Technology severely damaged. IRGC threatened retaliatory strikes on US/Israeli campuses in Qatar and UAE.",
     "source": "Iranian Red Crescent / AP / NYT / Amnesty",
     "detail": "Girls' school struck by US Tomahawk cruise missile adjacent to IRGC naval compound. Amnesty International verified 168 killed (100+ schoolchildren aged 7-12) at Shajareh Tayyebeh girls' elementary school on February 28. US internal investigation (Mar 11) determined the strike was likely due to outdated DIA intelligence — the school was once part of an IRGC compound but had been walled off since 2016. Weapons experts confirmed Tomahawk missile fragments. UN investigation initiated March 17, ongoing. HRW and Amnesty demanded accountability for potential war crimes."
   },
@@ -30,9 +30,9 @@
   {
     "label": "Nuclear Facilities Struck",
     "count": "8+",
-    "note": "Fordow, Isfahan UCF, Natanz (3x), Bushehr perimeter (3x — closest 350m from reactor), Arak Heavy Water (Shahid Khondab), Ardakan yellowcake — IAEA: Bushehr 'reddest line of all'",
+    "note": "Fordow, Isfahan UCF, Natanz (3x), Bushehr perimeter (3x — closest 350m from reactor), Arak Heavy Water (Shahid Khondab), Ardakan yellowcake, Yazd uranium processing — IAEA: Bushehr 'reddest line of all'",
     "source": "IAEA / DoD / IDF / satellite imagery",
-    "detail": "Fordow enrichment facility struck Day 1 with B-2/GBU-57 MOPs. Isfahan UCF struck Day 1. Natanz struck Day 22. Day 29: US-Israeli airstrikes hit Ardakan yellowcake facility in Yazd and Khondab Heavy Water Complex in Arak. Day 32: At least 3 projectiles landed near Bushehr Nuclear Power Plant — IAEA warnings of potential major radiological incident. ~480 Russians on site. Multiple Iranian parliamentarians pushing NPT withdrawal legislation. IAEA has had no access to any of Iran's four declared enrichment facilities since June 2025. Iran possesses 440.9 kg of uranium enriched to 60% — enough for ~9-10 nuclear weapons if further enriched. Day 33: Three projectiles have struck near Bushehr NPP, closest landing 350 meters from the operating reactor (Mar 17). Plant holds 72 tons of fuel and 210 tons of spent fuel. Rosatom CEO Likhachev warned any direct hit could cause 'a regional-scale disaster.' IAEA DG Grossi called Bushehr 'the reddest line of all.' Iran's parliament pushing to exit the Non-Proliferation Treaty. Natanz entrance buildings inaccessible. Fordow significantly damaged from June 2025 strikes. ~480 Russian Rosatom employees remain at Bushehr; third evacuation being prepared."
+    "detail": "Fordow enrichment facility struck Day 1 with B-2/GBU-57 MOPs. Isfahan UCF struck Day 1. Natanz struck Day 22. Day 29: US-Israeli airstrikes hit Ardakan yellowcake facility in Yazd and Khondab Heavy Water Complex in Arak. Yazd uranium processing facility also struck. Day 32: At least 3 projectiles landed near Bushehr Nuclear Power Plant — IAEA warnings of potential major radiological incident. Bushehr holds 72 tons of fuel and 210 tons of spent fuel — Rosatom CEO Likhachev warned any direct hit could cause 'a regional-scale disaster.' Rosatom suspended construction of two new reactor units. ~480 Russian Rosatom employees remain on site; third evacuation being prepared. IAEA DG Grossi called Bushehr 'the reddest line of all.' Iran's parliament pushing to exit the Non-Proliferation Treaty. Natanz entrance buildings inaccessible. Fordow significantly damaged. Iran possesses 440.9 kg of uranium enriched to 60% — enough for ~9-10 nuclear weapons if further enriched."
   },
   {
     "label": "Airports Damaged",

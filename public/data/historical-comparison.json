@@ -1,11 +1,11 @@
 {
   "conflicts": [
     {
-      "label": "Iran 2026 (Day 33)",
-      "targets_struck": 32000,
+      "label": "Iran 2026 (Day 34)",
+      "targets_struck": 33000,
       "us_kia": 15,
       "daily_cost_millions": 1250,
-      "note": "Operation Epic Fury — Day 33. Trump claims Iran 'asked for CEASEFIRE'; markets surge. IRGC cluster bomb hits Bnei Brak children. 200 dynamic strikes in 24 hrs. 3 missile waves at Israel. Tanker Aqua 1 struck. IRGC threatens 17 US corporate HQs. Brent drops 5% on peace hopes. S&P +2.91%. Apr 6 energy deadline 5 days. Trump address to nation 9 PM ET. Gas $4.064. ~$39.3B spent."
+      "note": "Operation Epic Fury — Day 34. Trump's prime-time address offers no exit strategy — 2-3 more weeks of 'extremely hard' strikes. Markets reverse: S&P -0.81%, VIX 27.31. Brent surges to $107 post-speech. 4 IRGC cluster-warhead salvos at Israel. IDF 170 targets in 24 hrs. Kharazi injured/wife killed. UK-led 35-nation Hormuz coalition. War approval 28% YouGov. Apr 6 deadline 4 days. ~$40.6B spent."
     },
     {
       "label": "Iraq 2003 (Day 21)",
@@ -30,5 +30,5 @@
     }
   ],
   "sources": "CRS Reports R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya). Costs inflation-adjusted to 2026 dollars using BLS CPI-U.",
-  "last_updated": "2026-04-01"
+  "last_updated": "2026-04-02"
 }

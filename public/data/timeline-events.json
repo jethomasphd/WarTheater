@@ -2977,5 +2977,131 @@
     "category": "diplomatic",
     "source": "White House / multiple outlets",
     "data_point": "First prime-time war address — content unknown — April 6 deadline 5 days out"
+  },
+  {
+    "date": "2026-04-02",
+    "time": "00:30",
+    "title": "Trump delivers prime-time address — no exit strategy",
+    "description": "~19-min speech declaring war 'nearing completion' with 2-3 more weeks, threatened to bomb power plants 'simultaneously', said Iran's navy is 'gone', air force 'in ruins', told allies to 'grab' Hormuz, threatened to bomb Iran 'back to Stone Ages'. No ceasefire, troop withdrawal, or ground invasion announced.",
+    "category": "political",
+    "source": "White House / multiple networks",
+    "data_point": "2-3 more weeks — no exit strategy — threatened power plants — no ceasefire"
+  },
+  {
+    "date": "2026-04-02",
+    "time": "02:00",
+    "title": "IRGC fires 4 missile salvos at Israel — cluster warheads",
+    "description": "4 salvos since midnight with cluster warheads — significant escalation in munition type. 4 civilians wounded in Bnei Brak including 2 infants.",
+    "category": "military",
+    "source": "IDF / IRGC / Israeli media",
+    "data_point": "4 salvos — cluster warheads — 4 wounded Bnei Brak"
+  },
+  {
+    "date": "2026-04-02",
+    "time": "03:00",
+    "title": "Hezbollah fires 50+ rockets at northern Israel",
+    "description": "Hezbollah launched barrages of 50+ rockets, 2 lightly wounded. 2026 Lebanon War continues with full IDF ground ops. Israel expanding buffer zone to Litani River. 1,200+ killed in Lebanon, 1M+ displaced.",
+    "category": "military",
+    "source": "IDF / Lebanese media",
+    "data_point": "50+ rockets — 2 wounded — buffer zone expanding to Litani"
+  },
+  {
+    "date": "2026-04-02",
+    "time": "04:00",
+    "title": "IDF reports 170 targets struck in prior 24 hours",
+    "description": "IDF reported hitting 170 targets in prior 24 hours including weapons research and production sites. Century-old medical research center in Tehran struck. Bridge near Tehran, steel plants, pharmaceutical facilities, Bandar Abbas passenger pier, Qeshm Island desalination plant also hit. CNN geolocated large explosions near Baharestan ~13 miles south of Isfahan.",
+    "category": "military",
+    "source": "IDF / CNN / Pentagon",
+    "data_point": "170 targets in 24 hrs — medical center — Baharestan explosions"
+  },
+  {
+    "date": "2026-04-02",
+    "time": "06:00",
+    "title": "Former FM Kharazi seriously injured, wife killed in airstrike",
+    "description": "Former Iranian FM Kamal Kharazi seriously injured, wife killed in airstrike on April 1. Iran described as deliberate attempt to derail diplomacy — Kharazi had been overseeing Pakistan back-channel for possible Vance-Iranian officials meeting. Significant blow to diplomatic track.",
+    "category": "military",
+    "source": "Iranian state media / Al Jazeera / Axios",
+    "data_point": "Kharazi injured — wife killed — Pakistan back-channel damaged"
+  },
+  {
+    "date": "2026-04-02",
+    "time": "08:00",
+    "title": "Iran flatly denies Trump ceasefire claim",
+    "description": "FM Araghchi told Al Jazeera 'at present there is no negotiation' and trust level 'at zero.' FM spokesman Baqaei called Trump's claim 'false and baseless.' Iran stated it 'will not tolerate this vicious cycle of war, negotiations, ceasefire.' Back-channel discussions through intermediaries ongoing per Axios.",
+    "category": "diplomatic",
+    "source": "Al Jazeera / Axios / Iranian FM",
+    "data_point": "Iran denies ceasefire — trust 'at zero' — back-channels ongoing"
+  },
+  {
+    "date": "2026-04-02",
+    "time": "09:00",
+    "title": "Markets reverse after Trump's escalatory speech",
+    "description": "S&P ~6,522 (-0.81%). Dow futures dropped 670 points overnight (~46,145). Nasdaq ~21,582 (-1.19%). VIX surged to 27.31 (+11.3%). Brent ~$107.15 post-speech surge. WTI ~$105.20 (spikes to $112). Gold ~$4,660 (-3.19% profit-taking). 10Y Treasury 4.38%. Asian selloff: Nikkei -2.1%, Kospi -3.9%, Hang Seng -1%. South Korea urges $17.3B supplementary budget.",
+    "category": "financial",
+    "source": "Bloomberg / CNBC / Reuters",
+    "data_point": "S&P -0.81% — VIX 27.31 — Brent $107 — Asian selloff — Dow futures -670"
+  },
+  {
+    "date": "2026-04-02",
+    "time": "10:00",
+    "title": "Pakistan acknowledges 'obstacles' in mediation",
+    "description": "Pakistan acknowledged 'obstacles' at April 2 briefing. China and Pakistan issued joint 5-point peace initiative calling for immediate ceasefire on April 1. Second four-nation ministerial (Pakistan/Saudi/Turkey/Egypt) held in Islamabad March 29-30. 30-point gap persists: US 15-point plan vs Iran 5-point counter. Kharazi airstrike dealt significant blow to diplomatic track.",
+    "category": "diplomatic",
+    "source": "Pakistan FM / Xinhua / Multiple",
+    "data_point": "Pakistan: 'obstacles' — China-Pakistan 5-point plan — 30-point gap"
+  },
+  {
+    "date": "2026-04-02",
+    "time": "11:00",
+    "title": "UK-led Hormuz coalition of 35 nations convenes — US absent",
+    "description": "UK Foreign Secretary Yvette Cooper chaired virtual summit of 35 nations to discuss reopening Strait. US did not participate. PM Starmer: 'will not be easy' — explicitly distanced UK from war. No country willing to force strait while fighting continues. Planned phases: mine clearance once fighting stops, then tanker protection. Macron: using military force 'unrealistic'. Iraq began exporting oil by tanker truck through Syria as alternative.",
+    "category": "diplomatic",
+    "source": "UK FCO / Reuters / Bloomberg",
+    "data_point": "35 nations — US absent — mine clearance first — Macron: 'unrealistic'"
+  },
+  {
+    "date": "2026-04-02",
+    "time": "11:30",
+    "title": "IRGC names 18 US/allied companies as 'legitimate targets'",
+    "description": "IRGC issued threat via Sepah News naming 18 companies: Apple, Google, Microsoft, Meta, Nvidia, Intel, IBM, Oracle, Cisco, HP, Dell, Palantir, JPMorgan Chase, Tesla, GE, Boeing, G42 (Abu Dhabi), Spire Solutions (Dubai). Deadline 8 PM Tehran time April 1. Urged evacuation within 1 km. Stated: 'For every assassination, an American company will be destroyed.'",
+    "category": "military",
+    "source": "Sepah News / IRGC / Bloomberg",
+    "data_point": "18 companies named — Apple, Google, Microsoft, Meta, JPMorgan, Boeing, Tesla"
+  },
+  {
+    "date": "2026-04-02",
+    "time": "12:00",
+    "title": "UAE intercepts missile near KEZAD — minor damage",
+    "description": "UAE intercepted missile near Khalifa Economic Zones (KEZAD) on April 2. Minor damage. Since war began, UAE has intercepted 438 ballistic missiles, 19 cruise missiles, 2,012 drones. Previous strikes hit Dubai Fairmont, Kuwait airport, BAPCO, AWS data centers.",
+    "category": "military",
+    "source": "UAE MoD / Reuters",
+    "data_point": "UAE: 438 BMs + 19 CMs + 2,012 drones intercepted since Feb 28"
+  },
+  {
+    "date": "2026-04-02",
+    "time": "13:00",
+    "title": "War approval collapses to 28% — MTG breaks with Trump",
+    "description": "YouGov: 28% support war. CNN/SSRS (Apr 1): 34% approve, 66% disapprove. Republican support dropped from 76% to 61% since Mar 2 — 15-point decline. MTG broke sharply: 'All I heard was WAR WAR WAR.' 71% oppose $200B supplemental. Trump overall approval 35-37% (second-term low). Nate Silver net approval -16.7.",
+    "category": "political",
+    "source": "YouGov / CNN / Nate Silver / multiple",
+    "data_point": "28% approval — GOP -15 pts — MTG breaks — 71% oppose $200B"
+  },
+  {
+    "date": "2026-04-02",
+    "time": "14:00",
+    "title": "First LNG tanker attempts Hormuz transit since war began",
+    "description": "Bloomberg reported first LNG tanker (Omani-flagged Sohar LNG) attempting transit since war began. Windward: only 11 ships transited on March 31. Mar 1-25 transits down 93% to 142. VLCC freight rates at all-time high. Iran's internet blackout enters 20th day — connectivity at 4% (NetBlocks).",
+    "category": "financial",
+    "source": "Bloomberg / Windward / NetBlocks",
+    "data_point": "Sohar LNG first LNG transit — 11 ships Mar 31 — internet 4% for 20 days"
+  },
+  {
+    "date": "2026-04-02",
+    "time": "15:00",
+    "title": "Day 34 summary — April 6 deadline 4 days away",
+    "description": "Four critical variables in next 96 hours: April 6 power plant deadline, Bush CSG arrival ~Apr 10-12, Pakistan diplomatic track wounded but not dead, domestic approval eroding fast (28-34%). Penn Wharton: $40-95B direct costs. IEA: 400M barrels released. War cost ~$40.6B. Gas $4.02-4.08. S&P ~6,522. Brent ~$107. 15 KIA / 348 WIA.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "~$40.6B — Apr 6 deadline 4 days — 28% approval — 4 critical variables"
   }
 ]
