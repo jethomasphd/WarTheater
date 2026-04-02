@@ -7,7 +7,7 @@
     "strike_group": "Carrier Strike Group 3",
     "lat": 20.80,
     "lng": 59.50,
-    "area": "Arabian Sea — continuous combat ops — CENTCOM confirms 11,000+ US targets struck",
+    "area": "Arabian Sea — continuous combat ops — extended deployment approaching record length — CENTCOM confirms 15,000+ targets struck",
     "aircraft": "F/A-18E/F Super Hornets, F-35C Lightning II (VMFA-314), EA-18G Growlers, E-2D Hawkeye, CMV-22B Osprey, MH-60R/S Seahawk",
     "escorts": ["DDG-121 USS Frank E. Petersen Jr.", "DDG-111 USS Spruance", "DDG-112 USS Michael Murphy", "CG-70 USS Lake Erie"],
     "independently_deployed_destroyers": ["DDG-74 USS McFaul", "DDG-57 USS Mitscher", "DDG-91 USS Pinckney", "DDG-119 USS Delbert D. Black", "DDG-113 USS John Finn", "DDG-69 USS Milius"],
@@ -15,8 +15,8 @@
     "mission_summary": "Primary strike platform — deep strike into Iran and attrition of Iranian naval capabilities",
     "deployed_since": "2025-11-21",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 32: Sole operational carrier in direct theater. CENTCOM: 11,000+ US targets as of Mar 28 (up from 8,000 on Day 22). 8,000+ combat flights. 140+ Iranian naval vessels destroyed — 'largest elimination of a navy since WWII.' GBU-72 5,000-lb penetrators. A-10s and AH-64s for anti-surface warfare since Mar 19. CSG-3 with CVW-9 and DESRON 21 + 6 independently deployed DDGs. Iranian Navy Cmdr Irani threatened Lincoln directly.",
-    "source": "USNI Fleet Tracker 3/23, CENTCOM 3/30, Axios, DoD"
+    "notes": "Day 34: Sole operational carrier in direct theater. Extended deployment approaching record length. CENTCOM: 15,000+ targets struck (up from 11,000 on Day 32). 8,000+ combat flights. 140+ Iranian naval vessels destroyed — 'largest elimination of a navy since WWII.' GBU-72 5,000-lb penetrators. A-10s and AH-64s for anti-surface warfare since Mar 19. CSG-3 with CVW-9 and DESRON 21 + 6 independently deployed DDGs. Iranian Navy Cmdr Irani threatened Lincoln directly.",
+    "source": "USNI Fleet Tracker 3/23, CENTCOM 4/2, Axios, DoD"
   },
   {
     "id": "cvn-78",
@@ -26,15 +26,15 @@
     "strike_group": "Carrier Strike Group 12",
     "lat": 43.51,
     "lng": 16.44,
-    "area": "Split, Croatia — in port for repairs after March 12 laundry room fire; deployed 279+ days",
+    "area": "Split, Croatia — in port for repairs after March 12 laundry room fire; deployed ~282 days",
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye",
     "escorts": ["DDG-96 USS Bainbridge", "DDG-72 USS Mahan", "DDG-81 USS Winston S. Churchill"],
     "status": "PORT VISIT — SPLIT, CROATIA",
-    "mission_summary": "Port visit and repairs in Split, Croatia — deployed 279+ days; CNO says may reach 11 months, breaking post-Vietnam 294-day record",
+    "mission_summary": "Port visit and repairs in Split, Croatia — deployed ~282 days; CNO Caudle confirmed deployment will likely reach 11 months, post-Vietnam record",
     "deployed_since": "2025-05-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 33: In port Split, Croatia for crew liberty after 279+ day deployment. Fire damage repairs ongoing from March 12 laundry room fire. CNO Adm. Caudle says deployment likely to reach 11 months, breaking post-Vietnam record of 294 days. Bush CSG departed Norfolk Mar 31 to relieve Ford and enter CENTCOM AOR.",
-    "source": "USNI News, USNI Fleet Tracker 3/23, Mar 28 reporting"
+    "notes": "Day 34: In port Split, Croatia for crew liberty after ~282 day deployment. Fire damaged 7 berthing compartments, 600 sailors displaced. CNO Adm. Caudle confirmed deployment will likely reach 11 months — post-Vietnam record. Bush CSG departed Norfolk Mar 31 to relieve Ford and enter CENTCOM AOR.",
+    "source": "USNI News, USNI Fleet Tracker 3/23, CNO Caudle statement, Apr 2 reporting"
   },
   {
     "id": "cvn-77",
@@ -42,17 +42,17 @@
     "hull": "CVN-77",
     "type": "carrier",
     "strike_group": "Carrier Strike Group 10",
-    "lat": 36.85,
-    "lng": -30.00,
-    "area": "Departed Norfolk March 31 — heading to NAVEUR/6th Fleet, expected to relieve Ford and enter CENTCOM AOR; ETA theater ~10-12 days",
+    "lat": 34.00,
+    "lng": -20.00,
+    "area": "Atlantic — transiting east toward CENTCOM AOR; CSG-10 with CVW-7; ETA CENTCOM ~April 10-12",
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye, MH-60R/S Seahawk",
     "escorts": ["DDG-71 USS Ross", "DDG-75 USS Donald Cook", "DDG-87 USS Mason"],
     "status": "IN TRANSIT — CENTCOM",
     "mission_summary": "Transit to CENTCOM AOR — could create three-carrier presence in theater",
     "deployed_since": "2026-03-31",
     "operation_start_date": null,
-    "notes": "Day 33: Departed Norfolk March 31. CVW-7 embarked. RADM Alexis Walker commanding. Escorts: USS Ross (DDG-71), USS Donald Cook (DDG-75), USS Mason (DDG-87). ETA theater ~10-12 days (early-mid April). Expected to relieve Ford and enter CENTCOM AOR. Would create three-carrier presence if Ford remains in Eastern Med.",
-    "source": "USNI Fleet Tracker 3/30, CBS News, Navy Times"
+    "notes": "Day 34: In Atlantic transiting east. CSG-10 with CVW-7 embarked. RADM Alexis Walker commanding. Escorts: USS Ross (DDG-71), USS Donald Cook (DDG-75), USS Mason (DDG-87). ETA CENTCOM ~April 10-12. Expected to relieve Ford and enter CENTCOM AOR. Would create three-carrier presence if Ford remains in Eastern Med.",
+    "source": "USNI Fleet Tracker 3/30, CBS News, Navy Times, Apr 2 tracking"
   },
   {
     "id": "lha-7",
@@ -89,8 +89,8 @@
     "mission_summary": "Mine countermeasure operations in Strait of Hormuz from Bahrain",
     "deployed_since": "2025-01-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 32: Three LCS conducting MCM from Bahrain. Mitscher (DDG-57) and Michael Murphy (DDG-112) operating near Strait of Hormuz. UK preparing autonomous minehunting (RFA Lyme Bay, HMS Brocklesby). French Exail 40 unmanned MCM systems. Iran deployed 12+ mines (Maham-3 moored, Maham-7 bottom). CENTCOM destroyed 44+ minelayers.",
-    "source": "USNI Fleet Tracker 3/23, CRS Report, CENTCOM, UK MoD"
+    "notes": "Day 34: Three LCS conducting MCM from Bahrain. Mitscher (DDG-57) and Michael Murphy (DDG-112) operating near Strait of Hormuz. UK preparing autonomous minehunting (RFA Lyme Bay, HMS Brocklesby). French Exail 40 unmanned MCM systems. Iran deployed 12+ mines (Maham-3 moored, Maham-7 bottom). CENTCOM destroyed 44+ minelayers. USS Rushmore (LSD-47) transiting Strait of Malacca as of Mar 31 to join Tripoli ARG.",
+    "source": "USNI Fleet Tracker 3/23, CRS Report, CENTCOM, UK MoD, Apr 2 reporting"
   },
   {
     "id": "ssgn-728",
@@ -135,9 +135,9 @@
     "hull": "LHD-4",
     "type": "amphibious",
     "strike_group": "Boxer Amphibious Ready Group / 11th Marine Expeditionary Unit",
-    "lat": 15.00,
-    "lng": -155.00,
-    "area": "3rd Fleet area / Pacific — en route to Middle East",
+    "lat": 19.00,
+    "lng": -160.00,
+    "area": "Hawaii area (transiting) — en route to Middle East",
     "aircraft": "AV-8B Harrier II or F-35B Lightning II, MV-22B Osprey, AH-1Z Viper, UH-1Y Venom, CH-53E Super Stallion",
     "escorts": ["LSD-45 USS Comstock", "LPD-27 USS Portland"],
     "status": "EN ROUTE — WEEKS OUT",
@@ -145,8 +145,8 @@
     "deployed_since": "2026-03-19",
     "operation_start_date": null,
     "eta_theater": "2026-04-09",
-    "notes": "Day 33: En route from San Diego; currently in 3rd Fleet area. Includes USS Comstock (LSD-45), USS Portland (LPD-27). ~2,500 Marines (11th MEU) + ~4,000 total.",
-    "source": "USNI Fleet Tracker (Mar 23), DVIDSHUB, AP, Stars and Stripes, Pentagon"
+    "notes": "Day 34: Departed San Diego March 18-19. Now near Hawaii, transiting toward Middle East. 11th MEU (~2,500 Marines, ~4,000 total). Includes USS Comstock (LSD-45), USS Portland (LPD-27). ETA Middle East mid-to-late April.",
+    "source": "USNI Fleet Tracker (Mar 23), DVIDSHUB, AP, Stars and Stripes, Pentagon, Apr 2 tracking"
   },
   {
     "id": "ssn-anson",
@@ -174,15 +174,15 @@
     "strike_group": "XVIII Airborne Corps — CENTCOM",
     "lat": 35.14,
     "lng": -79.00,
-    "area": "Deploying to CENTCOM — HQ + brigade combat team (~3,000 paratroopers) confirmed",
+    "area": "CENTCOM AOR — Kuwait (likely staging) — 1st BCT 'Devil Brigade' arrived",
     "aircraft": null,
     "escorts": [],
-    "status": "DEPLOYING",
+    "status": "OPERATIONAL — CENTCOM AOR",
     "mission_summary": "Ground combat force — HQ elements, division enablers, and 1st BCT deploying to CENTCOM; IRF can deploy within 18 hours",
     "deployed_since": "2026-03-25",
     "operation_start_date": null,
-    "notes": "Day 33: 82nd Airborne Division HQ + brigade combat team (~3,000 paratroopers) confirmed deploying. WaPo: Pentagon preparing plans for 'weeks of ground operations in Iran' — conventional infantry plus SOF. Kharg Island seizure under serious consideration. Trump on Mar 30 threatened to 'completely obliterate' Iran's electric plants, oil wells, and Kharg Island if Strait not reopened.",
-    "source": "Stars and Stripes Mar 25, CBS News, CNN, NPR Mar 26, Pentagon"
+    "notes": "Day 34: ~2,000 paratroopers from 1st Brigade Combat Team ('Devil Brigade') arrived Middle East as of March 30 (Reuters confirmed). Staging likely in Kuwait. WSJ reports plans for up to 10,000 additional ground troops; total ~50,000 US forces in theater. WaPo: Pentagon preparing plans for 'weeks of ground operations in Iran' — conventional infantry plus SOF. Kharg Island seizure under serious consideration.",
+    "source": "Reuters Mar 30, Stars and Stripes Mar 25, WSJ, CBS News, CNN, NPR, Pentagon"
   },
   {
     "id": "hms-dragon",

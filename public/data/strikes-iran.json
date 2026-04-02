@@ -4,9 +4,9 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-04-01",
+    "last_updated": "2026-04-02",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "~32,000+ (CENTCOM Mar 31: 11,000+ US targets in first 30 days, 200 'dynamic strikes' in last 24 hrs. IDF: 800+ attack sorties, ~16,000 munitions dropped on Iran since Feb 28. Combined US/Israeli extrapolated ~32,000+ through Day 33)",
+    "total_targets_struck": "~33,000+ (CENTCOM Mar 31: 11,000+ US targets in first 30 days, 200 'dynamic strikes' in last 24 hrs. IDF: 800+ attack sorties, 170 IDF targets in prior 24 hours as of Apr 2, ~16,000+ munitions dropped on Iran since Feb 28. Combined US/Israeli extrapolated ~33,000+ through Day 34)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
       "killed": "~1,900 (Red Crescent) / 3,389 (HRANA)",
@@ -1305,5 +1305,116 @@
     "notes": "Day 33 (Apr 1): Desalination plant knocked offline, threatening freshwater supply to Qeshm Island's population near the Strait of Hormuz.",
     "verified": true,
     "last_updated": "2026-04-01"
+  },
+  {
+    "id": "tehran-medical-research-april2",
+    "city": "Tehran",
+    "lat": 35.7100,
+    "lng": 51.4200,
+    "type": "us_strike",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Century-old medical research center"
+    ],
+    "first_strike": "2026-04-02",
+    "casualties_reported": "Unknown — research personnel",
+    "casualties_source": "CNN / Iranian media",
+    "active_days": [34],
+    "notes": "Day 34 (Apr 2): US-Israeli forces struck a century-old medical research center in Tehran. Part of 170 IDF targets in prior 24 hours.",
+    "verified": true,
+    "last_updated": "2026-04-02"
+  },
+  {
+    "id": "tehran-bridge-april2",
+    "city": "Tehran (bridge near capital)",
+    "lat": 35.65,
+    "lng": 51.35,
+    "type": "us_strike",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Bridge near Tehran",
+      "Steel plants",
+      "Pharmaceutical facilities"
+    ],
+    "first_strike": "2026-04-02",
+    "casualties_reported": "Unknown",
+    "casualties_source": "IDF / Iranian state media",
+    "active_days": [34],
+    "notes": "Day 34 (Apr 2): Bridge near Tehran, steel plants, and pharmaceutical facilities struck as part of intensified post-speech campaign.",
+    "verified": true,
+    "last_updated": "2026-04-02"
+  },
+  {
+    "id": "bandar-abbas-pier-april2",
+    "city": "Bandar Abbas",
+    "lat": 27.18,
+    "lng": 56.28,
+    "type": "us_strike",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Shahid Haqqani passenger pier"
+    ],
+    "first_strike": "2026-04-02",
+    "casualties_reported": "Unknown — civilian port facility",
+    "casualties_source": "Iranian media",
+    "active_days": [34],
+    "notes": "Day 34 (Apr 2): Passenger pier in Bandar Abbas struck.",
+    "verified": true,
+    "last_updated": "2026-04-02"
+  },
+  {
+    "id": "qeshm-desalination-april2",
+    "city": "Qeshm Island",
+    "lat": 26.85,
+    "lng": 56.27,
+    "type": "us_strike",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Desalination plant on Qeshm Island"
+    ],
+    "first_strike": "2026-04-02",
+    "casualties_reported": "Unknown — civilian infrastructure",
+    "casualties_source": "Iranian media / CNN",
+    "active_days": [34],
+    "notes": "Day 34 (Apr 2): Desalination plant on Qeshm Island in the Strait of Hormuz struck — threatens freshwater supply to island population.",
+    "verified": true,
+    "last_updated": "2026-04-02"
+  },
+  {
+    "id": "baharestan-isfahan-april2",
+    "city": "Baharestan (near Isfahan)",
+    "lat": 32.50,
+    "lng": 51.75,
+    "type": "us_strike",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Military targets near Baharestan"
+    ],
+    "first_strike": "2026-04-02",
+    "casualties_reported": "Unknown",
+    "casualties_source": "CNN geolocated video",
+    "active_days": [34],
+    "notes": "Day 34 (Apr 2): CNN geolocated video of large explosions near Baharestan, approximately 13 miles south of Isfahan.",
+    "verified": true,
+    "last_updated": "2026-04-02"
+  },
+  {
+    "id": "kharazi-airstrike-april1",
+    "city": "Unknown location (Iran)",
+    "lat": 35.69,
+    "lng": 51.39,
+    "type": "us_strike",
+    "subtype": "targeted_killing",
+    "actor": "israel",
+    "targets": [
+      "Former FM Kamal Kharazi — seriously injured, wife killed"
+    ],
+    "first_strike": "2026-04-01",
+    "casualties_reported": "Kharazi seriously injured, wife killed",
+    "casualties_source": "Iranian state media / Axios",
+    "active_days": [33, 34],
+    "notes": "Day 33-34: Former Iranian FM Kamal Kharazi was seriously injured and his wife killed in an airstrike on April 1. Iran described this as a deliberate attempt to derail diplomacy — Kharazi had been overseeing the Pakistan back-channel for a possible meeting between VP Vance and Iranian officials.",
+    "verified": true,
+    "last_updated": "2026-04-02"
   }
 ]
