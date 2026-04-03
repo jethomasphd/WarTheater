@@ -1,45 +1,45 @@
 {
-  "last_updated": "2026-04-02",
-  "war_day": 34,
-  "timestamp_label": "LAST UPDATED: APR 02, 2026 10:19 ET",
+  "last_updated": "2026-04-03",
+  "war_day": 35,
+  "timestamp_label": "LAST UPDATED: APR 03, 2026 11:12 ET",
   "cost": {
     "brent": {
-      "price": 107.15,
+      "price": 109.03,
       "label": "Brent Crude $/bbl",
-      "change": "+50.9% since Feb 27 — Brent ~$107 (Apr 2 early); post-Trump speech surge reverses peace dip; Apr 1 close ~$104.86; Apr 6 power plant deadline 4 days away",
-      "tooltip": "Brent Crude: The international benchmark. Pre-war close: $71.00/bbl (Feb 27). Apr 1 close: ~$104.86/bbl. Apr 2 early trading: ~$107.15/bbl — surging after Trump's escalatory prime-time address offered no exit strategy and promised 2-3 more weeks of 'extremely hard' strikes. March +55% — largest monthly gain since inception in 1988. Goldman: $110 avg through March-April, settling to $71 Q4 if crisis resolves. Apr 6 energy strike deadline 4 days away. Source: ICE Futures Europe / Bloomberg / Goldman Sachs."
+      "change": "+53.6% since Feb 27 — Brent $109.03 (Apr 2 close); WTI-Brent spread inverted; markets closed Apr 3 Good Friday; Apr 6 power plant deadline 3 days away",
+      "tooltip": "Brent Crude: The international benchmark. Pre-war close: $71.00/bbl (Feb 27). Apr 2 close: $109.03/bbl (+7.8% session). WTI-Brent spread inverted — unusual structure reflecting acute US domestic supply anxiety tied to Hormuz closure. March +~55% — largest monthly gain since inception in 1988. Markets closed Apr 3 (Good Friday). Goldman: $110 avg through March-April. Apr 6 energy strike deadline 3 days away. Iran-Oman transit protocol headlines drove intraday reversal. Source: ICE Futures Europe / Bloomberg / Goldman Sachs."
     },
     "wti": {
-      "price": 105.20,
+      "price": 111.54,
       "label": "WTI Crude $/bbl",
-      "change": "+58.2% since Feb 27 — WTI ~$105 (Apr 2 early); post-speech surge; some sources showing spikes to $112; Apr 1 close ~$100.12",
-      "tooltip": "West Texas Intermediate: The US benchmark. Pre-war close: $66.50/bbl (Feb 27). Apr 1 close: ~$100.12/bbl. Apr 2 early trading: ~$105.20/bbl — surging post-Trump speech with some sources showing intraday spikes to $112. Gas at $4.02-4.08/gal nationally. Diesel $5.49/gal. California ~$5.89/gal; CA diesel all-time high $7.17/gal. Goldman: every $10/bbl adds ~$0.25/gal at the pump. Apr 6 energy strike deadline 4 days away. Source: NYMEX / AAA / Bloomberg / Goldman Sachs."
+      "change": "+67.7% since Feb 27 — WTI $111.54 (Apr 2 close); first close above $100 since Jul 2022; WTI-Brent spread inverted; markets closed Apr 3 Good Friday",
+      "tooltip": "West Texas Intermediate: The US benchmark. Pre-war close: $66.50/bbl (Feb 27). Apr 2 close: $111.54/bbl (+$11.42, +11.4%). First close above $100 since July 2022. WTI-Brent spread inverted — reflecting acute US domestic supply anxiety. Gas at $4.091/gal nationally (Apr 3 AAA). Diesel $5.43/gal. California ~$5.89/gal. Markets closed Apr 3 (Good Friday). Goldman: every $10/bbl adds ~$0.25/gal at pump. Apr 6 energy strike deadline 3 days away. Source: NYMEX / AAA / Bloomberg / Goldman Sachs."
     },
     "gas": {
-      "price": 4.05,
+      "price": 4.091,
       "label": "US Gas Avg/Gal",
-      "change": "+$1.07 / +35.9% since Feb 27 — $4.02-4.08 nationally (Apr 2) — largest monthly jump on record — CA ~$5.89 — CA diesel all-time high $7.17 — first >$4 since Aug 2022",
-      "tooltip": "National average retail gasoline price. Pre-war: $2.98/gal (Feb 27). Apr 2: $4.02-$4.08/gal nationally — first time above $4 since August 2022. Monthly jump of $1.08 exceeds steepest climbs after Hurricane Katrina (2005) and Russia-Ukraine invasion (2022). California at $5.89/gal; California diesel hit all-time high of $7.17/gal. Goldman: every $10/bbl crude increase adds ~$0.25/gal at pump. 33% increase in 30 days from ~$3.00 pre-war. Source: AAA / EIA / Goldman Sachs."
+      "change": "+$1.11 / +37.2% since Feb 27 — $4.091 nationally (Apr 3 AAA) — +$1.11 in 35 days — CA $5.89 — OK cheapest $3.27 — diesel $5.43 — largest monthly jump on record",
+      "tooltip": "National average retail gasoline price. Pre-war: $2.98/gal (Feb 27). Apr 3: $4.091/gal nationally (AAA) — $1.11 surge in just 35 days. California leads at $5.89/gal; Oklahoma cheapest at $3.27/gal. Diesel averages $5.43/gal nationally, up 50% year-over-year. Monthly jump exceeds steepest climbs after Hurricane Katrina (2005) and Russia-Ukraine invasion (2022). Goldman: every $10/bbl crude increase adds ~$0.25/gal at pump. Source: AAA / EIA / Goldman Sachs."
     },
     "sp500": {
-      "value": 6522,
+      "value": 6583,
       "label": "S&P 500",
-      "change": "-357 pts / -5.2% — S&P ~6,522 (Apr 2 early); Dow futures -670 overnight; Nasdaq -1.19%; VIX surges to 27.31; Asian markets sell off sharply",
-      "tooltip": "S&P 500 index. Pre-war close: 6,878.88 (Feb 27). Apr 1 close: 6,575.32 (+0.72%). Apr 2 early trading: ~6,522 (-0.81%) — reversal after Trump's escalatory speech offered no exit strategy. Dow futures dropped 670 points overnight (~46,145). Nasdaq ~21,582 (-1.19%). VIX surged to 27.31 (+11.3%). Asian markets sold off: Nikkei -2.1%, Kospi -3.9%, Hang Seng -1%. 10Y Treasury 4.38% (rising on inflation fears). Gold ~$4,660 (-3.19% profit-taking). LMT $617.52 (+28% YTD). RTX $195.52 (+6.5% YTD). XOM ~$160 (-5.2%). CVX ~$197 (-4.6%). DAL ~$64, UAL ~$91. Source: NYSE / Bloomberg / CNBC."
+      "change": "-296 pts / -4.3% — S&P 6,582.69 (Apr 2 close, +0.11%); first weekly gain since conflict began (+3.4%); Dow 46,505; Nasdaq 21,879; markets closed Apr 3 Good Friday",
+      "tooltip": "S&P 500 index. Pre-war close: 6,878.88 (Feb 27). Apr 2 close: 6,582.69 (+0.11%) — opened with sharp selloff post-Trump speech then staged dramatic intraday reversal on Iran-Oman transit protocol headlines. First weekly gain since conflict began (+3.4%). Dow 46,504.67 (-0.13%). Nasdaq 21,879.18 (+0.18%). VIX closed at ~23.87 (-2.73%). Markets closed Apr 3 (Good Friday). Gold $4,692.80 (-2.50%). 10Y Treasury 4.31%. LMT ~$622.89 (+30% YTD). RTX $193-197. XOM ~$160.69 (-5.2%). CVX ~$197.41 (-4.6%). DAL ~$58.78. UAL ~$91-95. Source: NYSE / Bloomberg / CNBC."
     },
     "daily_cost": {
       "value": 1250,
       "unit": "M",
       "label": "Est. Daily US Cost",
-      "note": "~$1.0-1.5B/day — IDF 170 targets in 24 hrs — 82nd Airborne ~2,000 arrived Middle East — Bush CSG ETA Apr 10-12 — ~50,000 US troops in theater — Apr 6 deadline 4 days",
-      "tooltip": "Estimated daily operational cost. Day 34: ~$1.0-1.5B/day. IDF reported hitting 170 targets in prior 24 hours. 15,000+ total targets struck per CENTCOM/Pentagon. 82nd Airborne 1st BCT (~2,000 paratroopers) arrived in Middle East as of Mar 30. Bush CSG departed Norfolk Mar 31 — ETA CENTCOM ~Apr 10-12. Total US forces in Middle East: ~50,000. WSJ reports plans for up to 10,000 additional ground troops. Pentagon preparing 'weeks of ground operations.' Apr 6 energy deadline 4 days away. Source: Pentagon / CSIS / CENTCOM / Reuters / WSJ."
+      "note": "~$1.0-1.5B/day — Ford departs Split, resumes Eastern Med ops — Bush CSG transiting Atlantic ETA Apr 10-12 — 3 CSGs committed to theater — ~50,000 US troops — Apr 6 deadline 3 days",
+      "tooltip": "Estimated daily operational cost. Day 35: ~$1.0-1.5B/day. Ford departed Split, Croatia Apr 3 after repairs — resuming Eastern Med operations on Day ~284 of deployment. Bush CSG transiting Atlantic with CVW-7 — ETA CENTCOM ~Apr 10-12. Three carrier strike groups now committed to EUCOM/CENTCOM theater. 82nd Airborne 1st BCT operational in Kuwait. Total US forces ~50,000; up to 10,000 more planned. Navy: 292 ships total (233 USS, 59 USNS), 106 deployed, 86 underway. Apr 6 energy deadline 3 days. Source: Pentagon / CSIS / CENTCOM / USNI / Reuters."
     },
     "total_cost": {
-      "value": 40.55,
+      "value": 41.80,
       "unit": "B",
-      "label": "Est. Total Cost (34 Days)",
-      "note": "Pentagon $11.3B Day 6 + CSIS $16.5B Day 12 + ~$1-1.5B/day ongoing — ~$40.6B — Penn Wharton: $40-95B direct, up to $210B total economic impact — $200B supplemental faces bipartisan opposition — 71% oppose",
-      "tooltip": "Cumulative estimated cost since Feb 28. Pentagon: $11.3B through Day 6. CSIS: $16.5B through Day 12. Extrapolated through Day 34: ~$40.55B. Penn Wharton Budget Model: $40B-$95B in direct costs, up to $210B total economic impact. IranWarCost.com tracker: ~$37B incrementing ~$200M/day. $200B supplemental not yet formally sent to Congress; 71% oppose (CNN poll Apr 1). Bipartisan opposition building. IEA: 32 member states released 400M barrels from strategic reserves including 172M from US SPR. Source: Pentagon / CSIS / Penn Wharton / CNN."
+      "label": "Est. Total Cost (35 Days)",
+      "note": "Pentagon $11.3B Day 6 + CSIS $16.5B Day 12 + ~$1-1.5B/day ongoing — ~$41.8B — Penn Wharton: $40-95B direct, up to $210B total economic impact — $200B supplemental faces bipartisan opposition — 71% oppose — 28% approval",
+      "tooltip": "Cumulative estimated cost since Feb 28. Pentagon: $11.3B through Day 6. CSIS: $16.5B through Day 12. Extrapolated through Day 35: ~$41.80B. Penn Wharton Budget Model: $40B-$95B in direct costs, up to $210B total economic impact. IranWarCost.com tracker incrementing ~$200M/day. $200B supplemental not yet formally sent to Congress; 71% oppose (CNN poll Apr 1). War approval collapsed to 28% (YouGov). IEA: 32 member states released 400M barrels from strategic reserves including 172M from US SPR. Source: Pentagon / CSIS / Penn Wharton / CNN."
     }
   },
   "history": [
@@ -317,19 +317,27 @@
     },
     {
       "date": "2026-04-02", "war_day": 34,
-      "brent": 107.15, "wti": 105.20, "gas": 4.05, "sp500": 6522,
+      "brent": 109.03, "wti": 111.54, "gas": 4.05, "sp500": 6583,
       "daily_cost_millions": 1250, "total_cost_billions": 40.55,
       "targets_struck": 33000, "us_kia": 15, "us_wia": 348,
       "iranian_killed": 7800, "lebanese_killed": 1200,
       "displaced": 4400000, "flights_cancelled": 52000, "children_killed": 362
+    },
+    {
+      "date": "2026-04-03", "war_day": 35,
+      "brent": 109.03, "wti": 111.54, "gas": 4.091, "sp500": 6583,
+      "daily_cost_millions": 1250, "total_cost_billions": 41.80,
+      "targets_struck": 34000, "us_kia": 15, "us_wia": 348,
+      "iranian_killed": 8000, "lebanese_killed": 1318,
+      "displaced": 4400000, "flights_cancelled": 52000, "children_killed": 365
     }
   ],
   "toll": {
     "targets_struck": {
-      "value": 33000,
+      "value": 34000,
       "label": "Targets Struck",
-      "note": "CENTCOM: 15,000+ targets struck — IDF: 170 targets in 24 hrs — century-old medical research center Tehran — bridge, steel plants, pharmaceutical facilities — Bandar Abbas pier — Qeshm desalination",
-      "tooltip": "Total targets struck by US and Israeli forces since Feb 28. CENTCOM/Pentagon: 15,000+ total targets struck. IDF reported hitting 170 targets in prior 24 hours including weapons research and production sites. Day 34 strikes: century-old medical research center in Tehran, bridge near Tehran, steel plants, pharmaceutical facilities, Bandar Abbas passenger pier, Qeshm Island desalination plant. CNN geolocated large explosions near Baharestan ~13 mi south of Isfahan. Combined US/Israeli extrapolated ~33,000+ through Day 34. 850+ Tomahawk cruise missiles fired (most in any single campaign per CSIS). Source: CENTCOM / IDF / Pentagon / CNN / CSIS.",
+      "note": "CENTCOM: 15,000+ targets struck — 3 CSGs committed to theater — Ford resumes ops after Split repairs — PAC-3 production tripling (7-yr Pentagon framework) — 850+ Tomahawks fired",
+      "tooltip": "Total targets struck by US and Israeli forces since Feb 28. CENTCOM/Pentagon: 15,000+ total targets struck. Combined US/Israeli extrapolated ~34,000+ through Day 35. 3 carrier strike groups now committed to EUCOM/CENTCOM theater. Ford departed Split Apr 3, resuming Eastern Med ops on Day ~284 of deployment. Pentagon announced 7-year framework to triple PAC-3 missile production. 850+ Tomahawk cruise missiles fired (most in any single campaign per CSIS). Source: CENTCOM / IDF / Pentagon / CSIS.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
@@ -342,43 +350,43 @@
     "us_wia": {
       "value": 348,
       "label": "US Service Members WIA",
-      "note": "303-520+ WIA (CENTCOM vs. The Intercept) — 315 RTD ~91% — 82nd Airborne arrived — Bush CSG ETA Apr 10-12 — Tripoli operational — ~50,000 US troops in theater",
-      "tooltip": "US service members wounded/injured across all theaters since Feb 28. CENTCOM: 303 WIA; The Intercept: potentially 520+. Pentagon Mar 31 briefing: 348 WIA (315 returned to duty ~91%; 6 remain seriously wounded). 82nd Airborne 1st BCT (~2,000 paratroopers) arrived Middle East as of Mar 30 (Reuters). Tripoli ARG/31st MEU (~3,500) operational. Boxer ARG en route (ETA mid-to-late April). Bush CSG departed Norfolk Mar 31 (ETA ~Apr 10-12). Total US forces ~50,000; WSJ: up to 10,000 more planned. Source: CENTCOM / Pentagon / The Intercept / Reuters / USNI.",
+      "note": "303-520+ WIA (CENTCOM vs. The Intercept) — 315 RTD ~91% — 3 CSGs committed — Ford resumes ops — Tripoli operational — ~50,000 US troops in theater",
+      "tooltip": "US service members wounded/injured across all theaters since Feb 28. CENTCOM: 303 WIA; The Intercept: potentially 520+. Pentagon Mar 31 briefing: 348 WIA (315 returned to duty ~91%; 6 remain seriously wounded). 3 carrier strike groups now committed to theater. Ford departed Split Apr 3 after repairs. Tripoli ARG/31st MEU (~3,500) operational. Boxer ARG en route (ETA mid-to-late April). Bush CSG transiting Atlantic (ETA ~Apr 10-12). Navy: 292 ships (233 USS, 59 USNS), 106 deployed, 86 underway. Total US forces ~50,000. Source: CENTCOM / Pentagon / USNI / Reuters.",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
-      "value": 7800,
+      "value": 8000,
       "label": "Iranian Killed (est.)",
-      "note": "Health Min: 1,937+ killed, 24,800+ wounded — HRANA: 3,461+ (1,551 civilians, 236 children) — Iran Int'l: 4,700+ security forces — 83,351 buildings damaged — 3.2M displaced",
-      "tooltip": "Iranian casualties — dramatic discrepancies across sources reflecting fog of war and 20+ day internet blackout. Iranian Health Ministry: 1,937+ killed, 24,800+ wounded. HRANA independently documented 3,461+ deaths including 1,551 civilians. Iran International: 4,700+ security forces killed. 83,351 residential buildings damaged. 65+ schools, 77+ healthcare facilities (31 major clinical, 12 inactive). 120+ historical/cultural heritage sites including UNESCO-listed Golestan Palace. Schools ordered closed; Tehran described as 'ghost town.' 3.2 million displaced. Internet at 4% of normal (NetBlocks) — longest blackout in Iran's history (20+ days). Source: Iran Health Ministry / HRANA / Iran International / OCHA / NetBlocks.",
+      "note": "Health Min: 1,937+ killed, 24,800+ wounded — HRANA: 3,461+ (1,551 civilians, 236 children) — Iran Int'l: 4,700+ security forces — 83,351 buildings damaged — 3.2M displaced — IAEA cut off since Feb 26",
+      "tooltip": "Iranian casualties — dramatic discrepancies across sources reflecting fog of war and 30+ day internet blackout. Iranian Health Ministry: 1,937+ killed, 24,800+ wounded. HRANA independently documented 3,461+ deaths including 1,551 civilians. Iran International: 4,700+ security forces killed. Combined extrapolated estimate: ~8,000+. 83,351 residential buildings damaged. 65+ schools, 77+ healthcare facilities (31 major clinical, 12 inactive). 120+ historical/cultural heritage sites including UNESCO-listed Golestan Palace. 972 lbs of 60%-enriched uranium. IAEA communication severed since Feb 26. 3.2 million displaced. Internet at 4% of normal (NetBlocks). Source: Iran Health Ministry / HRANA / Iran International / OCHA / IAEA / NetBlocks.",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
-      "value": 1200,
+      "value": 1318,
       "label": "Lebanese Killed",
-      "note": "1,200+ killed — 3,119+ wounded — over 1M displaced (~20% of pop.) — 180,000+ crossed into Syria — Hezbollah Southern Front cmdr Hashem killed — IDF expanding buffer zone to Litani",
-      "tooltip": "Lebanese casualties from Israeli strikes and ground invasion since March 2. 1,200+ killed per Lebanese MoH. 3,119+ wounded. Over 1 million displaced (~20-25% of population), with 180,000+ crossing into Syria. Day 33-34: Hezbollah fired 50+ rockets at northern Israel (2 lightly wounded). IDF expanding 'security buffer zone' to Litani River. Hezbollah Southern Front cmdr Hashem killed in Beirut strike (Apr 1). Full Israeli ground operations launched March 16. 472 schools used as shelters. Source: Lebanon Health Ministry / IDF / UNHCR / WHO.",
+      "note": "1,318+ killed (124 children) — 3,935+ wounded — 1.2M displaced (~25% of pop.) — 180,000+ crossed into Syria — IDF expanding to Litani — govt banned Hezbollah military activities",
+      "tooltip": "Lebanese casualties from Israeli strikes and ground invasion since March 2. 1,318+ killed per Lebanese MoH (including 124 children). 3,935+ wounded. 1.2 million displaced (~25% of population), with 180,000+ crossing into Syria. Netanyahu ordered invasion expanded toward Litani River (Mar 29). DM Katz declared Israel will occupy southern Lebanon even after war. Lebanese govt banned Hezbollah military activities, expelled IRGC. PM Nawaf Salam condemned unauthorized attacks. Iran conditions ceasefire on ending Lebanon war. Source: Lebanon Health Ministry / IDF / UNHCR / WHO.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
       "value": 4400000,
       "label": "Displaced Persons",
-      "note": "4.4M+ displaced — Iran 3.2M — Lebanon 830K-1.2M+ — 180,000+ Lebanese crossed into Syria — ~2,000 vessels and ~20,000 seafarers stranded",
-      "tooltip": "People displaced from their homes across all fronts. 4.4M+ total displaced. Iran: ~3.2 million internally displaced per UNHCR. Lebanon: 830,000-1.2 million (~20-25% of population), with 180,000+ crossing into Syria. Israel: ~4,900 displaced. Additionally ~2,000 vessels and ~20,000 seafarers remain stranded due to Hormuz closure. Global humanitarian aid disrupted. Dubai's International Humanitarian City effectively crippled. OCHA activated contingency plans across 7 countries. Source: UNHCR / OCHA / WaPo / IMO.",
+      "note": "4.4M+ displaced — Iran 3.2M — Lebanon 1.2M (~25% of pop.) — 180,000+ Lebanese crossed into Syria — ~2,000 vessels and ~20,000 seafarers stranded — Gulf consumer prices +40-120%",
+      "tooltip": "People displaced from their homes across all fronts. 4.4M+ total displaced. Iran: ~3.2 million internally displaced per UNHCR. Lebanon: ~1.2 million (~25% of population), with 180,000+ crossing into Syria. Israel: ~4,900 displaced. Iranian strikes on desalination plants in Kuwait and Qatar — which depend on them for 99% of drinking water — have created humanitarian crisis. Gulf consumer prices spiked 40-120%. ~2,000 vessels and ~20,000 seafarers stranded. OCHA activated contingency plans across 7 countries. Source: UNHCR / OCHA / WaPo / IMO.",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 52000,
       "label": "Flights Cancelled",
-      "note": "52,000+ flights — ~2,000 vessels stranded — ~20,000 seafarers waiting — insurance 5-10% of vessel value — first LNG tanker (Sohar LNG) attempting transit since war began",
-      "tooltip": "Commercial flights cancelled due to airspace closures: 52,000+ since Feb 28. ~2,000 vessels and ~20,000 seafarers stranded. Insurance rates surged from 0.125-0.25% to 5-10% of hull value per transit. Iran 'tollbooth' system at Larak Island charging up to $2M per crossing in Chinese yuan or crypto. Day 34: First LNG tanker (Omani-flagged Sohar LNG) attempting transit since war began (Bloomberg). 71% of all transiting ships since Mar 1 are Iran-linked. Mar 1-25: only 142 total transits — down 93% (USNI/Lloyd's). Source: IMO / IATA / Lloyd's / Bloomberg / Windward.",
+      "note": "52,000+ flights — ~2,000 vessels stranded — ~20,000 seafarers — Hormuz ~6 transits/day — Iran-Oman transit protocol under negotiation — Philippine-flagged vessels allowed",
+      "tooltip": "Commercial flights cancelled due to airspace closures: 52,000+ since Feb 28. ~2,000 vessels and ~20,000 seafarers stranded. Hormuz traffic down to ~6 transits/day from 130+ pre-conflict. Iran-Oman transit protocol under negotiation (Apr 2 — triggered market reversal). Iran agreed to allow Philippine-flagged vessels through following bilateral talks. IRGC 'tollbooth' at Larak Island charging up to $2M per crossing in yuan or crypto. Mar 1-25: only 142 total transits — down 93%. Source: IMO / IATA / Lloyd's / Bloomberg / Windward.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
-      "value": 362,
+      "value": 365,
       "label": "Children Killed",
-      "note": "HRANA: 236+ children (Iran) + Lebanon 107+ + Israel 4 + Kuwait 1 — IRGC cluster bomb children wounded in Bnei Brak — 600+ schools attacked — Minab school 165+ killed",
-      "tooltip": "Children killed in the conflict. HRANA: 236+ children killed in Iran. Lebanon: 107+ children. Israel: 4. Kuwait: 1. Day 34: IRGC cluster-warhead missiles continue targeting Israeli cities — 4 civilians including 2 infants wounded in Bnei Brak. Minab school (Feb 28): 165-170 killed, mostly girls aged 7-12. 600+ educational centers attacked in Iran per Red Crescent. 65+ schools destroyed. Bushehr NPP struck 3 times — nearest impact 350m from reactor holding 72 tons fuel + 210 tons spent fuel. Source: UNICEF / HRANA / Lebanese MoH / UNHRC / ICRC.",
+      "note": "HRANA: 236+ children (Iran) + Lebanon 124+ + Israel 4 + Kuwait 1 — IRGC cluster bombs wounding children in Bnei Brak — 600+ schools attacked — Minab school 165+ killed",
+      "tooltip": "Children killed in the conflict. HRANA: 236+ children killed in Iran. Lebanon: 124+ children (updated Lebanese MoH). Israel: 4. Kuwait: 1. IRGC cluster-warhead missiles continue targeting Israeli cities — children critically wounded in Bnei Brak. Minab school (Feb 28): 165-170 killed, mostly girls aged 7-12. 600+ educational centers attacked in Iran per Red Crescent. 65+ schools destroyed. Bushehr NPP struck 3 times — nearest impact 350m from reactor. Source: UNICEF / HRANA / Lebanese MoH / UNHRC / ICRC.",
       "color": "var(--civilian)"
     }
   }

@@ -2,9 +2,9 @@
   {
     "label": "Hospitals Damaged",
     "count": "77+",
-    "note": "Iran: 77+ healthcare facilities damaged (31 major clinical, 12 inactive) — 83,351 residential buildings damaged — Lebanon: 4+ hospitals closed — WHO: 53 healthcare worker deaths, 117 injuries in 77 attacks",
+    "note": "Iran: 77+ healthcare facilities damaged (31 major clinical, 12 inactive) — 83,351 residential buildings damaged — Lebanon: 4+ hospitals closed — WHO: 53 healthcare worker deaths, 117 injuries in 77 attacks — Lebanon: 1,318+ killed, 3,935+ wounded",
     "source": "Iranian Health Ministry / WHO / OCHA / Lebanese MoH / ICRC",
-    "detail": "77+ healthcare facilities damaged in Iran including 31 major clinical facilities and 12 rendered completely inactive. 83,351 residential buildings damaged. 65+ schools destroyed. 120+ historical/cultural heritage sites damaged including UNESCO-listed Golestan Palace. Schools ordered closed nationwide. Tehran described as a 'ghost town.' 3.2 million displaced in Iran. Lebanon: 1,200+ killed, 3,119+ wounded, 1 million+ displaced (~20-25% of population), 180,000+ crossed into Syria. 472 schools used as shelters. Source: OCHA / WHO / ICRC / UNHCR."
+    "detail": "77+ healthcare facilities damaged in Iran including 31 major clinical facilities and 12 rendered completely inactive. 83,351 residential buildings damaged. 65+ schools destroyed. 120+ historical/cultural heritage sites damaged including UNESCO-listed Golestan Palace. Schools ordered closed nationwide. Tehran described as a 'ghost town.' 3.2 million displaced in Iran. Lebanon: 1,318+ killed (124 children), 3,935+ wounded, 1.2 million displaced (~25% of population), 180,000+ crossed into Syria. 472 schools used as shelters. IAEA communication with Iran severed since Feb 26. Source: OCHA / WHO / ICRC / UNHCR / IAEA."
   },
   {
     "label": "Schools Destroyed",
@@ -30,9 +30,9 @@
   {
     "label": "Nuclear Facilities Struck",
     "count": "8+",
-    "note": "Fordow, Isfahan UCF, Natanz (3x), Bushehr perimeter (3x — closest 350m from reactor), Arak Heavy Water (Shahid Khondab), Ardakan yellowcake, Yazd uranium processing — IAEA: Bushehr 'reddest line of all'",
+    "note": "Fordow, Isfahan UCF, Natanz (3x), Bushehr perimeter (3x — closest 350m from reactor), Arak Heavy Water (Shahid Khondab), Ardakan yellowcake, Yazd uranium processing — IAEA severed from Iran since Feb 26 — 972 lbs 60%-enriched uranium",
     "source": "IAEA / DoD / IDF / satellite imagery",
-    "detail": "Fordow enrichment facility struck Day 1 with B-2/GBU-57 MOPs. Isfahan UCF struck Day 1. Natanz struck Day 22. Day 29: US-Israeli airstrikes hit Ardakan yellowcake facility in Yazd and Khondab Heavy Water Complex in Arak. Yazd uranium processing facility also struck. Day 32: At least 3 projectiles landed near Bushehr Nuclear Power Plant — IAEA warnings of potential major radiological incident. Bushehr holds 72 tons of fuel and 210 tons of spent fuel — Rosatom CEO Likhachev warned any direct hit could cause 'a regional-scale disaster.' Rosatom suspended construction of two new reactor units. ~480 Russian Rosatom employees remain on site; third evacuation being prepared. IAEA DG Grossi called Bushehr 'the reddest line of all.' Iran's parliament pushing to exit the Non-Proliferation Treaty. Natanz entrance buildings inaccessible. Fordow significantly damaged. Iran possesses 440.9 kg of uranium enriched to 60% — enough for ~9-10 nuclear weapons if further enriched."
+    "detail": "Fordow enrichment facility struck Day 1 with B-2/GBU-57 MOPs. Isfahan UCF struck Day 1. Natanz struck Day 22. Day 29: US-Israeli airstrikes hit Ardakan yellowcake facility in Yazd and Khondab Heavy Water Complex in Arak. Day 32: At least 3 projectiles landed near Bushehr Nuclear Power Plant. Bushehr holds 72 tons of fuel and 210 tons of spent fuel. IAEA communication with Iran severed since ~Feb 26. Last IAEA report (GOV/2026/8, Feb 27) confirmed enrichment to 60% purity. Iran possesses ~972 lbs of 60%-enriched uranium stored in underground tunnel complex at Isfahan — enough for multiple weapons. Fourth undisclosed enrichment facility remains unlocated. Natanz entrance buildings damaged, 'no radiological consequence expected.' No elevated radiation in neighboring countries. Iranian officials signaling potential NPT withdrawal. UN 'snapback' sanctions disputed by Russia and China. OFAC General License U: ~140M barrels sanctioned Iranian crude at sea authorized through Apr 19."
   },
   {
     "label": "Airports Damaged",

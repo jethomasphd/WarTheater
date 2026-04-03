@@ -3103,5 +3103,95 @@
     "category": "summary",
     "source": "Multiple",
     "data_point": "~$40.6B — Apr 6 deadline 4 days — 28% approval — 4 critical variables"
+  },
+  {
+    "date": "2026-04-02",
+    "time": "16:00",
+    "title": "Markets close — S&P stages dramatic intraday reversal to 6,582.69 (+0.11%)",
+    "description": "S&P 500 closed at 6,582.69 (+0.11%) after opening with a sharp selloff following Trump's April 1 evening address. Dramatic intraday reversal driven by Iran-Oman Strait of Hormuz transit protocol headlines and short-covering. First weekly gain since conflict began (+3.4%). Dow 46,504.67 (-0.13%). Nasdaq 21,879.18 (+0.18%). WTI settled at $111.54 (+$11.42, +11.4%) — first close above $100 since July 2022. Brent $109.03 (+7.8%). WTI-Brent spread inverted. VIX closed at 23.87 (-2.73%).",
+    "category": "financial",
+    "source": "NYSE / Bloomberg / CNBC / Reuters",
+    "data_point": "S&P 6,582.69 (+0.11%) — WTI $111.54 — Brent $109.03 — first weekly gain"
+  },
+  {
+    "date": "2026-04-02",
+    "time": "16:30",
+    "title": "Oil majors fall sharply despite surging crude — demand destruction fears",
+    "description": "XOM dropped ~5.2% to $160.69 and CVX fell ~4.6% to $197.41 despite WTI closing above $111. Paradoxical decline reflects demand-destruction fears at $110+ oil and broader risk-off sentiment. Defense stocks diverged: RTX in $193-197 range, LMT closed near $622.89 (+0.85%, +30% YTD). Reuters analysis noted defense stocks have actually declined entering the conflict's second month. Pentagon announced 7-year framework to triple PAC-3 missile production.",
+    "category": "financial",
+    "source": "Reuters / Bloomberg / NYSE",
+    "data_point": "XOM -5.2% — CVX -4.6% — LMT +30% YTD — PAC-3 tripling"
+  },
+  {
+    "date": "2026-04-02",
+    "time": "17:00",
+    "title": "Airlines battered — UAL announces 5% capacity cut on jet fuel surge",
+    "description": "DAL closed near $58.78 and UAL in the $90-95 range, both declining 3%+ on April 2. UAL announced a 5% capacity cut to offset a 60% surge in jet fuel costs since February. Analysts warned 'robust travel demand of 2025 may finally buckle under $5.00-a-gallon gasoline.' Gold futures fell to $4,692.80 (-$120.30, -2.50%) — investors selling gold to raise cash, rotating into surging dollar. 10-Year Treasury at 4.31%. 2-year at 3.79%.",
+    "category": "financial",
+    "source": "NYSE / Bloomberg / COMEX / AAA",
+    "data_point": "UAL 5% capacity cut — jet fuel +60% — gold $4,693 — 10Y 4.31%"
+  },
+  {
+    "date": "2026-04-03",
+    "time": "06:00",
+    "title": "USS Gerald R. Ford departs Split, Croatia — resumes Eastern Med operations",
+    "description": "CVN-78 Ford departed Split, Croatia on April 3 after completing repairs and crew rest. The Ford suffered a non-combat fire on March 12 in the Red Sea that displaced 600 sailors and damaged 7 berthing compartments. Now on Day ~284 of deployment — approaching record-breaking 11th month. DESRON 2 escorts (DDG-96, DDG-72, DDG-81) transited back through Suez to Mediterranean. Three carrier strike groups now committed to EUCOM/CENTCOM theater.",
+    "category": "military",
+    "source": "USNI News / Navy Times / CENTCOM",
+    "data_point": "Ford resumes ops — Day ~284 — 3 CSGs committed — DESRON 2 in Med"
+  },
+  {
+    "date": "2026-04-03",
+    "time": "07:00",
+    "title": "Good Friday — U.S. markets closed; gas hits $4.091/gallon nationally",
+    "description": "U.S. equity, bond, and commodity markets closed for Good Friday. AAA national average reached $4.091/gallon (up from $4.081 on Apr 2), representing a $1.11/gallon surge in 35 days from $2.98 on February 26. California leads at $5.89/gallon; Oklahoma cheapest at $3.27. Diesel averages $5.43/gallon nationally, up 50% year-over-year.",
+    "category": "financial",
+    "source": "AAA / NYSE / EIA",
+    "data_point": "$4.091/gal — +$1.11 in 35 days — CA $5.89 — diesel $5.43"
+  },
+  {
+    "date": "2026-04-03",
+    "time": "08:00",
+    "title": "Houthis resume Israel attacks but hold fire on Red Sea shipping — Bab al-Mandeb threat escalates",
+    "description": "After 5-month pause (since Oct 2025 Gaza ceasefire deal), Houthis resumed attacks on Israel on March 28, with subsequent attacks March 30, April 1, and April 2 — all intercepted. Critically, Houthis have NOT resumed attacks on commercial shipping as of April 3. However, military spokesman Brig. Gen. Saree: 'our fingers are on the trigger.' Senior politburo member al-Bukhaiti considering 'naval blockade' targeting 'aggressor countries.' Houthis warned Bab al-Mandeb closure 'likely' if Gulf states join war. ~30 Saudi tankers at Yanbu within Houthi strike range.",
+    "category": "military",
+    "source": "Al Masirah / Reuters / AP / Bloomberg",
+    "data_point": "Houthis: attacks on Israel resumed, shipping spared — Bab al-Mandeb closure 'likely'"
+  },
+  {
+    "date": "2026-04-03",
+    "time": "09:00",
+    "title": "Ceasefire negotiations stalled — Zarif publishes Foreign Affairs compromise proposal",
+    "description": "Former Iranian FM Javad Zarif published proposal in Foreign Affairs calling for nuclear program limits plus Hormuz reopening in exchange for comprehensive sanctions relief — more moderate than official Iranian stance. VP Vance reportedly communicating with mediators about ceasefire-for-Hormuz deal. Iran specifically requested Vance for direct negotiations, rejecting envoys Witkoff and Kushner. Pakistan, Egypt, and Turkey as key mediators. GOP approval dropped from 76% to 61%. Overall support at 28% (YouGov).",
+    "category": "diplomatic",
+    "source": "Foreign Affairs / Axios / Reuters / YouGov",
+    "data_point": "Zarif compromise — Vance lead negotiator — Iran rejects Witkoff/Kushner — 28% approval"
+  },
+  {
+    "date": "2026-04-03",
+    "time": "10:00",
+    "title": "IAEA severed from Iran — 972 lbs of 60%-enriched uranium unmonitored",
+    "description": "IAEA communication with Iranian nuclear regulatory authorities severed since ~February 26. Last report (GOV/2026/8, Feb 27) confirmed enrichment to 60% purity. Iran possesses ~972 lbs of 60%-enriched uranium stored in underground tunnel complex at Isfahan — enough for multiple weapons. Fourth undisclosed enrichment facility remains unlocated. Natanz entrance buildings damaged, 'no radiological consequence expected.' No elevated radiation detected in neighboring countries. Iranian officials signaling potential NPT withdrawal. OFAC General License U: ~140M barrels sanctioned Iranian crude authorized through April 19.",
+    "category": "military",
+    "source": "IAEA / OFAC / Reuters / Bloomberg",
+    "data_point": "IAEA severed since Feb 26 — 972 lbs 60% uranium — 4th facility unlocated"
+  },
+  {
+    "date": "2026-04-03",
+    "time": "10:30",
+    "title": "Lebanon war escalates — Netanyahu orders advance to Litani River; 1,318+ killed",
+    "description": "Hezbollah entered conflict March 2. Israel launched ground operations March 16 with three divisions. Netanyahu ordered expansion toward Litani River March 29. DM Katz declared Israel will occupy southern Lebanon even after war. Israel killed senior Hezbollah commander Haj Youssef Ismail Hashem in Beirut strike April 1. Lebanese casualties: 1,318+ killed (124 children), 3,935+ wounded, 1.2 million displaced (~25% of population). Lebanese government banned Hezbollah military activities, expelled IRGC, cancelled visa-free agreements with Iran.",
+    "category": "military",
+    "source": "IDF / Lebanese MoH / UNHCR / Reuters",
+    "data_point": "1,318+ killed — 1.2M displaced — Litani advance — Hezbollah banned by govt"
+  },
+  {
+    "date": "2026-04-03",
+    "time": "11:00",
+    "title": "Day 35 summary — Good Friday pause, April 6 deadline 3 days away",
+    "description": "Three dynamics for Day 36+: (1) April 6 deadline for Hormuz reopening — Trump threatened power plants and oil infrastructure but showed willingness to extend deadlines; (2) Houthi escalation against commercial shipping — if Bab al-Mandeb closes alongside Hormuz, both chokepoints blocked simultaneously for first time in history; (3) Ford's return and Bush transit give Navy three-carrier coverage by late April at cost of near-zero Pacific carrier presence. War cost ~$41.8B. Gas $4.091. 15 KIA / 348 WIA. 28% approval.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "~$41.8B — Apr 6 deadline 3 days — 3 CSGs — dual chokepoint risk — 28% approval"
   }
 ]

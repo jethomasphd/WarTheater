@@ -236,5 +236,12 @@
     "label": "APRIL 2, 2026 — DAY 34",
     "headline": "Trump's prime-time address offers no exit strategy — markets reverse as April 6 power plant deadline looms; IRGC cluster-warhead salvos at Israel; UK-led 35-nation Hormuz coalition convenes without US; war approval collapses to 28%",
     "file": "data/briefings/day-34.html"
+  },
+  {
+    "day": 35,
+    "date": "2026-04-03",
+    "label": "APRIL 3, 2026 — DAY 35",
+    "headline": "Oil breaches $111 as WTI-Brent spread inverts; Ford resumes operations after Split repairs; three carrier strike groups committed; Houthis threaten Bab al-Mandeb closure; ceasefire stalled as April 6 deadline looms",
+    "file": "data/briefings/day-35.html"
   }
 ]

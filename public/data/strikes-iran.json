@@ -4,9 +4,9 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-04-02",
+    "last_updated": "2026-04-03",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "~33,000+ (CENTCOM Mar 31: 11,000+ US targets in first 30 days, 200 'dynamic strikes' in last 24 hrs. IDF: 800+ attack sorties, 170 IDF targets in prior 24 hours as of Apr 2, ~16,000+ munitions dropped on Iran since Feb 28. Combined US/Israeli extrapolated ~33,000+ through Day 34)",
+    "total_targets_struck": "~34,000+ (CENTCOM: 15,000+ US targets. IDF: 800+ attack sorties, 170 targets in prior 24 hours as of Apr 2, ~16,000+ munitions dropped on Iran since Feb 28. Combined US/Israeli extrapolated ~34,000+ through Day 35. Pentagon announced 7-year framework to triple PAC-3 missile production.)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
       "killed": "~1,900 (Red Crescent) / 3,389 (HRANA)",
