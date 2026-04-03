@@ -1,11 +1,11 @@
 {
   "conflicts": [
     {
-      "label": "Iran 2026 (Day 34)",
-      "targets_struck": 33000,
+      "label": "Iran 2026 (Day 35)",
+      "targets_struck": 34000,
       "us_kia": 15,
       "daily_cost_millions": 1250,
-      "note": "Operation Epic Fury — Day 34. Trump's prime-time address offers no exit strategy — 2-3 more weeks of 'extremely hard' strikes. Markets reverse: S&P -0.81%, VIX 27.31. Brent surges to $107 post-speech. 4 IRGC cluster-warhead salvos at Israel. IDF 170 targets in 24 hrs. Kharazi injured/wife killed. UK-led 35-nation Hormuz coalition. War approval 28% YouGov. Apr 6 deadline 4 days. ~$40.6B spent."
+      "note": "Operation Epic Fury — Day 35. Good Friday — markets closed. Apr 2 close: WTI $111.54 (+11.4%), Brent $109.03 (+7.8%), S&P 6,582.69 (+0.11%, first weekly gain). Ford departs Split, 3 CSGs committed. Houthis resuming Israel attacks, threatening Bab al-Mandeb. Ceasefire stalled — Zarif proposes compromise in Foreign Affairs. Gas $4.091. Apr 6 deadline 3 days. 28% approval. ~$41.8B spent."
     },
     {
       "label": "Iraq 2003 (Day 21)",
@@ -30,5 +30,5 @@
     }
   ],
   "sources": "CRS Reports R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya). Costs inflation-adjusted to 2026 dollars using BLS CPI-U.",
-  "last_updated": "2026-04-02"
+  "last_updated": "2026-04-03"
 }

@@ -1,6 +1,6 @@
 {
-  "labels": ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "Day 8", "Day 9", "Day 10", "Day 11", "Day 12", "Day 13", "Day 14", "Day 15", "Day 16", "Day 17", "Day 18", "Day 19", "Day 20", "Day 21", "Day 22", "Day 23", "Day 24", "Day 25", "Day 26", "Day 27", "Day 28", "Day 29", "Day 30", "Day 31", "Day 32", "Day 33", "Day 34"],
-  "daily_cost_millions": [3000, 2600, 2000, 1500, 1100, 1100, 1000, 900, 800, 800, 850, 850, 900, 900, 850, 850, 850, 850, 850, 900, 900, 1000, 1000, 1000, 1000, 1250, 1250, 1250, 1250, 1250, 1250, 1250, 1250, 1250],
+  "labels": ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "Day 8", "Day 9", "Day 10", "Day 11", "Day 12", "Day 13", "Day 14", "Day 15", "Day 16", "Day 17", "Day 18", "Day 19", "Day 20", "Day 21", "Day 22", "Day 23", "Day 24", "Day 25", "Day 26", "Day 27", "Day 28", "Day 29", "Day 30", "Day 31", "Day 32", "Day 33", "Day 34", "Day 35"],
+  "daily_cost_millions": [3000, 2600, 2000, 1500, 1100, 1100, 1000, 900, 800, 800, 850, 850, 900, 900, 850, 850, 850, 850, 850, 900, 900, 1000, 1000, 1000, 1000, 1250, 1250, 1250, 1250, 1250, 1250, 1250, 1250, 1250, 1250],
   "day_notes": [
     "First strikes — $5.6B munitions in 48 hrs (WaPo)",
     "Sustained air campaign — 900 targets in first 12 hours",
@@ -35,13 +35,14 @@
     "Day 31 — Trump threatens to 'obliterate' power plants/oil wells/Kharg/desalination if no deal; Pentagon preparing 'weeks of ground operations'; $23B arms sales bypass Congress; Houthis formally in war; Pakistan: both sides 'expressed confidence'; Brent $114.90+ (+51% in March — steepest monthly rise on record); 61% disapprove; 7,000-8,000 ground troops incoming; Spain closes airspace; Iraq PMF enters Iran; ~$36.8B",
     "Day 32 — Iranian drone strikes Kuwaiti VLCC Al Salmi at Port of Dubai — risks major oil spill; Brent $112.78 settle, nearing $120 on attack; gas crosses $4.00 nationally (highest since 2022); CA $5.88; diesel $5.42; 2 Chinese container ships transit Hormuz (first cargo since war began); Houthi Bab al-Mandeb closure threatened — dual chokepoint scenario; gold $4,578-4,600; 10Y volatile 4.31-4.43%; Moody's recession 49%; Islamabad peace talks stalled — 30-point gap; 61% disapprove; ~$38.1B",
     "Day 33 — Trump claims Iran 'asked for CEASEFIRE' — markets surge; S&P +2.91%; Brent drops 5% to ~$105; 200 dynamic strikes in 24 hrs; IRGC cluster bomb hits Bnei Brak children; 3 missile waves at Israel; tanker Aqua 1 struck off Qatar; Kuwait airport fuel depots ablaze; IRGC threatens 17 US corporate HQs; Rubio: 'finish line coming'; Trump address 9 PM ET; gas $4.064; VLCC $423,736/day; 15 KIA / 348 WIA; Apr 6 deadline 5 days; ~$39.3B",
-    "Day 34 — Trump's prime-time address offers no exit strategy — 2-3 more weeks of 'extremely hard' strikes; markets reverse: S&P ~6,522 (-0.81%), Dow futures -670, VIX 27.31; Brent surges to $107+ post-speech; WTI ~$105 (spikes to $112); 4 IRGC missile salvos at Israel with cluster warheads — 4 wounded Bnei Brak (2 infants); Hezbollah 50+ rockets; IDF 170 targets in 24 hrs; Kharazi injured/wife killed in airstrike; UK-led 35-nation Hormuz coalition (no US); Pakistan: 'obstacles'; war approval 28% YouGov; MTG breaks with Trump; first LNG tanker attempting transit; ~$40.6B"
+    "Day 34 — S&P 6,582.69 (+0.11%) — dramatic intraday reversal on Iran-Oman transit protocol; first weekly gain (+3.4%); WTI $111.54 (+11.4%); Brent $109.03 (+7.8%); WTI-Brent inverted; gold $4,692.80; VIX 23.87; XOM -5.2%; CVX -4.6%; DAL $58.78; UAL 5% capacity cut; LMT $622.89 (+30% YTD); markets closed Apr 3 Good Friday; ~$40.6B",
+    "Day 35 — Good Friday — markets closed; Ford departs Split, resumes Eastern Med ops Day ~284; Bush CSG transiting Atlantic ETA Apr 10-12; 3 CSGs committed; Houthis resumed attacks on Israel but holding fire on shipping; Zarif publishes Foreign Affairs ceasefire proposal; IAEA severed from Iran since Feb 26; 972 lbs 60%-enriched uranium; PAC-3 tripling; gas $4.091; Apr 6 deadline 3 days; 28% approval; ~$41.8B"
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
-    "labels": ["Feb 25", "Feb 26", "Feb 27", "Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15", "Mar 16", "Mar 17", "Mar 18", "Mar 19", "Mar 20", "Mar 21", "Mar 22", "Mar 23", "Mar 24", "Mar 25", "Mar 26", "Mar 27", "Mar 28", "Mar 29", "Mar 30", "Mar 31", "Apr 1", "Apr 2"],
-    "data": [50, 50, 50, 25, 5, 0, 2, 2, 2, 3, 2, 2, 3, 2, 3, 3, 3, 3, 5, 5, 5, 5, 8, 5, 4, 3, 3, 3, 3, 5, 6, 5, 5, 5, 4, 4, 5],
+    "labels": ["Feb 25", "Feb 26", "Feb 27", "Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15", "Mar 16", "Mar 17", "Mar 18", "Mar 19", "Mar 20", "Mar 21", "Mar 22", "Mar 23", "Mar 24", "Mar 25", "Mar 26", "Mar 27", "Mar 28", "Mar 29", "Mar 30", "Mar 31", "Apr 1", "Apr 2", "Apr 3"],
+    "data": [50, 50, 50, 25, 5, 0, 2, 2, 2, 3, 2, 2, 3, 2, 3, 3, 3, 3, 5, 5, 5, 5, 8, 5, 4, 3, 3, 3, 3, 5, 6, 5, 5, 5, 4, 4, 5, 6],
     "prewar_daily": 50
   },
-  "last_updated": "2026-04-02"
+  "last_updated": "2026-04-03"
 }
