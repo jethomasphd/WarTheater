@@ -4,9 +4,9 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-04-03",
+    "last_updated": "2026-04-04",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "~34,000+ (CENTCOM: 15,000+ US targets. IDF: 800+ attack sorties, 170 targets in prior 24 hours as of Apr 2, ~16,000+ munitions dropped on Iran since Feb 28. Combined US/Israeli extrapolated ~34,000+ through Day 35. Pentagon announced 7-year framework to triple PAC-3 missile production.)",
+    "total_targets_struck": "~35,000+ (CENTCOM: over 5,000 targets struck. IDF: 800+ attack sorties. Combined US/Israeli extrapolated ~35,000+ through Day 36. EA-37B Compass Call II first operational use. 24 F-22 Raptors at Israel's Ovda Airbase. GBU-72 5,000-lb penetrators deployed. F-15E Strike Eagle shot down Apr 3 — first US combat aircraft loss to enemy fire since 2003.)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
       "killed": "~1,900 (Red Crescent) / 3,389 (HRANA)",
@@ -1416,5 +1416,43 @@
     "notes": "Day 33-34: Former Iranian FM Kamal Kharazi was seriously injured and his wife killed in an airstrike on April 1. Iran described this as a deliberate attempt to derail diplomacy — Kharazi had been overseeing the Pakistan back-channel for a possible meeting between VP Vance and Iranian officials.",
     "verified": true,
     "last_updated": "2026-04-02"
+  },
+  {
+    "id": "f15e-shootdown-april3",
+    "city": "Over Iranian territory (location unspecified)",
+    "lat": 32.50,
+    "lng": 53.00,
+    "type": "us_strike",
+    "subtype": "aircraft_loss",
+    "actor": "us",
+    "targets": [
+      "Strike mission over Iran — F-15E Strike Eagle shot down by Iranian air defenses"
+    ],
+    "first_strike": "2026-04-03",
+    "casualties_reported": "1 pilot rescued; weapons systems officer (WSO) missing with search operations underway. A-10 Warthog also downed during rescue attempt (pilot recovered). Two Black Hawks took small-arms fire.",
+    "casualties_source": "CENTCOM / Pentagon / Multiple",
+    "active_days": [36],
+    "notes": "Day 36 (Apr 3): CRITICAL INCIDENT — Iran shot down a US F-15E Strike Eagle over Iranian territory. First confirmed US combat aircraft loss to enemy fire since 2003 (Iraq). One pilot rescued; WSO remains missing. During the rescue attempt, an A-10 Warthog was also shot down (pilot recovered), and two Black Hawks took small-arms fire. Represents significant escalation in Iran's air defense effectiveness and could shift domestic political dynamics if losses continue.",
+    "verified": true,
+    "last_updated": "2026-04-04"
+  },
+  {
+    "id": "ea37b-deployment-april2",
+    "city": "CENTCOM AOR (operating location classified)",
+    "lat": 25.12,
+    "lng": 51.31,
+    "type": "us_strike",
+    "subtype": "electronic_warfare",
+    "actor": "us",
+    "targets": [
+      "EA-37B Compass Call II electronic warfare aircraft — first-ever operational deployment"
+    ],
+    "first_strike": "2026-04-02",
+    "casualties_reported": "N/A — electronic warfare platform",
+    "casualties_source": "CENTCOM / Pentagon",
+    "active_days": [35, 36],
+    "notes": "Day 35-36 (Apr 2-3): EA-37B Compass Call II electronic warfare aircraft deployed to CENTCOM theater — first-ever operational use of the platform. Marks significant expansion of US electronic warfare capabilities against Iranian air defenses and communications networks.",
+    "verified": true,
+    "last_updated": "2026-04-04"
   }
 ]

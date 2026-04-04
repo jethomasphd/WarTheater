@@ -1470,5 +1470,53 @@
     "notes": "Day 33-34: IDF killed Hezbollah southern front commander Haj Youssef Ismail Hashem in a Beirut strike on April 1 — most senior Hezbollah figure eliminated with '40+ years experience'.",
     "verified": true,
     "last_updated": "2026-04-02"
+  },
+  {
+    "id": "houthi-israel-april2",
+    "city": "Southern Israel",
+    "lat": 31.25,
+    "lng": 34.79,
+    "type": "houthi_attack",
+    "weapon": "Ballistic missiles and UAVs",
+    "origin": "Yemen (Houthi)",
+    "first_strike": "2026-04-02",
+    "casualties_reported": "Intercepted. No casualties.",
+    "casualties_source": "IDF / Houthi media",
+    "active_days": [34, 35, 36],
+    "notes": "Day 34-36 (Apr 2-4): Houthis continued missile and UAV attacks on Israel — 4 attacks in 7 days since resuming March 28. All intercepted. Senior politburo member Mohammed al-Bukhaiti considering Bab al-Mandeb naval blockade targeting 'aggressor country' vessels. Bloomberg Economics warned Houthi Red Sea disruption could push oil to $140/barrel since Saudi Arabia rerouted 5M bpd through Red Sea ports. Houthis holding fire on commercial shipping but threatening blockade escalation.",
+    "verified": true,
+    "last_updated": "2026-04-04"
+  },
+  {
+    "id": "uae-cumulative-april3",
+    "city": "UAE (nationwide)",
+    "lat": 24.45,
+    "lng": 54.65,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles, cruise missiles, drones",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-02-28",
+    "casualties_reported": "Cumulative: 438 ballistic missiles, 2,012 drones, 19 cruise missiles absorbed. Abu Dhabi airport and Dubai landmarks struck.",
+    "casualties_source": "UAE MoD / Reuters / Al Jazeera",
+    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36],
+    "notes": "Day 36 cumulative update: UAE has absorbed the heaviest bombardment of any GCC state — 438 ballistic missiles, 2,012 drones, and 19 cruise missiles as of April 1. Abu Dhabi airport struck. Dubai landmarks damaged. This entry tracks the cumulative Iranian campaign against the UAE.",
+    "verified": true,
+    "last_updated": "2026-04-04"
+  },
+  {
+    "id": "iraq-pmf-iran-march29",
+    "city": "Iran (border region)",
+    "lat": 33.50,
+    "lng": 46.00,
+    "type": "iran_retaliation",
+    "weapon": "Ground forces deployment",
+    "origin": "Iraq (Popular Mobilization Forces)",
+    "first_strike": "2026-03-29",
+    "casualties_reported": "~800+ Iraqi fighters deployed inside Iran",
+    "casualties_source": "AP / Iraqi media / footage from Mar 29",
+    "active_days": [30, 31, 32, 33, 34, 35, 36],
+    "notes": "Day 30-36: Footage from March 29 showed Iraq's Popular Mobilization Forces deployed inside Iran itself. An estimated 800+ Iraqi fighters crossed into Iran to support the regime. Islamic Resistance in Iraq has conducted 300+ attacks on US forces since February 28, including drone strikes on Baghdad Embassy compound.",
+    "verified": true,
+    "last_updated": "2026-04-04"
   }
 ]

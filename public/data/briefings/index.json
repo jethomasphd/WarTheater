@@ -243,5 +243,12 @@
     "label": "APRIL 3, 2026 — DAY 35",
     "headline": "Oil breaches $111 as WTI-Brent spread inverts; Ford resumes operations after Split repairs; three carrier strike groups committed; Houthis threaten Bab al-Mandeb closure; ceasefire stalled as April 6 deadline looms",
     "file": "data/briefings/day-35.html"
+  },
+  {
+    "day": 36,
+    "date": "2026-04-04",
+    "label": "APRIL 4, 2026 — DAY 36",
+    "headline": "F-15E Strike Eagle shot down over Iran — first US combat aircraft loss since 2003; Pakistan ceasefire talks collapse; Houthis threaten Bab al-Mandeb blockade; CMA CGM vessel first major Western Hormuz transit; April 6 deadline 2 days away",
+    "file": "data/briefings/day-36.html"
   }
 ]
