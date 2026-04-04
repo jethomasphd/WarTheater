@@ -1,11 +1,11 @@
 {
   "conflicts": [
     {
-      "label": "Iran 2026 (Day 35)",
-      "targets_struck": 34000,
+      "label": "Iran 2026 (Day 36)",
+      "targets_struck": 35000,
       "us_kia": 15,
       "daily_cost_millions": 1250,
-      "note": "Operation Epic Fury — Day 35. Good Friday — markets closed. Apr 2 close: WTI $111.54 (+11.4%), Brent $109.03 (+7.8%), S&P 6,582.69 (+0.11%, first weekly gain). Ford departs Split, 3 CSGs committed. Houthis resuming Israel attacks, threatening Bab al-Mandeb. Ceasefire stalled — Zarif proposes compromise in Foreign Affairs. Gas $4.091. Apr 6 deadline 3 days. 28% approval. ~$41.8B spent."
+      "note": "Operation Epic Fury — Day 36. F-15E Strike Eagle shot down over Iran — first US combat aircraft loss to enemy fire since 2003. Pakistan ceasefire talks collapsed. Houthis 4 attacks in 7 days, threatening Bab al-Mandeb. CMA CGM vessel first major Western Hormuz transit. Markets closed Apr 3-4. Jobs +178K (3x expected). Trump approval 35-39.7%. Gas $4.091. Apr 6 deadline 2 days. ~$43.1B spent."
     },
     {
       "label": "Iraq 2003 (Day 21)",
@@ -30,5 +30,5 @@
     }
   ],
   "sources": "CRS Reports R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya). Costs inflation-adjusted to 2026 dollars using BLS CPI-U.",
-  "last_updated": "2026-04-03"
+  "last_updated": "2026-04-04"
 }

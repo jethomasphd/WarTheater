@@ -3193,5 +3193,95 @@
     "category": "summary",
     "source": "Multiple",
     "data_point": "~$41.8B — Apr 6 deadline 3 days — 3 CSGs — dual chokepoint risk — 28% approval"
+  },
+  {
+    "date": "2026-04-03",
+    "time": "14:00",
+    "title": "F-15E Strike Eagle shot down over Iran — first US combat aircraft loss to enemy fire since 2003",
+    "description": "Iran shot down a US F-15E Strike Eagle over Iranian territory — the first confirmed US combat aircraft loss to enemy fire since the 2003 Iraq War. One pilot was rescued; the weapons systems officer (WSO) remains missing with search operations underway. During the rescue attempt, an A-10 Warthog was also downed (pilot recovered), and two Black Hawks took small-arms fire. Represents a significant escalation in Iran's air defense effectiveness.",
+    "category": "military",
+    "source": "CENTCOM / Pentagon / Multiple",
+    "data_point": "F-15E shot down — first US aircraft loss since 2003 — pilot rescued, WSO missing — A-10 also downed"
+  },
+  {
+    "date": "2026-04-03",
+    "time": "15:00",
+    "title": "Pakistan-mediated ceasefire talks collapse — Iran refuses to meet US officials",
+    "description": "WSJ reported Iran officially informed mediators it is unwilling to meet US officials in Islamabad. Iran also rejected a proposed 48-hour ceasefire per Fars News. Pakistan FM called reports 'baseless' but the trajectory is clear: US demands (zero enrichment, dismantle all nuclear facilities, open Hormuz, end proxy support, full IAEA verification) vs. Iran's five counter-conditions (end all attacks, mechanisms to prevent war resumption, compensation, recognition of Hormuz sovereignty) are irreconcilable. Trump demanded 'unconditional surrender.' Iran called this something to 'take to the grave.'",
+    "category": "diplomatic",
+    "source": "WSJ / Fars News / Pakistan FM / Multiple",
+    "data_point": "Iran refuses Islamabad meeting — rejects 48-hr ceasefire — positions irreconcilable"
+  },
+  {
+    "date": "2026-04-03",
+    "time": "16:00",
+    "title": "CMA CGM container vessel first major Western European ship to transit Hormuz",
+    "description": "A French CMA CGM container vessel (Maltese-flagged) successfully transited the Strait of Hormuz — the first major Western European ship to do so since hostilities began. A Japanese oil tanker followed, hugging the Omani coast. Iran has selectively permitted China- and India-bound vessels to pass with military escort. Pakistan secured a deal for Pakistani-flagged ships.",
+    "category": "military",
+    "source": "Bloomberg / Reuters / Lloyd's List",
+    "data_point": "First major Western Hormuz transit — CMA CGM Maltese-flagged — Japanese tanker follows"
+  },
+  {
+    "date": "2026-04-03",
+    "time": "17:00",
+    "title": "SecDef Hegseth forces Army Chief Gen. Randy George into immediate retirement",
+    "description": "Secretary of Defense Pete Hegseth forced Army Chief of Staff General Randy George into immediate retirement — one of the most consequential Pentagon upheavals in decades. Hegseth has now fired more than a dozen senior military leaders since taking office. The department has been rebranded as the 'Department of War.' The Signal messaging controversy over war planning discussions continues to generate political headaches.",
+    "category": "political",
+    "source": "Pentagon / AP / Reuters",
+    "data_point": "Gen. George forced out — 12+ senior leaders fired — Pentagon rebranded 'Department of War'"
+  },
+  {
+    "date": "2026-04-04",
+    "time": "02:00",
+    "title": "IDF reframes Lebanon war goals — disarming Hezbollah 'unrealistic' without full occupation",
+    "description": "On April 3, the IDF reframed its war goals in Lebanon, acknowledging that militarily disarming Hezbollah is 'unrealistic' without occupying all of Lebanon. Lebanon death toll: 1,345+ killed, 3,935 injured, ~1 million displaced (20% of population). 200,000+ have crossed into Syria. The Lebanese government took the unprecedented step of proscribing Hezbollah's military activities. 132,000+ in 620+ collective shelters at 94% capacity. 49 primary healthcare centers and 5 hospitals shut.",
+    "category": "military",
+    "source": "IDF / Lebanese MoH / UNHCR / WHO",
+    "data_point": "IDF: disarming Hezbollah 'unrealistic' — 1,345+ killed — 1M displaced — 200K into Syria"
+  },
+  {
+    "date": "2026-04-04",
+    "time": "04:00",
+    "title": "FM Araghchi warns Bushehr strikes risk radioactive fallout reaching GCC capitals",
+    "description": "Iranian Foreign Minister Araghchi warned on April 4 that repeated strikes on Bushehr Nuclear Power Plant risk radioactive fallout reaching GCC capitals. Bushehr has been struck four times during Operation Epic Fury. The plant holds 72 tons of fuel and 210 tons of spent fuel. ~480 Russian citizens remain on site. IAEA has warned of potential major radiological incident.",
+    "category": "military",
+    "source": "Iranian FM / IAEA / Rosatom / Reuters",
+    "data_point": "Bushehr struck 4 times — radioactive fallout risk to GCC — 72 tons fuel on site"
+  },
+  {
+    "date": "2026-04-04",
+    "time": "06:00",
+    "title": "March jobs report: +178K vs 60K expected — Fed trapped between inflation and growth",
+    "description": "March jobs report (released Good Friday) showed 178,000 jobs created vs. 60,000 expected — nearly triple forecasts. Unemployment fell to 4.3%. CPI approaching 4%, driven by oil shock and tariff pass-through. The Fed is in an impossible bind: strong jobs plus surging inflation equals zero rate cuts for 2026. New tariffs announced April 2: 50% on steel/aluminum/copper, 100% on patented pharmaceuticals. National debt hit $39 trillion.",
+    "category": "financial",
+    "source": "BLS / Federal Reserve / CNBC",
+    "data_point": "178K jobs (3x expected) — unemployment 4.3% — CPI ~4% — zero rate cuts for 2026 — $39T debt"
+  },
+  {
+    "date": "2026-04-04",
+    "time": "08:00",
+    "title": "Trump approval sinks to 35-39.7% — war never commanded majority support",
+    "description": "Silver Bulletin aggregate (April 3): Trump at 39.7% approve / 57.1% disapprove — first time below 40% in second term. CNN/SSRS (April 1): 35% overall, economy approval career-low 31%, inflation handling 27%. FiftyPlusOne: 37.2% — lowest of any president at this point since FDR. War support: just 38% vs 55% oppose (Silver Bulletin). Pew: 61% disapprove handling; 59% say force was wrong. Even Fox News: 58% opposition. Two-thirds say US should end involvement quickly.",
+    "category": "political",
+    "source": "Silver Bulletin / CNN / Pew / Fox News / FiftyPlusOne",
+    "data_point": "39.7% approve — 61% disapprove handling — 38% support war — never had majority backing"
+  },
+  {
+    "date": "2026-04-04",
+    "time": "09:00",
+    "title": "Trump threatens to bomb Iran 'back to the Stone Ages' — April 6 deadline 2 days away",
+    "description": "On April 2, Trump threatened to bomb Iran 'back to the Stone Ages' and 'completely obliterate' power plants, oil wells, Kharg Island, and desalination infrastructure if no deal comes 'shortly.' His April 1 prime-time address stated the operation is 'nearing completion' within 2-3 weeks. The April 6 Hormuz ultimatum deadline is now 2 days away. Iran has shown no willingness to comply.",
+    "category": "diplomatic",
+    "source": "White House / AP / Reuters",
+    "data_point": "Trump: 'Stone Ages' — 'obliterate' infrastructure — Apr 6 deadline 2 days — Iran defiant"
+  },
+  {
+    "date": "2026-04-04",
+    "time": "10:00",
+    "title": "Day 36 summary — F-15E loss marks inflection as ceasefire dies and deadline looms",
+    "description": "Day 36 defined by three converging crises: (1) First US combat aircraft loss to enemy fire since 2003 signals Iran adapting its air defenses; (2) Pakistan ceasefire track collapsed with irreconcilable demands; (3) April 6 deadline 2 days away with Trump threatening infrastructure obliteration. Houthis 4 attacks in 7 days with Bab al-Mandeb blockade possible. CMA CGM vessel breakthrough at Hormuz. Markets closed — March jobs +178K. Gas $4.091. ~$43.1B cumulative. Trump approval 35-39.7%. 15 US KIA, WSO missing.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "~$43.1B — F-15E lost — ceasefire dead — Apr 6 deadline 2 days — Houthis escalating — 35-39.7% approval"
   }
 ]
