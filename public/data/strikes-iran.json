@@ -4,18 +4,18 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-04-04",
+    "last_updated": "2026-04-05",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "~35,000+ (CENTCOM: over 5,000 targets struck. IDF: 800+ attack sorties. Combined US/Israeli extrapolated ~35,000+ through Day 36. EA-37B Compass Call II first operational use. 24 F-22 Raptors at Israel's Ovda Airbase. GBU-72 5,000-lb penetrators deployed. F-15E Strike Eagle shot down Apr 3 — first US combat aircraft loss to enemy fire since 2003.)",
+    "total_targets_struck": "~35,000+ (CENTCOM: 12,300+ military targets across 13,000+ missions as of Apr 1. Combined US/Israeli extrapolated ~35,000+ through Day 37. Total confirmed US aircraft losses: 7 airframes (3 F-15Es Kuwait friendly fire Mar 2; 1 KC-135 Mar 12; 1 F-15E shot down Apr 3; 1 A-10 downed Apr 3) + 12+ MQ-9 Reaper drones. WSO rescued Apr 5 after 48+ hours evading IRGC — CIA deception op + makeshift airbase inside Iran.)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
-      "killed": "~1,900 (Red Crescent) / 3,389 (HRANA)",
-      "injured": "23,000+ total casualties (Health Ministry)",
-      "military_killed_hengaw": "5,890+",
-      "women_killed": "244",
-      "children_killed": "228+",
-      "sources": "Iranian Red Crescent / HRANA / Iran Health Ministry / ACLED / AP",
-      "as_of": "2026-04-01"
+      "killed": "2,076+ (Health Ministry) / 3,519+ (HRANA) / 7,300+ (Hengaw)",
+      "injured": "26,500+ (Health Ministry)",
+      "military_killed_hengaw": "6,410+",
+      "civilians_killed_hrana": "1,607+",
+      "children_killed": "244+",
+      "sources": "Iran Health Ministry / HRANA / Hengaw / Iran International / ACLED / AP",
+      "as_of": "2026-04-05"
     },
     "civilian_buildings_affected": "~20,000 (including 16,000 residential units) per Iranian Red Crescent as of Day 11",
     "healthcare_facilities_affected": "226 medical/health units damaged per Health Ministry; 12 hospitals completely non-operational; WHO verified 18 attacks on healthcare",
@@ -69,14 +69,14 @@
     "type": "us_strike",
     "actor": "us",
     "targets": [
-      "Bushehr Nuclear Power Plant (perimeter)",
+      "Bushehr Nuclear Power Plant (perimeter and auxiliary buildings)",
       "IRGC Navy coastal defense batteries"
     ],
     "first_strike": "2026-02-28",
-    "casualties_reported": "Minimal — military targets",
-    "casualties_source": "DoD",
-    "active_days": [1, 2],
-    "notes": "Reactor itself reportedly not directly struck. Surrounding military infrastructure destroyed."
+    "casualties_reported": "Minimal — military targets. No radiation increase per IAEA.",
+    "casualties_source": "DoD / IAEA",
+    "active_days": [1, 2, 18, 25, 28, 37],
+    "notes": "Struck 4 times during Epic Fury (Mar 17, 24, 27, Apr 4). IAEA confirmed no radiation increase. FM Araghchi warned Apr 4 that radioactive release would affect Gulf capitals — Bushehr closer to Kuwait City (175 mi) and Manama (187 mi) than Tehran. Russia's Rosatom evacuating staff (198 additional evacuated Apr 5). Plant holds 72 tons of fuel and 210 tons of spent fuel. IAEA has no inspector access to any Iranian nuclear facility; Iran's parliament suspended IAEA cooperation. Agency has 'lost continuity of knowledge' regarding nuclear material inventories."
   },
   {
     "id": "bandar-abbas",
@@ -1429,12 +1429,12 @@
       "Strike mission over Iran — F-15E Strike Eagle shot down by Iranian air defenses"
     ],
     "first_strike": "2026-04-03",
-    "casualties_reported": "1 pilot rescued; weapons systems officer (WSO) missing with search operations underway. A-10 Warthog also downed during rescue attempt (pilot recovered). Two Black Hawks took small-arms fire.",
-    "casualties_source": "CENTCOM / Pentagon / Multiple",
-    "active_days": [36],
-    "notes": "Day 36 (Apr 3): CRITICAL INCIDENT — Iran shot down a US F-15E Strike Eagle over Iranian territory. First confirmed US combat aircraft loss to enemy fire since 2003 (Iraq). One pilot rescued; WSO remains missing. During the rescue attempt, an A-10 Warthog was also shot down (pilot recovered), and two Black Hawks took small-arms fire. Represents significant escalation in Iran's air defense effectiveness and could shift domestic political dynamics if losses continue.",
+    "casualties_reported": "Both crew recovered. Pilot rescued Day 36. WSO (Colonel, 494th Fighter Squadron, RAF Lakenheath) rescued Apr 5 after 48+ hours evading IRGC in Kohgiluyeh and Boyer-Ahmad province. A-10 Warthog also downed during CSAR (pilot nursed aircraft to Kuwait before ejecting). Three rescue aircraft took fire. No US casualties during extraction.",
+    "casualties_source": "CENTCOM / Pentagon / White House / Multiple",
+    "active_days": [36, 37],
+    "notes": "Day 36-37: F-15E Strike Eagle shot down over Iran Apr 3 — first US combat aircraft loss to enemy fire since 2003. WSO rescued Apr 5 after 48+ hours evading capture. Operation involved dozens of aircraft, a temporary remote airbase established inside Iran, and a CIA deception campaign that fed IRGC false intelligence. Two C-130 Hercules became stuck at improvised airstrip and were intentionally destroyed; three replacement C-130s flown in. A-10 also lost near Strait of Hormuz during CSAR — pilot nursed aircraft to Kuwaiti airspace before ejecting. Total confirmed US aircraft losses: 7 airframes + 12+ MQ-9 drones. Trump confirmed WSO recovered 'safe and sound.'",
     "verified": true,
-    "last_updated": "2026-04-04"
+    "last_updated": "2026-04-05"
   },
   {
     "id": "ea37b-deployment-april2",
@@ -1454,5 +1454,78 @@
     "notes": "Day 35-36 (Apr 2-3): EA-37B Compass Call II electronic warfare aircraft deployed to CENTCOM theater — first-ever operational use of the platform. Marks significant expansion of US electronic warfare capabilities against Iranian air defenses and communications networks.",
     "verified": true,
     "last_updated": "2026-04-04"
+  },
+  {
+    "id": "shahid-beheshti-university-april3",
+    "city": "Tehran",
+    "lat": 35.76,
+    "lng": 51.40,
+    "type": "us_strike",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Shahid Beheshti University"
+    ],
+    "first_strike": "2026-04-03",
+    "casualties_reported": "Unknown",
+    "casualties_source": "Iranian state media / AP",
+    "active_days": [36],
+    "notes": "Day 36 (Apr 3): Shahid Beheshti University struck — part of ongoing campaign hitting 30+ Iranian universities. Strikes on academic institutions have drawn international condemnation.",
+    "verified": true,
+    "last_updated": "2026-04-05"
+  },
+  {
+    "id": "bushehr-auxiliary-april4",
+    "city": "Bushehr",
+    "lat": 28.92,
+    "lng": 50.82,
+    "type": "us_strike",
+    "actor": "us",
+    "targets": [
+      "Bushehr Nuclear Power Plant auxiliary building"
+    ],
+    "first_strike": "2026-04-04",
+    "casualties_reported": "No radiation increase. Russia evacuated additional 198 staff from Bushehr.",
+    "casualties_source": "IAEA / Rosatom / Iranian state media",
+    "active_days": [37],
+    "notes": "Day 37 (Apr 4): Explosions hit Bushehr nuclear plant auxiliary building — 4th strike on Bushehr during Epic Fury (Mar 17, 24, 27, Apr 4). IAEA confirmed no radiation increase. FM Araghchi warned radioactive release would affect Gulf capitals — Bushehr closer to Kuwait City (175 mi) and Manama (187 mi) than to Tehran. Russia's Rosatom evacuated additional 198 staff. IAEA has no inspector access to any Iranian nuclear facility.",
+    "verified": true,
+    "last_updated": "2026-04-05"
+  },
+  {
+    "id": "mahshahr-petrochemical-april4",
+    "city": "Mahshahr, Khuzestan",
+    "lat": 30.46,
+    "lng": 49.18,
+    "type": "us_strike",
+    "actor": "us",
+    "targets": [
+      "Mahshahr Special Petrochemical Zone"
+    ],
+    "first_strike": "2026-04-04",
+    "casualties_reported": "At least 5 killed, 170+ injured",
+    "casualties_source": "Iranian state media / Reuters",
+    "active_days": [37],
+    "notes": "Day 37 (Apr 4-5): Explosions hit the Mahshahr Special Petrochemical Zone in Khuzestan province. At least 5 killed and 170+ injured. Major industrial target in Iran's oil-rich southwestern province.",
+    "verified": true,
+    "last_updated": "2026-04-05"
+  },
+  {
+    "id": "wso-rescue-april5",
+    "city": "Kohgiluyeh and Boyer-Ahmad, Iran",
+    "lat": 30.66,
+    "lng": 51.68,
+    "type": "us_strike",
+    "subtype": "rescue_operation",
+    "actor": "us",
+    "targets": [
+      "Combat Search and Rescue — WSO recovery operation with makeshift airbase inside Iran"
+    ],
+    "first_strike": "2026-04-05",
+    "casualties_reported": "No American casualties. 2 C-130s intentionally destroyed. 3 replacement C-130s flown in. 3 rescue aircraft took fire at low altitude.",
+    "casualties_source": "White House / CENTCOM / Pentagon",
+    "active_days": [37],
+    "notes": "Day 37 (Apr 5): WSO (Colonel, 494th FS, RAF Lakenheath) recovered after 48+ hours evading IRGC in mountains of southwestern Iran. Operation involved dozens of aircraft, temporary remote airbase constructed inside Iran, and CIA deception campaign feeding Iranian forces false intelligence. Two C-130 Hercules became stuck at improvised airstrip and intentionally destroyed to prevent capture; three replacement C-130s flown in. Iran claimed two C-130s and two Black Hawks shot down — US acknowledged C-130 destructions were deliberate. Demonstrated extraordinary operational reach. Trump confirmed WSO recovered 'safe and sound.'",
+    "verified": true,
+    "last_updated": "2026-04-05"
   }
 ]

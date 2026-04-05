@@ -1,5 +1,5 @@
 {
-  "labels": ["Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15", "Mar 16", "Mar 17", "Mar 18", "Mar 19", "Mar 20", "Mar 21", "Mar 22", "Mar 23", "Mar 24", "Mar 25", "Mar 26", "Mar 27", "Mar 28", "Mar 29", "Mar 30", "Mar 31", "Apr 1", "Apr 2", "Apr 3", "Apr 4"],
+  "labels": ["Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15", "Mar 16", "Mar 17", "Mar 18", "Mar 19", "Mar 20", "Mar 21", "Mar 22", "Mar 23", "Mar 24", "Mar 25", "Mar 26", "Mar 27", "Mar 28", "Mar 29", "Mar 30", "Mar 31", "Apr 1", "Apr 2", "Apr 3", "Apr 4", "Apr 5"],
   "day_contexts": [
     "Day 1 — First strikes, Minab school (165+ killed), Iranian retaliation",
     "Day 2 — Beit Shemesh (9 killed), Port Shuaiba (6 US KIA), sustained bombing",
@@ -36,34 +36,35 @@
     "Day 33 — IRGC cluster bomb hits Bnei Brak: girl (10-12) critically wounded, boy (13) seriously hurt; 3 missile waves at Israel; tanker Aqua 1 struck off Qatar; Kuwait airport fuel depots ablaze; Bahrain fires; Beirut Jnah strike: 7 killed, 26 wounded; Hezbollah cmdr Hashem killed; Houthi missile at Israel intercepted; 200 dynamic strikes; former US Embassy Tehran struck; Tofigh Daru factory (10 nurses killed); Fujairah: Bangladeshi worker killed by drone shrapnel; 15 US KIA / 348 WIA; Iran threatens 17 US corporate HQs",
     "Day 34 — S&P 6,582.69 (+0.11%) — dramatic reversal on Iran-Oman transit protocol; WTI $111.54 first close above $100; 4 IRGC cluster-warhead salvos; Hezbollah 50+ rockets; IDF 170 targets; Kharazi injured/wife killed; Hashem killed; 15 KIA / 348 WIA; 35-nation Hormuz coalition; 28% approval",
     "Day 35 — Good Friday — markets closed; Ford departs Split resumes Eastern Med ops; Bush transiting Atlantic; 3 CSGs committed; Houthis resuming Israel attacks but holding fire on shipping — Bab al-Mandeb closure 'likely' if escalation; Lebanon: 1,318+ killed, 3,935+ wounded, 1.2M displaced; IAEA severed; Zarif Foreign Affairs proposal; ceasefire talks stalled; Apr 6 deadline 3 days",
-    "Day 36 — F-15E Strike Eagle shot down (first US combat aircraft loss since 2003); A-10 downed during rescue; Pakistan ceasefire talks collapse; Houthis 4 attacks in 7 days; CMA CGM first major Western Hormuz transit; French/Japanese ships follow; 1,725+ ballistic missiles and 4,446+ drones launched by Iran; Lebanon: 1,345+ killed; IDF: disarming Hezbollah 'unrealistic'; Iran rejects 48-hr ceasefire; Apr 6 deadline 2 days"
+    "Day 36 — F-15E Strike Eagle shot down (first US combat aircraft loss since 2003); A-10 downed during rescue; Pakistan ceasefire talks collapse; Houthis 4 attacks in 7 days; CMA CGM first major Western Hormuz transit; French/Japanese ships follow; 1,725+ ballistic missiles and 4,446+ drones launched by Iran; Lebanon: 1,345+ killed; IDF: disarming Hezbollah 'unrealistic'; Iran rejects 48-hr ceasefire; Apr 6 deadline 2 days",
+    "Day 37 — WSO rescued after 48+ hours inside Iran; Mahshahr petrochemical zone struck (5 killed, 170+ injured); Iran BMs at IDF HQ Tel Aviv + Neot Hovav; IDF Sgt. Guy Ludar killed in Lebanon (friendly fire); Hezbollah rockets 60km into Israel (Umm al-Fahm); 5th Houthi missile intercepted; HRANA: 3,519+ killed (1,607 civilians, 244+ children); Hengaw: 7,300+; Health Min: 2,076+; 15 US KIA / 365 WIA"
   ],
   "datasets": {
     "iranian_military": {
       "label": "Iranian Military",
-      "data": [65, 98, 122, 106, 90, 82, 73, 114, 98, 65, 65, 78, 91, 95, 80, 70, 65, 60, 55, 70, 75, 55, 50, 45, 40, 45, 55, 60, 50, 45, 48, 42, 50, 55, 45, 48],
+      "data": [65, 98, 122, 106, 90, 82, 73, 114, 98, 65, 65, 78, 91, 95, 80, 70, 65, 60, 55, 70, 75, 55, 50, 45, 40, 45, 55, 60, 50, 45, 48, 42, 50, 55, 45, 48, 50],
       "color": "#b81c1c"
     },
     "iranian_civilian": {
       "label": "Iranian Civilian",
-      "data": [5, 10, 15, 12, 35, 20, 15, 25, 18, 10, 8, 45, 20, 20, 15, 10, 8, 8, 10, 15, 12, 8, 6, 8, 6, 12, 10, 8, 6, 8, 17, 10, 15, 12, 8, 10],
+      "data": [5, 10, 15, 12, 35, 20, 15, 25, 18, 10, 8, 45, 20, 20, 15, 10, 8, 8, 10, 15, 12, 8, 6, 8, 6, 12, 10, 8, 6, 8, 17, 10, 15, 12, 8, 10, 12],
       "color": "#ffffff"
     },
     "us_military": {
       "label": "US Military",
-      "data": [0, 6, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 0],
+      "data": [0, 6, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0],
       "color": "#4a9eff"
     },
     "lebanese": {
       "label": "Lebanese (all)",
-      "data": [0, 0, 44, 58, 64, 68, 61, 75, 58, 48, 40, 54, 85, 65, 55, 50, 48, 45, 50, 48, 33, 40, 45, 28, 30, 33, 30, 28, 25, 30, 28, 25, 25, 22, 20, 18],
+      "data": [0, 0, 44, 58, 64, 68, 61, 75, 58, 48, 40, 54, 85, 65, 55, 50, 48, 45, 50, 48, 33, 40, 45, 28, 30, 33, 30, 28, 25, 30, 28, 25, 25, 22, 20, 18, 18],
       "color": "#7b3fa0"
     },
     "israeli_military": {
       "label": "Israeli Military",
-      "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 6, 2, 0, 2, 1, 1, 2, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+      "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 6, 2, 0, 2, 1, 1, 2, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1],
       "color": "#ffc832"
     }
   },
-  "last_updated": "2026-04-04"
+  "last_updated": "2026-04-05"
 }
