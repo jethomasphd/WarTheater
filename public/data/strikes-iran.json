@@ -4,9 +4,9 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-04-05",
+    "last_updated": "2026-04-06",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "~35,000+ (CENTCOM: 12,300+ military targets across 13,000+ missions as of Apr 1. Combined US/Israeli extrapolated ~35,000+ through Day 37. Total confirmed US aircraft losses: 7 airframes (3 F-15Es Kuwait friendly fire Mar 2; 1 KC-135 Mar 12; 1 F-15E shot down Apr 3; 1 A-10 downed Apr 3) + 12+ MQ-9 Reaper drones. WSO rescued Apr 5 after 48+ hours evading IRGC — CIA deception op + makeshift airbase inside Iran.)",
+    "total_targets_struck": "~35,000+ (CENTCOM: 12,300+ military targets across 13,000+ missions as of Apr 1-2. Combined US/Israeli extrapolated ~35,000+ through Day 38. US fast-attack submarine sank Iranian submarine with MK-48 torpedo — first such engagement since WWII. 155+ warships/submarines destroyed (~92% of Iran's large warships). Total confirmed US aircraft losses: 7 airframes (3 F-15Es Kuwait friendly fire Mar 2; 1 KC-135 Mar 12; 1 F-15E shot down Apr 3; 1 A-10 downed Apr 3) + 12+ MQ-9 Reaper drones.)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
       "killed": "2,076+ (Health Ministry) / 3,519+ (HRANA) / 7,300+ (Hengaw)",
@@ -15,7 +15,7 @@
       "civilians_killed_hrana": "1,607+",
       "children_killed": "244+",
       "sources": "Iran Health Ministry / HRANA / Hengaw / Iran International / ACLED / AP",
-      "as_of": "2026-04-05"
+      "as_of": "2026-04-06"
     },
     "civilian_buildings_affected": "~20,000 (including 16,000 residential units) per Iranian Red Crescent as of Day 11",
     "healthcare_facilities_affected": "226 medical/health units damaged per Health Ministry; 12 hospitals completely non-operational; WHO verified 18 attacks on healthcare",
