@@ -1,6 +1,6 @@
 {
-  "labels": ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "Day 8", "Day 9", "Day 10", "Day 11", "Day 12", "Day 13", "Day 14", "Day 15", "Day 16", "Day 17", "Day 18", "Day 19", "Day 20", "Day 21", "Day 22", "Day 23", "Day 24", "Day 25", "Day 26", "Day 27", "Day 28", "Day 29", "Day 30", "Day 31", "Day 32", "Day 33", "Day 34", "Day 35", "Day 36", "Day 37"],
-  "daily_cost_millions": [3000, 2600, 2000, 1500, 1100, 1100, 1000, 900, 800, 800, 850, 850, 900, 900, 850, 850, 850, 850, 850, 900, 900, 1000, 1000, 1000, 1000, 1250, 1250, 1250, 1250, 1250, 1250, 1250, 1250, 1250, 1250, 1250, 1250],
+  "labels": ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7", "Day 8", "Day 9", "Day 10", "Day 11", "Day 12", "Day 13", "Day 14", "Day 15", "Day 16", "Day 17", "Day 18", "Day 19", "Day 20", "Day 21", "Day 22", "Day 23", "Day 24", "Day 25", "Day 26", "Day 27", "Day 28", "Day 29", "Day 30", "Day 31", "Day 32", "Day 33", "Day 34", "Day 35", "Day 36", "Day 37", "Day 38"],
+  "daily_cost_millions": [3000, 2600, 2000, 1500, 1100, 1100, 1000, 900, 800, 800, 850, 850, 900, 900, 850, 850, 850, 850, 850, 900, 900, 1000, 1000, 1000, 1000, 1250, 1250, 1250, 1250, 1250, 1250, 1250, 1250, 1250, 1250, 1250, 1250, 1250],
   "day_notes": [
     "First strikes — $5.6B munitions in 48 hrs (WaPo)",
     "Sustained air campaign — 900 targets in first 12 hours",
@@ -38,13 +38,14 @@
     "Day 34 — S&P 6,582.69 (+0.11%) — dramatic intraday reversal on Iran-Oman transit protocol; first weekly gain (+3.4%); WTI $111.54 (+11.4%); Brent $109.03 (+7.8%); WTI-Brent inverted; gold $4,692.80; VIX 23.87; XOM -5.2%; CVX -4.6%; DAL $58.78; UAL 5% capacity cut; LMT $622.89 (+30% YTD); markets closed Apr 3 Good Friday; ~$40.6B",
     "Day 35 — Good Friday — markets closed; Ford departs Split, resumes Eastern Med ops Day ~284; Bush CSG transiting Atlantic ETA Apr 10-12; 3 CSGs committed; Houthis resumed attacks on Israel but holding fire on shipping; Zarif publishes Foreign Affairs ceasefire proposal; IAEA severed from Iran since Feb 26; 972 lbs 60%-enriched uranium; PAC-3 tripling; gas $4.091; Apr 6 deadline 3 days; 28% approval; ~$41.8B",
     "Day 36 — F-15E Strike Eagle shot down over Iran (first US combat aircraft loss to enemy fire since 2003); pilot rescued, WSO missing; A-10 downed during rescue (pilot recovered); Pakistan ceasefire talks collapse — Iran refuses to meet; Houthis 4 attacks in 7 days; CMA CGM vessel first major Western transit of Hormuz; French transit followed by Japanese tanker; Trump approval 35-39.7%; 61% disapprove handling; jobs +178K (3x expected); CPI approaching 4%; Apr 6 deadline 2 days; gas $4.091; ~$43.1B",
-    "Day 37 — WSO rescued after 48+ hours evading IRGC inside Iran — CIA deception campaign + makeshift airbase on Iranian soil; 2 C-130s intentionally destroyed; April 6 ultimatum <24 hours; Trump: 'Power Plant Day and Bridge Day'; Iran BMs at IDF HQ Tel Aviv + Neot Hovav (3rd hit); Mahshahr petrochemical zone struck (5 killed, 170+ injured); 82nd Airborne 2,000-3,000 deploying; Hezbollah rockets 60km into Israel; 5th Houthi missile intercepted; ceasefire 2% by Apr 7; Moody's recession 49%; AG Bondi fired; gas $4.104; ~$44.3B"
+    "Day 37 — WSO rescued after 48+ hours evading IRGC inside Iran — CIA deception campaign + makeshift airbase on Iranian soil; 2 C-130s intentionally destroyed; April 6 ultimatum <24 hours; Trump: 'Power Plant Day and Bridge Day'; Iran BMs at IDF HQ Tel Aviv + Neot Hovav (3rd hit); Mahshahr petrochemical zone struck (5 killed, 170+ injured); 82nd Airborne 2,000-3,000 deploying; Hezbollah rockets 60km into Israel; 5th Houthi missile intercepted; ceasefire 2% by Apr 7; Moody's recession 49%; AG Bondi fired; gas $4.104; ~$44.3B",
+    "Day 38 — Trump sets Apr 7 8 PM ET deadline for Iran to reopen Hormuz — threatens strikes on power plants and bridges; 45-day ceasefire proposal from Egyptian-Pakistani-Turkish mediators rejected by Tehran; OPEC+ agrees to increase output 206K bpd for May (dismissed as 'academic'); Trump admits arming Iranian Kurdish opposition groups; 53 transits last week (up from 36); Brent ~$111.25; WTI ~$111.81; gas $4.119 (AAA); markets reopen Mon after Easter; S&P futures ~6,631-6,647; VIX pre-market 24.48-24.88; gold ~$4,665-4,677; ~$45.6B"
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
-    "labels": ["Feb 25", "Feb 26", "Feb 27", "Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15", "Mar 16", "Mar 17", "Mar 18", "Mar 19", "Mar 20", "Mar 21", "Mar 22", "Mar 23", "Mar 24", "Mar 25", "Mar 26", "Mar 27", "Mar 28", "Mar 29", "Mar 30", "Mar 31", "Apr 1", "Apr 2", "Apr 3", "Apr 4", "Apr 5"],
-    "data": [50, 50, 50, 25, 5, 0, 2, 2, 2, 3, 2, 2, 3, 2, 3, 3, 3, 3, 5, 5, 5, 5, 8, 5, 4, 3, 3, 3, 3, 5, 6, 5, 5, 5, 4, 4, 5, 6, 7, 8],
+    "labels": ["Feb 25", "Feb 26", "Feb 27", "Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15", "Mar 16", "Mar 17", "Mar 18", "Mar 19", "Mar 20", "Mar 21", "Mar 22", "Mar 23", "Mar 24", "Mar 25", "Mar 26", "Mar 27", "Mar 28", "Mar 29", "Mar 30", "Mar 31", "Apr 1", "Apr 2", "Apr 3", "Apr 4", "Apr 5", "Apr 6"],
+    "data": [50, 50, 50, 25, 5, 0, 2, 2, 2, 3, 2, 2, 3, 2, 3, 3, 3, 3, 5, 5, 5, 5, 8, 5, 4, 3, 3, 3, 3, 5, 6, 5, 5, 5, 4, 4, 5, 6, 7, 8, 8],
     "prewar_daily": 50
   },
-  "last_updated": "2026-04-05"
+  "last_updated": "2026-04-06"
 }

@@ -1838,11 +1838,11 @@
   {
     "date": "2026-03-23",
     "time": "06:00",
-    "title": "Saudi Arabia expels Iranian military attach\u00e9 — Gulf states intercept fresh barrages",
-    "description": "Saudi Arabia intercepted 3 ballistic missiles aimed at Riyadh plus multiple drones, then expelled Iran's military attach\u00e9 and 4 embassy staff within 24 hours. Bahrain intercepted 32 drones and 2 ballistic missiles. Kuwait intercepted 9 ballistic missiles in 24 hours. UAE intercepted 8+ UAVs and 3+ ballistic missiles.",
+    "title": "Saudi Arabia expels Iranian military attaché — Gulf states intercept fresh barrages",
+    "description": "Saudi Arabia intercepted 3 ballistic missiles aimed at Riyadh plus multiple drones, then expelled Iran's military attaché and 4 embassy staff within 24 hours. Bahrain intercepted 32 drones and 2 ballistic missiles. Kuwait intercepted 9 ballistic missiles in 24 hours. UAE intercepted 8+ UAVs and 3+ ballistic missiles.",
     "category": "military",
     "source": "Saudi MoD / Bahrain DF / Kuwaiti MoD / UAE MoD / Reuters",
-    "data_point": "Saudi expels attach\u00e9 — Bahrain: 32 drones + 2 missiles — Kuwait: 9 missiles — bombardment continues"
+    "data_point": "Saudi expels attaché — Bahrain: 32 drones + 2 missiles — Kuwait: 9 missiles — bombardment continues"
   },
   {
     "date": "2026-03-23",
@@ -3337,5 +3337,77 @@
     "category": "summary",
     "source": "Multiple",
     "data_point": "~$44.3B — WSO rescued — Apr 6 deadline <24 hrs — ceasefire 2% — recession 49% — 35% approval"
+  },
+  {
+    "date": "2026-04-06",
+    "time": "00:00",
+    "title": "Trump sets April 7, 8:00 PM ET deadline for Iran to reopen Strait of Hormuz",
+    "description": "President Trump escalates his ultimatum, setting an explicit deadline of Tuesday April 7 at 8:00 PM ET for Iran to reopen the Strait of Hormuz. Trump threatens strikes on power plants and bridges — a deliberate pivot from military to civilian infrastructure targeting. Trump posted a profanity-laden Truth Social ultimatum: 'Open the F***in' Strait, you crazy bastards, or you'll be living in Hell.' Red Cross warns infrastructure targeting could constitute war crimes.",
+    "category": "diplomatic",
+    "source": "White House / Truth Social / Fox News / ICRC",
+    "data_point": "Apr 7 8 PM ET deadline — threatens power plants and bridges"
+  },
+  {
+    "date": "2026-04-06",
+    "time": "04:00",
+    "title": "45-day ceasefire proposal rejected by Iran",
+    "description": "Egyptian, Pakistani, and Turkish mediators submitted a 45-day ceasefire proposal late Sunday (April 5-6). Iran rejected it, saying it would allow adversaries to regroup. Iran's Foreign Ministry stated negotiations are 'incompatible with ultimatums and threats.' Trump simultaneously told Fox News there's a 'good chance' for a deal — contradictory signaling that has whipsawed markets for weeks.",
+    "category": "diplomatic",
+    "source": "Iran FM / Reuters / AP / Fox News",
+    "data_point": "45-day ceasefire rejected — Egypt/Pakistan/Turkey mediation"
+  },
+  {
+    "date": "2026-04-06",
+    "time": "06:00",
+    "title": "Trump admits arming Iranian Kurdish opposition groups during Fox News interview",
+    "description": "In a Fox News interview aired April 6, Trump admitted the US had armed Iranian Kurdish opposition groups and protesters during December-January demonstrations — lending credibility to Tehran's longstanding claims that protests were foreign-backed. The admission complicates diplomatic efforts and provides Iran propaganda ammunition.",
+    "category": "diplomatic",
+    "source": "Fox News / Reuters",
+    "data_point": "Trump confirms US armed Kurdish opposition during Dec-Jan protests"
+  },
+  {
+    "date": "2026-04-06",
+    "time": "07:00",
+    "title": "OPEC+ agrees to increase output by 206,000 bpd for May — analysts dismiss as 'academic'",
+    "description": "OPEC+ agreed on April 5 to increase output quotas by 206,000 barrels per day for May. Analysts dismissed the move as 'academic' given that key producers physically cannot export through the blocked Strait of Hormuz, and the increase represents less than 2% of disrupted supply (~12-15M bpd removed from markets).",
+    "category": "financial",
+    "source": "OPEC+ / Reuters / Bloomberg",
+    "data_point": "+206K bpd — less than 2% of 12-15M bpd disrupted supply"
+  },
+  {
+    "date": "2026-04-06",
+    "time": "08:00",
+    "title": "Strait of Hormuz: 53 transits last week, up from 36 — still 90%+ below normal",
+    "description": "Lloyd's List reported 53 transits last week, up from 36 the prior week, but still a fraction of normal volume. The first Western-linked ships transited since war began on April 4 — a French CMA CGM container vessel and a Japanese gas carrier. Over 400 vessels remain anchored in Gulf of Oman. 20,000+ seafarers stranded. QatarEnergy force majeure on LNG since March 4.",
+    "category": "financial",
+    "source": "Lloyd's List / Bloomberg / IMO",
+    "data_point": "53 transits/week — still 90%+ below pre-war 130-138/day"
+  },
+  {
+    "date": "2026-04-06",
+    "time": "09:00",
+    "title": "Markets prepare to reopen after Easter weekend — futures signal volatility",
+    "description": "US equity and bond markets were closed April 3 (Good Friday) through April 5 (Easter weekend). S&P 500 futures pre-market: ~6,631-6,647. VIX pre-market: 24.48-24.88. Brent crude ~$111.25/bbl. WTI ~$111.81/bbl. Gold ~$4,665-4,677/oz. 10Y yield 4.31%. National gas average $4.119/gal (AAA). Markets must price in WSO rescue, April 7 deadline, ceasefire collapse, and April jobs report (+178K vs 57-65K expected).",
+    "category": "financial",
+    "source": "Yahoo Finance / CNBC / AAA / CME",
+    "data_point": "S&P futures ~6,631-6,647 — VIX 24.48-24.88 — Brent ~$111.25 — gas $4.119"
+  },
+  {
+    "date": "2026-04-06",
+    "time": "10:00",
+    "title": "IAEA: zero access to Iran's enrichment facilities — 440.9 kg at 60%",
+    "description": "IAEA Director General Grossi confirmed the agency has zero access to Iran's enrichment facilities and cannot verify the current size, composition, or whereabouts of Iran's enriched uranium stockpile. Before the war, Iran possessed 440.9 kg of 60%-enriched uranium — enough for approximately 10 nuclear weapons if further enriched. Bushehr Nuclear Power Plant struck 4 times total, most recently April 4 with impact 75 meters from site perimeter. Rosatom evacuated 198 Russian staff. Grossi: 'I do not believe that Iran's nuclear program can be eliminated solely by military action.'",
+    "category": "military",
+    "source": "IAEA / Rosatom / Reuters",
+    "data_point": "440.9 kg at 60% — enough for ~10 weapons — zero IAEA access"
+  },
+  {
+    "date": "2026-04-06",
+    "time": "11:00",
+    "title": "Day 38 summary — 48-hour window opens as Trump's Tuesday Hormuz deadline approaches",
+    "description": "Day 38 defined by: (1) Trump sets Apr 7 8 PM ET deadline threatening power plants and bridges; (2) 45-day ceasefire rejected by Iran; (3) OPEC+ +206K bpd dismissed as 'academic'; (4) Trump admits arming Kurdish groups; (5) IAEA severed — 440.9 kg at 60%; (6) Houthis holding Bab al-Mandeb card; (7) Brent ~$111.25; gas $4.119; (8) S&P futures ~6,631-6,647. ~$45.6B cumulative. War Powers failed both chambers. $200B supplemental faces massive resistance.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "~$45.6B — Apr 7 deadline — ceasefire rejected — IAEA severed — gas $4.119"
   }
 ]

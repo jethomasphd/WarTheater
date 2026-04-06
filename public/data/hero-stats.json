@@ -1,45 +1,45 @@
 {
-  "last_updated": "2026-04-05",
-  "war_day": 37,
-  "timestamp_label": "LAST UPDATED: APR 05, 2026 09:31 ET",
+  "last_updated": "2026-04-06",
+  "war_day": 38,
+  "timestamp_label": "LAST UPDATED: APR 06, 2026 11:13 ET",
   "cost": {
     "brent": {
-      "price": 109.03,
+      "price": 111.25,
       "label": "Brent Crude $/bbl",
-      "change": "+53.6% since Feb 27 — Brent $109.03 (Apr 2 close); markets closed Apr 3-5 (Good Friday/weekend); April 6 ultimatum <24 hours; WSO rescued; ceasefire 2%; Moody's recession 49%",
-      "tooltip": "Brent Crude: The international benchmark. Pre-war close: $71.00/bbl (Feb 27). Apr 2 close: $109.03/bbl. Markets closed Apr 3-5 (Good Friday/weekend). Brent range on Apr 2: $97.50-$113.97. Peak $127.61 during conflict. March +~55% — largest monthly gain since inception in 1988. April 6 Hormuz ultimatum <24 hours — Trump threatening civilian infrastructure. WSO rescued Apr 5 after 48+ hours inside Iran. Ceasefire probability 2% by Apr 7. IEA: 'April will be much worse than March.' Source: ICE Futures Europe / Bloomberg / Goldman Sachs / IEA."
+      "change": "+56.7% since Feb 27 — Brent ~$111.25 (Apr 6 AM); Trump sets Apr 7 8 PM ET deadline for Iran to reopen Hormuz; 45-day ceasefire rejected; OPEC+ +206K bpd for May; JPMorgan warns $150+ if disruptions continue",
+      "tooltip": "Brent Crude: The international benchmark. Pre-war close: $71.00/bbl (Feb 27). Apr 2 close: $109.03/bbl. Apr 6 pre-market: ~$111.25/bbl. Markets closed Apr 3-5 (Good Friday/Easter weekend). Peak $127.61 during conflict. March +~55% — largest monthly gain since inception in 1988. Trump sets Tuesday Apr 7 8 PM ET deadline — threatens strikes on power plants and bridges. 45-day ceasefire proposal from Egyptian-Pakistani-Turkish mediators rejected by Iran. OPEC+ agreed Apr 5 to increase output 206K bpd for May — analysts dismiss as 'academic.' JPMorgan warns oil could spike above $150/bbl if disruptions continue into mid-May. Source: ICE Futures Europe / Bloomberg / Goldman Sachs / JPMorgan / IEA."
     },
     "wti": {
-      "price": 112.06,
+      "price": 111.81,
       "label": "WTI Crude $/bbl",
-      "change": "+68.5% since Feb 27 — WTI $112.06 (Apr 2 settle); first close above $100 since Jul 2022; WTI-Brent spread inverted; markets closed Apr 3-5; Bloomberg: dual chokepoint could push oil to $140",
-      "tooltip": "West Texas Intermediate: The US benchmark. Pre-war close: $66.50/bbl (Feb 27). Apr 2 settle: $112.06/bbl. First close above $100 since July 2022. WTI-Brent spread inverted — reflecting acute US domestic supply anxiety. Gas at $4.104/gal nationally (Apr 5 AAA). Diesel $5.43/gal. California $5.89/gal. Markets closed Apr 3-5. Bloomberg Economics: dual chokepoint (Hormuz + Bab al-Mandeb) could push oil to $140/bbl. IEA: 'April will be much worse than March' as pre-war cargoes exhausted. Apr 6 energy deadline <24 hours. Source: NYMEX / AAA / Bloomberg / Goldman Sachs / IEA."
+      "change": "+68.1% since Feb 27 — WTI ~$111.81 (Apr 6); WTI-Brent spread remains inverted; gas $4.119 nationally; Apr 7 8 PM ET Hormuz deadline; dual chokepoint risk; $200/bbl scenarios modeled",
+      "tooltip": "West Texas Intermediate: The US benchmark. Pre-war close: $66.50/bbl (Feb 27). Apr 2 settle: $111.54/bbl. Apr 6: ~$111.81/bbl. WTI-Brent spread remains inverted — WTI is 'the primary vehicle for traders betting on duration of US involvement' (Rigzone). Gas at $4.119/gal nationally (Apr 6 AAA). Diesel ~$5.43/gal. California $5.929/gal. Apr 7 8 PM ET deadline — Trump threatens power plants and bridges. Some US officials and Wall Street analysts have modeled $200/bbl scenarios. IEA: 'April will be much worse than March' as pre-war cargoes exhausted. Source: NYMEX / AAA / Bloomberg / Goldman Sachs / JPMorgan / IEA / Rigzone."
     },
     "gas": {
-      "price": 4.104,
+      "price": 4.119,
       "label": "US Gas Avg/Gal",
-      "change": "+$1.124 / +37.7% since Feb 27 — $4.104 nationally (Apr 5 AAA) — CA $5.89 — crossed $4 for first time since Aug 2022 — largest monthly jump on record",
-      "tooltip": "National average retail gasoline price. Pre-war: $2.98/gal (Feb 27). Apr 5: $4.104/gal nationally (AAA) — $1.124 surge in 37 days. Crossed $4 for first time since August 2022. California $5.89/gal. Up from $2.98 on Feb 26. Goldman: every $10/bbl crude increase adds ~$0.25/gal at pump. Monthly jump exceeds steepest climbs after Hurricane Katrina (2005) and Russia-Ukraine invasion (2022). Source: AAA / EIA / Goldman Sachs."
+      "change": "+$1.139 / +38.2% since Feb 27 — $4.119 nationally (Apr 6 AAA) — CA $5.929 — HI $5.595 — WA $5.386 — OK $3.272 (lowest) — diesel ~$5.43 — surged $1+ in one month",
+      "tooltip": "National average retail gasoline price. Pre-war: $2.98/gal (Feb 27). Apr 6: $4.119/gal nationally (AAA) — $1.139 surge in 38 days. Crossed $4 for first time since August 2022. California $5.929/gal (highest). Hawaii $5.595. Washington $5.386. Oklahoma $3.272 (lowest). Diesel ~$5.43/gal nationally, CA diesel $7.685. Goldman: every $10/bbl crude increase adds ~$0.25/gal at pump. Monthly jump exceeds steepest climbs after Hurricane Katrina (2005) and Russia-Ukraine invasion (2022). Source: AAA / EIA / Goldman Sachs."
     },
     "sp500": {
       "value": 6583,
       "label": "S&P 500",
-      "change": "-296 pts / -4.3% — S&P 6,582.69 (Apr 2 close); markets closed Apr 3-5; first weekly gain since war (+3.4%); jobs +178K (3x expected); Moody's recession 49%; VIX 23.87; CPI Apr 10",
-      "tooltip": "S&P 500 index. Pre-war close: 6,878.88 (Feb 27). Apr 2 close: 6,582.69 (+0.11%). Markets closed Apr 3-5 (Good Friday/weekend). First weekly gain since conflict began (+3.4%). Dow 46,504.67. Nasdaq 21,879.18 (entered correction -10% in late March). VIX 23.87. Jobs: +178K vs 57-65K expected; Feb revised down to -133K. Unemployment 4.3%. Moody's recession probability 49% — one point below threshold that preceded every US recession in 80 years. Goldman 30%, EY-Parthenon 40%. March CPI release Apr 10 expected to show significant acceleration from 2.4%. CME FedWatch: >50% rate hike probability — stagflation trap. Gold $4,702.70/oz. 10Y 4.31%. Source: NYSE / Bloomberg / CNBC / BLS / Moody's."
+      "change": "-296 pts / -4.3% — S&P 6,582.69 (Apr 2 close); futures ~6,631-6,647 (Apr 6 pre-market); markets reopen Mon after Easter; VIX pre-market 24.48-24.88; Apr 7 deadline looms; Moody's recession 49%",
+      "tooltip": "S&P 500 index. Pre-war close: 6,878.88 (Feb 27). Apr 2 close: 6,582.69. Markets closed Apr 3-5 (Good Friday/Easter weekend). S&P 500 futures pre-market Apr 6: ~6,631-6,647. First weekly gain since conflict began (+3.4% week ending Apr 2). VIX: 23.87 close, pre-market 24.48-24.88. Index remains ~1.54% YTD negative and ~4% from Jan 27 ATH. VIX peaked at 60.13 during early March panic, now retreating. Moody's recession probability 49%. Gold ~$4,665-4,677/oz. 10Y 4.31%. Trump Apr 7 8 PM ET deadline — binary risk event for Monday session. Source: NYSE / Bloomberg / CNBC / BLS / Moody's."
     },
     "daily_cost": {
       "value": 1250,
       "unit": "M",
       "label": "Est. Daily US Cost",
-      "note": "~$1.0-1.5B/day — WSO rescued after 48+ hrs inside Iran — CIA deception op — 82nd Airborne deploying — April 6 ultimatum <24 hours — daily costs $890M-$2B",
-      "tooltip": "Estimated daily operational cost. Day 37: ~$1.0-1.5B/day (range $890M-$2B). WSO rescued Apr 5 after 48+ hours evading IRGC — extraordinary operation involving CIA deception campaign and makeshift airbase inside Iran. 82nd Airborne deploying 2,000-3,000 paratroopers. 6,000-8,000 ground troops positioning near Iran. Three CSGs committed: Lincoln (Arabian Sea), Ford (Eastern Med), Bush (Atlantic transit). April 6 energy deadline <24 hours — Trump threatening civilian infrastructure. Pentagon $200B+ supplemental not yet submitted. Source: Pentagon / CSIS / CENTCOM / USNI / Reuters."
+      "note": "~$1.0-1.5B/day — Apr 7 8 PM ET deadline for Hormuz — Trump threatens power plants + bridges — 82nd Airborne deploying — 3 CSGs committed — daily costs $890M-$2B",
+      "tooltip": "Estimated daily operational cost. Day 38: ~$1.0-1.5B/day (range $890M-$2B). Trump sets Apr 7 8 PM ET deadline: 'Power Plant Day and Bridge Day.' 82nd Airborne deploying 2,000-3,000 paratroopers. 6,000-8,000 ground troops positioning near Iran. Three CSGs committed: Lincoln (Arabian Sea), Ford (Eastern Med), Bush (Atlantic transit ETA Apr 10-12). 45-day ceasefire rejected by Iran. Pentagon $200B+ supplemental faces massive bipartisan resistance. Source: Pentagon / CSIS / CENTCOM / USNI / Reuters."
     },
     "total_cost": {
-      "value": 44.30,
+      "value": 45.55,
       "unit": "B",
-      "label": "Est. Total Cost (37 Days)",
-      "note": "~$44.3B through Day 37 — $200B+ supplemental not submitted — Boebert (R-CO) 'a no' — Murkowski demands plan — daily costs $890M-$2B — Trump approval 35% (CNN) / 33% (UMass) — 61% wrong decision (Pew)",
-      "tooltip": "Cumulative estimated cost since Feb 28. Pentagon: $11.3B through Day 6. CSIS: $16.5B through Day 12. Extrapolated through Day 37: ~$44.3B. Penn Wharton Budget Model: $40B-$95B in direct costs, up to $210B total economic impact. $200B+ supplemental not formally submitted. Rep. Boebert (R-CO) declared 'a no'; Sen. Murkowski demands strategic plan. Trump approval: CNN/SSRS 35% / UMass 33% / Silver Bulletin 39.7% — new second-term low. War-specific: 37% approve (Pew), 61% wrong decision. Even Fox News: 58% opposition. AG Pam Bondi fired Apr 3. Source: Pentagon / CSIS / Penn Wharton / CNN / Pew / Fox News."
+      "label": "Est. Total Cost (38 Days)",
+      "note": "~$45.6B through Day 38 — $200B supplemental faces massive bipartisan resistance — Progressive Caucus opposes — 250+ orgs signed letter against — Boebert/Clyde/Roy (R) balking — no vote scheduled — Trump approval 28% (war-specific)",
+      "tooltip": "Cumulative estimated cost since Feb 28. Pentagon: $11.3B through Day 6. CSIS: $16.5B through Day 12. Extrapolated through Day 38: ~$45.6B. Penn Wharton Budget Model: $40B-$95B in direct costs, up to $210B total economic impact. $200B supplemental faces massive bipartisan resistance — Congressional Progressive Caucus opposes, 250+ organizations signed letter against, Boebert/Clyde/Roy (R) balking. No vote scheduled. War Powers resolutions failed (Senate Mar 5, House Mar 6). War-specific approval: 28% (YouGov). Source: Pentagon / CSIS / Penn Wharton / YouGov / Congress."
     }
   },
   "history": [
@@ -346,28 +346,36 @@
       "targets_struck": 35000, "us_kia": 15, "us_wia": 365,
       "iranian_killed": 8500, "lebanese_killed": 1345,
       "displaced": 7200000, "flights_cancelled": 52000, "children_killed": 370
+    },
+    {
+      "date": "2026-04-06", "war_day": 38,
+      "brent": 111.25, "wti": 111.81, "gas": 4.119, "sp500": 6583,
+      "daily_cost_millions": 1250, "total_cost_billions": 45.55,
+      "targets_struck": 35000, "us_kia": 15, "us_wia": 365,
+      "iranian_killed": 8700, "lebanese_killed": 1200,
+      "displaced": 7200000, "flights_cancelled": 52000, "children_killed": 370
     }
   ],
   "toll": {
     "targets_struck": {
       "value": 35000,
       "label": "Targets Struck",
-      "note": "CENTCOM: 12,300+ military targets across 13,000+ missions — Adm. Cooper: 'no navy sailing, no aircraft flying, air defenses largely destroyed' — 155+ warships/subs destroyed (~92% of Iran's fleet)",
-      "tooltip": "Total targets struck by US and Israeli forces since Feb 28. CENTCOM (as of Apr 1): 12,300+ military targets across 13,000+ missions. Adm. Brad Cooper: 'We don't see their navy sailing. We don't see their aircraft flying, and their air and missile defense systems have largely been destroyed.' Combined US/Israeli extrapolated ~35,000+ through Day 37. 155+ warships and submarines destroyed (~92% of Iran's large warships). However, Iran retains ~50% of missile launchers and 1,000+ ballistic missiles per IDF. Source: CENTCOM / IDF / Pentagon / CSIS.",
+      "note": "CENTCOM: 12,300+ military targets across 13,000+ missions — Adm. Cooper: 'no navy sailing, no aircraft flying, air defenses largely destroyed' — 155+ warships/subs destroyed (~92% of Iran's fleet) — first sub sinking since WWII (MK-48 torpedo)",
+      "tooltip": "Total targets struck by US and Israeli forces since Feb 28. CENTCOM (as of Apr 1-2): 12,300+ military targets across 13,000+ missions. Adm. Brad Cooper: 'We don't see their navy sailing. We don't see their aircraft flying, and their air and missile defense systems have largely been destroyed.' Combined US/Israeli extrapolated ~35,000+ through Day 38. 155+ warships and submarines destroyed (~92% of Iran's large warships). US fast-attack submarine sank Iranian submarine with MK-48 torpedo — first such engagement since WWII. Iran retains ~50% of missile launchers and 1,000+ ballistic missiles. Source: CENTCOM / IDF / Pentagon / CSIS.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
       "value": 15,
       "label": "US Military Deaths",
-      "note": "15 US KIA (13 combat, 1 health-related, 1 non-hostile + 6 KC-135) — WSO rescued Apr 5 after 48+ hours inside Iran — 7 aircraft lost + 12+ MQ-9 drones",
-      "tooltip": "US military deaths. 15 KIA: 13 combat, 1 health-related, 1 non-hostile death; plus 6 in KC-135 crash categorized separately by some sources. F-15E WSO rescued Apr 5 after 48+ hours evading IRGC — CIA deception campaign. Total aircraft losses: 7 airframes (3 F-15Es Kuwait friendly fire Mar 2; 1 KC-135 Mar 12; 1 F-15E shot down Apr 3; 1 A-10 Apr 3) + 12+ MQ-9 Reaper drones. Key incidents: 6 KIA Camp Arifjan Kuwait (Mar 1); 6 KIA KC-135 crash Iraq (Mar 12). Source: CENTCOM / Pentagon / White House / Stars and Stripes.",
+      "note": "15 US KIA confirmed — 140-520+ WIA (Pentagon vs Intercept) — F-15E pilot shot down and rescued — WSO rescued after 48+ hrs inside Iran — 7 aircraft lost + 12+ MQ-9 drones",
+      "tooltip": "US military deaths. 15 KIA confirmed as of Apr 1. Pentagon official figure ~140 wounded (Mar 10) disputed by The Intercept (520+ including smoke inhalation aboard USS Ford). F-15E WSO rescued Apr 5 after 48+ hours evading IRGC — CIA deception campaign + makeshift airbase inside Iran. Total aircraft losses: 7 airframes (3 F-15Es Kuwait friendly fire Mar 2; 1 KC-135 Mar 12; 1 F-15E shot down Apr 3; 1 A-10 Apr 3) + 12+ MQ-9 Reaper drones. Key incidents: 6 KIA Port Shuaiba Kuwait (Mar 1); 6 KIA KC-135 crash Iraq (Mar 12). Source: CENTCOM / Pentagon / The Intercept / Stars and Stripes.",
       "color": "var(--civilian)"
     },
     "us_wia": {
       "value": 365,
       "label": "US Service Members WIA",
-      "note": "365 WIA (Pentagon end of week 5) — The Intercept: 520+ including smoke inhalation — 'casualty cover-up' — SecDef Hegseth fired 12+ senior leaders including Army Chief Gen. George",
-      "tooltip": "US service members wounded/injured across all theaters since Feb 28. Pentagon (end of week 5): 365 WIA. The Intercept reports 520+ including smoke inhalation incidents, accusing Pentagon of 'casualty cover-up.' SecDef Hegseth fired Army Chief Gen. Randy George — 12+ senior military leaders purged since taking office. Five former defense secretaries condemned the pattern as 'reckless.' Source: CENTCOM / Pentagon / The Intercept / Reuters.",
+      "note": "140-520+ WIA (Pentagon vs Intercept) — Pentagon official ~140 WIA (Mar 10) — The Intercept: 520+ — 'casualty cover-up' — SecDef Hegseth fired 12+ senior leaders",
+      "tooltip": "US service members wounded/injured across all theaters since Feb 28. Pentagon official figure: ~140 WIA (Mar 10). The Intercept reports 520+ including smoke inhalation incidents aboard USS Ford, accusing Pentagon of 'casualty cover-up.' SecDef Hegseth fired Army Chief Gen. Randy George — 12+ senior military leaders purged since taking office. Five former defense secretaries condemned the pattern as 'reckless.' Source: CENTCOM / Pentagon / The Intercept / Reuters.",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
@@ -378,10 +386,10 @@
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
-      "value": 1345,
+      "value": 1200,
       "label": "Lebanese Killed",
-      "note": "1,345+ killed — 4,040+ wounded — ~1.2M displaced (1/6 of pop.) — 189,000+ into Syria — 370,000+ children affected — IDF Sgt. Guy Ludar killed Apr 4 (friendly fire)",
-      "tooltip": "Lebanese casualties from Israeli strikes and ground invasion since March 2. 1,345+ killed (Al Jazeera/Lebanese MoH). 4,040+ wounded. UNICEF: 121+ children killed, 399 injured. ~1.2 million displaced (1/6 of population). 189,000+ crossed into Syria. 370,000+ children affected. IDF Sgt. First Class Guy Ludar, 21, killed in Lebanon Apr 4, reportedly by friendly fire. Hezbollah rockets reaching 60km into Israel (Umm al-Fahm). Hezbollah claimed missile strike against Israeli warship Apr 5. Israel ordered evacuation of Masnaa crossing with Syria. IDF expanding toward Litani River. Source: Lebanon Health Ministry / UNICEF / Al Jazeera / IDF / UNHCR.",
+      "note": "1,200+ killed — 3,500+ wounded — ~1M displaced — IDF expanding ground operations toward Litani — permanent buffer zone south of Litani — Hezbollah 100s of rockets daily — 3 UNIFIL peacekeepers killed — UNSC voted to terminate UNIFIL by end 2026",
+      "tooltip": "Lebanese casualties from Israeli ground invasion since March 2. 1,200+ killed. 3,500+ wounded. ~1 million displaced. Israel expanded ground operations, establishing permanent buffer zone south of Litani River. Hezbollah continues firing hundreds of rockets daily at Israel. Israel killed Hezbollah southern front commander Haj Youssef Ismail Hashem in Beirut strike Apr 1. 3 UNIFIL Indonesian peacekeepers killed. Security Council voted to terminate UNIFIL mission by end 2026. Nearly one million Lebanese displaced. Source: Lebanon Health Ministry / UNICEF / Al Jazeera / IDF / UNHCR.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
@@ -394,8 +402,8 @@
     "flights_cancelled": {
       "value": 52000,
       "label": "Flights Cancelled",
-      "note": "52,000+ flights — ~3,200 vessels stranded — Hormuz 6-12 transits/day (93% collapse) — only ~150 total since Mar 1 — Bloomberg 7-day average at war high — Apr 6 deadline <24 hrs",
-      "tooltip": "Commercial flights cancelled due to airspace closures: 52,000+ since Feb 28. ~3,200 ships (~4% global tonnage) idle, 500+ waiting outside. Hormuz 6-12 transits/day, down 93% from 130-138 pre-war. Only ~150 total vessels since Mar 1. Bloomberg 7-day rolling average at war high as of Apr 4. March crude loadings fell 76%. War-risk premiums 1.5-3% of hull value ($10-14M per VLCC). IRGC charging $1/barrel in yuan/stablecoins. Source: IMO / IATA / Lloyd's / Bloomberg / IEA.",
+      "note": "52,000+ flights — 400+ vessels stranded Gulf of Oman — 53 transits last week (up from 36) — still 90%+ below normal — 20,000+ seafarers stranded — Apr 7 deadline looms",
+      "tooltip": "Commercial flights cancelled due to airspace closures: 52,000+ since Feb 28. 400+ vessels anchored in Gulf of Oman. 20,000+ seafarers stranded. Lloyd's List: 53 transits last week, up from 36 prior week, but still a fraction of normal volume. CMA CGM container vessel and Japanese gas carrier — first Western-linked ships to transit since war began (Apr 4). Strait traffic down 90%+ from pre-war levels, removing ~12-15M bpd from global markets. Hull war risk premiums 1.5-3% of vessel value ($10-14M per VLCC). IRGC charging $1/barrel tolls in yuan/stablecoins. Source: IMO / IATA / Lloyd's / Bloomberg / IEA.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
