@@ -2,9 +2,9 @@
   {
     "label": "Hospitals Damaged",
     "count": "77+",
-    "note": "Iran: 77+ healthcare facilities damaged (31 major clinical, 12 inactive) — 20+ verified healthcare attacks (WHO) — 307 health/medical facilities damaged — ~20,000 civilian buildings affected — Lebanon: 49 primary healthcare centers + 5 hospitals shut — 3.2M displaced Iran + 4M region — 115M need aid across Eastern Med",
+    "note": "307 health/medical/emergency facilities damaged — 20+ verified healthcare attacks (WHO, 9 deaths) — Gandhi Hospital, Pasteur Institute, Delaram Sina Psychiatric Hospital, Tofigh Daru pharmaceutical, Shahid Mutahhari Hospital destroyed — WHO Tehran office damaged",
     "source": "Iranian Red Crescent / Iranian Health Ministry / WHO / OCHA / Lebanese MoH / ICRC",
-    "detail": "307 health/medical facilities damaged per Iranian Red Crescent. 77 healthcare facilities hit. 20+ verified attacks on healthcare in Iran (WHO). ~20,000 civilian buildings affected. 65+ schools destroyed. 120+ historical/cultural heritage sites damaged including UNESCO-listed Golestan Palace. Iran: 3.2 million internally displaced (incl. ~864,000 children); 2,076+ killed (Health Min) / 3,519+ (HRANA) / 7,300+ (Hengaw); 26,500+ wounded. Lebanon: 1,345+ killed, 4,040+ wounded, ~1.2 million displaced (1/6 of population), 189,000+ crossed into Syria, 370,000+ children affected. 49 primary healthcare centers and 5 hospitals shut following Israeli evacuation orders. WHO $30.3M flash appeal (Mar-Aug). 115 million people across Eastern Med require humanitarian aid — nearly half of all people in need globally. Source: Iranian Red Crescent / OCHA / WHO / ICRC / UNHCR / HRANA."
+    "detail": "307 health/medical/emergency facilities damaged per Iranian Red Crescent. WHO verified 20+ attacks on healthcare in Iran resulting in at least 9 deaths. Specific facilities destroyed or rendered unusable: Gandhi Hospital, Pasteur Institute, Delaram Sina Psychiatric Hospital, Tofigh Daru pharmaceutical facility (produces cancer drugs and anesthetics), Shahid Mutahhari Hospital — all in Tehran. WHO's own Tehran office damaged. WHO launched $30.3M emergency appeal. Lebanon: 1,497 killed, 4,639 wounded, 1.2M+ displaced (~20% of population), 150,000 cut off south of Litani. UNHCR Lebanon response only 14% funded ($472M requirement). Iran: 3.2M displaced, internet at 4% of normal. Source: WHO / Iranian Red Crescent / OCHA / UNHCR / HRANA."
   },
   {
     "label": "Schools Destroyed",
@@ -22,30 +22,30 @@
   },
   {
     "label": "Oil/Gas Facilities Hit",
-    "count": "44+",
-    "note": "IEA: 44+ energy assets severely damaged across 9 countries — worst since combined 1973 + 1979 oil shocks",
+    "count": "46+",
+    "note": "IEA: 44+ energy assets severely damaged across 9 countries + Kharg Island 50+ targets Apr 7 + Asaluyeh (South Pars, ~50% of petrochemical production) — worst since combined 1973 + 1979 oil shocks",
     "source": "IEA / DoD / Bloomberg / QatarEnergy / Reuters / satellite imagery",
     "detail": "IEA (Mar 23): At least 44 energy assets severely damaged across 9 countries — 'very severe, worse than the combined 1973 and 1979 oil shocks.' IEA released record 400M barrels from strategic stockpiles (US: 172M from SPR). Iraq declared force majeure on all foreign-operated oilfields (production collapsed from 4.2M to ~1.2-1.4M bpd). Combined Gulf production cuts exceed 10M bpd (JPMorgan). Iran: Kharg destroyed, South Pars Phases 3/4/5/6 struck. Qatar: Ras Laffan 12.8 MTPA lost (17% of LNG exports, 3-5yr repair). SAMREF (Saudi) struck. Kuwait: Mina al-Ahmadi hit. Haifa BAZAN refinery. Bahrain Bapco under force majeure. Iran sanctions lifted on ~140M barrels at sea (30 days). Jones Act waived 60 days."
   },
   {
     "label": "Nuclear Facilities Struck",
-    "count": "8+",
-    "note": "Fordow, Isfahan UCF, Natanz (3x), Bushehr (4x — Apr 4 strike 75m from perimeter, 1 protection staff killed — Grossi: 'severe radiological accident' risk — Rosatom evacuated 198 staff Apr 4), Arak Heavy Water, Ardakan yellowcake, Yazd — IAEA zero access since Feb 26 — 440.9 kg at 60% (enough for ~10 weapons) — Grossi: 'nuclear program cannot be eliminated solely by military action'",
+    "count": "9+",
+    "note": "Fordow, Isfahan UCF, Natanz (3x), Bushehr (4x), Arak Heavy Water, Ardakan yellowcake (struck again Apr 7 — Shahid Rezayee Nejad facility), Yazd, Khondab (severely damaged, no longer operational) — IAEA zero access — Grossi: 'cannot rule out radiological release necessitating evacuation of areas as large as major cities'",
     "source": "IAEA / DoD / IDF / satellite imagery",
     "detail": "Fordow enrichment facility struck Day 1 with B-2/GBU-57 MOPs — assessed inoperable. Isfahan UCF struck Day 1. Natanz struck 4 times — underground FEP 'severely damaged.' Day 29: US-Israeli airstrikes hit Ardakan yellowcake and Khondab Heavy Water Complex. Bushehr struck 4 times — most recently Apr 4 when 1 physical protection staff killed, nearest strike impacted 75m from site perimeter. IAEA DG Grossi: strikes could cause 'severe radiological accident with consequences beyond Iran's borders.' Rosatom evacuated 198 Russian staff from Bushehr Apr 4. Iran possesses 440.9 kg of 60%-enriched uranium — enough for approximately 10 nuclear weapons if further enriched. IAEA has zero access to enrichment facilities. Grossi: 'I do not believe that Iran's nuclear program can be eliminated solely by military action.' Source: IAEA / Rosatom / Pentagon / Bulletin of Atomic Scientists."
   },
   {
     "label": "Airports Damaged",
-    "count": "5+",
-    "note": "Iran + region",
-    "source": "ACLED / Flightradar24",
-    "detail": "Mehrabad (Tehran), Shiraz TAB 6, Tabriz TAB 2 runways cratered in first wave. Dubai International Airport struck by drone Mar 16. Regional airspace closures affect 24,000+ commercial flights."
+    "count": "8+",
+    "note": "Iran + region — 3 Tehran airports struck Apr 7 (Bahram, Mehrabad, Azmayesh) targeting air force aircraft and helicopters",
+    "source": "ACLED / Flightradar24 / Iranian state media",
+    "detail": "Mehrabad (Tehran), Shiraz TAB 6, Tabriz TAB 2 runways cratered in first wave. Dubai International Airport struck by drone Mar 16. April 7: strikes on three Tehran airports (Bahram, Mehrabad, Azmayesh) targeting Iranian air force aircraft and helicopters. Regional airspace closures affect 52,000+ commercial flights."
   },
   {
     "label": "Bridges Destroyed",
-    "count": "11+",
-    "note": "Western Iran + all Litani River bridges in Lebanon destroyed",
-    "source": "Satellite imagery / IDF / Lebanese media",
-    "detail": "Iran: Road and rail bridges in Kermanshah, Lorestan, and Khuzestan provinces destroyed to degrade IRGC logistics. Lebanon: IDF claims all bridges over Litani destroyed. Israel declares 'security zone' south of Litani River (~30 km) — DM Katz says displaced Lebanese 'will not return south of the Litani.' Defense Minister Katz ordered demolition of border villages using 'Beit Hanoun and Rafah models.'"
+    "count": "15+",
+    "note": "Israel launched wide-scale bridge/railway strikes Apr 7 — Qom bridge, Kashan railway bridge (2 killed, 3 injured), Tabriz-Zanjan freeway, Karaj railway — IDF issued 12-hour Farsi warning to avoid trains — all Litani River bridges destroyed in Lebanon (150,000 cut off)",
+    "source": "Satellite imagery / IDF / Lebanese media / Iranian state media",
+    "detail": "April 7: IDF launched 'wide-scale wave of strikes targeting dozens of infrastructure sites' — confirmed hits on key bridge near Qom, railway bridge in Kashan (2 killed, 3 injured), Tabriz-Zanjan freeway, railway infrastructure in Karaj. IDF issued 'urgent warning' in Farsi to stay away from trains/railways for 12 hours. Appears to be opening phase of Trump's 'Bridge Day.' Previous bridges destroyed in Kermanshah, Lorestan, Khuzestan provinces. Lebanon: All Litani River bridges destroyed — 150,000 people cut off in southern Lebanon. IDF permanent buffer zone south of Litani."
   }
 ]

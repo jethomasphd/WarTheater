@@ -4,21 +4,21 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-04-06",
+    "last_updated": "2026-04-07",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "~35,000+ (CENTCOM: 12,300+ military targets across 13,000+ missions as of Apr 1-2. Combined US/Israeli extrapolated ~35,000+ through Day 38. US fast-attack submarine sank Iranian submarine with MK-48 torpedo — first such engagement since WWII. 155+ warships/submarines destroyed (~92% of Iran's large warships). Total confirmed US aircraft losses: 7 airframes (3 F-15Es Kuwait friendly fire Mar 2; 1 KC-135 Mar 12; 1 F-15E shot down Apr 3; 1 A-10 downed Apr 3) + 12+ MQ-9 Reaper drones.)",
+    "total_targets_struck": "~35,500+ (CENTCOM: 13,000+ targets struck, 155 ships sunk/damaged, 26 aircraft types per CENTCOM/Stars and Stripes. Combined US/Israeli extrapolated ~35,500+ through Day 39. US fast-attack submarine sank Iranian submarine with MK-48 torpedo — first such engagement since WWII. 155+ warships/submarines destroyed (~92% of Iran's large warships). Total confirmed US aircraft losses: 7 airframes (3 F-15Es Kuwait friendly fire Mar 2; 1 KC-135 Mar 12; 1 F-15E shot down Apr 3; 1 A-10 downed Apr 3) + 12+ MQ-9 Reaper drones.)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
-      "killed": "2,076+ (Health Ministry) / 3,519+ (HRANA) / 7,300+ (Hengaw)",
+      "killed": "2,076+ (Health Ministry) / 3,540-3,546 (HRANA) / 7,300+ (Hengaw)",
       "injured": "26,500+ (Health Ministry)",
       "military_killed_hengaw": "6,410+",
       "civilians_killed_hrana": "1,607+",
       "children_killed": "244+",
       "sources": "Iran Health Ministry / HRANA / Hengaw / Iran International / ACLED / AP",
-      "as_of": "2026-04-06"
+      "as_of": "2026-04-07"
     },
     "civilian_buildings_affected": "~20,000 (including 16,000 residential units) per Iranian Red Crescent as of Day 11",
-    "healthcare_facilities_affected": "226 medical/health units damaged per Health Ministry; 12 hospitals completely non-operational; WHO verified 18 attacks on healthcare",
+    "healthcare_facilities_affected": "307 health/medical/emergency facilities damaged per Iranian Red Crescent; 20+ verified healthcare attacks (WHO); 9 deaths from healthcare attacks",
     "us_operation_name": "Operation Epic Fury",
     "weapons_confirmed": "B-2 Spirit bombers (37-hour CONUS round-trips from Whiteman AFB), Tomahawk cruise missiles (including Block Va Maritime Strike variant with radar-absorbent 'black' coating), GBU-57 Massive Ordnance Penetrators, Precision Strike Missiles (first combat use), LUCAS low-cost attack drones (first combat use), 5,000-lb deep penetrator munitions",
     "notes": "Casualty figures are Iranian government claims via Red Crescent and health ministry; independently difficult to verify due to internet blackout. HRANA (US-based) figures broadly consistent. ACLED tracking ongoing. Scope of this dataset: strikes ON Iranian territory by US and Israeli forces only. Iranian counter-strikes and regional escalation tracked in separate dataset."
@@ -1527,5 +1527,154 @@
     "notes": "Day 37 (Apr 5): WSO (Colonel, 494th FS, RAF Lakenheath) recovered after 48+ hours evading IRGC in mountains of southwestern Iran. Operation involved dozens of aircraft, temporary remote airbase constructed inside Iran, and CIA deception campaign feeding Iranian forces false intelligence. Two C-130 Hercules became stuck at improvised airstrip and intentionally destroyed to prevent capture; three replacement C-130s flown in. Iran claimed two C-130s and two Black Hawks shot down — US acknowledged C-130 destructions were deliberate. Demonstrated extraordinary operational reach. Trump confirmed WSO recovered 'safe and sound.'",
     "verified": true,
     "last_updated": "2026-04-05"
+  },
+  {
+    "id": "kharg-island-april7",
+    "city": "Kharg Island",
+    "lat": 29.23,
+    "lng": 50.32,
+    "type": "us_strike",
+    "actor": "us",
+    "targets": [
+      "50+ military targets on Kharg Island — Iran's primary oil export hub handling 90% of oil exports"
+    ],
+    "first_strike": "2026-04-07",
+    "casualties_reported": "Unknown — military targets, not oil facilities directly",
+    "casualties_source": "NBC News / CENTCOM",
+    "active_days": [39],
+    "notes": "Day 39 (Apr 7): US struck 50+ military targets on Kharg Island in early hours. Kharg handles approximately 90% of Iran's oil exports. US official told NBC strikes targeted military infrastructure, not oil facilities directly — mirroring calibrated approach of March 13 raid. Represents most significant escalation on Iran's economic chokepoint.",
+    "verified": true,
+    "last_updated": "2026-04-07"
+  },
+  {
+    "id": "israel-bridges-railways-april7",
+    "city": "Multiple (Qom, Kashan, Tabriz, Karaj)",
+    "lat": 34.64,
+    "lng": 50.88,
+    "type": "israeli_strike",
+    "actor": "israel",
+    "targets": [
+      "Key bridge near Qom",
+      "Railway bridge in Kashan",
+      "Tabriz-Zanjan freeway in northwestern Iran",
+      "Railway infrastructure in Karaj"
+    ],
+    "first_strike": "2026-04-07",
+    "casualties_reported": "2 killed, 3 injured at Kashan railway bridge",
+    "casualties_source": "Iranian state media / IDF",
+    "active_days": [39],
+    "notes": "Day 39 (Apr 7): IDF launched 'wide-scale wave of strikes targeting dozens of infrastructure sites' across Iran. IDF issued 'urgent warning' in Farsi telling all Iranians to stay away from trains and railway lines for 12 hours. Appears to be opening phase of Trump's threatened 'Bridge Day' campaign, executed by Israel ahead of 8 PM ET deadline.",
+    "verified": true,
+    "last_updated": "2026-04-07"
+  },
+  {
+    "id": "alborz-civilian-april7",
+    "city": "Alborz Province",
+    "lat": 35.83,
+    "lng": 50.99,
+    "type": "us_strike",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Residential area in Alborz Province"
+    ],
+    "first_strike": "2026-04-07",
+    "casualties_reported": "18 civilians killed including 2 children",
+    "casualties_source": "Iranian state media / Red Crescent",
+    "active_days": [39],
+    "notes": "Day 39 (Apr 6-7): At least 18 civilians including 2 children killed in US-Israeli attack on Alborz Province. Tehran residential areas also struck with Red Crescent rescue workers responding to collapsed buildings.",
+    "verified": true,
+    "last_updated": "2026-04-07"
+  },
+  {
+    "id": "tehran-synagogue-april7",
+    "city": "Tehran",
+    "lat": 35.69,
+    "lng": 51.42,
+    "type": "us_strike",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Rafi-Nia/Khorasaniha Synagogue in Tehran"
+    ],
+    "first_strike": "2026-04-07",
+    "casualties_reported": "Unknown",
+    "casualties_source": "Iranian state media / Iran's Jewish parliamentary representative",
+    "active_days": [39],
+    "notes": "Day 39 (Apr 7): Tehran synagogue (Rafi-Nia/Khorasaniha) 'completely destroyed' by a projectile. Condemned by Iran's Jewish parliamentary representative. Raises questions about targeting protocols.",
+    "verified": true,
+    "last_updated": "2026-04-07"
+  },
+  {
+    "id": "sharif-university-april7",
+    "city": "Tehran",
+    "lat": 35.70,
+    "lng": 51.35,
+    "type": "us_strike",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Sharif University of Technology — national AI platform data center and fuel station"
+    ],
+    "first_strike": "2026-04-07",
+    "casualties_reported": "Unknown",
+    "casualties_source": "Iranian state media",
+    "active_days": [39],
+    "notes": "Day 39 (Apr 7): Sharif University of Technology campus hit, damaging Iran's national AI platform data center and a fuel station.",
+    "verified": true,
+    "last_updated": "2026-04-07"
+  },
+  {
+    "id": "asaluyeh-petrochemical-april7",
+    "city": "Asaluyeh, Bushehr Province",
+    "lat": 27.47,
+    "lng": 52.61,
+    "type": "israeli_strike",
+    "actor": "israel",
+    "targets": [
+      "Iran's largest petrochemical complex — South Pars (~50% of petrochemical production)"
+    ],
+    "first_strike": "2026-04-07",
+    "casualties_reported": "Unknown",
+    "casualties_source": "IDF / Iranian state media",
+    "active_days": [39],
+    "notes": "Day 39 (Apr 7): Israel struck Iran's largest petrochemical complex in Asaluyeh (South Pars), responsible for approximately 50% of petrochemical production.",
+    "verified": true,
+    "last_updated": "2026-04-07"
+  },
+  {
+    "id": "ardakan-yellowcake-april7",
+    "city": "Ardakan, Yazd Province",
+    "lat": 32.31,
+    "lng": 54.02,
+    "type": "us_strike",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Shahid Rezayee Nejad yellowcake production facility"
+    ],
+    "first_strike": "2026-04-07",
+    "casualties_reported": "Unknown",
+    "casualties_source": "Iran's Atomic Energy Organization / IDF",
+    "active_days": [39],
+    "notes": "Day 39 (Apr 7): Strike on yellowcake production facility (Shahid Rezayee Nejad) in Ardakan, Yazd Province. Iran's Atomic Energy Organization condemned as a violation of peaceful nuclear facility protections.",
+    "verified": true,
+    "last_updated": "2026-04-07"
+  },
+  {
+    "id": "tehran-airports-april7",
+    "city": "Tehran",
+    "lat": 35.68,
+    "lng": 51.31,
+    "type": "us_strike",
+    "actor": "us_israel_joint",
+    "targets": [
+      "Bahram Airport",
+      "Mehrabad Airport",
+      "Azmayesh Airport"
+    ],
+    "first_strike": "2026-04-07",
+    "casualties_reported": "Unknown",
+    "casualties_source": "Iranian state media",
+    "active_days": [39],
+    "notes": "Day 39 (Apr 7): Strikes on three Tehran airports (Bahram, Mehrabad, Azmayesh) targeting Iranian air force aircraft and helicopters.",
+    "verified": true,
+    "last_updated": "2026-04-07"
   }
 ]
