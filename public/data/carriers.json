@@ -5,9 +5,9 @@
     "hull": "CVN-72",
     "type": "carrier",
     "strike_group": "Carrier Strike Group 3",
-    "lat": 20.80,
-    "lng": 59.50,
-    "area": "Arabian Sea — continuous combat ops — extended deployment approaching record length — CENTCOM confirms 12,300+ military targets across 13,000+ missions",
+    "lat": 17.50,
+    "lng": 55.00,
+    "area": "Arabian Sea — repositioned southwest toward Salalah, Oman (~1,100 km from Iran) after Iranian gunboat attack on escort vessel — sole operational carrier in direct theater",
     "aircraft": "F/A-18E/F Super Hornets, F-35C Lightning II (VMFA-314), EA-18G Growlers, E-2D Hawkeye, CMV-22B Osprey, MH-60R/S Seahawk",
     "escorts": ["DDG-121 USS Frank E. Petersen Jr.", "DDG-111 USS Spruance", "DDG-112 USS Michael Murphy", "CG-70 USS Lake Erie"],
     "independently_deployed_destroyers": ["DDG-74 USS McFaul", "DDG-57 USS Mitscher", "DDG-91 USS Pinckney", "DDG-119 USS Delbert D. Black", "DDG-113 USS John Finn", "DDG-69 USS Milius"],
@@ -15,8 +15,8 @@
     "mission_summary": "Primary strike platform — deep strike into Iran and attrition of Iranian naval capabilities",
     "deployed_since": "2025-11-21",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 38: Sole operational carrier in direct theater. CENTCOM: 12,300+ military targets across 13,000+ missions. 155+ warships/submarines destroyed (~92% of Iran's large warships). US fast-attack sub sank Iranian sub with MK-48 torpedo — first since WWII. Adm. Cooper: 'no navy sailing, no aircraft flying.' CSG-3 with CVW-9 and DESRON 21 + 6 independently deployed DDGs. Navy total: 106 ships deployed (76 USS, 30 USNS). 30+ warships in CENTCOM region — largest concentration since 2003. Over 200 aircraft at sea across 3 carrier air wings.",
-    "source": "USNI Fleet Tracker, CENTCOM, Axios, DoD, Apr 6 reporting"
+    "notes": "Day 39: Sole operational carrier in direct theater — repositioned southwest toward Salalah, Oman (~1,100 km from Iran) after Iranian gunboat attack on escort vessel. CENTCOM: 13,000+ targets struck, 155 ships sunk/damaged. B-52s now flying over Iran with JDAM gravity bombs — signals degraded air defenses. ~50% of Iran's missile launchers remain intact. CSG-3 with CVW-9 and DESRON 21 + 6 independently deployed DDGs. New capabilities: U-2 reconnaissance, EA-37B Compass Call, LUCAS drones.",
+    "source": "USNI Fleet Tracker, CENTCOM, Stars and Stripes, NBC News, Apr 7 reporting"
   },
   {
     "id": "cvn-78",
@@ -26,15 +26,15 @@
     "strike_group": "Carrier Strike Group 12",
     "lat": 42.50,
     "lng": 17.00,
-    "area": "Eastern Mediterranean — full mission capability after Split repairs; deployed ~285 days approaching record 11th month",
+    "area": "⚠️ SIDELINED — Non-combat fire Mar 12; repairs during Split port call; departed Apr 2 but effectively sidelined from combat operations",
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye",
     "escorts": ["DDG-96 USS Bainbridge", "DDG-72 USS Mahan", "DDG-81 USS Winston S. Churchill"],
-    "status": "OPERATIONAL — EASTERN MED",
-    "mission_summary": "Back at full mission capability after Split repairs — deployed ~285 days, approaching post-Vietnam record; DESRON 2 escorts in Mediterranean",
+    "status": "SIDELINED — POST-REPAIR",
+    "mission_summary": "Suffered non-combat fire Mar 12; conducted repairs during 5-day Split, Croatia port call; departed Apr 2 — effectively sidelined from combat operations",
     "deployed_since": "2025-05-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 38: Left Split, Croatia Apr 2 after fire repairs. Back at full mission capability in Eastern Med. ~282+ day deployment — approaching record-breaking 11th month. May return to Red Sea. DESRON 2 escorts (DDG-96, DDG-72, DDG-81) in Mediterranean.",
-    "source": "USNI News, USNI Fleet Tracker, Apr 6 reporting"
+    "notes": "Day 39: ⚠️ CORRECTION — Ford is NOT in combat-ready Eastern Med posture. Suffered non-combat fire Mar 12, conducted repairs during 5-day port call in Split, Croatia, departed Apr 2. Effectively sidelined from combat operations. ~285+ day deployment. DESRON 2 escorts (DDG-96, DDG-72, DDG-81) in Mediterranean. Bush CSG-10 en route to relieve.",
+    "source": "USNI News, USNI Fleet Tracker, NBC News, Apr 7 reporting"
   },
   {
     "id": "cvn-77",
@@ -51,8 +51,8 @@
     "mission_summary": "Transit to CENTCOM AOR — three-carrier presence committed to EUCOM/CENTCOM theater",
     "deployed_since": "2026-03-31",
     "operation_start_date": null,
-    "notes": "Day 38: In Atlantic transiting east. CSG-10 with CVW-7 embarked. RADM Alexis Walker commanding. Escorts: USS Ross (DDG-71), USS Donald Cook (DDG-75), USS Mason (DDG-87). ETA Apr 10-12. Likely to relieve Ford. Three CSGs committed to EUCOM/CENTCOM — largest naval concentration since 2003. Combined: 30+ warships, 200+ aircraft at sea.",
-    "source": "USNI Fleet Tracker, CBS News, Navy Times, Apr 6 reporting"
+    "notes": "Day 39: Transiting Atlantic, expected to reach CENTCOM theater approximately April 10-12. CSG-10 with CVW-7 embarked. RADM Alexis Walker commanding. Escorts: USS Ross (DDG-71), USS Donald Cook (DDG-75), USS Mason (DDG-87). Likely to relieve sidelined Ford. Three CSGs committed to EUCOM/CENTCOM — largest naval concentration since 2003.",
+    "source": "USNI Fleet Tracker, CBS News, Navy Times, Apr 7 reporting"
   },
   {
     "id": "lha-7",
@@ -145,8 +145,8 @@
     "deployed_since": "2026-03-19",
     "operation_start_date": null,
     "eta_theater": "2026-04-09",
-    "notes": "Day 38: En route to Middle East — rerouted from Indo-Pacific. 11th MEU (~2,500 Marines, ~4,000 total). Includes USS Comstock (LSD-45), USS Portland (LPD-27). ETA theater ~Apr 9. Combined with Tripoli ARG and 82nd Airborne: ~6,000-8,000 ground troops moving toward Iran.",
-    "source": "USNI Fleet Tracker, DVIDSHUB, AP, Stars and Stripes, Pentagon, Apr 6 reporting"
+    "notes": "Day 39: Boxer ARG with 11th MEU transiting the Pacific, expected mid-April. 11th MEU (~2,500 Marines, ~4,000 total). Includes USS Comstock (LSD-45), USS Portland (LPD-27). Combined with Tripoli ARG and 82nd Airborne: ~6,000-8,000 ground troops. 82nd Airborne 1st BCT under Maj. Gen. Tegtmeier deployed to CENTCOM; division canceled annual All American Week (May 18-21) confirming sustained deployment.",
+    "source": "USNI Fleet Tracker, DVIDSHUB, AP, Stars and Stripes, Pentagon, Apr 7 reporting"
   },
   {
     "id": "ssn-anson",
@@ -181,8 +181,8 @@
     "mission_summary": "Ground combat force — HQ elements, division enablers, and 1st BCT deploying to CENTCOM; IRF can deploy within 18 hours",
     "deployed_since": "2026-03-25",
     "operation_start_date": null,
-    "notes": "Day 38: ~2,000-3,000 paratroopers from 1st BCT (Immediate Response Force) deploying to CENTCOM, led by Maj. Gen. Brandon Tegtmeier. Combined with Tripoli and Boxer ARGs: ~6,000-8,000 US ground troops near Iran. Primary discussed mission: seizure of Kharg Island (90% of Iran's oil exports). Apr 7 8 PM ET deadline — if deadline passes, ground operations may accelerate. Pentagon preparing 'weeks of ground operations.'",
-    "source": "Reuters, Stars and Stripes, WSJ, CBS News, CNN, NPR, Pentagon, Apr 6 reporting"
+    "notes": "Day 39: 1st BCT 'Devil Brigade' (~2,000-3,000 paratroopers) under Maj. Gen. Brandon Tegtmeier deployed to CENTCOM AOR. Division canceled annual All American Week (May 18-21) 'due to competing requirements' — confirms sustained deployment. Combined with two MEUs (31st with Tripoli, 11th with Boxer): ~6,000-8,000 ground troops in proximity to Iran. SecState Rubio: US may need to 'physically secure nuclear material inside Iran.' Sen. Graham compared potential Kharg Island seizure to Iwo Jima. 8 PM ET deadline imminent.",
+    "source": "Reuters, Stars and Stripes, WSJ, CBS News, CNN, NPR, Pentagon, Apr 7 reporting"
   },
   {
     "id": "hms-dragon",

@@ -3409,5 +3409,122 @@
     "category": "summary",
     "source": "Multiple",
     "data_point": "~$45.6B — Apr 7 deadline — ceasefire rejected — IAEA severed — gas $4.119"
+  },
+  {
+    "date": "2026-04-07",
+    "time": "01:00",
+    "title": "US strikes 50+ military targets on Kharg Island — Iran's primary oil export hub",
+    "description": "US conducted overnight strikes on 50+ military targets on Kharg Island, which handles approximately 90% of Iran's oil exports. A US official told NBC the strikes targeted military infrastructure, not oil facilities directly — mirroring the calibrated approach of a March 13 raid. Represents most significant strike on Iran's economic chokepoint since conflict began.",
+    "category": "military",
+    "source": "NBC News / CENTCOM / Reuters",
+    "data_point": "50+ targets on Kharg Island — 90% of Iran's oil exports"
+  },
+  {
+    "date": "2026-04-07",
+    "time": "02:00",
+    "title": "Israel launches wide-scale bridge and railway strikes across Iran — 'Bridge Day' begins early",
+    "description": "IDF launched a 'wide-scale wave of strikes targeting dozens of infrastructure sites' across Iran. Confirmed hits: key bridge near Qom (~80 miles south of Tehran), railway bridge in Kashan (2 killed, 3 injured), Tabriz-Zanjan freeway in northwestern Iran, and railway infrastructure in Karaj. IDF issued 'urgent warning' in Farsi telling all Iranians to stay away from trains and railway lines for 12 hours. Appears to be opening phase of Trump's threatened 'Bridge Day' campaign.",
+    "category": "military",
+    "source": "IDF / Reuters / Al Jazeera / Iranian state media",
+    "data_point": "Wide-scale bridge/railway strikes — IDF 12-hour warning to avoid trains"
+  },
+  {
+    "date": "2026-04-07",
+    "time": "03:00",
+    "title": "18 civilians including 2 children killed in US-Israeli attack on Alborz Province",
+    "description": "At least 18 civilians including 2 children killed in US-Israeli attack on Iran's Alborz Province overnight April 6-7. Tehran residential areas also struck with Red Crescent rescue workers responding to collapsed buildings. Six children (4 girls, 2 boys under age 10) killed in overnight strikes on Tehran residential area.",
+    "category": "military",
+    "source": "Iranian state media / Red Crescent / HRANA",
+    "data_point": "18 civilians killed in Alborz — 6 children killed in Tehran overnight"
+  },
+  {
+    "date": "2026-04-07",
+    "time": "04:00",
+    "title": "IRGC intelligence chief Khademi and Quds Force commander Bakeri killed in Israeli strikes",
+    "description": "Two high-value IRGC targets killed April 6: Major General Majid Khademi, head of IRGC Intelligence Organization (Iran's top spy chief), and Asghar Bakeri (Yazdan Mir), commander of Quds Force Unit 840 (special operations/covert attacks). Israeli Defense Minister Katz confirmed responsibility. Follow killings of IRGC Navy BG Mostafa Azizi, Artesh Air Defense commander BG Masoud Zare, and IRGC Oil HQ chief Mohammad Reza Ashrafi Ghahi (April 5-6).",
+    "category": "military",
+    "source": "IDF / Israeli Defense Ministry / Reuters / Iranian state media",
+    "data_point": "2 senior IRGC commanders killed — intelligence chief + Quds Force Unit 840 commander"
+  },
+  {
+    "date": "2026-04-07",
+    "time": "05:00",
+    "title": "Israel strikes Iran's largest petrochemical complex at Asaluyeh and yellowcake facility in Ardakan",
+    "description": "Israel struck Iran's largest petrochemical complex in Asaluyeh (South Pars), responsible for ~50% of petrochemical production. Separately, a strike hit the yellowcake production facility (Shahid Rezayee Nejad) in Ardakan, Yazd Province. Iran's Atomic Energy Organization condemned the Ardakan strike as a violation of peaceful nuclear facility protections. Three Tehran airports (Bahram, Mehrabad, Azmayesh) also struck targeting Iranian air force aircraft.",
+    "category": "military",
+    "source": "IDF / IAEA / Iranian Atomic Energy Organization / Reuters",
+    "data_point": "Asaluyeh (~50% of petrochemical production) + Ardakan yellowcake facility struck"
+  },
+  {
+    "date": "2026-04-07",
+    "time": "06:00",
+    "title": "Iran uses cluster munitions against Tel Aviv — residential building hit in Haifa killing 4",
+    "description": "Iran used cluster munitions in a missile attack on the Tel Aviv area April 6, creating approximately 20 impact sites with several injuries. A missile directly hit a residential building in Haifa April 5, killing 4. At least one missile fired toward Israel on morning of April 7. IDF reports approximately 30 Iranian missiles crossed into Israeli territory since April 2, including 3 cluster missiles. Iran also launched 4 cruise missiles at Kuwait, 2 at Qatar, 1 each at UAE and Saudi Arabia — shift toward more cruise missiles.",
+    "category": "military",
+    "source": "IDF / Haaretz / Al Jazeera / Reuters / CENTCOM",
+    "data_point": "Cluster munitions in Tel Aviv — 4 killed in Haifa — 30+ missiles since Apr 2"
+  },
+  {
+    "date": "2026-04-07",
+    "time": "07:00",
+    "title": "IRGC issues most extreme threat: strikes 'outside the region' if civilian infrastructure targeted",
+    "description": "IRGC's April 7 warning stated that if civilian infrastructure is attacked, Iran will respond 'outside the region' — the most geographically expansive threat to date — and remove all previous restraint against Gulf neighbors. Separately, a coordinated Houthi-Iran-Hezbollah barrage hit Israel with cruise missiles and drones targeting 'vital and military sites.' Houthi deputy information minister confirmed: 'We are in joint coordination with our brothers in Iran, Lebanon, and Iraq.' Camp Buehring in Kuwait reportedly hit by Shahed-136, destroying US Army Chinook.",
+    "category": "military",
+    "source": "IRGC / Sepah News / Al Masirah / Houthi media / CENTCOM",
+    "data_point": "IRGC threatens strikes 'outside the region' — coordinated 3-front barrage"
+  },
+  {
+    "date": "2026-04-07",
+    "time": "08:00",
+    "title": "Iran rejects 45-day ceasefire — submits 10-point counter-proposal demanding permanent war end",
+    "description": "Iran formally rejected the 45-day ceasefire proposed by Egyptian-Pakistani-Turkish mediators ('Islamabad Accord') on April 6. Iran submitted 10-point counter-proposal demanding permanent end to hostilities, sanctions relief, reconstruction payments, and Strait of Hormuz safe passage protocol. Iranian FM spokesperson: 'A cease-fire means creating a pause to regroup and commit crimes again.' US official called response 'maximalist.' However, mediation channels remain active — Pakistan's Field Marshal Asim Munir in contact 'all night long' with VP Vance, envoy Witkoff, and Iranian FM Araghchi. Direct text messages between Witkoff and Araghchi confirmed by Axios.",
+    "category": "diplomatic",
+    "source": "IRNA / Iranian FM / Axios / Pakistan PM / Reuters",
+    "data_point": "Ceasefire rejected — 10-point counter-proposal — Witkoff-Araghchi texts confirmed"
+  },
+  {
+    "date": "2026-04-07",
+    "time": "09:00",
+    "title": "Vance declares 'military goals achieved' — Trump warns 'a whole civilisation will die tonight'",
+    "description": "Critical divergence in US messaging. VP Vance, speaking in Budapest, stated the US has 'achieved its war goals' and 'this war will be over very soon' — language that could serve as an off-ramp. Meanwhile Trump posted on Truth Social: 'A whole civilisation will die tonight, never to be brought back again' and 'Tuesday will be Power Plant Day, and Bridge Day.' Netanyahu warned Trump against accepting ceasefire, insisting Iran must surrender all enriched uranium. France warned infrastructure strikes violate international law. UK hosting virtual conference with 41 countries on post-conflict Hormuz security.",
+    "category": "diplomatic",
+    "source": "White House / Truth Social / Reuters / AP / French Presidency / UK FCO",
+    "data_point": "Vance: 'military goals achieved' vs Trump: 'a whole civilisation will die tonight'"
+  },
+  {
+    "date": "2026-04-07",
+    "time": "09:30",
+    "title": "WTI spikes toward $115 on Kharg strikes — S&P reverses four-day rally",
+    "description": "WTI jumped ~2-3% to $112.42-$115.00 on Kharg Island strike reports, with Bloomberg citing prices approaching $115-116/bbl. Brent volatile at $109.87-$111.68. S&P 500 opened ~6,587.66 (down 0.5-0.7% from Apr 6 close of 6,611.83), reversing four consecutive up sessions. VIX rose to 24.88 (+4.2%). Gold range-bound $4,672-4,700/oz. 10Y yield 4.335%. Goldman Sachs warned persistent disruptions could drag S&P to 5,400. Kalshi prediction markets: 60% probability S&P drops below 5,900 in 2026.",
+    "category": "financial",
+    "source": "Bloomberg / CNBC / Yahoo Finance / Goldman Sachs / Kalshi",
+    "data_point": "WTI ~$115 — S&P ~6,588 (-0.5%) — VIX 24.88 — Goldman warns 5,400"
+  },
+  {
+    "date": "2026-04-07",
+    "time": "10:00",
+    "title": "Iran calls for human shields at power plants — WHO reports 307 health facilities damaged",
+    "description": "Iran's Deputy Sports Minister Alireza Rahimi called on young people, artists, athletes, and students to form 'human chains' around power plants at 2:00 PM local time Tuesday. A Revolutionary Guard general urged parents to send children to man checkpoints. WHO has verified 20+ attacks on healthcare in Iran resulting in at least 9 deaths. Iranian Red Crescent reports 307 health/medical/emergency facilities damaged. UNHCR: up to 3.2 million Iranians temporarily displaced. Iran's internet connectivity at 4% of normal. HRANA: 3,540-3,546 killed (nearly double Health Ministry's 2,076).",
+    "category": "humanitarian",
+    "source": "Iranian state media / WHO / UNHCR / HRANA / IFRC",
+    "data_point": "Human shields at power plants — 307 health facilities damaged — internet 4%"
+  },
+  {
+    "date": "2026-04-07",
+    "time": "10:30",
+    "title": "Trump approval on war collapses — only 34% approve military action (CNN)",
+    "description": "CNN early April poll: only 34% approve military action (down 7 points from war start); 66% disapprove. YouGov: Trump overall approval 35%, Iran war handling 30-33% (down from 39% in early March). Fox News: 59% disapproval — highest in either Trump term. Among independents, approval collapsed from 31% to 22%. GOP Iran approval dropped from 83% to 68%. Only 27% say war worth costs (vs 59% for Iraq in 2003). 71% oppose $200B supplemental. 68% oppose ground troops.",
+    "category": "humanitarian",
+    "source": "CNN / YouGov / Fox News / Economist",
+    "data_point": "34% approve (CNN) — 27% say worth costs — 71% oppose $200B supplemental"
+  },
+  {
+    "date": "2026-04-07",
+    "time": "11:00",
+    "title": "Day 39 summary — 8 PM ET deadline approaches at conflict's most dangerous inflection point",
+    "description": "Day 39 defined by: (1) US strikes 50+ targets on Kharg Island; (2) Israel launches wide-scale bridge/railway strikes — 'Bridge Day' begins early; (3) Iran rejects ceasefire, submits 10-point counter-proposal; (4) Vance: 'military goals achieved' vs Trump: 'a whole civilisation will die tonight'; (5) IRGC threatens strikes 'outside the region'; (6) 2 senior IRGC commanders killed; (7) WTI spikes to $115; S&P ~6,588; (8) Iran calls for human shields at power plants; (9) 8 PM ET deadline — binary inflection point between deal and catastrophic escalation. ~$46.9B cumulative.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "~$46.9B — Kharg strikes — bridge campaign — 8 PM ET deadline — WTI $115"
   }
 ]
