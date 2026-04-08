@@ -4,7 +4,7 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-04-07",
+    "last_updated": "2026-04-08",
     "day_convention": "Day 1 = 2026-02-28",
     "total_targets_struck": "~35,500+ (CENTCOM: 13,000+ targets struck, 155 ships sunk/damaged, 26 aircraft types per CENTCOM/Stars and Stripes. Combined US/Israeli extrapolated ~35,500+ through Day 39. US fast-attack submarine sank Iranian submarine with MK-48 torpedo — first such engagement since WWII. 155+ warships/submarines destroyed (~92% of Iran's large warships). Total confirmed US aircraft losses: 7 airframes (3 F-15Es Kuwait friendly fire Mar 2; 1 KC-135 Mar 12; 1 F-15E shot down Apr 3; 1 A-10 downed Apr 3) + 12+ MQ-9 Reaper drones.)",
     "provinces_struck": "26 of 31 (per ACLED)",
@@ -1676,5 +1676,23 @@
     "notes": "Day 39 (Apr 7): Strikes on three Tehran airports (Bahram, Mehrabad, Azmayesh) targeting Iranian air force aircraft and helicopters.",
     "verified": true,
     "last_updated": "2026-04-07"
+  },
+  {
+    "id": "tehran-radar-ceasefire-april7",
+    "city": "Tehran area",
+    "lat": 35.75,
+    "lng": 51.45,
+    "type": "us_strike",
+    "actor": "israel",
+    "targets": [
+      "Radar installation near Tehran"
+    ],
+    "first_strike": "2026-04-07",
+    "casualties_reported": "Unknown",
+    "casualties_source": "IDF / Axios",
+    "active_days": [39],
+    "notes": "Day 39 (Apr 7, post-ceasefire): Israel retaliated against post-ceasefire Iranian missile violations by attacking a radar installation near Tehran. This was the last confirmed strike before the ceasefire stabilized. Two-week ceasefire in effect from 8 PM ET Apr 7.",
+    "verified": true,
+    "last_updated": "2026-04-08"
   }
 ]

@@ -15,8 +15,8 @@
     "mission_summary": "Primary strike platform — deep strike into Iran and attrition of Iranian naval capabilities",
     "deployed_since": "2025-11-21",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 39: Sole operational carrier in direct theater — repositioned southwest toward Salalah, Oman (~1,100 km from Iran) after Iranian gunboat attack on escort vessel. CENTCOM: 13,000+ targets struck, 155 ships sunk/damaged. B-52s now flying over Iran with JDAM gravity bombs — signals degraded air defenses. ~50% of Iran's missile launchers remain intact. CSG-3 with CVW-9 and DESRON 21 + 6 independently deployed DDGs. New capabilities: U-2 reconnaissance, EA-37B Compass Call, LUCAS drones.",
-    "source": "USNI Fleet Tracker, CENTCOM, Stars and Stripes, NBC News, Apr 7 reporting"
+    "notes": "Day 40: CEASEFIRE — Two-week pause from 8 PM ET Apr 7. Lincoln remains sole operational carrier in direct theater — Arabian Sea position near Salalah, Oman. CENTCOM: 13,000+ targets struck, 155 ships sunk/damaged prior to ceasefire. CSG-3 with CVW-9 and DESRON 21 + 6 independently deployed DDGs. Operations at reduced tempo pending Islamabad Accords talks Apr 10.",
+    "source": "USNI Fleet Tracker, CENTCOM, Apr 8 reporting"
   },
   {
     "id": "cvn-78",
@@ -33,8 +33,8 @@
     "mission_summary": "Suffered non-combat fire Mar 12; conducted repairs during 5-day Split, Croatia port call; departed Apr 2 — effectively sidelined from combat operations",
     "deployed_since": "2025-05-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 39: ⚠️ CORRECTION — Ford is NOT in combat-ready Eastern Med posture. Suffered non-combat fire Mar 12, conducted repairs during 5-day port call in Split, Croatia, departed Apr 2. Effectively sidelined from combat operations. ~285+ day deployment. DESRON 2 escorts (DDG-96, DDG-72, DDG-81) in Mediterranean. Bush CSG-10 en route to relieve.",
-    "source": "USNI News, USNI Fleet Tracker, NBC News, Apr 7 reporting"
+    "notes": "Day 40: ⚠️ Ford remains sidelined from combat operations. Suffered non-combat fire Mar 12, repaired in Split, departed Apr 2. ~286+ day deployment. DESRON 2 escorts in Mediterranean. Bush CSG-10 en route to relieve. Ceasefire in effect — reduced operational requirements.",
+    "source": "USNI News, USNI Fleet Tracker, Apr 8 reporting"
   },
   {
     "id": "cvn-77",
@@ -51,8 +51,8 @@
     "mission_summary": "Transit to CENTCOM AOR — three-carrier presence committed to EUCOM/CENTCOM theater",
     "deployed_since": "2026-03-31",
     "operation_start_date": null,
-    "notes": "Day 39: Transiting Atlantic, expected to reach CENTCOM theater approximately April 10-12. CSG-10 with CVW-7 embarked. RADM Alexis Walker commanding. Escorts: USS Ross (DDG-71), USS Donald Cook (DDG-75), USS Mason (DDG-87). Likely to relieve sidelined Ford. Three CSGs committed to EUCOM/CENTCOM — largest naval concentration since 2003.",
-    "source": "USNI Fleet Tracker, CBS News, Navy Times, Apr 7 reporting"
+    "notes": "Day 40: Transiting toward CENTCOM theater, ETA Apr 10-12. CSG-10 with CVW-7 embarked. RADM Alexis Walker commanding. Escorts: USS Ross (DDG-71), USS Donald Cook (DDG-75), USS Mason (DDG-87). Arrival coincides with Islamabad Accords talks Apr 10. Ceasefire in effect but Bush maintains transit — three CSGs committed.",
+    "source": "USNI Fleet Tracker, CBS News, Apr 8 reporting"
   },
   {
     "id": "lha-7",
@@ -145,8 +145,8 @@
     "deployed_since": "2026-03-19",
     "operation_start_date": null,
     "eta_theater": "2026-04-09",
-    "notes": "Day 39: Boxer ARG with 11th MEU transiting the Pacific, expected mid-April. 11th MEU (~2,500 Marines, ~4,000 total). Includes USS Comstock (LSD-45), USS Portland (LPD-27). Combined with Tripoli ARG and 82nd Airborne: ~6,000-8,000 ground troops. 82nd Airborne 1st BCT under Maj. Gen. Tegtmeier deployed to CENTCOM; division canceled annual All American Week (May 18-21) confirming sustained deployment.",
-    "source": "USNI Fleet Tracker, DVIDSHUB, AP, Stars and Stripes, Pentagon, Apr 7 reporting"
+    "notes": "Day 40: Boxer ARG with 11th MEU continuing transit, expected mid-April. Ceasefire in effect but deployment continues. 11th MEU (~2,500 Marines, ~4,000 total). Combined with Tripoli ARG and 82nd Airborne: ~6,000-8,000 ground troops near Iran. 82nd Airborne 1st BCT deployed; All American Week canceled confirming sustained deployment.",
+    "source": "USNI Fleet Tracker, DVIDSHUB, Stars and Stripes, Apr 8 reporting"
   },
   {
     "id": "ssn-anson",
@@ -181,8 +181,8 @@
     "mission_summary": "Ground combat force — HQ elements, division enablers, and 1st BCT deploying to CENTCOM; IRF can deploy within 18 hours",
     "deployed_since": "2026-03-25",
     "operation_start_date": null,
-    "notes": "Day 39: 1st BCT 'Devil Brigade' (~2,000-3,000 paratroopers) under Maj. Gen. Brandon Tegtmeier deployed to CENTCOM AOR. Division canceled annual All American Week (May 18-21) 'due to competing requirements' — confirms sustained deployment. Combined with two MEUs (31st with Tripoli, 11th with Boxer): ~6,000-8,000 ground troops in proximity to Iran. SecState Rubio: US may need to 'physically secure nuclear material inside Iran.' Sen. Graham compared potential Kharg Island seizure to Iwo Jima. 8 PM ET deadline imminent.",
-    "source": "Reuters, Stars and Stripes, WSJ, CBS News, CNN, NPR, Pentagon, Apr 7 reporting"
+    "notes": "Day 40: CEASEFIRE — 1st BCT 'Devil Brigade' (~2,000-3,000 paratroopers) operational in CENTCOM AOR. Division canceled All American Week confirming sustained deployment. Forces remain deployed pending Islamabad talks Apr 10. Combined with two MEUs: ~6,000-8,000 ground troops near Iran. Ceasefire in effect from 8 PM ET Apr 7 — two-week pause.",
+    "source": "Reuters, Stars and Stripes, Pentagon, Apr 8 reporting"
   },
   {
     "id": "hms-dragon",
@@ -217,8 +217,8 @@
     "mission_summary": "French carrier operations — Eastern Mediterranean. France pledged 8 frigates + 2 amphibious assault ships.",
     "deployed_since": null,
     "operation_start_date": null,
-    "notes": "Day 38: French CSG operating in Eastern Mediterranean with 8 frigates + 2 Mistral amphibious carriers. Leading escort concept for Strait of Hormuz reopening.",
-    "source": "French MoD / Reuters / Apr 6 reporting"
+    "notes": "Day 40: French CSG in Eastern Mediterranean with 8 frigates + 2 Mistral amphibious carriers. Macron indicated escort mission would begin 'as soon as possible after the most intense phase of the conflict has ended' — ceasefire may trigger deployment for Hormuz escort.",
+    "source": "French MoD / Reuters / Macron statement / Apr 8 reporting"
   },
   {
     "id": "vmfa-311-f35c",
