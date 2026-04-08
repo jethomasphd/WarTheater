@@ -1,5 +1,5 @@
 {
-  "labels": ["Feb 27", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 16", "Mar 17", "Mar 18", "Mar 19", "Mar 20", "Mar 23", "Mar 24", "Mar 25", "Mar 26", "Mar 27", "Mar 30", "Mar 31", "Apr 1", "Apr 2", "Apr 6", "Apr 7"],
+  "labels": ["Feb 27", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 16", "Mar 17", "Mar 18", "Mar 19", "Mar 20", "Mar 23", "Mar 24", "Mar 25", "Mar 26", "Mar 27", "Mar 30", "Mar 31", "Apr 1", "Apr 2", "Apr 6", "Apr 7", "Apr 8"],
   "contexts": [
     "Pre-war close — baseline",
     "Day 3 — First trading session; S&P recovers from -1.2% intraday to flat",
@@ -27,29 +27,30 @@
     "Day 33 — Trump claims Iran asked for CEASEFIRE; markets surge on peace hopes; S&P 6,528.52 (+2.91% best day since May); Dow +2.49%; Nasdaq +3.83%; Brent drops 5% to ~$105 intraday; VIX collapses 17.5% to 25.25; Asian markets explode: Kospi +8.4%, Nikkei +5.2%; gold $4,746 (+1.9%); 10Y 4.31%; RTX $192.90 (+3.1%); LMT ~$610; airlines rally DAL $62.89 UAL $92.26; Apr 6 energy deadline 5 days out; Trump prime-time address 9 PM ET tonight; Rubio: 'we can see the finish line'",
     "Day 34 — S&P 6,582.69 (+0.11%) — dramatic intraday reversal from post-Trump speech selloff on Iran-Oma transit protocol headlines; first weekly gain since conflict began (+3.4%); Dow 46,504.67 (-0.13%); Nasdaq 21,879.18 (+0.18%); VIX 23.87 (-2.73%); Brent $109.03 (+7.8%); WTI $111.54 (+11.4%, first close above $100 since Jul 2022); WTI-Brent spread inverted; gold $4,692.80 (-2.50%); 10Y 4.31% (-0.6 bps); XOM $160.69 (-5.2%); CVX $197.41 (-4.6%); DAL $58.78; UAL $91-95 (5% capacity cut); LMT $622.89 (+30% YTD); RTX $193-197; Apr 3 markets closed Good Friday; Apr 6 deadline 3 days; war approval 28% YouGov",
     "Day 38 — S&P 6,611.83 (+0.44%) — four consecutive up sessions (+3.3% for week); Dow 46,669.88 (+0.36%); Nasdaq 21,996.34 (+0.54%); VIX 24.17 (+1.26%); Brent $111.25; WTI $111.81; gold $4,672-4,700; 10Y 4.335%; LMT $622.79 (+26% YTD); RTX $198.41 (+40% YoY); KTOS $74.09 (+10.07%); XOM ~$163.37 (+28-41% YTD); CVX $198.86 (+24% YTD); DAL $64-65; UAL ~$92; AAL ~$11 (-25-30% YTD); Easter Monday open (not a US holiday); 8 PM ET deadline tomorrow",
-    "Day 39 — S&P opened ~6,588 under pressure; range 6,579-6,618; down ~0.5-0.7% on Kharg Island strikes and escalating rhetoric; VIX 24.88 (+4.2%); WTI spiking toward $115 on Kharg strikes (50+ targets); Brent $109.87-111.68; gold $4,672-4,700; 10Y 4.323-4.353%; Goldman warns S&P could hit 5,400 on persistent disruptions; Kalshi 60% prob S&P below 5,900 in 2026; IRGC threatens strikes 'outside the region'; Vance: 'military goals achieved'"
+    "Day 39 — S&P opened ~6,588 under pressure; range 6,579-6,618; down ~0.5-0.7% on Kharg Island strikes and escalating rhetoric; VIX 24.88 (+4.2%); WTI spiking toward $115 on Kharg strikes (50+ targets); Brent $109.87-111.68; gold $4,672-4,700; 10Y 4.323-4.353%; Goldman warns S&P could hit 5,400 on persistent disruptions; Kalshi 60% prob S&P below 5,900 in 2026; IRGC threatens strikes 'outside the region'; Vance: 'military goals achieved'",
+    "Day 40 — CEASEFIRE: Pakistan-brokered two-week pause announced 6:32 PM ET Apr 7 — 88 min before deadline; S&P ~6,609; Dow futures +1,000+ pts overnight; Brent crashes 14-16% to ~$93; WTI plunges 15-19% to ~$96 (one of largest single-day drops in history); gold $4,737 (still rising — market skepticism); 10Y yields plummeting; VIX expected sharp decline; XOM -6% to ~$154; CVX -5.5% to ~$190; airlines expected +9-14%; defense faces ceasefire headwind; UBS cuts S&P target 7,700→7,500; 'death cross' formed; Islamabad talks Apr 10"
   ],
   "datasets": {
     "sp500": {
       "label": "S&P 500",
-      "data": [100, 100.0, 99.1, 99.9, 99.3, 98.0, 98.8, 98.6, 98.5, 97.0, 96.4, 96.9, 97.9, 97.1, 96.2, 94.6, 96.3, 95.5, 95.9, 95.2, 92.6, 93.2, 92.2, 94.9, 95.7, 96.1, 95.8],
+      "data": [100, 100.0, 99.1, 99.9, 99.3, 98.0, 98.8, 98.6, 98.5, 97.0, 96.4, 96.9, 97.9, 97.1, 96.2, 94.6, 96.3, 95.5, 95.9, 95.2, 92.6, 93.2, 92.2, 94.9, 95.7, 96.1, 95.8, 96.1],
       "color": "#ef4444"
     },
     "defense": {
       "label": "Defense (RTX + LMT)",
-      "data": [100, 103.5, 106.0, 108.0, 109.5, 110.5, 112.5, 113.0, 113.5, 115.8, 116.5, 117.0, 116.5, 118.0, 120.0, 119.0, 117.5, 116.0, 115.5, 119.0, 122.0, 120.5, 120.0, 122.5, 124.5, 126.0, 125.5],
+      "data": [100, 103.5, 106.0, 108.0, 109.5, 110.5, 112.5, 113.0, 113.5, 115.8, 116.5, 117.0, 116.5, 118.0, 120.0, 119.0, 117.5, 116.0, 115.5, 119.0, 122.0, 120.5, 120.0, 122.5, 124.5, 126.0, 125.5, 124.0],
       "color": "#22c55e"
     },
     "oil_majors": {
       "label": "Oil Majors (XOM + CVX)",
-      "data": [100, 106.0, 110.0, 112.0, 114.0, 119.0, 124.0, 117.0, 121.0, 128.0, 130.0, 133.0, 129.0, 137.0, 142.0, 144.0, 140.0, 143.0, 138.0, 145.0, 152.0, 154.0, 156.0, 153.0, 146.0, 150.0, 153.0],
+      "data": [100, 106.0, 110.0, 112.0, 114.0, 119.0, 124.0, 117.0, 121.0, 128.0, 130.0, 133.0, 129.0, 137.0, 142.0, 144.0, 140.0, 143.0, 138.0, 145.0, 152.0, 154.0, 156.0, 153.0, 146.0, 150.0, 153.0, 145.0],
       "color": "#d4a020"
     },
     "airlines": {
       "label": "Airlines (DAL + UAL)",
-      "data": [100, 92.0, 88.0, 85.0, 83.0, 81.0, 78.0, 78.5, 78.0, 76.0, 75.5, 74.0, 75.5, 73.0, 70.0, 69.0, 72.0, 71.0, 72.5, 70.0, 67.0, 66.5, 65.0, 67.5, 64.0, 63.5, 62.0],
+      "data": [100, 92.0, 88.0, 85.0, 83.0, 81.0, 78.0, 78.5, 78.0, 76.0, 75.5, 74.0, 75.5, 73.0, 70.0, 69.0, 72.0, 71.0, 72.5, 70.0, 67.0, 66.5, 65.0, 67.5, 64.0, 63.5, 62.0, 68.0],
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-04-07"
+  "last_updated": "2026-04-08"
 }

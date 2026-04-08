@@ -1,11 +1,11 @@
 {
   "conflicts": [
     {
-      "label": "Iran 2026 (Day 39)",
+      "label": "Iran 2026 (Day 40)",
       "targets_struck": 35500,
       "us_kia": 15,
-      "daily_cost_millions": 1300,
-      "note": "Operation Epic Fury — Day 39. US strikes 50+ targets on Kharg Island; Israel launches wide-scale bridge/railway strikes. 8 PM ET deadline — binary inflection point. Iran rejects ceasefire, submits 10-point counter-proposal. Vance: 'military goals achieved.' IRGC threatens strikes 'outside the region.' WTI ~$115. ~$46.9B spent."
+      "daily_cost_millions": 800,
+      "note": "Operation Epic Fury — Day 40. CEASEFIRE: Pakistan-brokered two-week pause announced 6:32 PM ET Apr 7 — 88 minutes before Trump's 8 PM deadline to destroy Iran's power grid. Oil crashes 14-19% overnight. Dow futures +1,000+ pts. Islamabad Accords negotiations begin Apr 10 — VP Vance leads US delegation. Ceasefire excludes Lebanon per Netanyahu. ~$47.7B spent."
     },
     {
       "label": "Iraq 2003 (Day 21)",
@@ -30,5 +30,5 @@
     }
   ],
   "sources": "CRS Reports R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya). Costs inflation-adjusted to 2026 dollars using BLS CPI-U.",
-  "last_updated": "2026-04-07"
+  "last_updated": "2026-04-08"
 }
