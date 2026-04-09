@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 41 — IranWar.ai Daily Intelligence Briefing</title>
+<meta name="description" content="Day 41 of Operation Epic Fury. Ceasefire fractures over Lebanon; Iran re-closes Hormuz; Islamabad talks in jeopardy. April 9, 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #030303;
+    --bg-card: #0a0a0a;
+    --bg-card-alt: #0d0b08;
+    --border: #1a1610;
+    --border-gold: #c9a22733;
+    --gold: #c9a227;
+    --gold-dim: #8a7020;
+    --gold-bright: #e8c84a;
+    --text: #d4cfc6;
+    --text-dim: #7a756c;
+    --text-bright: #eae5dc;
+    --red: #c44040;
+    --red-dim: #8a2e2e;
+    --green: #3a8a4a;
+    --blue: #4a8ac4;
+    --purple: #7a4aa0;
+    --white: #f0ebe2;
+    --serif: 'Cormorant Garamond', Georgia, serif;
+    --mono: 'IBM Plex Mono', 'Courier New', monospace;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--serif);
+    font-size: 18px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── HEADER ── */
+  .briefing-header {
+    border-bottom: 1px solid var(--border-gold);
+    padding: 3rem 2rem 2.5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .briefing-header::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  }
+  .briefing-header::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 50%; transform: translateX(-50%);
+    width: 600px; height: 300px;
+    background: radial-gradient(ellipse, rgba(201,162,39,0.04) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .classification {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold-dim);
+    margin-bottom: 0.5rem;
+  }
+
+  .day-number {
+    font-family: var(--mono);
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 0.25rem;
+    text-shadow: 0 0 60px rgba(201,162,39,0.15);
+  }
+
+  .briefing-date {
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    letter-spacing: 0.15em;
+    margin-bottom: 1.5rem;
+  }
+
+  .briefing-headline {
+    font-family: var(--serif);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-bright);
+    max-width: 740px;
+    margin: 0 auto 1rem;
+    line-height: 1.3;
+  }
+
+  .briefing-subhead {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    max-width: 660px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  /* ── STATUS BAR ── */
+  .status-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem 1.5rem;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-card);
+    font-family: var(--mono);
+    font-size: 0.7rem;
+  }
+  .status-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .status-dot {
+    width: 6px; height: 6px; border-radius: 50%;
+  }
+  .status-dot.red { background: var(--red); box-shadow: 0 0 6px var(--red); }
+  .status-dot.gold { background: var(--gold); box-shadow: 0 0 6px var(--gold-dim); }
+  .status-dot.green { background: var(--green); box-shadow: 0 0 6px var(--green); }
+  .status-dot.blue { background: var(--blue); }
+  .status-label { color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.1em; }
+  .status-value { color: var(--text); }
+
+  /* ── CONTENT ── */
+  .content {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  /* ── FLASH / LEAD ── */
+  .flash-panel {
+    margin: 2.5rem 0;
+    border: 1px solid var(--red-dim);
+    border-left: 3px solid var(--red);
+    background: linear-gradient(135deg, rgba(196,64,64,0.06) 0%, var(--bg-card) 100%);
+    padding: 1.5rem 1.75rem;
+  }
+  .flash-label {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 0.6rem;
+  }
+  .flash-text {
+    font-size: 1.15rem;
+    color: var(--text-bright);
+    line-height: 1.6;
+  }
+
+  /* ── SECTION ── */
+  .section {
+    margin: 3rem 0;
+    opacity: 0;
+    transform: translateY(16px);
+    animation: fadeUp 0.6s ease forwards;
+  }
+  .section:nth-child(1) { animation-delay: 0.1s; }
+  .section:nth-child(2) { animation-delay: 0.2s; }
+  .section:nth-child(3) { animation-delay: 0.3s; }
+  .section:nth-child(4) { animation-delay: 0.4s; }
+  .section:nth-child(5) { animation-delay: 0.5s; }
+  .section:nth-child(6) { animation-delay: 0.6s; }
+  .section:nth-child(7) { animation-delay: 0.7s; }
+  .section:nth-child(8) { animation-delay: 0.8s; }
+
+  @keyframes fadeUp {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .section-number {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    color: var(--gold-dim);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+  }
+
+  .section-title {
+    font-family: var(--serif);
+    font-size: 1.65rem;
+    font-weight: 700;
+    color: var(--gold);
+    margin-bottom: 1.2rem;
+    line-height: 1.3;
+  }
+
+  .section p {
+    margin-bottom: 1rem;
+  }
+
+  .section p:last-child { margin-bottom: 0; }
+
+  .highlight { color: var(--gold-bright); font-weight: 600; }
+  .dim { color: var(--text-dim); }
+  .red-text { color: var(--red); }
+  .stat { font-family: var(--mono); font-size: 0.9rem; color: var(--gold); }
+  .source-tag {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    color: var(--text-dim);
+    letter-spacing: 0.05em;
+  }
+
+  /* ── DATA GRID ── */
+  .data-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1px;
+    background: var(--border);
+    margin: 1.5rem 0;
+    border: 1px solid var(--border);
+  }
+  .data-cell {
+    background: var(--bg-card);
+    padding: 1rem 1.2rem;
+  }
+  .data-cell-label {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.4rem;
+  }
+  .data-cell-value {
+    font-family: var(--mono);
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text-bright);
+    line-height: 1.2;
+  }
+  .data-cell-value.gold { color: var(--gold); }
+  .data-cell-value.red { color: var(--red); }
+  .data-cell-value.green { color: var(--green); }
+  .data-cell-delta {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    margin-top: 0.2rem;
+  }
+  .delta-up { color: var(--red); }
+  .delta-down { color: var(--green); }
+  .delta-neutral { color: var(--text-dim); }
+
+  /* ── DIVIDER ── */
+  .divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border-gold), transparent);
+    margin: 3rem 0;
+  }
+
+  /* ── UNVERIFIED BOX ── */
+  .unverified-box {
+    border: 1px solid var(--gold-dim);
+    border-left: 3px solid var(--gold);
+    background: var(--bg-card-alt);
+    padding: 1rem 1.2rem;
+    margin: 1.2rem 0;
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: var(--text-dim);
+  }
+  .unverified-box strong { color: var(--gold); }
+
+  /* ── TIMELINE STRIP ── */
+  .timeline-strip {
+    margin: 1.5rem 0;
+  }
+  .timeline-item {
+    display: flex;
+    gap: 1rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .timeline-item:last-child { border-bottom: none; }
+  .timeline-time {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    color: var(--gold-dim);
+    min-width: 80px;
+    flex-shrink: 0;
+    padding-top: 0.15rem;
+  }
+  .timeline-desc {
+    font-size: 0.95rem;
+    color: var(--text);
+    line-height: 1.5;
+  }
+
+  /* ── WATCH LIST ── */
+  .watch-list {
+    margin: 1.5rem 0;
+  }
+  .watch-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.95rem;
+  }
+  .watch-item:last-child { border-bottom: none; }
+  .watch-priority {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 2px;
+    flex-shrink: 0;
+    margin-top: 0.2rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .watch-priority.critical { background: var(--red-dim); color: #ff9090; }
+  .watch-priority.high { background: rgba(201,162,39,0.2); color: var(--gold); }
+  .watch-priority.med { background: rgba(74,138,196,0.15); color: var(--blue); }
+
+  /* ── FOOTER ── */
+  .briefing-footer {
+    border-top: 1px solid var(--border-gold);
+    padding: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .footer-sigil {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    color: var(--gold-dim);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+  }
+  .footer-text {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    color: var(--text-dim);
+    line-height: 1.8;
+  }
+  .footer-text a { color: var(--gold-dim); text-decoration: none; }
+  .footer-text a:hover { color: var(--gold); }
+
+  @media (max-width: 640px) {
+    .briefing-header { padding: 2rem 1.25rem 1.75rem; }
+    .day-number { font-size: 3rem; }
+    .briefing-headline { font-size: 1.5rem; }
+    .content { padding: 0 1.25rem; }
+    .section-title { font-size: 1.35rem; }
+    .data-grid { grid-template-columns: 1fr 1fr; }
+    .data-cell-value { font-size: 1.1rem; }
+  }
+</style>
+</head>
+<body>
+
+<header class="briefing-header">
+  <div class="classification">IranWar.ai · Open-Source Intelligence · Unclassified</div>
+  <div class="day-number">DAY 41</div>
+  <div class="briefing-date">WEDNESDAY, APRIL 9, 2026 &nbsp;·&nbsp; OPERATION EPIC FURY</div>
+  <h1 class="briefing-headline">Ceasefire Fractures Over Lebanon as Iran Re-Closes Hormuz; Islamabad Talks in Doubt</h1>
+  <p class="briefing-subhead">The Pakistan-brokered ceasefire technically holds on direct US-Iran hostilities but is tearing apart at its seams. Israel's "Operation Eternal Darkness" killed 254 in Lebanon hours after the truce began. Iran re-closed the Strait in response. Oil rebounding. Vance delegation still scheduled for April 10–11.</p>
+</header>
+
+<div class="status-bar">
+  <div class="status-item"><span class="status-dot gold"></span><span class="status-label">Ceasefire:</span><span class="status-value"> Holding (Iran) / Collapsing (Lebanon)</span></div>
+  <div class="status-item"><span class="status-dot red"></span><span class="status-label">Hormuz:</span><span class="status-value"> Re-closed</span></div>
+  <div class="status-item"><span class="status-dot gold"></span><span class="status-label">Brent:</span><span class="status-value"> ~$97 ↑</span></div>
+  <div class="status-item"><span class="status-dot green"></span><span class="status-label">S&P:</span><span class="status-value"> 6,783 → declining</span></div>
+  <div class="status-item"><span class="status-dot blue"></span><span class="status-label">Talks:</span><span class="status-value"> Apr 10–11</span></div>
+</div>
+
+<main class="content">
+
+  <!-- FLASH -->
+  <div class="flash-panel">
+    <div class="flash-label">⚠ Priority Intelligence</div>
+    <div class="flash-text">
+      Israel launched <span class="highlight">"Operation Eternal Darkness"</span> on April 8 — 50 fighter jets delivering ~160 munitions against 100+ targets across Lebanon in 10 minutes. <span class="red-text">254 killed, 1,160+ wounded</span>. Iran declared the ceasefire breached and re-closed the Strait of Hormuz. The White House maintains Lebanon is excluded from the ceasefire; Iran, Pakistan, and Europe insist it is included. The Soufan Center assessed the ceasefire "hovers on the verge of collapse."
+    </div>
+  </div>
+
+  <!-- MARKET SNAPSHOT -->
+  <div class="data-grid">
+    <div class="data-cell">
+      <div class="data-cell-label">Brent Crude</div>
+      <div class="data-cell-value gold">$94.75</div>
+      <div class="data-cell-delta delta-down">↓ 14.3% on Apr 8 — rebounding ~$97</div>
+    </div>
+    <div class="data-cell">
+      <div class="data-cell-label">WTI Crude</div>
+      <div class="data-cell-value gold">$94.41</div>
+      <div class="data-cell-delta delta-down">↓ 16.2% — largest drop since Apr 2020</div>
+    </div>
+    <div class="data-cell">
+      <div class="data-cell-label">S&P 500</div>
+      <div class="data-cell-value green">6,782.81</div>
+      <div class="data-cell-delta delta-down">↑ 2.51% — best since May; now fading</div>
+    </div>
+    <div class="data-cell">
+      <div class="data-cell-label">Gas (National)</div>
+      <div class="data-cell-value">$4.166</div>
+      <div class="data-cell-delta delta-up">↑ $1.19 from pre-war $2.98</div>
+    </div>
+    <div class="data-cell">
+      <div class="data-cell-label">Gold</div>
+      <div class="data-cell-value gold">$4,799+</div>
+      <div class="data-cell-delta delta-neutral">Still rising despite ceasefire — skepticism</div>
+    </div>
+    <div class="data-cell">
+      <div class="data-cell-label">VIX</div>
+      <div class="data-cell-value">21.04 → ~25</div>
+      <div class="data-cell-delta delta-up">Collapsed on ceasefire, now climbing back</div>
+    </div>
+    <div class="data-cell">
+      <div class="data-cell-label">Est. Total Cost</div>
+      <div class="data-cell-value red">~$48.5B</div>
+      <div class="data-cell-delta delta-neutral">~$800M/day reduced tempo</div>
+    </div>
+    <div class="data-cell">
+      <div class="data-cell-label">US KIA / WIA</div>
+      <div class="data-cell-value">13 / 348+</div>
+      <div class="data-cell-delta delta-neutral">No change since ceasefire</div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- SECTION 1: CEASEFIRE -->
+  <div class="section">
+    <div class="section-number">01 — Ceasefire Status</div>
+    <div class="section-title">Holding in Iran. Collapsing Over Lebanon.</div>
+    <p>The two-week ceasefire on direct US-Iran hostilities has technically held for approximately <span class="stat">45 hours</span> as of this briefing. No confirmed US or Israeli strikes on Iranian territory since 8 PM ET April 7. CENTCOM has not issued any post-ceasefire strike statements. The air campaign appears genuinely paused inside Iranian airspace.</p>
+    <p>But the ceasefire's periphery is collapsing. Netanyahu stated at an April 8 press conference: <span class="highlight">"The two-week ceasefire does not include Lebanon. We still have some goals to accomplish."</span> The White House confirmed this position. But Pakistan's PM Sharif — the mediator who brokered the deal — said it covered "everywhere, including Lebanon." Iran's position is unambiguous: Lebanon is included. European leaders from nine countries and the EU issued a joint statement demanding Lebanon's inclusion.</p>
+    <p>Iran's response was to <span class="red-text">re-close the Strait of Hormuz</span> on April 8, accusing Israel of violating the ceasefire through its Lebanon operations. Iran's parliamentary speaker formally accused the US of breaching the agreement. Hezbollah launched retaliatory missiles against northern Israel in the early hours of April 9.</p>
+    <div class="unverified-box">
+      <strong>⚠ SOURCE CONFLICT:</strong> The exact status of Hormuz transit varies by source. White House (Leavitt) states "the Strait is open." Bloomberg, CNBC, ABC News, and Windward Maritime Intelligence all report it is functionally re-closed after the April 8 Lebanon strikes. War-risk insurance remains unavailable for mainstream commercial operators.
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- SECTION 2: TIMELINE -->
+  <div class="section">
+    <div class="section-number">02 — Key Events: April 8–9</div>
+    <div class="section-title">48 Hours That Tested the Ceasefire</div>
+    <div class="timeline-strip">
+      <div class="timeline-item">
+        <div class="timeline-time">Apr 8 AM</div>
+        <div class="timeline-desc">Israel launches <span class="highlight">"Operation Eternal Darkness"</span> — 50 jets, ~160 munitions, 100+ targets in Lebanon in 10 minutes. <span class="red-text">254 killed</span>, 1,160+ wounded. Strikes hit central Beirut without prior warning.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">Apr 8 AM</div>
+        <div class="timeline-desc">Markets open: <span class="stat">Dow +1,325 pts</span> (+2.85%), S&P +2.51%, Nasdaq +2.80% on ceasefire euphoria. Oil crashes — Brent $94.75 (−14.3%), WTI $94.41 (−16.2%). Energy stocks plunge; airlines surge. Dow's best day since April 2025.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">Apr 8 PM</div>
+        <div class="timeline-desc">Iran announces <span class="red-text">re-closure of Strait of Hormuz</span> citing ceasefire violation. IRGC halts the limited "coordinated safe passage" that began April 7. Approximately 800 tankers and 3,200 total vessels remain trapped.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">Apr 8 PM</div>
+        <div class="timeline-desc">White House confirms VP <span class="highlight">Vance, Witkoff, and Kushner</span> will travel to Islamabad for peace talks April 10–11. Highest-level in-person US-Iran engagement since 1979.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">Apr 8 EVE</div>
+        <div class="timeline-desc">Pope Leo XIV welcomes ceasefire as "a sign of living hope." Confirms <span class="highlight">Prayer Vigil for Peace at St. Peter's Basilica</span> on April 11. Lebanon declares April 9 national day of mourning.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">Apr 9 AM</div>
+        <div class="timeline-desc">Markets reverse: S&P declining, Brent rebounds to <span class="stat">~$97</span>, VIX climbing back toward ~25. Trump tells CNBC the military is ready for the "next conquest." Oil rebounds as ceasefire doubt grows.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-time">Apr 9 AM</div>
+        <div class="timeline-desc">Hezbollah launches retaliatory missile attacks on northern Israel. <span class="highlight">Soufan Center</span>: ceasefire "hovers on the verge of collapse." Iran's FM Araghchi condemns Lebanon strikes as "a grave violation."</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- SECTION 3: DIPLOMATIC -->
+  <div class="section">
+    <div class="section-number">03 — Diplomacy</div>
+    <div class="section-title">Islamabad Talks Loom Under a Cracking Ceasefire</div>
+    <p>The negotiations scheduled for April 10–11 in Islamabad remain the most consequential diplomatic event of the conflict. VP Vance leads the US delegation, joined by Special Envoy Steve Witkoff and Jared Kushner — the highest-level US-Iran face-to-face since the 1979 hostage crisis. Pakistan's PM Sharif and Field Marshal Munir serve as mediators, having maintained the sole communication channel between Washington and Tehran throughout the crisis.</p>
+    <p>The negotiating framework is built on Iran's <span class="stat">10-point counter-proposal</span>, which Trump called "a workable basis." Iran's core demands: no enrichment concessions without sanctions relief, controlled Hormuz passage coordinated with Iran's armed forces, permanent ceasefire inclusive of Lebanon, and release of frozen assets. The US demands: unconditional Hormuz reopening "without limitation, including tolls," verifiable dismantlement of nuclear weapons-grade enrichment, and cessation of proxy warfare.</p>
+    <p>The gap remains enormous. But the ceasefire's collapse over Lebanon has introduced a new dimension: <span class="highlight">Iran may refuse to attend</span> unless the Lebanon question is resolved. Conversely, Trump's April 9 "next conquest" rhetoric suggests Washington sees the military balance as leverage, not compromise.</p>
+    <div class="unverified-box">
+      <strong>⚠ TIMING DISCREPANCY:</strong> Pakistan's initial invitation specified Friday April 10; the White House confirmed "Saturday morning local time" (April 11 Islamabad time). The operational timeline spans both dates. Iran's delegation composition has not been publicly confirmed.
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- SECTION 4: MILITARY -->
+  <div class="section">
+    <div class="section-number">04 — Force Posture</div>
+    <div class="section-title">No Drawdown. Bush CSG Arriving This Week.</div>
+    <p>The US military has not stood down a single asset since the ceasefire. Approximately <span class="stat">50,000+ troops</span> remain deployed across the region with <span class="stat">108 ships</span> (78 USS, 30 USNS). Secretary of War Hegseth and CJCS Gen. Caine stated on April 8 that forces will remain in theater.</p>
+    <p><span class="highlight">USS Abraham Lincoln (CVN-72)</span> continues as the primary striking force in the Arabian Sea, ~150 miles off Oman's coast. CSG-3 with CVW-9 conducted flight operations as recently as April 7.</p>
+    <p><span class="highlight">USS George H.W. Bush (CVN-77)</span> — CSG-10, commanded by RADM Alexis Walker — is transiting the Atlantic with <span class="stat">ETA April 10–12</span>. Arrival coincides with the Islamabad talks and gives CENTCOM dual-carrier capability for the first time since Ford was sidelined.</p>
+    <p>The <span class="highlight">USS Boxer (LHD-4)</span> with the 11th MEU departed Pearl Harbor April 1 and was operating in the western Pacific as of April 8. The <span class="highlight">82nd Airborne's</span> 1st BCT (~2,000 paratroopers) remains forward-deployed in the Middle East. The French carrier Charles de Gaulle remains in the eastern Mediterranean near Crete with an expanded multinational escort.</p>
+    <p>CENTCOM's final pre-ceasefire assessment: <span class="stat">13,000+ targets</span> struck, <span class="stat">~80% of Iran's air defenses</span> destroyed, <span class="stat">150 warships sunk/damaged</span> across 16 classes, <span class="stat">90% of weapons factories</span> destroyed, and Iran's air force reduced to <span class="stat">zero operational flights per day</span>.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- SECTION 5: ENERGY -->
+  <div class="section">
+    <div class="section-number">05 — Energy & Hormuz</div>
+    <div class="section-title">The Strait Remains the Chokepoint</div>
+    <p>Despite the ceasefire's explicit requirement for "complete, immediate, and safe opening" of the Strait, Hormuz remains <span class="red-text">functionally blockaded</span>. Iran offered only IRGC-controlled, permission-based transit with proposed tolls — far short of the unconditional access Washington demands.</p>
+    <p>On April 7, <span class="stat">11 vessels</span> transited — all under IRGC supervision, mostly sanctioned Iranian-trading tankers. On April 8, only 5 bulk carriers passed before Iran re-closed the strait citing the Lebanon strikes. As of April 9, status is uncertain. Approximately <span class="stat">800 tankers</span> and <span class="stat">3,200 total vessels</span> with ~20,000 seafarers remain trapped inside the Persian Gulf.</p>
+    <p>Windward Maritime Intelligence's assessment: <span class="highlight">"The strait has not reopened — it is in a supervised pause."</span> War-risk insurance remains unavailable for mainstream operators, effectively blocking transit regardless of Iran's stated position.</p>
+    <p>Gas nationally hit <span class="stat">$4.166/gallon</span> (AAA, April 9) — up $1.19 from pre-war $2.98. California at ~$5.93; Oklahoma lowest at ~$3.48. OPEC crude output collapsed by <span class="stat">7.56 million b/d</span> (~25%) in March — the biggest monthly drop in four decades. The IEA coordinated its largest-ever emergency release: <span class="stat">400 million barrels</span> from 32 nations. The US authorized 172 million barrels from the SPR.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- SECTION 6: HUMANITARIAN -->
+  <div class="section">
+    <div class="section-number">06 — Human Cost</div>
+    <div class="section-title">The Ceasefire Reveals the Scale</div>
+
+    <div class="data-grid">
+      <div class="data-cell">
+        <div class="data-cell-label">Iranian Killed (Health Min)</div>
+        <div class="data-cell-value red">2,076+</div>
+        <div class="data-cell-delta delta-neutral">HRANA: 3,636 · Hengaw: 7,300+</div>
+      </div>
+      <div class="data-cell">
+        <div class="data-cell-label">Lebanese Killed</div>
+        <div class="data-cell-value red">1,530+</div>
+        <div class="data-cell-delta delta-up">+254 on Apr 8 alone</div>
+      </div>
+      <div class="data-cell">
+        <div class="data-cell-label">Displaced (Iran)</div>
+        <div class="data-cell-value">3.2M</div>
+        <div class="data-cell-delta delta-neutral">UNHCR estimate</div>
+      </div>
+      <div class="data-cell">
+        <div class="data-cell-label">Children Killed (Iran)</div>
+        <div class="data-cell-value red">216+</div>
+        <div class="data-cell-delta delta-neutral">Iran Health Min, as of Apr 3</div>
+      </div>
+    </div>
+
+    <p>Casualty figures remain deeply contested. Iran's internet connectivity stands at <span class="stat">4% of normal</span>, making independent verification nearly impossible. The threefold divergence between the Health Ministry (2,076), HRANA (3,636), and Hengaw (7,300+) reflects Iran's systematic underreporting of military deaths, Hengaw's inclusion of estimated military casualties the government does not acknowledge, and the fog created by 40 days of sustained bombardment across 195 cities in 27 provinces.</p>
+    <p>The IAEA confirmed <span class="stat">four strikes near the Bushehr nuclear power plant</span>, the closest hitting just 75 meters from the reactor perimeter. One plant employee was killed. The reactor itself remains undamaged with no radiation release. Rosatom evacuated 198 Russian staff.</p>
+    <p>In Lebanon, the April 8 strikes killed <span class="red-text">254 people</span> — the single deadliest day of the entire war on any front. Over 1 million Lebanese have been displaced, with 700,000+ in shelters. WHO has verified 23 attacks on healthcare in Iran causing 9 deaths.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- SECTION 7: DOMESTIC -->
+  <div class="section">
+    <div class="section-number">07 — Domestic Politics</div>
+    <div class="section-title">No Rally. 61% Disapprove.</div>
+    <p>The war has produced no "rally around the flag" effect. Trump's overall approval stands at <span class="stat">35–41%</span> depending on the poll (CNN/SSRS: 35%, YouGov: 37%, RCP average: ~41%). War-specific disapproval is higher: Pew Research found <span class="stat">61% disapprove</span> of Trump's handling, <span class="stat">59% say force was wrong</span>, and only 22% believe military action has made the US safer.</p>
+    <p>The $200B supplemental has <span class="highlight">not been formally submitted to Congress</span>. Opposition spans both parties. The ceasefire may reduce immediate urgency but the funding question — along with war powers and accountability debates — remains unresolved. Trump is underwater in <span class="stat">135 Republican-held congressional seats</span>, creating significant midterm exposure.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- SECTION 8: REGIONAL -->
+  <div class="section">
+    <div class="section-number">08 — Regional Actors</div>
+    <div class="section-title">Houthis Poised, Hezbollah Retaliating, Gulf States Battered</div>
+    <p><span class="highlight">Houthis</span> have resumed strikes on Israel since March 28 and threaten to close the Bab el-Mandeb Strait. They have not attacked commercial shipping since the ceasefire but Iran is reportedly pushing them to prepare for a renewed Red Sea campaign. Their ceasefire posture is unclear.</p>
+    <p><span class="highlight">Hezbollah</span> initially halted attacks when the ceasefire was announced. After "Operation Eternal Darkness," they launched retaliatory missiles against northern Israel on April 9. The IDF admitted it overestimated damage to Hezbollah from the 2024 war — the group has rebuilt with hundreds of launchers and tens of thousands of rockets.</p>
+    <p><span class="highlight">Iraq PMF</span> fighters have entered Iran through the Shalamcheh border crossing, deploying to Khuzestan province. Baghdad formally authorized PMF self-defense. PMF-allied groups struck Baghdad International Airport's diplomatic support center during the ceasefire.</p>
+    <p><span class="highlight">Gulf states</span> welcomed the ceasefire but demand enforceable guarantees. UAE intercepted 35 drone attacks; Kuwait intercepted 28; Saudi Arabia's East-West Pipeline was struck. All reject any arrangement leaving Hormuz under Iranian toll control. The consensus: pause is welcome, but the threat of Iranian aggression must be structurally eliminated — not just paused.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- SECTION 9: WATCH LIST -->
+  <div class="section">
+    <div class="section-number">09 — Analyst Watch</div>
+    <div class="section-title">72-Hour Monitoring Priorities</div>
+    <div class="watch-list">
+      <div class="watch-item">
+        <span class="watch-priority critical">Critical</span>
+        <span><strong>Strait of Hormuz AIS tracking</strong> — any resumption of transit or confirmed full re-closure. Brent above $100 = ceasefire collapsing; below $90 = ceasefire holding.</span>
+      </div>
+      <div class="watch-item">
+        <span class="watch-priority critical">Critical</span>
+        <span><strong>IDF operations in Lebanon</strong> — any new "Eternal Darkness" waves or escalation beyond current tempo. This is the variable most likely to collapse the ceasefire entirely.</span>
+      </div>
+      <div class="watch-item">
+        <span class="watch-priority high">High</span>
+        <span><strong>Vance delegation departure</strong> — confirmation of travel to Islamabad, Iran's delegation composition, and any pre-negotiation walkout threats.</span>
+      </div>
+      <div class="watch-item">
+        <span class="watch-priority high">High</span>
+        <span><strong>Houthi activity</strong> — any attacks on Red Sea shipping would trigger Bab el-Mandeb dual-chokepoint scenario. Currently holding fire on commercial vessels.</span>
+      </div>
+      <div class="watch-item">
+        <span class="watch-priority high">High</span>
+        <span><strong>USS George H.W. Bush (CVN-77)</strong> — CSG-10 arrival in CENTCOM AOR (ETA Apr 10–12). Dual-carrier capability signals either deterrence or resumption readiness.</span>
+      </div>
+      <div class="watch-item">
+        <span class="watch-priority med">Monitor</span>
+        <span><strong>CENTCOM force posture changes</strong> — any stand-down orders, DEFCON shifts, or conversely, acceleration of Bush transit or new deployment announcements.</span>
+      </div>
+      <div class="watch-item">
+        <span class="watch-priority med">Monitor</span>
+        <span><strong>Pope Leo XIV vigil (Apr 11)</strong> — moral pressure event coinciding with talks. Global participation and media amplification could shape public negotiating environment.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ANALYST NOTE -->
+  <div class="section">
+    <div class="section-number">10 — Analyst Note</div>
+    <div class="section-title">The Architecture of an Unstable Pause</div>
+    <p>This ceasefire was never designed to hold. It was brokered in 88 minutes under threat of civilizational destruction, between parties that disagree on its fundamental scope. The Lebanon exclusion is not a diplomatic wrinkle — it is a structural contradiction that makes the agreement internally incoherent. Iran cannot accept a deal that leaves its most important regional ally exposed to systematic destruction; Israel will not accept constraints on its northern front; and the United States has chosen to treat these as separable conflicts when they are, for every other party, a single war.</p>
+    <p>The next 72 hours will determine whether Islamabad produces a framework that addresses this contradiction or whether the ceasefire becomes another data point in the conflict's escalation curve. The military infrastructure for resumption is fully intact on all sides. The USS George H.W. Bush arrives in theater this week. The 82nd Airborne is forward-deployed. Iran's missile stocks are depleted but not exhausted. And oil, the real-time ceasefire confidence indicator, is already climbing back.</p>
+    <p class="dim" style="font-family: var(--mono); font-size: 0.75rem; margin-top: 1.5rem;">This analysis represents the independent assessment of the IranWar.ai intelligence team. Sources include CENTCOM, USNI Fleet Tracker, Reuters, AP, BBC, Al Jazeera, CNN, CNBC, Bloomberg, The War Zone, Stars and Stripes, Windward Maritime Intelligence, IAEA, WHO, OCHA, Hengaw, HRANA, Pew Research, YouGov, and Silver Bulletin. All claims are attributed. Unverified intelligence is flagged.</p>
+  </div>
+
+</main>
+
+<footer class="briefing-footer">
+  <div class="footer-sigil">◆ ◆ ◆</div>
+  <div class="footer-text">
+    <a href="https://iranwar.ai">IranWar.ai</a> · Free &amp; Open-Source OSINT Intelligence<br>
+    Modeled on the Johns Hopkins COVID-19 Dashboard<br>
+    Built by the IranWar.ai Project · <a href="https://iranwar.ai/join">Join the effort</a><br><br>
+    Next briefing: April 10, 2026 — or upon material escalation
+  </div>
+</footer>
+
+</body>
+</html>
