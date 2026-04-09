@@ -1710,5 +1710,21 @@
     "notes": "Day 39 (Apr 7): Hezbollah launched 24 attack waves toward northern Israel, with ~40 rockets hitting communities including Nahariya (2 civilians injured). Hezbollah halted attacks after the ceasefire announcement. However, Netanyahu explicitly stated the ceasefire does not apply to Lebanon — directly contradicting Pakistan's PM Sharif.",
     "verified": true,
     "last_updated": "2026-04-08"
+  },
+  {
+    "id": "hezbollah-retaliation-april9",
+    "city": "Northern Israel",
+    "lat": 33.1000,
+    "lng": 35.2000,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles / rockets",
+    "origin": "Hezbollah / Lebanon",
+    "first_strike": "2026-04-09",
+    "casualties_reported": "Not confirmed — early reports of impacts in northern Israel",
+    "casualties_source": "IDF / Hezbollah / Reuters / Al Jazeera",
+    "active_days": [41],
+    "notes": "Day 41 (Apr 9): In the early hours of April 9, Hezbollah launched retaliatory missile attacks on northern Israel in response to Israel's 'Operation Eternal Darkness' the previous day (Apr 8, 254 killed in Lebanon). Hezbollah lawmaker Hassan Fadlallah called the April 8 strikes 'a grave violation of the ceasefire.' The IDF admitted it overestimated damage to Hezbollah from the 2024 war — the group still has hundreds of launchers and tens of thousands of rockets, rebuilt with new weapons including FPV drones and possibly Russian anti-ship missiles. The escalation cycle on the Lebanon periphery threatens to pull the entire ceasefire down. Netanyahu's refusal to include Lebanon in the ceasefire is the core fracture. Soufan Center Apr 9 assessment: ceasefire 'hovers on the verge of collapse.'",
+    "verified": true,
+    "last_updated": "2026-04-09"
   }
 ]

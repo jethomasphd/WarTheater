@@ -3634,5 +3634,104 @@
     "category": "summary",
     "source": "Multiple",
     "data_point": "~$47.7B — CEASEFIRE — Brent -14% — Islamabad talks Apr 10 — Lebanon excluded — 2 weeks to Apr 21"
+  },
+  {
+    "date": "2026-04-08",
+    "time": "07:00",
+    "title": "Israel launches 'Operation Eternal Darkness' — 50 fighter jets, 160 munitions, 100+ targets in 10 minutes across Lebanon",
+    "description": "In the single largest coordinated strike of the entire war, Israel launched 'Operation Eternal Darkness' on the morning of April 8. Fifty fighter jets delivered approximately 160 munitions against 100+ targets across Lebanon in 10 minutes — central Beirut, southern Beirut, the Bekaa Valley, Sidon, and Tyre. Strikes hit neighborhoods in central Beirut without prior warning. At least 254 killed and 1,160+ wounded. Lebanon declared April 9 a national day of mourning. UN Human Rights Chief Volker Turk condemned the strikes as 'nothing short of horrific.' Secretary-General Guterres 'strongly condemned' civilian casualties. This is the pivotal event that fractures the 36-hour-old ceasefire's foundations.",
+    "category": "military",
+    "source": "IDF / Lebanese Health Ministry / UN / Reuters / Al Jazeera",
+    "data_point": "254 killed, 1,160+ wounded — single largest coordinated strike of war — 50 jets, 160 munitions, 100+ targets in 10 min"
+  },
+  {
+    "date": "2026-04-08",
+    "time": "10:30",
+    "title": "Netanyahu press conference: 'The two-week ceasefire does not include Lebanon... We still have some goals to accomplish'",
+    "description": "Netanyahu stated bluntly at an April 8 press conference that the Lebanon exclusion is deliberate and operational. The White House confirmed this position through Press Secretary Karoline Leavitt. Pakistan's PM Sharif had announced the ceasefire covered 'everywhere, including Lebanon and elsewhere.' Iran's position is that Lebanon is included. European leaders — Germany, France, Italy, UK, Denmark, Spain, Netherlands, Canada, and EU leadership — issued a joint statement demanding Lebanon's inclusion. France's Macron stated Lebanon was 'fully included.' This becomes the core fracture of the ceasefire framework.",
+    "category": "diplomatic",
+    "source": "Israeli PM office / White House / Macron / Reuters / AP",
+    "data_point": "Lebanon exclusion confirmed — European leaders + EU issue joint statement demanding inclusion"
+  },
+  {
+    "date": "2026-04-08",
+    "time": "12:00",
+    "title": "IRGC announces re-closing of Strait of Hormuz — accuses Israel of violating ceasefire",
+    "description": "Iran's response to Eternal Darkness was swift. The IRGC announced it was re-closing the Strait of Hormuz on April 8, accusing Israel of violating the ceasefire. Iran's parliamentary speaker formally accused the US of breaching the agreement. Ship traffic data collapsed: April 7 saw 11 vessels transit via the IRGC-controlled Northern Corridor near Larak Island; April 8 saw only 5 bulk carriers outbound by noon — no major oil tankers from blue-chip operators. MarineTraffic identified just 2 ships by name: Greek-owned NJ Earth and Liberia-flagged Daytona Beach. White House (Leavitt) claimed 'the Strait is open'; Bloomberg, CNBC, and Windward Maritime contradicted — Windward: 'The strait has not reopened — it is in a supervised pause.' Approximately 800 tankers and 3,200 total vessels with ~20,000 seafarers remain stuck inside the Persian Gulf.",
+    "category": "military",
+    "source": "IRGC / ABC News / Fars News Agency / Bloomberg / CNBC / Windward Maritime",
+    "data_point": "Hormuz RE-CLOSED by IRGC — 5 bulk carriers outbound Apr 8 noon — no major oil tankers — ~800 tankers stuck"
+  },
+  {
+    "date": "2026-04-08",
+    "time": "13:00",
+    "title": "CENTCOM April 8 statement: 13,000+ targets struck, 80% of Iran air defenses destroyed, every Iranian submarine sunk",
+    "description": "Gen. Dan Caine (CJCS) and Secretary of War Pete Hegseth held an April 8 briefing confirming CENTCOM's cumulative damage assessment: 13,000+ targets struck since February 28, including 4,000 dynamic targets. Destroyed ~80% of Iran's air defenses, 450 ballistic missile storage facilities, 800 drone storage facilities, 90% of weapons factories, and 150 Iranian warships across 16 classes — every submarine sunk, 97% of naval mines eliminated. Iran's air force has zero operational flights per day (down from 30-100 pre-war). Hegseth and Caine stated US forces will remain in theater. Trump told CNBC April 9 the military is ready for the 'next conquest' and warned forces to remain near Iran.",
+    "category": "military",
+    "source": "CENTCOM / CJCS Gen. Caine / Secretary Hegseth / CNBC",
+    "data_point": "13,000+ targets — 80% air defenses — 150 warships — every submarine sunk — Iran air force 0 flights/day"
+  },
+  {
+    "date": "2026-04-09",
+    "time": "03:00",
+    "title": "Hezbollah launches retaliatory missiles on northern Israel — ceasefire cycle spirals",
+    "description": "In the early hours of April 9, Hezbollah launched retaliatory missile attacks on northern Israel in response to Operation Eternal Darkness. Hezbollah lawmaker Hassan Fadlallah called the April 8 strikes 'a grave violation of the ceasefire.' The IDF admitted it overestimated damage to Hezbollah from the 2024 war — the group still has hundreds of launchers and tens of thousands of rockets, rebuilt with new weapons including FPV drones and possibly Russian anti-ship missiles. The escalation cycle on the Lebanon periphery threatens to pull the entire ceasefire down.",
+    "category": "military",
+    "source": "IDF / Hezbollah / Reuters / Al Jazeera",
+    "data_point": "Hezbollah retaliation on northern Israel — 'grave violation of the ceasefire' — IDF admits overestimated 2024 damage"
+  },
+  {
+    "date": "2026-04-09",
+    "time": "06:00",
+    "title": "Soufan Center: 'Already Tenuous Ceasefire in Iran Hovers on the Verge of Collapse'",
+    "description": "The Soufan Center's April 9 assessment headline captured the analytical consensus: the Pakistan-brokered ceasefire is functionally collapsing within 48 hours of activation. The ceasefire on direct US-Iran hostilities is technically holding in Iranian airspace as of April 9 — no confirmed US or Israeli strikes on Iranian territory since 8 PM ET April 7. But the ceasefire is being torn apart on its periphery by: Israel's Eternal Darkness in Lebanon, Iran's re-closure of Hormuz, and the Houthi/Hezbollah escalation cycle that neither Washington nor Tehran fully controls. Windward Maritime: 'The strait has not reopened — it is in a supervised pause.'",
+    "category": "diplomatic",
+    "source": "Soufan Center / Windward Maritime Intelligence / Bloomberg",
+    "data_point": "Soufan Center: ceasefire 'hovers on the verge of collapse' — functionally collapsing within 48 hours"
+  },
+  {
+    "date": "2026-04-09",
+    "time": "08:00",
+    "title": "Markets reverse ceasefire rally — oil rebounds to ~$97-98, VIX climbs toward 26",
+    "description": "Financial markets gave back significant portions of the April 8 ceasefire rally on April 9. After Brent crashed to $94.75 and WTI to $94.41 on April 8 close (-14 to -16%), both benchmarks rebounded to ~$97-98 on April 9 as Iran's re-closure of Hormuz and ceasefire doubt reasserted the risk premium. Bloomberg April 9 headline: 'Stocks dropped and oil advanced as traders watched to see if the US-Iran ceasefire holds.' S&P 500 declined from the April 8 close of 6,782.81 to ~6,752.64 intraday. VIX rose from 21.04 (-18.39% April 8) back toward 23-26. Dow Jones, Nasdaq, and Russell 2000 all declining. Gold dipped slightly from ~$4,799-4,867 to ~$4,737-4,744. 10Y Treasury yield: ~4.29%. Analysts note a $12-18 'Hormuz risk premium' remains embedded in prices.",
+    "category": "financial",
+    "source": "Bloomberg / CNBC / ICE / NYMEX",
+    "data_point": "Brent/WTI rebound to ~$97-98 — S&P ~6,752 down from 6,782.81 — VIX rising to 23-26 — $12-18 Hormuz risk premium embedded"
+  },
+  {
+    "date": "2026-04-09",
+    "time": "09:00",
+    "title": "White House confirms Vance, Witkoff, Kushner to lead US delegation at Islamabad — highest-level US-Iran engagement since 1979",
+    "description": "The White House confirmed on April 8 that VP JD Vance will lead the US delegation to Islamabad for peace talks, accompanied by Special Envoy Steve Witkoff and Jared Kushner. Secretary of State Marco Rubio was also listed in the diplomatic push. This would be the highest-level in-person US-Iran engagement since 1979. Pakistan's PM Sharif initially invited delegations for Friday April 10, but the White House confirmed talks would begin Saturday morning local time (aligning with April 11 Islamabad time). Trump told the New York Post that Vance 'may not attend' due to safety concerns, but the White House subsequently confirmed Vance would lead. Iran specifically preferred Vance as interlocutor due to his pre-war record opposing new conflicts (Al Jazeera).",
+    "category": "diplomatic",
+    "source": "White House / Al Jazeera / New York Post / Reuters",
+    "data_point": "Vance + Witkoff + Kushner confirmed — highest-level US-Iran engagement since 1979 — talks Apr 10-11"
+  },
+  {
+    "date": "2026-04-09",
+    "time": "09:30",
+    "title": "Bush CSG ETA April 10-12 — dual-carrier capability coincides with Islamabad talks",
+    "description": "The USS George H.W. Bush (CVN-77) CSG-10 remains on track to arrive in CENTCOM AOR April 10-12, delivering dual-carrier capability that coincides with the Islamabad Accords talks. USS Abraham Lincoln (CVN-72) remains the primary striking force, operating in the Arabian Sea ~150 miles off Oman's coast per BBC satellite imagery. USS Tripoli (LHA-7) with 31st MEU remains operational. USS Boxer (LHD-4) with 11th MEU departed Pearl Harbor April 1 and was in the western Pacific as of April 8 (Stars & Stripes). 82nd Airborne 1st BCT (~2,000 paratroopers) forward-deployed to undisclosed Middle East locations. Total US forces in theater: ~50,000+ troops, 108 ships (78 USS, 30 USNS per USNI Fleet Tracker April 6). USS Gerald R. Ford (CVN-78) degraded after March 12 fire and repaired in Croatia.",
+    "category": "military",
+    "source": "USNI Fleet Tracker / BBC / Stars & Stripes / CBS News",
+    "data_point": "Bush CSG ETA Apr 10-12 — Lincoln 150 mi off Oman — 108 ships — ~50,000+ troops — 82nd Airborne 1st BCT forward"
+  },
+  {
+    "date": "2026-04-09",
+    "time": "10:00",
+    "title": "Pope Leo XIV confirms April 11 Peace Vigil at St. Peter's Basilica",
+    "description": "Pope Leo XIV — the first US-born pope — has been an active voice for peace throughout the war. On April 7 at Castel Gandolfo, he called Trump's threat against 'the entire people of Iran' as 'truly unacceptable' and urged US citizens to 'work for peace and reject war.' On April 8, he welcomed the ceasefire as 'a sign of living hope.' A Prayer Vigil for Peace is confirmed for Saturday April 11 at St. Peter's Basilica. The USCCB's Archbishop Paul Coakley invited all to join. The vigil timing coincides with the Islamabad Accords talks.",
+    "category": "diplomatic",
+    "source": "Vatican / USCCB / AP",
+    "data_point": "Apr 11 Peace Vigil at St. Peter's Basilica — coincides with Islamabad talks"
+  },
+  {
+    "date": "2026-04-09",
+    "time": "11:00",
+    "title": "Day 41 summary — 72-hour window determines ceasefire survival",
+    "description": "Day 41 defined by: (1) Ceasefire on direct US-Iran hostilities technically holding ~45 hours; (2) Israel's Eternal Darkness in Lebanon April 8 killed 254, wounded 1,160+ — single largest coordinated strike of war; (3) Iran re-closed Hormuz in response, accusing Israel of violating ceasefire; (4) Soufan Center: ceasefire 'hovers on the verge of collapse'; (5) Netanyahu confirms Lebanon exclusion — core fracture; (6) Hezbollah launches retaliatory missiles early Apr 9; (7) Markets reverse — Brent/WTI rebound to ~$97-98, S&P ~6,752 down from 6,782.81 close, VIX climbing toward 26; (8) White House confirms Vance + Witkoff + Kushner for Islamabad talks Apr 10-11; (9) Bush CSG ETA Apr 10-12 — dual-carrier capability; (10) CENTCOM confirms 13,000+ targets, 80% Iran air defenses destroyed, every submarine sunk; (11) Pope Leo XIV Apr 11 peace vigil at St. Peter's; (12) UN Human Rights Chief condemns Lebanon strikes as 'nothing short of horrific.' Next 72 hours deterministic. ~$48.5B cumulative.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "~$48.5B — ceasefire on verge of collapse — Eternal Darkness kills 254 — Hormuz re-closed — Islamabad talks Apr 10-11 — Pope vigil Apr 11"
   }
 ]
