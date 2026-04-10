@@ -3733,5 +3733,86 @@
     "category": "summary",
     "source": "Multiple",
     "data_point": "~$48.5B — ceasefire on verge of collapse — Eternal Darkness kills 254 — Hormuz re-closed — Islamabad talks Apr 10-11 — Pope vigil Apr 11"
+  },
+  {
+    "date": "2026-04-09",
+    "time": "14:00",
+    "title": "Former Iranian FM Kamal Kharazi dies from US-Israeli airstrike wounds",
+    "description": "Former Iranian Foreign Minister Kamal Kharazi died April 9 (age 81) from wounds sustained in a US-Israeli airstrike on his Tehran residence on April 1. His wife was killed immediately in the strike. Kharazi had been head of Iran's Strategic Council on Foreign Relations and was involved in Pakistani mediation efforts. He served as Foreign Minister from 1997-2005 under President Khatami.",
+    "category": "diplomatic",
+    "source": "Iranian state media / Reuters / AP",
+    "data_point": "Kharazi dies age 81 — head of Strategic Council on Foreign Relations — wife killed in Apr 1 airstrike"
+  },
+  {
+    "date": "2026-04-09",
+    "time": "16:00",
+    "title": "Israel kills Ali Yusuf Harshi — nephew/secretary of Hezbollah leader Naim Qassem",
+    "description": "Israeli forces struck the Tallet Khayat neighborhood in Beirut on April 9, killing Ali Yusuf Harshi — the nephew and personal secretary of Hezbollah leader Naim Qassem. Israel continued strikes in Beirut's southern suburbs throughout the day. Lebanon's cumulative death toll from Israeli operations since March 2 reached 1,888+ killed and 6,092 injured.",
+    "category": "military",
+    "source": "IDF / Lebanese media / Al Jazeera",
+    "data_point": "Harshi killed in Tallet Khayat — Qassem's nephew and personal secretary — Lebanon toll: 1,888+ killed"
+  },
+  {
+    "date": "2026-04-10",
+    "time": "02:00",
+    "title": "Israel conducts 50+ strikes in Lebanon in 24 hours — reduced Beirut targeting under US pressure",
+    "description": "By April 10, Israel had conducted 50+ additional strikes in Lebanon in 24 hours. Al Jazeera's correspondent noted a marked reduction in Beirut-area targeting, attributed to direct US pressure. Trump told NBC he asked Netanyahu to be 'a little more low-key' in Lebanon to protect the Iran negotiations. IDF has 5 divisions operating in southern Lebanon and has systematically destroyed all main bridges over the Litani River. WHO warned Lebanese hospitals may exhaust vital medical supplies within days. UNICEF reports 600 children killed or injured since the start of Lebanon operations.",
+    "category": "military",
+    "source": "IDF / Al Jazeera / NBC / WHO / UNICEF / HRW",
+    "data_point": "50+ strikes in 24 hours — 'marked reduction' in Beirut targeting — 5 IDF divisions — all Litani bridges destroyed — WHO: hospitals running out"
+  },
+  {
+    "date": "2026-04-10",
+    "time": "06:00",
+    "title": "VP JD Vance departs for Islamabad — highest-level US-Iran engagement since 1979",
+    "description": "VP JD Vance departed for Islamabad on April 10, accompanied by Special Envoy Steve Witkoff and Jared Kushner. A 30-member Secret Service advance team preceded them. Formal talks are scheduled for Saturday, April 12, local time, at the Serena Hotel. Islamabad has declared April 9-10 public holidays, sealed the Red Zone, and closed key entry points. Iran's delegation is led by Parliament Speaker Mohammad Bagher Ghalibaf and FM Abbas Araghchi. Chinese analysts quoted by SCMP say expectations are 'low for major progress' given deep differences on Hormuz, uranium enrichment, and Lebanon.",
+    "category": "diplomatic",
+    "source": "White House / SCMP / Reuters / AP / Pakistani PM",
+    "data_point": "Vance + Witkoff + Kushner depart — Ghalibaf + Araghchi for Iran — Serena Hotel Saturday — SCMP: 'low expectations'"
+  },
+  {
+    "date": "2026-04-10",
+    "time": "08:30",
+    "title": "March CPI report released — energy-driven inflation expected to surge",
+    "description": "The March 2026 CPI report was released April 10, 8:30 AM ET. The February reading showed CPI-U up 0.3% month-over-month and 2.4% year-over-year. March data is expected to show significant energy-driven inflation given gas prices surging from $2.98 (Feb 26) to $4.16+ by early April. JP Morgan noted April 9: 'The ceasefire looks like it may be fleeting but the direction of travel is positive,' estimating 4 months for full oil market recovery even if the truce holds.",
+    "category": "financial",
+    "source": "BLS / JP Morgan / EIA",
+    "data_point": "Feb CPI: +0.3% MoM, +2.4% YoY — March expected significantly higher on energy — JP Morgan: 4 months recovery"
+  },
+  {
+    "date": "2026-04-10",
+    "time": "09:00",
+    "title": "ADNOC CEO: 'The Strait of Hormuz is not open' — contradicts Hegseth",
+    "description": "ADNOC CEO Sultan Al Jaber stated bluntly on April 9-10: 'The Strait of Hormuz is not open. Access is being restricted, conditioned and controlled.' Defense Secretary Hegseth contradicted this, claiming 'the strait is open.' Only ~15 ships transited in the first 48 hours of ceasefire versus the pre-war average of ~110 per day. An estimated 600+ vessels remain stranded inside the Gulf, including 325 tankers (Lloyd's List Intelligence), with ~20,000 seafarers stuck. Iran is demanding military approval for each vessel and reportedly planning tolls exceeding $1 million per ship. Iran released a map indicating it may have mined the strait, with new designated shipping lanes. The US Navy decommissioned its last 4 Avenger-class minesweepers from Bahrain in January 2026.",
+    "category": "diplomatic",
+    "source": "ADNOC / Pentagon / Lloyd's List Intelligence / WSJ",
+    "data_point": "ADNOC: 'not open' vs Hegseth: 'open' — only 15 ships in 48 hrs — 325 tankers stranded — tolls >$1M/ship — no minesweepers"
+  },
+  {
+    "date": "2026-04-10",
+    "time": "10:00",
+    "title": "Iran's Parliament Speaker: 3 of 10 ceasefire points violated — Trump threatens 'Shootin Starts'",
+    "description": "Iran's Parliament Speaker Ghalibaf said 3 of 10 ceasefire points have already been violated: continued Israeli attacks on Lebanon, a drone entering Iranian airspace, and US/Israeli denial of Iran's enrichment rights. Trump posted April 9 that if a 'REAL AGREEMENT' is not reached, 'then the Shootin Starts, bigger, and better, and stronger than anyone has ever seen before.' Iran's new Supreme Leader Mojtaba Khamenei declared Iran 'won the war' and vowed to bring Hormuz management 'into a new phase.' The 60-day War Powers deadline expires approximately April 29, with Congress returning next week primed for war powers and supplemental funding fights.",
+    "category": "diplomatic",
+    "source": "Iranian state media / Truth Social / Reuters / AP",
+    "data_point": "3/10 ceasefire points violated per Iran — Trump: 'Shootin Starts' — War Powers deadline Apr 29 — Congress returns next week"
+  },
+  {
+    "date": "2026-04-10",
+    "time": "10:30",
+    "title": "Kuwait condemns drone attacks by Iran and proxies on National Guard site",
+    "description": "On April 9, Kuwait condemned drone attacks by Iran and its proxies targeting a National Guard site, causing 'significant material damage but no injuries.' This attack underscored that proxy operations continue despite the ceasefire on the US-Iran axis.",
+    "category": "military",
+    "source": "Kuwaiti government / Reuters",
+    "data_point": "Kuwait National Guard site hit — 'significant material damage' — no injuries — proxy operations continue"
+  },
+  {
+    "date": "2026-04-10",
+    "time": "11:00",
+    "title": "Day 42 summary — Vance heads to Islamabad as ceasefire fractures at every seam",
+    "description": "Day 42 defined by three converging timelines making April 10-13 the most consequential window since the war began. DIPLOMATICALLY: Vance-Ghalibaf talks in Islamabad represent first direct US-Iran contact in 47 years — but Iran says 3/10 points violated and Trump threatens 'Shootin Starts.' MILITARILY: Bush CSG arrival brings 3 carrier strike groups to theater; Israel's 50+ strikes in Lebanon (1,888+ killed total); Hezbollah resumed rockets. POLITICALLY: 60-day War Powers deadline Apr 29, Congress returns next week, Trump approval at career lows (Silver Bulletin net -16.3, CNN 35%, YouGov net -19). Key data gaps: no March CPI breakdown yet; Bush CSG exact position unconfirmed; Iranian casualty figures diverge by 3,200+ deaths between sources. Hormuz: only 15 ships in 48 hrs, 325 loaded tankers stranded. Pope's Saturday vigil coincides with talks. ~$49.25B cumulative.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "~$49.25B — Vance to Islamabad — 3 CSGs in theater — 1,888+ Lebanese killed — Hormuz 15 ships/48 hrs — 60-day deadline Apr 29 — Pope vigil tomorrow"
   }
 ]
