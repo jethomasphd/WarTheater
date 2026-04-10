@@ -4,7 +4,7 @@
     "width_km": 33,
     "shipping_lane_width_km": 3,
     "daily_oil_flow_prewar_mbd": 20.5,
-    "daily_oil_flow_current_mbd": 1.5,
+    "daily_oil_flow_current_mbd": 0.5,
     "percent_global_oil": 20,
     "percent_global_lng": 20,
     "closure_date": "2026-03-04",
@@ -12,7 +12,7 @@
     "closure_type": "De facto (insurance-driven + active attacks on vessels)",
     "closure_method": "Asymmetric denial via drone and missile strikes on commercial vessels, triggering insurance-driven shutdown. IRGC used sea drones, anti-ship missiles, and shore-launched projectiles to strike 21+ vessels since Feb 28. War risk insurance withdrawn or repriced at ~5% of vessel value — a 100x increase from pre-war 0.02-0.05%. For a $100M tanker, $5M per transit. At least one tanker paid $2M for transit rights through Iran-approved Larak Island corridor. Trump ordered DFC to provide $20B in political risk reinsurance (Chubb as lead underwriter), but JPMorgan estimates actual exposure at $352B across 329 tankers. Reports of naval mine deployment began ~March 10; US destroyed 44+ Iranian minelayers. Iran's stockpile estimated at 2,000-6,000 naval mines. Iran retains 80%+ of its small boats and minelayers. London Joint War Committee extended high-risk area to include waters around Oman.",
     "status": "Day 41: HORMUZ RE-CLOSED BY IRAN — IRGC announced re-closure Apr 8 in response to Israel's 'Operation Eternal Darkness' in Lebanon (254 killed). Iran's parliamentary speaker formally accused the US of breaching the agreement. Windward Maritime (Apr 8): 'The strait has not reopened — it is in a supervised pause.' Apr 7: 11 vessels transited (4 inbound, 7 outbound) via IRGC-controlled Northern Corridor near Larak Island. Apr 8: only 5 bulk carriers outbound by noon — no major oil tankers from blue-chip operators. MarineTraffic identified just 2 ships by name: Greek-owned NJ Earth and Liberia-flagged Daytona Beach. SOURCE CONFLICT: White House (Leavitt Apr 8) claims 'the Strait is open'; Bloomberg, CNBC, Windward all contradict. Shipping executives told CNBC: 'We have no information about how we could transit... We are not in contact with the Iranian authorities.' Approximately 800 tankers and cargo ships (~3,200 total vessels with ~20,000 seafarers) remain stuck inside Persian Gulf (Bloomberg Apr 8). Iran and Oman reportedly plan to charge transit fees/tolls, with revenue earmarked for reconstruction. Iran's FM Araghchi offered only 'safe passage via coordination with Iran's Armed Forces and due consideration for technical limitations' — IRGC-controlled permission-based transit. War-risk insurance remains unavailable; effectively blocking mainstream commercial operators regardless of Iran's stated position. UANI tracked 27 Iranian oil loadings at Kharg Island since Feb 28 — ~38M barrels worth ~$3B for IRGC; China primary buyer. Islamabad Accords talks Apr 10-11 — Hormuz reopening central issue. Two-week clock expires ~Apr 21. Soufan Center Apr 9: ceasefire 'hovers on the verge of collapse.'",
-    "last_updated": "2026-04-09",
+    "last_updated": "2026-04-10",
     "kharg_island_distance_from_strait_km": 483
   },
   "geometry": {
@@ -47,7 +47,7 @@
   },
   "impact": {
     "tankers_transiting_prewar_daily": 50,
-    "tankers_transiting_total_since_war": 165,
+    "tankers_transiting_total_since_war": 170,
     "tankers_transiting_current_note": "~165 total vessels since Mar 1 vs normal ~5,000+. Hormuz RE-CLOSED by IRGC Apr 8 after Israel's 'Operation Eternal Darkness' in Lebanon. Apr 7: 11 vessels transited (4 sanctioned Iranian-trading inbound; 7 outbound including 3 tankers, 4 bulk carriers) via IRGC-controlled Northern Corridor near Larak. Apr 8: only 5 bulk carriers outbound by noon — NO major oil tankers from blue-chip operators. MarineTraffic identified just 2 by name (NJ Earth Greek-owned, Daytona Beach Liberia-flagged). ~800 tankers and 3,200 total vessels with ~20,000 seafarers stuck in Persian Gulf (Bloomberg Apr 8). War-risk insurance unavailable; effectively blocks commercial operators regardless of Iran's position. Shipping execs to CNBC: 'We have no information about how we could transit.' Iran and Oman plan transit fees/tolls for reconstruction. Windward: 'supervised pause, not reopened.'",
     "insurance_cost_increase_pct": 10000,
     "insurance_cost_note": "War-risk premiums surged 300%+, with coverage for $100M tanker jumping from ~$200,000 to $1-5M per voyage. Major P&I clubs (Gard, Skuld, NorthStandard, London P&I Club) cancelled war risk coverage effective March 5. Trump: $20B DFC reinsurance (Chubb lead). JPMorgan: $352B actual exposure across 329 tankers. London Joint War Committee extended high-risk area to include Oman waters.",
@@ -60,9 +60,9 @@
     "total_alternative_capacity_mbd_effective": "~3.5",
     "shortfall_mbd": "~16.5",
     "stranded_vessels_total": 3200,
-    "stranded_seafarers": 40000,
+    "stranded_seafarers": 20000,
     "stranded_ships_with_oil": 700,
-    "stranded_oil_tankers": 400,
+    "stranded_oil_tankers": 325,
     "stranded_oil_barrels_millions": 200,
     "stranded_vlccs": 60,
     "stranded_vlccs_pct_global_fleet": 8,
@@ -86,8 +86,8 @@
     "us_military_deaths": 15,
     "seafarer_fatalities": 11,
     "brent_crude_prewar_usd": 71.00,
-    "brent_crude_current_usd": 97.50,
-    "brent_crude_increase_pct": 37.3,
+    "brent_crude_current_usd": 96.10,
+    "brent_crude_increase_pct": 35.4,
     "brent_crude_intraday_high_usd": 119.11,
     "brent_crude_intraday_high_date": "2026-03-19",
     "iea_reserve_release_mbarrels": 400,
@@ -120,6 +120,7 @@
     "day_37_events": "Day 37 — April 6 ultimatum less than 24 hours away — Trump: 'Tuesday will be Power Plant Day, and Bridge Day, all wrapped up in one'; Sen. Graham confirms Trump intends to follow through with 'overwhelming military force'; Iran rejects ultimatum — Gen. Aliabadi: 'the gates of hell will open for you'; Bloomberg 7-day rolling transit average at war high; two Omani supertankers (Dhalkut, Habrut) each carrying 2M bbl via novel Musandam coastal route; hull war risk premiums 1.5-3% ($10-14M per VLCC transit); Lloyd's: 88% of underwriters still willing to write — ships staying away due to safety not insurance; IRGC charging $1/barrel tolls in yuan/stablecoins; dual chokepoint threat: Hormuz + Bab al-Mandeb would block ~30% of global container shipping, ~22% of global oil supply, ~$10B/day trade; IEA: 'April will be much worse than March' as pre-war cargoes exhausted; 5th Houthi missile at Israel intercepted; ceasefire 2% by Apr 7; 24% by Apr 30",
     "day_38_events": "Day 38 — Trump sets Apr 7 8 PM ET deadline for Iran to reopen Strait or face strikes on power plants and bridges; 45-day ceasefire proposal from Egyptian-Pakistani-Turkish mediators rejected by Iran — 'incompatible with ultimatums and threats'; OPEC+ agreed Apr 5 to increase output 206K bpd for May — analysts dismiss as 'academic' (less than 2% of disrupted supply); Lloyd's List: 53 transits last week up from 36 — still 90%+ below normal; 400+ vessels anchored Gulf of Oman; QatarEnergy force majeure since Mar 4; 20,000+ seafarers stranded; Brent ~$111.25; JPMorgan warns $150+; some model $200/bbl; Houthis have not yet resumed Red Sea shipping attacks — holding as strategic card; Houthi leader warns Bab al-Mandeb could be closed if Gulf Arab states join war; Trump admitted arming Iranian Kurdish groups; markets reopen Monday after Easter",
     "day_40_events": "Day 40 — CEASEFIRE RALLY THEN FRACTURE: Apr 8 ceasefire rally — Brent closes $94.75 (-14%), WTI $94.41 (-16%, biggest drop since Apr 2020); S&P 6,782.81 (+2.51%), Dow +2.85% best day since Apr 2025; VIX 21.04 (-18.39%); Apr 7: 11 vessels transited via IRGC-controlled Northern Corridor. THEN: Israel launches 'Operation Eternal Darkness' Apr 8 morning — 50 fighter jets, 160 munitions, 100+ targets across Lebanon in 10 min — 254 killed, 1,160+ wounded. IRGC re-closes Hormuz in response. Apr 8: only 5 bulk carriers outbound by noon — NO major oil tankers. White House (Leavitt) claims strait 'open' — Bloomberg, CNBC, Windward contradict. Netanyahu confirms ceasefire excludes Lebanon. European leaders + EU demand inclusion. ~800 tankers, 3,200 total vessels stuck in Gulf. CENTCOM Apr 8: 13,000+ targets, 80% Iran air defenses destroyed, every sub sunk, 97% mines eliminated.",
-    "day_41_events": "Day 41 — CEASEFIRE 'ON VERGE OF COLLAPSE' (Soufan Center): Brent rebounds to ~$97-98; WTI rebounds to ~$97-98; $12-18 Hormuz risk premium re-embedded; S&P reverses intraday from 6,782.81 close to ~6,752.64; VIX climbs toward 23-26; Hezbollah launches retaliatory missiles on northern Israel early Apr 9; Iran parliamentary speaker formally accuses US of ceasefire breach; Windward: 'supervised pause, not reopened'; White House confirms Vance + Witkoff + Kushner for Islamabad talks Apr 10-11 (highest-level US-Iran engagement since 1979); Bush CSG ETA Apr 10-12; Pope Leo XIV Apr 11 peace vigil at St. Peter's; Hegseth/Caine: US forces remain; Trump CNBC: military ready for 'next conquest'; UN Human Rights Chief: Lebanon strikes 'nothing short of horrific'; Soufan Center April 9 headline: 'Already Tenuous Ceasefire in Iran Hovers on the Verge of Collapse.'"
+    "day_41_events": "Day 41 — CEASEFIRE 'ON VERGE OF COLLAPSE' (Soufan Center): Brent rebounds to ~$97-98; WTI rebounds to ~$97-98; $12-18 Hormuz risk premium re-embedded; S&P reverses intraday from 6,782.81 close to ~6,752.64; VIX climbs toward 23-26; Hezbollah launches retaliatory missiles on northern Israel early Apr 9; Iran parliamentary speaker formally accuses US of ceasefire breach; Windward: 'supervised pause, not reopened'; White House confirms Vance + Witkoff + Kushner for Islamabad talks Apr 10-11 (highest-level US-Iran engagement since 1979); Bush CSG ETA Apr 10-12; Pope Leo XIV Apr 11 peace vigil at St. Peter's; Hegseth/Caine: US forces remain; Trump CNBC: military ready for 'next conquest'; UN Human Rights Chief: Lebanon strikes 'nothing short of horrific'; Soufan Center April 9 headline: 'Already Tenuous Ceasefire in Iran Hovers on the Verge of Collapse.'",
+    "day_42_events": "Day 42 — CEASEFIRE ~72 HOURS — VANCE DEPARTS FOR ISLAMABAD: ADNOC CEO Sultan Al Jaber: 'The Strait of Hormuz is not open. Access is being restricted, conditioned and controlled.' Hegseth contradicts: 'the strait is open.' Only ~15 ships transited in first 48 hours vs pre-war ~110/day. 600+ vessels stranded including 325 loaded tankers (Lloyd's List Intelligence) with ~20,000 seafarers. Iran demanding military approval for each vessel and planning tolls exceeding $1M/ship. Iran released map indicating possible mining with designated shipping lanes. US Navy decommissioned last 4 Avenger-class minesweepers from Bahrain Jan 2026; defense officials told WSJ Navy escorts 'aren't currently feasible' — Strait described as Iranian 'kill box.' VP Vance departed for Islamabad with Witkoff + Kushner — highest-level US-Iran engagement since 1979; formal talks Saturday Apr 12. Iran delegation: Ghalibaf + Araghchi. Iran's Parliament Speaker says 3/10 ceasefire points violated. Brent eases to ~$96; WTI ~$98. S&P 6,824.66 (Apr 9 close +0.62%). Bush CSG ETA today-Sunday — dual-carrier capability. March CPI released. Macron says ~15 countries mobilized for defensive mission to reopen Hormuz. Pope vigil tomorrow. 60-day War Powers deadline Apr 29."
   }
 }
