@@ -4,18 +4,18 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-04-10",
+    "last_updated": "2026-04-11",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "~35,500+ (CENTCOM Apr 8 statement: 13,000+ targets struck, 4,000 dynamic targets, 150 Iranian warships sunk across 16 classes (every submarine), 80% of Iran's air defenses destroyed, 450 ballistic missile storage facilities, 800 drone storage facilities, 90% of weapons factories, 97% naval mines eliminated; Iran air force at zero operational flights/day (down from 30-100 pre-war). Combined US/Israeli extrapolated ~35,500+ through Day 39. US fast-attack submarine sank Iranian submarine with MK-48 torpedo — first such engagement since WWII. Total confirmed US aircraft losses: 7 airframes (3 F-15Es Kuwait friendly fire Mar 2; 1 KC-135 Mar 12; 1 F-15E shot down Apr 3; 1 A-10 downed Apr 3) + 12+ MQ-9 Reaper drones. CEASEFIRE in effect from 8 PM ET Apr 7 — no confirmed US/Israeli strikes on Iranian territory since ~45 hours as of Apr 9 evening.)",
+    "total_targets_struck": "~35,500+ (CENTCOM: 13,000+ targets struck, 155+ warships sunk (largest navy elimination since WWII), 80% air defenses destroyed, every submarine sunk, 97% naval mines eliminated. Iran air force at zero operational flights/day. Combined US/Israeli extrapolated ~35,500+ through Day 40. CEASEFIRE in effect from 8 PM ET Apr 7 — no confirmed US/Israeli strikes on Iranian territory ~96 hours as of Apr 11 morning. Islamabad talks in progress — first direct US-Iran face-to-face since 1979.)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
-      "killed": "2,076+ (Health Ministry) / 3,636 (HRANA Apr 7) / 7,300+ (Hengaw Apr 2)",
-      "injured": "26,500+ (Health Ministry)",
-      "military_killed_hengaw": "6,410+",
+      "killed": "2,000+ (Health Ministry) / 3,636 (HRANA) / 6,620 military (Hengaw) / 4,700+ security forces (Iran International) / 6,000+ IRGC (IDF claim)",
+      "injured": "20,880+ (Iran International)",
+      "military_killed_hengaw": "6,620",
       "civilians_killed_hrana": "1,701+",
       "children_killed": "244+",
-      "sources": "Iran Health Ministry / HRANA / Hengaw / Iran International / ACLED / AP",
-      "as_of": "2026-04-09"
+      "sources": "Iran Health Ministry / HRANA / Hengaw / Iran International / IDF / ACLED / AP",
+      "as_of": "2026-04-11"
     },
     "civilian_buildings_affected": "~20,000 (including 16,000 residential units) per Iranian Red Crescent as of Day 11",
     "healthcare_facilities_affected": "307 health/medical/emergency facilities damaged per Iranian Red Crescent; 20+ verified healthcare attacks (WHO); 9 deaths from healthcare attacks",
@@ -27,7 +27,7 @@
     "id": "tehran-leadership",
     "city": "Tehran",
     "lat": 35.6892,
-    "lng": 51.3890,
+    "lng": 51.389,
     "type": "us_strike",
     "actor": "us_israel_joint",
     "targets": [
@@ -40,14 +40,47 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown — heavy",
     "casualties_source": "ACLED / Iranian state media",
-    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33],
+    "active_days": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
     "notes": "Continuous bombardment since Day 1. Supreme Leader Khamenei killed in initial strike on Leadership House compound along with his daughter, son-in-law, grandchild, and daughter-in-law Zahra Haddad-Adel. Defense Minister Aziz Nasirzadeh, IRGC commander Mohammad Pakpour, chief of staff Abdolrahim Mousavi, Ali Shamkhani, and multiple other senior officials also killed. Mojtaba Khamenei (son) injured but survived; named new Supreme Leader on Mar 8 (Day 9). Day 11 (Mar 10): 40+ killed in Resalat Square residential area strike in eastern Tehran (see tehran-east-residential). Day 12: IDF destroys IRGC Air Force HQ (see tehran-irgc-af-hq). 460+ killed and 4,300+ wounded in Tehran alone as of Day 11 per Tehran Emergency Health Department. Days 20-21: Ali Mohammad Naini (IRGC spokesperson) killed in IAF airstrike overnight Mar 19-20. Day 22: Continued strikes on Tehran military and government infrastructure. Day 24 (Mar 23): IDF launched 'broad wave of attacks' on Tehran. Day 25 (Mar 24): IAF struck 50+ targets overnight. Day 26 (Mar 25): IDF launches 'new wide-scale attacks' on Iranian government infrastructure, including Tehran targets. South Tehran strike kills at least 12, wounds 28. Eastern Tehran strikes destroy school and residential buildings. Day 33 (Apr 1): Airstrike hit former US Embassy compound on Taleghani Street — IRGC-controlled since 1979 — internally detonating penetrator. Russian embassy across the street confirmed blast broke doors/windows at St. Nicholas Orthodox Cathedral and partially collapsed adjacent Russian nursing home."
   },
   {
     "id": "isfahan-nuclear",
     "city": "Isfahan",
     "lat": 32.6546,
-    "lng": 51.6680,
+    "lng": 51.668,
     "type": "us_strike",
     "actor": "us",
     "targets": [
@@ -58,7 +91,12 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "Satellite imagery / IAEA",
-    "active_days": [1, 2, 3, 22],
+    "active_days": [
+      1,
+      2,
+      3,
+      22
+    ],
     "notes": "Primary nuclear targets struck in first wave. Deep penetrating munitions used. Day 22 (Mar 21): Natanz Shahid Ahmadi-Roshan Enrichment Complex struck with bunker-buster bombs (likely GBU-57 MOPs and/or GBU-72 5,000-lb penetrators). Israel denied involvement ('did not conduct any strikes in the area'). IAEA: 'No increase in off-site radiation levels.' DG Grossi called for 'military restraint to avoid any risk of nuclear accident.' Russia condemned as 'blatant violation of international law.' Entrance buildings of underground Fuel Enrichment Plant damaged. Bulk of Iran's enriched uranium (~440 kg) believed at Isfahan, not Natanz. Third strike on Natanz (after June 2025 Operation Midnight Hammer and early March 2026)."
   },
   {
@@ -75,7 +113,14 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Minimal — military targets. No radiation increase per IAEA.",
     "casualties_source": "DoD / IAEA",
-    "active_days": [1, 2, 18, 25, 28, 37],
+    "active_days": [
+      1,
+      2,
+      18,
+      25,
+      28,
+      37
+    ],
     "notes": "Struck 4 times during Epic Fury (Mar 17, 24, 27, Apr 4). IAEA confirmed no radiation increase. FM Araghchi warned Apr 4 that radioactive release would affect Gulf capitals — Bushehr closer to Kuwait City (175 mi) and Manama (187 mi) than Tehran. Russia's Rosatom evacuating staff (198 additional evacuated Apr 5). Plant holds 72 tons of fuel and 210 tons of spent fuel. IAEA has no inspector access to any Iranian nuclear facility; Iran's parliament suspended IAEA cooperation. Agency has 'lost continuity of knowledge' regarding nuclear material inventories."
   },
   {
@@ -94,7 +139,32 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "DoD / ACLED",
-    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+    "active_days": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
     "notes": "Key Strait of Hormuz control point. Continuous strikes to suppress coastal batteries. Day 14: Continued strikes on remaining coastal defense positions as part of Strait of Hormuz suppression campaign. CENTCOM reported that within 48 hours of war start, all 11 Iranian warships in the Gulf of Oman had been denied presence. Three commercial ships struck by suspected Iranian projectiles in the strait on March 11. Day 23: Aerial campaign continues (Day 4) with A-10 Warthogs and Apache helicopters. Day 24 (Mar 23): One person killed and one wounded in Bandar Abbas from attack targeting Persian Gulf Broadcasting Center radio transmitter."
   },
   {
@@ -112,13 +182,16 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "DoD",
-    "active_days": [1, 2],
+    "active_days": [
+      1,
+      2
+    ],
     "notes": "Iranian Air Force base. Runways cratered in first 90 minutes. IDF confirmed it has targeted 6 Iranian airbases total since Feb 28. CTP-ISW recorded strikes on 10 of Iran's 17 Artesh Air Force tactical airbases. Shiraz was struck again in the second week — see shiraz-missile-base for Day 8+ strikes."
   },
   {
     "id": "tabriz-airbase",
     "city": "Tabriz",
-    "lat": 38.0800,
+    "lat": 38.08,
     "lng": 46.2919,
     "type": "us_strike",
     "actor": "israel",
@@ -130,14 +203,16 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "DoD",
-    "active_days": [1],
+    "active_days": [
+      1
+    ],
     "notes": "Northwestern air base near Azerbaijan border."
   },
   {
     "id": "parchin-military",
     "city": "Parchin",
-    "lat": 35.5200,
-    "lng": 51.7700,
+    "lat": 35.52,
+    "lng": 51.77,
     "type": "us_strike",
     "actor": "us_israel_joint",
     "targets": [
@@ -148,7 +223,13 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "Satellite imagery",
-    "active_days": [1, 2, 3, 20, 21],
+    "active_days": [
+      1,
+      2,
+      3,
+      20,
+      21
+    ],
     "notes": "Long-suspected nuclear weapons research site southeast of Tehran."
   },
   {
@@ -165,7 +246,11 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Minimal",
     "casualties_source": "IAEA",
-    "active_days": [1, 20, 21],
+    "active_days": [
+      1,
+      20,
+      21
+    ],
     "notes": "Plutonium production pathway. Struck to eliminate weapons-grade material route."
   },
   {
@@ -183,7 +268,12 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "DoD / IAEA",
-    "active_days": [1, 2, 3, 4],
+    "active_days": [
+      1,
+      2,
+      3,
+      4
+    ],
     "notes": "Deeply buried enrichment facility near Qom. GBU-57 bunker busters deployed."
   },
   {
@@ -201,7 +291,17 @@
     "first_strike": "2026-03-07",
     "casualties_reported": "Unknown",
     "casualties_source": "Satellite imagery / shipping data",
-    "active_days": [8, 9, 10, 11, 12, 13, 14, 15, 16],
+    "active_days": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
     "notes": "90% of Iran's oil exports flow through Kharg. Struck in second-week escalation. Israel bombed 30 additional oil depots on Day 10. Day 15 (Mar 13): US executed large-scale precision strike on 90+ military targets including naval mine storage, missile storage bunkers, air defense facility, naval base, airport control tower/runway, and helicopter hangar. Oil infrastructure deliberately preserved. Trump warned of future strikes if Hormuz remains blocked. Trump called it 'one of the most powerful bombing raids in the History of the Middle East.' Day 16: Trump threatens to hit Kharg again 'just for fun.'"
   },
   {
@@ -218,7 +318,14 @@
     "first_strike": "2026-03-07",
     "casualties_reported": "Civilian casualties reported",
     "casualties_source": "Iranian state media / ACLED",
-    "active_days": [8, 9, 10, 11, 13, 14],
+    "active_days": [
+      8,
+      9,
+      10,
+      11,
+      13,
+      14
+    ],
     "notes": "Major refinery. Strikes on oil infrastructure began March 7. Toxic smoke blanketed Tehran. Day 14: Continued strikes on remaining refinery capacity."
   },
   {
@@ -236,14 +343,16 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "165–180 killed (mostly girls aged 7–12), 95+ wounded",
     "casualties_source": "Iranian Red Crescent / IRNA / Iranian Ministry of Education; corroborated by NYT, CNN, NPR, BBC Verify, Bellingcat, TIME, Al Jazeera, OHCHR",
-    "active_days": [1],
+    "active_days": [
+      1
+    ],
     "notes": "Deadliest confirmed civilian casualty incident of the war. Struck at approximately 10:45 AM local time on Day 1 during opening wave. School was triple-tapped per Iranian officials (mayor of Minab, Ministry of Education). Victims were primarily girls aged 7–12, plus teachers, parents, and the school principal. School had been physically separated from adjacent IRGC naval base by a wall and separate entrance since ~2016, with a visible soccer pitch in the courtyard by 2017 (confirmed by satellite imagery reviewed by HRW, NYT, CNN, TIME). Bellingcat and BBC Verify geolocated footage of a US Tomahawk cruise missile striking the area. Eight munitions experts confirmed to the Washington Post the missile was a Tomahawk. Pentagon preliminary internal investigation found US was likely responsible due to outdated DIA intelligence that failed to distinguish the school from the military compound. CNN reported CENTCOM created target coordinates using outdated DIA information. Trump initially blamed Iran; munitions experts confirmed no Iranian missile matches the weapon in verified footage. US is the only belligerent operating Tomahawk missiles. Under formal Pentagon investigation expected to take months."
   },
   {
     "id": "kermanshah-irgc",
     "city": "Kermanshah",
     "lat": 34.3142,
-    "lng": 47.0650,
+    "lng": 47.065,
     "type": "us_strike",
     "actor": "us_israel_joint",
     "targets": [
@@ -253,7 +362,12 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "DoD",
-    "active_days": [1, 2, 3, 4],
+    "active_days": [
+      1,
+      2,
+      3,
+      4
+    ],
     "notes": "Western Iran IRGC hub. Key missile launch suppression target."
   },
   {
@@ -270,14 +384,18 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "DoD",
-    "active_days": [1, 2, 3],
+    "active_days": [
+      1,
+      2,
+      3
+    ],
     "notes": "Home to Shahab and Fattah ballistic missile units."
   },
   {
     "id": "chabahar-port",
     "city": "Chabahar",
     "lat": 25.2919,
-    "lng": 60.6430,
+    "lng": 60.643,
     "type": "us_strike",
     "actor": "us",
     "targets": [
@@ -287,7 +405,10 @@
     "first_strike": "2026-03-01",
     "casualties_reported": "Unknown",
     "casualties_source": "DoD",
-    "active_days": [2, 3],
+    "active_days": [
+      2,
+      3
+    ],
     "notes": "Southeastern naval base. Ghadir-class submarine facilities targeted."
   },
   {
@@ -304,14 +425,17 @@
     "first_strike": "2026-03-01",
     "casualties_reported": "Unknown",
     "casualties_source": "DoD / ACLED",
-    "active_days": [2, 3],
+    "active_days": [
+      2,
+      3
+    ],
     "notes": "Northeastern Iran. Iran's second-largest city."
   },
   {
     "id": "tehran-irgc-af-hq",
     "city": "Tehran (West)",
-    "lat": 35.7100,
-    "lng": 51.3200,
+    "lat": 35.71,
+    "lng": 51.32,
     "type": "us_strike",
     "actor": "israel",
     "targets": [
@@ -321,14 +445,16 @@
     "first_strike": "2026-03-11",
     "casualties_reported": "Unknown — military target",
     "casualties_source": "IDF / DoD",
-    "active_days": [12],
+    "active_days": [
+      12
+    ],
     "notes": "Israeli military announced destruction of IRGC Air Force HQ on Day 12. Major command node eliminated."
   },
   {
     "id": "tehran-east-residential",
     "city": "Tehran (East — Resalat Square)",
-    "lat": 35.7350,
-    "lng": 51.4650,
+    "lat": 35.735,
+    "lng": 51.465,
     "type": "us_strike",
     "subtype": "civilian_casualty",
     "actor": "us_israel_joint",
@@ -339,7 +465,9 @@
     "first_strike": "2026-03-10",
     "casualties_reported": "40+ killed",
     "casualties_source": "Tasnim News Agency / Iranian Red Crescent (spokesman Mojtaba Khaledi) / Drop Site News / Al Jazeera",
-    "active_days": [11],
+    "active_days": [
+      11
+    ],
     "notes": "Strike hit at 1:00 AM on March 10 (during Ramadan, when shops were open late and people were gathering). Three residential buildings bombed simultaneously on the same street, plus a police building. One of the deadliest attacks on Tehran since the start of the war. Rescue crews searched rubble for survivors. Second major civilian casualty incident in Tehran after Niloofar Square (Day 3, 20 killed)."
   },
   {
@@ -357,13 +485,22 @@
     "first_strike": "2026-03-01",
     "casualties_reported": "Unknown — military targets; hospital collateral damage reported separately",
     "casualties_source": "Critical Threats / ISW / IDF / satellite imagery",
-    "active_days": [2, 3, 8, 9, 13, 14, 20, 21],
+    "active_days": [
+      2,
+      3,
+      8,
+      9,
+      13,
+      14,
+      20,
+      21
+    ],
     "notes": "Multiple military targets struck across Ahvaz over the course of the war. Aboozar Children's Hospital in Ahvaz reported damaged (not directly struck) as early as March 2 per Iranian authorities and Al Jazeera. IDF announced March 13 strikes on 'headquarters of various regime bodies' in Ahvaz simultaneously with Tehran and Shiraz. Iranian Deputy Health Minister Ali Jafarian reported 31 major clinical facilities and hospitals damaged nationwide, 12 rendered inactive, as of Day 14. WHO verified 13 attacks on healthcare infrastructure in Iran."
   },
   {
     "id": "karaj",
     "city": "Karaj",
-    "lat": 35.8400,
+    "lat": 35.84,
     "lng": 50.9391,
     "type": "us_strike",
     "actor": "us_israel_joint",
@@ -374,7 +511,22 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "Wikipedia (2026 Israeli–United States strikes on Iran) / NCRI local accounts",
-    "active_days": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "active_days": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
     "notes": "Listed alongside Tehran, Isfahan, Qom, and Kermanshah as a Day 1 target city. Western Tehran suburb with significant military infrastructure. Local accounts on Day 13 described ~20 explosions in Shahriar, ~30 in Malard/Fardis, 7-8 in Garmdareh."
   },
   {
@@ -390,7 +542,11 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "Wikipedia (2026 Israeli–United States strikes on Iran)",
-    "active_days": [1, 20, 21],
+    "active_days": [
+      1,
+      20,
+      21
+    ],
     "notes": "Listed as a Day 1 target city in multiple sources alongside Tehran, Isfahan, Qom, Karaj, and Kermanshah."
   },
   {
@@ -406,14 +562,20 @@
     "first_strike": "2026-02-28",
     "casualties_reported": "Unknown",
     "casualties_source": "Multiple sources list Qom as Day 1 target city / NCRI reports 6 explosions on Day 13",
-    "active_days": [1, 2, 3, 13, 28],
+    "active_days": [
+      1,
+      2,
+      3,
+      13,
+      28
+    ],
     "notes": "Qom city listed as a Day 1 target alongside Tehran, Isfahan, Karaj, Kermanshah, and Kerman. Fordow enrichment facility (near Qom) tracked separately. Continued strikes reported in subsequent days."
   },
   {
     "id": "konarak-naval",
     "city": "Konarak",
-    "lat": 25.3500,
-    "lng": 60.3800,
+    "lat": 25.35,
+    "lng": 60.38,
     "type": "us_strike",
     "actor": "us",
     "targets": [
@@ -422,14 +584,17 @@
     "first_strike": "2026-03-01",
     "casualties_reported": "Unknown",
     "casualties_source": "USNI News satellite imagery / CENTCOM",
-    "active_days": [2, 3],
+    "active_days": [
+      2,
+      3
+    ],
     "notes": "Southern coastal naval base. Confirmed struck by satellite imagery published by USNI News (March 1 image). Located in Sistan-Baluchistan province, 400km southeast of Minab. Part of US southern flank naval suppression campaign (Operation Epic Fury)."
   },
   {
     "id": "khojir-military",
     "city": "Khojir (Tehran Province)",
-    "lat": 35.6600,
-    "lng": 51.6300,
+    "lat": 35.66,
+    "lng": 51.63,
     "type": "us_strike",
     "actor": "us_israel_joint",
     "targets": [
@@ -439,7 +604,15 @@
     "first_strike": "2026-03-01",
     "casualties_reported": "Unknown",
     "casualties_source": "Critical Threats / ISW / satellite imagery (March 7 capture)",
-    "active_days": [2, 3, 4, 5, 6, 7, 8],
+    "active_days": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
     "notes": "Military complex east of Tehran. Satellite imagery captured March 7 confirmed several structures destroyed. Long associated with weapons research programs."
   },
   {
@@ -463,14 +636,27 @@
     "first_strike": "2026-03-02",
     "casualties_reported": "Multiple incidents — see individual notes; 460+ killed in Tehran alone as of Day 11",
     "casualties_source": "Iranian MFA / Red Crescent / WHO (verified 13 attacks on healthcare in Iran) / Al Jazeera / AP / NCRI",
-    "active_days": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "active_days": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
     "notes": "Aggregated entry for confirmed civilian infrastructure damage across Tehran beyond the dedicated residential and military entries. Iranian MFA claimed 33 civilian locations struck nationwide including hospitals, schools, residential areas, the Grand Bazaar, Golestan Palace, and Azadi Stadium. Iranian Red Crescent reported 3,600+ civilian sites damaged as of Day 6; 20,000 civilian buildings including 16,000 residential units affected as of Day 11. WHO verified 13 attacks on healthcare infrastructure in Iran (4 healthcare workers killed, 25 injured, 4 ambulances affected). 77 healthcare facilities affected per Red Crescent; 31 major clinical facilities/hospitals damaged and 12 rendered inactive per Deputy Health Minister. Niloofar Square strike (Day 3) killed 20 civilians per state media."
   },
   {
     "id": "isfahan-missile",
     "city": "Isfahan (Missile Complex)",
-    "lat": 32.6000,
-    "lng": 51.7500,
+    "lat": 32.6,
+    "lng": 51.75,
     "type": "us_strike",
     "actor": "us_israel_joint",
     "targets": [
@@ -480,14 +666,20 @@
     "first_strike": "2026-03-01",
     "casualties_reported": "Unknown — military targets",
     "casualties_source": "Critical Threats / ISW / IDF / satellite imagery (March 8 capture)",
-    "active_days": [2, 3, 7, 8, 9],
+    "active_days": [
+      2,
+      3,
+      7,
+      8,
+      9
+    ],
     "notes": "Distinct from Isfahan nuclear facilities (tracked under isfahan-nuclear). Ground-penetrating munitions used on underground missile silos. IDF confirmed on March 8 that IAF strikes on March 7 destroyed F-14 fighter jets at an airbase in Isfahan, likely the 8th Tactical Airbase."
   },
   {
     "id": "shiraz-missile-base",
     "city": "Shiraz (South)",
-    "lat": 29.5000,
-    "lng": 52.5000,
+    "lat": 29.5,
+    "lng": 52.5,
     "type": "us_strike",
     "actor": "israel",
     "targets": [
@@ -499,7 +691,15 @@
     "first_strike": "2026-03-07",
     "casualties_reported": "Unknown",
     "casualties_source": "Critical Threats / ISW / IDF / satellite imagery (March 7 capture)",
-    "active_days": [8, 9, 10, 11, 12, 13, 14],
+    "active_days": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
     "notes": "Separate from the shiraz-airbase entry which covers Day 1-2 strikes. Satellite imagery March 7 showed ground-penetrating munitions used on underground facilities at a missile base south of Shiraz — one of at least 25 Iranian medium-range ballistic missile bases. June 2025 strikes had caused only light above-ground damage. IDF announced on March 13 that underground missile production site in Shiraz was struck. NCRI reports heavy strikes on Shiraz from early March 13, including airport, control tower, Gulf Highway, Moharrab Street, and SaIran complex."
   },
   {
@@ -518,14 +718,17 @@
     "first_strike": "2026-03-08",
     "casualties_reported": "Unknown",
     "casualties_source": "Critical Threats / ISW / OSINT accounts",
-    "active_days": [9, 10],
+    "active_days": [
+      9,
+      10
+    ],
     "notes": "Part of the combined force campaign against Iran's internal security apparatus. LEC institutions targeted in cities that saw significant anti-government protests in Dec 2025–Jan 2026. CTP-ISW confirmed protests had occurred in Eslamabad-e Gharb, Borujerd, and Abdanan during the protest wave."
   },
   {
     "id": "south-pars-gas",
     "city": "South Pars / Asaluyeh (Bushehr Province)",
-    "lat": 27.4800,
-    "lng": 52.6000,
+    "lat": 27.48,
+    "lng": 52.6,
     "type": "us_strike",
     "subtype": "energy_infrastructure",
     "actor": "israel_us_coordinated",
@@ -537,14 +740,16 @@
     "first_strike": "2026-03-18",
     "casualties_reported": "Unknown — infrastructure target",
     "casualties_source": "Bloomberg / Axios",
-    "active_days": [19],
+    "active_days": [
+      19
+    ],
     "notes": "CRITICAL ESCALATION — First strike on Iran's upstream energy infrastructure since Operation Epic Fury began. Israeli Air Force with explicit US coordination struck South Pars Phases 3/4/5/6 and Asaluyeh hub early Wednesday March 18. Two refineries taken offline with combined capacity of ~100 million cubic meters/day of gas — roughly one-fifth of the field's total capacity. South Pars produces 730 million cm³ of gas/day, supplying 70% of Iran's domestic gas. Qatar immediately condemned the strike. Trump claimed US 'knew nothing' (sources contradicted). Netanyahu confirmed Mar 19 Israel would comply with Trump's demand to stop further energy strikes. IAEA DG Grossi told NPR enrichment capabilities will partially survive, contradicting Netanyahu. IRGC issued 'urgent warning' naming SAMREF, Jubail, Al Hosn, Mesaieed, Ras Laffan as retaliatory targets. Brent spiked to $119.11 intraday; TTF gas +30-33%."
   },
   {
     "id": "hormuz-coastal-march17",
     "city": "Strait of Hormuz Coastline",
-    "lat": 26.4000,
-    "lng": 56.4000,
+    "lat": 26.4,
+    "lng": 56.4,
     "type": "us_strike",
     "actor": "us",
     "targets": [
@@ -553,14 +758,16 @@
     "first_strike": "2026-03-17",
     "casualties_reported": "Unknown — military targets",
     "casualties_source": "CENTCOM via social media",
-    "active_days": [18],
+    "active_days": [
+      18
+    ],
     "notes": "CENTCOM announced via social media that US forces employed multiple 5,000-pound deep penetrator munitions against hardened Iranian anti-ship cruise missile sites along the Strait of Hormuz coastline. CENTCOM stated the missiles 'posed a risk to international shipping in the strait.' No formal CENTCOM press releases published March 17-18; last official release dates to March 14."
   },
   {
     "id": "tehran-north-residential-march18",
     "city": "Tehran (Northern neighborhood)",
-    "lat": 35.7600,
-    "lng": 51.4000,
+    "lat": 35.76,
+    "lng": 51.4,
     "type": "us_strike",
     "subtype": "civilian_casualty",
     "actor": "us_israel_joint",
@@ -570,14 +777,16 @@
     "first_strike": "2026-03-18",
     "casualties_reported": "2+ killed",
     "casualties_source": "Iranian state media / CNN live updates",
-    "active_days": [19],
+    "active_days": [
+      19
+    ],
     "notes": "Iranian state media reported early Wednesday strikes on northern Tehran neighborhood. Emergency crews recovered two bodies. Part of continued bombardment of Tehran that has killed 460+ in the capital since Day 1."
   },
   {
     "id": "bushehr-nuclear-march18",
     "city": "Bushehr Nuclear Power Plant",
-    "lat": 28.8300,
-    "lng": 50.8900,
+    "lat": 28.83,
+    "lng": 50.89,
     "type": "us_strike",
     "actor": "unknown",
     "targets": [
@@ -586,14 +795,16 @@
     "first_strike": "2026-03-18",
     "casualties_reported": "No injuries per IAEA/Rosatom",
     "casualties_source": "IAEA / Rosatom / multiple",
-    "active_days": [19],
+    "active_days": [
+      19
+    ],
     "notes": "Projectile struck Bushehr nuclear power plant on March 18. No injuries reported per IAEA and Rosatom. ~480 Russian citizens remain on site. FLAG: single-source on specifics. Separate from earlier Day 1-2 perimeter strikes tracked under bushehr-nuclear entry."
   },
   {
     "id": "larijani-killing",
     "city": "Unknown location (Iran)",
-    "lat": 35.6900,
-    "lng": 51.3900,
+    "lat": 35.69,
+    "lng": 51.39,
     "type": "us_strike",
     "subtype": "targeted_killing",
     "actor": "israel",
@@ -603,14 +814,16 @@
     "first_strike": "2026-03-17",
     "casualties_reported": "Ali Larijani killed — confirmed by Iranian state media",
     "casualties_source": "Al Jazeera / Times of Israel / CNN / CBS",
-    "active_days": [18],
+    "active_days": [
+      18
+    ],
     "notes": "Third most senior Iranian official killed since the war began. Funeral procession drew thousands March 18."
   },
   {
     "id": "soleimani-basij-killing",
     "city": "Unknown location (Iran)",
-    "lat": 35.6800,
-    "lng": 51.4000,
+    "lat": 35.68,
+    "lng": 51.4,
     "type": "us_strike",
     "subtype": "targeted_killing",
     "actor": "israel",
@@ -620,14 +833,16 @@
     "first_strike": "2026-03-17",
     "casualties_reported": "Gholamreza Soleimani killed — confirmed by Iranian state media",
     "casualties_source": "Al Jazeera / Times of Israel",
-    "active_days": [18],
+    "active_days": [
+      18
+    ],
     "notes": "Fourth most senior Iranian official killed since the war began. Killed same day as Larijani."
   },
   {
     "id": "khatib-killing",
     "city": "Unknown location (Iran)",
-    "lat": 35.7000,
-    "lng": 51.3800,
+    "lat": 35.7,
+    "lng": 51.38,
     "type": "us_strike",
     "subtype": "targeted_killing",
     "actor": "israel",
@@ -637,14 +852,16 @@
     "first_strike": "2026-03-18",
     "casualties_reported": "Esmail Khatib killed — confirmed by Iranian state media",
     "casualties_source": "NPR / Al Jazeera / Times of Israel",
-    "active_days": [19],
+    "active_days": [
+      19
+    ],
     "notes": "Fifth most senior Iranian official killed since the war began. Third killed in 24 hours (after Larijani and Soleimani on March 17). Systematic decapitation of Iranian leadership continues without producing capitulation."
   },
   {
     "id": "caspian-sea-bandar-anzali",
     "city": "Bandar Anzali (Caspian Sea coast)",
-    "lat": 37.4700,
-    "lng": 49.4600,
+    "lat": 37.47,
+    "lng": 49.46,
     "type": "us_strike",
     "actor": "israel",
     "targets": [
@@ -654,14 +871,16 @@
     "first_strike": "2026-03-19",
     "casualties_reported": "Unknown",
     "casualties_source": "Axios / IDF",
-    "active_days": [20],
+    "active_days": [
+      20
+    ],
     "notes": "MAJOR GEOGRAPHIC ESCALATION — Israel's first strikes on Iranian naval targets in the Caspian Sea, ~1,300km from Israel and bordering Russia. More than 5 vessels targeted per Axios. Bandar Anzali hosts Iran's Northern Fleet HQ and is a key node in the Iran-Russia weapons supply corridor."
   },
   {
     "id": "naini-killing",
     "city": "Unknown location (Iran)",
-    "lat": 35.6950,
-    "lng": 51.3850,
+    "lat": 35.695,
+    "lng": 51.385,
     "type": "us_strike",
     "subtype": "targeted_killing",
     "actor": "israel",
@@ -671,14 +890,16 @@
     "first_strike": "2026-03-20",
     "casualties_reported": "Ali Mohammad Naini killed — confirmed",
     "casualties_source": "Multiple sources",
-    "active_days": [21],
+    "active_days": [
+      21
+    ],
     "notes": "IRGC spokesperson killed in IAF airstrike overnight March 19-20. Part of ongoing systematic elimination of senior Iranian officials."
   },
   {
     "id": "nakshabandi-killing",
     "city": "Unknown location (Iran)",
-    "lat": 35.6850,
-    "lng": 51.3950,
+    "lat": 35.685,
+    "lng": 51.395,
     "type": "us_strike",
     "subtype": "targeted_killing",
     "actor": "israel",
@@ -688,14 +909,16 @@
     "first_strike": "2026-03-20",
     "casualties_reported": "Gen. Afshin Nakshabandi killed — confirmed",
     "casualties_source": "Multiple sources",
-    "active_days": [21],
+    "active_days": [
+      21
+    ],
     "notes": "Representative of Iran's Armed Forces Headquarters in the Basij organization. Killed March 19-20."
   },
   {
     "id": "ahmadi-killing",
     "city": "Unknown location (Iran)",
-    "lat": 35.7050,
-    "lng": 51.3750,
+    "lat": 35.705,
+    "lng": 51.375,
     "type": "us_strike",
     "subtype": "targeted_killing",
     "actor": "israel",
@@ -705,14 +928,16 @@
     "first_strike": "2026-03-20",
     "casualties_reported": "Esmail Ahmadi killed — confirmed",
     "casualties_source": "Multiple sources",
-    "active_days": [21],
+    "active_days": [
+      21
+    ],
     "notes": "IRGC head of intelligence. Killed March 19-20. Part of systematic decapitation campaign that has now eliminated 9+ senior Iranian officials."
   },
   {
     "id": "karishi-killing",
     "city": "Isfahan",
     "lat": 32.6546,
-    "lng": 51.6680,
+    "lng": 51.668,
     "type": "us_strike",
     "subtype": "targeted_killing",
     "actor": "israel",
@@ -722,7 +947,9 @@
     "first_strike": "2026-03-20",
     "casualties_reported": "Mehdi Karishi killed — confirmed",
     "casualties_source": "Multiple sources",
-    "active_days": [21],
+    "active_days": [
+      21
+    ],
     "notes": "Commander of IRGC Aerospace Forces, Isfahan sector. Killed March 19-20. Ballistic missile launch rate down ~90% from Day 1."
   },
   {
@@ -738,13 +965,16 @@
     "first_strike": "2026-03-19",
     "casualties_reported": "Unknown",
     "casualties_source": "CENTCOM / IDF",
-    "active_days": [20, 21],
+    "active_days": [
+      20,
+      21
+    ],
     "notes": "Strikes expanded to Yazd as part of Day 20-21 record-tempo operations. Hegseth: 'largest strike package yet.'"
   },
   {
     "id": "bandar-lengeh-coastal",
     "city": "Bandar Lengeh",
-    "lat": 26.5580,
+    "lat": 26.558,
     "lng": 54.8803,
     "type": "us_strike",
     "actor": "us",
@@ -755,14 +985,17 @@
     "first_strike": "2026-03-19",
     "casualties_reported": "Unknown",
     "casualties_source": "CENTCOM",
-    "active_days": [20, 21],
+    "active_days": [
+      20,
+      21
+    ],
     "notes": "Bandar Lengeh coastal area struck as part of continued Strait of Hormuz suppression campaign. Part of Day 20-21 record-tempo operations."
   },
   {
     "id": "hormuz-coastal-bunkerbuster-march21",
     "city": "Strait of Hormuz Southern Coastline",
-    "lat": 26.30,
-    "lng": 56.50,
+    "lat": 26.3,
+    "lng": 56.5,
     "type": "us_strike",
     "actor": "us",
     "targets": [
@@ -773,14 +1006,17 @@
     "first_strike": "2026-03-21",
     "casualties_reported": "Unknown — military targets",
     "casualties_source": "CENTCOM / Adm. Brad Cooper briefing",
-    "active_days": [22, 23],
+    "active_days": [
+      22,
+      23
+    ],
     "notes": "Day 22-23: US employed GBU-72 5,000-pound bunker-buster bombs against hardened underground facilities along Iran's southern coastline. Day 22: Anti-ship cruise missiles, mobile launchers, and maritime surveillance equipment struck. Day 23 (Mar 22): Adm. Cooper video update confirmed destruction of underground coastal facility storing anti-ship cruise missiles and mobile launchers, plus 'intelligence support sites and missile radar relays.' Iran's combat capability 'on steady decline, as our offensive strikes ramp up.' Part of Day 4 of aerial campaign (begun Mar 19) using A-10 Warthogs and Apache gunships."
   },
   {
     "id": "army-precision-strike-march19",
     "city": "Iran (location classified)",
-    "lat": 28.00,
-    "lng": 54.00,
+    "lat": 28.0,
+    "lng": 54.0,
     "type": "us_strike",
     "actor": "us",
     "targets": [
@@ -789,7 +1025,9 @@
     "first_strike": "2026-03-19",
     "casualties_reported": "Unknown",
     "casualties_source": "CENTCOM",
-    "active_days": [20],
+    "active_days": [
+      20
+    ],
     "notes": "US Army executed what CENTCOM called the 'longest field artillery strike in Army combat history' on March 19, using precision strike missiles against Iranian military infrastructure. First operational combat use of this capability at extreme range."
   },
   {
@@ -805,7 +1043,9 @@
     "first_strike": "2026-03-23",
     "casualties_reported": "Unknown — Iranian Red Crescent responding",
     "casualties_source": "Iranian state media / Red Crescent",
-    "active_days": [24],
+    "active_days": [
+      24
+    ],
     "notes": "Day 24 (Mar 23): Iranian Red Crescent responded to strikes on a residential area in Urmia, northwest Iran. First reported strike on Urmia — extends campaign to West Azerbaijan province."
   },
   {
@@ -821,14 +1061,16 @@
     "first_strike": "2026-03-23",
     "casualties_reported": "Several killed and wounded",
     "casualties_source": "Fars News Agency",
-    "active_days": [24],
+    "active_days": [
+      24
+    ],
     "notes": "Day 24 (Mar 23): Fars news agency reported strikes in a residential area of Khorramabad killed and wounded several people. Khorramabad is the capital of Lorestan province in western Iran."
   },
   {
     "id": "anbar-iraq-march24",
     "city": "Anbar Province, Iraq",
     "lat": 33.42,
-    "lng": 43.30,
+    "lng": 43.3,
     "type": "us_strike",
     "actor": "us",
     "targets": [
@@ -837,7 +1079,9 @@
     "first_strike": "2026-03-24",
     "casualties_reported": "Unknown — senior commander Saad Dawai targeted",
     "casualties_source": "Al Jazeera",
-    "active_days": [25],
+    "active_days": [
+      25
+    ],
     "notes": "Day 25 (Mar 24): US strike in Iraq's Anbar Province targeted the headquarters of an Iran-backed group. Senior commander Saad Dawai specifically targeted. Part of ongoing US campaign against Iranian proxy forces in Iraq.",
     "verified": true,
     "last_updated": "2026-03-24"
@@ -855,7 +1099,9 @@
     "first_strike": "2026-03-24",
     "casualties_reported": "1 killed",
     "casualties_source": "Mehr News via Al Jazeera",
-    "active_days": [25],
+    "active_days": [
+      25
+    ],
     "notes": "Day 25 (Mar 24): Strike destroyed IRIB (Islamic Republic of Iran Broadcasting) transmitter in Bandar Abbas, killing 1 person. 100kW AM radio station. Part of ongoing campaign to degrade Iranian state communications infrastructure.",
     "verified": true,
     "last_updated": "2026-03-24"
@@ -873,7 +1119,9 @@
     "first_strike": "2026-03-25",
     "casualties_reported": "Unknown — witnesses report multiple impacts",
     "casualties_source": "Iranian state media / witness reports",
-    "active_days": [26],
+    "active_days": [
+      26
+    ],
     "notes": "Day 26 (Mar 25): Airstrikes hit Qazvin in northwestern Iran overnight. Witnesses reported multiple impacts. Part of IDF 'new wide-scale attacks' on Iranian government infrastructure.",
     "verified": true,
     "last_updated": "2026-03-25"
@@ -882,7 +1130,7 @@
     "id": "isfahan-submarine-march25",
     "city": "Isfahan",
     "lat": 32.6546,
-    "lng": 51.6680,
+    "lng": 51.668,
     "type": "us_strike",
     "actor": "us_israel_joint",
     "targets": [
@@ -891,7 +1139,9 @@
     "first_strike": "2026-03-25",
     "casualties_reported": "Unknown",
     "casualties_source": "IDF",
-    "active_days": [26],
+    "active_days": [
+      26
+    ],
     "notes": "Day 26 (Mar 25): IDF struck Iranian submarine research center in Isfahan as part of wide-scale attacks on Iranian government and military infrastructure.",
     "verified": true,
     "last_updated": "2026-03-25"
@@ -899,8 +1149,8 @@
   {
     "id": "south-tehran-march25",
     "city": "South Tehran",
-    "lat": 35.6500,
-    "lng": 51.4000,
+    "lat": 35.65,
+    "lng": 51.4,
     "type": "us_strike",
     "actor": "us_israel_joint",
     "targets": [
@@ -910,7 +1160,9 @@
     "first_strike": "2026-03-25",
     "casualties_reported": "At least 12 killed, 28 wounded in south Tehran; eastern Tehran school and residential buildings destroyed",
     "casualties_source": "Iranian state media",
-    "active_days": [26],
+    "active_days": [
+      26
+    ],
     "notes": "Day 26 (Mar 25): South Tehran strike killed at least 12, wounded 28. Eastern Tehran strikes destroyed school and residential buildings. Part of IDF 'new wide-scale attacks' on Iranian government infrastructure.",
     "verified": true,
     "last_updated": "2026-03-25"
@@ -929,7 +1181,9 @@
     "first_strike": "2026-03-26",
     "casualties_reported": "IRGC Navy Commander Tangsiri killed along with senior operational staff",
     "casualties_source": "IDF / Israeli Defense Ministry / NPR",
-    "active_days": [27],
+    "active_days": [
+      27
+    ],
     "notes": "Day 27 (Mar 26): Israel's precision strike on covert naval command center in Bandar Abbas killed IRGC Navy Commander Rear Admiral Alireza Tangsiri — the architect of the Strait of Hormuz blockade. Based on joint US-Israeli intelligence. Also killed senior intelligence and operations chiefs. Defense Minister Katz called it 'significant news for American partners' and a direct step toward reopening the Strait. Tangsiri had personally ordered Hormuz closure on March 2.",
     "verified": true,
     "last_updated": "2026-03-26"
@@ -938,7 +1192,7 @@
     "id": "isfahan-arms-march26",
     "city": "Isfahan (Central)",
     "lat": 32.6546,
-    "lng": 51.6680,
+    "lng": 51.668,
     "type": "us_strike",
     "actor": "israel",
     "targets": [
@@ -947,7 +1201,10 @@
     "first_strike": "2026-03-26",
     "casualties_reported": "Unknown — strikes 'increasing in number and in intensity' per Al Jazeera",
     "casualties_source": "IDF / NPR / Al Jazeera",
-    "active_days": [27, 28],
+    "active_days": [
+      27,
+      28
+    ],
     "notes": "Day 27 (Mar 26): Israel launched 'wave of extensive strikes' on central Isfahan targeting remaining missile and drone production infrastructure. Israeli military sources told NPR they want 'several more weeks of war' and are 'speeding up targeting over the next 48 hours' focusing on arms factories. US has now struck two-thirds of Iran's missile and drone production facilities. Day 28 (Mar 27): Continued strikes on weapons production facilities in Isfahan.",
     "verified": true,
     "last_updated": "2026-03-27"
@@ -956,7 +1213,7 @@
     "id": "tehran-weapons-march27",
     "city": "Tehran (Heart of Tehran)",
     "lat": 35.6892,
-    "lng": 51.3890,
+    "lng": 51.389,
     "type": "us_strike",
     "actor": "israel",
     "targets": [
@@ -968,7 +1225,9 @@
     "first_strike": "2026-03-27",
     "casualties_reported": "Iranian soldiers killed at sites per IDF",
     "casualties_source": "IDF / Brig. Gen. Defrin / NPR",
-    "active_days": [28],
+    "active_days": [
+      28
+    ],
     "notes": "Day 28 (Mar 27): IDF conducted 'wide-scale wave of strikes' in 'the heart of Tehran' overnight, hitting dozens of weapon manufacturing sites. IDF Spokesman Brig. Gen. Effie Defrin confirmed Iranian soldiers killed. IDF has now struck more than 1,000 targets in Iran's weapons production sector alone.",
     "verified": true,
     "last_updated": "2026-03-27"
@@ -977,7 +1236,7 @@
     "id": "kermanshah-dezful-march27",
     "city": "Kermanshah / Dezful",
     "lat": 34.3142,
-    "lng": 47.0650,
+    "lng": 47.065,
     "type": "us_strike",
     "actor": "israel",
     "targets": [
@@ -988,7 +1247,9 @@
     "first_strike": "2026-03-27",
     "casualties_reported": "Iranian soldiers killed per IDF",
     "casualties_source": "IDF / Brig. Gen. Defrin",
-    "active_days": [28],
+    "active_days": [
+      28
+    ],
     "notes": "Day 28 (Mar 27): IAF dropped approximately 70 bombs on missile launch sites, ballistic missile storage, and air defense systems in Kermanshah and Dezful in western Iran overnight.",
     "verified": true,
     "last_updated": "2026-03-27"
@@ -1007,7 +1268,9 @@
     "first_strike": "2026-03-27",
     "casualties_reported": "6 civilians killed in Qom",
     "casualties_source": "Iranian state media / Reuters",
-    "active_days": [28],
+    "active_days": [
+      28
+    ],
     "notes": "Day 28 (Mar 27): Six civilians reported killed in Qom from overnight strikes. Additional casualties reported in Urmia from strikes on residential buildings.",
     "verified": true,
     "last_updated": "2026-03-27"
@@ -1025,7 +1288,9 @@
     "first_strike": "2026-03-29",
     "casualties_reported": "No radiological release per IAEA",
     "casualties_source": "IAEA / IDF",
-    "active_days": [30],
+    "active_days": [
+      30
+    ],
     "notes": "Day 30 (Mar 29): Israel struck the Shahid Khondab Heavy Water Complex in Arak. IAEA confirmed no radiological release. Part of continued targeting of Iran's nuclear infrastructure.",
     "verified": true,
     "last_updated": "2026-03-29"
@@ -1033,7 +1298,7 @@
   {
     "id": "ardakan-yellowcake-march29",
     "city": "Ardakan, Yazd Province",
-    "lat": 32.3100,
+    "lat": 32.31,
     "lng": 54.0175,
     "type": "us_strike",
     "actor": "israel",
@@ -1043,7 +1308,9 @@
     "first_strike": "2026-03-29",
     "casualties_reported": "No radiological release per IAEA",
     "casualties_source": "IAEA / IDF",
-    "active_days": [30],
+    "active_days": [
+      30
+    ],
     "notes": "Day 30 (Mar 29): Israel struck the Ardakan yellowcake production plant in Yazd Province. IAEA confirmed no radiological release. Targets uranium mining and conversion capacity.",
     "verified": true,
     "last_updated": "2026-03-29"
@@ -1063,7 +1330,9 @@
     "first_strike": "2026-03-29",
     "casualties_reported": "Unknown — IRGC issued ultimatum threatening retaliatory attacks on US/Israeli university campuses in Gulf",
     "casualties_source": "Iranian state media / IRGC",
-    "active_days": [30],
+    "active_days": [
+      30
+    ],
     "notes": "Day 30 (Mar 29): US-Israeli strikes severely damaged the Iran University of Science and Technology and completed 'extensive' waves against dozens of Tehran infrastructure targets. IRGC responded with ultimatum demanding US condemn strikes on Iranian universities by 12:00 noon March 30, threatening retaliatory attacks on Texas A&M and Northwestern in Qatar, NYU in UAE.",
     "verified": true,
     "last_updated": "2026-03-29"
@@ -1072,7 +1341,7 @@
     "id": "haftkel-water-march29",
     "city": "Haftkel, Khuzestan Province",
     "lat": 32.2292,
-    "lng": 49.5250,
+    "lng": 49.525,
     "type": "us_strike",
     "subtype": "civilian_infrastructure",
     "actor": "us_israel_joint",
@@ -1082,7 +1351,9 @@
     "first_strike": "2026-03-29",
     "casualties_reported": "Unknown — critical civilian infrastructure",
     "casualties_source": "Iranian state media",
-    "active_days": [30],
+    "active_days": [
+      30
+    ],
     "notes": "Day 30 (Mar 29): A 10,000-cubic-meter water reservoir in Haftkel, Khuzestan Province was destroyed. Prompted critical IRGC ultimatum threatening attacks on US/Israeli university campuses in the Gulf.",
     "verified": true,
     "last_updated": "2026-03-29"
@@ -1091,7 +1362,7 @@
     "id": "isfahan-industry-march29",
     "city": "Isfahan",
     "lat": 32.6546,
-    "lng": 51.6680,
+    "lng": 51.668,
     "type": "us_strike",
     "actor": "us_israel_joint",
     "targets": [
@@ -1102,7 +1373,9 @@
     "first_strike": "2026-03-29",
     "casualties_reported": "Unknown",
     "casualties_source": "Iranian state media / satellite imagery",
-    "active_days": [30],
+    "active_days": [
+      30
+    ],
     "notes": "Day 30 (Mar 29): Steel and cement factories across Isfahan and southern Iran struck as part of expanded infrastructure targeting campaign.",
     "verified": true,
     "last_updated": "2026-03-29"
@@ -1110,8 +1383,8 @@
   {
     "id": "bandar-khamir-march30",
     "city": "Bandar Khamir",
-    "lat": 26.9500,
-    "lng": 55.5800,
+    "lat": 26.95,
+    "lng": 55.58,
     "type": "us_strike",
     "actor": "us_israel_joint",
     "targets": [
@@ -1120,7 +1393,10 @@
     "first_strike": "2026-03-28",
     "casualties_reported": "At least 5 killed",
     "casualties_source": "Iranian state media",
-    "active_days": [29, 30],
+    "active_days": [
+      29,
+      30
+    ],
     "notes": "Day 29-30 (Mar 28-29): Bandar Khamir port city struck by joint US-Israeli airstrikes. At least 5 killed.",
     "verified": true,
     "last_updated": "2026-03-30"
@@ -1129,7 +1405,7 @@
     "id": "isfahan-steel-march27",
     "city": "Isfahan",
     "lat": 32.6546,
-    "lng": 51.6680,
+    "lng": 51.668,
     "type": "us_strike",
     "actor": "us_israel_joint",
     "targets": [
@@ -1138,7 +1414,10 @@
     "first_strike": "2026-03-27",
     "casualties_reported": "Unknown",
     "casualties_source": "Iranian state media / satellite imagery",
-    "active_days": [28, 29],
+    "active_days": [
+      28,
+      29
+    ],
     "notes": "Day 28 (Mar 27): Steel plants in Isfahan struck as part of expanded industrial targeting campaign.",
     "verified": true,
     "last_updated": "2026-03-30"
@@ -1156,7 +1435,9 @@
     "first_strike": "2026-03-27",
     "casualties_reported": "Unknown",
     "casualties_source": "Iranian state media / satellite imagery",
-    "active_days": [28],
+    "active_days": [
+      28
+    ],
     "notes": "Day 28 (Mar 27): Steel plants in Ahvaz struck as part of expanded industrial targeting campaign.",
     "verified": true,
     "last_updated": "2026-03-30"
@@ -1164,8 +1445,8 @@
   {
     "id": "yazd-yellowcake-march28",
     "city": "Ardakan, Yazd Province",
-    "lat": 32.3100,
-    "lng": 54.0200,
+    "lat": 32.31,
+    "lng": 54.02,
     "type": "us_strike",
     "actor": "us_israel_joint",
     "targets": [
@@ -1174,7 +1455,9 @@
     "first_strike": "2026-03-28",
     "casualties_reported": "Unknown",
     "casualties_source": "IDF / IAEA",
-    "active_days": [29],
+    "active_days": [
+      29
+    ],
     "notes": "Day 29 (Mar 28): US-Israeli airstrikes hit the yellowcake facility in Yazd Province. Part of expanded nuclear infrastructure targeting campaign. IAEA warned of potential radiological risks from strikes on nuclear facilities.",
     "verified": true,
     "last_updated": "2026-03-31"
@@ -1182,8 +1465,8 @@
   {
     "id": "khondab-heavy-water-march28",
     "city": "Arak (Khondab)",
-    "lat": 34.3800,
-    "lng": 49.2400,
+    "lat": 34.38,
+    "lng": 49.24,
     "type": "us_strike",
     "actor": "us_israel_joint",
     "targets": [
@@ -1192,7 +1475,9 @@
     "first_strike": "2026-03-28",
     "casualties_reported": "Unknown",
     "casualties_source": "IDF / IAEA",
-    "active_days": [29],
+    "active_days": [
+      29
+    ],
     "notes": "Day 29 (Mar 28): US-Israeli airstrikes hit the Khondab Heavy Water Complex in Arak. Prompted IAEA warnings about striking nuclear facilities. Multiple Iranian parliamentarians pushing NPT withdrawal legislation in response.",
     "verified": true,
     "last_updated": "2026-03-31"
@@ -1200,8 +1485,8 @@
   {
     "id": "bushehr-perimeter-march31",
     "city": "Bushehr",
-    "lat": 28.9800,
-    "lng": 50.8400,
+    "lat": 28.98,
+    "lng": 50.84,
     "type": "us_strike",
     "actor": "us_israel_joint",
     "targets": [
@@ -1210,7 +1495,9 @@
     "first_strike": "2026-03-31",
     "casualties_reported": "Unknown — IAEA warning of potential major radiological incident",
     "casualties_source": "IAEA / Iranian state media",
-    "active_days": [32],
+    "active_days": [
+      32
+    ],
     "notes": "Day 32 (Mar 31): At least three projectiles landed near Bushehr Nuclear Power Plant, prompting IAEA warnings of a potential major radiological incident. ~480 Russians on site at the reactor facility.",
     "verified": true,
     "last_updated": "2026-03-31"
@@ -1228,7 +1515,9 @@
     "first_strike": "2026-04-01",
     "casualties_reported": "R&D department destroyed; 10 nurses killed 'at the scene of their service'",
     "casualties_source": "ISNA / Iranian Health Ministry / IDF",
-    "active_days": [33],
+    "active_days": [
+      33
+    ],
     "notes": "Day 33 (Apr 1): Israel claimed Tofigh Daru supplied fentanyl precursors for alleged chemical weapons program. Iran acknowledged strike destroyed R&D department, calling it 'a blow to the national medical supply chain.' 10 nurses killed.",
     "verified": true,
     "last_updated": "2026-04-01"
@@ -1246,7 +1535,9 @@
     "first_strike": "2026-04-01",
     "casualties_reported": "Unknown — Iranian media confirmed explosions",
     "casualties_source": "Iranian state media / Anadolu Agency",
-    "active_days": [33],
+    "active_days": [
+      33
+    ],
     "notes": "Day 33 (Apr 1): US-Israeli strikes hit multiple targets in Kerman and Sirjan, southern Iran. Iranian media confirmed explosions.",
     "verified": true,
     "last_updated": "2026-04-01"
@@ -1264,7 +1555,9 @@
     "first_strike": "2026-04-01",
     "casualties_reported": "Unknown — explosions reported in eastern and northwestern sectors",
     "casualties_source": "Anadolu Agency / Iranian state media",
-    "active_days": [33],
+    "active_days": [
+      33
+    ],
     "notes": "Day 33 (Apr 1): Explosions in eastern Ahvaz and northwestern Mahshahr from ongoing US-Israeli strikes in Khuzestan Province.",
     "verified": true,
     "last_updated": "2026-04-01"
@@ -1282,7 +1575,9 @@
     "first_strike": "2026-04-01",
     "casualties_reported": "No casualties reported",
     "casualties_source": "Hormozgan Province official Ahmad Nafisi",
-    "active_days": [33],
+    "active_days": [
+      33
+    ],
     "notes": "Day 33 (Apr 1): Hormozgan Province official confirmed 'enemy fighter jets' bombed the civilian passenger pier. No casualties reported.",
     "verified": true,
     "last_updated": "2026-04-01"
@@ -1290,8 +1585,8 @@
   {
     "id": "qeshm-desalination-april1",
     "city": "Qeshm Island",
-    "lat": 26.8500,
-    "lng": 56.2700,
+    "lat": 26.85,
+    "lng": 56.27,
     "type": "us_strike",
     "subtype": "civilian_infrastructure",
     "actor": "us_israel_joint",
@@ -1301,7 +1596,9 @@
     "first_strike": "2026-04-01",
     "casualties_reported": "No casualties — freshwater supply threatened for island population",
     "casualties_source": "Iranian state media",
-    "active_days": [33],
+    "active_days": [
+      33
+    ],
     "notes": "Day 33 (Apr 1): Desalination plant knocked offline, threatening freshwater supply to Qeshm Island's population near the Strait of Hormuz.",
     "verified": true,
     "last_updated": "2026-04-01"
@@ -1309,8 +1606,8 @@
   {
     "id": "tehran-medical-research-april2",
     "city": "Tehran",
-    "lat": 35.7100,
-    "lng": 51.4200,
+    "lat": 35.71,
+    "lng": 51.42,
     "type": "us_strike",
     "actor": "us_israel_joint",
     "targets": [
@@ -1319,7 +1616,9 @@
     "first_strike": "2026-04-02",
     "casualties_reported": "Unknown — research personnel",
     "casualties_source": "CNN / Iranian media",
-    "active_days": [34],
+    "active_days": [
+      34
+    ],
     "notes": "Day 34 (Apr 2): US-Israeli forces struck a century-old medical research center in Tehran. Part of 170 IDF targets in prior 24 hours.",
     "verified": true,
     "last_updated": "2026-04-02"
@@ -1339,7 +1638,9 @@
     "first_strike": "2026-04-02",
     "casualties_reported": "Unknown",
     "casualties_source": "IDF / Iranian state media",
-    "active_days": [34],
+    "active_days": [
+      34
+    ],
     "notes": "Day 34 (Apr 2): Bridge near Tehran, steel plants, and pharmaceutical facilities struck as part of intensified post-speech campaign.",
     "verified": true,
     "last_updated": "2026-04-02"
@@ -1357,7 +1658,9 @@
     "first_strike": "2026-04-02",
     "casualties_reported": "Unknown — civilian port facility",
     "casualties_source": "Iranian media",
-    "active_days": [34],
+    "active_days": [
+      34
+    ],
     "notes": "Day 34 (Apr 2): Passenger pier in Bandar Abbas struck.",
     "verified": true,
     "last_updated": "2026-04-02"
@@ -1375,7 +1678,9 @@
     "first_strike": "2026-04-02",
     "casualties_reported": "Unknown — civilian infrastructure",
     "casualties_source": "Iranian media / CNN",
-    "active_days": [34],
+    "active_days": [
+      34
+    ],
     "notes": "Day 34 (Apr 2): Desalination plant on Qeshm Island in the Strait of Hormuz struck — threatens freshwater supply to island population.",
     "verified": true,
     "last_updated": "2026-04-02"
@@ -1383,7 +1688,7 @@
   {
     "id": "baharestan-isfahan-april2",
     "city": "Baharestan (near Isfahan)",
-    "lat": 32.50,
+    "lat": 32.5,
     "lng": 51.75,
     "type": "us_strike",
     "actor": "us_israel_joint",
@@ -1393,7 +1698,9 @@
     "first_strike": "2026-04-02",
     "casualties_reported": "Unknown",
     "casualties_source": "CNN geolocated video",
-    "active_days": [34],
+    "active_days": [
+      34
+    ],
     "notes": "Day 34 (Apr 2): CNN geolocated video of large explosions near Baharestan, approximately 13 miles south of Isfahan.",
     "verified": true,
     "last_updated": "2026-04-02"
@@ -1412,7 +1719,10 @@
     "first_strike": "2026-04-01",
     "casualties_reported": "Kharazi seriously injured, wife killed",
     "casualties_source": "Iranian state media / Axios",
-    "active_days": [33, 34],
+    "active_days": [
+      33,
+      34
+    ],
     "notes": "Day 33-34: Former Iranian FM Kamal Kharazi was seriously injured and his wife killed in an airstrike on April 1. Iran described this as a deliberate attempt to derail diplomacy — Kharazi had been overseeing the Pakistan back-channel for a possible meeting between VP Vance and Iranian officials.",
     "verified": true,
     "last_updated": "2026-04-02"
@@ -1420,8 +1730,8 @@
   {
     "id": "f15e-shootdown-april3",
     "city": "Over Iranian territory (location unspecified)",
-    "lat": 32.50,
-    "lng": 53.00,
+    "lat": 32.5,
+    "lng": 53.0,
     "type": "us_strike",
     "subtype": "aircraft_loss",
     "actor": "us",
@@ -1431,7 +1741,10 @@
     "first_strike": "2026-04-03",
     "casualties_reported": "Both crew recovered. Pilot rescued Day 36. WSO (Colonel, 494th Fighter Squadron, RAF Lakenheath) rescued Apr 5 after 48+ hours evading IRGC in Kohgiluyeh and Boyer-Ahmad province. A-10 Warthog also downed during CSAR (pilot nursed aircraft to Kuwait before ejecting). Three rescue aircraft took fire. No US casualties during extraction.",
     "casualties_source": "CENTCOM / Pentagon / White House / Multiple",
-    "active_days": [36, 37],
+    "active_days": [
+      36,
+      37
+    ],
     "notes": "Day 36-37: F-15E Strike Eagle shot down over Iran Apr 3 — first US combat aircraft loss to enemy fire since 2003. WSO rescued Apr 5 after 48+ hours evading capture. Operation involved dozens of aircraft, a temporary remote airbase established inside Iran, and a CIA deception campaign that fed IRGC false intelligence. Two C-130 Hercules became stuck at improvised airstrip and were intentionally destroyed; three replacement C-130s flown in. A-10 also lost near Strait of Hormuz during CSAR — pilot nursed aircraft to Kuwaiti airspace before ejecting. Total confirmed US aircraft losses: 7 airframes + 12+ MQ-9 drones. Trump confirmed WSO recovered 'safe and sound.'",
     "verified": true,
     "last_updated": "2026-04-05"
@@ -1450,7 +1763,10 @@
     "first_strike": "2026-04-02",
     "casualties_reported": "N/A — electronic warfare platform",
     "casualties_source": "CENTCOM / Pentagon",
-    "active_days": [35, 36],
+    "active_days": [
+      35,
+      36
+    ],
     "notes": "Day 35-36 (Apr 2-3): EA-37B Compass Call II electronic warfare aircraft deployed to CENTCOM theater — first-ever operational use of the platform. Marks significant expansion of US electronic warfare capabilities against Iranian air defenses and communications networks.",
     "verified": true,
     "last_updated": "2026-04-04"
@@ -1459,7 +1775,7 @@
     "id": "shahid-beheshti-university-april3",
     "city": "Tehran",
     "lat": 35.76,
-    "lng": 51.40,
+    "lng": 51.4,
     "type": "us_strike",
     "actor": "us_israel_joint",
     "targets": [
@@ -1468,7 +1784,9 @@
     "first_strike": "2026-04-03",
     "casualties_reported": "Unknown",
     "casualties_source": "Iranian state media / AP",
-    "active_days": [36],
+    "active_days": [
+      36
+    ],
     "notes": "Day 36 (Apr 3): Shahid Beheshti University struck — part of ongoing campaign hitting 30+ Iranian universities. Strikes on academic institutions have drawn international condemnation.",
     "verified": true,
     "last_updated": "2026-04-05"
@@ -1486,7 +1804,9 @@
     "first_strike": "2026-04-04",
     "casualties_reported": "No radiation increase. Russia evacuated additional 198 staff from Bushehr.",
     "casualties_source": "IAEA / Rosatom / Iranian state media",
-    "active_days": [37],
+    "active_days": [
+      37
+    ],
     "notes": "Day 37 (Apr 4): Explosions hit Bushehr nuclear plant auxiliary building — 4th strike on Bushehr during Epic Fury (Mar 17, 24, 27, Apr 4). IAEA confirmed no radiation increase. FM Araghchi warned radioactive release would affect Gulf capitals — Bushehr closer to Kuwait City (175 mi) and Manama (187 mi) than to Tehran. Russia's Rosatom evacuated additional 198 staff. IAEA has no inspector access to any Iranian nuclear facility.",
     "verified": true,
     "last_updated": "2026-04-05"
@@ -1504,7 +1824,9 @@
     "first_strike": "2026-04-04",
     "casualties_reported": "At least 5 killed, 170+ injured",
     "casualties_source": "Iranian state media / Reuters",
-    "active_days": [37],
+    "active_days": [
+      37
+    ],
     "notes": "Day 37 (Apr 4-5): Explosions hit the Mahshahr Special Petrochemical Zone in Khuzestan province. At least 5 killed and 170+ injured. Major industrial target in Iran's oil-rich southwestern province.",
     "verified": true,
     "last_updated": "2026-04-05"
@@ -1523,7 +1845,9 @@
     "first_strike": "2026-04-05",
     "casualties_reported": "No American casualties. 2 C-130s intentionally destroyed. 3 replacement C-130s flown in. 3 rescue aircraft took fire at low altitude.",
     "casualties_source": "White House / CENTCOM / Pentagon",
-    "active_days": [37],
+    "active_days": [
+      37
+    ],
     "notes": "Day 37 (Apr 5): WSO (Colonel, 494th FS, RAF Lakenheath) recovered after 48+ hours evading IRGC in mountains of southwestern Iran. Operation involved dozens of aircraft, temporary remote airbase constructed inside Iran, and CIA deception campaign feeding Iranian forces false intelligence. Two C-130 Hercules became stuck at improvised airstrip and intentionally destroyed to prevent capture; three replacement C-130s flown in. Iran claimed two C-130s and two Black Hawks shot down — US acknowledged C-130 destructions were deliberate. Demonstrated extraordinary operational reach. Trump confirmed WSO recovered 'safe and sound.'",
     "verified": true,
     "last_updated": "2026-04-05"
@@ -1541,7 +1865,9 @@
     "first_strike": "2026-04-07",
     "casualties_reported": "Unknown — military targets, not oil facilities directly",
     "casualties_source": "NBC News / CENTCOM",
-    "active_days": [39],
+    "active_days": [
+      39
+    ],
     "notes": "Day 39 (Apr 7): US struck 50+ military targets on Kharg Island in early hours. Kharg handles approximately 90% of Iran's oil exports. US official told NBC strikes targeted military infrastructure, not oil facilities directly — mirroring calibrated approach of March 13 raid. Represents most significant escalation on Iran's economic chokepoint.",
     "verified": true,
     "last_updated": "2026-04-07"
@@ -1562,7 +1888,9 @@
     "first_strike": "2026-04-07",
     "casualties_reported": "2 killed, 3 injured at Kashan railway bridge",
     "casualties_source": "Iranian state media / IDF",
-    "active_days": [39],
+    "active_days": [
+      39
+    ],
     "notes": "Day 39 (Apr 7): IDF launched 'wide-scale wave of strikes targeting dozens of infrastructure sites' across Iran. IDF issued 'urgent warning' in Farsi telling all Iranians to stay away from trains and railway lines for 12 hours. Appears to be opening phase of Trump's threatened 'Bridge Day' campaign, executed by Israel ahead of 8 PM ET deadline.",
     "verified": true,
     "last_updated": "2026-04-07"
@@ -1580,7 +1908,9 @@
     "first_strike": "2026-04-07",
     "casualties_reported": "18 civilians killed including 2 children",
     "casualties_source": "Iranian state media / Red Crescent",
-    "active_days": [39],
+    "active_days": [
+      39
+    ],
     "notes": "Day 39 (Apr 6-7): At least 18 civilians including 2 children killed in US-Israeli attack on Alborz Province. Tehran residential areas also struck with Red Crescent rescue workers responding to collapsed buildings.",
     "verified": true,
     "last_updated": "2026-04-07"
@@ -1598,7 +1928,9 @@
     "first_strike": "2026-04-07",
     "casualties_reported": "Unknown",
     "casualties_source": "Iranian state media / Iran's Jewish parliamentary representative",
-    "active_days": [39],
+    "active_days": [
+      39
+    ],
     "notes": "Day 39 (Apr 7): Tehran synagogue (Rafi-Nia/Khorasaniha) 'completely destroyed' by a projectile. Condemned by Iran's Jewish parliamentary representative. Raises questions about targeting protocols.",
     "verified": true,
     "last_updated": "2026-04-07"
@@ -1606,7 +1938,7 @@
   {
     "id": "sharif-university-april7",
     "city": "Tehran",
-    "lat": 35.70,
+    "lat": 35.7,
     "lng": 51.35,
     "type": "us_strike",
     "actor": "us_israel_joint",
@@ -1616,7 +1948,9 @@
     "first_strike": "2026-04-07",
     "casualties_reported": "Unknown",
     "casualties_source": "Iranian state media",
-    "active_days": [39],
+    "active_days": [
+      39
+    ],
     "notes": "Day 39 (Apr 7): Sharif University of Technology campus hit, damaging Iran's national AI platform data center and a fuel station.",
     "verified": true,
     "last_updated": "2026-04-07"
@@ -1634,7 +1968,9 @@
     "first_strike": "2026-04-07",
     "casualties_reported": "Unknown",
     "casualties_source": "IDF / Iranian state media",
-    "active_days": [39],
+    "active_days": [
+      39
+    ],
     "notes": "Day 39 (Apr 7): Israel struck Iran's largest petrochemical complex in Asaluyeh (South Pars), responsible for approximately 50% of petrochemical production.",
     "verified": true,
     "last_updated": "2026-04-07"
@@ -1652,7 +1988,9 @@
     "first_strike": "2026-04-07",
     "casualties_reported": "Unknown",
     "casualties_source": "Iran's Atomic Energy Organization / IDF",
-    "active_days": [39],
+    "active_days": [
+      39
+    ],
     "notes": "Day 39 (Apr 7): Strike on yellowcake production facility (Shahid Rezayee Nejad) in Ardakan, Yazd Province. Iran's Atomic Energy Organization condemned as a violation of peaceful nuclear facility protections.",
     "verified": true,
     "last_updated": "2026-04-07"
@@ -1672,7 +2010,9 @@
     "first_strike": "2026-04-07",
     "casualties_reported": "Unknown",
     "casualties_source": "Iranian state media",
-    "active_days": [39],
+    "active_days": [
+      39
+    ],
     "notes": "Day 39 (Apr 7): Strikes on three Tehran airports (Bahram, Mehrabad, Azmayesh) targeting Iranian air force aircraft and helicopters.",
     "verified": true,
     "last_updated": "2026-04-07"
@@ -1690,7 +2030,9 @@
     "first_strike": "2026-04-07",
     "casualties_reported": "Unknown",
     "casualties_source": "IDF / Axios",
-    "active_days": [39],
+    "active_days": [
+      39
+    ],
     "notes": "Day 39 (Apr 7, post-ceasefire): Israel retaliated against post-ceasefire Iranian missile violations by attacking a radar installation near Tehran. This was the last confirmed strike before the ceasefire stabilized. Two-week ceasefire in effect from 8 PM ET Apr 7.",
     "verified": true,
     "last_updated": "2026-04-08"

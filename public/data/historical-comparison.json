@@ -1,11 +1,11 @@
 {
   "conflicts": [
     {
-      "label": "Iran 2026 (Day 42)",
+      "label": "Iran 2026 (Day 43)",
       "targets_struck": 35500,
       "us_kia": 13,
       "daily_cost_millions": 800,
-      "note": "Operation Epic Fury — Day 42. CEASEFIRE ~72 HOURS: VP Vance departs for Islamabad — highest-level US-Iran engagement since 1979. 155+ warships sunk (largest navy elimination since WWII). 50,000+ US service members participated. Hormuz still effectively closed — only 15 ships in 48 hrs. Israel continues 50+ strikes/day in Lebanon (1,888+ killed). Iran says 3/10 ceasefire points violated. March CPI released. ~$49.25B spent."
+      "note": "Operation Epic Fury — Day 43. ISLAMABAD TALKS BEGIN: First direct US-Iran face-to-face since 1979 — VP Vance, Witkoff, Kushner meet Ghalibaf and Araghchi. Ceasefire holds on Iran (~96 hours) but Lebanon excluded — 1,953+ Lebanese killed. March CPI: 3.3% YoY, gas +21.2% MoM (largest since 1967). Consumer sentiment all-time low (47.6). Hormuz still closed — 'Tehran Tollbooth' charging $2M/vessel. S&P best week since Nov (+3.6%). Pope Leo XIV peace vigil at St. Peter's. Dated Brent $132 vs futures $97 — market prices ceasefire as temporary. ~$50.1B spent."
     },
     {
       "label": "Iraq 2003 (Day 21)",
@@ -30,5 +30,5 @@
     }
   ],
   "sources": "CRS Reports R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya). Costs inflation-adjusted to 2026 dollars using BLS CPI-U.",
-  "last_updated": "2026-04-10"
+  "last_updated": "2026-04-11"
 }

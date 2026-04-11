@@ -1,45 +1,45 @@
 {
-  "last_updated": "2026-04-10",
-  "war_day": 42,
-  "timestamp_label": "LAST UPDATED: APR 10, 2026 08:46 ET",
+  "last_updated": "2026-04-11",
+  "war_day": 43,
+  "timestamp_label": "LAST UPDATED: APR 11, 2026 09:26 ET",
   "cost": {
     "brent": {
-      "price": 96.10,
+      "price": 96.66,
       "label": "Brent Crude $/bbl",
-      "change": "+35.4% since Feb 27 — Brent eases to ~$96 (Apr 10) as ceasefire holds on Iran front but Israel continues 50+ strikes in Lebanon — ADNOC CEO: 'Strait of Hormuz is not open' — Vance departs for Islamabad",
-      "tooltip": "Brent Crude: The international benchmark. Pre-war close: $71.00/bbl (Feb 27). Apr 8 close: $94.75 (-14% ceasefire crash). Apr 9 close: ~$97.50 (rebound). Apr 10 intraday: ~$95.92-96.30 — easing as ceasefire on Iran front holds ~72 hours but Hormuz remains effectively closed. ADNOC CEO Sultan Al Jaber (Apr 9-10): 'The Strait of Hormuz is not open. Access is being restricted, conditioned and controlled.' Only ~15 ships transited in first 48 hours vs ~110/day pre-war. 325 loaded tankers stranded (Lloyd's List). Iran planning tolls exceeding $1M/ship. Brent-WTI spread narrowing. Dated Brent hit all-time $144.42/bbl on Apr 7. VP Vance departed for Islamabad Apr 10 for highest-level US-Iran engagement since 1979. March CPI released this morning — energy-driven inflation expected. Source: ICE Futures Europe / Bloomberg / ADNOC / Lloyd's List / EIA."
+      "change": "+36.1% since Feb 27 — Brent $96.66 (Apr 10 close) — down 10%+ for the week from $118 at end of Q1 — but physical dated Brent at $131.97 ($35 premium over futures) reflecting extreme physical scarcity — Islamabad talks in progress",
+      "tooltip": "Brent Crude: The international benchmark. Pre-war close: $71.00/bbl (Feb 27). Apr 10 close: ~$96.66/bbl (Friday). Down 10%+ for the week from $118 at end of Q1; down from the $144 dated-Brent spot peak on Apr 7. CRITICAL: Physical dated Brent traded at $131.97/bbl — a $35 premium over futures reflecting extreme physical scarcity due to Hormuz restrictions. IRGC established 'Tehran Tollbooth' — alternative channel north of Larak Island requiring prior permission, charging up to $2M/vessel (yuan or crypto), capping at 15 ships/day. 500-700 vessels stranded (Lloyd's List). 13M bpd shut in (Energy Aspects). The gap between dated ($132) and futures ($97) is the market's measure of how fragile this ceasefire really is. Islamabad talks in progress — first direct US-Iran face-to-face since 1979. Source: ICE Futures Europe / Bloomberg / ADNOC / Lloyd's List / Energy Aspects."
     },
     "wti": {
-      "price": 98.20,
+      "price": 95.63,
       "label": "WTI Crude $/bbl",
-      "change": "+47.7% since Feb 27 — WTI at ~$98 (Apr 10) — ceasefire holding on Iran front ~72 hrs but Hormuz still closed — 325 loaded tankers stranded — only 15 ships through in 48 hrs",
-      "tooltip": "West Texas Intermediate: The US benchmark. Pre-war close: $66.50/bbl (Feb 27). Apr 8 close: $94.41 (-16%, biggest drop since April 2020). Apr 9 close: ~$97.50 (rebound). Apr 10 intraday: ~$97.87-98.55. WTI touched $100 intraday Apr 9 before settling. $12-18 'Hormuz risk premium' persists as Iran maintains effective blockade. ADNOC CEO Al Jaber: 'The Strait of Hormuz is not open.' Defense Secretary Hegseth contradicted, claiming 'the strait is open.' Iran demanding military approval for each vessel and planning tolls exceeding $1M/ship. Iran released map indicating possible mining with new designated shipping lanes. US Navy decommissioned last 4 Avenger-class minesweepers from Bahrain Jan 2026. Gas $4.166/gal nationally (AAA Apr 9). Source: NYMEX / AAA / Bloomberg / ADNOC / WSJ."
+      "change": "+43.8% since Feb 27 — WTI $95.63 (Apr 10 close) — ceasefire holding ~96 hrs on Iran front but Hormuz 'Tehran Tollbooth' caps traffic at 15 ships/day — Islamabad talks underway",
+      "tooltip": "West Texas Intermediate: The US benchmark. Pre-war close: $66.50/bbl (Feb 27). Apr 10 close: ~$95.63/bbl (Friday). Down sharply from $115 on Apr 7 pre-ceasefire. Ceasefire optimism drove best weekly decline in oil since November. However, 'Tehran Tollbooth' caps Hormuz traffic at 15 ships/day with $2M tolls — versus pre-war 135/day. Gas at $4.153/gal nationally (AAA). March CPI showed gasoline prices surging 21.2% in a single month — the largest monthly spike since 1967. Diesel at $5.683. Five states exceed $5/gallon (California at $5.92). Islamabad talks in progress — first direct US-Iran engagement since 1979. Hormuz reopening central to negotiations. Source: NYMEX / AAA / BLS / Bloomberg."
     },
     "gas": {
-      "price": 4.166,
+      "price": 4.153,
       "label": "US Gas Avg/Gal",
-      "change": "+$1.186 / +39.8% since Feb 27 — $4.166 nationally (Apr 9 AAA) — crossed $4 on Apr 2 — California $5.89 — EIA forecasts peak ~$4.30 in April — surged 40% in 5 weeks",
-      "tooltip": "National average retail gasoline price. Pre-war: $2.98/gal (Feb 27). Apr 9: $4.166/gal nationally (AAA). Gas crossed $4/gallon on April 2, first time since August 2022. Surged from $2.98 to $4.16+ in just five weeks — a $1.18 increase (~40%). EIA forecasts retail gasoline peaking near $4.30/gal monthly average in April 2026. California leads at $5.89/gal. Diesel at ~$5.40-5.68/gal nationally. AEI estimates indirect cost to American consumers: gasoline/diesel spikes cost $12.1 billion ($92/household), jet fuel increases added $2.2 billion, farmers paid $131 million extra in fertilizer. Gasoline lags crude oil by 1-2 weeks — Apr 8 crude crash may not fully reach pumps given Apr 9-10 rebound. Source: AAA / EIA / AEI."
+      "change": "+$1.173 / +39.4% since Feb 27 — $4.153 nationally (AAA) — March CPI: gas +21.2% MoM (largest spike since 1967) — 5 states above $5 — California $5.92 — diesel $5.683",
+      "tooltip": "National average retail gasoline price. Pre-war: $2.98/gal (Feb 27). Current: $4.153/gal nationally (AAA). Five states exceed $5/gallon: California at $5.92. Diesel at $5.683. March CPI (released Apr 10) confirmed gasoline prices surged 21.2% in a single month — the largest monthly spike since 1967. Energy overall +10.9% MoM, +12.5% YoY. Airlines hiked checked bag fees to $45 across the board. Delta warned it would 'meaningfully' cut growth plans due to fuel costs. BLS data quality caveat: fall 2025 government shutdown (43 days) disrupted data collection — carry-forward methodology may bias inflation readings. Gasoline lags crude by 1-2 weeks. Source: AAA / BLS / EIA / AEI."
     },
     "sp500": {
-      "value": 6825,
+      "value": 6817,
       "label": "S&P 500",
-      "change": "-54 pts / -0.8% from pre-war — S&P 6,824.66 (Apr 9 close, +0.62%) — VIX ~19.4-21.0 — March CPI released today — Vance en route to Islamabad",
-      "tooltip": "S&P 500 index. Pre-war close: 6,878.88 (Feb 27). Apr 9 close: 6,824.66 (+0.62%) — partially recovering from Apr 8's ceasefire rally high of 6,782.81 (+2.51%). Dow ~47,910. Nasdaq ~22,635. VIX: ~19.40-21.04, down from 35+ pre-ceasefire. Gold: $4,743-4,782/oz (-0.9%). 10Y Treasury: 4.287-4.293%. March CPI released Apr 10 8:30 AM ET — Feb reading showed 2.4% YoY, March expected higher on energy-driven inflation. LMT ~$627.70 (+26% YTD, all-time high $676.70 Mar 2). RTX $203.19 (+10.79% YTD). XOM +28% YTD. CVX +24% YTD, market cap ~$396.8B. DAL +3.75% on ceasefire day. UAL ~$97.53 (+9.5% on ceasefire day, -13.4% YTD). JP Morgan Apr 9: 'ceasefire looks fleeting but direction positive' — estimates 4 months for full oil market recovery. Source: NYSE / Bloomberg / CNBC / JP Morgan."
+      "change": "-62 pts / -0.9% from pre-war — S&P 6,816.89 (Apr 10 close, -0.11%) — best week since Nov (+3.6%) — VIX 19.23 — Nasdaq +4.7% — markets round-tripped to near pre-war levels",
+      "tooltip": "S&P 500 index. Pre-war close: 6,878.88 (Feb 27). Apr 10 close: 6,816.89 (-0.11% on day, +3.6% for week — best since November). Nasdaq gained 4.7% for week (8-day winning streak). Dow +3.0% (positive for 2026). Markets round-tripped to roughly pre-war levels — S&P less than 3% below late-January all-time high. VIX collapsed to 19.23 (from 26 pre-ceasefire). Gold: $4,787/oz (3rd consecutive weekly gain, +$1,568 YoY). 10Y Treasury: 4.31% (up from 3.95% two months ago on inflation fears). March CPI: headline 3.3% YoY (+0.9% MoM, above 0.7% consensus); core 2.6% (below consensus). Gas +21.2% MoM (largest since 1967). UMich consumer sentiment 47.6 (all-time record low). LMT ~$614 (+30% YTD, PAC-3 $4.7B contract). RTX ~$202. XOM $152.51 (+42% YTD through Q1). CVX $188.55 (+37% YTD). DAL ~$64 (+12.5% Apr 8 earnings beat). UAL ~$91.35. BoA revised 2026 global growth down 40bps to 3.1%. Fed holds 3.50-3.75%; markets price no rate cuts for 2026. Source: NYSE / Bloomberg / CNBC / BLS / UMich / BoA."
     },
     "daily_cost": {
       "value": 800,
       "unit": "M",
       "label": "Est. Daily US Cost",
-      "note": "~$800M/day — CEASEFIRE ~72 HOURS — full force posture maintained — Bush CSG arriving theater — Vance en route to Islamabad — no official ceasefire burn rate released",
-      "tooltip": "Estimated daily operational cost. Day 42: ~$800M/day — ceasefire reduces active combat costs but CENTCOM maintains full force posture. No official 'ceasefire burn rate' released. Harvard Prof. Linda Bilmes estimates $2B/day when including all operational costs, calling it 'the tip of the iceberg.' CSIS: ~$30B total to date. AEI: $22.3-31B through five weeks. ~50,000+ US service members participated in Operation Epic Fury. Bush CSG (CVN-77) arriving theater Apr 10-13 — third carrier committed. Total battle force: 291 ships (233 USS, 58 USNS), 108 deployed. Pentagon initially requested $200B supplemental; now expected to ask $80-100B (WaPo Apr 7). 60-day War Powers deadline: April 29. Source: Pentagon / CSIS / AEI / Harvard / WaPo / USNI Fleet Tracker."
+      "note": "~$800M/day — CEASEFIRE ~96 HOURS — full force posture maintained — Islamabad talks in progress — Bush CSG approaching Gibraltar — no official ceasefire burn rate released",
+      "tooltip": "Estimated daily operational cost. Day 43: ~$800M/day — ceasefire reduces active combat costs but CENTCOM maintains full force posture. No official 'ceasefire burn rate' released. Harvard Prof. Linda Bilmes estimates $2B/day including all operational costs, calling it 'the tip of the iceberg.' CSIS: ~$30B total. AEI: $22.3-31B through five weeks. ~50,000+ US service members participated. Bush CSG approaching Gibraltar — ETA Red Sea Apr 14-18. Total battle force: 291 ships (108 deployed, 83 underway). Pentagon supplemental shrunk from $200B to expected $80-100B. LMT awarded $4.7B PAC-3 contract Apr 10. 60-day War Powers deadline: April 29. Congress returns Apr 14. Source: Pentagon / CSIS / AEI / Harvard / WaPo / USNI Fleet Tracker."
     },
     "total_cost": {
-      "value": 49.25,
+      "value": 50.05,
       "unit": "B",
-      "label": "Est. Total Cost (42 Days)",
-      "note": "~$49.3B through Day 42 — CSIS: ~$30B — AEI: $22.3-31B — Harvard: $2B/day, $1 trillion long-term — WarCosts.org: $35B ($236/taxpayer) — Pentagon supplemental shrunk from $200B to $80-100B",
-      "tooltip": "Cumulative estimated cost since Feb 28. Pentagon: $11.3B through Day 6. CSIS: $16.5B through Day 12, ~$30B total to date. AEI: $22.3-31B for five weeks. Harvard Prof. Bilmes: $2B/day current rate, $1 trillion long-term — 'the tip of the iceberg.' WarCosts.org: $35B ($236/taxpayer). First 100 hours cost $3.7B (~$891M/day). Pentagon supplemental shrunk from initial $200B request to expected $80-100B (WaPo Apr 7). FY2027 budget includes 150% increase ($47B boost) in munitions procurement. Supplemental faces bipartisan opposition. Trump approval: CNN/SSRS 35% overall, 31% on economy (career low). Silver Bulletin net -16.3 (all-time 2nd-term low: -17.5). YouGov: 37% approve/56% disapprove (net -19). 60-day War Powers deadline: April 29. Source: Pentagon / CSIS / AEI / Harvard / WarCosts.org / WaPo / CNN / YouGov / Silver Bulletin."
+      "label": "Est. Total Cost (43 Days)",
+      "note": "~$50.1B through Day 43 — CSIS: ~$30B — AEI: $22.3-31B — Harvard: $2B/day, $1 trillion long-term — WarCosts.org: $35B ($236/taxpayer) — Pentagon supplemental shrunk from $200B to $80-100B",
+      "tooltip": "Cumulative estimated cost since Feb 28. Pentagon: $11.3B through Day 6. CSIS: $16.5B through Day 12, ~$30B total. AEI: $22.3-31B for five weeks. Harvard Prof. Bilmes: $2B/day current rate, $1 trillion long-term. WarCosts.org: $35B ($236/taxpayer). Pentagon supplemental shrunk from $200B to $80-100B (WaPo Apr 7). FY2027 budget includes 150% increase ($47B boost) in munitions procurement. War approval eroded to ~34% (Economist/YouGov, CNN/SSRS). Only 15% support ground troops. Trump Iran handling: 33% (CNN). UMich consumer sentiment record low 47.6. No Kings 3 protest Mar 28: 8-9 million across 3,300+ events. 70+ House Democrats called for Trump's removal. 60-day War Powers deadline: April 29. Source: Pentagon / CSIS / AEI / Harvard / WarCosts.org / WaPo / CNN / YouGov / UMich."
     }
   },
   "history": [
@@ -381,10 +381,18 @@
     },
     {
       "date": "2026-04-10", "war_day": 42,
-      "brent": 96.10, "wti": 98.20, "gas": 4.166, "sp500": 6825,
+      "brent": 96.66, "wti": 95.63, "gas": 4.153, "sp500": 6817,
       "daily_cost_millions": 800, "total_cost_billions": 49.25,
-      "targets_struck": 35500, "us_kia": 13, "us_wia": 373,
+      "targets_struck": 35500, "us_kia": 13, "us_wia": 381,
       "iranian_killed": 9100, "lebanese_killed": 1888,
+      "displaced": 7500000, "flights_cancelled": 52000, "children_killed": 376
+    },
+    {
+      "date": "2026-04-11", "war_day": 43,
+      "brent": 96.66, "wti": 95.63, "gas": 4.153, "sp500": 6817,
+      "daily_cost_millions": 800, "total_cost_billions": 50.05,
+      "targets_struck": 35500, "us_kia": 13, "us_wia": 381,
+      "iranian_killed": 9100, "lebanese_killed": 1953,
       "displaced": 7500000, "flights_cancelled": 52000, "children_killed": 376
     }
   ],
@@ -392,57 +400,57 @@
     "targets_struck": {
       "value": 35500,
       "label": "Targets Struck",
-      "note": "CEASEFIRE ~72 HRS — 35,500+ targets cumulative — CENTCOM: 13,000+ targets, 155+ warships sunk (largest navy elimination since WWII), 80% air defenses destroyed — 50,000+ US service members participated — Iran air force: zero flights/day",
-      "tooltip": "Total targets struck by US and Israeli forces since Feb 28. CENTCOM Adm. Brad Cooper Apr 9: in fewer than 40 days, 13,000+ strikes destroyed 'the military that Iran built for over 40 years' — including 155+ warships and submarines, the largest elimination of a navy since World War II. 80% of Iran's air defenses destroyed; 450 ballistic missile storage facilities; 800 drone storage facilities; 90% of weapons factories; every submarine sunk; 97% of naval mines eliminated. Iran air force at zero operational flights/day. ~50,000+ US service members participated in Operation Epic Fury. Combined US/Israeli extrapolated ~35,500+ through Day 40. Ceasefire holding on Iranian territory ~72 hours as of Apr 10 morning. No confirmed US/Israeli strikes on Iranian territory since 8 PM ET Apr 7. Israel continues operations in Lebanon: 50+ strikes in 24 hours on Apr 10 with 'marked reduction' in Beirut targeting due to US pressure. Source: CENTCOM / IDF / Pentagon / USNI.",
+      "note": "CEASEFIRE ~96 HRS — 35,500+ targets cumulative — CENTCOM: 13,000+ targets, 155+ warships sunk (largest navy elimination since WWII), 80% air defenses destroyed — 50,000+ US service members — no strikes on Iran since Apr 7",
+      "tooltip": "Total targets struck by US and Israeli forces since Feb 28. CENTCOM Adm. Brad Cooper: 13,000+ strikes destroyed 'the military Iran built for over 40 years' — 155+ warships/submarines (largest navy elimination since WWII), 80% air defenses, 450 ballistic missile storage, 800 drone storage, 90% weapons factories, every submarine, 97% naval mines. Iran air force at zero flights/day. ~50,000+ US service members participated. Combined US/Israeli extrapolated ~35,500+ through Day 40. No confirmed US/Israeli strikes on Iranian territory since 8 PM ET Apr 7 (~96 hours). Israel continues Lebanon operations: 120 Hezbollah sites struck in 24 hours on Apr 10. Islamabad talks in progress — first direct US-Iran face-to-face since 1979. Source: CENTCOM / IDF / Pentagon / USNI.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
       "value": 13,
       "label": "US Military Deaths",
-      "note": "13 US KIA (CENTCOM confirmed) — 373+ WIA (330 returned to duty, 5 seriously wounded) — Intercept: Pentagon may be undercounting — named KIA: Sgt. Pennington, SFC Tietjens, Capt. Khork — ceasefire ~72 hrs",
-      "tooltip": "US military deaths. CENTCOM confirmed: 13 KIA, 373+ WIA. Of the wounded, 330 returned to duty and 5 remain seriously wounded. The Intercept reported the Pentagon may be undercounting — DCAS lists 303 wounded but excludes 200+ sailors treated after the USS Ford fire on March 12. Most injuries are traumatic brain injuries from blast overpressure. Named KIA include Sgt. Benjamin N. Pennington, SFC Noah Tietjens, and Capt. Cody Khork. 6 soldiers killed at Port Shuaiba Kuwait (Mar 1), 6 airmen in KC-135 crash over Iraq (Mar 12), 1 in Saudi Arabia. F-15E crew shot down Apr 3 fully rescued. A-10 pilot also recovered. Total aircraft losses: 7 airframes + 12+ MQ-9 Reaper drones. Ceasefire in effect from 8 PM ET Apr 7 (~72 hours). Source: CENTCOM / Pentagon / Military Times / The Intercept.",
+      "note": "13 hostile KIA + 1 non-combat death — 357-381 WIA (Pentagon figures internally inconsistent) — Intercept: undercounting excludes 200+ Ford fire sailors — ceasefire ~96 hrs — no new casualties since Apr 7",
+      "tooltip": "US military deaths. 13 killed in hostile action plus 1 non-combat death, with 357-381 wounded (Pentagon figures internally inconsistent across DCAS pages). The Intercept exposed discrepancies: exclusion of 200+ sailors treated after Ford fire and at least one confirmed combat-support death omitted from official rolls. Most injuries are TBI from blast overpressure. Named KIA: Sgt. Benjamin N. Pennington, SFC Noah Tietjens, Capt. Cody Khork. 6 at Port Shuaiba Kuwait (Mar 1), 6 in KC-135 crash over Iraq (Mar 12), 1 in Saudi Arabia. F-15E crew (494th Fighter Squadron, callsign 'Dude 44B') fully rescued Apr 4-5 from Zagros Mountains after 36-hour evasion — rescue involved 155-176 aircraft, CIA deception, MC-130J landing on Iranian airstrip. No new US casualties since ceasefire (8 PM ET Apr 7). Source: CENTCOM / Pentagon / Military Times / The Intercept.",
       "color": "var(--civilian)"
     },
     "us_wia": {
-      "value": 373,
+      "value": 381,
       "label": "US Service Members WIA",
-      "note": "CENTCOM: 373+ WIA — 330 returned to duty — 5 seriously wounded — Intercept: Pentagon undercounting (excludes 200+ Ford fire sailors) — most injuries TBI from blast overpressure — ceasefire ~72 hrs",
-      "tooltip": "US service members wounded/injured across all theaters since Feb 28. CENTCOM confirmed: 373+ WIA. Of those, 330 returned to duty and 5 remain seriously wounded. The Intercept April 8 report: Pentagon may be undercounting — the DCAS lists 303 wounded but excludes 200+ sailors treated after the USS Ford fire on March 12. Most injuries are traumatic brain injuries from blast overpressure. Two-week ceasefire in effect from 8 PM ET Apr 7 (~72 hours as of Apr 10 morning). No confirmed new WIA since ceasefire. Source: CENTCOM / Pentagon / Military Times / The Intercept.",
+      "note": "357-381 WIA (Pentagon figures internally inconsistent across DCAS pages) — Intercept: undercounting excludes 200+ Ford fire sailors and combat-support death — most injuries TBI — ceasefire ~96 hrs — no new WIA since Apr 7",
+      "tooltip": "US service members wounded/injured across all theaters since Feb 28. Pentagon reports 357-381 wounded (figures internally inconsistent across different DCAS pages). The Intercept exposed discrepancies: exclusion of 200+ sailors treated after Ford fire (Mar 12) and at least one confirmed combat-support death omitted from official rolls. Most injuries are traumatic brain injuries from blast overpressure. Ceasefire in effect from 8 PM ET Apr 7 (~96 hours). No confirmed new WIA since ceasefire. Source: CENTCOM / Pentagon / Military Times / The Intercept.",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
       "value": 9100,
       "label": "Iranian Killed (est.)",
-      "note": "Health Min: 2,076 / HRANA Apr 7: 3,636 (1,701 civilians, 1,221 military, 714 unclassified) / Iran International: 4,700+ security forces / Hengaw: 5,300+ military — spread of 3,200+ deaths between sources — 15% under 18 — 3.2M displaced",
-      "tooltip": "Iranian casualties — dramatic discrepancies across sources. Iran Health Ministry: 2,076 killed, 26,500+ injured (conservative official count). HRANA (Apr 7): 3,636 deaths — 1,701 civilians, 1,221 military, 714 unclassified. HRANA notes 15% of casualties were under 18. Iran International: 4,700+ security forces killed (Mar 31). Hengaw: 5,300+ military forces killed (Mar 18). Spread between Iran's official figures (2,076) and independent trackers (3,636-5,300+) is significant. Key atrocities: Minab school attack (Feb 28, ~175 killed including schoolchildren) — HRW called it a war crime after satellite imagery analysis; Lamerd sports hall strike (21 killed including 4 children); Karaj bridge attack (Apr 2, 8 civilians). Combined extrapolated estimate: ~9,100+. 307 health/medical facilities damaged (IRCS). 25 hospitals damaged, 9 out of service. 3.2M displaced; 100,000 left Tehran in first two days. UNHCR: $80M Flash Refugee Response Plan. 1.65M Afghan refugees inside Iran especially vulnerable; 35,000+ Afghans returned since war began. Ceasefire holding on Iranian territory ~72 hours. Source: Iran Health Ministry / HRANA / Hengaw / Iran International / WHO / OCHA / UNHCR / HRW.",
+      "note": "Health Min: 2,000+ / HRANA: 3,636 (1,701 civilians, 1,221 military, 714 unclassified) / Iran Intl: 4,700+ security forces / Hengaw: 6,620 military — IDF claims 6,000+ IRGC — no deaths since ceasefire Apr 7 — 3.2M displaced",
+      "tooltip": "Iranian casualties — deeply contested across sources. Iran Health Ministry: 2,000+ killed (widely considered dramatic undercount). HRANA (US-based): 3,636 total deaths — 1,701 civilians, 1,221 military, 714 unclassified. Hengaw (Norway-based): 6,620 Iranian military dead alone. Iran International: 4,700+ security forces killed with 20,880 injured. IDF claims 6,000+ IRGC killed. No Iranian deaths reported since ceasefire took effect Apr 7. Combined extrapolated estimate: ~9,100+. Displacement: 3.2M internally displaced in Iran; 81,700 crossed into Turkey (67,000 returned); 206,500 Syrians and 36,800 Lebanese fled from Lebanon into Syria. UNHCR funding at just 15% of requirements for Iran-Afghanistan corridor. 307 health facilities damaged. Pasteur Institute inoperable. Source: Iran Health Ministry / HRANA / Hengaw / Iran International / IDF / WHO / UNHCR.",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
-      "value": 1888,
+      "value": 1953,
       "label": "Lebanese Killed",
-      "note": "1,888+ killed, 6,092 injured, ~1M displaced — Israel conducts 50+ strikes in 24 hrs on Apr 10 (reduced Beirut targeting due to US pressure) — Ali Yusuf Harshi (Qassem's nephew) killed Apr 9 — UNICEF: 600 children killed or injured — 5 IDF divisions in southern Lebanon — all Litani bridges destroyed",
-      "tooltip": "Lebanese casualties from Israeli operations since March 2. Total: 1,888+ killed, 6,092 injured, ~1 million displaced. UNICEF reports 600 children killed or injured. DEADLIEST DAY: April 8 'Operation Eternal Darkness' — 254 killed, 1,165+ wounded. On April 9, Israel struck Beirut's southern suburbs and killed Ali Yusuf Harshi — nephew and personal secretary of Hezbollah leader Naim Qassem — in Tallet Khayat. By April 10, Israel had conducted 50+ additional strikes in 24 hours, though with a 'marked reduction' in Beirut targeting attributed to direct US pressure. Trump told NBC he asked Netanyahu to be 'a little more low-key' in Lebanon. Hezbollah resumed rocket fire at Kiryat Shmona, Metula, Misgav Am on Apr 9 after initially committing to ceasefire. IDF has 5 divisions operating in southern Lebanon and has destroyed all main bridges over the Litani River (Mar 12-Apr 8 per HRW). WHO warned Lebanese hospitals may exhaust vital medical supplies within days. WHO verified 92 attacks on health facilities in Lebanon. Source: Lebanon Health Ministry / IDF / UNICEF / WHO / HRW / UN Human Rights.",
+      "note": "1,888-1,953 killed, 6,303+ wounded, 1.05M displaced (35% children) — Israel struck 120 Hezbollah sites in 24 hrs Apr 10 — 303 killed on Apr 8 (Operation Eternal Darkness, 33 children) — 14 killed Apr 10 incl. 13 State Security in Nabatieh — Hezbollah fires 100+ rockets since ceasefire",
+      "tooltip": "Lebanese casualties from Israeli operations since March 2. Cumulative: 1,888-1,953 killed, 6,303+ wounded, 1.05 million displaced (35% children). DEADLIEST DAY: April 8 'Operation Eternal Darkness' — 303 killed, 1,150 wounded including 33 children. 100+ airstrikes in ~10 minutes using 50 fighter jets targeting central Beirut (no prior warning), Bekaa Valley cemetery during funeral, Nabatieh. Lebanon declared April 9 national day of mourning. April 10: 14 killed including 13 Lebanese State Security personnel in Nabatieh government building. IDF struck 120 Hezbollah sites in 24 hours. Trump asked Netanyahu to scale back. Israel authorized direct talks with Lebanon at State Department next week. Hezbollah fired 100+ rockets since ceasefire — 30+ on April 10 alone hitting Kibbutz Misgav Am, school in Deir al-Asad, Safed, Kiryat Shmona. 1 IDF NCO severely wounded by suicide drone. WHO warned hospitals could run out of trauma kits within days. Source: Lebanon Health Ministry / IDF / UNICEF / WHO / HRW.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
       "value": 7500000,
       "label": "Displaced Persons",
-      "note": "UNHCR: 7.5M+ — Iran 3.2M IDPs (100,000 left Tehran in first 2 days) — Lebanon 1M+ (700K in shelters) — UNHCR $80M Flash Response Plan covering 2.8M across 6 countries — 1.65M Afghan refugees in Iran especially vulnerable — 35,000+ Afghans returned",
-      "tooltip": "People displaced from their homes across all fronts. UNHCR: up to 3.2 million people displaced internally in Iran. 100,000 left Tehran in the first two days. UNHCR launched $80 million Flash Refugee Response Plan covering 2.8 million people across six countries. Lebanon: ~1 million displaced. 1.65 million Afghan refugees inside Iran are especially vulnerable. 35,000+ Afghans returned to Afghanistan since war began. Ceasefire holding on Iran may slow displacement but Lebanon excluded from ceasefire per Netanyahu — continued Israeli strikes. Source: UNHCR / WHO / OCHA / UNICEF.",
+      "note": "7.5M+ — Iran 3.2M IDPs — Lebanon 1.05M (35% children) — 81,700 Iranians crossed into Turkey (67,000 returned) — 206,500 Syrians fled Lebanon into Syria — UNHCR funding: 15% (Iran-Afghanistan) / 14% (Lebanon)",
+      "tooltip": "People displaced from their homes across all fronts. Iran: 3.2 million internally displaced. 81,700 Iranians crossed into Turkey (67,000 returned). Lebanon: 1.05 million displaced (35% children). 206,500 Syrians and 36,800 Lebanese fled from Lebanon into Syria. UNHCR funding at just 15% of requirements for Iran-Afghanistan corridor and 14% for Lebanon. Ceasefire holding on Iran may slow displacement but Lebanon excluded — continued Israeli operations. Source: UNHCR / WHO / OCHA / UNICEF.",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 52000,
       "label": "Flights Cancelled",
-      "note": "52,000+ flights — Hormuz still effectively closed — only ~15 ships in 48 hrs vs 110/day pre-war — 600+ vessels stranded including 325 tankers (Lloyd's) — ~20,000 seafarers stuck — ADNOC CEO: 'not open'",
-      "tooltip": "Commercial flights cancelled due to airspace closures: 52,000+ since Feb 28. Hormuz: ADNOC CEO Sultan Al Jaber stated bluntly Apr 9-10: 'The Strait of Hormuz is not open. Access is being restricted, conditioned and controlled.' Only ~15 ships transited in first 48 hours of ceasefire vs pre-war ~110/day. 600+ vessels stranded inside Gulf including 325 tankers (Lloyd's List Intelligence) with ~20,000 seafarers. Defense Secretary Hegseth contradicted ADNOC, claiming 'the strait is open.' Iran demanding military approval for each vessel and planning tolls exceeding $1 million per ship. Iran released map indicating possible mining with designated shipping lanes. US Navy decommissioned last 4 Avenger-class minesweepers from Bahrain Jan 2026; Navy escorts 'aren't currently feasible' (WSJ). Source: ADNOC / Lloyd's List / IMO / IATA / WSJ / Bloomberg.",
+      "note": "52,000+ flights — Hormuz 'Tehran Tollbooth' — only 10-16 ships in first 3 days post-ceasefire vs 135/day pre-war — 500-700 vessels stranded — 325 tankers — 20,000+ seafarers — tolls up to $2M/vessel in yuan or crypto",
+      "tooltip": "Commercial flights cancelled due to airspace closures: 52,000+ since Feb 28. Hormuz: IRGC established 'Tehran Tollbooth' — alternative channel north of Larak Island requiring prior permission, charging up to $2M/vessel (payable in yuan or cryptocurrency), capping traffic at 15 ships/day. Only ~10-16 ships transited in first 3 days post-ceasefire vs ~135/day pre-war. 500-700 vessels over 10,000 DWT stranded (Lloyd's List), including 325 tankers and ~230 oil-laden ships. 20,000+ seafarers aboard stranded vessels. War risk insurance at ~8x pre-war levels. All 12 P&I clubs withdrew war risk coverage — 'de facto closure by insurance.' Iran navy released map suggesting standard lanes may have been mined. Physical dated Brent at $132 vs futures $97 = $35 premium = physical scarcity signal. Source: ADNOC / Lloyd's List / IMO / IATA / Energy Aspects.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
       "value": 376,
       "label": "Children Killed",
-      "note": "HRANA Iran: 244+ (15% of casualties under 18) — UNICEF Lebanon: 600 children killed or injured — Minab school: ~175 killed incl. schoolchildren — Lamerd sports hall: 4 children — Karaj bridge: civilians celebrating Sizdah Be-dar — HRW: Minab = war crime",
-      "tooltip": "Children killed in the conflict. HRANA: 244+ children killed in Iran — HRANA notes 15% of casualties were under 18. UNICEF reports 600 children killed or injured in Lebanon (combined figure). Key atrocities: Minab school attack (Feb 28, ~175 killed including schoolchildren) — HRW called it a war crime after satellite imagery analysis; Lamerd sports hall strike (21 killed including 4 children); Karaj bridge attack (Apr 2, 8 civilians celebrating Sizdah Be-dar). WHO verified 20+ attacks on healthcare in Iran (9 deaths). 763 schools damaged, 65+ destroyed. 30+ universities struck. Ceasefire holding on Iranian territory ~72 hours. Israel continues Lebanon operations — 50+ strikes Apr 10. Source: UNICEF / HRANA / Lebanese MoH / WHO / HRW / Amnesty International.",
+      "note": "HRANA Iran: 244+ (15% of casualties under 18) — UNICEF Lebanon: 600 children killed or injured — 33 children killed Apr 8 Operation Eternal Darkness — Minab school: ~175 killed — HRW: Minab = war crime — ceasefire on Iran but Lebanon excluded",
+      "tooltip": "Children killed in the conflict. HRANA: 244+ children killed in Iran (15% of casualties under 18). UNICEF reports 600 children killed or injured in Lebanon. April 8 'Operation Eternal Darkness': 303 killed including 33 children. Key atrocities: Minab school attack (Feb 28, ~175 killed including schoolchildren) — HRW called it a war crime; Lamerd sports hall (4 children); Karaj bridge (8 civilians). 763 schools damaged, 65+ destroyed. 30+ universities struck. Ceasefire holding on Iranian territory ~96 hours. Israel continues Lebanon operations — 120 Hezbollah sites struck Apr 10. WHO warned hospitals could run out of trauma kits within days. Source: UNICEF / HRANA / Lebanese MoH / WHO / HRW / Amnesty International.",
       "color": "var(--civilian)"
     }
   }

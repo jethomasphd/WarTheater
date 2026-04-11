@@ -15,8 +15,8 @@
     "mission_summary": "Primary strike platform — deep strike into Iran and attrition of Iranian naval capabilities",
     "deployed_since": "2025-11-21",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 42: CEASEFIRE ~72 HOURS — Lincoln remains primary striking force, Arabian Sea position ~150 miles off Oman's coast per BBC satellite imagery. CSG-3 with CVW-9 conducted strike ops confirmed through Apr 7. CENTCOM Adm. Brad Cooper Apr 9: in fewer than 40 days, 13,000+ strikes destroyed 'the military Iran built for over 40 years' — 155+ warships and submarines (largest navy elimination since WWII). ~50,000+ US service members participated. Bush CSG arriving theater Apr 10-13 delivering dual-carrier capability. Ceasefire holding on Iran front ~72 hours. VP Vance departed for Islamabad — highest-level US-Iran engagement since 1979.",
-    "source": "USNI Fleet Tracker, CENTCOM, BBC satellite imagery, DVIDS, Apr 10 reporting"
+    "notes": "Day 43: CEASEFIRE ~96 HOURS — ISLAMABAD TALKS IN PROGRESS — Lincoln remains primary striking force in Arabian Sea ~150 miles off Oman's coast. CSG-3 with CVW-9 conducted strike ops through Apr 7; ceasefire holding on Iran front ~96 hours. CENTCOM Adm. Brad Cooper: 13,000+ strikes destroyed 'the military Iran built for over 40 years' — 155+ warships/submarines sunk (largest navy elimination since WWII). ~50,000+ US service members participated. VP Vance, Witkoff, Kushner meeting Ghalibaf/Araghchi at Serena Hotel — first direct US-Iran face-to-face since 1979. Bush CSG approaching Gibraltar — ETA Red Sea/Arabian Sea Apr 14-18. Ford deployed 291 days nearing post-Vietnam record.",
+    "source": "USNI Fleet Tracker, CENTCOM, BBC satellite imagery, DVIDS, Apr 11 reporting"
   },
   {
     "id": "cvn-78",
@@ -33,8 +33,8 @@
     "mission_summary": "Suffered non-combat laundry room fire Mar 12; repaired in Croatia; departed Split Apr 2 heading toward CENTCOM AOR",
     "deployed_since": "2025-05-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 42: Ford departed Split, Croatia on April 2 after fire repairs and is heading toward the CENTCOM AOR. Operational status remains degraded. Escort DDGs (Bainbridge, Churchill, Mahan) status unclear — may have departed Middle East. Bush CSG-10 ETA Apr 10-13 provides immediate dual-carrier capability alongside Lincoln. Ford's return timeline to full combat operations uncertain.",
-    "source": "USNI News, USNI Fleet Tracker, Apr 10 reporting"
+    "notes": "Day 43: Ford underway in the Mediterranean after departing Split, Croatia on April 2 following fire damage repairs. Deployed 291 days as of April 11 — just 3 days short of breaking the post-Vietnam carrier deployment record of 294 days (set by Lincoln in 2020). Fire on March 12 treated 200+ sailors for smoke inhalation and damaged 600 sleeping berths. Operational status remains degraded. Whether Ford returns to CENTCOM or heads home remains unclear. Bush CSG approaching Gibraltar — ETA Red Sea Apr 14-18.",
+    "source": "USNI News, USNI Fleet Tracker, Apr 11 reporting"
   },
   {
     "id": "cvn-77",
@@ -42,17 +42,17 @@
     "hull": "CVN-77",
     "type": "carrier",
     "strike_group": "Carrier Strike Group 10",
-    "lat": 34.00,
-    "lng": 25.00,
-    "area": "Eastern Mediterranean — CSG-10 with CVW-7; transiting toward Suez; ETA CENTCOM AOR Apr 10-13 — dual-carrier capability coincides with Islamabad talks",
+    "lat": 36.00,
+    "lng": -8.00,
+    "area": "Atlantic — approaching Strait of Gibraltar — CSG-10 with CVW-7; Day 11 from departure Norfolk; ETA Red Sea/Arabian Sea Apr 14-18",
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye, MH-60R/S Seahawk",
     "escorts": ["DDG-71 USS Ross", "DDG-75 USS Donald Cook", "DDG-87 USS Mason"],
-    "status": "IN TRANSIT — CENTCOM ETA Apr 10-13",
-    "mission_summary": "Transit to CENTCOM AOR — delivers dual-carrier capability alongside Lincoln",
+    "status": "IN TRANSIT — APPROACHING STRAIT OF GIBRALTAR — ETA Red Sea Apr 14-18",
+    "mission_summary": "Transit to CENTCOM AOR — delivers dual-carrier capability alongside Lincoln; may participate in NATO Neptune Strike en route or proceed directly",
     "deployed_since": "2026-03-31",
     "operation_start_date": null,
-    "notes": "Day 42: Bush departed Naval Station Norfolk on Mar 31. CSG-10 with CVW-7 embarked, commanded by RADM Alexis Walker. Escorts: USS Ross (DDG-71), USS Donald Cook (DDG-75), USS Mason (DDG-87). ETA theater: April 10-13, arrival timed to coincide with Islamabad Accords talks (Vance departed Apr 10 for highest-level US-Iran engagement since 1979). Provides CENTCOM dual-carrier capability alongside Lincoln. Total battle force: 291 ships (233 USS, 58 USNS), 108 deployed (78 USS, 30 USNS per USNI). Ceasefire holding ~72 hours on Iran front.",
-    "source": "USNI Fleet Tracker, CBS News, Apr 10 reporting"
+    "notes": "Day 43: Bush departed Norfolk Mar 31, Day 11 from departure. CSG-10 with CVW-7 embarked, commanded by RADM Alexis Walker. Escorts: USS Ross (DDG-71), USS Donald Cook (DDG-75), USS Mason (DDG-87). Transiting the Atlantic, likely approaching the Strait of Gibraltar as of Apr 11. Has NOT yet entered the CENTCOM AOR. At standard transit speeds, arrival in Red Sea/Arabian Sea estimated Apr 14-18. May participate in NATO's Neptune Strike exercise en route or proceed directly to relieve Ford. Islamabad talks in progress — Vance meeting Ghalibaf/Araghchi. Total battle force: 291 ships (108 deployed, 83 underway). ~16+ US warships in CENTCOM AOR.",
+    "source": "USNI Fleet Tracker, CBS News, Apr 11 reporting"
   },
   {
     "id": "lha-7",
@@ -69,7 +69,7 @@
     "mission_summary": "Rapid-response force for Strait of Hormuz — littoral warfare, mine countermeasures, maritime security, potential island seizure operations",
     "deployed_since": "2026-03-13",
     "operation_start_date": "2026-03-27",
-    "notes": "Day 42: Operational in CENTCOM AOR since Mar 27. 31st MEU (~2,200 Marines) embarked, F-35B ops confirmed Apr 6 from VMFA-121. Tripoli ARG aboard LHA-7 and LPD-18 USS New Orleans. Provides F-35B strike capability and amphibious reserve forces. Combined with 82nd Airborne: ~4,200+ ground troops forward-deployed. Ceasefire ~72 hours on Iran front.",
+    "notes": "Day 43: Operational in CENTCOM AOR since Mar 27. 31st MEU (~2,200 Marines) embarked, F-35B ops confirmed. Tripoli operates as 'Lightning Carrier' with ~20 F-35Bs. Combined with 82nd Airborne: ~4,200+ ground troops forward-deployed. Ceasefire holding ~96 hours on Iran front. Islamabad talks in progress.",
     "replaces": "lha-6 (USS America — unconfirmed in theater)",
     "source": "WSJ (Mar 24), USNI Fleet Tracker (Mar 23), USNI News (Mar 28), Reuters"
   },
@@ -137,7 +137,7 @@
     "strike_group": "Boxer Amphibious Ready Group / 11th Marine Expeditionary Unit",
     "lat": 15.00,
     "lng": 140.00,
-    "area": "Western Pacific — departed Pearl Harbor ~Apr 1-2; operating in western Pacific; ETA mid-April — Pentagon indicated may relieve Tripoli or follow to Middle East",
+    "area": "Western Pacific — departed Pearl Harbor Apr 1; transiting western Pacific; arrival in theater estimated late April to early May",
     "aircraft": "AV-8B Harrier II or F-35B Lightning II, MV-22B Osprey, AH-1Z Viper, UH-1Y Venom, CH-53E Super Stallion",
     "escorts": ["LSD-45 USS Comstock", "LPD-27 USS Portland"],
     "status": "WESTERN PACIFIC — TASKING TBD",
@@ -145,8 +145,8 @@
     "deployed_since": "2026-03-19",
     "operation_start_date": null,
     "eta_theater": "2026-04-15",
-    "notes": "Day 42: Boxer ARG with 11th MEU departed Pearl Harbor ~Apr 1-2 and operating in the western Pacific. Boxer carries ~2,500 Marines from Camp Pendleton. Pentagon indicated Boxer would either relieve Tripoli's Asia tasking or follow it to the Middle East. ETA mid-April. Ceasefire holding ~72 hours on Iran front.",
-    "source": "USNI Fleet Tracker, Stars and Stripes, Pentagon, Apr 10 reporting"
+    "notes": "Day 43: Boxer ARG with 11th MEU departed Pearl Harbor Apr 1 and transiting the western Pacific. Boxer carries ~2,500 Marines from Camp Pendleton. Pentagon indicated Boxer would either relieve Tripoli's Asia tasking or follow it to the Middle East. Arrival in theater estimated late April to early May. Ceasefire holding ~96 hours on Iran front.",
+    "source": "USNI Fleet Tracker, Stars and Stripes, Pentagon, Apr 11 reporting"
   },
   {
     "id": "ssn-anson",
@@ -181,8 +181,8 @@
     "mission_summary": "Ground combat force — 1st BCT Immediate Response Force forward-deployed; speculated mission sets include Kharg Island seizure or Strait of Hormuz operations",
     "deployed_since": "2026-03-25",
     "operation_start_date": null,
-    "notes": "Day 42: ~2,000 paratroopers from 1st BCT (Immediate Response Force) remain forward-deployed to undisclosed Middle East locations since March 24-25. ~50,000+ US service members participated in Operation Epic Fury. Forces remain deployed — Hegseth/Caine Apr 8 confirmed no drawdown. VP Vance departed for Islamabad Apr 10. Bush CSG arriving theater. Two-week ceasefire clock expires ~Apr 21. 60-day War Powers deadline Apr 29.",
-    "source": "Reuters, Stars and Stripes, Pentagon, Apr 10 reporting"
+    "notes": "Day 43: ~2,000 paratroopers from 1st BCT (Immediate Response Force) remain forward-deployed to undisclosed Middle East locations since March 24-25. ~50,000+ US service members participated in Operation Epic Fury. Forces remain deployed — no drawdown. Islamabad talks in progress — VP Vance meeting Ghalibaf/Araghchi. Two-week ceasefire clock expires ~Apr 21. 60-day War Powers deadline Apr 29. Congress returns Apr 14.",
+    "source": "Reuters, Stars and Stripes, Pentagon, Apr 11 reporting"
   },
   {
     "id": "hms-dragon",
