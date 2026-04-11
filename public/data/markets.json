@@ -30,12 +30,12 @@
     "Day 39 — S&P opened ~6,588 under pressure; range 6,579-6,618; down ~0.5-0.7% on Kharg Island strikes and escalating rhetoric; VIX 24.88 (+4.2%); WTI spiking toward $115 on Kharg strikes (50+ targets); Brent $109.87-111.68; gold $4,672-4,700; 10Y 4.323-4.353%; Goldman warns S&P could hit 5,400 on persistent disruptions; Kalshi 60% prob S&P below 5,900 in 2026; IRGC threatens strikes 'outside the region'; Vance: 'military goals achieved'",
     "Day 40 — CEASEFIRE RALLY CLOSE: S&P 6,782.81 (+2.51%) — Dow 47,909.92 (+2.85%, +1,325 pts — best day since Apr 2025); Nasdaq 22,635.00 (+2.80%); Russell 2000 2,620.46 (+2.97%); VIX 21.04 (-18.39%); Brent $94.75 (-14%); WTI $94.41 (-16%, biggest drop since Apr 2020); Energy -3.66% (sole sector down); Industrials +3.75%; XOM $156.09 (-4.8%); CVX $192.89 (-4.35%); LMT $622.87 (-0.77%); RTX $202.68 (+2.40%); UAL $96.30 (+7.84%, intraday >10%); DAL ~$68-70 (+4-6%, Q1 beat $0.64/$14.2B); Gold $4,799-4,867; 10Y ~4.34%; UBS cuts S&P target 7,700→7,500; sell energy/buy everything else",
     "Day 41 — S&P 6,824.66 (+0.62%) — partial recovery after initial reversal; Brent settles ~$97.50; WTI ~$97.50; VIX ~19.4-21.0; Gold $4,743-4,782; 10Y 4.287-4.293%; Bloomberg: 'Stocks dropped and oil advanced as traders watched to see if the US-Iran ceasefire holds'; $12-18 Hormuz risk premium re-embedded; Soufan Center: ceasefire 'hovers on the verge of collapse'",
-    "Day 42 — CEASEFIRE CRITICAL 48 HOURS: VP Vance departs for Islamabad — highest-level US-Iran engagement since 1979; March CPI released 8:30 AM ET; Brent eases to ~$96 on ceasefire holding; WTI ~$98; VIX ~19.4-21.0; Gold $4,743-4,782 (-0.9%); 10Y 4.287-4.293%; LMT ~$627.70 (+26% YTD); RTX $203.19 (+10.79% YTD); XOM +28% YTD; CVX +24% YTD (market cap ~$396.8B); DAL +3.75% on ceasefire; UAL ~$97.53 (-13.4% YTD); former FM Kharazi dies; Israel 50+ strikes in Lebanon; ADNOC CEO: 'Hormuz is not open'; Iran says 3 of 10 ceasefire points violated; 60-day War Powers deadline Apr 29; Congress returns next week; Bush CSG ETA today-Sunday; Pope vigil tomorrow"
+    "Day 42 — S&P 6,816.89 (-0.11%) — best week since Nov (+3.6%); Dow +3.0% (positive for 2026); Nasdaq +4.7% (8-day winning streak); VIX 19.23 (down from 26 pre-ceasefire); Brent $96.66; WTI $95.63; dated Brent $131.97 ($35 premium over futures — physical scarcity); Gold $4,787 (+$1,568 YoY, 3rd straight weekly gain); 10Y 4.31%; March CPI: 3.3% YoY (+0.9% MoM, above 0.7% consensus) — gas +21.2% MoM (largest since 1967); core CPI 2.6% (below 2.7% consensus); UMich consumer sentiment 47.6 (all-time record low); real earnings -0.6%; LMT ~$614 (+30% YTD, PAC-3 $4.7B contract); RTX ~$202; XOM $152.51; CVX $188.55; DAL ~$64 (+12.5% Apr 8 earnings beat); UAL ~$91.35; airlines hike bag fees to $45; BoA cuts global growth 40bps to 3.1%; Fed holds 3.50-3.75%; markets price no rate cuts 2026"
   ],
   "datasets": {
     "sp500": {
       "label": "S&P 500",
-      "data": [100, 100.0, 99.1, 99.9, 99.3, 98.0, 98.8, 98.6, 98.5, 97.0, 96.4, 96.9, 97.9, 97.1, 96.2, 94.6, 96.3, 95.5, 95.9, 95.2, 92.6, 93.2, 92.2, 94.9, 95.7, 96.1, 95.8, 98.6, 99.2, 99.2],
+      "data": [100, 100.0, 99.1, 99.9, 99.3, 98.0, 98.8, 98.6, 98.5, 97.0, 96.4, 96.9, 97.9, 97.1, 96.2, 94.6, 96.3, 95.5, 95.9, 95.2, 92.6, 93.2, 92.2, 94.9, 95.7, 96.1, 95.8, 98.6, 99.2, 99.1],
       "color": "#ef4444"
     },
     "defense": {
@@ -54,5 +54,5 @@
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-04-10"
+  "last_updated": "2026-04-11"
 }

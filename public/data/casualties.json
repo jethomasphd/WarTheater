@@ -1,5 +1,5 @@
 {
-  "labels": ["Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15", "Mar 16", "Mar 17", "Mar 18", "Mar 19", "Mar 20", "Mar 21", "Mar 22", "Mar 23", "Mar 24", "Mar 25", "Mar 26", "Mar 27", "Mar 28", "Mar 29", "Mar 30", "Mar 31", "Apr 1", "Apr 2", "Apr 3", "Apr 4", "Apr 5", "Apr 6", "Apr 7", "Apr 8", "Apr 9", "Apr 10"],
+  "labels": ["Feb 28", "Mar 1", "Mar 2", "Mar 3", "Mar 4", "Mar 5", "Mar 6", "Mar 7", "Mar 8", "Mar 9", "Mar 10", "Mar 11", "Mar 12", "Mar 13", "Mar 14", "Mar 15", "Mar 16", "Mar 17", "Mar 18", "Mar 19", "Mar 20", "Mar 21", "Mar 22", "Mar 23", "Mar 24", "Mar 25", "Mar 26", "Mar 27", "Mar 28", "Mar 29", "Mar 30", "Mar 31", "Apr 1", "Apr 2", "Apr 3", "Apr 4", "Apr 5", "Apr 6", "Apr 7", "Apr 8", "Apr 9", "Apr 10", "Apr 11"],
   "day_contexts": [
     "Day 1 — First strikes, Minab school (165+ killed), Iranian retaliation",
     "Day 2 — Beit Shemesh (9 killed), Port Shuaiba (6 US KIA), sustained bombing",
@@ -42,34 +42,35 @@
     "Day 39 — US strikes 50+ targets on Kharg Island; Israel wide-scale bridge/railway strikes (Qom bridge, Kashan railway — 2 killed/3 injured, Tabriz-Zanjan freeway, Karaj railway); 18 civilians killed in Alborz (incl. 2 children); 6 children killed in Tehran overnight (4 girls, 2 boys under 10); Tehran synagogue destroyed; IRGC Maj. Gen. Khademi + Quds Force Bakeri killed; Asaluyeh petrochemical complex struck; Haifa residential building hit (4 killed); cluster munitions in Tel Aviv (~20 impacts); Iran missile at Israel Apr 7; coordinated Houthi-Iran-Hezbollah barrage; Lebanon: 1,497 killed, 4,639 wounded; 15 US KIA / 520+ WIA",
     "Day 40 — ETERNAL DARKNESS: Israel launches single largest coordinated strike of war on Lebanon — 50 fighter jets, 160 munitions, 100+ targets in 10 min across central Beirut, southern Beirut, Bekaa Valley, Sidon, Tyre — 254 KILLED, 1,160+ wounded (deadliest single day); Lebanon declares Apr 9 national day of mourning; Netanyahu: ceasefire does NOT include Lebanon — 'we still have goals'; Iran re-closes Strait of Hormuz accusing Israel of violating ceasefire; UN Human Rights Chief: 'nothing short of horrific'; European leaders + EU issue joint statement demanding Lebanon's inclusion; CENTCOM confirms cumulative: 13,000+ targets, 80% air defenses, 150 warships, every Iran sub sunk, 97% mines; Iran: 2,076+ (Health Min) / 3,636 (HRANA Apr 7) / 7,300+ (Hengaw)",
     "Day 41 — CEASEFIRE FRACTURING: Hezbollah launches retaliatory missiles on northern Israel early Apr 9 — 'grave violation of ceasefire' (Hezbollah lawmaker Fadlallah); IDF admits overestimated 2024 damage — Hezbollah still has hundreds of launchers, tens of thousands of rockets; Soufan Center: ceasefire 'hovers on the verge of collapse'; no confirmed US/Israeli strikes on Iranian territory since 8 PM ET Apr 7 (~45 hours); 1,530-1,754+ Lebanese killed cumulative; 9,100+ Iranians killed; 15 US KIA / 520+ WIA; White House confirms Vance + Witkoff + Kushner for Islamabad talks Apr 10-11; Pope Leo XIV Apr 11 peace vigil; UNHCR: 3.2M Iran IDPs, 1M+ Lebanon displaced (700K in shelters)",
-    "Day 42 — CEASEFIRE ~72 HRS — VANCE TO ISLAMABAD: No strikes on Iranian territory ~72 hours; Israel 50+ strikes in Lebanon (Ali Yusuf Harshi killed — Qassem's nephew); Trump asked Netanyahu 'more low-key'; 1,888+ Lebanese killed, 6,092 injured; UNICEF: 600 children killed/injured; WHO warns hospitals may exhaust supplies; Hezbollah rockets at Kiryat Shmona/Metula/Misgav Am — no Israeli casualties; Iran: 2,076 (Health Min) / 3,636 (HRANA) / 4,700+ (Iran Intl) / 5,300+ (Hengaw); 13 US KIA / 373+ WIA (CENTCOM); former FM Kharazi dies; VP Vance departs Islamabad; Bush CSG arriving; Pope vigil tomorrow; March CPI released"
+    "Day 42 — CEASEFIRE ~72 HRS — VANCE TO ISLAMABAD: No strikes on Iranian territory ~72 hours; Israel 50+ strikes in Lebanon (Ali Yusuf Harshi killed — Qassem's nephew); Trump asked Netanyahu 'more low-key'; 1,888+ Lebanese killed, 6,092 injured; UNICEF: 600 children killed/injured; WHO warns hospitals may exhaust supplies; Hezbollah rockets at Kiryat Shmona/Metula/Misgav Am — no Israeli casualties; Iran: 2,076 (Health Min) / 3,636 (HRANA) / 4,700+ (Iran Intl) / 5,300+ (Hengaw); 13 US KIA / 373+ WIA (CENTCOM); former FM Kharazi dies; VP Vance departs Islamabad; Bush CSG arriving; Pope vigil tomorrow; March CPI released",
+    "Day 43 — ISLAMABAD TALKS BEGIN: First direct US-Iran face-to-face since 1979 — VP Vance meets Ghalibaf/Araghchi at Serena Hotel; ceasefire holds ~96 hours on Iran front (zero Iranian deaths since Apr 7); Israel strikes 120 Hezbollah sites in 24 hrs — 14 killed Apr 10 incl. 13 Lebanese State Security in Nabatieh; Hezbollah fires 30+ rockets at northern Israel (Kibbutz Misgav Am, Deir al-Asad school, Safed, Kiryat Shmona); 1 IDF NCO severely wounded by suicide drone; Lebanon cumulative: 1,888-1,953 killed, 6,303+ wounded; Iran frozen assets dispute — Tehran claims US agreed, US flatly denies; Ghalibaf carries blood-stained bags to talks; Pope Leo XIV peace vigil at St. Peter's noon ET; March CPI 3.3% YoY (gas +21.2% MoM largest since 1967); UMich sentiment 47.6 all-time low; 13 US KIA / 357-381 WIA; no new Iranian casualties; HRANA total: 3,636 (1,701 civilians, 1,221 military)"
   ],
   "datasets": {
     "iranian_military": {
       "label": "Iranian Military",
-      "data": [65, 98, 122, 106, 90, 82, 73, 114, 98, 65, 65, 78, 91, 95, 80, 70, 65, 60, 55, 70, 75, 55, 50, 45, 40, 45, 55, 60, 50, 45, 48, 42, 50, 55, 45, 48, 50, 45, 55, 2, 0, 0],
+      "data": [65, 98, 122, 106, 90, 82, 73, 114, 98, 65, 65, 78, 91, 95, 80, 70, 65, 60, 55, 70, 75, 55, 50, 45, 40, 45, 55, 60, 50, 45, 48, 42, 50, 55, 45, 48, 50, 45, 55, 2, 0, 0, 0],
       "color": "#b81c1c"
     },
     "iranian_civilian": {
       "label": "Iranian Civilian",
-      "data": [5, 10, 15, 12, 35, 20, 15, 25, 18, 10, 8, 45, 20, 20, 15, 10, 8, 8, 10, 15, 12, 8, 6, 8, 6, 12, 10, 8, 6, 8, 17, 10, 15, 12, 8, 10, 12, 8, 22, 1, 0, 0],
+      "data": [5, 10, 15, 12, 35, 20, 15, 25, 18, 10, 8, 45, 20, 20, 15, 10, 8, 8, 10, 15, 12, 8, 6, 8, 6, 12, 10, 8, 6, 8, 17, 10, 15, 12, 8, 10, 12, 8, 22, 1, 0, 0, 0],
       "color": "#ffffff"
     },
     "us_military": {
       "label": "US Military",
-      "data": [0, 6, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "data": [0, 6, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       "color": "#4a9eff"
     },
     "lebanese": {
       "label": "Lebanese (all)",
-      "data": [0, 0, 44, 58, 64, 68, 61, 75, 58, 48, 40, 54, 85, 65, 55, 50, 48, 45, 50, 48, 33, 40, 45, 28, 30, 33, 30, 28, 25, 30, 28, 25, 25, 22, 20, 18, 18, 15, 18, 254, 3, 45],
+      "data": [0, 0, 44, 58, 64, 68, 61, 75, 58, 48, 40, 54, 85, 65, 55, 50, 48, 45, 50, 48, 33, 40, 45, 28, 30, 33, 30, 28, 25, 30, 28, 25, 25, 22, 20, 18, 18, 15, 18, 254, 3, 45, 14],
       "color": "#7b3fa0"
     },
     "israeli_military": {
       "label": "Israeli Military",
-      "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 6, 2, 0, 2, 1, 1, 2, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+      "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 6, 2, 0, 2, 1, 1, 2, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
       "color": "#ffc832"
     }
   },
-  "last_updated": "2026-04-10"
+  "last_updated": "2026-04-11"
 }
