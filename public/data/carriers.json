@@ -15,8 +15,8 @@
     "mission_summary": "Primary strike platform — deep strike into Iran and attrition of Iranian naval capabilities",
     "deployed_since": "2025-11-21",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 43: CEASEFIRE ~96 HOURS — ISLAMABAD TALKS IN PROGRESS — Lincoln remains primary striking force in Arabian Sea ~150 miles off Oman's coast. CSG-3 with CVW-9 conducted strike ops through Apr 7; ceasefire holding on Iran front ~96 hours. CENTCOM Adm. Brad Cooper: 13,000+ strikes destroyed 'the military Iran built for over 40 years' — 155+ warships/submarines sunk (largest navy elimination since WWII). ~50,000+ US service members participated. VP Vance, Witkoff, Kushner meeting Ghalibaf/Araghchi at Serena Hotel — first direct US-Iran face-to-face since 1979. Bush CSG approaching Gibraltar — ETA Red Sea/Arabian Sea Apr 14-18. Ford deployed 291 days nearing post-Vietnam record.",
-    "source": "USNI Fleet Tracker, CENTCOM, BBC satellite imagery, DVIDS, Apr 11 reporting"
+    "notes": "Day 44: CEASEFIRE ~120 HOURS ON IRAN FRONT — ISLAMABAD TALKS COLLAPSED — TRUMP DECLARES HORMUZ BLOCKADE. Lincoln remains primary striking force in Arabian Sea ~150 miles off Oman's coast. CSG-3 with CVW-9 embarked. DDG-121 Frank E. Petersen Jr. was detached from Lincoln's screen for the landmark Strait of Hormuz mine-clearing mission on Apr 11 — one of first US warships to transit Strait since war began, along with USS Michael Murphy (DDG-112). CENTCOM Adm. Cooper: 'Today, we began the process of establishing a new passage and we will share this safe pathway with the maritime industry soon.' IRGC threatened 'firm and forceful response'; Iranian state media claimed destroyers were 'turned back' (CENTCOM denies). Ceasefire on Iran front technically holds (expires ~Apr 22) but Islamabad talks failed Apr 12 after 21 hours and Trump declared Navy will BLOCKADE Hormuz and interdict toll-paying vessels. Lincoln posture likely shifts to direct support of blockade operations. Bush CSG approaching Gibraltar — ETA Red Sea Apr 14-18 — will provide 3-CSG capability. Ford at 292 days, breaks post-Vietnam deployment record (294 days, Lincoln 2019-20) ~Apr 14.",
+    "source": "USNI Fleet Tracker, CENTCOM, BBC satellite imagery, DVIDS, Apr 12 reporting"
   },
   {
     "id": "cvn-78",
@@ -33,8 +33,8 @@
     "mission_summary": "Suffered non-combat laundry room fire Mar 12; repaired in Croatia; departed Split Apr 2 heading toward CENTCOM AOR",
     "deployed_since": "2025-05-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 43: Ford underway in the Mediterranean after departing Split, Croatia on April 2 following fire damage repairs. Deployed 291 days as of April 11 — just 3 days short of breaking the post-Vietnam carrier deployment record of 294 days (set by Lincoln in 2020). Fire on March 12 treated 200+ sailors for smoke inhalation and damaged 600 sleeping berths. Operational status remains degraded. Whether Ford returns to CENTCOM or heads home remains unclear. Bush CSG approaching Gibraltar — ETA Red Sea Apr 14-18.",
-    "source": "USNI News, USNI Fleet Tracker, Apr 11 reporting"
+    "notes": "Day 44: Ford underway in the Eastern Mediterranean after departing Split, Croatia on April 2 following fire damage repairs. Deployed 292 days as of April 12 — just 2 days short of breaking the post-Vietnam carrier deployment record of 294 days (set by Lincoln in 2019-20). Record will break ~April 14. Fire on March 12 treated 200+ sailors for smoke inhalation and damaged 600 sleeping berths. Operational status remains degraded. Multiple sources suggest Ford may be heading home but the Islamabad collapse Apr 12 and Trump's Hormuz blockade declaration could change plans. Status fluid. Bush CSG approaching Gibraltar — ETA Red Sea Apr 14-18.",
+    "source": "USNI News, USNI Fleet Tracker, Apr 12 reporting"
   },
   {
     "id": "cvn-77",
@@ -47,12 +47,12 @@
     "area": "Atlantic — approaching Strait of Gibraltar — CSG-10 with CVW-7; Day 11 from departure Norfolk; ETA Red Sea/Arabian Sea Apr 14-18",
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye, MH-60R/S Seahawk",
     "escorts": ["DDG-71 USS Ross", "DDG-75 USS Donald Cook", "DDG-87 USS Mason"],
-    "status": "IN TRANSIT — APPROACHING STRAIT OF GIBRALTAR — ETA Red Sea Apr 14-18",
-    "mission_summary": "Transit to CENTCOM AOR — delivers dual-carrier capability alongside Lincoln; may participate in NATO Neptune Strike en route or proceed directly",
+    "status": "IN TRANSIT — AT/APPROACHING STRAIT OF GIBRALTAR — ETA Red Sea Apr 14-18",
+    "mission_summary": "Transit to CENTCOM AOR — delivers 3-CSG capability alongside Lincoln and Tripoli; may participate in NATO Neptune Strike en route or proceed directly",
     "deployed_since": "2026-03-31",
     "operation_start_date": null,
-    "notes": "Day 43: Bush departed Norfolk Mar 31, Day 11 from departure. CSG-10 with CVW-7 embarked, commanded by RADM Alexis Walker. Escorts: USS Ross (DDG-71), USS Donald Cook (DDG-75), USS Mason (DDG-87). Transiting the Atlantic, likely approaching the Strait of Gibraltar as of Apr 11. Has NOT yet entered the CENTCOM AOR. At standard transit speeds, arrival in Red Sea/Arabian Sea estimated Apr 14-18. May participate in NATO's Neptune Strike exercise en route or proceed directly to relieve Ford. Islamabad talks in progress — Vance meeting Ghalibaf/Araghchi. Total battle force: 291 ships (108 deployed, 83 underway). ~16+ US warships in CENTCOM AOR.",
-    "source": "USNI Fleet Tracker, CBS News, Apr 11 reporting"
+    "notes": "Day 44: Bush departed Norfolk Mar 31, Day 12 from departure. CSG-10 with CVW-7 embarked, commanded by RADM Alexis Walker. Escorts: USS Ross (DDG-71), USS Donald Cook (DDG-75), USS Mason (DDG-87). Based on 2022 precedent (Norfolk to Gibraltar in ~15 days), the strike group is estimated to be at or approaching the Strait of Gibraltar as of Apr 12. No confirmed sighting yet. SOF News Apr 12: 'Another carrier strike group is on the way to the Middle East region... scheduled to arrive mid-April.' Has NOT yet entered the CENTCOM AOR. If transiting Gibraltar Apr 12-14, ETA Red Sea via Suez ~Apr 18-22. Arrival will provide 3 CSGs in theater for first time since early in war — dramatically increasing combat capacity amid Islamabad collapse and Trump's Hormuz blockade announcement. Total battle force: 291 ships (108 deployed, 83 underway).",
+    "source": "USNI Fleet Tracker, SOF News, CBS News, Apr 12 reporting"
   },
   {
     "id": "lha-7",
@@ -69,7 +69,7 @@
     "mission_summary": "Rapid-response force for Strait of Hormuz — littoral warfare, mine countermeasures, maritime security, potential island seizure operations",
     "deployed_since": "2026-03-13",
     "operation_start_date": "2026-03-27",
-    "notes": "Day 43: Operational in CENTCOM AOR since Mar 27. 31st MEU (~2,200 Marines) embarked, F-35B ops confirmed. Tripoli operates as 'Lightning Carrier' with ~20 F-35Bs. Combined with 82nd Airborne: ~4,200+ ground troops forward-deployed. Ceasefire holding ~96 hours on Iran front. Islamabad talks in progress.",
+    "notes": "Day 44: Operational in CENTCOM AOR since Mar 27. 31st MEU (~2,200 Marines/sailors) embarked, F-35B ops confirmed. Tripoli operates as 'Lightning Carrier' with ~20 F-35Bs. Combined with 82nd Airborne: ~4,200+ ground troops forward-deployed. Ceasefire on Iran front technically holds ~120 hours but Islamabad talks collapsed Apr 12 and Trump declared US naval blockade of Hormuz — Tripoli ARG well-positioned for potential island seizure, mine countermeasures, or blockade support operations.",
     "replaces": "lha-6 (USS America — unconfirmed in theater)",
     "source": "WSJ (Mar 24), USNI Fleet Tracker (Mar 23), USNI News (Mar 28), Reuters"
   },
@@ -145,8 +145,8 @@
     "deployed_since": "2026-03-19",
     "operation_start_date": null,
     "eta_theater": "2026-04-15",
-    "notes": "Day 43: Boxer ARG with 11th MEU departed Pearl Harbor Apr 1 and transiting the western Pacific. Boxer carries ~2,500 Marines from Camp Pendleton. Pentagon indicated Boxer would either relieve Tripoli's Asia tasking or follow it to the Middle East. Arrival in theater estimated late April to early May. Ceasefire holding ~96 hours on Iran front.",
-    "source": "USNI Fleet Tracker, Stars and Stripes, Pentagon, Apr 11 reporting"
+    "notes": "Day 44: Boxer ARG with 11th MEU departed Pearl Harbor Apr 1 and transiting the western Pacific. Boxer carries ~2,500 Marines from Camp Pendleton. Pentagon indicated Boxer would either relieve Tripoli's Asia tasking or follow it to the Middle East. Expected to arrive in CENTCOM area late April (approximately Apr 22-28). Islamabad talks collapsed Apr 12 and Trump declared US naval blockade of Hormuz — Boxer arrival would provide additional amphibious capacity for potential island seizure or blockade operations.",
+    "source": "USNI Fleet Tracker, Stars and Stripes, Pentagon, Apr 12 reporting"
   },
   {
     "id": "ssn-anson",
@@ -181,8 +181,8 @@
     "mission_summary": "Ground combat force — 1st BCT Immediate Response Force forward-deployed; speculated mission sets include Kharg Island seizure or Strait of Hormuz operations",
     "deployed_since": "2026-03-25",
     "operation_start_date": null,
-    "notes": "Day 43: ~2,000 paratroopers from 1st BCT (Immediate Response Force) remain forward-deployed to undisclosed Middle East locations since March 24-25. ~50,000+ US service members participated in Operation Epic Fury. Forces remain deployed — no drawdown. Islamabad talks in progress — VP Vance meeting Ghalibaf/Araghchi. Two-week ceasefire clock expires ~Apr 21. 60-day War Powers deadline Apr 29. Congress returns Apr 14.",
-    "source": "Reuters, Stars and Stripes, Pentagon, Apr 11 reporting"
+    "notes": "Day 44: ~2,000 paratroopers from 1st BCT (Immediate Response Force) remain forward-deployed to undisclosed Middle East locations since March 24-25. ~50,000+ US service members participated in Operation Epic Fury. Forces remain deployed — no drawdown. Islamabad talks collapsed Apr 12 after 21 hours; Trump declared US Navy will blockade Hormuz. 82nd Airborne postured for contingencies if ceasefire collapses after Apr 22 expiration. 60-day War Powers deadline Apr 29. Congress returns Apr 14.",
+    "source": "Reuters, Stars and Stripes, Pentagon, Apr 12 reporting"
   },
   {
     "id": "hms-dragon",

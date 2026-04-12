@@ -4,9 +4,9 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-04-11",
+    "last_updated": "2026-04-12",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "~35,500+ (CENTCOM: 13,000+ targets struck, 155+ warships sunk (largest navy elimination since WWII), 80% air defenses destroyed, every submarine sunk, 97% naval mines eliminated. Iran air force at zero operational flights/day. Combined US/Israeli extrapolated ~35,500+ through Day 40. CEASEFIRE in effect from 8 PM ET Apr 7 — no confirmed US/Israeli strikes on Iranian territory ~96 hours as of Apr 11 morning. Islamabad talks in progress — first direct US-Iran face-to-face since 1979.)",
+    "total_targets_struck": "~35,500+ (CENTCOM: 13,000+ targets struck, 155+ warships sunk (largest navy elimination since WWII), 80% air defenses destroyed, every submarine sunk, 97% naval mines eliminated. Iran air force at zero operational flights/day. Combined US/Israeli extrapolated ~35,500+ through Day 40. CEASEFIRE on Iran front technically holds ~120 hours as of Apr 12 — no confirmed US/Israeli strikes on Iranian territory since 8 PM ET Apr 7. Islamabad talks COLLAPSED Apr 12 after 21 hours with no agreement; Trump declared US Navy BLOCKADE of Strait of Hormuz. Ceasefire expires ~Apr 22.)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
       "killed": "2,000+ (Health Ministry) / 3,636 (HRANA) / 6,620 military (Hengaw) / 4,700+ security forces (Iran International) / 6,000+ IRGC (IDF claim)",
@@ -14,8 +14,8 @@
       "military_killed_hengaw": "6,620",
       "civilians_killed_hrana": "1,701+",
       "children_killed": "244+",
-      "sources": "Iran Health Ministry / HRANA / Hengaw / Iran International / IDF / ACLED / AP",
-      "as_of": "2026-04-11"
+      "sources": "Iran Health Ministry (WHO Apr 10) / HRANA / Hengaw / Iran International / IDF / ACLED / AP / Christian Science Monitor",
+      "as_of": "2026-04-12"
     },
     "civilian_buildings_affected": "~20,000 (including 16,000 residential units) per Iranian Red Crescent as of Day 11",
     "healthcare_facilities_affected": "307 health/medical/emergency facilities damaged per Iranian Red Crescent; 20+ verified healthcare attacks (WHO); 9 deaths from healthcare attacks",
