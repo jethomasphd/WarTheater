@@ -7,16 +7,16 @@
     "strike_group": "Carrier Strike Group 3",
     "lat": 20.50,
     "lng": 58.00,
-    "area": "Arabian Sea — ~150 miles off Oman's coast per BBC satellite imagery — sole operational carrier in direct theater (pending Bush arrival)",
+    "area": "Arabian Sea / Gulf of Oman — operating 'dark' (AIS off) — active combat ops posture for blockade support",
     "aircraft": "F/A-18E/F Super Hornets, F-35C Lightning II (VMFA-314), EA-18G Growlers, E-2D Hawkeye, CMV-22B Osprey, MH-60R/S Seahawk",
     "escorts": ["DDG-121 USS Frank E. Petersen Jr.", "DDG-111 USS Spruance", "DDG-112 USS Michael Murphy", "CG-70 USS Lake Erie"],
     "independently_deployed_destroyers": ["DDG-74 USS McFaul", "DDG-57 USS Mitscher", "DDG-91 USS Pinckney", "DDG-119 USS Delbert D. Black", "DDG-113 USS John Finn", "DDG-69 USS Milius"],
     "status": "ENGAGED",
-    "mission_summary": "Primary strike platform — deep strike into Iran and attrition of Iranian naval capabilities",
+    "mission_summary": "Primary strike platform — blockade enforcement and Hormuz mine clearance support",
     "deployed_since": "2025-11-21",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 44: CEASEFIRE ~120 HOURS ON IRAN FRONT — ISLAMABAD TALKS COLLAPSED — TRUMP DECLARES HORMUZ BLOCKADE. Lincoln remains primary striking force in Arabian Sea ~150 miles off Oman's coast. CSG-3 with CVW-9 embarked. DDG-121 Frank E. Petersen Jr. was detached from Lincoln's screen for the landmark Strait of Hormuz mine-clearing mission on Apr 11 — one of first US warships to transit Strait since war began, along with USS Michael Murphy (DDG-112). CENTCOM Adm. Cooper: 'Today, we began the process of establishing a new passage and we will share this safe pathway with the maritime industry soon.' IRGC threatened 'firm and forceful response'; Iranian state media claimed destroyers were 'turned back' (CENTCOM denies). Ceasefire on Iran front technically holds (expires ~Apr 22) but Islamabad talks failed Apr 12 after 21 hours and Trump declared Navy will BLOCKADE Hormuz and interdict toll-paying vessels. Lincoln posture likely shifts to direct support of blockade operations. Bush CSG approaching Gibraltar — ETA Red Sea Apr 14-18 — will provide 3-CSG capability. Ford at 292 days, breaks post-Vietnam deployment record (294 days, Lincoln 2019-20) ~Apr 14.",
-    "source": "USNI Fleet Tracker, CENTCOM, BBC satellite imagery, DVIDS, Apr 12 reporting"
+    "notes": "Day 45: BLOCKADE EFFECTIVE 14:00 GMT — IRGC WARNS 'HARSH AND DECISIVE' FORCE. Lincoln operating 'dark' (AIS off) in Arabian Sea / Gulf of Oman in active combat operations posture supporting blockade. CSG-3 with CVW-9 embarked. DDG-121 Frank E. Petersen Jr. and USS Michael Murphy (DDG-112) conducted historic Apr 11 Strait of Hormuz transit — first US warships to transit since war began — for mine-clearing. Peterson deliberately activated AIS as a signal. IRGC radio warning: 'This is the last warning.' Trump's Apr 12 Hormuz blockade took effect Apr 13 14:00 GMT — CENTCOM narrowed scope to Iranian ports only (divergence from Trump's Truth Social threat to all Hormuz traffic). CENTCOM: 'additional U.S. forces, including underwater drones, will join the clearance effort.' IRGC declared any military vessel approaching the Strait a ceasefire violation to be met with 'harsh and decisive' force. WSJ Apr 13: 60%+ of IRGC's naval fleet tasked with Hormuz patrol remains intact — contradicts White House 97% mine elimination claim. Ceasefire on Iran front holds ~144 hours (expires ~Apr 21). Bush CSG approaching Gibraltar — ETA Red Sea Apr 14-18 — will provide 3-CSG capability. Ford at 293 days, breaks post-Vietnam deployment record (294 days, Lincoln 2019-20) ~Apr 14.",
+    "source": "USNI Fleet Tracker, CENTCOM, BBC satellite imagery, DVIDS, WSJ, Apr 13 reporting"
   },
   {
     "id": "cvn-78",
@@ -26,15 +26,15 @@
     "strike_group": "Carrier Strike Group 12",
     "lat": 40.00,
     "lng": 10.00,
-    "area": "Eastern Mediterranean — Departed Split, Croatia April 2 after fire repairs; heading toward CENTCOM AOR",
+    "area": "Eastern Mediterranean — SW of Cyprus — extended deployment nearing post-Vietnam record",
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye",
     "escorts": ["DDG-96 USS Bainbridge", "DDG-72 USS Mahan", "DDG-81 USS Winston S. Churchill"],
-    "status": "RETURNING TO THEATER — DEGRADED",
-    "mission_summary": "Suffered non-combat laundry room fire Mar 12; repaired in Croatia; departed Split Apr 2 heading toward CENTCOM AOR",
+    "status": "EXTENDED DEPLOYMENT — NEARING RECORD",
+    "mission_summary": "Extended deployment in Eastern Mediterranean — 293 days, breaks post-Vietnam record ~Apr 14",
     "deployed_since": "2025-05-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 44: Ford underway in the Eastern Mediterranean after departing Split, Croatia on April 2 following fire damage repairs. Deployed 292 days as of April 12 — just 2 days short of breaking the post-Vietnam carrier deployment record of 294 days (set by Lincoln in 2019-20). Record will break ~April 14. Fire on March 12 treated 200+ sailors for smoke inhalation and damaged 600 sleeping berths. Operational status remains degraded. Multiple sources suggest Ford may be heading home but the Islamabad collapse Apr 12 and Trump's Hormuz blockade declaration could change plans. Status fluid. Bush CSG approaching Gibraltar — ETA Red Sea Apr 14-18.",
-    "source": "USNI News, USNI Fleet Tracker, Apr 12 reporting"
+    "notes": "Day 45: Ford in Eastern Mediterranean southwest of Cyprus. Deployed 293 days as of April 13 — 1 day short of breaking the post-Vietnam carrier deployment record of 294 days (set by Lincoln in 2019-20). Record will break ~April 14. Bush CSG has deployed to relieve Ford. March 12 fire treated 200+ sailors for smoke inhalation and damaged 600 sleeping berths. Trump's Apr 12 Hormuz blockade declaration and Islamabad collapse may influence timing of relief. Status fluid. Bush CSG (CVN-77) at/approaching Gibraltar — ETA Red Sea Apr 14-18.",
+    "source": "USNI News, USNI Fleet Tracker, Apr 13 reporting"
   },
   {
     "id": "cvn-77",
