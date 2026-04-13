@@ -89,25 +89,64 @@ BRIEFING CREATION
 After all data file updates, create the daily intelligence briefing. This is
 a required step in every daily update.
 
-**Step 1: Create the briefing HTML file**
-- Read the previous day's briefing at `public/data/briefings/day-[N-1].html`
-  to match its structure and formatting conventions.
-- Create `public/data/briefings/day-[N].html` with Day [N] content.
-- The briefing should synthesize the day's manifest into an analytical narrative
-  with these sections (in order):
-  1. `briefing-header` — title, date line ("MARCH XX, 2026 — DAY N"), disclaimer
-  2. `Situation Summary` — 2-3 paragraphs summarizing the day's most significant
-     developments, written as analytical prose (not bullet points)
-  3. `Key Developments` — bulleted list of 10-15 headline items with bold leads
-  4. Thematic analysis sections (3-4 sections) — pick the day's dominant themes
-     (e.g., "The Energy War", "Naval Posture", "Diplomacy", "Humanitarian").
-     Each gets its own `briefing-section` div with an `<h3>` title and 1-3
-     paragraphs of analytical prose.
-  5. `What to Watch` — 5-7 forward-looking items in bullet format
-  6. Sources footer — list all sources cited, with standard disclaimer
-- Use HTML entities for special characters (&amp; &euro; etc.)
-- Match the CSS class conventions from previous briefings (`briefing-section`,
-  `briefing-header`, `briefing-date`, etc.)
+**Step 1: Create the briefing HTML file — COPY-THEN-EDIT ONLY**
+
+MANDATORY STRATEGY: Never draft the briefing HTML from scratch. Writing a full
+briefing via `Write` or by generating a large block of HTML in a single tool
+call is a known failure mode — it routinely times out and produces
+structural regressions (missing `</div>`, wrong class names, broken entity
+encoding, etc.). Use the copy-then-edit pattern below exactly as written.
+
+1. **Copy the previous day's briefing as the scaffold:**
+   ```
+   cp public/data/briefings/day-[N-1].html public/data/briefings/day-[N].html
+   ```
+   This is the first action of briefing creation. The template already
+   contains every class, div, entity, and structural convention the
+   dashboard expects. Do not attempt to write the file with `Write`.
+
+2. **Commit the scaffold immediately (checkpoint):**
+   ```
+   git add public/data/briefings/day-[N].html
+   git commit -m "intel update: Day [N] — YYYY-MM-DD (briefing scaffold from day-[N-1])"
+   git push origin <branch>
+   ```
+   This preserves the scaffold on the remote so that, if the session times
+   out mid-edit, the next iteration can resume without redoing the copy.
+
+3. **Edit the scaffold one section at a time using the `Edit` tool:**
+   - Update the date line: `DAY [N-1]` → `DAY [N]`, and the month/day.
+   - Replace the `Situation Summary` paragraphs (2–3 analytical paragraphs).
+   - Replace the `Key Developments` bullet list (10–15 items, bold leads).
+   - Replace / rename each thematic `briefing-section` (3–4 sections).
+     Keep the wrapping `<div class="briefing-section">...</div>` and
+     `<h3>` element; change only the heading text and the `<p>` content.
+   - Replace the `What to Watch` bullet list (5–7 forward-looking items).
+   - Refresh the sources footer to reflect Day [N]'s actual sources.
+   - **Checkpoint commit after every 1–2 section replacements.** Push each
+     commit. This prevents losing work if the session terminates.
+
+4. **Structural rules that MUST hold:**
+   - Exactly one `briefing-header` div, containing the `briefing-date`.
+   - 5–7 `briefing-section` divs total (1 Summary + 1 Key Developments +
+     3–4 Thematic + 1 What to Watch).
+   - Sources footer at the bottom, styled with the same inline `style`
+     attribute as the previous day.
+   - Use HTML entities for special characters (`&amp; &mdash; &ldquo;
+     &rdquo; &lsquo; &rsquo; &euro;` etc.) — copy the pattern from the
+     scaffold; do not invent new encodings.
+   - If a thematic section from Day [N-1] is no longer relevant, replace
+     its content (heading + paragraphs) rather than deleting the div.
+     If you need to remove a section, delete the entire
+     `<div class="briefing-section">...</div>` block as a single `Edit`.
+
+5. **Validation before final push:**
+   ```
+   grep -c 'briefing-section' public/data/briefings/day-[N].html
+   ```
+   Expect the count to match Day [N-1] ± your intentional additions/removals.
+   Open the file and verify the top line is `<div class="briefing-header">`
+   and the bottom closing `</div>` is intact.
 
 **Step 2: Update the briefing index**
 - Append a new entry to `public/data/briefings/index.json`:
