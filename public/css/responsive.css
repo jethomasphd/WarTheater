@@ -199,6 +199,49 @@
   .about-lede p:first-child {
     font-size: var(--text-lg);
   }
+
+  /* Contributors */
+  .contrib-container {
+    padding: var(--space-xl) var(--space-md) 60px;
+  }
+
+  .contrib-header h2 {
+    font-size: var(--text-2xl);
+  }
+
+  .contrib-subhead {
+    font-size: var(--text-base);
+  }
+
+  .contrib-manifest {
+    grid-template-columns: 1fr;
+    padding: var(--space-md);
+  }
+
+  .contrib-member {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+    padding: var(--space-xl) 0;
+  }
+
+  .member-portrait-col {
+    max-width: 280px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .member-name {
+    font-size: var(--text-xl);
+  }
+
+  .member-bio p {
+    font-size: var(--text-sm);
+    line-height: 1.8;
+  }
+
+  .monogram-letters {
+    font-size: 4.5rem;
+  }
 }
 
 /* === SMALL MOBILE (<480px) === */
