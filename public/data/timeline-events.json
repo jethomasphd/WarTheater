@@ -4012,5 +4012,113 @@
     "category": "summary",
     "source": "Multiple",
     "data_point": "~$50.85B — Islamabad talks collapse (21 hours) — Trump declares Hormuz blockade — ceasefire expires ~Apr 22 — 3 CSGs converging — war approval 34%"
+  },
+  {
+    "date": "2026-04-13",
+    "time": "06:00",
+    "title": "Trump says ceasefire 'holding well' — 'their whole navy is under water'",
+    "description": "Trump told reporters the ceasefire is 'holding well' and that 'their military is destroyed, their whole navy is under water.' The ceasefire on the Iran front has now held for approximately 144 hours (since April 7-8), with zero confirmed new U.S./Israeli strikes on Iranian territory and zero Iranian retaliation strikes on April 12-13. The Lavan Oil Refinery strike on April 11 remains the most recent alleged violation, with unclear attribution. However, WSJ reports 60%+ of IRGC's naval fleet tasked with Hormuz patrol remains intact, contradicting White House claims of 97% mine elimination and 150 ships sunk.",
+    "category": "diplomatic",
+    "source": "Trump press comments / WSJ / CENTCOM",
+    "data_point": "Ceasefire holds ~144 hours — Trump: 'holding well' — WSJ: 60%+ IRGC naval fleet still intact contradicts WH 97% claim"
+  },
+  {
+    "date": "2026-04-13",
+    "time": "08:00",
+    "title": "Pope Leo XIV departs for Africa — 'Blessed are the peacemakers'",
+    "description": "Pope Leo XIV departed Rome for an 11-day Africa trip on April 13. On the papal plane he pushed back on Trump's attacks: 'I will not enter into debate... I have no fear of neither the Trump administration nor of speaking out loudly about the message of the Gospel. Blessed are the peacemakers.' Trump had attacked the Pope on Truth Social Apr 12: 'Pope Leo is WEAK on Crime, and terrible for Foreign Policy... If I wasn't in the White House, Leo wouldn't be in the Vatican.' Pope Leo XIV (Robert Francis Prevost, first U.S.-born pope, elected May 2025) had led a 10,000-person Prayer Vigil for Peace in St. Peter's Basilica on April 11, warning of the 'delusion of omnipotence' fueling war.",
+    "category": "diplomatic",
+    "source": "Vatican News / papal plane press conference / Reuters / Trump Truth Social",
+    "data_point": "Pope departs Rome for 11-day Africa trip — responds to Trump: 'Blessed are the peacemakers' — 'no fear of Trump administration'"
+  },
+  {
+    "date": "2026-04-13",
+    "time": "09:00",
+    "title": "UK declines to join blockade — coalition support thin",
+    "description": "International coalition support for Trump's Hormuz blockade has been thin. The United Kingdom explicitly declined to participate, with PM Starmer stating Britain is 'not getting dragged into the war.' Australia said it hasn't been asked. EU Commission President von der Leyen called freedom of navigation of 'paramount importance' and noted EU fossil fuel import costs increased by €22 billion in 44 days. China urged both sides not to reignite war. Spain's defense minister called the blockade 'one more episode in this whole downward spiral.' Netanyahu endorsed the blockade and warned the ceasefire 'could end at any moment.' Israeli opposition leader Yair Lapid called the ceasefire the worst-ever 'diplomatic disaster.'",
+    "category": "diplomatic",
+    "source": "UK government / Starmer / Australian government / von der Leyen / Spain MoD / Netanyahu / Lapid",
+    "data_point": "UK declines — Starmer: 'not getting dragged into the war' — Australia not asked — EU fossil fuel imports +€22B in 44 days — Netanyahu endorses"
+  },
+  {
+    "date": "2026-04-13",
+    "time": "10:00",
+    "title": "CENTCOM narrows blockade scope to Iranian ports only — divergence from Trump",
+    "description": "A critical discrepancy emerged between Trump's Truth Social blockade declaration and CENTCOM's operational order. CENTCOM's official statement narrowed the scope significantly: the blockade applies only to ships entering or exiting Iranian ports, and 'will not impede freedom of navigation for vessels transiting the Strait of Hormuz to and from non-Iranian ports.' Al Jazeera's correspondent flagged 'conflicting information' between the two statements. This matters enormously — Trump's version threatens all Hormuz traffic; CENTCOM's protects non-Iranian commerce. CENTCOM announced 'additional U.S. forces, including underwater drones, will join the clearance effort.'",
+    "category": "military",
+    "source": "CENTCOM / Trump Truth Social / Al Jazeera",
+    "data_point": "CENTCOM: blockade limited to Iranian ports only — not all Hormuz traffic — operationally significant divergence from Trump announcement"
+  },
+  {
+    "date": "2026-04-13",
+    "time": "11:00",
+    "title": "Markets open sharply lower — oil breaks $100 — VIX spikes 11%",
+    "description": "April 13 is a regular trading day (Monday, no holiday). Markets opened with a clear risk-off tone driven by the failed talks and blockade announcement. S&P 500 ~6,775-6,781 (-0.5% to -0.6%). Brent Crude ~$102-103/bbl (+7.3%). WTI $97-105/bbl wide intraday range (+5-8%). Gold spot ~$4,724/oz (-0.6%). VIX 21.30 (+10.8%). DXY 99.03 (+0.4%). 10Y Treasury 4.317% (+2 bps). Bitcoin ~$70,900 (-2.7% to -3.0%). Energy stocks surged: XOM traded at $157.61 overnight (+3.3%), CVX at $192.39 (+2.0%). Defense mixed: LMT $607-$627, RTX ~$201. Airlines diverged: DAL $64.00 (+0.3%), UAL $91.35 (-1.3%). Goldman Sachs missed on FICC in Q1 earnings, -4% premarket. AAA national average gas: $4.125/gallon. California leads at $5.89; Oklahoma $3.27. Markets now price only ~30% probability of a rate cut by December.",
+    "category": "financial",
+    "source": "NYSE / Bloomberg / CNBC / AAA / Goldman Sachs",
+    "data_point": "S&P -0.5-0.6% ~6,775-6,781 — Brent ~$103 (+7.3%) — WTI $97-105 — VIX 21.30 (+10.8%) — Gold $4,724 — gas $4.125 — rate cut probability ~30%"
+  },
+  {
+    "date": "2026-04-13",
+    "time": "12:00",
+    "title": "IDF captures Bint Jbeil — 100+ Hezbollah killed — Red Cross paramedic killed by drone",
+    "description": "The IDF reports it is close to capturing Bint Jbeil, Hezbollah's historic stronghold, with 100+ Hezbollah operatives killed in the battle. Sirens sounded across the Galilee for Hezbollah drone attacks including near Acre — IDF shot down several drones. A Lebanese Red Cross paramedic was killed by an Israeli drone that 'directly targeted' the team (NBC News). April 12 saw Hezbollah launch ~20 rockets at northern Israel plus drone attacks on Kfar Yuval, Yir'on, and Kiryat Shmona (1:20 AM barrage); the IDF raided Bint Jbeil Governmental Hospital, killing ~20 Hezbollah operatives. Netanyahu visited southern Lebanon with Defense Minister Katz and IDF Chief Zamir, declaring 'the war continues.' Katz announced Operation 'Silver Plough' to demolish homes along the border. Israeli forces rammed UNIFIL vehicles with a Merkava tank on two occasions. Lebanon cumulative (Lebanon Public Health Emergency Operation Center via CGTN): 2,055 killed, 6,588 wounded — up from 2,020/6,436 on Day 44.",
+    "category": "military",
+    "source": "IDF / Netanyahu / Katz / NBC News / Lebanon Public Health EOC / CGTN / UNIFIL",
+    "data_point": "IDF near capture of Bint Jbeil — 100+ Hezbollah killed — Operation 'Silver Plough' announced — Red Cross paramedic killed — Lebanon 2,055 killed / 6,588 wounded"
+  },
+  {
+    "date": "2026-04-13",
+    "time": "13:00",
+    "title": "Lebanon-Israel talks Apr 15 confirmed — but Israel rules out ceasefire",
+    "description": "Lebanon-Israel talks remain confirmed for Tuesday, April 15 at the U.S. State Department. Israeli Ambassador Leiter and Lebanese Ambassador Moawad held their first-ever phone call on April 10-11, with a preparatory virtual meeting on April 12. However, Israel insists the talks will NOT include a ceasefire — Leiter stated 'Israel refused to discuss a ceasefire with the Hezbollah terrorist organisation.' Hezbollah's parliamentary bloc rejected direct talks with Israel. Lebanese PM Salam postponed a planned U.S. trip and has demanded a ceasefire as a precondition. Iran and Pakistan insist Lebanon was included in the ceasefire; Israel and U.S. (VP Vance: 'we never made that promise') reject this. CBS News reported Trump initially agreed to include Lebanon but reversed after a call with Netanyahu.",
+    "category": "diplomatic",
+    "source": "Leiter / Moawad / Israeli/Lebanese embassies / State Department / VP Vance / CBS News",
+    "data_point": "Apr 15 State Dept talks confirmed — Israel rules out ceasefire — Hezbollah rejects direct talks — Salam demands ceasefire as precondition"
+  },
+  {
+    "date": "2026-04-13",
+    "time": "14:00",
+    "title": "US naval blockade of Iranian ports takes effect 14:00 GMT",
+    "description": "Trump's US naval blockade of Iranian ports takes effect at 14:00 GMT April 13, approximately 24 hours after the Islamabad talks collapsed. The IRGC warned that military vessels approaching the strait 'will be considered a violation of the ceasefire and will be met with severe force.' Iran's armed forces called the blockade 'an illegal act amounting to piracy.' Parliament Speaker Ghalibaf posted Washington gas station prices on social media, taunting: 'Enjoy the current pump figures... Soon you'll be nostalgic for $4-$5 gas.' Senior military adviser Mohsen Rezaei said Iran's forces have 'major untouched levers' and would not be coerced by 'tweets and imaginary plans.' IRGC: 'Security in the Persian Gulf and the Sea of Oman is either for everyone or for NO ONE' / 'NO PORT in the region will be safe.' IRGC also warned that if Trump acts on Hormuz, 'he will also lose the Bab el-Mandeb Strait.'",
+    "category": "military",
+    "source": "Trump Truth Social / IRGC / Iranian armed forces / Ghalibaf X / Mohsen Rezaei",
+    "data_point": "Blockade effective 14:00 GMT — IRGC: 'harsh and decisive force' against military vessels — Iran calls it 'piracy' — threats extend to Bab el-Mandeb"
+  },
+  {
+    "date": "2026-04-13",
+    "time": "15:00",
+    "title": "Iran casualty figures show nearly 4x spread across sources",
+    "description": "Iranian civilian and military casualty figures remain deeply contested. Iran Health Ministry (official): ~2,000+ killed — widely seen as understated. HRANA (U.S.-based NGO) Apr 7: 3,636 total (1,701 civilians, 1,221 military) — named verification. Hengaw (Norway-based) Apr 8: 7,650 total (1,030 civilians, 6,620 military) — field reporting, more than double HRANA driven almost entirely by military casualty estimates. IDF claims 6,000+ IRGC killed. Iran's internet blackout severely limits independent verification. HRANA acknowledges military casualties are 'significantly higher' than its confirmed count. The gap between these figures is a nearly 4x spread. OCHA reports 115,193 civilian units damaged, 763 schools, 334 health/emergency centers as of April 3. The Pasteur Institute was severely damaged. WHO verified 23 attacks on healthcare in Iran. Iran executed at least 14 protesters between Mar 17 and Apr 6 including teen wrestler Saleh Mohammadi and 18-year-old Amir Hossein Hatami (Hengaw).",
+    "category": "humanitarian",
+    "source": "Iran Health Ministry / HRANA / Hengaw / IDF / OCHA / WHO",
+    "data_point": "Iran casualties: Health Min ~2,000 / HRANA 3,636 / Hengaw 7,650 / IDF 6,000+ IRGC — nearly 4x spread — 115,193 civilian units damaged — 14 protesters executed"
+  },
+  {
+    "date": "2026-04-13",
+    "time": "16:00",
+    "title": "Trump approval craters to second-term lows — 61% disapprove Iran handling",
+    "description": "Trump's approval ratings have cratered to second-term lows. Pew Research (March 16-22) found 61% disapprove of his handling of the Iran conflict; only 37% approve. Six in ten Americans say striking Iran was the 'wrong decision.' Only 29% say the war has been 'worth the toll' — compared to 59% for the Iraq War in 2003. YouGov/Economist net approval at -19 to -23; Reuters/Ipsos at 36% approval; Fox News at 59% disapproval. UMass Lowell analyst called it 'an unmitigated public-opinion disaster.' Democrats lead the generic ballot 47.5% to 41.8%. At least 8 War Powers Resolution votes have failed (47-53 in Senate; only Rand Paul crosses the aisle). Pentagon is requesting ~$200B in war funding — 71% of Americans oppose. Key Republican dissenters: Collins, Rand Paul, Massie. MAGA critics include Tucker Carlson, Megyn Kelly, Marjorie Taylor Greene (Greene: 'Trump was elected to go to war against America's deep state... Not to kill an entire civilization').",
+    "category": "political",
+    "source": "Pew Research / YouGov/Economist / Reuters/Ipsos / Fox News / UMass Lowell / CNN / Greene",
+    "data_point": "Pew: 61% disapprove Iran handling / 37% approve — 29% say worth toll (vs 59% Iraq 2003) — Dems lead generic ballot 47.5-41.8% — 71% oppose $200B"
+  },
+  {
+    "date": "2026-04-13",
+    "time": "17:00",
+    "title": "Humanitarian access collapsing — WHO Dubai hub ON HOLD",
+    "description": "Humanitarian access is collapsing. WHO's Dubai logistics hub — the global health emergency hub — is on hold due to regional insecurity, delaying 50+ emergency supply requests from 25 countries. The Strait of Hormuz closure disrupted 80%+ of GCC food imports. UNHCR has issued an $80 million appeal for 2.8 million affected people in Iran. Iran has 3.2 million+ internally displaced (compounded by severe flooding in 24 provinces). Lebanon's 1.2 million+ displaced represents 14% of the population; 200,000+ have fled into Syria. 55,500 Afghan refugees returned to Afghanistan from Iran. Lebanon infrastructure crisis: Nine bridges over the Litani River have been destroyed, severing southern Lebanon from the north. The sole remaining lifeline — Qasmieh Bridge — serves 71,000+ people in the Tyre area. Fifty primary health care centers and 5 hospitals closed. WHO documented 77 attacks on healthcare in Lebanon with 53 health worker deaths. Food prices spiking: vegetables up 20%+, bread up 17% in one month.",
+    "category": "humanitarian",
+    "source": "WHO / UNHCR / OCHA / UNICEF / IFRC",
+    "data_point": "WHO Dubai hub on hold — 50+ supply requests delayed — 80%+ GCC food imports disrupted — UNHCR $80M appeal — 9 Litani bridges destroyed — 77 healthcare attacks Lebanon"
+  },
+  {
+    "date": "2026-04-13",
+    "time": "18:00",
+    "title": "Day 45 summary — next 48 hours most dangerous moment of ceasefire",
+    "description": "Day 45 marks the convergence of three factors making the next 48 hours the most dangerous since the April 7 ceasefire: the failed Islamabad talks, the Hormuz blockade activation at 14:00 GMT, and the IRGC's explicit warning that military vessels in the Strait will trigger a forceful response. The ceasefire itself expires around April 21 with no mechanism to extend it. Israel's continued devastation of Lebanon further destabilizes the fragile truce framework, as Iran has explicitly linked any final deal to a Lebanon ceasefire that the U.S. and Israel categorically reject. The April 15 Lebanon-Israel talks at State may offer a thin diplomatic thread, but both sides enter with fundamentally incompatible preconditions. Economically, oil above $100, gas at $4.125, inflation at 3.3%, and a VIX spiking to 21 all signal markets are pricing in renewed escalation rather than resolution. Key variable to watch: whether the IRGC actually fires on U.S. vessels enforcing the blockade — or whether the Iranian threat, like many before it, proves to be rhetorical rather than kinetic. Ford deployment at 293 days — breaks post-Vietnam record ~Apr 14. Bush CSG at/approaching Gibraltar. 60-day War Powers deadline Apr 29 — 16 days.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "~$51.75B — Blockade effective 14:00 GMT — IRGC warns 'harsh and decisive' force — ceasefire expires ~Apr 21 — Ford breaks post-Vietnam record ~Apr 14 — WPR deadline 16 days"
   }
 ]
