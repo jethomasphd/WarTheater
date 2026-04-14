@@ -4120,5 +4120,104 @@
     "category": "summary",
     "source": "Multiple",
     "data_point": "~$51.75B — Blockade effective 14:00 GMT — IRGC warns 'harsh and decisive' force — ceasefire expires ~Apr 21 — Ford breaks post-Vietnam record ~Apr 14 — WPR deadline 16 days"
+  },
+  {
+    "date": "2026-04-14",
+    "time": "06:00",
+    "title": "Blockade's first full day — only 3 vessels transit Hormuz, none to Iranian ports",
+    "description": "The US naval blockade completed its first full day of operations. Only 3 commercial vessels transited the Strait of Hormuz — none of them bound for Iranian ports, meaning the blockade was NOT directly tested. The three ships: Rich Starry (Chinese-owned, Malawi-flagged, US-sanctioned, carrying 250,000 barrels of methanol — initially turned back near Qeshm Island before passing overnight); Murlikishan (US-sanctioned, has carried Russian/Iranian oil); and Peace Gulf (Panama-flagged, heading to UAE via an IRGC-ordered route). Pre-war ~140 ships/day. 600-800 vessels remain stranded in the Gulf, including 325 tankers and ~147 containerships (~470K TEU). An estimated 20,000 seafarers are trapped on ships. Dark vessel activity remains elevated: 3 non-AIS tankers observed berthing at Iranian ports, 14 non-AIS vessels in port waiting areas. CENTCOM established new routing to be shared with the maritime industry. Mine clearance continues via USS Pioneer and USS Chief dispatched from Singapore. Blockade estimated to cost Iran ~$435M/day (FDD).",
+    "category": "military",
+    "source": "CENTCOM / Windward Maritime AI / Lloyd's List / FDD / Adm. Brad Cooper",
+    "data_point": "Only 3 Hormuz transits Apr 14 (Rich Starry, Murlikishan, Peace Gulf) — none to Iranian ports — blockade NOT directly tested — 600-800 vessels stranded — blockade costs Iran ~$435M/day"
+  },
+  {
+    "date": "2026-04-14",
+    "time": "08:00",
+    "title": "IEA April OMR: Largest oil supply disruption in history — 10.1 mb/d March loss",
+    "description": "The International Energy Agency released its April Oil Market Report, confirming the LARGEST OIL SUPPLY DISRUPTION IN HISTORY. Global supply fell 10.1 mb/d in March to 97 mb/d. Hormuz throughput collapsed to 3.8 mb/d (from >20 mb/d pre-war — an 80%+ decline). IEA Director Fatih Birol: 'Worse than 1973, 1979, and 2022 combined.' The IEA projects the steepest quarterly demand decline since COVID — Q2 demand to fall 1.5 mb/d y/y. Cumulative supply losses exceed 360 million barrels in March with 440 million projected for April. Russia's oil revenues nearly doubled to $19B in March as buyers scrambled for alternatives to Gulf crude. The IEA now projects global oil demand will DECLINE 80,000 b/d in 2026 versus a prior forecast of +730,000 b/d growth — a swing of 810,000 b/d. US Energy Secretary Chris Wright stated prices will remain elevated until 'meaningful ship traffic' returns to Hormuz.",
+    "category": "financial",
+    "source": "IEA April Oil Market Report / Fatih Birol / Chris Wright",
+    "data_point": "IEA: 10.1 mb/d March supply loss — largest in history — Hormuz 3.8 mb/d (80%+ decline) — Birol: 'Worse than 1973, 1979, 2022 combined' — 2026 demand swung -810K b/d"
+  },
+  {
+    "date": "2026-04-14",
+    "time": "10:00",
+    "title": "Oil retreats on diplomatic hopes — WTI $95.94 (-3.2%), Brent $97.20 (-2.2%)",
+    "description": "Oil prices retreated sharply as both sides signaled willingness to resume talks. WTI settled near $95.94/bbl (-3.2%); Brent near $97.20/bbl (-2.2%). The pullback unwinds most of Monday's blockade-driven spike. Pre-war Brent was ~$73/bbl. Wartime peak hit nearly $150/bbl in physical markets and ~$118-119 in futures during the most intense Hormuz closure period. AAA national gas average fell 4 cents to $4.118/gal. California leads at $5.89; Oklahoma lowest at $3.27. CNN reported the US and Iran are 'discussing details for a potential second in-person meeting.' Pakistan PM Sharif and Army Chief Asim Munir are working to host Round 2 in Islamabad before the ceasefire expires April 22. Turkey and Qatar are working to bridge gaps.",
+    "category": "financial",
+    "source": "NYMEX / ICE / AAA / CNN / Reuters",
+    "data_point": "WTI $95.94 (-3.2%), Brent $97.20 (-2.2%) — gas $4.118 (-$0.04) — US-Iran 'discussing Round 2 Islamabad' — Pakistan + Turkey + Qatar mediating"
+  },
+  {
+    "date": "2026-04-14",
+    "time": "11:00",
+    "title": "S&P 500 erases all war losses — VIX at 18.4 lowest since war began",
+    "description": "Wall Street bet decisively on resolution. The S&P 500 closed near 6,917 (+0.4%) — ERASING ALL LOSSES since the war began February 28. The Nasdaq rose 0.7-1.0%, logging its 10th consecutive up day. Dow ~48,300 (+0.2%); Russell 2000 ~2,710 (+1.5%). VIX dropped to ~18.4 (-3.9%) — its lowest level since the war began (peak was 31.05 on March 27). 10Y Treasury 4.29-4.30% (-0.02); DXY ~97.9-98.0 (-0.3%) near 1.25-month low; Gold ~$4,748-4,761 (+0.3%), down ~10% since war began. Bank earnings drove optimism: Citigroup and Goldman Sachs beat Q1 estimates. March PPI came in well below expectations (+0.5% vs 1.1% est.; core +0.1% vs 0.5% est.) easing stagflation fears. However, March CPI had printed 3.3% annually with gasoline's +21.2% monthly surge. University of Michigan consumer sentiment hit a record low in April — below both Great Recession and COVID lows. The Fed holds rates at 3.5-3.75% with markets pricing almost no chance of a cut at the April 28-29 FOMC meeting. Energy stocks fell: XOM ~$153-155 (-1-2%), CVX similar pattern. LMT flat ~$623-627; RTX flat ~$203 (record $268B backlog, YTD +40%). Airlines fell: DAL ~$63-65 (-2%+), UAL ~$95 (-1.2%); AAL +4% on merger proposal boost.",
+    "category": "financial",
+    "source": "NYSE / Bloomberg / CNBC / BLS / Federal Reserve / University of Michigan",
+    "data_point": "S&P ~6,917 (+0.4%) ERASES ALL WAR LOSSES — Nasdaq 10th straight up day — VIX 18.4 (-3.9%) lowest since war began — UMich sentiment record low — rate cut ~0% at Apr 28-29 FOMC"
+  },
+  {
+    "date": "2026-04-14",
+    "time": "12:00",
+    "title": "Thousands rally in Tehran against US blockade — 'piracy' condemnation",
+    "description": "Thousands rallied in Tehran against the US blockade in a pro-government demonstration accusing the United States of piracy. Iran's armed forces and parliament have both denounced the blockade as 'an illegal act amounting to piracy.' IRGC spokesman Brig. Gen. Hossein Mohebi warned Tehran could unveil 'new forms of warfare' and 'unused capabilities.' The IRGC Navy reiterated that any military vessel approaching the Strait would be treated as a ceasefire violation and met with a 'severe response.' No Iranian retaliatory strikes occurred April 13-14 but rhetoric escalated sharply. No Houthi attacks reported in the 48-hour window; Houthis have not resumed Red Sea shipping attacks but have not ruled out closing Bab el-Mandeb if hostilities resume.",
+    "category": "political",
+    "source": "Iranian state media / IRGC (Brig. Gen. Hossein Mohebi) / Iran armed forces / Reuters",
+    "data_point": "Tehran rally condemns blockade as piracy — IRGC Mohebi: 'new forms of warfare,' 'unused capabilities' — no Iran retaliation Apr 13-14 but rhetoric escalated — Houthis quiescent"
+  },
+  {
+    "date": "2026-04-14",
+    "time": "13:00",
+    "title": "Battle of Bint Jbeil Day 5-6 — IDF 98th Division within 300-400m of stadium",
+    "description": "The Battle of Bint Jbeil continued for a fifth-sixth day. The IDF 98th Division approached within 300-400m of the Bint Jbeil stadium — the site of Hassan Nasrallah's famous 2000 'spider's web' speech. An estimated 100+ Hezbollah fighters have been killed in the battle, with dozens remaining active. The IDF raided a hospital where armed Hezbollah operatives were sheltering. Apr 13: 2 IDF soldiers moderately wounded and 6 lightly wounded by a Hezbollah drone attack in southern Lebanon. A woman was injured in Nahariya, northern Israel, by a Hezbollah rocket. An ICRC center was struck in Tyre, killing one person. Hezbollah Secretary-General Naim Qassem rejected the April 15 Israel-Lebanon talks as 'pointless' and 'a free concession.' Lebanon cumulative toll: 2,089+ killed (+34 from Apr 13), 6,762+ wounded (+174 from Apr 13). IDF forced evacuation orders now cover ~14% of Lebanon's territory (1,470 sq km).",
+    "category": "military",
+    "source": "IDF 98th Division / Naim Qassem / ICRC / Lebanon Public Health EOC",
+    "data_point": "Battle of Bint Jbeil Day 5-6 — IDF 98th within 300-400m of Nasrallah 'spider's web' stadium — 100+ Hezbollah killed — Qassem rejects Apr 15 talks as 'pointless' — Lebanon 2,089+ killed"
+  },
+  {
+    "date": "2026-04-14",
+    "time": "14:00",
+    "title": "China condemns blockade — France announces 'peaceful multinational mission' for Hormuz",
+    "description": "International reaction to the blockade continued to harden. China called the blockade 'dangerous and irresponsible' and demanded a comprehensive ceasefire. France announced preparations for a 'peaceful multinational mission aimed at restoring freedom of navigation' in the Strait of Hormuz — explicitly separate from US belligerent operations and potentially representing a significant third-party intervention that could reshape the strait's dynamics. The EU had already called freedom of navigation 'paramount'; von der Leyen noted EU fossil fuel import costs have risen by &euro;22B in 44 days. Spain's defense minister called the blockade 'one more episode in this whole downward spiral.' The UK had previously declined to participate (Starmer: 'not getting dragged into the war'); Australia said it had not been asked.",
+    "category": "diplomatic",
+    "source": "China MFA / French government / EU Commission / Spain MoD",
+    "data_point": "China: blockade 'dangerous and irresponsible' — France announces 'peaceful multinational mission' for Hormuz (separate from US) — UK, Australia remain out"
+  },
+  {
+    "date": "2026-04-14",
+    "time": "15:00",
+    "title": "Congress returns from recess — Democrats prepare war powers votes this week",
+    "description": "Congress returned from its two-week recess. Democrats plan to force votes on Iran war powers resolutions this week — the first since Congress narrowly rejected resolutions in early March (47-53 Senate, 219-212 House). Key swing Republicans: Sens. Collins (ME) and Curtis (UT) have signaled openness to requiring authorization beyond 60 days. Sen. Rand Paul (R-KY) is co-sponsoring the Democratic measure. The swearing-in of Rep.-elect Clay Fuller (R-GA, replacing expelled MTG) gives Speaker Johnson a thin 2-vote margin. The 60-day War Powers deadline falls on April 29 — 15 days away. The Pentagon's $200 billion supplemental request has not yet been formally submitted; 71% of Americans oppose the spending. Rep. Lauren Boebert declared she is 'a no on any war supplemental.' The DHS partial government shutdown entered Day 66 — the longest in US history.",
+    "category": "political",
+    "source": "US Congress / Collins / Curtis / Paul / Johnson / Boebert",
+    "data_point": "Congress returns — Dem WPR votes this week — swing Rs: Collins, Curtis, Paul — Fuller (R-GA) sworn in gives Johnson 2-vote margin — WPR deadline Apr 29 (15 days) — DHS shutdown Day 66"
+  },
+  {
+    "date": "2026-04-14",
+    "time": "16:00",
+    "title": "Ford breaks post-Vietnam deployment record — Bush CSG enters Mediterranean",
+    "description": "USS Gerald R. Ford (CVN-78) has broken the post-Vietnam carrier deployment record, passing 294 days at sea (previous record: USS Abraham Lincoln 2019-20). Ford remains in the Eastern Mediterranean providing Epic Fury support and Red Sea/Lebanon coverage. USS George H.W. Bush (CVN-77) entered the Mediterranean ~April 13, providing the third carrier reinforcement. USNI Fleet Tracker data as of April 13: Navy maintains a three-carrier posture with 291 total Battle Force ships (232 USS, 59 USNS), 105 deployed, 86 underway. USS Abraham Lincoln (CVN-72) remains the primary Epic Fury strike carrier in the Arabian Sea/Persian Gulf. USS Tripoli (LHA-7) ARG continues operational in CENTCOM AOR. Mine clearance operations are being conducted by USS Pioneer and USS Chief, dispatched from Singapore. CENTCOM commander Adm. Brad Cooper stated forces are establishing 'a new passage' through the strait for commercial traffic and will share routing with the maritime industry.",
+    "category": "military",
+    "source": "USNI Fleet Tracker / Pentagon / CENTCOM Adm. Brad Cooper",
+    "data_point": "Ford BREAKS post-Vietnam deployment record (>294 days) — Bush CSG enters Mediterranean ~Apr 13 — three-carrier posture: Lincoln (Gulf) + Ford (Med) + Bush (Med) + Tripoli ARG"
+  },
+  {
+    "date": "2026-04-14",
+    "time": "17:00",
+    "title": "WSJ: Trump considering limited military strikes on Iran as leverage",
+    "description": "The Wall Street Journal reported that Trump and his advisers are considering resuming limited military strikes on Iran as leverage for talks. This has NOT been implemented. The blockade itself is viewed by Iran and multiple analysts as a potential ceasefire violation, with the IRGC explicitly stating that any military vessel approaching the Strait of Hormuz constitutes a breach. Trump's April 13 Fox News interview threatened destruction of Iran's 'water, desalination plans, electric-generating plants.' However, the ceasefire on the Iran front has now held for approximately 168 hours with zero confirmed new US or Israeli strikes on Iranian territory. The April 11 Lavan Oil Refinery strike remains the most recent alleged violation, with attribution unclear.",
+    "category": "military",
+    "source": "Wall Street Journal / Trump Fox News interview",
+    "data_point": "WSJ: Trump considering limited military strikes on Iran as leverage — NOT implemented — Fox News interview threatens water/desalination/power plants — ceasefire ~168 hrs holds"
+  },
+  {
+    "date": "2026-04-14",
+    "time": "18:00",
+    "title": "Day 46 summary — pre-April-22 ceasefire expiration window narrows",
+    "description": "Day 46 is defined by a paradoxical set of developments: US naval blockade of all Iranian ports now operational for 24+ hours (not directly tested); IRGC threats of 'severe response' but no kinetic action; the ongoing Battle of Bint Jbeil in Lebanon; and cautious market optimism as both sides signal willingness to return to Islamabad for a second round of talks before the ceasefire expires April 22. No new strikes hit Iranian territory; the US-Iran ceasefire technically holds. Oil fell 2-3% on diplomatic hopes; the S&P 500 erased all war losses. But the blockade — announced hours after the Islamabad talks collapsed — represents a significant escalation within the ceasefire framework. The ceasefire itself expires in 8 days. France's announced 'peaceful multinational mission' for Hormuz freedom of navigation represents a potential third-party intervention that could reshape strait dynamics. Congress returned from recess with Democrats preparing war powers votes. 60-day War Powers deadline Apr 29 — 15 days away.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "~$52.55B cumulative — oil retreats on diplomatic hopes — S&P erases all war losses — Round 2 Islamabad possible before Apr 22 expiration — blockade not tested — France 'peaceful mission' announced"
   }
 ]

@@ -15,8 +15,8 @@
     "mission_summary": "Primary strike platform — blockade enforcement and Hormuz mine clearance support",
     "deployed_since": "2025-11-21",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 45: BLOCKADE EFFECTIVE 14:00 GMT — IRGC WARNS 'HARSH AND DECISIVE' FORCE. Lincoln operating 'dark' (AIS off) in Arabian Sea / Gulf of Oman in active combat operations posture supporting blockade. CSG-3 with CVW-9 embarked. DDG-121 Frank E. Petersen Jr. and USS Michael Murphy (DDG-112) conducted historic Apr 11 Strait of Hormuz transit — first US warships to transit since war began — for mine-clearing. Peterson deliberately activated AIS as a signal. IRGC radio warning: 'This is the last warning.' Trump's Apr 12 Hormuz blockade took effect Apr 13 14:00 GMT — CENTCOM narrowed scope to Iranian ports only (divergence from Trump's Truth Social threat to all Hormuz traffic). CENTCOM: 'additional U.S. forces, including underwater drones, will join the clearance effort.' IRGC declared any military vessel approaching the Strait a ceasefire violation to be met with 'harsh and decisive' force. WSJ Apr 13: 60%+ of IRGC's naval fleet tasked with Hormuz patrol remains intact — contradicts White House 97% mine elimination claim. Ceasefire on Iran front holds ~144 hours (expires ~Apr 21). Bush CSG approaching Gibraltar — ETA Red Sea Apr 14-18 — will provide 3-CSG capability. Ford at 293 days, breaks post-Vietnam deployment record (294 days, Lincoln 2019-20) ~Apr 14.",
-    "source": "USNI Fleet Tracker, CENTCOM, BBC satellite imagery, DVIDS, WSJ, Apr 13 reporting"
+    "notes": "Day 46: BLOCKADE FIRST FULL DAY — NOT DIRECTLY TESTED. Lincoln operating 'dark' (AIS off) in Arabian Sea / Gulf of Oman in active combat operations posture supporting blockade. CSG-3 with CVW-9 embarked. Blockade's first full day saw only 3 commercial Hormuz transits — none to Iranian ports, so blockade NOT directly tested. Historic Apr 11 transit: USS Frank E. Petersen Jr. (DDG-121) and USS Michael Murphy (DDG-112) for mine-clearing. Mine clearance now via USS Pioneer and USS Chief dispatched from Singapore. CENTCOM: forces establishing 'a new passage' through the strait for commercial traffic. USNI Fleet Tracker Apr 13: three-carrier posture — 291 total Battle Force ships (232 USS, 59 USNS), 105 deployed, 86 underway. IRGC declared any military vessel approaching the Strait a ceasefire violation to be met with 'harsh and decisive' force. No kinetic Iranian action Apr 13-14. WSJ Apr 13: 60%+ of IRGC's naval fleet tasked with Hormuz patrol remains intact. Ceasefire on Iran front holds ~168 hours (expires ~Apr 22). WSJ Apr 14: Trump considering resuming limited strikes on Iran as leverage — NOT implemented. US-Iran discussing potential Round 2 Islamabad before expiration. France announces 'peaceful multinational mission' for Hormuz freedom of navigation — separate from US belligerent operations.",
+    "source": "USNI Fleet Tracker, CENTCOM, WSJ, Apr 14 reporting"
   },
   {
     "id": "cvn-78",
@@ -26,15 +26,15 @@
     "strike_group": "Carrier Strike Group 12",
     "lat": 40.00,
     "lng": 10.00,
-    "area": "Eastern Mediterranean — SW of Cyprus — extended deployment nearing post-Vietnam record",
+    "area": "Eastern Mediterranean — SW of Cyprus — BREAKS post-Vietnam deployment record at 294+ days",
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye",
     "escorts": ["DDG-96 USS Bainbridge", "DDG-72 USS Mahan", "DDG-81 USS Winston S. Churchill"],
-    "status": "EXTENDED DEPLOYMENT — NEARING RECORD",
-    "mission_summary": "Extended deployment in Eastern Mediterranean — 293 days, breaks post-Vietnam record ~Apr 14",
+    "status": "RECORD-BREAKING DEPLOYMENT",
+    "mission_summary": "Extended deployment in Eastern Mediterranean — 294+ days, BREAKS post-Vietnam carrier deployment record",
     "deployed_since": "2025-05-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 45: Ford in Eastern Mediterranean southwest of Cyprus. Deployed 293 days as of April 13 — 1 day short of breaking the post-Vietnam carrier deployment record of 294 days (set by Lincoln in 2019-20). Record will break ~April 14. Bush CSG has deployed to relieve Ford. March 12 fire treated 200+ sailors for smoke inhalation and damaged 600 sleeping berths. Trump's Apr 12 Hormuz blockade declaration and Islamabad collapse may influence timing of relief. Status fluid. Bush CSG (CVN-77) at/approaching Gibraltar — ETA Red Sea Apr 14-18.",
-    "source": "USNI News, USNI Fleet Tracker, Apr 13 reporting"
+    "notes": "Day 46: Ford in Eastern Mediterranean southwest of Cyprus. HAS BROKEN the post-Vietnam carrier deployment record at 294+ days (previous record: USS Abraham Lincoln 2019-20 at 294 days). Bush CSG has entered the Mediterranean ~April 13 providing the third carrier reinforcement, but Ford remains on station supporting Epic Fury and Red Sea/Lebanon coverage. March 12 fire treated 200+ sailors for smoke inhalation and damaged 600 sleeping berths. Three-carrier posture now in place: Lincoln (Arabian Sea), Ford (Eastern Med), Bush (Eastern Med entry).",
+    "source": "USNI News, USNI Fleet Tracker, Apr 14 reporting"
   },
   {
     "id": "cvn-77",
@@ -42,17 +42,17 @@
     "hull": "CVN-77",
     "type": "carrier",
     "strike_group": "Carrier Strike Group 10",
-    "lat": 36.00,
-    "lng": -8.00,
-    "area": "Atlantic — approaching Strait of Gibraltar — CSG-10 with CVW-7; Day 11 from departure Norfolk; ETA Red Sea/Arabian Sea Apr 14-18",
+    "lat": 38.00,
+    "lng": 5.00,
+    "area": "Eastern Mediterranean — entered Med ~Apr 13 via Gibraltar — third carrier reinforcement for Epic Fury",
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye, MH-60R/S Seahawk",
     "escorts": ["DDG-71 USS Ross", "DDG-75 USS Donald Cook", "DDG-87 USS Mason"],
-    "status": "IN TRANSIT — AT/APPROACHING STRAIT OF GIBRALTAR — ETA Red Sea Apr 14-18",
-    "mission_summary": "Transit to CENTCOM AOR — delivers 3-CSG capability alongside Lincoln and Tripoli; may participate in NATO Neptune Strike en route or proceed directly",
+    "status": "DEPLOYED — ENTERED MEDITERRANEAN",
+    "mission_summary": "Third carrier reinforcement for Epic Fury — Eastern Mediterranean — provides 3-CSG posture with Lincoln (Gulf) and Ford (Med)",
     "deployed_since": "2026-03-31",
-    "operation_start_date": null,
-    "notes": "Day 44: Bush departed Norfolk Mar 31, Day 12 from departure. CSG-10 with CVW-7 embarked, commanded by RADM Alexis Walker. Escorts: USS Ross (DDG-71), USS Donald Cook (DDG-75), USS Mason (DDG-87). Based on 2022 precedent (Norfolk to Gibraltar in ~15 days), the strike group is estimated to be at or approaching the Strait of Gibraltar as of Apr 12. No confirmed sighting yet. SOF News Apr 12: 'Another carrier strike group is on the way to the Middle East region... scheduled to arrive mid-April.' Has NOT yet entered the CENTCOM AOR. If transiting Gibraltar Apr 12-14, ETA Red Sea via Suez ~Apr 18-22. Arrival will provide 3 CSGs in theater for first time since early in war — dramatically increasing combat capacity amid Islamabad collapse and Trump's Hormuz blockade announcement. Total battle force: 291 ships (108 deployed, 83 underway).",
-    "source": "USNI Fleet Tracker, SOF News, CBS News, Apr 12 reporting"
+    "operation_start_date": "2026-04-13",
+    "notes": "Day 46: Bush CSG entered the Mediterranean ~April 13 via Gibraltar providing the third carrier reinforcement. CSG-10 with CVW-7 embarked, commanded by RADM Alexis Walker. Escorts: USS Ross (DDG-71), USS Donald Cook (DDG-75), USS Mason (DDG-87). USNI Fleet Tracker Apr 13: 291 total Battle Force ships (232 USS, 59 USNS), 105 deployed, 86 underway. Three-CSG posture now in place for first time since early in war: Lincoln (Arabian Sea/Gulf), Ford (Eastern Med — breaking post-Vietnam record), Bush (entering Eastern Med). Bush arrival dramatically increases combat capacity amid Islamabad collapse and the US naval blockade of Iranian ports.",
+    "source": "USNI Fleet Tracker, SOF News, CBS News, Apr 14 reporting"
   },
   {
     "id": "lha-7",
