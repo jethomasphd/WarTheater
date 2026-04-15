@@ -68,6 +68,16 @@
       setHero('wti-price', '$' + cost.wti.price, cost.wti.change, cost.wti.tooltip);
       setHero('gas-price', '$' + cost.gas.price, cost.gas.change, cost.gas.tooltip);
       setHero('sp500-value', WarTheater.Utils.formatNumber(cost.sp500.value), cost.sp500.change, cost.sp500.tooltip);
+      // S&P 500: green when at/above pre-war baseline, red when below
+      var sp500Baseline = (heroStats.history && heroStats.history[0] && heroStats.history[0].sp500) || 6878.88;
+      var sp500Up = cost.sp500.value >= sp500Baseline;
+      var sp500ValueEl = document.getElementById('sp500-value');
+      if (sp500ValueEl) sp500ValueEl.style.color = sp500Up ? 'var(--financial-down)' : 'var(--financial-up)';
+      var sp500ChangeEl = document.getElementById('sp500-change');
+      if (sp500ChangeEl) {
+        sp500ChangeEl.classList.remove('up', 'down');
+        sp500ChangeEl.classList.add(sp500Up ? 'down' : 'up');
+      }
       setHero('daily-cost', '~$' + cost.daily_cost.value + cost.daily_cost.unit, null, cost.daily_cost.tooltip);
       var dcNote = document.getElementById('daily-cost-note');
       if (dcNote) dcNote.textContent = cost.daily_cost.note;
