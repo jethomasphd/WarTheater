@@ -4,9 +4,9 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-04-12",
+    "last_updated": "2026-04-16",
     "day_convention": "Day 1 = 2026-02-28",
-    "total_targets_struck": "~35,500+ (CENTCOM: 13,000+ targets struck, 155+ warships sunk (largest navy elimination since WWII), 80% air defenses destroyed, every submarine sunk, 97% naval mines eliminated. Iran air force at zero operational flights/day. Combined US/Israeli extrapolated ~35,500+ through Day 40. CEASEFIRE on Iran front technically holds ~120 hours as of Apr 12 — no confirmed US/Israeli strikes on Iranian territory since 8 PM ET Apr 7. Islamabad talks COLLAPSED Apr 12 after 21 hours with no agreement; Trump declared US Navy BLOCKADE of Strait of Hormuz. Ceasefire expires ~Apr 22.)",
+    "total_targets_struck": "~35,500+ (CENTCOM: 13,000+ targets struck, 155+ warships sunk (largest navy elimination since WWII), 80% air defenses destroyed, every submarine sunk, 97% naval mines eliminated. Iran air force at zero operational flights/day. Combined US/Israeli extrapolated ~35,500+ through Day 40. CEASEFIRE on Iran front holds ~216 hours as of Apr 16 — NO confirmed US/Israeli strikes on Iranian territory since 8 PM ET Apr 7. Hegseth (Pentagon Apr 16): US 'locked and loaded' to restart combat if talks collapse; WSJ reports Trump weighing resumption of limited strikes to break Islamabad stalemate — NOT implemented. Blockade Day 4: 13-14 vessels turned back in 72 hrs; USS Spruance (DDG-111) turned back Iranian-flagged cargo vessel Apr 14. Pakistan Army Chief Munir in Tehran with 'new message from Washington'; Round 2 likely next week (Islamabad or Geneva). Ceasefire expires ~Apr 21-22; 60-day War Powers deadline ~May 1.)",
     "provinces_struck": "26 of 31 (per ACLED)",
     "aggregate_casualties_iran": {
       "killed": "2,000+ (Health Ministry) / 3,636 (HRANA) / 6,620 military (Hengaw) / 4,700+ security forces (Iran International) / 6,000+ IRGC (IDF claim)",
