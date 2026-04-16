@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.98,
-  "current_gas": 4.108,
-  "war_increase": 1.128,
+  "current_gas": 4.093,
+  "war_increase": 1.113,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.770 },
@@ -23,5 +23,5 @@
   ],
   "default_state": "TX",
   "source": "AAA state averages",
-  "last_updated": "2026-04-15"
+  "last_updated": "2026-04-16"
 }
