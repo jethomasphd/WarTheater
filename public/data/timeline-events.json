@@ -4285,11 +4285,83 @@
   },
   {
     "date": "2026-04-15",
+    "time": "14:30",
+    "title": "Senate REJECTS War Powers Resolution 47-52 — fourth defeat",
+    "description": "The Senate rejected the Kaine-led War Powers Resolution 47-52 on April 15 — the fourth defeat of the measure since the war began. Rand Paul (R-KY) was the sole GOP yea; Fetterman (D-PA) the sole Dem nay; Jim Justice (R-WV) did not vote. Sen. Blumenthal pledged to re-file 'next week.' Key GOP signals: Majority Leader Thune said leadership 'feel pretty good' about what the military has achieved but needs 'a plan to wind this down'; Hawley wants a 60-day AUMF vote; Curtis won't back further war funding without authorization; Murkowski is drafting an alternative resolution; Collins said presidential war power 'is not unlimited.' The 60-day War Powers Act deadline falls ~May 1, setting up the next inflection with war-funding appropriations. Pentagon $200B supplemental remains pending (71% of Americans oppose). Rep. Boebert: 'a no on any war supplemental.'",
+    "category": "political",
+    "source": "US Senate / Thune / Hawley / Curtis / Murkowski / Collins / Blumenthal",
+    "data_point": "Senate WPR fails 47-52 (4th defeat) — Paul (R) sole GOP yea; Fetterman (D) sole Dem nay — Blumenthal to re-file — May 1 WPR deadline is next forcing function"
+  },
+  {
+    "date": "2026-04-15",
+    "time": "16:00",
+    "title": "Treasury Bessent: secondary sanctions, 9 tankers + 17 entities tied to Shamkhani designated",
+    "description": "Treasury Secretary Scott Bessent announced Apr 15 that secondary sanctions are 'the financial equivalent of what we saw in the kinetic activities.' Treasury designated 3 individuals, 17 entities, and 9 oil tankers tied to Mohammad Hossein Shamkhani. Treasury will NOT renew 30-day waivers on Iranian or Russian oil. Bessent forecast $3/gal gas this summer (June 20-Sept 20). Trump (WaPo Apr 15) claimed 'China agreed not to send weapons to Iran' — Beijing denied. Trump (Fox News Apr 15) said the UK and 'a couple of other countries' are sending minesweepers; the UK government EXPLICITLY told BBC it will not assist the blockade. Macron/France and UK are building a separate ~15-country freedom-of-navigation coalition under UN framework. An Axios-cited US official said Trump 'would welcome' a Lebanon ceasefire but 'hasn't asked Israel' for one — separate track from Iran.",
+    "category": "financial",
+    "source": "Treasury / Bessent / WaPo / Fox News / BBC / Macron / Axios",
+    "data_point": "Treasury designates 3 individuals + 17 entities + 9 tankers tied to Shamkhani — 30-day waivers halted on Iranian/Russian oil — UK denies minesweeper claim — France/UK building ~15-country FoN coalition"
+  },
+  {
+    "date": "2026-04-15",
+    "time": "18:00",
+    "title": "Israeli security cabinet debates 1-week Lebanon ceasefire — ends without decision",
+    "description": "Israel's security cabinet convened the evening of April 15 to debate a proposed 1-week Lebanon ceasefire under US pressure; ended without decision (Channel 12). Netanyahu (recorded statement Apr 15): Israel is 'prepared for possibility that fighting with Iran could resume' and will strike Hezbollah 'wherever required.' 19 UN Human Rights experts Apr 15 called Israel's April 8 Lebanon strikes a 'blatant violation of UN Charter' and urged arms-transfer halts, flagging potential crimes against humanity. IDF Chief Lt. Gen. Eyal Zamir described southern Lebanon as a 'kill zone.' Hebrew University poll (Apr 13): 63% of Israelis believe the ceasefire does not extend to Lebanon; Israelis split 41/39 on respecting vs continuing strikes. Iran's President Pezeshkian (Press TV): 'No power in the world can force the Iranian nation into submission.'",
+    "category": "diplomatic",
+    "source": "Channel 12 / Netanyahu / IDF Zamir / 19 UN experts / Hebrew U / Pezeshkian",
+    "data_point": "Israeli cabinet fails to decide on 1-week Lebanon ceasefire — 19 UN experts call Apr 8 strikes 'blatant UN Charter violation' — Zamir: S. Lebanon a 'kill zone' — Pezeshkian: 'No power can force Iranian nation into submission'"
+  },
+  {
+    "date": "2026-04-16",
+    "time": "06:00",
+    "title": "Ghalibaf-Munir in Tehran — Ghalibaf phones Berri: Lebanon ceasefire 'as important as' Iran's",
+    "description": "Pakistan Army Chief Field Marshal Asim Munir, who arrived in Tehran Apr 15 and was received by FM Araghchi, met Iranian Parliament Speaker Ghalibaf on the morning of April 16 carrying a 'new message from Washington' (contents undisclosed). Ghalibaf simultaneously phoned Lebanese Speaker Nabih Berri saying a Lebanon ceasefire was 'as important as' Iran's — folding Lebanon into the Iran track. PM Shehbaz Sharif began a 4-day tour (Jeddah → Doha → Antalya Diplomacy Forum with Erdogan, Apr 15-18). MBS met Sharif 2+ hours Apr 15 in Jeddah; Saudi Arabia pledged $3B to Pakistan's reserves and extended an existing $5B deposit. Round 1 (Apr 11-12) ended after ~21 hours with Vance delivering a 'best and final offer.' Core gaps: US demanded 20-year enrichment pause vs Iran's 5-year offer (rejected); dismantling of enrichment facilities; HEU stockpile removal; Hormuz transit tolls; proxy funding. MS Now/Pakistani sources flag second round likely next week (Islamabad or Geneva). Iran FM spox Esmail Baghaei (Apr 15) confirmed messages flowing via Pakistan.",
+    "category": "diplomatic",
+    "source": "Iranian state media / Pakistani sources / Baghaei / MS Now",
+    "data_point": "Munir-Ghalibaf Tehran Apr 16 — 'new message from Washington' — Ghalibaf-Berri call: Lebanon 'as important as' Iran — Sharif 4-day tour (Jeddah/Doha/Antalya) — Saudi pledges $3B to Pakistan"
+  },
+  {
+    "date": "2026-04-16",
+    "time": "09:00",
+    "title": "Hegseth (Pentagon): US 'locked and loaded' to restart combat if talks collapse",
+    "description": "Defense Secretary Pete Hegseth (Pentagon, April 16, per NBC) said the US is 'locked and loaded' to restart combat if talks collapse. WSJ reported Trump is weighing 'resumption of limited military strikes' to break the Islamabad stalemate — NOT implemented. No new US strikes on Iran — the Epic Fury kinetic campaign remains paused per Adm. Brad Cooper (CENTCOM). Jobless claims (week ending Apr 11, released Apr 16): 207,000 (-11,000, biggest weekly drop since February; consensus 213K). Continuing claims 1.818M. March retail sales rescheduled from Apr 16 to Apr 21. EIA crude: unexpected -0.9M bbl draw (week ended Apr 10).",
+    "category": "military",
+    "source": "Hegseth / NBC / WSJ / CENTCOM Cooper / BLS / EIA",
+    "data_point": "Hegseth: US 'LOCKED AND LOADED' to restart combat if talks collapse — WSJ: Trump weighing resumption of limited strikes (NOT implemented) — Epic Fury kinetic campaign paused per Adm. Cooper — jobless claims 207K (biggest drop since Feb)"
+  },
+  {
+    "date": "2026-04-16",
+    "time": "11:00",
+    "title": "IDF Nabatieh strike kills 19 incl. 13 Lebanese State Security — Hezbollah hits Ashdod + Nahariya church",
+    "description": "An IDF strike on Nabatieh Apr 16 killed 19 people, including 13 Lebanese State Security personnel. Hezbollah struck Ashdod (claimed targeting of Ashdod Naval Base) and damaged a 1,500-year-old church in Nahariya with a missile. Cumulative Hezbollah rocket/UAV activity since Mar 2: 1,121 attack waves (Alma Center). Battle of Bint Jbeil consolidated by IDF 98th Division — 100+ Hezbollah killed cumulatively since Apr 9, 3 surrendered Apr 15. Trump floated an unconfirmed 10-day Israel-Lebanon ceasefire Apr 16 (NBC) — not confirmed by either party. Rubio-Aoun phone call Apr 16 on Lebanon ceasefire. Hezbollah MP Hussein Hajj Hassan condemned the Apr 14 Israel-Lebanon talks as 'a grave sin.' Lebanon MoPH (via WAFA/Al Jazeera) end-Apr 15: 2,167 killed / 7,061 wounded. No kinetic Iranian action Apr 15-16. No Houthi Red Sea shipping attacks in the 48-hour window; Iraqi PMF quiet.",
+    "category": "military",
+    "source": "Lebanese MoPH / WAFA / Al Jazeera / NBC / Alma Center / IDF",
+    "data_point": "IDF Nabatieh strike Apr 16 kills 19 incl. 13 State Security — Hezbollah claimed Ashdod Naval Base + damaged 1,500-yr-old Nahariya church — Lebanon toll 2,167/7,061 — Trump floated unconfirmed 10-day Israel-Lebanon ceasefire — 1,121 Hezbollah attack waves cumulative"
+  },
+  {
+    "date": "2026-04-16",
+    "time": "12:00",
+    "title": "CENTCOM 72-hour blockade tally: 13-14 vessels turned back — USS Spruance interdicts Iranian-flagged cargo",
+    "description": "CENTCOM 72-hour blockade tally (Apr 16, 11:51 EDT): 13-14 commercial vessels turned back; no breaches claimed. Tally progression: 6 vessels first 24 hrs → 9 in 48 hrs → 13-14 in 72 hrs. USS Spruance (DDG-111) turned back an Iranian-flagged cargo vessel in the Gulf of Oman Apr 14 (Stars & Stripes, Apr 16) — 10th interception. Ship-tracking (BBC Verify/MarineTraffic) disputes CENTCOM's 'zero penetrations' claim — at least 4 Iran-related ships transited the Strait Apr 14; Chinese-flagged Rich Starry U-turned at Gulf of Oman; Elpis stopped near the Iranian coast; two tankers stopped at Chabahar; Iraq-bound supertanker Agios Fanourios I became the first crude carrier to head west post-blockade (gCaptain). Hormuz transit volume below 10% of pre-war average. CENTCOM reports >10,000 personnel enforcing blockade with 'more than a dozen warships and dozens of aircraft.' UK explicitly told BBC it will not assist the blockade — contradicting Trump's Apr 15 Fox claim. Trump (Fox Business Apr 15): war 'very close to being over.'",
+    "category": "military",
+    "source": "CENTCOM / Stars & Stripes / BBC Verify / MarineTraffic / gCaptain / Trump Fox Business",
+    "data_point": "72-hr tally: 13-14 vessels turned back (6→9→13-14) — USS Spruance interdicts Iranian-flagged cargo in Gulf of Oman (10th interception) — BBC Verify: 4+ Iran transits Apr 14 — Agios Fanourios I first crude carrier west post-blockade"
+  },
+  {
+    "date": "2026-04-16",
+    "time": "13:00",
+    "title": "S&P 500 intraday RECORD 7,040.03 — Apr 15 RECORD CLOSE 7,022.95 — VIX 18.17 peace pricing",
+    "description": "Markets read the lull as peace. Apr 15 closes: S&P 500 RECORD CLOSE 7,022.95 (+0.80%) — eclipses Jan 27 ATH 6,978.60 — first record close since January; Nasdaq RECORD CLOSE 24,016.02 (+1.59%) — 11th straight up day; Dow 48,463.72 (-0.15%); Russell 2000 2,713.66 (+0.30%); VIX 18.17 (-1.03%) lowest since Feb 26 — complacency flag; 10Y UST ~4.28-4.30%; DXY 98.06 6-wk low; Gold spot ~$4,807-4,823 (-0.7%); Apr 16 intraday: S&P RECORD 7,040.03 (+0.1-0.2%); Nasdaq ~24,059-24,077 (+0.2%); Dow ~48,482 midday (+67); VIX ~18.22-18.83; Gold ~$4,814-4,837; WTI ~$91.91-92.10 (+0.7-0.9%); Brent ~$94.89-96.32 (Apr 15 close $94.89-95.05 -0.3-0.4%); CVX +1.58% top Dow gainer midday Apr 16; BA -1.99% Dow laggard; BAC +1.8% beat, MS +4.5% beat, MSFT +4%, TSLA +7-8%. Physical-paper oil dislocation persists: dated Brent $131.97 vs futures ~$96 = $35 physical premium = scarcity under blockade. EIA April STEO forecasts Brent peaking at $115/bbl Q2 2026. Fed Beige Book (Apr 15): 'pervasive war-related uncertainty'; NY Empire +11; NAHB HMI 34; Cleveland Fed Hammack: 'rates in a good place'; Goolsbee: cuts could slip to 2027 if oil stays elevated. IMF cut 2026 MENA growth forecast to 1.1% (from 3.9%) and flagged global recession risk. AAA gas $4.093/gal (-1.5 cents from Apr 15 $4.108).",
+    "category": "financial",
+    "source": "NYSE / CNBC / Bloomberg / Fed Beige Book / IMF / AAA / EIA STEO",
+    "data_point": "S&P 500 RECORD CLOSE 7,022.95 Apr 15 / intraday ATH 7,040.03 Apr 16 — Nasdaq 11-day streak — VIX 18.17 (lowest since Feb 26) — physical Brent $131.97 = $35 premium over futures — IMF MENA 1.1% (from 3.9%) — gas $4.093"
+  },
+  {
+    "date": "2026-04-16",
     "time": "17:00",
-    "title": "Day 47 summary — 6-day window to Apr 21 ceasefire expiration",
-    "description": "Day 47 is defined by three convergent developments: Iran's escalated rhetoric threatening a counter-blockade of the entire Persian Gulf, Sea of Oman, AND Red Sea; the S&P 500 breaching 7,000 for a new all-time high on peace-deal optimism; and Pakistan's army chief arriving in Tehran with a 'new message from Washington' ahead of potential Round 2 talks. Bloomberg reports the US and Iran are considering a 2-week ceasefire extension — the single most important development of the day. The ceasefire on the Iran front holds at ~192 hours with zero new strikes, but Israel's Lebanon campaign ground forward with 43+ additional Lebanese killed in the past 24 hours. Markets price peace; physical oil market remains skeptical. The April 21 ceasefire expiration creates a hard deadline concentrating minds in Washington, Tehran, and Islamabad. The 60-day War Powers deadline (April 29-May 1) looms as a second forcing function. Risk skew is enormous — Iran's Red Sea counter-blockade threat, if executed, would trigger an oil price spike and potentially activate Houthi assets at Bab el-Mandeb. The gap between CENTCOM's blockade enforcement claims and independent shipping data deserves close scrutiny.",
+    "title": "Day 48 summary — fragile peace pricing holds; May 1 WPR + Apr 21 ceasefire = two binding clocks",
+    "description": "Day 48 reframes the conflict from hot war to coercive diplomacy under a blockade. The US has substituted naval interdiction for airstrikes while Israel continues a parallel war of attrition in Lebanon that Pakistan/Iran insist must be folded into any deal. Markets have decisively priced peace — the S&P's record close and the VIX at cycle lows — yet the $35 physical-Brent premium and the IRGC's three-sea declaration say the underlying risk has not dissolved, only been suppressed. The May 1 War Powers 60-day deadline and the Apr 21-22 ceasefire expiry are now the two binding clocks on dashboard timelines. If Round 2 in Islamabad fails or Tehran weaponizes the Houthis to force a Bab el-Mandeb closure, the rhetorical 'three-sea doctrine' becomes the kinetic pivot that markets are currently discounting to zero. Senate WPR rejected 47-52 Apr 15 (4th time). Ghalibaf-Munir meeting Apr 16 with 'new message from Washington.' Hegseth: US 'locked and loaded.' IDF Nabatieh strike kills 19 incl. 13 State Security. Lebanon toll 2,167/7,061. Iran MoH frozen at 2,076 since Apr 7. No kinetic Iranian action Apr 15-16. ACLED webinar Apr 16 'The eastern front: Regional reverberations of the Iran War.' ~$54.15B cumulative.",
     "category": "summary",
     "source": "Multiple",
-    "data_point": "~$53.35B cumulative — S&P breaches 7,000 ATH — Iran threatens Red Sea counter-blockade — Bloomberg: 2-week ceasefire extension under consideration — Pakistan Army Chief in Tehran — ceasefire ~192 hrs holds"
+    "data_point": "~$54.15B cumulative — S&P RECORD CLOSE 7,022.95 / intraday ATH 7,040.03 — Senate WPR fails 47-52 (4th) — Hegseth 'locked and loaded' — Ghalibaf-Munir 'new message from Washington' — IDF Nabatieh kills 19 incl. 13 State Security — ceasefire ~216 hrs"
   }
 ]
