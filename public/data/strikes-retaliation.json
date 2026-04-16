@@ -2178,5 +2178,24 @@
     "notes": "Days 42-43 (Apr 10-11): Hezbollah fired 30+ rockets at northern Israel on April 10 alone — striking Kibbutz Misgav Am (house hit), Deir al-Asad (school), Safed (parking lot), Kiryat Shmona (fires). Hezbollah also claimed attack on Ashdod naval base. Since the ceasefire began Apr 7, Hezbollah has fired 100+ rockets at Israel. One IDF NCO severely wounded by suicide drone in southern Lebanon. Cumulative Lebanon toll since March 2: 1,888-1,953 killed, 6,303+ wounded. Israel struck 120 Hezbollah sites in 24 hours around Apr 10. 14 killed in Lebanon Apr 10 including 13 Lebanese State Security personnel hit in government building in Nabatieh. Houthi activity limited but persistent: 4 attacks on Israel since resuming Mar 28 (all intercepted); no Red Sea shipping attacks resumed. Houthi leader declared ceasefire \"a great victory.\"",
     "verified": true,
     "last_updated": "2026-04-11"
+  },
+  {
+    "id": "hezbollah-retaliation-april15-16",
+    "city": "Northern Israel / Ashdod",
+    "lat": 33.05,
+    "lng": 35.20,
+    "type": "iran_retaliation",
+    "weapon": "Rockets / ballistic missile / SAMs",
+    "origin": "Hezbollah / Lebanon",
+    "first_strike": "2026-04-15",
+    "casualties_reported": "Apr 15: 5 IDF soldiers wounded (1 serious, 4 light) by Hezbollah rocket fire into northern Israel; woman wounded in Nahariya Apr 13. Apr 16: missile fired at Ashdod (Hezbollah claimed targeting of Ashdod Naval Base); missile damaged a 1,500-year-old church in Nahariya. No new Israeli fatalities confirmed in the Apr 15-16 window.",
+    "casualties_source": "IDF / Hezbollah media / Alma Center / AP / Reuters",
+    "active_days": [
+      47,
+      48
+    ],
+    "notes": "Days 47-48 (Apr 15-16): Hezbollah launched ~30 rockets at northern Israel Apr 15 morning (IDF confirmed); claimed 24 separate attacks Apr 14 on northern Israel + IDF positions in southern Lebanon; shot down Israeli Hermes 450 drone and fired SAMs at Israeli warplanes. Apr 16: Hezbollah struck Ashdod (claimed Ashdod Naval Base) and damaged a 1,500-year-old church in Nahariya. Cumulative Hezbollah rocket/UAV activity since March 2: 1,121 attack waves (Alma Center). Hezbollah SecGen Naim Qassem rejected the Apr 14 Washington Israel-Lebanon talks as 'futile' and a 'free concession.' Hezbollah MP Hussein Hajj Hassan condemned the talks as 'a grave sin.' IDF Home Front Command warned Hezbollah may temporarily increase attacks to influence Washington negotiations. No Houthi Red Sea shipping attacks in the 48-hour window; Iraqi PMF quiet. IRGC Maj. Gen. Ali Abdollahi (Khatam al-Anbiya HQ) declared Apr 15 on Iranian state TV that Iran will 'not allow any exports or imports to continue in the Persian Gulf, Sea of Oman, and the Red Sea' if US blockade continues — read by analysts (FDD/LWJ, WSJ) as potential Houthi activation signal. Mojtaba Khamenei 'military adviser' warned Iran would 'sink American ships in the Strait of Hormuz.' No kinetic Iranian action in the window.",
+    "verified": true,
+    "last_updated": "2026-04-16"
   }
 ]
