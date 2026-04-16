@@ -16,6 +16,76 @@ I am providing you with an UPDATE MANIFEST — a structured intelligence
 document produced by a research agent and reviewed by the human analyst.
 Every instruction in this manifest has been verified and approved.
 
+EXECUTION CONSTRAINTS — STREAM TIMEOUT MITIGATION
+=================================================
+You are operating in a web session vulnerable to stream idle timeout on large
+file writes. The daily update is ~15 file changes + a 7-section briefing;
+attempting to batch this into a few large edits will produce partial writes,
+lost work, and structural regressions. Follow these rules absolutely:
+
+1. **One data file per turn.** Complete edits to a single file, validate with
+   `python3 -m json.tool`, commit, push, then move to the next file in a new
+   turn. Do not open a second file before the first is committed.
+
+2. **Commit and push after every file.** Use:
+   ```
+   git add <file> && git commit -m "intel update: Day [N] — <file> <short desc>" \
+     && git push origin <branch>
+   ```
+   Every commit is a recovery checkpoint. Do not batch "commit at the end."
+
+3. **Keep each `Edit` operation under ~80 lines of replacement text.** If a
+   section is longer (e.g., a multi-paragraph `day_contexts` entry or a
+   briefing thematic block), split it into two or more sequential edits.
+   The `war-costs.json` Day-N context note and `casualties.json` Day-N
+   context note commonly exceed this — plan to split them.
+
+4. **File priority order (most likely to timeout → least).** Front-load the
+   small/simple files to bank early commits while the session is fresh:
+
+   a. Fast wins (commit these first):
+      - calculator.json (gas prices)
+      - oil-prices.json (append 1–2 data points)
+      - strikes-iran.json (metadata only, usually no new strikes)
+      - hormuz.json (status note update)
+      - infrastructure.json (label/note/detail updates)
+
+   b. Medium effort:
+      - markets.json (1 label + 1 context + datasets)
+      - casualties.json (1 label + 1 context + datasets)
+      - war-costs.json (1 label + 1 daily cost + 1 day_notes entry + tanker
+        transit point — Day-N context note is LONG, split it)
+      - carriers.json (position + status + notes, one ship per edit)
+      - strikes-retaliation.json (append 1 new entry)
+
+   c. Heaviest:
+      - hero-stats.json — cost panel, toll panel, history entry. Split the
+        toll panel into two commits (e.g., targets/US KIA/WIA, then
+        Iran/Lebanon/displaced/flights/children).
+      - timeline-events.json — split Apr-15 event adds and Apr-16 event adds
+        into separate edits. If either day has >6 events, split further
+        (morning / afternoon / summary).
+      - Briefing (see BRIEFING CREATION): scaffold-then-edit, commit per
+        section.
+
+5. **Timeline-events.json and war-costs.json Day-N entries must be appended,
+   not prepended.** If you accidentally insert before the previous day, use
+   a Python one-liner (`python3 <<'EOF' … EOF`) to swap array positions
+   rather than re-writing via `Edit`. Validate with `python3 -m json.tool`
+   before committing.
+
+6. **Timeout recovery.** If your session terminates mid-task:
+   - Run `git log --oneline origin/main..HEAD` to see what landed.
+   - Run `git status` and `git diff` to see what is still uncommitted.
+   - Resume from the next uncommitted step. Never restart a file from
+     scratch if partial edits are on disk or remote.
+   - The scaffold-then-edit pattern for the briefing (below) is designed
+     for exactly this recovery.
+
+7. **Use TodoWrite to track per-file progress.** Mark items completed
+   immediately after each commit; this doubles as a resumption map if the
+   session drops.
+
 YOUR MISSION
 ============
 1. Read the current state of the data files in `public/data/`:
@@ -114,17 +184,26 @@ encoding, etc.). Use the copy-then-edit pattern below exactly as written.
    This preserves the scaffold on the remote so that, if the session times
    out mid-edit, the next iteration can resume without redoing the copy.
 
-3. **Edit the scaffold one section at a time using the `Edit` tool:**
-   - Update the date line: `DAY [N-1]` → `DAY [N]`, and the month/day.
-   - Replace the `Situation Summary` paragraphs (2–3 analytical paragraphs).
-   - Replace the `Key Developments` bullet list (10–15 items, bold leads).
-   - Replace / rename each thematic `briefing-section` (3–4 sections).
-     Keep the wrapping `<div class="briefing-section">...</div>` and
-     `<h3>` element; change only the heading text and the `<p>` content.
-   - Replace the `What to Watch` bullet list (5–7 forward-looking items).
-   - Refresh the sources footer to reflect Day [N]'s actual sources.
-   - **Checkpoint commit after every 1–2 section replacements.** Push each
-     commit. This prevents losing work if the session terminates.
+3. **Edit the scaffold one section at a time using the `Edit` tool, and
+   commit + push after EACH section.** This is not an optimization — it is
+   the only reliable pattern. Order and commit cadence:
+   1. Update the date line: `DAY [N-1]` → `DAY [N]`, and the month/day.
+      Commit: `intel update: Day [N] — briefing date header`.
+   2. Replace the `Situation Summary` paragraphs (2–3 analytical paragraphs).
+      Commit: `intel update: Day [N] — briefing Situation Summary`.
+   3. Replace the `Key Developments` bullet list (10–15 items, bold leads).
+      Commit.
+   4. Replace / rename each thematic `briefing-section` (3–4 sections),
+      one section per edit, one commit per edit. Keep the wrapping
+      `<div class="briefing-section">...</div>` and `<h3>` element; change
+      only the heading text and the `<p>` content.
+   5. Replace the `What to Watch` bullet list (5–7 forward-looking items).
+      Commit.
+   6. Refresh the sources footer to reflect Day [N]'s actual sources.
+      Commit.
+   Expect ~8–10 briefing commits total. This looks noisy in the log, but is
+   cheap: it prevents losing work and preserves a recovery point after every
+   section.
 
 4. **Structural rules that MUST hold:**
    - Exactly one `briefing-header` div, containing the `briefing-date`.
