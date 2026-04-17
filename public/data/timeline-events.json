@@ -4399,5 +4399,59 @@
     "category": "diplomatic",
     "source": "State Dept MoU / IDF Adraee / Katz / Vance / Reuters",
     "data_point": "LEBANON 10-DAY CEASEFIRE EFFECTIVE 5:00 PM ET APR 16 — 6-point State Dept MoU — Israel retains self-defense, IDF south of Litani — Hezbollah NOT signatory, 'finger on the trigger' — Katz: Lebanon campaign 'not yet completed' — Vance: 'ball is in Iran's court'"
+  },
+  {
+    "date": "2026-04-17",
+    "time": "06:00",
+    "title": "Pre-market peace rally — S&P futures 7,118.75 / crude -6.37% to $85.36 on ceasefire headlines",
+    "description": "Pre-market on Apr 17 extended the peace rally. S&P futures +0.59% at 7,118.75 (new ATH trajectory); Dow futures +0.88%; Nasdaq futures +0.61%. Crude -6.37% to ~$85.36 WTI on ceasefire headlines and China's public endorsement of peace talks; Brent implied ~$88. Markets have now fully priced the peace premium — the S&P 500 at records and oil futures cracking below $86 on Apr 17 signal investors treat a deal as the base case, creating asymmetric downside risk if Round 2 fails before Apr 22. Gold held near $4,818/oz (+~48% YTD). 10Y UST 4.311%, 2Y 3.778%, 30Y 4.937%. ExxonMobil and Chevron fell ~5% Apr 16 as the war premium compressed (XOM +27.6% YTD). Iranian rial collapsed to ~1,544,000 IRR/USD (-42% YoY).",
+    "category": "financial",
+    "source": "CME Globex / Bloomberg / CNBC / Reuters",
+    "data_point": "Apr 17 pre-market: S&P futures +0.59% at 7,118.75, Dow +0.88%, Nasdaq +0.61% — crude -6.37% to ~$85.36 WTI / Brent ~$88 — peace premium fully priced — Gold $4,818 (+48% YTD) — Iranian rial ~1,544,000 IRR/USD (-42% YoY)"
+  },
+  {
+    "date": "2026-04-17",
+    "time": "09:00",
+    "title": "Iran deputy FM rejects 'temporary' ceasefire extension — demands comprehensive regional settlement",
+    "description": "Iran's deputy foreign minister on Apr 17 rejected any 'temporary' extension of the ceasefire and demanded a comprehensive regional settlement. JNS reported an 'in-principle agreement' to extend, but no formal paperwork has been exchanged. White House spox Leavitt confirmed no extension request has been filed. Round 2 Islamabad talks are likely in Pakistan before the Apr 22 ceasefire expiry. The informal Apr 8-22 truce window remains in force; no new US/Israeli kinetic strikes on Iranian territory were reported Apr 16-17, extending the ceasefire-on-Iran to approximately 240 hours. Pakistan Army Chief Field Marshal Asim Munir + Interior Minister Mohsin Naqvi arrived Tehran Apr 15; Iran agreed 'in principle' to a Pakistani proposal for third-party nuclear monitoring involving four countries plus the IAEA (Pakistan Today). Reported enrichment-moratorium gap: US seeks 20 years, Iran offers ~5, with a 10-year compromise on the table.",
+    "category": "diplomatic",
+    "source": "Iranian FM / JNS / WH Leavitt / Pakistan Today",
+    "data_point": "Iran deputy FM Apr 17: rejects 'temporary' ceasefire extension, demands comprehensive regional settlement — JNS: 'in-principle agreement' but no paperwork — Leavitt: no extension request filed — Iran 'in principle' accepts 3rd-party nuclear monitoring (4 countries + IAEA) — enrichment gap: US 20y vs Iran 5y vs 10y compromise"
+  },
+  {
+    "date": "2026-04-17",
+    "time": "10:30",
+    "title": "Trump (White House): US-Iran deal 'very close' — will travel to Islamabad for any signing",
+    "description": "Trump declared 'very close' on April 17 outside the White House, said he would travel to Islamabad for any signing, and claimed Iran agreed to let the US 'dig up and remove… Nuclear Dust.' Leavitt said Round 2 will likely happen in Pakistan before the April 22 ceasefire expiry. Wang Yi told Araghchi on Apr 16 that China 'supports maintaining the momentum of the ceasefire and peace talks'; Hegseth said the US received Chinese assurances Beijing would not arm Iran. Three hinges determine Day 50-56: whether Munir's Tehran shuttle produces a Round 2 date before the ceasefire expires; whether Iran's deputy FM's Apr 17 rejection of 'temporary' terms is a negotiating posture or a genuine red line; and whether the House's 213-214 vote signals enough defection to pass a War Powers Resolution in May once the statutory clock runs out.",
+    "category": "diplomatic",
+    "source": "Trump White House / Leavitt / Wang Yi / Hegseth",
+    "data_point": "Trump Apr 17 WH: US-Iran deal 'very close' — would travel to Islamabad for signing — Iran agreed to let US 'dig up and remove… Nuclear Dust' — Wang Yi-Araghchi Apr 16: China 'supports ceasefire momentum' — Hegseth: China won't arm Iran"
+  },
+  {
+    "date": "2026-04-17",
+    "time": "11:00",
+    "title": "Hegseth (Apr 17): US forces 'locked and loaded' to resume strikes on Iran's power grid if talks fail",
+    "description": "Defense Secretary Pete Hegseth warned on Apr 17 that US forces are 'locked and loaded' to resume strikes on Iran's power grid if talks fail before the April 22 ceasefire expiry. Senior US military official told House Armed Services Committee on Apr 16 that Iran-backed Shiite militias have conducted 'hundreds' of attacks on US forces since Feb 28, and warned Iran retains 'thousands of missiles' and one-way attack drones. Wilson Center timeline entries through April 14 show declining Houthi tempo: one anti-ship ballistic missile intercepted Apr 11, an ASBM into the Gulf of Aden Apr 13, four drones destroyed Apr 14. No confirmed major Red Sea shipping strikes Apr 16-17. No new US casualties since ceasefire took effect (~240 hours).",
+    "category": "military",
+    "source": "Hegseth / HASC / Wilson Center / NBC",
+    "data_point": "Hegseth Apr 17: US forces 'locked and loaded' to resume strikes on Iran's power grid if talks fail before Apr 22 — HASC Apr 16: Iran-backed Shiite militias 'hundreds' of attacks on US forces since Feb 28; Iran retains 'thousands of missiles' + one-way attack drones — Houthi tempo declining — ceasefire ~240 hrs"
+  },
+  {
+    "date": "2026-04-17",
+    "time": "12:00",
+    "title": "40-NATION HORMUZ SUMMIT excludes US — UK + France + ~40 nations design alternative reopening task force",
+    "description": "UK, France, and ~40 nations (excluding the US) held a virtual 'Hormuz Summit' on Apr 17 to design an alternative multinational reopening task force — a notable diplomatic rebuke of the US approach. Iran has privately admitted to counterparts it has lost track of some of the mines it planted and cannot fully clear the strait. Strait of Hormuz remains effectively gridlocked: pre-war traffic averaged ~110 vessels per day; current transits are below 10 per day, with only two observed on April 16. The IRGC-administered 'Tehran Tollbooth' corridor around Larak Island continues operating at $2M per vessel (payment in yuan or crypto), though FM Araghchi insisted Apr 16 the strait is 'completely open.' The Iranian army issued a new threat on Apr 16: if the blockade continues, 'no port in the Persian Gulf and the Arabian Sea will be safe.' Iran has ~13 days of oil storage per analyst estimates — blockade coercive power peaks precisely as the Apr 22 ceasefire window closes.",
+    "category": "diplomatic",
+    "source": "UK/France coordination / Macron / Bloomberg / Wikipedia",
+    "data_point": "40-NATION HORMUZ SUMMIT APR 17 excludes US — UK + France + ~40 nations design alternative multinational reopening task force — Iran 'lost track' of some mines — transits below 10/day; only 2 observed Apr 16 — Iranian army: if blockade continues 'no port in Persian Gulf + Arabian Sea will be safe' — Iran ~13 days oil storage"
+  },
+  {
+    "date": "2026-04-17",
+    "time": "17:00",
+    "title": "Day 49 summary — Lebanon truce + Iran blockade = peace-through-strangulation — markets price deal as base case",
+    "description": "Day 49 reshuffles three dashboard variables at once. Lebanon moves from active combat to fragile truce, compressing the two-front war model into a single Iran-centered negotiation track — but IDF troops remain south of the Litani and Katz's 'not completed' framing preserves escalation optionality. The Iran track bifurcated: the ceasefire-on-Iran holds kinetically while the blockade inflicts $400M/day of economic damage, creating a strange peace-through-strangulation equilibrium that both Trump and Hegseth explicitly leverage. Markets have now fully priced the peace premium — the S&P 500 at records and oil futures cracking below $86 on Apr 17 signal investors treat a deal as the base case, creating asymmetric downside risk if Round 2 fails before Apr 22. Three hinges determine Day 50-56: whether Munir's Tehran shuttle produces a Round 2 date before the ceasefire expires; whether Iran's deputy FM's Apr 17 rejection of 'temporary' terms is a negotiating posture or a genuine red line; and whether the House's 213-214 vote signals enough defection to pass a War Powers Resolution in May once the statutory clock runs out. Iran has ~13 days of oil storage — blockade coercive power peaks as Apr 22 ceasefire closes. ~$54.95B cumulative.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "~$54.95B cumulative — S&P futures ATH trajectory 7,118.75 / crude -6.37% — LEBANON CEASEFIRE in force — IRAN CEASEFIRE ~240 hrs — blockade Day 5 ~$400M/day to Iran — HOUSE WPR fails 213-214 by ONE VOTE — 40-NATION HORMUZ SUMMIT excludes US — Trump: deal 'very close' — Iran ~13 days oil storage before Apr 22 expiry"
   }
 ]
