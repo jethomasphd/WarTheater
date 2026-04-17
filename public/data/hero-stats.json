@@ -434,6 +434,14 @@
       "targets_struck": 35500, "us_kia": 13, "us_wia": 381,
       "iranian_killed": 9100, "lebanese_killed": 2167,
       "displaced": 7800000, "flights_cancelled": 52000, "children_killed": 380
+    },
+    {
+      "date": "2026-04-17", "war_day": 49,
+      "brent": 88.13, "wti": 85.36, "gas": 4.076, "sp500": 7041.28,
+      "daily_cost_millions": 800, "total_cost_billions": 54.95,
+      "targets_struck": 35500, "us_kia": 13, "us_wia": 381,
+      "iranian_killed": 9100, "lebanese_killed": 2196,
+      "displaced": 7800000, "flights_cancelled": 52000, "children_killed": 380
     }
   ],
   "toll": {
