@@ -15,8 +15,8 @@
     "mission_summary": "Primary strike platform — blockade enforcement and Hormuz mine clearance support",
     "deployed_since": "2025-11-21",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 48: Lincoln remains forward-most CSG for Epic Fury — ~124 nm off southern Iran in the Arabian Sea / Gulf of Oman per BBC satellite imagery (Apr 11-12). CSG-3 with CVW-9 embarked; Air Defense Commander USS Frank E. Petersen Jr. (DDG-121); DESRON 21 including USS Spruance (DDG-111). USS Spruance (DDG-111) turned back an Iranian-flagged cargo vessel in the Gulf of Oman Apr 14 (Stars & Stripes, Apr 16) — 10th interception. Blockade Day 4 CENTCOM tally: 13-14 vessels turned back in 72 hours; no breaches claimed, but BBC Verify/MarineTraffic disputes CENTCOM's 'zero penetrations' claim with at least 4 Iran-related transits Apr 14. 20+ non-Iran-bound commercial ships passed freely. CENTCOM reports >10,000 personnel enforcing blockade with 'more than a dozen warships and dozens of aircraft.' Mine clearance via USS Pioneer and USS Chief dispatched from Singapore. USNI Fleet Tracker Apr 13: 291 total Battle Force ships (232 USS, 59 USNS), 105 deployed, 86 underway. IRGC Maj. Gen. Ali Abdollahi declared Apr 15 a three-sea counter-blockade doctrine (Persian Gulf + Sea of Oman + Red Sea). Mojtaba Khamenei 'military adviser' warned Iran would 'sink American ships in the Strait of Hormuz.' No kinetic Iranian action Apr 15-16. Ceasefire on Iran front holds ~216 hours (expires ~Apr 21-22). Hegseth (Apr 16 Pentagon): US 'locked and loaded' to restart combat if talks collapse. WSJ: Trump weighing resumption of limited strikes to break Islamabad stalemate — NOT implemented. UK explicitly told BBC it will not assist the blockade. France/UK building separate ~15-country freedom-of-navigation coalition under UN framework.",
-    "source": "USNI Fleet Tracker, CENTCOM, Stars & Stripes, BBC Verify, Apr 16 reporting"
+    "notes": "Day 49: Lincoln remains forward-most CSG for Epic Fury — CENTCOM released Apr 16 imagery showing USS Abraham Lincoln (CVN-72) operating in the Arabian Sea. CSG-3 with CVW-9 embarked; VMFA-314 F-35Cs embarked; Air Defense Commander USS Frank E. Petersen Jr. (DDG-121); DESRON 21 including USS Spruance (DDG-111). Apr 15: USS Spruance (DDG-111) intercepted an Iranian-flagged cargo ship that attempted to evade the cordon after departing Bandar Abbas. CENTCOM Apr 16 imagery also showed USS Michael Murphy (DDG-112) helicopter operations diverting merchants in the Gulf of Oman. Blockade Day 5 CENTCOM cumulative tally: 13-14 vessels turned back; 10,000+ service members, 12+ ships, 100+ aircraft enforcing (Hegseth: <10% of total US naval power). Current transits below 10/day; only 2 observed Apr 16. No kinetic Iranian action Apr 16-17. Ceasefire on Iran front holds ~240 hours (expires ~Apr 21-22). Hegseth (Apr 17): US forces 'locked and loaded' to resume strikes on Iran's power grid if talks fail before Apr 22 ceasefire expiry. Trump Apr 17: US-Iran deal 'very close'; Pakistan Army Chief Munir + Naqvi in Tehran Apr 15-16 — Iran accepted third-party nuclear monitoring 'in principle' (4 countries + IAEA). UK + France + ~40 nations held virtual 'Hormuz Summit' Apr 17 to design alternative multinational reopening task force — diplomatic rebuke of US approach. Iran privately admitted it lost track of some mines + cannot fully clear strait. New Treasury sanctions Apr 16 designated 24+ people/companies/vessels in Shamkhani oil smuggling network.",
+    "source": "USNI Fleet and Marine Tracker (Apr 13), CENTCOM imagery (Apr 16), Stars & Stripes, Apr 17 reporting"
   },
   {
     "id": "cvn-78",
@@ -33,8 +33,8 @@
     "mission_summary": "Extended Epic Fury deployment — Eastern Mediterranean — post-Vietnam carrier deployment record",
     "deployed_since": "2025-05-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 48: Ford remains in Eastern Mediterranean supporting Epic Fury and Red Sea/Lebanon coverage; departed Split Apr 2 with post-Vietnam deployment record in force. CVW-8 embarked; DESRON 2 includes USS Mason (DDG-87), USS Donald Cook (DDG-75), USS Ross (DDG-71). USNI Fleet and Marine Tracker (Apr 13): Navy maintains 291 battle force ships (232 USS + 59 USNS), 105 deployed, 86 underway. Three-carrier posture: Lincoln (Arabian Sea forward-most), Ford (Eastern Med), Tripoli ARG (Arabian Sea). No change in tasking Apr 15-16 — Lebanon front continues to demand TACAIR / ISR support. IDF strike on Nabatieh Apr 16 killed 19 incl. 13 Lebanese State Security personnel; Hezbollah Apr 16 struck Ashdod (claimed Naval Base).",
-    "source": "USNI Fleet and Marine Tracker (Apr 13), Apr 16 manifest"
+    "notes": "Day 49: Ford remains in Eastern Mediterranean supporting Epic Fury and Red Sea/Lebanon coverage — USNI Fleet and Marine Tracker (Apr 13) confirms Ford CSG in Eastern Mediterranean having broken the post-Vietnam carrier deployment record. Departed Split Apr 2. CVW-8 embarked; DESRON 2 includes USS Mason (DDG-87), USS Donald Cook (DDG-75), USS Ross (DDG-71). Three-carrier posture: Lincoln (Arabian Sea forward-most), Ford (Eastern Med), Bush (transiting to CENTCOM via Horn of Africa). Lebanon 10-day ceasefire effective 5:00 PM ET Apr 16 — second front quiets but IDF troops remain south of Litani per MoU; DM Katz says Lebanon campaign 'not yet completed.' Ford continues TACAIR / ISR support posture. IDF strike on Nabatieh Apr 16 killed 19 incl. 13 Lebanese State Security personnel; Battle of Bint Jbeil consolidated with Egoz Unit raid on Aynata casbah and ~70 Hezbollah infrastructure sites demolished in under a minute.",
+    "source": "USNI Fleet and Marine Tracker (Apr 13), Apr 17 manifest"
   },
   {
     "id": "cvn-77",
@@ -42,17 +42,17 @@
     "hull": "CVN-77",
     "type": "carrier",
     "strike_group": "Carrier Strike Group 10",
-    "lat": 38.00,
-    "lng": 5.00,
-    "area": "Eastern Mediterranean — entered Med ~Apr 13 via Gibraltar — third carrier reinforcement for Epic Fury",
+    "lat": 12.50,
+    "lng": 47.00,
+    "area": "Transiting to CENTCOM via Horn of Africa / Gulf of Aden — third carrier reinforcement for Epic Fury",
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye, MH-60R/S Seahawk",
     "escorts": ["DDG-71 USS Ross", "DDG-75 USS Donald Cook", "DDG-87 USS Mason"],
-    "status": "DEPLOYED — ENTERED MEDITERRANEAN",
-    "mission_summary": "Third carrier reinforcement for Epic Fury — Eastern Mediterranean — provides 3-CSG posture with Lincoln (Gulf) and Ford (Med)",
+    "status": "TRANSITING — HORN OF AFRICA",
+    "mission_summary": "Third carrier reinforcement for Epic Fury — transiting via Horn of Africa to CENTCOM — will provide dual-carrier Gulf posture alongside Lincoln",
     "deployed_since": "2026-03-31",
     "operation_start_date": "2026-04-13",
-    "notes": "Day 46: Bush CSG entered the Mediterranean ~April 13 via Gibraltar providing the third carrier reinforcement. CSG-10 with CVW-7 embarked, commanded by RADM Alexis Walker. Escorts: USS Ross (DDG-71), USS Donald Cook (DDG-75), USS Mason (DDG-87). USNI Fleet Tracker Apr 13: 291 total Battle Force ships (232 USS, 59 USNS), 105 deployed, 86 underway. Three-CSG posture now in place for first time since early in war: Lincoln (Arabian Sea/Gulf), Ford (Eastern Med — breaking post-Vietnam record), Bush (entering Eastern Med). Bush arrival dramatically increases combat capacity amid Islamabad collapse and the US naval blockade of Iranian ports.",
-    "source": "USNI Fleet Tracker, SOF News, CBS News, Apr 14 reporting"
+    "notes": "Day 49: Bush CSG transiting to CENTCOM via the Horn of Africa per USNI Fleet and Marine Tracker (Apr 13). CSG-10 with CVW-7 embarked, commanded by RADM Alexis Walker. Escorts: USS Ross (DDG-71), USS Donald Cook (DDG-75), USS Mason (DDG-87). Upon arrival Bush will join Lincoln in the Arabian Sea providing dual-carrier Gulf posture with Ford (Eastern Med) maintaining Lebanon/Red Sea coverage. Arrival projected to reinforce blockade enforcement of Iranian ports ahead of Apr 22 ceasefire expiry. Trump Apr 17 declared US-Iran deal 'very close'; Round 2 Islamabad talks likely before ceasefire expires. Hegseth: 10,000+ service members, 12+ ships, 100+ aircraft currently enforcing blockade.",
+    "source": "USNI Fleet and Marine Tracker (Apr 13), Apr 17 reporting"
   },
   {
     "id": "lha-7",

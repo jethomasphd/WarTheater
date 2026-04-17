@@ -2197,5 +2197,23 @@
     "notes": "Days 47-48 (Apr 15-16): Hezbollah launched ~30 rockets at northern Israel Apr 15 morning (IDF confirmed); claimed 24 separate attacks Apr 14 on northern Israel + IDF positions in southern Lebanon; shot down Israeli Hermes 450 drone and fired SAMs at Israeli warplanes. Apr 16: Hezbollah struck Ashdod (claimed Ashdod Naval Base) and damaged a 1,500-year-old church in Nahariya. Cumulative Hezbollah rocket/UAV activity since March 2: 1,121 attack waves (Alma Center). Hezbollah SecGen Naim Qassem rejected the Apr 14 Washington Israel-Lebanon talks as 'futile' and a 'free concession.' Hezbollah MP Hussein Hajj Hassan condemned the talks as 'a grave sin.' IDF Home Front Command warned Hezbollah may temporarily increase attacks to influence Washington negotiations. No Houthi Red Sea shipping attacks in the 48-hour window; Iraqi PMF quiet. IRGC Maj. Gen. Ali Abdollahi (Khatam al-Anbiya HQ) declared Apr 15 on Iranian state TV that Iran will 'not allow any exports or imports to continue in the Persian Gulf, Sea of Oman, and the Red Sea' if US blockade continues — read by analysts (FDD/LWJ, WSJ) as potential Houthi activation signal. Mojtaba Khamenei 'military adviser' warned Iran would 'sink American ships in the Strait of Hormuz.' No kinetic Iranian action in the window.",
     "verified": true,
     "last_updated": "2026-04-16"
+  },
+  {
+    "id": "hezbollah-final-24hrs-pre-truce",
+    "city": "Kiryat Shmona / Bint Jbeil sector",
+    "lat": 33.21,
+    "lng": 35.57,
+    "type": "iran_retaliation",
+    "weapon": "Rockets / suicide drone / anti-armor",
+    "origin": "Hezbollah / Lebanon",
+    "first_strike": "2026-04-16",
+    "casualties_reported": "Pre-dawn Apr 16 Hezbollah rocket barrage on Kiryat Shmona started fires but caused no casualties. Hezbollah counter-claimed 39 operations including a D9 bulldozer hit by suicide drone. No confirmed Israeli fatalities in the final 24 hours pre-truce.",
+    "casualties_source": "IDF / Hezbollah media / Al Jazeera / Reuters",
+    "active_days": [
+      49
+    ],
+    "notes": "Day 49 (Apr 16-17): Final 24 hours before the Lebanon 10-day ceasefire that took effect 5:00 PM ET Apr 16 saw the war's most intense activity. IDF struck 380+ Hezbollah targets in southern Lebanon in the day before the ceasefire, including an airstrike on Nabatieh and this pre-dawn Hezbollah rocket barrage on Kiryat Shmona (fires, no casualties). Battle of Bint Jbeil consolidation: Brig. Gen. Guy Levy's 98th Division Egoz Unit commandos raided a Hezbollah 'combat compound' in the Aynata casbah, seizing RPGs, Kalashnikovs, grenades, an anti-aircraft missile, and surveillance gear, then demolished ~70 Hezbollah infrastructure sites in under a minute via coordinated detonation. IDF recovered 130+ weapons stashed in a Bint Jbeil school alongside Hezbollah flags. Hezbollah counter-claimed 39 operations including a D9 bulldozer hit by suicide drone. Cumulative Bint Jbeil toll: 100+ Hezbollah fighters killed. Lebanon ceasefire MoU 6-point: extension conditional on Lebanon 'effectively demonstrating its ability to assert its sovereignty'; Israel retains self-defense rights against 'planned, imminent, or ongoing attacks'; IDF troops remain south of the Litani River. IDF spokesman Avichay Adraee warned displaced Lebanese not to return south of the river yet; tens of thousands began moving southward Apr 17 despite warning. Hezbollah is NOT a signatory and declared its 'finger on the trigger'; DM Katz said the Lebanon campaign is 'not yet completed.' Iran front remains in ceasefire (~240 hrs). No new Iranian kinetic retaliation Apr 16-17. No Houthi Red Sea shipping attacks Apr 16-17. Wilson Center timeline through Apr 14: tempo declining — 1 ASBM intercepted Apr 11, ASBM into Gulf of Aden Apr 13, 4 drones destroyed Apr 14. Senior US military official told HASC Apr 16 Iran-backed Shiite militias have conducted 'hundreds' of attacks on US forces since Feb 28; Iran retains 'thousands of missiles' and one-way attack drones.",
+    "verified": true,
+    "last_updated": "2026-04-17"
   }
 ]
