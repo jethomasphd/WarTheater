@@ -2215,5 +2215,41 @@
     "notes": "Day 49 (Apr 16-17): Final 24 hours before the Lebanon 10-day ceasefire that took effect 5:00 PM ET Apr 16 saw the war's most intense activity. IDF struck 380+ Hezbollah targets in southern Lebanon in the day before the ceasefire, including an airstrike on Nabatieh and this pre-dawn Hezbollah rocket barrage on Kiryat Shmona (fires, no casualties). Battle of Bint Jbeil consolidation: Brig. Gen. Guy Levy's 98th Division Egoz Unit commandos raided a Hezbollah 'combat compound' in the Aynata casbah, seizing RPGs, Kalashnikovs, grenades, an anti-aircraft missile, and surveillance gear, then demolished ~70 Hezbollah infrastructure sites in under a minute via coordinated detonation. IDF recovered 130+ weapons stashed in a Bint Jbeil school alongside Hezbollah flags. Hezbollah counter-claimed 39 operations including a D9 bulldozer hit by suicide drone. Cumulative Bint Jbeil toll: 100+ Hezbollah fighters killed. Lebanon ceasefire MoU 6-point: extension conditional on Lebanon 'effectively demonstrating its ability to assert its sovereignty'; Israel retains self-defense rights against 'planned, imminent, or ongoing attacks'; IDF troops remain south of the Litani River. IDF spokesman Avichay Adraee warned displaced Lebanese not to return south of the river yet; tens of thousands began moving southward Apr 17 despite warning. Hezbollah is NOT a signatory and declared its 'finger on the trigger'; DM Katz said the Lebanon campaign is 'not yet completed.' Iran front remains in ceasefire (~240 hrs). No new Iranian kinetic retaliation Apr 16-17. No Houthi Red Sea shipping attacks Apr 16-17. Wilson Center timeline through Apr 14: tempo declining — 1 ASBM intercepted Apr 11, ASBM into Gulf of Aden Apr 13, 4 drones destroyed Apr 14. Senior US military official told HASC Apr 16 Iran-backed Shiite militias have conducted 'hundreds' of attacks on US forces since Feb 28; Iran retains 'thousands of missiles' and one-way attack drones.",
     "verified": true,
     "last_updated": "2026-04-17"
+  },
+  {
+    "id": "hormuz-irgc-gunboats-april18",
+    "city": "Strait of Hormuz (Larak Island corridor / Gulf of Oman)",
+    "lat": 26.60,
+    "lng": 56.50,
+    "type": "iran_retaliation",
+    "weapon": "IRGC fast-attack gunboat small-arms / rockets",
+    "origin": "IRGC Navy (Iran)",
+    "first_strike": "2026-04-18",
+    "casualties_reported": "No fatalities reported. Two IRGC gunboats opened fire on Indian-flagged VLCC Sanmar Herald (carrying Iraqi crude) despite prior clearance — ship continued via Iran-sanctioned Larak Island route. Minerva Evropi and Nissos Keros (both Indian-flagged) reversed course after taking fire attempting the neutral transit corridor. A container ship reported rocket damage from an unidentified projectile off the Omani coast (UKMTO advisory).",
+    "casualties_source": "UKMTO / Kpler / TankerTrackers / WSJ / OSINTtechnical / Bloomberg",
+    "active_days": [
+      50
+    ],
+    "notes": "Day 50 (Apr 18): Iran reimposed restrictions on the Strait of Hormuz within hours of Trump declaring 'no sticking points left' in a deal. At ~07:00-09:00 UTC Iran's Joint Military Command announced via IRIB that strait control had 'returned to its previous state ... under strict management and control of the armed forces,' accusing the US of 'piracy and maritime robbery' for maintaining its port blockade. Iranian Navy radio traffic monitored by Bloomberg and OSINT trackers instructed merchant vessels that 'no ships are allowed to pass through.' Approximately 20 outbound tankers reversed course inside the strait, per Kpler/TankerTrackers data cited by WSJ. Parliament security committee spokesman Ebrahim Rezaei announced Iran is drafting legislation to replace the informal ~$2M-per-vessel toll with a statutory 'strait security' charge — US and Israeli military vessels barred entirely. National Security Commission head Ebrahim Azizi confirmed ships now require prior Iranian naval authorization. Supreme Leader Ayatollah Mojtaba Khamenei (first public message since his Feb 28 elevation) used the Iranian Army anniversary to declare the navy 'ready to inflict bitter defeats on its enemies.' Polymarket odds of Hormuz returning to normal by end of April collapsed from 64% to ~32% on the reclosure news.",
+    "verified": true,
+    "last_updated": "2026-04-18"
+  },
+  {
+    "id": "unifil-french-cwo-killed-april18",
+    "city": "Southern Lebanon (UNIFIL AO)",
+    "lat": 33.30,
+    "lng": 35.30,
+    "type": "iran_retaliation",
+    "weapon": "Attack on UNIFIL patrol (attribution alleged Hezbollah)",
+    "origin": "Hezbollah / Lebanon (alleged)",
+    "first_strike": "2026-04-18",
+    "casualties_reported": "1 French chief warrant officer (CWO) serving with UNIFIL killed; 3 French peacekeepers wounded. Separately: 1 Lebanese killed in Israeli strike on a motorcycle in the south. Earlier MoPH reporting documented one death in Kounine overnight Apr 17.",
+    "casualties_source": "Élysée / French MoD / Lebanese MoPH / Reuters / AP",
+    "active_days": [
+      50
+    ],
+    "notes": "Day 50 (Apr 18): First major breach of the 48-hour-old Lebanon 10-day ceasefire and the first allied fatality on the Lebanon front. President Macron posted that 'everything suggests that responsibility for this attack lies with Hezbollah.' Netanyahu declared the anti-Hezbollah campaign 'not over' but Trump publicly told Israel it is 'prohibited' from striking Lebanon — 'enough is enough.' Lebanese President Aoun declared Lebanon will no longer be 'an arena for others' wars.' Lebanon MoPH end-Apr 17 cumulative: 2,294 killed, 7,544 wounded, ≥172 children, 100+ paramedics/health workers dead. Apr 8 'Black Wednesday / Operation Eternal Darkness' alone killed 357 and wounded 1,150+. Hezbollah losses: internal sources 400+ fighters, IDF claims 1,400+. The event will test whether Paris's diplomatic activism survives pressure to retaliate, particularly after the Apr 17 Paris summit where Macron co-hosted 49 countries (US excluded) for the Strait of Hormuz Maritime Freedom of Navigation Initiative.",
+    "verified": true,
+    "last_updated": "2026-04-18"
   }
 ]
