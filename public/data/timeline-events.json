@@ -4453,5 +4453,32 @@
     "category": "summary",
     "source": "Multiple",
     "data_point": "~$54.95B cumulative — S&P futures ATH trajectory 7,118.75 / crude -6.37% — LEBANON CEASEFIRE in force — IRAN CEASEFIRE ~240 hrs — blockade Day 5 ~$400M/day to Iran — HOUSE WPR fails 213-214 by ONE VOTE — 40-NATION HORMUZ SUMMIT excludes US — Trump: deal 'very close' — Iran ~13 days oil storage before Apr 22 expiry"
+  },
+  {
+    "date": "2026-04-18",
+    "time": "05:19",
+    "title": "HORMUZ RECLOSED — Iran Joint Military Command: control 'returned to its previous state'",
+    "description": "At roughly 05:19 ET, AP wires broke that Iran's Joint Military Command had announced via IRIB that 'control of the Strait of Hormuz has returned to its previous state \u2026 under strict management and control of the armed forces,' accusing the US of 'piracy and maritime robbery' for maintaining its port blockade after Iran declared the waterway open on Friday. Iranian Navy radio traffic monitored by Bloomberg and OSINT trackers instructed merchant vessels that no ships are allowed to pass through. Approximately 20 outbound tankers reversed course inside the strait (Kpler/TankerTrackers via WSJ). The reversal came hours after Trump declared 'no sticking points' remained in a deal. Parliament security committee spokesman Ebrahim Rezaei announced Iran is drafting legislation to replace the informal ~$2M-per-vessel toll with a statutory 'strait security' charge \u2014 US and Israeli military vessels barred entirely. National Security Commission head Ebrahim Azizi confirmed ships now require prior Iranian naval authorization.",
+    "category": "military",
+    "source": "AP / IRIB / Bloomberg / Kpler / TankerTrackers / WSJ",
+    "data_point": "Iran reimposed Hormuz restrictions at ~05:19 ET Apr 18 \u2014 Joint Military Command (IRIB): strait control 'returned to its previous state' \u2014 Iranian Navy radio: 'no ships are allowed to pass through' \u2014 ~20 outbound tankers reversed course \u2014 Parliament drafting legislation for statutory 'strait security' charge; US/Israeli military vessels barred"
+  },
+  {
+    "date": "2026-04-18",
+    "time": "08:00",
+    "title": "IRGC gunboats fire on Indian-flagged VLCC Sanmar Herald \u2014 2 more tankers reverse course",
+    "description": "Two IRGC gunboats opened fire on the Indian-flagged VLCC Sanmar Herald (carrying Iraqi crude) despite prior clearance; the ship continued via the Iran-sanctioned Larak Island route. Two other Indian-flagged tankers, Minerva Evropi and Nissos Keros, reversed course after taking fire when attempting the 'neutral' transit corridor. A container ship reported rocket damage from an unidentified projectile off the Omani coast (UKMTO advisory); no casualties. The kinetic incidents capped the strait's reclosure on Day 50 \u2014 approximately 20 outbound tankers in total reversed course inside the strait per Kpler/TankerTrackers data cited by WSJ. Supreme Leader Ayatollah Mojtaba Khamenei, in his first public message since his Feb 28 elevation, used the Iranian Army anniversary to declare the navy 'ready to inflict bitter defeats on its enemies.'",
+    "category": "military",
+    "source": "UKMTO / Kpler / TankerTrackers / WSJ / OSINTtechnical / Bloomberg",
+    "data_point": "Apr 18 kinetic: IRGC gunboats fire on Indian-flagged VLCC Sanmar Herald \u2014 Minerva Evropi + Nissos Keros reverse course after fire \u2014 container ship reports rocket damage off Oman (UKMTO) \u2014 ~20 outbound tankers reversed inside strait \u2014 Supreme Leader Mojtaba Khamenei (first public message since Feb 28): navy 'ready to inflict bitter defeats'"
+  },
+  {
+    "date": "2026-04-18",
+    "time": "09:30",
+    "title": "LEBANON TRUCE BREACHED \u2014 French UNIFIL CWO killed, 3 wounded; Macron blames Hezbollah",
+    "description": "The 10-day Lebanon ceasefire that took effect Thursday midnight Beirut time suffered its first significant breach on April 18. A French chief warrant officer serving with UNIFIL was killed and three French peacekeepers wounded in southern Lebanon \u2014 the first allied fatality on the Lebanon front. President Macron posted that 'everything suggests that responsibility for this attack lies with Hezbollah.' Separately, one Lebanese was killed in an Israeli strike on a motorcycle in the south, and earlier MoPH reporting documented one death in Kounine overnight April 17. Netanyahu declared the anti-Hezbollah campaign 'not over' but Trump publicly told Israel it is 'prohibited' from striking Lebanon \u2014 'enough is enough.' Lebanese President Aoun declared Lebanon will no longer be 'an arena for others' wars.' Lebanon MoPH cumulative Apr 17: 2,294 killed, 7,544 wounded, \u2265172 children, 100+ paramedics/health workers dead.",
+    "category": "casualties",
+    "source": "\u00c9lys\u00e9e / French MoD / Lebanese MoPH / Reuters / AP",
+    "data_point": "Apr 18 Lebanon: French UNIFIL CWO killed + 3 wounded in southern Lebanon \u2014 first allied fatality on Lebanon front \u2014 Macron: 'everything suggests responsibility lies with Hezbollah' \u2014 1 Lebanese killed in Israeli motorcycle strike \u2014 Trump: Israel 'prohibited' from Lebanon strikes / 'enough is enough' \u2014 Netanyahu: campaign 'not over' \u2014 Lebanon MoPH 2,294 killed / 7,544 wounded"
   }
 ]
