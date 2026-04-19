@@ -15,7 +15,7 @@
     "mission_summary": "Primary strike platform — blockade enforcement and Hormuz mine clearance support",
     "deployed_since": "2025-11-21",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 50: Lincoln remains forward-most CSG for Epic Fury blockade enforcement in the Arabian Sea. USNI Fleet and Marine Tracker (Apr 13) shows Total Battle Force 291 ships, 105 deployed, 86 underway. CSG-3 with CVW-9 embarked; VMFA-314 F-35Cs embarked. Blockade surface force (CENTCOM): 10,000+ Sailors, Marines, and Airmen aboard 16 warships (11 DDGs, 3 LHD/LPD/LSD, 1 CVN, 1 LCS) + aircraft — Hegseth: 'less than 10% of America's naval power.' Identified Arabian Sea destroyers: USS Rafael Peralta (DDG-115) — publicly credited by CENTCOM Apr 17 with turning back a merchant vessel — plus USS Spruance (111), Bainbridge (96), Thomas Hudner (116), Frank E. Petersen Jr. (121), Delbert D. Black (119), Mitscher (57), Pinckney (91), Milius (69), John Finn, Michael Murphy. USS Bainbridge transitioned from Med to Red Sea/CENTCOM earlier in the period per Apr 13 tracker. CENTCOM cumulative blockade tally: 21 vessels turned back (up from 19 Apr 17); zero have evaded. Apr 18: Iran reimposed Hormuz restrictions at ~05:19 ET; IRGC gunboats fired on Indian-flagged VLCC Sanmar Herald; Minerva Evropi + Nissos Keros reversed course; ~20 outbound tankers reversed course in strait. Next USNI tracker expected Monday Apr 20. No new carrier movements reported Apr 18. Trump Apr 18: blockade stays until 'transaction with Iran is 100% complete.' Ceasefire on Iran front holds ~240+ hours.",
+    "notes": "Day 51: Lincoln remains forward-most CSG for Epic Fury blockade enforcement in the Arabian Sea supporting operation. CSG-3 with CVW-9 embarked. DESRON 21 with USS Spruance (DDG-111) and USS Frank E. Petersen Jr. (DDG-121 as ADC). Other Arabian Sea destroyers in blockade rotation include USS Michael Murphy (DDG-112), USS Rafael Peralta (DDG-115), USS Delbert D. Black (DDG-119), USS Pinckney (DDG-91), USS Mitscher (DDG-57), USS John Finn (DDG-113), USS Milius (DDG-69). CENTCOM: 23 vessels total turned back since blockade began (Apr 18 count; Caine said 13 on Apr 16). Hormuz whipsaw Apr 17-18: Araghchi declared strait 'fully open' Apr 17 — only ~9 ships transited — before IRGC Navy reversed decision Apr 18 declaring strait closed until US lifts blockade; Iranian gunboats fired on a tanker; two India-flagged vessels struck. IMF PortWatch: 14 vessels transiting prior 24 hrs. CENTCOM issued no press releases Apr 13-19 — operational messaging has shifted to Pentagon briefings and social media. USS Canberra (LCS-30) photographed by CENTCOM in Persian Gulf Apr 18. USS Chief (MCM-14) and USS Pioneer (MCM-9) departed Sasebo, transited Singapore Apr 8-10, inbound to 5th Fleet. Trump (Apr 18 aboard AF1): 'maybe I won't extend it, so you have a blockade, and unfortunately we have to start dropping bombs again.' Ceasefire on Iran front holds ~288+ hours; expires Apr 21-22.",
     "source": "USNI Fleet and Marine Tracker (Apr 13), CENTCOM imagery (Apr 17), AP/WSJ Apr 18 reporting"
   },
   {
@@ -24,17 +24,17 @@
     "hull": "CVN-78",
     "type": "carrier",
     "strike_group": "Carrier Strike Group 12",
-    "lat": 40.00,
-    "lng": 10.00,
-    "area": "Eastern Mediterranean — departed Split Apr 2; post-Vietnam deployment record in force",
+    "lat": 22.00,
+    "lng": 37.50,
+    "area": "Red Sea — transited Suez; now over 300 days at sea (longest post-Cold War US carrier deployment)",
     "aircraft": "F/A-18E/F Super Hornets (CVW-8), EA-18G Growlers, E-2D Hawkeye",
-    "escorts": ["DDG-87 USS Mason", "DDG-75 USS Donald Cook", "DDG-71 USS Ross"],
-    "status": "RECORD-BREAKING DEPLOYMENT",
-    "mission_summary": "Extended Epic Fury deployment — Eastern Mediterranean — post-Vietnam carrier deployment record",
+    "escorts": ["DDG-96 USS Bainbridge", "DDG-72 USS Mahan", "DDG-116 USS Thomas Hudner"],
+    "status": "RED SEA — RECORD-BREAKING DEPLOYMENT",
+    "mission_summary": "Extended Epic Fury deployment — transited Suez into Red Sea — post-Vietnam carrier deployment record broken (>300 days)",
     "deployed_since": "2025-05-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 50: Ford remains in Eastern Mediterranean — USNI Fleet and Marine Tracker (Apr 13) confirms Ford CSG is the record holder for longest carrier deployment since the Cold War. CVW-8 embarked; DESRON 2 includes USS Mason (DDG-87), USS Donald Cook (DDG-75), USS Ross (DDG-71). Three-carrier posture: Lincoln (Arabian Sea forward-most), Ford (Eastern Med), Bush (transiting around Africa off Namibia). Lebanon 10-day truce (~48 hrs old) suffered first major breach Apr 18 — a FRENCH chief warrant officer serving with UNIFIL was killed and three French peacekeepers wounded in southern Lebanon (Macron: 'everything suggests that responsibility for this attack lies with Hezbollah'); one Lebanese killed in Israeli strike on a motorcycle. Netanyahu: anti-Hezbollah campaign 'not over'; Trump publicly told Israel 'prohibited' from striking Lebanon — 'enough is enough.' Ford continues TACAIR/ISR support posture.",
-    "source": "USNI Fleet and Marine Tracker (Apr 13), Apr 18 reporting"
+    "notes": "Day 51: Ford transited Suez and is now in the RED SEA (update from Eastern Med position on the Apr 13 USNI tracker). Ford CSG now over 300 days at sea — the longest post-Cold War US carrier deployment on record. CVW-8 embarked; DESRON 2 includes USS Bainbridge (DDG-96), USS Mahan (DDG-72), plus Red Sea destroyer USS Thomas Hudner (DDG-116). Three-carrier posture: Lincoln (Arabian Sea forward-most), Ford (Red Sea), Bush (transiting around Africa off Namibia). Bush CSG will relieve Ford in CENTCOM on arrival. Lebanon 10-day truce (began Apr 17) suffered first major breach Apr 18 — French UNIFIL peacekeeper killed in southern Lebanon (Macron blamed Hezbollah; Hezbollah denied); IDF forces remain deep inside southern Lebanon during truce; Israel issued 10-day ultimatum for Lebanon to begin dismantling Hezbollah. Ceasefire on Iran front holds ~288+ hours; expires Apr 21-22. Trump (Apr 18 aboard AF1) threatened to resume strikes if ceasefire expires without deal.",
+    "source": "Manifest Apr 19, Apr 18 reporting, USNI Fleet and Marine Tracker (Apr 13 baseline)"
   },
   {
     "id": "cvn-77",
