@@ -2183,7 +2183,7 @@
     "id": "hezbollah-retaliation-april15-16",
     "city": "Northern Israel / Ashdod",
     "lat": 33.05,
-    "lng": 35.20,
+    "lng": 35.2,
     "type": "iran_retaliation",
     "weapon": "Rockets / ballistic missile / SAMs",
     "origin": "Hezbollah / Lebanon",
@@ -2219,8 +2219,8 @@
   {
     "id": "hormuz-irgc-gunboats-april18",
     "city": "Strait of Hormuz (Larak Island corridor / Gulf of Oman)",
-    "lat": 26.60,
-    "lng": 56.50,
+    "lat": 26.6,
+    "lng": 56.5,
     "type": "iran_retaliation",
     "weapon": "IRGC fast-attack gunboat small-arms / rockets",
     "origin": "IRGC Navy (Iran)",
@@ -2237,8 +2237,8 @@
   {
     "id": "unifil-french-cwo-killed-april18",
     "city": "Southern Lebanon (UNIFIL AO)",
-    "lat": 33.30,
-    "lng": 35.30,
+    "lat": 33.3,
+    "lng": 35.3,
     "type": "iran_retaliation",
     "weapon": "Attack on UNIFIL patrol (attribution alleged Hezbollah)",
     "origin": "Hezbollah / Lebanon (alleged)",
@@ -2251,5 +2251,23 @@
     "notes": "Day 50 (Apr 18): First major breach of the 48-hour-old Lebanon 10-day ceasefire and the first allied fatality on the Lebanon front. President Macron posted that 'everything suggests that responsibility for this attack lies with Hezbollah.' Netanyahu declared the anti-Hezbollah campaign 'not over' but Trump publicly told Israel it is 'prohibited' from striking Lebanon — 'enough is enough.' Lebanese President Aoun declared Lebanon will no longer be 'an arena for others' wars.' Lebanon MoPH end-Apr 17 cumulative: 2,294 killed, 7,544 wounded, ≥172 children, 100+ paramedics/health workers dead. Apr 8 'Black Wednesday / Operation Eternal Darkness' alone killed 357 and wounded 1,150+. Hezbollah losses: internal sources 400+ fighters, IDF claims 1,400+. The event will test whether Paris's diplomatic activism survives pressure to retaliate, particularly after the Apr 17 Paris summit where Macron co-hosted 49 countries (US excluded) for the Strait of Hormuz Maritime Freedom of Navigation Initiative.",
     "verified": true,
     "last_updated": "2026-04-18"
+  },
+  {
+    "id": "lebanon-sunday-toll-april19",
+    "city": "Southern Lebanon / Bekaa Valley / southern Beirut",
+    "lat": 33.3,
+    "lng": 35.5,
+    "type": "iran_retaliation",
+    "weapon": "IDF airstrikes (vs Hezbollah targets); Hezbollah rocket/UAV fire",
+    "origin": "Israel / Hezbollah (Lebanon)",
+    "first_strike": "2026-04-19",
+    "casualties_reported": "≥35 killed in Lebanon on Sunday Apr 19 — including a Red Cross paramedic — during the 10-day Lebanon truce. Haaretz Apr 18: Netanyahu privately admitted he has 'not succeeded' against Hezbollah. IDF reportedly struck 200+ Hezbollah targets over weekend Apr 18-19 (UNVERIFIED count). Cumulative Lebanon destruction: 40,000+ homes destroyed; 1,400+ buildings in south. Lebanon MoPH mid-April: 2,020-2,196 killed, 6,500-7,185 wounded; 177 children killed; 1.2 million displaced.",
+    "casualties_source": "Lebanese authorities / Haaretz / Al Jazeera / Reuters / AP",
+    "active_days": [
+      52
+    ],
+    "notes": "Day 52 (Apr 19-20): 10-day Israel-Lebanon truce (Apr 16-17 start; expires ~Apr 26-27) is holding 'shakily.' IDF maintains 'Operation Silver Plow' positions along a 10-km 'yellow line' buffer zone into southern Lebanon. Netanyahu (Apr 19 video to troops, flak jacket): 'The war continues, including within the security zone in Lebanon.' Battle of Bint Jbeil (ongoing since Apr 9): IDF 98th Division claims 100+ Hezbollah killed, town still contested. Apr 18 French UNIFIL Sgt 1st Class Florian Montorio killed in ambush (Macron blamed Hezbollah; denied). Lebanon-Israel diplomatic track: Ambassadors Nada Moawad and Yechiel Leiter preparing second State Dept meeting; Leiter publicly said 'next talks will be in a few weeks in Washington.' This entry captures the continued kinetic tempo during the ceasefire.",
+    "verified": true,
+    "last_updated": "2026-04-20"
   }
 ]
