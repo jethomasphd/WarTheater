@@ -4570,5 +4570,50 @@
     "category": "diplomatic",
     "source": "Israeli Government / White House / ABC / Fox News / UAE media / Reuters",
     "data_point": "Apr 19 Netanyahu video to troops: 'the war continues, including within the security zone in Lebanon' — Trump Phoenix rally: 'knock out every single Power Plant, and every single Bridge, in Iran'; 'blowing everything up and taking over the oil'; peace deal would involve US taking control of Iran's nuclear material — UAE opens initial US talks on possible financial support"
+  },
+  {
+    "date": "2026-04-20",
+    "time": "06:00",
+    "title": "Iran FM Baghaei: 'no plans' for Round 2 Islamabad talks — calls US blockade 'war crime and crime against humanity'",
+    "description": "Iran Foreign Ministry spokesman Esmaeil Baghaei said Apr 20 that Tehran 'as of now... has no plans for the next round of negotiations,' dismissing US statements about Round 2 Islamabad talks as 'a media game.' Baghaei called the US naval blockade of Iranian ports 'unlawful and criminal... war crime and crime against humanity,' directly contradicting Pakistani officials who told the press Iran had 'shown openness' to continuing talks. Iran's Ambassador to Pakistan Reza Amiri Moghadam posted on X: 'As long as the naval blockade remains, faultlines remain.' CNN had reported earlier that Iranian sources indicated a delegation including Ghalibaf and Araghchi was expected Tuesday, but IRNA dismissed such reports as 'not correct.' Pakistan had prepared the Serena Hotel for the US delegation and the Marriott for Iran's, locking down Islamabad's Red Zone.",
+    "category": "diplomatic",
+    "source": "Iranian Foreign Ministry / IRNA / CNN / Pakistani officials",
+    "data_point": "Apr 20 Iran FM Baghaei: 'no plans' for Round 2 Islamabad talks — calls US blockade 'unlawful and criminal... war crime and crime against humanity' — Iran Ambassador Amiri Moghadam (X): 'As long as the naval blockade remains, faultlines remain' — DISCREPANCY with Pakistani officials saying Iran has 'shown openness'"
+  },
+  {
+    "date": "2026-04-20",
+    "time": "09:00",
+    "title": "Vance, Witkoff, Kushner traveling to Islamabad — US C-17 lands Nur Khan airbase",
+    "description": "After Trump said Apr 19 that VP Vance would NOT accompany Witkoff and Kushner to Islamabad (citing Secret Service concerns about VP/POTUS co-location), White House Press Secretary Leavitt reversed Apr 19-20 confirming Vance would join the delegation. A US C-17 transport landed Apr 20 at Nur Khan airbase in Rawalpindi, Pakistan. Pakistani authorities locked down Islamabad's Red Zone for the arrival. This remains the highest-level US-Iran diplomatic engagement since 1979, but Iran's public rejection of the talks hours earlier throws the meeting into doubt. Trump Apr 17-20 threat menu includes: knocking out 'every single Power Plant, and every single Bridge, in Iran'; Hormuz becoming 'a joint venture' between US and Iran (ABC); 'blowing everything up and taking over the oil' (Fox News Sunday); and peace deal involving US taking control of Iran's nuclear material.",
+    "category": "diplomatic",
+    "source": "White House / Pakistani officials / Flight tracking / Leavitt briefings",
+    "data_point": "Apr 20 Vance joins Witkoff + Kushner (initially said not going) — US C-17 lands Nur Khan airbase Pakistan — Islamabad Red Zone locked down (Serena for US, Marriott for Iran) — Iran rejects talks 'as currently constituted' same morning"
+  },
+  {
+    "date": "2026-04-20",
+    "time": "10:30",
+    "title": "Oil surges 5-7%, S&P gaps lower on Touska seizure + ceasefire expiry clock",
+    "description": "Markets reopened Monday sharply repricing war risk. Brent crude surged ~$5 to ~$95.42/bbl (+5.58-7%) on the USS Spruance seizure of the M/V Touska Apr 19 and Iran's parliament announcement of a draft 'Tehran Tollbooth' law. WTI traded ~$87.93 (+~6%); Brent-WTI spread widened to $15 (vs normal $6). S&P 500 opened sharply lower before settling ~7,119 (-0.1 to -0.2% from 7,126.06 Apr 17 record close); Nasdaq -0.2 to -0.4%; VIX spiked >21 early then ~19.98 (+14%). 10Y Treasury 4.26-4.28% (+2 bps); Gold $4,806-$4,879 (4th consecutive weekly gain). CNBC's David Wagner (Aptus Capital) captured the contradiction: 'The war with Iran is now in the rearview mirror for the market' — the 'TACO trade' (Trump Always Chickens Out) priced even as Hormuz kinetic incidents and ceasefire-expiry threats screamed otherwise. RTX reports Q1 earnings Apr 21 ($268B backlog, 850+ Tomahawks fired); LMT +~40% YTD (THAAD contract 4x to 400/yr).",
+    "category": "financial",
+    "source": "CNBC / Bloomberg / CME / ICE / Trading Economics / FactSet",
+    "data_point": "Apr 20 markets: Brent $95.42 (+5.58-7%), WTI $87.93 (+~6%), Brent-WTI spread $15 (vs normal $6); S&P ~7,119 (-0.1 to -0.2%), Nasdaq -0.2 to -0.4%, VIX spiked >21 then ~19.98 (+14%); 10Y 4.26-4.28%; Gold $4,806-$4,879. Aptus Capital: 'TACO trade' — market in 'rearview mirror' despite Hormuz escalation"
+  },
+  {
+    "date": "2026-04-20",
+    "time": "12:00",
+    "title": "Iran parliament announces draft 'Tehran Tollbooth' law — barring hostile country vessels",
+    "description": "Iranian MP Mohammad-Reza Rezaei-Kouchi announced a parliamentary draft law that would codify the long-rumored 'Tehran Tollbooth' — barring 'hostile' country vessels from transiting the Strait of Hormuz and imposing statutory tolls on others. This represents a formal legislative response to Trump's Apr 13 blockade, replacing the informal ~$2M/vessel transit charge with codified legal architecture. Strait throughput is now >90% below pre-war baseline (~10 mb/d disrupted). UKMTO transit counts: 8 on Apr 9; 2 on Apr 10; 4 on Apr 11. War-risk insurance premiums surged from 0.125-0.2% to 0.5-1.0% of hull value per voyage ($1M per $100M tanker); Lloyd's Joint War Committee expanded its high-risk zone to cover the entire Persian Gulf. VLCC spot rates peaked at $423,736/day in March (LSEG record data). IEA April STEO: Brent peaks Q2 2026 at ~$115/bbl, falls below $90 Q4 2026, averages $76 in 2027.",
+    "category": "military",
+    "source": "Iranian parliament / UKMTO / Lloyd's JWC / LSEG / IEA / Bloomberg",
+    "data_point": "Apr 20 Iran parliament draft 'Tehran Tollbooth' law: barring hostile country vessels, imposing statutory tolls — Hormuz throughput >90% below pre-war (~10 mb/d disrupted) — War-risk insurance 0.5-1.0% of hull value (8x pre-war) — Lloyd's JWC expanded high-risk zone to entire Persian Gulf"
+  },
+  {
+    "date": "2026-04-20",
+    "time": "17:00",
+    "title": "Day 52 summary — ceasefire expires ~20:00 ET Tue Apr 21 after Touska seizure and Iran's rejection of Round 2 talks",
+    "description": "As Day 52 of Operation Epic Fury closes, the two-week US-Iran ceasefire is ~24 hours from expiry and fraying in real time. Over Apr 17-20, Iran reopened then re-closed the Strait of Hormuz, USS Spruance seized the Iranian M/V Touska in the Gulf of Oman (Apr 19) in the first major kinetic enforcement of the blockade, Trump threatened to 'knock out every single Power Plant, and every single Bridge, in Iran,' and Iran's FM publicly signaled Tehran would not attend the Apr 20-21 Islamabad Round 2. Markets closed Friday on a ceasefire-hopes rally (S&P 500 +1.2% to 7,126 record) and reopened Monday sharply lower as oil surged 5-7%. The Islamabad delegation movement, Hormuz throughput, and the ceasefire expiry clock are the three variables now governing whether Day 53 is diplomacy or detonation. Cumulative direct US military expenditure ~$57.55B. Iran reporting frozen at pre-war levels due to a 50-day internet blackout (1,176 hours, longest ever recorded for a connected country); independent trackers have moved an order of magnitude higher (HRANA 3,636, Hengaw 6,620 military).",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "~$57.55B cumulative direct US military spend — ceasefire expires ~20:00 ET Tue Apr 21 — Touska seizure Apr 19 (first major kinetic blockade enforcement) — Iran rejects Round 2 Islamabad talks — Hormuz throughput >90% below pre-war — NetBlocks Day 50 Iran internet blackout (1,176 hrs)"
   }
 ]
