@@ -27,7 +27,7 @@
     "mission_summary": "Primary strike platform — blockade enforcement and Hormuz mine clearance support",
     "deployed_since": "2025-11-21",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 52: Lincoln remains forward-most CSG for Epic Fury blockade enforcement in the Arabian Sea. CSG-3 with CVW-9 embarked (including VMFA-314 F-35Cs). DESRON 21 with USS Spruance (DDG-111) and USS Frank E. Petersen Jr. (DDG-121 as ADC). APR 19 'TOUSKA DAY': DESRON 21's USS Spruance executed first major kinetic enforcement of the blockade — intercepted Iranian-flagged M/V Touska in Gulf of Oman, after ~6-hour standoff fired 5-inch MK45 rounds into engine room disabling propulsion; 31st MEU Marines off USS Tripoli (LHA-7) conducted VBSS and took ship into custody. Other Arabian Sea destroyers in blockade rotation include USS Michael Murphy (DDG-112), USS Rafael Peralta (DDG-115), USS Delbert D. Black (DDG-119), USS Pinckney (DDG-91), USS Mitscher (DDG-57), USS John Finn (DDG-113), USS Milius (DDG-69). CENTCOM: 25 commercial vessels redirected since Apr 13 (Caine Apr 16: 13; Apr 18: 23). Iran condemned Touska as 'armed piracy.' Trump Apr 17-20 threatened to 'knock out every single Power Plant, and every single Bridge, in Iran' if ceasefire fails. Ceasefire expires ~20:00 ET Tue Apr 21.",
+    "notes": "Day 53: Lincoln remains forward-most CSG for Epic Fury blockade enforcement in the northern Arabian Sea (USNI News Fleet Tracker Apr 20; TWZ). CSG-3 with CVW-9 embarked (including VMFA-314 F-35Cs). DESRON 21 with USS Spruance (DDG-111) and USS Frank E. Petersen Jr. (DDG-121 as ADC). Touska remains in US custody Apr 21 — Iran demanded immediate release; possible disposition tow to Oman or prize-court proceedings. Other Arabian Sea destroyers in blockade rotation: USS Michael Murphy (DDG-112), USS Rafael Peralta (DDG-115), USS Delbert D. Black (DDG-119), USS Pinckney (DDG-91), USS Mitscher (DDG-57), USS John Finn (DDG-113), USS Milius (DDG-69). CENTCOM Apr 20 tally: 27 vessels directed to turn around or return to Iranian ports since Apr 13 (up from 25 Apr 19); ZERO have broken through. Blockade force total (CENTCOM Apr 13-14): 10,000+ sailors/Marines/airmen, 12+ warships, 100+ aircraft. Iran condemned Touska as 'armed piracy' and 'war crimes and crimes against humanity' (FM Baghaei Apr 20-21). Trump Apr 21 CNBC: military 'raring to go,' 'lots of bombs start going off' if ceasefire expires; characterized US objectives as 'regime change.' Ceasefire expiry pushed to ~20:00 ET Wed Apr 22 — Trump said 'highly unlikely' to extend without a deal.",
     "source": "Manifest Apr 20, USNI Fleet and Marine Tracker (Apr 13), CENTCOM statement on Touska seizure (Apr 19), CNN/CNBC/Axios/Jerusalem Post/Aviationist"
   },
   {
@@ -49,7 +49,7 @@
     "mission_summary": "Extended Epic Fury deployment — transited Suez into Red Sea — post-Vietnam carrier deployment record broken (>300 days)",
     "deployed_since": "2025-05-01",
     "operation_start_date": "2026-02-28",
-    "notes": "Day 52: Ford CSG remains in Red Sea (previously transited Suez from Eastern Med). Ford deployment approaching 300 days at sea — longest post-Cold War US carrier deployment on record. CVW-8 embarked; DESRON 2 with USS Bainbridge (DDG-96), USS Mahan (DDG-72), plus USS Thomas Hudner (DDG-116). Three-carrier posture: Lincoln (Arabian Sea forward-most, Touska seizure Apr 19), Ford (Red Sea), Bush (off Namibia transiting). Lebanon 10-day truce (Apr 16-17 start) enters Day 3 shakily — ≥35 killed in Lebanon Sunday Apr 19 including Red Cross paramedic; IDF reportedly struck 200+ Hezbollah targets over weekend (UNVERIFIED count); French UNIFIL Sgt Florian Montorio killed Apr 18 (Macron blamed Hezbollah; denied); Netanyahu Apr 19 flak-jacket video: 'The war continues, including within the security zone in Lebanon.' Ceasefire on Iran front expires ~20:00 ET Tue Apr 21.",
+    "notes": "Day 53: Ford CSG in Red Sea / CENTCOM AOR — transited Suez southbound Apr 16 (USNI News, TWZ). CVW-8 embarked; DESRON 2 with USS Bainbridge (DDG-96), USS Mahan (DDG-72), plus USS Thomas Hudner (DDG-116). Ford deployment past record 300+ days at sea — longest post-Cold War US carrier deployment. Three-carrier posture when Bush arrives: Lincoln (northern Arabian Sea, blockade enforcement), Ford (Red Sea), Bush (transiting Horn of Africa per USNI; TWZ unable to independently confirm). Lebanon 10-day truce (Apr 16-17 start) holding — Round 2 Israel-Lebanon direct talks confirmed Thu Apr 23 in Washington (Leiter + Moawad attending). IDF Chief Zamir + DM Katz Apr 21 reaffirmed Hezbollah disarmament as 'ultimate goal'; Hezbollah SG Naim Qassem 'will pay with his head.' French UNIFIL Sgt Florian Montorio posthumously awarded UN and Lebanese Army medals at Beirut airport repatriation ceremony Apr 21. Ceasefire on Iran front expiry pushed to ~20:00 ET Wed Apr 22.",
     "source": "Manifest Apr 20, USNI Fleet and Marine Tracker (Apr 13), CENTCOM statement on Touska seizure (Apr 19), CNN/CNBC/Axios/Jerusalem Post/Aviationist"
   },
   {
@@ -58,20 +58,20 @@
     "hull": "CVN-77",
     "type": "carrier",
     "strike_group": "Carrier Strike Group 10",
-    "lat": -22.5,
-    "lng": 12.5,
-    "area": "Off Namibia — transiting around southern Africa en route to CENTCOM",
+    "lat": 11.5,
+    "lng": 51.5,
+    "area": "Transiting Horn of Africa en route to CENTCOM (USNI News Apr 20; TWZ unable to independently confirm)",
     "aircraft": "F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye, MH-60R/S Seahawk",
     "escorts": [
       "DDG-71 USS Ross",
       "DDG-75 USS Donald Cook",
       "DDG-87 USS Mason"
     ],
-    "status": "TRANSITING — OFF NAMIBIA",
-    "mission_summary": "Third carrier reinforcement for Epic Fury — transiting around southern Africa — will provide dual-carrier Gulf posture alongside Lincoln on arrival",
+    "status": "TRANSITING — HORN OF AFRICA",
+    "mission_summary": "Third carrier reinforcement for Epic Fury — transiting around southern Africa toward CENTCOM — on arrival CENTCOM will have three CSGs simultaneously in theater",
     "deployed_since": "2026-03-31",
     "operation_start_date": "2026-04-13",
-    "notes": "Day 52: Bush CSG off Namibia (per Apr 17 manifest update), transiting around southern Africa en route to CENTCOM. CSG-10 with CVW-7 embarked, commanded by RADM Alexis Walker. Upon arrival Bush will join Lincoln in Arabian Sea providing dual-carrier Gulf posture; Ford maintains Red Sea coverage. Touska seizure Apr 19 by Lincoln-escort USS Spruance (DDG-111) marks first major kinetic blockade enforcement — reinforcement rationale accelerating. Ceasefire expires ~20:00 ET Tue Apr 21; Trump Apr 17-20 threat menu includes 'knock out every single Power Plant, and every single Bridge, in Iran' and US taking control of Iran's nuclear material. Iran FM Baghaei Apr 20: 'no plans' for Round 2 Islamabad talks; called blockade 'war crime and crime against humanity.'",
+    "notes": "Day 53: Bush CSG transiting Horn of Africa en route to the Middle East per USNI News Apr 20 (TWZ: 'unable to independently confirm'). CSG-10 with CVW-7 embarked, commanded by RADM Alexis Walker. On arrival CENTCOM will have THREE CSGs simultaneously in theater (Lincoln + Ford + Bush) — concentration rationale sustained despite ceasefire. Touska remains in US custody; Apr 20-21 saw no new carrier-generated kinetic action. Ceasefire expiry pushed to ~20:00 ET Wed Apr 22; Trump Apr 21 CNBC: military 'raring to go,' 'lots of bombs start going off' if ceasefire expires. Iran FM Baghaei Apr 20-21: US blockade and Touska seizure 'war crimes and crimes against humanity' and 'maritime piracy.'",
     "source": "Manifest Apr 20, USNI Fleet and Marine Tracker (Apr 13), CENTCOM statement on Touska seizure (Apr 19), CNN/CNBC/Axios/Jerusalem Post/Aviationist"
   },
   {
@@ -93,7 +93,7 @@
     "mission_summary": "Rapid-response force for Strait of Hormuz — littoral warfare, mine countermeasures, maritime security, potential island seizure operations",
     "deployed_since": "2026-03-13",
     "operation_start_date": "2026-03-27",
-    "notes": "Day 52: Tripoli ARG executed TOUSKA SEIZURE Apr 19 — first major kinetic enforcement of the blockade. USS Spruance (DDG-111) intercepted Iranian-flagged M/V Touska in Gulf of Oman; after ~6-hour standoff fired 5-inch MK45 rounds into engine room disabling propulsion; 31st MEU Marines rappelled from two MH-60S Seahawks off Tripoli for VBSS and took ship into custody. 31st MEU (~2,200 Marines/sailors) embarked, ~20 F-35Bs (VMFA-121) — Tripoli operates as 'Lightning Carrier.' Tripoli ARG (LHA-7 + LPD-18 USS New Orleans + LSD-47 USS Rushmore + 31st MEU) remains forward-positioned for continuing blockade enforcement, littoral warfare, mine countermeasures, potential island seizure ops. Trump announced Touska seizure first on Truth Social. Iran condemned as 'armed piracy.' Ceasefire expires ~20:00 ET Tue Apr 21.",
+    "notes": "Day 53: Tripoli ARG in Arabian Sea; 31st MEU Marines from this force conducted the Apr 19 Touska boarding (rappelled from two MH-60S Seahawks off Tripoli for VBSS). 31st MEU (~2,200 Marines/sailors) embarked, ~20 F-35Bs (VMFA-121) — Tripoli operates as 'Lightning Carrier.' Tripoli ARG (LHA-7 + LPD-18 USS New Orleans + LSD-47 USS Rushmore + 31st MEU) remains forward-positioned for continuing blockade enforcement, littoral warfare, mine countermeasures, potential island seizure ops. USS Boxer (LHD-4) ARG + 11th MEU transiting toward CENTCOM (last confirmed near Guam Apr 11, INDOPACOM AOR). Ceasefire expiry pushed to ~20:00 ET Wed Apr 22. Iran demanded Touska's immediate release Apr 21; Iran FM Baghaei called seizure 'maritime piracy' and a 'war crime.' US delegation (Vance, Witkoff, Kushner) en route to Islamabad for Round 2 talks Apr 22; Iranian attendance unconfirmed EOD Apr 21.",
     "replaces": "lha-6 (USS America — unconfirmed in theater)",
     "source": "Manifest Apr 20, USNI Fleet and Marine Tracker (Apr 13), CENTCOM statement on Touska seizure (Apr 19), CNN/CNBC/Axios/Jerusalem Post/Aviationist"
   },
