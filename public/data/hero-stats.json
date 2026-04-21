@@ -997,6 +997,24 @@
       "displaced": 7800000,
       "flights_cancelled": 52000,
       "children_killed": 380
+    },
+    {
+      "date": "2026-04-21",
+      "war_day": 53,
+      "brent": 94.85,
+      "wti": 87.5,
+      "gas": 4.022,
+      "sp500": 7100,
+      "daily_cost_millions": 900,
+      "total_cost_billions": 58.45,
+      "targets_struck": 35500,
+      "us_kia": 13,
+      "us_wia": 303,
+      "iranian_killed": 9226,
+      "lebanese_killed": 2387,
+      "displaced": 7800000,
+      "flights_cancelled": 52000,
+      "children_killed": 566
     }
   ],
   "toll": {
@@ -1045,14 +1063,14 @@
     "flights_cancelled": {
       "value": 52000,
       "label": "Flights Cancelled",
-      "note": "52,000+ flights — HORMUZ THROUGHPUT >90% BELOW PRE-WAR (~10 mb/d disrupted) — TOUSKA SEIZURE APR 19: USS Spruance fired 5-inch MK45 rounds into Iranian M/V Touska engine room, 31st MEU Marines VBSS — CENTCOM 25 vessels redirected since Apr 13 — Parliament announced draft 'Tehran Tollbooth' law barring hostile country vessels",
+      "note": "52,000+ flights — HORMUZ THROUGHPUT >95% BELOW PRE-WAR — Only 16 ships transited Mon Apr 20 (MarineTraffic via CNN); only 3 vessels midday Apr 21 per Bloomberg — IMO SG Dominguez: ~2,000 vessels waiting on both sides — CENTCOM Apr 20: 27 vessels turned back since Apr 13 (zero breached) — Touska remains in US custody — Iran domestic flights resume Apr 22 after 50-day suspension",
       "tooltip": "Commercial flights cancelled due to airspace closures: 52,000+ since Feb 28. HORMUZ RECLOSED APR 18: Iran Joint Military Command announced via IRIB at ~05:19 ET that strait control 'returned to its previous state ... under strict management and control of the armed forces,' accusing the US of 'piracy and maritime robbery.' Iranian Navy radio instructed merchants that 'no ships are allowed to pass through.' Kinetic incidents Apr 18: (1) Two IRGC gunboats opened fire on Indian-flagged VLCC Sanmar Herald carrying Iraqi crude despite prior clearance — ship continued via Iran-sanctioned Larak Island route. (2) Minerva Evropi and Nissos Keros (both Indian-flagged) reversed course after taking fire. (3) Container ship reported rocket damage off Omani coast (UKMTO). (4) ~20 outbound tankers reversed course inside the strait (Kpler/TankerTrackers via WSJ). 'Tehran Tollbooth' mutates: Parliament security committee spokesman Ebrahim Rezaei announced Iran is drafting legislation to replace informal ~$2M/vessel toll with a statutory 'strait security' charge; US and Israeli military vessels barred entirely. NSC head Ebrahim Azizi confirmed ships now require prior Iranian naval authorization. CENTCOM cumulative blockade tally: 21 vessels turned back since blockade began (up from 19 Apr 17); zero have evaded. USS Rafael Peralta (DDG-115) publicly credited Apr 17 with turning back a merchant vessel. Pre-war Hormuz traffic averaged ~140-178 vessels/day; ~17 vessels transited on reference Saturday Apr 11; first VLCC cleared the strait Apr 14. PARIS SUMMIT APR 17: Macron + Starmer co-hosted 49 countries (many by video, incl. China, India, Canada, Australia, South Korea, Ukraine) for Strait of Hormuz Maritime Freedom of Navigation Initiative — US pointedly NOT invited. ~12 nations pledged naval assets; Germany (Merz) committed mine-clearance conditioned on UNSC legal basis; Italy (Meloni) offered Italian naval units. Polymarket: Hormuz-reopen-by-EoM odds collapsed from 64% to ~32% on Apr 18 reclosure. War-risk insurance mid-April 0.8-2.5% of hull value per Gulf transit (down from March peak 5% but still 8-20x pre-war). JPMorgan: ~329 vessels in the Gulf with ~$352B insured exposure. IEA Director Birol Apr 16: Europe has 'maybe six weeks or so of jet fuel left' — 'largest oil supply shock in history.' Blockade costing Iran ~$400M/day. Source: CENTCOM / UKMTO / Kpler / WSJ / JPMorgan / IEA / Élysée / Polymarket.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
-      "value": 380,
+      "value": 566,
       "label": "Children Killed",
-      "note": "UNICEF Apr 13 (Deputy ED Chaiban): 324 children killed regionwide (206 Iran, 118 Lebanon, 4 Israel, 1 Kuwait); 2,100+ killed or injured — HRANA Iran: 254 children — Lebanese MoPH ≥177 children — Minab girls' school Feb 28: 156-168 killed (revised down from initial 175+) — UMich sentiment 47.6 (74-year record low)",
+      "note": "APR 20 UPDATE — Iran Legal Medicine Organization (Masjedi): 383 children ≤18 killed in Iran + ≥177 children in Lebanon (MoPH) + 4 Israel + 1 Kuwait + others = ~566 regionwide — UNICEF Apr 13: 2,100+ children killed or injured — Minab girls' school Feb 28: 156-175 killed — Pope Leo XIV Day 8 of 11-day Africa tour (Cameroon/Nigeria); next Regina Caeli Apr 26",
       "tooltip": "Children killed in the conflict. Iran MoHME reporting frozen since Apr 7 — last public figures: 212 children killed, 1,621 among wounded (Red Crescent Apr 10). HRANA: 254 children among 1,701 Iranian civilian deaths. Lebanon MoPH Apr 17: ≥172 children killed cumulatively; UNICEF reports 600+ children killed or injured in Lebanon since March 2. Apr 8 'Black Wednesday' toll: 357 killed including children. Regionwide, UNICEF/USCRI estimate ~340 children killed and 2,000+ children injured. Iran: 481 Iranian schools damaged (USCRI); 65+ destroyed; 30+ universities struck. Key atrocities: Minab school attack (Feb 28, ~175 killed including schoolchildren) — HRW called it a war crime; Karaj B1 bridge double-tap (Apr 2) killed 8 and wounded 95+. Pope Leo XIV is on Day 6 of an 11-day Africa tour (April 13-23) and was NOT in Rome on Apr 18 — he celebrated a farewell Mass at Yaoundé-Ville Airport, Cameroon, then departed for Luanda, Angola (arriving ~14:00 GMT). His Apr 17 message from Douala denounced a world 'being ravaged by a handful of tyrants,' and Archbishop of Canterbury Sarah Mullally issued a solidarity statement backing his 'courageous call for peace.' Peace vigil operations in Rome continue absent the Pope's physical presence; his return is Apr 23. Trump-Pope feud continued from earlier in the week. Anti-war coalitions (50501, ANSWER, Code Pink, Palestinian Youth Movement, NIAC) continue domestic rallies. Source: UNICEF / USCRI / Iranian MoHME / HRANA / Lebanese MoPH / WHO / HRW / Vatican / Hengaw / NBC.",
       "color": "var(--civilian)"
     }
