@@ -2269,5 +2269,23 @@
     "notes": "Day 52 (Apr 19-20): 10-day Israel-Lebanon truce (Apr 16-17 start; expires ~Apr 26-27) is holding 'shakily.' IDF maintains 'Operation Silver Plow' positions along a 10-km 'yellow line' buffer zone into southern Lebanon. Netanyahu (Apr 19 video to troops, flak jacket): 'The war continues, including within the security zone in Lebanon.' Battle of Bint Jbeil (ongoing since Apr 9): IDF 98th Division claims 100+ Hezbollah killed, town still contested. Apr 18 French UNIFIL Sgt 1st Class Florian Montorio killed in ambush (Macron blamed Hezbollah; denied). Lebanon-Israel diplomatic track: Ambassadors Nada Moawad and Yechiel Leiter preparing second State Dept meeting; Leiter publicly said 'next talks will be in a few weeks in Washington.' This entry captures the continued kinetic tempo during the ceasefire.",
     "verified": true,
     "last_updated": "2026-04-20"
+  },
+  {
+    "id": "hormuz-irgc-seizure-april22",
+    "city": "Strait of Hormuz / Gulf of Oman (~15nm NE of Oman + ~8nm off Iranian coast)",
+    "lat": 26.65,
+    "lng": 56.55,
+    "type": "iran_retaliation",
+    "weapon": "IRGC naval small-arms / fast-attack boats / boarding party",
+    "origin": "IRGC Navy (Iran)",
+    "first_strike": "2026-04-22",
+    "casualties_reported": "No fatalities reported. ~03:38 ET / ~05:47 local UKMTO reported a container ship fired upon without radio warning ~15nm NE of Oman — 'heavy damage to the bridge,' crew safe. Second vessel struck ~8nm off Iranian coast shortly after. IRGC Navy subsequently confirmed SEIZURE of two container ships — Panama-flagged MSC Francesca and Greek-operated Epaminondas — escorting them to Iranian shores, claiming navigational-system tampering. Both vessels had AIS off at interception (CBS News). Third vessel Euphoria was fired upon and reportedly 'stranded on Iranian shores' per semi-official Iranian outlets — Western sources have NOT confirmed seizure (UNVERIFIED).",
+    "casualties_source": "UKMTO / CBS News / Reuters / Tasnim / Fars News / CNN",
+    "active_days": [
+      54
+    ],
+    "notes": "Day 54 (Apr 22): The sharpest maritime escalation since the blockade began — IRGC opened fire on three commercial vessels transiting the Strait of Hormuz and seized two of them hours after Trump extended the Iran ceasefire indefinitely. Iran statement: 'Disrupting the order and safety of the Strait of Hormuz is our red line.' Follows Apr 20 USS Spruance (DDG-111) interdiction of Iranian-flagged M/V Touska in the Arabian Sea (Marines from 31st MEU rappelled from USS Tripoli helicopters and took the ship). FM Araghchi Apr 21 called the Touska seizure and broader blockade 'an act of war and a material breach of the ceasefire'; UN Amb. Iravani filed a formal protest letter with SecGen Guterres. CENTCOM tally (NPR Apr 21): 28 commercial vessels turned back since Apr 13 (up from 27 Apr 20). No UNSC resolution adopted Apr 21-22; Russia and China previously vetoed the Bahrain-drafted Hormuz resolution on Apr 7. Trump's indefinite ceasefire extension (~16:22 ET Apr 21 Truth Social) explicitly maintained the naval blockade; Islamabad Round 2 collapsed after Iran declined to attend. Ghalibaf adviser Mahdi Mohammadi called the extension 'a ploy to buy time for a surprise strike... continuation of the siege is no different from bombardment and must be met with a military response.' MSC and Greek operator both had AIS off at interception — a detail highlighted by CBS News analysts as evidence of anticipated maritime risk.",
+    "verified": true,
+    "last_updated": "2026-04-22"
   }
 ]
