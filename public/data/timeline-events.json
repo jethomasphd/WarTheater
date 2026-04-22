@@ -4701,7 +4701,10 @@
     "date": "2026-04-21",
     "time": "16:22",
     "title": "Trump Truth Social: Iran ceasefire EXTENDED INDEFINITELY pending Iranian 'unified proposal'",
-    "description": "At approximately 4:22 PM ET President Trump posted on Truth Social that, at the request of Pakistan Field Marshal Asim Munir and PM Shehbaz Sharif, he would extend the Iran ceasefire INDEFINITELY pending an Iranian 'unified proposal.' Trump directed the US military to maintain the naval blockade and characterized Iran's government as 'seriously fractured.' The reversal came hours after he told CNBC's Squawk Box he did NOT expect to extend without a deal — shifting his stated position inside a single trading day. The indefinite extension formally supersedes the 20:00 ET Wed Apr 22 deadline and reframes the diplomatic clock: no fixed sunset, with pressure now on Tehran to table a comprehensive counterproposal. Ghalibaf adviser Mahdi Mohammadi characterized the move as 'a ploy to buy time for a surprise strike... continuation of the siege is no different from bombardment and must be met with a military response.'"
+    "description": "At approximately 4:22 PM ET President Trump posted on Truth Social that, at the request of Pakistan Field Marshal Asim Munir and PM Shehbaz Sharif, he would extend the Iran ceasefire INDEFINITELY pending an Iranian 'unified proposal.' Trump directed the US military to maintain the naval blockade and characterized Iran's government as 'seriously fractured.' The reversal came hours after he told CNBC's Squawk Box he did NOT expect to extend without a deal — shifting his stated position inside a single trading day. The indefinite extension formally supersedes the 20:00 ET Wed Apr 22 deadline and reframes the diplomatic clock: no fixed sunset, with pressure now on Tehran to table a comprehensive counterproposal. Ghalibaf adviser Mahdi Mohammadi characterized the move as 'a ploy to buy time for a surprise strike... continuation of the siege is no different from bombardment and must be met with a military response.'",
+    "category": "diplomacy",
+    "source": "White House Truth Social / CNBC / Bloomberg / AP / Reuters",
+    "data_point": "Iran ceasefire extended indefinitely (Trump Truth Social)"
   },
   {
     "date": "2026-04-21",
@@ -4716,54 +4719,81 @@
     "date": "2026-04-22",
     "time": "03:38",
     "title": "UKMTO: container ship fired upon ~15nm NE of Oman — 'heavy damage to the bridge'",
-    "description": "UKMTO reported a container ship was fired upon without radio warning approximately 15 nautical miles northeast of Oman in the Gulf of Oman / Strait of Hormuz approach at ~03:38 ET (05:47 local). The advisory noted 'heavy damage to the bridge' with crew reported safe. First major commercial-vessel incident since the Apr 18 Sanmar Herald / CMA CGM Everglade kinetic day; the vessel had its AIS transponder off per subsequent CBS News analysis."
+    "description": "UKMTO reported a container ship was fired upon without radio warning approximately 15 nautical miles northeast of Oman in the Gulf of Oman / Strait of Hormuz approach at ~03:38 ET (05:47 local). The advisory noted 'heavy damage to the bridge' with crew reported safe. First major commercial-vessel incident since the Apr 18 Sanmar Herald / CMA CGM Everglade kinetic day; the vessel had its AIS transponder off per subsequent CBS News analysis.",
+    "category": "maritime",
+    "source": "UKMTO / CBS News / Reuters",
+    "data_point": "Container ship fired upon ~15nm NE of Oman"
   },
   {
     "date": "2026-04-22",
     "time": "05:00",
     "title": "Second vessel struck ~8nm off Iranian coast — maritime front reactivates",
-    "description": "A second commercial vessel was struck approximately 8 nautical miles off the Iranian coast shortly after the UKMTO advisory. Regional naval analysts note the incidents occurred within the IRGC Navy's operational envelope during a period of declared ceasefire on air/ground fronts — confirming that the maritime domain is now the sole live combat zone of Operation Epic Fury."
+    "description": "A second commercial vessel was struck approximately 8 nautical miles off the Iranian coast shortly after the UKMTO advisory. Regional naval analysts note the incidents occurred within the IRGC Navy's operational envelope during a period of declared ceasefire on air/ground fronts — confirming that the maritime domain is now the sole live combat zone of Operation Epic Fury.",
+    "category": "maritime",
+    "source": "UKMTO / CBS News",
+    "data_point": "Second vessel struck ~8nm off Iranian coast"
   },
   {
     "date": "2026-04-22",
     "time": "06:30",
     "title": "IRGC confirms SEIZURE of 2 container ships: Panama-flagged MSC Francesca + Greek-operated Epaminondas",
-    "description": "IRGC Navy confirmed it had seized two container ships — the Panama-flagged MSC Francesca and the Greek-operated Epaminondas — and escorted them to Iranian shores, claiming 'navigational-system tampering.' Both vessels had AIS off at the time of interception per CBS News analysts. A third vessel, reported as 'Euphoria,' was fired upon and according to semi-official Iranian outlets 'stranded on Iranian shores' — Western sources had NOT confirmed any Euphoria seizure by this point (flagged UNVERIFIED). Iran's official statement: 'Disrupting the order and safety of the Strait of Hormuz is our red line.' The seizures mark the sharpest maritime escalation since the blockade began, coming less than 14 hours after Trump's indefinite ceasefire extension."
+    "description": "IRGC Navy confirmed it had seized two container ships — the Panama-flagged MSC Francesca and the Greek-operated Epaminondas — and escorted them to Iranian shores, claiming 'navigational-system tampering.' Both vessels had AIS off at the time of interception per CBS News analysts. A third vessel, reported as 'Euphoria,' was fired upon and according to semi-official Iranian outlets 'stranded on Iranian shores' — Western sources had NOT confirmed any Euphoria seizure by this point (flagged UNVERIFIED). Iran's official statement: 'Disrupting the order and safety of the Strait of Hormuz is our red line.' The seizures mark the sharpest maritime escalation since the blockade began, coming less than 14 hours after Trump's indefinite ceasefire extension.",
+    "category": "maritime",
+    "source": "IRGC Navy / CBS News / Reuters / Tasnim / Fars News / CNN",
+    "data_point": "MSC Francesca + Epaminondas seized; Euphoria UNVERIFIED"
   },
   {
     "date": "2026-04-22",
     "time": "07:30",
     "title": "Vance's Islamabad trip officially cancelled — Air Force Two already at Joint Base Andrews",
-    "description": "Vice President Vance's trip to Islamabad for Round 2 talks was officially cancelled after Iran declined to attend. Air Force Two had already taxied to Joint Base Andrews before the cancellation; Vance returned to spend roughly five hours at the White House. Witkoff and Kushner remained in Washington for consultations. Iran's Tasnim reported Tehran would not attend; Iran's UN envoy Moghadam said talks could resume 'if the US ends its blockade.' Pakistan Information Minister Attaullah Tarar later confirmed Iran's formal attendance response 'is still awaited.' The collapse of Round 2 leaves unresolved: Iran's enriched uranium stockpile, Strait of Hormuz status, the US naval blockade itself, and Iran's demand for war reparations."
+    "description": "Vice President Vance's trip to Islamabad for Round 2 talks was officially cancelled after Iran declined to attend. Air Force Two had already taxied to Joint Base Andrews before the cancellation; Vance returned to spend roughly five hours at the White House. Witkoff and Kushner remained in Washington for consultations. Iran's Tasnim reported Tehran would not attend; Iran's UN envoy Moghadam said talks could resume 'if the US ends its blockade.' Pakistan Information Minister Attaullah Tarar later confirmed Iran's formal attendance response 'is still awaited.' The collapse of Round 2 leaves unresolved: Iran's enriched uranium stockpile, Strait of Hormuz status, the US naval blockade itself, and Iran's demand for war reparations.",
+    "category": "diplomacy",
+    "source": "AP / CNN / Reuters / Tasnim / Pakistani officials",
+    "data_point": "Vance trip cancelled — Islamabad Round 2 collapsed"
   },
   {
     "date": "2026-04-22",
     "time": "09:30",
     "title": "Markets rebound on indefinite ceasefire — Brent briefly >$100/bbl on Hormuz escalation",
-    "description": "US equity futures, which opened mixed on the dual catalysts, firmed into the cash session open: S&P 500 rose to 7,117.81 (+0.76%), Dow to 49,555.11 (+0.83%), Nasdaq to 24,486.61 (+0.93%) by ~10:05 AM ET. Brent crude rose to $99.03 (+0.5%) and briefly pierced $100/bbl on the IRGC seizures; WTI reached $90.86 (+1.3%). VIX eased to 19.15 (-1.79%). Gold ticked to ~$4,773 (+1.14%). JPMorgan's Dubravko Lakos-Bujas had raised the S&P 500 year-end target from 7,200 to 7,600 on Apr 21 — institutional conviction the conflict is receding. JETS ETF held at $29.01, near its 52-wk high; XLE ~$55.07 sat well off its Mar 30 high of $63.46. Markets remain priced for de-escalation; the Hormuz escalation loop is the open-ended risk."
+    "description": "US equity futures, which opened mixed on the dual catalysts, firmed into the cash session open: S&P 500 rose to 7,117.81 (+0.76%), Dow to 49,555.11 (+0.83%), Nasdaq to 24,486.61 (+0.93%) by ~10:05 AM ET. Brent crude rose to $99.03 (+0.5%) and briefly pierced $100/bbl on the IRGC seizures; WTI reached $90.86 (+1.3%). VIX eased to 19.15 (-1.79%). Gold ticked to ~$4,773 (+1.14%). JPMorgan's Dubravko Lakos-Bujas had raised the S&P 500 year-end target from 7,200 to 7,600 on Apr 21 — institutional conviction the conflict is receding. JETS ETF held at $29.01, near its 52-wk high; XLE ~$55.07 sat well off its Mar 30 high of $63.46. Markets remain priced for de-escalation; the Hormuz escalation loop is the open-ended risk.",
+    "category": "markets",
+    "source": "CNBC / Bloomberg / Yahoo Finance / ICE / NYMEX / JPMorgan",
+    "data_point": "S&P 7,117.81 (+0.76%); Brent $99.03 briefly >$100/bbl"
   },
   {
     "date": "2026-04-22",
     "time": "11:00",
     "title": "IDF reports Hezbollah rocket fire at Rab Thalathin + drone into northern Israel (Apr 21 context)",
-    "description": "Continuing reporting on Apr 21 Lebanon-front breach: IDF confirmed Hezbollah fired rockets at an IDF position in Rab Thalathin in southern Lebanon and launched a drone into northern Israel; IDF said it struck the launcher in response. Hezbollah claimed the strikes retaliated for Israeli artillery shelling on a southern Lebanese town and asserted over 200 Israeli ceasefire violations. Lebanese PM Nawaf Salam, appearing with President Macron in Paris on Apr 21, said Lebanon 'isn't seeking confrontation with Hezbollah but won't be intimidated' and called the decision to disarm Hezbollah 'irreversible.' Hezbollah Secretary-General Naim Qassem: 'hands will remain on the trigger.' US-hosted ambassador-level Israel–Lebanon talks remain scheduled for April 23–24 at the State Department (Huckabee, Leiter for Israel, Moawad for Lebanon)."
+    "description": "Continuing reporting on Apr 21 Lebanon-front breach: IDF confirmed Hezbollah fired rockets at an IDF position in Rab Thalathin in southern Lebanon and launched a drone into northern Israel; IDF said it struck the launcher in response. Hezbollah claimed the strikes retaliated for Israeli artillery shelling on a southern Lebanese town and asserted over 200 Israeli ceasefire violations. Lebanese PM Nawaf Salam, appearing with President Macron in Paris on Apr 21, said Lebanon 'isn't seeking confrontation with Hezbollah but won't be intimidated' and called the decision to disarm Hezbollah 'irreversible.' Hezbollah Secretary-General Naim Qassem: 'hands will remain on the trigger.' US-hosted ambassador-level Israel–Lebanon talks remain scheduled for April 23–24 at the State Department (Huckabee, Leiter for Israel, Moawad for Lebanon).",
+    "category": "military",
+    "source": "IDF / Al Jazeera / Reuters / Hezbollah media",
+    "data_point": "Hezbollah rockets at Rab Thalathin IDF position; drone into northern Israel"
   },
   {
     "date": "2026-04-22",
     "time": "13:00",
     "title": "Lebanon disaster-management unit revises toll to 2,454 killed / 7,658 injured",
-    "description": "Lebanon's disaster management unit raised the cumulative toll to 2,454 killed and 7,658 injured (via Al Jazeera), up from 2,387 on April 20 — confirming a steady upward trajectory as debris recovery continues across Beirut suburbs, Bekaa Valley, and southern Lebanon. Iran's MoH via the Al Jazeera tracker cited 3,375 killed and 26,500+ injured including 7 infants, 376 children, and 496 women among the dead; HRANA's NGO tally stands at 3,636 documented. MissileStrikes.com's 1,444 figure is an outlier relative to all other sources; baseline should be Iran MoH with HRANA as cross-check."
+    "description": "Lebanon's disaster management unit raised the cumulative toll to 2,454 killed and 7,658 injured (via Al Jazeera), up from 2,387 on April 20 — confirming a steady upward trajectory as debris recovery continues across Beirut suburbs, Bekaa Valley, and southern Lebanon. Iran's MoH via the Al Jazeera tracker cited 3,375 killed and 26,500+ injured including 7 infants, 376 children, and 496 women among the dead; HRANA's NGO tally stands at 3,636 documented. MissileStrikes.com's 1,444 figure is an outlier relative to all other sources; baseline should be Iran MoH with HRANA as cross-check.",
+    "category": "humanitarian",
+    "source": "Lebanon disaster-management unit / Al Jazeera / Iran MoH / HRANA",
+    "data_point": "Lebanon 2,454 killed / 7,658 injured; Iran MoH 3,375 / 26,500+ injured"
   },
   {
     "date": "2026-04-22",
     "time": "14:00",
     "title": "HASC Ranking Member Adam Smith briefed by DIA/Joint Staff/Asst. Sec. of War Zimmerman",
-    "description": "House Armed Services Committee Ranking Member Adam Smith (D-WA) received a classified briefing from DIA, the Joint Staff, and Asst. Sec. of War Zimmerman on Apr 21. Smith said the administration is being 'a little bit more transparent' but 'still doesn't have a plan.' Rep. Don Bacon (R-NE) publicly stated: 'By law, we got to either approve continued operations or stop.' The statutory 60-day War Powers Resolution clock expires ~May 1 based on the early-March notification. Congress has twice recently failed to rein in the administration: the Senate rejected a War Powers Resolution 47–52 on Apr 15 (Rand Paul crossed over to support, Fetterman opposed, Kaine led); the House narrowly rejected H.Con.Res. 40 214–213 on Apr 16 with one 'present' vote and three GOP abstentions."
+    "description": "House Armed Services Committee Ranking Member Adam Smith (D-WA) received a classified briefing from DIA, the Joint Staff, and Asst. Sec. of War Zimmerman on Apr 21. Smith said the administration is being 'a little bit more transparent' but 'still doesn't have a plan.' Rep. Don Bacon (R-NE) publicly stated: 'By law, we got to either approve continued operations or stop.' The statutory 60-day War Powers Resolution clock expires ~May 1 based on the early-March notification. Congress has twice recently failed to rein in the administration: the Senate rejected a War Powers Resolution 47–52 on Apr 15 (Rand Paul crossed over to support, Fetterman opposed, Kaine led); the House narrowly rejected H.Con.Res. 40 214–213 on Apr 16 with one 'present' vote and three GOP abstentions.",
+    "category": "domestic",
+    "source": "HASC / Reuters / Politico / Congressional aides",
+    "data_point": "60-day War Powers Resolution clock expires ~May 1"
   },
   {
     "date": "2026-04-22",
     "time": "17:00",
     "title": "Day 54 summary — ceasefire indefinite, Hormuz hot, Islamabad Round 2 collapsed",
-    "description": "War Day 54 ends with Operation Epic Fury in a peculiar equilibrium: the air war paused (no confirmed US/Israeli strikes on Iranian territory since 8 PM ET Apr 7), the ground war in Lebanon frozen by a fraying second-generation ceasefire, diplomatic tracks broken on both the Iran and Lebanon files, and the maritime domain the sole live combat zone — now accelerating. Trump's indefinite extension buys time but cedes nothing; the blockade is the very leverage Iran calls an act of war. Three US carrier strike groups are converging on CENTCOM (Lincoln in the northern Arabian Sea, Ford in the central Red Sea off Jeddah, Bush transiting the Horn of Africa) signaling Washington is preparing for a potential second round even as it negotiates. Markets read de-escalation; the Apr 22 Hormuz incidents suggest markets may be ahead of the ground truth. The two most consequential indicators to watch over the next 72 hours are (1) whether Iran attempts to escalate maritime seizures into a Touska-scale direct clash with the US Navy and (2) whether the May 1 War Powers deadline forces an administration reckoning with Congress that the Islamabad track has failed to pre-empt. Pope Leo XIV's Africa tour wraps Apr 23; Pakistan's mediation bandwidth remains the key non-kinetic variable."
+    "description": "War Day 54 ends with Operation Epic Fury in a peculiar equilibrium: the air war paused (no confirmed US/Israeli strikes on Iranian territory since 8 PM ET Apr 7), the ground war in Lebanon frozen by a fraying second-generation ceasefire, diplomatic tracks broken on both the Iran and Lebanon files, and the maritime domain the sole live combat zone — now accelerating. Trump's indefinite extension buys time but cedes nothing; the blockade is the very leverage Iran calls an act of war. Three US carrier strike groups are converging on CENTCOM (Lincoln in the northern Arabian Sea, Ford in the central Red Sea off Jeddah, Bush transiting the Horn of Africa) signaling Washington is preparing for a potential second round even as it negotiates. Markets read de-escalation; the Apr 22 Hormuz incidents suggest markets may be ahead of the ground truth. The two most consequential indicators to watch over the next 72 hours are (1) whether Iran attempts to escalate maritime seizures into a Touska-scale direct clash with the US Navy and (2) whether the May 1 War Powers deadline forces an administration reckoning with Congress that the Islamabad track has failed to pre-empt. Pope Leo XIV's Africa tour wraps Apr 23; Pakistan's mediation bandwidth remains the key non-kinetic variable.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "Day 54 — ceasefire indefinite, Hormuz hot, Islamabad collapsed"
   }
 ]
