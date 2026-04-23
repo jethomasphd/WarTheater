@@ -2287,5 +2287,23 @@
     "notes": "Day 54 (Apr 22): The sharpest maritime escalation since the blockade began — IRGC opened fire on three commercial vessels transiting the Strait of Hormuz and seized two of them hours after Trump extended the Iran ceasefire indefinitely. Iran statement: 'Disrupting the order and safety of the Strait of Hormuz is our red line.' Follows Apr 20 USS Spruance (DDG-111) interdiction of Iranian-flagged M/V Touska in the Arabian Sea (Marines from 31st MEU rappelled from USS Tripoli helicopters and took the ship). FM Araghchi Apr 21 called the Touska seizure and broader blockade 'an act of war and a material breach of the ceasefire'; UN Amb. Iravani filed a formal protest letter with SecGen Guterres. CENTCOM tally (NPR Apr 21): 28 commercial vessels turned back since Apr 13 (up from 27 Apr 20). No UNSC resolution adopted Apr 21-22; Russia and China previously vetoed the Bahrain-drafted Hormuz resolution on Apr 7. Trump's indefinite ceasefire extension (~16:22 ET Apr 21 Truth Social) explicitly maintained the naval blockade; Islamabad Round 2 collapsed after Iran declined to attend. Ghalibaf adviser Mahdi Mohammadi called the extension 'a ploy to buy time for a surprise strike... continuation of the siege is no different from bombardment and must be met with a military response.' MSC and Greek operator both had AIS off at interception — a detail highlighted by CBS News analysts as evidence of anticipated maritime risk.",
     "verified": true,
     "last_updated": "2026-04-22"
+  },
+  {
+    "id": "lebanon-day55-amal-khalil",
+    "city": "al-Tiri, southern Lebanon / Aynata-Bint Jbeil sector",
+    "lat": 33.1,
+    "lng": 35.4,
+    "type": "iran_retaliation",
+    "weapon": "IDF airstrikes / Commando Brigade direct action; Hezbollah denial",
+    "origin": "Israel / Hezbollah (Lebanon)",
+    "first_strike": "2026-04-23",
+    "casualties_reported": "Lebanese journalist Amal Khalil of Al-Akhbar KILLED in Israeli strike on village of al-Tiri (PM Nawaf Salam: 'war crime'; UN and CPJ condemn); 4-5 total killed in southern Lebanon Apr 22-23 incl. 5 killed Apr 22 and 4 more Apr 23 per Lebanese state media. IDF Commando Brigade killed 2 armed Hezbollah operatives near Aynata (adjacent to Bint Jbeil) Apr 23.",
+    "casualties_source": "Al Jazeera / CBS News / CNN / Times of Israel / CPJ / Lebanese MoPH / Al-Akhbar",
+    "active_days": [
+      55
+    ],
+    "notes": "Day 55 (Apr 23): Lebanon-Israel ceasefire (effective 17:00 ET Apr 16) continues to fray despite ongoing Washington diplomacy. Lebanese PM Salam called the killing of journalist Amal Khalil a 'war crime.' Channel 12 reports the assessment in Jerusalem 'is increasingly pointing to a resumption of fighting with Iran drawing closer.' On the same day, the second round of direct Israel-Lebanon ambassadors' talks convened in Washington (moved from State Dept to the White House); represented by Amb. Yechiel Leiter (Israel) and Amb. Nada Hamadeh Moawad (Lebanon); US added Mike Huckabee, Secretary Rubio expected to join for part. Lebanese position: no deal without full Israeli withdrawal. Retired BGen Mark Kimmitt told Al Jazeera the talks had 'functional flaws.' Cumulative Lebanon toll per Al Jazeera Apr 23 tracker: 2,294 killed / ≥7,658 wounded as of Apr 21; internal Hezbollah sources admit >1,000 fighters killed, IDF claims 1,700 fighters killed.",
+    "verified": true,
+    "last_updated": "2026-04-23"
   }
 ]
