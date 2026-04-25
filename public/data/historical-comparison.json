@@ -1,11 +1,11 @@
 {
   "conflicts": [
     {
-      "label": "Iran 2026 (Day 43)",
+      "label": "Iran 2026 (Day 56)",
       "targets_struck": 35500,
       "us_kia": 13,
-      "daily_cost_millions": 800,
-      "note": "Operation Epic Fury — Day 43. ISLAMABAD TALKS BEGIN: First direct US-Iran face-to-face since 1979 — VP Vance, Witkoff, Kushner meet Ghalibaf and Araghchi. Ceasefire holds on Iran (~96 hours) but Lebanon excluded — 1,953+ Lebanese killed. March CPI: 3.3% YoY, gas +21.2% MoM (largest since 1967). Consumer sentiment all-time low (47.6). Hormuz still closed — 'Tehran Tollbooth' charging $2M/vessel. S&P best week since Nov (+3.6%). Pope Leo XIV peace vigil at St. Peter's. Dated Brent $132 vs futures $97 — market prices ceasefire as temporary. ~$50.1B spent."
+      "daily_cost_millions": 900,
+      "note": "Operation Epic Fury — Day 56. THREE U.S. CARRIERS NOW IN CENTCOM (Lincoln + Ford + Bush) — first time since Operation Iraqi Freedom in 2003; combined >200 aircraft, 15,000 sailors/Marines, 9+ DDGs. Iran ceasefire INDEFINITE (Trump Apr 21) — holding 17 days. Iran FM Araghchi flew to Islamabad Apr 24; Witkoff/Kushner depart for Pakistan Apr 25 for direct US-Iran talks. Lebanon ceasefire EXTENDED 3 weeks (Trump-brokered Apr 23) but mutual violations confirmed: 2,491 Lebanese killed (+37 vs Apr 21) / 7,719 wounded. U.S. blockade redirects 34 vessels (CENTCOM Apr 24). NYT (Apr 24): U.S. expended >1,200 Patriots, ~1,100 stealth cruise missiles, >1,000 Tomahawks (~10x annual procurement). S&P 500 record close 7,165.08 (+0.80%); Nasdaq record 24,836.60 (+1.63%); Brent $105.33; WTI $94.40; AAA gas $4.022. UMich final April sentiment 49.8 — lowest on record. Cumulative U.S. cost midpoint ~$51B (range $25B-$95B). 60-day War Powers deadline ~May 1."
     },
     {
       "label": "Iraq 2003 (Day 21)",
@@ -30,5 +30,5 @@
     }
   ],
   "sources": "CRS Reports R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya). Costs inflation-adjusted to 2026 dollars using BLS CPI-U.",
-  "last_updated": "2026-04-11"
+  "last_updated": "2026-04-24"
 }

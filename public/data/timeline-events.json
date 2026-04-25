@@ -4933,11 +4933,155 @@
   },
   {
     "date": "2026-04-23",
+    "time": "06:00",
+    "title": "USS George H.W. Bush arrives in CENTCOM via Cape of Good Hope",
+    "description": "Bush CSG entered Indian Ocean / CENTCOM AOR Apr 23 after transiting around southern Africa via Cape Agulhas / Mozambique Channel route (avoiding Bab el-Mandeb). Joined by escorts USS Mason (DDG-87), USS Donald Cook (DDG-75), USS Ross (DDG-71) and DESRON 22 staff; fast oiler USNS Arctic (T-AOE-8). Arrival completes the first 3-CSG concentration in the Middle East since Operation Iraqi Freedom in 2003 (Lincoln in Northern Arabian Sea, Ford in Red Sea, Bush in Indian Ocean). CENTCOM publicly announced the milestone via X.",
+    "category": "military_naval",
+    "source": "USNI News / CENTCOM / TWZ Carrier Tracker",
+    "data_point": "3 U.S. carriers in CENTCOM simultaneously — first since OIF 2003"
+  },
+  {
+    "date": "2026-04-23",
+    "time": "12:30",
+    "title": "Pope Leo XIV from papal flight: 'as a pastor, I cannot be in favor of war'; condemns Iranian regime killings of protesters",
+    "description": "Aboard the papal flight returning from his 11-day Africa tour (Cameroon→Angola→Gabon→Equatorial Guinea), Pope Leo XIV told reporters: 'As a pastor, I cannot be in favor of war.' Condemned Iranian regime killings of anti-government protesters—a direct response to Trump's Apr 14 criticism that the Pope had been silent on Iranian repression. Lamented the collapse of US-Iran talks. Said he carries a photograph of a Lebanese Muslim child 'since killed in the conflict' who held a 'Welcome Pope Leo' placard during his 2025 Lebanon visit.",
+    "category": "international_reaction",
+    "source": "CNN / Times of Israel / Vatican News / AP",
+    "data_point": "Pope Leo XIV: 'cannot be in favor of war'; condemns Iran regime crackdown"
+  },
+  {
+    "date": "2026-04-23",
+    "time": "13:30",
+    "title": "Israeli DefMin Katz: 'awaiting green light' to resume war and 'return Iran to the dark ages'",
+    "description": "Defense Minister Israel Katz said Israel is ready 'to return Iran to the dark ages' and is 'awaiting a green light' from the United States to resume hostilities and 'complete the elimination of the Khamenei dynasty.' Comments came amid IDF strikes on southern Lebanon and as Witkoff/Kushner prepare for direct US-Iran talks Apr 25.",
+    "category": "military_political",
+    "source": "CNN / Haaretz",
+    "data_point": "Katz: 'awaiting green light' to resume war on Iran"
+  },
+  {
+    "date": "2026-04-23",
+    "time": "16:00",
+    "title": "Israel–Lebanon ceasefire extended 3 weeks after Trump-brokered WH ambassador meeting",
+    "description": "After a White House meeting Trump hosted with Israeli Ambassador Yechiel Leiter and Lebanese Ambassador Nada Hamadeh (2nd direct negotiation), Trump announced via Truth Social that Israel and Lebanon agreed to a 3-week extension of the April 16 ceasefire (running to ~mid-May 2026). Sec. State Rubio said Trump's personal involvement 'made it possible.' Israeli UN Ambassador Danny Danon cautioned the extension is 'not 100%'; Hezbollah lawmaker Ali Fayyad called it 'meaningless' as Israeli strikes on southern Lebanon continued.",
+    "category": "diplomatic",
+    "source": "CNN / Washington Post / Truth Social",
+    "data_point": "Lebanon ceasefire extended 3 weeks"
+  },
+  {
+    "date": "2026-04-23",
     "time": "17:00",
     "title": "Day 55 summary — ceasefire holds, Hormuz ROE escalates, Senate WPR fails fifth time",
     "description": "War Day 55 ends with the indefinite Iran ceasefire technically intact but the maritime front sharper: Trump's 'shoot-and-kill' order on Hormuz mine-laying boats raised the rules-of-engagement floor just as IRGC seizures of MSC Francesca and Epaminondas overnight Apr 22–23 and the Pentagon's third stateless-tanker boarding accelerated the blockade loop. CENTCOM's interdiction count rose to 31 vessels turned back; Iran booked its first Hormuz toll revenue into the Central Bank; and the Qatari 20-for-20 vessel-swap compromise was dead on arrival. The Senate defeated the Baldwin war-powers resolution 55–46 (5th failed attempt) as the ~May 1 statutory deadline nears. Lebanon–Israel Round 2 ambassadors' talks convened at the White House even as Israeli strikes killed Al-Akhbar journalist Amal Khalil in al-Tiri and IDF Commando Brigade killed two Hezbollah operatives near Aynata. Markets pulled back modestly from Apr 22's record highs as Brent climbed back over $100/bbl. UNDP's De Croo warned >32M will be pushed into poverty globally. With Pentagon estimates that Hormuz mine-clearance alone could take six months after the war ends, the economic gravity of the crisis continues to widen even as the kinetic tempo on the Iran front remains paused.",
     "category": "summary",
     "source": "Multiple",
     "data_point": "Day 55 — ceasefire holds; Hormuz ROE escalates; Senate WPR #5 fails 55–46"
+  },
+  {
+    "date": "2026-04-24",
+    "time": "06:30",
+    "title": "CENTCOM: 3 U.S. carriers now in Middle East — first time since 2003",
+    "description": "CENTCOM announced via X that USS Abraham Lincoln (CVN-72, Northern Arabian Sea), USS Gerald R. Ford (CVN-78, Red Sea), and USS George H.W. Bush (CVN-77, Indian Ocean) are simultaneously operating in theater — a concentration not seen since Operation Iraqi Freedom in 2003. Combined >200 aircraft, 15,000 sailors/Marines, 9+ DDGs. Defense Secretary Pete Hegseth said at a Friday press briefing the blockade will continue 'as long as it takes.'",
+    "category": "military_naval",
+    "source": "Navy Times / Stars & Stripes / Breaking Defense / CENTCOM",
+    "data_point": "3 carriers in CENTCOM (first since OIF 2003); >200 aircraft, 15,000 personnel"
+  },
+  {
+    "date": "2026-04-24",
+    "time": "08:00",
+    "title": "Trump extends Jones Act waiver 90 days to stabilize U.S. energy supply",
+    "description": "The White House announced Trump issued a 90-day extension to the Jones Act waiver (original 60-day waiver issued mid-March), allowing non-American vessels to transport oil and natural gas to U.S. ports. WH stated 'significantly more supply was able to reach US ports faster' during the initial waiver.",
+    "category": "economic_policy",
+    "source": "Gulf Today / White House",
+    "data_point": "Jones Act waiver extended 90 days"
+  },
+  {
+    "date": "2026-04-24",
+    "time": "09:00",
+    "title": "Iran claims seizure of vessel 'collaborating with US military' in Hormuz",
+    "description": "Per Wikipedia / Iranian state media aggregation, Iran on Apr 24 said it seized a ship 'suspected of collaborating with American military' after it 'committed violations, ignored warnings.' Vessel name, flag, and present location not independently confirmed at time of report. No UKMTO or CENTCOM corroboration located. Confidence: MEDIUM (single-source via Iranian state media).",
+    "category": "maritime_incident",
+    "source": "Wikipedia / Iranian state media",
+    "data_point": "Iran claims 4th maritime interception in 3 days (UNCONFIRMED)"
+  },
+  {
+    "date": "2026-04-24",
+    "time": "10:00",
+    "title": "UN Human Rights Office: attacks on civilians in Lebanon/Israel may be serious violations of IHL",
+    "description": "UN Human Rights Office (OHCHR) in Geneva said it has documented 'patterns of attacks on civilians in populated areas and residential buildings in Lebanon and Israel that may amount to serious violations of international humanitarian law,' covering the first three weeks of escalation since Mar 2.",
+    "category": "international_law_humanitarian",
+    "source": "U.S. News / Reuters / OHCHR",
+    "data_point": "OHCHR: civilian-area attacks in Lebanon/Israel may be IHL violations"
+  },
+  {
+    "date": "2026-04-24",
+    "time": "10:30",
+    "title": "WFP: acute food insecurity 'alarmingly high' in 10 countries; Iran war amplifying shocks",
+    "description": "World Food Programme released a joint report (with UN/EU/partners) warning of 'alarmingly high and deeply entrenched' acute food insecurity in Afghanistan, Bangladesh, DRC, Myanmar, Nigeria, Pakistan, South Sudan, Sudan, Syria, Yemen. Sudan imports >50% of fertilizers via sea from Persian Gulf; WFP has had to divert food shipments through longer Red Sea routes. Gaza food prices 85% higher than pre-Iran-war.",
+    "category": "humanitarian_global",
+    "source": "CNN / WFP",
+    "data_point": "WFP: acute food insecurity in 10 countries; Iran war amplifying shocks"
+  },
+  {
+    "date": "2026-04-24",
+    "time": "11:30",
+    "title": "IDF kills 6 Hezbollah in Bint Jbeil; 2 civilians killed in Touline air strike",
+    "description": "IDF said it 'eliminated' 6 Hezbollah fighters in Bint Jbeil exchange of fire. Lebanese Health Ministry reported 2 killed in Israeli air strike on Touline; several wounded in Yater artillery strike. IDF struck Hezbollah rocket launchers in Yater and Kafra. Hezbollah announced shootdown of an Israeli drone and an attack on an IDF APC in Ramyah. Netanyahu: Israel maintains 'full freedom of action against any threat.' Total Lebanese toll since Mar 2: 2,491 killed / 7,719 wounded.",
+    "category": "military_lebanon",
+    "source": "Al Jazeera / Haaretz / CNN / IDF",
+    "data_point": "6 Hezbollah killed Bint Jbeil + 2 civilians Touline; Lebanon cumulative 2,491 killed"
+  },
+  {
+    "date": "2026-04-24",
+    "time": "13:00",
+    "title": "UMich final April consumer sentiment 49.8 — lowest on record",
+    "description": "University of Michigan final April Consumer Sentiment Index came in at 49.8 — above preliminary 47.6 and above 48.6 DJ consensus, but still the LOWEST READING ON RECORD (below COVID, 2008 financial crisis, and post-Ukraine 2022 peak inflation). Down 6.6% MoM and 4.6% YoY. Survey Director Joanne Hsu: 'After the two-week ceasefire was announced and gas prices softened a touch, sentiment recovered a modest portion of its early-month losses.'",
+    "category": "economic_data",
+    "source": "CNBC / University of Michigan",
+    "data_point": "UMich final April sentiment 49.8 (lowest on record)"
+  },
+  {
+    "date": "2026-04-24",
+    "time": "14:00",
+    "title": "NYT: U.S. weapons stockpiles drained — 1,200+ Patriots, 1,100 stealth cruise missiles, 1,000+ Tomahawks expended",
+    "description": "New York Times investigation reported the U.S. has used >1,200 Patriot interceptors ($4M+ each), burned through ~1,100 long-range stealth cruise missiles (close to total remaining stockpile), and >1,000 Tomahawks (~10x annual procurement) during Operation Epic Fury. AEI's McCusker put total war cost at $25B-$35B. Pentagon 'scrambling to find the funding.' WH Press Sec. Karoline Leavitt called the 'entire premise false.'",
+    "category": "military_logistics",
+    "source": "Dawn / NYT / AEI",
+    "data_point": "NYT: >1,200 Patriots, ~1,100 stealth cruise missiles, >1,000 Tomahawks expended"
+  },
+  {
+    "date": "2026-04-24",
+    "time": "15:00",
+    "title": "Iran to resume international flights from Imam Khomeini Airport Apr 25 (Istanbul, Muscat)",
+    "description": "Iranian authorities announced that Tehran's Imam Khomeini Airport will resume international flights from Saturday Apr 25, starting with Istanbul and Muscat routes. Passenger departures and arrivals have already resumed on a limited basis.",
+    "category": "aviation_civil",
+    "source": "Iran International",
+    "data_point": "Iran reopening Tehran-Istanbul and Tehran-Muscat flights Apr 25"
+  },
+  {
+    "date": "2026-04-24",
+    "time": "16:00",
+    "title": "S&P 500 and Nasdaq close at record highs; oil slides on peace-talk hopes",
+    "description": "S&P 500 closed at 7,165.08 (+0.80%) RECORD; Nasdaq Composite closed at 24,836.60 (+1.63%) RECORD; Dow slipped 0.16% to 49,230.71. Russell 2000 +0.43%; VIX 18.71 (-3.11%). Nvidia retook $5T market cap; Intel surged 23% on Q1 earnings (best day since 1987). Brent settled little-changed at $105.33; WTI fell to $94.40 on reports of Araghchi's Islamabad visit. Weekly: Brent ~+14%, WTI ~+17% — among largest weekly energy moves in months.",
+    "category": "markets",
+    "source": "Yahoo Finance / CNBC",
+    "data_point": "S&P 7,165.08 RECORD; Nasdaq 24,836.60 RECORD; Brent $105.33; WTI $94.40"
+  },
+  {
+    "date": "2026-04-24",
+    "time": "19:00",
+    "title": "Iran FM Araghchi flies to Islamabad; Witkoff/Kushner depart Apr 25 for direct US-Iran talks",
+    "description": "Iranian FM Abbas Araghchi arrived Islamabad Friday night Apr 24 with a small delegation, after phone calls earlier in the day with Pakistani FM Ishaq Dar and Army Chief FM Asim Munir. WH Press Sec. Karoline Leavitt confirmed Special Envoy Steve Witkoff and Jared Kushner will leave for Pakistan 'tomorrow morning' (Apr 25) for direct talks 'intermediated by the Pakistanis.' Leavitt: 'we have seen some progress from the Iranian side.' VP Vance NOT travelling this round (Ghalibaf not leading Iranian delegation); Vance 'on standby.' IRNA framed Araghchi visit as bilateral with Pakistan only, with onward stops in Muscat and Moscow. Iran FM spokesman Baghaei publicly DENIED a US-Iran meeting is scheduled.",
+    "category": "diplomatic",
+    "source": "CNN / Al Jazeera / Bloomberg / The National",
+    "data_point": "Araghchi in Islamabad; Witkoff/Kushner depart Apr 25 (Iran denies meeting)"
+  },
+  {
+    "date": "2026-04-24",
+    "time": "23:00",
+    "title": "Day 56 summary — 3 U.S. carriers in CENTCOM, Lebanon ceasefire extended, S&P record close, Araghchi en route",
+    "description": "War Day 56 ends with the most concrete forward movement on diplomacy in two weeks paired with the most overt show of force since the war began. CENTCOM publicly stated three U.S. carriers (Lincoln, Ford, Bush) are operating simultaneously in the Middle East for the first time since Operation Iraqi Freedom (2003), with combined >200 aircraft, 15,000 personnel, and 9+ DDGs. Iranian FM Araghchi arrived Islamabad in the evening; the White House confirmed Special Envoy Witkoff and Jared Kushner depart for Pakistan Apr 25 for direct US-Iran talks 'intermediated by the Pakistanis,' though Iran's FM spokesman publicly denied a meeting is scheduled. Trump-brokered Israel-Lebanon ceasefire was extended 3 weeks Apr 23, but mutual violations continued — IDF killed 6 Hezbollah fighters in Bint Jbeil and 2 civilians in a Touline air strike; Hezbollah shot down an Israeli drone. UN Human Rights Office said attacks on civilians in Lebanon/Israel 'may amount to serious violations of international humanitarian law.' Markets priced higher probability of de-escalation: S&P 500 (7,165.08) and Nasdaq (24,836.60) closed at all-time records; Brent settled $105.33 after intraday touching >$106. UMich final April consumer sentiment 49.8 came in above preliminary but still the lowest on record. NYT investigation said U.S. has expended >1,200 Patriots, ~1,100 stealth cruise missiles, and >1,000 Tomahawks during Epic Fury (WH disputes). The Apr 25-27 weekend Witkoff/Kushner-Araghchi negotiation is the single most consequential diplomatic inflection point of the war.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "Day 56 — 3 carriers in CENTCOM; Araghchi in Islamabad; Lebanon truce +3 wks; S&P record"
   }
 ]
