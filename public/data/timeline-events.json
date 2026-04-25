@@ -5083,5 +5083,59 @@
     "category": "summary",
     "source": "Multiple",
     "data_point": "Day 56 — 3 carriers in CENTCOM; Araghchi in Islamabad; Lebanon truce +3 wks; S&P record"
+  },
+  {
+    "date": "2026-04-24",
+    "time": "16:00",
+    "title": "Pentagon internal email floats suspending Spain from NATO, reviewing UK Falklands position over Iran-war non-cooperation",
+    "description": "Reuters (citing one anonymous U.S. official) reported an internal Pentagon memo prepared by chief policy adviser Elbridge Colby outlining options to punish NATO allies that denied access/basing/overflight (ABO) for Operation Epic Fury. Options included suspending Spain from 'important or prestigious positions' at NATO and reviewing the U.S. position on Britain's claim to the Falkland Islands. NATO told TIME its Founding Treaty contains no provision for suspension or expulsion. PM Sánchez (Cyprus EU summit, Apr 24): 'We do not work with emails.' UK PM Starmer's spokesperson reaffirmed sovereignty 'rests with the U.K.' Argentine President Milei expressed optimism over a possible reconsideration. Captured Apr 24 EOD; relevant to Day 57 NATO-relations beat.",
+    "category": "political / alliance",
+    "source": "Euronews / TIME / Foreign Policy",
+    "data_point": "Pentagon-Spain-Falklands leaked memo (single-source via Reuters)"
+  },
+  {
+    "date": "2026-04-24",
+    "time": "17:00",
+    "title": "Treasury announces sanctioning of multiple wallets tied to Iran; ~$344M in cryptocurrency frozen",
+    "description": "Treasury Secretary Scott Bessent (Friday statement, first reported by CNN): 'We will follow the money that Tehran is desperately attempting to move outside of the country and target all financial lifelines tied to the regime.' Carries over to Day 57 reporting cycle.",
+    "category": "sanctions",
+    "source": "CNN / NCR-Iran",
+    "data_point": "Treasury freezes ~$344M in Iran-tied cryptocurrency wallets"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "10:00",
+    "title": "Araghchi delivers Iran's 'list of demands' to Pakistan; departs Islamabad for Muscat then Moscow",
+    "description": "Iranian FM Abbas Araghchi held high-level meetings at the Prime Minister's House with Pakistan PM Shehbaz Sharif, DPM/FM Ishaq Dar, Army Chief Field Marshal Asim Munir, and Interior Minister Mohsin Naqvi. Per Pakistan FO and IRNA, parties exchanged views on regional cooperation 'especially the ongoing diplomacy to completely stop the war.' Per Al Jazeera, Araghchi delivered Tehran's 'list of demands for ending the war' to Pakistani officials before departing for Muscat then Moscow.",
+    "category": "diplomacy",
+    "source": "Al Jazeera / CNN / Euronews / Daily Ittehad",
+    "data_point": "Araghchi delivers Iran's demands; departs Islamabad for Muscat / Moscow"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "11:00",
+    "title": "Iran FM spokesperson Baghaei: 'No meeting is planned to take place between Iran and the US'",
+    "description": "Iranian Foreign Ministry spokesperson Esmaeil Baghaei posted on X that 'Iran's observations would be conveyed to Pakistan,' explicitly denying any direct U.S.-Iran meeting in Islamabad despite White House framing of 'direct talks.' Iranian semi-official Tasnim and Nournews (affiliated with Supreme National Security Council) corroborated. Pakistani mediators continue to push for indirect contacts.",
+    "category": "diplomacy",
+    "source": "CNN / CNBC",
+    "data_point": "Iran MFA explicitly denies direct US-Iran meeting"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "12:00",
+    "title": "Witkoff/Kushner trip to Pakistan delayed; CNN reports arrival now expected Sunday Apr 26",
+    "description": "White House (Karoline Leavitt, Apr 24 Fox News interview) said Witkoff and Kushner would depart 'tomorrow morning' (Saturday) for Pakistan. As Day 57 unfolded, CNN reporting from Islamabad noted the envoys' travel 'now appears to have been set back a beat' and they 'are not expected in Pakistan until Sunday now.' VP Vance is on standby in Washington but will not lead the delegation. Iran FM Ghalibaf, who led the Islamabad I delegation, did not travel.",
+    "category": "diplomacy",
+    "source": "CNN / CNBC / Times of Israel",
+    "data_point": "Witkoff/Kushner Pakistan arrival slips to Sunday Apr 26"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "08:00",
+    "title": "Tehran Imam Khomeini International Airport resumes international flights after 56-day hiatus",
+    "description": "Iranian state TV confirmed flights to Istanbul, Muscat (Oman), and Medina (Saudi Arabia) departed IKIA. FlightRadar24 showed at least four Istanbul-bound departures Saturday morning. Iran Air operated its inaugural domestic flight Tehran-Mashhad (also after a 56-day hiatus) per IRNA. Routes to Baku, Najaf, Baghdad, and Doha scheduled in coming days. Iran Airports & Air Navigation CEO Mohammad Amirani indicated eastern Iran (Mashhad, Zahedan, Kerman, Yazd, Birjand) will be prioritised for transit.",
+    "category": "humanitarian / aviation",
+    "source": "Al Jazeera / CBS News / Yahoo News",
+    "data_point": "IKIA international flights resume — Istanbul, Muscat, Medina"
   }
 ]
