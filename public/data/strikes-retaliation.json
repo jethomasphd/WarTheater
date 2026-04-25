@@ -2359,5 +2359,71 @@
     "notes": "Day 56 (Apr 24): One of the heaviest direct exchanges since the Lebanon ceasefire took effect Apr 16 / was extended Apr 23. Netanyahu (Haaretz Apr 24) said Israel maintains 'full freedom of action against any threat' and accused Hezbollah of 'trying to derail talks.' UN OHCHR statement (Apr 24) that attacks on civilians in Lebanon/Israel may amount to serious IHL violations is the strongest UN legal posture of the war. Israeli DefMin Katz (Apr 23): Israel 'awaiting a green light' from the U.S. to resume war and 'complete the elimination of the Khamenei dynasty' / 'return Iran to the dark ages.' Total Lebanese casualties since Mar 2: 2,491 killed / 7,719 wounded.",
     "verified": true,
     "last_updated": "2026-04-24"
+  },
+  {
+    "id": "leb_yohmor_2026-04-25",
+    "city": "Yohmor al-Shaqeef, Nabatieh district, southern Lebanon",
+    "lat": 33.40,
+    "lng": 35.49,
+    "type": "iran_retaliation",
+    "weapon": "Israeli air strike(s) on a truck and a motorbike",
+    "origin": "Israel (IDF)",
+    "first_strike": "2026-04-25",
+    "casualties_reported": "Lebanese Public Ministry of Health: 4 KILLED; wounded unspecified.",
+    "casualties_source": "Lebanese MoPH via Times of Israel, CBS News",
+    "active_days": [
+      57
+    ],
+    "notes": "Day 57 (Apr 25): Lebanese Health Ministry reported two Israeli strikes — on a truck and on a motorbike — in Yohmor al-Shaqeef (Nabatieh district) killed four people. No immediate IDF comment per Times of Israel; IDF has previously said it 'continues to act decisively' against ceasefire violations. Within the Apr 17 Lebanon truce that was extended 3 weeks Apr 23. CNN noted at least 9 killed in Lebanon since the Apr 17 ceasefire took effect, with Apr 25 additions raising that figure. Cumulative Lebanese MoPH toll Apr 24 baseline: 2,491 K / 7,719 W; running total adjusts to 2,495 K with Apr 25 additions (subject to further MoPH consolidation). Hezbollah lawmaker Ali Fayyad (Apr 24) called the truce extension 'meaningless'; 'every Israeli attack gives Hezbollah the right to retaliate.'",
+    "verified": true,
+    "sources": [
+      "https://www.timesofisrael.com/liveblog_entry/4-killed-in-israeli-strikes-in-south-lebanon-says-lebanese-health-ministry/",
+      "https://www.cbsnews.com/live-updates/us-iran-war-trump-strait-of-hormuz-hezbollah-lebanon-israel-ceasefire/"
+    ],
+    "last_updated": "2026-04-25"
+  },
+  {
+    "id": "leb_idf_intercept_2026-04-25",
+    "city": "Southern Lebanon (location unspecified)",
+    "lat": 33.20,
+    "lng": 35.45,
+    "type": "iran_retaliation",
+    "weapon": "Air defense intercept",
+    "origin": "IDF / IAF",
+    "first_strike": "2026-04-25",
+    "casualties_reported": "No casualties reported.",
+    "casualties_source": "IDF via CBS News",
+    "active_days": [
+      57
+    ],
+    "notes": "Day 57 (Apr 25): IDF said it intercepted a 'suspicious aerial target' in southern Lebanon. Outcome: target did not cross into Israeli territory; IDF claimed it threatened forces in the area.",
+    "verified": true,
+    "sources": [
+      "https://www.cbsnews.com/live-updates/us-iran-war-trump-strait-of-hormuz-hezbollah-lebanon-israel-ceasefire/"
+    ],
+    "last_updated": "2026-04-25"
+  },
+  {
+    "id": "hormuz_yuri_supertanker_2026-04-24_to_25",
+    "city": "Strait of Hormuz / Larak Island vicinity",
+    "lat": 26.86,
+    "lng": 56.37,
+    "type": "iran_retaliation",
+    "weapon": "Iranian shadow-fleet vessel (commercial supertanker, no kinetic action)",
+    "origin": "Iranian shadow fleet (Kharg Island load)",
+    "first_strike": "2026-04-24",
+    "casualties_reported": "None — no kinetic engagement; vessel halted near Larak Island after starting transit.",
+    "casualties_source": "Bloomberg via Kpler/Vortexa; NBC News",
+    "active_days": [
+      56,
+      57
+    ],
+    "notes": "Day 56-57: U.S.-sanctioned supertanker 'Yuri' (carrying ~2M bbl Iranian crude from Kharg Island) attempted Hormuz transit; appeared to halt near Larak Island after starting transit late Thursday Apr 23. Position unchanged into Apr 25; no boarding reported. Lloyd's List Apr 24 estimate: ≥26 ships from Iran's 'ghost fleet' have circumvented the U.S. blockade since Apr 13.",
+    "verified": true,
+    "sources": [
+      "https://www.bloomberg.com/news/articles/2026-04-24/us-sanctioned-supertanker-with-iranian-oil-tries-hormuz-transit",
+      "https://www.nbcnews.com/world/iran/live-blog/live-updates-trump-iran-hormuz-blockade-ceasefire-talks-lebanon-israel-rcna341831"
+    ],
+    "last_updated": "2026-04-25"
   }
 ]
