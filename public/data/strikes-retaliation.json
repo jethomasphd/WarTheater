@@ -2279,14 +2279,14 @@
     "weapon": "IRGC naval small-arms / fast-attack boats / boarding party",
     "origin": "IRGC Navy (Iran)",
     "first_strike": "2026-04-22",
-    "casualties_reported": "No fatalities reported. ~03:38 ET / ~05:47 local UKMTO reported a container ship fired upon without radio warning ~15nm NE of Oman — 'heavy damage to the bridge,' crew safe. Second vessel struck ~8nm off Iranian coast shortly after. IRGC Navy subsequently confirmed SEIZURE of two container ships — Panama-flagged MSC Francesca and Greek-operated Epaminondas — escorting them to Iranian shores, claiming navigational-system tampering. Both vessels had AIS off at interception (CBS News). Third vessel Euphoria was fired upon and reportedly 'stranded on Iranian shores' per semi-official Iranian outlets — Western sources have NOT confirmed seizure (UNVERIFIED).",
+    "casualties_reported": "No fatalities reported. ~03:38 ET / ~05:47 local UKMTO reported a container ship fired upon without radio warning ~15nm NE of Oman — 'heavy damage to the bridge,' crew safe. Second vessel struck ~8nm off Iranian coast shortly after. IRGC Navy confirmed SEIZURE of two container ships — Panama-flagged MSC Francesca and Greek-operated Epaminondas — escorting them to Iranian shores, claiming navigational-system tampering. Both vessels had AIS off at interception (CBS News). UPDATE (Apr 23-24): Greek Shipping Ministry (via vessel manager Technomar) CONFIRMED Epaminondas seizure (initially denied). Vessel Euphoria was DAMAGED but resumed sailing (not seized). Both ships were destined for India — escalating diplomatic incident with New Delhi; Panama's Foreign Ministry condemned seizure as 'grave attack on maritime security.' Vessels MSC Francesca and Epaminondas remain in Iranian waters, AIS-stationary ~10nm from Iranian coast.",
     "casualties_source": "UKMTO / CBS News / Reuters / Tasnim / Fars News / CNN",
     "active_days": [
       54
     ],
     "notes": "Day 54 (Apr 22): The sharpest maritime escalation since the blockade began — IRGC opened fire on three commercial vessels transiting the Strait of Hormuz and seized two of them hours after Trump extended the Iran ceasefire indefinitely. Iran statement: 'Disrupting the order and safety of the Strait of Hormuz is our red line.' Follows Apr 20 USS Spruance (DDG-111) interdiction of Iranian-flagged M/V Touska in the Arabian Sea (Marines from 31st MEU rappelled from USS Tripoli helicopters and took the ship). FM Araghchi Apr 21 called the Touska seizure and broader blockade 'an act of war and a material breach of the ceasefire'; UN Amb. Iravani filed a formal protest letter with SecGen Guterres. CENTCOM tally (NPR Apr 21): 28 commercial vessels turned back since Apr 13 (up from 27 Apr 20). No UNSC resolution adopted Apr 21-22; Russia and China previously vetoed the Bahrain-drafted Hormuz resolution on Apr 7. Trump's indefinite ceasefire extension (~16:22 ET Apr 21 Truth Social) explicitly maintained the naval blockade; Islamabad Round 2 collapsed after Iran declined to attend. Ghalibaf adviser Mahdi Mohammadi called the extension 'a ploy to buy time for a surprise strike... continuation of the siege is no different from bombardment and must be met with a military response.' MSC and Greek operator both had AIS off at interception — a detail highlighted by CBS News analysts as evidence of anticipated maritime risk.",
     "verified": true,
-    "last_updated": "2026-04-22"
+    "last_updated": "2026-04-24"
   },
   {
     "id": "lebanon-day55-amal-khalil",
@@ -2305,5 +2305,59 @@
     "notes": "Day 55 (Apr 23): Lebanon-Israel ceasefire (effective 17:00 ET Apr 16) continues to fray despite ongoing Washington diplomacy. Lebanese PM Salam called the killing of journalist Amal Khalil a 'war crime.' Channel 12 reports the assessment in Jerusalem 'is increasingly pointing to a resumption of fighting with Iran drawing closer.' On the same day, the second round of direct Israel-Lebanon ambassadors' talks convened in Washington (moved from State Dept to the White House); represented by Amb. Yechiel Leiter (Israel) and Amb. Nada Hamadeh Moawad (Lebanon); US added Mike Huckabee, Secretary Rubio expected to join for part. Lebanese position: no deal without full Israeli withdrawal. Retired BGen Mark Kimmitt told Al Jazeera the talks had 'functional flaws.' Cumulative Lebanon toll per Al Jazeera Apr 23 tracker: 2,294 killed / ≥7,658 wounded as of Apr 21; internal Hezbollah sources admit >1,000 fighters killed, IDF claims 1,700 fighters killed.",
     "verified": true,
     "last_updated": "2026-04-23"
+  },
+  {
+    "id": "ret-2026-04-24-hormuz-seizure-04",
+    "city": "Strait of Hormuz",
+    "lat": 26.55,
+    "lng": 56.4,
+    "type": "iran_retaliation",
+    "weapon": "IRGC Navy boarding / unspecified",
+    "origin": "IRGC Navy (Iran)",
+    "first_strike": "2026-04-24",
+    "casualties_reported": "Vessel name and flag not publicly specified by Iranian authorities at time of report. Iran said it seized a ship 'suspected of collaborating with American military' after it allegedly 'committed violations, ignored warnings.' No UKMTO or CENTCOM independent confirmation located in this research pass. MEDIUM confidence — single-source via Iranian state media/Wikipedia aggregation.",
+    "casualties_source": "Iranian state media via Wikipedia (2026 Iran war / 2026 Strait of Hormuz crisis)",
+    "active_days": [
+      56
+    ],
+    "notes": "Day 56 (Apr 24): Iran announced a fourth maritime interception in three days, claiming it seized a ship 'collaborating with American military' that 'committed violations, ignored warnings.' This follows the Apr 22 IRGC seizure of MSC Francesca and Epaminondas. As of this entry's filing, no independent UKMTO, CENTCOM, or shipping-industry confirmation has been located — vessel name, flag, and present location not specified in Iranian media reports. Manifest flags as MEDIUM confidence pending independent corroboration. Iran's claim coincides with Iranian FM Araghchi's evening arrival in Islamabad (Apr 24) and the announced Witkoff/Kushner trip to Pakistan Apr 25 for direct US-Iran talks 'intermediated by the Pakistanis.'",
+    "verified": false,
+    "last_updated": "2026-04-24"
+  },
+  {
+    "id": "ret-2026-04-24-touline-strike",
+    "city": "Touline, southern Lebanon",
+    "lat": 33.16,
+    "lng": 35.42,
+    "type": "iran_retaliation",
+    "weapon": "IDF airstrike",
+    "origin": "Israel",
+    "first_strike": "2026-04-24",
+    "casualties_reported": "Lebanese Health Ministry: 2 KILLED in Israeli air strike on the southern town of Touline. Several wounded in separate Israeli artillery attack on Yater.",
+    "casualties_source": "Al Jazeera (Apr 24) / Lebanese Health Ministry / CNN",
+    "active_days": [
+      56
+    ],
+    "notes": "Day 56 (Apr 24): Israel continued kinetic operations in southern Lebanon despite the 3-week ceasefire extension Trump announced Apr 23. Lebanese MoPH reported 2 killed in Israeli air strike on Touline; several wounded in Israeli artillery strike on Yater. Cumulative Lebanese toll Apr 24: 2,491 killed / 7,719 wounded since Mar 2 — +37 killed vs Apr 21. UN Human Rights Office (OHCHR Geneva, Apr 24) said it has documented 'patterns of attacks on civilians in populated areas and residential buildings in Lebanon and Israel that may amount to serious violations of international humanitarian law' — strongest UN legal posture of the war to date. Hezbollah lawmaker Ali Fayyad called the truce extension 'meaningless.'",
+    "verified": true,
+    "last_updated": "2026-04-24"
+  },
+  {
+    "id": "ret-2026-04-24-bintjbeil",
+    "city": "Bint Jbeil / Yater / Kafra / Ramyah, southern Lebanon",
+    "lat": 33.12,
+    "lng": 35.43,
+    "type": "iran_retaliation",
+    "weapon": "Ground combat / IDF strikes / Hezbollah ATGM and drone shootdown",
+    "origin": "Israel / Hezbollah (Lebanon)",
+    "first_strike": "2026-04-24",
+    "casualties_reported": "IDF says it 'eliminated' 6 Hezbollah fighters in exchange of fire in Bint Jbeil. IDF also struck rocket launchers in Yater and Kafra. Hezbollah confirmed shootdown of 1 Israeli drone and announced an attack on an IDF APC in Ramyah 'in response to home demolitions.' Israeli casualties not specified by IDF.",
+    "casualties_source": "Al Jazeera / Haaretz / CNN / IDF / Hezbollah statements",
+    "active_days": [
+      56
+    ],
+    "notes": "Day 56 (Apr 24): One of the heaviest direct exchanges since the Lebanon ceasefire took effect Apr 16 / was extended Apr 23. Netanyahu (Haaretz Apr 24) said Israel maintains 'full freedom of action against any threat' and accused Hezbollah of 'trying to derail talks.' UN OHCHR statement (Apr 24) that attacks on civilians in Lebanon/Israel may amount to serious IHL violations is the strongest UN legal posture of the war. Israeli DefMin Katz (Apr 23): Israel 'awaiting a green light' from the U.S. to resume war and 'complete the elimination of the Khamenei dynasty' / 'return Iran to the dark ages.' Total Lebanese casualties since Mar 2: 2,491 killed / 7,719 wounded.",
+    "verified": true,
+    "last_updated": "2026-04-24"
   }
 ]
