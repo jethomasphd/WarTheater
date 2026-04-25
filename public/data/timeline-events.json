@@ -5083,5 +5083,104 @@
     "category": "summary",
     "source": "Multiple",
     "data_point": "Day 56 — 3 carriers in CENTCOM; Araghchi in Islamabad; Lebanon truce +3 wks; S&P record"
+  },
+  {
+    "date": "2026-04-24",
+    "time": "16:00",
+    "title": "Pentagon internal email floats suspending Spain from NATO, reviewing UK Falklands position over Iran-war non-cooperation",
+    "description": "Reuters (citing one anonymous U.S. official) reported an internal Pentagon memo prepared by chief policy adviser Elbridge Colby outlining options to punish NATO allies that denied access/basing/overflight (ABO) for Operation Epic Fury. Options included suspending Spain from 'important or prestigious positions' at NATO and reviewing the U.S. position on Britain's claim to the Falkland Islands. NATO told TIME its Founding Treaty contains no provision for suspension or expulsion. PM Sánchez (Cyprus EU summit, Apr 24): 'We do not work with emails.' UK PM Starmer's spokesperson reaffirmed sovereignty 'rests with the U.K.' Argentine President Milei expressed optimism over a possible reconsideration. Captured Apr 24 EOD; relevant to Day 57 NATO-relations beat.",
+    "category": "political / alliance",
+    "source": "Euronews / TIME / Foreign Policy",
+    "data_point": "Pentagon-Spain-Falklands leaked memo (single-source via Reuters)"
+  },
+  {
+    "date": "2026-04-24",
+    "time": "17:00",
+    "title": "Treasury announces sanctioning of multiple wallets tied to Iran; ~$344M in cryptocurrency frozen",
+    "description": "Treasury Secretary Scott Bessent (Friday statement, first reported by CNN): 'We will follow the money that Tehran is desperately attempting to move outside of the country and target all financial lifelines tied to the regime.' Carries over to Day 57 reporting cycle.",
+    "category": "sanctions",
+    "source": "CNN / NCR-Iran",
+    "data_point": "Treasury freezes ~$344M in Iran-tied cryptocurrency wallets"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "10:00",
+    "title": "Araghchi delivers Iran's 'list of demands' to Pakistan; departs Islamabad for Muscat then Moscow",
+    "description": "Iranian FM Abbas Araghchi held high-level meetings at the Prime Minister's House with Pakistan PM Shehbaz Sharif, DPM/FM Ishaq Dar, Army Chief Field Marshal Asim Munir, and Interior Minister Mohsin Naqvi. Per Pakistan FO and IRNA, parties exchanged views on regional cooperation 'especially the ongoing diplomacy to completely stop the war.' Per Al Jazeera, Araghchi delivered Tehran's 'list of demands for ending the war' to Pakistani officials before departing for Muscat then Moscow.",
+    "category": "diplomacy",
+    "source": "Al Jazeera / CNN / Euronews / Daily Ittehad",
+    "data_point": "Araghchi delivers Iran's demands; departs Islamabad for Muscat / Moscow"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "11:00",
+    "title": "Iran FM spokesperson Baghaei: 'No meeting is planned to take place between Iran and the US'",
+    "description": "Iranian Foreign Ministry spokesperson Esmaeil Baghaei posted on X that 'Iran's observations would be conveyed to Pakistan,' explicitly denying any direct U.S.-Iran meeting in Islamabad despite White House framing of 'direct talks.' Iranian semi-official Tasnim and Nournews (affiliated with Supreme National Security Council) corroborated. Pakistani mediators continue to push for indirect contacts.",
+    "category": "diplomacy",
+    "source": "CNN / CNBC",
+    "data_point": "Iran MFA explicitly denies direct US-Iran meeting"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "12:00",
+    "title": "Witkoff/Kushner trip to Pakistan delayed; CNN reports arrival now expected Sunday Apr 26",
+    "description": "White House (Karoline Leavitt, Apr 24 Fox News interview) said Witkoff and Kushner would depart 'tomorrow morning' (Saturday) for Pakistan. As Day 57 unfolded, CNN reporting from Islamabad noted the envoys' travel 'now appears to have been set back a beat' and they 'are not expected in Pakistan until Sunday now.' VP Vance is on standby in Washington but will not lead the delegation. Iran FM Ghalibaf, who led the Islamabad I delegation, did not travel.",
+    "category": "diplomacy",
+    "source": "CNN / CNBC / Times of Israel",
+    "data_point": "Witkoff/Kushner Pakistan arrival slips to Sunday Apr 26"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "08:00",
+    "title": "Tehran Imam Khomeini International Airport resumes international flights after 56-day hiatus",
+    "description": "Iranian state TV confirmed flights to Istanbul, Muscat (Oman), and Medina (Saudi Arabia) departed IKIA. FlightRadar24 showed at least four Istanbul-bound departures Saturday morning. Iran Air operated its inaugural domestic flight Tehran-Mashhad (also after a 56-day hiatus) per IRNA. Routes to Baku, Najaf, Baghdad, and Doha scheduled in coming days. Iran Airports & Air Navigation CEO Mohammad Amirani indicated eastern Iran (Mashhad, Zahedan, Kerman, Yazd, Birjand) will be prioritised for transit.",
+    "category": "humanitarian / aviation",
+    "source": "Al Jazeera / CBS News / Yahoo News",
+    "data_point": "IKIA international flights resume — Istanbul, Muscat, Medina"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "13:00",
+    "title": "Germany pre-positions minesweeper + command/supply ship in Mediterranean for potential Hormuz mission",
+    "description": "Defence Minister Boris Pistorius announced the Bundeswehr will deploy a Frankenthal-class minesweeper plus a command-and-supply ship to the Mediterranean to save time pending any future Bundestag mandate. Conditions for Hormuz deployment: lasting ceasefire, international-law framework, parliamentary mandate. Germany has 10 Frankenthal-class hulls but realistically only 3-4 deployable; transit time to Hormuz estimated 5 weeks. Chancellor Merz had previously said Germany is ready to participate in a multinational Hormuz mission, preferably with U.S. involvement.",
+    "category": "naval / allies",
+    "source": "Al Arabiya / The Local DE / anews.com.tr",
+    "data_point": "Germany pre-positions Frankenthal minesweeper + command-supply ship in Med"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "14:00",
+    "title": "Israeli strikes kill 4 in Yohmor al-Shaqeef; IDF intercepts 'suspicious aerial target' in south Lebanon",
+    "description": "Lebanese Health Ministry reported two Israeli strikes — on a truck and on a motorbike — in Yohmor al-Shaqeef (Nabatieh district) killed four people. The IDF separately confirmed it intercepted a 'suspicious aerial target' in southern Lebanon that 'never crossed into Israeli territory.' These follow the Apr 23 three-week truce extension; Hezbollah has dismissed the extension as 'meaningless.' Cumulative Lebanese MoPH toll Apr 24 stood at 2,491 K / 7,719 W; running total adjusts to 2,495 K with Apr 25 additions.",
+    "category": "kinetic / Lebanon",
+    "source": "Times of Israel / CBS News",
+    "data_point": "+4 killed in Yohmor al-Shaqeef; IDF intercepts aerial target in S Lebanon"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "15:00",
+    "title": "Iran's Pezeshkian asks citizens to halve home lighting amid grid damage",
+    "description": "President Masoud Pezeshkian, per Iranian state television: 'Instead of turning on 10 lights at home, turn on two lights. What is wrong with that?' He acknowledged the U.S. and Israel 'destroyed our infrastructure' and the U.S. naval blockade of Iranian ports. Pezeshkian and parliament speaker Ghalibaf jointly pushed back on Trump's 'fractured leadership' framing in identical social-media posts: 'In Iran there are no hardliners or moderates. We are all Iranians and revolutionaries.'",
+    "category": "domestic / energy",
+    "source": "CBS News",
+    "data_point": "Pezeshkian: 'two lights instead of ten'; ID'd US/Israeli infrastructure damage"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "18:00",
+    "title": "War Powers 60-day clock at T-6 days to May 1 statutory mark",
+    "description": "Trump notified Congress of the Feb 28 strikes on Mar 2; the 60-day War Powers Resolution clock thus expires on May 1. Senate rejected the 5th Democratic-led war-powers resolution Wed Apr 22, 46-51 (Sen. Rand Paul the only Republican supporting; Sen. Fetterman the only Democrat opposing). Senate Armed Services Chair Roger Wicker (R-MS) signaled a public hearing 'sometime in the month of May' — i.e., after the deadline. CNN analysis published Apr 25 frames the deadline as a constitutional flashpoint with no clear court-enforcement avenue.",
+    "category": "political / legal",
+    "source": "Al Jazeera / CNN / Democracy Now",
+    "data_point": "War Powers clock at T-6 days to May 1 — Senate hearing scheduled post-deadline"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "23:00",
+    "title": "Day 57 summary — Tehran flights resume, Araghchi's demands delivered, Witkoff/Kushner trip slips, 4 killed in Lebanon",
+    "description": "War Day 57 — Day 4 of indefinite Iran ceasefire and Day 18 since the original Apr 7 announcement — closed with the most concrete civilian-life-resumption signal of the war (IKIA's first international departures in 56 days) paired with persistent Lebanon-front kinetic activity and a diplomatic track that is structurally ambiguous. Iran's FM Araghchi delivered Tehran's 'list of demands' to Pakistani officials in Islamabad and departed for Muscat then Moscow; Iran's FM spokesperson Baghaei publicly denied any direct U.S.-Iran meeting was planned. The White House confirmed Witkoff/Kushner travel to Pakistan, but CNN reporting from Islamabad said the envoys' arrival had slipped to Sunday Apr 26. Israeli strikes killed 4 in Yohmor al-Shaqeef despite the Apr 23 three-week truce extension; Hezbollah lawmaker Ali Fayyad called the extension 'meaningless.' Germany announced it will pre-position a minesweeper and command-supply ship in the Mediterranean for any future Hormuz mission — explicitly conditioned on a sustained ceasefire, international-law framework, and Bundestag mandate. President Pezeshkian publicly urged Iranians to halve home lighting, signaling continued grid damage. The U.S. War Powers 60-day clock entered T-6 days to the May 1 statutory mark, with Senate Armed Services Chair Wicker scheduling a hearing 'sometime in May' — i.e., after the deadline. Markets closed Saturday — values held at Friday's record S&P (7,165.08) and Nasdaq (24,836.60) closes; Brent $105.33; AAA $4.02. The Apr 26 Witkoff/Kushner arrival (or non-arrival) is now the single most consequential variable entering the May 1 War Powers cliff.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "Day 57 — IKIA reopens; Araghchi delivers demands; envoys slip to Sunday; Lebanon +4"
   }
 ]
