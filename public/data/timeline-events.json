@@ -5137,5 +5137,50 @@
     "category": "humanitarian / aviation",
     "source": "Al Jazeera / CBS News / Yahoo News",
     "data_point": "IKIA international flights resume — Istanbul, Muscat, Medina"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "13:00",
+    "title": "Germany pre-positions minesweeper + command/supply ship in Mediterranean for potential Hormuz mission",
+    "description": "Defence Minister Boris Pistorius announced the Bundeswehr will deploy a Frankenthal-class minesweeper plus a command-and-supply ship to the Mediterranean to save time pending any future Bundestag mandate. Conditions for Hormuz deployment: lasting ceasefire, international-law framework, parliamentary mandate. Germany has 10 Frankenthal-class hulls but realistically only 3-4 deployable; transit time to Hormuz estimated 5 weeks. Chancellor Merz had previously said Germany is ready to participate in a multinational Hormuz mission, preferably with U.S. involvement.",
+    "category": "naval / allies",
+    "source": "Al Arabiya / The Local DE / anews.com.tr",
+    "data_point": "Germany pre-positions Frankenthal minesweeper + command-supply ship in Med"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "14:00",
+    "title": "Israeli strikes kill 4 in Yohmor al-Shaqeef; IDF intercepts 'suspicious aerial target' in south Lebanon",
+    "description": "Lebanese Health Ministry reported two Israeli strikes — on a truck and on a motorbike — in Yohmor al-Shaqeef (Nabatieh district) killed four people. The IDF separately confirmed it intercepted a 'suspicious aerial target' in southern Lebanon that 'never crossed into Israeli territory.' These follow the Apr 23 three-week truce extension; Hezbollah has dismissed the extension as 'meaningless.' Cumulative Lebanese MoPH toll Apr 24 stood at 2,491 K / 7,719 W; running total adjusts to 2,495 K with Apr 25 additions.",
+    "category": "kinetic / Lebanon",
+    "source": "Times of Israel / CBS News",
+    "data_point": "+4 killed in Yohmor al-Shaqeef; IDF intercepts aerial target in S Lebanon"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "15:00",
+    "title": "Iran's Pezeshkian asks citizens to halve home lighting amid grid damage",
+    "description": "President Masoud Pezeshkian, per Iranian state television: 'Instead of turning on 10 lights at home, turn on two lights. What is wrong with that?' He acknowledged the U.S. and Israel 'destroyed our infrastructure' and the U.S. naval blockade of Iranian ports. Pezeshkian and parliament speaker Ghalibaf jointly pushed back on Trump's 'fractured leadership' framing in identical social-media posts: 'In Iran there are no hardliners or moderates. We are all Iranians and revolutionaries.'",
+    "category": "domestic / energy",
+    "source": "CBS News",
+    "data_point": "Pezeshkian: 'two lights instead of ten'; ID'd US/Israeli infrastructure damage"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "18:00",
+    "title": "War Powers 60-day clock at T-6 days to May 1 statutory mark",
+    "description": "Trump notified Congress of the Feb 28 strikes on Mar 2; the 60-day War Powers Resolution clock thus expires on May 1. Senate rejected the 5th Democratic-led war-powers resolution Wed Apr 22, 46-51 (Sen. Rand Paul the only Republican supporting; Sen. Fetterman the only Democrat opposing). Senate Armed Services Chair Roger Wicker (R-MS) signaled a public hearing 'sometime in the month of May' — i.e., after the deadline. CNN analysis published Apr 25 frames the deadline as a constitutional flashpoint with no clear court-enforcement avenue.",
+    "category": "political / legal",
+    "source": "Al Jazeera / CNN / Democracy Now",
+    "data_point": "War Powers clock at T-6 days to May 1 — Senate hearing scheduled post-deadline"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "23:00",
+    "title": "Day 57 summary — Tehran flights resume, Araghchi's demands delivered, Witkoff/Kushner trip slips, 4 killed in Lebanon",
+    "description": "War Day 57 — Day 4 of indefinite Iran ceasefire and Day 18 since the original Apr 7 announcement — closed with the most concrete civilian-life-resumption signal of the war (IKIA's first international departures in 56 days) paired with persistent Lebanon-front kinetic activity and a diplomatic track that is structurally ambiguous. Iran's FM Araghchi delivered Tehran's 'list of demands' to Pakistani officials in Islamabad and departed for Muscat then Moscow; Iran's FM spokesperson Baghaei publicly denied any direct U.S.-Iran meeting was planned. The White House confirmed Witkoff/Kushner travel to Pakistan, but CNN reporting from Islamabad said the envoys' arrival had slipped to Sunday Apr 26. Israeli strikes killed 4 in Yohmor al-Shaqeef despite the Apr 23 three-week truce extension; Hezbollah lawmaker Ali Fayyad called the extension 'meaningless.' Germany announced it will pre-position a minesweeper and command-supply ship in the Mediterranean for any future Hormuz mission — explicitly conditioned on a sustained ceasefire, international-law framework, and Bundestag mandate. President Pezeshkian publicly urged Iranians to halve home lighting, signaling continued grid damage. The U.S. War Powers 60-day clock entered T-6 days to the May 1 statutory mark, with Senate Armed Services Chair Wicker scheduling a hearing 'sometime in May' — i.e., after the deadline. Markets closed Saturday — values held at Friday's record S&P (7,165.08) and Nasdaq (24,836.60) closes; Brent $105.33; AAA $4.02. The Apr 26 Witkoff/Kushner arrival (or non-arrival) is now the single most consequential variable entering the May 1 War Powers cliff.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "Day 57 — IKIA reopens; Araghchi delivers demands; envoys slip to Sunday; Lebanon +4"
   }
 ]
