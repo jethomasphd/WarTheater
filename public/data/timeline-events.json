@@ -5182,5 +5182,95 @@
     "category": "summary",
     "source": "Multiple",
     "data_point": "Day 57 — IKIA reopens; Araghchi delivers demands; envoys slip to Sunday; Lebanon +4"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "14:00",
+    "title": "Trump CANCELS Witkoff-Kushner Pakistan envoy trip — reverts to phone diplomacy",
+    "description": "Trump on Truth Social mid-Saturday afternoon: 'Too much time wasted on traveling, too much work! Besides which, there is tremendous infighting and confusion within their leadership... we have all the cards; they have none! If they want to talk, all they have to do is call!!!' To reporters: 'We're not going to spend 15 hours in airplanes... we'll deal by telephone.' Said Iran improved offer 'within 10 minutes' but 'not enough' (single-source — DISPUTED). VP Vance had already pulled out earlier in week. The cancellation reversed earlier-day announcement that Witkoff/Kushner would arrive Sunday Apr 26.",
+    "category": "diplomacy",
+    "source": "Washington Post / CNN / CNBC / NPR",
+    "data_point": "Phone-only diplomacy; 'all the cards' framing"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "16:00",
+    "title": "USS Pinckney helicopter intercepts M/V Sevan; CENTCOM blockade tally rises to 37 vessels",
+    "description": "A helicopter from USS Pinckney (DDG-91) intercepted sanctioned shadow-fleet tanker M/V Sevan in the Arabian Sea, redirecting it toward Iran. Cumulative blockade redirects rose to 37 ships since Apr 13 commencement (up from 34 reported Apr 24). Hegseth Apr 24: 'Our blockade is growing and going global. No one sails from the Strait of Hormuz to anywhere in the world without the permission of the United States Navy.' Earlier Apr 24, USS Rafael Peralta (DDG-115) intercepted an Iranian-flagged ship attempting to reach an Iranian port (CENTCOM photo released Apr 25).",
+    "category": "naval_operations",
+    "source": "CENTCOM X / Fox News / CGTN",
+    "data_point": "Blockade tally 37 vessels; M/V Sevan + USS Rafael Peralta intercept"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "16:00",
+    "title": "S&P 500 closes Apr 24 at record 7,165.08; UMich April final consumer sentiment 49.8 (lowest on record)",
+    "description": "Friday Apr 24 close: S&P 500 ALL-TIME RECORD 7,165.08 (+0.80%, +56.68); Nasdaq Composite RECORD 24,836.60 (+1.63%); Dow 49,230.71 (-0.16%); VIX 18.71. Brent $105.33; WTI $94.40 (Friday pullback on talks-trip announcement, since reversed by Trump cancellation). UMich April final consumer sentiment 49.8 — above 47.6 prelim and 48.6 DJ consensus, but still LOWEST ON RECORD (below COVID, 2008 crisis, post-Ukraine 2022 peak inflation); 1-yr inflation expectations 4.7% (largest jump since Apr 2025). Markets closed Saturday Apr 25 + Sunday Apr 26 — values hold into Monday.",
+    "category": "financial",
+    "source": "FRED / Yahoo Finance / Investing.com / Barchart / Motley Fool",
+    "data_point": "S&P 7,165.08 RECORD; Nasdaq 24,836.60 RECORD; UMich 49.8 record low"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "20:00",
+    "title": "WHCA Dinner gunman shooting; Trump unharmed",
+    "description": "Gunman charged White House Correspondents' Association dinner venue; Secret Service member shot. Trump unharmed; called shooter 'lone wolf.' Not directly war-related but shaped Saturday news cycle and competed for political bandwidth with the Pakistan-trip cancellation. SINGLE-SOURCE (Times of Israel liveblog) — confidence MEDIUM pending corroboration.",
+    "category": "domestic_political",
+    "source": "Times of Israel liveblog 2026-04-25",
+    "data_point": "WHCA dinner attack; Trump unharmed; SINGLE-SOURCE"
+  },
+  {
+    "date": "2026-04-26",
+    "time": "09:00",
+    "title": "Sgt. Idan Fooks (19) killed by Hezbollah explosive drone in southern Lebanon — third IDF KIA since Apr 17 truce",
+    "description": "Sgt. Idan Fooks of Petah Tikva, 7th Armored Brigade's 77th Battalion, killed by Hezbollah explosive drone in southern Lebanon. 1 officer + 3 troops seriously wounded; 1 moderately, 1 lightly. Two follow-up Hezbollah drones — 1 intercepted, 1 missed. Third IDF KIA since the Apr 17 ceasefire took effect (cumulative Lebanon-front IDF KIA 15). Triggered Netanyahu 'disintegrating' statement and overnight IDF airstrikes on launchers in Deir El Zahrani, Reman, Al-Saamiya, Nabatiye al-Faouqa (6 killed; AFP photo confirmed).",
+    "category": "kinetic_lebanon",
+    "source": "Times of Israel liveblog / France 24 liveblog / ANI/Tribune",
+    "data_point": "Sgt. Fooks KIA — 3rd IDF death since Apr 17; +6 Lebanese killed in IDF response"
+  },
+  {
+    "date": "2026-04-26",
+    "time": "11:00",
+    "title": "Netanyahu: Hezbollah 'disintegrating' Lebanon ceasefire — most pointed statement since Apr 17 truce",
+    "description": "Netanyahu: 'Hezbollah's violations are essentially disintegrating the ceasefire... we have eliminated 46 terrorists [over past two weeks]... we will act with a strong hand and an outstretched arm.' Hezbollah lawmaker Ali Fayyad (Apr 24, still operative): 'the ceasefire is meaningless in light of Israel's insistence on hostile acts.' Lebanon PM Nawaf Salam reportedly seeking emergency US intercession. Marks rhetorical shift from defensive to attritional framing on Israeli side.",
+    "category": "diplomacy",
+    "source": "ANI/Tribune / Times of Israel",
+    "data_point": "Netanyahu: Hezbollah 'disintegrating' the truce; 46 terrorists eliminated past 2 weeks"
+  },
+  {
+    "date": "2026-04-26",
+    "time": "13:00",
+    "title": "Araghchi meets Sultan Haitham in Muscat, returns to Islamabad before Apr 27 Moscow leg",
+    "description": "Iran FM Araghchi flew Islamabad → Muscat (met Sultan Haitham bin Tariq, thanked Oman for 'prudent stance regarding the imposed American-Israeli war'); Iran reportedly seeking Omani backing for Hormuz tolls mechanism. Returned to Islamabad Sunday for further consultations with Pakistani officials before flying to Moscow Apr 27 for Putin meeting (next inflection point). President Pezeshkian (IRIB): Iran will not enter 'forced negotiations' under 'pressure and threats.' Pezeshkian-Sharif phone call described as 'warm and constructive.'",
+    "category": "diplomacy",
+    "source": "Washington Times / France 24 liveblog / AP via wsls.com / CNN",
+    "data_point": "Araghchi shuttle Islamabad-Muscat-Islamabad-bound for Moscow; Pezeshkian rejects 'forced negotiations'"
+  },
+  {
+    "date": "2026-04-26",
+    "time": "14:00",
+    "title": "Trump on Fox 'Sunday Briefing': phone-only diplomacy stance reaffirmed",
+    "description": "Trump: 'If they want to talk, they can come to us, or they can call us. You know, there is a telephone. We have nice, secure lines.' Reaffirmed 'all the cards' framing from Apr 25 Pakistan-trip cancellation. Sen. Lindsey Graham endorsed cancellation; called for 'firm control over Strait of Hormuz.' WH 'in active conversations' on War Powers May 1 deadline but has 'made no public effort to build support' (CNN Apr 25).",
+    "category": "diplomacy",
+    "source": "Fox News / France 24 liveblog",
+    "data_point": "Trump: 'phone diplomacy only'; Graham endorses, calls for firm Hormuz control"
+  },
+  {
+    "date": "2026-04-26",
+    "time": "16:00",
+    "title": "Starmer-Trump phone call urges Hormuz reopening — first publicly confirmed UK-US Iran call of ceasefire phase",
+    "description": "UK PM Keir Starmer and President Trump discussed 'urgent need to reopen Hormuz shipping' per Downing Street readout. UK had been notably absent from active mediation; this is the first publicly confirmed UK-US Iran call of the ceasefire period. UK had earlier explicitly declined to participate in the blockade (Starmer: 'not getting dragged into the war').",
+    "category": "diplomacy",
+    "source": "France 24 liveblog / Downing Street readout",
+    "data_point": "Starmer-Trump phone call on Hormuz reopening — first UK-US Iran call of ceasefire"
+  },
+  {
+    "date": "2026-04-26",
+    "time": "23:00",
+    "title": "Day 58 summary — Trump cancels Pakistan envoy trip, IDF KIA in S. Lebanon, Lebanon truce fraying",
+    "description": "War Day 58 — Day 6 of indefinite Iran ceasefire and Day 19 since the Apr 8 announcement — closed with the Pakistan-mediated diplomatic track effectively suspended after Trump cancelled the Witkoff-Kushner Islamabad mission mid-Saturday Apr 25, declaring 'we have all the cards.' Iran's Araghchi cycled Islamabad-Muscat-Islamabad-bound-for-Moscow on a parallel shuttle (Putin meeting Apr 27). Lebanon's truce frayed visibly: Sgt. Idan Fooks (19) killed by Hezbollah explosive drone — third IDF death since Apr 17 — prompting Netanyahu to declare Hezbollah was 'disintegrating' the ceasefire. The U.S. blockade tightened (37 vessels redirected; M/V Sevan intercepted by USS Pinckney heli). Markets closed for the weekend after S&P 500 set a fresh record Friday (7,165.08); Sunday-evening Globex reopen INTERPOLATED to gap UP on oil and DOWN on equities. UK PM Starmer-Trump phone call — first publicly confirmed UK-US Iran call of ceasefire phase. War Powers May 1 deadline T-5 days; no AUMF, no formal extension certification submitted.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "Day 58 — phone-only diplomacy; IDF KIA in Lebanon; Lebanon truce 'disintegrating'; T-5 to May 1"
   }
 ]
