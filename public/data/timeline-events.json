@@ -5182,5 +5182,41 @@
     "category": "summary",
     "source": "Multiple",
     "data_point": "Day 57 — IKIA reopens; Araghchi delivers demands; envoys slip to Sunday; Lebanon +4"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "14:00",
+    "title": "Trump CANCELS Witkoff-Kushner Pakistan envoy trip — reverts to phone diplomacy",
+    "description": "Trump on Truth Social mid-Saturday afternoon: 'Too much time wasted on traveling, too much work! Besides which, there is tremendous infighting and confusion within their leadership... we have all the cards; they have none! If they want to talk, all they have to do is call!!!' To reporters: 'We're not going to spend 15 hours in airplanes... we'll deal by telephone.' Said Iran improved offer 'within 10 minutes' but 'not enough' (single-source — DISPUTED). VP Vance had already pulled out earlier in week. The cancellation reversed earlier-day announcement that Witkoff/Kushner would arrive Sunday Apr 26.",
+    "category": "diplomacy",
+    "source": "Washington Post / CNN / CNBC / NPR",
+    "data_point": "Phone-only diplomacy; 'all the cards' framing"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "16:00",
+    "title": "USS Pinckney helicopter intercepts M/V Sevan; CENTCOM blockade tally rises to 37 vessels",
+    "description": "A helicopter from USS Pinckney (DDG-91) intercepted sanctioned shadow-fleet tanker M/V Sevan in the Arabian Sea, redirecting it toward Iran. Cumulative blockade redirects rose to 37 ships since Apr 13 commencement (up from 34 reported Apr 24). Hegseth Apr 24: 'Our blockade is growing and going global. No one sails from the Strait of Hormuz to anywhere in the world without the permission of the United States Navy.' Earlier Apr 24, USS Rafael Peralta (DDG-115) intercepted an Iranian-flagged ship attempting to reach an Iranian port (CENTCOM photo released Apr 25).",
+    "category": "naval_operations",
+    "source": "CENTCOM X / Fox News / CGTN",
+    "data_point": "Blockade tally 37 vessels; M/V Sevan + USS Rafael Peralta intercept"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "16:00",
+    "title": "S&P 500 closes Apr 24 at record 7,165.08; UMich April final consumer sentiment 49.8 (lowest on record)",
+    "description": "Friday Apr 24 close: S&P 500 ALL-TIME RECORD 7,165.08 (+0.80%, +56.68); Nasdaq Composite RECORD 24,836.60 (+1.63%); Dow 49,230.71 (-0.16%); VIX 18.71. Brent $105.33; WTI $94.40 (Friday pullback on talks-trip announcement, since reversed by Trump cancellation). UMich April final consumer sentiment 49.8 — above 47.6 prelim and 48.6 DJ consensus, but still LOWEST ON RECORD (below COVID, 2008 crisis, post-Ukraine 2022 peak inflation); 1-yr inflation expectations 4.7% (largest jump since Apr 2025). Markets closed Saturday Apr 25 + Sunday Apr 26 — values hold into Monday.",
+    "category": "financial",
+    "source": "FRED / Yahoo Finance / Investing.com / Barchart / Motley Fool",
+    "data_point": "S&P 7,165.08 RECORD; Nasdaq 24,836.60 RECORD; UMich 49.8 record low"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "20:00",
+    "title": "WHCA Dinner gunman shooting; Trump unharmed",
+    "description": "Gunman charged White House Correspondents' Association dinner venue; Secret Service member shot. Trump unharmed; called shooter 'lone wolf.' Not directly war-related but shaped Saturday news cycle and competed for political bandwidth with the Pakistan-trip cancellation. SINGLE-SOURCE (Times of Israel liveblog) — confidence MEDIUM pending corroboration.",
+    "category": "domestic_political",
+    "source": "Times of Israel liveblog 2026-04-25",
+    "data_point": "WHCA dinner attack; Trump unharmed; SINGLE-SOURCE"
   }
 ]
