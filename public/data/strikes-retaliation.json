@@ -2425,5 +2425,133 @@
       "https://www.nbcnews.com/world/iran/live-blog/live-updates-trump-iran-hormuz-blockade-ceasefire-talks-lebanon-israel-rcna341831"
     ],
     "last_updated": "2026-04-25"
+  },
+  {
+    "id": "ret-2026-04-25-leb-safad-1",
+    "city": "Safad al-Battikh, Bint Jbeil district, southern Lebanon",
+    "lat": 33.13,
+    "lng": 35.42,
+    "type": "iran_retaliation",
+    "weapon": "Israeli air strike",
+    "origin": "Israel (IDF)",
+    "first_strike": "2026-04-25",
+    "casualties_reported": "2 KILLED, 17 WOUNDED.",
+    "casualties_source": "Times of Israel liveblog 2026-04-25 / Al Jazeera 2026-04-25",
+    "active_days": [
+      57
+    ],
+    "notes": "Day 57 (Apr 25): IDF airstrike on Hezbollah position in Safad al-Battikh killed 2 and wounded 17 — third documented kinetic incident in the Apr 25 24h window. Within the Apr 17 Lebanon truce (extended 3 weeks Apr 23). Hezbollah lawmaker Ali Fayyad (Apr 24): 'every Israeli attack gives Hezbollah the right to retaliate.'",
+    "verified": true,
+    "sources": [
+      "https://www.timesofisrael.com/liveblog_entry/idf-airstrike-on-hezbollah-position-in-southern-lebanon-killed-2-wounded-17/"
+    ],
+    "last_updated": "2026-04-26"
+  },
+  {
+    "id": "ret-2026-04-25-leb-launchers-1",
+    "city": "Deir ez-Zahrani / Kfar Reman / Sammaaiyeh / Khiam, southern Lebanon",
+    "lat": 33.39,
+    "lng": 35.48,
+    "type": "iran_retaliation",
+    "weapon": "Multiple IDF airstrikes + artillery on Hezbollah rocket launchers + Radwan Force buildings",
+    "origin": "Israel (IDF)",
+    "first_strike": "2026-04-25",
+    "casualties_reported": "Casualty counts unspecified by IDF.",
+    "casualties_source": "Times of Israel 2026-04-25 / IDF spokesperson",
+    "active_days": [
+      57
+    ],
+    "notes": "Day 57 (Apr 25): IDF struck Hezbollah rocket launchers across Deir ez-Zahrani, Kfar Reman, Sammaaiyeh, and Khiam in southern Lebanon, plus Radwan Force buildings. Multi-village strike pattern signaling broader counter-launcher campaign within the Apr 17 ceasefire framework.",
+    "verified": true,
+    "sources": [
+      "https://www.timesofisrael.com/liveblog_entry/idf-strikes-hezbollah-rocket-launchers-radwan-buildings-southern-lebanon/"
+    ],
+    "last_updated": "2026-04-26"
+  },
+  {
+    "id": "ret-2026-04-25-leb-rockets-1",
+    "city": "Northern Israel (cross-border target)",
+    "lat": 33.10,
+    "lng": 35.30,
+    "type": "iran_retaliation",
+    "weapon": "2 rockets (1 intercepted, 1 to open area) + 1 drone (intercepted)",
+    "origin": "Hezbollah (Lebanon)",
+    "first_strike": "2026-04-25",
+    "casualties_reported": "0 killed, 0 wounded (interceptions + open-area impact).",
+    "casualties_source": "Times of Israel 2026-04-25 / IDF",
+    "active_days": [
+      57
+    ],
+    "notes": "Day 57 (Apr 25): Hezbollah fired 2 rockets at northern Israel (1 intercepted, 1 fell in open area) and 1 explosive drone (intercepted). First Hezbollah rocket-and-drone retaliation since Apr 21 Rab Thalathin barrage; Hezbollah framing it as response to IDF demolitions and ceasefire violations.",
+    "verified": true,
+    "sources": [
+      "https://www.timesofisrael.com/liveblog_entry/hezbollah-fires-rockets-and-drone-at-northern-israel/"
+    ],
+    "last_updated": "2026-04-26"
+  },
+  {
+    "id": "ret-2026-04-26-leb-fooks-kia",
+    "city": "Southern Lebanon (precise location undisclosed)",
+    "lat": 33.20,
+    "lng": 35.45,
+    "type": "iran_retaliation",
+    "weapon": "Hezbollah explosive drone attack + 2 follow-up drones (1 intercepted, 1 missed)",
+    "origin": "Hezbollah (Lebanon)",
+    "first_strike": "2026-04-26",
+    "casualties_reported": "1 IDF KIA: Sgt. Idan Fooks (19), 7th Armored Brigade/77th Battalion, Petah Tikva. 6 IDF wounded — 1 officer + 3 troops seriously, 1 moderately, 1 lightly.",
+    "casualties_source": "Times of Israel liveblog 2026-04-26 / France 24 liveblog 2026-04-26 / ANI/Tribune",
+    "active_days": [
+      58
+    ],
+    "notes": "Day 58 (Apr 26): SIGNIFICANT — Sgt. Idan Fooks (19) killed by Hezbollah explosive drone in southern Lebanon — third IDF KIA since the Apr 17 ceasefire took effect (cumulative Lebanon-front IDF KIA 15). Two follow-up drones — 1 intercepted, 1 missed. The attack triggered Netanyahu's most pointed public statement since the Apr 17 truce: 'Hezbollah's violations are essentially disintegrating the ceasefire... we have eliminated 46 terrorists [past two weeks]... we will act with a strong hand and an outstretched arm.' Lebanon PM Salam reportedly seeking emergency US intercession. Marks rhetorical shift from defensive to attritional framing on Israeli side.",
+    "verified": true,
+    "sources": [
+      "https://www.timesofisrael.com/liveblog_entry/idf-soldier-killed-hezbollah-drone-southern-lebanon/",
+      "https://www.france24.com/en/live-news/20260426-idf-soldier-killed-hezbollah-drone-attack-southern-lebanon"
+    ],
+    "last_updated": "2026-04-26"
+  },
+  {
+    "id": "ret-2026-04-26-leb-idf-launcher-strikes",
+    "city": "Deir El Zahrani / Reman / Al-Saamiya / Nabatiye al-Faouqa, southern Lebanon",
+    "lat": 33.40,
+    "lng": 35.48,
+    "type": "iran_retaliation",
+    "weapon": "Overnight IDF airstrikes on Hezbollah rocket launchers",
+    "origin": "Israel (IDF)",
+    "first_strike": "2026-04-26",
+    "casualties_reported": "6 KILLED (AFP photo from Nabatiye al-Faouqa); wounded unspecified.",
+    "casualties_source": "Times of Israel 2026-04-26 / France 24 2026-04-26 / AFP photo Nabatiye al-Faouqa",
+    "active_days": [
+      58
+    ],
+    "notes": "Day 58 (Apr 26): IDF responded to the Sgt. Fooks killing with overnight airstrikes on Hezbollah rocket launchers in Deir El Zahrani, Reman, Al-Saamiya, and Nabatiye al-Faouqa, killing 6. AFP-photographed strike site at Nabatiye al-Faouqa confirms IDF kinetic response within hours of the IDF KIA. Cumulative Lebanese MoPH toll above 2,500 killed (consolidated 2,502) / 7,725 wounded since Mar 2.",
+    "verified": true,
+    "sources": [
+      "https://www.france24.com/en/live-news/20260426-idf-strikes-hezbollah-launchers-southern-lebanon-overnight"
+    ],
+    "last_updated": "2026-04-26"
+  },
+  {
+    "id": "ret-2026-04-24-iran-irgc-kurdish-camps",
+    "city": "Iraqi Kurdistan (multiple opposition party camps)",
+    "lat": 36.2,
+    "lng": 44.9,
+    "type": "iran_internal_repression_cross_border",
+    "weapon": "18 cross-border IRGC attacks (per Hengaw)",
+    "origin": "IRGC (Iran cross-border)",
+    "first_strike": "2026-04-24",
+    "casualties_reported": "4 KILLED, 9 WOUNDED.",
+    "casualties_source": "Hengaw news ticker 2026-04-24 (SINGLE-SOURCE)",
+    "active_days": [
+      56
+    ],
+    "notes": "Day 56 (Apr 24, surfaced via Hengaw 10th report): IRGC conducted 18 cross-border attacks on Kurdish opposition party camps in Iraqi Kurdistan — 4 killed, 9 wounded. Distinct from the Iran-US ceasefire framework; tracked separately as Iran internal-repression cross-border activity. Single-source (Hengaw) — confidence MEDIUM pending corroboration from Reuters/AP/AFP wires.",
+    "verified": false,
+    "confidence": "SINGLE-SOURCE",
+    "sources": [
+      "https://hengaw.net/en/"
+    ],
+    "last_updated": "2026-04-26"
   }
 ]
