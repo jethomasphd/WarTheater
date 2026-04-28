@@ -1,34 +1,34 @@
 {
   "conflicts": [
     {
-      "label": "Iran 2026 (Day 56)",
+      "label": "Iran 2026 (Day 60)",
       "targets_struck": 35500,
       "us_kia": 13,
-      "daily_cost_millions": 900,
-      "note": "Operation Epic Fury — Day 56. THREE U.S. CARRIERS NOW IN CENTCOM (Lincoln + Ford + Bush) — first time since Operation Iraqi Freedom in 2003; combined >200 aircraft, 15,000 sailors/Marines, 9+ DDGs. Iran ceasefire INDEFINITE (Trump Apr 21) — holding 17 days. Iran FM Araghchi flew to Islamabad Apr 24; Witkoff/Kushner depart for Pakistan Apr 25 for direct US-Iran talks. Lebanon ceasefire EXTENDED 3 weeks (Trump-brokered Apr 23) but mutual violations confirmed: 2,491 Lebanese killed (+37 vs Apr 21) / 7,719 wounded. U.S. blockade redirects 34 vessels (CENTCOM Apr 24). NYT (Apr 24): U.S. expended >1,200 Patriots, ~1,100 stealth cruise missiles, >1,000 Tomahawks (~10x annual procurement). S&P 500 record close 7,165.08 (+0.80%); Nasdaq record 24,836.60 (+1.63%); Brent $105.33; WTI $94.40; AAA gas $4.022. UMich final April sentiment 49.8 — lowest on record. Cumulative U.S. cost midpoint ~$51B (range $25B-$95B). 60-day War Powers deadline ~May 1."
+      "daily_cost_millions": 850,
+      "note": "Operation Epic Fury \u2014 Day 60. Three U.S. CSGs in CENTCOM (Lincoln/Ford/Bush) holds \u2014 first time since Operation Iraqi Freedom in 2003; combined >200 aircraft, 15,000 sailors/Marines, ~14 DDGs/LCS. Iran ceasefire INDEFINITE (Trump Apr 21) \u2014 holding day 18. Diplomatic track in deadlock: Iran transmitted written proposal via Pakistani mediators offering Hormuz reopening + ceasefire extension in exchange for U.S. lifting naval blockade, with nuclear DEFERRED \u2014 Trump 'doesn't love the proposal' (Reuters/WaPo Apr 27); Sec. Rubio (Fox): unacceptable to 'normalize a system in which the Iranians decide who gets to use an international waterway.' Lebanon ceasefire (Apr 16) under strain \u2014 IDF expanded into Bekaa Valley Apr 27 (>20 Hezbollah-linked sites; first such expansion since the truce). Houthi Red Sea track REACTIVATED \u2014 MV Andromeda Star Apr 26 (3 ASBMs). U.S. blockade redirects 34 vessels cumulative. NYT (Apr 24) munitions: >1,200 Patriots, ~1,100 stealth cruise, >1,000 Tomahawks (~10\u00d7 annual procurement). Brent broke above $111/bbl Apr 28 (intraday $110.85, high $111.57); WTI $99.40; AAA gas $4.022. S&P 500 record close 7,173.91 Apr 27 / Nasdaq record 24,887.10. Iran MoH 3,375 killed (Foundation of Martyrs separately 3,468); Lebanese MoPH 2,509 killed / 7,755+ wounded. ~3.2M Iran IDPs + 1M+ Lebanese displaced. 6 months estimated to clear Hormuz mines post-hostilities (Pentagon to House Armed Services Apr 22). Cumulative U.S. cost midpoint ~$51.85B (range $25B-$95B). 60-day War Powers Resolution statutory deadline May 1 (T-3); no scheduled floor vote on Massie/Khanna H.Con.Res.38 (94 cosponsors) or Kaine companion in window."
     },
     {
       "label": "Iraq 2003 (Day 21)",
       "targets_struck": 19000,
       "us_kia": 85,
       "daily_cost_millions": 750,
-      "note": "Operation Iraqi Freedom — \"shock and awe\" + ground invasion. 300,000 troops deployed."
+      "note": "Operation Iraqi Freedom \u2014 \"shock and awe\" + ground invasion. 300,000 troops deployed."
     },
     {
       "label": "Libya 2011 (Day 21)",
       "targets_struck": 700,
       "us_kia": 0,
       "daily_cost_millions": 125,
-      "note": "Operation Odyssey Dawn / Unified Protector — NATO no-fly zone. Limited US role."
+      "note": "Operation Odyssey Dawn / Unified Protector \u2014 NATO no-fly zone. Limited US role."
     },
     {
       "label": "Gulf 1991 (Day 21)",
       "targets_struck": 26000,
       "us_kia": 18,
       "daily_cost_millions": 620,
-      "note": "Operation Desert Storm — 38-day air campaign + 100-hour ground war. 700,000 coalition troops."
+      "note": "Operation Desert Storm \u2014 38-day air campaign + 100-hour ground war. 700,000 coalition troops."
     }
   ],
   "sources": "CRS Reports R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya). Costs inflation-adjusted to 2026 dollars using BLS CPI-U.",
-  "last_updated": "2026-04-24"
+  "last_updated": "2026-04-28"
 }
