@@ -2363,7 +2363,7 @@
   {
     "id": "leb_yohmor_2026-04-25",
     "city": "Yohmor al-Shaqeef, Nabatieh district, southern Lebanon",
-    "lat": 33.40,
+    "lat": 33.4,
     "lng": 35.49,
     "type": "iran_retaliation",
     "weapon": "Israeli air strike(s) on a truck and a motorbike",
@@ -2385,7 +2385,7 @@
   {
     "id": "leb_idf_intercept_2026-04-25",
     "city": "Southern Lebanon (location unspecified)",
-    "lat": 33.20,
+    "lat": 33.2,
     "lng": 35.45,
     "type": "iran_retaliation",
     "weapon": "Air defense intercept",
@@ -2471,8 +2471,8 @@
   {
     "id": "ret-2026-04-25-leb-rockets-1",
     "city": "Northern Israel (cross-border target)",
-    "lat": 33.10,
-    "lng": 35.30,
+    "lat": 33.1,
+    "lng": 35.3,
     "type": "iran_retaliation",
     "weapon": "2 rockets (1 intercepted, 1 to open area) + 1 drone (intercepted)",
     "origin": "Hezbollah (Lebanon)",
@@ -2492,7 +2492,7 @@
   {
     "id": "ret-2026-04-26-leb-fooks-kia",
     "city": "Southern Lebanon (precise location undisclosed)",
-    "lat": 33.20,
+    "lat": 33.2,
     "lng": 35.45,
     "type": "iran_retaliation",
     "weapon": "Hezbollah explosive drone attack + 2 follow-up drones (1 intercepted, 1 missed)",
@@ -2514,7 +2514,7 @@
   {
     "id": "ret-2026-04-26-leb-idf-launcher-strikes",
     "city": "Deir El Zahrani / Reman / Al-Saamiya / Nabatiye al-Faouqa, southern Lebanon",
-    "lat": 33.40,
+    "lat": 33.4,
     "lng": 35.48,
     "type": "iran_retaliation",
     "weapon": "Overnight IDF airstrikes on Hezbollah rocket launchers",
@@ -2553,5 +2553,52 @@
       "https://hengaw.net/en/"
     ],
     "last_updated": "2026-04-26"
+  },
+  {
+    "id": "lbn-2026-04-26-southern-lebanon-multi",
+    "first_strike": "2026-04-26",
+    "active_days": [
+      59
+    ],
+    "city": "Yohmor al-Shaqeef, Safad al-Battikh, Kfar Tibnit, Zawtar al-Sharqiyah, Nabatieh al-Fawqa, Kafra and others, southern Lebanon",
+    "lat": 33.42,
+    "lng": 35.48,
+    "type": "iran_retaliation",
+    "origin": "Israel (IDF)",
+    "weapon": "Israeli airstrikes + artillery",
+    "casualties_reported": "Apr 26 cumulative across southern Lebanon: 14 KILLED (incl. 2 women, 2 children), 37 WOUNDED. Of these, 6 captured in entry ret-2026-04-26-leb-idf-launcher-strikes and the 1 IDF KIA captured in ret-2026-04-26-leb-fooks-kia. This entry covers the remaining 7+ killed across Yohmor al-Shaqeef, Safad al-Battikh, Kfar Tibnit, Zawtar al-Sharqiyah, Nabatieh al-Fawqa, Kafra and other villages. AFP tally: at least 36 killed since the Apr 16/17 ceasefire began.",
+    "casualties_source": "Lebanese Ministry of Public Health (Apr 27 statement); Lebanese National News Agency; AP via Fortune (Apr 27); AFP via Daily Sabah / Malay Mail (Apr 27); Reuters via Newstribune (Apr 27); Al Jazeera Day 59 explainer (Apr 27)",
+    "notes": "Day 59 (Apr 27) reporting on Apr 26 events: Israeli strikes across southern Lebanon killed 14 — DEADLIEST DAY since the Apr 16/17 Lebanon ceasefire took effect. Targets: vehicles, personnel, claimed rocket-launching cells, weapons depot, religious buildings (one mosque destroyed in Zawtar al-Sharqiyah per NNA). IDF said Hezbollah was 'violating the ceasefire'; ordered evacuations of 7 villages north of Litani River and beyond the so-called 'yellow line' Apr 26-27 — AFP reporters described 'heavy traffic heading north.' Hezbollah characterized actions as 'a legitimate response to the enemy's persistent violations.' IDF intercepted 3 drones inbound from Lebanon shortly after Netanyahu's cabinet remarks. Netanyahu: 'Hezbollah's violations are, in practice, dismantling the ceasefire.' Lebanese MoPH cumulative Apr 27: 2,521 killed / 7,750 wounded since Mar 2 (incl. 277 women, 177 children, 100 medics).",
+    "sources": [
+      "Lebanese Ministry of Public Health (Apr 27 statement)",
+      "Lebanese National News Agency",
+      "AP via Fortune (Apr 27)",
+      "AFP via Daily Sabah / Malay Mail (Apr 27)",
+      "Reuters via Newstribune (Apr 27)",
+      "Al Jazeera Day 59 explainer (Apr 27)"
+    ],
+    "verified": true,
+    "last_updated": "2026-04-27"
+  },
+  {
+    "id": "lbn-2026-04-27-kafra-raid",
+    "first_strike": "2026-04-27",
+    "active_days": [
+      59
+    ],
+    "city": "Kafra, southern Lebanon",
+    "lat": 33.18,
+    "lng": 35.32,
+    "type": "iran_retaliation",
+    "origin": "Israel (IDF ground forces)",
+    "weapon": "Ground raid + road interdiction",
+    "casualties_reported": "Not reported.",
+    "casualties_source": "Lebanese NNA via Al Jazeera Day 59 explainer (Apr 27)",
+    "notes": "Day 59 (Apr 27): Lebanese state outlet NNA reports IDF raided the Kafra entrance and cut the road at dawn — incursion expanded ground footprint despite Lebanon ceasefire. Ties to the Apr 26 IDF evacuation order chain for 7 villages north of Litani River. Confidence MEDIUM (single Lebanese state-source channel; not yet independently corroborated by IDF or Western shipping/AFP).",
+    "sources": [
+      "Lebanese NNA via Al Jazeera Day 59 explainer (Apr 27)"
+    ],
+    "verified": true,
+    "last_updated": "2026-04-27"
   }
 ]

@@ -5272,5 +5272,86 @@
     "category": "summary",
     "source": "Multiple",
     "data_point": "Day 58 — phone-only diplomacy; IDF KIA in Lebanon; Lebanon truce 'disintegrating'; T-5 to May 1"
+  },
+  {
+    "date": "2026-04-25",
+    "time": "21:00",
+    "title": "White House Correspondents' Dinner shooting; Trump and Cabinet evacuated",
+    "description": "Reported third shooting attempt against Trump (per AP framing). Trump told reporters Saturday it would not 'deter me from winning the war in Iran. I don't know if that had anything to do with it.' Backstop event; informed Apr 27 Trump posture and announcement that the WH would 'evaluate event security protocols.' Investigation ongoing.",
+    "category": "u.s.-domestic-context",
+    "source": "The Hill / Al Jazeera Day 59 explainer / AP",
+    "data_point": "WHCD shooting; Trump evacuated; investigation ongoing"
+  },
+  {
+    "date": "2026-04-26",
+    "time": "20:00",
+    "title": "Sanctioned Russian-linked superyacht 'Nord' transits Strait of Hormuz",
+    "description": "Shipping data showed the $500M Nord — connected to sanctioned Russian tycoon Alexey Mordashov — transited Hormuz Saturday, one of very few vessels to clear the dual blockade. Anomaly bears watching for U.S. enforcement response.",
+    "category": "hormuz-anomaly",
+    "source": "Bloomberg via Irish Times (Apr 27)",
+    "data_point": "Nord ($500M Mordashov yacht) transits Hormuz Saturday Apr 26"
+  },
+  {
+    "date": "2026-04-26",
+    "time": "18:00",
+    "title": "Former Israeli PMs Bennett and Lapid merge parties to challenge Netanyahu",
+    "description": "Naftali Bennett (Bennett 2026) and Yair Lapid (Yesh Atid) announced merger ahead of upcoming Israeli elections, with overture to a third party leader. Coverage compares dynamic to Hungarian center-right coalition that ousted Orbán. Netanyahu separately disclosed recent removal of a malignant prostate tumor; timing and disclosure brevity has drawn scrutiny. Domestic Israeli political earthquake amid wartime ceasefire.",
+    "category": "israel-domestic",
+    "source": "Al Jazeera (Apr 26) / Irish Times (Apr 27)",
+    "data_point": "Bennett 2026 + Yesh Atid merger; Netanyahu prostate tumor disclosure"
+  },
+  {
+    "date": "2026-04-27",
+    "time": "06:00",
+    "title": "Iranian FM Araghchi meets Putin and Lavrov in St Petersburg",
+    "description": "Iran's Foreign Minister arrived in St Petersburg early Monday to meet President Vladimir Putin at the Boris Yeltsin Presidential Library and FM Sergei Lavrov, capping a multi-leg shuttle (Pakistan Apr 24, Oman Apr 26, Pakistan Apr 26, Russia Apr 27). Discussions covered bilateral ties, Hormuz, and the war. Russia previously floated as potential repository for Iran's HEU stockpile — Tehran maintains it will not surrender stockpile. Russia's Vienna envoy Mikhail Ulyanov said the U.S. must abandon 'blackmailing' and 'ultimatums.'",
+    "category": "diplomacy",
+    "source": "AP/Reuters via Fortune / Al Jazeera Day 59 explainer / TASS via PBS",
+    "data_point": "Araghchi-Putin meeting at Boris Yeltsin Presidential Library; Lavrov also present"
+  },
+  {
+    "date": "2026-04-27",
+    "time": "09:00",
+    "title": "IRGC: 'No intention' of unblocking Strait of Hormuz",
+    "description": "Iran's Islamic Revolutionary Guard Corps stated on its Telegram channel: 'Controlling the Strait of Hormuz and maintaining the shadow of its deterrent effects over America and the White House's supporters in the region is the definitive strategy of Islamic Iran.' Deputy Parliament Speaker Ali Nikzad (per Mehr) added that under an order from Supreme Leader Mojtaba Khamenei, Hormuz will 'under no circumstances' return to its previous state. The IRGC stance directly contradicts the simultaneously transmitted Iranian proposal and signals factional discord within Tehran's leadership.",
+    "category": "iran-domestic",
+    "source": "IRGC Telegram via Al Jazeera Day 59 explainer / Mehr via Al Jazeera live blog",
+    "data_point": "IRGC Telegram: Hormuz control 'definitive strategy' — counter to FM proposal"
+  },
+  {
+    "date": "2026-04-27",
+    "time": "11:00",
+    "title": "Iran offers Hormuz-for-blockade-lift deal, postpones nuclear talks",
+    "description": "Via Pakistani mediators, Iran transmitted a written proposal to the U.S. to extend the ceasefire and reopen the Strait of Hormuz in exchange for the U.S. lifting its naval blockade of Iranian ports — explicitly deferring nuclear-program negotiations to a later phase. Two regional officials and a U.S. official confirmed receipt. White House spokesperson Olivia Wales: 'These are sensitive diplomatic discussions and the U.S. will not negotiate through the press... never allowing Iran to have a nuclear weapon.' Trump told reporters Saturday: 'Interestingly, immediately, when I canceled it, within 10 minutes, we got a new paper that was much better,' adding Iran 'offered a lot but not enough.' The bypassing of nuclear concessions is widely read as removing Trump's leverage, making acceptance unlikely.",
+    "category": "diplomacy",
+    "source": "Axios (primary, Apr 27) / Bloomberg / AP via Fortune / CNBC / Al Jazeera live blog",
+    "data_point": "Iran written proposal: Hormuz-for-blockade-lift; nuclear talks DEFERRED"
+  },
+  {
+    "date": "2026-04-27",
+    "time": "13:00",
+    "title": "European response: Von der Leyen says too early to lift Iran sanctions; Merz says Iran 'humiliating' US",
+    "description": "European Commission President Ursula von der Leyen stated it is 'too early' to lift sanctions on Iran. German Chancellor Friedrich Merz said Iran is 'humiliating' the U.S. as peace talks stall. European posture remains aligned with Washington's pre-conditions but signals impatience with the diplomatic stalemate.",
+    "category": "diplomacy-international-response",
+    "source": "Irish Times (Apr 27)",
+    "data_point": "Von der Leyen: 'too early' to lift Iran sanctions; Merz: Iran 'humiliating' US"
+  },
+  {
+    "date": "2026-04-27",
+    "time": "15:00",
+    "title": "Trump convenes Situation Room meeting on Iran",
+    "description": "President Trump and his national-security team met to review the Iranian proposal and discuss next steps, per three U.S. officials cited by Axios and confirmed by White House Press Secretary Karoline Leavitt. No public readout issued by end of day Apr 27.",
+    "category": "diplomacy",
+    "source": "Axios / CNBC / Al Jazeera live blog",
+    "data_point": "Trump convenes Situation Room meeting on Iran proposal; no public readout"
+  },
+  {
+    "date": "2026-04-27",
+    "time": "23:00",
+    "title": "Day 59 summary — Iran proposal lands at WH Situation Room; Araghchi meets Putin; Lebanon deadliest day since truce; S&P/Nasdaq fresh records",
+    "description": "War Day 59 — Day 6 of indefinite Iran ceasefire and Day 19 since the Apr 8 announcement — saw a written Iranian proposal arrive at the White House offering to extend the ceasefire and reopen Hormuz in exchange for the U.S. lifting its naval blockade, with nuclear-program talks DEFERRED to a later phase. Trump convened a Situation Room meeting; said the proposal was 'much better' but Iran 'offered a lot but not enough.' Simultaneously the IRGC declared on Telegram that Hormuz control is the 'definitive strategy of Islamic Iran' — a public factional contradiction. FM Araghchi met Putin and Lavrov in St Petersburg, capping a multi-leg shuttle through Pakistan, Oman, and Russia. Lebanon recorded its DEADLIEST DAY since the Apr 16/17 truce inception: 14 killed in southern Lebanon strikes Apr 26, 1 IDF KIA, 6 IDF wounded; IDF ordered evacuations of 7 villages north of Litani. Lebanese MoPH cumulative 2,521 / 7,750. Markets decoupled: S&P 500 (7,173.91) and Nasdaq (24,887.10) set fresh ALL-TIME RECORD CLOSES; oil up (WTI +2.42%); Goldman raised Brent forecast +$10/bbl. AP: U.S. clearing Iranian mines in Hormuz. Anomaly: Mordashov-linked superyacht NORD transited Hormuz Saturday. Bennett-Lapid party merger Apr 26 added Israeli domestic instability. War Powers May 1 deadline T-4 days; no AUMF, no formal extension certification submitted; Sen. Susan Collins indicated may join Democrats post-deadline.",
+    "category": "summary",
+    "source": "Multiple",
+    "data_point": "Day 59 — Iran Hormuz-for-blockade-lift proposal; Araghchi-Putin; Lebanon 14 killed; markets ATH"
   }
 ]
