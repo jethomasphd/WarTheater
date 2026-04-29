@@ -1143,14 +1143,32 @@
       "displaced": 3200000,
       "flights_cancelled": -1,
       "children_killed": 207
+    },
+    {
+      "date": "2026-04-29",
+      "war_day": 61,
+      "brent": 116.53,
+      "wti": 105.92,
+      "gas": 4.22,
+      "sp500": 7139,
+      "daily_cost_millions": 850,
+      "total_cost_billions": 52.7,
+      "targets_struck": 35500,
+      "us_kia": 13,
+      "us_wia": 303,
+      "iranian_killed": 3375,
+      "lebanese_killed": 2509,
+      "displaced": 3200000,
+      "flights_cancelled": -1,
+      "children_killed": 207
     }
   ],
   "toll": {
     "targets_struck": {
       "value": 35500,
       "label": "Cumulative Iranian targets struck (CENTCOM)",
-      "note": "No new strike data in ceasefire phase; figure unchanged from Apr 21 indefinite ceasefire. Day 18 of indefinite truce holding.",
-      "tooltip": "CENTCOM cumulative target tally (35,500). Frozen since Apr 21 indefinite ceasefire \u2014 no U.S./Israeli strikes on Iranian territory Day 18 of the indefinite truce.",
+      "note": "No new strike data in ceasefire phase; figure unchanged. Iran ceasefire enters Day 21 since Apr 8 origin / Day 8 of indefinite extension; Bushehr NPP ~25 consecutive days no incident. Hegseth Apr 29 (HASC) directly compared duration to Iraq/Afghanistan: 'this is just two months in.'",
+      "tooltip": "CENTCOM cumulative target tally (35,500). Frozen since Apr 21 indefinite ceasefire \u2014 no U.S./Israeli strikes on Iranian territory Day 21 of the truce / Day 8 of indefinite extension.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
@@ -1177,8 +1195,8 @@
     "lebanese_killed": {
       "value": 2509,
       "label": "Lebanese killed (LB MoPH)",
-      "note": "Lebanese Health Ministry cumulative 2,509 / 7,755+ wounded since Mar 2 (+18 vs Apr 21 baseline of 2,491). Includes 14 killed Apr 26 in deadliest single-day since Apr 16 truce; Apr 27 IDF Bekaa expansion: \u22653 wounded across south.",
-      "tooltip": "Lebanese MoPH cumulative Apr 28: 2,509 killed / 7,755+ wounded (Reuters/CBC; AJ tracker 10:30 GMT). 177 children, 100 medics killed. IDF expanded strikes into Bekaa Valley Apr 27 \u2014 first since Apr 16 ceasefire.",
+      "note": "Lebanese Health Ministry cumulative \u22652,500 killed / >1M displaced (CBS Apr 28; AJ tracker cites 2,509 / 7,755+ wounded). Apr 28: \u22658 killed in southern Lebanon incl. 3 Lebanese Civil Defense rescuers (Hussein Sati, Hadi Daher, Hussein Ghadbouni) + 5 others; 2 LAF wounded. Apr 28 Hezbollah FPV drone wounded 2 IDF (1 seriously). Apr 29 IDF Chief Zamir: 'no ceasefire' in south Lebanon; Hezbollah drone shot down over Misgav Am.",
+      "tooltip": "Lebanese MoPH cumulative \u22652,500 killed / >1M displaced (CBS Apr 28). 177 children, 100 medics killed. Apr 28: 3 Lebanese Civil Defense rescuers killed + 5 others; IDF ordered evacuation of 16 additional Lebanese towns. Apr 29 IDF Chief Zamir declared 'no ceasefire' in south Lebanon.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
@@ -1191,15 +1209,15 @@
     "flights_cancelled": {
       "value": -1,
       "label": "Tehran IKIA international flights resumed",
-      "note": ">32,000 flights cancelled cumulative since Mar 1 (carry-forward; no fresh aviation data Apr 28). Tehran IKIA international flights resumed Apr 25 after 56-day shutdown.",
-      "tooltip": "Tehran IKIA international flights resumed Apr 25 after 56-day shutdown (Istanbul, Muscat, Medina). Cumulative >32,000 cancellations since Mar 1 (carry-forward).",
+      "note": ">32,000 flights cancelled cumulative since Mar 1 (carry-forward; no fresh aviation data Apr 29). Tehran IKIA international flights resumed Apr 25 after 56-day shutdown. Sweden energy minister Apr 28 warned of jet-fuel shortage risk; ~20% of EU jet fuel normally transits Hormuz.",
+      "tooltip": "Tehran IKIA international flights resumed Apr 25 after 56-day shutdown (Istanbul, Muscat, Medina). Cumulative >32,000 cancellations since Mar 1 (carry-forward). Sweden Apr 28 jet-fuel shortage warning.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
       "value": 207,
       "label": "Children killed (Iran 376 / Lebanon 177+ \u2014 display midpoint)",
-      "note": "Iran 376 (MoH) + 7 infants; Lebanon 177+ (MoPH). Carry-forward; no incident-specific child-toll updates Apr 27-28.",
-      "tooltip": "Children killed: Iran 376 (MoH) + 7 infants; Lebanon 177+ (MoPH). No incident-specific child-toll updates Apr 27-28.",
+      "note": "Iran 376 (MoH) + 7 infants; Lebanon 177+ (MoPH). MINAB SCHOOL TOLL REVISED APR 28: Iranian state media (IRIB via CBS) revised the Feb 28 Minab Shajareh Tayyebeh elementary school strike toll DOWN to 155 killed (73 boys, 47 girls, 26 teachers, 7 parents, 1 bus driver, 1 pharmacy tech) from prior >175 figure.",
+      "tooltip": "Children killed: Iran 376 (MoH) + 7 infants; Lebanon 177+ (MoPH). Minab school toll revised down to 155 (73 boys, 47 girls, 26 teachers, 7 parents, 1 bus driver, 1 pharmacy tech) per IRIB Apr 28.",
       "color": "var(--civilian)"
     }
   }
