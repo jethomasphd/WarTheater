@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.98,
-  "current_gas": 4.022,
-  "war_increase": 1.042,
+  "current_gas": 4.22,
+  "war_increase": 1.24,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.82 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA State Gas Price Averages page Apr 28; national average $4.022 (from $4.031 Apr 27)",
-  "last_updated": "2026-04-28"
+  "source": "AAA via CBS Detroit Apr 29 — national average $4.22 (from $4.18 Apr 28); highest since August 2022",
+  "last_updated": "2026-04-29"
 }
