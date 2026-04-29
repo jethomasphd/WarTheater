@@ -2,421 +2,428 @@
   {
     "day": 1,
     "date": "2026-02-28",
-    "label": "FEBRUARY 28, 2026 \u2014 DAY 1",
-    "headline": "Operation Epic Fury begins \u2014 Khamenei killed; 6 US soldiers KIA at Port Shuaiba; Minab school strike kills 165+; Brent surges 18%",
+    "label": "FEBRUARY 28, 2026 — DAY 1",
+    "headline": "Operation Epic Fury begins — Khamenei killed; 6 US soldiers KIA at Port Shuaiba; Minab school strike kills 165+; Brent surges 18%",
     "file": "data/briefings/day-1.html"
   },
   {
     "day": 2,
     "date": "2026-03-01",
-    "label": "MARCH 1, 2026 \u2014 DAY 2",
-    "headline": "Hormuz closed \u2014 mines deployed; all nuclear sites struck; S&P drops 3.1%; Houthis declare war on US shipping; Iraq declares neutrality",
+    "label": "MARCH 1, 2026 — DAY 2",
+    "headline": "Hormuz closed — mines deployed; all nuclear sites struck; S&P drops 3.1%; Houthis declare war on US shipping; Iraq declares neutrality",
     "file": "data/briefings/day-2.html"
   },
   {
     "day": 3,
     "date": "2026-03-02",
-    "label": "MARCH 2, 2026 \u2014 DAY 3",
-    "headline": "Hezbollah enters the war \u2014 500+ rockets at Israel; 3 civilians killed in Haifa; gas hits $3.25; India preps 8M evacuation",
+    "label": "MARCH 2, 2026 — DAY 3",
+    "headline": "Hezbollah enters the war — 500+ rockets at Israel; 3 civilians killed in Haifa; gas hits $3.25; India preps 8M evacuation",
     "file": "data/briefings/day-3.html"
   },
   {
     "day": 4,
     "date": "2026-03-03",
-    "label": "MARCH 3, 2026 \u2014 DAY 4",
+    "label": "MARCH 3, 2026 — DAY 4",
     "headline": "Houthis strike Ras Tanura; Japan/SK release 22M barrel SPR; US Cyber Command degrades IRGC C2; Brent hits $91.50",
     "file": "data/briefings/day-4.html"
   },
   {
     "day": 5,
     "date": "2026-03-04",
-    "label": "MARCH 4, 2026 \u2014 DAY 5",
+    "label": "MARCH 4, 2026 — DAY 5",
     "headline": "Al Udeid penetrated by 3 drones; Fordow survived deep strikes; 2M+ march globally in anti-war protests",
     "file": "data/briefings/day-5.html"
   },
   {
     "day": 6,
     "date": "2026-03-05",
-    "label": "MARCH 5, 2026 \u2014 DAY 6",
+    "label": "MARCH 5, 2026 — DAY 6",
     "headline": "S&P enters correction (-8.3%); US strikes PMF in Iraq; Brent breaks $95; Maersk/MSC suspend Red Sea; 54% approve strikes in polls",
     "file": "data/briefings/day-6.html"
   },
   {
     "day": 7,
     "date": "2026-03-06",
-    "label": "MARCH 6, 2026 \u2014 DAY 7",
+    "label": "MARCH 6, 2026 — DAY 7",
     "headline": "450,000 displaced in Lebanon; Oman begins back-channel diplomacy; 7th US KIA in Syria; Iron Dome: 1,500+ interceptors expended",
     "file": "data/briefings/day-7.html"
   },
   {
     "day": 8,
     "date": "2026-03-07",
-    "label": "MARCH 7, 2026 \u2014 DAY 8",
-    "headline": "US strikes Kharg Island \u2014 90% of Iran oil exports targeted; Brent breaks $100; Week 1 summary: 7 KIA, 3,000+ targets, Hormuz closed",
+    "label": "MARCH 7, 2026 — DAY 8",
+    "headline": "US strikes Kharg Island — 90% of Iran oil exports targeted; Brent breaks $100; Week 1 summary: 7 KIA, 3,000+ targets, Hormuz closed",
     "file": "data/briefings/day-8.html"
   },
   {
     "day": 9,
     "date": "2026-03-08",
-    "label": "MARCH 8, 2026 \u2014 DAY 9",
+    "label": "MARCH 8, 2026 — DAY 9",
     "headline": "US strikes 12 Houthi sites in Yemen; 500,000 march in Washington; Trump authorizes 30M barrel SPR release; Iraqi parliament votes to expel US",
     "file": "data/briefings/day-9.html"
   },
   {
     "day": 10,
     "date": "2026-03-09",
-    "label": "MARCH 9, 2026 \u2014 DAY 10",
+    "label": "MARCH 9, 2026 — DAY 10",
     "headline": "Drone production facilities struck; IAEA loses all nuclear monitoring; Mojtaba Khamenei named Supreme Leader; supply chain cascade beyond energy",
     "file": "data/briefings/day-10.html"
   },
   {
     "day": 11,
     "date": "2026-03-10",
-    "label": "MARCH 10, 2026 \u2014 DAY 11",
-    "headline": "Day 11 \u2014 War continues with no ceasefire in sight",
+    "label": "MARCH 10, 2026 — DAY 11",
+    "headline": "Day 11 — War continues with no ceasefire in sight",
     "file": "data/briefings/day-11.html"
   },
   {
     "day": 12,
     "date": "2026-03-11",
-    "label": "MARCH 11, 2026 \u2014 DAY 12",
+    "label": "MARCH 11, 2026 — DAY 12",
     "headline": "Oil crashes on false Hormuz claim; NATO intercepts missile over Turkey",
     "file": "data/briefings/day-12.html"
   },
   {
     "day": 13,
     "date": "2026-03-12",
-    "label": "MARCH 12, 2026 \u2014 DAY 13",
+    "label": "MARCH 12, 2026 — DAY 13",
     "headline": "Hormuz convoy; IRGC fires on US Navy; IDF ground war in Lebanon",
     "file": "data/briefings/day-13.html"
   },
   {
     "day": 14,
     "date": "2026-03-13",
-    "label": "MARCH 13, 2026 \u2014 DAY 14",
+    "label": "MARCH 13, 2026 — DAY 14",
     "headline": "IRGC batteries destroyed; second convoy; IDF at Bint Jbeil; AUMF debate",
     "file": "data/briefings/day-14.html"
   },
   {
     "day": 15,
     "date": "2026-03-14",
-    "label": "MARCH 14, 2026 \u2014 DAY 15",
+    "label": "MARCH 14, 2026 — DAY 15",
     "headline": "US strikes 90+ Kharg Island targets; Fujairah fire; 1,444 killed per Iran Health Ministry",
     "file": "data/briefings/day-15.html"
   },
   {
     "day": 16,
     "date": "2026-03-15",
-    "label": "MARCH 15, 2026 \u2014 DAY 16",
+    "label": "MARCH 15, 2026 — DAY 16",
     "headline": "7 missile salvos at Israel; cluster munitions in Holon; war cost hits $20B",
     "file": "data/briefings/day-16.html"
   },
   {
     "day": 17,
     "date": "2026-03-16",
-    "label": "MARCH 16, 2026 \u2014 DAY 17",
-    "headline": "Third week begins \u2014 Hormuz still closed; Brent above $100; 15,000+ targets struck",
+    "label": "MARCH 16, 2026 — DAY 17",
+    "headline": "Third week begins — Hormuz still closed; Brent above $100; 15,000+ targets struck",
     "file": "data/briefings/day-17.html"
   },
   {
     "day": 18,
     "date": "2026-03-17",
-    "label": "MARCH 17, 2026 \u2014 DAY 18",
+    "label": "MARCH 17, 2026 — DAY 18",
     "headline": "Brent pulls back to $101; Ford fire contained; zero allies commit warships; naval corrections",
     "file": "data/briefings/day-18.html"
   },
   {
     "day": 19,
     "date": "2026-03-18",
-    "label": "MARCH 18, 2026 \u2014 DAY 19",
-    "headline": "South Pars struck \u2014 energy war begins; 3 officials killed in 24 hrs; 3,200 vessels stranded; Brent $108",
+    "label": "MARCH 18, 2026 — DAY 19",
+    "headline": "South Pars struck — energy war begins; 3 officials killed in 24 hrs; 3,200 vessels stranded; Brent $108",
     "file": "data/briefings/day-19.html"
   },
   {
     "day": 20,
     "date": "2026-03-19",
-    "label": "MARCH 19, 2026 \u2014 DAY 20",
-    "headline": "Iran retaliates on Gulf energy \u2014 Ras Laffan, SAMREF, Kuwait hit; Brent spikes to $119; Fed holds; carrier gap widens",
+    "label": "MARCH 19, 2026 — DAY 20",
+    "headline": "Iran retaliates on Gulf energy — Ras Laffan, SAMREF, Kuwait hit; Brent spikes to $119; Fed holds; carrier gap widens",
     "file": "data/briefings/day-20.html"
   },
   {
     "day": 21,
     "date": "2026-03-20",
-    "label": "MARCH 20, 2026 \u2014 DAY 21",
-    "headline": "Region-wide energy war erupts \u2014 Ras Laffan LNG damaged; IEA declares largest supply disruption in history; Boxer deploys; MCM gap exposed; 22,000+ targets",
+    "label": "MARCH 20, 2026 — DAY 21",
+    "headline": "Region-wide energy war erupts — Ras Laffan LNG damaged; IEA declares largest supply disruption in history; Boxer deploys; MCM gap exposed; 22,000+ targets",
     "file": "data/briefings/day-21.html"
   },
   {
     "day": 22,
     "date": "2026-03-21",
-    "label": "MARCH 21, 2026 \u2014 DAY 22",
+    "label": "MARCH 21, 2026 — DAY 22",
     "headline": "Iran fires IRBMs at Diego Garcia 2,500mi away; Natanz struck; Dimona hit as interceptors fail; 8,000+ targets; Goldman warns oil could exceed $147",
     "file": "data/briefings/day-22.html"
   },
   {
     "day": 23,
     "date": "2026-03-22",
-    "label": "MARCH 22, 2026 \u2014 DAY 23",
+    "label": "MARCH 22, 2026 — DAY 23",
     "headline": "Trump's 48-hour Hormuz ultimatum follows Natanz re-strike and Iranian missiles near Dimona; USS Tripoli nears theater",
     "file": "data/briefings/day-23.html"
   },
   {
     "day": 24,
     "date": "2026-03-23",
-    "label": "MARCH 23, 2026 \u2014 DAY 24",
-    "headline": "Trump postpones power plant strikes 5 days claiming Iran talks \u2014 Tehran denies; Brent crashes 13.6% then recovers; IDF strikes Tehran; 3 Litani bridges destroyed",
+    "label": "MARCH 23, 2026 — DAY 24",
+    "headline": "Trump postpones power plant strikes 5 days claiming Iran talks — Tehran denies; Brent crashes 13.6% then recovers; IDF strikes Tehran; 3 Litani bridges destroyed",
     "file": "data/briefings/day-24.html"
   },
   {
     "day": 25,
     "date": "2026-03-24",
-    "label": "MARCH 24, 2026 \u2014 DAY 25",
+    "label": "MARCH 24, 2026 — DAY 25",
     "headline": "Iran strikes Tel Aviv in 7 waves; Tripoli ARG enters CENTCOM Friday; oil rebounds to ~$103; Pakistan emerges as lead mediator; Houthis still dormant",
     "file": "data/briefings/day-25.html"
   },
   {
     "day": 26,
     "date": "2026-03-25",
-    "label": "MARCH 25, 2026 \u2014 DAY 26",
+    "label": "MARCH 25, 2026 — DAY 26",
     "headline": "15-point ceasefire plan rejected by Iran; 82nd Airborne deploying; Brent drops 3.5% to $96.68; IDF wide-scale attacks on Tehran; 59% of Americans say war has 'gone too far'",
     "file": "data/briefings/day-26.html"
   },
   {
     "day": 27,
     "date": "2026-03-26",
-    "label": "MARCH 26, 2026 \u2014 DAY 27",
-    "headline": "Israel kills IRGC Navy Commander Tangsiri \u2014 Hormuz blockade architect eliminated; ceasefire deadlocked; Brent surges past $105; power plant deadline 48 hours away",
+    "label": "MARCH 26, 2026 — DAY 27",
+    "headline": "Israel kills IRGC Navy Commander Tangsiri — Hormuz blockade architect eliminated; ceasefire deadlocked; Brent surges past $105; power plant deadline 48 hours away",
     "file": "data/briefings/day-27.html"
   },
   {
     "day": 28,
     "date": "2026-03-27",
-    "label": "MARCH 27, 2026 \u2014 DAY 28",
-    "headline": "Trump extends power plant deadline 10 days to April 6; IDF overnight blitz hits heart of Tehran; G7 fractures without communiqu\u00e9; CENTCOM: 10,000+ targets \u2014 largest navy elimination since WWII; Pakistan pushes in-person Islamabad talks",
+    "label": "MARCH 27, 2026 — DAY 28",
+    "headline": "Trump extends power plant deadline 10 days to April 6; IDF overnight blitz hits heart of Tehran; G7 fractures without communiqué; CENTCOM: 10,000+ targets — largest navy elimination since WWII; Pakistan pushes in-person Islamabad talks",
     "file": "data/briefings/day-28.html"
   },
   {
     "day": 29,
     "date": "2026-03-28",
-    "label": "MARCH 28, 2026 \u2014 DAY 29",
-    "headline": "Houthis launch first missile barrage at Israel \u2014 third front opens; WTI briefly crosses $100; Dow enters correction; VIX above 30; Iran rejects ceasefire; 300+ US wounded; Trump extends Hormuz deadline to April 6",
+    "label": "MARCH 28, 2026 — DAY 29",
+    "headline": "Houthis launch first missile barrage at Israel — third front opens; WTI briefly crosses $100; Dow enters correction; VIX above 30; Iran rejects ceasefire; 300+ US wounded; Trump extends Hormuz deadline to April 6",
     "file": "data/briefings/day-29.html"
   },
   {
     "day": 30,
     "date": "2026-03-29",
-    "label": "MARCH 29, 2026 \u2014 DAY 30",
+    "label": "MARCH 29, 2026 — DAY 30",
     "headline": "One month of war: Islamabad quad summit convenes as IRGC threatens university campuses; 11,000+ targets struck; Houthi dual chokepoint crisis looms; 3,200+ protests across all 50 states",
     "file": "data/briefings/day-30.html"
   },
   {
     "day": 31,
     "date": "2026-03-30",
-    "label": "MARCH 30, 2026 \u2014 DAY 31",
-    "headline": "Pentagon plans 'weeks of ground operations' as Trump threatens to 'obliterate' Iran infrastructure; Brent surges 51% in March \u2014 steepest monthly rise on record; Houthis open third front; Pakistan hosts four-nation summit",
+    "label": "MARCH 30, 2026 — DAY 31",
+    "headline": "Pentagon plans 'weeks of ground operations' as Trump threatens to 'obliterate' Iran infrastructure; Brent surges 51% in March — steepest monthly rise on record; Houthis open third front; Pakistan hosts four-nation summit",
     "file": "data/briefings/day-31.html"
   },
   {
     "day": 32,
     "date": "2026-03-31",
-    "label": "MARCH 31, 2026 \u2014 DAY 32",
-    "headline": "Iranian drone strikes Kuwaiti VLCC Al Salmi at Port of Dubai; Brent posts largest monthly gain since 1988; gas crosses $4.00; Houthi Bab al-Mandeb closure threatened \u2014 dual chokepoint scenario; WSJ: Trump may end war without securing Hormuz",
+    "label": "MARCH 31, 2026 — DAY 32",
+    "headline": "Iranian drone strikes Kuwaiti VLCC Al Salmi at Port of Dubai; Brent posts largest monthly gain since 1988; gas crosses $4.00; Houthi Bab al-Mandeb closure threatened — dual chokepoint scenario; WSJ: Trump may end war without securing Hormuz",
     "file": "data/briefings/day-32.html"
   },
   {
     "day": 33,
     "date": "2026-04-01",
-    "label": "APRIL 1, 2026 \u2014 DAY 33",
+    "label": "APRIL 1, 2026 — DAY 33",
     "headline": "IRGC cluster bomb critically wounds children in Bnei Brak as Trump claims Iran 'asked for CEASEFIRE'; markets surge; 200 dynamic strikes in 24 hours; IRGC threatens 17 US corporate HQs; tanker Aqua 1 struck; prime-time address tonight",
     "file": "data/briefings/day-33.html"
   },
   {
     "day": 34,
     "date": "2026-04-02",
-    "label": "APRIL 2, 2026 \u2014 DAY 34",
-    "headline": "Trump's prime-time address offers no exit strategy \u2014 markets reverse as April 6 power plant deadline looms; IRGC cluster-warhead salvos at Israel; UK-led 35-nation Hormuz coalition convenes without US; war approval collapses to 28%",
+    "label": "APRIL 2, 2026 — DAY 34",
+    "headline": "Trump's prime-time address offers no exit strategy — markets reverse as April 6 power plant deadline looms; IRGC cluster-warhead salvos at Israel; UK-led 35-nation Hormuz coalition convenes without US; war approval collapses to 28%",
     "file": "data/briefings/day-34.html"
   },
   {
     "day": 35,
     "date": "2026-04-03",
-    "label": "APRIL 3, 2026 \u2014 DAY 35",
+    "label": "APRIL 3, 2026 — DAY 35",
     "headline": "Oil breaches $111 as WTI-Brent spread inverts; Ford resumes operations after Split repairs; three carrier strike groups committed; Houthis threaten Bab al-Mandeb closure; ceasefire stalled as April 6 deadline looms",
     "file": "data/briefings/day-35.html"
   },
   {
     "day": 36,
     "date": "2026-04-04",
-    "label": "APRIL 4, 2026 \u2014 DAY 36",
-    "headline": "F-15E Strike Eagle shot down over Iran \u2014 first US combat aircraft loss since 2003; Pakistan ceasefire talks collapse; Houthis threaten Bab al-Mandeb blockade; CMA CGM vessel first major Western Hormuz transit; April 6 deadline 2 days away",
+    "label": "APRIL 4, 2026 — DAY 36",
+    "headline": "F-15E Strike Eagle shot down over Iran — first US combat aircraft loss since 2003; Pakistan ceasefire talks collapse; Houthis threaten Bab al-Mandeb blockade; CMA CGM vessel first major Western Hormuz transit; April 6 deadline 2 days away",
     "file": "data/briefings/day-36.html"
   },
   {
     "day": 37,
     "date": "2026-04-05",
-    "label": "APRIL 5, 2026 \u2014 DAY 37",
+    "label": "APRIL 5, 2026 — DAY 37",
     "headline": "WSO rescued after 48 hours inside Iran via CIA deception op; April 6 Hormuz ultimatum less than 24 hours away; Trump threatens 'Power Plant Day'; ceasefire frozen at 2%; 82nd Airborne deploying; Moody's recession probability 49%",
     "file": "data/briefings/day-37.html"
   },
   {
     "day": 38,
     "date": "2026-04-06",
-    "label": "APRIL 6, 2026 \u2014 DAY 38",
+    "label": "APRIL 6, 2026 — DAY 38",
     "headline": "Trump sets April 7 Hormuz deadline threatening power plants and bridges; 45-day ceasefire rejected by Iran; OPEC+ output increase dismissed as 'academic'; IAEA severed with 440 kg at 60%; Houthis holding Bab al-Mandeb card; markets reopen after Easter",
     "file": "data/briefings/day-38.html"
   },
   {
     "day": 39,
     "date": "2026-04-07",
-    "label": "APRIL 7, 2026 \u2014 DAY 39",
+    "label": "APRIL 7, 2026 — DAY 39",
     "headline": "US strikes 50+ targets on Kharg Island as Israel launches bridge/railway campaign; 8 PM ET deadline approaching; Iran rejects ceasefire but back channels live; Vance declares 'military goals achieved' while Trump warns 'a whole civilisation will die tonight'; WTI spikes toward $115; IRGC threatens strikes 'outside the region'",
     "file": "data/briefings/day-39.html"
   },
   {
     "day": 40,
     "date": "2026-04-08",
-    "label": "APRIL 8, 2026 \u2014 DAY 40",
+    "label": "APRIL 8, 2026 — DAY 40",
     "headline": "Trump blinked: Pakistan-brokered two-week ceasefire announced 88 minutes before deadline; oil crashes 14-19% overnight; Islamabad Accords talks begin April 10; ceasefire excludes Lebanon; negotiating positions remain a gulf apart",
     "file": "data/briefings/day-40.html"
   },
   {
     "day": 41,
     "date": "2026-04-09",
-    "label": "APRIL 9, 2026 \u2014 DAY 41",
-    "headline": "Ceasefire 'on the verge of collapse' (Soufan Center) \u2014 Israel's 'Operation Eternal Darkness' kills 254 in Lebanon (single largest strike of war); Iran re-closes Hormuz; markets reverse with Brent/WTI rebound to ~$97-98; Vance, Witkoff, Kushner confirmed for Islamabad \u2014 highest-level US-Iran engagement since 1979",
+    "label": "APRIL 9, 2026 — DAY 41",
+    "headline": "Ceasefire 'on the verge of collapse' (Soufan Center) — Israel's 'Operation Eternal Darkness' kills 254 in Lebanon (single largest strike of war); Iran re-closes Hormuz; markets reverse with Brent/WTI rebound to ~$97-98; Vance, Witkoff, Kushner confirmed for Islamabad — highest-level US-Iran engagement since 1979",
     "file": "data/briefings/day-41.html"
   },
   {
     "day": 42,
     "date": "2026-04-10",
-    "label": "APRIL 10, 2026 \u2014 DAY 42",
-    "headline": "Vance departs for Islamabad \u2014 highest-level US-Iran engagement since 1979; ceasefire holds on Iran front but fractures at every seam; Israel 50+ strikes in Lebanon (1,888+ killed); Hormuz still closed \u2014 only 15 ships in 48 hours; former FM Kharazi dies; March CPI released; 60-day War Powers deadline April 29",
+    "label": "APRIL 10, 2026 — DAY 42",
+    "headline": "Vance departs for Islamabad — highest-level US-Iran engagement since 1979; ceasefire holds on Iran front but fractures at every seam; Israel 50+ strikes in Lebanon (1,888+ killed); Hormuz still closed — only 15 ships in 48 hours; former FM Kharazi dies; March CPI released; 60-day War Powers deadline April 29",
     "file": "data/briefings/day-42.html"
   },
   {
     "day": 43,
     "date": "2026-04-11",
-    "label": "APRIL 11, 2026 \u2014 DAY 43",
+    "label": "APRIL 11, 2026 — DAY 43",
     "headline": "First direct US-Iran talks since 1979 begin in Islamabad as ceasefire holds by a thread; March CPI confirms gas surged 21.2% (largest since 1967); consumer sentiment hits all-time low; dated Brent at $132 vs futures $97 signals ceasefire seen as temporary",
     "file": "data/briefings/day-43.html"
   },
   {
     "day": 44,
     "date": "2026-04-12",
-    "label": "APRIL 12, 2026 \u2014 DAY 44",
-    "headline": "Islamabad talks collapse after 21 hours \u2014 Trump declares US naval BLOCKADE of Strait of Hormuz; ceasefire expires ~Apr 22 and future deeply uncertain; Israel strikes 200+ Hezbollah sites over weekend; Lebanon-Israel talks Apr 15 at State Dept (first contact since 1983); markets face volatile Monday reopening",
+    "label": "APRIL 12, 2026 — DAY 44",
+    "headline": "Islamabad talks collapse after 21 hours — Trump declares US naval BLOCKADE of Strait of Hormuz; ceasefire expires ~Apr 22 and future deeply uncertain; Israel strikes 200+ Hezbollah sites over weekend; Lebanon-Israel talks Apr 15 at State Dept (first contact since 1983); markets face volatile Monday reopening",
     "file": "data/briefings/day-44.html"
   },
   {
     "day": 45,
     "date": "2026-04-13",
-    "label": "APRIL 13, 2026 \u2014 DAY 45",
-    "headline": "US naval blockade of Iranian ports effective 14:00 GMT \u2014 IRGC warns military vessels approaching Strait trigger 'harsh and decisive' force; CENTCOM narrows scope vs Trump's all-Hormuz threat; UK declines to join; oil breaks $100 / VIX +11%; Lebanon toll 2,055 / 6,588 as IDF nears Bint Jbeil capture; ceasefire expires ~Apr 21",
+    "label": "APRIL 13, 2026 — DAY 45",
+    "headline": "US naval blockade of Iranian ports effective 14:00 GMT — IRGC warns military vessels approaching Strait trigger 'harsh and decisive' force; CENTCOM narrows scope vs Trump's all-Hormuz threat; UK declines to join; oil breaks $100 / VIX +11%; Lebanon toll 2,055 / 6,588 as IDF nears Bint Jbeil capture; ceasefire expires ~Apr 21",
     "file": "data/briefings/day-45.html"
   },
   {
     "day": 46,
     "date": "2026-04-14",
-    "label": "APRIL 14, 2026 \u2014 DAY 46",
-    "headline": "Blockade's first full day \u2014 only 3 Hormuz transits, none to Iranian ports; IEA confirms largest oil supply disruption in history (10.1 mb/d March loss); S&P 500 erases all war losses; VIX at 18.4 lowest since war began; Battle of Bint Jbeil Day 5-6 as IDF 98th Division advances on Nasrallah's 'spider's web' stadium; Qassem preemptively rejects Apr 15 Israel-Lebanon talks; Congress returns, Democrats force war powers votes",
+    "label": "APRIL 14, 2026 — DAY 46",
+    "headline": "Blockade's first full day — only 3 Hormuz transits, none to Iranian ports; IEA confirms largest oil supply disruption in history (10.1 mb/d March loss); S&P 500 erases all war losses; VIX at 18.4 lowest since war began; Battle of Bint Jbeil Day 5-6 as IDF 98th Division advances on Nasrallah's 'spider's web' stadium; Qassem preemptively rejects Apr 15 Israel-Lebanon talks; Congress returns, Democrats force war powers votes",
     "file": "data/briefings/day-46.html"
   },
   {
     "day": 47,
     "date": "2026-04-15",
-    "label": "APRIL 15, 2026 \u2014 DAY 47",
+    "label": "APRIL 15, 2026 — DAY 47",
     "headline": "S&P 500 breaches 7,000 for new all-time high as Bloomberg reports US/Iran considering 2-week ceasefire extension; Pakistan Army Chief arrives Tehran with 'new message from Washington'; IRGC threatens counter-blockade of Persian Gulf + Sea of Oman + Red Sea; CNN satellite imagery shows Iran reconstituting missile capabilities; Battle of Bint Jbeil near-complete per IDF; first Israel-Lebanon direct talks since 1983 produce no ceasefire",
     "file": "data/briefings/day-47.html"
   },
   {
     "day": 48,
     "date": "2026-04-16",
-    "label": "APRIL 16, 2026 \u2014 DAY 48",
-    "headline": "S&P 500 RECORD CLOSE 7,022.95 / intraday ATH 7,040.03 \u2014 first record close since January \u2014 as Senate rejects War Powers Resolution 47-52 (4th defeat); Hegseth: US 'locked and loaded' to restart combat if talks collapse; Pakistan Army Chief Munir meets Ghalibaf in Tehran with 'new message from Washington'; IDF Nabatieh strike kills 19 including 13 Lebanese State Security; Lebanon toll 2,167/7,061; physical Brent $131.97 vs futures ~$96 ($35 premium) signals peace pricing has not convinced the cargo market",
+    "label": "APRIL 16, 2026 — DAY 48",
+    "headline": "S&P 500 RECORD CLOSE 7,022.95 / intraday ATH 7,040.03 — first record close since January — as Senate rejects War Powers Resolution 47-52 (4th defeat); Hegseth: US 'locked and loaded' to restart combat if talks collapse; Pakistan Army Chief Munir meets Ghalibaf in Tehran with 'new message from Washington'; IDF Nabatieh strike kills 19 including 13 Lebanese State Security; Lebanon toll 2,167/7,061; physical Brent $131.97 vs futures ~$96 ($35 premium) signals peace pricing has not convinced the cargo market",
     "file": "data/briefings/day-48.html"
   },
   {
     "day": 49,
     "date": "2026-04-17",
-    "label": "APRIL 17, 2026 \u2014 DAY 49",
-    "headline": "Lebanon 10-day ceasefire in force as Iran blockade tightens \u2014 Trump: US-Iran deal 'very close'; Iran accepts 3rd-party nuclear monitoring 'in principle' after Pakistan Army Chief Munir shuttle; S&P 500 record close 7,041.28 (2nd day above 7,000), crude -6.37% pre-market to ~$85.36; House WPR fails 213-214 by ONE VOTE; 40-nation Hormuz Summit excludes US; Iran 'lost track' of some mines; Bint Jbeil stadium \u2014 IDF 98th Div Egoz Unit demolishes ~70 Hezbollah sites in under a minute; Pope Leo XIV from Cameroon: 'The masters of war pretend not to know...'",
+    "label": "APRIL 17, 2026 — DAY 49",
+    "headline": "Lebanon 10-day ceasefire in force as Iran blockade tightens — Trump: US-Iran deal 'very close'; Iran accepts 3rd-party nuclear monitoring 'in principle' after Pakistan Army Chief Munir shuttle; S&P 500 record close 7,041.28 (2nd day above 7,000), crude -6.37% pre-market to ~$85.36; House WPR fails 213-214 by ONE VOTE; 40-nation Hormuz Summit excludes US; Iran 'lost track' of some mines; Bint Jbeil stadium — IDF 98th Div Egoz Unit demolishes ~70 Hezbollah sites in under a minute; Pope Leo XIV from Cameroon: 'The masters of war pretend not to know...'",
     "file": "data/briefings/day-49.html"
   },
   {
     "day": 50,
     "date": "2026-04-18",
-    "label": "APRIL 18, 2026 \u2014 DAY 50",
-    "headline": "Hormuz reclosed as ceasefire frays \u2014 Iran Joint Military Command reimposes restrictions at 05:19 ET; IRGC gunboats fire on Indian-flagged VLCC Sanmar Herald, ~20 tankers reverse course; French UNIFIL CWO killed in first allied fatality on Lebanon front (Macron blames Hezbollah); 49-nation Paris summit pointedly excludes Washington; Iran deputy FM Khatibzadeh: 440 kg HEU transfer 'a non-starter'; Trump: 'no sticking points left'; S&P 500 record close 7,126.06 priced a durable ceasefire Friday \u2014 diplomacy did not deliver by Saturday; Polymarket Hormuz odds 64% \u2192 32%; War Powers deadline May 1",
+    "label": "APRIL 18, 2026 — DAY 50",
+    "headline": "Hormuz reclosed as ceasefire frays — Iran Joint Military Command reimposes restrictions at 05:19 ET; IRGC gunboats fire on Indian-flagged VLCC Sanmar Herald, ~20 tankers reverse course; French UNIFIL CWO killed in first allied fatality on Lebanon front (Macron blames Hezbollah); 49-nation Paris summit pointedly excludes Washington; Iran deputy FM Khatibzadeh: 440 kg HEU transfer 'a non-starter'; Trump: 'no sticking points left'; S&P 500 record close 7,126.06 priced a durable ceasefire Friday — diplomacy did not deliver by Saturday; Polymarket Hormuz odds 64% → 32%; War Powers deadline May 1",
     "file": "data/briefings/day-50.html"
   },
   {
     "day": 51,
     "date": "2026-04-19",
-    "label": "APRIL 19, 2026 \u2014 DAY 51",
-    "headline": "Ceasefire clock at 288+ hours with 48\u201372 left \u2014 Trump (AF1 Apr 18): 'dropping bombs again' threat; Hormuz whipsaw (Araghchi opens Apr 17, IRGC reverses Apr 18 with gunboat fire on tankers; two India-flagged vessels hit); Mojtaba Khamenei (Apr 19 Army Day) navy 'prepared to inflict further losses'; Ghalibaf: 'still far from a final agreement'; UMich Apr preliminary Consumer Sentiment 47.6 (74-year record low, 98% pre-ceasefire); IEA April OMR records 10.1 mb/d March supply loss; USS Gerald R. Ford transits Suez into Red Sea (300+ days at sea); US completed full Syria withdrawal Apr 16 via Jordan; 10-day Israel\u2013Hezbollah truce began Apr 17 then breached by French UNIFIL peacekeeper killed Apr 18; ICRC first shipment to Iran Apr 14 (171 tonnes via Jordan); War Powers deadline May 1",
+    "label": "APRIL 19, 2026 — DAY 51",
+    "headline": "Ceasefire clock at 288+ hours with 48–72 left — Trump (AF1 Apr 18): 'dropping bombs again' threat; Hormuz whipsaw (Araghchi opens Apr 17, IRGC reverses Apr 18 with gunboat fire on tankers; two India-flagged vessels hit); Mojtaba Khamenei (Apr 19 Army Day) navy 'prepared to inflict further losses'; Ghalibaf: 'still far from a final agreement'; UMich Apr preliminary Consumer Sentiment 47.6 (74-year record low, 98% pre-ceasefire); IEA April OMR records 10.1 mb/d March supply loss; USS Gerald R. Ford transits Suez into Red Sea (300+ days at sea); US completed full Syria withdrawal Apr 16 via Jordan; 10-day Israel–Hezbollah truce began Apr 17 then breached by French UNIFIL peacekeeper killed Apr 18; ICRC first shipment to Iran Apr 14 (171 tonnes via Jordan); War Powers deadline May 1",
     "file": "data/briefings/day-51.html"
   },
   {
     "day": 52,
     "date": "2026-04-20",
-    "label": "APRIL 20, 2026 \u2014 DAY 52",
-    "headline": "USS Spruance seizes Iranian M/V Touska in Gulf of Oman \u2014 first major kinetic blockade enforcement; Iran FM rejects Round 2 Islamabad talks as 'war crime'; ceasefire expires ~20:00 ET Tue Apr 21",
+    "label": "APRIL 20, 2026 — DAY 52",
+    "headline": "USS Spruance seizes Iranian M/V Touska in Gulf of Oman — first major kinetic blockade enforcement; Iran FM rejects Round 2 Islamabad talks as 'war crime'; ceasefire expires ~20:00 ET Tue Apr 21",
     "file": "data/briefings/day-52.html"
   },
   {
     "day": 53,
     "date": "2026-04-21",
-    "label": "APRIL 21, 2026 \u2014 DAY 53",
-    "headline": "Diplomatic knife-edge without kinetic escalation \u2014 Trump pushes ceasefire expiry to Wed Apr 22, says extension 'highly unlikely'; US delegation (Vance, Witkoff, Kushner) departs for Islamabad, Iran's attendance unconfirmed; Iran Legal Medicine Org releases authoritative toll of 3,375 killed (383 children); Lebanon MoPH revises to 2,387 killed / 7,602 wounded; CENTCOM blockade tally 27 vessels turned back; markets fade on earnings beats \u2014 S&P ~7,100, Brent ~$94.85, gas $4.022",
+    "label": "APRIL 21, 2026 — DAY 53",
+    "headline": "Diplomatic knife-edge without kinetic escalation — Trump pushes ceasefire expiry to Wed Apr 22, says extension 'highly unlikely'; US delegation (Vance, Witkoff, Kushner) departs for Islamabad, Iran's attendance unconfirmed; Iran Legal Medicine Org releases authoritative toll of 3,375 killed (383 children); Lebanon MoPH revises to 2,387 killed / 7,602 wounded; CENTCOM blockade tally 27 vessels turned back; markets fade on earnings beats — S&P ~7,100, Brent ~$94.85, gas $4.022",
     "file": "data/briefings/day-53.html"
   },
   {
     "day": 54,
     "date": "2026-04-22",
-    "label": "APRIL 22, 2026 \u2014 DAY 54",
-    "headline": "Trump extends Iran ceasefire INDEFINITELY via Truth Social (~16:22 ET Apr 21) pending Iranian 'unified proposal'; Islamabad Round 2 COLLAPSES after Iran declines to attend, Vance trip cancelled; APR 22 HORMUZ ESCALATION \u2014 IRGC fires on 3 vessels, seizes MSC Francesca + Epaminondas, escorts to Iranian shores (third vessel Euphoria UNVERIFIED); FM Araghchi calls Touska seizure + blockade 'an act of war'; Lebanon MoPH 2,454 killed / 7,658 injured; Debel crucifix investigation concluded \u2014 IDF jailed soldier 30 days + replaced statue; markets split-path: S&P +0.76%, Brent briefly pierces $100/bbl",
+    "label": "APRIL 22, 2026 — DAY 54",
+    "headline": "Trump extends Iran ceasefire INDEFINITELY via Truth Social (~16:22 ET Apr 21) pending Iranian 'unified proposal'; Islamabad Round 2 COLLAPSES after Iran declines to attend, Vance trip cancelled; APR 22 HORMUZ ESCALATION — IRGC fires on 3 vessels, seizes MSC Francesca + Epaminondas, escorts to Iranian shores (third vessel Euphoria UNVERIFIED); FM Araghchi calls Touska seizure + blockade 'an act of war'; Lebanon MoPH 2,454 killed / 7,658 injured; Debel crucifix investigation concluded — IDF jailed soldier 30 days + replaced statue; markets split-path: S&P +0.76%, Brent briefly pierces $100/bbl",
     "file": "data/briefings/day-54.html"
   },
   {
     "day": 55,
     "date": "2026-04-23",
-    "label": "APRIL 23, 2026 \u2014 DAY 55",
-    "headline": "Trump orders US Navy to 'shoot and kill any boat' laying mines in Strait of Hormuz \u2014 sharpest ROE change since Apr 13 blockade; Pentagon boards another stateless tanker overnight; Reuters: \u22653 Iranian-flagged tankers intercepted in Asian waters; CENTCOM blockade tally rises to 31 vessels turned back; Iran books FIRST Hormuz toll revenue into Central Bank via Haji Babaei; Iran blocks Qatari 20-for-20 vessel-swap compromise; Senate defeats Baldwin war-powers resolution 55\u201346 (5th failed attempt); Israel-Lebanon Round 2 ambassadors' talks convene at White House; Al-Akhbar journalist Amal Khalil killed in Israeli strike on al-Tiri; IDF Commando Brigade kills 2 Hezbollah operatives near Aynata; UNDP De Croo: >32M pushed into poverty globally; markets pull back from Apr 22 records \u2014 S&P ~7,109 intraday, Brent back above $100 at $103.67, gas $4.031",
+    "label": "APRIL 23, 2026 — DAY 55",
+    "headline": "Trump orders US Navy to 'shoot and kill any boat' laying mines in Strait of Hormuz — sharpest ROE change since Apr 13 blockade; Pentagon boards another stateless tanker overnight; Reuters: ≥3 Iranian-flagged tankers intercepted in Asian waters; CENTCOM blockade tally rises to 31 vessels turned back; Iran books FIRST Hormuz toll revenue into Central Bank via Haji Babaei; Iran blocks Qatari 20-for-20 vessel-swap compromise; Senate defeats Baldwin war-powers resolution 55–46 (5th failed attempt); Israel-Lebanon Round 2 ambassadors' talks convene at White House; Al-Akhbar journalist Amal Khalil killed in Israeli strike on al-Tiri; IDF Commando Brigade kills 2 Hezbollah operatives near Aynata; UNDP De Croo: >32M pushed into poverty globally; markets pull back from Apr 22 records — S&P ~7,109 intraday, Brent back above $100 at $103.67, gas $4.031",
     "file": "data/briefings/day-55.html"
   },
   {
     "day": 56,
     "date": "2026-04-24",
-    "label": "APRIL 24, 2026 \u2014 DAY 56",
-    "headline": "3 US carriers in CENTCOM \u2014 first since 2003 (Lincoln + Ford + Bush, combined >200 aircraft and 15,000 personnel); Iran FM Araghchi flies to Islamabad, Witkoff/Kushner depart Apr 25 for direct US-Iran talks 'intermediated by the Pakistanis' (Iran FM denies meeting); Trump-brokered Israel-Lebanon ceasefire EXTENDED 3 weeks but mutual violations confirmed \u2014 IDF kills 6 Hezbollah in Bint Jbeil + 2 civilians in Touline air strike; UN Human Rights Office: attacks on civilians in Lebanon/Israel 'may amount to serious violations of IHL'; CENTCOM blockade tally 34 vessels redirected; NYT: U.S. expended >1,200 Patriots, ~1,100 stealth cruise missiles, >1,000 Tomahawks; S&P 500 RECORD 7,165.08 (+0.80%) and Nasdaq RECORD 24,836.60 (+1.63%); Brent eases to $105.33 on peace-talk hopes; UMich final April sentiment 49.8 \u2014 lowest on record; gas $4.022; Trump extends Jones Act waiver 90 days; Pope Leo XIV (papal flight): 'as a pastor, I cannot be in favor of war'",
+    "label": "APRIL 24, 2026 — DAY 56",
+    "headline": "3 US carriers in CENTCOM — first since 2003 (Lincoln + Ford + Bush, combined >200 aircraft and 15,000 personnel); Iran FM Araghchi flies to Islamabad, Witkoff/Kushner depart Apr 25 for direct US-Iran talks 'intermediated by the Pakistanis' (Iran FM denies meeting); Trump-brokered Israel-Lebanon ceasefire EXTENDED 3 weeks but mutual violations confirmed — IDF kills 6 Hezbollah in Bint Jbeil + 2 civilians in Touline air strike; UN Human Rights Office: attacks on civilians in Lebanon/Israel 'may amount to serious violations of IHL'; CENTCOM blockade tally 34 vessels redirected; NYT: U.S. expended >1,200 Patriots, ~1,100 stealth cruise missiles, >1,000 Tomahawks; S&P 500 RECORD 7,165.08 (+0.80%) and Nasdaq RECORD 24,836.60 (+1.63%); Brent eases to $105.33 on peace-talk hopes; UMich final April sentiment 49.8 — lowest on record; gas $4.022; Trump extends Jones Act waiver 90 days; Pope Leo XIV (papal flight): 'as a pastor, I cannot be in favor of war'",
     "file": "data/briefings/day-56.html"
   },
   {
     "day": 57,
     "date": "2026-04-25",
-    "label": "APRIL 25, 2026 \u2014 DAY 57",
+    "label": "APRIL 25, 2026 — DAY 57",
     "headline": "Tehran flights resume; Araghchi's demands delivered to Pakistan; Witkoff/Kushner trip slips to Sunday; 4 killed in Lebanon",
     "file": "data/briefings/day-57.html"
   },
   {
     "day": 58,
     "date": "2026-04-26",
-    "label": "APRIL 26, 2026 \u2014 DAY 58",
-    "headline": "Trump CANCELS Witkoff-Kushner Pakistan envoy mission, reverts to phone-only diplomacy ('we have all the cards'); IDF Sgt. Idan Fooks (19) killed by Hezbollah explosive drone \u2014 3rd IDF KIA since Apr 17 truce; Netanyahu: Hezbollah 'disintegrating' Lebanon ceasefire (46 terrorists eliminated past two weeks); IDF overnight launcher strikes kill 6 in S. Lebanon (Lebanese MoPH cumulative above 2,500 / 7,725 wounded); Araghchi shuttles Islamabad-Muscat-Islamabad-bound for Moscow Apr 27 to meet Putin; USS Pinckney heli intercepts M/V Sevan, CENTCOM blockade tally 37 vessels; UK PM Starmer-Trump phone call urges Hormuz reopening (first publicly confirmed UK-US Iran call of ceasefire phase); Iran ceasefire D19 holds (Bushehr ~21 days no incident); War Powers May 1 deadline T-5 days; markets weekend-closed at Friday's S&P record 7,165.08 \u2014 Sunday Globex reopen INTERPOLATED gap-up oil $107-109",
+    "label": "APRIL 26, 2026 — DAY 58",
+    "headline": "Trump CANCELS Witkoff-Kushner Pakistan envoy mission, reverts to phone-only diplomacy ('we have all the cards'); IDF Sgt. Idan Fooks (19) killed by Hezbollah explosive drone — 3rd IDF KIA since Apr 17 truce; Netanyahu: Hezbollah 'disintegrating' Lebanon ceasefire (46 terrorists eliminated past two weeks); IDF overnight launcher strikes kill 6 in S. Lebanon (Lebanese MoPH cumulative above 2,500 / 7,725 wounded); Araghchi shuttles Islamabad-Muscat-Islamabad-bound for Moscow Apr 27 to meet Putin; USS Pinckney heli intercepts M/V Sevan, CENTCOM blockade tally 37 vessels; UK PM Starmer-Trump phone call urges Hormuz reopening (first publicly confirmed UK-US Iran call of ceasefire phase); Iran ceasefire D19 holds (Bushehr ~21 days no incident); War Powers May 1 deadline T-5 days; markets weekend-closed at Friday's S&P record 7,165.08 — Sunday Globex reopen INTERPOLATED gap-up oil $107-109",
     "file": "data/briefings/day-58.html"
   },
   {
     "day": 59,
     "date": "2026-04-27",
-    "label": "APRIL 27, 2026 \u2014 DAY 59",
-    "headline": "Iran transmits written Hormuz-for-blockade-lift proposal via Pakistani mediators (nuclear talks DEFERRED); Trump convenes Situation Room \u2014 proposal 'much better' but 'not enough'; IRGC simultaneously declares Hormuz control 'definitive strategy of Islamic Iran' \u2014 public factional contradiction; Araghchi meets Putin and Lavrov in St Petersburg, capping Pakistan-Oman-Pakistan-Russia shuttle; Lebanon DEADLIEST DAY since truce inception (14 killed, 1 IDF KIA, 6 IDF wounded; mosque destroyed in Zawtar al-Sharqiyah; Lebanese MoPH 2,521 / 7,750); IDF orders evacs for 7 villages north of Litani; S&P 500 + Nasdaq fresh ALL-TIME RECORD CLOSES (7,173.91 / 24,887.10) despite stalled Iran diplomacy; WTI +2.42% to $96.68; Goldman raises Q4 Brent forecast +$10/bbl to $90 citing 14.5 mb/d Persian Gulf losses; AP: U.S. clearing Iranian mines in Hormuz; Mordashov-linked $500M superyacht NORD transits Hormuz Saturday; Bennett-Lapid party merger Apr 26 amid Netanyahu prostate-tumor disclosure; War Powers May 1 deadline T-4 days, Sen. Collins signals may join Democrats post-deadline",
+    "label": "APRIL 27, 2026 — DAY 59",
+    "headline": "Iran transmits written Hormuz-for-blockade-lift proposal via Pakistani mediators (nuclear talks DEFERRED); Trump convenes Situation Room — proposal 'much better' but 'not enough'; IRGC simultaneously declares Hormuz control 'definitive strategy of Islamic Iran' — public factional contradiction; Araghchi meets Putin and Lavrov in St Petersburg, capping Pakistan-Oman-Pakistan-Russia shuttle; Lebanon DEADLIEST DAY since truce inception (14 killed, 1 IDF KIA, 6 IDF wounded; mosque destroyed in Zawtar al-Sharqiyah; Lebanese MoPH 2,521 / 7,750); IDF orders evacs for 7 villages north of Litani; S&P 500 + Nasdaq fresh ALL-TIME RECORD CLOSES (7,173.91 / 24,887.10) despite stalled Iran diplomacy; WTI +2.42% to $96.68; Goldman raises Q4 Brent forecast +$10/bbl to $90 citing 14.5 mb/d Persian Gulf losses; AP: U.S. clearing Iranian mines in Hormuz; Mordashov-linked $500M superyacht NORD transits Hormuz Saturday; Bennett-Lapid party merger Apr 26 amid Netanyahu prostate-tumor disclosure; War Powers May 1 deadline T-4 days, Sen. Collins signals may join Democrats post-deadline",
     "file": "data/briefings/day-59.html"
   },
   {
     "day": 60,
     "date": "2026-04-28",
-    "label": "APRIL 28, 2026 \u2014 DAY 60",
-    "headline": "Trump rejects Iran's Hormuz-only proposal in current form (Reuters: 'doesn't love' it because it omits the nuclear program); Sec. Rubio (Fox): unacceptable to 'normalize a system in which the Iranians decide who gets to use an international waterway'; Trump 'we have all the cards'; Iranian army spokesperson Apr 28: Iran 'still in a war situation'; Araghchi meets Putin at Boris Yeltsin Presidential Library in St Petersburg, Putin reaffirms 'partnership at the highest level' and receives written message from Supreme Leader Mojtaba Khamenei; IDF expands strikes into Bekaa Valley Apr 27 (>20 Hezbollah-linked sites near Nabi Chit) \u2014 first such expansion since Apr 16 Lebanon ceasefire; Hezbollah claims drone attack on IDF tank, IDF denies tank hit; Houthis REACTIVATE Red Sea track \u2014 3 ASBMs strike Russian-crude tanker MV Andromeda Star ~15 nm SW of Mokha Apr 26; US MQ-9 Reaper lost over Saada (Houthis claim shootdown); Iran International: hardliner Saeed Jalili reportedly to replace Ghalibaf as lead negotiator (UNVERIFIED); German Chancellor Merz: U.S. 'being humiliated' by Iran; Qatar at GCC summit warns Hormuz 'must not be used as a pressure card,' UN SecGen Guterres warns global food emergency; Brent breaks $111/bbl first time since late March (intraday $110.85, high $111.57); WTI crosses $99; S&P -0.7% / Nasdaq -1.3% intraday on OpenAI/AI capex concerns NOT war news; USS Eisenhower completes sea trials Apr 24 post-availability; War Powers May 1 statutory deadline T-3 \u2014 no scheduled floor vote in window",
+    "label": "APRIL 28, 2026 — DAY 60",
+    "headline": "Trump rejects Iran's Hormuz-only proposal in current form (Reuters: 'doesn't love' it because it omits the nuclear program); Sec. Rubio (Fox): unacceptable to 'normalize a system in which the Iranians decide who gets to use an international waterway'; Trump 'we have all the cards'; Iranian army spokesperson Apr 28: Iran 'still in a war situation'; Araghchi meets Putin at Boris Yeltsin Presidential Library in St Petersburg, Putin reaffirms 'partnership at the highest level' and receives written message from Supreme Leader Mojtaba Khamenei; IDF expands strikes into Bekaa Valley Apr 27 (>20 Hezbollah-linked sites near Nabi Chit) — first such expansion since Apr 16 Lebanon ceasefire; Hezbollah claims drone attack on IDF tank, IDF denies tank hit; Houthis REACTIVATE Red Sea track — 3 ASBMs strike Russian-crude tanker MV Andromeda Star ~15 nm SW of Mokha Apr 26; US MQ-9 Reaper lost over Saada (Houthis claim shootdown); Iran International: hardliner Saeed Jalili reportedly to replace Ghalibaf as lead negotiator (UNVERIFIED); German Chancellor Merz: U.S. 'being humiliated' by Iran; Qatar at GCC summit warns Hormuz 'must not be used as a pressure card,' UN SecGen Guterres warns global food emergency; Brent breaks $111/bbl first time since late March (intraday $110.85, high $111.57); WTI crosses $99; S&P -0.7% / Nasdaq -1.3% intraday on OpenAI/AI capex concerns NOT war news; USS Eisenhower completes sea trials Apr 24 post-availability; War Powers May 1 statutory deadline T-3 — no scheduled floor vote in window",
     "file": "data/briefings/day-60.html"
+  },
+  {
+    "day": 61,
+    "date": "2026-04-29",
+    "label": "APRIL 29, 2026 — DAY 61",
+    "headline": "Trump in Axios phone interview EXPLICITLY rejects Iran's Hormuz-for-blockade-lift proposal ('they are choking like a stuffed pig'; blockade 'somewhat more effective than the bombing'; Iran's oil storage 'getting close to exploding'); Truth Social: 'No more Mr. Nice Guy!'; HASC HEARING — first Hegseth congressional testimony since war began; Acting Pentagon Comptroller Jules Hurst pegs cumulative Operation Epic Fury cost at ~$25B (mostly munitions), Hegseth supplemental request 'less than $25B' — sharply lower than dashboard prior $51.85B midpoint, FLAGGED FOR HUMAN RECONCILIATION; Khanna: '$25B number totally off, incompetence'; FY2027 budget request $1.5T; Hegseth lists 14 critical munitions for replenishment (Patriot, THAAD, SM-3, SM-6, AMRAAM, JASSM, PrSM); IDF Chief Zamir Apr 29 declares 'no ceasefire' in south Lebanon; Hezbollah drone shot down by IAF over Misgav Am; Apr 28 Israeli strikes kill 8+ in southern Lebanon incl. 3 Lebanese Civil Defense rescuers (Hussein Sati / Hadi Daher / Hussein Ghadbouni); IDF orders evacuation of 16 ADDITIONAL Lebanese towns; Trump-Putin phone call — Putin floats Ukraine temporary ceasefire and Iran nuclear ideas, Russia continues as possible HEU recipient; Araghchi back in Tehran, mediators tell CNN Iran revised proposal expected by Friday May 1; CENTCOM Apr 28: 31st MEU boards/releases M/V Blue Star III in Arabian Sea; cumulative blockade redirects now 39 (+5), >20 ships moored at Chah Bahar; UAE confirms OPEC withdrawal effective May 1; Brent peaks $118.33 intraday (+6%, highest since June 2022, eight straight session gains); WTI peaks $106.37 (+6%); AAA national gas $4.22/gal (highest since Aug 2022); Iranian rial hits record low; Iran reactivates 30-yr-old VLCC for floating oil storage (Kpler: 12-22 days storage capacity left); Minab school toll revised down to 155; War Powers May 1 60-day deadline T-2 — H.Con.Res.38 still 94 cosponsors, no scheduled floor vote",
+    "file": "data/briefings/day-61.html"
   }
 ]

@@ -1,47 +1,47 @@
 {
-  "last_updated": "2026-04-28",
-  "war_day": 60,
-  "timestamp_label": "LAST UPDATED: APR 28, 2026 18:42 ET",
+  "last_updated": "2026-04-29",
+  "war_day": 61,
+  "timestamp_label": "LAST UPDATED: APR 29, 2026 15:30 ET",
   "cost": {
     "brent": {
-      "price": 110.85,
-      "label": "Brent crude (intraday Apr 28, ICE futures)",
-      "change": "+56.1% since Feb 27 \u2014 Brent $110.85 INTRADAY Apr 28 (high $111.57; +$4.15/+3.9% vs Apr 27 settlement $106.70 per Trading Economics ICE/NYMEX). Brent broke above $111/bbl for the first time since late March on Trump's reported dissatisfaction with Iran's Hormuz-only proposal (NYT). Goldman Sachs Q4 2026 forecast: Brent $90/bbl (raised from $80) / WTI $83 (raised from $75). Tag as 'intraday, pending close'; lock final settlement next cycle.",
-      "tooltip": "Brent Crude: front-month rose toward $111.50 intraday on Trump's reported dissatisfaction with Iran's Hormuz-only proposal; closing print pending. Pre-war close: $71.00/bbl (Feb 27). Apr 27 settle $106.70. Apr 28 intraday $110.85 (high $111.57). Iran's offer \u2014 staged, Hormuz-first, nuclear-deferred \u2014 is structurally incompatible with Trump's stated requirements. Sec. Rubio (Fox): unacceptable to 'normalize a system in which the Iranians decide who gets to use an international waterway.'"
+      "price": 116.53,
+      "label": "Brent crude (Apr 29, late session)",
+      "change": "+64.1% since Feb 27 \u2014 Brent $116.53 late Apr 29 (Trading Economics, +4.74% on day) after intraday peak $118.33 at 12:10 ET (+6%, CNBC; eight straight session gains; highest since June 2022). Apr 28 close $111.26 (CNBC settlement). Trump in Axios phone interview Apr 29 explicitly REJECTED Iran's Hormuz-for-blockade-lift proposal: 'somewhat more effective than the bombing... They are choking like a stuffed pig.' Goldman Sachs Q4 2026 forecast: Brent $90 / WTI $83 (raised Apr 27 from $80/$75) \u2014 already lapped by spot.",
+      "tooltip": "Brent Crude: Apr 29 late session $116.53 (Trading Economics, +4.74%) after intraday peak $118.33 (+6%, CNBC). Eight straight session gains; highest since June 2022. Apr 28 close $111.26. Pre-war close: $71.00/bbl (Feb 27). Trump (Axios Apr 29) rejected Iran's Hormuz-only proposal; UAE confirmed OPEC withdrawal effective May 1. IEA frames Hormuz disruption as 'largest supply shock on record.'"
     },
     "wti": {
-      "price": 99.4,
-      "label": "WTI crude (intraday Apr 28)",
-      "change": "+49.5% since Feb 27 \u2014 WTI $99.40 INTRADAY Apr 28 (high $99.75; +$2.72/+2.8% vs Apr 27 close $96.68). WTI broke above $99/bbl as Iran-proposal review stalled.",
-      "tooltip": "WTI crude: WTI broke above $99/bbl as Iran proposal review stalled; touched $99.75 by 11:34 ET. Pre-war: $66.50/bbl (Feb 27). Apr 27 close: $96.68. Apr 28 intraday: $99.40 (high $99.75)."
+      "price": 105.92,
+      "label": "WTI crude (Apr 29, late session)",
+      "change": "+59.3% since Feb 27 \u2014 WTI ~$105.92 late Apr 29 after intraday peak $106.37 at 12:10 ET (+6%, CNBC; third straight session gain; reclaimed $100 Tuesday). Apr 28 close $99.93 (CNBC settlement; up from $96.68 Apr 27).",
+      "tooltip": "WTI crude: Apr 29 ~$105.92 late session after intraday peak $106.37 (+6%, CNBC); third straight session gain. Pre-war: $66.50/bbl (Feb 27). Apr 28 close: $99.93. Reclaimed $100/bbl Tuesday on Trump rejection of Iran proposal."
     },
     "gas": {
-      "price": 4.022,
+      "price": 4.22,
       "label": "AAA national average, regular unleaded",
-      "change": "+$1.042 / +35.0% since Feb 27 \u2014 AAA national average $4.022/gal Apr 28 (down $0.009 from $4.031 Apr 27); California highest $5.83, Oklahoma lowest $3.38.",
-      "tooltip": "AAA national average regular unleaded: $4.022 (Apr 28, AAA State Gas Price Averages). Down $0.009 from $4.031 Apr 27. Pump prices lag crude by ~2 weeks; expect rebound on Brent's Apr 28 break above $111. Cal $5.83 high, Okla $3.38 low. Pre-war: $2.98 (Feb 27)."
+      "change": "+$1.24 / +41.6% since Feb 27 \u2014 AAA national average $4.22/gal Apr 29 (CBS Detroit citing AAA, up from $4.18 Apr 28); highest since August 2022. AAA homepage widget shows stale $4.022 \u2014 mainstream press tracks $4.17-$4.22 range.",
+      "tooltip": "AAA national average regular unleaded: $4.22 (Apr 29, CBS Detroit citing AAA), up from $4.18 Apr 28. Highest since August 2022. Pre-war: $2.98 (Feb 27). Pump prices catching up to Brent's surge above $115. AAA homepage widget shows $4.022 (likely cached); mainstream press cites $4.17-$4.22 range."
     },
     "sp500": {
-      "value": 7174,
-      "label": "S&P 500 (Apr 27 close, Apr 28 intraday pending)",
-      "change": "+0.12% Mon Apr 27 (record close 7,173.91); intraday Apr 28 -0.7% on OpenAI revenue / AI capex concerns + oil. Apr 27 close: NEW ALL-TIME RECORD 7,173.91 (+8.83) \u2014 eighth record close in past two weeks. Nasdaq 24,887.10 RECORD (+0.20%). Dow 49,167.79 (-0.13%). Apr 28 intraday: S&P -0.7%, Nasdaq -1.3%, Dow +0.2%, Russell 2000 +0.4%, VIX 18.02. Equity weakness Apr 28 driven primarily by WSJ OpenAI revenue/AI capex concerns, NOT war news.",
-      "tooltip": "Record close Mon Apr 27 at 7,173.91; pulling back Tuesday on tech weakness, not war news. Fed FOMC Wed Apr 29 (CME futures pricing 100% hold). Apr 28 intraday: S&P -0.7%, Nasdaq -1.3% (semis weak \u2014 SMH ETF -3% on OpenAI revenue concerns; Oracle -7.5% premarket; Nvidia -3%). GE Vernova +7%, GM +4%, Boeing +3%."
+      "value": 7139,
+      "label": "S&P 500 (Apr 28 close, Apr 29 intraday)",
+      "change": "Apr 28 close 7,138.80 (-0.49% from Apr 27 record 7,173.91). Apr 29 intraday near flat / -0.2%; final close pending at compile time. Apr 28 drivers: WSJ OpenAI revenue / AI capex concerns drove chip selloff (NVDA -3.3%, AMD -5.5%, ARM -7.4%, Oracle -5.2%, CoreWeave -6%), Brent breakout above $111 on Iran impasse, UAE OPEC exit. Apr 29 drivers: Trump's Axios rejection of Iranian proposal; Brent through $115; Pershing Square IPO (PSUS/PS); Senate Banking advances Kevin Warsh Fed nomination.",
+      "tooltip": "Apr 28 close: S&P 7,138.80 (-0.49%); Nasdaq 24,663.80 (-0.9%); Dow 49,141.93 (-0.05%); Russell 2000 2,755.99 (-1.15%). Apr 29 intraday: near flat / -0.2%. Markets now reacting in lockstep to Trump's Iran rhetoric \u2014 a regime change from prior 'look past Iran' pattern. Fed FOMC Wed Apr 29 (CME futures pricing 100% hold)."
     },
     "daily_cost": {
-      "value": 900,
+      "value": 850,
       "unit": "M",
-      "label": "Daily US war cost, Day 60",
-      "note": "~$900M/day file convention CARRY-FORWARD \u2014 No new authoritative Pentagon/CBO topline issued Apr 27. With ceasefire holding for Day 19 and no new strikes, daily run-rate remains in the steady-state range previously modeled. Manifest hero-stats midpoint $280M/day reflects ceasefire-phase $200-400M/day band per CSIS Cancian/Park curve \u2014 BLOCKADE DAY 14 \u2014 3 U.S. CARRIERS in CENTCOM (Lincoln, Ford, Bush; first time since OIF 2003); Ford location DISCREPANCY (USNI Apr 27 snippet Mediterranean / TWZ Apr 26 northern Red Sea \u2014 flag) \u2014 combined >200 aircraft, 15,000 sailors/Marines \u2014 CSIS 'Last Rounds' Apr 24: 13,000+ targets; >1,200 Patriots; >1,000 Tomahawks (~10x annual procurement); ~1,100 stealth cruise missiles (NYT); Patriot/THAAD ~50% drawdown, PrSM ~45% \u2014 AP Apr 27: 'U.S. says it's clearing Iranian mines in latest push to open the Strait of Hormuz'",
-      "tooltip": "Day 60 ceasefire-phase modeled at $850M midpoint ($600M-$1,100M range; CSIS Cancian/Park). NYT Apr 24: >1,200 Patriot interceptors expended, ~1,100 long-range stealth cruise missiles, >1,000 Tomahawks (~10\u00d7 annual procurement) during Operation Epic Fury.",
-      "change": "Est. ~$850M/day midpoint Day 60 ceasefire-phase (range $600M-$1,100M; CSIS Cancian/Park ceasefire curve). Reduced rate vs combat phase (~$1.3B/day) reflects sustained blockade ops, 3 CSGs, Patriot/Tomahawk replenishment, B-2 ISR sorties. Pentagon has not issued daily Day-60 figure."
+      "label": "Daily US war cost, Day 61",
+      "note": "~$850M/day midpoint Day 61 ceasefire-phase ($600M-$1,100M range; CSIS Cancian/Park) \u2014 Pentagon issued no Apr 29 daily figure; with ceasefire holding for Day 21 and no new strikes, daily run-rate remains in steady-state range. \u26a0\ufe0f HASC HEARING APR 29 (Hegseth/Caine/Hurst, first since war began): Acting Comptroller Jules Hurst pegged CUMULATIVE Operation Epic Fury cost at ~$25 BILLION (mostly munitions); Hegseth said any Iran-specific supplemental will be 'less than $25B' \u2014 averaged across 61 days that implies ~$410M/day, half this dashboard's modeled rate. Hurst's $25B figure is sharply lower than dashboard's ~$51.85B midpoint \u2014 Rep. Khanna challenged figure as omitting replacement weapons, equipment damage, and broader consumer hit ('totally off\u2026 incompetence'). Hegseth listed 14 critical munitions for replenishment (Patriot, THAAD, SM-3, SM-6, AMRAAM, JASSM, PrSM); FY2027 Pentagon budget request $1.5T. BLOCKADE DAY 17 \u2014 3 U.S. CARRIERS in CENTCOM (Lincoln, Ford, Bush; first time since OIF 2003), 31st MEU active (boarded M/V Blue Star III Apr 28; cumulative redirects 39).",
+      "tooltip": "Day 61 ceasefire-phase modeled at $850M midpoint ($600M-$1,100M; CSIS). Pentagon Comptroller Hurst (HASC Apr 29) pegs cumulative cost ~$25B (mostly munitions) \u2014 averaged ~$410M/day; flagged for human reconciliation against dashboard midpoint. Hegseth listed 14 critical munitions for replenishment.",
+      "change": "Est. ~$850M/day midpoint Day 61 ceasefire-phase (range $600M-$1,100M). \u26a0\ufe0f Pentagon Apr 29 disclosure ~$25B cumulative implies ~$410M/day \u2014 half this rate; reconciliation pending."
     },
     "total_cost": {
-      "value": 51.0,
+      "value": 52.7,
       "unit": "B",
-      "label": "Est. Total Cost (60 Days)",
-      "note": "~$51B midpoint through Day 59 (range $25B-$95B) CARRY-FORWARD \u2014 no Apr 27 revision observed; CBO/Pentagon/CAP figures unchanged from Apr 24 baseline; CSIS framework: $11.3B Day 6 \u2192 $16.5B Day 12 \u2192 ~$45B Day 59 baseline (linear); midpoint $51B incorporates munitions replenishment + naval sustainment + economic spillover \u2014 VERY WIDE analyst dispersion: AEI/McCusker (NYT Apr 24) $25B-$35B; CSIS Cancian ~$28B; WarCosts.org ~$35B; Harvard Kennedy School (Bilmes) $88B by Day 44 \u2014 Pew/CAP April analysis: ~35% gas-price elevation, ~$38/month household cost; Goldman raised Brent forecast +$10/bbl \u2014 indirect macro cost remains escalating despite ceasefire \u2014 Senate WPR #5 defeated 46-51 Apr 22 \u2014 May 1 War Powers deadline (T-4 days); no AUMF, no formal extension certification submitted; Sen. Susan Collins indicated may join Democrats post-deadline",
-      "tooltip": "Cumulative U.S. cost Day 60: $51.85B midpoint, range $25B-$95B. Range reflects CBO/CSIS/Brookings span. NYT Apr 24 munitions tally: >1,200 Patriot interceptors, ~1,100 stealth cruise missiles, >1,000 Tomahawks (~10\u00d7 annual procurement).",
-      "change": "~$51.85B midpoint US military cost through Day 60 (+$0.85B vs Day 59) \u2014 wide range $25B-$95B (CBO/CSIS/Brookings span). NYT Apr 24: >1,200 Patriots, ~1,100 stealth cruise missiles, >1,000 Tomahawks expended (~10\u00d7 annual procurement)."
+      "label": "Est. Total Cost (61 Days)",
+      "note": "\u26a0\ufe0f MAJOR DISCREPANCY APR 29: Acting Pentagon Comptroller Jules Hurst (HASC testimony) pegged CUMULATIVE Operation Epic Fury cost at ~$25 BILLION \u2014 sharply lower than dashboard's prior ~$51.85B midpoint. Hegseth said any Iran-specific supplemental request will be 'less than $25B.' Rep. Khanna disputed: 'Your $25 billion number is totally off. It's incompetence' \u2014 argued figure omits replacement weapons, damaged equipment, broader consumer hit. Harvard analyst (House Budget hearing Apr 15) cited up to $1 trillion to taxpayers. Range now spans Pentagon $25B floor \u2192 Harvard ~$1T ceiling. Dashboard midpoint preserved at $52.7B (+$0.85B vs Day 60) pending human reconciliation; recommend (a) explicitly anchor to Pentagon $25B with attribution, (b) preserve Harvard $1T high-end as upper bound, (c) display Pentagon and independent estimates side-by-side. CSIS framework: $11.3B Day 6 \u2192 $16.5B Day 12 \u2192 ~$45B Day 60 baseline (linear). NYT Apr 24 munitions tally: >1,200 Patriots, ~1,100 stealth cruise, >1,000 Tomahawks (~10\u00d7 annual procurement). May 1 War Powers deadline T-2 days; H.Con.Res.38 still 94 cosponsors; no scheduled floor vote.",
+      "tooltip": "Cumulative U.S. cost Day 61: $52.7B dashboard midpoint, but RANGE now spans Pentagon $25B (Hurst HASC Apr 29, mostly munitions) to Harvard ~$1T (Bilmes, Apr 15). Pentagon $25B vs dashboard midpoint = largest single dashboard discrepancy; reconciliation pending.",
+      "change": "~$52.7B dashboard midpoint Day 61 (+$0.85B vs Day 60). \u26a0\ufe0f Pentagon official figure $25B (Hurst HASC Apr 29) \u2014 anchors lower bound; range $25B-$1T."
     }
   },
   "history": [
@@ -1143,14 +1143,32 @@
       "displaced": 3200000,
       "flights_cancelled": -1,
       "children_killed": 207
+    },
+    {
+      "date": "2026-04-29",
+      "war_day": 61,
+      "brent": 116.53,
+      "wti": 105.92,
+      "gas": 4.22,
+      "sp500": 7139,
+      "daily_cost_millions": 850,
+      "total_cost_billions": 52.7,
+      "targets_struck": 35500,
+      "us_kia": 13,
+      "us_wia": 303,
+      "iranian_killed": 3375,
+      "lebanese_killed": 2509,
+      "displaced": 3200000,
+      "flights_cancelled": -1,
+      "children_killed": 207
     }
   ],
   "toll": {
     "targets_struck": {
       "value": 35500,
       "label": "Cumulative Iranian targets struck (CENTCOM)",
-      "note": "No new strike data in ceasefire phase; figure unchanged from Apr 21 indefinite ceasefire. Day 18 of indefinite truce holding.",
-      "tooltip": "CENTCOM cumulative target tally (35,500). Frozen since Apr 21 indefinite ceasefire \u2014 no U.S./Israeli strikes on Iranian territory Day 18 of the indefinite truce.",
+      "note": "No new strike data in ceasefire phase; figure unchanged. Iran ceasefire enters Day 21 since Apr 8 origin / Day 8 of indefinite extension; Bushehr NPP ~25 consecutive days no incident. Hegseth Apr 29 (HASC) directly compared duration to Iraq/Afghanistan: 'this is just two months in.'",
+      "tooltip": "CENTCOM cumulative target tally (35,500). Frozen since Apr 21 indefinite ceasefire \u2014 no U.S./Israeli strikes on Iranian territory Day 21 of the truce / Day 8 of indefinite extension.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
@@ -1177,8 +1195,8 @@
     "lebanese_killed": {
       "value": 2509,
       "label": "Lebanese killed (LB MoPH)",
-      "note": "Lebanese Health Ministry cumulative 2,509 / 7,755+ wounded since Mar 2 (+18 vs Apr 21 baseline of 2,491). Includes 14 killed Apr 26 in deadliest single-day since Apr 16 truce; Apr 27 IDF Bekaa expansion: \u22653 wounded across south.",
-      "tooltip": "Lebanese MoPH cumulative Apr 28: 2,509 killed / 7,755+ wounded (Reuters/CBC; AJ tracker 10:30 GMT). 177 children, 100 medics killed. IDF expanded strikes into Bekaa Valley Apr 27 \u2014 first since Apr 16 ceasefire.",
+      "note": "Lebanese Health Ministry cumulative \u22652,500 killed / >1M displaced (CBS Apr 28; AJ tracker cites 2,509 / 7,755+ wounded). Apr 28: \u22658 killed in southern Lebanon incl. 3 Lebanese Civil Defense rescuers (Hussein Sati, Hadi Daher, Hussein Ghadbouni) + 5 others; 2 LAF wounded. Apr 28 Hezbollah FPV drone wounded 2 IDF (1 seriously). Apr 29 IDF Chief Zamir: 'no ceasefire' in south Lebanon; Hezbollah drone shot down over Misgav Am.",
+      "tooltip": "Lebanese MoPH cumulative \u22652,500 killed / >1M displaced (CBS Apr 28). 177 children, 100 medics killed. Apr 28: 3 Lebanese Civil Defense rescuers killed + 5 others; IDF ordered evacuation of 16 additional Lebanese towns. Apr 29 IDF Chief Zamir declared 'no ceasefire' in south Lebanon.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
@@ -1191,15 +1209,15 @@
     "flights_cancelled": {
       "value": -1,
       "label": "Tehran IKIA international flights resumed",
-      "note": ">32,000 flights cancelled cumulative since Mar 1 (carry-forward; no fresh aviation data Apr 28). Tehran IKIA international flights resumed Apr 25 after 56-day shutdown.",
-      "tooltip": "Tehran IKIA international flights resumed Apr 25 after 56-day shutdown (Istanbul, Muscat, Medina). Cumulative >32,000 cancellations since Mar 1 (carry-forward).",
+      "note": ">32,000 flights cancelled cumulative since Mar 1 (carry-forward; no fresh aviation data Apr 29). Tehran IKIA international flights resumed Apr 25 after 56-day shutdown. Sweden energy minister Apr 28 warned of jet-fuel shortage risk; ~20% of EU jet fuel normally transits Hormuz.",
+      "tooltip": "Tehran IKIA international flights resumed Apr 25 after 56-day shutdown (Istanbul, Muscat, Medina). Cumulative >32,000 cancellations since Mar 1 (carry-forward). Sweden Apr 28 jet-fuel shortage warning.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
       "value": 207,
       "label": "Children killed (Iran 376 / Lebanon 177+ \u2014 display midpoint)",
-      "note": "Iran 376 (MoH) + 7 infants; Lebanon 177+ (MoPH). Carry-forward; no incident-specific child-toll updates Apr 27-28.",
-      "tooltip": "Children killed: Iran 376 (MoH) + 7 infants; Lebanon 177+ (MoPH). No incident-specific child-toll updates Apr 27-28.",
+      "note": "Iran 376 (MoH) + 7 infants; Lebanon 177+ (MoPH). MINAB SCHOOL TOLL REVISED APR 28: Iranian state media (IRIB via CBS) revised the Feb 28 Minab Shajareh Tayyebeh elementary school strike toll DOWN to 155 killed (73 boys, 47 girls, 26 teachers, 7 parents, 1 bus driver, 1 pharmacy tech) from prior >175 figure.",
+      "tooltip": "Children killed: Iran 376 (MoH) + 7 infants; Lebanon 177+ (MoPH). Minab school toll revised down to 155 (73 boys, 47 girls, 26 teachers, 7 parents, 1 bus driver, 1 pharmacy tech) per IRIB Apr 28.",
       "color": "var(--civilian)"
     }
   }
