@@ -5443,5 +5443,86 @@
     "category": "summary",
     "source": "Reuters; WaPo; Al Jazeera; CNN; Fox News; CNBC; USNI; NYT; Trading Economics; AAA",
     "data_point": null
+  },
+  {
+    "date": "2026-04-29",
+    "time": "06:00",
+    "title": "Trump posts 'No more Mr. Nice Guy' warning to Iran",
+    "description": "Early-morning Truth Social post: 'Iran can't get their act together. They don't know how to sign a nonnuclear deal. They better get smart soon!' Adds 'No more Mr. Nice Guy!' Posted alongside a mocked-up image of Trump. The post sets the rhetorical tone for the day's Axios interview rejection of the Iranian proposal.",
+    "category": "diplomatic",
+    "source": "ABC News Apr 29; CNN Apr 29; Fox News Apr 29",
+    "data_point": null
+  },
+  {
+    "date": "2026-04-29",
+    "time": "10:00",
+    "title": "HASC hearing: Hegseth, Caine, Hurst testify on Iran war",
+    "description": "First congressional testimony by Sec. of Defense Pete Hegseth since the war began. Acting Pentagon Comptroller Jules Hurst pegs cumulative Operation Epic Fury cost at ~$25 billion (mostly munitions). Hegseth says any Iran-specific supplemental request will be 'less than $25 billion.' Hegseth calls congressional Democrats and 'some Republicans' the 'biggest adversary' the U.S. faces. Heated exchange with Rep. Ro Khanna (D-CA) over economic costs ('Your $25 billion number is totally off. It's incompetence'); with Rep. Seth Moulton (D-MA) over a War of 1812 blockade analogy. Hegseth identifies 14 critical munitions for replenishment incl. Patriot, THAAD, SM-3, SM-6, AMRAAM, JASSM, PrSM. FY2027 Pentagon budget request: $1.5 trillion. The $25B figure creates the dashboard's largest single discrepancy with the prior ~$51.85B midpoint.",
+    "category": "war_powers_oversight",
+    "source": "CBS News Apr 29; CNBC Apr 29; WaPo Apr 29; Fox News Apr 29; ABC News Apr 29; MSNBC Apr 29; Spectrum News Apr 29",
+    "data_point": null
+  },
+  {
+    "date": "2026-04-29",
+    "time": "12:10",
+    "title": "Brent crude tops $118 intraday; WTI peaks $106",
+    "description": "Brent crude peaks at $118.33/bbl at 12:10 ET (+6% from Apr 28 close $111.26 — highest since June 2022; eight straight session gains); WTI peaks at $106.37/bbl (+6%, third straight session gain). Brent eases to ~$116.53 by late session per Trading Economics (+4.74% on day). Driver: Trump's reported rejection of the Iranian proposal in his Axios phone interview. UAE's OPEC withdrawal news (effective May 1) and the IEA's 'largest supply shock on record' framing further bid the strip.",
+    "category": "energy_geoeconomic",
+    "source": "CNBC Apr 29; Trading Economics Apr 29; Fortune Apr 29",
+    "data_point": "brent_118_intraday"
+  },
+  {
+    "date": "2026-04-29",
+    "time": "13:00",
+    "title": "Trump rejects Iranian proposal in Axios phone interview",
+    "description": "Trump tells Axios in a phone interview that he has rejected the Iranian peace offer that would lift the U.S. blockade and reopen Hormuz while deferring nuclear talks. 'They want to settle. They don't want me to keep the blockade. I don't want to [lift it], because I don't want them to have a nuclear weapon.' Trump describes the blockade as 'somewhat more effective than the bombing.' 'They are choking like a stuffed pig.' Says Iran's oil storage and pipelines 'are getting close to exploding.' The interview hardens the U.S. position published earlier via Rubio Apr 27 and the Apr 25 Pakistan-trip cancellation.",
+    "category": "diplomatic",
+    "source": "Axios via ABC News Apr 29; CNBC Apr 29; CNN Apr 29",
+    "data_point": null
+  },
+  {
+    "date": "2026-04-29",
+    "time": "14:00",
+    "title": "Trump-Putin phone call on Iran nuclear and Ukraine",
+    "description": "Putin and Trump hold a phone call. Putin reportedly puts forward ideas on resolving Iran's nuclear program; he proposes a temporary Ukraine ceasefire to mark the WWII end anniversary in May. Russia continues to be floated as a possible recipient of Iran's HEU stockpile. The call follows FM Araghchi's Apr 27 St Petersburg meeting with Putin and Lavrov.",
+    "category": "diplomatic",
+    "source": "Times of Israel Apr 29 citing Kremlin aide; PBS NewsHour Apr 28",
+    "data_point": null
+  },
+  {
+    "date": "2026-04-29",
+    "time": "15:00",
+    "title": "Iran FM Araghchi returns to Tehran from Moscow; revised proposal expected by Friday",
+    "description": "Iranian FM Abbas Araghchi is back in Tehran after the Moscow visit and prior Pakistan/Oman meetings. Sources tell CNN that mediators in Pakistan expect Iran's revised peace proposal by Friday May 1. Internal Iranian decision-making is slowed by difficulty communicating with Supreme Leader Mojtaba Khamenei, who has been in hiding since the Feb 28 strike that killed his father.",
+    "category": "diplomatic",
+    "source": "CNN Apr 29; PBS NewsHour Apr 28; ABC News Apr 29",
+    "data_point": null
+  },
+  {
+    "date": "2026-04-29",
+    "time": "16:00",
+    "title": "IDF Chief Zamir: 'no ceasefire' in south Lebanon",
+    "description": "IDF Chief of Staff Lt. Gen. Eyal Zamir, on a tour of the Lebanon border, declares 'no ceasefire' in south Lebanon as the fight against Hezbollah continues. A Hezbollah drone is shot down by the IAF over Misgav Am border community; a second suspicious aerial target is intercepted over southern Lebanon. Sirens sound twice in Misgav Am. The Apr 16 Lebanon ceasefire is collapsing in slow motion — Apr 28 Israeli strikes had killed at least 8 across southern Lebanon (incl. 3 Civil Defense rescuers); IDF ordered evacuation of 16 additional Lebanese towns.",
+    "category": "lebanon_front",
+    "source": "Times of Israel Apr 29",
+    "data_point": null
+  },
+  {
+    "date": "2026-04-29",
+    "time": "17:00",
+    "title": "Iranian rial hits record low",
+    "description": "The Iranian rial hits a record low Apr 29 amid the shaky ceasefire and the active U.S. naval blockade (AP via Britannica). Combined with the Apr 26 ban on all Iranian steel exports and the reactivation of a 30-year-old VLCC for floating oil storage (CTP-ISW; Kpler estimates 12-22 days of storage capacity remaining), the rial collapse is among the most reliable independent signals of Iranian distress.",
+    "category": "iran_economic",
+    "source": "AP Apr 29 via Britannica; CTP-ISW Apr 28",
+    "data_point": null
+  },
+  {
+    "date": "2026-04-29",
+    "time": "23:00",
+    "title": "Day 61 summary — Pentagon discloses $25B war cost; Trump rejects Iran proposal; Brent tops $118; UAE quits OPEC",
+    "description": "War Day 61 — Day 21 of the Iran ceasefire (Day 8 of indefinite extension) — closes with the diplomatic deadlock hardening. Trump's Axios phone interview explicitly rejected Iran's Hormuz-for-blockade-lift proposal ('They are choking like a stuffed pig'). The first congressional testimony by SecDef Hegseth since the war began surfaced Acting Comptroller Jules Hurst's ~$25B cumulative cost figure — sharply lower than the dashboard's prior ~$51.85B midpoint and creating the largest single dashboard discrepancy. Brent crude topped $118 intraday (highest since June 2022); WTI topped $106. UAE confirmed OPEC withdrawal effective May 1. Trump-Putin phone call floated Russia as recipient of Iran's HEU stockpile. Iran FM Araghchi back in Tehran; mediators expect Iran's revised proposal by Friday May 1. Lebanon ceasefire collapsing in slow motion: IDF Chief Zamir declared 'no ceasefire' in south Lebanon; Hezbollah drone shot down over Misgav Am. CENTCOM: 39 vessels redirected (+5), >20 ships moored at Chah Bahar; 31st MEU boarded and released M/V Blue Star III Apr 28. Three U.S. CSGs in CENTCOM AOR holds (first time since 2003 OIF). Iranian rial hit record low. AAA national gas avg $4.22/gal (highest since August 2022). War Powers Resolution May 1 statutory deadline T-2 days; H.Con.Res.38 still 94 cosponsors; no scheduled floor vote.",
+    "category": "summary",
+    "source": "Axios; CNBC; ABC News; CNN; Fox News; CBS News; Times of Israel; AP; Trading Economics; CENTCOM; USNI",
+    "data_point": null
   }
 ]
