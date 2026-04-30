@@ -5524,5 +5524,32 @@
     "category": "summary",
     "source": "Axios; CNBC; ABC News; CNN; Fox News; CBS News; Times of Israel; AP; Trading Economics; CENTCOM; USNI",
     "data_point": null
+  },
+  {
+    "date": "2026-04-30",
+    "time": "04:00",
+    "title": "Brent hits four-year wartime high $126.41/bbl in Asia trading; pares to $114",
+    "description": "Brent crude (June contract) intraday high of $126.41/bbl in Asia trading — highest since 2022 — before paring to ~$114.22/bbl by 9:53 a.m. ET. WTI traded above $110 at peak before easing to $105.38. Driver of the spike: Trump's Apr 29 Axios rejection of Iran's proposal plus expectations the U.S. naval blockade extends 'for months'; Trump met with energy executives Apr 29 to discuss minimizing domestic price impact. Driver of the retracement: Axios report that CENTCOM commander Adm. Brad Cooper would brief President Trump on expanded military options against Iran, reportedly including 'a short and intense wave of strikes.' June Brent contract expires at session end; July contract becomes front-month.",
+    "category": "markets",
+    "source": "CNN Business Apr 30; CNBC Apr 30; Bloomberg Apr 30; Trading Economics",
+    "data_point": null
+  },
+  {
+    "date": "2026-04-30",
+    "time": "07:00",
+    "title": "AAA U.S. national gas average $4.30/gal — 4-year high since July 2022",
+    "description": "AAA U.S. retail gasoline national average $4.30/gal Apr 30 — 4-year high since July 2022; +$0.07 day-over-day, +$0.21 week-over-week (+5%); +43.8% vs $2.99 Feb 28 baseline. Biggest one-day jump since March. Pump pressure is the most reliably swing-district-relevant economic signal in U.S. politics; Republicans currently insulated by ceasefire framing — that insulation thins fast if either (a) blockade extends with no nuclear deal or (b) renewed kinetic phase is ordered post-May 1.",
+    "category": "markets",
+    "source": "AAA via CNN Business Apr 30",
+    "data_point": null
+  },
+  {
+    "date": "2026-04-30",
+    "time": "08:30",
+    "title": "Axios: CENTCOM commander to brief Trump on Iran strike options",
+    "description": "Axios reports U.S. Central Command commander Adm. Brad Cooper to brief President Trump on expanded military options against Iran, including reportedly 'a short and intense wave of strikes.' This was the trigger for the sharp Brent retracement from the $126.41 Asia high. Trump signaled the blockade will remain in place 'until a nuclear agreement is reached.' Iranian authorities warned of retaliation if blockade persists. Hegseth's Apr 29 framing of congressional critics as 'biggest adversary' and the Cooper briefing together indicate the White House is positioning to argue post-May 1 that any new kinetic action is justified under Article II — not WPR-derived authority.",
+    "category": "military_signaling",
+    "source": "Axios via CNBC, Bloomberg, Trading Economics Apr 30",
+    "data_point": null
   }
 ]
