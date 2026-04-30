@@ -1,11 +1,11 @@
 {
   "conflicts": [
     {
-      "label": "Iran 2026 (Day 60)",
+      "label": "Iran 2026 (Day 62)",
       "targets_struck": 35500,
       "us_kia": 13,
-      "daily_cost_millions": 850,
-      "note": "Operation Epic Fury \u2014 Day 60. Three U.S. CSGs in CENTCOM (Lincoln/Ford/Bush) holds \u2014 first time since Operation Iraqi Freedom in 2003; combined >200 aircraft, 15,000 sailors/Marines, ~14 DDGs/LCS. Iran ceasefire INDEFINITE (Trump Apr 21) \u2014 holding day 18. Diplomatic track in deadlock: Iran transmitted written proposal via Pakistani mediators offering Hormuz reopening + ceasefire extension in exchange for U.S. lifting naval blockade, with nuclear DEFERRED \u2014 Trump 'doesn't love the proposal' (Reuters/WaPo Apr 27); Sec. Rubio (Fox): unacceptable to 'normalize a system in which the Iranians decide who gets to use an international waterway.' Lebanon ceasefire (Apr 16) under strain \u2014 IDF expanded into Bekaa Valley Apr 27 (>20 Hezbollah-linked sites; first such expansion since the truce). Houthi Red Sea track REACTIVATED \u2014 MV Andromeda Star Apr 26 (3 ASBMs). U.S. blockade redirects 34 vessels cumulative. NYT (Apr 24) munitions: >1,200 Patriots, ~1,100 stealth cruise, >1,000 Tomahawks (~10\u00d7 annual procurement). Brent broke above $111/bbl Apr 28 (intraday $110.85, high $111.57); WTI $99.40; AAA gas $4.022. S&P 500 record close 7,173.91 Apr 27 / Nasdaq record 24,887.10. Iran MoH 3,375 killed (Foundation of Martyrs separately 3,468); Lebanese MoPH 2,509 killed / 7,755+ wounded. ~3.2M Iran IDPs + 1M+ Lebanese displaced. 6 months estimated to clear Hormuz mines post-hostilities (Pentagon to House Armed Services Apr 22). Cumulative U.S. cost midpoint ~$51.85B (range $25B-$95B). 60-day War Powers Resolution statutory deadline May 1 (T-3); no scheduled floor vote on Massie/Khanna H.Con.Res.38 (94 cosponsors) or Kaine companion in window."
+      "daily_cost_millions": 845,
+      "note": "Operation Epic Fury \u2014 Day 62. Three U.S. CSGs in CENTCOM (Lincoln/Ford/Bush) holds \u2014 first time since Operation Iraqi Freedom in 2003. Iran ceasefire INDEFINITE (Trump Apr 21) \u2014 holding day 22. \u26a0\ufe0f Apr 30: Brent intraday HIGH $126.41/bbl (Asia trading) \u2014 highest since 2022, four-year wartime high \u2014 pared on Axios report that CENTCOM commander Adm. Brad Cooper would brief Trump on potential renewed strike options including 'a short and intense wave of strikes.' AAA national gas $4.30/gal (4-yr high since July 2022; +43.8% vs $2.99 baseline). Eurozone April CPI 3.0% (from 2.6%) attributed to Iran shock; ECB 2%, BoE 3.75%; UN ESCAP: ~8.8M Asia-Pacific persons at poverty risk. Trump (Axios Apr 29) explicitly REJECTED Iran's Hormuz-for-blockade-lift proposal. CENTCOM (Adm. Cooper Apr 29 HASC): blockade has redirected 42 commercial vessels cumulative (+8 since horizon). Pentagon Acting Comptroller Hurst Apr 29: ~$25B cumulative cost (mostly munitions; CNN sourcing characterizes as lowball excluding base-repair, force-flow, intel costs). Lebanon ceasefire (Apr 16) collapsing \u2014 Apr 30 Israeli strikes kill at least 9-14 in southern Lebanon (Lebanese NNA cites 14, CNN/Reuters 9); Lebanese MoPH cumulative \u22652,518 killed. Iran MoH 3,375 killed (Foundation of Martyrs separately 3,468). ~3.2M Iran IDPs + 1M+ Lebanese displaced. Cumulative U.S. cost midpoint ~$52.7B; range now $25B-$1T (Pentagon $25B floor \u2192 Harvard ~$1T ceiling). 60-day War Powers Resolution statutory deadline May 1 (T-1); H.Con.Res.38 (Massie/Khanna) at 94 cosponsors; latest Senate vote Apr 15 failed 52-47; Time scoop Apr 28: Democrats may sue Trump if he ignores deadline. Day 62 represents the longest U.S. combat operation under sole executive authority since 1973 War Powers Resolution to collide with the 60-day statutory cutoff during the conflict (vs. e.g., 2011 Libya, where the deadline came after the kinetic-phase ebb)."
     },
     {
       "label": "Iraq 2003 (Day 21)",
@@ -30,5 +30,5 @@
     }
   ],
   "sources": "CRS Reports R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya). Costs inflation-adjusted to 2026 dollars using BLS CPI-U.",
-  "last_updated": "2026-04-28"
+  "last_updated": "2026-04-30"
 }
