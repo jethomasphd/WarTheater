@@ -5551,5 +5551,50 @@
     "category": "military_signaling",
     "source": "Axios via CNBC, Bloomberg, Trading Economics Apr 30",
     "data_point": null
+  },
+  {
+    "date": "2026-04-30",
+    "time": "10:00",
+    "title": "Israeli air strikes across southern Lebanon kill at least 9–14",
+    "description": "Lebanese National News Agency reports at least 14 killed in Israeli air strikes across southern Lebanon (Al Jazeera live blog cites 14; CNN/Reuters initial reporting cited at least 9). IDF cites Hezbollah infrastructure under ceasefire's 'imminent threat' provision. Comes 3 days after Apr 27 IDF expansion into Bekaa Valley (>20 sites — first such expansion since Apr 16 Lebanon ceasefire). Total Lebanese fatalities since Mar 2 push toward 2,520. Hezbollah leader Naim Qassem's Apr 27 categorical rejection of Lebanon-Israel direct talks ('humiliating concession,' 'grave sin') and Defense Minister Katz's 'fire will burn Hezbollah and all of Lebanon' response strip remaining diplomatic cover from the Apr 16 truce.",
+    "category": "lebanon_track",
+    "source": "Al Jazeera live blog Apr 30; Lebanese NNA; CNN Day 62 live updates; Reuters",
+    "data_point": null
+  },
+  {
+    "date": "2026-04-30",
+    "time": "11:00",
+    "title": "Inflation hits 3% in Europe as Iran oil shock spreads",
+    "description": "Eurozone inflation climbs to 3.0% in April (from 2.6% March). ECB held at 2% but warns 'longer the war continues and the longer energy prices remain high, the stronger is the likely impact on broader inflation and the economy.' BoE held at 3.75%; raises end-of-year UK forecast above 3.5%. UN ESCAP report: ~8.8M people in Asia-Pacific at risk of falling into poverty due to war. The macro contagion is now substantial: gas-pump pressure feeds the political feedback loop into 2026 midterms with House Republicans at -1 GOP defection threshold.",
+    "category": "macro",
+    "source": "AP via Britannica Apr 30; ECB statement; BoE statement; UN ESCAP",
+    "data_point": null
+  },
+  {
+    "date": "2026-04-30",
+    "time": "12:00",
+    "title": "May 1 War Powers Resolution deadline arrives — T-1 day",
+    "description": "Under the 1973 War Powers Resolution, statutory 60-day clock on unauthorized hostilities expires May 1 (Day 63). H.Con.Res.38 (Massie/Khanna) holds 94 cosponsors per congress.gov (current; 76 Democratic + 1 Republican original — Massie himself); Sen. Kaine companion in Senate. Latest Senate vote (Apr 15) was 52-47 (4th failure; Rand Paul only GOP yes; Fetterman only Dem no). House has voted twice unsuccessfully (most recent: H.Con.Res.40 Meeks failed 213-214). Reps. Khanna, Huffman, Jayapal each filed new resolutions for repeated CPC-led floor pressure. Rep. Brian Fitzpatrick (R-PA) has separate proposal anchored on the 60-day milestone. Time scoop (Apr 28): Democrats may take Trump to court if he ignores May 1 deadline — Sen. Tim Kaine, Sen. Tammy Duckworth quoted pressing case.",
+    "category": "war_powers",
+    "source": "congress.gov H.Con.Res.38; Al Jazeera; CNN analysis; Foreign Policy; Military.com; The Hill; TheConversation; Time magazine",
+    "data_point": null
+  },
+  {
+    "date": "2026-04-30",
+    "time": "13:00",
+    "title": "Israeli forces intercept Gaza-bound aid flotilla near Crete",
+    "description": "Israeli navy intercepted Global Sumud Flotilla in international waters east of Crete (~700 mi/1130 km from Israel). Greenpeace's Arctic Sunrise received radio warning; communications jammed; activists allege civilians 'aggressively abducted.' Israel's MFA characterized vessels as 'PR stunt flotilla.' Not directly an Iran-war event but cluster-related to broader regional posture.",
+    "category": "humanitarian_collateral",
+    "source": "CNN Day 62 live blog; Global Sumud Flotilla statement",
+    "data_point": null
+  },
+  {
+    "date": "2026-04-30",
+    "time": "23:00",
+    "title": "Day 62 summary — Brent 4-year high $126.41 intraday; CENTCOM strike-options briefing; AAA gas $4.30; Lebanon strikes kill 9-14; Eurozone CPI 3.0%; War Powers T-1",
+    "description": "War Day 62 — Day 22 of the Iran ceasefire (Day 9 of indefinite extension) — closes with markets pricing renewed kinetic risk. Brent crude (June contract) hit a four-year wartime high $126.41/bbl in Asia trading before paring to ~$114.22 ET on Axios report that CENTCOM commander Adm. Brad Cooper would brief President Trump on potential renewed strike options. AAA national gas $4.30/gal — 4-year high since July 2022. Eurozone CPI prints 3.0% (from 2.6% March), directly attributed by ECB to Iran shock; ECB holds 2%, BoE 3.75%. Fed held rates Apr 29 at Powell's final meeting as chair; Powell remains on Board of Governors; cited 'uncertainties surrounding the war in Iran.' Israeli air strikes across southern Lebanon kill at least 9-14 (Lebanese NNA cites 14, CNN/Reuters cite 9 initial); Lebanese MoPH cumulative pushes toward 2,520. Israeli navy intercepts Global Sumud aid flotilla in international waters east of Crete. CENTCOM Apr 29 (HASC): blockade has redirected 42 commercial vessels cumulative (+8 since horizon). UN ESCAP: ~8.8M Asia-Pacific persons at poverty risk from war. May 1 War Powers Resolution 60-day statutory deadline T-1 day. H.Con.Res.38 (Massie/Khanna) at 94 cosponsors per congress.gov; latest Senate vote Apr 15 failed 52-47; Time scoop Apr 28: Democrats may sue Trump if he ignores deadline. Three U.S. CSGs in CENTCOM AOR holds (first time since 2003 OIF). Active escalation risk indicator: ELEVATED.",
+    "category": "summary",
+    "source": "CNN Business; CNBC; Bloomberg; Axios; AAA; Al Jazeera; Lebanese NNA; AP via Britannica; ECB statement; BoE statement; UN ESCAP; congress.gov; Time magazine; CENTCOM; USNI",
+    "data_point": null
   }
 ]
