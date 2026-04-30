@@ -2732,5 +2732,29 @@
     ],
     "verified": true,
     "last_updated": "2026-04-29"
+  },
+  {
+    "id": "lbn-2026-04-30-southern-lebanon-multi",
+    "first_strike": "2026-04-30",
+    "active_days": [
+      62
+    ],
+    "city": "Southern Lebanon (multi-locale)",
+    "lat": 33.27,
+    "lng": 35.48,
+    "type": "iran_retaliation",
+    "origin": "IDF",
+    "weapon": "Air strike series",
+    "casualties_reported": "At least 9-14 killed (Lebanese National News Agency cites 14 via Al Jazeera live blog; CNN/Reuters initial reporting cited at least 9). IDF cites Hezbollah infrastructure under ceasefire's 'imminent threat' carve-out.",
+    "casualties_source": "Lebanese National News Agency / Al Jazeera live blog Apr 30 / CNN Day 62 live updates / Reuters",
+    "notes": "Day 62 (Apr 30): Israeli air strikes hit multiple targets across southern Lebanon. Lebanese NNA reported at least 14 killed; CNN/Reuters cited at least 9 in initial reporting. IDF cited Hezbollah infrastructure under ceasefire's 'imminent threat' carve-out. Comes 3 days after Apr 27 IDF expansion into Bekaa Valley (>20 sites — first such expansion since Apr 16 Lebanon ceasefire). Lebanese MoPH cumulative now pushes toward 2,520 (baseline 2,509 Apr 27 + minimum +9 Apr 30).",
+    "sources": [
+      "Al Jazeera live blog 2026-04-30",
+      "CNN Day 62 live updates",
+      "Lebanese National News Agency",
+      "Reuters"
+    ],
+    "verified": true,
+    "last_updated": "2026-04-30"
   }
 ]
