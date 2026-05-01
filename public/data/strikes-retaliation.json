@@ -1,14 +1,5 @@
 [
   {
-    "id": "_metadata",
-    "dataset": "iranian_retaliation_strikes",
-    "conflict": "2026 Iran War / Operation Epic Fury",
-    "last_updated": "2026-05-01",
-    "cumulative_militia_strikes_estimate": "~400 (SOF News Apr 30 — Iran-aligned 'Islamic Resistance in Iraq' militias cumulative across Iraq, Saudi Arabia, Kuwait, UAE, Qatar, Bahrain, and Jordan; estimate, not authoritative)",
-    "day_63_note": "MAY 1: No specific new IRGC ballistic/drone strike on a U.S. base verified for May 1 in available reporting. Iran-aligned Iraqi militias continue low-level harassment per SOF News (Apr 30); no specific May 1 incident attributable. No new Hormuz vessel boarding/seizure reported May 1; latest were U.S. capture of Iranian-flagged M/V Touska (Apr 27/28, Arabian Sea) and 31st MEU search/release of M/V Blue Star III (Apr 28).",
-    "notes": "Scope of this dataset: Iranian retaliation (state and proxy) strikes on U.S./allied bases and Israeli targets, plus Israeli strikes on Lebanon during Lebanon ceasefire phase. Iran ceasefire holds Day 23; no new May 1 events appended."
-  },
-  {
     "id": "ali-al-salem-kuwait",
     "city": "Ali Al Salem Air Base, Kuwait",
     "lat": 29.3467,
