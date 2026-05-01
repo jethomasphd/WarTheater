@@ -1179,6 +1179,24 @@
       "displaced": 3200000,
       "flights_cancelled": -1,
       "children_killed": 207
+    },
+    {
+      "date": "2026-05-01",
+      "war_day": 63,
+      "brent": 108.10,
+      "wti": 101.05,
+      "gas": 4.392,
+      "sp500": 7210,
+      "daily_cost_millions": 845,
+      "total_cost_billions": 53.5,
+      "targets_struck": 35500,
+      "us_kia": 13,
+      "us_wia": 303,
+      "iranian_killed": 3375,
+      "lebanese_killed": 2534,
+      "displaced": 3200000,
+      "flights_cancelled": -1,
+      "children_killed": 553
     }
   ],
   "toll": {
