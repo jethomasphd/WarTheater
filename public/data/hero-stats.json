@@ -1,47 +1,47 @@
 {
-  "last_updated": "2026-04-30",
-  "war_day": 62,
-  "timestamp_label": "LAST UPDATED: APR 30, 2026 15:33 ET",
+  "last_updated": "2026-05-01",
+  "war_day": 63,
+  "timestamp_label": "LAST UPDATED: MAY 01, 2026 16:50 ET",
   "cost": {
     "brent": {
-      "price": 114.22,
-      "label": "Brent crude (Apr 30, intraday)",
-      "change": "+60.9% since Feb 27 \u2014 Brent ~$114.22/bbl by 9:53 a.m. ET Apr 30 (-3.2% vs Apr 29 settlement $118.03 CNBC) after spiking to intraday HIGH $126.41/bbl in Asia trading \u2014 highest since 2022, four-year wartime high. Pared on Axios report that CENTCOM commander Adm. Brad Cooper would brief President Trump on expanded military options against Iran, reportedly including 'a short and intense wave of strikes.' June Brent contract expires at session end; July contract becomes front-month. Apr 29 settled $118.03 (+6%, CNBC settlement; eight straight session gains).",
-      "tooltip": "Brent Crude: Apr 30 working level $114.22 (9:53 a.m. ET, -3.2%) after Asia intraday high $126.41 (4-year wartime high, since 2022). Pared on Axios CENTCOM strike-options briefing report. Apr 29 settled $118.03. Pre-war close: $71.00/bbl (Feb 27). Trump rejected Iran's Hormuz-only proposal; UAE confirmed OPEC withdrawal effective May 1. IEA frames Hormuz disruption as 'largest supply shock on record.'"
+      "price": 108.10,
+      "label": "Brent crude (May 1, settle)",
+      "change": "+52.3% since Feb 27 \u2014 Brent settled $108.10/bbl May 1 (-5.4% / -$6.12 vs Apr 30 close $114.22) after Iran's IRNA confirmed Tehran transmitted updated peace proposal to U.S. via Pakistani mediators. Intraday range $107.80-$111.50. Weekly gain still ~12% on WTI. Trading Economics live tracker; Fortune EOD.",
+      "tooltip": "Brent Crude (ICE July contract): May 1 settle $108.10 (-5.4% intraday) after Iran transmitted revised peace proposal via Pakistani mediators. Pre-war close: $71.00/bbl (Feb 27). Apr 30 intraday Asia high was $126.41 (4-year war high). Trump separately reaffirmed naval blockade continues 'until [Tehran] cries uncle.' Source: Trading Economics, Fortune."
     },
     "wti": {
-      "price": 105.38,
-      "label": "WTI crude (Apr 30, intraday)",
-      "change": "+58.5% since Feb 27 \u2014 WTI ~$105.38/bbl by 9:53 a.m. ET Apr 30 (-1.4% vs Apr 29 settlement $106.88 CNBC) after intraday peak >$110/bbl. Apr 29 settled $106.88 (+~7%, CNBC settlement; third straight session gain).",
-      "tooltip": "WTI crude: Apr 30 working level $105.38 (9:53 a.m. ET, -1.4%) after intraday peak >$110. Pre-war: $66.50/bbl (Feb 27). Apr 29 settled $106.88. Pared on Axios CENTCOM strike-options briefing trigger."
+      "price": 101.05,
+      "label": "WTI crude (May 1, settle)",
+      "change": "+51.9% since Feb 27 \u2014 WTI settled $101.05/bbl May 1 (-4.1% / -$4.33 vs Apr 30 settlement $105.38) on Iran-proposal headlines. Weekly gain still ~12%.",
+      "tooltip": "WTI crude (NYMEX June contract): May 1 settle $101.05 (-4.1%). Pre-war: $66.50/bbl (Feb 27). Tracked Brent lower on diplomacy headlines despite continued dual blockade of Hormuz. Source: Trading Economics, Yahoo Finance."
     },
     "gas": {
-      "price": 4.30,
+      "price": 4.392,
       "label": "AAA national average, regular unleaded",
-      "change": "+$1.31 / +43.8% since Feb 27 \u2014 AAA national average $4.30/gal Apr 30 (AAA via CNN), up $0.07 d/d, +$0.21 w/w (+5%); 4-year high since July 2022; +43.8% vs $2.99 Feb 28 baseline.",
-      "tooltip": "AAA national average regular unleaded: $4.30 (Apr 30, AAA via CNN), up $0.07 d/d, +$0.21 w/w (+5%). 4-year high since July 2022. Pre-war: $2.99 (Feb 27). +44% since war start; biggest one-day jump since March."
+      "change": "+$1.402 / +47.0% since Feb 27 \u2014 AAA gasprices.aaa.com state averages page accessed 5/1/26: national average $4.392/gal (+$0.092 vs Apr 30 dashboard reading; +47.0% vs $2.99 Feb 28 baseline).",
+      "tooltip": "AAA national average regular unleaded: $4.392 (May 1, AAA gasprices.aaa.com state averages page). Pre-war: $2.99 (Feb 27). NOTE: AAA Mid-Atlantic spokesperson Morgan Dean told WVIR/29News on May 1 that the weekly average 'went down' \u2014 conflicts with AAA top-line $4.392 figure, possibly reflecting a different rolling-average methodology. Cross-check next cycle."
     },
     "sp500": {
-      "value": 7136,
-      "label": "S&P 500 (Apr 29 close, Apr 30 intraday)",
-      "change": "Apr 29 close 7,135.95 (-0.04%; Dow 48,861.81 -0.57% fifth straight loss; Nasdaq 24,673.24 +0.04%). Apr 30 pre-open futures -0.2% \u2014 final close TBD at compile time. Drivers: Brent intraday 4-year high $126.41 (Asia) on Trump rejection; Fed held rates Apr 29 at Powell's final meeting as chair (term ends May 15); Eurozone April CPI 3.0% (from 2.6%) \u2014 ECB attributes to Iran shock; Five Mag-7 earnings + Fed decision tail keep equities pressured.",
-      "tooltip": "Apr 29 close: S&P 7,135.95 (-0.04%); Nasdaq 24,673.24 (+0.04%); Dow 48,861.81 (-0.57%, 5th straight loss). Apr 30 futures pricing -0.2% open. Fed held rates Apr 29 at Powell's final meeting as chair. ECB held 2%, BoE 3.75%; eurozone CPI 3.0% (from 2.6%) attributed to Iran shock. 10Y UST 4.41% (+5 bps post-Fed)."
+      "value": 7210,
+      "label": "S&P 500 (May 1, intraday)",
+      "change": "May 1 intraday +0.5% to ~7,210 (fresh intraday and closing record per TheStreet/Yahoo Finance live blog ~12:07 pm ET); +~10 pts vs Apr 30 close 7,200 area. Nasdaq +1.0% (~25,000 record); Dow ~flat (-0.1% / ~49,350). Best month for stocks since 2020 (April) just closed. AAPL +~4% on iPhone 17 demand and Q2 earnings beat. Exxon and Chevron beat EPS but reported -45% / -36% net income on Iran-driven oil shock cycle. Spirit Aviation Holdings (FLYVQ) reportedly preparing to cease operations after government bailout talks failed (WSJ). FINAL CLOSE NOT YET PUBLISHED at time of update \u2014 flag for verification at 4 pm ET.",
+      "tooltip": "S&P 500: ~7,210 May 1 intraday (+0.5%) at fresh record per TheStreet/Yahoo Finance live blogs; final close pending 4 pm ET. April was best month for stocks since 2020. Equity-oil decoupling extreme: S&P at record + Brent $108 + Day 63 of war + WPR crisis = textbook 'TACO trade.'"
     },
     "daily_cost": {
       "value": 845,
       "unit": "M",
-      "label": "Daily US war cost, Day 62",
-      "note": "~$845M/day midpoint Day 62 ceasefire-phase ($400M-$1.55B range; CSIS Cancian/Park) \u2014 Pentagon issued no Apr 30 daily figure; ceasefire holding Day 22, no new strikes inside Iran. Pentagon Apr 29 (Hurst HASC): cumulative ~$25B (mostly munitions/O&M/equipment-replacement; CNN sourcing characterizes as lowball excluding base-repair, force-flow, intel costs) \u2014 averaged across 62 days implies ~$405M/day, half this dashboard's modeled rate. NYT Apr 24 munitions tally unchanged: >1,200 Patriots, ~1,100 stealth cruise, >1,000 Tomahawks (~10\u00d7 annual procurement). BLOCKADE DAY 18 \u2014 3 U.S. CARRIERS in CENTCOM AOR (Lincoln, Ford, Bush; first time since OIF 2003); 42 commercial vessels redirected cumulative (Adm. Cooper Apr 29 HASC, +8 since horizon). Active escalation risk indicator: ELEVATED \u2014 Axios reports CENTCOM commander Adm. Cooper to brief Trump Apr 30 on potential renewed strike options.",
-      "tooltip": "Day 62 ceasefire-phase modeled at $845M midpoint ($400M-$1.55B; CSIS). Pentagon Comptroller Hurst (HASC Apr 29) pegs cumulative cost ~$25B (mostly munitions, O&M, equipment-replacement) \u2014 averaged ~$405M/day; flagged for human reconciliation. CENTCOM blockade tally 42.",
-      "change": "Est. ~$845M/day midpoint Day 62 ceasefire-phase (range $400M-$1.55B). \u26a0\ufe0f Pentagon Apr 29 disclosure ~$25B cumulative implies ~$405M/day \u2014 half this rate; reconciliation pending."
+      "label": "Daily US war cost, Day 63",
+      "note": "~$845M/day midpoint Day 63 ceasefire-phase (range $400M-$1.55B; CSIS Cancian/Park) \u2014 carry-forward from Day 62 because no new kinetic operations occurred and force posture is unchanged. Pentagon Acting Comptroller Hurst floor remains $25B cumulative (HASC Apr 29) \u2014 averaged across 63 days implies ~$397M/day, roughly half the modeled rate. CNN-sourced full-cost midpoint ~$52.7B implies ~$845M/day. UNVERIFIED for Day 63 specifically; estimate, not measurement. NYT Apr 24 munitions tally unchanged: >1,200 Patriots, ~1,100 stealth cruise, >1,000 Tomahawks (~10\u00d7 annual procurement). MAY 1: WPR 60-day deadline; admin claims hostilities 'terminated' (AP) while Hegseth says clock 'paused' (SASC Apr 30) \u2014 two competing theories in tension. CENTCOM blockade tally 42 cumulative (unchanged). Adm. Cooper briefed Trump Apr 30 on next-phase options including 'limited ground interventions, targeted strikes on Iranian energy infrastructure.' Active escalation risk indicator: ELEVATED \u2014 Cooper-brief options menu pending decision; Lebanon ceasefire fragile (mid-May expiry); Murkowski AUMF threat for week of May 11.",
+      "tooltip": "Day 63 ceasefire-phase modeled at $845M midpoint (range $400M-$1.55B; CSIS). Held flat from Day 62 because no new kinetic operations and force posture unchanged. Pentagon $25B cumulative floor \u2192 ~$397M/day; reconciliation pending.",
+      "change": "Est. ~$845M/day midpoint Day 63 ceasefire-phase (held flat vs Day 62). \u26a0\ufe0f Pentagon Apr 29 disclosure ~$25B cumulative implies ~$397M/day \u2014 half this rate; reconciliation pending."
     },
     "total_cost": {
-      "value": 52.7,
+      "value": 53.5,
       "unit": "B",
-      "label": "Est. Total Cost (62 Days)",
-      "note": "\u26a0\ufe0f MAJOR DISCREPANCY (carry-forward from Apr 29): Acting Pentagon Comptroller Jules Hurst (HASC testimony Apr 29) pegged CUMULATIVE Operation Epic Fury cost at ~$25 BILLION (munitions/O&M/equipment-replacement only; CNN sourcing characterizes as lowball excluding base-repair, force-flow, intel costs). Rep. Khanna disputed: 'Your $25 billion number is totally off. It's incompetence.' Harvard analyst (House Budget hearing Apr 15) cited up to $1 trillion to taxpayers. Range now spans Pentagon $25B floor \u2192 Harvard ~$1T ceiling; dashboard midpoint preserved at $52.7B (+$0.85B vs Day 61) pending human reconciliation. CSIS framework: $11.3B Day 6 \u2192 $16.5B Day 12 \u2192 ~$45B Day 60 baseline (linear). NYT Apr 24 munitions tally: >1,200 Patriots, ~1,100 stealth cruise, >1,000 Tomahawks (~10\u00d7 annual procurement). May 1 War Powers deadline T-1 day; H.Con.Res.38 (Massie/Khanna) at 94 cosponsors per congress.gov; latest Senate vote Apr 15 failed 52-47 (4th failure); Time scoop Apr 28: Democrats may sue Trump if he ignores deadline.",
-      "tooltip": "Cumulative U.S. cost Day 62: $52.7B dashboard midpoint, but RANGE now spans Pentagon $25B (Hurst HASC Apr 29, mostly munitions) to Harvard ~$1T (Bilmes, Apr 15). Pentagon $25B vs dashboard midpoint = largest single dashboard discrepancy; reconciliation pending.",
-      "change": "~$52.7B dashboard midpoint Day 62 (+$0.85B vs Day 61). \u26a0\ufe0f Pentagon official figure $25B (Hurst HASC Apr 29) \u2014 anchors lower bound; range $25B-$1T."
+      "label": "Est. Total Cost (63 Days)",
+      "note": "\u26a0\ufe0f MAJOR DISCREPANCY PRESERVED: Acting Pentagon Comptroller Jules Hurst (HASC testimony Apr 29) pegged CUMULATIVE Operation Epic Fury cost at ~$25 BILLION (munitions/O&M/equipment-replacement only). Harvard analyst (House Budget Apr 15) cited up to $1 trillion to taxpayers. Range now spans Pentagon $25B floor \u2192 Harvard ~$1T ceiling; dashboard midpoint $53.5B (+$0.85B vs Day 62) pending human reconciliation. NYT Apr 24 munitions tally unchanged: >1,200 Patriots, ~1,100 stealth cruise, >1,000 Tomahawks (~10\u00d7 annual procurement). MAY 1 WAR POWERS 60-day statutory deadline arrives. Senior administration official (AP) said hostilities 'have terminated' for WPR purposes; Hegseth (SASC Apr 30) said clock 'pauses or stops' \u2014 two competing admin theories. Senate rejected Apr 30 War Powers resolution (Sen. Susan Collins joined Democrats). Sen. Lisa Murkowski (R-AK) threatens AUMF when Senate returns from recess week of May 11. Sen. Mike Rounds (R-SD): expects Trump to seek statutory 30-day extension. No Democratic lawsuit filed as of publication.",
+      "tooltip": "Cumulative U.S. cost Day 63: $53.5B dashboard midpoint, but RANGE spans Pentagon $25B (Hurst HASC Apr 29, mostly munitions) to Harvard ~$1T (Bilmes, Apr 15). Pentagon $25B vs dashboard midpoint = largest single dashboard discrepancy; reconciliation pending.",
+      "change": "~$53.5B dashboard midpoint Day 63 (+$0.85B vs Day 62). \u26a0\ufe0f Pentagon official figure $25B (Hurst HASC Apr 29) \u2014 anchors lower bound; range $25B-$1T."
     }
   },
   "history": [
