@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.30,
-  "war_increase": 1.31,
+  "current_gas": 4.392,
+  "war_increase": 1.402,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.82 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA via CNN Apr 30 — national average $4.30 (+$0.07 d/d, +$0.21 w/w / +5%); 4-year high since July 2022; +43.8% vs $2.99 Feb 28 baseline",
-  "last_updated": "2026-04-30"
+  "source": "AAA gasprices.aaa.com state averages, accessed May 1 2026 — national average $4.392 (+$0.092 vs Apr 30 dashboard reading; +47.0% vs $2.99 Feb 28 baseline). DISCREPANCY: AAA Mid-Atlantic spokesperson Morgan Dean told WVIR/29News May 1 the weekly average 'went down' — likely a 7-day rolling vs same-day methodology mismatch; defaulting to AAA top-line figure.",
+  "last_updated": "2026-05-01"
 }
