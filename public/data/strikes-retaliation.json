@@ -2756,5 +2756,43 @@
     ],
     "verified": true,
     "last_updated": "2026-04-30"
+  },
+  {
+    "id": "RET-D63-01",
+    "date": "2026-05-01",
+    "war_day": 63,
+    "type": "CYBER_THREAT",
+    "actor": "Iran-affiliated hacking group",
+    "target": "U.S. Marine Corps personnel, civilian employees, families",
+    "description": "NCIS confirmed to CNN that several USMC personnel and family members received 'unsubstantiated' threat text messages. Group also claimed to leak personal contact info for Marines stationed in the Middle East. Characterized by NCIS as psychological-influence operation rather than physical danger.",
+    "casualties_reported": "0",
+    "casualties_source": "NCIS via CNN 2026-05-01",
+    "category": "cyber/psyops",
+    "notes": "Day 63 (May 1) non-kinetic Iran-affiliated activity — flagged by NCIS as unsubstantiated PSYOPS, not physical danger. Tracked alongside ongoing ceasefire (Day 23 since Apr 7).",
+    "sources": [
+      "CNN 2026-05-01",
+      "NCIS statement"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-02"
+  },
+  {
+    "id": "RET-D64-01",
+    "date": "2026-05-02",
+    "war_day": 64,
+    "type": "RHETORICAL_THREAT",
+    "actor": "Iran IRGC Aerospace Force Commander Maj. Gen. Majid Mousavi",
+    "target": "U.S. regional bases / warships",
+    "description": "Mousavi told Iranian media resumption of war is 'likely' and Iran is 'fully prepared for any new adventures or foolishness from the Americans.' Quoted: 'We've seen what happened to your regional bases, we will see the same thing happen to your warships.'",
+    "casualties_reported": "0",
+    "casualties_source": "n/a",
+    "category": "verbal_threat",
+    "notes": "Day 64 (May 2) rhetorical escalation — IRGC Aerospace Cdr publicly threatened U.S. warships; Al Jazeera assessed diplomacy 'in danger.' No kinetic action accompanied the statement; ceasefire (Day 24) holds.",
+    "sources": [
+      "Reuters via Fox News 2026-05-01",
+      "Al Jazeera live blog 2026-05-02"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-02"
   }
 ]
