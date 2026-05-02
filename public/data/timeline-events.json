@@ -5650,5 +5650,131 @@
     "category": "summary",
     "source": "AP; CBS News; CNN Politics; Washington Post; Trading Economics; Fortune; Yahoo Finance; TheStreet; CNBC; AAA gasprices.aaa.com; SOF News Apr 30; Axios Apr 29; CENTCOM; USNI; DVIDS; WSJ; Al Jazeera; IRNA",
     "data_point": null
+  },
+  {
+    "date": "2026-04-30",
+    "time": "08:00",
+    "title": "CENTCOM Cdr Cooper briefs Trump on renewed strike options",
+    "description": "Adm. Brad Cooper (CENTCOM) and Gen. Dan Caine (CJCS) briefed President Trump on potential military options including limited ground interventions, targeted strikes on Iranian energy infrastructure, and a 'short and intense wave of strikes' (Axios). Briefing did not authorize execution.",
+    "category": "military",
+    "source": "SOF News Epic Fury Update May 1; Axios Apr 30; Trading Economics market reaction note",
+    "data_point": null
+  },
+  {
+    "date": "2026-04-30",
+    "time": "14:30",
+    "title": "Senate fails Iran War Powers Resolution for 6th time, 50-47",
+    "description": "Sixth Senate vote to advance Iran War Powers Resolution failed 50-47. For the first time, Sen. Susan Collins (R-ME) crossed over to vote with Democrats; Sen. John Fetterman (D-PA) voted against; Sen. Rand Paul (R-KY) again voted in favor. NOTE: Some reports list 52-47 (Al Jazeera) — primary 50-47 (ABC News live updates).",
+    "category": "congressional",
+    "source": "ABC News live updates Apr 30; Al Jazeera 2026-05-01; PBS NewsHour",
+    "data_point": "50-47 (6th failed attempt)"
+  },
+  {
+    "date": "2026-04-30",
+    "time": "10:00",
+    "title": "Hegseth/Caine SASC testimony: ceasefire 'pauses' War Powers clock",
+    "description": "Senate Armed Services Committee hearing on FY2027 budget. SecDef Hegseth and Gen. Caine testified that ongoing ceasefire 'effectively paused' the 60-day War Powers clock. Sens. Kaine and Schiff rejected interpretation; statute contains no pause provision.",
+    "category": "congressional",
+    "source": "Al Jazeera 2026-05-01; Washington Post; Roll Call",
+    "data_point": null
+  },
+  {
+    "date": "2026-04-30",
+    "time": "11:00",
+    "title": "Eurozone April CPI flash 3.0% — highest since 2023",
+    "description": "Eurostat flash estimate: euro area annual inflation 3.0% in April (vs 2.6% March). Energy prices +10.9% YoY. Q1 GDP grew only 0.1%. ECB held rates at 2.0%; Lagarde flagged 1970s-stagflation comparisons but downplayed. Direct attribution to Iran-war oil shock.",
+    "category": "economic",
+    "source": "Eurostat 2026-04-30; CNBC; Euronews",
+    "data_point": "Eurozone CPI 3.0% YoY"
+  },
+  {
+    "date": "2026-04-30",
+    "time": "20:00",
+    "title": "Lebanon 'Black Wednesday' — 28 killed in southern Lebanon Israeli strikes",
+    "description": "Israeli airstrikes across southern Lebanon killed at least 28 people in 24h, including 2 Lebanese army soldiers, 3 paramedics, and members of two families. Reuters/CNN cited 9 killed Apr 30; Lebanese NNA cited 14; Al Jazeera updated to 28 over 24h.",
+    "category": "casualties",
+    "source": "Al Jazeera 2026-04-30; Reuters; CNN",
+    "data_point": "28 killed (Lebanon, 24h)"
+  },
+  {
+    "date": "2026-05-01",
+    "time": "09:00",
+    "title": "60-day War Powers Resolution deadline passes; Trump letter declares hostilities 'terminated'",
+    "description": "Trump sent letters to Speaker Mike Johnson (R-LA) and Senate President Pro Tempore Chuck Grassley (R-IA) asserting that the Apr 7 ceasefire (extended) means 'hostilities that began on February 28, 2026, have terminated' — effectively claiming the 60-day clock no longer applies. Trump separately called the War Powers Resolution 'totally unconstitutional.' Democrats including Sen. Blumenthal countered: 'There's no pause button in the Constitution.' Adm. Smith (HASC ranking D) said he 'did not have' the expectation Trump would follow the law.",
+    "category": "congressional",
+    "source": "PBS NewsHour 2026-05-01; Roll Call; MS NOW (NBC); CNN live blog Day 63; Reuters via Fox News",
+    "data_point": "60-day WPR deadline passed"
+  },
+  {
+    "date": "2026-05-01",
+    "time": "12:00",
+    "title": "Iran transmits new peace proposal via Pakistan; Trump 'not satisfied'",
+    "description": "Iranian diplomatic source confirmed new proposal sent to Pakistani mediators; Pakistani officials forwarded to U.S. Trump told reporters at West Palm Beach: 'They want to make a deal, I'm not satisfied with it… They're asking for things I can't agree to.' Trump separately: 'maybe we're better off not making a deal at all.' Iran's Mojtaba Khamenei publicly vowed not to relinquish nuclear or missile capabilities.",
+    "category": "diplomatic",
+    "source": "Al Jazeera 2026-05-01; CNN live blog Day 63; CNBC",
+    "data_point": null
+  },
+  {
+    "date": "2026-05-01",
+    "time": "16:00",
+    "title": "S&P 500 closes at record 7,230.12 to start May; oil cools",
+    "description": "S&P 500 +0.29% to 7,230.12 (record close). Nasdaq +0.89% to 25,114.44 (record). Dow -0.31% to 49,499.27. Apple +3.24% on earnings beat. April was best month for S&P 500/Nasdaq since 2020. Brent settled $108.10 (-2.08%); WTI $101.05 (-3.82%) as Iran's revised proposal reached Washington. Oil pared losses after Trump rejected proposal.",
+    "category": "economic",
+    "source": "CNBC; Yahoo Finance; TheStreet; Motley Fool live",
+    "data_point": "S&P 500 record close 7,230.12"
+  },
+  {
+    "date": "2026-05-01",
+    "time": "13:00",
+    "title": "CENTCOM: 45 vessels redirected since Apr 13 blockade",
+    "description": "U.S. Central Command confirmed 45 commercial vessels turned around or returned to port since blockade began Apr 13 (up from 38 reported earlier in the week and 42 on Apr 29). Iran-linked shipping continues to make selective transits via Tehran-approved northern Hormuz corridor; Pakistani tanker Khairpur attempted outbound transit Apr 30.",
+    "category": "military",
+    "source": "CENTCOM via ABC live updates 2026-05-01; Bloomberg; Insurance Journal",
+    "data_point": "45 vessels redirected cumulative"
+  },
+  {
+    "date": "2026-05-01",
+    "time": "18:00",
+    "title": "Israel kills 10-12 in Lebanon strikes despite Apr 17 ceasefire",
+    "description": "Israeli airstrikes on Habboush (6 killed incl. woman + child, 8 wounded) and three other southern villages (4 killed) — total 10-12 killed. Hezbollah fired drones/rockets; 2 IDF soldiers lightly wounded near Margaliot. Lebanese MoPH cumulative since Mar 2: 2,618 killed, 8,094 wounded.",
+    "category": "casualties",
+    "source": "NBC/AP 2026-05-01; Al Jazeera 2026-05-01; Washington Post",
+    "data_point": "10-12 killed (Lebanon, May 1)"
+  },
+  {
+    "date": "2026-05-01",
+    "time": "15:00",
+    "title": "Trump announces 25% tariffs on EU autos; Pentagon to draw down 5,000 troops from Germany",
+    "description": "Trump raised tariffs on EU automobiles/trucks to 25%. Separately, Pentagon announced withdrawal of ~5,000 U.S. troops from Germany over 6-12 months (leaves ~30,000+ in country). Both moves may further strain transatlantic alliance amid Iran war.",
+    "category": "diplomatic",
+    "source": "Al Jazeera 2026-05-01; CNN live blog Day 63",
+    "data_point": "25% EU auto tariffs; 5,000 troop drawdown"
+  },
+  {
+    "date": "2026-05-02",
+    "time": "08:00",
+    "title": "Iran IRGC Aerospace commander: war resumption 'likely'",
+    "description": "Aerospace Force Commander Maj. Gen. Majid Mousavi told Iranian media that resumption of U.S.-Israel war on Iran is 'likely' and Iran is 'fully prepared for any new adventures or foolishness from the Americans.' Threatened: 'we will see the same thing happen to your warships.' Diplomacy assessed by Al Jazeera as 'in danger.'",
+    "category": "diplomatic",
+    "source": "Al Jazeera live blog 2026-05-02; Reuters via Fox News",
+    "data_point": null
+  },
+  {
+    "date": "2026-05-02",
+    "time": "14:00",
+    "title": "Israel strikes 9+ southern Lebanese villages May 2; 4-8 killed",
+    "description": "Israeli drone strikes on Kfar Dajjal and Shoukin killed 4 civilians; airstrikes hit Froun, Adshit, Majdal Zoun, Ghandouriyeh, Zawtar al-Sharqiyah, Harouf, Mleeta, Habboush, and Wadi al-Salouqi. Habboush death toll from previous day strikes rose to 8. Israeli army issued evacuation orders for 9 villages. Hezbollah fired rocket at IDF troops in Lebanon (intercepted) and explosive drone fell in northern Israel — no injuries.",
+    "category": "casualties",
+    "source": "Times of Israel liveblog 2026-05-02; Yemen Press Agency 2026-05-02",
+    "data_point": "4-8 killed (Lebanon, May 2)"
+  },
+  {
+    "date": "2026-05-02",
+    "time": "23:00",
+    "title": "Day 64 summary — Trump 'hostilities terminated' letter; Senate vote 6 fails 50-47; Brent $108; Israel hits 9 Lebanese villages",
+    "description": "War Day 64 — Day 24 of the Iran ceasefire — opens with Trump's May 1 letter to Speaker Johnson and Sen. Grassley asserting 'hostilities that began on February 28, 2026, have terminated' for War Powers purposes; Trump separately calls the WPR 'totally unconstitutional.' Sen. Susan Collins (R-ME) crossed over for the first time on the Apr 30 Senate vote, which failed 50-47 (6th attempt). Iran's IRGC Aerospace Force Cdr Maj. Gen. Majid Mousavi tells Iranian media war resumption is 'likely'; threatens U.S. warships — rhetorical, no kinetic action. Israel strikes 9 southern Lebanese villages May 2 (4-8 killed); Habboush May 1 toll rises to 8; IDF orders 9-village evacuation. CENTCOM cumulative blockade redirections 45 (+3 vs Apr 29). Three U.S. CSGs in CENTCOM AOR (Lincoln Northern Arabian Sea, Ford Red Sea conducting routine flight ops, Bush transiting Horn of Africa) — first time since OIF 2003. Trump May 1 raised EU auto tariffs to 25%; Pentagon announced ~5,000 troop drawdown from Germany over 6-12 months. S&P 500 record close 7,230.12 (+0.29%); Nasdaq record 25,114.44 (+0.89%); April best month since 2020. Brent $108.10 / WTI $101.05 (Saturday markets closed; carry-forward). AAA gas $4.392 carry-forward. Lebanese MoPH cumulative since Mar 2: 2,618 killed / 8,094 wounded. Iran MoH/Foundation of Martyrs/HRANA reporting unchanged Day 63-64. NCIS confirmed Iran-affiliated hacking group threatened USMC personnel/families via text — psyops, not physical danger. Active escalation risk: ELEVATED — Cooper-brief options menu live; mid-May Lebanon ceasefire expiry; Murkowski AUMF threat week of May 11.",
+    "category": "summary",
+    "source": "AP; CNN; Reuters; Al Jazeera live blogs; PBS NewsHour; Times of Israel; Yemen Press Agency; CNBC; Yahoo Finance; ABC News live updates; SOF News Epic Fury Update May 1; Axios Apr 30",
+    "data_point": null
   }
 ]
