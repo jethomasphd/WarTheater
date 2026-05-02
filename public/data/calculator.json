@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com state averages, accessed May 1 2026 — national average $4.392 (+$0.092 vs Apr 30 dashboard reading; +47.0% vs $2.99 Feb 28 baseline). DISCREPANCY: AAA Mid-Atlantic spokesperson Morgan Dean told WVIR/29News May 1 the weekly average 'went down' — likely a 7-day rolling vs same-day methodology mismatch; defaulting to AAA top-line figure.",
-  "last_updated": "2026-05-01"
+  "source": "AAA gasprices.aaa.com state averages, carried forward into May 2 2026 (Saturday — AAA daily figure unchanged at $4.392; +47.0% vs $2.99 Feb 28 baseline). DISCREPANCY: AAA Mid-Atlantic spokesperson Morgan Dean told WVIR/29News May 1 the weekly average 'ticked lower' on crude weakness; defaulting to AAA top-line same-day figure.",
+  "last_updated": "2026-05-02"
 }
