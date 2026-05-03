@@ -1221,29 +1221,29 @@
     "targets_struck": {
       "value": 35500,
       "label": "Cumulative Iranian targets struck (CENTCOM)",
-      "note": "No new strike data — figure unchanged. Iran ceasefire enters Day 24 of indefinite extension (since Apr 7); Bushehr NPP ~28 consecutive days no incident. CENTCOM has not announced new kinetic strikes on Iranian territory; number frozen pending CENTCOM update. ⚠️ Active escalation risk indicator: ELEVATED — Adm. Cooper briefed Trump Apr 30 on next-phase options including 'limited ground interventions, targeted strikes on Iranian energy infrastructure' (SOF News expansion of Axios 'short and intense wave' framing). IRGC Aerospace Cdr Mousavi (May 2): war resumption 'likely' — rhetorical.",
-      "tooltip": "CENTCOM cumulative target tally (35,500). Frozen since Apr 7 ceasefire — no U.S./Israeli strikes on Iranian territory Day 24 of the truce.",
+      "note": "No change — ceasefire holding inside Iranian territory.",
+      "tooltip": "Day-64 figure carried forward. Pentagon publicly cited ~13,000 targets struck pre-ceasefire (Apr 7); dashboard cumulative includes Israeli + post-blockade strike package. No new strikes in Iran during ceasefire on Day 65.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
       "value": 15,
       "label": "US service members KIA (all-cause)",
       "note": "15 cumulative all-cause US KIA: 13 hostile (incl. 6 at Port Shuaiba Kuwait Mar 1) + Maj Davius (sudden illness Mar 6 Camp Buehring) + LCpl Melendez (Mar 4 Saudi non-hostile). Pentagon's official 13 figure excludes Davius. DCAS OEFU casualty tracker — no new KIA reported May 1-2.",
-      "tooltip": "15 U.S. service members KIA all-cause in Operation Epic Fury (13 combat + 2 non-hostile). Pentagon official 13 (combat-only); 15 includes Davius/Melendez per Rep. Lawler memorial.",
+      "tooltip": "Pentagon-official combat KIA = 13; +2 non-combat. NBC News Apr 24 list confirms. No new U.S. KIA reported in 24h.",
       "color": "var(--civilian)"
     },
     "us_wia": {
       "value": 415,
       "label": "US service members WIA (CENTCOM published)",
       "note": "CENTCOM published figure 415 WIA (manifest reconciliation; up from 303 Mar 28). Pentagon DCAS shows 372 (different page); Intercept-cited adjustments span 411-428. No new WIA notification May 1-2; carry-forward Day 63→64. Intercept (Apr 22) flagged unexplained downward revisions as potential 'casualty cover-up.'",
-      "tooltip": "415 U.S. service members WIA per CENTCOM published count. DCAS 372 vs CENTCOM 415 vs Intercept-cited adjustments 411-428. No new May 2 notification.",
+      "tooltip": "Day-64 figure carried forward; no DoD update issued Sat/Sun.",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
       "value": 3468,
-      "label": "Iranians killed (Foundation of Martyrs, Apr 19 official)",
-      "note": "Foundation of Martyrs and Veterans Affairs cumulative 3,468 (Apr 19 official) — manifest-promoted to primary headline figure. Iran MoH Legal Medicine Org separately reports 3,375 (mid-April). HRANA Apr 7 cumulative 3,636 (1,701 civilians + 1,221 military + 714 unclassified). No fresh official figure issued Day 63-64. Real toll likely higher given military-casualty undercount.",
-      "tooltip": "Foundation of Martyrs Apr 19 official: 3,468. Iran MoH: 3,375 (mid-April). HRANA: 3,636 (Apr 7). Iran wounded estimate 10,000+. Stale reporting consistent with ceasefire holding.",
+      "label": "Iranian Killed (by source)",
+      "note": "FLAG: data is stale — Foundation of Martyrs cumulative is 14 days old. Likely under-counts by hundreds given continued strikes on militias and continued infrastructure deaths during ceasefire.",
+      "tooltip": "ATTRIBUTE BY SOURCE — DO NOT SYNTHESIZE. Foundation of Martyrs 3,468 (Apr 19) | Iran MoH 3,375 (May 2) | HRANA 3,636 (Apr 7) | ~3,400 (Iran forensics chief, NBC late-Apr). No public refresh from any of the four official channels in 24h.",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
