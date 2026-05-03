@@ -5776,5 +5776,68 @@
     "category": "summary",
     "source": "AP; CNN; Reuters; Al Jazeera live blogs; PBS NewsHour; Times of Israel; Yemen Press Agency; CNBC; Yahoo Finance; ABC News live updates; SOF News Epic Fury Update May 1; Axios Apr 30",
     "data_point": null
+  },
+  {
+    "date": "2026-05-02",
+    "time": "12:00",
+    "title": "Iran delivers 14-point counter-proposal to U.S. via Pakistan (Deputy FM Gharibabadi confirms)",
+    "description": "Iran's Deputy FM Kazem Gharibabadi confirmed delivery via Pakistani mediator of a 14-point response to the prior U.S. 9-point plan. Iran demands resolution within 30 days (rejecting U.S. proposed 2-month ceasefire extension), end of war 'on all fronts including Lebanon,' guarantees against military aggression, U.S. troop withdrawal from regions surrounding Iran, end to naval blockade, release of frozen Iranian assets, removal of sanctions, and a 'new mechanism for the Strait of Hormuz.' Reported by Tasnim, Fars, Press TV, IRIB.",
+    "category": "diplomacy",
+    "source": "Al Jazeera 2026-05-03; Prism News 2026-05-03; CNN live 2026-05-02/03; Tasnim",
+    "data_point": "Iran 14-pt counter to U.S. 9-pt plan"
+  },
+  {
+    "date": "2026-05-02",
+    "time": "16:00",
+    "title": "Trump: Iran has 'not paid a big enough price'; 'cannot imagine' plan acceptable",
+    "description": "Speaking to reporters in Florida before Air Force One departure, Trump said he was reviewing the 14-point plan but 'I cannot imagine that it would be acceptable.' Said Iran has not yet paid 'a big enough price for what they have done over the last 47 years.' Left open resumption of strikes: 'If they do something bad, there is a possibility it could happen.' Pushed back on his own Friday-night remark that the U.S. 'may be better off' without a deal.",
+    "category": "diplomacy",
+    "source": "CNN live 2026-05-03; Al Jazeera 2026-05-03",
+    "data_point": null
+  },
+  {
+    "date": "2026-05-02",
+    "time": "10:00",
+    "title": "State Dept fast-tracks $8.6B in arms sales to Israel, Qatar, Kuwait, UAE — Rubio invokes emergency waiver",
+    "description": "Secretary Rubio invoked emergency authority bypassing congressional review. Package: Qatar Patriot air & missile defense replenishment $4.01B + APKWS $992.4M; Kuwait integrated battle command system $2.5B; Israel APKWS $992.4M; UAE APKWS $147.6M. Justification: replenish stockpiles depleted by Iranian missile/drone barrages on Israel and Gulf states.",
+    "category": "policy",
+    "source": "Times of Israel 2026-05-02 (Reuters); Al Jazeera 2026-05-03; Jerusalem Post 2026-05-02; CNN",
+    "data_point": "$8.6B arms package"
+  },
+  {
+    "date": "2026-05-02",
+    "time": "11:00",
+    "title": "CENTCOM Cdr Adm. Brad Cooper visits USS Tripoli (LHA-7) in Arabian Sea",
+    "description": "Cooper visited Sailors and Marines aboard the America-class LHA in the Arabian Sea, recognized top performers, toured spaces. Visit signal-amplified amid blockade enforcement and Iran's 14-pt counter-proposal delivery. CENTCOM @X post 2026-05-02.",
+    "category": "military",
+    "source": "@CENTCOM X 2026-05-02; ANI/Russia Herald 2026-05-03; CNN live 2026-05-03",
+    "data_point": null
+  },
+  {
+    "date": "2026-05-02",
+    "time": "09:00",
+    "title": "Iran FM spokesperson Baqaei: Trump's 'pirates' remark a 'damning admission' of illegal maritime activity",
+    "description": "Iranian Foreign Ministry spokesperson Esmaeil Baqaei (X) urged UN and global community to condemn U.S. blockade conduct. Followed Trump's Friday remark intercepting tanker: 'We're like pirates, but we are not playing games.' Iran calls capture of Majestic X and Tifani 'armed robbery on the high seas.'",
+    "category": "rhetoric",
+    "source": "Newkerala/ANI 2026-05-03",
+    "data_point": null
+  },
+  {
+    "date": "2026-05-02",
+    "time": "20:00",
+    "title": "Lebanese MoPH: cumulative 2,659 killed / 8,183 wounded since March 2",
+    "description": "Lebanese Ministry of Public Health updated cumulative toll: 2,659 killed (+41 in 24h) and 8,183 wounded since outbreak Mar 2. Among May 1–2 deaths confirmed in NNA reports: at least one woman, multiple children injured (Habboush). Over 1M displaced (UN/UNRWA).",
+    "category": "casualties",
+    "source": "Al Jazeera 2026-05-02; WAFA 2026-05-01; NNA",
+    "data_point": "2,659 / 8,183 (Lebanon cumulative)"
+  },
+  {
+    "date": "2026-05-02",
+    "time": "18:00",
+    "title": "Lebanese army Cdr Haykal meets U.S. Gen. Joseph Clearfield (head of 5-member ceasefire monitoring committee)",
+    "description": "Lebanese army statement: discussion focused on 'security situation in Lebanon, regional developments, and ways to maximise the effectiveness of the (committee) and enhance its operations.' First confirmed engagement of monitoring committee since Israeli geographic expansion of evacuation orders.",
+    "category": "diplomacy",
+    "source": "BSS/AFP 2026-05-03; Lebanese army statement",
+    "data_point": null
   }
 ]
