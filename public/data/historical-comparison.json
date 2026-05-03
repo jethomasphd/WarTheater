@@ -1,34 +1,34 @@
 {
   "conflicts": [
     {
-      "label": "Iran 2026 (Day 64)",
+      "label": "Iran 2026 (Day 65)",
       "targets_struck": 35500,
       "us_kia": 15,
       "daily_cost_millions": 845,
-      "note": "Operation Epic Fury \u2014 Day 64. Ceasefire Day 24; 60-day War Powers deadline (May 1) passed without Congressional authorization \u2014 Trump declared 'hostilities terminated' in letter to Hill, claim contested by Senate Democrats and Sen. Susan Collins (R-ME). Three U.S. CSGs in CENTCOM AOR (Lincoln Northern Arabian Sea, Ford Red Sea conducting routine flight ops, Bush transiting Horn of Africa) \u2014 first time since OIF 2003. Hormuz dual blockade continuing; 45 vessels redirected cumulative (CENTCOM May 1, +3 vs Apr 29). Brent $108.10 (52% above Feb 27 baseline of $71); WTI $101.05; AAA gas $4.392 (47% above $2.99 baseline). Apr 30 Senate WPR vote failed 50-47 (6th attempt) \u2014 Sen. Susan Collins crossed over for first time. Sen. Lisa Murkowski (R-AK) threatens AUMF when Senate returns from recess week of May 11. IRGC Aerospace Cdr Maj. Gen. Majid Mousavi (May 2): war resumption 'likely' (rhetorical, no kinetic action). Israel struck 9 southern Lebanese villages May 2; Lebanese MoPH cumulative 2,618 killed / 8,094 wounded since Mar 2. Iran Foundation of Martyrs Apr 19 cumulative 3,468 (official figure); Iran MoH 3,375; HRANA 3,636. ~3.2M Iran IDPs + 1M+ Lebanese displaced. U.S. KIA 15 (all-cause; Pentagon-official 13 combat-only); WIA 415 (CENTCOM published). Cumulative U.S. cost midpoint $53.5B; range $25B-$1T (Pentagon $25B floor \u2192 Watson/Harvard ~$1T ceiling including economic spillover). Day 64 represents the longest U.S. combat operation under sole executive authority since 1973 War Powers Resolution to collide with the 60-day statutory cutoff during the conflict and have the executive branch publicly declare hostilities 'terminated' to obviate the trigger."
+      "note": "Operation Epic Fury — Day 65. Ceasefire Day 25 (indefinite extension Day 12); Trump's 'hostilities terminated' WPR letter to Hill (May 1) remains contested. Three U.S. CSGs in CENTCOM AOR + LHA Tripoli — first time since OIF 2003 (Lincoln Arabian Sea blockade ops; Ford Eastern Mediterranean per USNI Apr 27 — dashboard 'Red Sea' label updated; Bush off Africa heading to 5th Fleet). CENTCOM Cdr Adm. Cooper visited USS Tripoli (LHA-7) in Arabian Sea May 2 (@CENTCOM X) — strategic-communication signal timed to Iran's 14-pt counter-proposal delivery. Hormuz dual blockade hardening; 48 vessels redirected cumulative (CBS via CENTCOM May 2; +3 in past 20 hours). Iran parliament 12-article 'Sovereignty over the Strait of Hormuz' law poised for chamber vote — bans Israeli vessels permanently; rial-payment requirement; 20% cargo confiscation penalty. Brent $108.17 / WTI $101.94 (Friday close, Sun carryforward); AAA gas $4.446 (+48.7% vs $2.99 baseline; +5.4¢ d/d, ~30¢/wk). Iran 14-pt counter-proposal delivered via Pakistan May 2 (Deputy FM Gharibabadi) — 30-day deadline, end of war 'on all fronts including Lebanon,' troop withdrawal, blockade lift, frozen-assets release; Trump 'cannot imagine' acceptable; IRGC May 3: 'impossible military operation or a bad deal.' State Dept fast-tracks $8.6B arms sales to Israel/Qatar/Kuwait/UAE (Rubio emergency waiver). Lebanon front structurally widening: IDF May 3 issued evacuation orders for towns NORTH of Litani — first major geographic expansion since Apr 17 truce. Lebanese MoPH cumulative 2,659 killed / 8,183 wounded since Mar 2 (+41 in 24h May 2). Iran Foundation of Martyrs Apr 19 cumulative 3,468 (STALE — 14 days); Iran MoH 3,375; HRANA 3,636. ~4.2M displaced (Iran 3.2M + Lebanon ~1M). U.S. KIA 15 (all-cause; Pentagon-official 13 combat-only); WIA 415. Cumulative U.S. cost midpoint $54.345B; range $25B (Pentagon Comptroller Hurst Apr 29 official; ~$416M/day average) → ~$1T (CSIS upper bound incl. economic spillover). Day 65 places this conflict between OIF initial combat phase (~26 days) and Operation Allied Force (Kosovo, 78 days). 3-CSG concentration last seen during OIF 2003. WPR 60-day mark passed May 1 without congressional authorization — first such administration claim of 'hostilities terminated' to circumvent the WPR clock since the law's 1973 enactment."
     },
     {
       "label": "Iraq 2003 (Day 21)",
       "targets_struck": 19000,
       "us_kia": 85,
       "daily_cost_millions": 750,
-      "note": "Operation Iraqi Freedom \u2014 \"shock and awe\" + ground invasion. 300,000 troops deployed."
+      "note": "Operation Iraqi Freedom — \"shock and awe\" + ground invasion. 300,000 troops deployed."
     },
     {
       "label": "Libya 2011 (Day 21)",
       "targets_struck": 700,
       "us_kia": 0,
       "daily_cost_millions": 125,
-      "note": "Operation Odyssey Dawn / Unified Protector \u2014 NATO no-fly zone. Limited US role."
+      "note": "Operation Odyssey Dawn / Unified Protector — NATO no-fly zone. Limited US role."
     },
     {
       "label": "Gulf 1991 (Day 21)",
       "targets_struck": 26000,
       "us_kia": 18,
       "daily_cost_millions": 620,
-      "note": "Operation Desert Storm \u2014 38-day air campaign + 100-hour ground war. 700,000 coalition troops."
+      "note": "Operation Desert Storm — 38-day air campaign + 100-hour ground war. 700,000 coalition troops."
     }
   ],
   "sources": "CRS Reports R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya). Costs inflation-adjusted to 2026 dollars using BLS CPI-U.",
-  "last_updated": "2026-05-02"
+  "last_updated": "2026-05-03"
 }
