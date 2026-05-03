@@ -1,47 +1,47 @@
 {
-  "last_updated": "2026-05-02",
-  "war_day": 64,
-  "timestamp_label": "LAST UPDATED: MAY 02, 2026 10:34 ET",
+  "last_updated": "2026-05-03",
+  "war_day": 65,
+  "timestamp_label": "LAST UPDATED: MAY 03, 2026 10:27 ET",
   "cost": {
     "brent": {
-      "price": 108.1,
+      "price": 108.17,
       "label": "Brent crude (May 2, Sat carry)",
-      "change": "+52.3% since Feb 27 — Brent $108.10/bbl (May 1 close carried into May 2 weekend; Saturday markets closed). May 1 settle was -5.4% / -$6.12 vs Apr 30 close $114.22 after Iran's IRNA confirmed Tehran transmitted updated peace proposal to U.S. via Pakistani mediators. Apr 30 intraday Asia high was $126.41 (4-year war high).",
-      "tooltip": "Brent Crude (ICE July contract): May 1 settle $108.10 carried into May 2 (Saturday). Pre-war close: $71.00/bbl (Feb 27). Trump May 1 reaffirmed naval blockade continues. IRGC Aerospace Cdr Mousavi (May 2): war resumption 'likely' — rhetorical, no kinetic action. Source: Trading Economics."
+      "change": "+0.07 vs May 2 ($108.10)",
+      "tooltip": "ICE Brent front-month last trade Fri May 1 close = $108.17 (Oilprice.com); markets closed Sat/Sun. Carried forward; +52% vs $71.00 Feb 27 baseline."
     },
     "wti": {
-      "price": 101.05,
+      "price": 101.94,
       "label": "WTI crude (May 2, Sat carry)",
-      "change": "+51.9% since Feb 27 — WTI $101.05/bbl (May 1 close carried into May 2 weekend). May 1 settle was -4.1% / -$4.33 vs Apr 30 settlement $105.38 on Iran-proposal headlines.",
-      "tooltip": "WTI crude (NYMEX June contract): May 1 settle $101.05 carried into May 2 (Saturday). Pre-war: $66.50/bbl (Feb 27). Tracked Brent lower on diplomacy headlines despite continued dual blockade of Hormuz. Source: Trading Economics."
+      "change": "+0.89 vs May 2 ($101.05)",
+      "tooltip": "NYMEX WTI front-month June (CLM26) settle Fri May 1 = $101.94 (-2.98% on day). Carried forward through Sunday. +53% vs $66.50 Feb 27 baseline."
     },
     "gas": {
-      "price": 4.392,
+      "price": 4.446,
       "label": "AAA national average, regular unleaded",
-      "change": "+$1.402 / +47.0% since Feb 27 — AAA national average $4.392/gal (May 2 carry-forward; AAA Saturday daily figure unchanged from May 1). +47.0% vs $2.99 Feb 28 baseline.",
-      "tooltip": "AAA national average regular unleaded: $4.392 (May 2 carry-forward from May 1, AAA gasprices.aaa.com state averages). Pre-war: $2.99 (Feb 27). NOTE: AAA Mid-Atlantic spokesperson Morgan Dean told WVIR/29News on May 1 the weekly average 'ticked lower' on crude weakness — methodological mismatch flagged."
+      "change": "+0.054 vs May 2 ($4.392)",
+      "tooltip": "Source: gasprices.aaa.com print as of 5/3/26. +48.7% vs $2.99 Feb 28 baseline. Up ~30¢ in past week. CA $6.10; HI $5.634."
     },
     "sp500": {
       "value": 7230.12,
       "label": "S&P 500 (May 1 final close, record)",
-      "change": "May 1 final close 7,230.12 (+0.29%, +21 pts) — fresh record. Nasdaq record 25,114.44 (+0.89%); Dow 49,499.27 (-0.31%); Russell 2000 2,812.82 (+0.46%); VIX 16.99; Gold $4,644.50; Bitcoin $78,315.88. April was best month for S&P 500 and Nasdaq since 2020. AAPL +3.24% on iPhone 17 demand and Q2 earnings beat. XOM +0.81% on Q1 EPS/revenue beat (-45% net income on Iran-driven oil shock cycle). Spirit (FLYVQ) tumbled — bailout talks failed (WSJ).",
-      "tooltip": "S&P 500: 7,230.12 May 1 final close (+0.29%, NEW RECORD). Nasdaq record 25,114.44. April best month since 2020. Equity-oil decoupling extreme: S&P at record + Brent $108 + Day 64 of war + WPR crisis = textbook 'TACO trade.'"
+      "change": "0.00 (markets closed)",
+      "tooltip": "Friday May 1 close (FRED SP500); Nasdaq +0.89% to 25,114.44 record close; Dow -0.31% to 49,499.27. Markets closed Sat–Sun. Next print Mon May 4."
     },
     "daily_cost": {
       "value": 845,
       "unit": "M",
       "label": "Daily US war cost, Day 64",
-      "note": "~$845M/day midpoint Day 64 ceasefire-phase (range $400M-$1.55B; CSIS Cancian/Park) — held flat from Day 63 because no new kinetic operations occurred and force posture is unchanged. Pentagon Acting Comptroller Hurst floor remains $25B cumulative (HASC Apr 29). Watson/Harvard upper bound $200B-$1T including economic spillover. NYT Apr 24 munitions tally unchanged: >1,200 Patriots, ~1,100 stealth cruise, >1,000 Tomahawks (~10× annual procurement). MAY 1 WPR 60-day deadline PASSED — Trump letter to Hill asserts hostilities 'terminated'; contested by Senate Democrats and Sen. Susan Collins (R-ME). MAY 2: IRGC Aerospace Cdr Mousavi: war resumption 'likely' (rhetorical). Active escalation risk indicator: ELEVATED — Cooper-brief options menu pending decision; Lebanon ceasefire fragile (mid-May expiry); Murkowski AUMF threat for week of May 11.",
-      "tooltip": "Day 64 ceasefire-phase modeled at $845M midpoint (range $400M-$1.55B; CSIS). Held flat from Day 63 because no new kinetic operations and force posture unchanged. Pentagon $25B cumulative floor → ~$391M/day; reconciliation pending.",
-      "change": "Est. ~$845M/day midpoint Day 64 ceasefire-phase (held flat vs Day 63). ⚠️ Pentagon Apr 29 disclosure ~$25B cumulative implies ~$391M/day — half this rate; reconciliation pending."
+      "note": "FLAG: dashboard midpoint diverges sharply from Pentagon official $25B. Display both.",
+      "tooltip": "Scenario-extrapolated baseline ~$845M/day during ceasefire (blockade + 3-CSG sustainment + air patrols). Pentagon Comptroller Hurst (Apr 29) = $25B cumulative; CSIS/Cancian = $28B incl. base damage.",
+      "change": "0 (ceasefire baseline)"
     },
     "total_cost": {
-      "value": 53.5,
+      "value": 54.345,
       "unit": "B",
       "label": "Est. Total Cost (64 Days)",
-      "note": "⚠️ MAJOR DISCREPANCY PRESERVED: Acting Pentagon Comptroller Jules Hurst (HASC Apr 29) pegged CUMULATIVE Operation Epic Fury cost at ~$25 BILLION (munitions/O&M/equipment-replacement only). Watson Institute / Harvard cited $200B-$1T upper bound including economic spillover (Bilmes Apr 15). Range now spans Pentagon $25B floor → Harvard ~$1T ceiling; dashboard midpoint $53.5B (Day 64) pending human reconciliation. MAY 1 WAR POWERS 60-day statutory deadline PASSED. Trump letter to Speaker Johnson + Senate Pres Pro Tem Grassley asserts hostilities 'have terminated' since Apr 7 ceasefire — claim contested by Sens. Blumenthal, Kaine, Schiff, Collins. Senate rejected Apr 30 War Powers resolution 50-47 (6th failure; Sen. Susan Collins crossed over for first time). Sen. Lisa Murkowski (R-AK) threatens AUMF when Senate returns from recess week of May 11. No Democratic lawsuit filed as of May 2.",
-      "tooltip": "Cumulative U.S. cost Day 64: $53.5B dashboard midpoint, but RANGE spans Pentagon $25B (Hurst HASC Apr 29, mostly munitions) to Harvard ~$1T (Bilmes, Apr 15). Pentagon $25B vs dashboard midpoint = largest single dashboard discrepancy; reconciliation pending.",
-      "change": "~$53.5B dashboard midpoint Day 64 (held flat vs Day 63 in ceasefire-phase). ⚠️ Pentagon official figure $25B (Hurst HASC Apr 29) — anchors lower bound; range $25B-$1T."
+      "note": "Scenario-extrapolated. Anchor primary display to Pentagon $25B with range tag.",
+      "tooltip": "$53.5B (Day 64) + $845M = $54.345B midpoint. Range $25B (Pentagon official, Apr 29) to ~$1T (CSIS upper bound incl. global economic spillover).",
+      "change": "+0.845"
     }
   },
   "history": [
