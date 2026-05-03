@@ -5776,5 +5776,113 @@
     "category": "summary",
     "source": "AP; CNN; Reuters; Al Jazeera live blogs; PBS NewsHour; Times of Israel; Yemen Press Agency; CNBC; Yahoo Finance; ABC News live updates; SOF News Epic Fury Update May 1; Axios Apr 30",
     "data_point": null
+  },
+  {
+    "date": "2026-05-02",
+    "time": "12:00",
+    "title": "Iran delivers 14-point counter-proposal to U.S. via Pakistan (Deputy FM Gharibabadi confirms)",
+    "description": "Iran's Deputy FM Kazem Gharibabadi confirmed delivery via Pakistani mediator of a 14-point response to the prior U.S. 9-point plan. Iran demands resolution within 30 days (rejecting U.S. proposed 2-month ceasefire extension), end of war 'on all fronts including Lebanon,' guarantees against military aggression, U.S. troop withdrawal from regions surrounding Iran, end to naval blockade, release of frozen Iranian assets, removal of sanctions, and a 'new mechanism for the Strait of Hormuz.' Reported by Tasnim, Fars, Press TV, IRIB.",
+    "category": "diplomacy",
+    "source": "Al Jazeera 2026-05-03; Prism News 2026-05-03; CNN live 2026-05-02/03; Tasnim",
+    "data_point": "Iran 14-pt counter to U.S. 9-pt plan"
+  },
+  {
+    "date": "2026-05-02",
+    "time": "16:00",
+    "title": "Trump: Iran has 'not paid a big enough price'; 'cannot imagine' plan acceptable",
+    "description": "Speaking to reporters in Florida before Air Force One departure, Trump said he was reviewing the 14-point plan but 'I cannot imagine that it would be acceptable.' Said Iran has not yet paid 'a big enough price for what they have done over the last 47 years.' Left open resumption of strikes: 'If they do something bad, there is a possibility it could happen.' Pushed back on his own Friday-night remark that the U.S. 'may be better off' without a deal.",
+    "category": "diplomacy",
+    "source": "CNN live 2026-05-03; Al Jazeera 2026-05-03",
+    "data_point": null
+  },
+  {
+    "date": "2026-05-02",
+    "time": "10:00",
+    "title": "State Dept fast-tracks $8.6B in arms sales to Israel, Qatar, Kuwait, UAE — Rubio invokes emergency waiver",
+    "description": "Secretary Rubio invoked emergency authority bypassing congressional review. Package: Qatar Patriot air & missile defense replenishment $4.01B + APKWS $992.4M; Kuwait integrated battle command system $2.5B; Israel APKWS $992.4M; UAE APKWS $147.6M. Justification: replenish stockpiles depleted by Iranian missile/drone barrages on Israel and Gulf states.",
+    "category": "policy",
+    "source": "Times of Israel 2026-05-02 (Reuters); Al Jazeera 2026-05-03; Jerusalem Post 2026-05-02; CNN",
+    "data_point": "$8.6B arms package"
+  },
+  {
+    "date": "2026-05-02",
+    "time": "11:00",
+    "title": "CENTCOM Cdr Adm. Brad Cooper visits USS Tripoli (LHA-7) in Arabian Sea",
+    "description": "Cooper visited Sailors and Marines aboard the America-class LHA in the Arabian Sea, recognized top performers, toured spaces. Visit signal-amplified amid blockade enforcement and Iran's 14-pt counter-proposal delivery. CENTCOM @X post 2026-05-02.",
+    "category": "military",
+    "source": "@CENTCOM X 2026-05-02; ANI/Russia Herald 2026-05-03; CNN live 2026-05-03",
+    "data_point": null
+  },
+  {
+    "date": "2026-05-02",
+    "time": "09:00",
+    "title": "Iran FM spokesperson Baqaei: Trump's 'pirates' remark a 'damning admission' of illegal maritime activity",
+    "description": "Iranian Foreign Ministry spokesperson Esmaeil Baqaei (X) urged UN and global community to condemn U.S. blockade conduct. Followed Trump's Friday remark intercepting tanker: 'We're like pirates, but we are not playing games.' Iran calls capture of Majestic X and Tifani 'armed robbery on the high seas.'",
+    "category": "rhetoric",
+    "source": "Newkerala/ANI 2026-05-03",
+    "data_point": null
+  },
+  {
+    "date": "2026-05-02",
+    "time": "20:00",
+    "title": "Lebanese MoPH: cumulative 2,659 killed / 8,183 wounded since March 2",
+    "description": "Lebanese Ministry of Public Health updated cumulative toll: 2,659 killed (+41 in 24h) and 8,183 wounded since outbreak Mar 2. Among May 1–2 deaths confirmed in NNA reports: at least one woman, multiple children injured (Habboush). Over 1M displaced (UN/UNRWA).",
+    "category": "casualties",
+    "source": "Al Jazeera 2026-05-02; WAFA 2026-05-01; NNA",
+    "data_point": "2,659 / 8,183 (Lebanon cumulative)"
+  },
+  {
+    "date": "2026-05-02",
+    "time": "18:00",
+    "title": "Lebanese army Cdr Haykal meets U.S. Gen. Joseph Clearfield (head of 5-member ceasefire monitoring committee)",
+    "description": "Lebanese army statement: discussion focused on 'security situation in Lebanon, regional developments, and ways to maximise the effectiveness of the (committee) and enhance its operations.' First confirmed engagement of monitoring committee since Israeli geographic expansion of evacuation orders.",
+    "category": "diplomacy",
+    "source": "BSS/AFP 2026-05-03; Lebanese army statement",
+    "data_point": null
+  },
+  {
+    "date": "2026-05-03",
+    "time": "08:00",
+    "title": "IDF issues evacuation warnings for towns NORTH of Litani River — first major geographic expansion since Apr 17 ceasefire",
+    "description": "Per Times of Israel May 3 liveblog and CNN: IDF issued urgent evacuation warnings for multiple towns in southern Lebanon including several NORTH of the Litani River — first major expansion of forced-displacement orders beyond the existing buffer zone since the April 17 ceasefire took effect. IDF also said it killed two Hezbollah fighters posing 'imminent threat' in southern Lebanon today. Hezbollah launched several rockets and explosive drones at IDF troops; IDF says no injuries; one interceptor fired at suspected Hezbollah drone, results under review.",
+    "category": "ceasefire_violation",
+    "source": "Times of Israel liveblog 2026-05-03; CNN live updates 2026-05-03; AFP",
+    "data_point": "evacuation orders north of Litani — geographic widening"
+  },
+  {
+    "date": "2026-05-03",
+    "time": "10:00",
+    "title": "IRGC sets deadline for U.S. to lift port blockade; 'impossible military operation or a bad deal'",
+    "description": "IRGC public statement (Al Jazeera May 3): 'room for U.S. decision-making has narrowed.' Trump 'must choose between an impossible military operation or a bad deal.' Iran's ambassador to Pakistan: any breakthrough depends on a 'change' in Washington's behavior.",
+    "category": "rhetoric",
+    "source": "Al Jazeera live 2026-05-03; CNN live 2026-05-03",
+    "data_point": null
+  },
+  {
+    "date": "2026-05-03",
+    "time": "12:00",
+    "title": "Iran parliament poised to approve 12-article 'Sovereignty over the Strait of Hormuz' law",
+    "description": "Per Press TV / Iranian state TV: legislation would permanently bar Israeli vessels, require ships from 'hostile countries' to pay reparations to obtain a permit, mandate coordination with Iranian authorities, payment in Iranian rial, and confiscate 20% of cargo value for non-compliance. Also bans countries that don't use 'Persian Gulf' in shipping documents. Adoption expected immediately upon Majlis reconvening.",
+    "category": "policy",
+    "source": "CNN live 2026-05-03; Press TV via GlobalSecurity.org Apr 21",
+    "data_point": "12-article Hormuz sovereignty law"
+  },
+  {
+    "date": "2026-05-03",
+    "time": "14:00",
+    "title": "Trump signals U.S. withdrawal from Germany will go 'a lot further' than 5,000 announced May 1",
+    "description": "Pentagon announced May 1 it would pull ~5,000 of 36,436 U.S. troops from Germany over next year. Trump May 3 confirmed cuts will go deeper. House and Senate Armed Services GOP chairs said they were 'very concerned'; planned long-range fires battalion deployment cancelled.",
+    "category": "force_posture",
+    "source": "CNN live 2026-05-03; Pentagon; Air & Space Forces Mag",
+    "data_point": "Germany drawdown deepening"
+  },
+  {
+    "date": "2026-05-03",
+    "time": "23:00",
+    "title": "Day 65 summary — Trump reviews Iran 14-pt plan; CENTCOM visits USS Tripoli; gas $4.446; IDF expands beyond Litani",
+    "description": "War Day 65 — Day 25 of the Iran ceasefire (Day 12 of indefinite extension). Iran's 14-point counter-proposal delivered May 2 via Pakistan; Trump said he 'cannot imagine' it acceptable, said Iran 'has not paid a big enough price.' IRGC May 3: Trump 'must choose between an impossible military operation or a bad deal'; 'room for U.S. decision-making has narrowed.' State Dept fast-tracks $8.6B arms package to Israel/Qatar/Kuwait/UAE (Rubio emergency waiver). CENTCOM Cdr Adm. Cooper visited USS Tripoli (LHA-7) in Arabian Sea May 2 — strategic-communication signal timed to counter-proposal delivery. CENTCOM cumulative blockade redirects 48 (CBS via CENTCOM May 2; +3 in past 20 hours). Iran parliament 12-article 'Sovereignty over the Strait of Hormuz' law poised for chamber vote — bans Israeli vessels permanently; rial payment; 20% cargo penalty. Lebanon front structurally widens: IDF May 3 issues evacuation orders for towns NORTH of Litani — first major geographic expansion since Apr 17 truce. Saturday IDF strike package: ~70 military structures + 50 Hezbollah sites dismantled; 41 killed in 24h. Lebanese MoPH cumulative: 2,659 / 8,183 (+41/+89 vs Day 63). Trump signals deeper-than-5,000 troop drawdown from Germany. Markets closed (Sunday); Brent $108.17 / WTI $101.94 (Friday carryforward); AAA gas $4.446 (+5.4¢ d/d, +48.7% vs $2.99 baseline; ~30¢/wk). Cumulative U.S. cost midpoint $54.345B; Pentagon official $25B floor; range to ~$1T (CSIS upper bound). Active escalation risk: ELEVATED — Lebanon expansion + IRGC 'narrowed window' rhetoric + Murkowski AUMF threat week of May 11.",
+    "category": "summary",
+    "source": "AP; CNN; Reuters; Al Jazeera live blogs; Times of Israel; CBS News; CENTCOM @X; AAA gasprices.aaa.com; Oilprice.com; FRED",
+    "data_point": null
   }
 ]

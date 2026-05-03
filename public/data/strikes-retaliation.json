@@ -2756,5 +2756,77 @@
     ],
     "verified": true,
     "last_updated": "2026-04-30"
+  },
+  {
+    "id": "lbn-2026-05-02-southern-lebanon-package",
+    "first_strike": "2026-05-02",
+    "active_days": [
+      64
+    ],
+    "city": "Southern Lebanon (multi-locale: Shoukine, Kfar Dajjal, Lwaizeh, Habboush, Nabatieh, Tyre district)",
+    "lat": 33.38,
+    "lng": 35.48,
+    "type": "iran_retaliation",
+    "origin": "IDF",
+    "weapon": "Air strike series + drone strikes",
+    "casualties_reported": "41 killed in 24h per Lebanese MoPH cumulative — Shoukine (3), Kfar Dajjal (2 in car strike), Lwaizeh (3 in home), Shoukin (2), Sammaiyeh / Tyre district (3). IDF: 'approximately 70 military structures and approximately 50 Hezbollah infrastructure sites were dismantled across several areas.'",
+    "casualties_source": "Lebanese MoPH (NNA-cited) / Al Jazeera 2026-05-02 / BSS/AFP 2026-05-03",
+    "notes": "Day 64 (May 2): IDF strike package — ~70 military structures + 50 Hezbollah sites dismantled across south Lebanon per IDF statement. Lebanese MoPH cumulative pushes to 2,659 killed / 8,183 wounded since Mar 2 (Al Jazeera May 2/3, NNA citing MoPH; +41 / +89 vs Day 63). Strikes also near al-Quds roundabout (Nabatieh) and Siddiqine (Tyre district). Three killed Tyre district town of Sammaiyeh per NNA. Continued ceasefire violations under Apr 17 truce.",
+    "sources": [
+      "Al Jazeera 2026-05-02",
+      "BSS/AFP 2026-05-03",
+      "NNA via Al Jazeera",
+      "IDF statement 2026-05-02"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-02"
+  },
+  {
+    "id": "lbn-2026-05-03-litani-geographic-expansion",
+    "first_strike": "2026-05-03",
+    "active_days": [
+      65
+    ],
+    "city": "Southern Lebanon (towns NORTH of Litani River)",
+    "lat": 33.45,
+    "lng": 35.45,
+    "type": "iran_retaliation",
+    "origin": "IDF",
+    "weapon": "Evacuation orders + targeted strikes + IAF interceptors",
+    "casualties_reported": "TBD (intra-day) — IDF said it killed two Hezbollah fighters posing 'imminent threat' in southern Lebanon today. Hezbollah launched several rockets and explosive drones at IDF troops; IDF says no Israeli injuries; one IAF interceptor fired at suspected Hezbollah drone (results under review).",
+    "casualties_source": "Times of Israel liveblog 2026-05-03 / CNN live 2026-05-03 / AFP",
+    "notes": "Day 65 (May 3): IDF issued urgent evacuation warnings for multiple towns in southern Lebanon including several NORTH of the LITANI RIVER — first major expansion of forced-displacement orders beyond the existing buffer zone since the April 17 ceasefire took effect. Most significant geographic escalation since truce. China's UN envoy May 1 had called the truce 'only a lesser fire'; this widening makes the front the most likely flashpoint to torpedo the Iran negotiating track since Pakistan/Iran insist Lebanon was inside the ceasefire and U.S./Israel deny it. Hezbollah rocket/drone fire continues; LAF Cdr Haykal met U.S. Gen. Joseph Clearfield (head of 5-member ceasefire monitoring committee) May 2/3.",
+    "sources": [
+      "Times of Israel liveblog 2026-05-03",
+      "CNN live updates 2026-05-03",
+      "AFP",
+      "Al Jazeera 2026-05-03"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-03"
+  },
+  {
+    "id": "incident-2026-05-02-tankers-majestic-tifani",
+    "first_strike": "2026-05-02",
+    "active_days": [
+      64
+    ],
+    "city": "Arabian Sea / Hormuz approaches (blockade enforcement)",
+    "lat": 24.5,
+    "lng": 57.0,
+    "type": "blockade_incident",
+    "origin": "U.S. Navy / CENTCOM",
+    "weapon": "VBSS / vessel boarding (tanker captures)",
+    "casualties_reported": "None reported (cargo + crew detained per Iran).",
+    "casualties_source": "Iranian Foreign Ministry (Baqaei) / Newkerala/ANI 2026-05-03 / CBS News 2026-05-03",
+    "notes": "Day 64 (May 2): Iran condemns U.S. capture of tankers Majestic X and Tifani as 'armed robbery on the high seas' — Iranian FM spokesperson Esmaeil Baqaei labeled President Trump's 'we're like pirates' comment a 'direct and damning admission' of illegal maritime activity. CENTCOM cumulative through May 1: 45 vessels redirected; CBS-cited number per CENTCOM May 2: 48 vessels redirected last 20 days, three in past 20 hours. Continues blockade-enforcement narrative. Iran urged UN and global community to condemn U.S. blockade conduct.",
+    "sources": [
+      "Newkerala/ANI 2026-05-03",
+      "CBS News 2026-05-03",
+      "CENTCOM",
+      "Iranian Foreign Ministry"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-02"
   }
 ]
