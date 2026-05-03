@@ -1,11 +1,11 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.392,
-  "war_increase": 1.402,
+  "current_gas": 4.446,
+  "war_increase": 1.456,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
-    { "code": "CA", "label": "California", "premium": 1.82 },
-    { "code": "HI", "label": "Hawaii", "premium": 1.476 },
+    { "code": "CA", "label": "California", "premium": 1.654 },
+    { "code": "HI", "label": "Hawaii", "premium": 1.188 },
     { "code": "TX", "label": "Texas", "premium": -0.38 },
     { "code": "FL", "label": "Florida", "premium": 0.08 },
     { "code": "NY", "label": "New York", "premium": 0.52 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com state averages, carried forward into May 2 2026 (Saturday — AAA daily figure unchanged at $4.392; +47.0% vs $2.99 Feb 28 baseline). DISCREPANCY: AAA Mid-Atlantic spokesperson Morgan Dean told WVIR/29News May 1 the weekly average 'ticked lower' on crude weakness; defaulting to AAA top-line same-day figure.",
-  "last_updated": "2026-05-02"
+  "source": "AAA gasprices.aaa.com state averages, May 3 2026 (Sunday — daily figure $4.446, +5.4¢ d/d, +48.7% vs $2.99 Feb 28 baseline). AAA news banner: 'Oil Prices Spike, National Average Up Nearly 30 Cents in One Week.' Diesel $5.64; CA $6.10; HI $5.634.",
+  "last_updated": "2026-05-03"
 }
