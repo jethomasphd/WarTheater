@@ -5839,5 +5839,50 @@
     "category": "diplomacy",
     "source": "BSS/AFP 2026-05-03; Lebanese army statement",
     "data_point": null
+  },
+  {
+    "date": "2026-05-03",
+    "time": "08:00",
+    "title": "IDF issues evacuation warnings for towns NORTH of Litani River — first major geographic expansion since Apr 17 ceasefire",
+    "description": "Per Times of Israel May 3 liveblog and CNN: IDF issued urgent evacuation warnings for multiple towns in southern Lebanon including several NORTH of the Litani River — first major expansion of forced-displacement orders beyond the existing buffer zone since the April 17 ceasefire took effect. IDF also said it killed two Hezbollah fighters posing 'imminent threat' in southern Lebanon today. Hezbollah launched several rockets and explosive drones at IDF troops; IDF says no injuries; one interceptor fired at suspected Hezbollah drone, results under review.",
+    "category": "ceasefire_violation",
+    "source": "Times of Israel liveblog 2026-05-03; CNN live updates 2026-05-03; AFP",
+    "data_point": "evacuation orders north of Litani — geographic widening"
+  },
+  {
+    "date": "2026-05-03",
+    "time": "10:00",
+    "title": "IRGC sets deadline for U.S. to lift port blockade; 'impossible military operation or a bad deal'",
+    "description": "IRGC public statement (Al Jazeera May 3): 'room for U.S. decision-making has narrowed.' Trump 'must choose between an impossible military operation or a bad deal.' Iran's ambassador to Pakistan: any breakthrough depends on a 'change' in Washington's behavior.",
+    "category": "rhetoric",
+    "source": "Al Jazeera live 2026-05-03; CNN live 2026-05-03",
+    "data_point": null
+  },
+  {
+    "date": "2026-05-03",
+    "time": "12:00",
+    "title": "Iran parliament poised to approve 12-article 'Sovereignty over the Strait of Hormuz' law",
+    "description": "Per Press TV / Iranian state TV: legislation would permanently bar Israeli vessels, require ships from 'hostile countries' to pay reparations to obtain a permit, mandate coordination with Iranian authorities, payment in Iranian rial, and confiscate 20% of cargo value for non-compliance. Also bans countries that don't use 'Persian Gulf' in shipping documents. Adoption expected immediately upon Majlis reconvening.",
+    "category": "policy",
+    "source": "CNN live 2026-05-03; Press TV via GlobalSecurity.org Apr 21",
+    "data_point": "12-article Hormuz sovereignty law"
+  },
+  {
+    "date": "2026-05-03",
+    "time": "14:00",
+    "title": "Trump signals U.S. withdrawal from Germany will go 'a lot further' than 5,000 announced May 1",
+    "description": "Pentagon announced May 1 it would pull ~5,000 of 36,436 U.S. troops from Germany over next year. Trump May 3 confirmed cuts will go deeper. House and Senate Armed Services GOP chairs said they were 'very concerned'; planned long-range fires battalion deployment cancelled.",
+    "category": "force_posture",
+    "source": "CNN live 2026-05-03; Pentagon; Air & Space Forces Mag",
+    "data_point": "Germany drawdown deepening"
+  },
+  {
+    "date": "2026-05-03",
+    "time": "23:00",
+    "title": "Day 65 summary — Trump reviews Iran 14-pt plan; CENTCOM visits USS Tripoli; gas $4.446; IDF expands beyond Litani",
+    "description": "War Day 65 — Day 25 of the Iran ceasefire (Day 12 of indefinite extension). Iran's 14-point counter-proposal delivered May 2 via Pakistan; Trump said he 'cannot imagine' it acceptable, said Iran 'has not paid a big enough price.' IRGC May 3: Trump 'must choose between an impossible military operation or a bad deal'; 'room for U.S. decision-making has narrowed.' State Dept fast-tracks $8.6B arms package to Israel/Qatar/Kuwait/UAE (Rubio emergency waiver). CENTCOM Cdr Adm. Cooper visited USS Tripoli (LHA-7) in Arabian Sea May 2 — strategic-communication signal timed to counter-proposal delivery. CENTCOM cumulative blockade redirects 48 (CBS via CENTCOM May 2; +3 in past 20 hours). Iran parliament 12-article 'Sovereignty over the Strait of Hormuz' law poised for chamber vote — bans Israeli vessels permanently; rial payment; 20% cargo penalty. Lebanon front structurally widens: IDF May 3 issues evacuation orders for towns NORTH of Litani — first major geographic expansion since Apr 17 truce. Saturday IDF strike package: ~70 military structures + 50 Hezbollah sites dismantled; 41 killed in 24h. Lebanese MoPH cumulative: 2,659 / 8,183 (+41/+89 vs Day 63). Trump signals deeper-than-5,000 troop drawdown from Germany. Markets closed (Sunday); Brent $108.17 / WTI $101.94 (Friday carryforward); AAA gas $4.446 (+5.4¢ d/d, +48.7% vs $2.99 baseline; ~30¢/wk). Cumulative U.S. cost midpoint $54.345B; Pentagon official $25B floor; range to ~$1T (CSIS upper bound). Active escalation risk: ELEVATED — Lebanon expansion + IRGC 'narrowed window' rhetoric + Murkowski AUMF threat week of May 11.",
+    "category": "summary",
+    "source": "AP; CNN; Reuters; Al Jazeera live blogs; Times of Israel; CBS News; CENTCOM @X; AAA gasprices.aaa.com; Oilprice.com; FRED",
+    "data_point": null
   }
 ]
