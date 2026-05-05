@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-04",
-  "war_day": 66,
-  "timestamp_label": "LAST UPDATED: MAY 04, 2026 21:22 ET",
+  "last_updated": "2026-05-05",
+  "war_day": 67,
+  "timestamp_label": "LAST UPDATED: MAY 05, 2026 14:02 ET",
   "cost": {
     "brent": {
       "price": 114.44,
@@ -16,10 +16,10 @@
       "tooltip": "NYMEX WTI front-month June (CLM26) settle May 4 = $106.42 (+4.39%). Intraday $107.35. +60% vs $66.50 Feb 27 baseline; +58.8% vs pre-war."
     },
     "gas": {
-      "price": 4.457,
+      "price": 4.483,
       "label": "AAA national average, regular unleaded",
-      "change": "+0.011 vs May 3 ($4.446)",
-      "tooltip": "Source: gasprices.aaa.com snapshot 5/4/26. +49.1% vs $2.99 Feb 28 baseline. State range: low $4.811 to high $6.114 (California). Per-tank impact (15-gal): +$22.01 vs Feb 27 baseline."
+      "change": "+0.026 vs May 4 ($4.457)",
+      "tooltip": "Source: gasprices.aaa.com snapshot 5/5/26. +49.9% vs $2.99 Feb 28 baseline. Lipow Oil Associates: gas could approach $5/gal if Hormuz remains closed next month — would near 2022 record $5.02 (June 2022)."
     },
     "sp500": {
       "value": 7200.75,
@@ -30,17 +30,17 @@
     "daily_cost": {
       "value": 645,
       "unit": "M",
-      "label": "Daily US war cost, Day 66",
+      "label": "Daily US war cost, Day 67",
       "note": "FLAG: dashboard midpoint diverges sharply from Pentagon official $25B. Display both.",
-      "tooltip": "Day-66 daily run-rate ~$645M reflects PROJECT FREEDOM launch (15,000 troops + 100+ aircraft sortie tempo, 2 DDGs in Persian Gulf, sinking of 6 IRGC small boats), CSG triple-deck ops, drone/missile interception consumption (UAE engaged 12 BM + 3 CM + 4 UAV). CSIS run-rate $1.0–1.4B/day for combat-active days.",
-      "change": "-200 vs Day 65 ($845M)"
+      "tooltip": "Day-67 daily run-rate ~$645M reflects PROJECT FREEDOM Day 2 sustained sortie tempo (15,000 troops + 100+ aircraft, 2 DDGs in Persian Gulf), dual-CSG (Lincoln+Bush) + Tripoli ARG presence, base-repair tail >$5B AEI ongoing. CSIS run-rate $1.0–1.4B/day for combat-active days. Pentagon Comptroller official $25B (Apr 29/Day 60).",
+      "change": "carry-forward vs Day 66 ($645M)"
     },
     "total_cost": {
-      "value": 54.99,
+      "value": 55.64,
       "unit": "B",
-      "label": "Est. Total Cost (66 Days)",
-      "note": "Scenario-extrapolated. Anchor primary display to Pentagon $25B (29 Apr/Day 60 baseline) with range tag.",
-      "tooltip": "$54.345B (Day 65) + $645M Day 66 = $54.99B midpoint. Method: Pentagon Comptroller $25B (Day 60) baseline + CSIS run-rate ($1.0–1.4B/day) for combat-active days, ~$300–500M/day for blockade-only days, plus base-repair tail (>$5B AEI). Range $25B (Pentagon official) to ~$1T (CSIS upper bound incl. global economic spillover).",
+      "label": "Est. Total Cost (67 Days)",
+      "note": "Scenario-extrapolated. Anchor primary display to Pentagon $25B (29 Apr/Day 60 baseline) with range tag $25B–$50B (CBS internal officials).",
+      "tooltip": "$54.99B (Day 66) + $645M Day 67 = $55.64B midpoint. Method: Pentagon Comptroller $25B (Day 60) baseline + CSIS run-rate ($1.0–1.4B/day) for combat-active days, ~$300–500M/day for blockade-only days, plus base-repair tail (>$5B AEI). Range $25B (Pentagon official) to $40-50B (CBS sourcing internal officials) to ~$1T (CSIS upper bound incl. global economic spillover).",
       "change": "+0.645"
     }
   },
@@ -1252,28 +1252,47 @@
       "flights_cancelled": -1,
       "children_killed": 583,
       "headline": "Project Freedom kicks off; Iran retaliates with missile/drone barrage on UAE; Brent +5.8% to $114.44, oil's biggest single-day jump since early April"
+    },
+    {
+      "date": "2026-05-05",
+      "war_day": 67,
+      "brent": 114.44,
+      "wti": 106.42,
+      "gas": 4.483,
+      "sp500": 7200.75,
+      "daily_cost_millions": 645,
+      "total_cost_billions": 55.64,
+      "targets_struck": 35500,
+      "us_kia": 15,
+      "us_wia": 415,
+      "iranian_killed": 3636,
+      "lebanese_killed": 2696,
+      "displaced": 4850000,
+      "flights_cancelled": -1,
+      "children_killed": 583,
+      "headline": "Pentagon (Hegseth/Caine) confirms 'ceasefire is not over'; Project Freedom Day 2; oil pares (Brent intraday $112.90, -1.4%); UAE airspace partial closure May 4-11; AAA gas $4.483 (+49.9% vs baseline); 22,500 mariners on 1,550+ vessels stranded Persian Gulf"
     }
   ],
   "toll": {
     "targets_struck": {
       "value": 35500,
       "label": "Cumulative Iranian targets struck (CENTCOM)",
-      "note": "No change — ceasefire holding inside Iranian territory.",
-      "tooltip": "Day-64 figure carried forward. Pentagon publicly cited ~13,000 targets struck pre-ceasefire (Apr 7); dashboard cumulative includes Israeli + post-blockade strike package. No new strikes in Iran during ceasefire on Day 65.",
+      "note": "No change — Iran-soil ceasefire Day 27 holds; Pentagon May 5: 'ceasefire is not over.' Project Freedom kinetic activity (6 IRGC small boats sunk Day 66) is logged in retaliation dataset, not as strikes-on-Iran-territory.",
+      "tooltip": "Day-67 figure carried forward. Pentagon publicly cited ~13,000 targets struck pre-ceasefire (Apr 7); dashboard cumulative includes Israeli + post-blockade strike package. No new strikes inside Iranian territory May 3-5 window.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
       "value": 15,
       "label": "US service members KIA (all-cause)",
-      "note": "15 cumulative all-cause US KIA: 13 hostile (incl. 6 at Port Shuaiba Kuwait Mar 1) + Maj Davius (sudden illness Mar 6 Camp Buehring) + LCpl Melendez (Mar 4 Saudi non-hostile). Pentagon's official 13 figure excludes Davius. Day-66 Project Freedom day-1 produced no announced US casualties; no new CENTCOM KIA update Day 63-66.",
-      "tooltip": "Pentagon-official combat KIA = 13; +2 non-combat. CENTCOM last refreshed ~01 May. Project Freedom day-1 produced no US fatalities despite first sustained US-Iran direct kinetic exchange of ceasefire period (6 IRGC small boats sunk, no US vessels hit).",
+      "note": "15 cumulative all-cause US KIA: 13 hostile (incl. 6 at Port Shuaiba Kuwait Mar 1) + Maj Davius (sudden illness Mar 6 Camp Buehring) + LCpl Melendez (Mar 4 Saudi non-hostile). Pentagon-official 13 (combat-only). Day 67 Project Freedom Day 2 produced no announced US casualties; no new CENTCOM KIA update Day 63-67.",
+      "tooltip": "Pentagon-official combat KIA = 13; +2 non-combat. CENTCOM last refreshed ~01 May. Pentagon May 5 briefing (Hegseth/Caine) confirmed 'ceasefire is not over'; Caine: Iran has attacked US forces 10+ times, commercial vessels 9 times, seized 2 container ships since ceasefire — 'all below the threshold of restarting major combat operations.'",
       "color": "var(--civilian)"
     },
     "us_wia": {
       "value": 415,
       "label": "US service members WIA (CENTCOM published)",
-      "note": "Carry-forward from May 1 baseline (CENTCOM). No new CENTCOM WIA update Day 63-66. Intercept (Apr 22) flagged earlier unexplained downward revisions as potential 'casualty cover-up.'",
-      "tooltip": "Day-65/66 figure carried forward; CENTCOM has not refreshed since 01 May. Project Freedom day-1 produced no announced US casualties despite kinetic engagement.",
+      "note": "Carry-forward from May 1 baseline (CENTCOM). No new CENTCOM WIA update Day 63-67. Intercept (Apr 22) flagged earlier unexplained downward revisions as potential 'casualty cover-up.'",
+      "tooltip": "Day-65/66/67 figure carried forward; CENTCOM has not refreshed since 01 May. Project Freedom Day 1-2 produced no announced US casualties despite first sustained US-Iran direct kinetic exchange of ceasefire period.",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
@@ -1286,8 +1305,8 @@
     "lebanese_killed": {
       "value": 2696,
       "label": "Lebanese killed (LB MoPH)",
-      "note": "Day 66: IDF struck >20 Hezbollah-linked sites Beqaa + south; +37 killed, +81 wounded vs May 3. Netanyahu declared IDF freedom-of-action 'north of the Litani.' Lebanon now principal active kinetic theater.",
-      "tooltip": "Lebanese Ministry of Public Health (NNA-cited, May 4 18:00 Beirut): 2,696 killed, 8,264 wounded since Mar 2. +37 killed / +81 wounded vs May 3. Children >130, women >102, health workers 57, IDF KIA in Lebanon 16, Israeli civilians 2.",
+      "note": "Day 67: No consolidated MoPH update in window — Day 66 cumulative 2,696/8,264 carried forward as floor; continuing strikes May 5 likely add to toll. Lebanon now principal active kinetic theater; Netanyahu declared IDF freedom-of-action 'north of the Litani.'",
+      "tooltip": "Lebanese Ministry of Public Health (NNA-cited, May 4 18:00 Beirut): 2,696 killed, 8,264 wounded since Mar 2. Children >130, women >102, health workers 57, IDF KIA in Lebanon 16, Israeli civilians 2. Hezbollah's Hassan Fadlallah (May 4): Hezbollah will 'thwart' objectives of direct Lebanon-Israel negotiations.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
