@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.457,
-  "war_increase": 1.467,
+  "current_gas": 4.483,
+  "war_increase": 1.493,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.654 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com state averages, May 4 2026 (Monday — daily figure $4.457, +1.1¢ d/d, +49.1% vs $2.99 Feb 28 baseline). State range: low $4.811 to high $6.114 (California). Per-tank impact (15-gal): +$22.01 vs Feb 27. Per-week (~14 gal/wk): +$20.54.",
-  "last_updated": "2026-05-04"
+  "source": "AAA gasprices.aaa.com state averages, May 5 2026 (Tuesday — daily figure $4.483, +2.6¢ d/d vs $4.457 May 4, +49.9% vs $2.99 Feb 28 baseline). Lipow Oil Associates: gas could approach $5/gal if Hormuz remains closed next month — would near 2022 record $5.02 (June 2022).",
+  "last_updated": "2026-05-05"
 }
