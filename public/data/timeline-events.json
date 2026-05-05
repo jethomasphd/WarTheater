@@ -5884,5 +5884,68 @@
     "category": "summary",
     "source": "AP; CNN; Reuters; Al Jazeera live blogs; Times of Israel; CBS News; CENTCOM @X; AAA gasprices.aaa.com; Oilprice.com; FRED",
     "data_point": null
+  },
+  {
+    "date": "2026-05-03",
+    "time": "afternoon",
+    "title": "IDF issues forced-displacement orders for villages NORTH of Litani — first major geographic expansion since 17 Apr Lebanon ceasefire",
+    "description": "IDF Arabic-spokesman Avichay Adraee posts evacuation order on X covering 10+ villages, several in Nabatieh District north of the Litani River. Residents told to move 'at least 1,000 metres' into open areas. Lebanese officials revise displacement figure to 1.6 million (>25% of population). Lebanese MoPH cumulative reaches 2,679 killed / 8,229 wounded, with 20 killed and 46 wounded on 03 May alone. Codifies emergence of Lebanon as principal active theater; sets up 04 May escalation to first-class dashboard treatment.",
+    "category": "lebanon",
+    "source": "Al Jazeera; Antiwar.com (Ditz); Lebanese MoPH/NNA",
+    "data_point": "Litani-north evacuation orders"
+  },
+  {
+    "date": "2026-05-03",
+    "time": "afternoon",
+    "title": "Two-strike day in Hormuz approaches: bulk carrier attacked off Sirik; tanker hit 78nm N of Fujairah",
+    "description": "UKMTO logs (i) bulk carrier attacked by 'multiple small craft' 11nm W of Sirik (Iranian coast), and (ii) tanker hit by unknown projectiles 78nm N of Fujairah at 23:40 local. All crews safe. First reported attacks in area since 22 Apr. Direct precursor to 04 May Project Freedom launch.",
+    "category": "maritime",
+    "source": "UKMTO; Al Jazeera; AP; UPI",
+    "data_point": "2 Hormuz incidents"
+  },
+  {
+    "date": "2026-05-04",
+    "time": "morning",
+    "title": "PROJECT FREEDOM launches: US Navy begins 'guiding' commercial ships through Strait of Hormuz",
+    "description": "CENTCOM, at Trump direction, commences Project Freedom 04 May with stated objective to 'restore freedom of navigation.' Force package: 2 guided-missile destroyers entering Persian Gulf, 100+ land/sea-based aircraft, 15,000 service members, multi-domain unmanned platforms. CENTCOM: 'not an escort mission' per US official; framed as 'humanitarian gesture.' First two US-flagged merchant vessels successfully transit. Adm. Brad Cooper: 'Our support for this defensive mission is essential to regional security and the global economy as we also maintain the naval blockade.' Trump rejected CENTCOM's more aggressive 'forced-entry' plan presented 30 Apr in favor of calibrated approach. RoE updated to authorize strike on 'immediate threats.' First sustained US-Iran direct kinetic engagement of indefinite-extension ceasefire period.",
+    "category": "maritime_strategic",
+    "source": "CENTCOM; Axios/Ravid; Reuters; CNN; Al Arabiya",
+    "data_point": "Project Freedom Day 1"
+  },
+  {
+    "date": "2026-05-04",
+    "time": "morning",
+    "title": "Iran strikes UAE for first time since 8 Apr ceasefire — Fujairah Oil Industry Zone in flames; ADNOC 'Barakah' tanker hit by drones",
+    "description": "Iran launches first major attack on UAE since ceasefire: drone strike ignites fire at Fujairah Oil Industry Zone (VTTI facility) — endpoint of Habshan-Fujairah pipeline (1.5 Mb/d capacity), UAE's only Hormuz-bypass crude export route. 3 Indian nationals moderately injured. Empty ADNOC crude tanker 'Barakah' hit by 2 drones in Hormuz. UAE MoD intercepts 12 ballistic missiles, 3 cruise missiles, 4 UAVs (4th cruise missile fell to sea). UAE MFA formally accuses Iran of 'terrorist attack' citing UNSCR 2817 violation. Qatar, Kuwait, Jordan, Saudi Arabia issue solidarity statements. UAE shifts schools to remote learning May 5-8. Fundamentally breaches 8 Apr ceasefire's regional dimension; first state-owned Gulf asset hit since Apr 8.",
+    "category": "iran_retaliation",
+    "source": "UAE MFA; UAE MoD; Reuters; Bloomberg; The National; Khaleej Times; Gulf News",
+    "data_point": "12 BM / 3 CM / 4 UAV intercepted; 3 injured Fujairah"
+  },
+  {
+    "date": "2026-05-04",
+    "time": "afternoon",
+    "title": "Iran claims missile strike on US warship near Jask; CENTCOM denies; oil spikes 5% intraday",
+    "description": "Fars News Agency reports IRGC missiles struck unidentified US warship near port of Jask after vessel ignored Iranian warnings; Iran Navy claims 'swift and decisive warning' forced US ships back. CENTCOM (@CENTCOM) issues explicit denial: 'No U.S. Navy ships have been struck.' US official to Axios concurs. Senior Iranian official tells Reuters only 'warning shot' fired, damage 'unclear.' Brent briefly tops $114, settles at $114.44 (+5.8%); WTI $106.42 (+4.39%). Treasury 10Y yield +6-8 bps to 4.45%; 30Y crosses 5%. Assessed by analysts as Iranian information operation; illustrates market sensitivity.",
+    "category": "us_iran_direct",
+    "source": "Fars News; CENTCOM (Cpt. Tim Hawkins to Fox); Axios/Ravid; Reuters",
+    "data_point": "DISPUTED strike claim"
+  },
+  {
+    "date": "2026-05-04",
+    "time": "evening",
+    "title": "Lebanon MoPH cumulative passes 2,696 killed / 8,264 wounded as IDF strikes 20+ Hezbollah sites",
+    "description": "Lebanese MoPH (via NNA): 2,696 killed, 8,264 wounded since 2 March (+37 killed, +81 wounded vs 03 May). IDF strikes Deir Siryan-Zawtar, Kounine (Bint Jbeil), Baraachit, Kafra, Jannata, Deir Qanoun al-Nahr, Kharayeb (Zahrani). Netanyahu (at IDF senior command conference 04 May): 'We are striking now — in the security zone, north of the security zone, and north of the Litani… We are on the way to disarming Hezbollah… [Hezbollah] has about 10% of the missiles it had at the beginning of the war.' Two missions remain. Lebanese President Aoun: cited Litani-bridge strikes as 'prelude to ground invasion.' Lebanese-Israeli talks (Israel-requested 2-3 week deadline) deteriorating. Confirms Lebanon as principal active kinetic theater.",
+    "category": "lebanon_casualties",
+    "source": "Lebanese MoPH (NNA); Times of Israel; Al Jazeera live blog; Reuters",
+    "data_point": "2696 K / 8264 W (+37/+81)"
+  },
+  {
+    "date": "2026-05-04",
+    "time": "evening",
+    "title": "Iran 14-point plan in stalemate: Trump rejects 'with no concessions yet'; Iran says US 'options are impossible war or bad deal'",
+    "description": "Per US official quoted to media: 'He doesn't love the proposal' — Trump unhappy proposal does not address Iran's nuclear program (Iran proposes nuclear talks shelved until war ends). Iran's Foreign Ministry confirms US response delivered via Pakistan and is being reviewed. IRGC X post: 'Trump must choose between an impossible military operation or a bad deal.' At White House small-business event 04 May, Trump dismisses 32% Iran-war approval poll as 'fake.' Pakistani mediation channels reported open but stalled.",
+    "category": "diplomatic",
+    "source": "AP; Reuters; Al Jazeera; CNN; Tasnim; IRNA",
+    "data_point": "14-pt plan stalemate"
   }
 ]

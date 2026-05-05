@@ -2828,5 +2828,191 @@
     ],
     "verified": true,
     "last_updated": "2026-05-02"
+  },
+  {
+    "id": "RET-2026-05-03-01",
+    "first_strike": "2026-05-03",
+    "active_days": [
+      65
+    ],
+    "city": "Strait of Hormuz, ~11 NM W of Sirik, Iran",
+    "lat": 26.55,
+    "lng": 56.75,
+    "type": "iran_retaliation",
+    "origin": "Iran (small craft, attribution implied — not formally claimed)",
+    "weapon": "Multiple small-craft attack",
+    "casualties_reported": "Crew safe; vessel not disabled per UKMTO.",
+    "casualties_source": "UKMTO / Al Jazeera / AP",
+    "notes": "Day 65 (May 3, afternoon Iran local): Bulk carrier (unidentified northbound) attacked by multiple small craft 11nm W of Sirik (Iranian coast). First reported attacks in area since 22 Apr. Direct precursor to Day 66 Project Freedom launch.",
+    "sources": [
+      "UKMTO",
+      "Al Jazeera",
+      "AP"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-04"
+  },
+  {
+    "id": "RET-2026-05-03-02",
+    "first_strike": "2026-05-03",
+    "active_days": [
+      65
+    ],
+    "city": "~78 NM N of Fujairah, UAE (near Musandam)",
+    "lat": 26.4,
+    "lng": 56.6,
+    "type": "iran_retaliation",
+    "origin": "Iran (unattributed projectiles)",
+    "weapon": "Unknown projectile strike",
+    "casualties_reported": "Vessel struck; all crew safe; no environmental impact.",
+    "casualties_source": "UKMTO / UPI",
+    "notes": "Day 65 (May 3, 23:40 local): Unidentified tanker hit by unknown projectiles ~78 NM N of Fujairah. Two-strike day in Hormuz approaches; direct precursor to Day 66 Project Freedom launch.",
+    "sources": [
+      "UKMTO",
+      "UPI"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-04"
+  },
+  {
+    "id": "RET-2026-05-04-01",
+    "first_strike": "2026-05-04",
+    "active_days": [
+      66
+    ],
+    "city": "Strait of Hormuz transit area near UAE",
+    "lat": 25.4,
+    "lng": 56.4,
+    "type": "iran_retaliation",
+    "origin": "Iran (IRGC suspected)",
+    "weapon": "2x suicide drones (kamikaze UAV)",
+    "casualties_reported": "Vessel struck (empty/no cargo); no injuries.",
+    "casualties_source": "UAE MFA statement / Reuters / Bloomberg / The National",
+    "notes": "Day 66 (May 4 morning): ADNOC state-owned crude oil tanker 'Barakah' (Abu Dhabi) struck by 2x suicide drones in Hormuz transit area near UAE. Empty / no cargo. UAE MFA formally accuses Iran of 'terrorist attack'; cites 'flagrant violation of UNSCR 2817.' First state-owned Gulf asset hit since 8 Apr ceasefire.",
+    "sources": [
+      "UAE MFA statement",
+      "Reuters",
+      "Bloomberg",
+      "The National"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-04"
+  },
+  {
+    "id": "RET-2026-05-04-02",
+    "first_strike": "2026-05-04",
+    "active_days": [
+      66
+    ],
+    "city": "Fujairah Oil Industry Zone (VTTI facility), UAE",
+    "lat": 25.18,
+    "lng": 56.34,
+    "type": "iran_retaliation",
+    "origin": "Iran",
+    "weapon": "Iranian-launched drone (originating from Iran, per Fujairah Media Office); fire ignited at petroleum storage",
+    "casualties_reported": "3 Indian nationals moderately injured.",
+    "casualties_source": "Fujairah Media Office / Reuters/USNews / Bloomberg / Townhall",
+    "notes": "Day 66 (May 4 morning–midday): Drone strike ignited fire at FUJAIRAH OIL INDUSTRY ZONE (VTTI facility, jointly owned by IFM/Vitol/TAQA). FOIZ is endpoint of Habshan–Fujairah pipeline (1.5 Mb/d capacity), critical UAE Hormuz-bypass infrastructure. Civil Defense engaged. STRATEGIC SIGNIFICANCE: First major hit on UAE energy infrastructure since 8 Apr ceasefire; targets the only remaining UAE crude export outlet bypassing Hormuz.",
+    "sources": [
+      "Fujairah Media Office",
+      "Reuters/USNews",
+      "Bloomberg",
+      "Townhall"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-04"
+  },
+  {
+    "id": "RET-2026-05-04-03",
+    "first_strike": "2026-05-04",
+    "active_days": [
+      66
+    ],
+    "city": "UAE territorial waters / cruise missile salvo",
+    "lat": 25.3,
+    "lng": 56.4,
+    "type": "iran_retaliation",
+    "origin": "Iran",
+    "weapon": "Cruise missile + drone barrage",
+    "casualties_reported": "3 'moderate' injuries reported at Fujairah; no fatalities.",
+    "casualties_source": "UAE Ministry of Defence (X/@modgovae) / Khaleej Times / Gulf News",
+    "notes": "Day 66 (May 4): UAE MoD official intercept tally — 12 ballistic missiles, 3 cruise missiles, 4 UAVs engaged; 3 cruise missiles intercepted over UAE territorial waters, 1 fell to sea. UAE issued first missile-alert siren since 8 Apr ceasefire. War-running totals UAE engagements: BM ~487 / CM ~26 / UAV ~2,089+ since 28 Feb. Qatar/Kuwait/Jordan/Saudi Arabia issued solidarity statements; UAE shifts schools to remote learning May 5-8.",
+    "sources": [
+      "UAE Ministry of Defence (X/@modgovae)",
+      "Khaleej Times",
+      "Gulf News"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-04"
+  },
+  {
+    "id": "RET-2026-05-04-04",
+    "first_strike": "2026-05-04",
+    "active_days": [
+      66
+    ],
+    "city": "Waters near UAE / Strait of Hormuz",
+    "lat": 25.5,
+    "lng": 56.3,
+    "type": "iran_retaliation",
+    "origin": "Unknown (Iranian attribution suspected, unclaimed)",
+    "weapon": "Unknown — explosion and fire onboard",
+    "casualties_reported": "No casualties as of last reporting.",
+    "casualties_source": "ROK MOFA / Gulf News",
+    "notes": "Day 66 (May 4, 20:40 KST / ~11:40 UTC): South Korean-operated vessel anchored in waters near UAE / Strait of Hormuz reported 'explosion and fire' onboard. ROK Foreign Ministry confirms; cause not yet attributed. Treated as separate incident from Barakah and FOIZ. Confidence MEDIUM.",
+    "sources": [
+      "ROK MOFA",
+      "Gulf News"
+    ],
+    "verified": false,
+    "last_updated": "2026-05-04"
+  },
+  {
+    "id": "RET-2026-05-04-05",
+    "first_strike": "2026-05-04",
+    "active_days": [
+      66
+    ],
+    "city": "Near Jask, Iran — DISPUTED",
+    "lat": 25.6,
+    "lng": 57.8,
+    "type": "iran_retaliation_disputed",
+    "origin": "Iran (IRGC-N) — UNVERIFIED CLAIM",
+    "weapon": "Claimed: 2x anti-ship missile strikes",
+    "casualties_reported": "DISPUTED — Iran claims US frigate hit by 2 missiles; CENTCOM denies any US Navy ship struck.",
+    "casualties_source": "Fars News Agency, Iran Navy spokesperson (CLAIM) / CENTCOM Cpt. Tim Hawkins / Axios/Ravid (DENIAL)",
+    "notes": "Day 66 (May 4): FARS NEWS (IRGC-affiliated) CLAIM that US frigate was hit by 2 missiles after ignoring warnings near Jask, forced to retreat. CENTCOM EXPLICIT DENIAL: 'No U.S. Navy ships have been struck' (X/@CENTCOM). US official to Axios: claim false. Senior Iranian official to Reuters: only 'warning shot' fired, damage status 'unclear.' Confidence LOW — assessment: Iranian information operation. Oil markets nonetheless spiked 5% intraday before paring on CENTCOM denial. FLAG: UNVERIFIED — likely Iranian IO; carry as DISPUTED.",
+    "sources": [
+      "Fars News Agency",
+      "CENTCOM (Cpt. Tim Hawkins)",
+      "Axios/Ravid",
+      "Reuters"
+    ],
+    "verified": false,
+    "last_updated": "2026-05-04"
+  },
+  {
+    "id": "RET-2026-05-04-06-COUNTER",
+    "first_strike": "2026-05-04",
+    "active_days": [
+      66
+    ],
+    "city": "Strait of Hormuz / Persian Gulf",
+    "lat": 26.5,
+    "lng": 56.5,
+    "type": "us_counter_action",
+    "origin": "US (CENTCOM) — Project Freedom",
+    "weapon": "Naval gunfire / aviation engagement",
+    "casualties_reported": "6 IRGC small boats sunk; no US vessels hit.",
+    "casualties_source": "CENTCOM @CENTCOM / Adm. Brad Cooper press conference May 4 / Gulf News / Barchart",
+    "notes": "Day 66 (May 4): US Navy SANK 6 IRGC SMALL BOATS while facilitating passage of 2 US-flagged merchant vessels through Strait of Hormuz under PROJECT FREEDOM. Adm. Cooper press briefing: US military 'fought off attacks from Iranian drones, missiles, and armed small boats'; multiple Iranian drones and missiles intercepted ('each and every threat neutralized'); no US vessels hit. First sustained US-Iran direct kinetic exchange of post-08 April ceasefire period.",
+    "sources": [
+      "CENTCOM @CENTCOM",
+      "Adm. Brad Cooper press conference May 4",
+      "Gulf News",
+      "Barchart"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-04"
   }
 ]

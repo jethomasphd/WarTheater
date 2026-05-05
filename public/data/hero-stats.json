@@ -1,47 +1,47 @@
 {
-  "last_updated": "2026-05-03",
-  "war_day": 65,
-  "timestamp_label": "LAST UPDATED: MAY 03, 2026 10:27 ET",
+  "last_updated": "2026-05-04",
+  "war_day": 66,
+  "timestamp_label": "LAST UPDATED: MAY 04, 2026 21:22 ET",
   "cost": {
     "brent": {
-      "price": 108.17,
-      "label": "Brent crude (May 2, Sat carry)",
-      "change": "+0.07 vs May 2 ($108.10)",
-      "tooltip": "ICE Brent front-month last trade Fri May 1 close = $108.17 (Oilprice.com); markets closed Sat/Sun. Carried forward; +52% vs $71.00 Feb 27 baseline."
+      "price": 114.44,
+      "label": "Brent crude (May 4 settle, ICE Jul)",
+      "change": "+5.80% vs May 1 ($108.17)",
+      "tooltip": "ICE Brent July contract settle May 4 = $114.44 (+5.80% — biggest single-day jump since early April; intraday $115.01 4-yr high). Briefly traded above $114 on Iran missile-strike claim against US warship; CENTCOM denial trimmed gain. +61% vs $71.00 Feb 27 baseline; +81.6% vs pre-war."
     },
     "wti": {
-      "price": 101.94,
-      "label": "WTI crude (May 2, Sat carry)",
-      "change": "+0.89 vs May 2 ($101.05)",
-      "tooltip": "NYMEX WTI front-month June (CLM26) settle Fri May 1 = $101.94 (-2.98% on day). Carried forward through Sunday. +53% vs $66.50 Feb 27 baseline."
+      "price": 106.42,
+      "label": "WTI crude (May 4 settle, NYMEX Jun CLM26)",
+      "change": "+4.39% vs May 1 ($101.94)",
+      "tooltip": "NYMEX WTI front-month June (CLM26) settle May 4 = $106.42 (+4.39%). Intraday $107.35. +60% vs $66.50 Feb 27 baseline; +58.8% vs pre-war."
     },
     "gas": {
-      "price": 4.446,
+      "price": 4.457,
       "label": "AAA national average, regular unleaded",
-      "change": "+0.054 vs May 2 ($4.392)",
-      "tooltip": "Source: gasprices.aaa.com print as of 5/3/26. +48.7% vs $2.99 Feb 28 baseline. Up ~30¢ in past week. CA $6.10; HI $5.634."
+      "change": "+0.011 vs May 3 ($4.446)",
+      "tooltip": "Source: gasprices.aaa.com snapshot 5/4/26. +49.1% vs $2.99 Feb 28 baseline. State range: low $4.811 to high $6.114 (California). Per-tank impact (15-gal): +$22.01 vs Feb 27 baseline."
     },
     "sp500": {
-      "value": 7230.12,
-      "label": "S&P 500 (May 1 final close, record)",
-      "change": "0.00 (markets closed)",
-      "tooltip": "Friday May 1 close (FRED SP500); Nasdaq +0.89% to 25,114.44 record close; Dow -0.31% to 49,499.27. Markets closed Sat–Sun. Next print Mon May 4."
+      "value": 7200.75,
+      "label": "S&P 500 (May 4 close)",
+      "change": "-0.41% vs Fri ($7,230.12 ATH)",
+      "tooltip": "May 4 close 7,200.75 (-0.41%, off Fri's all-time-high 7,230.12); Dow 48,941.90 (-1.13%, -557 pts); Nasdaq 25,067.80 (-0.19%); VIX 17.74. 30Y UST crossed 5% first time since summer."
     },
     "daily_cost": {
-      "value": 845,
+      "value": 645,
       "unit": "M",
-      "label": "Daily US war cost, Day 64",
+      "label": "Daily US war cost, Day 66",
       "note": "FLAG: dashboard midpoint diverges sharply from Pentagon official $25B. Display both.",
-      "tooltip": "Scenario-extrapolated baseline ~$845M/day during ceasefire (blockade + 3-CSG sustainment + air patrols). Pentagon Comptroller Hurst (Apr 29) = $25B cumulative; CSIS/Cancian = $28B incl. base damage.",
-      "change": "0 (ceasefire baseline)"
+      "tooltip": "Day-66 daily run-rate ~$645M reflects PROJECT FREEDOM launch (15,000 troops + 100+ aircraft sortie tempo, 2 DDGs in Persian Gulf, sinking of 6 IRGC small boats), CSG triple-deck ops, drone/missile interception consumption (UAE engaged 12 BM + 3 CM + 4 UAV). CSIS run-rate $1.0–1.4B/day for combat-active days.",
+      "change": "-200 vs Day 65 ($845M)"
     },
     "total_cost": {
-      "value": 54.345,
+      "value": 54.99,
       "unit": "B",
-      "label": "Est. Total Cost (64 Days)",
-      "note": "Scenario-extrapolated. Anchor primary display to Pentagon $25B with range tag.",
-      "tooltip": "$53.5B (Day 64) + $845M = $54.345B midpoint. Range $25B (Pentagon official, Apr 29) to ~$1T (CSIS upper bound incl. global economic spillover).",
-      "change": "+0.845"
+      "label": "Est. Total Cost (66 Days)",
+      "note": "Scenario-extrapolated. Anchor primary display to Pentagon $25B (29 Apr/Day 60 baseline) with range tag.",
+      "tooltip": "$54.345B (Day 65) + $645M Day 66 = $54.99B midpoint. Method: Pentagon Comptroller $25B (Day 60) baseline + CSIS run-rate ($1.0–1.4B/day) for combat-active days, ~$300–500M/day for blockade-only days, plus base-repair tail (>$5B AEI). Range $25B (Pentagon official) to ~$1T (CSIS upper bound incl. global economic spillover).",
+      "change": "+0.645"
     }
   },
   "history": [
@@ -1233,6 +1233,25 @@
       "displaced": 4200000,
       "flights_cancelled": -1,
       "children_killed": 558
+    },
+    {
+      "date": "2026-05-04",
+      "war_day": 66,
+      "brent": 114.44,
+      "wti": 106.42,
+      "gas": 4.457,
+      "sp500": 7200.75,
+      "daily_cost_millions": 645,
+      "total_cost_billions": 54.99,
+      "targets_struck": 35500,
+      "us_kia": 15,
+      "us_wia": 415,
+      "iranian_killed": 3636,
+      "lebanese_killed": 2696,
+      "displaced": 4850000,
+      "flights_cancelled": -1,
+      "children_killed": 583,
+      "headline": "Project Freedom kicks off; Iran retaliates with missile/drone barrage on UAE; Brent +5.8% to $114.44, oil's biggest single-day jump since early April"
     }
   ],
   "toll": {
@@ -1246,36 +1265,36 @@
     "us_kia": {
       "value": 15,
       "label": "US service members KIA (all-cause)",
-      "note": "15 cumulative all-cause US KIA: 13 hostile (incl. 6 at Port Shuaiba Kuwait Mar 1) + Maj Davius (sudden illness Mar 6 Camp Buehring) + LCpl Melendez (Mar 4 Saudi non-hostile). Pentagon's official 13 figure excludes Davius. DCAS OEFU casualty tracker — no new KIA reported May 1-2.",
-      "tooltip": "Pentagon-official combat KIA = 13; +2 non-combat. NBC News Apr 24 list confirms. No new U.S. KIA reported in 24h.",
+      "note": "15 cumulative all-cause US KIA: 13 hostile (incl. 6 at Port Shuaiba Kuwait Mar 1) + Maj Davius (sudden illness Mar 6 Camp Buehring) + LCpl Melendez (Mar 4 Saudi non-hostile). Pentagon's official 13 figure excludes Davius. Day-66 Project Freedom day-1 produced no announced US casualties; no new CENTCOM KIA update Day 63-66.",
+      "tooltip": "Pentagon-official combat KIA = 13; +2 non-combat. CENTCOM last refreshed ~01 May. Project Freedom day-1 produced no US fatalities despite first sustained US-Iran direct kinetic exchange of ceasefire period (6 IRGC small boats sunk, no US vessels hit).",
       "color": "var(--civilian)"
     },
     "us_wia": {
       "value": 415,
       "label": "US service members WIA (CENTCOM published)",
-      "note": "CENTCOM published figure 415 WIA (manifest reconciliation; up from 303 Mar 28). Pentagon DCAS shows 372 (different page); Intercept-cited adjustments span 411-428. No new WIA notification May 1-2; carry-forward Day 63→64. Intercept (Apr 22) flagged unexplained downward revisions as potential 'casualty cover-up.'",
-      "tooltip": "Day-64 figure carried forward; no DoD update issued Sat/Sun.",
+      "note": "Carry-forward from May 1 baseline (CENTCOM). No new CENTCOM WIA update Day 63-66. Intercept (Apr 22) flagged earlier unexplained downward revisions as potential 'casualty cover-up.'",
+      "tooltip": "Day-65/66 figure carried forward; CENTCOM has not refreshed since 01 May. Project Freedom day-1 produced no announced US casualties despite kinetic engagement.",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
-      "value": 3468,
-      "label": "Iranian Killed (by source)",
-      "note": "FLAG: data is stale — Foundation of Martyrs cumulative is 14 days old. Likely under-counts by hundreds given continued strikes on militias and continued infrastructure deaths during ceasefire.",
-      "tooltip": "ATTRIBUTE BY SOURCE — DO NOT SYNTHESIZE. Foundation of Martyrs 3,468 (Apr 19) | Iran MoH 3,375 (May 2) | HRANA 3,636 (Apr 7) | ~3,400 (Iran forensics chief, NBC late-Apr). No public refresh from any of the four official channels in 24h.",
+      "value": 3636,
+      "label": "Iranian Killed (HRANA primary)",
+      "note": "Day 66: HRANA promoted to PRIMARY headline figure. FLAG STALE — HRANA cumulative 3,636 last published Apr 7 (27 days stale); Foundation of Martyrs 3,468 (Apr 19) flagged STALE >14 days. Verification gap is itself an analytical signal.",
+      "tooltip": "PRIMARY: HRANA 3,636 (1,701 civ / 1,221 mil / 714 unclassified, as of 7 Apr — 27 days stale). SECONDARY: Iran Foundation of Martyrs 3,468 (19 Apr — 15 days stale). Iran MoH 610 + 4,746 wounded (Apr ceasefire — official, undercounted). Both organizations limited by Iranian comms restrictions and military reporting opacity. Treat as floor, not ceiling.",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
-      "value": 2659,
+      "value": 2696,
       "label": "Lebanese killed (LB MoPH)",
-      "note": "Day 65 sees fresh evacuation warnings for villages NORTH of Litani River — first major expansion outside buffer zone.",
-      "tooltip": "Lebanese Ministry of Public Health (NNA-cited): 2,659 killed, 8,183 wounded since Mar 2. +41 in past 24h tied to Israeli strikes Sat May 2 across south Lebanon (Shoukine, Kfar Dajjal, Lwaizeh, Habboush, Nabatieh, Tyre district). Source: Al Jazeera May 2/3.",
+      "note": "Day 66: IDF struck >20 Hezbollah-linked sites Beqaa + south; +37 killed, +81 wounded vs May 3. Netanyahu declared IDF freedom-of-action 'north of the Litani.' Lebanon now principal active kinetic theater.",
+      "tooltip": "Lebanese Ministry of Public Health (NNA-cited, May 4 18:00 Beirut): 2,696 killed, 8,264 wounded since Mar 2. +37 killed / +81 wounded vs May 3. Children >130, women >102, health workers 57, IDF KIA in Lebanon 16, Israeli civilians 2.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
-      "value": 4200000,
+      "value": 4850000,
       "label": "Total Displaced",
-      "note": "Iran 3.2M internally displaced (Iran Govt 13 Apr); Lebanon ~1M displaced since Mar 2. ~118,300 cross-border to Türkiye/Pakistan (UNHCR Apr 16); ~95,000 returned. No new IOM/UNHCR figure May 1-2.",
-      "tooltip": "~3.2M Iran IDPs + ~1M Lebanese (UN OCHA / Lebanon government). Day-64 figure carried; no fresh UN OCHA bulletin.",
+      "note": "Lebanon IDP figure revised UP from ~1.0M baseline to 1.6M (Lebanese govt cite, late Apr–early May), reflecting expanded evacuation orders covering 14% of Lebanese territory and now extending north of Litani. Confidence MEDIUM pending OCHA refresh.",
+      "tooltip": "4.85M total — 3.2M Iran IDPs + 1.6M Lebanon IDPs + 0.05M Lebanon-to-Syria (UNHCR / Lebanese government). Lebanon revised from ~1.0M baseline; magnitude of revision is large but plausible given IDF orders covering ~1,470 km² (14% of territory) extended N of Litani 03 May.",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
@@ -1286,10 +1305,10 @@
       "color": "var(--text-secondary)"
     },
     "children_killed": {
-      "value": 558,
-      "label": "Children killed (Iran 376 + Lebanon 177)",
-      "note": "FLAG: increment is estimate; UNICEF/MoPH cumulative breakdown not refreshed today.",
-      "tooltip": "Al Jazeera May 1: 'a child' killed in Habboush, additional children injured. May 2 strikes on residential homes (Lwaizeh, Kfar Dajjal) almost certainly include minors per NNA reports. Dashboard estimate; final attribution pending UNICEF/MoPH breakdown.",
+      "value": 583,
+      "label": "Children killed (Iran 376 + Lebanon >130 + others)",
+      "note": "FLAG: increment is estimate; UNICEF/MoPH cumulative breakdown not refreshed today. Lebanon MoPH children running cum >130; Iran MoH 376 (mid-April).",
+      "tooltip": "Iran MoH 376 + Lebanon MoPH >130 + ~77 from other regional fronts including Minab Feb 28 (revised down to 73 girls in originally cited toll). Day-66 IDF strikes on residential areas south Lebanon likely include minors per NNA reports; final UNICEF/MoPH breakdown pending.",
       "color": "var(--civilian)"
     }
   }
