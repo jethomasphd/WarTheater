@@ -5947,5 +5947,32 @@
     "category": "diplomatic",
     "source": "AP; Reuters; Al Jazeera; CNN; Tasnim; IRNA",
     "data_point": "14-pt plan stalemate"
+  },
+  {
+    "date": "2026-05-05",
+    "time": "morning",
+    "title": "Pentagon briefing: Hegseth/Caine confirm 'ceasefire is not over'; Project Freedom Day 2; 22,500 mariners stranded Persian Gulf",
+    "description": "SecDef Pete Hegseth and CJCS Gen. Dan Caine briefed at Pentagon. Hegseth: 'No, the ceasefire is not over... Project Freedom is defensive in nature, focused in scope and temporary in duration... separate and distinct from Operation Epic Fury... locked and loaded.' Caine: 'Iran has fired at commercial vessels nine times and seized two container ships, and they've attacked US forces more than 10 times, all below the threshold of restarting major combat operations... It feels like Iran is grasping at straws.' Caine: 22,500 mariners on 1,550+ vessels stuck in Persian Gulf; six other ships attempting to violate Iranian-port blockade 'were all turned around.' Statement frames Project Freedom as protected diplomatic space rather than escalation step. Markets pared on reassurance: Brent intraday $112.90 (-1.4%), WTI $104.20 (-2.0%), RBOB Gasoline futures eased to $3.63 from May 4 4-yr high $3.74.",
+    "category": "us_policy",
+    "source": "CNN Live; CBS News; PBS NewsHour; Washington Times; Pentagon press conference May 5",
+    "data_point": "Ceasefire D27 nominal hold; Iran 10+ attacks on US forces, 9 commercial-vessel attacks, 2 ship seizures since ceasefire"
+  },
+  {
+    "date": "2026-05-05",
+    "time": "intraday",
+    "title": "Oil pares on Pentagon reassurance; AAA gas $4.483 (+49.9% vs baseline); Lipow: $5/gal possible if Hormuz remains closed",
+    "description": "Brent intraday $112.90 (-1.4% vs May 4 settle $114.44); WTI intraday $104.20 (-2.0% vs $106.42); RBOB gasoline futures eased to $3.63 from 4-year high $3.74. AAA national gas average $4.483/gal (+2.6¢ d/d, +49.9% vs $2.99 Feb 28 baseline). Lipow Oil Associates' Andy Lipow: gas could approach $5/gal if Hormuz remains closed next month — would near 2022 record $5.02 (June 2022). Risk-off rally driven by Hegseth/Caine ceasefire reassurance and Iran's confirmed review of US response to 14-point proposal.",
+    "category": "markets",
+    "source": "Trading Economics; CNN; AAA Fuel Gauge; Reuters",
+    "data_point": "Brent $112.90 / WTI $104.20 / Gas $4.483"
+  },
+  {
+    "date": "2026-05-05",
+    "time": "all-day",
+    "title": "UAE partial airspace closure (NOTAM A1722/26) in effect May 4-11; Dubai schools shift to distance learning May 5-8",
+    "description": "Emirates FIR partially closed; commercial traffic restricted to narrow corridors via specific waypoints. Al Dhafra Air Base (US/coalition) remains open on restricted routing. Dubai schools shifted to distance learning May 5-8 (extendable to May 8 reassessment). Bloomberg confirmed restrictions through May 11. UAE cumulative since war start (per UAE MoD May 4 official): 549 BMs, 29 CMs, 2,260 UAVs engaged; 227 injuries (multiple nationalities); 3 'martyrs' + 10 civilian fatalities cumulative. UAE FM: 'unacceptable transgression... reserves full and legitimate right to respond.' Saudi MBS personally condemned Iran's 'unjustified attacks targeting the sisterly UAE.'",
+    "category": "regional_disruption",
+    "source": "Bloomberg; BusinessToday; Khaleej Times; Dubai KHDA; UAE MoD",
+    "data_point": "NOTAM A1722/26 effective May 4-11"
   }
 ]
