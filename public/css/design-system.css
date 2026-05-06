@@ -1937,6 +1937,23 @@ h4 { font-size: var(--text-lg); }
   font-size: var(--text-sm) !important;
   line-height: 1.5 !important;
   margin: var(--space-md) !important;
+  max-height: min(60vh, 420px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.leaflet-popup-content::-webkit-scrollbar {
+  width: 6px;
+}
+.leaflet-popup-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+.leaflet-popup-content::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+.leaflet-popup-content::-webkit-scrollbar-thumb:hover {
+  background: var(--text-dim);
 }
 
 .leaflet-popup-content h4 {
