@@ -3015,5 +3015,28 @@
     ],
     "verified": true,
     "last_updated": "2026-05-05"
+  },
+  {
+    "id": "ret_20260505_uae_day2",
+    "city": "UAE airspace (multiple emirates)",
+    "lat": 24.4667,
+    "lng": 54.3667,
+    "type": "iran_retaliation",
+    "actor": "iran_disputed",
+    "first_strike": "2026-05-05",
+    "active_days": [67],
+    "weapon": "Unspecified ballistic missiles + drones (UAE MoD: 'engaged' threats)",
+    "casualties_reported": "0 reported May 5; no confirmed damage",
+    "casualties_source": "UAE Ministry of Defence / IRGC statement (Fars) / Al Jazeera / NPR / Jerusalem Post",
+    "notes": "Day 67 (May 5): UAE air defenses engaged a SECOND CONSECUTIVE day of inbound projectiles after Day 66 May 4 strikes on Fujairah Oil Industry Zone, ADNOC tanker 'Barakah,' and intercepted 12 BM + 3 CM + 4 UAVs. UAE MoD reported systems 'engaged' threats but did NOT specify counts; no confirmed damage or casualties. ATTRIBUTION DISPUTED: IRGC statement carried by Fars late May 5 — 'forces have not carried out any missile or drone operations against the UAE in recent days... If any action had been taken, we would have announced it firmly and clearly. Therefore, the report of that country's Ministry of Defense is absolutely denied and is devoid of any truth.' UAE MoD continues to attribute Iran. Earlier, an unnamed Iranian military official told Iranian state media that the May 4 Fujairah fire 'resulted from US military adventurism.' Iran has not formally denied the May 4 attacks on UAE. ASSESSMENT: Either (a) UAE misattributed/false alarm, (b) Iranian non-state proxy/IRGC-affiliated faction acted without central command authorization, (c) IRGC denial is strategic disinformation pre-Beijing visit. Caine described May 5 as a 'quieter day' overall. Day 67 also saw CNN/Fars correction of a purported Iranian Army Chief 'Hatami' warning to US carriers — traced to a fake X account — highlighting brittle attribution environment for Iranian-state-media single-source claims.",
+    "sources": [
+      "Al Jazeera 2026-05-05 'UAE comes under Iranian attacks for second consecutive day'",
+      "NPR 2026-05-05",
+      "Jerusalem Post live updates 2026-05-05",
+      "IRGC statement via Fars (May 5)",
+      "CNN Day 67 live blog"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-06"
   }
 ]

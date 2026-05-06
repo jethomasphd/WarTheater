@@ -5974,5 +5974,77 @@
     "category": "regional_disruption",
     "source": "Bloomberg; BusinessToday; Khaleej Times; Dubai KHDA; UAE MoD",
     "data_point": "NOTAM A1722/26 effective May 4-11"
+  },
+  {
+    "date": "2026-05-05",
+    "time": "afternoon",
+    "title": "Rubio declares Operation Epic Fury 'concluded' from White House briefing room",
+    "description": "Secretary of State Marco Rubio, taking questions from the press briefing podium: 'The Operation Epic Fury is concluded. We achieved the objectives of that operation.' Framed current US posture as 'defensive in nature' — 'no shooting unless we're shot at first' — and emphasized Project Freedom is 'separate and distinct.' Warned Iran of 'generational destruction' to its economy if escalation resumed. Conflicts with Trump's May 6 Truth Social statement that bombing 'starts at a much higher level and intensity than it was before' if Iran does not agree to MOU terms. Internal-administration messaging inconsistency now structural — Rubio's framing creates space for Iranian face-saving while Trump's preserves military leverage.",
+    "category": "us_policy",
+    "source": "Al Jazeera 2026-05-06 'Operation Epic Fury has ended'; CNN Day 67 live blog; Jerusalem Post 2026-05-05; Time 2026-05-05; The Hill 2026-05-05; Middle East Eye 2026-05-05",
+    "data_point": "Epic Fury concluded — pending MOU finalization; reversion possible"
+  },
+  {
+    "date": "2026-05-05",
+    "time": "evening",
+    "title": "S&P 500 and Nasdaq close at record highs on Iran-deal optimism + earnings",
+    "description": "S&P 500 +0.81% to record 7,259.22; Nasdaq +1.03% to record 25,326.13; Dow +356.35 (+0.73%) to 49,298.25; Russell 2000 +1.75% to 2,845.00 (52-week high); VIX -4.98% to 17.38. WTI settled -3.9% at $102.27; Brent settled -3.99% at $109.87. Tech sector +2% led; energy was the only laggard.",
+    "category": "markets",
+    "source": "CNBC 2026-05-05; Yahoo Finance ^GSPC; TheStreet 2026-05-05; Schwab Market Update 2026-05-05",
+    "data_point": "S&P 500 record close 7,259.22 (+0.81%)"
+  },
+  {
+    "date": "2026-05-05",
+    "time": "evening",
+    "title": "Lebanese MoPH cumulative toll surpasses 2,700 killed / 8,311 wounded since 2 March",
+    "description": "Lebanese Ministry of Public Health reports cumulative casualties have exceeded 2,700 killed and 8,311 wounded. UNHCR notes 380 Lebanese killed since the April 17 Israel-Lebanon ceasefire 'took effect' — i.e., post-ceasefire violations remain at scale. Despite formal ceasefire, IDF strikes have continued daily in southern Lebanon and the Beqaa Valley.",
+    "category": "lebanon_casualties",
+    "source": "Palestine Chronicle 2026-05-05 (citing Lebanese MoPH); WAFA 2026-05-04 (precise prior figure: 2,696/8,264)",
+    "data_point": "2,700+ killed / 8,311 wounded (+4 / +47 d/d)"
+  },
+  {
+    "date": "2026-05-05",
+    "time": "evening",
+    "title": "IRGC statement explicitly denies authorship of May 5 UAE strikes",
+    "description": "IRGC statement carried by Fars: 'forces have not carried out any missile or drone operations against the UAE in recent days... If any action had been taken, we would have announced it firmly and clearly. Therefore, the report of that country's Ministry of Defense is absolutely denied and is devoid of any truth.' Earlier, an unnamed Iranian military official told Iranian state media that the May 4 Fujairah fire 'resulted from US military adventurism.' Notable: Iran has not formally denied the May 4 attacks on UAE, where 12 BM + 3 CM + 4 UAVs were reportedly engaged. Highlights brittle attribution environment — together with CNN/Fars correction of fake 'Hatami' warning.",
+    "category": "attribution",
+    "source": "Al Jazeera 2026-05-05 'UAE comes under attacks second day'; NPR 2026-05-05; Fars (IRGC statement)",
+    "data_point": "Iran denies UAE Day 2; UAE/CENTCOM still attribute Iran"
+  },
+  {
+    "date": "2026-05-05",
+    "time": "22:00",
+    "title": "Trump pauses Project Freedom Tuesday evening citing 'Great Progress' toward 'Complete and Final Agreement'",
+    "description": "Trump announced via Truth Social a pause in the US Navy's Strait of Hormuz vessel-escort operation. Pause attributed to 'request of Pakistan and other Countries' and to negotiation progress. US naval blockade of Iranian ports REMAINS active. Pause occurred 48 hours after Project Freedom launch (May 4); only 2 US-flagged commercial vessels had transited under US escort during the 48-hour window.",
+    "category": "us_policy",
+    "source": "NPR 2026-05-06; CNN Day 67 live blog; NBC News Day 67; ABC News live updates; Al Jazeera 2026-05-06",
+    "data_point": "Project Freedom paused — 48 hours after launch; 2 US-flag transits"
+  },
+  {
+    "date": "2026-05-06",
+    "time": "morning",
+    "title": "Axios: US-Iran nearing 'one-page, 14-point MOU' for 30-day negotiation window",
+    "description": "Axios reported, citing two US officials and two sources briefed on talks, that the White House 'believes it's getting close to an agreement with Iran on a one-page memorandum of understanding to end the war and set a framework for more detailed nuclear negotiations.' Iranian responses on key points expected within 48 hours. Reported terms include: short-term enrichment pause; debate over moratorium length (US: 'up to 20 years'; Iran: 5 years; potential compromise: 12-15 years); post-period Iran could resume limited 3.67% enrichment; clause forbidding underground facilities; possible transfer of HEU stockpile to US; snap UN inspections. Sources cautioned 'nothing has been agreed yet' and noted Iran's internal divisions could derail the deal. Tentatively dubbed the 'Islamabad Accord.' Single-source MEDIUM confidence pending Reuters/AP corroboration. Potential conflation flagged with Iran's Day 67 14-point counter-proposal (Baghaei: 'exclusively focuses on ending the war and contains no issues related to the nuclear domain') — appears to be different/merged document drafted by Pakistani mediators.",
+    "category": "diplomatic",
+    "source": "Axios via TheStreet 2026-05-06; The Tribune 2026-05-06; Free Press Journal 2026-05-06; 24/7 Wall St 2026-05-06",
+    "data_point": "14-pt MOU; 30-day window; 48-hr Iran response expected"
+  },
+  {
+    "date": "2026-05-06",
+    "time": "midday",
+    "title": "FM Araghchi meets China's FM Wang Yi in Beijing — first Iranian visit since Feb 28",
+    "description": "Wang Yi: 'a comprehensive ceasefire is urgently needed... a resumption of hostilities is not acceptable.' Wang explicitly called for Strait of Hormuz to reopen 'as soon as possible' (Chinese MFA statement; this clause omitted from Iran's MFA Telegram readout). Wang also condemned US/Israeli strikes as 'illegitimate' (per Tasnim) and reaffirmed Iran's 'legitimate right to peaceful use of nuclear energy.' Araghchi: 'experience has shown that political crises cannot be resolved through military means'; said reopening Hormuz 'could be addressed promptly.' Visit timed one week ahead of Trump-Xi summit in Beijing May 14-15. Diagnostic: China willing to publicly press Iran on Hormuz but Iran not willing to publicly accept the pressure.",
+    "category": "diplomatic",
+    "source": "Al Jazeera 2026-05-06; CNBC 2026-05-06; Bloomberg 2026-05-06; CGTN 2026-05-06; Washington Times 2026-05-06; WSLS/AP 2026-05-06",
+    "data_point": "First Iranian visit to Beijing since Feb 28; one week before Trump-Xi summit"
+  },
+  {
+    "date": "2026-05-06",
+    "time": "intraday",
+    "title": "Oil benchmarks slump 8-9% to two-week lows on US-Iran deal hopes",
+    "description": "Brent dropped >8% intraday to below $101/bbl (range $96.77–$110.84); WTI dropped >9% intraday to below $93/bbl. Reuters reports the move accelerated after a Pakistani source confirmed framework progress. Goldman Sachs Hormuz export-flow estimate (Day 65): ~4% of normal. Despite decline, prices remain well above $71 Brent / $66.50 WTI Feb 27 baseline. Recovery in shipping flows assessed at 'weeks' even with full resolution. Equities rallied to fresh records: S&P 500 intraday +1% to ~7,330; Dow +500-600 pts; Nasdaq +1.5% on AMD +20% / Disney +5-8% / Super Micro +15%; VIX 16.20 futures (-6.80%).",
+    "category": "markets",
+    "source": "Trading Economics 2026-05-06; Reuters via Investing.com 2026-05-06; Barchart CBK26",
+    "data_point": "Brent intraday $101.50 (-7.6%) / WTI $93.20 (-8.9%)"
   }
 ]

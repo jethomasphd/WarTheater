@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.483,
-  "war_increase": 1.493,
+  "current_gas": 4.48,
+  "war_increase": 1.49,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.654 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com state averages, May 5 2026 (Tuesday — daily figure $4.483, +2.6¢ d/d vs $4.457 May 4, +49.9% vs $2.99 Feb 28 baseline). Lipow Oil Associates: gas could approach $5/gal if Hormuz remains closed next month — would near 2022 record $5.02 (June 2022).",
-  "last_updated": "2026-05-05"
+  "source": "AAA gasprices.aaa.com state averages, May 6 2026 (Wednesday — daily figure $4.48, flat d/d vs $4.483 May 5, +49.8% vs $2.99 Feb 28 baseline; +$0.31 wk/wk). Smith (S&P Global): even with full resolution, weeks-to-months for risk premium decay due to refining/distribution lag. Highest county: Kenton County KY $4.92 (+$2.32 vs baseline).",
+  "last_updated": "2026-05-06"
 }
