@@ -1,47 +1,47 @@
 {
-  "last_updated": "2026-05-06",
-  "war_day": 68,
-  "timestamp_label": "LAST UPDATED: MAY 06, 2026 13:32 ET",
+  "last_updated": "2026-05-07",
+  "war_day": 69,
+  "timestamp_label": "LAST UPDATED: MAY 07, 2026 16:10 ET",
   "cost": {
     "brent": {
-      "price": 101.5,
-      "label": "Brent crude (May 6 intraday, ICE Jul)",
-      "change": "-7.6% vs May 5 settle ($109.87)",
-      "tooltip": "ICE Brent July contract intraday May 6 = $101.50 (-7.6%, two-week low; range $96.77\u2013$110.84). Settle pending. Collapsed from $109.87 May 5 settle on Axios 'one-page 14-point MOU' report and Pakistani-mediated framework progress. +43% vs $71.00 Feb 27 baseline."
+      "price": 101.94,
+      "label": "Brent crude (May 7 settle est., ICE Jul)",
+      "change": "+0.7% vs May 6 settle ($101.27)",
+      "tooltip": "ICE Brent July contract settle May 7 ~$101.94 (volatile; intraday low $100.45 at 8:45am ET, range -3% to -1%). May 6 settle was $101.27 (-7.8%) on Axios 14-pt MoU report \u2014 biggest single-day drop of the war. May 7 rebounded ~1% on Trump rebombing threat. +43.6% vs $71.00 Feb 27 baseline."
     },
     "wti": {
-      "price": 93.2,
-      "label": "WTI crude (May 6 intraday, NYMEX Jun CLM26)",
-      "change": "-8.9% vs May 5 settle ($102.27)",
-      "tooltip": "NYMEX WTI front-month June (CLM26) intraday May 6 = $93.20 (-8.9%, two-week low). Settle pending. Two-week low driven by US-Iran deal-hopes on Axios MOU report. +40% vs $66.50 Feb 27 baseline."
+      "price": 95.66,
+      "label": "WTI crude (May 7 settle est., NYMEX Jun)",
+      "change": "+0.6% vs May 6 settle ($95.08)",
+      "tooltip": "NYMEX WTI front-month June settle May 7 ~$95.66 (range $91.73\u2013$96.25). May 6 closed $95.08 (-7%) after Axios MoU report. +43.8% vs $66.50 Feb 27 baseline."
     },
     "gas": {
-      "price": 4.48,
+      "price": 4.558,
       "label": "AAA national average, regular unleaded",
-      "change": "flat d/d vs May 5 ($4.483); +$0.31 wk/wk",
-      "tooltip": "Source: gasprices.aaa.com snapshot 5/6/26. +49.8% vs $2.99 Feb 28 baseline. Highest county: Kenton County KY $4.92 (+$2.32 vs baseline). Sticky despite oil drop \u2014 Smith (S&P Global): 'weeks-to-months for risk premium decay even with full resolution' (refining/distribution lag)."
+      "change": "+7.8\u00a2 d/d vs May 6 ($4.48); +$0.25 wk/wk (2nd consecutive +25\u00a2 week per AAA)",
+      "tooltip": "Source: gasprices.aaa.com daily snapshot 5/7/26. +52.4% vs $2.99 Feb 28 baseline; +$1.40 vs year ago; 15 consecutive days of increases. Sticky despite oil drop \u2014 refining/distribution lag (Smith, S&P Global). CA $6.16 high, OK $3.98 low. NPR/PBS/Marist (May 6): 33% of Americans report 'major' household budget strain."
     },
     "sp500": {
-      "value": 7330,
-      "label": "S&P 500 (May 6 intraday est., new record)",
-      "change": "+~1.0% vs May 5 close 7,259.22 (ATH)",
-      "tooltip": "May 6 intraday +1% to fresh record (~7,330; final close pending). May 5 close 7,259.22 (+0.81%) was record close; Nasdaq record 25,326.13 (+1.03%); Dow +500-600 pts intraday May 6. Drivers: Iran-deal hopes (Axios 14-pt MOU) + earnings (AMD +20%, Disney +5-8%, Super Micro +15%). VIX 16.20 futures (-6.80%)."
+      "value": 7365.12,
+      "label": "S&P 500 (May 6 close, ATH; May 7 -0.4%)",
+      "change": "May 6 record 7,365.12 (+1.46%); May 7 intraday ATH then -0.4%",
+      "tooltip": "S&P 500 set all-time record close May 6 at 7,365.12 (+1.46%, +106.... intraday breached 7,400). Dow 49,910.59 (+1.24%, +612.34); Nasdaq record 25,838.94 (+2.02%); Russell 2000 record 2,888.24 (+1.52%). May 7 set fresh intraday ATH then retreated as oil rebounded; closing -0.4% from May 6 record. Drivers: Iran-deal hopes (Axios 14-pt MoU) + earnings (AMD +20%, Disney +5%, Super Micro +15%, Uber +7%, Apple held +3%). Energy was sole losing sector May 6."
     },
     "daily_cost": {
-      "value": 650,
+      "value": 645,
       "unit": "M",
-      "label": "Daily US war cost, Day 68",
-      "note": "Defensive-posture rate; offensive Epic Fury concluded per Rubio May 5; Project Freedom paused evening May 5.",
-      "tooltip": "Day-68 daily run-rate ~$650M reflects ceasefire-phase defensive ops only. Pentagon Comptroller official $25B (Apr 29/Day 60); CBS internal officials $40-50B; CSIS upper-bound full economic ~$1T; Penn Wharton $40-95B direct + $210B economic.",
-      "change": "+$5M vs Day 67 ($645M)"
+      "label": "Daily US war cost, Day 69",
+      "note": "Defensive-posture rate; Epic Fury concluded per Rubio May 5; Project Freedom paused since May 5 evening; blockade in full force.",
+      "tooltip": "Day-69 daily run-rate ~$645M reflects ceasefire-phase defensive ops only. Pentagon Comptroller official $25B (Apr 29/Day 60) is now STALE 8 DAYS \u2014 Congress in recess; absence of fresh figure is itself a story. CBS internal officials $40-50B; CSIS upper-bound full economic ~$1T; Penn Wharton $40-95B direct + $210B economic.",
+      "change": "-$5M vs Day 68 ($650M)"
     },
     "total_cost": {
-      "value": 56.29,
+      "value": 57.0,
       "unit": "B",
-      "label": "Est. Total Cost (68 Days)",
-      "note": "Scenario midpoint. Pentagon $25B (29 Apr/Day 60) is primary official; CBS internal $40-50B; CSIS upper bound ~$1T (full economic).",
-      "tooltip": "$55.64B (Day 67) + $650M Day 68 = $56.29B midpoint. Method: Pentagon $25B (Day 60) baseline + CSIS run-rate ($1.0\u20131.4B/day) for combat-active days, plus base-repair tail (>$5B AEI). Daily rate now reflects defensive-posture burn (no Epic Fury sortie tempo).",
-      "change": "+0.65"
+      "label": "Est. Total Cost (69 Days)",
+      "note": "Scenario midpoint. Pentagon $25B (29 Apr/Day 60) is primary official, STALE 8 DAYS; CBS internal $40-50B; CSIS upper bound ~$1T (full economic).",
+      "tooltip": "$56.29B (Day 68) + $645M Day 69 = $57.0B midpoint (rounded). Method: Pentagon $25B (Day 60) baseline + CSIS run-rate ($1.0\u20131.4B/day) for combat-active days, plus base-repair tail (>$5B AEI). Daily rate reflects defensive-posture burn (no Epic Fury sortie tempo). Pentagon-official figure stale 8 days \u2014 absence of update ahead of MoU signing is itself a story.",
+      "change": "+0.71"
     }
   },
   "history": [
