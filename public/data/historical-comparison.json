@@ -8,27 +8,34 @@
       "note": "Operation Epic Fury — Day 69. Ceasefire Day 29 (indefinite extension Day 16); SecState Rubio (May 5 White House briefing): 'Operation Epic Fury is concluded. We achieved the objectives of that operation' — formal phase pivot from kinetic to blockade + diplomacy. Trump (Truth Social conditional): 'the bombing starts, and it will be, sadly, at a much higher level and intensity than it was before' if Iran fails to MoU terms — internal admin inconsistency with Rubio's unconditional framing. Iran MoU response 'still under review' — slipped past informal Thursday deadline; FM Araghchi (call with Pakistani counterpart): 'dialogue and diplomacy.' MoU 14-point provisions per Axios + CNN convergence: end of war + 30-day window for talks on Hormuz reopening, sanctions lifting, frozen-asset release, >10-year uranium-enrichment moratorium, possible HEU stockpile shipment out of Iran, no underground facility operations, snap IAEA inspections. CSG count CENTCOM stable at 2 (Lincoln + Bush co-located Northern Arabian Sea); Tripoli (LHA-7) ARG with New Orleans (LPD-18) + Rushmore (LSD-47) Arabian Sea; Boxer ARG Indian Ocean AIS-dark transiting toward CENTCOM AOR; Ford CSG westbound transit toward Norfolk after 314-day record deployment. NEW: France redeployed nuclear carrier Charles de Gaulle to Red Sea May 6 (UK-French multinational mission 'distinct from warring parties'). MAY 6 BLOCKADE-ENFORCEMENT MILESTONE: F/A-18E from USS Abraham Lincoln (CVN-72) used M61 Vulcan 20mm cannon to disable rudder of Iranian-flagged 333m oil tanker M/T Hasna in Gulf of Oman — first publicly known case of an aircraft directly disabling a vessel under the blockade. CENTCOM cumulative blockade tally: 52 (NPR/CENTCOM May 6, +1 vs May 5; +2 vs May 1 50). Project Freedom remains paused since May 5 evening. PGSA INSTITUTIONALIZED (May 5 launch): Iran's Persian Gulf Strait Authority requires Vessel Information Declaration filings; tolls reportedly up to $2M/vessel (UNVERIFIED quantum); only ~40 transits across the strait the entire week ending May 3 vs. 120/day pre-war (Lloyd's List May 7). SAUDI/KUWAIT BASE-ACCESS CURBS DISCLOSED (NBC May 6 / AP May 7): Saudi Arabia and Kuwait quietly told the US they were 'not part of this' on Project Freedom and would not allow base/airspace use — major signal of GCC strategic divergence. ISRAEL BREAKS LEBANON CEASEFIRE: IDF airstrike on Beirut Dahiyeh (May 6) killed Hezbollah Radwan Force Operations Commander Ahmed Ghaleb Ballout (alt. Malek Ballout), Nasr regional intel chief Muhammad Ali Bazi, Aerial Defense Chief Hussein Hassan — first Beirut strike since the April 17 ceasefire. 11+ killed in concurrent strikes May 6-7. Lebanese MoPH cumulative since Mar 2: 2,727 killed / 8,438 wounded (CNN/MoPH May 7; +31/+174 since May 4). MARKETS — VOLATILE: Brent (ICE Jul) intraday low $100.45, settle ~$101.94; WTI ~$95.66; S&P 500 set fresh intraday all-time high then retreated -0.4% from May 6 record 7,365.12; AAA gas $4.558/gal (+7.8¢ d/d, +25¢ wk/wk for 2nd consecutive week per AAA May 7 release; 15 consecutive days of increases; +$1.40 vs year ago). U.S. KIA 15 (all-cause; Pentagon-official 13 combat-only); WIA 415 (carry-forward; no new Pentagon update). Cumulative U.S. cost midpoint $57.0B; range $25B (Pentagon Comptroller Hurst Apr 29 official, stale 8 days) → $40-50B (CBS internal) → ~$1T (CSIS upper bound incl. economic spillover). Day 69 places this conflict 26 days past Operation Desert Storm length (43 days) and 9 days short of Operation Allied Force / Kosovo (78 days); 5.75x longer than the June 2025 Iran-Israel war (12 days)."
     },
     {
-      "label": "Iraq 2003 (Day 21)",
-      "targets_struck": 19000,
-      "us_kia": 85,
-      "daily_cost_millions": 750,
-      "note": "Operation Iraqi Freedom — \"shock and awe\" + ground invasion. 300,000 troops deployed."
+      "label": "Iraq 2003 (43-day major combat phase)",
+      "targets_struck": 19948,
+      "us_kia": 139,
+      "daily_cost_millions": 580,
+      "note": "Operation Iraqi Freedom — major combat phase (Mar 19 – May 1, 2003, ~43 days). Targets ~19,948 munitions / ~41,000 sorties. US KIA 139 in major combat phase (full OIF 2003-2011 KIA: ~4,431). Cost figure reflects major-combat phase only (~$25B nominal, inflation-adjusted to 2026 $). Full-conflict cumulative (2003-2011) is materially larger at ~$815B nominal / >$1.3T 2026 dollars."
     },
     {
-      "label": "Libya 2011 (Day 21)",
-      "targets_struck": 700,
+      "label": "Libya 2011 (222-day Unified Protector)",
+      "targets_struck": 1000,
       "us_kia": 0,
-      "daily_cost_millions": 125,
-      "note": "Operation Odyssey Dawn / Unified Protector — NATO no-fly zone. Limited US role."
+      "daily_cost_millions": 7,
+      "note": "Operation Odyssey Dawn → Unified Protector — NATO no-fly zone (Mar 19 – Oct 31, 2011 = 222 days). NATO total ~26,500 sorties; US strike contribution ~700–1,000 targets (limited US role after handover to NATO Mar 31). US KIA: 0. US cost: ~$1.1B nominal / ~$1.5B 2026 dollars over 222 days = ~$7M/day average."
     },
     {
-      "label": "Gulf 1991 (Day 21)",
-      "targets_struck": 26000,
-      "us_kia": 18,
-      "daily_cost_millions": 620,
-      "note": "Operation Desert Storm — 38-day air campaign + 100-hour ground war. 700,000 coalition troops."
+      "label": "Gulf 1991 (43-day Desert Storm air campaign)",
+      "targets_struck": 38000,
+      "us_kia": 148,
+      "daily_cost_millions": 3140,
+      "note": "Operation Desert Storm — 38-day air campaign (Jan 17 – Feb 23, 1991) + 100-hour ground war (Feb 24 – Feb 28). ~118,000 coalition sorties, ~38,000+ targets engaged. US KIA: 148 hostile + ~235 non-hostile = ~383 total US deaths during operation. Cost: $61.1B nominal (CRS RL33110); inflation-adjusted to ~$135B in 2026 dollars over 43 days = ~$3.1B/day. 700,000 coalition troops deployed."
+    },
+    {
+      "label": "Kosovo 1999 (78-day Allied Force)",
+      "targets_struck": 38000,
+      "us_kia": 2,
+      "daily_cost_millions": 72,
+      "note": "Operation Allied Force — NATO air campaign over Yugoslavia (Mar 24 – Jun 10, 1999 = 78 days). ~38,000 sorties. US KIA: 2 (Apache helicopter crash, training accident in Albania). Cost: ~$3B nominal / ~$5.6B 2026 dollars over 78 days = ~$72M/day average. NATO no-fly zone enforcement + strikes on Yugoslav targets to halt Kosovo operations."
     }
   ],
-  "sources": "CRS Reports R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya). Costs inflation-adjusted to 2026 dollars using BLS CPI-U.",
+  "sources": "Comparison conflicts use FULL-CONFLICT TOTALS (not Day-21 snapshots). Sources: CRS R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya), RL30374 (Kosovo). Costs inflation-adjusted to 2026 dollars using BLS CPI-U. APPROXIMATIONS: Sortie-counts vs. distinct-target-counts are not always cleanly separable in DoD records; figures cited are best-available open-source estimates and should be read as orders of magnitude. Iraq 2003 cost row reflects ~43-day major combat phase only — full OIF 2003-2011 totals are materially higher (~$815B nominal). Libya 2011 'targets_struck' reflects US strike contribution only (NATO total sorties ~26,500). Iran 2026 row is current state at Day 69 (in progress) and will be updated daily until ceasefire is formalized.",
   "last_updated": "2026-05-07"
 }

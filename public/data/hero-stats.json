@@ -1306,7 +1306,7 @@
       "iranian_killed": 3468,
       "lebanese_killed": 2727,
       "displaced": 4850000,
-      "flights_cancelled": -1,
+      "flights_cancelled": 52000,
       "children_killed": 583,
       "headline": "Iran reviews 14-point MoU; PGSA institutionalizes Hormuz tolls; Israel breaks Lebanon truce in Beirut killing Radwan commander Ballout; F/A-18 disables M/T Hasna in first aerial blockade interdiction"
     }
@@ -1355,10 +1355,10 @@
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
-      "value": -1,
-      "label": "Cumulative commercial flights cancelled (carry-forward)",
-      "note": "UAE NOTAM A1722/26 partial Emirates FIR closure remains active May 4-11; Dubai/Sharjah schools on distance learning May 5-8 with reassessment scheduled May 8.",
-      "tooltip": "No new IATA/Eurocontrol bulletin. UAE airspace partial closure remains in effect with commercial traffic restricted to specific entry/exit points; Al Dhafra Air Base operational on restricted routing. Gulf and Lebanese airspace partially restored under ceasefire but UAE/Israeli airspace still constrained.",
+      "value": 52000,
+      "label": "Commercial flights affected (regional airspace closures, floor)",
+      "note": "Day 69: floor figure from cumulative airspace-closure impact in Lebanese, Israeli, Iranian, Iraqi, Jordanian, and UAE FIRs. UAE NOTAM A1722/26 partial Emirates FIR closure remains in effect through May 11; Dubai/Sharjah schools on distance learning May 5-8. Cumulative IATA / Eurocontrol-style impact tracker has not been refreshed; this is a conservative floor anchored to Day 11 figure of 52,000+ flights affected by regional airspace closures (per Iranian Red Crescent / IATA citations preserved in infrastructure.json). True cumulative figure is materially higher; flagged as approximation pending fresh aviation-industry consolidation.",
+      "tooltip": "Methodological note: this is a 'flights affected' figure, not a 'flights cancelled' registry — captures cancellations + diversions + multi-hour holds + reroutes + overflight disruptions across all regional FIRs. Anchored to 52,000+ baseline cited in dashboard's infrastructure dataset; accumulating impact since Feb 28. Recommend treat as floor.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
