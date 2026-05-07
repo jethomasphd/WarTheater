@@ -6046,5 +6046,23 @@
     "category": "markets",
     "source": "Trading Economics 2026-05-06; Reuters via Investing.com 2026-05-06; Barchart CBK26",
     "data_point": "Brent intraday $101.50 (-7.6%) / WTI $93.20 (-8.9%)"
+  },
+  {
+    "date": "2026-05-05",
+    "time": "intraday",
+    "title": "CMA CGM San Antonio struck by suspected Iranian cruise missile in Strait of Hormuz",
+    "description": "Maltese-flagged 2,824-TEU container ship CMA CGM San Antonio (MIDAS2 service) hit while transiting Hormuz. Several crew (Filipino) injured and evacuated for medical care. CBS reports US officials assess CRUISE MISSILE; CMA CGM corporate statement says 'an attack'; UKMTO says 'unknown projectile.' Last AIS off Dubai en route Mundra, India. CONSEQUENCE: This strike triggered Trump's announcement to PAUSE Project Freedom hours later (Truth Social May 5 evening). ATTRIBUTION: Iran has not publicly claimed; CENTCOM not yet attributing publicly. Treat as MEDIUM-HIGH confidence Iran/IRGC origin given pattern; weapon = cruise missile per US-government assessment.",
+    "category": "maritime-incident",
+    "source": "CMA CGM corporate statement; CBS News 2026-05-05; UKMTO advisory; Maritime Executive 2026-05-05; FreightWaves; Seatrade Maritime",
+    "data_point": "Maltese-flag, Filipino crew, several injured; cruise-missile assessment per US officials"
+  },
+  {
+    "date": "2026-05-05",
+    "time": "all-day",
+    "title": "Iran launches Persian Gulf Strait Authority (PGSA) — institutionalizes Hormuz tolls and permits",
+    "description": "Iran via Tasnim/IRIB officially launched PGSA with email info@PGSA.ir, requiring vessels to submit a 'Vessel Information Declaration' (ownership, crew nationalities, cargo, voyage plan) and receive transit permits, reportedly with tolls reaching $2M/vessel (UNVERIFIED quantum). Statement attributed to Supreme Leader Mojtaba Khamenei calls for 'using the leverage of closing the strait' as part of 'a strong Iran' regional order. US Treasury OFAC FAQ confirms such payments unauthorized for US persons. Maritime law experts say it violates UNCLOS transit-passage principle. Lloyd's List notes only ~40 vessels crossed the strait the entire week ending May 3 vs. 120/day pre-war. Most consequential structural event of the cycle: Tehran is converting wartime control over Hormuz into a permanent permit-and-toll regime.",
+    "category": "geoeconomic",
+    "source": "Maritime Executive 2026-05-05; CNN 2026-05-07; Gulf News 2026-05-07; AP/Spectrum 2026-05-07; Al Jazeera; Lloyd's List 2026-05-07",
+    "data_point": "info@PGSA.ir / Vessel Information Declaration / tolls reportedly up to $2M/vessel; ~40 transits week ending May 3 vs 120/day pre-war"
   }
 ]
