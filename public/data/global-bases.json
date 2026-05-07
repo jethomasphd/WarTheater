@@ -8,6 +8,8 @@
   { "name": "Incirlik AB", "lat": 37.00, "lng": 35.43, "type": "air", "note": "NATO base, Turkey. Northern approach operations." },
   { "name": "Camp Lemonnier", "lat": 11.55, "lng": 43.15, "type": "base", "note": "Djibouti. Only permanent US base in Africa." },
   { "name": "Bahrain (5th Fleet)", "lat": 26.23, "lng": 50.48, "type": "naval", "note": "5th Fleet HQ. Direct control of Gulf naval assets." },
+  { "name": "Prince Sultan AB (Saudi Arabia)", "lat": 24.06, "lng": 47.58, "type": "air", "note": "Key US/coalition air base in the Kingdom. Day 68-69 (May 6-7): Saudi Arabia reportedly suspended US base/airspace access for Project Freedom (NBC News May 6 / AP May 7). Saudi official to AP: 'We told them we are not part of this and that they can't use our territories and bases for this'; sent message to Iran kingdom would not be involved. WSJ: Saudis end curbs once Project Freedom paused. Major signal of GCC strategic divergence." },
+  { "name": "Ali Al Salem AB (Kuwait)", "lat": 29.34, "lng": 47.52, "type": "air", "note": "386th Air Expeditionary Wing hub. Day 68-69: Kuwait similarly told the US it would not allow base/airspace use for Project Freedom (NBC News May 6); curbs ended once Project Freedom paused per WSJ summary." },
   { "name": "RAF Fairford", "lat": 51.68, "lng": -1.79, "type": "air", "note": "UK. B-52 forward deployment for CENTCOM operations." },
   { "name": "Pentagon", "lat": 38.87, "lng": -77.06, "type": "landmark", "note": "DoD HQ. Where Operation Epic Fury is commanded." },
   { "name": "New York", "lat": 40.71, "lng": -74.01, "type": "landmark", "note": "NYSE/NYMEX. Processing war-driven market volatility." },

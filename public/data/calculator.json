@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.48,
-  "war_increase": 1.49,
+  "current_gas": 4.558,
+  "war_increase": 1.568,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.654 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com state averages, May 6 2026 (Wednesday — daily figure $4.48, flat d/d vs $4.483 May 5, +49.8% vs $2.99 Feb 28 baseline; +$0.31 wk/wk). Smith (S&P Global): even with full resolution, weeks-to-months for risk premium decay due to refining/distribution lag. Highest county: Kenton County KY $4.92 (+$2.32 vs baseline).",
-  "last_updated": "2026-05-06"
+  "source": "AAA gasprices.aaa.com state averages, May 7 2026 (Thursday — daily figure $4.558, +7.8¢ d/d vs $4.48 May 6, +52.4% vs $2.99 Feb 28 baseline; +$0.25 wk/wk for second consecutive week per AAA May 7 release). 15 consecutive days of increases; +$1.40 vs year ago. CA $6.16 high, OK $3.98 low. NPR/PBS/Marist (May 6): 33% of Americans report 'major' household budget strain.",
+  "last_updated": "2026-05-07"
 }

@@ -6046,5 +6046,86 @@
     "category": "markets",
     "source": "Trading Economics 2026-05-06; Reuters via Investing.com 2026-05-06; Barchart CBK26",
     "data_point": "Brent intraday $101.50 (-7.6%) / WTI $93.20 (-8.9%)"
+  },
+  {
+    "date": "2026-05-05",
+    "time": "intraday",
+    "title": "CMA CGM San Antonio struck by suspected Iranian cruise missile in Strait of Hormuz",
+    "description": "Maltese-flagged 2,824-TEU container ship CMA CGM San Antonio (MIDAS2 service) hit while transiting Hormuz. Several crew (Filipino) injured and evacuated for medical care. CBS reports US officials assess CRUISE MISSILE; CMA CGM corporate statement says 'an attack'; UKMTO says 'unknown projectile.' Last AIS off Dubai en route Mundra, India. CONSEQUENCE: This strike triggered Trump's announcement to PAUSE Project Freedom hours later (Truth Social May 5 evening). ATTRIBUTION: Iran has not publicly claimed; CENTCOM not yet attributing publicly. Treat as MEDIUM-HIGH confidence Iran/IRGC origin given pattern; weapon = cruise missile per US-government assessment.",
+    "category": "maritime-incident",
+    "source": "CMA CGM corporate statement; CBS News 2026-05-05; UKMTO advisory; Maritime Executive 2026-05-05; FreightWaves; Seatrade Maritime",
+    "data_point": "Maltese-flag, Filipino crew, several injured; cruise-missile assessment per US officials"
+  },
+  {
+    "date": "2026-05-05",
+    "time": "all-day",
+    "title": "Iran launches Persian Gulf Strait Authority (PGSA) — institutionalizes Hormuz tolls and permits",
+    "description": "Iran via Tasnim/IRIB officially launched PGSA with email info@PGSA.ir, requiring vessels to submit a 'Vessel Information Declaration' (ownership, crew nationalities, cargo, voyage plan) and receive transit permits, reportedly with tolls reaching $2M/vessel (UNVERIFIED quantum). Statement attributed to Supreme Leader Mojtaba Khamenei calls for 'using the leverage of closing the strait' as part of 'a strong Iran' regional order. US Treasury OFAC FAQ confirms such payments unauthorized for US persons. Maritime law experts say it violates UNCLOS transit-passage principle. Lloyd's List notes only ~40 vessels crossed the strait the entire week ending May 3 vs. 120/day pre-war. Most consequential structural event of the cycle: Tehran is converting wartime control over Hormuz into a permanent permit-and-toll regime.",
+    "category": "geoeconomic",
+    "source": "Maritime Executive 2026-05-05; CNN 2026-05-07; Gulf News 2026-05-07; AP/Spectrum 2026-05-07; Al Jazeera; Lloyd's List 2026-05-07",
+    "data_point": "info@PGSA.ir / Vessel Information Declaration / tolls reportedly up to $2M/vessel; ~40 transits week ending May 3 vs 120/day pre-war"
+  },
+  {
+    "date": "2026-05-06",
+    "time": "evening",
+    "title": "Israel breaks Lebanon ceasefire — IDF strike on Beirut Dahiyeh kills Hezbollah Radwan commander Ballout",
+    "description": "Israeli airstrike on southern Beirut suburbs (Haret Hreik / Ghobeiri) killed Ahmed Ghaleb Ballout (also rendered Malek Ballout per AFP/Hezbollah-adjacent), Operations Commander of Hezbollah's elite Radwan Force, plus Nasr regional intel chief Muhammad Ali Bazi and Aerial Defense Chief Hussein Hassan per IDF. First Beirut strike since the April 17 Lebanon ceasefire. PM Netanyahu/DM Katz announced action; coordinated in advance with US (per Israeli source to CNN). 11+ killed in concurrent strikes across south/east Lebanon May 6-7. IDF says 220+ Hezbollah killed in past few weeks (85 in past week). Lebanese MoPH cumulative since Mar 2: 2,727 killed / 8,438 wounded (CNN/MoPH May 7; +31/+174 since May 4).",
+    "category": "regional-spillover",
+    "source": "IDF statement; CNN May 6 liveblog; AFP via Euronews; RTÉ; Jerusalem Post; Al Jazeera",
+    "data_point": "Beirut Dahiyeh strike — first since April 17 ceasefire; 3 Hezbollah commanders killed; 11+ killed concurrent strikes May 6-7"
+  },
+  {
+    "date": "2026-05-06",
+    "time": "09:00 ET",
+    "title": "F/A-18 from USS Abraham Lincoln disables Iranian-flagged tanker M/T Hasna in Gulf of Oman",
+    "description": "CENTCOM (09:00 ET / 14:00 UTC May 6): F/A-18E Super Hornet from USS Abraham Lincoln (CVN-72) used M61 Vulcan 20mm cannon to target rudder of Iranian-flagged 333m oil tanker M/T Hasna making for Iranian ports. Vessel disabled and unable to complete transit. First publicly known case of an aircraft directly disabling a ship under the blockade (compare USS Spruance/MV Touska Apr 19 destroyer-gun engagement). Iranian crew warned 6 hours before strike per CENTCOM; no casualties. CENTCOM cumulative blockade tally: 52 (NPR/CENTCOM May 6, +1 vs May 5).",
+    "category": "blockade-enforcement",
+    "source": "CENTCOM official statement May 6 09:00 ET / 14:00 UTC; The Aviationist 2026-05-06; Common Defense; Al Jazeera Day 69 liveblog; NPR",
+    "data_point": "F/A-18E + M61 Vulcan 20mm cannon; rudder disabled; CENTCOM blockade tally 52"
+  },
+  {
+    "date": "2026-05-06",
+    "time": "afternoon",
+    "title": "France redeploys Charles de Gaulle CSG to Red Sea; Macron urges lifting both blockades",
+    "description": "Macron announces forward deployment of nuclear carrier Charles de Gaulle to Red Sea as part of UK-French multinational mission 'distinct from warring parties' for Hormuz freedom of navigation. Calls for both Iran and US to lift blockades 'without delay and without conditions.' Discussed with Iran's Pezeshkian; says will discuss with Trump. France says CMA CGM San Antonio was Maltese-flagged with Filipino crew so 'France was not targeted.'",
+    "category": "international-response",
+    "source": "NPR 2026-05-06; The National 2026-05-06; Macron statement on X",
+    "data_point": "Charles de Gaulle to Red Sea; UK-French multinational mission; Macron calls for both blockades lifted"
+  },
+  {
+    "date": "2026-05-07",
+    "time": "all-day",
+    "title": "Iran says MoU proposal 'still under review'; FM Araghchi calls for 'dialogue and diplomacy'",
+    "description": "Iran FM Araghchi calls for 'dialogue and diplomacy' in call with Pakistani counterpart. FM spokesman Baqaei (ISNA): proposal 'still being reviewed... Iran will convey its views to the Pakistani side.' Iran's IRGC Navy: 'with aggressors' threats neutralized & new protocols in place, safe stable passage through' Hormuz 'will be ensured.' Pezeshkian reportedly held first in-person meeting with new Supreme Leader Mojtaba Khamenei. Trump rhetoric: 'They want to make a deal badly... Iran cannot have a nuclear weapon, and they won't.' Trump explicitly framed his upcoming China trip next week (~May 14-15) as a deadline pressure point. Rubio met Pope Leo XIV at Vatican (Pope-Trump tension over war). Iran missed informal Thursday timeline; treat as PENDING — formal response could land May 8-10.",
+    "category": "diplomatic",
+    "source": "Al Jazeera Day 69 liveblog 2026-05-07; CNN May 7 liveblog; MS NOW 2026-05-07; NPR 2026-05-07; ABC News 2026-05-07",
+    "data_point": "Iran proposal 'still being reviewed'; Trump China trip ~May 14-15 as deadline pressure"
+  },
+  {
+    "date": "2026-05-07",
+    "time": "intraday",
+    "title": "AAA national gas $4.558/gal; +25¢ second consecutive week; 15 consecutive days of increases",
+    "description": "AAA Daily Fuel Gauge May 7 release: national average $4.558/gal — +7.8¢ d/d vs $4.48 May 6, +$0.25 wk/wk for second consecutive week, +$1.40 vs year ago, +52.4% vs $2.99 Feb 28 baseline. 15 consecutive days of increases. CA $6.16 high, OK $3.98 low. NPR/PBS/Marist (May 6): 33% of Americans report 'major' household budget strain. Sticky despite oil drop — refining/distribution lag (Smith, S&P Global): 'weeks-to-months for risk premium decay even with full resolution.'",
+    "category": "markets",
+    "source": "AAA gasprices.aaa.com daily snapshot 2026-05-07; AAA May 7 release; NPR/PBS/Marist 2026-05-06",
+    "data_point": "AAA $4.558 (+7.8¢ d/d); +25¢ wk/wk for 2nd consecutive week; 15 consecutive days up"
+  },
+  {
+    "date": "2026-05-07",
+    "time": "intraday",
+    "title": "WHO: 152 attacks on healthcare in Lebanon, 103 deaths, 241 injuries since conflict started",
+    "description": "WHO Director-General Tedros (May 6 statement, surfaced May 7): 152 attacks on healthcare verified in Lebanon resulting in 103 deaths and 241 injuries since the conflict started; 3 hospitals + 41 primary health centers closed; 16 hospitals damaged. Lebanese MoPH cumulative since Mar 2: 2,727 killed / 8,438 wounded (CNN/MoPH May 7; +31 killed, +174 wounded since May 4 floor 2,696/8,264); 177 children killed.",
+    "category": "humanitarian",
+    "source": "WHO Tedros statement 2026-05-06; CNN/MoPH 2026-05-07",
+    "data_point": "WHO 152 healthcare attacks / 103 deaths / 241 injuries; MoPH 2,727/8,438; 177 children killed"
+  },
+  {
+    "date": "2026-05-07",
+    "time": "intraday",
+    "title": "Saudi Arabia and Kuwait quietly withdrew base/airspace access for Project Freedom",
+    "description": "NBC News (May 6, 2 US officials) and AP (May 7, Saudi official): Saudi Arabia reportedly suspended US base/airspace access for Project Freedom. Saudi official to AP: 'We told them we are not part of this and that they can't use our territories and bases for this'; sent message to Iran kingdom would not be involved. Kuwait similarly per NBC News. WSJ/Times of Israel summary: Saudis/Kuwait 'end curbs' once Project Freedom paused. MAJOR SIGNAL of GCC strategic divergence — even Sunni Gulf monarchies under direct Iranian fire would not back a force-projection mission they perceived as escalatory and uncoordinated; this is the operational explanation for the Project Freedom pause beyond the diplomatic cover.",
+    "category": "diplomatic",
+    "source": "NBC News 2026-05-06; AP 2026-05-07 (Saudi official); Middle East Eye; Times of Israel 2026-05-06",
+    "data_point": "Saudi/Kuwait base-access suspension confirmed by 2 US officials + Saudi official"
   }
 ]

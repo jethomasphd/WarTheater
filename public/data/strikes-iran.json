@@ -4,9 +4,12 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-05-07",
     "last_strike_on_iran": "2026-04-08T~13:00Z",
-    "ceasefire_day": 28,
+    "last_iran_territory_strike": "2026-04-07",
+    "ceasefire_day": 29,
+    "phase": "blockade + diplomacy (kinetic phase concluded per Rubio May 5)",
+    "centcom_blockade_turnarounds_cum": 52,
     "epic_fury_status": "concluded — pending MOU finalization; reversion possible. SecState Rubio (May 5 White House briefing): 'The Operation Epic Fury is concluded. We achieved the objectives of that operation.' Trump (May 6 Truth Social) conditioned conclusion on Iran's MOU acceptance, warning bombing would resume 'at a much higher level and intensity than it was before' otherwise.",
     "epic_fury_conclusion_date_announced": "2026-05-05",
     "cooper_brief_to_trump": "2026-04-30 (delivered)",
@@ -2058,5 +2061,22 @@
     "notes": "Day 39 (Apr 7, post-ceasefire): Israel retaliated against post-ceasefire Iranian missile violations by attacking a radar installation near Tehran. This was the last confirmed strike before the ceasefire stabilized. Two-week ceasefire in effect from 8 PM ET Apr 7.",
     "verified": true,
     "last_updated": "2026-04-08"
+  },
+  {
+    "id": "strike-iran-2026-05-06-mt-hasna",
+    "date": "2026-05-06",
+    "war_day": 68,
+    "type": "maritime-interdiction",
+    "location": "Gulf of Oman",
+    "actor": "us",
+    "platform": "F/A-18E Super Hornet (USS Abraham Lincoln, CVN-72)",
+    "weapon": "M61 Vulcan 20mm cannon",
+    "target": "M/T Hasna (Iranian-flagged 333m oil tanker)",
+    "outcome": "Rudder disabled; vessel unable to complete transit to Iran",
+    "casualties_reported": "None reported (Iranian crew warned 6 hours before strike per CENTCOM)",
+    "verification": ["CENTCOM official statement May 6 09:00 ET / 14:00 UTC", "The Aviationist", "Al Jazeera Day 69 liveblog"],
+    "notes": "First publicly known case of an aircraft directly disabling a vessel under the US naval blockade (compare USS Spruance/MV Touska Apr 19 destroyer-gun engagement). Demonstrates blockade tightening even as Project Freedom escorts paused.",
+    "verified": true,
+    "last_updated": "2026-05-07"
   }
 ]

@@ -3038,5 +3038,53 @@
     ],
     "verified": true,
     "last_updated": "2026-05-06"
+  },
+  {
+    "id": "ret-2026-05-05-cma-cgm-san-antonio",
+    "city": "Strait of Hormuz off Dubai",
+    "lat": 25.2,
+    "lng": 56.0,
+    "type": "iran_retaliation",
+    "actor": "iran_presumed",
+    "first_strike": "2026-05-05",
+    "active_days": [67],
+    "weapon": "Cruise missile (per CBS citing US officials)",
+    "casualties_reported": "Several crew injured, evacuated for medical care",
+    "casualties_source": "CMA CGM corporate statement / UKMTO / CBS News / Maritime Executive / FreightWaves / Seatrade Maritime",
+    "notes": "Day 67 (May 5): Maltese-flagged 2,824-TEU container ship CMA CGM San Antonio (MIDAS2 service) hit while transiting Hormuz. Several crew injured and evacuated. CBS reports US officials assess CRUISE MISSILE; CMA CGM corporate statement says 'an attack'; UKMTO says 'unknown projectile.' Last AIS off Dubai en route Mundra, India. Filipino crew. France's position (per Macron May 6): vessel was Maltese-flagged with Filipino crew so 'France was not targeted.' CONSEQUENCE: This strike triggered Trump's announcement to PAUSE Project Freedom hours later (Truth Social May 5 evening). ATTRIBUTION: Iran has not publicly claimed; CENTCOM not yet attributing publicly. Treat as MEDIUM-HIGH confidence Iran/IRGC origin given pattern; weapon = cruise missile per US-government assessment.",
+    "sources": [
+      "CMA CGM corporate statement",
+      "CBS News",
+      "UKMTO",
+      "Maritime Executive",
+      "FreightWaves",
+      "Seatrade Maritime"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-07"
+  },
+  {
+    "id": "ret-2026-05-05-trump-pauses-project-freedom",
+    "city": "Washington, DC (policy response)",
+    "lat": 38.8977,
+    "lng": -77.0365,
+    "type": "us_policy_response",
+    "actor": "us",
+    "first_strike": "2026-05-05",
+    "active_days": [67],
+    "weapon": "Policy directive (Trump Truth Social)",
+    "casualties_reported": "N/A (policy event)",
+    "casualties_source": "Trump Truth Social May 5 evening / CNBC / The Hill / TIME / NBC News / AP",
+    "notes": "Day 67 (May 5): Trump on Truth Social paused Project Freedom 'for a short period of time' citing 'request of Pakistan and other Countries... and the fact that Great Progress has been made toward a Complete and Final Agreement.' Blockade remains in full force and effect. Only 2 US-flagged ships had transited under escort during the 48-hour Project Freedom window. CONTEXT: Came hours after the CMA CGM San Antonio cruise-missile strike (May 5) and Saudi/Kuwait base-access curbs (NBC May 6: Saudi Arabia reportedly told the US it was 'not part of this' and would not allow base/airspace use; AP May 7 Saudi official confirmation). The CMA CGM strike + diplomatic-progress narrative is the political cover; the GCC withdrawal is the operational explanation.",
+    "sources": [
+      "Trump Truth Social May 5 evening",
+      "CNBC",
+      "The Hill",
+      "TIME May 6",
+      "NBC News May 6",
+      "AP May 7"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-07"
   }
 ]
