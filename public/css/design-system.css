@@ -392,6 +392,27 @@ h4 { font-size: var(--text-lg); }
   font-family: 'JetBrains Mono', monospace;
   font-size: var(--text-sm);
   margin-top: var(--space-xs);
+  max-height: 5em;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+  text-align: left;
+  padding-right: 4px;
+}
+
+.hero-metric .change::-webkit-scrollbar {
+  width: 4px;
+}
+.hero-metric .change::-webkit-scrollbar-track {
+  background: transparent;
+}
+.hero-metric .change::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 2px;
+}
+.hero-metric .change::-webkit-scrollbar-thumb:hover {
+  background: var(--text-dim);
 }
 
 .change.up { color: var(--financial-up); }
