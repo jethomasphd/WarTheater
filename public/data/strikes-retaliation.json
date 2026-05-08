@@ -3062,5 +3062,72 @@
     ],
     "verified": true,
     "last_updated": "2026-05-07"
+  },
+  {
+    "id": "STRK-RET-2026-05-08-001",
+    "city": "United Arab Emirates",
+    "lat": 24.4667,
+    "lng": 54.3667,
+    "type": "iran_retaliation",
+    "actor": "iran_alleged_irgc_denied",
+    "first_strike": "2026-05-08",
+    "active_days": [70],
+    "weapon": "2 ballistic missiles + 3 drones",
+    "casualties_reported": "3 wounded by debris (moderate)",
+    "casualties_source": "UAE Ministry of Defence (X) / AP / Times of Israel / NPR",
+    "notes": "Day 70 (May 8): UAE MoD: air defenses engaged ballistic missile and drone attacks 'originating from Iran' Friday morning; 3 moderately wounded by debris in populated areas. Authorities urged residents to stay clear of debris. Cumulative since war start: 551 ballistic + 29 cruise + 2,263 drones engaged (UAE MoD running tally). IRGC has DENIED responsibility for recent UAE attacks (May 5 statement still standing); attribution flagged DISPUTED. Not all confirmed fully intercepted — debris fell in populated areas. Comes day after May 7 Hormuz tit-for-tat exchange between US and Iran.",
+    "sources": [
+      "UAE Ministry of Defence statement on X, 2026-05-08",
+      "Times of Israel live blog 2026-05-08 06:42 ET",
+      "AP/PBS NewsHour 2026-05-08 11:28 EDT",
+      "Washington Times 2026-05-08",
+      "NPR 2026-05-08",
+      "Capital News Point (Pakistan) 2026-05-08"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-08"
+  },
+  {
+    "id": "STRK-RET-2026-05-08-002",
+    "city": "Doueir / Harouf / Habboush, Nabatieh district, southern Lebanon",
+    "lat": 33.3833,
+    "lng": 35.4833,
+    "type": "lebanon_spillover",
+    "actor": "israel_idf",
+    "first_strike": "2026-05-07",
+    "active_days": [69, 70],
+    "weapon": "Air strikes",
+    "casualties_reported": "11 killed (including 2 children), 36 wounded",
+    "casualties_source": "Lebanese National News Agency (NNA) via Al Jazeera Day 70 brief",
+    "notes": "Day 69-70 (overnight May 7→8): Overnight Israeli air attacks killed 11 people including 2 children, wounded 36 in Nabatieh district (Doueir, Harouf, Habboush). Netanyahu (May 7): 'No terrorist is immune' — claimed responsibility for May 6 Beirut killing of Hezbollah Radwan commander Ahmed Ghaleb Ballout. Lebanon-Israel direct talks scheduled May 14–15 in Washington (US official confirmed). Lebanese MoPH provisional uplift expected to ~2,738 killed / ~8,474 wounded in next bulletin (current May 7 19:52 BST: 2,727 / 8,438).",
+    "sources": [
+      "Al Jazeera Day 70 brief 2026-05-08 ('Iran war day 70: US, Iran trade fire in Hormuz')",
+      "AP/PBS 2026-05-08",
+      "Lebanese NNA"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-08"
+  },
+  {
+    "id": "STRK-RET-2026-05-08-003",
+    "city": "Strait of Hormuz approaches / south of Chabahar Port",
+    "lat": 25.2,
+    "lng": 60.0,
+    "type": "iran_retaliation",
+    "actor": "iran_irgc_navy",
+    "first_strike": "2026-05-07",
+    "active_days": [69, 70],
+    "weapon": "Ballistic and antiship cruise missiles, drones with HE warheads",
+    "casualties_reported": "Per CENTCOM: 'no US assets struck'; Iran claims 'significant damage'",
+    "casualties_source": "Al Jazeera 2026-05-07 / CENTCOM via CNN 2026-05-07 / NBC News 2026-05-07/08",
+    "notes": "Day 69-70 (overnight May 7-8): IRGC Navy fired ballistic + antiship cruise missiles + drones with HE warheads at US naval vessels east of Strait of Hormuz / south of Chabahar Port. Per CENTCOM: 'no US assets struck.' Iran claimed 'significant damage.' Tit-for-tat retaliation framed as response to US tanker disablement (M/T Hasna May 6). Three USN destroyers (Mason DDG-87, Truxtun DDG-103, Rafael Peralta DDG-115) transited Hormuz May 7 'under fire' and undamaged per Trump (ABC interview); Trump: Iranian small boats 'completely destroyed.'",
+    "sources": [
+      "Al Jazeera 2026-05-07",
+      "CENTCOM statement reproduced in CNN 2026-05-07",
+      "NBC News 2026-05-07/08",
+      "Trump phone call to ABC's Rachel Scott 2026-05-08"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-08"
   }
 ]
