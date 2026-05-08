@@ -1,11 +1,11 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.558,
-  "war_increase": 1.568,
+  "current_gas": 4.546,
+  "war_increase": 1.556,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
-    { "code": "CA", "label": "California", "premium": 1.654 },
-    { "code": "HI", "label": "Hawaii", "premium": 1.188 },
+    { "code": "CA", "label": "California", "premium": 1.624 },
+    { "code": "HI", "label": "Hawaii", "premium": 1.404 },
     { "code": "TX", "label": "Texas", "premium": -0.38 },
     { "code": "FL", "label": "Florida", "premium": 0.08 },
     { "code": "NY", "label": "New York", "premium": 0.52 },
@@ -14,7 +14,7 @@
     { "code": "IL", "label": "Illinois", "premium": 0.28 },
     { "code": "AZ", "label": "Arizona", "premium": -0.02 },
     { "code": "GA", "label": "Georgia", "premium": -0.05 },
-    { "code": "WA", "label": "Washington", "premium": 1.267 },
+    { "code": "WA", "label": "Washington", "premium": 0.454 },
     { "code": "MI", "label": "Michigan", "premium": 0.05 },
     { "code": "NJ", "label": "New Jersey", "premium": 0.12 },
     { "code": "VA", "label": "Virginia", "premium": -0.03 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com state averages, May 7 2026 (Thursday — daily figure $4.558, +7.8¢ d/d vs $4.48 May 6, +52.4% vs $2.99 Feb 28 baseline; +$0.25 wk/wk for second consecutive week per AAA May 7 release). 15 consecutive days of increases; +$1.40 vs year ago. CA $6.16 high, OK $3.98 low. NPR/PBS/Marist (May 6): 33% of Americans report 'major' household budget strain.",
-  "last_updated": "2026-05-07"
+  "source": "AAA gasprices.aaa.com state averages, May 8 2026 (Friday — daily figure $4.546, −1.2¢ d/d vs $4.558 May 7; first daily decline in 16 days as ceasefire-deal optimism partially blunts crude rally; still +24.3¢ wk/wk and 52.0% above $2.99 Feb 28 baseline). State extremes: CA $6.17 high, HI ~$5.95, NV/OR/WA/AK ~$5.00+; OK cheapest. Pump prices at 2022-style wartime peak.",
+  "last_updated": "2026-05-08"
 }
