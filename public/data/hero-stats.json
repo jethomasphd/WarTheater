@@ -1309,6 +1309,25 @@
       "flights_cancelled": 52000,
       "children_killed": 583,
       "headline": "Iran reviews 14-point MoU; PGSA institutionalizes Hormuz tolls; Israel breaks Lebanon truce in Beirut killing Radwan commander Ballout; F/A-18 disables M/T Hasna in first aerial blockade interdiction"
+    },
+    {
+      "date": "2026-05-08",
+      "war_day": 70,
+      "brent": 101.53,
+      "wti": 95.68,
+      "gas": 4.546,
+      "sp500": 7398.93,
+      "daily_cost_millions": 1200,
+      "total_cost_billions": 58.2,
+      "targets_struck": 35502,
+      "us_kia": 15,
+      "us_wia": 415,
+      "iranian_killed": 3468,
+      "lebanese_killed": 2727,
+      "displaced": 4850000,
+      "flights_cancelled": 52000,
+      "children_killed": 585,
+      "headline": "Hormuz tit-for-tat continues; F/A-18 from Bush disables 2 more Iranian tankers (Sea Star III + Sevda); Iran reviews US response to 14-pt MoU; Kharg oil slick (~45 km²) detected; UAE intercepts new Iranian salvo; markets rebound to S&P 500 record on jobs beat"
     }
   ],
   "toll": {
@@ -1336,36 +1355,36 @@
     "iranian_killed": {
       "value": 3468,
       "label": "Iranian Killed (Iran MoH floor)",
-      "note": "Day 69: Iran MoH floor 3,468 (Al Jazeera tracker citing Iran MoH May 5; no May 6-7 update \u2014 17 days stale relative to Apr 19 baseline). Civilian-heavy; HRANA estimates higher.",
-      "tooltip": "PRIMARY: Iran Ministry of Health 3,468 (cited by Al Jazeera May 5 tracker; civilians-leaning). 7 infants, 376 children, 496 women per Iran MoH subset. Includes 156-175 killed in Minab Shajareh Tayyebeh school strike Feb 28. SECONDARY: HRANA cumulative 3,636 (Apr 7 \u2014 30 days stale). Hengaw mil-only \u22656,620 (military-only methodology). Iran wounded estimate ~26,500. Treat as floor \u2014 HRANA estimates exceed.",
+      "note": "Day 70: Iran MoH no Day-70 update \u2014 Foundation of Martyrs Apr 19 cumulative 3,468 remains baseline; HRANA broader 3,636+; UN IMO confirms ~1,500 mariners stranded in Gulf. 18 days stale relative to Apr 19 baseline.",
+      "tooltip": "PRIMARY: Iran Ministry of Health/Foundation of Martyrs 3,468 (Apr 19; civilian-leaning). 7 infants, 376 children, 496 women per Iran MoH subset. Includes 156-175 killed in Minab Shajareh Tayyebeh school strike Feb 28. SECONDARY: HRANA cumulative 3,636+ (Apr 7 \u2014 31 days stale). Hengaw mil-only \u22656,620 (military-only methodology). Iran wounded estimate ~26,500. Treat as floor.",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
       "value": 2727,
       "label": "Lebanese killed (LB MoPH)",
-      "note": "Day 69: Lebanese MoPH cumulative 2,727 killed / 8,438 wounded (CNN/MoPH May 7; +31/+174 since May 4 floor 2,696/8,264). 11+ killed in IDF strikes May 6-7 across south/east Lebanon. Israel BROKE the April 17 ceasefire by striking Beirut's Dahiyeh May 6, killing Hezbollah Radwan Force commander Ahmed Ghaleb Ballout (alt. Malek Ballout) plus Nasr regional intel chief and Aerial Defense chief.",
-      "tooltip": "Lebanese Ministry of Public Health: 2,727 killed, 8,438 wounded since Mar 2 (CNN/MoPH May 7). 177 children killed (cumulative). UNHCR: 380+ Lebanese killed since April 17 'ceasefire' \u2014 post-truce violations remain at scale. WHO May 6: 152 attacks on healthcare resulting in 103 deaths and 241 injuries; 3 hospitals + 41 PHCCs closed; 16 hospitals damaged. IDF claim: 220+ Hezbollah killed in past few weeks.",
+      "note": "Day 70: Lebanese MoPH May 7 19:52 BST bulletin (2,727 killed / 8,438 wounded) carries; no Day-70 MoPH bulletin yet posted. NNA reports 11 killed (incl. 2 children) + 36 wounded in Doueir/Harouf/Habboush (Nabatieh) overnight May 7\u21928 \u2014 provisional uplift expected to ~2,738 / ~8,474 in next bulletin. Lebanon-Israel direct talks scheduled May 14\u201315 in Washington.",
+      "tooltip": "Lebanese Ministry of Public Health: 2,727 killed, 8,438 wounded since Mar 2 (CNN/MoPH May 7). 177 children killed cumulative; +2 Day 70 (Doueir strike). UNHCR: 380+ Lebanese killed since April 17 'ceasefire' \u2014 post-truce violations remain at scale. WHO May 6: 152 attacks on healthcare resulting in 103 deaths and 241 injuries; 3 hospitals + 41 PHCCs closed; 16 hospitals damaged.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
       "value": 4850000,
       "label": "Total Displaced",
-      "note": "Carry-forward; Lebanese disaster mgmt cite >1M+ (>20% of population). ~3M Iran IDPs (HRANA estimate via GlobalSecurity OPREP May 7).",
-      "tooltip": "4.85M total \u2014 ~3.2M Iran IDPs (UNHCR Mar 12 stale; HRANA cites ~3M) + 1.6M Lebanon IDPs + 0.05M Lebanon-to-Syria (UNHCR / Lebanese government). Lebanon figure reflects IDF orders covering ~1,470 km\u00b2 (14% of territory) extended N of Litani 03 May.",
+      "note": "Carry-forward; Lebanese disaster mgmt cite ~1.6M+ Lebanon (incl. 1.2M+ Lebanese nationals, ~25% of population). ~3.2M Iran IDPs (carry-forward). UNHCR/IOM no new Day-70 bulletin.",
+      "tooltip": "4.85M total \u2014 ~3.2M Iran IDPs (UNHCR Mar 12 stale; HRANA cites ~3M) + 1.6M Lebanon IDPs + 0.05M Lebanon-to-Syria. Lebanon figure reflects IDF orders covering ~1,470 km\u00b2 (14% of territory) extended N of Litani 03 May.",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 52000,
       "label": "Commercial flights affected (regional airspace closures, floor)",
-      "note": "Day 69: floor figure from cumulative airspace-closure impact in Lebanese, Israeli, Iranian, Iraqi, Jordanian, and UAE FIRs. UAE NOTAM A1722/26 partial Emirates FIR closure remains in effect through May 11; Dubai/Sharjah schools on distance learning May 5-8. Cumulative IATA / Eurocontrol-style impact tracker has not been refreshed; this is a conservative floor anchored to Day 11 figure of 52,000+ flights affected by regional airspace closures (per Iranian Red Crescent / IATA citations preserved in infrastructure.json). True cumulative figure is materially higher; flagged as approximation pending fresh aviation-industry consolidation.",
+      "note": "Day 70: UAE distance-learning extended through May 8 expired today; Sharjah/Dubai schools resumed Friday after KHDA 'May 5\u20138' online directive ended. FlightAware/Flightradar24 not directly retrieved this cycle \u2014 carry-forward. Floor figure anchored to cumulative airspace-closure impact in Lebanese, Israeli, Iranian, Iraqi, Jordanian, and UAE FIRs.",
       "tooltip": "Methodological note: this is a 'flights affected' figure, not a 'flights cancelled' registry — captures cancellations + diversions + multi-hour holds + reroutes + overflight disruptions across all regional FIRs. Anchored to 52,000+ baseline cited in dashboard's infrastructure dataset; accumulating impact since Feb 28. Recommend treat as floor.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
-      "value": 583,
-      "label": "Children killed (Iran 376 + Lebanon 177 + others)",
-      "note": "Day 69: Lebanon MoPH cumulative 177 children killed (refreshed CNN/MoPH May 7); Iran MoH 376+ (incl. 7 infants, 254 per HRANA child-specific count); Minab Iran school strike Feb 28: 120 children \u2014 combined identified floor 297+.",
-      "tooltip": "Iran MoH 376 + Lebanon MoPH 177 + ~30 from other regional fronts. Identified floor (Lebanon MoPH 177 + Minab 120) = 297+. Lebanon front-specific number refreshed May 7. Final UNICEF/MoPH cross-front breakdown pending.",
+      "value": 585,
+      "label": "Children killed (Iran 376 + Lebanon 179 + others)",
+      "note": "Day 70: +2 Lebanon children killed in Doueir/Harouf/Habboush overnight May 7\u21928 strikes (Lebanese NNA via Al Jazeera Day 70). Lebanon MoPH cumulative 177 + 2 = 179 (provisional pending MoPH consolidation). Iran MoH 376+ (incl. 7 infants); Minab Feb 28: 120 children. Combined identified floor 299+.",
+      "tooltip": "Iran MoH 376 + Lebanon MoPH 179 (provisional, +2 Day 70) + ~30 from other regional fronts. Identified floor (Lebanon MoPH 179 + Minab 120) = 299+. Final UNICEF/MoPH cross-front breakdown pending.",
       "color": "var(--civilian)"
     }
   }
