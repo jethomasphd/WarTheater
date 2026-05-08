@@ -6181,5 +6181,86 @@
     "category": "diplomatic/political",
     "source": "ABC News via CBS live blog 2026-05-08; NBC News 2026-05-07/08; NewsNation 2026-05-07",
     "data_point": "Trump: ceasefire 'still in effect'; May 7 exchange a 'love tap'/'trifle'"
+  },
+  {
+    "date": "2026-05-08",
+    "time": "intraday",
+    "title": "Suspected ~45 km² oil slick detected near Iran's Kharg Island via Copernicus Sentinel-1/2/3",
+    "description": "Satellite imagery May 6–8 shows grey-and-white slick visually consistent with oil west of 8-km Kharg Island, primary Iranian crude export terminal (90% of exports). Conflict and Environment Observatory researcher Leon Moreland: ~45 km² area; Data Desk's Louis Goddard: potentially largest spill since war start 70 days ago. Cause/origin unconfirmed; May 8 imagery shows no additional active spills. Multiple VLCCs were loading at facility on May 6 per Copernicus. Spill spreading SW; could reach UAE/Qatar/Saudi shores by following week per Greenpeace projection. Pentagon declined to confirm tracking. First major environmental crisis of the war.",
+    "category": "infrastructure/environmental",
+    "source": "Arab News 2026-05-08; Reuters via Yahoo/Jerusalem Post 2026-05-08; ZeroHedge SAR synthesis; The Defense News 2026-05-07; AP via NPR 2026-05-08",
+    "data_point": "Kharg ~45 km² slick (Copernicus Sentinel imagery); origin unknown; spreading SW"
+  },
+  {
+    "date": "2026-05-08",
+    "time": "afternoon",
+    "title": "FS Charles de Gaulle now operating in Red Sea / approaching Gulf of Aden",
+    "description": "USNI News confirms French Carrier Strike Group transited Suez southbound May 6, now in Red Sea as part of UK-France-led 50+ nation defensive coalition for Hormuz security. Min. Delegate Alice Rufo (BFMTV): 'preliminary deployment.' Group: FS Chevalier Paul (D621), FREMM frigates, oiler FS Jacques Chevallier; HNLMS Evertsen (NLD) departed for Den Helder May 6.",
+    "category": "naval-disposition",
+    "source": "USNI News 2026-05-07; AzerNews 2026-05-07; Defense News 2026-05-06",
+    "data_point": "Charles de Gaulle in Red Sea; UK-France 50+ nation coalition; Evertsen departed"
+  },
+  {
+    "date": "2026-05-08",
+    "time": "morning",
+    "title": "Israeli strikes on Doueir, Harouf, Habboush (Nabatieh) kill 11, wound 36",
+    "description": "Lebanon NNA: overnight Israeli air attacks killed 11 people including 2 children, wounded 36 in Nabatieh district (Doueir, Harouf, Habboush). Netanyahu (May 7): 'No terrorist is immune' — claimed responsibility for May 6 Beirut killing of Hezbollah Radwan commander Ahmed Ghaleb Ballout. Lebanon-Israel direct talks scheduled May 14–15 in Washington (US official confirmed).",
+    "category": "Lebanon-spillover",
+    "source": "Al Jazeera Day 70 brief 2026-05-08; AP/PBS 2026-05-08; Lebanese NNA",
+    "data_point": "11 killed (incl. 2 children) + 36 wounded in Nabatieh; Lebanon-Israel talks May 14-15 Washington"
+  },
+  {
+    "date": "2026-05-08",
+    "time": "intraday",
+    "title": "Markets: S&P 500 closes record 7,398.93 (+0.84%) on April jobs beat; Nasdaq 26,247.08 record",
+    "description": "April nonfarm payrolls +115k vs +65k consensus, unemployment 4.3%. S&P, Nasdaq, Russell 2000 all set new records. Six-week win streak (longest since 2024). Dow flat at 49,609.16. VIX 17.26 (+1.05%). Defense names mixed — LMT $508.92 (-1.04% week); RTX $175.54 (-0.68%); NOC near record. JPM economists: 'increasing signs of demand destruction' as oil consumers adjust to higher prices.",
+    "category": "financial",
+    "source": "TheStreet/CNBC 2026-05-08; Yahoo Finance ^GSPC; Trading Economics US500",
+    "data_point": "S&P 500 record close 7,398.93 (+0.84%); Nasdaq record 26,247.08 (+1.71%); Dow 49,609.16 flat"
+  },
+  {
+    "date": "2026-05-08",
+    "time": "intraday",
+    "title": "AAA national gas average ticks down to $4.546/gal — first daily decline in 16 days",
+    "description": "Snaps streak of 15 consecutive daily increases. Down 1.2¢ from May 7's $4.558; still +24.3¢ wk/wk and 53% above pre-war Feb 26 baseline of $2.96. State extremes: California $6.17 (highest), Hawaii ~$5.95, NV/OR/WA/AK ~$5.00+; Oklahoma cheapest. Pump prices at 2022-style wartime peak. First daily decline as ceasefire-deal optimism partially blunts crude rally.",
+    "category": "financial/consumer",
+    "source": "AAA Fuel Prices gasprices.aaa.com 2026-05-08; AAA Newsroom; Finder.com weekly; NBC News gas tracker",
+    "data_point": "AAA $4.546 (-1.2¢ d/d, FIRST daily decline in 16 days); CA $6.17 high"
+  },
+  {
+    "date": "2026-05-08",
+    "time": "intraday",
+    "title": "UN IMO chief: ~1,500 ships and crews remain stranded in Persian Gulf",
+    "description": "Head of the UN's International Maritime Organization said roughly 1,500 vessels and their crews remain stranded due to Iran's effective Hormuz closure. Kpler: ~166 tankers / ~170 million barrels of crude+refined products stuck; estimated 3-month timeline to clear once strait fully reopens. April Hormuz transit total: 191 vessels (vs 3,000/month pre-war = ~5% of normal).",
+    "category": "shipping/maritime",
+    "source": "Al Jazeera Day 70 2026-05-08; CNN/Kpler 2026-04-29; BIMCO advisory",
+    "data_point": "~1,500 ships stranded; ~170M bbl stuck; 3-month clearing time post-reopen; April transits 191"
+  },
+  {
+    "date": "2026-05-08",
+    "time": "intraday",
+    "title": "Treasury sanctions Iraqi deputy oil minister and Iran-backed militia leaders",
+    "description": "Treasury Secretary Scott Bessent: sanctions on Iraq deputy oil minister Ali Maarij Al-Bahadly and several Iraqi firms accused of disguising Iranian oil as Iraqi to evade US sanctions. 'Treasury will not stand idly by as Iran's military exploits Iraqi oil to fund terrorism.' Continues squeeze on Iranian sanctions-evasion network.",
+    "category": "sanctions",
+    "source": "AP/Fox40 2026-05-07/08",
+    "data_point": "Treasury sanctions Iraqi deputy oil minister Al-Bahadly + firms (Iranian oil disguise)"
+  },
+  {
+    "date": "2026-05-08",
+    "time": "intraday",
+    "title": "Adviser Mokhber: Iran's Hormuz control 'like an atomic bomb'; will not relinquish",
+    "description": "Mohammad Mokhber, adviser to the supreme leader, said Iran had 'neglected' its Hormuz position for years and now considers it equivalent to nuclear leverage. Signal that Tehran may use Hormuz as primary bargaining chip in MoU negotiations rather than nuclear concessions.",
+    "category": "diplomatic/strategic-signal",
+    "source": "CBS News live blog 2026-05-08",
+    "data_point": "Mokhber: Hormuz control 'like an atomic bomb'; signals Hormuz-as-bargaining-chip strategy"
+  },
+  {
+    "date": "2026-05-08",
+    "time": "intraday",
+    "title": "Rubio (post-Vatican): says expects Iranian response 'today'; warns blockade-evaders will be 'blown up'",
+    "description": "Rubio after Pope Leo XIV meeting (Italy leg of trip; meets PM Meloni Friday): 'They threaten Americans, they are going to be blown up.' Reiterated PGSA/toll regime is 'unacceptable.' Vatican readout described talks as 'cordial' but covered Iran disagreements — Pope Leo critical of war; Pezeshkian-criticism by Trump set tense backdrop.",
+    "category": "diplomatic",
+    "source": "NPR 2026-05-08; CNN Politics 2026-05-06; NCR 2026-05-07/08; Washington Post 2026-05-07",
+    "data_point": "Rubio: 'expects a response from Iran on Friday'; blockade-evaders will be 'blown up'"
   }
 ]
