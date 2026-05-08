@@ -6127,5 +6127,23 @@
     "category": "diplomatic",
     "source": "NBC News 2026-05-06; AP 2026-05-07 (Saudi official); Middle East Eye; Times of Israel 2026-05-06",
     "data_point": "Saudi/Kuwait base-access suspension confirmed by 2 US officials + Saudi official"
+  },
+  {
+    "date": "2026-05-07",
+    "time": "afternoon",
+    "title": "Pezeshkian confirms 2.5-hour meeting with new Supreme Leader Mojtaba Khamenei",
+    "description": "Iranian President Masoud Pezeshkian publicly disclosed first known senior-official, in-person, 'unmediated' meeting with Supreme Leader Mojtaba Khamenei since his early-March appointment. Bloomberg/AP: NYT reporting (citing 4 Iranian officials) says Mojtaba sustained serious injuries Day 1 of war, multiple surgeries on legs/arms, severe facial burns. Pezeshkian also stipulated 'lifting the blockade' as a precondition for substantive Hormuz negotiations. The 2.5-hour 'warm and sincere' framing serves two functions: signals to Iranian public that the regime is functioning despite Mojtaba's reported injuries; provides political cover for whatever response Tehran delivers on the MoU.",
+    "category": "diplomatic",
+    "source": "Bloomberg 2026-05-07; Euronews 2026-05-07; Vanguard 2026-05-07; Voice of Emirates 2026-05-07",
+    "data_point": "First publicly confirmed Pezeshkian-Mojtaba in-person meeting since March appointment; 2.5 hours"
+  },
+  {
+    "date": "2026-05-07",
+    "time": "evening",
+    "title": "Macron telephones Pezeshkian; condemns Hormuz/Fujairah strikes as 'unjustified'",
+    "description": "French President Macron told Iranian President Pezeshkian that strikes on Emirati civilian infrastructure (Fujairah Petroleum Industries Zone) and ships near Hormuz were 'unjustified.' Reiterated French/UK push for multinational defensive Hormuz mission. Macron-Pezeshkian call positions Paris as the de-facto European negotiator alongside Charles de Gaulle CSG deployment to Red Sea.",
+    "category": "diplomatic",
+    "source": "Al Jazeera Day 70 brief 2026-05-08",
+    "data_point": "Macron called Hormuz/Fujairah strikes 'unjustified' in Pezeshkian call"
   }
 ]
