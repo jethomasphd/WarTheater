@@ -6145,5 +6145,41 @@
     "category": "diplomatic",
     "source": "Al Jazeera Day 70 brief 2026-05-08",
     "data_point": "Macron called Hormuz/Fujairah strikes 'unjustified' in Pezeshkian call"
+  },
+  {
+    "date": "2026-05-08",
+    "time": "morning UTC",
+    "title": "CENTCOM disables M/T Sea Star III and M/T Sevda in Gulf of Oman (F/A-18E from CVN-77)",
+    "description": "F/A-18E Super Hornet launched from USS George H.W. Bush (CVN-77) fired precision munitions into the smokestacks of two Iranian-flagged unladen oil tankers — M/T Sea Star III and M/T Sevda — attempting to enter an Iranian port in violation of the US blockade. Both vessels disabled. Adm. Brad Cooper: 'U.S. forces in the Middle East remain committed to full enforcement of the blockade. All three vessels are no longer transiting to Iran.' Third tanker disablement in week, following M/T Hasna (May 6). First confirmed kinetic action by USS George H.W. Bush airwing in this conflict — shifts CVN-77 from reserve role to co-active strike asset. CENTCOM-released thermal imagery confirms hit.",
+    "category": "kinetic/blockade",
+    "source": "CENTCOM Press Release 4480820 (centcom.mil) 2026-05-08; gCaptain 2026-05-08; NPR 2026-05-08; CBS News live updates 2026-05-08; Hannity.com 2026-05-08",
+    "data_point": "+2 disabled tankers; CVN-77 first kinetic action; cumulative 57 redirected + 4 disabled"
+  },
+  {
+    "date": "2026-05-08",
+    "time": "06:42 ET",
+    "title": "UAE intercepts new Iranian salvo — 2 ballistic missiles + 3 drones; 3 wounded",
+    "description": "UAE Ministry of Defence: air defenses engaged ballistic missile and drone attacks 'originating from Iran' Friday morning; 3 moderately wounded by debris. Cumulative since war start: 551 ballistic + 29 cruise + 2,263 drones engaged (UAE MoD running tally). Iran's IRGC has DENIED responsibility for recent UAE attacks (May 5 statement still standing); attribution flagged DISPUTED. Authorities urged residents to stay clear of debris.",
+    "category": "kinetic/retaliation",
+    "source": "UAE MoD on X 2026-05-08; AP/PBS NewsHour 2026-05-08 11:28 EDT; Washington Times 2026-05-08; Times of Israel live 2026-05-08; NPR 2026-05-08",
+    "data_point": "UAE intercepts: 2 BM + 3 drones; 3 wounded; cumulative 551 BM + 29 CM + 2,263 UAVs"
+  },
+  {
+    "date": "2026-05-08",
+    "time": "morning",
+    "title": "Iran confirms receipt of US response to 14-point MoU; 'reviewing'",
+    "description": "Foreign Ministry spokesman Esmaeil Baghaei: 'The Americans have given their answer to Iran's 14-point plan to the Pakistani side, and we are currently reviewing it.' Reiterated: 'At this stage, we do not have nuclear negotiations.' Per al-Jazeera/Reuters reporting, Tehran expected to deliver formal response via Pakistan within ~48 hours. SecState Rubio (during Italy visit): US 'expects a response from Iran on Friday.' WSJ/Defense News: US framework includes 20-yr enrichment freeze; Iran has countered with 5 yrs.",
+    "category": "diplomatic",
+    "source": "Times of Israel live 2026-05-08; Al Jazeera Day 70 brief; CBS live blog 2026-05-08; WSJ via Defense News 2026-05-07",
+    "data_point": "Iran reviewing US response to 14-pt MoU; US 20-yr enrichment freeze vs Iran 5-yr"
+  },
+  {
+    "date": "2026-05-08",
+    "time": "intraday",
+    "title": "Trump: ceasefire 'still in effect'; Hormuz exchange a 'love tap' / 'trifle'",
+    "description": "President Trump (phone call to ABC's Rachel Scott; Truth Social): 'No, no, the ceasefire is going. It's in effect.' Re May 7 exchange: 'They trifled with us today. We blew them away.' Warned of harsher response 'a lot harder, and a lot more violently' if no deal. Said three destroyers transited Hormuz 'under fire' undamaged; Iranian small boats 'completely destroyed.' Trump separately called Pope Leo XIV's position 'endangering Catholics.'",
+    "category": "diplomatic/political",
+    "source": "ABC News via CBS live blog 2026-05-08; NBC News 2026-05-07/08; NewsNation 2026-05-07",
+    "data_point": "Trump: ceasefire 'still in effect'; May 7 exchange a 'love tap'/'trifle'"
   }
 ]
