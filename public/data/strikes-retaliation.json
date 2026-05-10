@@ -3207,5 +3207,82 @@
     ],
     "verified": true,
     "last_updated": "2026-05-09"
+  },
+  {
+    "id": "ret_2026-05-10_kuwait_drones",
+    "city": "Kuwait (airspace, unspecified northern sectors)",
+    "lat": 29.3759,
+    "lng": 47.9774,
+    "type": "drone_incursion_intercept",
+    "actor": "unattributed_iran_aligned_likely",
+    "first_strike": "2026-05-10",
+    "active_days": [
+      72
+    ],
+    "weapon": "Multiple UAVs (number unspecified; described as 'several' / 'a number')",
+    "casualties_reported": "None reported",
+    "casualties_source": "Kuwait MoD spokesperson Col. Saud Abdulaziz Al-Atwan via KUNA",
+    "notes": "Day 72 (May 10) ~02:30 UTC: Kuwait MoD reports armed forces 'detected a number of hostile drones in Kuwaiti airspace, which were dealt with in accordance with established procedures.' Source UNATTRIBUTED by Kuwait MoD; pattern consistent with Iran-aligned Iraqi militias (Apr 25 precedent: 2 drones from Iraq hit northern KW border posts) or IRGC direct (Apr 8 precedent). UAE MoFA condemned as 'terrorist attack' and sovereignty violation. First confirmed Kuwait airspace breach since the April 8 ceasefire took effect. Kuwait did not name Iran. UNVERIFIED whether any drones impacted ground; KW MoD silent on damage. Note name reconciliation: KUNA/Reuters consistently identify Col. Staff Saud Abdulaziz Al-Atwan (vs Day 71 source materials' 'Brig. Gen. Saud Abdulaziz Al-Otaibi') — adopt KUNA wording.",
+    "sources": [
+      "Reuters via Times of Israel liveblog",
+      "KUNA",
+      "The Tribune (ANI)",
+      "Peninsula Qatar",
+      "SANA",
+      "DD News"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-10"
+  },
+  {
+    "id": "ret_2026-05-10_uae_drones",
+    "city": "UAE airspace (point of intercept unspecified)",
+    "lat": 24.4539,
+    "lng": 54.3773,
+    "type": "drone_attack_intercepted",
+    "actor": "iran",
+    "first_strike": "2026-05-10",
+    "active_days": [
+      72
+    ],
+    "weapon": "2 attack drones launched from Iranian territory",
+    "casualties_reported": "None — both drones successfully engaged",
+    "casualties_source": "UAE MoD statement",
+    "notes": "Day 72 (May 10) ~12:00 UTC: UAE MoD says air defenses 'successfully engaged' two drones launched from Iran. DIRECTLY ATTRIBUTED to Tehran by UAE MoD: 'fully prepared and ready to deal with any threats and will firmly confront anything that aims to undermine the security of the country.' No casualties. Cumulative since Feb 28: 2,265 drones / 551 ballistic missiles / 29 cruise missiles intercepted; UAE civilian deaths cumulative 10 / wounded 230. UAE schools to resume in-person learning Monday May 11 (had shifted to remote May 4 after Fujairah refinery hit). UAE's direct attribution to Tehran contrasts with Kuwait/Qatar non-attribution. Iran (via embassy in Seoul + Iranian denial pattern on May 5) generally denies UAE attacks; expect IRGC denial within 24h.",
+    "sources": [
+      "Gulf News",
+      "RBC-Ukraine",
+      "Times of Israel",
+      "Al Jazeera live blog"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-10"
+  },
+  {
+    "id": "ret_2026-05-10_qatar_bulkcarrier",
+    "city": "Gulf waters 23 NM NE of Doha (Qatari territorial waters)",
+    "lat": 25.7,
+    "lng": 51.8,
+    "type": "drone_strike_on_commercial_vessel",
+    "actor": "unattributed_iran_signal_likely",
+    "first_strike": "2026-05-10",
+    "active_days": [
+      72
+    ],
+    "weapon": "1 attack drone (per Qatar MoD); UKMTO described as 'unknown projectile'",
+    "casualties_reported": "0 casualties / 0 injuries / 0 environmental impact",
+    "casualties_source": "Qatar Ministry of Defense statement + UKMTO advisory",
+    "notes": "Day 72 (May 10) morning local (pre-12:00 GMT): Bulk carrier (origin: Abu Dhabi → destination: Mesaieed Port, Qatar) was targeted by a drone, causing a limited fire that was extinguished. Vessel continued under own power to Mesaieed. Vessel flag UNVERIFIED — Fars News (Iranian source) and TASS claim US-flagged; UKMTO, Qatar MoD, Reuters, Boston Globe do not specify. UNATTRIBUTED by Qatar/UKMTO. Most significant Gulf maritime attack inside Qatari territorial waters during the war. Coincides with PM Al-Thani-Rubio-Witkoff Miami talks on May 9. Cross-reference: IRGC Navy warned May 9 that 'any attack on Iran's oil tankers and commercial vessels will result in a heavy assault on one of the American centres in the region and the enemy's ships' — May 10 Qatar strike consistent with that doctrine if Fars US-flag claim accurate.",
+    "sources": [
+      "Reuters",
+      "UKMTO",
+      "Boston Globe",
+      "TASS",
+      "Xinhua",
+      "Tribune ANI",
+      "Al Jazeera"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-10"
   }
 ]

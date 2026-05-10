@@ -6352,5 +6352,122 @@
     "category": "force_posture",
     "source": "Wall Street Journal via Times of Israel liveblog 2026-05-09",
     "data_point": "WSJ: Israel ran secret base in Iraqi western desert; struck Iraqi forces who got too close"
+  },
+  {
+    "date": "2026-05-10",
+    "time": "~02:30 UTC",
+    "title": "Hostile drones detected in Kuwaiti airspace at dawn",
+    "description": "Kuwait MoD (Col. Saud Abdulaziz Al-Atwan) reports armed forces 'detected and dealt with' a number of hostile drones inside Kuwaiti airspace. Source unattributed. UAE MoFA condemns as 'terrorist attack' and sovereignty violation. First Kuwait airspace breach since April 8 ceasefire.",
+    "category": "military_escalation",
+    "source": "Reuters, KUNA, Times of Israel, Tribune ANI",
+    "data_point": "First Kuwait airspace breach since April 8 ceasefire — Gulf triple-strike event 1 of 3"
+  },
+  {
+    "date": "2026-05-10",
+    "time": "morning local",
+    "title": "Drone strike ignites bulk carrier 23 NM NE of Doha in Qatari waters",
+    "description": "UKMTO reports bulk carrier (Abu Dhabi → Mesaieed) hit by unknown projectile; small fire extinguished; no casualties. Qatar MoD specifies drone attack: vessel 'was targeted by a drone... causing a limited fire... The vessel continued its journey toward Mesaieed Port after the fire was brought under control.' Fars News (Iran) claims vessel was US-flagged (UNVERIFIED at UKMTO/Reuters/Qatar MoD). No claim of responsibility. Vessel continued to port. Occurs day after Qatari PM Al-Thani met Rubio and Witkoff in Miami.",
+    "category": "maritime_attack",
+    "source": "UKMTO advisory, Reuters, Qatar MoD, TASS (Fars source), Xinhua",
+    "data_point": "Most significant Gulf maritime attack inside Qatari territorial waters during the war — coincides with Miami diplomatic track"
+  },
+  {
+    "date": "2026-05-10",
+    "time": "~12:00 UTC",
+    "title": "UAE air defenses intercept 2 Iranian drones — directly attributes to Iran",
+    "description": "UAE MoD says air defenses 'successfully engaged' two drones launched from Iranian territory. No casualties. UAE cumulative since Feb 28: 2,265 drones / 551 ballistic missiles / 29 cruise missiles intercepted; 10 civilian deaths / 230 wounded. UAE will resume in-person schooling Monday May 11.",
+    "category": "military_escalation",
+    "source": "Gulf News, UAE MoD, RBC-Ukraine, Times of Israel",
+    "data_point": "UAE direct attribution to Tehran contrasts with Kuwait/Qatar non-attribution — Gulf triple-strike event 3 of 3"
+  },
+  {
+    "date": "2026-05-10",
+    "time": "~06:00 (Iranian state media)",
+    "title": "Iran delivers response to US 14-point MoU via Pakistani mediator",
+    "description": "IRNA confirms Iran sent reply to US proposal through Pakistan. Iranian source to Al Jazeera: response 'realistic and positive,' focused on 'ending the war throughout the region, especially in Lebanon, and resolving differences with Washington,' plus 'negotiations regarding the Strait of Hormuz, the nuclear programme, and the lifting of sanctions.' Per WSJ leak (cited Haaretz live): Iran agrees to transfer enriched uranium to a third country with guarantees of return if US withdraws, agrees to phased Hormuz reopening as US lifts blockade, agrees to enrichment pause but NOT 20-year moratorium, refuses to 'dismantle' existing facilities. Per Tasnim: text demands lifting US sanctions, end to war on all fronts, Iranian management of Hormuz, compensation for war damages.",
+    "category": "diplomacy",
+    "source": "IRNA, Al Jazeera, Tasnim, WSJ via Haaretz, Reuters, Barak Ravid",
+    "data_point": "Iran formally responds to 14-point MoU — Pakistan-channel cycle completes"
+  },
+  {
+    "date": "2026-05-10",
+    "time": "~20:25 UTC (16:25 EDT)",
+    "title": "Trump rejects Iran reply as 'TOTALLY UNACCEPTABLE' on Truth Social",
+    "description": "After earlier Truth Social post accusing Iran of 'playing games' for '47 years' and citing '42,000 innocent, unarmed protesters' killed in Jan 2026 massacres, Trump posts: 'I have just read the response from Iran's so-called Representatives. I don't like it — TOTALLY UNACCEPTABLE!' Per Axios's Barak Ravid (Trump phone call): Trump said the response was 'inappropriate.' White House reposts on @WhiteHouse account.",
+    "category": "diplomacy",
+    "source": "Truth Social, White House X, NBC News, Al Jazeera, CNN, Mediaite, Townhall",
+    "data_point": "Diplomatic track collapses publicly within hours of Iran reply"
+  },
+  {
+    "date": "2026-05-10",
+    "time": "intraday",
+    "title": "Pezeshkian on X: 'We will never bow our heads before the enemy'",
+    "description": "Iranian President posts on X: 'We will never bow our heads before the enemy, and if talk of dialogue or negotiation arises, it does not mean surrender or retreat. Rather, the goal is to uphold the rights of the Iranian nation.' Deputy FM Kazem Gharibabadi warns deployment of extra-regional destroyers near Hormuz is 'militarization of a vital waterway.' National security committee spokesperson: 'Our restraint is over as of today.'",
+    "category": "iranian_statement",
+    "source": "CNN live blog, MS NOW, Al Jazeera",
+    "data_point": "Pezeshkian rhetorical posture stiffens post-Trump rejection"
+  },
+  {
+    "date": "2026-05-10",
+    "time": "intraday",
+    "title": "Supreme Leader Mojtaba Khamenei meets Khatam al-Anbiya commander Maj. Gen. Ali Abdollahi",
+    "description": "Tasnim reports Maj. Gen. Ali Abdollahi (commander, Khatam al-Anbiya Central HQ) briefed Mojtaba Khamenei on readiness of Iran's armed forces (army, IRGC, police, intelligence, border, MoD, Basij). Khamenei issued 'new directives and guidance for the continuation of operations to confront the enemy' per state TV. Second publicized in-person meeting in days (following Pezeshkian 2.5-hr meeting May 7). US Amb. to UN Mike Waltz on ABC 'This Week' (May 10): Mojtaba 'has been severely injured' and is 'difficult to get a hold of.' Iranian state media continues counter-narrative.",
+    "category": "iranian_statement",
+    "source": "Tasnim, State TV, Wionews, ABC This Week, Middle East Forum",
+    "data_point": "Mojtaba vigor-projection vs Waltz 'severely injured' claim — top-tier intelligence gap"
+  },
+  {
+    "date": "2026-05-10",
+    "time": "evening (CBS broadcast)",
+    "title": "Netanyahu (60 Minutes/CBS): War 'not over' — enriched uranium must be physically removed",
+    "description": "PM Netanyahu tells Major Garrett: 'It's not over because there's still nuclear material — enriched uranium that has to be taken out of Iran. There are still enrichment sites that have to be dismantled.' On removal method: 'You go in, and you take it out.' Says Trump told him 'I want to go in there... I think it can be done physically.' Best path: agreement enabling extraction. IAEA monitors estimate ~970 lb (440 kg) of HEU at near-bomb-grade. Netanyahu spoke with Trump by phone Sunday evening.",
+    "category": "israeli_statement",
+    "source": "CBS 60 Minutes, CBS Face the Nation transcript, Times of Israel, Bloomberg, CNN",
+    "data_point": "Netanyahu signals Israeli kinetic-extraction red line on Iranian HEU stockpile"
+  },
+  {
+    "date": "2026-05-10",
+    "time": "morning (CBS broadcast)",
+    "title": "Energy Sec Wright on Face the Nation: Military option to reopen Hormuz 'next few days' if no deal",
+    "description": "Chris Wright tells Margaret Brennan: 'If it's clear in the next few days that there's not a good path to a negotiated settlement, we'll go back to the military method to open the strait.' Says US paused Project Freedom at 'Iran's request' framing (disputed by NBC's earlier Saudi-suspension reporting). Says reopening would not be 'a one or two-day endeavour' and would be a 'challenge.' Also raises possibility of suspending federal gas tax to cushion consumers.",
+    "category": "us_statement",
+    "source": "CBS Face the Nation transcript, The National (UAE)",
+    "data_point": "Wright threshold — Tue May 12 → Fri May 15 military-option window flagged"
+  },
+  {
+    "date": "2026-05-10",
+    "time": "intraday",
+    "title": "Iraq disputes WSJ report of Israeli secret base in western desert",
+    "description": "Iraqi Joint Operations Command security spokesman Lt. Gen. Saad Maan: 'denied reports of the presence of any unlicensed forces or military equipment in the deserts of Karbala and Najaf, following extensive search operations.' Iraq frames March 5 incident (1 soldier killed, 2 wounded by aerial fire near Najaf desert) as involving 'unlicensed detachments and forces' but says counter-terrorism units found nothing at the site. WSJ Saturday report (citing US officials) said Israel built logistics/SAR base with US knowledge before Feb 28 strikes and bombed Iraqi force that nearly discovered it. OSINT analysts pinpoint candidate site to dry lakebed ~180 km SW of Najaf (Wadi Hmeir, 31.66777°N 42.44849°E) via Sentinel-2 imagery dated Mar 8, 2026, showing ~1.6 km graded airstrip. Heavy rainfall Mar 25-30 likely rendered site inoperable. Saudi Prince Turki bin Faisal in Arab News column tied report to Riyadh concerns about Israel's regional role.",
+    "category": "regional_diplomacy",
+    "source": "The National, WSJ via Reuters, Times of Israel, Kurdistan24, i24NEWS, Israel Hayom, Shafaq News",
+    "data_point": "Iraq base story being weaponized in two directions — sovereignty crisis + GCC unity fraying"
+  },
+  {
+    "date": "2026-05-10",
+    "time": "intraday",
+    "title": "IDF 91st Division strikes 40+ Hezbollah sites over weekend; Hezbollah hits Iron Dome battery with drone",
+    "description": "IDF press service: 91st 'Galilee' Division struck 'more than 40 terror infrastructure sites and eliminated more than 10 Hezbollah terrorists' over the weekend in southern Lebanon (Worthy Christian News claims 'over 100 terrorists'; IDF official figure is 10+). Hezbollah released video showing drone strike on Iron Dome battery in northern Israel. Sirens sounded near Lebanon border. Lebanese MoPH: 36 killed in past 24h per Sunday count. IDF intercepted suspicious aerial targets in two separate Sunday incidents without triggering broader sirens.",
+    "category": "lebanon_escalation",
+    "source": "IDF press release, Haaretz live, TASS, Times of Israel, Worthy News",
+    "data_point": "Lebanon front continues active — Hezbollah drone-strike video on Iron Dome battery is first publicly disclosed of this conflict cycle"
+  },
+  {
+    "date": "2026-05-10",
+    "time": "intraday",
+    "title": "Trump-Xi summit set for May 14-15 in Beijing; Iran/Russia agenda confirmed",
+    "description": "Pre-summit reporting (Fortune, Pravda USA citing NYT) confirms Trump's planned May 14-15 Beijing visit. Iran sanctions enforcement and Chinese refinery purchases of Iranian crude expected to be on agenda. Friday's State/Treasury sanctions on 3 China-based satellite/imagery firms and 10 individuals/companies (incl. several China-based) supporting Iran ballistic missile/drone program form backdrop.",
+    "category": "diplomacy",
+    "source": "Fortune, CNN, NYT via Pravda",
+    "data_point": "Trump-Xi summit T-4 days; Iran sanctions on agenda"
+  },
+  {
+    "date": "2026-05-10",
+    "time": "intraday",
+    "title": "IRGC Aerospace Force: missiles and drones 'locked onto American targets', awaiting fire order",
+    "description": "IRGC Aerospace Force on X (May 10 reiteration of May 9 IRGC Navy warning): 'IRGC Aerospace Force missiles and drones have locked onto American targets in the region and the enemy aggressor's ships. We are awaiting the order to fire.' Iranian Army spokesman Mohammad Akraminia: vessels from countries enforcing US sanctions 'will face problems' transiting Hormuz with 'immediate effect.'",
+    "category": "iranian_threat",
+    "source": "RFE/RL, Israel National News, Tribune ANI, Tasnim",
+    "data_point": "IRGC operationalizes 'locked-on, awaiting fire' posture at sub-strike threshold"
   }
 ]
