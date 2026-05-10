@@ -1328,63 +1328,82 @@
       "flights_cancelled": 52000,
       "children_killed": 585,
       "headline": "Hormuz tit-for-tat continues; F/A-18 from Bush disables 2 more Iranian tankers (Sea Star III + Sevda); Iran reviews US response to 14-pt MoU; Kharg oil slick (~45 km²) detected; UAE intercepts new Iranian salvo; markets rebound to S&P 500 record on jobs beat"
+    },
+    {
+      "date": "2026-05-09",
+      "war_day": 71,
+      "brent": 101.53,
+      "wti": 95.68,
+      "gas": 4.53,
+      "sp500": 7398.93,
+      "daily_cost_millions": 1200,
+      "total_cost_billions": 59.4,
+      "targets_struck": 35502,
+      "us_kia": 15,
+      "us_wia": 415,
+      "iranian_killed": 3468,
+      "lebanese_killed": 2783,
+      "displaced": 4850000,
+      "flights_cancelled": 52000,
+      "children_killed": 586,
+      "headline": "Saudi/Kuwait restored US base/airspace access; Iran MoU reply slipped past 48-hr window; Israel killed 24+ in Lebanon Saturday; Rubio + Witkoff met Qatari PM Al-Thani in Miami; weekend carry on markets (S&P record held); Ford CSG Day 316 deployed (post-Vietnam record)"
     }
   ],
   "toll": {
     "targets_struck": {
       "value": 35502,
       "label": "Cumulative Iranian targets struck (CENTCOM)",
-      "note": "+2 d/d Day 70: M/T Sea Star III + M/T Sevda smokestacks (F/A-18E from CVN-77, Gulf of Oman; CENTCOM PR 4480820 May 8). Iran-soil ceasefire Day 30 holds; tanker-disablement tempo accelerating: Day 64 = 0; Day 67 = Hasna; Day 70 = Sea Star + Sevda (3 disabled in 4 days).",
-      "tooltip": "Day-70 +2 maritime targets (Sea Star III + Sevda smokestacks). Pentagon publicly cited ~13,000 targets struck pre-ceasefire (Apr 7); dashboard cumulative includes Israeli + post-blockade strike package. Rubio (May 5 White House briefing): 'The Operation Epic Fury is concluded. We achieved the objectives of that operation.' Phase officially shifted to blockade + diplomacy. Adm. Brad Cooper (May 8): 'All three vessels are no longer transiting to Iran.'",
+      "note": "Day 71: NO new strike-counter increment — no new US/Israeli strikes Day 71. Carry-forward from Day 70.",
+      "tooltip": "Carry-forward. CENTCOM March 28 publicly cited 11,000+ targets; dashboard cumulative includes Israeli + post-blockade strike package. Phase officially shifted to blockade + diplomacy per Rubio May 5; selective F/A-18 disablements continue (3 cumulative blockade-disabled tankers). No new aggregate since Apr 7.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
       "value": 15,
       "label": "US service members KIA (all-cause)",
-      "note": "Day 70: No new US KIA reported. CENTCOM confirmed 'no US assets struck' in May 7 Hormuz exchange and zero casualties from May 8 Sea Star III/Sevda tanker disablements. 15 cumulative all-cause US KIA: 13 hostile (incl. 6 at Port Shuaiba Kuwait Mar 1) + Maj Davius (sudden illness Mar 6 Camp Buehring) + LCpl Melendez (Mar 4 Saudi non-hostile). Pentagon-official 13 (combat-only).",
-      "tooltip": "Pentagon-official combat KIA = 13; +2 non-combat. CENTCOM last refreshed ~01 May. Day 70 F/A-18E sorties from CVN-77 disabled Sea Star III + Sevda with no casualties. Caine (May 5): Iran has attacked US forces 10+ times since ceasefire — 'all below the threshold of restarting major combat operations.'",
+      "note": "Day 71: No new US KIA. Carry-forward — no new official Pentagon disclosure since Day 70.",
+      "tooltip": "Pentagon-official combat KIA = 13; +2 non-combat. CENTCOM last refreshed ~01 May. UAE May 8 salvo wounded 3 UAE nationals/residents per UAE MoD — not US.",
       "color": "var(--civilian)"
     },
     "us_wia": {
       "value": 415,
       "label": "US service members WIA (CENTCOM published)",
-      "note": "Carry-forward from May 1 baseline (CENTCOM). No new CENTCOM WIA update Day 63-70.",
-      "tooltip": "Day-70 figure carried forward; CENTCOM has not refreshed since 01 May. Tanker disablement May 6 (Hasna) and May 8 (Sea Star III, Sevda) produced no announced US casualties.",
+      "note": "Day 71: Carry-forward from May 1 baseline. No new CENTCOM WIA update Day 63-71.",
+      "tooltip": "Day-71 figure carried forward; CENTCOM has not refreshed since 01 May. UAE May 8 salvo wounded 3 (UAE nationals/residents per UAE MoD), not US.",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
       "value": 3468,
       "label": "Iranian Killed (Iran MoH floor)",
-      "note": "Day 70: Iran MoH no Day-70 update — Foundation of Martyrs Apr 19 cumulative 3,468 remains baseline; HRANA broader 3,636+; UN IMO confirms ~1,500 mariners stranded in Gulf. 18 days stale relative to Apr 19 baseline.",
-      "tooltip": "PRIMARY: Iran Ministry of Health/Foundation of Martyrs 3,468 (Apr 19; civilian-leaning). 7 infants, 376 children, 496 women per Iran MoH subset. Includes 156-175 killed in Minab Shajareh Tayyebeh school strike Feb 28. SECONDARY: HRANA cumulative 3,636+ (Apr 7 — 31 days stale). Hengaw mil-only ≥6,620 (military-only methodology). Iran wounded estimate ~26,500. Treat as floor.",
+      "note": "Day 71: Iran MoH no Day-71 update — carry-forward. Last Iran MoH refresh May 5 per Al Jazeera tracker. Hengaw separately documents 6,900+ total including 720 civilians (Day ~30 mid-war report); not refreshed for Day 71.",
+      "tooltip": "PRIMARY: Iran Ministry of Health/Foundation of Martyrs 3,468 (last published May 5). 7 infants, 376 children, 496 women per Iran MoH subset. Includes 156-175 killed in Minab Shajareh Tayyebeh school strike Feb 28. SECONDARY: HRANA cumulative 3,636+ (stale). Iran wounded estimate ~26,500. Treat as floor.",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
-      "value": 2727,
+      "value": 2783,
       "label": "Lebanese killed (LB MoPH)",
-      "note": "Day 70: Lebanese MoPH May 7 19:52 BST bulletin (2,727 killed / 8,438 wounded) carries; no Day-70 MoPH bulletin yet posted. NNA reports 11 killed (incl. 2 children) + 36 wounded in Doueir/Harouf/Habboush (Nabatieh) overnight May 7→8 — provisional uplift expected to ~2,738 / ~8,474 in next bulletin. Lebanon-Israel direct talks scheduled May 14–15 in Washington.",
-      "tooltip": "Lebanese Ministry of Public Health: 2,727 killed, 8,438 wounded since Mar 2 (CNN/MoPH May 7). 177 children killed cumulative; +2 Day 70 (Doueir strike). UNHCR: 380+ Lebanese killed since April 17 'ceasefire' — post-truce violations remain at scale. WHO May 6: 152 attacks on healthcare resulting in 103 deaths and 241 injuries; 3 hospitals + 41 PHCCs closed; 16 hospitals damaged.",
+      "note": "Day 71: +24+ killed Saturday in widest IDF strike radius since Apr 17 ceasefire (7 in Saksakieh incl. 1 child + 15 wounded; 3 each in Saadiyat, Haboush, Nahrain; Syrian father + 12-yr-old daughter killed in triple-tap drone strike in Nabatieh). Euronews May 10 retrospective puts Saturday south-Lebanon toll at 39. Conservative MoPH-aligned increment used: +24 killed → cum 2,783. Hezbollah retaliated — 1 IDF reservist severely wounded, 2 moderately.",
+      "tooltip": "Lebanese Ministry of Public Health: 2,783 killed, 8,527 wounded since Mar 2 (Al Jazeera baseline + Saturday increment). +24 killed and +15 wounded in single Saksakieh strike alone. Lebanon-Israel direct talks scheduled May 14–15 in Washington despite Lebanese demand for cessation of strikes first.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
       "value": 4850000,
       "label": "Total Displaced",
-      "note": "Carry-forward; Lebanese disaster mgmt cite ~1.6M+ Lebanon (incl. 1.2M+ Lebanese nationals, ~25% of population). ~3.2M Iran IDPs (carry-forward). UNHCR/IOM no new Day-70 bulletin.",
+      "note": "Carry-forward; no new IOM/UNHCR aggregate published May 8–9. ~1.6M+ Lebanon (incl. 1.2M+ Lebanese nationals); ~3.2M Iran IDPs (carry-forward).",
       "tooltip": "4.85M total — ~3.2M Iran IDPs (UNHCR Mar 12 stale; HRANA cites ~3M) + 1.6M Lebanon IDPs + 0.05M Lebanon-to-Syria. Lebanon figure reflects IDF orders covering ~1,470 km² (14% of territory) extended N of Litani 03 May.",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 52000,
       "label": "Commercial flights affected (regional airspace closures, floor)",
-      "note": "Day 70: UAE distance-learning extended through May 8 expired today; Sharjah/Dubai schools resumed Friday after KHDA 'May 5–8' online directive ended. FlightAware/Flightradar24 not directly retrieved this cycle — carry-forward. Floor figure anchored to cumulative airspace-closure impact in Lebanese, Israeli, Iranian, Iraqi, Jordanian, and UAE FIRs.",
-      "tooltip": "Methodological note: this is a 'flights affected' figure, not a 'flights cancelled' registry — captures cancellations + diversions + multi-hour holds + reroutes + overflight disruptions across all regional FIRs. Anchored to 52,000+ baseline cited in dashboard's infrastructure dataset; accumulating impact since Feb 28. Recommend treat as floor.",
+      "note": "Day 71: Carry-forward. Aviation airspace closures over Iran/Iraq/Persian Gulf continue. UAE NOTAM A1722/26 expired May 8.",
+      "tooltip": "Methodological note: this is a 'flights affected' figure, not a 'flights cancelled' registry — captures cancellations + diversions + multi-hour holds + reroutes + overflight disruptions across all regional FIRs. Anchored to 52,000+ baseline cited in dashboard's infrastructure dataset; accumulating impact since Feb 28. Treat as floor.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
-      "value": 585,
-      "label": "Children killed (Iran 376 + Lebanon 179 + others)",
-      "note": "Day 70: +2 Lebanon children killed in Doueir/Harouf/Habboush overnight May 7→8 strikes (Lebanese NNA via Al Jazeera Day 70). Lebanon MoPH cumulative 177 + 2 = 179 (provisional pending MoPH consolidation). Iran MoH 376+ (incl. 7 infants); Minab Feb 28: 120 children. Combined identified floor 299+.",
-      "tooltip": "Iran MoH 376 + Lebanon MoPH 179 (provisional, +2 Day 70) + ~30 from other regional fronts. Identified floor (Lebanon MoPH 179 + Minab 120) = 299+. Final UNICEF/MoPH cross-front breakdown pending.",
+      "value": 586,
+      "label": "Children killed (Iran 376 + Lebanon 180 + others)",
+      "note": "Day 71: +1 Lebanon child (Saksakieh strike) + 1 child (12-yr-old in Nabatieh triple-tap drone strike). Lebanon MoPH Day 70 baseline 179 + 1 conservative child increment = 180; Iran MoH 376 carry-forward.",
+      "tooltip": "Iran MoH 376 + Lebanon MoPH ~180 (provisional, +1 Day 71) + ~30 from other regional fronts. Identified floor (Lebanon MoPH 180 + Minab 120) = 300+. Final UNICEF/MoPH cross-front breakdown pending.",
       "color": "var(--civilian)"
     }
   }
