@@ -6262,5 +6262,95 @@
     "category": "diplomatic",
     "source": "NPR 2026-05-08; CNN Politics 2026-05-06; NCR 2026-05-07/08; Washington Post 2026-05-07",
     "data_point": "Rubio: 'expects a response from Iran on Friday'; blockade-evaders will be 'blown up'"
+  },
+  {
+    "date": "2026-05-09",
+    "time": "morning",
+    "title": "Iran's formal MoU response slips past 48-hr Pakistan-channel window",
+    "description": "Iran did not deliver its formal response to the US 14-point MoU within the 48-hour Pakistan-channel window flagged May 7-8. FM spokesperson Esmaeil Baqaei said Tehran is 'still reviewing' the proposal. Daily Pakistan reported (May 9 09:15 PKT) that US and Iranian negotiators 'could resume next week in Islamabad' on a 14-point one-month framework MoU covering Iran's nuclear program, Hormuz de-escalation, and HEU transfer to a third country. Pakistani PM Shehbaz Sharif said Pakistan has been in contact with both sides 'day and night.' Trump on Truth Social: 'expects to hear very soon' from Iran.",
+    "category": "diplomacy",
+    "source": "Al Jazeera 2026-05-08; Daily Pakistan 2026-05-09; NPR 2026-05-07",
+    "data_point": "MoU response window: SLIPPED; talks may reconvene in Islamabad next week"
+  },
+  {
+    "date": "2026-05-09",
+    "time": "afternoon",
+    "title": "Rubio + Witkoff meet Qatari PM Al-Thani in Miami on Iran MoU framework",
+    "description": "Sec State Rubio and special envoy Steve Witkoff met Qatari PM Mohammed bin Abdulrahman Al-Thani in Miami Saturday afternoon to discuss path to one-page MoU ending the war. Per Axios sources, 'Qatar, Pakistan, Egypt, Turkey and Saudi Arabia are working in tandem.' Al-Thani had separately met VP JD Vance in Washington on Friday May 8. Qatar formally backstops Pakistan as primary mediator. Rubio publicly framed the meeting as discussing 'US support for Qatar's defense.'",
+    "category": "diplomacy",
+    "source": "Axios 2026-05-09; Times of Israel liveblog 2026-05-09; Reuters",
+    "data_point": "Rubio/Witkoff/Al-Thani Miami trilateral; Qatar formally backstops Pakistan"
+  },
+  {
+    "date": "2026-05-08",
+    "time": "intraday",
+    "title": "Saudi Arabia + Kuwait LIFT restrictions on US base/airspace access; Project Freedom restart cleared",
+    "description": "Reversing the May 5–6 cut-off, Saudi Arabia and Kuwait on May 7-8 lifted restrictions on US military use of Prince Sultan Air Base and Camp Arifjan plus Kuwaiti overflight (per WSJ, Türkiye Today, The Defense News). The reversal followed a second Trump–MBS phone call. WSJ: Pentagon planners 'assessing timelines for resuming the operation, with some US officials indicating activities could restart as early as this week.' A Saudi source separately told Al-Hadath that the Kingdom 'did not allow the use of its airspace to support offensive military operations' — narrative tension between Riyadh's public framing and WSJ reporting.",
+    "category": "force_posture",
+    "source": "WSJ; Türkiye Today 2026-05-08; The Defense News 2026-05-08; Al-Hadath",
+    "data_point": "ABO restored; Project Freedom restart 'as early as this week' per WSJ"
+  },
+  {
+    "date": "2026-05-09",
+    "time": "evening",
+    "title": "Israel kills at least 24 in Lebanon Saturday; widest strike radius since Apr 17 ceasefire",
+    "description": "Lebanese MoPH: 24+ killed across south Lebanon and Beirut–Sidon coastal highway including 7 in Saksakieh (1 child + 15 wounded), 3 in Saadiyat, 3 in Haboush, 3 in Nahrain, plus a Syrian father and his 12-year-old daughter killed in a triple-tap drone strike in Nabatieh. Hezbollah responded with multiple drone/rocket attacks on northern Israel and Misgav Am; 1 IDF reservist severely wounded, 2 moderately. Euronews (May 10) raised Saturday south-Lebanon toll to 39. Negotiations between Israel and Lebanon scheduled for May 14–15 in Washington despite Lebanese demand for cessation of strikes first.",
+    "category": "kinetic_lebanon",
+    "source": "Al Jazeera 2026-05-09; PBS NewsHour 2026-05-09; Euronews 2026-05-10; Lebanese MoPH",
+    "data_point": "Lebanon May 9: +24 killed (Euronews retrospective: 39); +15 wounded; 1 IDF reservist severely wounded"
+  },
+  {
+    "date": "2026-05-09",
+    "time": "intraday",
+    "title": "Pezeshkian sets 'lifting blockade' as precondition for Hormuz negotiations",
+    "description": "President Pezeshkian, following his disclosed 2.5-hour direct meeting with Supreme Leader Mojtaba Khamenei (revealed May 7), publicly stipulated that Tehran will not negotiate Strait of Hormuz arrangements until the US naval blockade is lifted. He warned against 'unrealistic expectations' compromising 'Iran's dignity and independence' and characterized the path forward as 'difficult yet honorable.' Mojtaba Khamenei remains absent from public view since Feb 28 strikes; NYT (4 Iranian officials) reports severe facial/leg burns and difficulty speaking; he reportedly attends meetings via audio.",
+    "category": "iran-domestic",
+    "source": "Voice of Emirates 2026-05-07; Bloomberg 2026-05-07; Times of Israel 2026-05-08; yourNEWS 2026-05-08",
+    "data_point": "Pezeshkian: 'lift blockade first' — Hormuz negotiation precondition"
+  },
+  {
+    "date": "2026-05-09",
+    "time": "intraday",
+    "title": "Iran officially denies Kharg Island leak; slick 'much reduced' on May 9 satellite imagery",
+    "description": "Conflict and Environment Observatory analysis of Copernicus Sentinel-1/-2/-3 imagery May 6–9: original ~44 sq km / ~17 sq mi slick now 'much reduced' on May 9 imagery, drifting south, no obvious additional active spills. Iranian lawmaker Jafar Pourkabgani (Bushehr) on X: 'false … part of the enemy's psychological operation … oil residue and ballast water waste from European tankers.' Moussa Ahmadi (Iran parliament energy commission): 'no official report so far confirming' a leak. Kharg handles ~90% of Iran's oil exports.",
+    "category": "infrastructure/environmental",
+    "source": "Aaj English/AFP 2026-05-10; Iran International 2026-05-09; Jerusalem Post; Reuters; Conflict and Environment Observatory",
+    "data_point": "Kharg slick: 44→'much reduced'; Iran denies; attribution unresolved"
+  },
+  {
+    "date": "2026-05-08",
+    "time": "intraday",
+    "title": "Rubio in Rome/Vatican on fence-mending tour with Italy's Tajani",
+    "description": "Italian FM Antonio Tajani publicly affirmed transatlantic ties and said he hoped 'tensions have been calmed' over the US-Israeli war on Iran during Rubio's two-day visit. Rubio also met Pope Leo. Captures the European political backlash track that has run alongside the war.",
+    "category": "diplomacy-international-response",
+    "source": "NewsNation 2026-05-08; Reuters",
+    "data_point": "Rubio-Tajani Rome; Rubio-Pope Leo Vatican"
+  },
+  {
+    "date": "2026-05-09",
+    "time": "intraday",
+    "title": "FS Charles de Gaulle anchors UK-France 50+ nation defensive coalition (Red Sea / Gulf of Aden)",
+    "description": "French CSG (Charles de Gaulle, R91) operating in the Red Sea / approaching Gulf of Aden as command anchor for the UK-France-led 50+ nation defensive shipping coalition that exists in parallel to (and is operationally distinct from) US Project Freedom. NOT added to carriers.json per user decision (US-only file). Note for analyst sidebar.",
+    "category": "naval / allies",
+    "source": "NPR 2026-05-07 (CdG Red Sea move)",
+    "data_point": "CdG anchors UK-France-led 50+ nation defensive coalition (operationally distinct from Project Freedom)"
+  },
+  {
+    "date": "2026-05-08",
+    "time": "close",
+    "title": "S&P 500 record close 7,398.93 on April NFP beat; six-week win streak (longest since 2024)",
+    "description": "April nonfarm payrolls +177k (consensus +55k); unemployment 4.3%. S&P +0.84% (+61.82) record close 7,398.93; Nasdaq +1.71% record 26,247.08. Brent +1.23% to $101.29; WTI +0.64% to $95.42 — both posted weekly losses of >6% as ceasefire-deal hopes outweighed Hormuz exchange. Akamai +25% on $1.8B AI cloud contract; CoreWeave –10% on weak guidance. VIX 17.19. Sanctuary Wealth's Mary Ann Bartels (CNBC, Friday) called for S&P 10,000–13,000 in 3 years — speculative call, flagged as forecast.",
+    "category": "markets",
+    "source": "CNBC 2026-05-07/08; Yahoo Finance; FRED SP500; FactSet earnings update",
+    "data_point": "S&P 500 record 7,398.93 (+0.84%); 6-wk win streak; April NFP +177k"
+  },
+  {
+    "date": "2026-05-09",
+    "time": "morning",
+    "title": "WSJ: Israel ran secret airbase in Iraqi western desert during air campaign on Iran",
+    "description": "Wall Street Journal reports IDF built a secret base in the Iraqi desert to support its Iran air campaign, and even struck Iraqi forces who came close to discovering it in early March (Iraq attributed those strikes to the US at the time). Baghdad has not yet officially responded. Material increase in scenario's intelligence-thread and US-Iraq relations risk.",
+    "category": "force_posture",
+    "source": "Wall Street Journal via Times of Israel liveblog 2026-05-09",
+    "data_point": "WSJ: Israel ran secret base in Iraqi western desert; struck Iraqi forces who got too close"
   }
 ]
