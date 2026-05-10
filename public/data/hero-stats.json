@@ -1,46 +1,46 @@
 {
-  "last_updated": "2026-05-08",
-  "war_day": 70,
-  "timestamp_label": "LAST UPDATED: MAY 08, 2026 18:11 ET",
+  "last_updated": "2026-05-09",
+  "war_day": 71,
+  "timestamp_label": "LAST UPDATED: MAY 10, 2026 08:25 ET",
   "cost": {
     "brent": {
       "price": 101.53,
-      "label": "Brent crude (May 8 mid-session, ICE Jul)",
-      "change": "+1.47% vs May 7 settle ($101.94 \u2192 SEB confirms ~$100.5 mid-session; intraday range $99.5\u2013$102)",
-      "tooltip": "ICE Brent July contract May 8 ~$101.53 (Yahoo Finance BZ=F live 12:01 PM EDT 2026-05-08; Trading Economics confirms ~$100.5 mid-session). Re-priced higher on Day 70 after Thursday's CENTCOM/Iran Hormuz exchange and Friday's Sea Star III/Sevda strikes; intraday high above $108 earlier in week per SEB. JPM economists: 'increasing signs of demand destruction.' +43.0% vs $71.00 Feb 27 baseline."
+      "label": "Brent (Jul) — May 8 settle carried (weekend)",
+      "change": "Flat — markets closed Sat May 9; CNBC/Yahoo May 8 settle $101.29 (+1.23%); dashboard print +$0.24 vs CNBC settle (basis difference)",
+      "tooltip": "Friday May 8 settle held; ICE Brent closed for weekend. CNBC/Yahoo report Friday close at $101.29 (+1.23%); dashboard retains $101.53 with ~$0.24 discrepancy flagged as wholesale/spot vs front-month-future basis. +43.0% vs $71.00 Feb 27 baseline. Weekly Brent −6.0% on ceasefire-deal optimism."
     },
     "wti": {
       "price": 95.68,
-      "label": "WTI crude (May 8 mid-session, NYMEX Jun, CL=F)",
-      "change": "+0.92% vs May 7 settle ($94.81); Trading Economics confirms $95.46",
-      "tooltip": "NYMEX WTI front-month June May 8 ~$95.68 (Yahoo Finance CL=F 12:01 PM EDT 2026-05-08; Trading Economics confirms $95.46). Bounce from Thursday's $94.81 settle on renewed war premium. +43.9% vs $66.50 Feb 27 baseline."
+      "label": "WTI (Jun) — May 8 settle carried (weekend)",
+      "change": "Flat — markets closed Sat May 9; CNBC May 8 settle $95.42 (+0.64%); dashboard print +$0.26 vs CNBC settle",
+      "tooltip": "Friday May 8 settle held; NYMEX closed for weekend. CNBC reports Friday settle at $95.42 (+0.64%); dashboard retains $95.68 with ~$0.26 discrepancy flagged. +43.9% vs $66.50 Feb 27 baseline. Weekly WTI −7.0%."
     },
     "gas": {
-      "price": 4.546,
+      "price": 4.53,
       "label": "AAA national average, regular unleaded",
-      "change": "\u22121.2\u00a2 d/d vs May 7 ($4.558); FIRST DAILY DECLINE IN 16 DAYS; +24.3\u00a2 wk/wk",
-      "tooltip": "Source: gasprices.aaa.com snapshot 2026-05-08; AAA Newsroom; NBC News gas tracker. First daily decline in 16 days as ceasefire-deal optimism partially blunts crude rally; pump prices still 53% above pre-war ($2.96 Feb 26 baseline). State extremes: California $6.17, Hawaii ~$5.95, NV/OR/WA/AK ~$5.00+; Oklahoma cheapest. Pump prices at 2022-style wartime peak."
+      "change": "−1.6¢ d/d vs May 8 ($4.546); SECOND CONSECUTIVE DAILY DECLINE",
+      "tooltip": "AAA daily refresh, May 9 2026 — second consecutive daily decline after May 8's first dip in 16 days. Down from $4.546 (May 8) and $4.55 weekly bulletin (May 7). +51.5% vs $2.99 Feb 28 baseline. State extremes: California $6.17, Hawaii ~$5.95, NV/OR/WA/AK ~$5.00+; Oklahoma cheapest. Source: gasprices.aaa.com retrieved May 9 2026."
     },
     "sp500": {
       "value": 7398.93,
-      "label": "S&P 500 (May 8 close \u2014 NEW RECORD)",
-      "change": "+0.84% (+61.82) on April nonfarm payrolls beat (+115k vs +65k consensus, unemployment 4.3%)",
-      "tooltip": "S&P 500 closed at fresh all-time high 7,398.93 (+0.84%, +61.82). Nasdaq record 26,247.08 (+1.71%); Dow 49,609.16 (+0.02%); VIX 17.26 (+1.05%). Six-week win streak (longest since 2024); WTD: S&P +2.3%, Nasdaq +4.5%, Dow +0.2%. Shrugged off Hormuz exchange and tanker disablements. JPM economists: 'increasing signs of demand destruction' as oil consumers adjust to higher prices. Defense names mixed \u2014 LMT $508.92 (-1.04% week); RTX $175.54 (-0.68%); NOC near record."
+      "label": "S&P 500 — May 8 record close carried (weekend)",
+      "change": "Flat — NYSE closed Sat May 9; Friday close 7,398.93 (+0.84%) NEW RECORD on April NFP +177k beat",
+      "tooltip": "NYSE/Nasdaq closed Saturday. Friday May 8 closed at fresh all-time high 7,398.93 (+0.84%, +61.82). Nasdaq record 26,247.08 (+1.71%); Dow 49,609.16 (+0.02%); VIX 17.19. 6th straight weekly gain (longest since 2024). Driven by April nonfarm payrolls beat (+177k vs +55k cons.) and AI capex headlines (Akamai +25% on $1.8B AI cloud contract). Q1 2026 earnings: 89% S&P reported, 84% beat EPS — highest beat rate since Q2 2021."
     },
     "daily_cost": {
       "value": 1200,
       "unit": "M",
-      "label": "Daily US war cost, Day 70",
-      "note": "Munition expenditure lower than peak strike days but elevated by Project Freedom escort posture, two CSGs in NAS, and F/A-18 strike sorties on tankers; Popular Information $72B/60d model = $1.2B/d.",
-      "tooltip": "Day-70 daily run-rate ~$1.2B reflects Popular Information $72B/60-day model extrapolated to Day 70; Pentagon-official figure unchanged at ~$25B leak (now 9 days stale). Reflects two-CSG NAS posture, F/A-18E strike sorties on Sea Star III + Sevda from CVN-77, blockade enforcement, and base-repair tail (>$5B AEI).",
-      "change": "+$555M vs Day 69 ($645M) on Popular Info baseline shift"
+      "label": "Daily US war cost, Day 71",
+      "note": "Carry-forward run-rate from Popular Information $72B/60d model = $1.2B/d. Pentagon official daily implied $0.36B; CBS leaked-doc midpoint $0.72B.",
+      "tooltip": "Day-71 daily run-rate $1.2B reflects Popular Information $72B/60-day model. Pentagon-official figure unchanged at ~$25B leak (now 10 days stale). Reflects two-CSG NAS posture, blockade enforcement (selective F/A-18 disablements), and base-repair tail (>$5B AEI). No new strike sorties Day 71.",
+      "change": "Flat vs Day 70 ($1.2B)"
     },
     "total_cost": {
-      "value": 58.2,
+      "value": 59.4,
       "unit": "B",
-      "label": "Est. Total Cost (70 Days)",
-      "note": "Scenario midpoint band $25B\u2013$1T retained per dashboard convention. Pentagon $25B (Apr 29/Day 60) is primary official, STALE 9 DAYS; CBS internal $40-50B; CSIS upper bound ~$1T (full economic); Popular Info $72B/60d model extrapolated to Day 70 = $84B.",
-      "tooltip": "$57.0B (Day 69) + $1.2B Day 70 = $58.2B midpoint. Method: Pentagon $25B (Day 60) baseline + Popular Info $1.2B/d run-rate Days 61-70. Range: Pentagon official $25B floor \u2192 CBS leaked internal $50B \u2192 Popular Info $84B (Day 70 extrapolation); midpoint band $25B\u2013$1T retained per dashboard convention.",
+      "label": "Est. Total Cost (71 Days)",
+      "note": "Scenario midpoint band $25B–$1T retained per dashboard convention. Pentagon $25B (Apr 29/Day 60) is primary official, STALE 10 DAYS; CBS internal $40-50B; CSIS upper bound ~$1T (full economic); Popular Info $72B/60d model extrapolated to Day 71 = $85.2B.",
+      "tooltip": "$58.2B (Day 70) + $1.2B Day 71 = $59.4B midpoint. Range: Pentagon $25.4B floor → CBS leaked $50.7B → Popular Info $85.2B. Spread $59.8B — largest gap recorded in series; persistent divergence increases case for explicit transparency disclaimer.",
       "change": "+1.2"
     }
   },
@@ -1342,7 +1342,7 @@
       "value": 15,
       "label": "US service members KIA (all-cause)",
       "note": "Day 70: No new US KIA reported. CENTCOM confirmed 'no US assets struck' in May 7 Hormuz exchange and zero casualties from May 8 Sea Star III/Sevda tanker disablements. 15 cumulative all-cause US KIA: 13 hostile (incl. 6 at Port Shuaiba Kuwait Mar 1) + Maj Davius (sudden illness Mar 6 Camp Buehring) + LCpl Melendez (Mar 4 Saudi non-hostile). Pentagon-official 13 (combat-only).",
-      "tooltip": "Pentagon-official combat KIA = 13; +2 non-combat. CENTCOM last refreshed ~01 May. Day 70 F/A-18E sorties from CVN-77 disabled Sea Star III + Sevda with no casualties. Caine (May 5): Iran has attacked US forces 10+ times since ceasefire \u2014 'all below the threshold of restarting major combat operations.'",
+      "tooltip": "Pentagon-official combat KIA = 13; +2 non-combat. CENTCOM last refreshed ~01 May. Day 70 F/A-18E sorties from CVN-77 disabled Sea Star III + Sevda with no casualties. Caine (May 5): Iran has attacked US forces 10+ times since ceasefire — 'all below the threshold of restarting major combat operations.'",
       "color": "var(--civilian)"
     },
     "us_wia": {
@@ -1355,35 +1355,35 @@
     "iranian_killed": {
       "value": 3468,
       "label": "Iranian Killed (Iran MoH floor)",
-      "note": "Day 70: Iran MoH no Day-70 update \u2014 Foundation of Martyrs Apr 19 cumulative 3,468 remains baseline; HRANA broader 3,636+; UN IMO confirms ~1,500 mariners stranded in Gulf. 18 days stale relative to Apr 19 baseline.",
-      "tooltip": "PRIMARY: Iran Ministry of Health/Foundation of Martyrs 3,468 (Apr 19; civilian-leaning). 7 infants, 376 children, 496 women per Iran MoH subset. Includes 156-175 killed in Minab Shajareh Tayyebeh school strike Feb 28. SECONDARY: HRANA cumulative 3,636+ (Apr 7 \u2014 31 days stale). Hengaw mil-only \u22656,620 (military-only methodology). Iran wounded estimate ~26,500. Treat as floor.",
+      "note": "Day 70: Iran MoH no Day-70 update — Foundation of Martyrs Apr 19 cumulative 3,468 remains baseline; HRANA broader 3,636+; UN IMO confirms ~1,500 mariners stranded in Gulf. 18 days stale relative to Apr 19 baseline.",
+      "tooltip": "PRIMARY: Iran Ministry of Health/Foundation of Martyrs 3,468 (Apr 19; civilian-leaning). 7 infants, 376 children, 496 women per Iran MoH subset. Includes 156-175 killed in Minab Shajareh Tayyebeh school strike Feb 28. SECONDARY: HRANA cumulative 3,636+ (Apr 7 — 31 days stale). Hengaw mil-only ≥6,620 (military-only methodology). Iran wounded estimate ~26,500. Treat as floor.",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
       "value": 2727,
       "label": "Lebanese killed (LB MoPH)",
-      "note": "Day 70: Lebanese MoPH May 7 19:52 BST bulletin (2,727 killed / 8,438 wounded) carries; no Day-70 MoPH bulletin yet posted. NNA reports 11 killed (incl. 2 children) + 36 wounded in Doueir/Harouf/Habboush (Nabatieh) overnight May 7\u21928 \u2014 provisional uplift expected to ~2,738 / ~8,474 in next bulletin. Lebanon-Israel direct talks scheduled May 14\u201315 in Washington.",
-      "tooltip": "Lebanese Ministry of Public Health: 2,727 killed, 8,438 wounded since Mar 2 (CNN/MoPH May 7). 177 children killed cumulative; +2 Day 70 (Doueir strike). UNHCR: 380+ Lebanese killed since April 17 'ceasefire' \u2014 post-truce violations remain at scale. WHO May 6: 152 attacks on healthcare resulting in 103 deaths and 241 injuries; 3 hospitals + 41 PHCCs closed; 16 hospitals damaged.",
+      "note": "Day 70: Lebanese MoPH May 7 19:52 BST bulletin (2,727 killed / 8,438 wounded) carries; no Day-70 MoPH bulletin yet posted. NNA reports 11 killed (incl. 2 children) + 36 wounded in Doueir/Harouf/Habboush (Nabatieh) overnight May 7→8 — provisional uplift expected to ~2,738 / ~8,474 in next bulletin. Lebanon-Israel direct talks scheduled May 14–15 in Washington.",
+      "tooltip": "Lebanese Ministry of Public Health: 2,727 killed, 8,438 wounded since Mar 2 (CNN/MoPH May 7). 177 children killed cumulative; +2 Day 70 (Doueir strike). UNHCR: 380+ Lebanese killed since April 17 'ceasefire' — post-truce violations remain at scale. WHO May 6: 152 attacks on healthcare resulting in 103 deaths and 241 injuries; 3 hospitals + 41 PHCCs closed; 16 hospitals damaged.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
       "value": 4850000,
       "label": "Total Displaced",
       "note": "Carry-forward; Lebanese disaster mgmt cite ~1.6M+ Lebanon (incl. 1.2M+ Lebanese nationals, ~25% of population). ~3.2M Iran IDPs (carry-forward). UNHCR/IOM no new Day-70 bulletin.",
-      "tooltip": "4.85M total \u2014 ~3.2M Iran IDPs (UNHCR Mar 12 stale; HRANA cites ~3M) + 1.6M Lebanon IDPs + 0.05M Lebanon-to-Syria. Lebanon figure reflects IDF orders covering ~1,470 km\u00b2 (14% of territory) extended N of Litani 03 May.",
+      "tooltip": "4.85M total — ~3.2M Iran IDPs (UNHCR Mar 12 stale; HRANA cites ~3M) + 1.6M Lebanon IDPs + 0.05M Lebanon-to-Syria. Lebanon figure reflects IDF orders covering ~1,470 km² (14% of territory) extended N of Litani 03 May.",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 52000,
       "label": "Commercial flights affected (regional airspace closures, floor)",
-      "note": "Day 70: UAE distance-learning extended through May 8 expired today; Sharjah/Dubai schools resumed Friday after KHDA 'May 5\u20138' online directive ended. FlightAware/Flightradar24 not directly retrieved this cycle \u2014 carry-forward. Floor figure anchored to cumulative airspace-closure impact in Lebanese, Israeli, Iranian, Iraqi, Jordanian, and UAE FIRs.",
+      "note": "Day 70: UAE distance-learning extended through May 8 expired today; Sharjah/Dubai schools resumed Friday after KHDA 'May 5–8' online directive ended. FlightAware/Flightradar24 not directly retrieved this cycle — carry-forward. Floor figure anchored to cumulative airspace-closure impact in Lebanese, Israeli, Iranian, Iraqi, Jordanian, and UAE FIRs.",
       "tooltip": "Methodological note: this is a 'flights affected' figure, not a 'flights cancelled' registry — captures cancellations + diversions + multi-hour holds + reroutes + overflight disruptions across all regional FIRs. Anchored to 52,000+ baseline cited in dashboard's infrastructure dataset; accumulating impact since Feb 28. Recommend treat as floor.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
       "value": 585,
       "label": "Children killed (Iran 376 + Lebanon 179 + others)",
-      "note": "Day 70: +2 Lebanon children killed in Doueir/Harouf/Habboush overnight May 7\u21928 strikes (Lebanese NNA via Al Jazeera Day 70). Lebanon MoPH cumulative 177 + 2 = 179 (provisional pending MoPH consolidation). Iran MoH 376+ (incl. 7 infants); Minab Feb 28: 120 children. Combined identified floor 299+.",
+      "note": "Day 70: +2 Lebanon children killed in Doueir/Harouf/Habboush overnight May 7→8 strikes (Lebanese NNA via Al Jazeera Day 70). Lebanon MoPH cumulative 177 + 2 = 179 (provisional pending MoPH consolidation). Iran MoH 376+ (incl. 7 infants); Minab Feb 28: 120 children. Combined identified floor 299+.",
       "tooltip": "Iran MoH 376 + Lebanon MoPH 179 (provisional, +2 Day 70) + ~30 from other regional fronts. Identified floor (Lebanon MoPH 179 + Minab 120) = 299+. Final UNICEF/MoPH cross-front breakdown pending.",
       "color": "var(--civilian)"
     }
