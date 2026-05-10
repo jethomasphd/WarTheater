@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.530,
-  "war_increase": 1.540,
+  "current_gas": 4.522,
+  "war_increase": 1.532,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.624 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com state averages, May 9 2026 (Saturday — daily figure $4.530, −1.6¢ d/d vs $4.546 May 8; second consecutive daily decline after May 8's first dip in 16 days, short-term softening as ceasefire-deal optimism continues to blunt crude rally; still +51.5% above $2.99 Feb 28 baseline). State extremes: CA $6.17 high, HI ~$5.95, NV/OR/WA/AK ~$5.00+; OK cheapest.",
-  "last_updated": "2026-05-09"
+  "source": "AAA gasprices.aaa.com state averages, May 10 2026 (Sunday — daily figure $4.522, −0.8¢ d/d vs $4.530 May 9; third consecutive daily decline as crude weakness from diplomatic-track optimism filters through; spike peaked $4.52 May 7; still +51.2% above $2.99 Feb 28 baseline). State extremes: CA $6.17 high, HI ~$5.95, NV/OR/WA/AK ~$5.00+; OK cheapest. Energy Sec Wright floated federal gas tax suspension on Face the Nation.",
+  "last_updated": "2026-05-10"
 }
