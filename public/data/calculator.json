@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.546,
-  "war_increase": 1.556,
+  "current_gas": 4.530,
+  "war_increase": 1.540,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.624 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com state averages, May 8 2026 (Friday — daily figure $4.546, −1.2¢ d/d vs $4.558 May 7; first daily decline in 16 days as ceasefire-deal optimism partially blunts crude rally; still +24.3¢ wk/wk and 52.0% above $2.99 Feb 28 baseline). State extremes: CA $6.17 high, HI ~$5.95, NV/OR/WA/AK ~$5.00+; OK cheapest. Pump prices at 2022-style wartime peak.",
-  "last_updated": "2026-05-08"
+  "source": "AAA gasprices.aaa.com state averages, May 9 2026 (Saturday — daily figure $4.530, −1.6¢ d/d vs $4.546 May 8; second consecutive daily decline after May 8's first dip in 16 days, short-term softening as ceasefire-deal optimism continues to blunt crude rally; still +51.5% above $2.99 Feb 28 baseline). State extremes: CA $6.17 high, HI ~$5.95, NV/OR/WA/AK ~$5.00+; OK cheapest.",
+  "last_updated": "2026-05-09"
 }

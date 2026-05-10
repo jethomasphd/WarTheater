@@ -3024,7 +3024,9 @@
     "type": "iran_retaliation",
     "actor": "iran_disputed",
     "first_strike": "2026-05-05",
-    "active_days": [67],
+    "active_days": [
+      67
+    ],
     "weapon": "Unspecified ballistic missiles + drones (UAE MoD: 'engaged' threats)",
     "casualties_reported": "0 reported May 5; no confirmed damage",
     "casualties_source": "UAE Ministry of Defence / IRGC statement (Fars) / Al Jazeera / NPR / Jerusalem Post",
@@ -3047,7 +3049,9 @@
     "type": "iran_retaliation",
     "actor": "iran_presumed",
     "first_strike": "2026-05-05",
-    "active_days": [67],
+    "active_days": [
+      67
+    ],
     "weapon": "Cruise missile (per CBS citing US officials)",
     "casualties_reported": "Several crew injured, evacuated for medical care",
     "casualties_source": "CMA CGM corporate statement / UKMTO / CBS News / Maritime Executive / FreightWaves / Seatrade Maritime",
@@ -3071,7 +3075,9 @@
     "type": "iran_retaliation",
     "actor": "iran_alleged_irgc_denied",
     "first_strike": "2026-05-08",
-    "active_days": [70],
+    "active_days": [
+      70
+    ],
     "weapon": "2 ballistic missiles + 3 drones",
     "casualties_reported": "3 wounded by debris (moderate)",
     "casualties_source": "UAE Ministry of Defence (X) / AP / Times of Israel / NPR",
@@ -3095,7 +3101,10 @@
     "type": "lebanon_spillover",
     "actor": "israel_idf",
     "first_strike": "2026-05-07",
-    "active_days": [69, 70],
+    "active_days": [
+      69,
+      70
+    ],
     "weapon": "Air strikes",
     "casualties_reported": "11 killed (including 2 children), 36 wounded",
     "casualties_source": "Lebanese National News Agency (NNA) via Al Jazeera Day 70 brief",
@@ -3116,7 +3125,10 @@
     "type": "iran_retaliation",
     "actor": "iran_irgc_navy",
     "first_strike": "2026-05-07",
-    "active_days": [69, 70],
+    "active_days": [
+      69,
+      70
+    ],
     "weapon": "Ballistic and antiship cruise missiles, drones with HE warheads",
     "casualties_reported": "Per CENTCOM: 'no US assets struck'; Iran claims 'significant damage'",
     "casualties_source": "Al Jazeera 2026-05-07 / CENTCOM via CNN 2026-05-07 / NBC News 2026-05-07/08",
@@ -3129,5 +3141,71 @@
     ],
     "verified": true,
     "last_updated": "2026-05-08"
+  },
+  {
+    "id": "STRK-RET-2026-05-08-OCEAN-KOI",
+    "city": "Gulf of Oman",
+    "lat": 25.0,
+    "lng": 58.5,
+    "type": "iran_retaliation",
+    "actor": "iran_irgc_navy",
+    "first_strike": "2026-05-08",
+    "active_days": [
+      70
+    ],
+    "weapon": "Vessel boarding / seizure (special operation)",
+    "casualties_reported": "None reported",
+    "casualties_source": "Al Jazeera 2026-05-08 22:23 GMT; Fars news agency",
+    "notes": "Day 70 evening (May 8 ~22:00Z): IRGC Navy announced seizure of M/T Ocean Koi (oil tanker) in Gulf of Oman, accusing it of 'trying to harm and disrupt oil exports.' Tanker towed to Iranian port. Iran cited Persian Gulf Strait Authority (PGSA) framework as legal basis. Falls within Day 71 horizon (Al Jazeera flash after Day 70 data cutoff).",
+    "sources": [
+      "Al Jazeera 2026-05-08 22:23 GMT",
+      "Fars news agency"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-09"
+  },
+  {
+    "id": "STRK-RET-2026-05-08-IRAN-CARGO-CASUALTIES-CLAIM",
+    "city": "Strait of Hormuz",
+    "lat": 26.5,
+    "lng": 56.5,
+    "type": "iran_retaliation",
+    "actor": "iran_joint_military_command",
+    "first_strike": "2026-05-08",
+    "active_days": [
+      70
+    ],
+    "weapon": "Casualty claim — Iranian cargo vessel (unnamed)",
+    "casualties_reported": "Iran claims 1 sailor killed, 10 wounded, 5 missing in US strike; CENTCOM has NOT confirmed Iranian casualty figures",
+    "casualties_source": "NPR 2026-05-08; Iran judiciary-affiliated news agency",
+    "notes": "Iran Joint Military Command (May 8) claimed US air attacks on civilian areas of Qeshm Island wounded 10 sailors and left 5 missing aboard an Iranian cargo ship. US has not confirmed casualties, only the strikes on three port facilities (Bandar Abbas, Qeshm Island, Bandar Kargan). Confidence MEDIUM — Iranian claim, not corroborated by CENTCOM.",
+    "sources": [
+      "NPR 2026-05-08",
+      "Iran judiciary-affiliated news agency"
+    ],
+    "verified": false,
+    "last_updated": "2026-05-09"
+  },
+  {
+    "id": "STRK-RET-2026-05-09-HEZB-DRONES-N-ISRAEL",
+    "city": "Misgav Am / Biyyada / Rachaf / al-Abbad (south Lebanon + northern Israel border)",
+    "lat": 33.25,
+    "lng": 35.55,
+    "type": "iran_retaliation",
+    "actor": "hezbollah",
+    "first_strike": "2026-05-09",
+    "active_days": [
+      71
+    ],
+    "weapon": "Drones + artillery rockets",
+    "casualties_reported": "1 IDF reservist severely wounded, 2 moderately wounded; D9 bulldozer targeted in al-Abbad",
+    "casualties_source": "IDF statement 2026-05-09; Al Jazeera 2026-05-09 liveblog",
+    "notes": "Day 71 (May 9): Hezbollah launched drone and rocket attacks on IDF positions in northern Israel and southern Lebanon — Misgav Am border post, Biyyada, Rachaf, al-Abbad. 1 IDF reservist severely wounded, 2 moderately wounded; D9 bulldozer targeted. At least two attacks on northern Israeli positions; characterized as response to Israel's May 9 strikes that killed 24+ in Lebanon (widest strike radius since Apr 17 ceasefire).",
+    "sources": [
+      "IDF statement 2026-05-09",
+      "Al Jazeera 2026-05-09 liveblog"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-09"
   }
 ]

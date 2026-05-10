@@ -488,5 +488,12 @@
     "label": "MAY 8, 2026 — DAY 70",
     "headline": "F/A-18 from Bush disables 2 Iranian tankers (Sea Star III + Sevda); UAE intercepts new salvo; Iran reviews US 14-pt MoU response; Kharg ~45 km² oil slick detected; S&P 500 record close on jobs beat; Ford CSG in Atlantic Day 316",
     "file": "data/briefings/day-70.html"
+  },
+  {
+    "day": 71,
+    "date": "2026-05-09",
+    "label": "MAY 9, 2026 — DAY 71",
+    "headline": "Iran MoU reply slips past 48-hr window; Saudi/Kuwait restore US base access (Project Freedom restart cleared); Rubio + Witkoff meet Qatari PM Al-Thani in Miami; Israel kills 24+ in Lebanon Saturday; UAE officially attributes May 8 salvo; weekend market carry; Ford CSG Day 316",
+    "file": "data/briefings/day-71.html"
   }
 ]
