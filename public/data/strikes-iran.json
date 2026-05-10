@@ -4,8 +4,8 @@
     "dataset": "us_israel_strikes_on_iran",
     "conflict": "2026 Iran War / Operation Epic Fury",
     "start_date": "2026-02-28",
-    "last_updated": "2026-05-09",
-    "last_strike_on_iran": "2026-05-08T~morning UTC (Gulf of Oman maritime; no new Iranian territory or maritime strikes Day 71 — May 8 Sea Star III/Sevda disablements remain most recent)",
+    "last_updated": "2026-05-10",
+    "last_strike_on_iran": "2026-05-08T~morning UTC (Gulf of Oman maritime; no new Iranian territory or maritime strikes Day 72 — May 8 Sea Star III/Sevda disablements remain most recent; Day 72 marks 33 days since last Iranian territorial strike Apr 7)",
     "last_iran_territory_strike": "2026-05-07 (Bandar Abbas / Qeshm Island per CENTCOM)",
     "ceasefire_day": 30,
     "centcom_blockade_redirected_cum": 57,
@@ -329,7 +329,8 @@
       15,
       16
     ],
-    "notes": "90% of Iran's oil exports flow through Kharg. Struck in second-week escalation. Israel bombed 30 additional oil depots on Day 10. Day 15 (Mar 13): US executed large-scale precision strike on 90+ military targets including naval mine storage, missile storage bunkers, air defense facility, naval base, airport control tower/runway, and helicopter hangar. Oil infrastructure deliberately preserved. Trump warned of future strikes if Hormuz remains blocked. Trump called it 'one of the most powerful bombing raids in the History of the Middle East.' Day 16: Trump threatens to hit Kharg again 'just for fun.'"
+    "notes": "90% of Iran's oil exports flow through Kharg. Struck in second-week escalation. Israel bombed 30 additional oil depots on Day 10. Day 15 (Mar 13): US executed large-scale precision strike on 90+ military targets including naval mine storage, missile storage bunkers, air defense facility, naval base, airport control tower/runway, and helicopter hangar. Oil infrastructure deliberately preserved. Trump warned of future strikes if Hormuz remains blocked. Trump called it 'one of the most powerful bombing raids in the History of the Middle East.' Day 16: Trump threatens to hit Kharg again 'just for fun.'",
+    "notes_addendum": "Day 72 (May 10) NYT/ANI report cites Orbital EOS estimating spill expanded to >20 sq mi by Thursday (~3,000 bbl released); BusinessToday cites 80,000 bbl over 27 sq mi cumulative since May 5. Conflict and Environment Observatory says slick 'much reduced' on May 9 Sentinel imagery vs ~45 sq km peak. Iranian denials reiterated (MP Pourkabgani; energy commission chief Moussa Ahmadi). Cause UNVERIFIED — could be (a) US blockade-induced overflow of storage at 74%→80% capacity threshold, (b) deliberate Iranian discharge, (c) Western-tanker ballast dump per Iranian counter-narrative."
   },
   {
     "id": "abadan-refinery",
