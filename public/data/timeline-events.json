@@ -6469,5 +6469,113 @@
     "category": "iranian_threat",
     "source": "RFE/RL, Israel National News, Tribune ANI, Tasnim",
     "data_point": "IRGC operationalizes 'locked-on, awaiting fire' posture at sub-strike threshold"
+  },
+  {
+    "date": "2026-05-11",
+    "time": "01:00 UTC",
+    "title": "Windward AI confirms second Kharg-vicinity oil slick (12-20 sq km)",
+    "description": "Windward AI confirms a SECOND Kharg-vicinity oil slick (~12-20 sq km) detected May 10 11:00 local; PRIMARY slick remains 52-71 sq km per Windward + Orbital EOS SAR readings — drifting south toward Qatar/Saudi/UAE EEZ; modeled landfall near Al Mirfa UAE in ~13 days. Total estimated release ~80,000 bbl. Iranian Oil Terminals Company + MFA continue denial; call reporting 'psychological warfare' (Maariv citing Iranian official). UNU-INWEH estimate 65 sq km.",
+    "category": "environmental",
+    "source": "Windward AI to Fox News Digital, Orbital EOS, UNU-INWEH",
+    "data_point": "Second confirmed Kharg slick — mixed signals vs Day 71 'much reduced' Greenpeace read; persistent SAR signature contradicts optical dispersion"
+  },
+  {
+    "date": "2026-05-11",
+    "time": "04:00 UTC",
+    "title": "Saudi MFA + GCC condemn 'in strongest terms' the 'treacherous targeting' of UAE/Qatar/Kuwait",
+    "description": "Saudi Ministry of Foreign Affairs and the Gulf Cooperation Council issued joint condemnation 'in strongest terms' of the May 10 'treacherous targeting' of UAE, Qatar, and Kuwait via drone strikes attributed to Iran. Statements affirmed solidarity with the three Gulf states. First multi-GCC joint condemnation specifically calling out the May 10 dawn pulse.",
+    "category": "diplomacy",
+    "source": "Saudi MFA, GCC Secretariat",
+    "data_point": "GCC tightens around UAE/Qatar/Kuwait after May 10 Iran-attributed Gulf-trio drone pulse"
+  },
+  {
+    "date": "2026-05-11",
+    "time": "09:00 UTC",
+    "title": "Pakistan Army Chief Munir reaffirms continued mediation 'every possible attempt'",
+    "description": "Pakistan Army Chief Field Marshal Asim Munir (Rawalpindi GHQ briefing) reaffirmed Pakistan will continue mediation between US and Iran via 'every possible attempt.' Statement comes hours after Iran's counter-proposal (delivered via Pakistan May 10) was rejected by Trump as 'TOTALLY UNACCEPTABLE.' Pakistani channel remains the operative shuttle.",
+    "category": "diplomacy",
+    "source": "Gulf News, Pakistan Army ISPR",
+    "data_point": "Pakistan channel survives diplomatic rupture; mediation continues despite Trump rejection"
+  },
+  {
+    "date": "2026-05-11",
+    "time": "10:00 UTC",
+    "title": "Lebanon MoPH refreshed: 2,869 killed since Mar 2; 74 killed in last 3 days",
+    "description": "Lebanese Ministry of Public Health, via Reuters/Detroit News, refreshed cumulative toll to 2,869 killed since March 2 (incl. 584 medics/women/minors); 74 killed in the last 3 days. UN reports ≥103 medical workers killed cumulative. President Aoun met US Ambassador Michel Issa May 11; urged US pressure on Israel to halt strikes and demolitions in south Lebanon. IDF spokesman Avichay Adraee issued evacuation orders for Deir al-Zahrani, Jarjouh, Sajjad (Jezzine district).",
+    "category": "humanitarian",
+    "source": "Reuters, Detroit News, Lebanon MoPH, UN, IDF spokesman Adraee",
+    "data_point": "Lebanon cumulative killed crosses 2,869; Jezzine district evacuation orders signal continued IDF escalation north of Litani"
+  },
+  {
+    "date": "2026-05-11",
+    "time": "12:00 UTC",
+    "title": "IOM airlifts 4,500 emergency relief kits via EU Humanitarian Air Bridge",
+    "description": "International Organization for Migration coordinated airlift of 4,500 emergency relief kits Maastricht→Beirut via the EU Humanitarian Air Bridge. >1M Lebanese remain displaced; Lebanon Flash Appeal only 38% funded ($117M of $308M). UAE schools resumed in-person learning May 11 after weeklong remote period (NOTAM A1722/26 lifted).",
+    "category": "humanitarian",
+    "source": "IOM Geneva, EU Humanitarian Air Bridge",
+    "data_point": "EU airlift sustains Lebanon humanitarian channel; Flash Appeal underfunded at 38%"
+  },
+  {
+    "date": "2026-05-11",
+    "time": "12:51 UTC",
+    "title": "Trump Oval Office: ceasefire 'on life support', Iran reply 'garbage', 'didn't even finish reading it'",
+    "description": "Trump in Oval Office press gaggle (12:51 ET): called the Iran ceasefire 'on life support' and 'unbelievably weak'; described Iran's counter-proposal as 'garbage' and stated he 'didn't even finish reading it.' Reaffirmed Sunday-evening Truth Social rejection. WaPo/Time/CFR coverage frames the statements as the most explicit public US repudiation of the Pakistan-channel diplomatic track since the conflict began.",
+    "category": "diplomacy",
+    "source": "WaPo, Time, CFR",
+    "data_point": "Diplomatic rupture confirmed in person; 72-96 hour rhetoric-to-action lag now in play (Day 56 → May 4 Project Freedom precedent)"
+  },
+  {
+    "date": "2026-05-11",
+    "time": "13:00 UTC",
+    "title": "IDF orders evacuation of Deir al-Zahrani, Jarjouh, Sajjad (Jezzine district)",
+    "description": "IDF Arabic-language spokesman Avichay Adraee posted evacuation orders on X for the southern-Lebanon villages of Deir al-Zahrani, Jarjouh, and Sajjad (Jezzine district). Comes 24h after May 10 strikes killed 23 Lebanese including 2 Islamic Health Committee paramedics in Qalaway and Tibnin.",
+    "category": "lebanon_escalation",
+    "source": "IDF spokesman Adraee X account",
+    "data_point": "IDF evacuation perimeter widens into Jezzine district; pre-positioning ahead of Washington May 14-15 Israel-Lebanon talks"
+  },
+  {
+    "date": "2026-05-11",
+    "time": "14:00 UTC",
+    "title": "Saudi Aramco Q1 2026 net profit $32.04B (+25% YoY); CEO Nasser: market losing ~100M bbl/week",
+    "description": "Saudi Aramco filed Q1 2026 results on the Tadawul exchange: net profit 120.13B SAR ($32.04B), +25% year-over-year. CEO Amin Nasser told Reuters the global oil market is losing approximately 100 million barrels per week of supply due to the conflict and Hormuz blockade. The earnings beat reinforces Brent's $104 print as sustainable above the $80-90 forecast band Goldman Sachs maintained pre-conflict.",
+    "category": "economic",
+    "source": "Saudi Tadawul filing, Reuters, Bloomberg",
+    "data_point": "Aramco beat confirms Gulf-producer war-premium revenue; supply loss running ~100M bbl/week"
+  },
+  {
+    "date": "2026-05-11",
+    "time": "15:00 UTC",
+    "title": "CENTCOM cumulative blockade tally reaffirmed: 20+ warships, 61 redirected, 4 disabled",
+    "description": "CENTCOM (@CENTCOM May 10 tweet, reaffirmed May 11) emphasized cumulative blockade enforcement: 20+ US warships enforcing the blockade, 61 commercial vessels redirected since Apr 13 (vs. 57 at Day 70), 4 tankers disabled (vs. 3 at Day 70). No new May 10-11 strikes or disablements reported. Project Freedom remains paused-but-cleared per WSJ 'as early as this week' framing; no Pentagon restart announcement as of May 11 22:00 UTC.",
+    "category": "military",
+    "source": "CENTCOM (@CENTCOM)",
+    "data_point": "Blockade enforcement steady-state; no kinetic restart on Day 73 despite peak rhetorical escalation"
+  },
+  {
+    "date": "2026-05-11",
+    "time": "16:00 UTC",
+    "title": "Senior admin official: Trump will press Xi on Iran during May 14-15 Beijing visit",
+    "description": "Senior administration official told Washington Post on background that Trump will press Chinese President Xi Jinping on Iran during his May 14-15 Beijing visit, focused on enforcement of US Treasury sanctions on Chinese refineries purchasing Iranian crude and on Chinese satellite/imagery firms supporting Iranian missile/drone programs. Beijing summit is now the highest-leverage diplomatic event of the next 72 hours.",
+    "category": "diplomacy",
+    "source": "Washington Post citing senior administration official",
+    "data_point": "Trump-Xi summit T-3 days; Iran sanctions enforcement on agenda"
+  },
+  {
+    "date": "2026-05-11",
+    "time": "20:30 UTC",
+    "title": "Iran Deputy FM Gharibabadi: warns UK/France of 'decisive and immediate response' if warships deploy to Hormuz",
+    "description": "Iran Deputy Foreign Minister Kazem Gharibabadi (X post May 11 evening) warned the United Kingdom and France of a 'decisive and immediate response' if British or French warships deploy to the Strait of Hormuz under the UK-France-led 50+ nation defensive coalition. Follows UK MoD's May 9 confirmation that HMS Dragon (Type 45 destroyer) is deploying to the Middle East theater.",
+    "category": "iranian_threat",
+    "source": "Gharibabadi X account",
+    "data_point": "Iran extends 'red line' threat to UK/France warship deployment — first explicit deterrent statement against extra-regional naval forces"
+  },
+  {
+    "date": "2026-05-11",
+    "time": "21:00 UTC",
+    "title": "Third round US-mediated Israel-Lebanon talks confirmed for Washington May 14-15",
+    "description": "Times of Israel and Al Jazeera confirmed a third round of US-mediated direct Israel-Lebanon ambassador-level talks will take place in Washington on May 14-15. Lebanon delegation will be led by Simon Karam. Follows Israeli IDF evacuation orders for Deir al-Zahrani, Jarjouh, and Sajjad earlier May 11 — bracketing the highest-leverage diplomatic event for the Lebanon humanitarian center-of-gravity over the next 96 hours.",
+    "category": "diplomacy",
+    "source": "Times of Israel, Al Jazeera",
+    "data_point": "Washington May 14-15 Israel-Lebanon talks now operative inflection point; coincides with Trump-Xi Beijing summit"
   }
 ]
