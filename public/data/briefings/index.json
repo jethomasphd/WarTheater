@@ -509,5 +509,12 @@
     "label": "MAY 11, 2026 — DAY 73",
     "headline": "Trump calls ceasefire 'on life support' / Iran reply 'garbage'; oil +3% to $104.21; S&P fresh intraday ATH 7,426; Lebanon MoPH 2,869 (+86); Boxer ARG ETA slips to week of May 18; Iran warns UK/France on Hormuz",
     "file": "data/briefings/day-73.html"
+  },
+  {
+    "day": 74,
+    "date": "2026-05-12",
+    "label": "MAY 12, 2026 — DAY 74",
+    "headline": "April CPI 3.8% (highest since May 2023); oil reclaims $100; Hegseth grilled as cost hits $29B; Trump flies to Xi with Iran 'on life support'; Ford CSG Day 323; no new strikes on Iran (4th day); 2 IDF wounded by Hezbollah drones",
+    "file": "data/briefings/day-74.html"
   }
 ]
