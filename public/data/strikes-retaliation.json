@@ -3284,5 +3284,28 @@
     ],
     "verified": true,
     "last_updated": "2026-05-10"
+  },
+  {
+    "id": "2026-05-12-litani-hezbollah-drone",
+    "city": "Northern Israel (cross-border from southern Lebanon)",
+    "lat": 33.1,
+    "lng": 35.4,
+    "type": "drone_attack_hezbollah",
+    "actor": "Hezbollah",
+    "first_strike": "2026-05-12",
+    "active_days": [
+      74
+    ],
+    "weapon": "explosive drones (multiple)",
+    "casualties_reported": "2 IDF soldiers wounded",
+    "casualties_source": "Times of Israel liveblog May 12, 2026",
+    "notes": "Day 74 (May 12, Tuesday): Several Hezbollah explosive drones detonated in Israeli territory, wounding 2 IDF soldiers. Hezbollah aired drone footage purporting to show strike on Iron Dome battery in northern Israel — UNVERIFIED technical claim, meaningful milestone if confirmed. IDF reports rockets intercepted or fallen in open areas. Cross-reference: IDF ground operations at Litani River same day (IDF spokesperson photo); IDF airstrike on Ras Al-Ain near Tyre (AFP photo); third round of US-mediated Israel-Lebanon talks scheduled for Washington May 14-15.",
+    "sources": [
+      "Times of Israel liveblog May 12, 2026",
+      "Al Jazeera",
+      "Wikipedia 2026 Lebanon war"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-12"
   }
 ]
