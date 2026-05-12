@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.520,
-  "war_increase": 1.530,
+  "current_gas": 4.504,
+  "war_increase": 1.514,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.624 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com national average, May 11 2026 ($4.520, −0.2¢ d/d vs $4.522 May 10; fourth consecutive daily decline despite crude +3% on Trump rejection of Iran counter-proposal; +51.2% above $2.99 Feb 28 baseline). State extremes: CA $6.158 high, OK $4.699 low mainland tier. Energy Sec Wright floated federal gas tax suspension on Face the Nation May 10; no formal action May 11.",
-  "last_updated": "2026-05-11"
+  "source": "AAA gasprices.aaa.com national average, May 12 2026 ($4.504, −1.6¢ d/d vs $4.520 May 11; fifth consecutive daily decline reflecting ~10-day retail lag on early-May crude pullback before today's WTI rebound above $100; +50.6% above $2.99 Feb 28 baseline). EIA weekly retail print May 11 = $4.500/gal. Trump on CBS May 10–11 announced federal gas-tax suspension is being prepared (requires Congress); no statutory action through May 12.",
+  "last_updated": "2026-05-12"
 }
