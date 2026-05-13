@@ -6649,5 +6649,86 @@
     "category": "diplomacy",
     "source": "Al Jazeera 'Trump-Xi meeting: Could China, US form a G2?' May 12; NPR 'Trump goes to China as Iran war smolders' May 12; CNBC May 12; The National (UAE) May 12; Times of Israel liveblog May 12; MS NOW May 12",
     "data_point": "Trump-Xi state visit T-2 days; Iran ultimatum rhetoric peaks; delegation includes Tim Cook + Elon Musk"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "11:50 UTC",
+    "title": "Trump lands in Beijing aboard Air Force One; greeted by VP Han Zheng; first US presidential visit to China since 2017",
+    "description": "President Trump arrived at Beijing Capital International Airport at approximately 7:50 PM local time, greeted by Chinese Vice President Han Zheng (Xi's diplomatic envoy and Trump's January 2025 inauguration attendee) and a 300-child welcome corps. Delegation includes Tim Cook (Apple), Elon Musk (Tesla), and notably Jensen Huang (Nvidia) — Huang's late inclusion drove a 2.5% NVDA pre-market lift on speculation of advanced-chip export easings. Two bilateral sessions with Xi scheduled Thursday-Friday at the Great Hall of the People, plus state banquet, Temple of Heaven tour, tea. Trade is publicly billed as primary agenda but per CNN/NPR/AJ the Iran war is expected to dominate. US officials want Xi to pressure Tehran to reopen Hormuz; analysts (Stimson's Grazier, Atlantic Council's Hart, Bowdoin's Heurlin) expect China to demand Taiwan-related concessions as price.",
+    "category": "diplomacy",
+    "source": "CNN live 05-13; Al Jazeera 05-13 (two pieces); Washington Post 05-13; NPR 05-12/13",
+    "data_point": "First US presidential visit to China since 2017; Trump arrival Beijing 19:50 local with Tim Cook/Musk/Huang"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "12:30 UTC",
+    "title": "April PPI prints 6.0% YoY vs 4.8% expected — biggest wholesale-inflation jump since 2022",
+    "description": "BLS April Producer Price Index landed at 6.0% YoY (vs 4.8% Reuters consensus) and +1.4% MoM (vs +0.5%); core PPI 5.2% YoY / +1.0% MoM (vs +0.3%). Energy +3.8% MoM, +18% YoY — Hormuz blockade pass-through. Compounds the 05-12 CPI shock (3.8% YoY, highest since May 2023). 10-year Treasury yield pushed to 4.47% (highest since July 2025); 30-year remained above 5%. CME FedWatch retains zero 2026 cuts. Despite print, equities rallied on tech.",
+    "category": "economy",
+    "source": "Yahoo Finance liveblog 05-13; Reuters via MarketScreener 05-13; TheStreet 05-13; GuruFocus 05-13",
+    "data_point": "April PPI 6.0% YoY; +1.4% MoM; biggest wholesale jump since 2022; 10Y UST 4.47% highest since July 2025"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "20:00 UTC",
+    "title": "Senate confirms Kevin Warsh to Federal Reserve Board of Governors (next Fed chair pipeline)",
+    "description": "Per Yahoo Finance live coverage, the Senate confirmed Kevin Warsh — Trump's nominee to be the next chairman of the Federal Reserve — to the Board of Governors on 05-13. Confirmation completes the procedural prerequisite for the eventual chairmanship and signals continued Trump-administration leverage over rate policy as energy-driven inflation hardens.",
+    "category": "politics",
+    "source": "Yahoo Finance 05-13; NBC News liveblog 05-13",
+    "data_point": "Warsh confirmed to Fed Board of Governors — eventual chair pipeline completed"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "03:36 UTC",
+    "title": "Chinese COSCO VLCC Yuan Hua Hu exits Hormuz past Larak Island — rare outbound Chinese transit hours before Trump-Xi",
+    "description": "Bloomberg ship-tracking confirmed VLCC Yuan Hua Hu — owned and operated by COSCO Shipping units per Equasis — moved through Hormuz past Iran's Larak Island into the Gulf of Oman on 05-13. The exit is the first observed Chinese supertanker outbound transit since blockade tightening and is read by analysts as a signaling event coordinated with the Trump-Xi summit window. The transit does not indicate generalized Hormuz re-opening — Kpler data still shows traffic at ~5% of pre-war baseline.",
+    "category": "maritime",
+    "source": "Bloomberg 05-13 03:36 UTC (updated 10:48 UTC) — Weilun Soon",
+    "data_point": "First Chinese supertanker outbound transit since blockade tightening; timed for Trump-Xi summit"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "08:00 UTC",
+    "title": "Post-meeting readout: 40+ nation UK-France Hormuz defense ministers' conference (London 05-11/12)",
+    "description": "UK Defence Secretary John Healey and French Defence Minister Catherine Vautrin co-chaired a 40+ nation military planning meeting in London 05-11/12 to advance the European-led Hormuz escort/demining/air-policing mission. Coalition contingent on a stable ceasefire — currently lacking. Iran's Deputy FM Kazem Gharibabadi (05-10 post on X) warned French and British vessels would meet 'a decisive and immediate response.' Macron clarified 05-10 French intent is a mission 'coordinated with Iran,' not unilateral force. Iranian Army official Mohammad Akraminia: 'any vessel wishing to pass through must coordinate with us.'",
+    "category": "diplomacy",
+    "source": "Times of Israel 05-10; Naval Today 05-11; RNA Media 05-11; Press TV 05-10; Newsweek 05-10",
+    "data_point": "40+ nation UK-France London Hormuz mission planning; contingent on stable ceasefire"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "14:00 UTC",
+    "title": "Israel-Lebanon ceasefire prep for 05-14/15 Washington round — Hezbollah-disarmament agenda confirmed by Netanyahu",
+    "description": "Day 75 sits 24 hours ahead of the Israel-Lebanon negotiation round scheduled to begin in Washington 05-14, paralleling Trump's Xi summit. Lebanese President Joseph Aoun has publicly supported the negotiations. Netanyahu has stated talks will 'focus on Hezbollah disarmament and could lead to a historic peace agreement.' Diplomatic fault-line: Israel/US position remains that the Iran ceasefire never extended to Lebanon, while Pakistan (mediator) and Iran maintain it did. No Hezbollah leadership statement 05-13 indicating shift in posture for the Washington round.",
+    "category": "diplomacy",
+    "source": "Wikipedia 2026 Iran war ceasefire / 2026 Lebanon war (synthesized); Reuters historical (10 April 'historic talks')",
+    "data_point": "Israel-Lebanon Washington round May 14-15 paralleling Trump-Xi; Hezbollah disarmament agenda"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "15:00 UTC",
+    "title": "Pakistan back-channel still active; no public delivery of revised Iran proposal 05-13",
+    "description": "Pakistan PM Shehbaz Sharif's mediation track — which originally produced the 04-08 Iran-war ceasefire — remains the principal back-channel between Washington and Tehran. Iran's 05-09/10 counteroffer (demanding war reparations, sanctions end, nuclear rights) was delivered through the Pakistani channel and dismissed by Trump on 05-10/11 as 'garbage' and 'TOTALLY UNACCEPTABLE.' No revised Iranian proposal had been delivered through Islamabad as of 05-13 reporting. CNN backgrounds China as 'quietly emerged as a potential mediator' parallel to Pakistan, which is why the Xi summit Iran sub-track matters.",
+    "category": "diplomacy",
+    "source": "CNN 05-13 backgrounder; NBC liveblog 05-12; MS NOW 05-12",
+    "data_point": "Pakistan back-channel still principal US-Iran link; China parallel mediation track now live"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "06:00 UTC",
+    "title": "Tehran 4.6-magnitude earthquake (05-12 evening) dominates domestic Iranian news cycle into 05-13",
+    "description": "Iranian state media reported a 4.6-magnitude earthquake felt in Tehran late 05-12; no casualties. Combined with reports of Iranian export-shipment stalling (Trading Economics 05-13 — 'first sustained interruption since conflict started'), Tehran's domestic crisis-management bandwidth appears constrained — possibly explaining Iran's low-tempo retaliation through the Trump-Xi window.",
+    "category": "domestic-iran",
+    "source": "Times of Israel liveblog 05-12; Trading Economics oil commentary 05-13",
+    "data_point": "Tehran 4.6-mag earthquake; Iranian export-shipment first sustained interruption per Trading Economics"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "19:00 UTC",
+    "title": "No follow-on Hegseth/Caine testimony 05-13; pivot to markup phase on $1.5T FY27 request",
+    "description": "Following Tuesday's bipartisan grilling (Mark Kelly 'shocking how deep we have gone into these magazines,' Shaheen 'tactical successes / strategic loss,' Murkowski on the lapsed 04-28 War Powers 60-day clock, Collins on shifting Hormuz strategy, McConnell on NATO erosion, Coons 'if we control it, how do we reopen it?'), no follow-up open hearing was scheduled for 05-13. Calvert (House Approps Defense chair) flagged a war-supplemental bill as imminent. DeLauro continued public messaging that 'the rationale shifts, the objectives change.' Hegseth's House Approps line 'ceasefire remains in effect despite recent exchanges of fire' represents the administration's working legal definition.",
+    "category": "congress",
+    "source": "AP/Spectrum 05-12; MS NOW liveblog 05-12; PBS NewsHour 05-12; KSAT/AP 05-12",
+    "data_point": "No follow-up hearing 05-13; war-supplemental markup imminent; Hegseth 'ceasefire remains in effect' framing"
   }
 ]

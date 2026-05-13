@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.504,
-  "war_increase": 1.514,
+  "current_gas": 4.511,
+  "war_increase": 1.521,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.624 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com national average, May 12 2026 ($4.504, −1.6¢ d/d vs $4.520 May 11; fifth consecutive daily decline reflecting ~10-day retail lag on early-May crude pullback before today's WTI rebound above $100; +50.6% above $2.99 Feb 28 baseline). EIA weekly retail print May 11 = $4.500/gal. Trump on CBS May 10–11 announced federal gas-tax suspension is being prepared (requires Congress); no statutory action through May 12.",
-  "last_updated": "2026-05-12"
+  "source": "AAA gasprices.aaa.com national average, May 13 2026 ($4.511, +0.7¢ d/d vs $4.504 May 12; breaks five-day decline streak as the three-day Iran-fear crude rally (WTI from ~$95 to >$102) flowed into retail; +50.9% above $2.99 Feb 28 baseline; +39¢ vs month prior; +$1.39 vs same week 2025; AAA notes prices not this high since summer 2022). Most expensive state California >$6.00; least expensive Oklahoma $3.94. AK/HI/IL/NV/OR/WA at or above $5. Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-13.",
+  "last_updated": "2026-05-13"
 }
