@@ -6577,5 +6577,77 @@
     "category": "diplomacy",
     "source": "Times of Israel, Al Jazeera",
     "data_point": "Washington May 14-15 Israel-Lebanon talks now operative inflection point; coincides with Trump-Xi Beijing summit"
+  },
+  {
+    "date": "2026-05-11",
+    "time": "23:00 UTC",
+    "title": "USS Alaska (SSBN-732) reportedly dispatched to Gibraltar to pressure Iran",
+    "description": "Late-Day-73/Day-74 cycle reporting: Ohio-class nuclear ballistic-missile submarine USS Alaska (SSBN-732) was sent to Gibraltar 'to put pressure on Iran' per Wikipedia consolidated reporting of May 11-12 citing media reports. Submarine movements are not normally disclosed; treat as REPORTED, not officially confirmed. The visible 'message' element is consistent with deliberate strategic signaling.",
+    "category": "military",
+    "source": "Wikipedia 2026 Iran war update May 11/12 entries (consolidated reporting); not in USNI Fleet Tracker open chart",
+    "data_point": "Reported SSBN dispatch — strategic-signaling layer atop two-CSG CENTCOM posture (confidence MEDIUM)"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "12:32 UTC",
+    "title": "April CPI prints 3.8% YoY — highest since May 2023 — energy drives >40% of monthly all-items increase",
+    "description": "BLS reported headline CPI +0.6% m/m, +3.8% y/y for April; the energy index rose 3.8% m/m and accounted for over 40% of the monthly all-items increase, with gasoline a primary driver. Real wages fell for the first time in three years. Core CPI +0.4% m/m / +2.8% y/y. CME FedWatch now prices ZERO 2026 rate cuts; commentators (Northlight AM's Chris Zaccarelli) raised the prospect of 2027 hike pricing. Market reaction: S&P 500 pulled back ~0.65% from May 11 record close 7,412.84; WTI broke above $100 intraday for first time since early April; VIX rebounded to ~18.4.",
+    "category": "economic",
+    "source": "Bloomberg 'US April Inflation Rises 3.8% as Gasoline Prices Climb on Iran War' May 12, Kiplinger, TheStreet, Northlight AM commentary",
+    "data_point": "Inflation print breaches 'transitory' narrative; Fed easing path closes; real-wage compression begins"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "14:00 UTC",
+    "title": "Hegseth and Caine testify before House and Senate Appropriations defense subcommittees; Pentagon revises cumulative war cost to ~$29B",
+    "description": "SecDef Pete Hegseth and JCS Chairman Gen. Dan Caine testified back-to-back before House Approps (chair Rep. Ken Calvert; ranking Rep. Rosa DeLauro) and Senate Approps defense (chair Sen. Mitch McConnell). Pentagon comptroller Jay Hurst put cumulative Iran-war cost at ~$29B (vs. $25B two weeks prior), with ~$24B for munitions replacement/repair. Hegseth: 'munitions issue has been foolishly and unhelpfully overstated.' Sen. Jeanne Shaheen warned of 'tactical successes... strategic loss'; Sen. Lisa Murkowski questioned the legal premise that the April 8 ceasefire pauses the 1973 War Powers Act 60-day clock. Sen. Susan Collins (R-ME) continues to demand defined off-ramp. DoD FY27 budget request: $1.5 trillion (~44% over current).",
+    "category": "political",
+    "source": "AP via Spectrum / Military.com / Washington Times May 12, MS NOW live blog May 12, Washington Post, News4JAX, WSLS 10",
+    "data_point": "Pentagon revised cumulative cost UP $4B over ~12 days; $24B/$29B = 83% munitions share; bipartisan frustration on display"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "13:47 UTC",
+    "title": "Iraqi-loaded supertanker Agios Fanourios I retreats from US blockade line after Hormuz transit attempt",
+    "description": "Per Bloomberg ship-tracking analysis (Prejula Prem & Julian Lee), the Iraqi-oil-loaded Agios Fanourios I — which cleared the Strait of Hormuz over the prior weekend en route to Vietnam — halted its journey on Monday May 11 as it approached the US naval blockade position and is now retracing its route. The U-turn 'underscores the risks to third-party shipping as Washington and Tehran enforce rival restrictions across the strait.' Iran-linked tankers continue to dominate what limited traffic moves through Hormuz.",
+    "category": "military",
+    "source": "Bloomberg 'Iraqi Supertanker Halts Near US Blockade as Strait of Hormuz Traffic Stalls' May 12, 2026 13:47 UTC",
+    "data_point": "First documented third-party tanker U-turn from US blockade line; congealed dual-restriction equilibrium"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "15:30 UTC",
+    "title": "IDF ground operations at Litani River; airstrike on Ras Al-Ain near Tyre; two IDF wounded by Hezbollah drones",
+    "description": "IDF troops operated at the Litani River in southern Lebanon, per photo released by the IDF spokesperson; AFP photographed smoke rising from an Israeli airstrike on Ras Al-Ain in the Tyre area on May 12. Several Hezbollah explosive drones detonated in Israeli territory, wounding two IDF soldiers. Hezbollah aired drone footage purporting to show a strike on an Iron Dome battery in northern Israel (UNVERIFIED technical claim). The April 17 Israel-Lebanon ceasefire remains nominal but continues to be violated daily. Third round of US-mediated Israel-Lebanon talks scheduled for Washington May 14-15.",
+    "category": "lebanon_escalation",
+    "source": "Times of Israel liveblog May 12, 2026; Al Jazeera; Wikipedia 2026 Lebanon war",
+    "data_point": "IDF Litani ops + 2 IDF wounded + Iron Dome strike claim — Lebanon front functionally hot under nominal ceasefire"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "16:00 UTC",
+    "title": "Kuwait accuses Iran of May 1 IRGC infiltration attempt on Bubiyan Island; one Kuwaiti soldier wounded",
+    "description": "Kuwait disclosed on May 12 that on May 1 six armed IRGC members attempted to infiltrate Bubiyan Island; one Kuwaiti soldier was injured, four IRGC fighters were captured, and two fled. The 11-day delay in disclosure aligns with Kuwait's prior posture of restricting US base access through Days 68-69 before the Trump-MBS-brokered reopening Days 70-71. Reuters previously reported (citing Western and Iranian officials) that Saudi Arabia conducted covert strikes against Iran in late March; on May 11 the Wall Street Journal reported UAE has been quietly striking Iran (including the Lavan Island refinery in early April), with Bloomberg adding UAE coordinated those strikes with Israel.",
+    "category": "military",
+    "source": "Wikipedia 2026 Iran war (consolidated May 12 entries); Britannica running article updated May 12",
+    "data_point": "GCC covert kinetic involvement now part of public record; Kuwait disclosure timing tied to base-access negotiation"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "17:00 UTC",
+    "title": "Trump signals he will raise Taiwan arms sales with Xi — breaking with 'Six Assurances'",
+    "description": "Per Wikipedia '2026 state visit by Donald Trump to China,' Trump announced on May 11 he would discuss the matter of arms sales to Taiwan with Xi, breaking from the U.S.'s longstanding Six Assurances posture. Trump on May 12: 'He [Xi] will bring up Taiwan, I think more than I will.' A senior US official says Trump will also press Xi on China's financial support to Iran and Russia and on dual-use goods transfers, framing the Beijing visit as both a trade summit and an Iran-management summit.",
+    "category": "diplomacy",
+    "source": "Wikipedia '2026 state visit by Donald Trump to China'; The National (UAE) May 12; CNBC May 12",
+    "data_point": "Six Assurances departure signaled pre-summit; Iran sanctions enforcement and dual-use leverage on G2 agenda"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "21:00 UTC",
+    "title": "Trump departs Washington for state visit to Beijing; vows to 'finish the job against Iran, peacefully or otherwise'",
+    "description": "President Trump departed May 12 for Beijing; arrival is scheduled Wednesday May 13 evening with formal Trump-Xi bilateral meetings May 14-15 at the Great Hall of the People (state banquet, Temple of Heaven tour). The delegation includes Apple CEO Tim Cook and Tesla CEO Elon Musk. Iran will be a major agenda item: a senior US official said Trump will press Xi on China's financial support for Iran and Russia and on dual-use goods. Trump quote en route: the US will 'finish the job against Iran — peacefully or otherwise.' Trump on May 11 (CBS) said federal gas-tax suspension is being prepared, called Iran's latest counter-offer 'garbage,' and described the ceasefire as 'on massive life support.' Iran FM Araghchi reportedly to attend BRICS FM meeting in Brazil alongside Saudi/Egyptian counterparts — Pakistan-mediated backchannel still active.",
+    "category": "diplomacy",
+    "source": "Al Jazeera 'Trump-Xi meeting: Could China, US form a G2?' May 12; NPR 'Trump goes to China as Iran war smolders' May 12; CNBC May 12; The National (UAE) May 12; Times of Israel liveblog May 12; MS NOW May 12",
+    "data_point": "Trump-Xi state visit T-2 days; Iran ultimatum rhetoric peaks; delegation includes Tim Cook + Elon Musk"
   }
 ]
