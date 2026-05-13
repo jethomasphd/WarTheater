@@ -3307,5 +3307,70 @@
     ],
     "verified": true,
     "last_updated": "2026-05-12"
+  },
+  {
+    "id": "leb-2026-05-13-litani-continuation",
+    "city": "South Lebanon (Litani buffer zone)",
+    "lat": 33.32,
+    "lng": 35.42,
+    "type": "ground_ops_continuation",
+    "actor": "IDF",
+    "first_strike": "2026-05-13",
+    "active_days": [
+      75
+    ],
+    "weapon": "IDF Golani Recon ground forces",
+    "casualties_reported": "UNVERIFIED — Lebanon MoPH bulletin not refreshed by morning GMT cutoff",
+    "casualties_source": "ACLED Iran-crisis live (last update 16:15 CEST 05-13); Times of Israel liveblog 05-12 carry-forward",
+    "notes": "Day 75 (May 13, Wednesday): IDF Litani-zone ground operations continue (carry-forward from Golani Brigade Recon Unit week-long raid disclosed 05-12 reaching Zawtar al-Sharqiyah ~10km from border). No headline-grade single-event strike reported May 13 in early reporting window. Lebanon MoPH did NOT publish updated bulletin within May 13 morning GMT cutoff — carry-forward 2,869 with UNVERIFIED delta pending tally; IDF Golani Recon raid expected to add when MoPH next publishes. Israel-Lebanon Washington round scheduled May 14-15 paralleling Trump-Xi.",
+    "sources": [
+      "Times of Israel liveblog 05-12 (carry-forward)",
+      "ACLED Iran-crisis live (last update 16:15 CEST 05-13)"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-13"
+  },
+  {
+    "id": "hez-2026-05-13-rocket-tempo",
+    "city": "Northern Israel (Galilee/Karmiel area)",
+    "lat": 32.92,
+    "lng": 35.30,
+    "type": "rocket_drone_tempo",
+    "actor": "Hezbollah",
+    "first_strike": "2026-05-13",
+    "active_days": [
+      75
+    ],
+    "weapon": "sub-threshold rockets / drones",
+    "casualties_reported": "None confirmed 05-13",
+    "casualties_source": "ToI liveblog pattern; AJ background",
+    "notes": "Day 75 (May 13, Wednesday): Sub-threshold Hezbollah rocket/drone tempo continues at pace described by Alma Center pattern. No mass-casualty event 05-13 in early reporting. No Hezbollah leadership statement 05-13 indicating shift in posture for the Washington round 05-14/15.",
+    "sources": [
+      "AJ background",
+      "ToI liveblog pattern"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-13"
+  },
+  {
+    "id": "hormuz-2026-05-13-shadow-activity",
+    "city": "Strait of Hormuz",
+    "lat": 26.5,
+    "lng": 56.5,
+    "type": "non_kinetic",
+    "actor": "IRGC Navy (observed)",
+    "first_strike": "2026-05-13",
+    "active_days": [
+      75
+    ],
+    "weapon": "none (observation/signaling event)",
+    "casualties_reported": "None",
+    "casualties_source": "Bloomberg ship-tracking (Weilun Soon)",
+    "notes": "Day 75 (May 13, Wednesday): No new IRGC kinetic incident on commercial shipping reported May 13. Notable anomaly: Chinese COSCO VLCC Yuan Hua Hu observed transiting OUTBOUND through Hormuz past Iran's Larak Island into the Gulf of Oman per Bloomberg — first rare Chinese supertanker exit since blockade tightening, timed for Trump-Xi summit window (Trump landed Beijing 19:50 local). Read by analysts as Sino-Iranian coordinated signaling. Transit does NOT indicate generalized Hormuz re-opening — Kpler data still shows traffic at ~5% of pre-war baseline.",
+    "sources": [
+      "Bloomberg 05-13 03:36 UTC (updated 10:48 UTC) — Weilun Soon"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-13"
   }
 ]
