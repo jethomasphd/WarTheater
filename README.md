@@ -141,15 +141,17 @@ Identical inputs → identical outputs. Each future monthly release will ship th
 
 ## Authorship
 
-| Author | Role |
-|---|---|
-| **Jacob E. Thomas, MA, PhD** | Principal investigator; dashboard architecture; data infrastructure; manuscript |
-| **Aigerim Alpysbekova, MPH, PhD(c)** | Public health & humanitarian methodology |
-| **Eugene Osei Mensah, BSN, RN** | Clinical / casualty-data review |
-| **Nigel Masara, BSc, MSc** | Methods, data validation |
-| **Prakhar Sharma, PhD** | Quantitative methods |
+Contributions follow the [CRediT](https://credit.niso.org/) taxonomy.
 
-Correspondence: **JEThomasPhD@gmail.com**
+| Author | Contributions |
+|---|---|
+| **Jacob E. Thomas, MA, PhD** | Principal investigator; conceptualization; dashboard architecture; data infrastructure and software; writing — original draft |
+| **Aigerim Alpysbekova, MPH, PhD(c)** | Public health and humanitarian methodology; writing — review and editing |
+| **Eugene Osei Mensah, BSN, RN** | Data validation; writing — review and editing |
+| **Nigel Masara, BSc, MSc** | Data validation; writing — review and editing |
+| **Prakhar Sharma, PhD** | Political science methodology; writing — review and editing |
+
+**Corresponding author:** Jacob E. Thomas — [JEThomasPhD@gmail.com](mailto:JEThomasPhD@gmail.com)
 
 ---
 
