@@ -3334,7 +3334,7 @@
     "id": "hez-2026-05-13-rocket-tempo",
     "city": "Northern Israel (Galilee/Karmiel area)",
     "lat": 32.92,
-    "lng": 35.30,
+    "lng": 35.3,
     "type": "rocket_drone_tempo",
     "actor": "Hezbollah",
     "first_strike": "2026-05-13",
@@ -3372,5 +3372,75 @@
     ],
     "verified": true,
     "last_updated": "2026-05-13"
+  },
+  {
+    "id": "unifil-naqoura-2026-05-11-2026-05-12-hezbollah-drones",
+    "city": "Naqoura, Southern Lebanon (UNIFIL HQ)",
+    "lat": 33.1067,
+    "lng": 35.1389,
+    "type": "non_state_actor_kinetic",
+    "actor": "Presumed Hezbollah (per UNIFIL)",
+    "first_strike": "2026-05-11",
+    "active_days": [
+      73,
+      74
+    ],
+    "weapon": "Drones (multiple explosive UAVs)",
+    "casualties_reported": "0 injuries; multiple buildings damaged inside UNIFIL HQ compound",
+    "casualties_source": "UNIFIL statement May 13-14",
+    "notes": "Surfaced via UNIFIL May 13-14 statement (Day 76 reporting window): multiple presumed-Hezbollah drone explosions on May 11 and 12 within meters of UNIFIL HQ in Naqoura; ONE drone detonated INSIDE the headquarters compound, damaging multiple buildings (no injuries reported). UNIFIL formally protested. Single most damaging UN-asset incident of the Lebanon front since the April 17 ceasefire.",
+    "sources": [
+      "UNIFIL statement (via LiveUAMap / Reuters May 13-14)",
+      "Manifest §2 Day 76"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-14"
+  },
+  {
+    "id": "lebanon-2026-05-13-southern-central-escalation",
+    "city": "Southern + Central Lebanon (Sidon / Tyre district / Barja / Jiyyeh / Saadiyat)",
+    "lat": 33.3,
+    "lng": 35.5,
+    "type": "israeli_strikes_lebanon",
+    "actor": "IDF",
+    "first_strike": "2026-05-13",
+    "active_days": [
+      75
+    ],
+    "weapon": "Air-to-surface munitions / car strike",
+    "casualties_reported": "33 killed including women and children (per Lebanon PHEOC)",
+    "casualties_source": "Lebanon Public Health Emergency Operations Center via Xinhua / Newkerala",
+    "notes": "Per Xinhua/Newkerala citing Lebanon PHEOC: 33 people killed Wednesday May 13 in escalation across southern and central Lebanon. LiveUAMap May 14 ticker: confirmed Sidon car strike (1 killed, 1 injured); 3 killed in Tyre district strikes on Al-Maaliya, Al-Shaitiya, Al-Naqoura; 9 killed incl. 2 children in Sidon/Barja/Jiyyeh/Saadiyat strikes. Multiple Israeli airstrikes on Sadiqin, Kafr, Mansouri, Haris, Nabatieh al-Fawqa, Kafr Rumman. IDF Litani-zone ground ops continuing per LiveUAMap; multiple evacuation warnings (Kafr Hata, Arab Salim, Deir Zahrani) issued citing Hezbollah ceasefire violations. Logged under retaliation dataset as Israel-side kinetic escalation pushing Lebanon cumulative toll to ~2,915 since March 2.",
+    "sources": [
+      "Xinhua / Newkerala May 14 (citing Lebanon PHEOC)",
+      "LiveUAMap May 14",
+      "Al Arabiya May 12 baseline (2,882 cumulative)",
+      "Manifest §2 / §8 Day 76"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-14"
+  },
+  {
+    "id": "hormuz-2026-05-14-china-corridor-cascade",
+    "city": "Strait of Hormuz",
+    "lat": 26.5,
+    "lng": 56.5,
+    "type": "non_kinetic",
+    "actor": "IRGC Navy (controlled-corridor management)",
+    "first_strike": "2026-05-14",
+    "active_days": [
+      76
+    ],
+    "weapon": "none (operational/diplomatic shift)",
+    "casualties_reported": "None",
+    "casualties_source": "Bloomberg / Reuters / Fars / Xinhua / Lloyd's List / WSJ",
+    "notes": "Day 76 (May 14, Thursday): NO new IRGC kinetic incident on commercial shipping May 14 — Day 6 of zero-kinetic streak (longest of war). HOWEVER significant operational shift: per Iranian state TV citing an IRGC naval official (Bloomberg/Reuters/Fars/Xinhua), Iran has begun allowing approximately 30 CHINESE VESSELS safe transit through Hormuz, coordinated with the IRGC Navy 'following an understanding over Iranian management protocols' — granted after formal requests from China's foreign minister and Beijing's ambassador to Iran. WSJ via OilPrice confirms Yuan Hua Hu (Day 75 transit) paid NO TOLL and used IRGC-controlled NORTHERN corridor (not Larak southern toll lane); transponder cycled off/on/off between Dubai anchorage and Larak. As of May 14 vessel anchored off Oman near US blockade station; CENTCOM disposition UNVERIFIED. Trump-Xi joint position Day 1 ('strait must remain open... Iran can never have a nuclear weapon... no tolls') effectively traded for Iran's controlled-corridor management role. MOST SIGNIFICANT SHIFT IN HORMUZ STATUS SINCE APRIL 13 BLOCKADE. Tanker transits 24h: uptick (precise count UNVERIFIED pending Bloomberg/Windward tracker).",
+    "sources": [
+      "Bloomberg / Reuters-Kpler / LSEG / Lloyd's List Intelligence / WSJ / OilPrice",
+      "Iranian state TV citing IRGC naval official",
+      "Manifest §4 Day 76"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-14"
   }
 ]

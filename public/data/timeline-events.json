@@ -6730,5 +6730,131 @@
     "category": "congress",
     "source": "AP/Spectrum 05-12; MS NOW liveblog 05-12; PBS NewsHour 05-12; KSAT/AP 05-12",
     "data_point": "No follow-up hearing 05-13; war-supplemental markup imminent; Hegseth 'ceasefire remains in effect' framing"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "10:00 China Standard Time",
+    "title": "Trump-Xi Beijing Summit Day 1 — joint Hormuz + non-nuclear declaration",
+    "description": "Xi Jinping personally descended Great Hall stairs to greet Trump and individually greeted a 17-member US business delegation. Xi opened with Thucydides Trap reference. Talks held under Beijing's official framework of 'a constructive China-U.S. relationship of strategic stability' — Xi declared Beijing would treat that phrase as guidance 'for the next three years and beyond.' Per White House official cited by CNBC: 'Trump and Xi agreed that the Strait of Hormuz must remain open to restore energy flows.' Xi: 'opposition to militarization of the energy artery and any effort to charge a toll for its use.' Both leaders 'agreed that Iran can never have a nuclear weapon.' WSJ via TheStreet confirmed no-toll language. First formal US-China joint signal on Hormuz since April 13 blockade.",
+    "category": "diplomatic",
+    "source": "CNBC / WSJ via TheStreet / Xinhua / White House readout 2026-05-14",
+    "data_point": "Joint US-China position: Hormuz must remain open; Iran can never have nuclear weapon; no tolls"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "11:30 China Standard Time",
+    "title": "Trump-Xi: Taiwan 'most important issue'; Xi warns of 'great jeopardy'",
+    "description": "Xi's sharpest language at Day 1 reserved for Taiwan, calling it 'the most important issue in U.S.-China relations' and warning per Xinhua that mishandling it would put the relationship 'in great jeopardy' — 'Taiwan independence' and 'peace in the Taiwan Strait' are 'as irreconcilable as fire and water.'",
+    "category": "diplomatic",
+    "source": "Xinhua / Reuters 2026-05-14",
+    "data_point": "Taiwan framed as 'most important issue'; 'fire and water' formulation"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "13:00 China Standard Time",
+    "title": "Beijing delegation: Huang seeks H200 revival; Boeing order absent (BA -3.8%)",
+    "description": "Jensen Huang (Nvidia, late-add at Trump's request) called the summit 'one of the most important summits in human history'; declined to comment on H200 chip sales to China; FT and CNBC report he is seeking to revive talks on H200 sales that remain stalled. Elon Musk (Tesla) attended welcome ceremony and state banquet; Tesla Shanghai sold 292,876 vehicles Jan-Apr 2026 (+26.7% YoY). Tim Cook attending in final months of 15-year tenure; AAPL -0.35% intraday. Boeing (Kelly Ortberg): aircraft order expectations had run to 500 units (Jefferies); no order materialized Day 1; BA shares -3.8% to $231.38 on disappointment. Also observed: BlackRock's Fink, Citi's Fraser, Blackstone's Schwarzman, Goldman's Solomon, Qualcomm's Amon.",
+    "category": "diplomatic",
+    "source": "FT / CNBC / Reuters / Yahoo Finance intraday 2026-05-14",
+    "data_point": "No chip-export deal Day 1; no Boeing order; BA -3.8%"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "09:00 EDT",
+    "title": "Israel-Lebanon Washington Talks Round 3 opens (Karam-Dermer-Rubio)",
+    "description": "Third round of direct Israel-Lebanon talks since the April 8 ceasefire opened in Washington Thursday. Lebanese delegation led by Simon Karam; Israeli delegation led by Ron Dermer; Sec. Rubio brokering. Haaretz: 'Lebanon is demanding a permanent truce and a halt to the destruction of border villages; Israel seeks to retain full freedom of operations in Lebanon until the Hezbollah issue is resolved. It is unclear how the United States will bridge these positions.' Netanyahu's stated objective: 'focus on Hezbollah disarmament... a real peace agreement that will last for generations.' Hezbollah Secretary-General Qassem has rejected any disarmament outcome.",
+    "category": "diplomatic",
+    "source": "Haaretz / Wikipedia / globalsecurity.org 2026-05-14",
+    "data_point": "Lebanon Round 3: Karam vs. Dermer; Rubio mediating; positional gap unbridged"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "08:00 GMT",
+    "title": "UNICEF: 200 children killed in Lebanon since March 2; 770,000 in heightened distress",
+    "description": "UNICEF Regional Director Edouard Beigbeder: 'At least 59 children killed or injured in Lebanon over the past week despite ceasefire.' Cumulative child casualties since March 2: 200 killed, 806 injured. 770,000 children experiencing heightened psychological distress. 23 children killed and 93 injured since April 17 ceasefire alone. UNIFIL May 13-14 statement: multiple presumed-Hezbollah drone explosions on May 11 and 12 within meters of UNIFIL HQ in Naqoura; one drone detonated inside the headquarters compound, damaging multiple buildings (no injuries). UNIFIL formally protested.",
+    "category": "humanitarian",
+    "source": "UNICEF Regional Director Beigbeder / UNIFIL statement 2026-05-13/14",
+    "data_point": "Lebanon: 200 children killed, 806 injured since March 2; UNIFIL Naqoura HQ damaged"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "07:00 GMT",
+    "title": "Lebanon PHEOC: 33 killed in May 13 escalation; cumulative ~2,915 since March 2",
+    "description": "Lebanon Public Health Emergency Operations Center via Xinhua/Newkerala: 33 people, including women and children, killed Wednesday May 13 in an escalation across southern and central Lebanon. LiveUAMap May 14 ticker: confirmed Sidon car strike (1 killed, 1 injured); 3 killed in Tyre district strikes on Al-Maaliya, Al-Shaitiya, Al-Naqoura; 9 killed including 2 children in Sidon/Barja/Jiyyeh/Saadiyat strikes. Reconciled cumulative ~2,915 killed since March 2 (Al Arabiya 2,882 May 12 + 33 May 13 escalation); 8,768+ wounded; 380+ killed since April 17 truce. IDF Litani-zone ground operations continuing; multiple evacuation warnings (Kafr Hata, Arab Salim, Deir Zahrani) issued citing 'Hezbollah's violation of the ceasefire agreement.'",
+    "category": "casualties",
+    "source": "Xinhua / Newkerala (citing Lebanon PHEOC) / Al Arabiya / LiveUAMap 2026-05-14",
+    "data_point": "Lebanon cumulative ~2,915 killed (+33 d/d); 8,768+ wounded"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "06:00 Tehran",
+    "title": "Iran grants ~30 Chinese vessels safe Hormuz transit via IRGC northern corridor (no tolls)",
+    "description": "Per Iranian state TV citing an IRGC naval official (Bloomberg/Reuters/Fars/Xinhua): Iran has begun allowing approximately 30 Chinese vessels safe transit through the Strait of Hormuz, coordinated with the IRGC Navy 'following an understanding over Iranian management protocols.' Granted after formal requests from China's foreign minister and Beijing's ambassador to Iran; framed as preserving Iran-China strategic partnership. WSJ via OilPrice confirms Yuan Hua Hu (Day 75 transit) paid NO TOLL and used IRGC-controlled NORTHERN corridor (not Larak southern toll lane); transponder cycled off/on/off between Dubai anchorage and Larak. As of May 14, vessel anchored off Oman near US blockade station; CENTCOM disposition UNVERIFIED. Most significant shift in Hormuz status since April 13 blockade.",
+    "category": "maritime",
+    "source": "Bloomberg / Reuters / Fars / Xinhua / WSJ / Lloyd's List Intelligence / OilPrice 2026-05-14",
+    "data_point": "Iran grants ~30 Chinese vessels safe Hormuz transit (no tolls); IRGC northern corridor"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "11:10 EDT",
+    "title": "S&P 500 + Nasdaq intraday records; Dow reclaims 50,000 on Trump-Xi optimism",
+    "description": "S&P 500 7,499.72 intraday record (+0.75%, +55.47 vs Day 75 close 7,444.25); Dow Jones 50,055.30 (+0.73%, +362.10) reclaims 50,000 for first time since February 2026; Nasdaq Composite 26,633.44 intraday record (+0.88%, +231.09); Russell 2000 2,857.05 (+0.46%); VIX 17.97 (+0.10). Drivers: strong Cisco Systems earnings, optimism on Trump-Xi summit Day 1, solid April retail sales (slowed from March as higher gas prices crowded out non-essentials). WTI $100.58 intraday (-0.44%) under $101; Brent intraday weakness consistent (~$104-105 range; clean Day 76 close not yet captured). NYMEX RBOB gasoline futures $3.58/gal (-1.13%). Bitcoin $80,878 (+2.66%) intraday. AAPL $297.82 (-0.35%); BA $231.38 (-3.8%) on no Boeing order.",
+    "category": "markets",
+    "source": "Yahoo Finance / TheStreet / AP intraday 2026-05-14 ~11:10 AM EDT",
+    "data_point": "S&P 500 7,499.72 intraday record; Dow 50,055.30 reclaims 50K; Nasdaq 26,633.44 intraday record"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "12:00 EDT",
+    "title": "AAA national gas $4.534 — second consecutive daily increase",
+    "description": "AAA national gas average $4.534/gal as of May 14 (up from $4.511 on May 13 — second consecutive daily increase, extending the trend that broke the prior five-day decline streak that ended May 12). California $6.16, Washington $5.76, Hawaii $5.66. AAA Newsroom: pump prices $1.40 higher YoY, highest since 2022 ($5.01 peak). +51.6% above $2.99 Feb 28 baseline.",
+    "category": "markets",
+    "source": "AAA gasprices.aaa.com / AAA Newsroom 2026-05-14",
+    "data_point": "AAA gas $4.534 (+2.3¢ d/d); CA $6.16, WA $5.76, HI $5.66"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "14:00 GMT",
+    "title": "GCC Interior Ministers extraordinary session in Riyadh (Bubiyan aftermath)",
+    "description": "Day 75's Kuwait-IRGC infiltration incident (4 IRGC personnel captured on Bubiyan Island May 1; 1 Kuwaiti soldier wounded) drove an extraordinary session of GCC Interior Ministers in Riyadh on May 14, chaired by Bahrain, reaffirming Gulf security is 'unified and absolute' (per globalsecurity.org Day 76 lead). BRICS foreign ministers convening in India testing bloc unity over the Iran war, oil prices and divisions (AP May 14 03:38 ET). UAE denied Netanyahu secretly visited the country during the Iran war (AP May 14 02:04 ET).",
+    "category": "diplomatic",
+    "source": "globalsecurity.org / AP / Al Jazeera 2026-05-14",
+    "data_point": "GCC Interior Ministers reaffirm 'unified and absolute' Gulf security"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "15:00 EDT",
+    "title": "Letter from 52 senators + 177 House members: no uranium enrichment in any Iran deal",
+    "description": "Letter from 52 senators and 177 House members issued May 14 demands no uranium enrichment in any Iran deal — a bipartisan nuclear redline that emerged from Day 75's Trump statement: 'there will never be a deal unless they agree that there will be no nuclear weapons.' AP separately reported Sen. Murkowski flipped on May 13 ('Republican resistance to Iran war grows in the Senate as Murkowski flips'). No Pentagon cost disclosure update beyond Hurst's $29B carry-forward from May 12 Approps testimony.",
+    "category": "congress",
+    "source": "AP / globalsecurity.org Day 76 lead",
+    "data_point": "52 senators + 177 House members: no uranium enrichment; Murkowski flips"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "14:00 GMT",
+    "title": "Iran Deputy FM Gharibabadi: 'US is not doing serious diplomacy'; 11 Indian vessels through Hormuz",
+    "description": "Iran Deputy FM Kazem Gharibabadi (ANI May 14): 'US is not doing serious diplomacy.' Said Iran has 'not attacked neighbouring countries' and referenced US military bases in the region. On Hormuz: 'There will be transparency. There will be no discrepancy. We will not go beyond international law. If peace is established, it will have more safety and security than before.' Confirmed 11 Indian vessels allowed through Hormuz 'and we are working for some more — this is not the case for any other country.' Welcomed Pakistan's mediator role. Iran parliament speaker Ghalibaf: 'no alternative but to accept the 14-point proposal.'",
+    "category": "diplomatic",
+    "source": "ANI / Reuters 2026-05-14",
+    "data_point": "Gharibabadi: 11 Indian vessels through Hormuz; Pakistan mediator welcomed"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "20:00 UTC",
+    "title": "Day 6 of zero-kinetic streak on Iran front — longest of war",
+    "description": "NO new US or Israeli strikes on Iranian territory or maritime traffic documented for May 14. Days 71-76 now constitute a SIX-day stretch with zero new kinetic activity on Iran front — longest zero-kinetic streak of the war. 37 days since last Iranian territorial strike (April 7). Bushehr NPP ~40 consecutive days no incident. Project Freedom remains PAUSED-BUT-CLEARED — no restart announcement from Pentagon May 13-14. Hegseth's May 12 House Approps statement that ceasefire 'remains in effect despite recent exchanges of fire' carries forward.",
+    "category": "kinetic",
+    "source": "Manifest §3 Day 76 / globalsecurity.org",
+    "data_point": "Day 6 zero-kinetic streak (longest of war); 37 days since last Iran territorial strike"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "20:00 UTC",
+    "title": "USS Gerald R. Ford deployment Day 325; CVW-8 returned home May 11-12",
+    "description": "USS Gerald R. Ford CSG operating in mid-Atlantic westbound; deployment Day 325. Strike Group transited Strait of Gibraltar westbound May 6. Carrier Air Wing 8 returned home May 11-12 — VFA-87 Golden Warriors and VAW-124 Bear Aces to NAS Oceana/NS Norfolk; HSM-70 to NAS Jacksonville; VAQ-142 Gray Wolves to NAS Whidbey Island. CVW-8 totals: >5,500 flight hours in support of Operation Epic Fury alone; >11,800 launches over the deployment. Stars and Stripes May 13: Ford and DESRON 2 (USS Mahan DDG-72, USS Bainbridge DDG-96, plus Air Defense Commander USS Winston S. Churchill DDG-81 from Mayport) to arrive Norfolk 'in the coming days.' Ties Coral Sea 329-day record May 18 / Midway 332-day record May 21; Navy Times targets 'end of this month' Norfolk arrival = ~340 days, would break Midway outright.",
+    "category": "naval",
+    "source": "Stars and Stripes / Navy Times / Naval Today 2026-05-12/13",
+    "data_point": "Ford CSG Day 325 mid-Atlantic; CVW-8 home May 11-12; ties Coral Sea May 18"
   }
 ]
