@@ -1,4 +1,4 @@
-# IranWar.ai — The War Theater
+# IranWar.ai
 
 **An open, event-level research dataset and live public intelligence dashboard for the 2026 U.S.–Iran conflict.**
 
