@@ -1,0 +1,50 @@
+{
+  "title": "IranWar.ai: An Open-Source Event-Level Dataset of the 2026 US–Iran Conflict",
+  "description": "Event-level research dataset covering the first 30 days of the 2026 US–Iran conflict (Operation Epic Fury, February 28–March 29, 2026). Comprises 1,653 observations across 48 variables and nine analytical domains (military strikes, retaliations, financial markets, humanitarian impacts, diplomatic events, naval operations, cyber activity, general military, and contextual data), integrating open-source intelligence from more than 60 source streams including CENTCOM, the IDF, ACLED, the Iranian Red Crescent, the IAEA, Bloomberg, and the IMO. Released with full transparency about its own limitations — interpolated values, unverified records, and probabilistic confidence ratings — as a deliberate counter-technology against the structural and strategic layers of the information flood. The release includes the dashboard architecture, a reproducible extraction script, codebook, prompts, update manifests, and versioned research releases.",
+  "creators": [
+    {
+      "name": "Thomas, Jacob E.",
+      "affiliation": "The IranWar.ai Working Group"
+    },
+    {
+      "name": "Alpysbekova, Aigerim",
+      "affiliation": "The IranWar.ai Working Group"
+    },
+    {
+      "name": "Osei Mensah, Eugene",
+      "affiliation": "The IranWar.ai Working Group"
+    },
+    {
+      "name": "Masara, Nigel",
+      "affiliation": "The IranWar.ai Working Group"
+    },
+    {
+      "name": "Sharma, Prakhar",
+      "affiliation": "The IranWar.ai Working Group"
+    }
+  ],
+  "keywords": [
+    "conflict data",
+    "open-source intelligence",
+    "OSINT",
+    "event-level dataset",
+    "US–Iran conflict",
+    "information flood",
+    "synthetic data",
+    "epistemic infrastructure",
+    "model collapse",
+    "reproducible research",
+    "civilian harm exposure"
+  ],
+  "license": "CC-BY-4.0",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://iranwar.ai",
+      "relation": "documents",
+      "resource_type": "other"
+    }
+  ]
+}
