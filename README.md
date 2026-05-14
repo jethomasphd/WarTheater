@@ -6,7 +6,8 @@
 [![Archive](https://img.shields.io/badge/briefing-archive-555?style=flat-square)](https://iranwar.ai/archive)
 [![Manuscript](https://img.shields.io/badge/manuscript-PDF-1d4ed8?style=flat-square)](ResearchData/IranWar.ai_Manuscript_05132026_PDF.pdf)
 [![Dataset](https://img.shields.io/badge/dataset-v1.0%20(1%2C653%20events)-2d6a4f?style=flat-square)](ResearchData/iranwar_event_dataset.csv)
-[![Status](https://img.shields.io/badge/release-Zenodo%20pending%20%E2%80%A2%20SSRN%20in%20process-7c3aed?style=flat-square)](#release-status-zenodo--ssrn)
+[![DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.20181794-1682d4?style=flat-square)](https://doi.org/10.5281/zenodo.20181794)
+[![Status](https://img.shields.io/badge/release-Zenodo%20live%20%E2%80%A2%20SSRN%20in%20process-2d6a4f?style=flat-square)](#release-status-zenodo--ssrn)
 
 ---
 
@@ -21,7 +22,7 @@ The paper is the primary reference for everything in this repository. **Before u
 
 - **Manuscript PDF (in repo):** [`ResearchData/IranWar.ai_Manuscript_05132026_PDF.pdf`](ResearchData/IranWar.ai_Manuscript_05132026_PDF.pdf)
 - **Editable source (DOCX):** [`ResearchData/IranWar.ai_Manuscript_05132026.docx`](ResearchData/IranWar.ai_Manuscript_05132026.docx)
-- **Preferred citable copy:** the Zenodo-indexed release (see [Release Status](#release-status-zenodo--ssrn) below). Please cite the Zenodo DOI in academic work whenever it is live; cite the in-repo PDF only as a fallback while indexing is in process.
+- **Preferred citable copy:** the Zenodo-indexed release — **[doi.org/10.5281/zenodo.20181794](https://doi.org/10.5281/zenodo.20181794)**. Please cite this DOI in academic work; the in-repo PDF is provided as a convenience copy.
 
 > *"The flood we have described is dual-layered. Its structural layer is largely a byproduct of how information now circulates; its strategic layer is something actors make on purpose. Transparent datasets are a meaningful counter-technology against the structural layer. Against the strategic layer, transparency is necessary but insufficient and must be paired with interpretive expertise."*
 > — Manuscript, §10
@@ -46,12 +47,12 @@ Every layer of this stack is in the public repository. There is no private compa
 | Channel | Status | Notes |
 |---|---|---|
 | **GitHub** (this repo) | **Live** | Continuously updated; the canonical working copy. |
-| **Zenodo** | **Release pending** | The repository is being prepared for a versioned Zenodo deposit (DOI + long-term archival). Once minted, the Zenodo record will be the **preferred citation target**: it carries an immutable DOI, a content hash for each release, and the manuscript PDF as an attached object. Update this README badge and the citation block when the DOI lands. |
-| **SSRN** | **Submission in process** | The manuscript has been submitted to the Social Science Research Network. Until the SSRN abstract page is public and indexed, please cite the Zenodo DOI (or the in-repo PDF) instead. |
+| **Zenodo** | **Live — v1.0** | DOI: **[10.5281/zenodo.20181794](https://doi.org/10.5281/zenodo.20181794)**. Versioned deposit with long-term archival, immutable content hash, and the manuscript PDF as an attached object. **This is the preferred citation target.** |
+| **SSRN** | **Submission in process** | The manuscript has been submitted to the Social Science Research Network. Until the SSRN abstract page is public and indexed, please cite the Zenodo DOI. |
 
-**While Zenodo/SSRN indexing is in process, treat this repository as the authoritative source.** When citing, prefer (in order): the Zenodo DOI when live → the SSRN abstract page when live → the in-repo manuscript PDF as a fallback.
+**When citing, prefer (in order):** the Zenodo DOI → the SSRN abstract page when live → the in-repo manuscript PDF as a fallback.
 
-A suggested citation block is provided in [Citation](#citation) below; please update it when the DOIs are minted.
+The citation block is in [Citation](#citation) below.
 
 ---
 
@@ -157,31 +158,27 @@ Contributions follow the [CRediT](https://credit.niso.org/) taxonomy.
 
 ## Citation
 
-> *Please replace this block with the Zenodo / SSRN citation once the DOIs are minted — see [Release Status](#release-status-zenodo--ssrn).*
-
-**Working citation (use until Zenodo DOI is live):**
+**Preferred citation (Zenodo v1.0):**
 
 ```
 Thomas, J. E., Alpysbekova, A., Osei Mensah, E., Masara, N., & Sharma, P. (2026).
 IranWar.ai: An Open-Source Event-Level Dataset of the 2026 US–Iran Conflict
-(Version 1.0) [Data set and manuscript]. GitHub repository.
-https://github.com/jethomasphd/WarTheater
+(v1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20181794
 ```
 
-**BibTeX (working):**
+**BibTeX:**
 
 ```bibtex
-@misc{thomas2026iranwar,
+@dataset{thomas2026iranwar,
   author       = {Thomas, Jacob E. and Alpysbekova, Aigerim and
                   Osei Mensah, Eugene and Masara, Nigel and Sharma, Prakhar},
   title        = {{IranWar.ai}: An Open-Source Event-Level Dataset of the
                   2026 {US}--{Iran} Conflict},
   year         = {2026},
   version      = {1.0},
-  howpublished = {GitHub repository},
-  url          = {https://github.com/jethomasphd/WarTheater},
-  note         = {Zenodo DOI pending; SSRN submission in process.
-                  See repository README for the current preferred citation.}
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.20181794},
+  url          = {https://doi.org/10.5281/zenodo.20181794}
 }
 ```
 
@@ -451,7 +448,7 @@ python3 ResearchData/build_dataset.py
 | Daily database snapshots (`snapshots/`) | **Daily, 03:00 CT,** via GitHub Action. |
 | Briefing archive (`public/data/briefings/`) | **Daily** — one HTML fragment per war day; archive page auto-discovers from `index.json`. |
 | Research dataset (`ResearchData/iranwar_event_dataset.csv`) | **Monthly versioned releases** (v1.0, v1.1, …). Interim correction releases when source updates, major errors, or analytically important reclassifications warrant. |
-| Zenodo deposit | **Per research release**, beginning with v1.0 (pending). |
+| Zenodo deposit | **Per research release.** v1.0 live at [10.5281/zenodo.20181794](https://doi.org/10.5281/zenodo.20181794). |
 | Manuscript revisions | **As-needed** (errata, methodological updates). Versioned in this repository and re-deposited on Zenodo when material. |
 
 ---
