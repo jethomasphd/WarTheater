@@ -3442,5 +3442,78 @@
     ],
     "verified": true,
     "last_updated": "2026-05-14"
+  },
+  {
+    "id": "ret-2026-05-13-indian-dhow-oman",
+    "city": "Sea of Oman / Limah approaches",
+    "lat": 25.1,
+    "lng": 56.7,
+    "type": "shipping_incident",
+    "actor": "UNATTRIBUTED (Iranian proxy suspected, UNVERIFIED)",
+    "first_strike": "2026-05-13",
+    "active_days": [
+      75
+    ],
+    "weapon": "Suspected drone/missile (per Vanguard Maritime Risk Mgmt)",
+    "casualties_reported": "0 killed; 14 Indian crew rescued by Omani authorities",
+    "casualties_source": "India MEA / Reuters via Fox / CBS liveblog",
+    "notes": "Indian-flagged wooden cargo dhow sailing UAE-bound from India attacked in Omani waters near Strait of Hormuz approaches; vessel SANK. All 14 Indian crew recovered by Omani authorities. India Ministry of External Affairs called targeting 'unacceptable.' Attacker not formally attributed; Vanguard Maritime Risk Management suspects drone/missile. Per manifest §3a: incident confirms continuing IRGCN harassment baseline against Western/Indian-flagged shipping even as Chinese vessels are granted controlled-corridor passage. No faction claim.",
+    "sources": [
+      "Reuters via Fox News",
+      "India Ministry of External Affairs",
+      "CBS liveblog 2026-05-14",
+      "Vanguard Maritime Risk Management",
+      "Manifest §3a"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-15"
+  },
+  {
+    "id": "ret-2026-05-14-uae-fujairah-vessel-seizure",
+    "city": "Fujairah anchorage, UAE",
+    "lat": 25.2,
+    "lng": 56.4,
+    "type": "vessel_seizure",
+    "actor": "IRGCN-presumed (UNCONFIRMED)",
+    "first_strike": "2026-05-14",
+    "active_days": [
+      76
+    ],
+    "weapon": "Boarding party (unauthorized personnel)",
+    "casualties_reported": "None reported in initial advisory",
+    "casualties_source": "UKMTO advisory / CBS / Al Jazeera / Fox News liveblog",
+    "notes": "UKMTO advisory May 14: unauthorized personnel boarded vessel anchored off UAE Fujairah and were taking it toward Iranian waters. Vessel identity (flag, owner, cargo) not disclosed in initial advisory — PARTIAL per manifest §9. IRGCN-presumed but UNCONFIRMED. Incident occurred during Trump-Xi Beijing summit window and parallels 5/13 Indian-dhow sinking — demonstrates continuing IRGCN harassment of non-Chinese flagged commercial vessels even as ~30 Chinese vessels granted IRGC-managed transit. Trump-Xi Day 1 joint readout had declared strait 'must remain open' hours before this incident.",
+    "sources": [
+      "UKMTO (UK Maritime Trade Operations)",
+      "CBS News liveblog",
+      "Al Jazeera",
+      "Fox News liveblog",
+      "Manifest §3a"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-15"
+  },
+  {
+    "id": "ret-2026-05-14-hezbollah-drone-northern-israel",
+    "city": "Northern Israel border zone",
+    "lat": 33.1,
+    "lng": 35.4,
+    "type": "hezbollah_kinetic",
+    "actor": "Hezbollah",
+    "first_strike": "2026-05-14",
+    "active_days": [
+      76
+    ],
+    "weapon": "Explosive drone",
+    "casualties_reported": "Several Israeli civilians wounded",
+    "casualties_source": "IDF statement via Times of Israel / The National",
+    "notes": "IDF: Hezbollah explosive drone fell in Israeli territory near northern border, wounded several civilians. Occurred hours before Israel-Lebanon Washington Round 3 talks opened May 14. Hezbollah's first kinetic event during Round 3 window; underscores Lebanon ceasefire (effective Apr 17) fragility as ceasefire expires Sunday May 17. IDF subsequently (May 15) issued evacuation orders for 5 southern Lebanon villages ahead of expected strikes. Per manifest §3a.",
+    "sources": [
+      "IDF statement via Times of Israel liveblog",
+      "The National (UAE)",
+      "Manifest §3a"
+    ],
+    "verified": true,
+    "last_updated": "2026-05-15"
   }
 ]
