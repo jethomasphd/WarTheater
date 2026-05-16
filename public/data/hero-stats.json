@@ -1,46 +1,46 @@
 {
-  "last_updated": "2026-05-14",
-  "war_day": 76,
-  "timestamp_label": "LAST UPDATED: MAY 14, 2026 17:44 ET",
+  "last_updated": "2026-05-15",
+  "war_day": 77,
+  "timestamp_label": "LAST UPDATED: MAY 15, 2026 22:56 ET",
   "cost": {
     "brent": {
-      "price": 104.5,
-      "label": "Brent (ICE Jul) — May 14, 2026 intraday (close UNVERIFIED)",
-      "change": "Intraday softening vs $105.79 May 13 settle; clean Day 76 close not yet captured",
-      "tooltip": "Brent intraday weakness consistent with WTI Day 76 (~$104-105 range per manifest; precise close UNVERIFIED at compile time). China-corridor cascade — Iran granting ~30 Chinese vessels safe transit via IRGC-managed northern corridor (no tolls) — reduces immediate fear premium; offsets sustained blockade. Yuan Hua Hu (Day 75 transit) confirmed by WSJ/Lloyd's List to have paid NO toll, used IRGC northern corridor; vessel anchored off Oman near US blockade station May 14, CENTCOM disposition UNVERIFIED."
+      "price": 107.5,
+      "label": "Brent (ICE Jul) — May 15, 2026 settle ($106.96–$109.33 range)",
+      "change": "+1.11–3% d/d (vs $105.73 May 14 settle); weekly +6%",
+      "tooltip": "Brent rallied $3+ on May 15 as Trump-Xi Beijing summit closed without joint statement and Trump signaled 'losing patience' with Iran. Weekly +6% on Western/Indian-flag risk premium (Indian dhow sunk 5/13, UAE-Fujairah vessel seized 5/14) even as Chinese-flag transits normalize under IRGC 'management protocols.' Energy was sole green S&P sector (+1.6%). Sources: Reuters / Vantage Markets / TradingEconomics / IndexBox."
     },
     "wti": {
-      "price": 100.58,
-      "label": "WTI Crude (USD/bbl) — May 14, 2026 intraday",
-      "change": "-0.44% d/d (vs $100.97 May 13 settle); -$0.39 abs — under $101",
-      "tooltip": "WTI $100.58 intraday May 14 (Yahoo Finance/TheStreet ~11:10 AM EDT) — under $101 for first time post Day-73-74 rally as Trump-Xi Day 1 joint Hormuz position + IRGC-Beijing controlled-corridor cascade reduce fear premium. NYMEX RBOB gasoline futures $3.58/gal (-1.13%). Brent-WTI spread holds ~$4."
+      "price": 103.0,
+      "label": "WTI Crude (USD/bbl) — May 15, 2026 settle ($102.45–$103.50 range)",
+      "change": "+1.27% d/d (vs $101.17 May 14 settle); weekly +8–10%",
+      "tooltip": "WTI reclaimed ground on May 15 as summit closed no breakthrough and Trump warned of 'cleanup work' aboard Air Force One returning Beijing. Weekly +8–10% on sustained Hormuz risk premium for Western flags. Brent-WTI spread holds ~$4-5. CME FedWatch December rate-HIKE probability rose to 44% (from 22.5% week prior) on oil-shock pass-through concerns."
     },
     "gas": {
-      "price": 4.534,
+      "price": 4.528,
       "label": "AAA national average, regular unleaded",
-      "change": "+2.3¢ d/d vs May 13 ($4.511); SECOND consecutive daily increase",
-      "tooltip": "AAA daily refresh, May 14, 2026 — second consecutive daily increase as April PPI shock (+6.0% YoY) and sustained Hormuz blockade extend cost-push channel into retail. +51.6% vs $2.99 Feb 28 baseline; +$1.40 vs same week 2025; AAA Newsroom notes pump prices highest since summer 2022 peak of $5.01. Most expensive states California $6.16, Washington $5.76, Hawaii $5.66; least expensive Oklahoma ~$3.95. Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-14. Source: gasprices.aaa.com retrieved May 14, 2026."
+      "change": "-0.6¢ d/d vs May 14 ($4.534); modest pullback after two-day rise",
+      "tooltip": "AAA daily refresh, May 15, 2026 — modest pullback even as Brent settled $106.96-$109.33 (weekly +6%). +51.4% vs $2.99 Feb 28 baseline; +$1.40 vs same week 2025. Most expensive states California $6.15, Washington $5.77, Hawaii $5.65; least expensive Mississippi $4.00, Louisiana $4.01, Texas $4.01. Six states above $5.00. Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-15. Source: gasprices.aaa.com retrieved May 15, 2026."
     },
     "sp500": {
-      "value": 7499.72,
-      "label": "S&P 500 — May 14, 2026 intraday RECORD",
-      "change": "+0.75% d/d (+55.47); INTRADAY RECORD; Dow 50,055.30 reclaims 50K (+0.73%); Nasdaq 26,633.44 intraday record (+0.88%); VIX 17.97 (+0.10)",
-      "tooltip": "S&P 500 INTRADAY RECORD 7,499.72 (+0.75%); Dow Jones 50,055.30 (+0.73%) reclaims 50,000 for first time since pre-war February 2026; Nasdaq Composite INTRADAY RECORD 26,633.44 (+0.88%); Russell 2000 2,857.05 (+0.46%); VIX 17.97 (+0.56%). Drivers: strong Cisco earnings, optimism on Trump-Xi summit Day 1, solid April retail sales (slowed from March as higher gas crowded out non-essentials). Boeing -3.8% to $231.38 single largest Dow drag on absence of expected 500-aircraft order from Beijing. Bitcoin $80,878 (+2.66%) intraday. Yahoo Finance/TheStreet ~11:10 AM EDT intraday print."
+      "value": 7408.5,
+      "label": "S&P 500 — May 15, 2026 close",
+      "change": "-1.24% d/d (-92.74 vs Day 76 record close 7,501.24); Nasdaq -1.54%; Dow -1.07% (-537.29); Russell 2000 -2.1% worst day since November; VIX 18.00 (+0.74)",
+      "tooltip": "S&P 500 7,408.50 (-1.24%); Nasdaq Composite 26,225.14 (-1.54%); Dow Jones 49,526.17 (-1.07%, -537.29 pts); Russell 2000 ~2,783 (-2.1%) — worst day since November; on track to snap 7-week winning streak. Tech profit-taking after Trump-Xi closed without breakthroughs: NVDA -4.4%, INTC -6%, AMD -5.7%, MU -6.6%, CBRS -10%. Energy SOLE green S&P sector (+1.6%). Materials, utilities, industrials -2%+. BOND ROUT: 30Y UST 5.121% (+11bp — highest since May 2025); 10Y 4.595% (+14bp — highest in a year); 2Y 4.079% (+9bp). Markets now pricing the war as an inflation event, not a recession event."
     },
     "daily_cost": {
       "value": 1050,
       "unit": "M",
-      "label": "Daily US war cost, Day 76",
-      "note": "Carry-forward Day 75 — no new kinetic activity for 6th consecutive day (longest of war); blockade ops + 2 CSGs (Lincoln+Bush) sustained. Pentagon Hurst-method linear implies ~$380M/day over recent fortnight (28-d MA per manifest).",
-      "tooltip": "Day-76 daily run-rate $1.05B (dashboard scenario). Pentagon official daily implied $0.38B (Hurst Approps method: cumulative $29B / 76 days = $382M/day). CBS leaked-doc midpoint $0.72B; Popular Info $1.2B/day. Spread structurally wide; no fresh Pentagon disclosure May 13-14.",
-      "change": "Unchanged vs Day 75 ($1.05B)"
+      "label": "Daily US war cost, Day 77",
+      "note": "Carry-forward Day 76 — no new kinetic activity for 7th consecutive day (longest of war); blockade ops + 2 CSGs (Lincoln+Bush) sustained; Ford CSG D-1 from Norfolk arrival. Pentagon Hurst-method linear implies ~$380M/day over recent fortnight (28-d MA per manifest).",
+      "tooltip": "Day-77 daily run-rate $1.05B (dashboard scenario). Pentagon official daily implied $0.38B (Hurst Approps method: cumulative $29B / 76 days = $382M/day). CBS leaked-doc midpoint $0.72B; Popular Info $1.2B/day. Spread structurally wide; no fresh Pentagon disclosure May 13-15.",
+      "change": "Unchanged vs Day 76 ($1.05B)"
     },
     "total_cost": {
-      "value": 55.6,
+      "value": 56.4,
       "unit": "B",
-      "label": "Est. Total Cost (76 Days) — midpoint",
-      "note": "Manifest midpoint carry-forward: Pentagon $29B (Hurst Approps May 12) + CBS-leak $51.5B + Popular Info $86.4B → midpoint $55.6B. No new Pentagon figure issued May 13-14.",
-      "tooltip": "$55.6B Day-76 midpoint per manifest. Range: Pentagon $29B floor → CBS-leak $51.5B → Popular Info $86.4B. Pentagon figure itemized as ~$24B munitions replacement + operational deployment costs (carry-forward from Hurst May 12 Approps testimony). Letter from 52 senators and 177 House members issued May 14 demanding no uranium enrichment in any Iran deal. FY27 Pentagon budget request: $1.5 trillion (~44% over current)."
+      "label": "Est. Total Cost (77 Days) — midpoint",
+      "note": "Manifest midpoint projection: Pentagon $29B (Hurst Approps May 12) + CBS-leak $51.5B + Popular Info $86.4B → midpoint projected forward 2 days at $380M/d MA = $56.4B. No new Pentagon figure issued May 13-15.",
+      "tooltip": "$56.4B Day-77 midpoint per manifest projection. Range: Pentagon ~$29.76B (proj.) → CBS-leak $51.5B → Popular Info $86.4B. Pentagon figure itemized as ~$24B munitions replacement + operational deployment costs (carry-forward from Hurst May 12 Approps testimony). Day 76 Senate war-powers vote 7th time failed 49-50 (Murkowski flipped, closest of war); House version tied 212-212. FY27 Pentagon budget request: $1.5 trillion (~44% over current)."
     }
   },
   "history": [
