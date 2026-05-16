@@ -6856,5 +6856,50 @@
     "category": "naval",
     "source": "Stars and Stripes / Navy Times / Naval Today 2026-05-12/13",
     "data_point": "Ford CSG Day 325 mid-Atlantic; CVW-8 home May 11-12; ties Coral Sea May 18"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "Late afternoon ET",
+    "title": "Senate war powers vote 7th time fails 49-50 — Murkowski flips; House version ties 212-212",
+    "description": "Sen. Lisa Murkowski (R-AK) flipped to support Sen. Jeff Merkley's war-powers resolution, joining Collins (R-ME) and Paul (R-KY) as Republican defectors; Sen. Fetterman (D-PA) was sole Democrat opposing. Motion to discharge from SFRC failed by single vote — CLOSEST war-powers vote of the war. Murkowski explicitly tied her flip to Hegseth's 5/12 testimony that the administration 'has all authorities necessary' to restart strikes. Hours later, House version (Gottheimer) tied 212-212 — defeat under House rules. War-powers math has tightened to a single vote; one more Republican defection or one Democratic absence flips the outcome. Political ceiling on a Trump kinetic restart now visibly load-bearing.",
+    "category": "congress",
+    "source": "The Hill / Time / Townhall / Epoch Times / Democracy Now 2026-05-14",
+    "data_point": "Senate 49-50 (closest of war; Murkowski flip); House 212-212; single-vote threshold"
+  },
+  {
+    "date": "2026-05-15",
+    "time": "Morning Beijing time",
+    "title": "Trump-Xi Beijing Summit Day 2 concludes — no joint statement; 'strategic stability' 3-year framework",
+    "description": "Day 2 of summit wrapped with no written joint deliverable. Trump told reporters U.S. and China 'feel very similar on Iran' and invited Xi to U.S. Sept 24. Xinhua framed outcome as 'strategic stability' framework for next 3 years. Trump claimed China would order 200 Boeing jets (up from 150 expected; no formal BA order announced). Trump-Hannity background readout: Xi privately pledged China will NOT supply military equipment to Iran. If credible, caps Tehran's resupply ceiling at exactly the moment its kinetic stockpile is presumed depleted (38 days no territorial strike capacity). Substantive Iran deliverable is the negative commitment — Rubio's 'we didn't ask for anything' (NBC) is rhetorical face-saving.",
+    "category": "diplomatic",
+    "source": "CNBC / Detroit News (Reuters) / Washington Post / Time 2026-05-15",
+    "data_point": "Summit closes no joint statement; Xi-pledged no military equipment to Iran (per Trump to Hannity); Xi invited to U.S. Sept 24"
+  },
+  {
+    "date": "2026-05-15",
+    "time": "Aboard Air Force One returning Beijing → Washington",
+    "title": "Trump 'losing patience' with Iran; floats 'cleanup work' / 'annihilation'; considers lifting China sanctions",
+    "description": "Aboard Air Force One returning from Beijing, Trump told press he is 'losing patience' with Iran and warned of 'cleanup work' / 'annihilation' absent Tehran acceptance of his 14-point framework — but paired this with a reported '20-year moratorium' offer per Open Source Intel video / HotAir (primary text UNCONFIRMED — PARTIAL per manifest §9). Trump also said he is considering LIFTING SANCTIONS on Chinese firms buying Iranian oil; 'not asking for favors.' Rubio (NBC): 'We're not asking for China's help. We don't need their help.' Posture: rhetorical escalation, no operational order. Day 7 of zero-kinetic streak holds.",
+    "category": "diplomatic",
+    "source": "HotAir / Open Source Intel video / NBC News / WaPo 2026-05-15",
+    "data_point": "Trump rhetoric escalates ('cleanup work' / 'annihilation'); 20-year moratorium offer PARTIAL; China-sanctions-lift consideration"
+  },
+  {
+    "date": "2026-05-15",
+    "time": "Afternoon ET",
+    "title": "Israel-Lebanon Washington Round 3 concludes — no breakthrough; ceasefire expires Sunday May 17",
+    "description": "Rubio: 'We all share the same goal, which is a strong Lebanese government that doesn't have an armed Hezbollah operating within its national territory.' No ceasefire renewal announced. IDF concurrently issued evacuation orders for 5 SOUTHERN LEBANON VILLAGES ahead of expected strikes — first explicit pre-strike evacuation order issued during ongoing negotiations, signaling Israel is preparing for post-ceasefire kinetic escalation. Lebanon ceasefire expires Sunday May 17; high probability of formal IDF kinetic escalation absent extension. Lebanon casualty arc since ceasefire: ~14/day average; 380+ killed in 27 ceasefire days. Quiet humanitarian story overshadowed by Beijing pageantry.",
+    "category": "diplomatic",
+    "source": "JPost / CBS liveblog / State Dept 2026-05-15",
+    "data_point": "Round 3 closes no breakthrough; ceasefire expires Sun May 17; 5 villages evac orders issued"
+  },
+  {
+    "date": "2026-05-15",
+    "time": "Market close ET",
+    "title": "Bond market dislocation under new Fed Chair Warsh — 30Y tops 5.12%, 10Y 4.595%",
+    "description": "Treasury rout: 30Y UST 5.121% (+11bp — highest since May 2025); 10Y 4.595% (+14bp — highest in a year); 2Y 4.079% (+9bp). CME FedWatch December rate-HIKE probability rose to 44% (from 22.5% week prior). Empire State Manufacturing 19.6 vs 7.0 consensus — highest since Apr 2022. Macro consensus has flipped from 'Fed will cut on growth scare' to 'Fed may need to hike on oil-shock pass-through.' April PPI (6.0% YoY) + CPI (3.8%) plus Empire State surprise reinforce inflation impulse broadening beyond energy. Markets now pricing the war as an inflation event, not a recession event. Dan Niles framing — '10 of last 12 recessions preceded by oil spike' — now mainstream. S&P 7,408.50 (-1.24%); Nasdaq -1.54%; Dow -1.07% (-537.29 pts); Russell 2000 -2.1% worst day since November; VIX 18.00 (+0.74). Energy SOLE green S&P sector (+1.6%).",
+    "category": "financial",
+    "source": "CNBC / CoinDesk / TradingEconomics / Advisor Perspectives 2026-05-15",
+    "data_point": "30Y 5.121% (+11bp, highest since May 2025); 10Y 4.595% (+14bp); CME December hike prob 44%; S&P -1.24%"
   }
 ]
