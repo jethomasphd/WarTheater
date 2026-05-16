@@ -1468,36 +1468,36 @@
     "iranian_killed": {
       "value": 3636,
       "label": "Iranian Killed (HRANA cumulative)",
-      "note": "Day 76: No new HRANA / Iranian MoH / Hengaw release May 14 — carry-forward (37 days stale). Iran MoH last update May 5 had ≥3,468 killed (incl. 7 infants, 376 children, 496 women); >26,500 injured.",
-      "tooltip": "PRIMARY: HRANA cumulative 3,636 killed (Apr 7 baseline, 37 days stale). 254 children killed per HRANA child-specific count. SECONDARY: Iran MoH/Foundation of Martyrs ≥3,468 floor (May 5 last update); Hengaw military estimate 6,620 (Apr 8); Hengaw aggregate 7,650 (Day 46) — methodologies diverge. Iran wounded estimate ~26,500. Treat all as floor — no formal aggregate update May 13-14.",
+      "note": "Day 77: No new HRANA / Iranian MoH / Hengaw release Days 76-77 — carry-forward (38 days stale). Iran MoH last update May 5 had ≥3,468 killed (incl. 7 infants, 376 children, 496 women); >26,500 injured. FLAG: stale data.",
+      "tooltip": "PRIMARY: HRANA cumulative 3,636 killed (Apr 7 baseline, 38 days stale). 254 children killed per HRANA child-specific count. SECONDARY: Iran MoH/Foundation of Martyrs ≥3,468 floor (May 5 last update); Hengaw military estimate 6,620 (Apr 8); Hengaw aggregate 7,650 (Day 46) — methodologies diverge. Iran wounded estimate ~26,500. Treat all as floor — no formal aggregate update May 13-15.",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
-      "value": 2915,
+      "value": 2908,
       "label": "Lebanese killed (LB MoPH)",
-      "note": "Day 76: Lebanon cumulative ~2,915 since March 2 — Al Arabiya May 12 baseline 2,882 + 33 killed May 13 in southern/central escalation per Xinhua/Lebanon PHEOC. HIGH on direction, MEDIUM on precision (sources diverge).",
-      "tooltip": "Lebanese cumulative ~2,915 killed since March 2 (Al Arabiya/AFP 2,882 May 12 + 33 killed May 13 per Xinhua/Lebanon Public Health Emergency Operations Center). 8,768+ wounded; 380+ killed since April 17 truce. UNICEF Regional Director Beigbeder: 200 children killed and 806 injured in Lebanon since March 2; 23 killed/93 injured since April 17 ceasefire; 770,000 children in heightened psychological distress. UNIFIL formally protested presumed-Hezbollah drone explosions May 11-12 within meters of Naqoura HQ (one detonated INSIDE compound, no injuries). Lebanon Talks Round 3 opened Washington May 14 (Karam-Dermer-Rubio brokered) — Lebanon demanding permanent truce, Israel seeking continued freedom of operations until Hezbollah disarmed; Hezbollah SG Qassem rejected.",
+      "note": "Day 77: Lebanon cumulative ~2,908 since March 2 — Wiki timeline baseline 2,896 + 12 killed in WaPo-reported May 13 drone strikes on 7 vehicles in Barja/Beirut area (2 children killed). Post-ceasefire toll since Apr 17 ≥392 killed.",
+      "tooltip": "Lebanese cumulative ~2,908 killed since March 2 (Wiki timeline baseline 2,896 + 12 per WaPo 5/13 drone strikes on 7 vehicles in Barja/Beirut, incl. 2 children). Post-ceasefire toll since Apr 17: ≥392 killed / ~1,134 wounded (extrapolated from 5/12 MoPH baseline 380/1,122). Children killed cumulative 200+; women killed 279+. Israel-Lebanon Washington Round 3 concluded May 15 without breakthrough; Rubio: 'We all share the same goal, which is a strong Lebanese government that doesn't have an armed Hezbollah operating within its national territory.' No ceasefire renewal announced; ceasefire expires Sunday May 17. IDF concurrently issued evacuation orders for 5 SOUTHERN LEBANON VILLAGES ahead of expected strikes. Hezbollah explosive drone (5/14) wounded Israeli civilians in northern Israel border zone hours before Round 3 opened.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
       "value": 4400000,
       "label": "Total Displaced",
-      "note": "Day 76: No new IOM/UNHCR aggregate captured. Carry-forward — ~3M Iran IDPs + >1.2M Lebanon IDPs.",
-      "tooltip": "4.4M total — ~3M Iran IDPs (UNHCR Mar 12 stale) + >1.2M Lebanon IDPs (>20% of Lebanese population; 40,000+ homes destroyed in southern Lebanon; evacuation orders cover 1,470 km² / 14% of national territory). OHCHR confirmed >1 million displaced in Lebanon by late March; figure has not been formally revised despite April 17 ceasefire.",
+      "note": "Day 77: No new IOM/UNHCR aggregate captured. Carry-forward — ~3M Iran IDPs + >1.2M Lebanon IDPs. Displacement spike likely Day 78+ given 5/15 evacuation orders for 5 southern villages.",
+      "tooltip": "4.4M total — ~3M Iran IDPs (UNHCR Mar 12 stale) + >1.2M Lebanon IDPs (>20% of Lebanese population; 40,000+ homes destroyed in southern Lebanon; evacuation orders cover 1,470 km² / 14% of national territory + 5 additional villages ordered evac May 15 ahead of post-ceasefire kinetic escalation). OHCHR confirmed >1 million displaced in Lebanon by late March; figure has not been formally revised despite April 17 ceasefire.",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
-      "value": 48090,
+      "value": 48210,
       "label": "Commercial flights affected (regional airspace closures, floor)",
-      "note": "Day 76: +~120 estimated incremental cancellations (UNVERIFIED — Cirium not publishing live). Emirates/Qatar Airways operating reduced schedules. Kuwait International Airport closed 38+ consecutive days from peak attacks.",
+      "note": "Day 77: +~120 estimated incremental cancellations (UNVERIFIED — Cirium not publishing live). Emirates/Qatar Airways operating reduced schedules. Kuwait International Airport closed 39+ consecutive days from peak attacks.",
       "tooltip": "Methodological note: 'flights affected' captures cancellations + diversions + multi-hour holds + reroutes + overflight disruptions across all regional FIRs. Gulf carriers continue suspended/rerouted ops. UNVERIFIED daily increment — Cirium not publishing live.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
       "value": 254,
       "label": "Children killed (HRANA cumulative — Iran civilian count)",
-      "note": "Day 76: UNICEF May 13-14 figures Lebanon cumulative 200 children killed (since March 2) / 806 injured; +59 children killed or injured in past week per Beigbeder; 23 killed/93 injured since April 17 ceasefire. Iran HRANA child count 254 carry-forward.",
-      "tooltip": "HRANA child-specific cumulative count 254 (Iran, carry-forward; 37 days stale). UNICEF Regional Director Edouard Beigbeder May 13-14 statement: Lebanon ≥200 children killed and 806 injured since March 2 — '59 children killed or injured in past week despite ceasefire'; 23 killed and 93 injured since April 17 ceasefire alone; 770,000 children in heightened psychological distress. Iran MoH separate subset 376 children. Combined identified floor across both fronts now >454. Manifest §1 cites ~545 Iran (HRANA 15%-of-total basis).",
+      "note": "Day 77: Iran HRANA child count 254 carry-forward (38 days stale). Lebanon cumulative 200+ children killed since March 2 per UNICEF May 13-14; WaPo May 13: +2 children killed in Barja/Beirut drone strikes on 7 vehicles.",
+      "tooltip": "HRANA child-specific cumulative count 254 (Iran, carry-forward; 38 days stale). UNICEF Regional Director Edouard Beigbeder May 13-14 statement: Lebanon ≥200 children killed and 806 injured since March 2 — '59 children killed or injured in past week despite ceasefire'; 23 killed and 93 injured since April 17 ceasefire alone; 770,000 children in heightened psychological distress. WaPo May 13: 2 additional children killed in Israeli drone strikes on 7 vehicles in Barja/Beirut area. Iran MoH separate subset 376 children. Combined identified floor across both fronts now >456. Manifest §1 cites ~545 Iran (HRANA 15%-of-total basis).",
       "color": "var(--civilian)"
     }
   }
