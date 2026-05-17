@@ -6901,5 +6901,95 @@
     "category": "financial",
     "source": "CNBC / CoinDesk / TradingEconomics / Advisor Perspectives 2026-05-15",
     "data_point": "30Y 5.121% (+11bp, highest since May 2025); 10Y 4.595% (+14bp); CME December hike prob 44%; S&P -1.24%"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "Morning Capitol Hill",
+    "title": "CENTCOM Adm. Brad Cooper to Congress: Iran military 'dramatically degraded'",
+    "description": "CENTCOM Commander Adm. Brad Cooper testified that Iran's military capabilities have been 'dramatically degraded,' but that Iranian leaders are 'impacting shipping in the strait with rhetoric alone.' Stated US 'has the military power to permanently reopen the strait and escort ships.' Coincided with same-day Fujairah tanker seizure and Indian cargo ship sinking off Oman.",
+    "category": "congress",
+    "source": "AP via NPR/PBS/OPB; Houston Public Media",
+    "data_point": "Adm. Brad Cooper, CENTCOM; concurrent 2 Hormuz incidents 5/14"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "Afternoon Tehran",
+    "title": "Iran sets 5 non-negotiable conditions for further US talks",
+    "description": "Iran will not enter further talks unless: (1) US pays war reparations; (2) US accepts Iranian sovereignty over Hormuz; (3) lifts blockade; (4) lifts sanctions; (5) returns seized vessels. Iran's judiciary spokesperson same day asserted legal right to seize US-connected tankers. Senior VP Mohammadreza Aref: Hormuz 'has always been our property.' White House non-acceptance expected.",
+    "category": "diplomacy",
+    "source": "Fars via AP/NPR; Iran Daily; Times of Israel",
+    "data_point": "5 conditions: reparations + Hormuz sovereignty + lift blockade + lift sanctions + return seized vessels"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "HASC testimony",
+    "title": "CNO Adm. Caudle: USS Gerald R. Ford to arrive Norfolk Saturday May 16 (Day 326)",
+    "description": "Chief of Naval Operations Adm. Daryl Caudle announced at House Armed Services Committee that USS Gerald R. Ford will arrive Naval Station Norfolk Saturday May 16 after >320 days at sea — longest post-Vietnam carrier deployment. SecDef Hegseth to attend pierside welcome ceremony.",
+    "category": "naval",
+    "source": "Navy Times; Stars and Stripes; 13NewsNow",
+    "data_point": "Ford return Day 326; longest post-Vietnam"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "Day fixing — UKMTO advisory",
+    "title": "Hormuz: vessel seized 38nm NE of Fujairah → taken toward Iranian waters",
+    "description": "UKMTO advisory: vessel anchored 38nm NE of Fujairah, UAE seized by 'unauthorized personnel' and taken toward Iranian territorial waters. UK military assessed diversion to Iranian waters. IRGCN-presumed but UNCONFIRMED; vessel identity not disclosed. Same day: Indian-flagged cargo ship en route Somalia→Sharjah attacked off Oman, fire onboard, vessel SUNK. India MEA condemned attack as 'unacceptable.' Iran FM Araghchi at BRICS New Delhi accused UAE of 'direct involvement in aggression.'",
+    "category": "maritime",
+    "source": "UKMTO; UK Military; AP via PBS NewsHour; Reuters via U.S. News; Euronews; Times of Israel",
+    "data_point": "2 Hormuz-area hostile-action events 5/14"
+  },
+  {
+    "date": "2026-05-15",
+    "time": "Afternoon ET",
+    "title": "Israel-Lebanon ceasefire EXTENDED +45 days; Pentagon security track May 29",
+    "description": "State Dept spokesperson Tommy Pigott: 'two countries agreed upon a framework for negotiations to advance lasting peace … full recognition of each other's sovereignty and territorial integrity.' 45-day extension of April 16 cessation of hostilities. Round 4 political talks June 2-3; separate security track at Pentagon May 29. Hezbollah disarmament 'remains elusive.'",
+    "category": "diplomacy",
+    "source": "State Department; MS NOW; Foreign Policy",
+    "data_point": "Ceasefire +45 days; Pentagon security track May 29; Round 4 June 2-3"
+  },
+  {
+    "date": "2026-05-15",
+    "time": "Evening NYT",
+    "title": "NYT: US and Israel intensifying preparations for renewed Iran strikes 'as soon as next week'",
+    "description": "Per NYT, operations possibly starting 'as soon as next week.' Options reported: commando raid to retrieve nuclear material (with casualty risk); resumed strikes on Kharg Island; broader bombing of Iranian military and infrastructure. UNVERIFIED operationally — treated as planning leak. Project Freedom remains PAUSED-BUT-CLEARED.",
+    "category": "intelligence",
+    "source": "NYT (cited via Wikipedia 2026 Iran war page); Britannica live update",
+    "data_point": "Planning leak; UNVERIFIED; window May 18+"
+  },
+  {
+    "date": "2026-05-15",
+    "time": "Market close ET",
+    "title": "Markets sell off on oil/Hormuz: S&P -1.24%, Dow -537, VIX +6.78%, Russell -2.44%",
+    "description": "Broad-based decline; Russell 2000 -2.44% (worst day since November, ended 7-week winning streak). Energy sole sector positive (+1.6%); 10 of 11 S&P sectors red. Brent +3.35% to $109.26; WTI +4.20% to $105.50. Tech profit-taking: NVDA -4.4%, INTC -6%, AMD -5.7%, MU -6.6%. Boeing -3.8% on smaller-than-expected China order (200 jets vs expected 500). Gold -2.63% to $4,561.90; BTC -1.04% to $78,260. Dan Niles (Niles Investment, CNBC Power Lunch): '10 of last 12 recessions preceded by oil spike.'",
+    "category": "markets",
+    "source": "Yahoo Finance/FRED; CNBC; TheStreet; 24/7 Wall St; Sunday Guardian",
+    "data_point": "S&P 7,408.50 (-1.24%); Russell 2000 worst day since November"
+  },
+  {
+    "date": "2026-05-16",
+    "time": "Late morning ET — Pier 14, Naval Station Norfolk",
+    "title": "USS Gerald R. Ford CSG returns Norfolk after 326-day deployment — longest post-Vietnam; PUC awarded",
+    "description": "Longest post-Vietnam US Navy carrier deployment ends. SecDef Pete Hegseth at pier presented Presidential Unit Citation. Ford (CVN-78), USS Bainbridge (DDG-96), USS Mahan (DDG-72) plus CVW-8 squadrons all home. Ford to begin significant maintenance period. Did NOT match USS Midway 332-day all-time record (final = 326 days per CNO Adm. Caudle; Straight Arrow News). Surpassed USS Abraham Lincoln 295-day post-Vietnam record on April 15. Hegseth took no questions on war cost. CENTCOM retains 2 CSGs (Lincoln + Bush) + Tripoli ARG + imminent Boxer ARG.",
+    "category": "naval",
+    "source": "Navy Times; Stars and Stripes; USNI; WAVY; WTKR; 13NewsNow; Straight Arrow News; Defence-Industry Europe",
+    "data_point": "Day 326; longest post-Vietnam; PUC awarded"
+  },
+  {
+    "date": "2026-05-16",
+    "time": "All day — OSINT",
+    "title": "Wikipedia/OSINT: Trump admin reportedly told UAE to 'seize Iran's Kharg Island' (UNVERIFIED)",
+    "description": "Reported May 16 (Wikipedia 2026 Iran war page; no independent primary-source confirmation located in window). Aligns with NYT May 15 Kharg-targeting reporting. UNVERIFIED — possible Wikipedia editorial summary of NYT planning leak rather than separate operational order. Flagged §9 of update manifest.",
+    "category": "intelligence",
+    "source": "Wikipedia 2026 Iran war (May 16 revision)",
+    "data_point": "UNVERIFIED Kharg seizure directive claim"
+  },
+  {
+    "date": "2026-05-16",
+    "time": "All day",
+    "title": "Day 78 = NATO Operation Allied Force (Kosovo) 78-day tie; Day 79 (May 17) exceeds",
+    "description": "Operation Epic Fury's duration today equals NATO Operation Allied Force (Kosovo, March 24 – June 10, 1999, 78 days). Iran war (since Feb 28, 2026 D-Day) now matches Kosovo air-war duration. Note: Sec. Rubio rhetorically declared Epic Fury 'concluded' May 5, but kinetic operations, blockade, and ceasefire-strain continue — duration measured from D-Day. Day 79 (May 17) will exceed the Kosovo benchmark.",
+    "category": "milestone",
+    "source": "WarTheater dashboard; historical-comparison.json",
+    "data_point": "Day 78 = Kosovo duration tie; next benchmark Allied Force-exceeded May 17"
   }
 ]
