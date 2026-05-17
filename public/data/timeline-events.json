@@ -6901,5 +6901,41 @@
     "category": "financial",
     "source": "CNBC / CoinDesk / TradingEconomics / Advisor Perspectives 2026-05-15",
     "data_point": "30Y 5.121% (+11bp, highest since May 2025); 10Y 4.595% (+14bp); CME December hike prob 44%; S&P -1.24%"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "Morning Capitol Hill",
+    "title": "CENTCOM Adm. Brad Cooper to Congress: Iran military 'dramatically degraded'",
+    "description": "CENTCOM Commander Adm. Brad Cooper testified that Iran's military capabilities have been 'dramatically degraded,' but that Iranian leaders are 'impacting shipping in the strait with rhetoric alone.' Stated US 'has the military power to permanently reopen the strait and escort ships.' Coincided with same-day Fujairah tanker seizure and Indian cargo ship sinking off Oman.",
+    "category": "congress",
+    "source": "AP via NPR/PBS/OPB; Houston Public Media",
+    "data_point": "Adm. Brad Cooper, CENTCOM; concurrent 2 Hormuz incidents 5/14"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "Afternoon Tehran",
+    "title": "Iran sets 5 non-negotiable conditions for further US talks",
+    "description": "Iran will not enter further talks unless: (1) US pays war reparations; (2) US accepts Iranian sovereignty over Hormuz; (3) lifts blockade; (4) lifts sanctions; (5) returns seized vessels. Iran's judiciary spokesperson same day asserted legal right to seize US-connected tankers. Senior VP Mohammadreza Aref: Hormuz 'has always been our property.' White House non-acceptance expected.",
+    "category": "diplomacy",
+    "source": "Fars via AP/NPR; Iran Daily; Times of Israel",
+    "data_point": "5 conditions: reparations + Hormuz sovereignty + lift blockade + lift sanctions + return seized vessels"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "HASC testimony",
+    "title": "CNO Adm. Caudle: USS Gerald R. Ford to arrive Norfolk Saturday May 16 (Day 326)",
+    "description": "Chief of Naval Operations Adm. Daryl Caudle announced at House Armed Services Committee that USS Gerald R. Ford will arrive Naval Station Norfolk Saturday May 16 after >320 days at sea — longest post-Vietnam carrier deployment. SecDef Hegseth to attend pierside welcome ceremony.",
+    "category": "naval",
+    "source": "Navy Times; Stars and Stripes; 13NewsNow",
+    "data_point": "Ford return Day 326; longest post-Vietnam"
+  },
+  {
+    "date": "2026-05-14",
+    "time": "Day fixing — UKMTO advisory",
+    "title": "Hormuz: vessel seized 38nm NE of Fujairah → taken toward Iranian waters",
+    "description": "UKMTO advisory: vessel anchored 38nm NE of Fujairah, UAE seized by 'unauthorized personnel' and taken toward Iranian territorial waters. UK military assessed diversion to Iranian waters. IRGCN-presumed but UNCONFIRMED; vessel identity not disclosed. Same day: Indian-flagged cargo ship en route Somalia→Sharjah attacked off Oman, fire onboard, vessel SUNK. India MEA condemned attack as 'unacceptable.' Iran FM Araghchi at BRICS New Delhi accused UAE of 'direct involvement in aggression.'",
+    "category": "maritime",
+    "source": "UKMTO; UK Military; AP via PBS NewsHour; Reuters via U.S. News; Euronews; Times of Israel",
+    "data_point": "2 Hormuz-area hostile-action events 5/14"
   }
 ]
