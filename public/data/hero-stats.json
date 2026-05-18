@@ -1,43 +1,43 @@
 {
-  "last_updated": "2026-05-16",
-  "war_day": 78,
-  "timestamp_label": "LAST UPDATED: MAY 16, 2026 21:57 ET",
+  "last_updated": "2026-05-17",
+  "war_day": 79,
+  "timestamp_label": "LAST UPDATED: MAY 17, 2026 22:17 ET",
   "cost": {
     "brent": {
       "price": 109.26,
-      "label": "Brent (ICE Jun) — May 15, 2026 settle (Saturday May 16 markets closed; Day 78 carries Friday close)",
-      "change": "+3.35% d/d ($+3.54 vs $105.72 May 14); weekly +~8%",
-      "tooltip": "Brent rallied $3.54 on Friday May 15 to $109.26 as Hormuz seizures (5/14 Fujairah tanker + Indian cargo ship sunk off Oman) compounded the Trump-Xi summit no-breakthrough close. IEA: market may remain undersupplied through October even if war ends. Energy was sole green S&P sector (+1.6%) on Friday. Sources: Reuters / Yahoo Finance / TradingEconomics / NYMEX/ICE."
+      "label": "Brent (ICE Jul) — May 15, 2026 settle (Sun May 17 markets closed; Day 79 carries Fri close pre-Barakah)",
+      "change": "flat d/d (Sun closed); weekly +8.1%; Sun e-session indicative ~$110.47 (+1.11%) pre-Barakah per Yahoo Finance BZ=F",
+      "tooltip": "Brent carries $109.26 Friday May 15 settle (+3.35% / +$3.54 d/d). Sun May 17 official ICE markets closed; Yahoo Finance BZ=F ticker indicated Brent ~$110.47 (+1.11%) in late-Fri/Sat window — already a gap-up bias PRE-BARAKAH. UAE Barakah Nuclear Plant drone strike landed mid-Sun Gulf time, BEFORE CME/ICE energy futures reopen at 6 PM ET Sunday — additional risk premium expected on the reopen. IranWar.ai stress scenario: +$2-5/bbl gap-up on Sun reopen; $115-120 if Trump signals action after May 19 Situation Room meeting; mean-reversion toward $100 if Iran offers credible counter pre-meeting. UBS (May 14) forecast Brent $100 in June 2026, $90 end-2026, $85 by March 2027. Sources: Reuters / Yahoo Finance / TradingEconomics / NYMEX/ICE."
     },
     "wti": {
-      "price": 105.5,
-      "label": "WTI (NYMEX Jun CLM26) — May 15, 2026 settle ($+4.25)",
-      "change": "+4.20% d/d (vs $101.25 May 14 settle); weekly +~11%",
-      "tooltip": "WTI jumped $4.25 Friday on Hormuz tanker seizure + Indian-flagged cargo ship sinking + Iran 5-condition demand (Fars 5/14) + NYT reporting US-Israeli preparations for renewed strikes 'as soon as next week.' Weekly +~11%. CME FedWatch December rate-HIKE probability 44% (vs 22.5% week prior) on oil-shock pass-through. Barchart CLM26 reference."
+      "price": 105.42,
+      "label": "WTI (NYMEX Jun) — May 15, 2026 settle (Sun May 17 markets closed; Day 79 carries Fri close)",
+      "change": "flat d/d (Sun closed); weekly +11%",
+      "tooltip": "WTI carries $105.42 Friday May 15 settle (+4.20% / +$4.25 d/d). Weekly +11%. CME FedWatch December rate-HIKE probability holds at 44% (vs 22.5% week prior) on oil-shock pass-through. CME reopens 6 PM ET Sunday and faces Barakah-driven risk premium. IEA OMR (May 13): 'mounting supply losses from the Strait of Hormuz are depleting global oil inventories at a record pace' — 250 mb / 4 mb/d draw over Mar-Apr; 'severely undersupplied through end of 3Q26 even assuming conflict ends by early June.' Saudi April output (Bloomberg/OPEC sec): 6.316 mbd, weakest since 1990 Gulf War. Barchart CL reference."
     },
     "gas": {
-      "price": 4.517,
-      "label": "AAA national average, regular unleaded — May 16, 2026",
-      "change": "-1.7¢ d/d vs May 14 ($4.534); slight pullback before Friday oil jump filters to pumps",
-      "tooltip": "AAA daily refresh, May 16, 2026. Per LendingTree: +44% YoY vs $3.14 on 2025-05-12; +51.1% vs $2.99 Feb 28 baseline. Most expensive states CA $6.15; least expensive OK $3.94. Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-16. Source: gasprices.aaa.com retrieved May 16, 2026."
+      "price": 4.513,
+      "label": "AAA national average, regular unleaded — May 17, 2026",
+      "change": "-0.4¢ d/d vs May 16 ($4.517); 6 states above $5; CA highest near $6.15",
+      "tooltip": "AAA daily refresh, May 17, 2026. Per AAA: +43.6% YoY; +51.0% vs $2.99 Feb 28 baseline; highest US national average since the 2022 peak ($5.016 on Jun 14, 2022) — threatens that all-time high within weeks if kinetic action resumes after May 19 Situation Room. 6 states above $5/gal; California $6.15; Oklahoma cheapest ~$3.94. Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-17. Friday Brent +3.35% / WTI +4.20% jump and Sun's Barakah strike risk premium still filtering through retail pumps. Source: gasprices.aaa.com retrieved May 17, 2026."
     },
     "sp500": {
       "value": 7408.5,
-      "label": "S&P 500 — May 15, 2026 close (Saturday May 16 markets closed; Day 78 carries Friday)",
-      "change": "-1.24% d/d (-92.74 vs May 14 record close 7,501.24); Nasdaq -1.54%; Dow -1.07% (-537); Russell 2000 -2.44% worst day since November; VIX +6.78% to 18.43",
-      "tooltip": "S&P 500 7,408.50 (-1.24%); Nasdaq Composite 26,225.14 (-1.54%); Dow Jones 49,526.17 (-1.07%, -537.29 pts); Russell 2000 2,793.30 (-2.44%) — worst day since November, ended 7-week winning streak. May 14 had hit record 7,501.24 intraday/close. Risk-off triggered by: (1) Hormuz tanker seizures (5/14); (2) Trump-Xi summit closed no joint statement; (3) Brent +3.35% / WTI +4.20% oil spike; (4) WSJ/CNBC inflation-and-recession warnings (Niles Investment: '10 of last 12 recessions preceded by oil spike'). 10 of 11 S&P sectors red; energy sole gainer (+1.6%). Tech profit-taking: NVDA -4.4%, INTC -6%, AMD -5.7%, MU -6.6%. Boeing -3.8% on smaller-than-expected China order (200 jets vs expected 500). Bond rout: 10Y UST 4.595% (+14bp, highest in year); 30Y UST 5.121% (+11bp, highest since May 2025)."
+      "label": "S&P 500 — May 15, 2026 close (Sun May 17 markets closed; Day 79 carries Fri)",
+      "change": "flat (Sun closed); Fri -1.24% (-92.74 vs May 14 record 7,501.24); Russell 2000 -2.44% worst day since November",
+      "tooltip": "S&P 500 carries 7,408.50 (Fri -1.24%); Nasdaq Composite 26,225.14 (Fri -1.54%); Dow Jones 49,526.17 (Fri -1.07%, -537.29 pts); Russell 2000 2,793.30 (Fri -2.44%) — worst day since November, ended 7-week winning streak. S&P futures Fri eve: 7,425.25 (-7.00, -0.09%) — pre-Barakah. MONDAY OPEN positioning (IranWar.ai analytics): S&P -0.5% to -1.5% on Barakah drone strike + Trump Situation Room set for Tue May 19 + IRGC 'deactivate Gulf bases' threat; energy outperform; defense (LMT/NOC/RTX) bid; airlines/transports underperform on jet-fuel pass-through. Bond rout persists: 30Y UST 5.121% (highest since May 22, 2025, nearing highest since October 2023); 10Y UST 4.595% (highest in a year)."
     },
     "daily_cost": {
-      "value": 380,
-      "label": "Daily War Burn (28-d MA, $M) — Day 78",
-      "change": "◆ unchanged vs Day 75",
-      "tooltip": "Carry-forward $380M/day 28-day moving average from Day 75 manifest; no new Pentagon/CBO/CBS publication May 14-16. Sen. Patty Murray (D-WA, PBS clip 5/15) calls Pentagon $29B figure 'suspiciously low,' pressing for damage price tag. Hegseth at Norfolk pier 5/16 (Ford homecoming) took no questions on cost. Note: USS Gerald R. Ford CSG return ENDS one of largest cost-drivers — implies lower future daily burn (TBD recalibration Day 80+)."
+      "value": 95,
+      "label": "Daily War Burn (CSIS ceasefire-standby, $M) — Day 79",
+      "change": "RECALIBRATED from $380M 28-d MA to $95M/day standby (Ford CSG return + 9-day zero-kinetic streak)",
+      "tooltip": "RECALIBRATED Day 79 to CSIS ceasefire-standby model: ~$95M/day (CSIS Apr 30: 'under $100M/day'; militaryspend.org rolling). Recalibration driven by USS Gerald R. Ford CSG return Norfolk 5/16 (largest single cost-driver removed) + Day 9 of zero-kinetic streak on Iran (Days 71-79, longest of war) + Project Freedom remains PAUSED-BUT-CLEARED. New rate reflects sustainment of Lincoln + Bush CSGs + Tripoli ARG (Boxer ARG imminent), blockade O&M, base-protection lift, intel/SIGINT. Pentagon official cumulative figures unchanged in window (Pentagon $29B / CBS-leak $51.5B / Popular Info $86.4B). Note: if Trump's May 19 Situation Room meeting orders renewed strikes, daily burn re-spikes toward kinetic-phase $500M-$1.43B/day."
     },
     "total_cost": {
-      "value": 56.7,
-      "label": "Cumulative US Cost (midpoint, $B) — Day 78",
-      "change": "+$1.1B vs Day 75 ($55.6B); range: Pentagon $29B / CBS-leak $51.5B / Popular Info $86.4B unchanged",
-      "tooltip": "UNVERIFIED-ESTIMATE. Linear extrapolation Days 76-78 × $380M 28-day MA added to Day 75 midpoint. No new official aggregate disclosure published May 14-16. Sources of range: Pentagon Comptroller Hurst (HASC 4/29) = ~$25B munitions/O&M (lowballed per CNN); CBS leak ~$51.5B (CRS+OMB); Popular Info compiled $86.4B (incl. force-flow/intel/base-repair). Ford CSG return will recalibrate downward Day 80+."
+      "value": 31.6,
+      "label": "Cumulative US Cost (militaryspend.org rolling, $B) — Day 79",
+      "change": "RECALIBRATED to militaryspend.org rolling; +$95M vs prior day under new model",
+      "tooltip": "RECALIBRATED Day 79 to militaryspend.org rolling methodology: ~$31.6B cumulative = CSIS Day-12 $16.5B + Cancian $500M/day kinetic-phase (Days 13-40) + $95M/day ceasefire-standby (Days 41-79). Replaces prior dashboard midpoint of competing higher estimates. Range floors persist: Pentagon Comptroller Hurst (HASC 4/29) = ~$25B munitions/O&M (lowballed per CNN); CBS leak ~$51.5B (CRS+OMB); Popular Info compiled $86.4B (incl. force-flow/intel/base-repair). Sen. Patty Murray (D-WA, PBS 5/15) calls Pentagon $29B figure 'suspiciously low.' Re-spike risk if May 19 Situation Room orders renewed kinetic action."
     }
   },
   "history": [
@@ -1476,63 +1476,82 @@
       "flights_cancelled": 48210,
       "children_killed": 254,
       "headline": "Day 78 — Kosovo 78-day tie (NATO Allied Force); USS Ford CSG returns Norfolk after 326-day deployment (longest post-Vietnam), Presidential Unit Citation awarded; Hormuz tanker seized off Fujairah + Indian cargo ship sunk off Oman (5/14); Iran 5-condition demand (reparations + Hormuz sovereignty) — non-starter for Washington; Trump-Xi closes vague on Iran, no joint statement; Israel-Lebanon ceasefire EXTENDED +45 days, Pentagon security track May 29; NYT: US-Israel intensifying renewed-strike prep 'as soon as next week' (UNVERIFIED); Day 8 zero-kinetic streak on Iran (39 days since Apr 7); markets weekend carry — S&P -1.24%, Brent +3.35%, WTI +4.20%, 30Y UST 5.121%"
+    },
+    {
+      "date": "2026-05-17",
+      "war_day": 79,
+      "brent": 109.26,
+      "wti": 105.42,
+      "gas": 4.513,
+      "sp500": 7408.5,
+      "daily_cost_millions": 95,
+      "total_cost_billions": 31.6,
+      "targets_struck": 35502,
+      "us_kia": 13,
+      "us_wia": 413,
+      "iranian_killed": 3636,
+      "lebanese_killed": 2901,
+      "displaced": 4600000,
+      "flights_cancelled": 48210,
+      "children_killed": 254,
+      "headline": "Day 79 — BARAKAH STRUCK: drone hits UAE's Barakah Nuclear Plant electrical generator (no radiological release, no casualties; Unit 3 on emergency diesel per IAEA); first nuclear-facility attack on a Gulf state during the war; Saudi separately intercepts 3 drones from Iraqi airspace; Trump 'there won't be anything left of them. TIME IS OF THE ESSENCE!'; Axios/Ravid: Trump convenes Situation Room Tue May 19 to review military options; Netanyahu cabinet 'we are prepared for any scenario'; AP: Israel 'coordinating with US about possible resumption'; IRGC threatens to 'deactivate' US Gulf bases; Day 9 zero-kinetic streak on Iran (40 days since Apr 7) — LONGEST OF WAR, exceeds Kosovo 78-day Allied Force record; Israeli strikes kill ≥5 in 5 southern Lebanon villages (Tayr Felsay, Tayr Debba, Az-Zrariyah, Jebchit, Jouaiya); Lebanon CF extended +45 days (May 15); Bloomberg Hormuz tracker: ZERO Sun-morning transits; Jones Act waiver expires today; daily-burn RECALIBRATED to $95M/day (CSIS standby) post-Ford CSG return; AAA gas $4.513 (-0.4¢ d/d); markets closed Sun, futures gap-down expected on CME 6 PM ET reopen"
     }
   ],
   "toll": {
     "targets_struck": {
       "value": 35502,
       "label": "Cumulative Iranian targets struck (CENTCOM)",
-      "note": "Day 78: NO new strike-counter increment — 8th consecutive day (Days 71-78) with zero new kinetic activity on Iran front; LONGEST ZERO-KINETIC STREAK OF THE WAR. 39 days since last Iran territorial strike (Apr 7). Project Freedom remains PAUSED-BUT-CLEARED — no Pentagon restart announcement May 13-16. NYT (5/15): US-Israel 'intensifying preparations for potential attacks on Iran, possibly starting as soon as next week' (UNVERIFIED planning leak).",
-      "tooltip": "Carry-forward. CENTCOM-reported cumulative Iranian target count via Hegseth includes '1,700+ targets in Iran' framing. Phase remains blockade + diplomacy; CENTCOM Adm. Brad Cooper HASC testimony 5/14: Iran military 'dramatically degraded,' impacting shipping 'with rhetoric alone.' Eight-day pause spans Trump-Xi Beijing summit (Days 76-77) + Ford CSG homecoming (Day 78). Iran 5-condition demand (Fars 5/14) — reparations + Hormuz sovereignty + lift blockade + lift sanctions + return seized vessels — White House non-acceptance expected. NYT (5/15) cites possible options: commando raid for nuclear material; resumed Kharg Island strikes; broader Iranian military/infrastructure bombing.",
+      "note": "Day 79: NO new strike-counter increment — 9th consecutive day (Days 71-79) with zero new kinetic activity on Iran front; LONGEST ZERO-KINETIC STREAK OF WAR, exceeds NATO Operation Allied Force (Kosovo) 78-day record. 40 days since last Iran territorial strike (Apr 7). Project Freedom remains PAUSED-BUT-CLEARED — no Pentagon restart announcement May 13-17. Trump (Truth Social 5/17): 'For Iran, the Clock is Ticking… there won't be anything left of them.' Axios/Ravid: Trump convenes Situation Room Tue May 19 to review military options with top NSC.",
+      "tooltip": "Carry-forward. CENTCOM-reported cumulative Iranian target count via Hegseth includes '1,700+ targets in Iran' framing. Phase remains blockade + diplomacy. Cooper SASC 5/14: Iran military 'dramatically degraded,' impacting shipping 'with rhetoric alone'; ~90% of Iran's 8,000 naval mines eliminated; ~90% of Iran's defense industrial base destroyed; only ~10% of Iran's drone inventory remains; US 'has military options to permanently reopen Strait of Hormuz.' DAY-79 ESCALATION SPIKE: drone strike on UAE Barakah Nuclear Plant (first nuclear-facility strike on a Gulf state during war; attribution UNVERIFIED — suspicion on Iran or Iran-backed Iraqi Shia militia); Saudi separately intercepted 3 drones from Iraqi airspace; IRGC threatens to 'deactivate' US Persian Gulf bases. AP: Israel 'coordinating with U.S. about a possible resumption of attacks.' NYT (5/15) cites possible options: commando raid for nuclear material; resumed Kharg Island strikes; broader Iranian military/infrastructure bombing.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
-      "value": 15,
-      "label": "US service members KIA (all-cause)",
-      "note": "Day 78: No new US KIA. Carry-forward — no DoD casualty announcements May 14-16. 39-day streak of zero-KIA days since 4/7 ceasefire.",
-      "tooltip": "Pentagon-official combat KIA = 13; +2 non-combat. Pentagon list last updated post-Bahrain incident 04-26. No US KIA additions May 13-15.",
+      "value": 13,
+      "label": "US service members KIA (CENTCOM DCAS combat)",
+      "note": "Day 79: No new US KIA. Carry-forward — no DoD casualty announcements May 14-17. 40-day streak of zero-KIA days since 4/7 ceasefire. Manifest recommends primary value = 13 (CENTCOM DCAS combat-only); 15 figure includes 2 non-combat.",
+      "tooltip": "CENTCOM DCAS combat KIA = 13 (per manifest §1, HIGH confidence; militaryspend.org concurs). All-cause figure with 2 non-combat additions = 15. No US KIA additions May 10-17.",
       "color": "var(--civilian)"
     },
     "us_wia": {
-      "value": 415,
-      "label": "US service members WIA (CENTCOM published)",
-      "note": "Day 78: Carry-forward. No fresh aggregate May 14-16. DISCREPANCY (§9): Wikipedia 2026 Iran war infobox cites 538 US wounded vs DoD-attributable 415 — likely sourcing difference (DoD public release vs combined Israeli/US tallies).",
-      "tooltip": "Cumulative US WIA per DoD aggregation through Day 73. CENTCOM has not refreshed since 01 May.",
+      "value": 413,
+      "label": "US service members WIA (Pentagon Apr 22)",
+      "note": "Day 79: Carry-forward 413 (Pentagon Apr 22 figure). DISCREPANCY (§9): Pentagon 413 vs Intercept/Wikipedia 520-538 (independent compile). Manifest recommends dual-source display 'Pentagon 413 / independent 520-538.' Pentagon dropped 15 vs prior figure without explanation on Apr 22.",
+      "tooltip": "Pentagon-reported US WIA = 413 (Apr 22 release, after unexplained -15 vs prior). Independent compile (The Intercept / Wikipedia 2026 Iran war infobox) = 520-538. CENTCOM has not refreshed since 01 May. No new aggregate May 13-17.",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
       "value": 3636,
-      "label": "Iranian Killed (HRANA cumulative)",
-      "note": "Day 78: No new HRANA / Iranian MoH / Hengaw release Days 76-78 — carry-forward (39 days stale). Iran MoH last update May 5 had ≥3,468 killed (incl. 7 infants, 376 children, 496 women); >26,500 injured. FLAG: stale data.",
-      "tooltip": "PRIMARY: HRANA cumulative 3,636 killed (Apr 7 baseline, 38 days stale). 254 children killed per HRANA child-specific count. SECONDARY: Iran MoH/Foundation of Martyrs ≥3,468 floor (May 5 last update); Hengaw military estimate 6,620 (Apr 8); Hengaw aggregate 7,650 (Day 46) — methodologies diverge. Iran wounded estimate ~26,500. Treat all as floor — no formal aggregate update May 13-15.",
+      "label": "Iranian Killed (HRANA cumulative; range 3,468–7,300+)",
+      "note": "Day 79: No new HRANA / Iranian MoH / Hengaw release in window — carry-forward 3,636 (HRANA Apr 7, 40 days stale). Iran MoH (May 5 via Al Jazeera tracker) shows ≥3,468 killed (incl. 7 infants, 376 children, 496 women) + 26,500+ wounded. Manifest §1 recommends dashboard display RANGE 3,468 (Iran MoH) – 7,300+ (Hengaw 9th report, Apr 2 Day 34), with civilian floor ~1,701 (HRANA). FLAG: stale data, methodologies diverge ~2×.",
+      "tooltip": "PRIMARY (carry-forward): HRANA cumulative 3,636 killed (Apr 7 baseline; 1,701 civilian + 1,221 military + 714 unclassified; 254 children). RANGE (per manifest §1): 3,468 (Iran MoH May 5) – 7,300+ (Hengaw 9th report Apr 2, Day 34, mil+civ; ~6,410 military + 890 civilian, 180+ minors). Iran wounded estimate ~26,500 (Iran MoH May 5) / 20,880+ (Iran International). NO formal aggregate update May 13-17. Manifest §3: 0 confirmed Iranian civilian deaths May 17 (Day 9 zero-kinetic streak on Iran).",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
-      "value": 2908,
-      "label": "Lebanese killed (LB MoPH)",
-      "note": "Day 78: No fresh MoPH bulletin May 14-16 in OSINT window. Carry-forward 2,908. UNVERIFIED for window — last verifiable WAFA-sourced public bulletin = 2,696 (May 4). MS NOW (5/15) cites 657 killed since April 16 ceasefire (cumulative subset). Cross-border fire continued (Reuters: flares from Arnoun May 14). Israel-Lebanon ceasefire EXTENDED +45 DAYS (State Dept 5/15).",
-      "tooltip": "Lebanese cumulative ~2,908 killed since March 2 (Wiki timeline baseline 2,896 + 12 per WaPo 5/13 drone strikes on 7 vehicles in Barja/Beirut, incl. 2 children). Post-ceasefire toll since Apr 17: ≥392 killed / ~1,134 wounded (extrapolated from 5/12 MoPH baseline 380/1,122). Children killed cumulative 200+; women killed 279+. Israel-Lebanon Washington Round 3 concluded May 15 without breakthrough; Rubio: 'We all share the same goal, which is a strong Lebanese government that doesn't have an armed Hezbollah operating within its national territory.' No ceasefire renewal announced; ceasefire expires Sunday May 17. IDF concurrently issued evacuation orders for 5 SOUTHERN LEBANON VILLAGES ahead of expected strikes. Hezbollah explosive drone (5/14) wounded Israeli civilians in northern Israel border zone hours before Round 3 opened.",
+      "value": 2901,
+      "label": "Lebanese killed (LB MoPH; +5 today)",
+      "note": "Day 79: +5 today — Israeli strikes on Tayr Felsay, Tayr Debba, Az-Zrariyah, Jebchit, Jouaiya killed ≥5 / wounded 12+ (Al Jazeera/Lebanese NNA May 17). IDF forced-displacement orders for Sohmor, Roumine, al-Qusaibah, Kfar Hounah, Naqoura. Cumulative now ~2,901 since Mar 2 (2,896 May 14 MoPH baseline + 5 May 17). Israel-Lebanon ceasefire EXTENDED +45 days (State Dept 5/15, Round 3 Washington outcome).",
+      "tooltip": "Lebanese MoPH cumulative since Mar 2 ≈ 2,901 (May 14 baseline 2,896 + 5 today). 8,824+ wounded cumulative; ≥177 children killed (Lebanese MoPH); 279+ women killed; 103+ medical workers killed (WHO via Tedros May 6, separately UN ≥103). UNICEF May 14 separately: 200 children killed since Mar 2 / 806 injured (incl. 23 killed since Apr 17 ceasefire; 770,000 children in heightened psychological distress). >1.6M displaced (~1/5 of Lebanese population per Lebanon disaster mgmt). Post-Apr 17 ceasefire toll: ≥392 killed / ~1,134 wounded. Round 4 political talks June 2-3 + Pentagon security track May 29 follow.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
-      "value": 4400000,
+      "value": 4600000,
       "label": "Total Displaced",
-      "note": "Day 78: No new UNHCR/IOM sitrep in window — carry-forward. Lebanon-Israel ceasefire +45-day extension (5/15) may eventually facilitate displaced returns; Round 4 political talks June 2-3 + Pentagon security track May 29.",
-      "tooltip": "4.4M total — ~3M Iran IDPs (UNHCR Mar 12 stale) + >1.2M Lebanon IDPs (>20% of Lebanese population; 40,000+ homes destroyed in southern Lebanon; evacuation orders cover 1,470 km² / 14% of national territory + 5 additional villages ordered evac May 15 ahead of post-ceasefire kinetic escalation). OHCHR confirmed >1 million displaced in Lebanon by late March; figure has not been formally revised despite April 17 ceasefire.",
+      "note": "Day 79: Lebanon component refreshed to 1.6M (Lebanon disaster mgmt office, ~1/5 of population per manifest §1) — up from prior 1.2M working estimate. New total 4.6M = ~3M Iran IDPs (UNHCR Mar 12, stale) + 1.6M Lebanon. Lebanon CF +45-day extension (5/15) may eventually facilitate returns, but IDF forced-displacement orders for 5 additional villages May 17 push the wrong direction.",
+      "tooltip": "4.6M total — ~3M Iran IDPs (UNHCR Mar 12, stale) + 1.6M Lebanon IDPs per Lebanon disaster management office (≈1/5 of Lebanese population). 40,000+ homes destroyed in southern Lebanon; cumulative evacuation orders cover ~1,470 km² (~14% of national territory) plus 5 fresh village orders May 17 (Sohmor, Roumine, al-Qusaibah, Kfar Hounah, Naqoura). OHCHR earlier figure >1M for Lebanon by late March; manifest's 1.6M is the current Lebanese-government figure.",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 48210,
       "label": "Commercial flights affected (regional airspace closures, floor)",
-      "note": "Day 78: No fresh Eurocontrol/FlightAware aggregate in window — carry-forward.",
-      "tooltip": "Methodological note: 'flights affected' captures cancellations + diversions + multi-hour holds + reroutes + overflight disruptions across all regional FIRs. Gulf carriers continue suspended/rerouted ops. UNVERIFIED daily increment — Cirium not publishing live.",
+      "note": "Day 79: No fresh Eurocontrol/FlightAware aggregate in window — carry-forward. Manifest §1 flags this metric: 'no centralized count published' (UNVERIFIED) — recommend treating as 'Source: not centrally tracked' qualitative floor only.",
+      "tooltip": "UNVERIFIED — per manifest §1: 'no centralized count published' for cumulative flight cancellations during the war. Methodological note: 'flights affected' captures cancellations + diversions + multi-hour holds + reroutes + overflight disruptions across all regional FIRs. Gulf carriers continue suspended/rerouted ops. Cirium not publishing live aggregate; figure carried forward from prior windows as a floor only.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
       "value": 254,
       "label": "Children killed (HRANA cumulative — Iran civilian count)",
-      "note": "Day 78: No new UNICEF/OCHA update in window — carry-forward (254 per HRANA child-specific count).",
-      "tooltip": "HRANA child-specific cumulative count 254 (Iran, carry-forward; 38 days stale). UNICEF Regional Director Edouard Beigbeder May 13-14 statement: Lebanon ≥200 children killed and 806 injured since March 2 — '59 children killed or injured in past week despite ceasefire'; 23 killed and 93 injured since April 17 ceasefire alone; 770,000 children in heightened psychological distress. WaPo May 13: 2 additional children killed in Israeli drone strikes on 7 vehicles in Barja/Beirut area. Iran MoH separate subset 376 children. Combined identified floor across both fronts now >456. Manifest §1 cites ~545 Iran (HRANA 15%-of-total basis).",
+      "note": "Day 79: No new HRANA child-specific update in window — carry-forward 254 (HRANA Apr 7; 40 days stale). Per manifest §1: Iran range 180+ (Hengaw Apr 2) / 254 (HRANA Apr 7) / 376 (Iran MoH May 5, includes infants); Lebanon ≥177 (Lebanese MoPH) or 200 (UNICEF May 14).",
+      "tooltip": "PRIMARY (carry-forward): HRANA child-specific cumulative count 254 (Iran, 40 days stale). RANGE per manifest §1: Iran 180+ (Hengaw Apr 2) / 254 (HRANA Apr 7) / 376 (Iran MoH May 5, includes 7 infants). Lebanon: ≥177 (Lebanese MoPH) or 200 (UNICEF May 14 via Regional Director Beigbeder, 806 injured, 23 killed and 93 injured since Apr 17 ceasefire). Combined identified floor across both fronts now ≥431 (254 Iran HRANA + 177 Lebanon MoPH); ceiling ~576 (376 Iran MoH + 200 Lebanon UNICEF).",
       "color": "var(--civilian)"
     }
   }
