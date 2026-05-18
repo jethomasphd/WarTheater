@@ -1,43 +1,43 @@
 {
-  "last_updated": "2026-05-16",
-  "war_day": 78,
-  "timestamp_label": "LAST UPDATED: MAY 16, 2026 21:57 ET",
+  "last_updated": "2026-05-17",
+  "war_day": 79,
+  "timestamp_label": "LAST UPDATED: MAY 17, 2026 22:17 ET",
   "cost": {
     "brent": {
       "price": 109.26,
-      "label": "Brent (ICE Jun) — May 15, 2026 settle (Saturday May 16 markets closed; Day 78 carries Friday close)",
-      "change": "+3.35% d/d ($+3.54 vs $105.72 May 14); weekly +~8%",
-      "tooltip": "Brent rallied $3.54 on Friday May 15 to $109.26 as Hormuz seizures (5/14 Fujairah tanker + Indian cargo ship sunk off Oman) compounded the Trump-Xi summit no-breakthrough close. IEA: market may remain undersupplied through October even if war ends. Energy was sole green S&P sector (+1.6%) on Friday. Sources: Reuters / Yahoo Finance / TradingEconomics / NYMEX/ICE."
+      "label": "Brent (ICE Jul) — May 15, 2026 settle (Sun May 17 markets closed; Day 79 carries Fri close pre-Barakah)",
+      "change": "flat d/d (Sun closed); weekly +8.1%; Sun e-session indicative ~$110.47 (+1.11%) pre-Barakah per Yahoo Finance BZ=F",
+      "tooltip": "Brent carries $109.26 Friday May 15 settle (+3.35% / +$3.54 d/d). Sun May 17 official ICE markets closed; Yahoo Finance BZ=F ticker indicated Brent ~$110.47 (+1.11%) in late-Fri/Sat window — already a gap-up bias PRE-BARAKAH. UAE Barakah Nuclear Plant drone strike landed mid-Sun Gulf time, BEFORE CME/ICE energy futures reopen at 6 PM ET Sunday — additional risk premium expected on the reopen. IranWar.ai stress scenario: +$2-5/bbl gap-up on Sun reopen; $115-120 if Trump signals action after May 19 Situation Room meeting; mean-reversion toward $100 if Iran offers credible counter pre-meeting. UBS (May 14) forecast Brent $100 in June 2026, $90 end-2026, $85 by March 2027. Sources: Reuters / Yahoo Finance / TradingEconomics / NYMEX/ICE."
     },
     "wti": {
-      "price": 105.5,
-      "label": "WTI (NYMEX Jun CLM26) — May 15, 2026 settle ($+4.25)",
-      "change": "+4.20% d/d (vs $101.25 May 14 settle); weekly +~11%",
-      "tooltip": "WTI jumped $4.25 Friday on Hormuz tanker seizure + Indian-flagged cargo ship sinking + Iran 5-condition demand (Fars 5/14) + NYT reporting US-Israeli preparations for renewed strikes 'as soon as next week.' Weekly +~11%. CME FedWatch December rate-HIKE probability 44% (vs 22.5% week prior) on oil-shock pass-through. Barchart CLM26 reference."
+      "price": 105.42,
+      "label": "WTI (NYMEX Jun) — May 15, 2026 settle (Sun May 17 markets closed; Day 79 carries Fri close)",
+      "change": "flat d/d (Sun closed); weekly +11%",
+      "tooltip": "WTI carries $105.42 Friday May 15 settle (+4.20% / +$4.25 d/d). Weekly +11%. CME FedWatch December rate-HIKE probability holds at 44% (vs 22.5% week prior) on oil-shock pass-through. CME reopens 6 PM ET Sunday and faces Barakah-driven risk premium. IEA OMR (May 13): 'mounting supply losses from the Strait of Hormuz are depleting global oil inventories at a record pace' — 250 mb / 4 mb/d draw over Mar-Apr; 'severely undersupplied through end of 3Q26 even assuming conflict ends by early June.' Saudi April output (Bloomberg/OPEC sec): 6.316 mbd, weakest since 1990 Gulf War. Barchart CL reference."
     },
     "gas": {
-      "price": 4.517,
-      "label": "AAA national average, regular unleaded — May 16, 2026",
-      "change": "-1.7¢ d/d vs May 14 ($4.534); slight pullback before Friday oil jump filters to pumps",
-      "tooltip": "AAA daily refresh, May 16, 2026. Per LendingTree: +44% YoY vs $3.14 on 2025-05-12; +51.1% vs $2.99 Feb 28 baseline. Most expensive states CA $6.15; least expensive OK $3.94. Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-16. Source: gasprices.aaa.com retrieved May 16, 2026."
+      "price": 4.513,
+      "label": "AAA national average, regular unleaded — May 17, 2026",
+      "change": "-0.4¢ d/d vs May 16 ($4.517); 6 states above $5; CA highest near $6.15",
+      "tooltip": "AAA daily refresh, May 17, 2026. Per AAA: +43.6% YoY; +51.0% vs $2.99 Feb 28 baseline; highest US national average since the 2022 peak ($5.016 on Jun 14, 2022) — threatens that all-time high within weeks if kinetic action resumes after May 19 Situation Room. 6 states above $5/gal; California $6.15; Oklahoma cheapest ~$3.94. Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-17. Friday Brent +3.35% / WTI +4.20% jump and Sun's Barakah strike risk premium still filtering through retail pumps. Source: gasprices.aaa.com retrieved May 17, 2026."
     },
     "sp500": {
       "value": 7408.5,
-      "label": "S&P 500 — May 15, 2026 close (Saturday May 16 markets closed; Day 78 carries Friday)",
-      "change": "-1.24% d/d (-92.74 vs May 14 record close 7,501.24); Nasdaq -1.54%; Dow -1.07% (-537); Russell 2000 -2.44% worst day since November; VIX +6.78% to 18.43",
-      "tooltip": "S&P 500 7,408.50 (-1.24%); Nasdaq Composite 26,225.14 (-1.54%); Dow Jones 49,526.17 (-1.07%, -537.29 pts); Russell 2000 2,793.30 (-2.44%) — worst day since November, ended 7-week winning streak. May 14 had hit record 7,501.24 intraday/close. Risk-off triggered by: (1) Hormuz tanker seizures (5/14); (2) Trump-Xi summit closed no joint statement; (3) Brent +3.35% / WTI +4.20% oil spike; (4) WSJ/CNBC inflation-and-recession warnings (Niles Investment: '10 of last 12 recessions preceded by oil spike'). 10 of 11 S&P sectors red; energy sole gainer (+1.6%). Tech profit-taking: NVDA -4.4%, INTC -6%, AMD -5.7%, MU -6.6%. Boeing -3.8% on smaller-than-expected China order (200 jets vs expected 500). Bond rout: 10Y UST 4.595% (+14bp, highest in year); 30Y UST 5.121% (+11bp, highest since May 2025)."
+      "label": "S&P 500 — May 15, 2026 close (Sun May 17 markets closed; Day 79 carries Fri)",
+      "change": "flat (Sun closed); Fri -1.24% (-92.74 vs May 14 record 7,501.24); Russell 2000 -2.44% worst day since November",
+      "tooltip": "S&P 500 carries 7,408.50 (Fri -1.24%); Nasdaq Composite 26,225.14 (Fri -1.54%); Dow Jones 49,526.17 (Fri -1.07%, -537.29 pts); Russell 2000 2,793.30 (Fri -2.44%) — worst day since November, ended 7-week winning streak. S&P futures Fri eve: 7,425.25 (-7.00, -0.09%) — pre-Barakah. MONDAY OPEN positioning (IranWar.ai analytics): S&P -0.5% to -1.5% on Barakah drone strike + Trump Situation Room set for Tue May 19 + IRGC 'deactivate Gulf bases' threat; energy outperform; defense (LMT/NOC/RTX) bid; airlines/transports underperform on jet-fuel pass-through. Bond rout persists: 30Y UST 5.121% (highest since May 22, 2025, nearing highest since October 2023); 10Y UST 4.595% (highest in a year)."
     },
     "daily_cost": {
-      "value": 380,
-      "label": "Daily War Burn (28-d MA, $M) — Day 78",
-      "change": "◆ unchanged vs Day 75",
-      "tooltip": "Carry-forward $380M/day 28-day moving average from Day 75 manifest; no new Pentagon/CBO/CBS publication May 14-16. Sen. Patty Murray (D-WA, PBS clip 5/15) calls Pentagon $29B figure 'suspiciously low,' pressing for damage price tag. Hegseth at Norfolk pier 5/16 (Ford homecoming) took no questions on cost. Note: USS Gerald R. Ford CSG return ENDS one of largest cost-drivers — implies lower future daily burn (TBD recalibration Day 80+)."
+      "value": 95,
+      "label": "Daily War Burn (CSIS ceasefire-standby, $M) — Day 79",
+      "change": "RECALIBRATED from $380M 28-d MA to $95M/day standby (Ford CSG return + 9-day zero-kinetic streak)",
+      "tooltip": "RECALIBRATED Day 79 to CSIS ceasefire-standby model: ~$95M/day (CSIS Apr 30: 'under $100M/day'; militaryspend.org rolling). Recalibration driven by USS Gerald R. Ford CSG return Norfolk 5/16 (largest single cost-driver removed) + Day 9 of zero-kinetic streak on Iran (Days 71-79, longest of war) + Project Freedom remains PAUSED-BUT-CLEARED. New rate reflects sustainment of Lincoln + Bush CSGs + Tripoli ARG (Boxer ARG imminent), blockade O&M, base-protection lift, intel/SIGINT. Pentagon official cumulative figures unchanged in window (Pentagon $29B / CBS-leak $51.5B / Popular Info $86.4B). Note: if Trump's May 19 Situation Room meeting orders renewed strikes, daily burn re-spikes toward kinetic-phase $500M-$1.43B/day."
     },
     "total_cost": {
-      "value": 56.7,
-      "label": "Cumulative US Cost (midpoint, $B) — Day 78",
-      "change": "+$1.1B vs Day 75 ($55.6B); range: Pentagon $29B / CBS-leak $51.5B / Popular Info $86.4B unchanged",
-      "tooltip": "UNVERIFIED-ESTIMATE. Linear extrapolation Days 76-78 × $380M 28-day MA added to Day 75 midpoint. No new official aggregate disclosure published May 14-16. Sources of range: Pentagon Comptroller Hurst (HASC 4/29) = ~$25B munitions/O&M (lowballed per CNN); CBS leak ~$51.5B (CRS+OMB); Popular Info compiled $86.4B (incl. force-flow/intel/base-repair). Ford CSG return will recalibrate downward Day 80+."
+      "value": 31.6,
+      "label": "Cumulative US Cost (militaryspend.org rolling, $B) — Day 79",
+      "change": "RECALIBRATED to militaryspend.org rolling; +$95M vs prior day under new model",
+      "tooltip": "RECALIBRATED Day 79 to militaryspend.org rolling methodology: ~$31.6B cumulative = CSIS Day-12 $16.5B + Cancian $500M/day kinetic-phase (Days 13-40) + $95M/day ceasefire-standby (Days 41-79). Replaces prior dashboard midpoint of competing higher estimates. Range floors persist: Pentagon Comptroller Hurst (HASC 4/29) = ~$25B munitions/O&M (lowballed per CNN); CBS leak ~$51.5B (CRS+OMB); Popular Info compiled $86.4B (incl. force-flow/intel/base-repair). Sen. Patty Murray (D-WA, PBS 5/15) calls Pentagon $29B figure 'suspiciously low.' Re-spike risk if May 19 Situation Room orders renewed kinetic action."
     }
   },
   "history": [
@@ -1476,6 +1476,25 @@
       "flights_cancelled": 48210,
       "children_killed": 254,
       "headline": "Day 78 — Kosovo 78-day tie (NATO Allied Force); USS Ford CSG returns Norfolk after 326-day deployment (longest post-Vietnam), Presidential Unit Citation awarded; Hormuz tanker seized off Fujairah + Indian cargo ship sunk off Oman (5/14); Iran 5-condition demand (reparations + Hormuz sovereignty) — non-starter for Washington; Trump-Xi closes vague on Iran, no joint statement; Israel-Lebanon ceasefire EXTENDED +45 days, Pentagon security track May 29; NYT: US-Israel intensifying renewed-strike prep 'as soon as next week' (UNVERIFIED); Day 8 zero-kinetic streak on Iran (39 days since Apr 7); markets weekend carry — S&P -1.24%, Brent +3.35%, WTI +4.20%, 30Y UST 5.121%"
+    },
+    {
+      "date": "2026-05-17",
+      "war_day": 79,
+      "brent": 109.26,
+      "wti": 105.42,
+      "gas": 4.513,
+      "sp500": 7408.5,
+      "daily_cost_millions": 95,
+      "total_cost_billions": 31.6,
+      "targets_struck": 35502,
+      "us_kia": 13,
+      "us_wia": 413,
+      "iranian_killed": 3636,
+      "lebanese_killed": 2901,
+      "displaced": 4600000,
+      "flights_cancelled": 48210,
+      "children_killed": 254,
+      "headline": "Day 79 — BARAKAH STRUCK: drone hits UAE's Barakah Nuclear Plant electrical generator (no radiological release, no casualties; Unit 3 on emergency diesel per IAEA); first nuclear-facility attack on a Gulf state during the war; Saudi separately intercepts 3 drones from Iraqi airspace; Trump 'there won't be anything left of them. TIME IS OF THE ESSENCE!'; Axios/Ravid: Trump convenes Situation Room Tue May 19 to review military options; Netanyahu cabinet 'we are prepared for any scenario'; AP: Israel 'coordinating with US about possible resumption'; IRGC threatens to 'deactivate' US Gulf bases; Day 9 zero-kinetic streak on Iran (40 days since Apr 7) — LONGEST OF WAR, exceeds Kosovo 78-day Allied Force record; Israeli strikes kill ≥5 in 5 southern Lebanon villages (Tayr Felsay, Tayr Debba, Az-Zrariyah, Jebchit, Jouaiya); Lebanon CF extended +45 days (May 15); Bloomberg Hormuz tracker: ZERO Sun-morning transits; Jones Act waiver expires today; daily-burn RECALIBRATED to $95M/day (CSIS standby) post-Ford CSG return; AAA gas $4.513 (-0.4¢ d/d); markets closed Sun, futures gap-down expected on CME 6 PM ET reopen"
     }
   ],
   "toll": {
