@@ -7063,5 +7063,77 @@
     "category": "kinetic_attack",
     "source": "Al Jazeera / Lebanese National News Agency (NNA) May 17 (per manifest \u00a73 & \u00a75)",
     "data_point": "\u22655 killed / 12+ wounded in 5 villages; 5 additional villages ordered evacuated"
+  },
+  {
+    "date": "2026-05-17",
+    "time": "All day",
+    "title": "Iran FM Araghchi calls South Korean counterpart Cho Hyun; blames U.S./Israel for instability",
+    "description": "Iran Foreign Minister Abbas Araghchi phoned South Korean counterpart Cho Hyun and blamed the U.S. and Israel for regional instability. (Iran International)",
+    "category": "diplomatic",
+    "source": "Iran International May 17 (per manifest \u00a75)",
+    "data_point": "Iran-South Korea FM call; Iran narrative-shaping outreach"
+  },
+  {
+    "date": "2026-05-17",
+    "time": "Announced",
+    "title": "Iran appoints parliament speaker Mohammad Bagher Ghalibaf as special envoy for China affairs (Supreme Leader Mojtaba Khamenei approved)",
+    "description": "Iran appointed parliament speaker Mohammad Bagher Ghalibaf as special envoy for China affairs; approval by Supreme Leader Mojtaba Khamenei. Signals Iran's continued pivot toward Beijing post-Trump-Xi summit (May 14-15) no-breakthrough close. Ghalibaf has been Iran's lead interlocutor in earlier mediated rounds (Pakistan, Beijing).",
+    "category": "diplomatic",
+    "source": "Iran International May 17 (per manifest \u00a75)",
+    "data_point": "Ghalibaf \u2192 China envoy; approved by Mojtaba Khamenei"
+  },
+  {
+    "date": "2026-05-17",
+    "time": "Announced",
+    "title": "Iran launches maritime insurance platform for Hormuz transits \u2014 accepts crypto incl. Bitcoin",
+    "description": "Iran launched a maritime insurance platform for Hormuz transits that accepts crypto, including Bitcoin. Continues IRGC-managed 'Tehran Tollbooth' commercial regime begun Apr 13 (post-blockade). Targets China/Pakistan/India shipping that cannot access traditional war-risk P&I cover (12 major P&I clubs withdrew coverage early in war).",
+    "category": "economic",
+    "source": "Iran International May 17 (per manifest \u00a75)",
+    "data_point": "Iran maritime insurance platform launched; Bitcoin/crypto accepted"
+  },
+  {
+    "date": "2026-05-17",
+    "time": "After Barakah",
+    "title": "IRGC spokesperson Zolfaghari: U.S. Persian Gulf bases will be 'deactivated'",
+    "description": "IRGC spokesperson Ebrahim Zolfaghari warned that U.S. bases in the southern Persian Gulf would be 'deactivated.' Sharpest IRGC threat to Gulf base posture since pre-ceasefire phase. Separately, Iranian state TV (May 17) presenter Hossein Hosseini received basic firearms training from a masked Revolutionary Guard member on-air, then mimed firing a shot at a UAE flag.",
+    "category": "diplomatic",
+    "source": "Fox News live blog May 17 / AP (per manifest \u00a73 & \u00a75)",
+    "data_point": "IRGC threat to 'deactivate' US Gulf bases; Iran state TV mock-shoot at UAE flag"
+  },
+  {
+    "date": "2026-05-17",
+    "time": "Pre-statement",
+    "title": "German FM Lars Klingbeil: Iran conflict + Hormuz blockade pose 'a serious threat to the global economy'",
+    "description": "German Foreign Minister Lars Klingbeil pre-statement: the conflict and Hormuz blockade pose 'a serious threat to the global economy.' 'Our path as Europeans remains clear: We rely on cooperation rather than confrontation.' (CNBC, Reuters)",
+    "category": "diplomatic",
+    "source": "CNBC / Reuters May 17 (per manifest \u00a75)",
+    "data_point": "Germany: cooperation > confrontation; flags global-economy threat"
+  },
+  {
+    "date": "2026-05-17",
+    "time": "Statement",
+    "title": "Eurogroup President Pierrakakis: 'opening the Strait of Hormuz and bringing the conflict to a lasting end are of the utmost importance'",
+    "description": "Eurogroup President Kyriakos Pierrakakis (May 17) said opening the Strait of Hormuz and bringing the conflict to a lasting end are of the utmost importance. EU institutional pressure aligning with German FM line ahead of Trump's May 19 Situation Room meeting.",
+    "category": "diplomatic",
+    "source": "CNBC May 17 (per manifest \u00a75)",
+    "data_point": "Eurogroup-level institutional pressure for Hormuz reopening"
+  },
+  {
+    "date": "2026-05-17",
+    "time": "NYT scoop",
+    "title": "Iraqi officials confirm to NYT: Israel held a base in Iraq for months to back the war against Iran",
+    "description": "Iraqi officials confirmed to the New York Times (May 17): Israel held a base in Iraq for months to back the war against Iran. First on-the-record Iraqi confirmation of a foreign-Israeli forward operating presence on Iraqi soil during Operation Epic Fury. (Wikipedia 2026 Iran war page citing NYT.)",
+    "category": "intelligence",
+    "source": "NYT (Iraqi officials) via Wikipedia 2026 Iran war (per manifest \u00a75)",
+    "data_point": "Iraqi-side confirmation: Israel FOB in Iraq, months-long"
+  },
+  {
+    "date": "2026-05-17",
+    "time": "Public statement",
+    "title": "Iran parliament's Esmail Kowsari threatens UAE: 'we will confront them more forcefully'",
+    "description": "Iran parliament's Esmail Kowsari threatened the UAE: 'If the UAE continues cooperating with the US and Israel against us, we will confront them more forcefully.' Threat issued same day as the Barakah Nuclear Plant drone strike \u2014 IRGC rhetorical escalation paired with kinetic event.",
+    "category": "diplomatic",
+    "source": "Iran International May 17 (per manifest \u00a75)",
+    "data_point": "Iran parliament-level threat to UAE; coincides with Barakah strike"
   }
 ]
