@@ -3589,5 +3589,79 @@
     ],
     "verified": true,
     "last_updated": "2026-05-17"
+  },
+  {
+    "id": "ret-2026-05-17-hezbollah-rockets-drones-galilee",
+    "city": "IDF positions in southern Lebanon and northern Israel (Galilee)",
+    "lat": 33.2,
+    "lng": 35.5,
+    "type": "iran_proxy_kinetic_lebanon",
+    "actor": "Hezbollah (Islamic Resistance) \u2014 multiple communiqu\u00e9s via Al-Manar TV",
+    "first_strike": "2026-05-17",
+    "active_days": [
+      79
+    ],
+    "weapon": "Multiple rocket barrages, anti-tank guided missiles, loitering munitions / explosive drones",
+    "casualties_reported": "0 IDF KIA; unspecified IDF wounded per Al-Manar; IDF acknowledged drone interception; explosive drone shrapnel fell at Shomera (north Israel) with no injuries; Hezbollah claims confirmed hits on D9 bulldozer and communications vehicle near Deir Seryan",
+    "casualties_source": "Al-Manar TV (Hezbollah official) / Times of Israel live blog May 17 / LiveUAMap Lebanon",
+    "notes": "Multiple Hezbollah communiqu\u00e9s May 17 reported rocket barrages, ATGM and loitering-munition strikes on IDF positions; IDF reports rockets intercepted and drone shrapnel fell at Shomera (north Israel) with no injuries. Both sides' claims; cross-corroborated on activity, contested on results. Verification MEDIUM. Per manifest \u00a73.",
+    "sources": [
+      "Al-Manar TV (Hezbollah official)",
+      "Times of Israel live blog May 17",
+      "LiveUAMap Lebanon",
+      "Manifest \u00a73a"
+    ],
+    "verified": true,
+    "verification_confidence": "MEDIUM",
+    "last_updated": "2026-05-18"
+  },
+  {
+    "id": "ret-2026-05-18-hezbollah-attacks-rashaf-bayyada-naqoura",
+    "city": "IDF gatherings in Rashaf, Al-Bayyada, Naqoura port (southern Lebanon); Israeli warplane in western sector engaged with SAM",
+    "lat": 33.15,
+    "lng": 35.3,
+    "type": "iran_proxy_kinetic_lebanon",
+    "actor": "Hezbollah Islamic Resistance \u2014 at least 12 numbered communiqu\u00e9s May 18",
+    "first_strike": "2026-05-18",
+    "active_days": [
+      80
+    ],
+    "weapon": "Rocket barrage; loitering drones; surface-to-air missile (engaged Israeli warplane)",
+    "casualties_reported": "0 KIA reported; unspecified IDF wounded; Hezbollah claimed hits on Israeli vehicle gatherings; SAM engagement of Israeli warplane (no kill claimed)",
+    "casualties_source": "Al-Manar TV (English) May 18, 2026 / LiveUAMap",
+    "notes": "Hezbollah-side reporting; Israeli confirmation limited. Time-window 10:30\u201318:55 local. Verification MEDIUM. Per manifest \u00a73a.",
+    "sources": [
+      "Al-Manar TV English May 18",
+      "LiveUAMap",
+      "Manifest \u00a73a"
+    ],
+    "verified": true,
+    "verification_confidence": "MEDIUM",
+    "last_updated": "2026-05-18"
+  },
+  {
+    "id": "ret-2026-05-18-israel-strike-baalbek-pij-commander",
+    "city": "Baalbek, Lebanon (Bekaa Valley)",
+    "lat": 34.005,
+    "lng": 36.215,
+    "type": "israel_kinetic_lebanon",
+    "actor": "Israel Defense Forces (IDF)",
+    "first_strike": "2026-05-18",
+    "active_days": [
+      80
+    ],
+    "weapon": "Airstrike on a house in Baalbek shortly after midnight May 18",
+    "casualties_reported": "2 killed \u2014 Palestinian Islamic Jihad commander Wael Abdel Halim and his 17-year-old daughter",
+    "casualties_source": "Lebanese state media / Al-Manar / AP via KSAT / Times of Israel",
+    "notes": "Israeli airstrike on a house in Baalbek shortly after midnight May 18 killed Palestinian Islamic Jihad commander Wael Abdel Halim and his 17-year-old daughter. Strike came hours after the Israeli army issued evacuation warnings for towns near Tyre. Per manifest \u00a75a.",
+    "sources": [
+      "Al-Manar TV",
+      "AP via KSAT",
+      "Times of Israel",
+      "Manifest \u00a75a"
+    ],
+    "verified": true,
+    "verification_confidence": "HIGH",
+    "last_updated": "2026-05-18"
   }
 ]
