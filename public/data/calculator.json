@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.513,
-  "war_increase": 1.523,
+  "current_gas": 4.515,
+  "war_increase": 1.525,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.622 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com national average, May 17 2026 ($4.513, -0.4¢ d/d vs $4.517 May 16; modest pullback continues before Friday May 15's Brent $109.26 / WTI $105.42 jump (+3.35%/+4.20%) and Sunday's Barakah nuclear-plant drone strike risk premium filter through retail pumps. Per AAA: +43.6% YoY; +51.0% above $2.99 Feb 28 baseline; highest US national avg since 2022 peak ($5.016 Jun 14 2022). Six states above $5; California highest near $6.15; Oklahoma cheapest ~$3.94. Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-17.",
-  "last_updated": "2026-05-17"
+  "source": "AAA gasprices.aaa.com national average, May 18 2026 ($4.515, +0.2¢ d/d vs $4.513 May 17; Sunday Barakah nuclear-plant drone strike added regional risk premium to crude with retail-pump effect still lagging. Per AAA: +51.0% above $2.99 Feb 28 baseline; highest US national avg since 2022 peak ($5.016 Jun 14 2022). California highest at $6.15+; Oklahoma lowest at $3.94 (LendingTree May 12). Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-18.",
+  "last_updated": "2026-05-18"
 }

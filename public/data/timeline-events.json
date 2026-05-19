@@ -7135,5 +7135,68 @@
     "category": "diplomatic",
     "source": "Iran International May 17 (per manifest \u00a75)",
     "data_point": "Iran parliament-level threat to UAE; coincides with Barakah strike"
+  },
+  {
+    "date": "2026-05-18",
+    "time": "Truth Social (afternoon ET)",
+    "title": "Trump postpones 'scheduled' Tuesday attack on Iran at request of Saudi, UAE, Qatari leaders",
+    "description": "Trump announced on Truth Social: 'we will NOT be doing the scheduled attack of Iran tomorrow' after Qatari Emir Tamim, Saudi Crown Prince MBS, and UAE President MBZ asked him to 'hold off' citing 'serious negotiations.' First public disclosure of any imminent strike package since the April 8 ceasefire. Trump told Hegseth and JCS Chair Caine to 'be prepared to go forward with a full, large scale assault of Iran, on a moment's notice.' Al Jazeera: Trump indicated he'd give 'two or three days' for Iran to come through. Iran continues dialogue via Pakistan; Parliament Speaker Mohammad Bagher Ghalibaf said Iran is 'prepared for every option.' CBS News flagged the disclosure as the first indication of any imminent strike \u2014 no CENTCOM or Pentagon corroboration that such a package was actually being prepared (UNVERIFIED).",
+    "category": "diplomatic",
+    "source": "CNBC / Washington Post / Times of Israel / Al Jazeera live blog May 18 / Truth Social (per manifest \u00a75a)",
+    "data_point": "First public disclosure + postponement of an imminent strike package since Apr 8 ceasefire; Gulf-monarchs save"
+  },
+  {
+    "date": "2026-05-18",
+    "time": "MoPH announcement",
+    "title": "Lebanese death toll surpasses 3,000 since March 2",
+    "description": "Lebanese Ministry of Public Health announced May 18 that 3,020 people have been killed in Israeli strikes since fighting began March 2 \u2014 including 292 women and 211 children. First time toll has crossed the 3,000 threshold. Hezbollah and Israel ceasefire extended 45 days but exchanges continue daily. Per-day fatality rate ~39/day across 78 days = ~4\u00d7 the 2023\u201324 Israel-Hezbollah round (4,047 dead over ~415 days per Lebanese caretaker Health Minister Firass Abiad).",
+    "category": "humanitarian",
+    "source": "Lebanese Ministry of Public Health via AP / KSAT / Anchorage Daily News / Reuters (per manifest \u00a75a)",
+    "data_point": "Lebanon dead 3,020 cumulative since Mar 2; 292 women, 211 children"
+  },
+  {
+    "date": "2026-05-18",
+    "time": "Shortly after midnight",
+    "title": "Israeli airstrike on Baalbek kills Islamic Jihad commander Wael Abdel Halim and 17-year-old daughter",
+    "description": "Israeli strike on a house in Baalbek shortly after midnight killed Palestinian Islamic Jihad commander Wael Abdel Halim and his 17-year-old daughter, according to Lebanese state media and Al-Manar. Strike came hours after Israeli army issued evacuation warnings for towns near Tyre.",
+    "category": "military",
+    "source": "Al-Manar TV / AP via KSAT / Times of Israel (per manifest \u00a75a)",
+    "data_point": "PIJ commander + 17-yr daughter killed; Baalbek (Bekaa Valley)"
+  },
+  {
+    "date": "2026-05-18",
+    "time": "Various",
+    "title": "Iran-US talks continue through Pakistan; Iran FM spokesperson defends demands",
+    "description": "Iran's FM spokesperson Esmaeil Baghaei said exchanges are 'continuing through the Pakistani mediator.' Iran's Parliament Speaker Mohammad Bagher Ghalibaf shook hands with Pakistan's Interior Minister Mohsin Naqvi in Tehran May 17. Iran continues to defend demands including release of frozen assets and lifting of sanctions; Reuters Pakistani source: 'We don't have much time\u2026 both sides keep changing their goalposts.' Fars report: US proposed 5-point list including keeping only one nuclear site operational and transferring stockpile of highly enriched uranium to the United States.",
+    "category": "diplomatic",
+    "source": "Al Jazeera / Times of Israel / Reuters / Fars / Mehr (per manifest \u00a75a)",
+    "data_point": "Pakistani mediation channel active; US 5-point list reported (1 nuclear site + HEU transfer)"
+  },
+  {
+    "date": "2026-05-18",
+    "time": "Daytime",
+    "title": "Israeli troops intercept Gaza-bound flotilla off Cyprus",
+    "description": "Israeli forces intercepted a flotilla off Cyprus attempting to breach the Gaza blockade.",
+    "category": "political",
+    "source": "AP via Britannica running article May 18 (per manifest \u00a75a)",
+    "data_point": "Gaza-bound flotilla intercepted off Cyprus"
+  },
+  {
+    "date": "2026-05-18",
+    "time": "Intraday trading",
+    "title": "Crude oil sees wide intraday swings on Iran negotiations: WTI $99\u2013108, Brent $107\u2013111",
+    "description": "Brent briefly above $111 early session before fading toward $107\u2013110 on Iranian media report that US had proposed temporary waiver of oil sanctions pending final agreement (unconfirmed by US officials). WTI swung between $99 (Sunday futures open) and $108. IEA Executive Director Fatih Birol, on the sidelines of the G7 finance ministers' meeting in Paris on May 18, told reporters: 'I think it is depleting very fast\u2026several weeks, but we should be aware of the fact that it is declining rapidly.' IEA's May 2026 Oil Market Report found global inventories fell 246 million barrels across March\u2013April \u2014 the steepest drawdown pace on record \u2014 and projected global oil supply to fall 3.9 million bpd across 2026 due to the war. Strait of Hormuz remains largely shut; US blockade of Iranian ports continues.",
+    "category": "economic",
+    "source": "Trading Economics / Investing.com / CNBC / Bloomberg / Reuters / IEA (per manifest \u00a75a)",
+    "data_point": "Brent intraday $107.71\u2013$111.34, last $110.13 (+0.80%); WTI intraday $99.18\u2013$108, last $106.22 (+0.76%); IEA Birol structural-supply warning"
+  },
+  {
+    "date": "2026-05-18",
+    "time": "Market close",
+    "title": "US equities close mixed on Iran rhetoric: Dow +0.32%, S&P 500 -0.07%, Nasdaq -0.51%",
+    "description": "S&P 500 closed 7,403.05 (-5.45 / -0.07%); Dow +159.95 to 49,686.12; Nasdaq -134.41 to 26,090.73. 10-year Treasury yield surpassed 4.13% (52-week high) on inflation concerns. Energy sector outperformed (XLE +~1.92%), tech sold off (NVDA weaker, MU -3%). Defense ETF ITA traded $218.14\u2013$220.73 (preliminary intraday band; mid ~$218.93), well below its 52-week high of $250.65 (52-week low $168.44) \u2014 institutional read that FY27 contract awards do not flow quickly.",
+    "category": "economic",
+    "source": "GuruFocus / TheStreet / CNBC / Yahoo Finance / Robinhood / Investing.com (per manifest \u00a75a)",
+    "data_point": "S&P 500 7,403.05 (-0.07%); Dow 49,686.12 (+0.32%); Nasdaq 26,090.73 (-0.51%); 10Y 4.13% 52-wk high"
   }
 ]
