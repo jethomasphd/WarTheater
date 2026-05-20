@@ -1558,21 +1558,21 @@
     "targets_struck": {
       "value": 35502,
       "label": "Cumulative Iranian targets struck (CENTCOM)",
-      "note": "Day 81: NO new strike-counter increment — 11th consecutive day (Days 71-81) with zero new kinetic activity on Iran front; LONGEST ZERO-KINETIC STREAK OF WAR. 42 days since last Iran territorial strike (Apr 7). Trump told reporters at the White House May 19 the Tuesday strike was 'an hour away' — 'We were all set to go… It would have been happening right now' — before postponement at the personal request of Tamim/MBS/MBZ; postponement framed as 'two or three days'; NSC convened the Situation Room May 19. The window for resumption is now measured in days, not weeks.",
+      "note": "Day 82: NO new strike-counter increment — 12th consecutive day (Days 71-82) with zero new kinetic activity on Iran front; LONGEST ZERO-KINETIC STREAK OF WAR. 43 days since last Iran territorial strike (Apr 7). Trump's May 18 postponement of the scheduled May 19 strike held through May 20; Trump told Coast Guard Academy graduates the U.S. is 'in no hurry' but 'may have to hit them even harder. But maybe not.' The IRGC (May 20, via Sepah News) threatened that renewed war would spread 'beyond the region.' The window for resumption remains measured in days, not weeks.",
       "tooltip": "Carry-forward. CENTCOM-reported cumulative Iranian target count via Hegseth includes '1,700+ targets in Iran' framing; National Interest counts >7,000 military and commercial targets struck across CENTCOM AOR via 6,000+ combat sorties through mid-March. Phase remains blockade + diplomacy. Cooper SASC 5/14: Iran military 'dramatically degraded'; ~90% of Iran's 8,000 naval mines eliminated; ~90% of Iran's defense industrial base destroyed; only ~10% of Iran's drone inventory remains. SecState Rubio declared Epic Fury 'concluded' on May 6. BARAKAH ATTRIBUTION FINALIZED (May 19): UAE Ministry of Defence confirmed via technical tracking that the three drones which struck the Barakah Nuclear Power Plant on May 17 'all originated from Iraqi territory'; UAE handled +6 more drones from Iraq over the subsequent 48 hours; AP/WaPo framing 'likely signaling Iranian-backed Shiite militias'; no group claimed responsibility. UAE government tally via The National: >3,000 ballistic/cruise/drone strikes on UAE since Feb 28. CENTCOM (May 18): 85 commercial vessels redirected under the blockade. Iran submitted an updated peace proposal via mediators May 18-19 (Axios); the White House reportedly views it as insufficient.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
       "value": 13,
       "label": "US service members KIA (CENTCOM DCAS combat)",
-      "note": "Day 81: No new US KIA. Carry-forward — no DoD casualty announcements May 14-19. 42-day streak of zero-KIA days since 4/7 ceasefire. Primary value = 13 (Pentagon/CENTCOM honor roll) — includes 6 USAF crew of the March 12 KC-135 crash in western Iraq (CENTCOM ruled non-hostile mid-air collision). US MIA: 0.",
+      "note": "Day 82: No new US KIA. Carry-forward — no DoD casualty announcements May 14-20. 43-day streak of zero-KIA days since 4/7 ceasefire. Primary value = 13 (Pentagon/CENTCOM honor roll) — includes 6 USAF crew of the March 12 KC-135 crash in western Iraq (CENTCOM ruled non-hostile mid-air collision). US MIA: 0.",
       "tooltip": "Pentagon/CENTCOM honor roll KIA = 13 confirmed (per manifest §7, HIGH confidence; militaryspend.org concurs) — includes the 6 USAF crew of the March 12 KC-135 mid-air collision. US MIA 0 (CENTCOM recovered two previously unaccounted aircrew early March). 10 civilian sailors of various nationalities killed in Hormuz-related incidents. No US KIA additions May 10-19. Secretary Rubio declared Epic Fury 'concluded' on May 6.",
       "color": "var(--civilian)"
     },
     "us_wia": {
       "value": 413,
       "label": "US service members WIA (Pentagon Apr 22)",
-      "note": "Day 81: Carry-forward 413 (Pentagon Apr 22 figure). DISCREPANCY (§9): Pentagon 413 vs Intercept/Wikipedia 520-538 (independent compile). Manifest recommends dual-source display 'Pentagon 413 / independent 520-538.' Pentagon dropped 15 vs prior figure without explanation on Apr 22.",
+      "note": "Day 82: Carry-forward 413 (Pentagon Apr 22 figure). DISCREPANCY (§9): Pentagon 413 vs Intercept/Wikipedia 520-538 (independent compile). Pentagon dropped 15 vs prior figure without explanation on Apr 22. No new aggregate May 13-20.",
       "tooltip": "Pentagon-reported US WIA = 413 (Apr 22 official tally). Independent estimates (The Intercept / Wikipedia 2026 Iran war) place 520-538. CENTCOM has not refreshed since 01 May. No new aggregate May 13-19.",
       "color": "var(--civilian)"
     },
