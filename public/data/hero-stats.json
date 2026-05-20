@@ -1533,6 +1533,25 @@
       "flights_cancelled": 48210,
       "children_killed": 465,
       "headline": "Day 81 — STRIKE 'AN HOUR AWAY' STOOD DOWN: Trump tells reporters at the White House 'We were all set to go… It would have been happening right now' — confirming the Tuesday May 19 strike package was operationally ready before postponement at the personal request of Tamim/MBS/MBZ; postponement framed as 'two or three days'; NSC convened the Situation Room May 19; BARAKAH ATTRIBUTION FINALIZED — UAE Ministry of Defence confirms via technical tracking that the three drones which struck the Barakah Nuclear Power Plant on May 17 'all originated from Iraqi territory' (UAE handled +6 more drones from Iraq over 48 hrs; AP/WaPo: 'likely signaling Iranian-backed Shiite militias'; no group claim of responsibility); CENTCOM blockade now 85 commercial vessels redirected ('15,000+ troops, 200+ aircraft, 20 warships'); Project Freedom escort sorties still UNCONFIRMED resumed (Lloyd's List: no Western-allied transits since May 4); Iran submits updated peace proposal via mediators — White House views as insufficient; VP Vance invokes Cold War 'domino theory'; Day 11 zero-kinetic streak on Iran (42 days since Apr 7) — LONGEST OF WAR; markets fall a third straight session — S&P 500 7,353.61 (-0.67%), Dow 49,363.88 (-0.65%), Nasdaq 25,870.71 (-0.84%), 30Y UST briefly 5.19% (highest in ~19 years); Brent $110.59 (-1.35%), WTI $103.49 (-0.85%) — oil retreats modestly on the postponement; AAA gas $4.533 (+1.8¢ d/d); war-cost spread widens — Pentagon $29B / CBS ~$50B / Semler $71.8B; cumulative ~$31.8B per Pentagon $29B (Hurst May 12) + 7 days × $95M standby"
+    },
+    {
+      "date": "2026-05-20",
+      "war_day": 82,
+      "brent": 107.06,
+      "wti": 98.32,
+      "gas": 4.555,
+      "sp500": 7433.0,
+      "daily_cost_millions": 95,
+      "total_cost_billions": 31.9,
+      "targets_struck": 35502,
+      "us_kia": 13,
+      "us_wia": 413,
+      "iranian_killed": 3636,
+      "lebanese_killed": 3020,
+      "displaced": 4600000,
+      "flights_cancelled": 48210,
+      "children_killed": 465,
+      "headline": "Day 82 — POSTPONEMENT HOLDS / SENATE WAR-POWERS BREAKTHROUGH 50-47: Trump's May 18 postponement of the scheduled May 19 strike held through May 20; Trump told Coast Guard Academy graduates in New London the U.S. is 'in no hurry' but 'may have to hit them even harder. But maybe not.' Day 12 of zero-kinetic streak on Iran (LONGEST OF WAR; 43 days since Apr 7). SENATE advanced Sen. Tim Kaine's war-powers resolution 50-47 (May 19) — first procedural win after seven failures; four GOP defectors (Collins, Murkowski, Paul, Cassidy — who flipped three days after losing his Trump-endorsed primary). IRAN POSTURE HARDENED: FM Araghchi warned of 'many more surprises'; the IRGC threatened renewed war would spread 'beyond the region'; FM spokesman Baghaei flatly denied direct U.S.-Iran negotiations. UAE confirmed the May 17 Barakah drones came from Iraqi territory and intercepted six more Iraq-origin drones over 48 hours. Xi met Putin in Beijing — joint statement demanded an immediate ceasefire. CENTCOM blockade 91 vessels redirected. LEBANON ceasefire effectively unraveled — Israeli strikes May 19 killed ≥19 in southern Lebanon (incl. 4 women, 3 children); 8th IDF soldier KIA since the April 16 truce. MARKETS: oil sold off — Brent ~$107, WTI cracked below $100 (~-5%); S&P 500 rebounded +1.08% to ~7,433, Dow +1.31%, Nasdaq +1.54%; AAA gas $4.555 (+2.2¢ d/d, +52.3% vs baseline); cumulative ~$31.9B per Pentagon $29B (Hurst May 12) + 8 days × $95M standby"
     }
   ],
   "toll": {
