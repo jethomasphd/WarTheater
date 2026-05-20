@@ -7243,5 +7243,32 @@
     "category": "economic",
     "source": "Investing.com / Trading Economics / EIA STEO (per manifest §6)",
     "data_point": "Brent $110.59 (-1.35%); WTI $103.49 (-0.85%)"
+  },
+  {
+    "date": "2026-05-19",
+    "time": "Market close",
+    "title": "US equities fall a third straight session; 30-year Treasury yield hits ~19-year high",
+    "description": "The S&P 500 closed at 7,353.61 (-0.67%) for a third consecutive losing session; the Dow fell 322.24 points to 49,363.88 (-0.65%) and the Nasdaq Composite dropped to 25,870.71 (-0.84%). The Russell 2000 fell 1.32% intraday. Bond-market pressure drove the equity selloff: the 30-year Treasury yield briefly topped 5.19% — its highest in nearly 19 years — while the 10-year peaked at 4.687%, the highest since January 2025. The VIX held around 18.09. The iShares Aerospace & Defense ETF (ITA) traded in the ~$219–221 area, off recent highs — down roughly 7.95% over the past month though still up ~27.8% year-on-year.",
+    "category": "economic",
+    "source": "CNBC / TheStreet / TradingView / BlackRock (per manifest §6)",
+    "data_point": "S&P 500 7,353.61 (-0.67%); Dow 49,363.88 (-0.65%); Nasdaq 25,870.71 (-0.84%); 30Y UST briefly 5.19%"
+  },
+  {
+    "date": "2026-05-19",
+    "time": "Via mediators",
+    "title": "Iran submits updated peace proposal; White House views it as insufficient",
+    "description": "Iran submitted an updated peace proposal to the United States via mediators on May 18–19, per Axios. The White House reportedly considers the proposal insufficient. US-Iran talks remain stalled in Islamabad following the first round in April; both sides have submitted updated proposals through the Pakistani channel. Qatar's Foreign Ministry spokesman Dr. Majed Al-Ansari said at a May 19 press briefing that Qatar 'supports the ceasefire in place and giving diplomatic channels a chance.' Iran's parliament National Security Commission spokesperson Ebrahim Rezaei told IRIB: 'The Americans must either submit to diplomacy and our conditions or submit to the power of our missiles.' Iran's army warned of 'new fronts' if Trump resumes strikes.",
+    "category": "diplomatic",
+    "source": "Axios / Al Jazeera / IRIB May 19 (per manifest §5)",
+    "data_point": "Iranian counterproposal submitted via mediators May 18–19; White House views as insufficient"
+  },
+  {
+    "date": "2026-05-19",
+    "time": "Public remarks",
+    "title": "VP Vance invokes Cold War 'domino theory' to justify Iran posture",
+    "description": "Vice President JD Vance on May 19 invoked the Cold War-era domino theory to justify the continued US military posture against Iran. The remarks came as Trump publicly framed a renewed strike as a matter of days, not weeks, absent an acceptable deal, and as the National Security Council met in the Situation Room to review military options.",
+    "category": "political",
+    "source": "GlobalSecurity Day 80 / manifest §5",
+    "data_point": "VP Vance frames continued Iran posture via Cold War domino theory"
   }
 ]
