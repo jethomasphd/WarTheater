@@ -1,43 +1,43 @@
 {
-  "last_updated": "2026-05-18",
-  "war_day": 80,
-  "timestamp_label": "LAST UPDATED: MAY 18, 2026 20:17 ET",
+  "last_updated": "2026-05-19",
+  "war_day": 81,
+  "timestamp_label": "LAST UPDATED: MAY 19, 2026 21:20 ET",
   "cost": {
     "brent": {
-      "price": 110.13,
-      "label": "Brent (ICE Jul) — May 18, 2026 last trade (PRELIMINARY INTRADAY; ICE settle pending)",
-      "change": "+0.80% vs Fri May 15 close $109.26; intraday range $107.71–$111.34",
-      "tooltip": "Brent intraday $110.13 (+0.80% / +$0.87 vs Friday $109.26 settle). Wide intraday range $107.71–$111.34 — early morning spike on Trump 'clock is ticking' Truth Social post then faded toward $107-110 on (UNCONFIRMED) Iranian-media report that US proposed temporary oil-sanctions waiver pending final agreement. Trump afternoon Truth Social: 'we will NOT be doing the scheduled attack of Iran tomorrow' after MBS/MBZ/Emir Tamim ask to 'hold off' citing serious negotiations. Official ICE Brent front-month settlement PENDING at compile time (FLAG: PRELIMINARY_INTRADAY). Baseline Feb 27 $71.00 — war premium ≈ +$39.13 (+55.1%). IEA EXECUTIVE DIRECTOR FATIH BIROL (G7 Paris sidelines May 18): inventories 'depleting very fast … several weeks, but … declining rapidly'; IEA May 2026 OMR: 246 mb global inventory drawdown across Mar-Apr (steepest pace on record); global oil supply -3.9 mbpd across 2026 forecast — structural-supply premium increasingly baked in regardless of diplomatic outcome. Sources: Trading Economics / Investing.com / Bloomberg / CNBC."
+      "price": 110.59,
+      "label": "Brent (ICE Jul) — May 19, 2026 settlement",
+      "change": "-1.35% vs May 18 close $110.13",
+      "tooltip": "Brent crude settled $110.59/bbl (-1.35%) on May 19. Oil retreated modestly after Trump postponed the prepared Tuesday strike on Iran — Trading Economics confirmed Brent 'slipped to around $110 per barrel' after the postponement. The pullback was partly offset by upside risk from the continued Strait of Hormuz closure and the Iraq-launched drones near Barakah. Baseline Feb 27 $71.00 — war premium ≈ +$39.59 (+55.8%). EIA Short-Term Energy Outlook (May 12): Brent ~$106/b May-June; full-year 2026 Brent forecast ~$96/b; 4Q26 ~$89/b. Sources: Investing.com / Trading Economics."
     },
     "wti": {
-      "price": 106.22,
-      "label": "WTI (NYMEX Jun) — May 18, 2026 last trade (PRELIMINARY INTRADAY; NYMEX settle pending)",
-      "change": "+0.76% vs Fri May 15 close $105.42; intraday range $99.18–$108",
-      "tooltip": "WTI intraday $106.22 (+0.76% / +$0.80 vs Friday $105.42 settle). Wide intraday range $99.18 (Sunday futures open) to $108 — touched $108 briefly before fading on (UNCONFIRMED) report of US-proposed temporary oil-sanctions waiver. Settlement PENDING at compile time (FLAG: PRELIMINARY_INTRADAY). Baseline Feb 27 $66.50 — war premium ≈ +$39.72 (+59.7%). CME FedWatch retains zero 2026 cuts; growing pricing of December HIKE on oil-shock pass-through; 10Y UST yield surpassed 4.13% (52-week high) on inflation concerns. Sources: Trading Economics / Investing.com / CNBC."
+      "price": 103.49,
+      "label": "WTI (NYMEX Jun) — May 19, 2026 settlement",
+      "change": "-0.85% vs May 18 close $106.22",
+      "tooltip": "WTI crude settled $103.49/bbl (-0.85%) on May 19. Trading Economics: 'WTI crude futures slipped toward $103 per barrel on Tuesday' as Trump's postponement of the Tuesday strike eased the immediate war-risk premium. Baseline Feb 27 $66.50 — war premium ≈ +$36.99 (+55.6%). Bond pressure intensified: the 30-year Treasury yield briefly topped 5.19% (highest in nearly 19 years); the 10-year peaked at 4.687%. Sources: Investing.com / Trading Economics."
     },
     "gas": {
-      "price": 4.515,
-      "label": "AAA national average, regular unleaded — May 18, 2026",
-      "change": "+0.2¢ d/d vs May 17 ($4.513); CA highest $6.15+; OK lowest $3.94",
-      "tooltip": "AAA daily refresh, May 18, 2026 — $4.515/gal (+0.2¢ d/d). Per AAA: +51.0% vs $2.99 Feb 28 baseline; highest US national average since the 2022 peak ($5.016 on Jun 14, 2022). California highest at $6.15+; Oklahoma lowest at $3.94 (LendingTree May 12). Sunday Barakah drone strike added regional risk premium to crude; effect on retail gasoline lagged. Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-18. Source: gasprices.aaa.com retrieved May 18, 2026."
+      "price": 4.533,
+      "label": "AAA national average, regular unleaded — May 19, 2026",
+      "change": "+1.8¢ d/d vs May 18 ($4.515); CA highest $6.146; OK lowest $3.94",
+      "tooltip": "AAA daily refresh, May 19, 2026 — $4.533/gal (+1.8¢ d/d). Per AAA: +51.6% vs $2.99 Feb 28 baseline; highest US national average since the 2022 peak ($5.016 on Jun 14, 2022). California highest at $6.146; Oklahoma lowest at $3.94. Six states ≥$5.00: California, Washington ($5.77), Hawaii ($5.64), Oregon, Nevada, Alaska, Illinois. Pump prices still climbing on lagged crude pass-through and persistent Hormuz risk. Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-19. Source: gasprices.aaa.com retrieved May 19, 2026."
     },
     "sp500": {
-      "value": 7403.05,
-      "label": "S&P 500 — May 18, 2026 close",
-      "change": "-0.07% (-5.45) vs Fri May 15 close 7,408.50; Dow +0.32%; Nasdaq -0.51%",
-      "tooltip": "S&P 500 closed 7,403.05 (-0.07%, -5.45 vs Fri); Dow 49,686.12 (+0.32%, +159.95) led by energy + financials; Nasdaq 26,090.73 (-0.51%, -134.41) hit by tech selloff (NVDA weaker, MU -3%). Energy sector (XLE) +1.92% led S&P sectors on crude rally; tech rotated defensive. 10Y UST yield surpassed 4.13% — 52-WEEK HIGH on inflation-persistence concerns; 30Y UST 5.121% carry from Friday. Defense ETF ITA $218.14-$220.73 (preliminary intraday band, mid ~$218.93) — still well below 52-week high $250.65 (Robinhood/Investing.com), institutional read that FY27 contract awards do NOT flow quickly. Markets repriced Iran risk as PERSISTENT, NOT TRANSITORY — S&P has wobbled around 7,400 for two weeks despite 'official' Apr 8 ceasefire."
+      "value": 7353.61,
+      "label": "S&P 500 — May 19, 2026 close",
+      "change": "-0.67% (-49.44) vs May 18 close 7,403.05; Dow -0.65%; Nasdaq -0.84%",
+      "tooltip": "S&P 500 closed 7,353.61 (-0.67%, -49.44) for a third consecutive losing session; Dow 49,363.88 (-0.65%, -322.24); Nasdaq Composite 25,870.71 (-0.84%, -220.02); Russell 2000 -1.32% intraday. Bond-market pressure drove the equity selloff: the 30-year Treasury yield briefly topped 5.19% — highest in nearly 19 years — while the 10-year peaked at 4.687% (highest since January 2025). VIX ~18.09. Markets did NOT rally on Trump's postponement of the Tuesday strike — bond-yield pressure and a persistent Iran-risk premium dominated. The iShares Aerospace & Defense ETF (ITA) traded ~$219-221, off recent highs (down ~7.95% past month, up ~27.8% YoY)."
     },
     "daily_cost": {
       "value": 95,
-      "label": "Daily War Burn (CSIS ceasefire-standby, $M) — Day 80",
-      "change": "carry-forward $95M/day standby (Day 10 zero-kinetic streak; Trump postponed Tuesday strike)",
-      "tooltip": "Day 80 carries CSIS ceasefire-standby model: ~$95M/day (CSIS Cancian Apr 30: 'under $100M/day'; militaryspend.org rolling). Day 10 of zero-kinetic streak on Iran (Days 71-80, LONGEST OF WAR; 41 days since last Iran territorial strike Apr 7). Ford CSG home Norfolk 5/16; TR CSG home San Diego 5/14; Lincoln + Bush remain two-carrier blockade steady-state in CENTCOM AOR + Tripoli ARG; USS Pioneer (MCM-9) + USS Chief (MCM-14) Sasebo-homeported MCMs en route CENTCOM (Hormuz mine-threat signaling). Trump Truth Social (Mon PM): 'we will NOT be doing the scheduled attack of Iran tomorrow' after Gulf monarchs (MBS/MBZ/Emir Tamim) asked to hold off; FIRST public disclosure of any imminent strike package since Apr 8 ceasefire (NO CENTCOM corroboration; UNVERIFIED per CBS News). Daily burn re-spikes toward kinetic-phase $500M-$1.43B/day if Trump's next Situation Room orders renewed strikes."
+      "label": "Daily War Burn (CSIS ceasefire-standby, $M) — Day 81",
+      "change": "carry-forward $95M/day standby (Day 11 zero-kinetic streak; Tuesday strike package stood down)",
+      "tooltip": "Day 81 carries CSIS ceasefire-standby model: ~$95M/day (CSIS Cancian Apr 30: 'under $100M/day'; militaryspend.org rolling). Day 11 of zero-kinetic streak on Iran (Days 71-81, LONGEST OF WAR; 42 days since last Iran territorial strike Apr 7). Lincoln + Bush remain the two-carrier blockade steady-state in CENTCOM AOR + Tripoli ARG; CENTCOM (May 18) now enforcing with '15,000+ American troops, over 200 aircraft and 20 warships' — 85 commercial vessels redirected. Trump told reporters May 19 the Tuesday strike was 'an hour away' — 'We were all set to go… It would have been happening right now' — before postponement at the request of Tamim/MBS/MBZ; NSC convened the Situation Room May 19. Daily burn re-spikes toward kinetic-phase $500M-$1.43B/day if the resumption window (now 'two or three days') closes without a deal."
     },
     "total_cost": {
-      "value": 31.7,
-      "label": "Cumulative US Cost (Pentagon-confirmed + standby extrapolation, $B) — Day 80",
-      "change": "+$95M vs Day 79 ($31.6B → $31.7B)",
-      "tooltip": "Day 80 cumulative ≈ $31.7B = Pentagon comptroller Jules Hurst III's $29B disclosure on May 12 (Day 74, House Approps testimony) + 6 days × $95M ceasefire-standby ≈ $31.6-31.7B through Day 80. CBS News-cited internal estimates ~$50B once base damage + munitions replacement fully booked. Range floors persist: Pentagon Comptroller $29B (lowballed per Sen. Murray PBS 5/15 'suspiciously low'); CBS leak ~$51.5B (CRS+OMB); Popular Info compiled $86.4B (incl. force-flow/intel/base-repair). Re-spike risk remains if Trump orders renewed kinetic action after current Pakistan-mediator window expires."
+      "value": 31.8,
+      "label": "Cumulative US Cost (Pentagon-confirmed + standby extrapolation, $B) — Day 81",
+      "change": "+$95M vs Day 80 ($31.7B → $31.8B)",
+      "tooltip": "Day 81 cumulative ≈ $31.8B = Pentagon comptroller Jules Hurst III's $29B disclosure on May 12 (Day 74, House Approps testimony) + 7 days × $95M ceasefire-standby through Day 81. WAR-COST SPREAD WIDENS: Pentagon $29B (Hurst May 12, up $4B from late-April $25B); CBS News cites Pentagon officials saying the real total is closer to $50B once base damage + munitions replacement are booked; independent Stephen Semler / Security Policy Reform Institute estimate $71.8B over the first 60 days ($41B+ expended munitions). CSIS (Cancian/Park, Apr 21): U.S. fired 'almost 50 percent of its Patriot missile stockpile; more than half of THAADs' at ~$2.6M per JASSM/Tomahawk. Indirect taxpayer cost: Taxpayers for Common Sense estimates $1.19B added federal fuel costs through May 17 + $986M added interest on the direct $29B over the next year."
     }
   },
   "history": [
@@ -1514,6 +1514,25 @@
       "flights_cancelled": 48210,
       "children_killed": 465,
       "headline": "Day 80 — TRUMP POSTPONES TUESDAY ATTACK at request of Saudi MBS, UAE MBZ, and Qatari Emir Tamim citing 'serious negotiations'; FIRST public disclosure of any imminent strike package since Apr 8 ceasefire (NO CENTCOM corroboration; UNVERIFIED per CBS News); Trump directs Hegseth + JCS Chair Caine to 'be prepared to go forward with a full, large scale assault of Iran, on a moment's notice'; LEBANESE DEATH TOLL CROSSES 3,000 — MoPH formal announcement: 3,020 killed since Mar 2 incl. 292 women + 211 children; Israeli airstrike on Baalbek killed Palestinian Islamic Jihad commander Wael Abdel Halim + 17-yr daughter post-midnight; Iran-US talks continue via Pakistani mediator (Iran FM spokesperson Baghaei); Iran FM Baqaei: Tehran 'committed to ensuring transit through Strait of Hormuz' / 'in continuous contact with Oman'; Israeli troops intercept Gaza-bound flotilla off Cyprus; Day 10 zero-kinetic streak on Iran (41 days since Apr 7) — LONGEST OF WAR; markets mixed S&P 500 7,403.05 (-0.07%), Dow +0.32%, Nasdaq -0.51%, 10Y UST 4.13% 52-WK HIGH; energy XLE +1.92%, defense ITA $218.93 lagging despite Epic Fury spend; Brent $110.13 intraday (range $107.71-$111.34), WTI $106.22 (range $99.18-$108) — official settles PENDING; AAA gas $4.515 (+0.2¢ d/d); IEA Birol (G7 Paris): inventories 'depleting very fast … several weeks, declining rapidly' — IEA May OMR 246 mb drawdown Mar-Apr (steepest on record), -3.9 mbpd 2026 supply forecast; USS Theodore Roosevelt home San Diego May 14 (USNI Fleet Tracker 5/18); Lincoln + Bush remain two-carrier blockade steady-state in CENTCOM AOR + Tripoli ARG; USS Pioneer + USS Chief MCMs Sasebo→CENTCOM en route (Hormuz mine-threat signaling); cumulative cost ~$31.7B per Pentagon $29B (Hurst May 12) + 6 days × $95M standby"
+    },
+    {
+      "date": "2026-05-19",
+      "war_day": 81,
+      "brent": 110.59,
+      "wti": 103.49,
+      "gas": 4.533,
+      "sp500": 7353.61,
+      "daily_cost_millions": 95,
+      "total_cost_billions": 31.8,
+      "targets_struck": 35502,
+      "us_kia": 13,
+      "us_wia": 413,
+      "iranian_killed": 3636,
+      "lebanese_killed": 3020,
+      "displaced": 4600000,
+      "flights_cancelled": 48210,
+      "children_killed": 465,
+      "headline": "Day 81 — STRIKE 'AN HOUR AWAY' STOOD DOWN: Trump tells reporters at the White House 'We were all set to go… It would have been happening right now' — confirming the Tuesday May 19 strike package was operationally ready before postponement at the personal request of Tamim/MBS/MBZ; postponement framed as 'two or three days'; NSC convened the Situation Room May 19; BARAKAH ATTRIBUTION FINALIZED — UAE Ministry of Defence confirms via technical tracking that the three drones which struck the Barakah Nuclear Power Plant on May 17 'all originated from Iraqi territory' (UAE handled +6 more drones from Iraq over 48 hrs; AP/WaPo: 'likely signaling Iranian-backed Shiite militias'; no group claim of responsibility); CENTCOM blockade now 85 commercial vessels redirected ('15,000+ troops, 200+ aircraft, 20 warships'); Project Freedom escort sorties still UNCONFIRMED resumed (Lloyd's List: no Western-allied transits since May 4); Iran submits updated peace proposal via mediators — White House views as insufficient; VP Vance invokes Cold War 'domino theory'; Day 11 zero-kinetic streak on Iran (42 days since Apr 7) — LONGEST OF WAR; markets fall a third straight session — S&P 500 7,353.61 (-0.67%), Dow 49,363.88 (-0.65%), Nasdaq 25,870.71 (-0.84%), 30Y UST briefly 5.19% (highest in ~19 years); Brent $110.59 (-1.35%), WTI $103.49 (-0.85%) — oil retreats modestly on the postponement; AAA gas $4.533 (+1.8¢ d/d); war-cost spread widens — Pentagon $29B / CBS ~$50B / Semler $71.8B; cumulative ~$31.8B per Pentagon $29B (Hurst May 12) + 7 days × $95M standby"
     }
   ],
   "toll": {
