@@ -3522,15 +3522,15 @@
     "lat": 23.97,
     "lng": 52.2,
     "type": "iran_proxy_kinetic_uae",
-    "actor": "UNVERIFIED \u2014 suspected Iran or Iran-backed Iraqi Shia militia",
+    "actor": "Iran-backed Iraqi Shia militia (HIGH CONFIDENCE on Iraqi territory of origin per UAE MoD May 19; specific faction not publicly named)",
     "first_strike": "2026-05-17",
     "active_days": [
       79
     ],
     "weapon": "Drone (one impact + two intercepted by UAE air defense)",
     "casualties_reported": "0 killed / 0 injured / NO radiological release",
-    "casualties_source": "UAE Ministry of Defence / IAEA / Al Jazeera / AP / PBS / Fortune / The National",
-    "notes": "FIRST NUCLEAR-FACILITY STRIKE ON A GULF STATE DURING THE WAR. Three drones entered UAE airspace from western (Saudi) border ~AM Gulf time May 17; UAE air defense intercepted two; the third struck an electrical generator outside the inner perimeter of the four-reactor Barakah Nuclear Energy Plant. Fire ignited; Unit 3 ran on emergency diesel (per IAEA DG Rafael Grossi); no radiological release; no injuries. UAE FM Sheikh Abdullah bin Zayed called it a 'treacherous terrorist attack' and reserved right to respond. UAE MoD termed it an 'unprovoked terrorist attack' but did not formally blame Iran. Qatar and Saudi Arabia condemned. IAEA DG Grossi voiced 'grave concern' and spoke with the UAE FM: 'Military activity that threatens nuclear safety is unacceptable.' Saudi Arabia separately intercepted three drones that entered from Iraqi airspace (Fox News live blog May 17) \u2014 attribution unconfirmed but vector consistent with same operational cell. IRGC spokesperson Ebrahim Zolfaghari warned U.S. bases in the southern Persian Gulf would be 'deactivated.' Iran parliament's Esmail Kowsari to UAE: 'If the UAE continues cooperating with the US and Israel against us, we will confront them more forcefully.' Iranian state TV (May 17) presenter Hossein Hosseini received basic firearms training from a masked Revolutionary Guard on-air, then mimed firing a shot at a UAE flag. Trump (Truth Social May 17): 'For Iran, the Clock is Ticking, and they better get moving, FAST, or there won't be anything left of them. TIME IS OF THE ESSENCE!' Axios/Ravid: Trump to convene Situation Room Tue May 19 to review military options. Per manifest \u00a73.",
+    "casualties_source": "UAE Ministry of Defence / IAEA / Al Jazeera / AP / PBS / Fortune / The National / Euronews / Washington Post",
+    "notes": "ATTRIBUTION FINALIZED (May 19): UAE Ministry of Defence announced that 'technical tracking and monitoring confirmed that the three drones \u2026 all originated from Iraqi territory'; UAE handled an additional 6 drones from Iraq over the subsequent 48 hours. AP/Washington Post framing: drones 'all came from Iraq \u2026 likely signaling that Iranian-backed Shiite militias launched the assault.' Likely PMF-linked candidate factions per Gulf News analyst reporting: Kataib Hezbollah, Asaib Ahl al-Haq, Harakat Hezbollah al-Nujaba, Badr Organization, Kataib Sayyid al-Shuhada. NO claim of responsibility from any Iraqi militia faction as of May 19 close. Emirati diplomat Anwar Gargash (X, May 19) issued veiled criticism of Qatar's mediating posture: 'The confusion of roles during this treacherous Iranian aggression is baffling.' UAE Minister of Industry Dr. Sultan Al Jaber called the strike 'a terrorist attack on a peaceful energy project.' Bloomberg (May 18): 'The aerial assault didn't cause any casualties or abnormal radiation, but did trigger the plant's emergency power supply.' \u2014 FIRST NUCLEAR-FACILITY STRIKE ON A GULF STATE DURING THE WAR. Three drones entered UAE airspace from western (Saudi) border ~AM Gulf time May 17; UAE air defense intercepted two; the third struck an electrical generator outside the inner perimeter of the four-reactor Barakah Nuclear Energy Plant. Fire ignited; Unit 3 ran on emergency diesel (per IAEA DG Rafael Grossi); no radiological release; no injuries. UAE FM Sheikh Abdullah bin Zayed called it a 'treacherous terrorist attack' and reserved right to respond. UAE MoD termed it an 'unprovoked terrorist attack' but did not formally blame Iran. Qatar and Saudi Arabia condemned. IAEA DG Grossi voiced 'grave concern' and spoke with the UAE FM: 'Military activity that threatens nuclear safety is unacceptable.' Saudi Arabia separately intercepted three drones that entered from Iraqi airspace (Fox News live blog May 17) \u2014 attribution unconfirmed but vector consistent with same operational cell. IRGC spokesperson Ebrahim Zolfaghari warned U.S. bases in the southern Persian Gulf would be 'deactivated.' Iran parliament's Esmail Kowsari to UAE: 'If the UAE continues cooperating with the US and Israel against us, we will confront them more forcefully.' Iranian state TV (May 17) presenter Hossein Hosseini received basic firearms training from a masked Revolutionary Guard on-air, then mimed firing a shot at a UAE flag. Trump (Truth Social May 17): 'For Iran, the Clock is Ticking, and they better get moving, FAST, or there won't be anything left of them. TIME IS OF THE ESSENCE!' Axios/Ravid: Trump to convene Situation Room Tue May 19 to review military options. Per manifest \u00a73.",
     "sources": [
       "Al Jazeera May 17",
       "AP May 17",
@@ -3540,10 +3540,14 @@
       "IAEA statement May 17",
       "UAE Ministry of Defence",
       "Fox News live blog May 17",
-      "Manifest \u00a73"
+      "Euronews May 19",
+      "AP via Washington Post May 19",
+      "The National (UAE) May 19",
+      "Review Journal May 19",
+      "Manifest \u00a72 & \u00a73"
     ],
     "verified": true,
-    "last_updated": "2026-05-17"
+    "last_updated": "2026-05-19"
   },
   {
     "id": "ret-2026-05-17-saudi-drone-intercepts-iraqi-airspace",
