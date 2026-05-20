@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.533,
-  "war_increase": 1.543,
+  "current_gas": 4.555,
+  "war_increase": 1.565,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.613 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com national average, May 19 2026 ($4.533, +1.8¢ d/d vs $4.515 May 18). Trump 05-18 evening Truth Social postponed a 'scheduled' Tuesday May 19 strike on Iran 'at the request of' Tamim/MBS/MBZ; pump prices still climbing on lagged crude pass-through and persistent Hormuz risk. Per AAA: +51.6% above $2.99 Feb 28 baseline; highest US national avg since 2022 peak ($5.016 Jun 14 2022). California highest at $6.146; Oklahoma lowest at $3.94. Six states ≥$5: CA, WA ($5.77), HI ($5.64), OR, NV, AK, IL (LendingTree/AAA May 12). Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-19.",
-  "last_updated": "2026-05-19"
+  "source": "AAA gasprices.aaa.com national average, May 20 2026 ($4.555, +2.2¢ d/d vs $4.533 May 19). Trump's 05-18 postponement of a 'scheduled' May 19 strike on Iran held through May 20; despite Brent sliding to ~$107 and WTI cracking below $100, pump prices kept climbing on the standard 1-2 week crude pass-through lag, cargo backlog, and damaged regional refining. Per AAA: +52.3% above $2.99 Feb 28 baseline; ~$1.40/gal above year-ago levels; highest US national avg since 2022 peak ($5.016 Jun 14 2022). California highest at $6.15; Washington $5.77; Hawaii $5.64; Oklahoma lowest at $3.94. Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-20.",
+  "last_updated": "2026-05-20"
 }
