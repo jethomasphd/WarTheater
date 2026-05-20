@@ -7198,5 +7198,50 @@
     "category": "economic",
     "source": "GuruFocus / TheStreet / CNBC / Yahoo Finance / Robinhood / Investing.com (per manifest \u00a75a)",
     "data_point": "S&P 500 7,403.05 (-0.07%); Dow 49,686.12 (+0.32%); Nasdaq 26,090.73 (-0.51%); 10Y 4.13% 52-wk high"
+  },
+  {
+    "date": "2026-05-19",
+    "time": "White House (afternoon ET)",
+    "title": "Trump says Tuesday strike on Iran was 'an hour away' before postponement",
+    "description": "Trump told reporters at the White House: 'We were all set to go… It would have been happening right now' — confirming the strike scheduled for Tuesday May 19 was operationally prepared and stood down only after Qatari Emir Tamim, Saudi Crown Prince MBS, and UAE President MBZ personally asked him to hold off. Trump publicly framed the postponement as 'two or three days' for Iran to reach an acceptable deal (Al Jazeera headline: 'Attack on Iran in two or three days if no deal, says Trump'). Trump added: 'There seems to be a very good chance that they can work something out. If we can do that without bombing the hell out of them, I'd be very happy.' He also called the war 'very popular' and said he does not have 'enough time' to keep explaining its rationale.",
+    "category": "diplomatic",
+    "source": "CNBC May 19 / CBS News live updates May 19 / Al Jazeera May 19 (per manifest §1)",
+    "data_point": "Strike 'an hour away' from execution before Gulf-monarchs postponement; window now 'two or three days'"
+  },
+  {
+    "date": "2026-05-19",
+    "time": "Situation Room",
+    "title": "Trump convenes National Security Council to review military options",
+    "description": "Trump convened the National Security Council in the White House Situation Room on Tuesday May 19 to discuss military options against Iran, per Axios reporting cited in the GlobalSecurity Day 80 update. The meeting followed the postponement of the prepared Tuesday strike package and coincided with Iran submitting an updated peace proposal via mediators that the White House reportedly views as insufficient.",
+    "category": "military",
+    "source": "Axios via GlobalSecurity Day 80 (per manifest §1 & §5)",
+    "data_point": "NSC convened in Situation Room May 19 on Iran military options"
+  },
+  {
+    "date": "2026-05-19",
+    "time": "UAE MoD announcement",
+    "title": "UAE confirms Barakah nuclear-plant drones originated from Iraqi territory",
+    "description": "The UAE Ministry of Defence announced May 19: 'As part of the ongoing investigation into the blatant attack on the Barakah Nuclear Power Plant on 17 May 2026, technical tracking and monitoring confirmed that the three drones … all originated from Iraqi territory.' UAE handled an additional 6 drones from Iraq over the subsequent 48 hours. AP/Washington Post framing: the drones 'all came from Iraq … likely signaling that Iranian-backed Shiite militias launched the assault.' Likely PMF-linked candidate factions per Gulf News analyst reporting include Kataib Hezbollah, Asaib Ahl al-Haq, Harakat Hezbollah al-Nujaba, the Badr Organization, and Kataib Sayyid al-Shuhada. No Iraqi militia faction claimed responsibility as of May 19 close. Emirati diplomat Anwar Gargash issued veiled criticism of Qatar's mediating posture on X: 'The confusion of roles during this treacherous Iranian aggression is baffling … The victim's role has merged with that of the mediator, and vice versa.'",
+    "category": "military",
+    "source": "Euronews / AP via Washington Post / The National / Review Journal May 19 (per manifest §2)",
+    "data_point": "Barakah May 17 drones confirmed from Iraqi territory; +6 more drones from Iraq over 48 hrs; no group claim"
+  },
+  {
+    "date": "2026-05-19",
+    "time": "CENTCOM statement",
+    "title": "CENTCOM: 85 commercial vessels redirected under US blockade of Iranian ports",
+    "description": "CENTCOM stated via X (May 18, carried into May 19 reporting): 'CENTCOM continues to strictly enforce the U.S. blockade against Iranian ports. U.S. forces have now redirected 85 commercial vessels to ensure full compliance.' Per JNS, 'more than 15,000 American troops, over 200 aircraft and 20 warships' are enforcing what some reporting calls 'Operation Economic Fury.' The blockade trend line: May 3 — 49 vessels redirected; May 8 — 58 (3 disabled); May 13 — 67 (15 humanitarian allowed through, 4 disabled); May 18 — 85. Project Freedom escort sorties remained unconfirmed as resumed despite Saudi Arabia and Kuwait lifting base/airspace restrictions on May 6–7; Lloyd's List Intelligence reports no Western-allied transits since May 4.",
+    "category": "military",
+    "source": "CENTCOM via JNS / Cleveland Jewish News May 18 (per manifest §4)",
+    "data_point": "85 commercial vessels redirected (May 18); 15,000+ troops / 200+ aircraft / 20 warships enforcing"
+  },
+  {
+    "date": "2026-05-19",
+    "time": "Settlement",
+    "title": "Oil retreats on strike postponement: Brent $110.59, WTI $103.49",
+    "description": "Brent crude settled at $110.59/bbl (-1.35%) and WTI at $103.49/bbl (-0.85%) on May 19 as Trump's postponement of the prepared Tuesday strike triggered a modest pullback, partly offset by upside risk from the continued Strait of Hormuz closure and the Iraq-launched drones near Barakah. Trading Economics confirmed Brent 'slipped to around $110 per barrel.' The EIA Short-Term Energy Outlook (May 12) projects Brent ~$106/b for May–June, a full-year 2026 Brent forecast of ~$96/b, and 4Q26 ~$89/b.",
+    "category": "economic",
+    "source": "Investing.com / Trading Economics / EIA STEO (per manifest §6)",
+    "data_point": "Brent $110.59 (-1.35%); WTI $103.49 (-0.85%)"
   }
 ]
