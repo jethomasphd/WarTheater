@@ -1579,35 +1579,35 @@
     "iranian_killed": {
       "value": 3636,
       "label": "Iranian Killed (HRANA cumulative; range 1,444–7,650)",
-      "note": "Day 81: No new HRANA / Iranian MoH / Hengaw release in window — carry-forward 3,636 (HRANA Apr 7, 42 days stale). Iranian Health Ministry has issued NO new aggregate since early May. Manifest §7 documents a CONFLICTING range 1,444 (MissileStrikes.com conservative, May 19) to 7,650 (Hengaw Apr 8 high) — do NOT synthesize. FLAG: stale data, methodologies diverge.",
+      "note": "Day 82: No new HRANA / Iranian MoH / Hengaw release in window — carry-forward 3,636 (HRANA Apr 7, 43 days stale). Iranian Health Ministry has issued NO new aggregate since the May 5 figure (3,468). Manifest §5 documents a CONFLICTING range — Iranian state ~1,800 military to Hengaw ≥6,620 military — do NOT synthesize. FLAG: stale data, methodologies diverge; no Day 81/82 Iranian update located.",
       "tooltip": "PRIMARY (carry-forward): HRANA cumulative 3,636 killed (Apr 7 baseline; 1,701 civilian + 1,221 military + 714 unclassified; ≥254 children). CONFLICTING RANGE (per manifest §7, do not synthesize): 1,444 (MissileStrikes.com conservative, May 19: 1,200 civilians, 194 children) / 3,468 (Iran Foundation of Martyrs; also Iran MoH via Al Jazeera May 5, incl. 376 children, 496 women, 7 infants, 26,500+ injured) / 3,636 (HRANA Apr 7) / ≥7,650 (Hengaw Apr 8: 6,620 military + 1,030 civilians) / 6,000+ IRGC, ~15,000 wounded (IDF intelligence Mar 15). Manifest §7: 0 confirmed Iranian deaths Day 81 (Day 11 zero-kinetic streak; 42 days since last Iranian-territory strike Apr 7).",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
       "value": 3020,
       "label": "Lebanese killed (LB MoPH; 3,020 May 18 announcement carried)",
-      "note": "Day 81: Carry-forward 3,020 (Lebanese MoPH formal announcement May 18 — 3,020 killed since March 2, incl. 292 women and 211 children). No fresh MoPH cumulative bulletin published in the May 18-19 window; GlobalSecurity Day 80 separately cites a Lebanon MoH May 17 figure of 2,976+ killed / 9,123+ wounded — OLDER and lower than the May 18 announcement, so the 3,020 figure is retained. IDF reported striking 'over 30 Hezbollah targets' in southern Lebanon in the 24 hours to May 18 and ~100 over the May 16-17 weekend; evacuation orders issued for at least eight southern villages.",
+      "note": "Day 82: Carry-forward 3,020+ — cumulative Lebanese dead EXCEEDS 3,020 since March 2 (Lebanese MoPH formal announcement May 18: 3,020 killed, incl. 292 women and 211 children). Israeli strikes May 19 killed at least 19 in southern Lebanon — including four women and three children — per the Lebanon Health Ministry, but no fresh consolidated MoPH cumulative bulletin was published in the May 19-20 window. IDF Sgt. Sapir was killed in combat in southern Lebanon — the 8th IDF soldier KIA since the April 16 Lebanon ceasefire and the 21st since hostilities began. The Israel-Lebanon ceasefire is effectively unraveled.",
       "tooltip": "Lebanese MoPH cumulative since Mar 2: 3,020 killed (announced May 18) — incl. 292 women + 211 children; 9,123+ wounded (MoH May 17 per GlobalSecurity Day 80). >1.6M displaced (~1/5 of Lebanese population). Reuters (May 7) cites unnamed Hezbollah officials saying 'several thousand' fighters killed, only partially reflected in MoH figures. One IDF soldier killed in combat in southern Lebanon May 17, raising IDF deaths since March 2 to 21. Israel-Lebanon ceasefire extended +45 days May 15; Round 4 political talks June 2-3 + Pentagon security track May 29 follow. Exchanges continue daily.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
       "value": 4600000,
       "label": "Total Displaced (Lebanon >1M IDPs + Syria crossings + Iran IDPs)",
-      "note": "Day 81: Carry-forward 4.6M = ~3M Iran IDPs (UNHCR Mar 12, stale) + >1.6M Lebanon. Manifest §10 documents: Lebanon ≥1.2M displaced; Iran >1M displaced internally; Iraq (Erbil/Anbar) significant displacement, specific figure not retrieved. As of May 2: 306,888 Syrians + 64,865 Lebanese crossed the Lebanese border into Syria (carry-forward). Figures unchanged May 18-19.",
+      "note": "Day 82: Carry-forward 4.6M = ~3M Iran IDPs (UNHCR Mar 12, stale) + >1.6M Lebanon. Lebanon ≥1.2M displaced; Iran >1M displaced internally; Iraq (Erbil/Anbar) significant displacement, specific figure not retrieved. As of May 2: 306,888 Syrians + 64,865 Lebanese crossed the Lebanese border into Syria (carry-forward). Figures unchanged May 19-20.",
       "tooltip": "4.6M total — ~3M Iran IDPs (UNHCR Mar 12, stale) + >1.6M Lebanon IDPs per Lebanese government / OCHA. Cross-border into Syria: 306,888 Syrians + 64,865 Lebanese (May 2 baseline, carry-forward). 40,000+ homes destroyed in southern Lebanon; cumulative evacuation orders cover ~1,470 km² (~14% of national territory). IDF issued evacuation warnings for towns near Tyre hours before Baalbek strike on PIJ commander Day 80.",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 310000,
       "label": "Flights cancelled (regional, cumulative since Feb 28)",
-      "note": "Day 81: Carry-forward ~310,000 since Feb 28 — no new aviation-cancellation aggregate released May 18-19. Latest specific snapshot (May 17): 21 cancellations + 268 delays across Dubai, Sharjah, Damascus, Dammam, Jeddah, Kuwait City, Manama. Total Middle East flights cancelled since war start (March 1) exceed 12,000 per Afar Magazine. Dubai International remained at limited capacity.",
+      "note": "Day 82: Carry-forward ~310,000 since Feb 28 — no new aviation-cancellation aggregate released May 19-20. Latest specific snapshot (May 17): 21 cancellations + 268 delays across Dubai, Sharjah, Damascus, Dammam, Jeddah, Kuwait City, Manama. Total Middle East flights cancelled since war start (March 1) exceed 12,000 per Afar Magazine. Dubai International remained at limited capacity.",
       "tooltip": "Carried forward (per manifest §1). Britannica running article cites ~310,000 cumulative flights cancelled since Feb 28; IATA prior estimates. Methodological note: 'flights affected' captures cancellations + diversions + multi-hour holds + reroutes + overflight disruptions across all regional FIRs. Gulf carriers continue suspended/rerouted ops; Dubai International at limited capacity. Cirium not publishing live aggregate.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
       "value": 465,
       "label": "Children killed combined (≥254 Iran HRANA Apr 7 + 211 Lebanon MoPH May 18)",
-      "note": "Day 81: Combined identified floor 465 = ≥254 (HRANA Iran, Apr 7) + 211 (Lebanese MoPH May 18 formal announcement) — carry-forward, no fresh release in window. Israeli child casualties tracked separately.",
+      "note": "Day 82: Combined identified floor 465 = ≥254 (HRANA Iran, Apr 7) + 211 (Lebanese MoPH May 18 formal announcement) — carry-forward, no fresh cumulative release in window. Israeli strikes May 19 killed three children in southern Lebanon; no updated consolidated Lebanese MoPH child-casualty bulletin published May 19-20. Israeli child casualties tracked separately.",
       "tooltip": "Combined floor 465. HRANA: ≥254 children among Iranian civilian dead (as of Apr 7); HRANA assessed ≥15% of total human casualties under age 18. Lebanese MoPH: 211 children among 3,020 killed since Mar 2 (announced May 18). RANGE: Iran 194 (MissileStrikes.com May 19) / 254 (HRANA Apr 7) / 376 (Iran MoH May 5, includes 7 infants); Lebanon 211 (MoPH May 18) or 200 (UNICEF May 14 via Regional Director Beigbeder, 806 injured). Specific UNICEF/UN OCHA May 18-19 child-casualty release not retrieved. Israeli child casualties tracked separately.",
       "color": "var(--civilian)"
     }
