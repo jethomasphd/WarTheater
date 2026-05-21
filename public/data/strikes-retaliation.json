@@ -20,7 +20,7 @@
       7,
       8
     ],
-    "notes": "386th Air Expeditionary Wing hub. Kuwaiti air defenses intercepted initial ballistic missiles on Feb 28; debris fell on base. Satellite imagery confirmed damage to 12+ structures, aircraft shelters, and runway areas. Camp Canada (Canadian forces) bunkers also damaged. On March 2, Kuwaiti F/A-18 shot down 3 US F-15Es in friendly fire incident \u2014 all 6 crew ejected safely. Italian 51st Stormo personnel sheltered in bunkers.",
+    "notes": "386th Air Expeditionary Wing hub. Kuwaiti air defenses intercepted initial ballistic missiles on Feb 28; debris fell on base. Satellite imagery confirmed damage to 12+ structures, aircraft shelters, and runway areas. Camp Canada (Canadian forces) bunkers also damaged. On March 2, Kuwaiti F/A-18 shot down 3 US F-15Es in friendly fire incident — all 6 crew ejected safely. Italian 51st Stormo personnel sheltered in bunkers.",
     "verified": true,
     "last_updated": "2026-03-17"
   },
@@ -176,7 +176,7 @@
       13,
       14
     ],
-    "notes": "Hezbollah targeted missile defense site south of Haifa on March 2, first strikes since 2024 ceasefire. Hezbollah also launched drone swarm at Ramat David airbase targeting radar sites and control rooms. Direct Iranian missile fire at Haifa unverified \u2014 most Haifa-area attacks attributed to Hezbollah.",
+    "notes": "Hezbollah targeted missile defense site south of Haifa on March 2, first strikes since 2024 ceasefire. Hezbollah also launched drone swarm at Ramat David airbase targeting radar sites and control rooms. Direct Iranian missile fire at Haifa unverified — most Haifa-area attacks attributed to Hezbollah.",
     "verified": true,
     "last_updated": "2026-03-17"
   },
@@ -205,7 +205,7 @@
       21,
       26
     ],
-    "notes": "Day 26 (Mar 25): Missile hits Tel Aviv street \u2014 air defenses fail to intercept. Significant property damage, vehicles destroyed. Missile alerts across Israel: sirens in Dimona (near Negev Nuclear Research Center), Eilat, Netanya, central Israel. IRGC fires 'precision-guided' missiles and drones at Israel. Total Israeli killed since Feb 28: 17-18 (15 civilians + 2-3 soldiers). 4,800+ wounded (Al Jazeera tracker).",
+    "notes": "Day 26 (Mar 25): Missile hits Tel Aviv street — air defenses fail to intercept. Significant property damage, vehicles destroyed. Missile alerts across Israel: sirens in Dimona (near Negev Nuclear Research Center), Eilat, Netanya, central Israel. IRGC fires 'precision-guided' missiles and drones at Israel. Total Israeli killed since Feb 28: 17-18 (15 civilians + 2-3 soldiers). 4,800+ wounded (Al Jazeera tracker).",
     "verified": true,
     "last_updated": "2026-03-25"
   },
@@ -236,7 +236,7 @@
     "weapon": "Shahab-3 MRBM",
     "origin": "Iran",
     "first_strike": "2026-02-28",
-    "casualties_reported": "All intercepted \u2014 no impact",
+    "casualties_reported": "All intercepted — no impact",
     "casualties_source": "IDF / Arrow system",
     "active_days": [
       1
@@ -277,7 +277,7 @@
       20,
       21
     ],
-    "notes": "Hezbollah entered war March 2 after Khamenei assassination. IDF struck 2,000+ targets in Lebanon since March 2, eliminating 570+ operatives including 220 Radwan Force members. Hassan Ali Marwan (new Imam Hussein Division commander) eliminated Mar 19 \u2014 predecessor killed prior week. Ahmad Abdallah (Hamas military wing commander) died of wounds from Mar 11 strike in Beirut. Hezbollah: 668 cumulative attack waves on Israel (daily avg 37, trending up). 54 attack waves on Mar 19 \u2014 among highest single-day totals. IDF issued widespread evacuation orders in southern Lebanon Mar 20. 1M+ displaced \u2014 UNHCR warns families struggling to find shelter.",
+    "notes": "Hezbollah entered war March 2 after Khamenei assassination. IDF struck 2,000+ targets in Lebanon since March 2, eliminating 570+ operatives including 220 Radwan Force members. Hassan Ali Marwan (new Imam Hussein Division commander) eliminated Mar 19 — predecessor killed prior week. Ahmad Abdallah (Hamas military wing commander) died of wounds from Mar 11 strike in Beirut. Hezbollah: 668 cumulative attack waves on Israel (daily avg 37, trending up). 54 attack waves on Mar 19 — among highest single-day totals. IDF issued widespread evacuation orders in southern Lebanon Mar 20. 1M+ displaced — UNHCR warns families struggling to find shelter.",
     "verified": true,
     "last_updated": "2026-03-20"
   },
@@ -319,7 +319,7 @@
     "weapon": "Cruise missiles / drones (Houthi)",
     "origin": "Yemen (Houthi proxy)",
     "first_strike": "2026-03-02",
-    "casualties_reported": "Infrastructure damage \u2014 no casualties reported",
+    "casualties_reported": "Infrastructure damage — no casualties reported",
     "casualties_source": "Saudi MoD",
     "active_days": [
       3,
@@ -446,7 +446,7 @@
       6,
       7
     ],
-    "notes": "Northeastern Kuwait. Iranian drone struck the US garrison. Maj. Davius died during medical emergency at Camp Buehring on March 6 \u2014 incident under investigation, classified as health-related, not combat. IRGC claimed 230-drone wave targeting Camp Buehring among other Kuwait facilities on Day 6.",
+    "notes": "Northeastern Kuwait. Iranian drone struck the US garrison. Maj. Davius died during medical emergency at Camp Buehring on March 6 — incident under investigation, classified as health-related, not combat. IRGC claimed 230-drone wave targeting Camp Buehring among other Kuwait facilities on Day 6.",
     "verified": true,
     "last_updated": "2026-03-17"
   },
@@ -494,7 +494,7 @@
     "lng": 57.7,
     "type": "iran_retaliation",
     "weapon": "Drones",
-    "origin": "Iran (unconfirmed \u2014 possibly Houthi)",
+    "origin": "Iran (unconfirmed — possibly Houthi)",
     "first_strike": "2026-03-05",
     "casualties_reported": "At least 1 fuel storage tank damaged in Duqm",
     "casualties_source": "Wikipedia / maritime intelligence sources",
@@ -503,7 +503,7 @@
       7,
       8
     ],
-    "notes": "Oman's deep-water ports (Duqm, Salalah, Sohar) are potential bypass routes around Strait of Hormuz closure. Drone strikes on Duqm and Salalah damaged fuel infrastructure and discouraged alternative routing. Sohar fell within insurer war risk area. Oman was only GCC country Iran did not strike on Day 1, given its mediator role. These strikes represent escalation against a traditional neutral party. First_strike date approximate \u2014 verify against maritime intelligence dailies.",
+    "notes": "Oman's deep-water ports (Duqm, Salalah, Sohar) are potential bypass routes around Strait of Hormuz closure. Drone strikes on Duqm and Salalah damaged fuel infrastructure and discouraged alternative routing. Sohar fell within insurer war risk area. Oman was only GCC country Iran did not strike on Day 1, given its mediator role. These strikes represent escalation against a traditional neutral party. First_strike date approximate — verify against maritime intelligence dailies.",
     "verified": false,
     "last_updated": "2026-03-17"
   },
@@ -522,7 +522,7 @@
       1,
       17
     ],
-    "notes": "Civilian airport struck by drone on evening of Feb 28. Kuwaiti authorities confirmed minor injuries and damage to passenger building. On March 4, Kuwaiti Ministry of Health reported death of a girl from shrapnel-induced injuries \u2014 likely related to airport or broader Kuwait strikes. On March 16, radar equipment damaged by Iranian strike.",
+    "notes": "Civilian airport struck by drone on evening of Feb 28. Kuwaiti authorities confirmed minor injuries and damage to passenger building. On March 4, Kuwaiti Ministry of Health reported death of a girl from shrapnel-induced injuries — likely related to airport or broader Kuwait strikes. On March 16, radar equipment damaged by Iranian strike.",
     "verified": true,
     "last_updated": "2026-03-17"
   },
@@ -535,7 +535,7 @@
     "weapon": "Missile (type unconfirmed)",
     "origin": "Iran",
     "first_strike": "2026-03-02",
-    "casualties_reported": "Unknown \u2014 embassy personnel sheltering in place",
+    "casualties_reported": "Unknown — embassy personnel sheltering in place",
     "casualties_source": "Wikipedia / Xinhua (smoke visible near embassy)",
     "active_days": [
       3,
@@ -552,7 +552,7 @@
     "lat": 33.2,
     "lng": 42.5,
     "type": "operational_loss",
-    "weapon": "N/A \u2014 aircraft loss not due to hostile or friendly fire",
+    "weapon": "N/A — aircraft loss not due to hostile or friendly fire",
     "origin": "N/A",
     "first_strike": "2026-03-12",
     "casualties_reported": "6 US crew members killed",
@@ -560,7 +560,7 @@
     "active_days": [
       13
     ],
-    "notes": "US KC-135 refueling aircraft lost over western Iraq on March 12. All 6 crew confirmed dead by March 13. CENTCOM confirmed loss was NOT due to hostile fire or friendly fire. Under investigation. Brings total US military deaths in conflict to 13. KC-135s from Prince Sultan Air Base form backbone of strike operations \u2014 loss highlights vulnerability of tanker fleet.",
+    "notes": "US KC-135 refueling aircraft lost over western Iraq on March 12. All 6 crew confirmed dead by March 13. CENTCOM confirmed loss was NOT due to hostile fire or friendly fire. Under investigation. Brings total US military deaths in conflict to 13. KC-135s from Prince Sultan Air Base form backbone of strike operations — loss highlights vulnerability of tanker fleet.",
     "verified": true,
     "last_updated": "2026-03-17"
   },
@@ -579,7 +579,7 @@
       15,
       17
     ],
-    "notes": "Key strategic target \u2014 Fujairah is the terminus of the UAE's Habshan-Fujairah pipeline (1.5 mbd capacity), the primary bypass route for oil exports around the Strait of Hormuz. First attack March 14: intercepted drone debris struck bunkering facility, starting fire and suspending oil-loading. Second attack March 16: direct drone strike, oil-loading suspended again. Two shutdowns in three days signals deliberate Iranian strategy to close the Hormuz bypass. If Fujairah stays offline, the 12.35 mbd shortfall widens to 13.85 mbd.",
+    "notes": "Key strategic target — Fujairah is the terminus of the UAE's Habshan-Fujairah pipeline (1.5 mbd capacity), the primary bypass route for oil exports around the Strait of Hormuz. First attack March 14: intercepted drone debris struck bunkering facility, starting fire and suspending oil-loading. Second attack March 16: direct drone strike, oil-loading suspended again. Two shutdowns in three days signals deliberate Iranian strategy to close the Hormuz bypass. If Fujairah stays offline, the 12.35 mbd shortfall widens to 13.85 mbd.",
     "verified": true,
     "last_updated": "2026-03-17"
   },
@@ -597,7 +597,7 @@
     "active_days": [
       17
     ],
-    "notes": "World's busiest airport for international passengers struck by Iranian drone hitting a fuel tank on March 16. All flights suspended for several hours. Emirates diverted flights to Abu Dhabi and Al Maktoum Airport; one Dublin-bound flight turned around over Egypt. Emirates resumed limited service after 10am local. Represents significant escalation \u2014 targeting the UAE's primary civilian aviation hub and a symbol of Gulf prosperity. Hundreds of thousands of travelers affected.",
+    "notes": "World's busiest airport for international passengers struck by Iranian drone hitting a fuel tank on March 16. All flights suspended for several hours. Emirates diverted flights to Abu Dhabi and Al Maktoum Airport; one Dublin-bound flight turned around over Egypt. Emirates resumed limited service after 10am local. Represents significant escalation — targeting the UAE's primary civilian aviation hub and a symbol of Gulf prosperity. Hundreds of thousands of travelers affected.",
     "verified": true,
     "last_updated": "2026-03-18"
   },
@@ -615,7 +615,7 @@
     "active_days": [
       18
     ],
-    "notes": "Fourth attack on Fujairah Oil Industry Zone since March 9. Drone strike sparked fires. Part of deliberate Iranian strategy to close the Hormuz bypass route via Fujairah. The Habshan-Fujairah (ADCOP) pipeline (1.5 mbd capacity) runs to Fujairah \u2014 repeated attacks have suspended oil loadings multiple times. Bunkering volumes down 60%+.",
+    "notes": "Fourth attack on Fujairah Oil Industry Zone since March 9. Drone strike sparked fires. Part of deliberate Iranian strategy to close the Hormuz bypass route via Fujairah. The Habshan-Fujairah (ADCOP) pipeline (1.5 mbd capacity) runs to Fujairah — repeated attacks have suspended oil loadings multiple times. Bunkering volumes down 60%+.",
     "verified": true,
     "last_updated": "2026-03-18"
   },
@@ -646,7 +646,7 @@
     "weapon": "Drone",
     "origin": "Iran",
     "first_strike": "2026-03-17",
-    "casualties_reported": "Fire in residential building \u2014 casualties unknown.",
+    "casualties_reported": "Fire in residential building — casualties unknown.",
     "casualties_source": "Al Jazeera",
     "active_days": [
       18
@@ -698,14 +698,14 @@
     "lng": 34.81,
     "type": "iran_retaliation",
     "weapon": "Ballistic missile with cluster warheads",
-    "origin": "Iran (IRGC \u2014 '57th wave of Operation True Promise 4')",
+    "origin": "Iran (IRGC — '57th wave of Operation True Promise 4')",
     "first_strike": "2026-03-17",
     "casualties_reported": "2 elderly civilians killed (couple in their 70s, Ramat Gan). 1 wounded (25-year-old, shrapnel, Bnei Brak). Tel Aviv train station damaged.",
     "casualties_source": "NPR / Times of Israel / PressTV / IDF",
     "active_days": [
       18
     ],
-    "notes": "IRGC launched combined drone and ballistic missile attacks on central Israel in retaliation for Larijani killing. Cluster-munition warheads from ballistic missile killed couple in Ramat Gan. ~50% of ballistic missiles now carry cluster warheads to bypass Israeli defenses. Cumulative Israeli casualties: 16+ killed, 3,400+ wounded. Iran claims 'over 100 military and security targets' hit. 290 of 410-440 Iranian launch vehicles destroyed \u2014 daily missile volume down from ~100 on Day 1 to single digits by Day 18.",
+    "notes": "IRGC launched combined drone and ballistic missile attacks on central Israel in retaliation for Larijani killing. Cluster-munition warheads from ballistic missile killed couple in Ramat Gan. ~50% of ballistic missiles now carry cluster warheads to bypass Israeli defenses. Cumulative Israeli casualties: 16+ killed, 3,400+ wounded. Iran claims 'over 100 military and security targets' hit. 290 of 410-440 Iranian launch vehicles destroyed — daily missile volume down from ~100 on Day 1 to single digits by Day 18.",
     "verified": true,
     "last_updated": "2026-03-18"
   },
@@ -742,7 +742,7 @@
       19,
       20
     ],
-    "notes": "CRITICAL \u2014 World's largest LNG production facility handling ~20% of global LNG supply. IRGC struck in two waves (March 18-19) in retaliation for South Pars strike. QatarEnergy confirmed LNG Trains 4 and 6 damaged \u2014 12.8 MTPA, representing 17% of Qatar's LNG exports. Repair timeline: 3-5 years. Force majeure declared on contracts to Belgium, Italy, South Korea, China. Estimated revenue loss: ~$20B/year (~9% of Qatar's GDP). Pearl GTL (Shell-operated) also damaged \u2014 offline minimum 1 year. Qatar expelled Iran's military and security attach\u00e9s within 24 hours. Wood Mackenzie: 'fundamentally reshaping the global LNG outlook.' TTF gas surged ~30-33%.",
+    "notes": "CRITICAL — World's largest LNG production facility handling ~20% of global LNG supply. IRGC struck in two waves (March 18-19) in retaliation for South Pars strike. QatarEnergy confirmed LNG Trains 4 and 6 damaged — 12.8 MTPA, representing 17% of Qatar's LNG exports. Repair timeline: 3-5 years. Force majeure declared on contracts to Belgium, Italy, South Korea, China. Estimated revenue loss: ~$20B/year (~9% of Qatar's GDP). Pearl GTL (Shell-operated) also damaged — offline minimum 1 year. Qatar expelled Iran's military and security attachés within 24 hours. Wood Mackenzie: 'fundamentally reshaping the global LNG outlook.' TTF gas surged ~30-33%.",
     "verified": true,
     "last_updated": "2026-03-20"
   },
@@ -761,7 +761,7 @@
       20,
       21
     ],
-    "notes": "STRATEGIC \u2014 Yanbu is now Saudi Arabia's only functional crude export terminal due to Hormuz closure. SAMREF refinery (400,000 bpd JV between Aramco and ExxonMobil) struck by drone Mar 19 \u2014 'minimal impact.' Ballistic missile aimed at Yanbu port intercepted. Mar 20: Saudi intercepted missile over northern Al Jouf, shot down 10 drones in east and 1 in north. Saudi ramped Yanbu volume to ~5.9 mbd through East-West pipeline (from pre-war 1-1.5 mbd). Saudi shot down at least 47 drones including 38 within a three-hour window over eastern oil-rich region on Mar 21.",
+    "notes": "STRATEGIC — Yanbu is now Saudi Arabia's only functional crude export terminal due to Hormuz closure. SAMREF refinery (400,000 bpd JV between Aramco and ExxonMobil) struck by drone Mar 19 — 'minimal impact.' Ballistic missile aimed at Yanbu port intercepted. Mar 20: Saudi intercepted missile over northern Al Jouf, shot down 10 drones in east and 1 in north. Saudi ramped Yanbu volume to ~5.9 mbd through East-West pipeline (from pre-war 1-1.5 mbd). Saudi shot down at least 47 drones including 38 within a three-hour window over eastern oil-rich region on Mar 21.",
     "verified": true,
     "last_updated": "2026-03-21"
   },
@@ -829,14 +829,14 @@
     "lng": 72.41,
     "type": "iran_retaliation",
     "weapon": "Intermediate-range ballistic missiles (2x)",
-    "origin": "Iran \u2014 ~2,500 miles (4,000 km) from Iranian territory",
+    "origin": "Iran — ~2,500 miles (4,000 km) from Iranian territory",
     "first_strike": "2026-03-21",
     "casualties_reported": "No impact on base. One missile failed in flight; US warship fired SM-3 interceptor at the other.",
     "casualties_source": "Wall Street Journal / IDF Chief of Staff Zamir",
     "active_days": [
       22
     ],
-    "notes": "UNPRECEDENTED RANGE \u2014 Iran fired two intermediate-range ballistic missiles at joint US-UK base on Diego Garcia, approximately 2,500 miles (4,000 km) from Iranian territory. Far exceeds Iran's previously acknowledged 2,000 km missile range. IDF Chief Zamir noted 4,000 km range puts European capitals (Berlin, Paris, Rome) within Iranian reach. Speculation centers on possible use of space launch vehicle to extend range. Neither struck the base.",
+    "notes": "UNPRECEDENTED RANGE — Iran fired two intermediate-range ballistic missiles at joint US-UK base on Diego Garcia, approximately 2,500 miles (4,000 km) from Iranian territory. Far exceeds Iran's previously acknowledged 2,000 km missile range. IDF Chief Zamir noted 4,000 km range puts European capitals (Berlin, Paris, Rome) within Iranian reach. Speculation centers on possible use of space launch vehicle to extend range. Neither struck the base.",
     "verified": true,
     "last_updated": "2026-03-21"
   },
@@ -847,14 +847,14 @@
     "lng": 35.21,
     "type": "iran_retaliation",
     "weapon": "Ballistic missile",
-    "origin": "Iran (IRGC \u2014 part of '70th wave of attacks')",
+    "origin": "Iran (IRGC — part of '70th wave of attacks')",
     "first_strike": "2026-03-21",
     "casualties_reported": "47 people hospitalized including 12-year-old boy in serious condition. Interceptors failed to knock down the missile.",
     "casualties_source": "IDF / Israeli media",
     "active_days": [
       22
     ],
-    "notes": "Iranian ballistic missile struck Dimona \u2014 city hosting Israel's Shimon Peres Negev Nuclear Research Center. IDF confirmed interceptors FAILED to knock down the missile. 47 hospitalized. IRGC called it 'revenge for Natanz.' Part of nine separate missile salvos from Iran on March 21.",
+    "notes": "Iranian ballistic missile struck Dimona — city hosting Israel's Shimon Peres Negev Nuclear Research Center. IDF confirmed interceptors FAILED to knock down the missile. 47 hospitalized. IRGC called it 'revenge for Natanz.' Part of nine separate missile salvos from Iran on March 21.",
     "verified": true,
     "last_updated": "2026-03-21"
   },
@@ -867,7 +867,7 @@
     "weapon": "Ballistic missile with cluster munitions",
     "origin": "Iran (IRGC)",
     "first_strike": "2026-03-21",
-    "casualties_reported": "Building was empty \u2014 no casualties from daycare impact. 7 impact sites across area. Residential damage in Bnei Brak, Shoham, Rosh Ha'ayin.",
+    "casualties_reported": "Building was empty — no casualties from daycare impact. 7 impact sites across area. Residential damage in Bnei Brak, Shoham, Rosh Ha'ayin.",
     "casualties_source": "IDF / Israeli media",
     "active_days": [
       22
@@ -913,7 +913,7 @@
       24,
       25
     ],
-    "notes": "Day 25 (Mar 24): IRGC attacked US 5th Fleet HQ in Bahrain with missiles and drones. 1 Emirati soldier KIA alongside Bahraini forces \u2014 first confirmed UAE combat death in direct Iranian attack. Cumulative war total: 153 missiles and 301 drones intercepted.",
+    "notes": "Day 25 (Mar 24): IRGC attacked US 5th Fleet HQ in Bahrain with missiles and drones. 1 Emirati soldier KIA alongside Bahraini forces — first confirmed UAE combat death in direct Iranian attack. Cumulative war total: 153 missiles and 301 drones intercepted.",
     "verified": true,
     "last_updated": "2026-03-24"
   },
@@ -926,7 +926,7 @@
     "weapon": "Ballistic missiles with conventional warheads (hundreds of kg of explosives)",
     "origin": "Iran (IRGC)",
     "first_strike": "2026-03-21",
-    "casualties_reported": "180-200 injured. Dimona: ~47 injured incl. 12-year-old boy (serious). Arad: ~84-116 injured incl. 5-year-old girl (serious), 10 serious, 19 moderate. Mass casualty event declared at Soroka Hospital, Beersheba. 8 killed per Greek City Times ONLY \u2014 UNVERIFIED.",
+    "casualties_reported": "180-200 injured. Dimona: ~47 injured incl. 12-year-old boy (serious). Arad: ~84-116 injured incl. 5-year-old girl (serious), 10 serious, 19 moderate. Mass casualty event declared at Soroka Hospital, Beersheba. 8 killed per Greek City Times ONLY — UNVERIFIED.",
     "casualties_source": "Times of Israel / Al Jazeera / Haaretz / Jerusalem Post / PBS/AP / CNN",
     "active_days": [
       22
@@ -944,12 +944,12 @@
     "weapon": "2 intermediate-range ballistic missiles (two-stage, ~4,000 km range; possibly improvised Simorgh space launch rocket)",
     "origin": "Iran (IRGC)",
     "first_strike": "2026-03-21",
-    "casualties_reported": "No casualties. Both missiles missed \u2014 1 malfunctioned in flight, 1 intercepted (Euronews citing British official).",
+    "casualties_reported": "No casualties. Both missiles missed — 1 malfunctioned in flight, 1 intercepted (Euronews citing British official).",
     "casualties_source": "Bloomberg / CNN / Times of Israel / Euronews / CNBC / Fox News / WSJ",
     "active_days": [
       22
     ],
-    "notes": "First attack on Diego Garcia in history. Demonstrates Iranian missile range of ~4,000 km \u2014 double the previously self-imposed 2,000 km limit. IDF Chief Zamir: 'Europe is within range.' Raised alarm across European capitals. US-UK military base used for B-2 bomber staging and Tomahawk launches. UK approved US use of Diego Garcia and RAF Fairford for 'specific and limited defensive operations' against Iranian missile sites. UK MoD confirmed attack.",
+    "notes": "First attack on Diego Garcia in history. Demonstrates Iranian missile range of ~4,000 km — double the previously self-imposed 2,000 km limit. IDF Chief Zamir: 'Europe is within range.' Raised alarm across European capitals. US-UK military base used for B-2 bomber staging and Tomahawk launches. UK approved US use of Diego Garcia and RAF Fairford for 'specific and limited defensive operations' against Iranian missile sites. UK MoD confirmed attack.",
     "verified": true,
     "last_updated": "2026-03-22"
   },
@@ -962,7 +962,7 @@
     "weapon": "Ballistic missiles",
     "origin": "Iran",
     "first_strike": "2026-03-23",
-    "casualties_reported": "Unknown \u2014 rocket trails photographed over city",
+    "casualties_reported": "Unknown — rocket trails photographed over city",
     "casualties_source": "Israeli media / Reuters",
     "active_days": [
       24
@@ -1016,14 +1016,14 @@
     "lng": 51.531,
     "type": "operational_loss",
     "weapon": "Helicopter crash during routine duty",
-    "origin": "N/A \u2014 operational accident",
+    "origin": "N/A — operational accident",
     "first_strike": "2026-03-23",
     "casualties_reported": "7 killed (4 Qatari + 3 Turkish military)",
     "casualties_source": "Qatar MoD / Turkish MoD / Reuters",
     "active_days": [
       24
     ],
-    "notes": "Day 24 (Mar 23): 7 killed in helicopter crash during routine duty \u2014 4 Qatari and 3 Turkish military personnel. Separately, Ras Laffan LNG damage confirmed: 2 production trains knocked out \u2014 12.8 MTPA lost (17% of Qatar's LNG exports), repair timeline 3-5 years, revenue loss ~$20B/year. QatarEnergy declared force majeure on entire LNG output.",
+    "notes": "Day 24 (Mar 23): 7 killed in helicopter crash during routine duty — 4 Qatari and 3 Turkish military personnel. Separately, Ras Laffan LNG damage confirmed: 2 production trains knocked out — 12.8 MTPA lost (17% of Qatar's LNG exports), repair timeline 3-5 years, revenue loss ~$20B/year. QatarEnergy declared force majeure on entire LNG output.",
     "verified": true,
     "last_updated": "2026-03-23"
   },
@@ -1041,7 +1041,7 @@
     "active_days": [
       24
     ],
-    "notes": "Day 24 (Mar 23): Hezbollah launched missiles at northern Israel; one person in Kiryat Shmona moderately-to-severely wounded. IDF struck a Quds Force affiliate in Beirut in response. An Israeli civilian killed near the Lebanon border on March 22 may have been hit by Israeli artillery fire, not Hezbollah \u2014 IDF investigating.",
+    "notes": "Day 24 (Mar 23): Hezbollah launched missiles at northern Israel; one person in Kiryat Shmona moderately-to-severely wounded. IDF struck a Quds Force affiliate in Beirut in response. An Israeli civilian killed near the Lebanon border on March 22 may have been hit by Israeli artillery fire, not Hezbollah — IDF investigating.",
     "verified": true,
     "last_updated": "2026-03-23"
   },
@@ -1059,7 +1059,7 @@
     "active_days": [
       25
     ],
-    "notes": "Day 25 (Mar 24): Iran launched seven waves of ballistic missiles at Israel since midnight. At least 4 impact sites confirmed in central Tel Aviv \u2014 buildings damaged, vehicles burning. 6 people wounded per MDA. Sirens sounded in Dimona near Negev Nuclear Research Center. Cluster munition struck Nesher near Haifa with no injuries. 4 people including 2 infants injured when missile fragment hit a home in a southern Bedouin community.",
+    "notes": "Day 25 (Mar 24): Iran launched seven waves of ballistic missiles at Israel since midnight. At least 4 impact sites confirmed in central Tel Aviv — buildings damaged, vehicles burning. 6 people wounded per MDA. Sirens sounded in Dimona near Negev Nuclear Research Center. Cluster munition struck Nesher near Haifa with no injuries. 4 people including 2 infants injured when missile fragment hit a home in a southern Bedouin community.",
     "verified": true,
     "last_updated": "2026-03-24"
   },
@@ -1131,7 +1131,7 @@
     "active_days": [
       26
     ],
-    "notes": "Day 26 (Mar 25): Kuwait International Airport drone strike. Fuel tank hit, large fire. No casualties \u2014 'damage limited to property.'",
+    "notes": "Day 26 (Mar 25): Kuwait International Airport drone strike. Fuel tank hit, large fire. No casualties — 'damage limited to property.'",
     "verified": true,
     "last_updated": "2026-03-25"
   },
@@ -1167,7 +1167,7 @@
     "active_days": [
       26
     ],
-    "notes": "Day 26 (Mar 25): Iran targets Israel's Orot Rabin power plant in Hadera \u2014 largest energy facility providing 20-25% of electricity. No damage or injuries reported. Missile defense successful.",
+    "notes": "Day 26 (Mar 25): Iran targets Israel's Orot Rabin power plant in Hadera — largest energy facility providing 20-25% of electricity. No damage or injuries reported. Missile defense successful.",
     "verified": true,
     "last_updated": "2026-03-25"
   },
@@ -1231,7 +1231,7 @@
     "lat": 26.0667,
     "lng": 50.5577,
     "type": "iran_retaliation",
-    "weapon": "Unknown \u2014 fire reported at facility",
+    "weapon": "Unknown — fire reported at facility",
     "origin": "Iran",
     "first_strike": "2026-03-26",
     "casualties_reported": "No casualties reported. Fire at facility.",
@@ -1286,7 +1286,7 @@
     "lng": 34.87,
     "type": "iran_retaliation",
     "weapon": "Ballistic missiles with cluster warheads (7+ salvos)",
-    "origin": "Iran (IRGC \u2014 82nd wave)",
+    "origin": "Iran (IRGC — 82nd wave)",
     "first_strike": "2026-03-27",
     "casualties_reported": "At least 10 wounded near Netanya, Kfar Qasim, and Ganei Tikva. Sirens in Jerusalem, West Bank, and central Israel.",
     "casualties_source": "Times of Israel / IDF / Reuters",
@@ -1306,7 +1306,7 @@
     "weapon": "Drones",
     "origin": "Iran (IRGC)",
     "first_strike": "2026-03-27",
-    "casualties_reported": "Unknown \u2014 port area struck",
+    "casualties_reported": "Unknown — port area struck",
     "casualties_source": "IRGC statement / IDF",
     "active_days": [
       28
@@ -1365,7 +1365,7 @@
     "active_days": [
       29
     ],
-    "notes": "Day 29 (Mar 28): BREAKING \u2014 Houthis launched first military operation of the war \u2014 ballistic missile barrage targeting 'sensitive Israeli military sites' in southern Israel. Sirens sounded in Beersheba near Dimona nuclear research center. Houthi spokesman Brig. Gen. Yahya Saree announced attack. Deputy information minister declared 'closing the Bab al-Mandeb strait is among our options.' ~30 tankers staged near Yanbu within Houthi strike range. Ends 28 days of Houthi restraint \u2014 opens third active front.",
+    "notes": "Day 29 (Mar 28): BREAKING — Houthis launched first military operation of the war — ballistic missile barrage targeting 'sensitive Israeli military sites' in southern Israel. Sirens sounded in Beersheba near Dimona nuclear research center. Houthi spokesman Brig. Gen. Yahya Saree announced attack. Deputy information minister declared 'closing the Bab al-Mandeb strait is among our options.' ~30 tankers staged near Yanbu within Houthi strike range. Ends 28 days of Houthi restraint — opens third active front.",
     "verified": true,
     "last_updated": "2026-03-28"
   },
@@ -1383,7 +1383,7 @@
     "active_days": [
       29
     ],
-    "notes": "Day 29 (Mar 28): Iranian missiles struck 8 sites in Tel Aviv including a university. 1 killed, 2 injured. Iran has fired 500+ ballistic/naval missiles and ~2,000 drones since Day 1. Over 90% intercepted but attacks on radar systems have eroded the detection network. Missile launch rate declining \u2014 analysts cite stock depletion and rationing strategy.",
+    "notes": "Day 29 (Mar 28): Iranian missiles struck 8 sites in Tel Aviv including a university. 1 killed, 2 injured. Iran has fired 500+ ballistic/naval missiles and ~2,000 drones since Day 1. Over 90% intercepted but attacks on radar systems have eroded the detection network. Missile launch rate declining — analysts cite stock depletion and rationing strategy.",
     "verified": true,
     "last_updated": "2026-03-28"
   },
@@ -1469,7 +1469,7 @@
     "weapon": "Missiles",
     "origin": "Yemen (Houthi)",
     "first_strike": "2026-03-28",
-    "casualties_reported": "Intercepted \u2014 no impact confirmed",
+    "casualties_reported": "Intercepted — no impact confirmed",
     "casualties_source": "IDF / Houthi media",
     "active_days": [
       29,
@@ -1542,7 +1542,7 @@
     "weapon": "16 ballistic missiles / 42 drones",
     "origin": "Iran (IRGC)",
     "first_strike": "2026-03-29",
-    "casualties_reported": "All intercepted \u2014 no impact confirmed",
+    "casualties_reported": "All intercepted — no impact confirmed",
     "casualties_source": "UAE MoD",
     "active_days": [
       30
@@ -1578,7 +1578,7 @@
     "weapon": "Drone",
     "origin": "Iran (IRGC)",
     "first_strike": "2026-03-31",
-    "casualties_reported": "Major oil spill risk \u2014 damage assessment ongoing",
+    "casualties_reported": "Major oil spill risk — damage assessment ongoing",
     "casualties_source": "Reuters / Bloomberg / UAE MoD",
     "active_days": [
       32
@@ -1596,7 +1596,7 @@
     "weapon": "Ballistic missiles",
     "origin": "Yemen (Houthi)",
     "first_strike": "2026-03-28",
-    "casualties_reported": "Intercepted \u2014 coordinated with Iran and Hezbollah",
+    "casualties_reported": "Intercepted — coordinated with Iran and Hezbollah",
     "casualties_source": "IDF / Houthi media",
     "active_days": [
       29,
@@ -1604,7 +1604,7 @@
       31,
       32
     ],
-    "notes": "Day 29-32 (Mar 28-31): Continued Houthi missile barrages at Israel, including coordinated strikes alongside Iran and Hezbollah. Houthi deputy information minister stated 'closing the Bab al-Mandeb Strait is among our options' \u2014 dual chokepoint scenario. IRGC reportedly pushing Houthis toward Bab al-Mandeb closure.",
+    "notes": "Day 29-32 (Mar 28-31): Continued Houthi missile barrages at Israel, including coordinated strikes alongside Iran and Hezbollah. Houthi deputy information minister stated 'closing the Bab al-Mandeb Strait is among our options' — dual chokepoint scenario. IRGC reportedly pushing Houthis toward Bab al-Mandeb closure.",
     "verified": true,
     "last_updated": "2026-03-31"
   },
@@ -1615,7 +1615,7 @@
     "lng": 34.8333,
     "type": "iran_retaliation",
     "weapon": "Ballistic missile with cluster bomb warhead",
-    "origin": "Iran (IRGC \u2014 3 waves within 1 hour)",
+    "origin": "Iran (IRGC — 3 waves within 1 hour)",
     "first_strike": "2026-04-01",
     "casualties_reported": "14-16 wounded including 10-12yr girl critically injured (glass shrapnel, Sheba Medical: 'teams fighting for her life'), 13yr boy seriously wounded (trying to wake deaf mother), father in moderate condition.",
     "casualties_source": "Sheba Medical Center / IDF / Times of Israel / CNN",
@@ -1748,7 +1748,7 @@
     "active_days": [
       33
     ],
-    "notes": "Day 33 (Apr 1): Israeli airstrike on Beirut's Jnah neighborhood without warning killed 7, wounded 26. In separate naval strike, Israel killed Hajj Yusuf Ismail Hashem, commander of Hezbollah's Southern Front \u2014 described as most senior Hezbollah figure eliminated with '40+ years of experience.' A second 'senior terrorist' killed in separate Beirut strike. Hezbollah rocket struck home in Kiryat Shmona. Drone infiltrated northern Israel over Kiryat Shmona.",
+    "notes": "Day 33 (Apr 1): Israeli airstrike on Beirut's Jnah neighborhood without warning killed 7, wounded 26. In separate naval strike, Israel killed Hajj Yusuf Ismail Hashem, commander of Hezbollah's Southern Front — described as most senior Hezbollah figure eliminated with '40+ years of experience.' A second 'senior terrorist' killed in separate Beirut strike. Hezbollah rocket struck home in Kiryat Shmona. Drone infiltrated northern Israel over Kiryat Shmona.",
     "verified": true,
     "last_updated": "2026-04-01"
   },
@@ -1766,7 +1766,7 @@
     "active_days": [
       34
     ],
-    "notes": "Day 34 (Apr 2): 4 IRGC missile salvos at Israel since midnight, some with cluster warheads \u2014 significant escalation in munition type. 4 civilians wounded in Bnei Brak including 2 infants. Iran's military told CNN the US and Israel face 'lasting regret and ultimate surrender.'",
+    "notes": "Day 34 (Apr 2): 4 IRGC missile salvos at Israel since midnight, some with cluster warheads — significant escalation in munition type. 4 civilians wounded in Bnei Brak including 2 infants. Iran's military told CNN the US and Israel face 'lasting regret and ultimate surrender.'",
     "verified": true,
     "last_updated": "2026-04-02"
   },
@@ -1821,7 +1821,7 @@
       33,
       34
     ],
-    "notes": "Day 33-34: IDF killed Hezbollah southern front commander Haj Youssef Ismail Hashem in a Beirut strike on April 1 \u2014 most senior Hezbollah figure eliminated with '40+ years experience'.",
+    "notes": "Day 33-34: IDF killed Hezbollah southern front commander Haj Youssef Ismail Hashem in a Beirut strike on April 1 — most senior Hezbollah figure eliminated with '40+ years experience'.",
     "verified": true,
     "last_updated": "2026-04-02"
   },
@@ -1841,7 +1841,7 @@
       35,
       36
     ],
-    "notes": "Day 34-36 (Apr 2-4): Houthis continued missile and UAV attacks on Israel \u2014 4 attacks in 7 days since resuming March 28. All intercepted. Senior politburo member Mohammed al-Bukhaiti considering Bab al-Mandeb naval blockade targeting 'aggressor country' vessels. Bloomberg Economics warned Houthi Red Sea disruption could push oil to $140/barrel since Saudi Arabia rerouted 5M bpd through Red Sea ports. Houthis holding fire on commercial shipping but threatening blockade escalation.",
+    "notes": "Day 34-36 (Apr 2-4): Houthis continued missile and UAV attacks on Israel — 4 attacks in 7 days since resuming March 28. All intercepted. Senior politburo member Mohammed al-Bukhaiti considering Bab al-Mandeb naval blockade targeting 'aggressor country' vessels. Bloomberg Economics warned Houthi Red Sea disruption could push oil to $140/barrel since Saudi Arabia rerouted 5M bpd through Red Sea ports. Houthis holding fire on commercial shipping but threatening blockade escalation.",
     "verified": true,
     "last_updated": "2026-04-04"
   },
@@ -1894,7 +1894,7 @@
       35,
       36
     ],
-    "notes": "Day 36 cumulative update: UAE has absorbed the heaviest bombardment of any GCC state \u2014 438 ballistic missiles, 2,012 drones, and 19 cruise missiles as of April 1. Abu Dhabi airport struck. Dubai landmarks damaged. This entry tracks the cumulative Iranian campaign against the UAE.",
+    "notes": "Day 36 cumulative update: UAE has absorbed the heaviest bombardment of any GCC state — 438 ballistic missiles, 2,012 drones, and 19 cruise missiles as of April 1. Abu Dhabi airport struck. Dubai landmarks damaged. This entry tracks the cumulative Iranian campaign against the UAE.",
     "verified": true,
     "last_updated": "2026-04-04"
   },
@@ -1955,7 +1955,7 @@
     "active_days": [
       37
     ],
-    "notes": "Day 37 (Apr 5): Iran struck the Neot Hovav industrial zone in southern Israel \u2014 the third hit on that facility during the war. IDF instructed southern civilians to remain in shelters.",
+    "notes": "Day 37 (Apr 5): Iran struck the Neot Hovav industrial zone in southern Israel — the third hit on that facility during the war. IDF instructed southern civilians to remain in shelters.",
     "verified": true,
     "last_updated": "2026-04-05"
   },
@@ -1974,7 +1974,7 @@
       36,
       37
     ],
-    "notes": "Day 36-37 (Apr 3-5): Hezbollah rocket attacks triggered sirens 60 km from the Lebanese border (Umm al-Fahm) \u2014 deepest Hezbollah strikes. IDF Sgt. First Class Guy Ludar, 21, killed in Lebanon Apr 4, reportedly by friendly fire. Hezbollah claimed missile strike against Israeli warship off Lebanon's coast Apr 5; IDF said 'not aware' of incident. Israel ordered evacuation of Lebanon's Masnaa crossing with Syria. IDF expanding ground operations toward Litani River.",
+    "notes": "Day 36-37 (Apr 3-5): Hezbollah rocket attacks triggered sirens 60 km from the Lebanese border (Umm al-Fahm) — deepest Hezbollah strikes. IDF Sgt. First Class Guy Ludar, 21, killed in Lebanon Apr 4, reportedly by friendly fire. Hezbollah claimed missile strike against Israeli warship off Lebanon's coast Apr 5; IDF said 'not aware' of incident. Israel ordered evacuation of Lebanon's Masnaa crossing with Syria. IDF expanding ground operations toward Litani River.",
     "verified": true,
     "last_updated": "2026-04-05"
   },
@@ -2058,10 +2058,10 @@
     "lat": 31.77,
     "lng": 35.22,
     "type": "iran_retaliation",
-    "weapon": "Cruise missiles and drones \u2014 coordinated Houthi-Iran-Hezbollah attack",
+    "weapon": "Cruise missiles and drones — coordinated Houthi-Iran-Hezbollah attack",
     "origin": "Coordinated",
     "first_strike": "2026-04-06",
-    "casualties_reported": "Unknown \u2014 targeting 'vital and military sites'",
+    "casualties_reported": "Unknown — targeting 'vital and military sites'",
     "casualties_source": "Houthi media / Al Masirah / IDF",
     "active_days": [
       38
@@ -2097,7 +2097,7 @@
     "weapon": "Ballistic missiles / drones",
     "origin": "Iran",
     "first_strike": "2026-04-07",
-    "casualties_reported": "Fires confirmed \u2014 casualties unknown",
+    "casualties_reported": "Fires confirmed — casualties unknown",
     "casualties_source": "Saudi MoD / Reuters / video footage",
     "active_days": [
       39
@@ -2138,7 +2138,7 @@
     "active_days": [
       39
     ],
-    "notes": "Day 39 (Apr 7): Hezbollah launched 24 attack waves toward northern Israel, with ~40 rockets hitting communities including Nahariya (2 civilians injured). Hezbollah halted attacks after the ceasefire announcement. However, Netanyahu explicitly stated the ceasefire does not apply to Lebanon \u2014 directly contradicting Pakistan's PM Sharif.",
+    "notes": "Day 39 (Apr 7): Hezbollah launched 24 attack waves toward northern Israel, with ~40 rockets hitting communities including Nahariya (2 civilians injured). Hezbollah halted attacks after the ceasefire announcement. However, Netanyahu explicitly stated the ceasefire does not apply to Lebanon — directly contradicting Pakistan's PM Sharif.",
     "verified": true,
     "last_updated": "2026-04-08"
   },
@@ -2151,12 +2151,12 @@
     "weapon": "Ballistic missiles / rockets",
     "origin": "Hezbollah / Lebanon",
     "first_strike": "2026-04-09",
-    "casualties_reported": "Not confirmed \u2014 early reports of impacts in northern Israel",
+    "casualties_reported": "Not confirmed — early reports of impacts in northern Israel",
     "casualties_source": "IDF / Hezbollah / Reuters / Al Jazeera",
     "active_days": [
       41
     ],
-    "notes": "Day 41 (Apr 9): In the early hours of April 9, Hezbollah launched retaliatory missile attacks on northern Israel in response to Israel's 'Operation Eternal Darkness' the previous day (Apr 8, 254 killed in Lebanon). Hezbollah lawmaker Hassan Fadlallah called the April 8 strikes 'a grave violation of the ceasefire.' The IDF admitted it overestimated damage to Hezbollah from the 2024 war \u2014 the group still has hundreds of launchers and tens of thousands of rockets, rebuilt with new weapons including FPV drones and possibly Russian anti-ship missiles. The escalation cycle on the Lebanon periphery threatens to pull the entire ceasefire down. Netanyahu's refusal to include Lebanon in the ceasefire is the core fracture. Soufan Center Apr 9 assessment: ceasefire 'hovers on the verge of collapse.'",
+    "notes": "Day 41 (Apr 9): In the early hours of April 9, Hezbollah launched retaliatory missile attacks on northern Israel in response to Israel's 'Operation Eternal Darkness' the previous day (Apr 8, 254 killed in Lebanon). Hezbollah lawmaker Hassan Fadlallah called the April 8 strikes 'a grave violation of the ceasefire.' The IDF admitted it overestimated damage to Hezbollah from the 2024 war — the group still has hundreds of launchers and tens of thousands of rockets, rebuilt with new weapons including FPV drones and possibly Russian anti-ship missiles. The escalation cycle on the Lebanon periphery threatens to pull the entire ceasefire down. Netanyahu's refusal to include Lebanon in the ceasefire is the core fracture. Soufan Center Apr 9 assessment: ceasefire 'hovers on the verge of collapse.'",
     "verified": true,
     "last_updated": "2026-04-09"
   },
@@ -2175,7 +2175,7 @@
       42,
       43
     ],
-    "notes": "Days 42-43 (Apr 10-11): Hezbollah fired 30+ rockets at northern Israel on April 10 alone \u2014 striking Kibbutz Misgav Am (house hit), Deir al-Asad (school), Safed (parking lot), Kiryat Shmona (fires). Hezbollah also claimed attack on Ashdod naval base. Since the ceasefire began Apr 7, Hezbollah has fired 100+ rockets at Israel. One IDF NCO severely wounded by suicide drone in southern Lebanon. Cumulative Lebanon toll since March 2: 1,888-1,953 killed, 6,303+ wounded. Israel struck 120 Hezbollah sites in 24 hours around Apr 10. 14 killed in Lebanon Apr 10 including 13 Lebanese State Security personnel hit in government building in Nabatieh. Houthi activity limited but persistent: 4 attacks on Israel since resuming Mar 28 (all intercepted); no Red Sea shipping attacks resumed. Houthi leader declared ceasefire \"a great victory.\"",
+    "notes": "Days 42-43 (Apr 10-11): Hezbollah fired 30+ rockets at northern Israel on April 10 alone — striking Kibbutz Misgav Am (house hit), Deir al-Asad (school), Safed (parking lot), Kiryat Shmona (fires). Hezbollah also claimed attack on Ashdod naval base. Since the ceasefire began Apr 7, Hezbollah has fired 100+ rockets at Israel. One IDF NCO severely wounded by suicide drone in southern Lebanon. Cumulative Lebanon toll since March 2: 1,888-1,953 killed, 6,303+ wounded. Israel struck 120 Hezbollah sites in 24 hours around Apr 10. 14 killed in Lebanon Apr 10 including 13 Lebanese State Security personnel hit in government building in Nabatieh. Houthi activity limited but persistent: 4 attacks on Israel since resuming Mar 28 (all intercepted); no Red Sea shipping attacks resumed. Houthi leader declared ceasefire \"a great victory.\"",
     "verified": true,
     "last_updated": "2026-04-11"
   },
@@ -2194,7 +2194,7 @@
       47,
       48
     ],
-    "notes": "Days 47-48 (Apr 15-16): Hezbollah launched ~30 rockets at northern Israel Apr 15 morning (IDF confirmed); claimed 24 separate attacks Apr 14 on northern Israel + IDF positions in southern Lebanon; shot down Israeli Hermes 450 drone and fired SAMs at Israeli warplanes. Apr 16: Hezbollah struck Ashdod (claimed Ashdod Naval Base) and damaged a 1,500-year-old church in Nahariya. Cumulative Hezbollah rocket/UAV activity since March 2: 1,121 attack waves (Alma Center). Hezbollah SecGen Naim Qassem rejected the Apr 14 Washington Israel-Lebanon talks as 'futile' and a 'free concession.' Hezbollah MP Hussein Hajj Hassan condemned the talks as 'a grave sin.' IDF Home Front Command warned Hezbollah may temporarily increase attacks to influence Washington negotiations. No Houthi Red Sea shipping attacks in the 48-hour window; Iraqi PMF quiet. IRGC Maj. Gen. Ali Abdollahi (Khatam al-Anbiya HQ) declared Apr 15 on Iranian state TV that Iran will 'not allow any exports or imports to continue in the Persian Gulf, Sea of Oman, and the Red Sea' if US blockade continues \u2014 read by analysts (FDD/LWJ, WSJ) as potential Houthi activation signal. Mojtaba Khamenei 'military adviser' warned Iran would 'sink American ships in the Strait of Hormuz.' No kinetic Iranian action in the window.",
+    "notes": "Days 47-48 (Apr 15-16): Hezbollah launched ~30 rockets at northern Israel Apr 15 morning (IDF confirmed); claimed 24 separate attacks Apr 14 on northern Israel + IDF positions in southern Lebanon; shot down Israeli Hermes 450 drone and fired SAMs at Israeli warplanes. Apr 16: Hezbollah struck Ashdod (claimed Ashdod Naval Base) and damaged a 1,500-year-old church in Nahariya. Cumulative Hezbollah rocket/UAV activity since March 2: 1,121 attack waves (Alma Center). Hezbollah SecGen Naim Qassem rejected the Apr 14 Washington Israel-Lebanon talks as 'futile' and a 'free concession.' Hezbollah MP Hussein Hajj Hassan condemned the talks as 'a grave sin.' IDF Home Front Command warned Hezbollah may temporarily increase attacks to influence Washington negotiations. No Houthi Red Sea shipping attacks in the 48-hour window; Iraqi PMF quiet. IRGC Maj. Gen. Ali Abdollahi (Khatam al-Anbiya HQ) declared Apr 15 on Iranian state TV that Iran will 'not allow any exports or imports to continue in the Persian Gulf, Sea of Oman, and the Red Sea' if US blockade continues — read by analysts (FDD/LWJ, WSJ) as potential Houthi activation signal. Mojtaba Khamenei 'military adviser' warned Iran would 'sink American ships in the Strait of Hormuz.' No kinetic Iranian action in the window.",
     "verified": true,
     "last_updated": "2026-04-16"
   },
@@ -2212,7 +2212,7 @@
     "active_days": [
       49
     ],
-    "notes": "Day 49 (Apr 16-17): Final 24 hours before the Lebanon 10-day ceasefire that took effect 5:00 PM ET Apr 16 saw the war's most intense activity. IDF struck 380+ Hezbollah targets in southern Lebanon in the day before the ceasefire, including an airstrike on Nabatieh and this pre-dawn Hezbollah rocket barrage on Kiryat Shmona (fires, no casualties). Battle of Bint Jbeil consolidation: Brig. Gen. Guy Levy's 98th Division Egoz Unit commandos raided a Hezbollah 'combat compound' in the Aynata casbah, seizing RPGs, Kalashnikovs, grenades, an anti-aircraft missile, and surveillance gear, then demolished ~70 Hezbollah infrastructure sites in under a minute via coordinated detonation. IDF recovered 130+ weapons stashed in a Bint Jbeil school alongside Hezbollah flags. Hezbollah counter-claimed 39 operations including a D9 bulldozer hit by suicide drone. Cumulative Bint Jbeil toll: 100+ Hezbollah fighters killed. Lebanon ceasefire MoU 6-point: extension conditional on Lebanon 'effectively demonstrating its ability to assert its sovereignty'; Israel retains self-defense rights against 'planned, imminent, or ongoing attacks'; IDF troops remain south of the Litani River. IDF spokesman Avichay Adraee warned displaced Lebanese not to return south of the river yet; tens of thousands began moving southward Apr 17 despite warning. Hezbollah is NOT a signatory and declared its 'finger on the trigger'; DM Katz said the Lebanon campaign is 'not yet completed.' Iran front remains in ceasefire (~240 hrs). No new Iranian kinetic retaliation Apr 16-17. No Houthi Red Sea shipping attacks Apr 16-17. Wilson Center timeline through Apr 14: tempo declining \u2014 1 ASBM intercepted Apr 11, ASBM into Gulf of Aden Apr 13, 4 drones destroyed Apr 14. Senior US military official told HASC Apr 16 Iran-backed Shiite militias have conducted 'hundreds' of attacks on US forces since Feb 28; Iran retains 'thousands of missiles' and one-way attack drones.",
+    "notes": "Day 49 (Apr 16-17): Final 24 hours before the Lebanon 10-day ceasefire that took effect 5:00 PM ET Apr 16 saw the war's most intense activity. IDF struck 380+ Hezbollah targets in southern Lebanon in the day before the ceasefire, including an airstrike on Nabatieh and this pre-dawn Hezbollah rocket barrage on Kiryat Shmona (fires, no casualties). Battle of Bint Jbeil consolidation: Brig. Gen. Guy Levy's 98th Division Egoz Unit commandos raided a Hezbollah 'combat compound' in the Aynata casbah, seizing RPGs, Kalashnikovs, grenades, an anti-aircraft missile, and surveillance gear, then demolished ~70 Hezbollah infrastructure sites in under a minute via coordinated detonation. IDF recovered 130+ weapons stashed in a Bint Jbeil school alongside Hezbollah flags. Hezbollah counter-claimed 39 operations including a D9 bulldozer hit by suicide drone. Cumulative Bint Jbeil toll: 100+ Hezbollah fighters killed. Lebanon ceasefire MoU 6-point: extension conditional on Lebanon 'effectively demonstrating its ability to assert its sovereignty'; Israel retains self-defense rights against 'planned, imminent, or ongoing attacks'; IDF troops remain south of the Litani River. IDF spokesman Avichay Adraee warned displaced Lebanese not to return south of the river yet; tens of thousands began moving southward Apr 17 despite warning. Hezbollah is NOT a signatory and declared its 'finger on the trigger'; DM Katz said the Lebanon campaign is 'not yet completed.' Iran front remains in ceasefire (~240 hrs). No new Iranian kinetic retaliation Apr 16-17. No Houthi Red Sea shipping attacks Apr 16-17. Wilson Center timeline through Apr 14: tempo declining — 1 ASBM intercepted Apr 11, ASBM into Gulf of Aden Apr 13, 4 drones destroyed Apr 14. Senior US military official told HASC Apr 16 Iran-backed Shiite militias have conducted 'hundreds' of attacks on US forces since Feb 28; Iran retains 'thousands of missiles' and one-way attack drones.",
     "verified": true,
     "last_updated": "2026-04-17"
   },
@@ -2225,12 +2225,12 @@
     "weapon": "IRGC fast-attack gunboat small-arms / rockets",
     "origin": "IRGC Navy (Iran)",
     "first_strike": "2026-04-18",
-    "casualties_reported": "No fatalities reported. Two IRGC gunboats opened fire on Indian-flagged VLCC Sanmar Herald (carrying Iraqi crude) despite prior clearance \u2014 ship continued via Iran-sanctioned Larak Island route. Minerva Evropi and Nissos Keros (both Indian-flagged) reversed course after taking fire attempting the neutral transit corridor. A container ship reported rocket damage from an unidentified projectile off the Omani coast (UKMTO advisory).",
+    "casualties_reported": "No fatalities reported. Two IRGC gunboats opened fire on Indian-flagged VLCC Sanmar Herald (carrying Iraqi crude) despite prior clearance — ship continued via Iran-sanctioned Larak Island route. Minerva Evropi and Nissos Keros (both Indian-flagged) reversed course after taking fire attempting the neutral transit corridor. A container ship reported rocket damage from an unidentified projectile off the Omani coast (UKMTO advisory).",
     "casualties_source": "UKMTO / Kpler / TankerTrackers / WSJ / OSINTtechnical / Bloomberg",
     "active_days": [
       50
     ],
-    "notes": "Day 50 (Apr 18): Iran reimposed restrictions on the Strait of Hormuz within hours of Trump declaring 'no sticking points left' in a deal. At ~07:00-09:00 UTC Iran's Joint Military Command announced via IRIB that strait control had 'returned to its previous state ... under strict management and control of the armed forces,' accusing the US of 'piracy and maritime robbery' for maintaining its port blockade. Iranian Navy radio traffic monitored by Bloomberg and OSINT trackers instructed merchant vessels that 'no ships are allowed to pass through.' Approximately 20 outbound tankers reversed course inside the strait, per Kpler/TankerTrackers data cited by WSJ. Parliament security committee spokesman Ebrahim Rezaei announced Iran is drafting legislation to replace the informal ~$2M-per-vessel toll with a statutory 'strait security' charge \u2014 US and Israeli military vessels barred entirely. National Security Commission head Ebrahim Azizi confirmed ships now require prior Iranian naval authorization. Supreme Leader Ayatollah Mojtaba Khamenei (first public message since his Feb 28 elevation) used the Iranian Army anniversary to declare the navy 'ready to inflict bitter defeats on its enemies.' Polymarket odds of Hormuz returning to normal by end of April collapsed from 64% to ~32% on the reclosure news.",
+    "notes": "Day 50 (Apr 18): Iran reimposed restrictions on the Strait of Hormuz within hours of Trump declaring 'no sticking points left' in a deal. At ~07:00-09:00 UTC Iran's Joint Military Command announced via IRIB that strait control had 'returned to its previous state ... under strict management and control of the armed forces,' accusing the US of 'piracy and maritime robbery' for maintaining its port blockade. Iranian Navy radio traffic monitored by Bloomberg and OSINT trackers instructed merchant vessels that 'no ships are allowed to pass through.' Approximately 20 outbound tankers reversed course inside the strait, per Kpler/TankerTrackers data cited by WSJ. Parliament security committee spokesman Ebrahim Rezaei announced Iran is drafting legislation to replace the informal ~$2M-per-vessel toll with a statutory 'strait security' charge — US and Israeli military vessels barred entirely. National Security Commission head Ebrahim Azizi confirmed ships now require prior Iranian naval authorization. Supreme Leader Ayatollah Mojtaba Khamenei (first public message since his Feb 28 elevation) used the Iranian Army anniversary to declare the navy 'ready to inflict bitter defeats on its enemies.' Polymarket odds of Hormuz returning to normal by end of April collapsed from 64% to ~32% on the reclosure news.",
     "verified": true,
     "last_updated": "2026-04-18"
   },
@@ -2244,11 +2244,11 @@
     "origin": "Hezbollah / Lebanon (alleged)",
     "first_strike": "2026-04-18",
     "casualties_reported": "1 French chief warrant officer (CWO) serving with UNIFIL killed; 3 French peacekeepers wounded. Separately: 1 Lebanese killed in Israeli strike on a motorcycle in the south. Earlier MoPH reporting documented one death in Kounine overnight Apr 17.",
-    "casualties_source": "\u00c9lys\u00e9e / French MoD / Lebanese MoPH / Reuters / AP",
+    "casualties_source": "Élysée / French MoD / Lebanese MoPH / Reuters / AP",
     "active_days": [
       50
     ],
-    "notes": "Day 50 (Apr 18): First major breach of the 48-hour-old Lebanon 10-day ceasefire and the first allied fatality on the Lebanon front. President Macron posted that 'everything suggests that responsibility for this attack lies with Hezbollah.' Netanyahu declared the anti-Hezbollah campaign 'not over' but Trump publicly told Israel it is 'prohibited' from striking Lebanon \u2014 'enough is enough.' Lebanese President Aoun declared Lebanon will no longer be 'an arena for others' wars.' Lebanon MoPH end-Apr 17 cumulative: 2,294 killed, 7,544 wounded, \u2265172 children, 100+ paramedics/health workers dead. Apr 8 'Black Wednesday / Operation Eternal Darkness' alone killed 357 and wounded 1,150+. Hezbollah losses: internal sources 400+ fighters, IDF claims 1,400+. The event will test whether Paris's diplomatic activism survives pressure to retaliate, particularly after the Apr 17 Paris summit where Macron co-hosted 49 countries (US excluded) for the Strait of Hormuz Maritime Freedom of Navigation Initiative.",
+    "notes": "Day 50 (Apr 18): First major breach of the 48-hour-old Lebanon 10-day ceasefire and the first allied fatality on the Lebanon front. President Macron posted that 'everything suggests that responsibility for this attack lies with Hezbollah.' Netanyahu declared the anti-Hezbollah campaign 'not over' but Trump publicly told Israel it is 'prohibited' from striking Lebanon — 'enough is enough.' Lebanese President Aoun declared Lebanon will no longer be 'an arena for others' wars.' Lebanon MoPH end-Apr 17 cumulative: 2,294 killed, 7,544 wounded, ≥172 children, 100+ paramedics/health workers dead. Apr 8 'Black Wednesday / Operation Eternal Darkness' alone killed 357 and wounded 1,150+. Hezbollah losses: internal sources 400+ fighters, IDF claims 1,400+. The event will test whether Paris's diplomatic activism survives pressure to retaliate, particularly after the Apr 17 Paris summit where Macron co-hosted 49 countries (US excluded) for the Strait of Hormuz Maritime Freedom of Navigation Initiative.",
     "verified": true,
     "last_updated": "2026-04-18"
   },
@@ -2261,7 +2261,7 @@
     "weapon": "IDF airstrikes (vs Hezbollah targets); Hezbollah rocket/UAV fire",
     "origin": "Israel / Hezbollah (Lebanon)",
     "first_strike": "2026-04-19",
-    "casualties_reported": "\u226535 killed in Lebanon on Sunday Apr 19 \u2014 including a Red Cross paramedic \u2014 during the 10-day Lebanon truce. Haaretz Apr 18: Netanyahu privately admitted he has 'not succeeded' against Hezbollah. IDF reportedly struck 200+ Hezbollah targets over weekend Apr 18-19 (UNVERIFIED count). Cumulative Lebanon destruction: 40,000+ homes destroyed; 1,400+ buildings in south. Lebanon MoPH mid-April: 2,020-2,196 killed, 6,500-7,185 wounded; 177 children killed; 1.2 million displaced.",
+    "casualties_reported": "≥35 killed in Lebanon on Sunday Apr 19 — including a Red Cross paramedic — during the 10-day Lebanon truce. Haaretz Apr 18: Netanyahu privately admitted he has 'not succeeded' against Hezbollah. IDF reportedly struck 200+ Hezbollah targets over weekend Apr 18-19 (UNVERIFIED count). Cumulative Lebanon destruction: 40,000+ homes destroyed; 1,400+ buildings in south. Lebanon MoPH mid-April: 2,020-2,196 killed, 6,500-7,185 wounded; 177 children killed; 1.2 million displaced.",
     "casualties_source": "Lebanese authorities / Haaretz / Al Jazeera / Reuters / AP",
     "active_days": [
       52
@@ -2279,12 +2279,12 @@
     "weapon": "IRGC naval small-arms / fast-attack boats / boarding party",
     "origin": "IRGC Navy (Iran)",
     "first_strike": "2026-04-22",
-    "casualties_reported": "No fatalities reported. ~03:38 ET / ~05:47 local UKMTO reported a container ship fired upon without radio warning ~15nm NE of Oman \u2014 'heavy damage to the bridge,' crew safe. Second vessel struck ~8nm off Iranian coast shortly after. IRGC Navy confirmed SEIZURE of two container ships \u2014 Panama-flagged MSC Francesca and Greek-operated Epaminondas \u2014 escorting them to Iranian shores, claiming navigational-system tampering. Both vessels had AIS off at interception (CBS News). UPDATE (Apr 23-24): Greek Shipping Ministry (via vessel manager Technomar) CONFIRMED Epaminondas seizure (initially denied). Vessel Euphoria was DAMAGED but resumed sailing (not seized). Both ships were destined for India \u2014 escalating diplomatic incident with New Delhi; Panama's Foreign Ministry condemned seizure as 'grave attack on maritime security.' Vessels MSC Francesca and Epaminondas remain in Iranian waters, AIS-stationary ~10nm from Iranian coast.",
+    "casualties_reported": "No fatalities reported. ~03:38 ET / ~05:47 local UKMTO reported a container ship fired upon without radio warning ~15nm NE of Oman — 'heavy damage to the bridge,' crew safe. Second vessel struck ~8nm off Iranian coast shortly after. IRGC Navy confirmed SEIZURE of two container ships — Panama-flagged MSC Francesca and Greek-operated Epaminondas — escorting them to Iranian shores, claiming navigational-system tampering. Both vessels had AIS off at interception (CBS News). UPDATE (Apr 23-24): Greek Shipping Ministry (via vessel manager Technomar) CONFIRMED Epaminondas seizure (initially denied). Vessel Euphoria was DAMAGED but resumed sailing (not seized). Both ships were destined for India — escalating diplomatic incident with New Delhi; Panama's Foreign Ministry condemned seizure as 'grave attack on maritime security.' Vessels MSC Francesca and Epaminondas remain in Iranian waters, AIS-stationary ~10nm from Iranian coast.",
     "casualties_source": "UKMTO / CBS News / Reuters / Tasnim / Fars News / CNN",
     "active_days": [
       54
     ],
-    "notes": "Day 54 (Apr 22): The sharpest maritime escalation since the blockade began \u2014 IRGC opened fire on three commercial vessels transiting the Strait of Hormuz and seized two of them hours after Trump extended the Iran ceasefire indefinitely. Iran statement: 'Disrupting the order and safety of the Strait of Hormuz is our red line.' Follows Apr 20 USS Spruance (DDG-111) interdiction of Iranian-flagged M/V Touska in the Arabian Sea (Marines from 31st MEU rappelled from USS Tripoli helicopters and took the ship). FM Araghchi Apr 21 called the Touska seizure and broader blockade 'an act of war and a material breach of the ceasefire'; UN Amb. Iravani filed a formal protest letter with SecGen Guterres. CENTCOM tally (NPR Apr 21): 28 commercial vessels turned back since Apr 13 (up from 27 Apr 20). No UNSC resolution adopted Apr 21-22; Russia and China previously vetoed the Bahrain-drafted Hormuz resolution on Apr 7. Trump's indefinite ceasefire extension (~16:22 ET Apr 21 Truth Social) explicitly maintained the naval blockade; Islamabad Round 2 collapsed after Iran declined to attend. Ghalibaf adviser Mahdi Mohammadi called the extension 'a ploy to buy time for a surprise strike... continuation of the siege is no different from bombardment and must be met with a military response.' MSC and Greek operator both had AIS off at interception \u2014 a detail highlighted by CBS News analysts as evidence of anticipated maritime risk.",
+    "notes": "Day 54 (Apr 22): The sharpest maritime escalation since the blockade began — IRGC opened fire on three commercial vessels transiting the Strait of Hormuz and seized two of them hours after Trump extended the Iran ceasefire indefinitely. Iran statement: 'Disrupting the order and safety of the Strait of Hormuz is our red line.' Follows Apr 20 USS Spruance (DDG-111) interdiction of Iranian-flagged M/V Touska in the Arabian Sea (Marines from 31st MEU rappelled from USS Tripoli helicopters and took the ship). FM Araghchi Apr 21 called the Touska seizure and broader blockade 'an act of war and a material breach of the ceasefire'; UN Amb. Iravani filed a formal protest letter with SecGen Guterres. CENTCOM tally (NPR Apr 21): 28 commercial vessels turned back since Apr 13 (up from 27 Apr 20). No UNSC resolution adopted Apr 21-22; Russia and China previously vetoed the Bahrain-drafted Hormuz resolution on Apr 7. Trump's indefinite ceasefire extension (~16:22 ET Apr 21 Truth Social) explicitly maintained the naval blockade; Islamabad Round 2 collapsed after Iran declined to attend. Ghalibaf adviser Mahdi Mohammadi called the extension 'a ploy to buy time for a surprise strike... continuation of the siege is no different from bombardment and must be met with a military response.' MSC and Greek operator both had AIS off at interception — a detail highlighted by CBS News analysts as evidence of anticipated maritime risk.",
     "verified": true,
     "last_updated": "2026-04-24"
   },
@@ -2302,7 +2302,7 @@
     "active_days": [
       55
     ],
-    "notes": "Day 55 (Apr 23): Lebanon-Israel ceasefire (effective 17:00 ET Apr 16) continues to fray despite ongoing Washington diplomacy. Lebanese PM Salam called the killing of journalist Amal Khalil a 'war crime.' Channel 12 reports the assessment in Jerusalem 'is increasingly pointing to a resumption of fighting with Iran drawing closer.' On the same day, the second round of direct Israel-Lebanon ambassadors' talks convened in Washington (moved from State Dept to the White House); represented by Amb. Yechiel Leiter (Israel) and Amb. Nada Hamadeh Moawad (Lebanon); US added Mike Huckabee, Secretary Rubio expected to join for part. Lebanese position: no deal without full Israeli withdrawal. Retired BGen Mark Kimmitt told Al Jazeera the talks had 'functional flaws.' Cumulative Lebanon toll per Al Jazeera Apr 23 tracker: 2,294 killed / \u22657,658 wounded as of Apr 21; internal Hezbollah sources admit >1,000 fighters killed, IDF claims 1,700 fighters killed.",
+    "notes": "Day 55 (Apr 23): Lebanon-Israel ceasefire (effective 17:00 ET Apr 16) continues to fray despite ongoing Washington diplomacy. Lebanese PM Salam called the killing of journalist Amal Khalil a 'war crime.' Channel 12 reports the assessment in Jerusalem 'is increasingly pointing to a resumption of fighting with Iran drawing closer.' On the same day, the second round of direct Israel-Lebanon ambassadors' talks convened in Washington (moved from State Dept to the White House); represented by Amb. Yechiel Leiter (Israel) and Amb. Nada Hamadeh Moawad (Lebanon); US added Mike Huckabee, Secretary Rubio expected to join for part. Lebanese position: no deal without full Israeli withdrawal. Retired BGen Mark Kimmitt told Al Jazeera the talks had 'functional flaws.' Cumulative Lebanon toll per Al Jazeera Apr 23 tracker: 2,294 killed / ≥7,658 wounded as of Apr 21; internal Hezbollah sources admit >1,000 fighters killed, IDF claims 1,700 fighters killed.",
     "verified": true,
     "last_updated": "2026-04-23"
   },
@@ -2315,12 +2315,12 @@
     "weapon": "IRGC Navy boarding / unspecified",
     "origin": "IRGC Navy (Iran)",
     "first_strike": "2026-04-24",
-    "casualties_reported": "Vessel name and flag not publicly specified by Iranian authorities at time of report. Iran said it seized a ship 'suspected of collaborating with American military' after it allegedly 'committed violations, ignored warnings.' No UKMTO or CENTCOM independent confirmation located in this research pass. MEDIUM confidence \u2014 single-source via Iranian state media/Wikipedia aggregation.",
+    "casualties_reported": "Vessel name and flag not publicly specified by Iranian authorities at time of report. Iran said it seized a ship 'suspected of collaborating with American military' after it allegedly 'committed violations, ignored warnings.' No UKMTO or CENTCOM independent confirmation located in this research pass. MEDIUM confidence — single-source via Iranian state media/Wikipedia aggregation.",
     "casualties_source": "Iranian state media via Wikipedia (2026 Iran war / 2026 Strait of Hormuz crisis)",
     "active_days": [
       56
     ],
-    "notes": "Day 56 (Apr 24): Iran announced a fourth maritime interception in three days, claiming it seized a ship 'collaborating with American military' that 'committed violations, ignored warnings.' This follows the Apr 22 IRGC seizure of MSC Francesca and Epaminondas. As of this entry's filing, no independent UKMTO, CENTCOM, or shipping-industry confirmation has been located \u2014 vessel name, flag, and present location not specified in Iranian media reports. Manifest flags as MEDIUM confidence pending independent corroboration. Iran's claim coincides with Iranian FM Araghchi's evening arrival in Islamabad (Apr 24) and the announced Witkoff/Kushner trip to Pakistan Apr 25 for direct US-Iran talks 'intermediated by the Pakistanis.'",
+    "notes": "Day 56 (Apr 24): Iran announced a fourth maritime interception in three days, claiming it seized a ship 'collaborating with American military' that 'committed violations, ignored warnings.' This follows the Apr 22 IRGC seizure of MSC Francesca and Epaminondas. As of this entry's filing, no independent UKMTO, CENTCOM, or shipping-industry confirmation has been located — vessel name, flag, and present location not specified in Iranian media reports. Manifest flags as MEDIUM confidence pending independent corroboration. Iran's claim coincides with Iranian FM Araghchi's evening arrival in Islamabad (Apr 24) and the announced Witkoff/Kushner trip to Pakistan Apr 25 for direct US-Iran talks 'intermediated by the Pakistanis.'",
     "verified": false,
     "last_updated": "2026-04-24"
   },
@@ -2338,7 +2338,7 @@
     "active_days": [
       56
     ],
-    "notes": "Day 56 (Apr 24): Israel continued kinetic operations in southern Lebanon despite the 3-week ceasefire extension Trump announced Apr 23. Lebanese MoPH reported 2 killed in Israeli air strike on Touline; several wounded in Israeli artillery strike on Yater. Cumulative Lebanese toll Apr 24: 2,491 killed / 7,719 wounded since Mar 2 \u2014 +37 killed vs Apr 21. UN Human Rights Office (OHCHR Geneva, Apr 24) said it has documented 'patterns of attacks on civilians in populated areas and residential buildings in Lebanon and Israel that may amount to serious violations of international humanitarian law' \u2014 strongest UN legal posture of the war to date. Hezbollah lawmaker Ali Fayyad called the truce extension 'meaningless.'",
+    "notes": "Day 56 (Apr 24): Israel continued kinetic operations in southern Lebanon despite the 3-week ceasefire extension Trump announced Apr 23. Lebanese MoPH reported 2 killed in Israeli air strike on Touline; several wounded in Israeli artillery strike on Yater. Cumulative Lebanese toll Apr 24: 2,491 killed / 7,719 wounded since Mar 2 — +37 killed vs Apr 21. UN Human Rights Office (OHCHR Geneva, Apr 24) said it has documented 'patterns of attacks on civilians in populated areas and residential buildings in Lebanon and Israel that may amount to serious violations of international humanitarian law' — strongest UN legal posture of the war to date. Hezbollah lawmaker Ali Fayyad called the truce extension 'meaningless.'",
     "verified": true,
     "last_updated": "2026-04-24"
   },
@@ -2374,7 +2374,7 @@
     "active_days": [
       57
     ],
-    "notes": "Day 57 (Apr 25): Lebanese Health Ministry reported two Israeli strikes \u2014 on a truck and on a motorbike \u2014 in Yohmor al-Shaqeef (Nabatieh district) killed four people. No immediate IDF comment per Times of Israel; IDF has previously said it 'continues to act decisively' against ceasefire violations. Within the Apr 17 Lebanon truce that was extended 3 weeks Apr 23. CNN noted at least 9 killed in Lebanon since the Apr 17 ceasefire took effect, with Apr 25 additions raising that figure. Cumulative Lebanese MoPH toll Apr 24 baseline: 2,491 K / 7,719 W; running total adjusts to 2,495 K with Apr 25 additions (subject to further MoPH consolidation). Hezbollah lawmaker Ali Fayyad (Apr 24) called the truce extension 'meaningless'; 'every Israeli attack gives Hezbollah the right to retaliate.'",
+    "notes": "Day 57 (Apr 25): Lebanese Health Ministry reported two Israeli strikes — on a truck and on a motorbike — in Yohmor al-Shaqeef (Nabatieh district) killed four people. No immediate IDF comment per Times of Israel; IDF has previously said it 'continues to act decisively' against ceasefire violations. Within the Apr 17 Lebanon truce that was extended 3 weeks Apr 23. CNN noted at least 9 killed in Lebanon since the Apr 17 ceasefire took effect, with Apr 25 additions raising that figure. Cumulative Lebanese MoPH toll Apr 24 baseline: 2,491 K / 7,719 W; running total adjusts to 2,495 K with Apr 25 additions (subject to further MoPH consolidation). Hezbollah lawmaker Ali Fayyad (Apr 24) called the truce extension 'meaningless'; 'every Israeli attack gives Hezbollah the right to retaliate.'",
     "verified": true,
     "sources": [
       "https://www.timesofisrael.com/liveblog_entry/4-killed-in-israeli-strikes-in-south-lebanon-says-lebanese-health-ministry/",
@@ -2412,13 +2412,13 @@
     "weapon": "Iranian shadow-fleet vessel (commercial supertanker, no kinetic action)",
     "origin": "Iranian shadow fleet (Kharg Island load)",
     "first_strike": "2026-04-24",
-    "casualties_reported": "None \u2014 no kinetic engagement; vessel halted near Larak Island after starting transit.",
+    "casualties_reported": "None — no kinetic engagement; vessel halted near Larak Island after starting transit.",
     "casualties_source": "Bloomberg via Kpler/Vortexa; NBC News",
     "active_days": [
       56,
       57
     ],
-    "notes": "Day 56-57: U.S.-sanctioned supertanker 'Yuri' (carrying ~2M bbl Iranian crude from Kharg Island) attempted Hormuz transit; appeared to halt near Larak Island after starting transit late Thursday Apr 23. Position unchanged into Apr 25; no boarding reported. Lloyd's List Apr 24 estimate: \u226526 ships from Iran's 'ghost fleet' have circumvented the U.S. blockade since Apr 13.",
+    "notes": "Day 56-57: U.S.-sanctioned supertanker 'Yuri' (carrying ~2M bbl Iranian crude from Kharg Island) attempted Hormuz transit; appeared to halt near Larak Island after starting transit late Thursday Apr 23. Position unchanged into Apr 25; no boarding reported. Lloyd's List Apr 24 estimate: ≥26 ships from Iran's 'ghost fleet' have circumvented the U.S. blockade since Apr 13.",
     "verified": true,
     "sources": [
       "https://www.bloomberg.com/news/articles/2026-04-24/us-sanctioned-supertanker-with-iranian-oil-tries-hormuz-transit",
@@ -2440,7 +2440,7 @@
     "active_days": [
       57
     ],
-    "notes": "Day 57 (Apr 25): IDF airstrike on Hezbollah position in Safad al-Battikh killed 2 and wounded 17 \u2014 third documented kinetic incident in the Apr 25 24h window. Within the Apr 17 Lebanon truce (extended 3 weeks Apr 23). Hezbollah lawmaker Ali Fayyad (Apr 24): 'every Israeli attack gives Hezbollah the right to retaliate.'",
+    "notes": "Day 57 (Apr 25): IDF airstrike on Hezbollah position in Safad al-Battikh killed 2 and wounded 17 — third documented kinetic incident in the Apr 25 24h window. Within the Apr 17 Lebanon truce (extended 3 weeks Apr 23). Hezbollah lawmaker Ali Fayyad (Apr 24): 'every Israeli attack gives Hezbollah the right to retaliate.'",
     "verified": true,
     "sources": [
       "https://www.timesofisrael.com/liveblog_entry/idf-airstrike-on-hezbollah-position-in-southern-lebanon-killed-2-wounded-17/"
@@ -2498,12 +2498,12 @@
     "weapon": "Hezbollah explosive drone attack + 2 follow-up drones (1 intercepted, 1 missed)",
     "origin": "Hezbollah (Lebanon)",
     "first_strike": "2026-04-26",
-    "casualties_reported": "1 IDF KIA: Sgt. Idan Fooks (19), 7th Armored Brigade/77th Battalion, Petah Tikva. 6 IDF wounded \u2014 1 officer + 3 troops seriously, 1 moderately, 1 lightly.",
+    "casualties_reported": "1 IDF KIA: Sgt. Idan Fooks (19), 7th Armored Brigade/77th Battalion, Petah Tikva. 6 IDF wounded — 1 officer + 3 troops seriously, 1 moderately, 1 lightly.",
     "casualties_source": "Times of Israel liveblog 2026-04-26 / France 24 liveblog 2026-04-26 / ANI/Tribune",
     "active_days": [
       58
     ],
-    "notes": "Day 58 (Apr 26): SIGNIFICANT \u2014 Sgt. Idan Fooks (19) killed by Hezbollah explosive drone in southern Lebanon \u2014 third IDF KIA since the Apr 17 ceasefire took effect (cumulative Lebanon-front IDF KIA 15). Two follow-up drones \u2014 1 intercepted, 1 missed. The attack triggered Netanyahu's most pointed public statement since the Apr 17 truce: 'Hezbollah's violations are essentially disintegrating the ceasefire... we have eliminated 46 terrorists [past two weeks]... we will act with a strong hand and an outstretched arm.' Lebanon PM Salam reportedly seeking emergency US intercession. Marks rhetorical shift from defensive to attritional framing on Israeli side.",
+    "notes": "Day 58 (Apr 26): SIGNIFICANT — Sgt. Idan Fooks (19) killed by Hezbollah explosive drone in southern Lebanon — third IDF KIA since the Apr 17 ceasefire took effect (cumulative Lebanon-front IDF KIA 15). Two follow-up drones — 1 intercepted, 1 missed. The attack triggered Netanyahu's most pointed public statement since the Apr 17 truce: 'Hezbollah's violations are essentially disintegrating the ceasefire... we have eliminated 46 terrorists [past two weeks]... we will act with a strong hand and an outstretched arm.' Lebanon PM Salam reportedly seeking emergency US intercession. Marks rhetorical shift from defensive to attritional framing on Israeli side.",
     "verified": true,
     "sources": [
       "https://www.timesofisrael.com/liveblog_entry/idf-soldier-killed-hezbollah-drone-southern-lebanon/",
@@ -2546,7 +2546,7 @@
     "active_days": [
       56
     ],
-    "notes": "Day 56 (Apr 24, surfaced via Hengaw 10th report): IRGC conducted 18 cross-border attacks on Kurdish opposition party camps in Iraqi Kurdistan \u2014 4 killed, 9 wounded. Distinct from the Iran-US ceasefire framework; tracked separately as Iran internal-repression cross-border activity. Single-source (Hengaw) \u2014 confidence MEDIUM pending corroboration from Reuters/AP/AFP wires.",
+    "notes": "Day 56 (Apr 24, surfaced via Hengaw 10th report): IRGC conducted 18 cross-border attacks on Kurdish opposition party camps in Iraqi Kurdistan — 4 killed, 9 wounded. Distinct from the Iran-US ceasefire framework; tracked separately as Iran internal-repression cross-border activity. Single-source (Hengaw) — confidence MEDIUM pending corroboration from Reuters/AP/AFP wires.",
     "verified": false,
     "confidence": "SINGLE-SOURCE",
     "sources": [
@@ -2568,7 +2568,7 @@
     "weapon": "Israeli airstrikes + artillery",
     "casualties_reported": "Apr 26 cumulative across southern Lebanon: 14 KILLED (incl. 2 women, 2 children), 37 WOUNDED. Of these, 6 captured in entry ret-2026-04-26-leb-idf-launcher-strikes and the 1 IDF KIA captured in ret-2026-04-26-leb-fooks-kia. This entry covers the remaining 7+ killed across Yohmor al-Shaqeef, Safad al-Battikh, Kfar Tibnit, Zawtar al-Sharqiyah, Nabatieh al-Fawqa, Kafra and other villages. AFP tally: at least 36 killed since the Apr 16/17 ceasefire began.",
     "casualties_source": "Lebanese Ministry of Public Health (Apr 27 statement); Lebanese National News Agency; AP via Fortune (Apr 27); AFP via Daily Sabah / Malay Mail (Apr 27); Reuters via Newstribune (Apr 27); Al Jazeera Day 59 explainer (Apr 27)",
-    "notes": "Day 59 (Apr 27) reporting on Apr 26 events: Israeli strikes across southern Lebanon killed 14 \u2014 DEADLIEST DAY since the Apr 16/17 Lebanon ceasefire took effect. Targets: vehicles, personnel, claimed rocket-launching cells, weapons depot, religious buildings (one mosque destroyed in Zawtar al-Sharqiyah per NNA). IDF said Hezbollah was 'violating the ceasefire'; ordered evacuations of 7 villages north of Litani River and beyond the so-called 'yellow line' Apr 26-27 \u2014 AFP reporters described 'heavy traffic heading north.' Hezbollah characterized actions as 'a legitimate response to the enemy's persistent violations.' IDF intercepted 3 drones inbound from Lebanon shortly after Netanyahu's cabinet remarks. Netanyahu: 'Hezbollah's violations are, in practice, dismantling the ceasefire.' Lebanese MoPH cumulative Apr 27: 2,521 killed / 7,750 wounded since Mar 2 (incl. 277 women, 177 children, 100 medics).",
+    "notes": "Day 59 (Apr 27) reporting on Apr 26 events: Israeli strikes across southern Lebanon killed 14 — DEADLIEST DAY since the Apr 16/17 Lebanon ceasefire took effect. Targets: vehicles, personnel, claimed rocket-launching cells, weapons depot, religious buildings (one mosque destroyed in Zawtar al-Sharqiyah per NNA). IDF said Hezbollah was 'violating the ceasefire'; ordered evacuations of 7 villages north of Litani River and beyond the so-called 'yellow line' Apr 26-27 — AFP reporters described 'heavy traffic heading north.' Hezbollah characterized actions as 'a legitimate response to the enemy's persistent violations.' IDF intercepted 3 drones inbound from Lebanon shortly after Netanyahu's cabinet remarks. Netanyahu: 'Hezbollah's violations are, in practice, dismantling the ceasefire.' Lebanese MoPH cumulative Apr 27: 2,521 killed / 7,750 wounded since Mar 2 (incl. 277 women, 177 children, 100 medics).",
     "sources": [
       "Lebanese Ministry of Public Health (Apr 27 statement)",
       "Lebanese National News Agency",
@@ -2594,7 +2594,7 @@
     "weapon": "Ground raid + road interdiction",
     "casualties_reported": "Not reported.",
     "casualties_source": "Lebanese NNA via Al Jazeera Day 59 explainer (Apr 27)",
-    "notes": "Day 59 (Apr 27): Lebanese state outlet NNA reports IDF raided the Kafra entrance and cut the road at dawn \u2014 incursion expanded ground footprint despite Lebanon ceasefire. Ties to the Apr 26 IDF evacuation order chain for 7 villages north of Litani River. Confidence MEDIUM (single Lebanese state-source channel; not yet independently corroborated by IDF or Western shipping/AFP).",
+    "notes": "Day 59 (Apr 27): Lebanese state outlet NNA reports IDF raided the Kafra entrance and cut the road at dawn — incursion expanded ground footprint despite Lebanon ceasefire. Ties to the Apr 26 IDF evacuation order chain for 7 villages north of Litani River. Confidence MEDIUM (single Lebanese state-source channel; not yet independently corroborated by IDF or Western shipping/AFP).",
     "sources": [
       "Lebanese NNA via Al Jazeera Day 59 explainer (Apr 27)"
     ],
@@ -2607,15 +2607,15 @@
     "active_days": [
       58
     ],
-    "city": "Red Sea \u2014 ~15 nm SW of Mokha, Yemen",
+    "city": "Red Sea — ~15 nm SW of Mokha, Yemen",
     "lat": 13.32,
     "lng": 43.05,
     "type": "iran_retaliation",
     "origin": "Houthis (Ansar Allah)",
-    "weapon": "3\u00d7 anti-ship ballistic missiles (ASBMs)",
+    "weapon": "3× anti-ship ballistic missiles (ASBMs)",
     "casualties_reported": "0 crew (minor vessel damage; voyage continued).",
     "casualties_source": "Wilson Center Houthi timeline; House of Saud reporting; UKMTO advisory",
-    "notes": "Houthi ASBMs struck the MV Andromeda Star (Panama-flagged, EU-sanctioned shadow-fleet crude tanker) ~15 nm SW of Mokha while it carried Russian Urals crude Primorsk \u2192 Vadinar; minor vessel damage, voyage continued. A third missile landed near MV Maisha (Antigua/Liberia-operated) without damage. First confirmed major Houthi anti-ship strike of the Iran-war reactivation phase. Vessel ironically carrying Russian crude \u2014 Moscow has not commented publicly. Coincides with Araghchi's transit Islamabad \u2192 Muscat \u2192 Moscow.",
+    "notes": "Houthi ASBMs struck the MV Andromeda Star (Panama-flagged, EU-sanctioned shadow-fleet crude tanker) ~15 nm SW of Mokha while it carried Russian Urals crude Primorsk → Vadinar; minor vessel damage, voyage continued. A third missile landed near MV Maisha (Antigua/Liberia-operated) without damage. First confirmed major Houthi anti-ship strike of the Iran-war reactivation phase. Vessel ironically carrying Russian crude — Moscow has not commented publicly. Coincides with Araghchi's transit Islamabad → Muscat → Moscow.",
     "sources": [
       "Wilson Center Houthi timeline",
       "House of Saud reporting",
@@ -2680,9 +2680,9 @@
     "type": "iran_retaliation",
     "origin": "Israel (IDF)",
     "weapon": "Israeli airstrikes",
-    "casualties_reported": "\u22658 KILLED across southern Lebanon Apr 28 \u2014 including three Lebanese Civil Defense volunteers (Hussein Sati, Hadi Daher, Hussein Ghadbouni) killed during a rescue operation; 2 LAF soldiers wounded. IDF said it destroyed 'Gaza-like' Hezbollah underground tunnels in southern Lebanon. IDF ordered evacuation of 16 ADDITIONAL Lebanese towns/villages.",
+    "casualties_reported": "≥8 KILLED across southern Lebanon Apr 28 — including three Lebanese Civil Defense volunteers (Hussein Sati, Hadi Daher, Hussein Ghadbouni) killed during a rescue operation; 2 LAF soldiers wounded. IDF said it destroyed 'Gaza-like' Hezbollah underground tunnels in southern Lebanon. IDF ordered evacuation of 16 ADDITIONAL Lebanese towns/villages.",
     "casualties_source": "CNN Apr 28-29; CBS News Apr 28; Times of Israel Apr 29",
-    "notes": "Day 60 (Apr 28): Israeli strikes kill at least 8 across southern Lebanon despite the Apr 16 declared ceasefire. Civil Defense volunteers killed during a rescue operation \u2014 significant escalation in non-combatant casualties. IDF's evacuation order for 16 additional Lebanese towns/villages signals expanded operational footprint. Lebanese MoPH cumulative \u22652,500 killed / >1M displaced (CBS Apr 28).",
+    "notes": "Day 60 (Apr 28): Israeli strikes kill at least 8 across southern Lebanon despite the Apr 16 declared ceasefire. Civil Defense volunteers killed during a rescue operation — significant escalation in non-combatant casualties. IDF's evacuation order for 16 additional Lebanese towns/villages signals expanded operational footprint. Lebanese MoPH cumulative ≥2,500 killed / >1M displaced (CBS Apr 28).",
     "sources": [
       "CNN Apr 28-29",
       "CBS News Apr 28",
@@ -2705,7 +2705,7 @@
     "weapon": "FPV drone",
     "casualties_reported": "2 IDF soldiers wounded (1 seriously) during ground operations in southern Lebanon. CTP-ISW Apr 28 reports Israeli media saying Hezbollah drones have caused 'dozens of IDF casualties in recent weeks.'",
     "casualties_source": "CTP-ISW Apr 28; Israeli media via CTP-ISW",
-    "notes": "Day 60 (Apr 28): Hezbollah FPV drone strike on IDF ground troops in southern Lebanon wounds 2 (1 seriously). Continues pattern of FPV drone attrition against IDF since Apr 16 ceasefire \u2014 reference Apr 26 Taybeh attack killed 1 IDF soldier and wounded 6.",
+    "notes": "Day 60 (Apr 28): Hezbollah FPV drone strike on IDF ground troops in southern Lebanon wounds 2 (1 seriously). Continues pattern of FPV drone attrition against IDF since Apr 16 ceasefire — reference Apr 26 Taybeh attack killed 1 IDF soldier and wounded 6.",
     "sources": [
       "CTP-ISW / ISW Iran Update Apr 28"
     ],
@@ -2747,7 +2747,7 @@
     "weapon": "Air strike series",
     "casualties_reported": "At least 9-14 killed (Lebanese National News Agency cites 14 via Al Jazeera live blog; CNN/Reuters initial reporting cited at least 9). IDF cites Hezbollah infrastructure under ceasefire's 'imminent threat' carve-out.",
     "casualties_source": "Lebanese National News Agency / Al Jazeera live blog Apr 30 / CNN Day 62 live updates / Reuters",
-    "notes": "Day 62 (Apr 30): Israeli air strikes hit multiple targets across southern Lebanon. Lebanese NNA reported at least 14 killed; CNN/Reuters cited at least 9 in initial reporting. IDF cited Hezbollah infrastructure under ceasefire's 'imminent threat' carve-out. Comes 3 days after Apr 27 IDF expansion into Bekaa Valley (>20 sites \u2014 first such expansion since Apr 16 Lebanon ceasefire). Lebanese MoPH cumulative now pushes toward 2,520 (baseline 2,509 Apr 27 + minimum +9 Apr 30).",
+    "notes": "Day 62 (Apr 30): Israeli air strikes hit multiple targets across southern Lebanon. Lebanese NNA reported at least 14 killed; CNN/Reuters cited at least 9 in initial reporting. IDF cited Hezbollah infrastructure under ceasefire's 'imminent threat' carve-out. Comes 3 days after Apr 27 IDF expansion into Bekaa Valley (>20 sites — first such expansion since Apr 16 Lebanon ceasefire). Lebanese MoPH cumulative now pushes toward 2,520 (baseline 2,509 Apr 27 + minimum +9 Apr 30).",
     "sources": [
       "Al Jazeera live blog 2026-04-30",
       "CNN Day 62 live updates",
@@ -2769,9 +2769,9 @@
     "type": "iran_retaliation",
     "origin": "IDF",
     "weapon": "Air strike series + drone strikes",
-    "casualties_reported": "41 killed in 24h per Lebanese MoPH cumulative \u2014 Shoukine (3), Kfar Dajjal (2 in car strike), Lwaizeh (3 in home), Shoukin (2), Sammaiyeh / Tyre district (3). IDF: 'approximately 70 military structures and approximately 50 Hezbollah infrastructure sites were dismantled across several areas.'",
+    "casualties_reported": "41 killed in 24h per Lebanese MoPH cumulative — Shoukine (3), Kfar Dajjal (2 in car strike), Lwaizeh (3 in home), Shoukin (2), Sammaiyeh / Tyre district (3). IDF: 'approximately 70 military structures and approximately 50 Hezbollah infrastructure sites were dismantled across several areas.'",
     "casualties_source": "Lebanese MoPH (NNA-cited) / Al Jazeera 2026-05-02 / BSS/AFP 2026-05-03",
-    "notes": "Day 64 (May 2): IDF strike package \u2014 ~70 military structures + 50 Hezbollah sites dismantled across south Lebanon per IDF statement. Lebanese MoPH cumulative pushes to 2,659 killed / 8,183 wounded since Mar 2 (Al Jazeera May 2/3, NNA citing MoPH; +41 / +89 vs Day 63). Strikes also near al-Quds roundabout (Nabatieh) and Siddiqine (Tyre district). Three killed Tyre district town of Sammaiyeh per NNA. Continued ceasefire violations under Apr 17 truce.",
+    "notes": "Day 64 (May 2): IDF strike package — ~70 military structures + 50 Hezbollah sites dismantled across south Lebanon per IDF statement. Lebanese MoPH cumulative pushes to 2,659 killed / 8,183 wounded since Mar 2 (Al Jazeera May 2/3, NNA citing MoPH; +41 / +89 vs Day 63). Strikes also near al-Quds roundabout (Nabatieh) and Siddiqine (Tyre district). Three killed Tyre district town of Sammaiyeh per NNA. Continued ceasefire violations under Apr 17 truce.",
     "sources": [
       "Al Jazeera 2026-05-02",
       "BSS/AFP 2026-05-03",
@@ -2793,9 +2793,9 @@
     "type": "iran_retaliation",
     "origin": "IDF",
     "weapon": "Evacuation orders + targeted strikes + IAF interceptors",
-    "casualties_reported": "TBD (intra-day) \u2014 IDF said it killed two Hezbollah fighters posing 'imminent threat' in southern Lebanon today. Hezbollah launched several rockets and explosive drones at IDF troops; IDF says no Israeli injuries; one IAF interceptor fired at suspected Hezbollah drone (results under review).",
+    "casualties_reported": "TBD (intra-day) — IDF said it killed two Hezbollah fighters posing 'imminent threat' in southern Lebanon today. Hezbollah launched several rockets and explosive drones at IDF troops; IDF says no Israeli injuries; one IAF interceptor fired at suspected Hezbollah drone (results under review).",
     "casualties_source": "Times of Israel liveblog 2026-05-03 / CNN live 2026-05-03 / AFP",
-    "notes": "Day 65 (May 3): IDF issued urgent evacuation warnings for multiple towns in southern Lebanon including several NORTH of the LITANI RIVER \u2014 first major expansion of forced-displacement orders beyond the existing buffer zone since the April 17 ceasefire took effect. Most significant geographic escalation since truce. China's UN envoy May 1 had called the truce 'only a lesser fire'; this widening makes the front the most likely flashpoint to torpedo the Iran negotiating track since Pakistan/Iran insist Lebanon was inside the ceasefire and U.S./Israel deny it. Hezbollah rocket/drone fire continues; LAF Cdr Haykal met U.S. Gen. Joseph Clearfield (head of 5-member ceasefire monitoring committee) May 2/3.",
+    "notes": "Day 65 (May 3): IDF issued urgent evacuation warnings for multiple towns in southern Lebanon including several NORTH of the LITANI RIVER — first major expansion of forced-displacement orders beyond the existing buffer zone since the April 17 ceasefire took effect. Most significant geographic escalation since truce. China's UN envoy May 1 had called the truce 'only a lesser fire'; this widening makes the front the most likely flashpoint to torpedo the Iran negotiating track since Pakistan/Iran insist Lebanon was inside the ceasefire and U.S./Israel deny it. Hezbollah rocket/drone fire continues; LAF Cdr Haykal met U.S. Gen. Joseph Clearfield (head of 5-member ceasefire monitoring committee) May 2/3.",
     "sources": [
       "Times of Israel liveblog 2026-05-03",
       "CNN live updates 2026-05-03",
@@ -2819,7 +2819,7 @@
     "weapon": "VBSS / vessel boarding (tanker captures)",
     "casualties_reported": "None reported (cargo + crew detained per Iran).",
     "casualties_source": "Iranian Foreign Ministry (Baqaei) / Newkerala/ANI 2026-05-03 / CBS News 2026-05-03",
-    "notes": "Day 64 (May 2): Iran condemns U.S. capture of tankers Majestic X and Tifani as 'armed robbery on the high seas' \u2014 Iranian FM spokesperson Esmaeil Baqaei labeled President Trump's 'we're like pirates' comment a 'direct and damning admission' of illegal maritime activity. CENTCOM cumulative through May 1: 45 vessels redirected; CBS-cited number per CENTCOM May 2: 48 vessels redirected last 20 days, three in past 20 hours. Continues blockade-enforcement narrative. Iran urged UN and global community to condemn U.S. blockade conduct.",
+    "notes": "Day 64 (May 2): Iran condemns U.S. capture of tankers Majestic X and Tifani as 'armed robbery on the high seas' — Iranian FM spokesperson Esmaeil Baqaei labeled President Trump's 'we're like pirates' comment a 'direct and damning admission' of illegal maritime activity. CENTCOM cumulative through May 1: 45 vessels redirected; CBS-cited number per CENTCOM May 2: 48 vessels redirected last 20 days, three in past 20 hours. Continues blockade-enforcement narrative. Iran urged UN and global community to condemn U.S. blockade conduct.",
     "sources": [
       "Newkerala/ANI 2026-05-03",
       "CBS News 2026-05-03",
@@ -2839,7 +2839,7 @@
     "lat": 26.55,
     "lng": 56.75,
     "type": "iran_retaliation",
-    "origin": "Iran (small craft, attribution implied \u2014 not formally claimed)",
+    "origin": "Iran (small craft, attribution implied — not formally claimed)",
     "weapon": "Multiple small-craft attack",
     "casualties_reported": "Crew safe; vessel not disabled per UKMTO.",
     "casualties_source": "UKMTO / Al Jazeera / AP",
@@ -2912,7 +2912,7 @@
     "weapon": "Iranian-launched drone (originating from Iran, per Fujairah Media Office); fire ignited at petroleum storage",
     "casualties_reported": "3 Indian nationals moderately injured.",
     "casualties_source": "Fujairah Media Office / Reuters/USNews / Bloomberg / Townhall",
-    "notes": "Day 66 (May 4 morning\u2013midday): Drone strike ignited fire at FUJAIRAH OIL INDUSTRY ZONE (VTTI facility, jointly owned by IFM/Vitol/TAQA). FOIZ is endpoint of Habshan\u2013Fujairah pipeline (1.5 Mb/d capacity), critical UAE Hormuz-bypass infrastructure. Civil Defense engaged. STRATEGIC SIGNIFICANCE: First major hit on UAE energy infrastructure since 8 Apr ceasefire; targets the only remaining UAE crude export outlet bypassing Hormuz.",
+    "notes": "Day 66 (May 4 morning–midday): Drone strike ignited fire at FUJAIRAH OIL INDUSTRY ZONE (VTTI facility, jointly owned by IFM/Vitol/TAQA). FOIZ is endpoint of Habshan–Fujairah pipeline (1.5 Mb/d capacity), critical UAE Hormuz-bypass infrastructure. Civil Defense engaged. STRATEGIC SIGNIFICANCE: First major hit on UAE energy infrastructure since 8 Apr ceasefire; targets the only remaining UAE crude export outlet bypassing Hormuz.",
     "sources": [
       "Fujairah Media Office",
       "Reuters/USNews",
@@ -2936,7 +2936,7 @@
     "weapon": "Cruise missile + drone barrage",
     "casualties_reported": "3 'moderate' injuries reported at Fujairah; no fatalities.",
     "casualties_source": "UAE Ministry of Defence (X/@modgovae) / Khaleej Times / Gulf News",
-    "notes": "Day 66 (May 4): UAE MoD official intercept tally \u2014 12 ballistic missiles, 3 cruise missiles, 4 UAVs engaged; 3 cruise missiles intercepted over UAE territorial waters, 1 fell to sea. UAE issued first missile-alert siren since 8 Apr ceasefire. War-running totals UAE engagements: BM ~487 / CM ~26 / UAV ~2,089+ since 28 Feb. Qatar/Kuwait/Jordan/Saudi Arabia issued solidarity statements; UAE shifts schools to remote learning May 5-8.",
+    "notes": "Day 66 (May 4): UAE MoD official intercept tally — 12 ballistic missiles, 3 cruise missiles, 4 UAVs engaged; 3 cruise missiles intercepted over UAE territorial waters, 1 fell to sea. UAE issued first missile-alert siren since 8 Apr ceasefire. War-running totals UAE engagements: BM ~487 / CM ~26 / UAV ~2,089+ since 28 Feb. Qatar/Kuwait/Jordan/Saudi Arabia issued solidarity statements; UAE shifts schools to remote learning May 5-8.",
     "sources": [
       "UAE Ministry of Defence (X/@modgovae)",
       "Khaleej Times",
@@ -2956,7 +2956,7 @@
     "lng": 56.3,
     "type": "iran_retaliation",
     "origin": "Unknown (Iranian attribution suspected, unclaimed)",
-    "weapon": "Unknown \u2014 explosion and fire onboard",
+    "weapon": "Unknown — explosion and fire onboard",
     "casualties_reported": "No casualties as of last reporting.",
     "casualties_source": "ROK MOFA / Gulf News",
     "notes": "Day 66 (May 4, 20:40 KST / ~11:40 UTC): South Korean-operated vessel anchored in waters near UAE / Strait of Hormuz reported 'explosion and fire' onboard. ROK Foreign Ministry confirms; cause not yet attributed. Treated as separate incident from Barakah and FOIZ. Confidence MEDIUM.",
@@ -2973,15 +2973,15 @@
     "active_days": [
       66
     ],
-    "city": "Near Jask, Iran \u2014 DISPUTED",
+    "city": "Near Jask, Iran — DISPUTED",
     "lat": 25.6,
     "lng": 57.8,
     "type": "iran_retaliation_disputed",
-    "origin": "Iran (IRGC-N) \u2014 UNVERIFIED CLAIM",
+    "origin": "Iran (IRGC-N) — UNVERIFIED CLAIM",
     "weapon": "Claimed: 2x anti-ship missile strikes",
-    "casualties_reported": "DISPUTED \u2014 Iran claims US frigate hit by 2 missiles; CENTCOM denies any US Navy ship struck.",
+    "casualties_reported": "DISPUTED — Iran claims US frigate hit by 2 missiles; CENTCOM denies any US Navy ship struck.",
     "casualties_source": "Fars News Agency, Iran Navy spokesperson (CLAIM) / CENTCOM Cpt. Tim Hawkins / Axios/Ravid (DENIAL)",
-    "notes": "Day 66 (May 4): FARS NEWS (IRGC-affiliated) CLAIM that US frigate was hit by 2 missiles after ignoring warnings near Jask, forced to retreat. CENTCOM EXPLICIT DENIAL: 'No U.S. Navy ships have been struck' (X/@CENTCOM). US official to Axios: claim false. Senior Iranian official to Reuters: only 'warning shot' fired, damage status 'unclear.' Confidence LOW \u2014 assessment: Iranian information operation. Oil markets nonetheless spiked 5% intraday before paring on CENTCOM denial. FLAG: UNVERIFIED \u2014 likely Iranian IO; carry as DISPUTED.",
+    "notes": "Day 66 (May 4): FARS NEWS (IRGC-affiliated) CLAIM that US frigate was hit by 2 missiles after ignoring warnings near Jask, forced to retreat. CENTCOM EXPLICIT DENIAL: 'No U.S. Navy ships have been struck' (X/@CENTCOM). US official to Axios: claim false. Senior Iranian official to Reuters: only 'warning shot' fired, damage status 'unclear.' Confidence LOW — assessment: Iranian information operation. Oil markets nonetheless spiked 5% intraday before paring on CENTCOM denial. FLAG: UNVERIFIED — likely Iranian IO; carry as DISPUTED.",
     "sources": [
       "Fars News Agency",
       "CENTCOM (Cpt. Tim Hawkins)",
@@ -3001,11 +3001,11 @@
     "lat": 26.5,
     "lng": 56.5,
     "type": "us_counter_action",
-    "origin": "US (CENTCOM) \u2014 Project Freedom",
+    "origin": "US (CENTCOM) — Project Freedom",
     "weapon": "Naval gunfire / aviation engagement",
     "casualties_reported": "6 IRGC small boats sunk; no US vessels hit.",
     "casualties_source": "CENTCOM @CENTCOM / Adm. Brad Cooper press conference May 4 / Gulf News / Barchart",
-    "notes": "Day 66 (May 4): US Navy SANK 6 IRGC SMALL BOATS while facilitating passage of 2 US-flagged merchant vessels through Strait of Hormuz under PROJECT FREEDOM. Adm. Cooper press briefing: US military 'fought off attacks from Iranian drones, missiles, and armed small boats'; multiple Iranian drones and missiles intercepted ('each and every threat neutralized'); no US vessels hit. First sustained US-Iran direct kinetic exchange of post-08 April ceasefire period. Day 67 (May 5) update \u2014 Pentagon briefing (Hegseth/Caine): 'ceasefire is not over'; Project Freedom 'defensive in nature, focused in scope and temporary in duration... separate and distinct from Operation Epic Fury'; Caine cumulative tally \u2014 Iran has fired at commercial vessels 9 times, seized 2 container ships, attacked US forces 10+ times since ceasefire 'all below the threshold of restarting major combat operations.' Trump: declined to confirm whether ceasefire is over; Truth Social \u2014 Iran 'will be blown off the face of the Earth' if it targets US ships. No new IRGC small-boat sinkings reported in Day 67 window. 22,500 mariners on 1,550+ vessels stuck in Persian Gulf; six other ships attempting to violate Iranian-port blockade 'were all turned around' (Caine).",
+    "notes": "Day 66 (May 4): US Navy SANK 6 IRGC SMALL BOATS while facilitating passage of 2 US-flagged merchant vessels through Strait of Hormuz under PROJECT FREEDOM. Adm. Cooper press briefing: US military 'fought off attacks from Iranian drones, missiles, and armed small boats'; multiple Iranian drones and missiles intercepted ('each and every threat neutralized'); no US vessels hit. First sustained US-Iran direct kinetic exchange of post-08 April ceasefire period. Day 67 (May 5) update — Pentagon briefing (Hegseth/Caine): 'ceasefire is not over'; Project Freedom 'defensive in nature, focused in scope and temporary in duration... separate and distinct from Operation Epic Fury'; Caine cumulative tally — Iran has fired at commercial vessels 9 times, seized 2 container ships, attacked US forces 10+ times since ceasefire 'all below the threshold of restarting major combat operations.' Trump: declined to confirm whether ceasefire is over; Truth Social — Iran 'will be blown off the face of the Earth' if it targets US ships. No new IRGC small-boat sinkings reported in Day 67 window. 22,500 mariners on 1,550+ vessels stuck in Persian Gulf; six other ships attempting to violate Iranian-port blockade 'were all turned around' (Caine).",
     "sources": [
       "CENTCOM @CENTCOM",
       "Adm. Brad Cooper press conference May 4",
@@ -3030,7 +3030,7 @@
     "weapon": "Unspecified ballistic missiles + drones (UAE MoD: 'engaged' threats)",
     "casualties_reported": "0 reported May 5; no confirmed damage",
     "casualties_source": "UAE Ministry of Defence / IRGC statement (Fars) / Al Jazeera / NPR / Jerusalem Post",
-    "notes": "Day 67 (May 5): UAE air defenses engaged a SECOND CONSECUTIVE day of inbound projectiles after Day 66 May 4 strikes on Fujairah Oil Industry Zone, ADNOC tanker 'Barakah,' and intercepted 12 BM + 3 CM + 4 UAVs. UAE MoD reported systems 'engaged' threats but did NOT specify counts; no confirmed damage or casualties. ATTRIBUTION DISPUTED: IRGC statement carried by Fars late May 5 \u2014 'forces have not carried out any missile or drone operations against the UAE in recent days... If any action had been taken, we would have announced it firmly and clearly. Therefore, the report of that country's Ministry of Defense is absolutely denied and is devoid of any truth.' UAE MoD continues to attribute Iran. Earlier, an unnamed Iranian military official told Iranian state media that the May 4 Fujairah fire 'resulted from US military adventurism.' Iran has not formally denied the May 4 attacks on UAE. ASSESSMENT: Either (a) UAE misattributed/false alarm, (b) Iranian non-state proxy/IRGC-affiliated faction acted without central command authorization, (c) IRGC denial is strategic disinformation pre-Beijing visit. Caine described May 5 as a 'quieter day' overall. Day 67 also saw CNN/Fars correction of a purported Iranian Army Chief 'Hatami' warning to US carriers \u2014 traced to a fake X account \u2014 highlighting brittle attribution environment for Iranian-state-media single-source claims.",
+    "notes": "Day 67 (May 5): UAE air defenses engaged a SECOND CONSECUTIVE day of inbound projectiles after Day 66 May 4 strikes on Fujairah Oil Industry Zone, ADNOC tanker 'Barakah,' and intercepted 12 BM + 3 CM + 4 UAVs. UAE MoD reported systems 'engaged' threats but did NOT specify counts; no confirmed damage or casualties. ATTRIBUTION DISPUTED: IRGC statement carried by Fars late May 5 — 'forces have not carried out any missile or drone operations against the UAE in recent days... If any action had been taken, we would have announced it firmly and clearly. Therefore, the report of that country's Ministry of Defense is absolutely denied and is devoid of any truth.' UAE MoD continues to attribute Iran. Earlier, an unnamed Iranian military official told Iranian state media that the May 4 Fujairah fire 'resulted from US military adventurism.' Iran has not formally denied the May 4 attacks on UAE. ASSESSMENT: Either (a) UAE misattributed/false alarm, (b) Iranian non-state proxy/IRGC-affiliated faction acted without central command authorization, (c) IRGC denial is strategic disinformation pre-Beijing visit. Caine described May 5 as a 'quieter day' overall. Day 67 also saw CNN/Fars correction of a purported Iranian Army Chief 'Hatami' warning to US carriers — traced to a fake X account — highlighting brittle attribution environment for Iranian-state-media single-source claims.",
     "sources": [
       "Al Jazeera 2026-05-05 'UAE comes under Iranian attacks for second consecutive day'",
       "NPR 2026-05-05",
@@ -3081,7 +3081,7 @@
     "weapon": "2 ballistic missiles + 3 drones",
     "casualties_reported": "3 wounded by debris (moderate)",
     "casualties_source": "UAE Ministry of Defence (X) / AP / Times of Israel / NPR",
-    "notes": "Day 70 (May 8): UAE MoD: air defenses engaged ballistic missile and drone attacks 'originating from Iran' Friday morning; 3 moderately wounded by debris in populated areas. Authorities urged residents to stay clear of debris. Cumulative since war start: 551 ballistic + 29 cruise + 2,263 drones engaged (UAE MoD running tally). IRGC has DENIED responsibility for recent UAE attacks (May 5 statement still standing); attribution flagged DISPUTED. Not all confirmed fully intercepted \u2014 debris fell in populated areas. Comes day after May 7 Hormuz tit-for-tat exchange between US and Iran.",
+    "notes": "Day 70 (May 8): UAE MoD: air defenses engaged ballistic missile and drone attacks 'originating from Iran' Friday morning; 3 moderately wounded by debris in populated areas. Authorities urged residents to stay clear of debris. Cumulative since war start: 551 ballistic + 29 cruise + 2,263 drones engaged (UAE MoD running tally). IRGC has DENIED responsibility for recent UAE attacks (May 5 statement still standing); attribution flagged DISPUTED. Not all confirmed fully intercepted — debris fell in populated areas. Comes day after May 7 Hormuz tit-for-tat exchange between US and Iran.",
     "sources": [
       "UAE Ministry of Defence statement on X, 2026-05-08",
       "Times of Israel live blog 2026-05-08 06:42 ET",
@@ -3108,7 +3108,7 @@
     "weapon": "Air strikes",
     "casualties_reported": "11 killed (including 2 children), 36 wounded",
     "casualties_source": "Lebanese National News Agency (NNA) via Al Jazeera Day 70 brief",
-    "notes": "Day 69-70 (overnight May 7\u21928): Overnight Israeli air attacks killed 11 people including 2 children, wounded 36 in Nabatieh district (Doueir, Harouf, Habboush). Netanyahu (May 7): 'No terrorist is immune' \u2014 claimed responsibility for May 6 Beirut killing of Hezbollah Radwan commander Ahmed Ghaleb Ballout. Lebanon-Israel direct talks scheduled May 14\u201315 in Washington (US official confirmed). Lebanese MoPH provisional uplift expected to ~2,738 killed / ~8,474 wounded in next bulletin (current May 7 19:52 BST: 2,727 / 8,438).",
+    "notes": "Day 69-70 (overnight May 7→8): Overnight Israeli air attacks killed 11 people including 2 children, wounded 36 in Nabatieh district (Doueir, Harouf, Habboush). Netanyahu (May 7): 'No terrorist is immune' — claimed responsibility for May 6 Beirut killing of Hezbollah Radwan commander Ahmed Ghaleb Ballout. Lebanon-Israel direct talks scheduled May 14–15 in Washington (US official confirmed). Lebanese MoPH provisional uplift expected to ~2,738 killed / ~8,474 wounded in next bulletin (current May 7 19:52 BST: 2,727 / 8,438).",
     "sources": [
       "Al Jazeera Day 70 brief 2026-05-08 ('Iran war day 70: US, Iran trade fire in Hormuz')",
       "AP/PBS 2026-05-08",
@@ -3175,10 +3175,10 @@
     "active_days": [
       70
     ],
-    "weapon": "Casualty claim \u2014 Iranian cargo vessel (unnamed)",
+    "weapon": "Casualty claim — Iranian cargo vessel (unnamed)",
     "casualties_reported": "Iran claims 1 sailor killed, 10 wounded, 5 missing in US strike; CENTCOM has NOT confirmed Iranian casualty figures",
     "casualties_source": "NPR 2026-05-08; Iran judiciary-affiliated news agency",
-    "notes": "Iran Joint Military Command (May 8) claimed US air attacks on civilian areas of Qeshm Island wounded 10 sailors and left 5 missing aboard an Iranian cargo ship. US has not confirmed casualties, only the strikes on three port facilities (Bandar Abbas, Qeshm Island, Bandar Kargan). Confidence MEDIUM \u2014 Iranian claim, not corroborated by CENTCOM.",
+    "notes": "Iran Joint Military Command (May 8) claimed US air attacks on civilian areas of Qeshm Island wounded 10 sailors and left 5 missing aboard an Iranian cargo ship. US has not confirmed casualties, only the strikes on three port facilities (Bandar Abbas, Qeshm Island, Bandar Kargan). Confidence MEDIUM — Iranian claim, not corroborated by CENTCOM.",
     "sources": [
       "NPR 2026-05-08",
       "Iran judiciary-affiliated news agency"
@@ -3200,7 +3200,7 @@
     "weapon": "Drones + artillery rockets",
     "casualties_reported": "1 IDF reservist severely wounded, 2 moderately wounded; D9 bulldozer targeted in al-Abbad",
     "casualties_source": "IDF statement 2026-05-09; Al Jazeera 2026-05-09 liveblog",
-    "notes": "Day 71 (May 9): Hezbollah launched drone and rocket attacks on IDF positions in northern Israel and southern Lebanon \u2014 Misgav Am border post, Biyyada, Rachaf, al-Abbad. 1 IDF reservist severely wounded, 2 moderately wounded; D9 bulldozer targeted. At least two attacks on northern Israeli positions; characterized as response to Israel's May 9 strikes that killed 24+ in Lebanon (widest strike radius since Apr 17 ceasefire).",
+    "notes": "Day 71 (May 9): Hezbollah launched drone and rocket attacks on IDF positions in northern Israel and southern Lebanon — Misgav Am border post, Biyyada, Rachaf, al-Abbad. 1 IDF reservist severely wounded, 2 moderately wounded; D9 bulldozer targeted. At least two attacks on northern Israeli positions; characterized as response to Israel's May 9 strikes that killed 24+ in Lebanon (widest strike radius since Apr 17 ceasefire).",
     "sources": [
       "IDF statement 2026-05-09",
       "Al Jazeera 2026-05-09 liveblog"
@@ -3222,7 +3222,7 @@
     "weapon": "Multiple UAVs (number unspecified; described as 'several' / 'a number')",
     "casualties_reported": "None reported",
     "casualties_source": "Kuwait MoD spokesperson Col. Saud Abdulaziz Al-Atwan via KUNA",
-    "notes": "Day 72 (May 10) ~02:30 UTC: Kuwait MoD reports armed forces 'detected a number of hostile drones in Kuwaiti airspace, which were dealt with in accordance with established procedures.' Source UNATTRIBUTED by Kuwait MoD; pattern consistent with Iran-aligned Iraqi militias (Apr 25 precedent: 2 drones from Iraq hit northern KW border posts) or IRGC direct (Apr 8 precedent). UAE MoFA condemned as 'terrorist attack' and sovereignty violation. First confirmed Kuwait airspace breach since the April 8 ceasefire took effect. Kuwait did not name Iran. UNVERIFIED whether any drones impacted ground; KW MoD silent on damage. Note name reconciliation: KUNA/Reuters consistently identify Col. Staff Saud Abdulaziz Al-Atwan (vs Day 71 source materials' 'Brig. Gen. Saud Abdulaziz Al-Otaibi') \u2014 adopt KUNA wording.",
+    "notes": "Day 72 (May 10) ~02:30 UTC: Kuwait MoD reports armed forces 'detected a number of hostile drones in Kuwaiti airspace, which were dealt with in accordance with established procedures.' Source UNATTRIBUTED by Kuwait MoD; pattern consistent with Iran-aligned Iraqi militias (Apr 25 precedent: 2 drones from Iraq hit northern KW border posts) or IRGC direct (Apr 8 precedent). UAE MoFA condemned as 'terrorist attack' and sovereignty violation. First confirmed Kuwait airspace breach since the April 8 ceasefire took effect. Kuwait did not name Iran. UNVERIFIED whether any drones impacted ground; KW MoD silent on damage. Note name reconciliation: KUNA/Reuters consistently identify Col. Staff Saud Abdulaziz Al-Atwan (vs Day 71 source materials' 'Brig. Gen. Saud Abdulaziz Al-Otaibi') — adopt KUNA wording.",
     "sources": [
       "Reuters via Times of Israel liveblog",
       "KUNA",
@@ -3246,7 +3246,7 @@
       72
     ],
     "weapon": "2 attack drones launched from Iranian territory",
-    "casualties_reported": "None \u2014 both drones successfully engaged",
+    "casualties_reported": "None — both drones successfully engaged",
     "casualties_source": "UAE MoD statement",
     "notes": "Day 72 (May 10) ~12:00 UTC: UAE MoD says air defenses 'successfully engaged' two drones launched from Iran. DIRECTLY ATTRIBUTED to Tehran by UAE MoD: 'fully prepared and ready to deal with any threats and will firmly confront anything that aims to undermine the security of the country.' No casualties. Cumulative since Feb 28: 2,265 drones / 551 ballistic missiles / 29 cruise missiles intercepted; UAE civilian deaths cumulative 10 / wounded 230. UAE schools to resume in-person learning Monday May 11 (had shifted to remote May 4 after Fujairah refinery hit). UAE's direct attribution to Tehran contrasts with Kuwait/Qatar non-attribution. Iran (via embassy in Seoul + Iranian denial pattern on May 5) generally denies UAE attacks; expect IRGC denial within 24h.",
     "sources": [
@@ -3272,7 +3272,7 @@
     "weapon": "1 attack drone (per Qatar MoD); UKMTO described as 'unknown projectile'",
     "casualties_reported": "0 casualties / 0 injuries / 0 environmental impact",
     "casualties_source": "Qatar Ministry of Defense statement + UKMTO advisory",
-    "notes": "Day 72 (May 10) morning local (pre-12:00 GMT): Bulk carrier (origin: Abu Dhabi \u2192 destination: Mesaieed Port, Qatar) was targeted by a drone, causing a limited fire that was extinguished. Vessel continued under own power to Mesaieed. Vessel flag UNVERIFIED \u2014 Fars News (Iranian source) and TASS claim US-flagged; UKMTO, Qatar MoD, Reuters, Boston Globe do not specify. UNATTRIBUTED by Qatar/UKMTO. Most significant Gulf maritime attack inside Qatari territorial waters during the war. Coincides with PM Al-Thani-Rubio-Witkoff Miami talks on May 9. Cross-reference: IRGC Navy warned May 9 that 'any attack on Iran's oil tankers and commercial vessels will result in a heavy assault on one of the American centres in the region and the enemy's ships' \u2014 May 10 Qatar strike consistent with that doctrine if Fars US-flag claim accurate.",
+    "notes": "Day 72 (May 10) morning local (pre-12:00 GMT): Bulk carrier (origin: Abu Dhabi → destination: Mesaieed Port, Qatar) was targeted by a drone, causing a limited fire that was extinguished. Vessel continued under own power to Mesaieed. Vessel flag UNVERIFIED — Fars News (Iranian source) and TASS claim US-flagged; UKMTO, Qatar MoD, Reuters, Boston Globe do not specify. UNATTRIBUTED by Qatar/UKMTO. Most significant Gulf maritime attack inside Qatari territorial waters during the war. Coincides with PM Al-Thani-Rubio-Witkoff Miami talks on May 9. Cross-reference: IRGC Navy warned May 9 that 'any attack on Iran's oil tankers and commercial vessels will result in a heavy assault on one of the American centres in the region and the enemy's ships' — May 10 Qatar strike consistent with that doctrine if Fars US-flag claim accurate.",
     "sources": [
       "Reuters",
       "UKMTO",
@@ -3299,7 +3299,7 @@
     "weapon": "explosive drones (multiple)",
     "casualties_reported": "2 IDF soldiers wounded",
     "casualties_source": "Times of Israel liveblog May 12, 2026",
-    "notes": "Day 74 (May 12, Tuesday): Several Hezbollah explosive drones detonated in Israeli territory, wounding 2 IDF soldiers. Hezbollah aired drone footage purporting to show strike on Iron Dome battery in northern Israel \u2014 UNVERIFIED technical claim, meaningful milestone if confirmed. IDF reports rockets intercepted or fallen in open areas. Cross-reference: IDF ground operations at Litani River same day (IDF spokesperson photo); IDF airstrike on Ras Al-Ain near Tyre (AFP photo); third round of US-mediated Israel-Lebanon talks scheduled for Washington May 14-15.",
+    "notes": "Day 74 (May 12, Tuesday): Several Hezbollah explosive drones detonated in Israeli territory, wounding 2 IDF soldiers. Hezbollah aired drone footage purporting to show strike on Iron Dome battery in northern Israel — UNVERIFIED technical claim, meaningful milestone if confirmed. IDF reports rockets intercepted or fallen in open areas. Cross-reference: IDF ground operations at Litani River same day (IDF spokesperson photo); IDF airstrike on Ras Al-Ain near Tyre (AFP photo); third round of US-mediated Israel-Lebanon talks scheduled for Washington May 14-15.",
     "sources": [
       "Times of Israel liveblog May 12, 2026",
       "Al Jazeera",
@@ -3320,9 +3320,9 @@
       75
     ],
     "weapon": "IDF Golani Recon ground forces",
-    "casualties_reported": "UNVERIFIED \u2014 Lebanon MoPH bulletin not refreshed by morning GMT cutoff",
+    "casualties_reported": "UNVERIFIED — Lebanon MoPH bulletin not refreshed by morning GMT cutoff",
     "casualties_source": "ACLED Iran-crisis live (last update 16:15 CEST 05-13); Times of Israel liveblog 05-12 carry-forward",
-    "notes": "Day 75 (May 13, Wednesday): IDF Litani-zone ground operations continue (carry-forward from Golani Brigade Recon Unit week-long raid disclosed 05-12 reaching Zawtar al-Sharqiyah ~10km from border). No headline-grade single-event strike reported May 13 in early reporting window. Lebanon MoPH did NOT publish updated bulletin within May 13 morning GMT cutoff \u2014 carry-forward 2,869 with UNVERIFIED delta pending tally; IDF Golani Recon raid expected to add when MoPH next publishes. Israel-Lebanon Washington round scheduled May 14-15 paralleling Trump-Xi.",
+    "notes": "Day 75 (May 13, Wednesday): IDF Litani-zone ground operations continue (carry-forward from Golani Brigade Recon Unit week-long raid disclosed 05-12 reaching Zawtar al-Sharqiyah ~10km from border). No headline-grade single-event strike reported May 13 in early reporting window. Lebanon MoPH did NOT publish updated bulletin within May 13 morning GMT cutoff — carry-forward 2,869 with UNVERIFIED delta pending tally; IDF Golani Recon raid expected to add when MoPH next publishes. Israel-Lebanon Washington round scheduled May 14-15 paralleling Trump-Xi.",
     "sources": [
       "Times of Israel liveblog 05-12 (carry-forward)",
       "ACLED Iran-crisis live (last update 16:15 CEST 05-13)"
@@ -3366,9 +3366,9 @@
     "weapon": "none (observation/signaling event)",
     "casualties_reported": "None",
     "casualties_source": "Bloomberg ship-tracking (Weilun Soon)",
-    "notes": "Day 75 (May 13, Wednesday): No new IRGC kinetic incident on commercial shipping reported May 13. Notable anomaly: Chinese COSCO VLCC Yuan Hua Hu observed transiting OUTBOUND through Hormuz past Iran's Larak Island into the Gulf of Oman per Bloomberg \u2014 first rare Chinese supertanker exit since blockade tightening, timed for Trump-Xi summit window (Trump landed Beijing 19:50 local). Read by analysts as Sino-Iranian coordinated signaling. Transit does NOT indicate generalized Hormuz re-opening \u2014 Kpler data still shows traffic at ~5% of pre-war baseline.",
+    "notes": "Day 75 (May 13, Wednesday): No new IRGC kinetic incident on commercial shipping reported May 13. Notable anomaly: Chinese COSCO VLCC Yuan Hua Hu observed transiting OUTBOUND through Hormuz past Iran's Larak Island into the Gulf of Oman per Bloomberg — first rare Chinese supertanker exit since blockade tightening, timed for Trump-Xi summit window (Trump landed Beijing 19:50 local). Read by analysts as Sino-Iranian coordinated signaling. Transit does NOT indicate generalized Hormuz re-opening — Kpler data still shows traffic at ~5% of pre-war baseline.",
     "sources": [
-      "Bloomberg 05-13 03:36 UTC (updated 10:48 UTC) \u2014 Weilun Soon"
+      "Bloomberg 05-13 03:36 UTC (updated 10:48 UTC) — Weilun Soon"
     ],
     "verified": true,
     "last_updated": "2026-05-13"
@@ -3391,7 +3391,7 @@
     "notes": "Surfaced via UNIFIL May 13-14 statement (Day 76 reporting window): multiple presumed-Hezbollah drone explosions on May 11 and 12 within meters of UNIFIL HQ in Naqoura; ONE drone detonated INSIDE the headquarters compound, damaging multiple buildings (no injuries reported). UNIFIL formally protested. Single most damaging UN-asset incident of the Lebanon front since the April 17 ceasefire.",
     "sources": [
       "UNIFIL statement (via LiveUAMap / Reuters May 13-14)",
-      "Manifest \u00a72 Day 76"
+      "Manifest §2 Day 76"
     ],
     "verified": true,
     "last_updated": "2026-05-14"
@@ -3415,7 +3415,7 @@
       "Xinhua / Newkerala May 14 (citing Lebanon PHEOC)",
       "LiveUAMap May 14",
       "Al Arabiya May 12 baseline (2,882 cumulative)",
-      "Manifest \u00a72 / \u00a78 Day 76"
+      "Manifest §2 / §8 Day 76"
     ],
     "verified": true,
     "last_updated": "2026-05-14"
@@ -3434,11 +3434,11 @@
     "weapon": "none (operational/diplomatic shift)",
     "casualties_reported": "None",
     "casualties_source": "Bloomberg / Reuters / Fars / Xinhua / Lloyd's List / WSJ",
-    "notes": "Day 76 (May 14, Thursday): NO new IRGC kinetic incident on commercial shipping May 14 \u2014 Day 6 of zero-kinetic streak (longest of war). HOWEVER significant operational shift: per Iranian state TV citing an IRGC naval official (Bloomberg/Reuters/Fars/Xinhua), Iran has begun allowing approximately 30 CHINESE VESSELS safe transit through Hormuz, coordinated with the IRGC Navy 'following an understanding over Iranian management protocols' \u2014 granted after formal requests from China's foreign minister and Beijing's ambassador to Iran. WSJ via OilPrice confirms Yuan Hua Hu (Day 75 transit) paid NO TOLL and used IRGC-controlled NORTHERN corridor (not Larak southern toll lane); transponder cycled off/on/off between Dubai anchorage and Larak. As of May 14 vessel anchored off Oman near US blockade station; CENTCOM disposition UNVERIFIED. Trump-Xi joint position Day 1 ('strait must remain open... Iran can never have a nuclear weapon... no tolls') effectively traded for Iran's controlled-corridor management role. MOST SIGNIFICANT SHIFT IN HORMUZ STATUS SINCE APRIL 13 BLOCKADE. Tanker transits 24h: uptick (precise count UNVERIFIED pending Bloomberg/Windward tracker).",
+    "notes": "Day 76 (May 14, Thursday): NO new IRGC kinetic incident on commercial shipping May 14 — Day 6 of zero-kinetic streak (longest of war). HOWEVER significant operational shift: per Iranian state TV citing an IRGC naval official (Bloomberg/Reuters/Fars/Xinhua), Iran has begun allowing approximately 30 CHINESE VESSELS safe transit through Hormuz, coordinated with the IRGC Navy 'following an understanding over Iranian management protocols' — granted after formal requests from China's foreign minister and Beijing's ambassador to Iran. WSJ via OilPrice confirms Yuan Hua Hu (Day 75 transit) paid NO TOLL and used IRGC-controlled NORTHERN corridor (not Larak southern toll lane); transponder cycled off/on/off between Dubai anchorage and Larak. As of May 14 vessel anchored off Oman near US blockade station; CENTCOM disposition UNVERIFIED. Trump-Xi joint position Day 1 ('strait must remain open... Iran can never have a nuclear weapon... no tolls') effectively traded for Iran's controlled-corridor management role. MOST SIGNIFICANT SHIFT IN HORMUZ STATUS SINCE APRIL 13 BLOCKADE. Tanker transits 24h: uptick (precise count UNVERIFIED pending Bloomberg/Windward tracker).",
     "sources": [
       "Bloomberg / Reuters-Kpler / LSEG / Lloyd's List Intelligence / WSJ / OilPrice",
       "Iranian state TV citing IRGC naval official",
-      "Manifest \u00a74 Day 76"
+      "Manifest §4 Day 76"
     ],
     "verified": true,
     "last_updated": "2026-05-14"
@@ -3457,13 +3457,13 @@
     "weapon": "Suspected drone/missile (per Vanguard Maritime Risk Mgmt)",
     "casualties_reported": "0 killed; 14 Indian crew rescued by Omani authorities",
     "casualties_source": "India MEA / Reuters via Fox / CBS liveblog",
-    "notes": "Indian-flagged wooden cargo dhow sailing UAE-bound from India attacked in Omani waters near Strait of Hormuz approaches; vessel SANK. All 14 Indian crew recovered by Omani authorities. India Ministry of External Affairs called targeting 'unacceptable.' Attacker not formally attributed; Vanguard Maritime Risk Management suspects drone/missile. Per manifest \u00a73a: incident confirms continuing IRGCN harassment baseline against Western/Indian-flagged shipping even as Chinese vessels are granted controlled-corridor passage. No faction claim.",
+    "notes": "Indian-flagged wooden cargo dhow sailing UAE-bound from India attacked in Omani waters near Strait of Hormuz approaches; vessel SANK. All 14 Indian crew recovered by Omani authorities. India Ministry of External Affairs called targeting 'unacceptable.' Attacker not formally attributed; Vanguard Maritime Risk Management suspects drone/missile. Per manifest §3a: incident confirms continuing IRGCN harassment baseline against Western/Indian-flagged shipping even as Chinese vessels are granted controlled-corridor passage. No faction claim.",
     "sources": [
       "Reuters via Fox News",
       "India Ministry of External Affairs",
       "CBS liveblog 2026-05-14",
       "Vanguard Maritime Risk Management",
-      "Manifest \u00a73a"
+      "Manifest §3a"
     ],
     "verified": true,
     "last_updated": "2026-05-15"
@@ -3482,13 +3482,13 @@
     "weapon": "Boarding party (unauthorized personnel)",
     "casualties_reported": "None reported in initial advisory",
     "casualties_source": "UKMTO advisory / CBS / Al Jazeera / Fox News liveblog",
-    "notes": "UKMTO advisory May 14: unauthorized personnel boarded vessel anchored off UAE Fujairah and were taking it toward Iranian waters. Vessel identity (flag, owner, cargo) not disclosed in initial advisory \u2014 PARTIAL per manifest \u00a79. IRGCN-presumed but UNCONFIRMED. Incident occurred during Trump-Xi Beijing summit window and parallels 5/13 Indian-dhow sinking \u2014 demonstrates continuing IRGCN harassment of non-Chinese flagged commercial vessels even as ~30 Chinese vessels granted IRGC-managed transit. Trump-Xi Day 1 joint readout had declared strait 'must remain open' hours before this incident.",
+    "notes": "UKMTO advisory May 14: unauthorized personnel boarded vessel anchored off UAE Fujairah and were taking it toward Iranian waters. Vessel identity (flag, owner, cargo) not disclosed in initial advisory — PARTIAL per manifest §9. IRGCN-presumed but UNCONFIRMED. Incident occurred during Trump-Xi Beijing summit window and parallels 5/13 Indian-dhow sinking — demonstrates continuing IRGCN harassment of non-Chinese flagged commercial vessels even as ~30 Chinese vessels granted IRGC-managed transit. Trump-Xi Day 1 joint readout had declared strait 'must remain open' hours before this incident.",
     "sources": [
       "UKMTO (UK Maritime Trade Operations)",
       "CBS News liveblog",
       "Al Jazeera",
       "Fox News liveblog",
-      "Manifest \u00a73a"
+      "Manifest §3a"
     ],
     "verified": true,
     "last_updated": "2026-05-15"
@@ -3507,11 +3507,11 @@
     "weapon": "Explosive drone",
     "casualties_reported": "Several Israeli civilians wounded",
     "casualties_source": "IDF statement via Times of Israel / The National",
-    "notes": "IDF: Hezbollah explosive drone fell in Israeli territory near northern border, wounded several civilians. Occurred hours before Israel-Lebanon Washington Round 3 talks opened May 14. Hezbollah's first kinetic event during Round 3 window; underscores Lebanon ceasefire (effective Apr 17) fragility as ceasefire expires Sunday May 17. IDF subsequently (May 15) issued evacuation orders for 5 southern Lebanon villages ahead of expected strikes. Per manifest \u00a73a.",
+    "notes": "IDF: Hezbollah explosive drone fell in Israeli territory near northern border, wounded several civilians. Occurred hours before Israel-Lebanon Washington Round 3 talks opened May 14. Hezbollah's first kinetic event during Round 3 window; underscores Lebanon ceasefire (effective Apr 17) fragility as ceasefire expires Sunday May 17. IDF subsequently (May 15) issued evacuation orders for 5 southern Lebanon villages ahead of expected strikes. Per manifest §3a.",
     "sources": [
       "IDF statement via Times of Israel liveblog",
       "The National (UAE)",
-      "Manifest \u00a73a"
+      "Manifest §3a"
     ],
     "verified": true,
     "last_updated": "2026-05-15"
@@ -3530,7 +3530,7 @@
     "weapon": "Drone (one impact + two intercepted by UAE air defense)",
     "casualties_reported": "0 killed / 0 injured / NO radiological release",
     "casualties_source": "UAE Ministry of Defence / IAEA / Al Jazeera / AP / PBS / Fortune / The National / Euronews / Washington Post",
-    "notes": "ATTRIBUTION FINALIZED (May 19): UAE Ministry of Defence announced that 'technical tracking and monitoring confirmed that the three drones \u2026 all originated from Iraqi territory'; UAE handled an additional 6 drones from Iraq over the subsequent 48 hours. AP/Washington Post framing: drones 'all came from Iraq \u2026 likely signaling that Iranian-backed Shiite militias launched the assault.' Likely PMF-linked candidate factions per Gulf News analyst reporting: Kataib Hezbollah, Asaib Ahl al-Haq, Harakat Hezbollah al-Nujaba, Badr Organization, Kataib Sayyid al-Shuhada. NO claim of responsibility from any Iraqi militia faction as of May 19 close. Emirati diplomat Anwar Gargash (X, May 19) issued veiled criticism of Qatar's mediating posture: 'The confusion of roles during this treacherous Iranian aggression is baffling.' UAE Minister of Industry Dr. Sultan Al Jaber called the strike 'a terrorist attack on a peaceful energy project.' Bloomberg (May 18): 'The aerial assault didn't cause any casualties or abnormal radiation, but did trigger the plant's emergency power supply.' \u2014 FIRST NUCLEAR-FACILITY STRIKE ON A GULF STATE DURING THE WAR. Three drones entered UAE airspace from western (Saudi) border ~AM Gulf time May 17; UAE air defense intercepted two; the third struck an electrical generator outside the inner perimeter of the four-reactor Barakah Nuclear Energy Plant. Fire ignited; Unit 3 ran on emergency diesel (per IAEA DG Rafael Grossi); no radiological release; no injuries. UAE FM Sheikh Abdullah bin Zayed called it a 'treacherous terrorist attack' and reserved right to respond. UAE MoD termed it an 'unprovoked terrorist attack' but did not formally blame Iran. Qatar and Saudi Arabia condemned. IAEA DG Grossi voiced 'grave concern' and spoke with the UAE FM: 'Military activity that threatens nuclear safety is unacceptable.' Saudi Arabia separately intercepted three drones that entered from Iraqi airspace (Fox News live blog May 17) \u2014 attribution unconfirmed but vector consistent with same operational cell. IRGC spokesperson Ebrahim Zolfaghari warned U.S. bases in the southern Persian Gulf would be 'deactivated.' Iran parliament's Esmail Kowsari to UAE: 'If the UAE continues cooperating with the US and Israel against us, we will confront them more forcefully.' Iranian state TV (May 17) presenter Hossein Hosseini received basic firearms training from a masked Revolutionary Guard on-air, then mimed firing a shot at a UAE flag. Trump (Truth Social May 17): 'For Iran, the Clock is Ticking, and they better get moving, FAST, or there won't be anything left of them. TIME IS OF THE ESSENCE!' Axios/Ravid: Trump to convene Situation Room Tue May 19 to review military options. Per manifest \u00a73.",
+    "notes": "ATTRIBUTION FINALIZED (May 19): UAE Ministry of Defence announced that 'technical tracking and monitoring confirmed that the three drones … all originated from Iraqi territory'; UAE handled an additional 6 drones from Iraq over the subsequent 48 hours. AP/Washington Post framing: drones 'all came from Iraq … likely signaling that Iranian-backed Shiite militias launched the assault.' Likely PMF-linked candidate factions per Gulf News analyst reporting: Kataib Hezbollah, Asaib Ahl al-Haq, Harakat Hezbollah al-Nujaba, Badr Organization, Kataib Sayyid al-Shuhada. NO claim of responsibility from any Iraqi militia faction as of May 19 close. Emirati diplomat Anwar Gargash (X, May 19) issued veiled criticism of Qatar's mediating posture: 'The confusion of roles during this treacherous Iranian aggression is baffling.' UAE Minister of Industry Dr. Sultan Al Jaber called the strike 'a terrorist attack on a peaceful energy project.' Bloomberg (May 18): 'The aerial assault didn't cause any casualties or abnormal radiation, but did trigger the plant's emergency power supply.' — FIRST NUCLEAR-FACILITY STRIKE ON A GULF STATE DURING THE WAR. Three drones entered UAE airspace from western (Saudi) border ~AM Gulf time May 17; UAE air defense intercepted two; the third struck an electrical generator outside the inner perimeter of the four-reactor Barakah Nuclear Energy Plant. Fire ignited; Unit 3 ran on emergency diesel (per IAEA DG Rafael Grossi); no radiological release; no injuries. UAE FM Sheikh Abdullah bin Zayed called it a 'treacherous terrorist attack' and reserved right to respond. UAE MoD termed it an 'unprovoked terrorist attack' but did not formally blame Iran. Qatar and Saudi Arabia condemned. IAEA DG Grossi voiced 'grave concern' and spoke with the UAE FM: 'Military activity that threatens nuclear safety is unacceptable.' Saudi Arabia separately intercepted three drones that entered from Iraqi airspace (Fox News live blog May 17) — attribution unconfirmed but vector consistent with same operational cell. IRGC spokesperson Ebrahim Zolfaghari warned U.S. bases in the southern Persian Gulf would be 'deactivated.' Iran parliament's Esmail Kowsari to UAE: 'If the UAE continues cooperating with the US and Israel against us, we will confront them more forcefully.' Iranian state TV (May 17) presenter Hossein Hosseini received basic firearms training from a masked Revolutionary Guard on-air, then mimed firing a shot at a UAE flag. Trump (Truth Social May 17): 'For Iran, the Clock is Ticking, and they better get moving, FAST, or there won't be anything left of them. TIME IS OF THE ESSENCE!' Axios/Ravid: Trump to convene Situation Room Tue May 19 to review military options. Per manifest §3.",
     "sources": [
       "Al Jazeera May 17",
       "AP May 17",
@@ -3544,7 +3544,7 @@
       "AP via Washington Post May 19",
       "The National (UAE) May 19",
       "Review Journal May 19",
-      "Manifest \u00a72 & \u00a73"
+      "Manifest §2 & §3"
     ],
     "verified": true,
     "last_updated": "2026-05-19"
@@ -3555,7 +3555,7 @@
     "lat": 26.0,
     "lng": 45.0,
     "type": "iran_proxy_kinetic_saudi",
-    "actor": "UNVERIFIED \u2014 suspected Iraqi Shia militia / Iran-aligned",
+    "actor": "UNVERIFIED — suspected Iraqi Shia militia / Iran-aligned",
     "first_strike": "2026-05-17",
     "active_days": [
       79
@@ -3563,10 +3563,10 @@
     "weapon": "Drones (3 intercepted)",
     "casualties_reported": "0 killed / 0 injured / NO impact (all 3 intercepted)",
     "casualties_source": "Fox News live blog May 17",
-    "notes": "Saudi Arabia intercepted three drones that entered Saudi airspace from Iraqi airspace May 17. Attribution UNVERIFIED. Vector consistent with same operational cell as UAE Barakah drone attack (which entered UAE airspace from western/Saudi border). Per manifest \u00a73.",
+    "notes": "Saudi Arabia intercepted three drones that entered Saudi airspace from Iraqi airspace May 17. Attribution UNVERIFIED. Vector consistent with same operational cell as UAE Barakah drone attack (which entered UAE airspace from western/Saudi border). Per manifest §3.",
     "sources": [
       "Fox News live blog May 17",
-      "Manifest \u00a73"
+      "Manifest §3"
     ],
     "verified": true,
     "last_updated": "2026-05-17"
@@ -3585,11 +3585,11 @@
     "weapon": "Airstrikes",
     "casualties_reported": "At least 5 killed / 12+ wounded",
     "casualties_source": "Al Jazeera / Lebanese National News Agency (NNA) May 17",
-    "notes": "IDF strikes on Tayr Felsay, Tayr Debba, Az-Zrariyah, Jebchit, Jouaiya killed at least 5 and wounded 12+. IDF issued forced-displacement orders for Sohmor, Roumine, al-Qusaibah, Kfar Hounah, and Naqoura. Strikes occurred 2 days after Round 3 Lebanon talks concluded in Washington May 15 with +45-day ceasefire extension. Lebanon MoPH cumulative since Mar 2: ~2,896 (May 14) + 5 = ~2,901 killed. Per manifest \u00a73 & \u00a75.",
+    "notes": "IDF strikes on Tayr Felsay, Tayr Debba, Az-Zrariyah, Jebchit, Jouaiya killed at least 5 and wounded 12+. IDF issued forced-displacement orders for Sohmor, Roumine, al-Qusaibah, Kfar Hounah, and Naqoura. Strikes occurred 2 days after Round 3 Lebanon talks concluded in Washington May 15 with +45-day ceasefire extension. Lebanon MoPH cumulative since Mar 2: ~2,896 (May 14) + 5 = ~2,901 killed. Per manifest §3 & §5.",
     "sources": [
       "Al Jazeera May 17",
       "Lebanese NNA",
-      "Manifest \u00a73"
+      "Manifest §3"
     ],
     "verified": true,
     "last_updated": "2026-05-17"
@@ -3600,7 +3600,7 @@
     "lat": 33.2,
     "lng": 35.5,
     "type": "iran_proxy_kinetic_lebanon",
-    "actor": "Hezbollah (Islamic Resistance) \u2014 multiple communiqu\u00e9s via Al-Manar TV",
+    "actor": "Hezbollah (Islamic Resistance) — multiple communiqués via Al-Manar TV",
     "first_strike": "2026-05-17",
     "active_days": [
       79
@@ -3608,12 +3608,12 @@
     "weapon": "Multiple rocket barrages, anti-tank guided missiles, loitering munitions / explosive drones",
     "casualties_reported": "0 IDF KIA; unspecified IDF wounded per Al-Manar; IDF acknowledged drone interception; explosive drone shrapnel fell at Shomera (north Israel) with no injuries; Hezbollah claims confirmed hits on D9 bulldozer and communications vehicle near Deir Seryan",
     "casualties_source": "Al-Manar TV (Hezbollah official) / Times of Israel live blog May 17 / LiveUAMap Lebanon",
-    "notes": "Multiple Hezbollah communiqu\u00e9s May 17 reported rocket barrages, ATGM and loitering-munition strikes on IDF positions; IDF reports rockets intercepted and drone shrapnel fell at Shomera (north Israel) with no injuries. Both sides' claims; cross-corroborated on activity, contested on results. Verification MEDIUM. Per manifest \u00a73.",
+    "notes": "Multiple Hezbollah communiqués May 17 reported rocket barrages, ATGM and loitering-munition strikes on IDF positions; IDF reports rockets intercepted and drone shrapnel fell at Shomera (north Israel) with no injuries. Both sides' claims; cross-corroborated on activity, contested on results. Verification MEDIUM. Per manifest §3.",
     "sources": [
       "Al-Manar TV (Hezbollah official)",
       "Times of Israel live blog May 17",
       "LiveUAMap Lebanon",
-      "Manifest \u00a73a"
+      "Manifest §3a"
     ],
     "verified": true,
     "verification_confidence": "MEDIUM",
@@ -3625,7 +3625,7 @@
     "lat": 33.15,
     "lng": 35.3,
     "type": "iran_proxy_kinetic_lebanon",
-    "actor": "Hezbollah Islamic Resistance \u2014 at least 12 numbered communiqu\u00e9s May 18",
+    "actor": "Hezbollah Islamic Resistance — at least 12 numbered communiqués May 18",
     "first_strike": "2026-05-18",
     "active_days": [
       80
@@ -3633,11 +3633,11 @@
     "weapon": "Rocket barrage; loitering drones; surface-to-air missile (engaged Israeli warplane)",
     "casualties_reported": "0 KIA reported; unspecified IDF wounded; Hezbollah claimed hits on Israeli vehicle gatherings; SAM engagement of Israeli warplane (no kill claimed)",
     "casualties_source": "Al-Manar TV (English) May 18, 2026 / LiveUAMap",
-    "notes": "Hezbollah-side reporting; Israeli confirmation limited. Time-window 10:30\u201318:55 local. Verification MEDIUM. Per manifest \u00a73a.",
+    "notes": "Hezbollah-side reporting; Israeli confirmation limited. Time-window 10:30–18:55 local. Verification MEDIUM. Per manifest §3a.",
     "sources": [
       "Al-Manar TV English May 18",
       "LiveUAMap",
-      "Manifest \u00a73a"
+      "Manifest §3a"
     ],
     "verified": true,
     "verification_confidence": "MEDIUM",
@@ -3655,17 +3655,67 @@
       80
     ],
     "weapon": "Airstrike on a house in Baalbek shortly after midnight May 18",
-    "casualties_reported": "2 killed \u2014 Palestinian Islamic Jihad commander Wael Abdel Halim and his 17-year-old daughter",
+    "casualties_reported": "2 killed — Palestinian Islamic Jihad commander Wael Abdel Halim and his 17-year-old daughter",
     "casualties_source": "Lebanese state media / Al-Manar / AP via KSAT / Times of Israel",
-    "notes": "Israeli airstrike on a house in Baalbek shortly after midnight May 18 killed Palestinian Islamic Jihad commander Wael Abdel Halim and his 17-year-old daughter. Strike came hours after the Israeli army issued evacuation warnings for towns near Tyre. Per manifest \u00a75a.",
+    "notes": "Israeli airstrike on a house in Baalbek shortly after midnight May 18 killed Palestinian Islamic Jihad commander Wael Abdel Halim and his 17-year-old daughter. Strike came hours after the Israeli army issued evacuation warnings for towns near Tyre. Per manifest §5a.",
     "sources": [
       "Al-Manar TV",
       "AP via KSAT",
       "Times of Israel",
-      "Manifest \u00a75a"
+      "Manifest §5a"
     ],
     "verified": true,
     "verification_confidence": "HIGH",
     "last_updated": "2026-05-18"
+  },
+  {
+    "id": "ret-2026-05-19-uae-iraq-origin-drone-intercepts",
+    "city": "UAE airspace (Iraq-origin drones; Barakah follow-on)",
+    "lat": 24.0,
+    "lng": 53.5,
+    "type": "iran_proxy_kinetic_uae",
+    "actor": "Iran-aligned Iraqi militias (Popular Mobilization Forces — inferred; no group claim)",
+    "first_strike": "2026-05-19",
+    "active_days": [
+      81
+    ],
+    "weapon": "One-way attack drones launched from Iraqi territory",
+    "casualties_reported": "0 — all drones intercepted; no casualties or damage reported",
+    "casualties_source": "UAE Ministry of Defence / AP / Washington Post",
+    "notes": "UAE Ministry of Defence announced May 19 that technical tracking confirmed the three drones which struck near the Barakah Nuclear Power Plant on May 17 'all originated from Iraqi territory'; the UAE intercepted six additional Iraq-origin drones over the following 48 hours. AP/WaPo framing: 'likely signaling Iranian-backed Shiite militias.' Iraq denied detecting any launches. NO group claimed responsibility. UAE presidential adviser Anwar Gargash (May 20, on X): 'From Hormuz to Barakah, the threat goes beyond the Persian Gulf to the entire international order.' Per manifest §1, §2, §6.",
+    "sources": [
+      "UAE Ministry of Defence",
+      "AP",
+      "Washington Post",
+      "Manifest §6"
+    ],
+    "verified": true,
+    "verification_confidence": "MEDIUM",
+    "last_updated": "2026-05-20"
+  },
+  {
+    "id": "ret-2026-05-19-israel-strikes-south-lebanon",
+    "city": "Southern Lebanon (multi-locale)",
+    "lat": 33.27,
+    "lng": 35.4,
+    "type": "israel_kinetic_lebanon",
+    "actor": "Israel Defense Forces (IDF)",
+    "first_strike": "2026-05-19",
+    "active_days": [
+      81
+    ],
+    "weapon": "Airstrikes across southern Lebanon",
+    "casualties_reported": "At least 19 killed, including four women and three children (Lebanon Health Ministry); cumulative Lebanese dead since March 2 exceeds 3,020. One IDF soldier — Sgt. Sapir — killed in combat in southern Lebanon, the 8th IDF soldier KIA since the April 16 ceasefire and the 21st since hostilities began.",
+    "casualties_source": "Lebanon Ministry of Public Health / Lebanese MoH / Wikipedia 2026 Lebanon war tracker / IDF",
+    "notes": "Israeli strikes May 19 killed at least 19 people in southern Lebanon per the Lebanon Health Ministry, including four women and three children — the Israel-Lebanon ceasefire is now effectively unraveled. Cumulative Lebanese dead exceeds 3,020 since March 2. IDF Sgt. Sapir was killed in combat in southern Lebanon, the 8th IDF soldier KIA since the April 16 ceasefire. Per manifest §5, §11.",
+    "sources": [
+      "Lebanon Ministry of Public Health",
+      "Wikipedia 2026 Lebanon war tracker",
+      "IDF",
+      "Manifest §5"
+    ],
+    "verified": true,
+    "verification_confidence": "HIGH",
+    "last_updated": "2026-05-20"
   }
 ]
