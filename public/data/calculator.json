@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.56,
-  "war_increase": 1.57,
+  "current_gas": 4.552,
+  "war_increase": 1.562,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.58 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com national average, May 21 2026 ($4.56, +3¢ over last week). Memorial Day weekend pump prices hit a four-year high, closing in on the 2022 Memorial Day national average of $4.61 — surpassing that would mark a new all-time Memorial Day record. Per AAA: +52.5% above $2.99 Feb 28 baseline; ~$1.38/gal above year-ago levels. California highest at $6.14; Washington $5.78; Hawaii $5.64; Mississippi lowest at $4.01, Georgia $4.03. LendingTree: nationwide gas prices up 43.6% YoY, with Ohio +57.2%, New Hampshire +56%, Michigan +53.8% among the biggest 12-month state jumps on record. Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-21.",
-  "last_updated": "2026-05-21"
+  "source": "AAA gasprices.aaa.com national average, May 22 2026 ($4.552 — 'Today's AAA National Average $4.552, Price as of 5/22/26'). +52.2% above $2.99 Feb 28 baseline; ~$1.38/gal above year-ago levels; just 9¢ below the June 2022 all-time record of $4.61. Heading into Memorial Day weekend AAA forecasts a record 45M Americans travelling ≥50 miles (39.1M by car, 3.66M by air) — Stacey Barber, VP AAA Travel: 'Travel demand remains strong, and despite higher fuel prices, many people are prioritizing leisure travel during holiday breaks.' California highest at $6.14; Washington $5.78; Hawaii $5.64; Mississippi lowest at $4.01. LendingTree: nationwide gas prices up 43.6% YoY, with Ohio +57.2%, New Hampshire +56%, Michigan +53.8% among the biggest 12-month state jumps on record. Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-22.",
+  "last_updated": "2026-05-22"
 }
