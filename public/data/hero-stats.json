@@ -1,43 +1,43 @@
 {
-  "last_updated": "2026-05-20",
-  "war_day": 82,
-  "timestamp_label": "LAST UPDATED: MAY 20, 2026 17:38 ET",
+  "last_updated": "2026-05-21",
+  "war_day": 83,
+  "timestamp_label": "LAST UPDATED: MAY 21, 2026 23:34 ET",
   "cost": {
     "brent": {
-      "price": 107.06,
-      "label": "Brent (ICE Jul) — May 20, 2026",
-      "change": "-3.19% vs May 19 close $110.59",
-      "tooltip": "Brent crude traded near $107.06/bbl (-3.19%) on May 20 as Trump's postponement of the scheduled May 19 strike held through Wednesday. Oil sold off on the postponement narrative and reports that three supertankers departed the Strait of Hormuz. Baseline Feb 27 $71.00 — war premium ≈ +$36.06 (+50.8%). EIA Short-Term Energy Outlook (May 12): Brent ~$106/b May-June; full-year 2026 Brent forecast ~$96/b; 4Q26 ~$89/b. Sources: Yahoo Finance intraday / Investing.com / Trading Economics."
+      "price": 102.58,
+      "label": "Brent (ICE front-month) — May 21, 2026",
+      "change": "-2.3% vs May 20 close $107.06",
+      "tooltip": "Brent crude settled near $102.58/bbl (-2.3%) on May 21 after an intraday spike above $107 reversed — first on a Reuters report that Iran's Supreme Leader directed its enriched uranium must stay in-country, then on late-session optimism over a US-Iran 'draft' deal. Baseline Feb 27 $71.00 — war premium ≈ +$31.58 (+44.5%). Brent is down ~4% for the week but still ~50% above pre-war levels. Standard Chartered: the US SPR drew down 9.9M barrels in the week ended May 15 — the largest weekly decline on record — leaving 374 mb. Sources: Reuters / CNBC / Trading Economics."
     },
     "wti": {
-      "price": 98.32,
-      "label": "WTI (NYMEX Jun) — May 20, 2026",
-      "change": "-5.0% vs May 19 close $103.49",
-      "tooltip": "WTI crude cracked below $100/bbl on May 20 for the first time in weeks — trading near $98.32/bbl (~-5%) — as the strike postponement held and supertankers were reported departing the Strait. Baseline Feb 27 $66.50 — war premium ≈ +$31.82 (+47.8%). The 30-year Treasury yield had briefly hit 5.197% on May 19 (highest since July 2007) before easing. Sources: Yahoo Finance intraday / Investing.com / Trading Economics."
+      "price": 96.35,
+      "label": "WTI (NYMEX July) — May 21, 2026",
+      "change": "-1.94% vs May 20 close $98.32",
+      "tooltip": "WTI crude declined almost 2% to close at $96.35/bbl on May 21 as the strike postponement held and US-Iran 'draft' deal reports circulated. Baseline Feb 27 $66.50 — war premium ≈ +$29.85 (+44.9%). The EIA May Short-Term Energy Outlook maintains a Brent average near $106 for May-June, falling toward $89 in 4Q26 as Middle East output returns. Sources: CNBC / Reuters / Trading Economics."
     },
     "gas": {
-      "price": 4.555,
-      "label": "AAA national average, regular unleaded — May 20, 2026",
-      "change": "+2.2¢ d/d vs May 19 ($4.533); CA highest $6.15; OK lowest $3.94",
-      "tooltip": "AAA daily refresh, May 20, 2026 — $4.555/gal (+2.2¢ d/d). Per AAA: +52.3% vs $2.99 Feb 28 baseline; ~$1.40/gal above year-ago levels; highest US national average since the 2022 peak ($5.016 on Jun 14, 2022). California highest at $6.15; Washington $5.77; Hawaii $5.64; Oklahoma lowest at $3.94. Pump prices kept climbing despite Brent sliding to ~$107 and WTI cracking below $100 — the disconnect reflects the standard 1-2 week pump-price lag to crude, cargo backlog, and damaged regional refining. Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-20. Source: gasprices.aaa.com retrieved May 20, 2026."
+      "price": 4.56,
+      "label": "AAA national average, regular unleaded — May 21, 2026",
+      "change": "+3¢ over last week; CA highest $6.14; MS lowest $4.01",
+      "tooltip": "AAA daily refresh, May 21, 2026 — $4.56/gal, up 3 cents over last week and $1.38 higher than this time last year. Memorial Day weekend pump prices hit a four-year high, closing in on the 2022 Memorial Day national average of $4.61 — surpassing that would mark a new all-time Memorial Day record. Per AAA: +52.5% vs the $2.99 Feb 28 baseline. California highest at $6.14; Washington $5.78; Hawaii $5.64; Mississippi lowest at $4.01, Georgia $4.03. LendingTree: nationwide gas prices up 43.6% YoY, with Ohio +57.2%, New Hampshire +56%, Michigan +53.8% among the biggest 12-month state jumps on record. Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-21. Source: gasprices.aaa.com retrieved May 21, 2026."
     },
     "sp500": {
-      "value": 7433.0,
-      "label": "S&P 500 — May 20, 2026",
-      "change": "+1.08% (+79.4) vs May 19 close 7,353.61; Dow +1.31%; Nasdaq +1.54%",
-      "tooltip": "S&P 500 rebounded ~+1.08% to ~7,433 on May 20 ahead of Nvidia earnings, snapping a three-session losing streak; Dow ~+1.31% to ~50,010; Nasdaq Composite ~+1.54% to ~26,269; Russell 2000 ~+2.44%. Markets moved decisively on the news that Trump's postponement of the scheduled May 19 strike held through May 20. The 30-year Treasury yield had briefly hit 5.197% on May 19 — highest since July 2007 — before easing. Defense and oil majors remain elevated, but the Iran war stayed the dominant macro variable; the Senate's 50-47 procedural advance of the Kaine war-powers resolution signaled real political cost beginning to bind on Trump."
+      "value": 7445.72,
+      "label": "S&P 500 — May 21, 2026",
+      "change": "+0.17% (+12.75) vs May 20 close 7,433; Dow record close 50,285.66 (+0.55%); Nasdaq +0.09%",
+      "tooltip": "S&P 500 closed 7,445.72 (+0.17%) on May 21, recovering from a morning -0.45% slide as oil reversed lower. The Dow Jones Industrial Average set a RECORD CLOSE of 50,285.66 (+0.55%), powered by IBM +12.43% after the U.S. Commerce Department signed a $1B CHIPS Act letter of intent for IBM's 'Anderon' quantum chip facility in Albany, NY. Nasdaq Composite 26,293.10 (+0.09%); Russell 2000 +2.56%; VIX 16.76 (-3.90%). Nvidia slipped despite an earnings beat; Walmart -7.3% on weak guidance; Intuit -19.4% on a 17% workforce cut. JETS airlines +2.12% and XLE energy -1.12% in the same session — a textbook 'war-ends' trade signaling markets are pricing deal probability over war probability."
     },
     "daily_cost": {
       "value": 95,
-      "label": "Daily War Burn (CSIS ceasefire-standby, $M) — Day 82",
-      "change": "carry-forward $95M/day standby (Day 12 zero-kinetic streak; postponement holds)",
-      "tooltip": "Day 82 carries CSIS ceasefire-standby model: ~$95M/day (CSIS Cancian Apr 30: 'under $100M/day'; militaryspend.org rolling). Day 12 of zero-kinetic streak on Iran (Days 71-82, LONGEST OF WAR; 43 days since last Iran territorial strike Apr 7). Lincoln + Bush remain the two-carrier blockade steady-state in CENTCOM AOR + Tripoli ARG; CENTCOM blockade tally rose to 91 commercial vessels redirected (4 disabled). Trump's May 18 postponement held through May 20; Trump told Coast Guard Academy graduates the U.S. is 'in no hurry' but 'may have to hit them even harder. But maybe not.' Daily burn re-spikes toward kinetic-phase $500M-$1.43B/day if the resumption window closes without a deal."
+      "label": "Daily War Burn (CSIS ceasefire-standby, $M) — Day 83",
+      "change": "carry-forward $95M/day standby (Day 13 zero-kinetic streak; postponement holds)",
+      "tooltip": "Day 83 carries the CSIS ceasefire-standby model: ~$95M/day (CSIS Cancian Apr 30: 'under $100M/day'; militaryspend.org rolling). Day 13 of zero-kinetic streak on Iran (Days 71-83, LONGEST OF WAR; 44 days since last Iran territorial strike Apr 7). Lincoln + Bush remain the two-carrier blockade steady-state in CENTCOM AOR + Tripoli ARG. Trump's postponement held through May 21; he said he is 'willing to wait a few more days' for Tehran's answer. A separate OSINT war-cost tracker carries a much higher midpoint (~$850M/day across a $700M-$1.1B/day think-tank range) capturing munitions, sortie costs, SPR-drawdown losses and full force posture — no DoD daily figure is published. Daily burn re-spikes toward kinetic-phase $500M-$1.43B/day if the resumption window closes without a deal."
     },
     "total_cost": {
-      "value": 31.9,
-      "label": "Cumulative US Cost (Pentagon-confirmed + standby extrapolation, $B) — Day 82",
-      "change": "+$95M vs Day 81 ($31.8B → $31.9B)",
-      "tooltip": "Day 82 cumulative ≈ $31.9B = Pentagon comptroller Jules Hurst III's $29B disclosure on May 12 (Day 74, House Approps testimony) + 8 days × $95M ceasefire-standby through Day 82. WAR-COST SPREAD: Pentagon $29B (military operations only, excludes regional base damage); CBS News cites Pentagon officials saying the real total is closer to $50B once base damage + munitions replacement are booked; independent Stephen Semler / Security Policy Reform Institute estimate $71.8B over the first 60 days ($41B+ expended munitions). Arab states' war cost exceeds $120B (by March 31); Iran's self-assessed economic damage $300B-$1T (by April 11). Indirect taxpayer cost: Taxpayers for Common Sense estimates $1.19B added federal fuel costs + $986M added interest on the direct $29B over the next year."
+      "value": 32.0,
+      "label": "Cumulative US Cost (Pentagon-confirmed + standby extrapolation, $B) — Day 83",
+      "change": "+$95M vs Day 82 ($31.9B → $32.0B)",
+      "tooltip": "Day 83 cumulative ≈ $32.0B = Pentagon comptroller Jules Hurst III's $29B disclosure on May 12 (Day 74, House Approps testimony) + 9 days × $95M ceasefire-standby through Day 83. WAR-COST SPREAD: Pentagon $29B (military operations only, excludes regional base damage); a separate OSINT tracker midpoint is ~$850M/day for a cumulative ≈$70B at Day 83 ($700M-$1.1B/day think-tank range, includes munitions, sortie costs, SPR-drawdown losses and force posture — UNVERIFIED for any official DoD figure). CBS News cites Pentagon officials saying the real total is closer to $50B once base damage + munitions replacement are booked; independent Stephen Semler / Security Policy Reform Institute estimate $71.8B over the first 60 days. The Senate's 50-47 war-powers advance and the House GOP's decision to punt its vote into June reflect rising fiscal pressure."
     }
   },
   "history": [
