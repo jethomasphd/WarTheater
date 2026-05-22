@@ -1552,6 +1552,25 @@
       "flights_cancelled": 48210,
       "children_killed": 465,
       "headline": "Day 82 — POSTPONEMENT HOLDS / SENATE WAR-POWERS BREAKTHROUGH 50-47: Trump's May 18 postponement of the scheduled May 19 strike held through May 20; Trump told Coast Guard Academy graduates in New London the U.S. is 'in no hurry' but 'may have to hit them even harder. But maybe not.' Day 12 of zero-kinetic streak on Iran (LONGEST OF WAR; 43 days since Apr 7). SENATE advanced Sen. Tim Kaine's war-powers resolution 50-47 (May 19) — first procedural win after seven failures; four GOP defectors (Collins, Murkowski, Paul, Cassidy — who flipped three days after losing his Trump-endorsed primary). IRAN POSTURE HARDENED: FM Araghchi warned of 'many more surprises'; the IRGC threatened renewed war would spread 'beyond the region'; FM spokesman Baghaei flatly denied direct U.S.-Iran negotiations. UAE confirmed the May 17 Barakah drones came from Iraqi territory and intercepted six more Iraq-origin drones over 48 hours. Xi met Putin in Beijing — joint statement demanded an immediate ceasefire. CENTCOM blockade 91 vessels redirected. LEBANON ceasefire effectively unraveled — Israeli strikes May 19 killed ≥19 in southern Lebanon (incl. 4 women, 3 children); 8th IDF soldier KIA since the April 16 truce. MARKETS: oil sold off — Brent ~$107, WTI cracked below $100 (~-5%); S&P 500 rebounded +1.08% to ~7,433, Dow +1.31%, Nasdaq +1.54%; AAA gas $4.555 (+2.2¢ d/d, +52.3% vs baseline); cumulative ~$31.9B per Pentagon $29B (Hurst May 12) + 8 days × $95M standby"
+    },
+    {
+      "date": "2026-05-21",
+      "war_day": 83,
+      "brent": 102.58,
+      "wti": 96.35,
+      "gas": 4.56,
+      "sp500": 7445.72,
+      "daily_cost_millions": 95,
+      "total_cost_billions": 32.0,
+      "targets_struck": 35502,
+      "us_kia": 13,
+      "us_wia": 413,
+      "iranian_killed": 3636,
+      "lebanese_killed": 3073,
+      "displaced": 4600000,
+      "flights_cancelled": 310000,
+      "children_killed": 465,
+      "headline": "Day 83 — MUNIR IN TEHRAN / TRUMP DEMANDS IRAN'S URANIUM / DOW RECORD CLOSE: Pakistan Army Chief Field Marshal Asim Munir visited Tehran for talks as Pakistan's mediation intensified; Iran's Foreign Ministry confirmed it is reviewing the latest U.S. proposal. The diplomatic file narrowed to uranium custody — Trump vowed to seize Iran's HEU stockpile while Tehran counter-offered to 'downblend' the material inside Iran. Sec. State Rubio cited 'some encouraging signs' but called a Strait of Hormuz toll system an unacceptable redline that 'would make a diplomatic deal unfeasible'; Iran announced a 'Persian Gulf Strait Authority' and revealed Iran-Oman toll talks. House GOP leaders punted the war-powers vote into June after defections threatened to pass it. Day 13 of the zero-kinetic streak on Iran (LONGEST OF WAR; 44 days since Apr 7) — the postponed May 19 strike never ran. LEBANON: Lebanese MoH cumulative reached 3,073 (31+ killed in 24 hours); Israeli strikes May 20 on the Tyre district killed 8. MARKETS: Brent settled $102.58 (-2.3%), WTI $96.35 (-1.94%); the Dow set a RECORD CLOSE 50,285.66 (+0.55%) on IBM +12.43% (CHIPS Act quantum award); S&P 500 7,445.72 (+0.17%); Nasdaq 26,293.10 (+0.09%); AAA gas $4.56 — a four-year Memorial Day high; UMich consumer sentiment hit an all-time low 48.2; cumulative ~$32.0B per Pentagon $29B (Hurst May 12) + 9 days × $95M standby"
     }
   ],
   "toll": {
