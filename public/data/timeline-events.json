@@ -7342,5 +7342,23 @@
     "category": "economic",
     "source": "Manifest §4, §8 / market close May 20",
     "data_point": "Brent ~$107, WTI <$100; S&P +1.08% ~7,433; gas $4.555"
+  },
+  {
+    "date": "2026-05-20",
+    "time": "Joint Base Andrews",
+    "title": "Trump: 'an hour away' from striking Iran before standing down",
+    "description": "Returning from the Coast Guard Academy commencement to Joint Base Andrews, President Trump told reporters he was 'an hour away from making the decision to go today' before postponing the strike at the request of Qatar, Saudi Arabia, and the UAE. He said he would 'wait a few more days' for Iran's response. The disclosure confirmed how close the postponed May 19 operation had come to execution.",
+    "category": "political",
+    "source": "Manifest §5 / Arab News, CBS News, Al Jazeera",
+    "data_point": "Trump: 'an hour away from making the decision to go today'"
+  },
+  {
+    "date": "2026-05-20",
+    "time": "Evening",
+    "title": "Israeli strikes kill 8 in southern Lebanon, 3 women and 3 children among dead",
+    "description": "Israeli airstrikes on Doueir, Tibnin, and Burj Shemali in the Tyre district of southern Lebanon killed 8 people, including 3 women and 3 children, per the Lebanon Health Ministry. The IDF said it struck 30+ Hezbollah targets. The cumulative Lebanese death toll since March 2 reached 3,073, with 9,362 wounded and more than 1.6M displaced.",
+    "category": "humanitarian",
+    "source": "Manifest §5 / Al Jazeera, Lebanon NNA",
+    "data_point": "8 killed in Tyre district; cumulative Lebanon toll 3,073"
   }
 ]
