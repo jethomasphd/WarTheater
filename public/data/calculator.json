@@ -1,11 +1,11 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.555,
-  "war_increase": 1.565,
+  "current_gas": 4.56,
+  "war_increase": 1.57,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
-    { "code": "CA", "label": "California", "premium": 1.613 },
-    { "code": "HI", "label": "Hawaii", "premium": 1.107 },
+    { "code": "CA", "label": "California", "premium": 1.58 },
+    { "code": "HI", "label": "Hawaii", "premium": 1.08 },
     { "code": "TX", "label": "Texas", "premium": -0.518 },
     { "code": "FL", "label": "Florida", "premium": 0.08 },
     { "code": "NY", "label": "New York", "premium": 0.52 },
@@ -13,8 +13,8 @@
     { "code": "OH", "label": "Ohio", "premium": -0.08 },
     { "code": "IL", "label": "Illinois", "premium": 0.28 },
     { "code": "AZ", "label": "Arizona", "premium": -0.02 },
-    { "code": "GA", "label": "Georgia", "premium": -0.05 },
-    { "code": "WA", "label": "Washington", "premium": 1.242 },
+    { "code": "GA", "label": "Georgia", "premium": -0.53 },
+    { "code": "WA", "label": "Washington", "premium": 1.22 },
     { "code": "MI", "label": "Michigan", "premium": 0.05 },
     { "code": "NJ", "label": "New Jersey", "premium": 0.12 },
     { "code": "VA", "label": "Virginia", "premium": -0.03 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com national average, May 20 2026 ($4.555, +2.2¢ d/d vs $4.533 May 19). Trump's 05-18 postponement of a 'scheduled' May 19 strike on Iran held through May 20; despite Brent sliding to ~$107 and WTI cracking below $100, pump prices kept climbing on the standard 1-2 week crude pass-through lag, cargo backlog, and damaged regional refining. Per AAA: +52.3% above $2.99 Feb 28 baseline; ~$1.40/gal above year-ago levels; highest US national avg since 2022 peak ($5.016 Jun 14 2022). California highest at $6.15; Washington $5.77; Hawaii $5.64; Oklahoma lowest at $3.94. Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-20.",
-  "last_updated": "2026-05-20"
+  "source": "AAA gasprices.aaa.com national average, May 21 2026 ($4.56, +3¢ over last week). Memorial Day weekend pump prices hit a four-year high, closing in on the 2022 Memorial Day national average of $4.61 — surpassing that would mark a new all-time Memorial Day record. Per AAA: +52.5% above $2.99 Feb 28 baseline; ~$1.38/gal above year-ago levels. California highest at $6.14; Washington $5.78; Hawaii $5.64; Mississippi lowest at $4.01, Georgia $4.03. LendingTree: nationwide gas prices up 43.6% YoY, with Ohio +57.2%, New Hampshire +56%, Michigan +53.8% among the biggest 12-month state jumps on record. Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-21.",
+  "last_updated": "2026-05-21"
 }

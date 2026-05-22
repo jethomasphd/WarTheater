@@ -7342,5 +7342,86 @@
     "category": "economic",
     "source": "Manifest §4, §8 / market close May 20",
     "data_point": "Brent ~$107, WTI <$100; S&P +1.08% ~7,433; gas $4.555"
+  },
+  {
+    "date": "2026-05-20",
+    "time": "Joint Base Andrews",
+    "title": "Trump: 'an hour away' from striking Iran before standing down",
+    "description": "Returning from the Coast Guard Academy commencement to Joint Base Andrews, President Trump told reporters he was 'an hour away from making the decision to go today' before postponing the strike at the request of Qatar, Saudi Arabia, and the UAE. He said he would 'wait a few more days' for Iran's response. The disclosure confirmed how close the postponed May 19 operation had come to execution.",
+    "category": "political",
+    "source": "Manifest §5 / Arab News, CBS News, Al Jazeera",
+    "data_point": "Trump: 'an hour away from making the decision to go today'"
+  },
+  {
+    "date": "2026-05-20",
+    "time": "Evening",
+    "title": "Israeli strikes kill 8 in southern Lebanon, 3 women and 3 children among dead",
+    "description": "Israeli airstrikes on Doueir, Tibnin, and Burj Shemali in the Tyre district of southern Lebanon killed 8 people, including 3 women and 3 children, per the Lebanon Health Ministry. The IDF said it struck 30+ Hezbollah targets. The cumulative Lebanese death toll since March 2 reached 3,073, with 9,362 wounded and more than 1.6M displaced.",
+    "category": "humanitarian",
+    "source": "Manifest §5 / Al Jazeera, Lebanon NNA",
+    "data_point": "8 killed in Tyre district; cumulative Lebanon toll 3,073"
+  },
+  {
+    "date": "2026-05-21",
+    "time": "Tehran",
+    "title": "Pakistan Army Chief Asim Munir visits Tehran",
+    "description": "Pakistan Army Chief Field Marshal Asim Munir traveled to Tehran for 'talks and consultations' with Iranian authorities as Pakistan's mediation between Washington and Tehran intensified, per ISNA. Iran's Foreign Ministry spokesperson Esmaeil Baghaei confirmed that Tehran is reviewing the latest U.S. response, framed against Iran's 14-point proposal.",
+    "category": "diplomatic",
+    "source": "Manifest §5 / Al Jazeera, ISNA, Nour News",
+    "data_point": "Munir in Tehran; Iran reviewing latest U.S. response"
+  },
+  {
+    "date": "2026-05-21",
+    "time": "Daytime",
+    "title": "Trump vows to seize Iran's HEU; Tehran counters with 'downblend' offer",
+    "description": "Reuters reported that Iran's Supreme Leader Mojtaba Khamenei issued a directive that Iran's near-weapons-grade uranium must not be sent abroad. President Trump publicly vowed to retrieve the stockpile; an Iranian official told Al Jazeera that Tehran would 'downblend' the highly enriched uranium itself, inside Iran. The exchange narrows the diplomatic file to physical custody of the existing HEU rather than enrichment limits.",
+    "category": "diplomatic",
+    "source": "Manifest §5 / Al Jazeera, Reuters",
+    "data_point": "Trump demands HEU handover; Iran offers in-country 'downblend'"
+  },
+  {
+    "date": "2026-05-21",
+    "time": "Daytime",
+    "title": "Iran-Oman talks on permanent Hormuz toll system revealed",
+    "description": "Iran's Ambassador to France, Mohammad Amin-Nejad, told Bloomberg that Iran and Oman are 'mobilizing all their resources both to provide security services and to manage navigation' through the Strait of Hormuz — describing a permanent toll framework. Tehran also announced the creation of a 'Persian Gulf Strait Authority,' warning that passage without permission would be subject to enforcement.",
+    "category": "economic",
+    "source": "Manifest §5 / Bloomberg",
+    "data_point": "Iran-Oman building permanent Hormuz toll framework; 'Persian Gulf Strait Authority' announced"
+  },
+  {
+    "date": "2026-05-21",
+    "time": "Daytime",
+    "title": "Rubio: Hormuz toll system is an unacceptable redline",
+    "description": "Secretary of State Marco Rubio said: 'We've always said a tolling system in the strait would be unacceptable... It would make a diplomatic deal unfeasible.' He cited 'some progress' otherwise and criticized NATO allies for reluctance to allow Iran to be struck from member-state bases. The hard line makes Hormuz tolls, more than uranium custody, the most likely deal-breaking issue.",
+    "category": "political",
+    "source": "Manifest §5 / The National",
+    "data_point": "Rubio: Hormuz tolling system 'would make a diplomatic deal unfeasible'"
+  },
+  {
+    "date": "2026-05-21",
+    "time": "Capitol Hill",
+    "title": "House GOP punts war powers vote into June",
+    "description": "House Republican leaders declined to hold the scheduled vote on a Democratic war powers resolution after it became clear they lacked the votes to defeat it, pushing the vote into June. The move followed Tuesday's 50-47 Senate procedural vote, in which Sen. Bill Cassidy (R-LA) flipped to support after a primary loss.",
+    "category": "political",
+    "source": "Manifest §5 / PBS NewsHour, AP, The Hill",
+    "data_point": "House GOP delays war powers vote into June; lacked votes to defeat it"
+  },
+  {
+    "date": "2026-05-21",
+    "time": "Daytime",
+    "title": "UAE-Iraq tensions escalate over Barakah drone attribution",
+    "description": "The UAE called on Iraq to 'immediately' prevent attacks from its territory after the May 17 Barakah drone strike was attributed to UAVs launched from Iraq. UAE diplomatic adviser Anwar Gargash publicly chastised regional 'mediators' acting as 'victims.' The friction underscores the Iraqi Popular Mobilization Forces as the war's emerging escalation vector while Iran itself remains in a nominal ceasefire.",
+    "category": "diplomatic",
+    "source": "Manifest §5 / Al Jazeera, FDD's Long War Journal",
+    "data_point": "UAE presses Iraq to halt cross-border drone launches"
+  },
+  {
+    "date": "2026-05-21",
+    "time": "Markets",
+    "title": "CNN: war 'wiped out' US pay raises; UMich sentiment hits all-time low 48.2",
+    "description": "CNN Business reported that the Iran war 'has pushed oil and gas prices to four-year highs,' reigniting inflation and 'wiping out Americans' pay raises for the past year.' The University of Michigan Consumer Sentiment Index preliminary May reading fell to 48.2 — an all-time low since tracking began in November 1952. Director Joanne Hsu said consumers 'continue to feel buffeted by cost pressures, led by soaring prices at the pump.'",
+    "category": "economic",
+    "source": "Manifest §5 / CNN Business, University of Michigan Surveys of Consumers",
+    "data_point": "UMich Consumer Sentiment 48.2 — lowest since records began in 1952"
   }
 ]

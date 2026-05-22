@@ -3717,5 +3717,29 @@
     "verified": true,
     "verification_confidence": "HIGH",
     "last_updated": "2026-05-20"
+  },
+  {
+    "id": "ret-2026-05-20-israel-strikes-south-lebanon-tyre",
+    "city": "Doueir, Tibnin, Burj Shemali (Tyre district, southern Lebanon)",
+    "lat": 33.27,
+    "lng": 35.39,
+    "type": "israel_kinetic_lebanon",
+    "actor": "Israel Defense Forces (IDF)",
+    "first_strike": "2026-05-20",
+    "active_days": [
+      82
+    ],
+    "weapon": "Airstrikes across the Tyre district of southern Lebanon",
+    "casualties_reported": "8 killed, including 3 women and 3 children (Lebanon NNA / Lebanese Health Ministry). Cumulative Lebanese death toll 3,073 since March 2, with 9,362 wounded and 1.6M+ displaced.",
+    "casualties_source": "Lebanon National News Agency / Lebanese Health Ministry",
+    "notes": "Israeli airstrikes May 20 on Doueir, Tibnin and Burj Shemali in the Tyre district killed 8 people, including 3 women and 3 children. The IDF said it struck 30+ Hezbollah targets; Hezbollah reported clashes around Haddatha, Biyyada and Rashaf. Cumulative Lebanon death toll reached 3,073 since March 2, with 9,362 wounded and more than 1.6M displaced (~1/5 of the population). Per manifest §3a.",
+    "sources": [
+      "Lebanon National News Agency",
+      "Lebanese Health Ministry",
+      "Manifest §3a"
+    ],
+    "verified": true,
+    "verification_confidence": "HIGH",
+    "last_updated": "2026-05-21"
   }
 ]
