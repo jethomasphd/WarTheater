@@ -1571,6 +1571,25 @@
       "flights_cancelled": 310000,
       "children_killed": 465,
       "headline": "Day 83 — MUNIR IN TEHRAN / TRUMP DEMANDS IRAN'S URANIUM / DOW RECORD CLOSE: Pakistan Army Chief Field Marshal Asim Munir visited Tehran for talks as Pakistan's mediation intensified; Iran's Foreign Ministry confirmed it is reviewing the latest U.S. proposal. The diplomatic file narrowed to uranium custody — Trump vowed to seize Iran's HEU stockpile while Tehran counter-offered to 'downblend' the material inside Iran. Sec. State Rubio cited 'some encouraging signs' but called a Strait of Hormuz toll system an unacceptable redline that 'would make a diplomatic deal unfeasible'; Iran announced a 'Persian Gulf Strait Authority' and revealed Iran-Oman toll talks. House GOP leaders punted the war-powers vote into June after defections threatened to pass it. Day 13 of the zero-kinetic streak on Iran (LONGEST OF WAR; 44 days since Apr 7) — the postponed May 19 strike never ran. LEBANON: Lebanese MoH cumulative reached 3,073 (31+ killed in 24 hours); Israeli strikes May 20 on the Tyre district killed 8. MARKETS: Brent settled $102.58 (-2.3%), WTI $96.35 (-1.94%); the Dow set a RECORD CLOSE 50,285.66 (+0.55%) on IBM +12.43% (CHIPS Act quantum award); S&P 500 7,445.72 (+0.17%); Nasdaq 26,293.10 (+0.09%); AAA gas $4.56 — a four-year Memorial Day high; UMich consumer sentiment hit an all-time low 48.2; cumulative ~$32.0B per Pentagon $29B (Hurst May 12) + 9 days × $95M standby"
+    },
+    {
+      "date": "2026-05-22",
+      "war_day": 84,
+      "brent": 103.94,
+      "wti": 97.12,
+      "gas": 4.552,
+      "sp500": 7473.47,
+      "daily_cost_millions": 95,
+      "total_cost_billions": 32.1,
+      "targets_struck": 35502,
+      "us_kia": 13,
+      "us_wia": 413,
+      "iranian_killed": 3636,
+      "lebanese_killed": 3075,
+      "displaced": 4600000,
+      "flights_cancelled": 310000,
+      "children_killed": 587,
+      "headline": "Day 84 — MUNIR LANDS IN TEHRAN / IRAN SAYS US PLAN 'NARROWED THE GAPS' BUT URANIUM HANDOVER 'KILLS THE DEAL' / S&P 8TH STRAIGHT WEEKLY GAIN — LONGEST SINCE DEC 2023 / DOW SETS NEW RECORD CLOSE / UMICH SENTIMENT 44.8 ALL-TIME LOW / DAY 14 OF ZERO-KINETIC STREAK ON IRAN: Pakistan Army Chief Field Marshal Asim Munir landed in Tehran with high-level security delegation and was received by Iranian Interior Minister Eskandar Momeni; Pakistani Interior Minister Mohsin Naqvi continued meetings with FM Araghchi to deliberate draft agreements ending the war. Qatar formally assumed secondary-mediator role despite the wartime Iranian strike on Ras Laffan LNG. Iran (ISNA via Bloomberg) said the US text has 'narrowed the gaps to some extent' while 'deep and significant' differences remain — Tehran calls the demand to hand over enriched uranium a 'dealkiller.' Trump (Oval Office): 'We'll probably destroy [the enriched uranium] after we get it, but we're not going to let them have it.' Sec. Rubio cited 'some good signs' but said Washington retains 'other options.' House GOP PULLED the Iran War Powers resolution that appeared to have the votes to pass — Rep. Meeks: 'We had the votes without question and they knew it.' Acting Navy Sec. Hung Cao told the Senate the US has PAUSED the $14B Taiwan arms sale to preserve munitions for the Iran campaign. UMich final May Consumer Sentiment 44.8 — a new all-time low in the 78-year series (prior trough June 2022 at 50.0). AAA national gas $4.552 — Memorial Day weekend pump prices at four-year highs, 9¢ below the June 2022 record $4.61; AAA forecasts a record 45M Memorial Day travelers. MARKETS: S&P 500 7,473.47 (+0.37%) — 8th consecutive weekly gain (longest since the 9-week run ending Dec 29, 2023); Dow Jones 50,579.70 NEW RECORD CLOSE (+0.58%); Nasdaq 26,343.97; Russell 2000 2,869.23; VIX 16.70. Brent settled $103.94 (+1.33%) but down ~4% on the week; WTI $97.12 (+0.67%) but down ~3% on the week. Hormuz transits 2 vessels (IMF PortWatch via Straits.live, ~2.1% of pre-crisis baseline); 1,550+ vessels stranded, 22,500 mariners trapped. LEBANON: IDF strike near the Lebanon-Israel border killed 2 (Al Jazeera Day-84 live blog). Cumulative ~$32.1B per Pentagon $29B (Hurst May 12) + 10 days × $95M standby; CBS unofficial 'closer to $50B'; Bilmes projects $1T lifetime."
     }
   ],
   "toll": {
