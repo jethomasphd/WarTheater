@@ -7423,5 +7423,59 @@
     "category": "economic",
     "source": "Manifest §5 / CNN Business, University of Michigan Surveys of Consumers",
     "data_point": "UMich Consumer Sentiment 48.2 — lowest since records began in 1952"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "Daytime",
+    "title": "Pakistan Army Chief Munir arrives in Tehran with high-level security delegation",
+    "description": "Pakistan Army Chief Field Marshal Asim Munir arrived in Tehran with a high-level security delegation and was received by Iranian Interior Minister Eskandar Momeni; Pakistani Interior Minister Mohsin Naqvi was already in Tehran since Wednesday meeting Iranian FM Abbas Araghchi to deliberate draft agreements ending the US-Iran war. Al Jazeera correspondent Almigdad Alruhaid reported 'intense mediation activity.' Pakistan remains the primary mediator; Qatar assumed a secondary mediator role the same day.",
+    "category": "diplomatic",
+    "source": "Manifest §5 / Al Jazeera Day-84 live blog, ISPR / Radio Pakistan, Bloomberg",
+    "data_point": "Field Marshal Munir lands in Tehran; Pakistan-Iran draft-agreement talks intensify"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "Daytime",
+    "title": "Qatar formally assumes secondary mediator role despite Ras Laffan LNG damage",
+    "description": "Wikipedia's 2026 Iran war article (May 22 revision): 'Qatar assumed a mediator role in the war, despite suffering Iranian attacks, including one on its liquefied natural gas facility in Ras Laffan, which significantly reduced LNG export capacity by nearly 17 percent. However, Pakistan remained the primary mediator.' Doha hosts Al Udeid Air Base and maintains channels with Tehran. The Sunni-state diplomatic architecture (Pakistan primary + Qatar secondary) insulates GCC states from Iranian retaliation.",
+    "category": "diplomatic",
+    "source": "Manifest §5 / Wikipedia 2026 Iran war (May 22), yournews.com May 22",
+    "data_point": "Qatar formalizes secondary-mediator role; Ras Laffan LNG export capacity down ~17%"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "Oval Office (May 21 evening, carried into May 22)",
+    "title": "Trump warns of 'very drastic' action if Iran refuses to surrender uranium stockpile",
+    "description": "Trump in the Oval Office: 'We're going to either make sure they don't have a nuclear weapon, or we're going to have to do something very drastic.' On enriched uranium: 'We will get it. We don't need it, we don't want it. We'll probably destroy it after we get it, but we're not going to let them have it.' The uranium-handover demand crystallized as the core dealbreaker after Iran called it a 'dealkiller.'",
+    "category": "political",
+    "source": "Manifest §5 / Washington Times Oval Office remarks (May 21), Al Jazeera Day-84 summary",
+    "data_point": "Trump: 'very drastic' action absent Iranian uranium handover"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "Daytime",
+    "title": "Secretary Rubio cites 'some good signs' but says US has 'other options'",
+    "description": "SecState Rubio: negotiations have shown 'some progress' while remaining unclear whether a deal can be reached 'in the coming days.' Trump still prefers diplomacy but Washington retains 'other options' if talks fail. Rubio: 'I believe the Pakistanis will be travelling to Tehran today, so hopefully that'll advance this further.'",
+    "category": "diplomatic",
+    "source": "Manifest §5 / Al Jazeera Day-84 summary, The Week May 22",
+    "data_point": "Rubio: 'some good signs' from talks; Washington retains 'other options'"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "Daytime",
+    "title": "Iran says US proposal 'narrowed the gaps' — but uranium handover demand 'will kill the deal'",
+    "description": "Iranian state news agency ISNA (cited by Bloomberg): US text 'has narrowed the gaps to some extent.' Iran simultaneously says peace negotiations face 'deep and significant' differences; difficult to say if a deal can be reached 'over the next weeks or months.' Iran's official position: nuclear talks must be conditional on a 30-day confidence-building process of ending the war and lifting the blockade.",
+    "category": "diplomatic",
+    "source": "Manifest §5 / Bloomberg (May 21–22), Al Jazeera live blog May 22, ISNA",
+    "data_point": "Iran: US text 'narrowed the gaps'; uranium handover 'will kill the deal'"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "Capitol Hill",
+    "title": "House GOP pulls Iran War Powers resolution that appeared to have votes to pass",
+    "description": "House Democrats' war powers resolution (sponsored by Rep. Gregory Meeks, NY) was on the verge of passage; GOP leadership pulled the vote, delaying into June. Three House Republicans had voted Yes on the prior 212–212 tie; the Senate cloture earlier in the week advanced its companion 4 GOP yes, 3 absent. Steve Scalise said the vote was 'delayed to give absent lawmakers a chance to vote.' Meeks: 'We had the votes without question and they knew it.'",
+    "category": "political",
+    "source": "Manifest §5 / NPR / OPB (May 21–22), CBS News",
+    "data_point": "House GOP pulls Iran War Powers resolution; vote delayed into June"
   }
 ]
