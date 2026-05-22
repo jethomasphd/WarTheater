@@ -1,43 +1,43 @@
 {
-  "last_updated": "2026-05-21",
-  "war_day": 83,
-  "timestamp_label": "LAST UPDATED: MAY 21, 2026 23:34 ET",
+  "last_updated": "2026-05-22",
+  "war_day": 84,
+  "timestamp_label": "LAST UPDATED: MAY 22, 2026 19:13 ET",
   "cost": {
     "brent": {
-      "price": 102.58,
-      "label": "Brent (ICE front-month) — May 21, 2026",
-      "change": "-2.3% vs May 20 close $107.06",
-      "tooltip": "Brent crude settled near $102.58/bbl (-2.3%) on May 21 after an intraday spike above $107 reversed — first on a Reuters report that Iran's Supreme Leader directed its enriched uranium must stay in-country, then on late-session optimism over a US-Iran 'draft' deal. Baseline Feb 27 $71.00 — war premium ≈ +$31.58 (+44.5%). Brent is down ~4% for the week but still ~50% above pre-war levels. Standard Chartered: the US SPR drew down 9.9M barrels in the week ended May 15 — the largest weekly decline on record — leaving 374 mb. Sources: Reuters / CNBC / Trading Economics."
+      "price": 103.94,
+      "label": "Brent (ICE front-month) — May 22, 2026",
+      "change": "+1.33% (+$1.36) vs May 21 close $102.58; -4% on the week",
+      "tooltip": "Brent crude settled $103.94/bbl (+1.33%, +$1.36) on May 22 in a Friday rally driven by Iran-deal optimism and Sec. Rubio's 'good signs' comments. The contract still finished the week DOWN ~4% despite Friday gains. Baseline Feb 27 $71.00 — war premium ≈ +$32.94 (+46.4%). Oil remains ~50% above pre-war levels. Sources: Yahoo Finance / Trading Economics close May 22."
     },
     "wti": {
-      "price": 96.35,
-      "label": "WTI (NYMEX July) — May 21, 2026",
-      "change": "-1.94% vs May 20 close $98.32",
-      "tooltip": "WTI crude declined almost 2% to close at $96.35/bbl on May 21 as the strike postponement held and US-Iran 'draft' deal reports circulated. Baseline Feb 27 $66.50 — war premium ≈ +$29.85 (+44.9%). The EIA May Short-Term Energy Outlook maintains a Brent average near $106 for May-June, falling toward $89 in 4Q26 as Middle East output returns. Sources: CNBC / Reuters / Trading Economics."
+      "price": 97.12,
+      "label": "WTI (NYMEX July) — May 22, 2026",
+      "change": "+0.67% vs May 21 close $96.35; -3% on the week",
+      "tooltip": "WTI crude rose 0.67% to close at $97.12/bbl on May 22 in tandem with Brent's Friday rally on US-Iran deal optimism. The contract still finished the week DOWN ~3%. Baseline Feb 27 $66.50 — war premium ≈ +$30.62 (+46.0%). The EIA May Short-Term Energy Outlook maintains a Brent average near $106 for May-June, falling toward $89 in 4Q26 as Middle East output returns. Sources: Trading Economics / CNBC."
     },
     "gas": {
-      "price": 4.56,
-      "label": "AAA national average, regular unleaded — May 21, 2026",
-      "change": "+3¢ over last week; CA highest $6.14; MS lowest $4.01",
-      "tooltip": "AAA daily refresh, May 21, 2026 — $4.56/gal, up 3 cents over last week and $1.38 higher than this time last year. Memorial Day weekend pump prices hit a four-year high, closing in on the 2022 Memorial Day national average of $4.61 — surpassing that would mark a new all-time Memorial Day record. Per AAA: +52.5% vs the $2.99 Feb 28 baseline. California highest at $6.14; Washington $5.78; Hawaii $5.64; Mississippi lowest at $4.01, Georgia $4.03. LendingTree: nationwide gas prices up 43.6% YoY, with Ohio +57.2%, New Hampshire +56%, Michigan +53.8% among the biggest 12-month state jumps on record. Trump 05-11 federal gas-tax suspension (18.4¢) still in legislative pipeline; no enactment through 05-21. Source: gasprices.aaa.com retrieved May 21, 2026."
+      "price": 4.552,
+      "label": "AAA national average, regular unleaded — May 22, 2026",
+      "change": "Memorial Day weekend four-year high; 9¢ below June 2022 record $4.61",
+      "tooltip": "gasprices.aaa.com — 'Today's AAA National Average $4.552, Price as of 5/22/26.' Per AAA: +52.2% vs the $2.99 Feb 28 baseline; ~$1.38/gal above year-ago levels; just 9¢ below the June 2022 all-time record of $4.61. Heading into Memorial Day weekend AAA forecasts a record 45M Americans travelling ≥50 miles (39.1M by car, 3.66M by air). Stacey Barber, VP AAA Travel: 'Travel demand remains strong, and despite higher fuel prices, many people are prioritizing leisure travel during holiday breaks.' California highest at $6.14; Washington $5.78; Hawaii $5.64; Mississippi lowest at $4.01. Source: gasprices.aaa.com retrieved May 22, 2026."
     },
     "sp500": {
-      "value": 7445.72,
-      "label": "S&P 500 — May 21, 2026",
-      "change": "+0.17% (+12.75) vs May 20 close 7,433; Dow record close 50,285.66 (+0.55%); Nasdaq +0.09%",
-      "tooltip": "S&P 500 closed 7,445.72 (+0.17%) on May 21, recovering from a morning -0.45% slide as oil reversed lower. The Dow Jones Industrial Average set a RECORD CLOSE of 50,285.66 (+0.55%), powered by IBM +12.43% after the U.S. Commerce Department signed a $1B CHIPS Act letter of intent for IBM's 'Anderon' quantum chip facility in Albany, NY. Nasdaq Composite 26,293.10 (+0.09%); Russell 2000 +2.56%; VIX 16.76 (-3.90%). Nvidia slipped despite an earnings beat; Walmart -7.3% on weak guidance; Intuit -19.4% on a 17% workforce cut. JETS airlines +2.12% and XLE energy -1.12% in the same session — a textbook 'war-ends' trade signaling markets are pricing deal probability over war probability."
+      "value": 7473.47,
+      "label": "S&P 500 — May 22, 2026",
+      "change": "+0.37% (+27.75); 8th straight weekly gain — longest since Dec 2023; Dow record close 50,579.70",
+      "tooltip": "S&P 500 closed 7,473.47 (+0.37%, +27.75) on May 22 — an 8th CONSECUTIVE WEEKLY GAIN, the longest stretch since the 9-week run that ended December 29, 2023 (CNBC live blog, May 22). The Dow Jones Industrial Average set a NEW RECORD CLOSE of 50,579.70 (+0.58%); Nasdaq Composite 26,343.97; Russell 2000 2,869.23; VIX 16.70. Sector leaders Health Care +1.19% and Technology +1.02%; laggard Communications -0.54%. Defense firm: RTX $177.38 (+1.22%), LMT +0.91%, NOC $554.97 (+0.61%), GD $343.79 (+1.50%). UMich final May Consumer Sentiment 44.8 — an all-time low in the 78-year series (prior trough June 2022 at 50.0)."
     },
     "daily_cost": {
       "value": 95,
-      "label": "Daily War Burn (CSIS ceasefire-standby, $M) — Day 83",
-      "change": "carry-forward $95M/day standby (Day 13 zero-kinetic streak; postponement holds)",
-      "tooltip": "Day 83 carries the CSIS ceasefire-standby model: ~$95M/day (CSIS Cancian Apr 30: 'under $100M/day'; militaryspend.org rolling). Day 13 of zero-kinetic streak on Iran (Days 71-83, LONGEST OF WAR; 44 days since last Iran territorial strike Apr 7). Lincoln + Bush remain the two-carrier blockade steady-state in CENTCOM AOR + Tripoli ARG. Trump's postponement held through May 21; he said he is 'willing to wait a few more days' for Tehran's answer. A separate OSINT war-cost tracker carries a much higher midpoint (~$850M/day across a $700M-$1.1B/day think-tank range) capturing munitions, sortie costs, SPR-drawdown losses and full force posture — no DoD daily figure is published. Daily burn re-spikes toward kinetic-phase $500M-$1.43B/day if the resumption window closes without a deal."
+      "label": "Daily War Burn (CSIS ceasefire-standby, $M) — Day 84",
+      "change": "carry-forward $95M/day standby (Day 14 zero-kinetic streak; ceasefire holds)",
+      "tooltip": "Day 84 carries the CSIS ceasefire-standby model: ~$95M/day (CSIS Cancian Apr 30: 'under $100M/day'; militaryspend.org rolling). Day 14 of zero-kinetic streak on Iran (Days 71-84, LONGEST OF WAR; 45 days since last Iran territorial strike Apr 7). Lincoln + Bush remain the two-carrier blockade steady-state in CENTCOM AOR + Tripoli ARG. Pentagon Hurst-method smoothed projection: ~$345M/day ($29B / 84 days). A separate OSINT war-cost tracker carries a much higher midpoint (~$850M/day across a $700M-$1.1B/day think-tank range) capturing munitions, sortie costs, SPR-drawdown losses and full force posture — no DoD daily figure is published. Daily burn re-spikes toward kinetic-phase $500M-$1.43B/day if the resumption window closes without a deal."
     },
     "total_cost": {
-      "value": 32.0,
-      "label": "Cumulative US Cost (Pentagon-confirmed + standby extrapolation, $B) — Day 83",
-      "change": "+$95M vs Day 82 ($31.9B → $32.0B)",
-      "tooltip": "Day 83 cumulative ≈ $32.0B = Pentagon comptroller Jules Hurst III's $29B disclosure on May 12 (Day 74, House Approps testimony) + 9 days × $95M ceasefire-standby through Day 83. WAR-COST SPREAD: Pentagon $29B (military operations only, excludes regional base damage); a separate OSINT tracker midpoint is ~$850M/day for a cumulative ≈$70B at Day 83 ($700M-$1.1B/day think-tank range, includes munitions, sortie costs, SPR-drawdown losses and force posture — UNVERIFIED for any official DoD figure). CBS News cites Pentagon officials saying the real total is closer to $50B once base damage + munitions replacement are booked; independent Stephen Semler / Security Policy Reform Institute estimate $71.8B over the first 60 days. The Senate's 50-47 war-powers advance and the House GOP's decision to punt its vote into June reflect rising fiscal pressure."
+      "value": 32.1,
+      "label": "Cumulative US Cost (Pentagon-confirmed + standby extrapolation, $B) — Day 84",
+      "change": "+$95M vs Day 83 ($32.0B → $32.1B)",
+      "tooltip": "Day 84 cumulative ≈ $32.1B = Pentagon comptroller Jules Hurst III's $29B disclosure on May 12 (Day 74, House Approps testimony) + 10 days × $95M ceasefire-standby through Day 84. WAR-COST SPREAD: Pentagon $29B (military operations only, excludes regional base damage); CBS News cites Pentagon officials saying the real total is 'closer to $50B' once base damage + munitions replacement are booked; Harvard's Linda Bilmes projects a $1T lifetime war cost (debt service + veterans care + replacement procurement). Acting Navy Secretary Hung Cao told the Senate on May 22 that the US has PAUSED the $14B Taiwan arms sale to preserve munitions for the Iran campaign — the clearest structural confirmation that Epic Fury is mortgaging Indo-Pacific deterrence. Atlantic Council (May 15): US has expended >1,000 JASSMs, >1,000 Tomahawks, ~1,000 Patriot interceptors, ~45% of Precision Strike Missile stockpile and ~50% of THAAD interceptor stockpile."
     }
   },
   "history": [
