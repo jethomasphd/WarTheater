@@ -7423,5 +7423,104 @@
     "category": "economic",
     "source": "Manifest §5 / CNN Business, University of Michigan Surveys of Consumers",
     "data_point": "UMich Consumer Sentiment 48.2 — lowest since records began in 1952"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "Daytime",
+    "title": "Pakistan Army Chief Munir arrives in Tehran with high-level security delegation",
+    "description": "Pakistan Army Chief Field Marshal Asim Munir arrived in Tehran with a high-level security delegation and was received by Iranian Interior Minister Eskandar Momeni; Pakistani Interior Minister Mohsin Naqvi was already in Tehran since Wednesday meeting Iranian FM Abbas Araghchi to deliberate draft agreements ending the US-Iran war. Al Jazeera correspondent Almigdad Alruhaid reported 'intense mediation activity.' Pakistan remains the primary mediator; Qatar assumed a secondary mediator role the same day.",
+    "category": "diplomatic",
+    "source": "Manifest §5 / Al Jazeera Day-84 live blog, ISPR / Radio Pakistan, Bloomberg",
+    "data_point": "Field Marshal Munir lands in Tehran; Pakistan-Iran draft-agreement talks intensify"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "Daytime",
+    "title": "Qatar formally assumes secondary mediator role despite Ras Laffan LNG damage",
+    "description": "Wikipedia's 2026 Iran war article (May 22 revision): 'Qatar assumed a mediator role in the war, despite suffering Iranian attacks, including one on its liquefied natural gas facility in Ras Laffan, which significantly reduced LNG export capacity by nearly 17 percent. However, Pakistan remained the primary mediator.' Doha hosts Al Udeid Air Base and maintains channels with Tehran. The Sunni-state diplomatic architecture (Pakistan primary + Qatar secondary) insulates GCC states from Iranian retaliation.",
+    "category": "diplomatic",
+    "source": "Manifest §5 / Wikipedia 2026 Iran war (May 22), yournews.com May 22",
+    "data_point": "Qatar formalizes secondary-mediator role; Ras Laffan LNG export capacity down ~17%"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "Oval Office (May 21 evening, carried into May 22)",
+    "title": "Trump warns of 'very drastic' action if Iran refuses to surrender uranium stockpile",
+    "description": "Trump in the Oval Office: 'We're going to either make sure they don't have a nuclear weapon, or we're going to have to do something very drastic.' On enriched uranium: 'We will get it. We don't need it, we don't want it. We'll probably destroy it after we get it, but we're not going to let them have it.' The uranium-handover demand crystallized as the core dealbreaker after Iran called it a 'dealkiller.'",
+    "category": "political",
+    "source": "Manifest §5 / Washington Times Oval Office remarks (May 21), Al Jazeera Day-84 summary",
+    "data_point": "Trump: 'very drastic' action absent Iranian uranium handover"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "Daytime",
+    "title": "Secretary Rubio cites 'some good signs' but says US has 'other options'",
+    "description": "SecState Rubio: negotiations have shown 'some progress' while remaining unclear whether a deal can be reached 'in the coming days.' Trump still prefers diplomacy but Washington retains 'other options' if talks fail. Rubio: 'I believe the Pakistanis will be travelling to Tehran today, so hopefully that'll advance this further.'",
+    "category": "diplomatic",
+    "source": "Manifest §5 / Al Jazeera Day-84 summary, The Week May 22",
+    "data_point": "Rubio: 'some good signs' from talks; Washington retains 'other options'"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "Daytime",
+    "title": "Iran says US proposal 'narrowed the gaps' — but uranium handover demand 'will kill the deal'",
+    "description": "Iranian state news agency ISNA (cited by Bloomberg): US text 'has narrowed the gaps to some extent.' Iran simultaneously says peace negotiations face 'deep and significant' differences; difficult to say if a deal can be reached 'over the next weeks or months.' Iran's official position: nuclear talks must be conditional on a 30-day confidence-building process of ending the war and lifting the blockade.",
+    "category": "diplomatic",
+    "source": "Manifest §5 / Bloomberg (May 21–22), Al Jazeera live blog May 22, ISNA",
+    "data_point": "Iran: US text 'narrowed the gaps'; uranium handover 'will kill the deal'"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "Capitol Hill",
+    "title": "House GOP pulls Iran War Powers resolution that appeared to have votes to pass",
+    "description": "House Democrats' war powers resolution (sponsored by Rep. Gregory Meeks, NY) was on the verge of passage; GOP leadership pulled the vote, delaying into June. Three House Republicans had voted Yes on the prior 212–212 tie; the Senate cloture earlier in the week advanced its companion 4 GOP yes, 3 absent. Steve Scalise said the vote was 'delayed to give absent lawmakers a chance to vote.' Meeks: 'We had the votes without question and they knew it.'",
+    "category": "political",
+    "source": "Manifest §5 / NPR / OPB (May 21–22), CBS News",
+    "data_point": "House GOP pulls Iran War Powers resolution; vote delayed into June"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "Markets",
+    "title": "UMich final May Consumer Sentiment plunges to 44.8 — record low in 78-year series",
+    "description": "University of Michigan final May Consumer Sentiment 44.8 vs. 48.2 preliminary; vs. 49.8 in April; -14.2% YoY. Director Joanne Hsu: 'Consumer sentiment fell for the third straight month as supply disruptions in the Strait of Hormuz continue to boost gasoline prices.' Current Conditions 45.8 (-12.8% MoM); Expectations 44.1 (-8.3% MoM); year-ahead inflation expectations 4.8% (vs 3.4% pre-war Feb); long-run expectations 3.9% (vs 2.8–3.2% in 2024). 57% spontaneously mention high prices erode personal finances. New all-time low in the 78-year series — previous trough was June 2022 at 50.0.",
+    "category": "economic",
+    "source": "Manifest §5 / Univ. of Michigan SCA / Hsu, Advisor Perspectives May 22, UPI May 22, Scotsman Guide",
+    "data_point": "UMich final May 44.8 — record low (prior trough June 2022 at 50.0)"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "Memorial Day weekend",
+    "title": "Memorial Day gas prices at four-year highs; AAA projects record 45M travelers",
+    "description": "AAA: national average $4.552/gal on 5/22. Near the 2022 Memorial Day record of $4.61. CA $6.14, WA $5.78, HI $5.64 — most expensive; MS $4.01 cheapest. AAA forecasts 45M Americans travelling ≥50 miles for Memorial Day (39.1M by car, 3.66M by air) — a new all-time Memorial Day weekend record. Stacey Barber, VP AAA Travel: 'Travel demand remains strong, and despite higher fuel prices, many people are prioritizing leisure travel during holiday breaks.'",
+    "category": "economic",
+    "source": "Manifest §5 / AAA Newsroom (May 11 + May 21), gasprices.aaa.com (5/22), ROI-NJ May 22",
+    "data_point": "AAA forecasts record 45M Memorial Day travelers; gas $4.552"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "Senate testimony",
+    "title": "Acting Navy Secretary Hung Cao tells Senate US has PAUSED $14B Taiwan arms sale for Iran campaign",
+    "description": "Senate testimony by Acting Navy Secretary Hung Cao; Sen. Mitch McConnell called the pause 'distressing.' Underscores Atlantic Council finding that Operation Epic Fury is stressing US ability to credibly deter Beijing — the clearest structural confirmation that the Iran campaign is mortgaging Indo-Pacific deterrence. Atlantic Council May 15 baseline: US has expended >1,000 JASSMs, >1,000 Tomahawks, ~1,000 Patriot interceptors, and burned through ~45% of Precision Strike Missile stockpile and ~50% of THAAD interceptor stockpile.",
+    "category": "political",
+    "source": "Manifest §5 / Senate testimony coverage, Atlantic Council tracker May 15",
+    "data_point": "$14B Taiwan arms sale PAUSED to preserve munitions for Iran campaign"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "Daytime",
+    "title": "Treasury sanctions 9 Hezbollah-linked individuals including Iran's incoming ambassador to Beirut",
+    "description": "US Treasury OFAC action against Lebanese politicians, security officials, and Iran's ambassador-designate to Lebanon. Maintains pressure track parallel to Pakistani mediation. Interpreted as preserving pressure on Iran's Hezbollah-Lebanon vector while diplomatic mediation on the main file proceeds.",
+    "category": "political",
+    "source": "Manifest §5 / State Dept / OFAC release referenced in Day-84 tracker summaries",
+    "data_point": "Treasury OFAC sanctions 9 Hezbollah-linked individuals incl. Iran ambassador-designate"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "Military loss disclosure",
+    "title": "Bloomberg: Iran has destroyed >24 US MQ-9 Reapers since war began",
+    "description": "Bloomberg analysis cited in Al Jazeera Day-84 blog: cumulative MQ-9 losses exceed two dozen. DroneXL April-20 reporting (citing CBS News and US officials): 24 losses valued at ~$720M against a USAF inventory of ~300 airframes — about 8% of the Reaper fleet (Air & Space Forces Magazine Almanac lists USAF MQ-9 inventory at 230). Wikipedia (2026 Iran war article) states 25 US MQ-9s lost as of May 2026. Cumulative US aircraft losses/damage: 42 (Congressional Research Service report per Stars and Stripes May 20).",
+    "category": "military",
+    "source": "Manifest §5 / Bloomberg via Al Jazeera May 22, DroneXL / CBS News (Apr 20), Atlantic Council May 15, CRS via Stars and Stripes May 20",
+    "data_point": "Iran has destroyed >24 US MQ-9 Reapers (~$720M, ~8% of USAF fleet); 42 cumulative US aircraft losses/damage"
   }
 ]

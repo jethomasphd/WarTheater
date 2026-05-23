@@ -3741,5 +3741,28 @@
     "verified": true,
     "verification_confidence": "HIGH",
     "last_updated": "2026-05-21"
+  },
+  {
+    "id": "leb-2026-05-22-southern-border",
+    "city": "near Lebanon-Israel border, southern Lebanon",
+    "lat": 33.10,
+    "lng": 35.30,
+    "type": "israel_kinetic_lebanon",
+    "actor": "Israel Defense Forces (IDF)",
+    "first_strike": "2026-05-22",
+    "active_days": [
+      84
+    ],
+    "weapon": "unspecified — likely drone / precision munition",
+    "casualties_reported": "2 killed; injured unknown",
+    "casualties_source": "Al Jazeera Day-84 live blog (May 22, 2026)",
+    "notes": "IDF air strike near the Lebanon-Israel border in southern Lebanon killed 2; the IDF cited 'suspicious movement' in southern Lebanon as justification. No Iranian retaliation reported on Day 84 — Iranian MP Fadahossein Maleki (state TV, May 21-22) issued escalation rhetoric: 'It could even come from Iran's side, frankly. If we feel that something is happening from a US base, Iran has the legitimacy to respond and prevent it' — flagged as rhetoric, not action. US Treasury OFAC same day sanctioned 9 Hezbollah-linked individuals including Iran's ambassador-designate to Beirut, preserving pressure track parallel to Pakistani mediation. Per manifest §3a.",
+    "sources": [
+      "Al Jazeera Day-84 live blog (May 22, 2026)",
+      "Manifest §3a"
+    ],
+    "verified": true,
+    "verification_confidence": "HIGH",
+    "last_updated": "2026-05-22"
   }
 ]
