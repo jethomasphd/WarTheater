@@ -3764,5 +3764,78 @@
     "verified": true,
     "verification_confidence": "HIGH",
     "last_updated": "2026-05-22"
+  },
+  {
+    "id": "hezbollah-drone-hamburger-2026-05-22",
+    "city": "northern Israel — Lebanon border zone",
+    "lat": 33.09,
+    "lng": 35.32,
+    "type": "hezbollah_retaliation",
+    "actor": "Hezbollah",
+    "first_strike": "2026-05-22",
+    "active_days": [
+      85
+    ],
+    "weapon": "explosive / FPV drone",
+    "casualties_reported": "1 IDF KIA (Staff Sgt. Noam Hamburger, 22)",
+    "casualties_source": "IDF spokesperson via AFP / RFE/RL (May 23, 2026)",
+    "notes": "Israel announced May 23 that Staff Sgt. Noam Hamburger, 22 (some sources 23), was killed 'during operational activity in northern Israel' near the Lebanon border the prior day in a Hezbollah drone strike. The death raised total IDF KIA in the Lebanon war to 22 since hostilities began. Israeli strikes in southern Lebanon continued unabated on May 23: Lebanon's National News Agency (NNA) reported Israeli airstrikes on multiple locations after the IDF issued evacuation warnings to ~15 villages (RFE/RL, NNA via AFP, May 23); aftermath imagery from Nabatieh published May 23-24 (Getty/AFP). Per manifest §2 and §6.",
+    "sources": [
+      "IDF spokesperson via AFP (May 23, 2026)",
+      "RFE/RL (May 23, 2026)",
+      "Manifest §2"
+    ],
+    "verified": true,
+    "verification_confidence": "HIGH",
+    "last_updated": "2026-05-24"
+  },
+  {
+    "id": "hezbollah-fpv-2026-05-24",
+    "city": "northern Israel — Lebanon border zone",
+    "lat": 33.10,
+    "lng": 35.30,
+    "type": "hezbollah_retaliation",
+    "actor": "Hezbollah",
+    "first_strike": "2026-05-24",
+    "active_days": [
+      86
+    ],
+    "weapon": "FPV drone",
+    "casualties_reported": "0 injuries reported",
+    "casualties_source": "IDF via Times of Israel liveblog (May 24, 2026)",
+    "notes": "Hezbollah FPV drone detonated inside Israel near the Lebanese border on May 24 with no injuries reported (IDF, via Times of Israel liveblog). Sub-threshold incident in the otherwise diplomatic-foreground window dominated by Trump's 'largely negotiated' MoU framework and Netanyahu's emergency cabinet on dismantlement demands. Per manifest §2.",
+    "sources": [
+      "IDF via Times of Israel liveblog (May 24, 2026)",
+      "Manifest §2"
+    ],
+    "verified": true,
+    "verification_confidence": "HIGH",
+    "last_updated": "2026-05-24"
+  },
+  {
+    "id": "iran-claim-orbiter-hormozgan-2026-05-24",
+    "city": "Hormozgan province, southern Iran",
+    "lat": 27.0,
+    "lng": 56.0,
+    "type": "iran_claim_unverified",
+    "actor": "Iran (claimed) / Israel (denied)",
+    "first_strike": "2026-05-24",
+    "active_days": [
+      86
+    ],
+    "weapon": "claimed Israeli-made Orbiter surveillance UAV downed by Iranian air defense",
+    "casualties_reported": "0",
+    "casualties_source": "Mehr News Agency (Iran) (May 24, 2026)",
+    "notes": "Iran's Mehr News Agency reported May 24 that Iranian army air defenses shot down an Israeli-made 'Orbiter' surveillance UAV over Hormozgan province and recovered the wreckage with help of Iranian naval forces. IDF said it was 'NOT familiar with the incident' (Times of Israel May 24). STATUS: UNVERIFIED — single-sourced Iranian state-media claim with explicit IDF non-confirmation. Logged here for tracking; no casualty entry. Per manifest §2.",
+    "sources": [
+      "Mehr News Agency (May 24, 2026)",
+      "WION (May 24, 2026)",
+      "Voice of Emirates (May 24, 2026)",
+      "Times of Israel (May 24, 2026)",
+      "Manifest §2"
+    ],
+    "verified": false,
+    "verification_confidence": "DISPUTED — single-sourced Iranian state media; IDF said 'not familiar with the incident'",
+    "last_updated": "2026-05-24"
   }
 ]
