@@ -7900,5 +7900,32 @@
     "source": "CNBC / Reuters / Benzinga / The Conference Board May 26",
     "time": "Day 88 — first session post-Memorial Day",
     "title": "S&P 500 hits record close at 7,519.12 despite Iran strikes; Micron tops $1T"
+  },
+  {
+    "category": "economic",
+    "data_point": "2 non-Iranian supertankers (Eagle Veracruz, Nissos Keros) cleared Hormuz — first ~4M barrels of unsanctioned crude in a week",
+    "date": "2026-05-26",
+    "description": "Per Bloomberg (Prejula Prem & Julian Lee, via Insurance Journal May 27): 'Commercial shipping through the Strait of Hormuz gained modest momentum over the past 24 hours as at least two non-Iranian supertankers exited the Persian Gulf… The Singapore-linked Eagle Veracruz and Greek-owned Nissos Keros were both seen having crossed Hormuz early on Tuesday… In total, five ships were seen crossing Hormuz in either direction… It's the first time in a week that four million barrels of unsanctioned crude have been seen crossing the waterway.' IRGC separately claimed 25 vessels transited via Tasnim — CNN: 'could not independently verify.' First independent maritime-tracking confirmation of meaningful non-Iranian supertanker transit since blockade tightening.",
+    "source": "Bloomberg via Insurance Journal May 27 (Prejula Prem & Julian Lee); CNN live blog citing Tasnim",
+    "time": "Tuesday early — May 26",
+    "title": "Bloomberg vessel tracking confirms first non-Iranian supertankers cross Hormuz in a week — Eagle Veracruz, Nissos Keros"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Trump: Iran 'negotiating on fumes'; WH calls Iranian state-TV MoU draft 'a complete fabrication'",
+    "date": "2026-05-27",
+    "description": "President Trump convened Cabinet declaring Iran is 'negotiating on fumes' and dismissing midterm pressure: 'I don't care about the midterms.' He warned 'they want very much to make a deal… either that or we'll have to just finish the job,' said he 'wouldn't be comfortable' with Russia or China taking Iran's 60%-enriched uranium stockpile (440.9 kg per IAEA), and floated making the deal contingent on Gulf states joining the Abraham Accords. White House spokesperson Olivia Wales rejected Iranian state TV's published MoU draft — outlining U.S. military withdrawal, lifting of the naval blockade, and Iranian commitment to restore Hormuz traffic to pre-war levels within ~30 days — as 'a complete fabrication.' GOP Senators Wicker (Armed Services chair), Graham, and Cruz publicly criticized emerging deal terms as resembling the JCPOA. Markets re-priced 25–35% probability of another round of strikes within 30 days.",
+    "source": "NPR / CNN live blog / ABC News / Times of Israel liveblog",
+    "time": "Cabinet meeting — Wednesday May 27",
+    "title": "Trump tells Cabinet Iran 'negotiating on fumes'; White House calls Iranian MoU draft 'a complete fabrication'"
+  },
+  {
+    "category": "military",
+    "data_point": ">1,100 JASSMs and >1,000 Tomahawks expended; Japanese deliveries of 400 Tomahawks may be delayed",
+    "date": "2026-05-27",
+    "description": "CSIS analysts Mark Cancian and Chris Park published 'Rebuilding U.S. Missile Inventory: A Multiyear Project': 'The 39-day bombing and air defense campaign against Iran depleted inventories of key U.S. munitions stockpiles… The United States has enough munitions for any plausible scenario in the Iran war, but the depleted inventories have created a window of vulnerability for a potential Western Pacific conflict.' Notes over 1,100 JASSMs and over 1,000 Tomahawks expended. Per Raytheon's Feb 4, 2026 framework agreements with DoW: 'RTX will increase annual production of Tomahawks to more than 1,000, AMRAAMs to at least 1,900, and SM-6 to more than 500… Many of these munitions will grow 2 to 4 times their existing production rates.' Japanese deliveries of 400 Tomahawks may be delayed. Reframes Epic Fury as a strategic raid on the U.S. Pacific deterrent and sets up the next congressional fight, likely tied to the pending $200B Pentagon supplemental.",
+    "source": "CSIS — Cancian & Park, May 27, 2026; Raytheon mediaroom Feb 4, 2026; USNI News",
+    "time": "Report published — Wednesday May 27",
+    "title": "CSIS (Cancian & Park): U.S. munition depletion creates 'window of vulnerability' for Western Pacific"
   }
 ]
