@@ -3837,5 +3837,58 @@
     "verified": false,
     "verification_confidence": "DISPUTED — single-sourced Iranian state media; IDF said 'not familiar with the incident'",
     "last_updated": "2026-05-24"
+  },
+  {
+    "id": "2026-05-25-irgc-mq9-claim",
+    "city": "Gulf region (claimed)",
+    "lat": 26.5,
+    "lng": 56.5,
+    "type": "iran_claim_unverified",
+    "actor": "IRGC (Aerospace Force) — claimed",
+    "first_strike": "2026-05-25",
+    "active_days": [
+      87,
+      88
+    ],
+    "weapon": "Claimed downing of 1× MQ-9 Reaper UAV; 'fired upon' 2nd MQ-9, 1× RQ-4 Global Hawk, 1× F-35",
+    "casualties_reported": "None (unmanned platforms claimed)",
+    "casualties_source": "IRNA / Fars (IRGC statement); Jerusalem Post; EurAsian Times; Sahara Reporters; NBC News",
+    "notes": "IRGC (via IRNA/Fars): shot down 1× MQ-9 Reaper over the Gulf region; fired on a second MQ-9, an RQ-4 Global Hawk, and an F-35 'forcing them to retreat' from Iranian airspace. IRGC: 'reserves the legitimate and definite right' to respond. US official to NBC News / Fox: 'no US aircraft were hit'; CENTCOM silent on platform losses. STATUS: UNVERIFIED — single-sourced Iranian claim with explicit US non-confirmation. If MQ-9 loss confirmed, would be 25th MQ-9 lost in war (24 prior per US Congress report cited by EurAsian Times = 57% of all US aircraft losses). Per manifest §3.",
+    "sources": [
+      "https://www.jpost.com/middle-east/iran-news/article-897319",
+      "https://www.eurasiantimes.com/f-35-forced-out-another-reaper-downed-iran-claims-major-success-amid-renewed-us-iran-tensions/",
+      "https://www.nbcnews.com/world/iran/us-military-says-conducted-self-defense-strikes-targets-iran-rcna346839",
+      "Manifest §3"
+    ],
+    "verified": false,
+    "verification_confidence": "DISPUTED — IRGC claim only; US: 'no US aircraft were hit'; CENTCOM silent on platform losses",
+    "last_updated": "2026-05-26"
+  },
+  {
+    "id": "2026-05-25-mashghara-airstrike",
+    "city": "Mashghara, Bekaa Valley, Lebanon",
+    "lat": 33.5424,
+    "lng": 35.6606,
+    "type": "israel_strike_lebanon",
+    "actor": "Israel (IDF)",
+    "first_strike": "2026-05-25",
+    "active_days": [
+      87,
+      88
+    ],
+    "weapon": "Airstrike (multiple munitions across ~10 strikes in 30 minutes per Al Jazeera/Khodr)",
+    "casualties_reported": "11 killed, 15 wounded (Lebanese MoH); 12 killed (state NNA / AP, with 12 bodies pulled from rubble) including a woman and two girls (Lebanese MoH via Antiwar.com)",
+    "casualties_source": "Lebanese MoH; Al Jazeera (Zeina Khodr); AP / Washington Post; Antiwar.com (Jason Ditz); Lebanese state NNA; Times of Israel",
+    "notes": "Late May 25 / overnight into May 26: IDF airstrike on Mashghara village in eastern Lebanon's Bekaa Valley killed 11 (Lebanese MoH) or 12 (state NNA / AP, with 12 bodies pulled from rubble) including a woman and two girls (Lebanese MoH). Al Jazeera correspondent Zeina Khodr: 'There were at least 10 attacks in the span of half an hour on an area with residential buildings.' Part of 76 IDF airstrikes on Lebanon on May 25 (Antiwar.com). Netanyahu authorized intensified Hezbollah operations May 25 after Hezbollah drone killed IDF reservist Staff Sgt. Noam Hamburger; US Amb. Mike Huckabee approved expansion but warned Israel 'not to bring down buildings in Beirut' per Channel 12. Lebanon/Israel direct military talks scheduled May 29 in Washington. NOT Iranian retaliation but related ceasefire-track escalation. Per manifest §3.",
+    "sources": [
+      "https://www.aljazeera.com/news/2026/5/26/israeli-attacks-on-eastern-lebanon-village-kill-at-least-12-people",
+      "https://news.antiwar.com/2026/05/26/israeli-strikes-kill-at-least-12-in-lebanons-bekaa-valley/",
+      "https://www.washingtonpost.com/world/2026/05/26/lebanon-israel-hezbollah-war-strike/",
+      "https://www.timesofisrael.com/liveblog-may-26-2026/",
+      "Manifest §3"
+    ],
+    "verified": true,
+    "verification_confidence": "HIGH",
+    "last_updated": "2026-05-26"
   }
 ]
