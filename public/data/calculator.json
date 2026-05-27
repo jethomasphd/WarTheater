@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.507,
-  "war_increase": 1.517,
+  "current_gas": 4.491,
+  "war_increase": 1.501,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.58 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com national average — Memorial Day Monday print $4.507 (Day 87, May 25, 2026). AAA landing page banner: 'Memorial Day Weekend Gas Prices Reach Four-Year Highs.' +50.7% above $2.99 Feb 28 baseline; ~$1.40/gal above year-ago levels; ~10¢ below the June 2022 all-time record of $4.61; eased ~4¢ over three weeks from the May 7 print of $4.55. State extremes May 25: California ~$6.116; Hawaii $5.641; Washington D.C. $4.661; Oklahoma ~$3.98. Patrick De Haan (GasBuddy) attributes 'more than 90%' of the YoY increase directly to the Iran war. CNN/SSRS poll (April 30–May 4, n=1,499, ±2.8pp; CNN Politics May 12): 21% approve Trump on gas prices, 75% say the Iran war has had a negative effect on their finances. Watson Institute / Costs of War (Brown — Jeff Colgan, May 2026): cumulative extra fuel costs to U.S. consumers since war start now top $40 billion, more than $300 per household. Memorial Day Monday cash markets closed; oil futures fell ~5–6% intraday on US–Iran deal optimism (WTI ~$91, Brent ~$94.82 intraday low — 'lowest since April 2026') following the Rubio 'framework 95% there' framing and Trump's 5–7 day deadline. Pump-price relief, if a deal lands, runs 2-3 weeks behind crude per De Haan. Rep. Thomas Massie (R-KY) on NBC Meet the Press May 24: 'Gas is almost $5 a gallon, diesel is almost $6 a gallon, and the farmers here in Kentucky can't afford the fertilizer to put on their fields.'",
-  "last_updated": "2026-05-25"
+  "source": "AAA gasprices.aaa.com national average — Day 88 print $4.491 (May 26, 2026), down 1.6¢ from the May 25 Memorial Day Monday print of $4.507. +50.2% above $2.99 Feb 28 baseline; ~12¢ below the June 2022 all-time record of $4.61. GasBuddy parallel reading: $4.45 (weekly change -6.6¢); diesel $5.571. State extremes (GasBuddy May 26): most expensive — California $6.14, Washington $5.78, Hawaii $5.64, Oregon $5.35, Alaska $5.27, Nevada $5.27, Illinois $5.01, Arizona $4.81, Colorado $4.76, Ohio $4.76; cheapest — Mississippi $4.01, Georgia $4.03, Indiana $4.04, Louisiana $4.05, Texas $4.09, Oklahoma $4.09, Kansas $4.11, Arkansas $4.12, Alabama $4.17, South Carolina $4.17. Patrick De Haan (GasBuddy, May 26): 'Average gasoline prices declined in 40 states over the last week as falling oil prices helped offset earlier price cycling in many markets… Much of the decline came after renewed optimism surrounding a potential U.S.-Iran agreement pushed oil prices lower. While oil continued drifting lower over the weekend on hopes of a deal, new CENTCOM reports involving U.S. defensive strikes highlight how quickly the outlook could change.' Watson Institute / Costs of War (Brown — Jeff Colgan, May 18 brief): cumulative extra fuel costs to U.S. consumers since war start now top $40 billion, more than $300 per household. Pump-price relief, if a deal lands, runs 2-3 weeks behind crude per De Haan.",
+  "last_updated": "2026-05-26"
 }

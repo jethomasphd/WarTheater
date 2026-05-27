@@ -7846,5 +7846,59 @@
     "source": "Manifest §1 / Trading Economics May 25-26; AAA gasprices.aaa.com retrieved May 25, 2026; NBC Meet the Press May 24",
     "time": "Memorial Day Monday — cash closed; futures session",
     "title": "Oil futures fall ~5-6% intraday on deal optimism (WTI ~$91, Brent ~$94.82); AAA gas $4.507 Memorial Day 4-year high"
+  },
+  {
+    "category": "military",
+    "data_point": "2× IRGC vessels + 1× SAM site destroyed; 3–4 IRGC Navy KIA",
+    "date": "2026-05-25",
+    "description": "Late Monday local time, US forces struck two IRGC Navy vessels reportedly laying mines south of Larak Island in the Strait of Hormuz, and a SAM site in Bandar Abbas that had tracked/fired on US aircraft. CENTCOM spox Capt. Tim Hawkins: 'U.S. forces conducted self-defense strikes in southern Iran today to protect our troops from threats posed by Iranian forces… U.S. Central Command continues to defend our forces while using restraint during the ongoing ceasefire.' Iran International (citing SNN) named 3 Iranian dead: Abbas Eslami, Ghodrat Zarnagari, Abdolreza Golzari (Pravda/Tasnim: 4; Al Jazeera: 'several IRGC Navy personnel killed'). Iran FM Esmaeil Baghaei called it 'flagrant violation' of April 8 ceasefire (RFE/RL). Explosions also reported near Sirik and Jask. U.S. official described scope as 'very small'; Iran's Mehr News said situation 'under control.' Senior US official (Fox): strikes 'over for now.' Ends 16-day zero-kinetic streak on Iranian territory.",
+    "source": "Stars and Stripes / CNBC / Fox / The Aviationist / Iran International / Al Jazeera May 26",
+    "time": "Day 87 evening Iran local / overnight to Day 88",
+    "title": "CENTCOM 'self-defense' strikes hit IRGC mine-laying boats off Larak and Bandar Abbas SAM site"
+  },
+  {
+    "category": "military",
+    "data_point": "Unverified Iranian claim of 1× MQ-9 shootdown + F-35/RQ-4 engagement",
+    "date": "2026-05-26",
+    "description": "IRGC (via IRNA): shot down 1 MQ-9 Reaper over the Gulf region; fired on a second MQ-9, an RQ-4 Global Hawk, and an F-35, forcing them to retreat from Iranian airspace. IRGC: 'reserves the legitimate and definite right' to respond. NBC News and US officials: 'no US aircraft were hit.' CENTCOM silent on platform losses. If confirmed, would be the 25th MQ-9 lost in the war (24 prior per US Congress report cited by EurAsian Times = 57% of all US aircraft losses). Treat as Iranian propaganda until US confirms or imagery emerges.",
+    "source": "Jerusalem Post / EurAsian Times / NBC News May 26",
+    "time": "Day 88",
+    "title": "IRGC claims MQ-9 shootdown, fires at F-35 and RQ-4 — US: 'no aircraft hit'"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Rubio: deal 'will take a few days'; Qatar talks ongoing",
+    "date": "2026-05-26",
+    "description": "Secretary of State Marco Rubio, on press call in Jaipur during India visit: 'There were some talks going on in Qatar today, so we'll see if we can make progress. I think it's a lot of talking back and forth going on about specific language in the initial document, so it'll take a few days.' Rubio added: 'The straits have to be open. They're going to be open one way or the other, so they need to be open.' Iranian delegation in Doha for talks on extending ceasefire. Framework still envisions 60-day MOU + Hormuz reopening (Iran demines within 30 days, no transit fees), per Nikkei via Al Jazeera. Iran FM Baghaei (Tehran briefing): 'We have reached conclusions on a large portion of the issues, but no one can claim that the signing of an agreement is imminent.' Trump Cabinet meeting at Camp David scheduled Wednesday May 27 per WH official to CNBC.",
+    "source": "Al Jazeera / Washington Post / ABC News May 26",
+    "time": "Day 88",
+    "title": "Rubio in Jaipur: Iran deal 'will take a few days'; Qatar mediation underway"
+  },
+  {
+    "category": "humanitarian",
+    "data_point": "87-day internet blackout partially lifted; 2,093 hours",
+    "date": "2026-05-26",
+    "description": "Iran's First Vice President Mohammad Reza Aref announced via social media: 'In line with the esteemed president's mission and in fulfillment of the government's promise, the first step toward free and regulated access to cyberspace has been taken.' Decision taken May 25 at Supreme Council of Cyberspace meeting under VP Aref. The blackout had been in place since 28 February (post-Operation Epic Fury opening strikes). NetBlocks posted on X (May 26, per UPI): 'Confirmed: Live metrics show a partial restoration to Internet connectivity in #Iran on day 88, after 2,093 hours of near-total isolation from international networks, the longest nationwide Internet shutdown in modern history.' Communications Minister Sattar Hashemi had previously stated (on the sidelines of a cabinet meeting Jan 28, 2026, per IranWire) that 'each day of restricted access has caused about 5 trillion tomans ($35.7 million) in direct economic losses.'",
+    "source": "ABC News / Spokesman-Review / Wikipedia / UPI May 26",
+    "time": "Day 88",
+    "title": "Iran begins partial restoration of internet after 87-day blackout — longest nationwide shutdown in modern history"
+  },
+  {
+    "category": "military",
+    "data_point": "Mashghara airstrike: 11 (MoH) / 12 (state NNA, AP) killed; 76 IDF airstrikes on Lebanon May 25",
+    "date": "2026-05-26",
+    "description": "Late May 25 / overnight into May 26: IDF airstrike on Mashghara village in eastern Lebanon's Bekaa Valley killed 11 (Lebanese MoH) or 12 (state NNA / AP, with 12 bodies pulled from rubble) including a woman and two girls (Lebanese MoH). Al Jazeera correspondent Zeina Khodr: 'There were at least 10 attacks in the span of half an hour on an area with residential buildings.' Part of 76 IDF airstrikes on Lebanon on May 25 (Antiwar.com). Netanyahu authorized intensified Hezbollah operations after Hezbollah drone killed IDF reservist Staff Sgt. Noam Hamburger. US Ambassador Mike Huckabee approved expansion but warned Israel 'not to bring down buildings in Beirut' (Channel 12). Lebanon/Israel direct military talks set for May 29 in Washington.",
+    "source": "Al Jazeera / Antiwar.com / Washington Post / Times of Israel May 26",
+    "time": "Late May 25 / overnight",
+    "title": "IDF airstrike on Mashghara, Bekaa Valley kills 11–12 Lebanese; Israel intensifies Hezbollah operations"
+  },
+  {
+    "category": "economic",
+    "data_point": "S&P 500 record 7,519.12 (+0.61%); Nasdaq record 26,656.18 (+1.19%); Micron tops $1T; Brent $99.58 (+3.58%); WTI $93.89 (-2.81%)",
+    "date": "2026-05-26",
+    "description": "S&P 500 +0.61% to record close 7,519.12. Nasdaq +1.19% to record 26,656.18. Dow -0.23% to 50,461.68. Micron +19% (UBS hiked PT, market cap topped $1T for first time, +200% YTD, +800% past 12 months). Per The Conference Board's May 26 release, Chief Economist Dana M. Peterson said: 'Consumer confidence edged downward in May as the inflationary impacts of the war in the Middle East intensified… References to prices and oil and gas increased in frequency for a second consecutive month, while mentions of war, geopolitics, and conflict remained elevated.' (Confidence index fell 0.7 to 93.1 from upwardly revised 93.8; survey period May 1–19.) Brent +3.58% to settle $99.58 on Iran strikes; WTI -2.81% to $93.89 (no Monday settle due to holiday). LNW CIO Ron Albahary (CNBC): investors 'pathologically optimistic' that war ends soon. Polymarket May 26 contract: implied 91% probability S&P would open higher; resolved as a 'Yes.'",
+    "source": "CNBC / Reuters / Benzinga / The Conference Board May 26",
+    "time": "Day 88 — first session post-Memorial Day",
+    "title": "S&P 500 hits record close at 7,519.12 despite Iran strikes; Micron tops $1T"
   }
 ]
