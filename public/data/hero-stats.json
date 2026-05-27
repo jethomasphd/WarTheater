@@ -1693,59 +1693,59 @@
   ],
   "toll": {
     "targets_struck": {
-      "value": 35508,
-      "label": "Cumulative targets struck (US+IL on Iran/proxies)",
-      "note": "Day 88: +3 — 2× IRGC mine-laying boats south of Larak Island (Strait of Hormuz) + 1× SAM site, Bandar Abbas. CENTCOM 'self-defense' strikes overnight May 25-26 ended 16-day zero-kinetic streak. CENTCOM (Capt. Tim Hawkins): 'U.S. forces conducted self-defense strikes in southern Iran today to protect our troops from threats posed by Iranian forces. Targets included missile launch sites and Iranian boats attempting to emplace mines.' Adm. Brad Cooper (CENTCOM CDR) prior cumulative reference: 'nearly 2,000' per Wikipedia timeline.",
-      "tooltip": "CENTCOM/IDF strikes since Feb 28. Includes 900+ first-12-hour Operation Epic Fury strikes (US+IL). Excludes Iranian retaliation. CENTCOM (May 23 press release): 100 commercial vessels redirected, 4 disabled, 26 humanitarian permitted through under the naval blockade; '15,000+ service members and 200+ aircraft and warships' enforce. Adm. Cooper: blockade 'allowing zero trade into and out of Iranian ports.' Atlantic Council (May 15): US has expended >1,000 JASSMs, >1,000 Tomahawks, ~1,000 Patriot interceptors, ~45% of Precision Strike Missile stockpile and ~50% of THAAD interceptor stockpile. Cumulative US aircraft losses/damage: 42 (CRS via Stars and Stripes May 20). IRGC unverified claim (IRNA/Fars May 26): 1× MQ-9 shot down + 'fired upon' 2nd MQ-9, RQ-4 Global Hawk, F-35 'forcing them to retreat' — US official (NBC/Fox): 'no US aircraft were hit'; CENTCOM silent on platform losses. If MQ-9 loss confirmed, would be 25th of war.",
+      "value": 13045,
+      "label": "Confirmed targets struck (US + Israel)",
+      "note": "CSIS Cancian & Park (May 27, 2026): 'The United States struck more than 13,000 targets over 39 days before the ceasefire took effect.' +~45 from post-ceasefire self-defense strikes May 5–27 (May 7 Bandar Khamir/Sirik/Qeshm, May 10–11, May 22, May 25 Hormozgan).",
+      "tooltip": "Cumulative kinetic engagement count — ground/maritime/air targets. CSIS Cancian & Park (May 27): >13,000 targets struck across 39 days of Operation Epic Fury (Feb 28 – Apr 8) — also documents >1,100 JASSMs and >1,000 Tomahawks expended; depleted inventories created 'window of vulnerability' for Western Pacific conflict. Atlantic Council (May 15): ~45% of Precision Strike Missile stockpile and ~50% of THAAD interceptor stockpile burned. CENTCOM (May 23 press release): 100 commercial vessels redirected, 4 disabled, 26 humanitarian permitted through under the naval blockade. Cumulative US aircraft losses/damage: 42 (CRS via Stars and Stripes May 20). IRGC unverified claim (IRNA/Fars May 26): 1× MQ-9 shot down — if confirmed, would be 25th of war.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
       "value": 13,
-      "label": "US service-member KIA",
-      "note": "Day 88: Unchanged. War Secretary Pete Hegseth at Arlington Memorial Day ceremony May 25 cited '13 souls of Epic Fury.' No US KIA reported in May 25 self-defense strikes (CENTCOM: no US aircraft hit by IRGC SAM fire). 49-day streak of zero-KIA days since 4/7 ceasefire.",
-      "tooltip": "Includes 7 servicemembers killed in opening Iranian retaliation wave + 6 USAF airmen in KC-135 crash in western Iraq. Composition: 6 USAF crew (March 13 KC-135 crash western Iraq, CENTCOM ruled non-hostile mid-air collision); 6 Kuwait Camp Arifjan drone attack March 1; 1 Saudi Arabia. US MIA 0. 10 civilian sailors of various nationalities killed in Hormuz-related incidents. Explicit EXECUTIVE CONFIRMATION by President Trump at Arlington National Cemetery May 25: 'In Operation Epic Fury, we lost 13 wonderful souls.' No US casualties reported in May 25 overnight Larak/Bandar Abbas self-defense strikes.",
+      "label": "U.S. service members KIA",
+      "note": "CENTCOM confirmed 13 KIA as of Apr 8; no new public KIA disclosures May 10–27. Day 89: Unchanged.",
+      "tooltip": "Per Wikipedia 'List of US service members killed during the 2026 Iran war': 7 direct combat + 6 KC-135 mid-air collision over W. Iraq Mar 12 (non-hostile). CENTCOM and DCAS confirm 13. Composition: 6 USAF crew (March 13 KC-135 crash western Iraq, CENTCOM ruled non-hostile mid-air collision); 6 Kuwait Camp Arifjan drone attack March 1; 1 Saudi Arabia. US MIA 0. Explicit EXECUTIVE CONFIRMATION by President Trump at Arlington National Cemetery May 25: 'In Operation Epic Fury, we lost 13 wonderful souls.' No US casualties reported in May 25 overnight Larak/Bandar Abbas self-defense strikes.",
       "color": "var(--civilian)"
     },
     "us_wia": {
-      "value": 520,
-      "label": "US WIA (independent est.)",
-      "note": "Day 88: Range: Pentagon 413 (Apr 22, after unexplained removal of 15 WIA) vs The Intercept/Wikipedia 520–538. Held at 520 — no public update May 25–26.",
-      "tooltip": "Discrepancy flagged by analysts. CENTCOM has not issued updated tally. Pentagon-reported 413 (Apr 22 official tally, after unexplained removal of 15 WIA from prior 428). Independent estimates (The Intercept / Wikipedia 2026 Iran war) place 520–538. Manifest cites ~365+ per CENTCOM (last public figure 303 as of March 28; subsequent estimate ~365 widely cited). No new aggregate May 13–26 despite May 25 Bandar Abbas self-defense strikes (no U.S. casualties reported in window).",
+      "value": 365,
+      "label": "U.S. WIA",
+      "note": "CENTCOM March 28 figure of 303 plus subsequent Project Freedom/Hormuz exchanges; includes traumatic brain injuries at Prince Sultan Air Base. Day 89: Unchanged.",
+      "tooltip": "Pentagon DCAS-derived; TBI cases may emerge over months. Discrepancy range: Pentagon 413 (Apr 22 official tally, after unexplained removal of 15 WIA from prior 428) vs The Intercept / Wikipedia 520–538. Manifest cites ~365+ per CENTCOM (last public figure 303 as of March 28; subsequent estimate ~365 widely cited). No new aggregate May 13–27 despite May 25 Bandar Abbas self-defense strikes (no U.S. casualties reported in window).",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
       "value": 3468,
-      "label": "Iranian dead (Iran MoH / Foundation of Martyrs, Apr 19)",
-      "note": "Day 88: +3–4 IRGC Navy personnel reported killed May 25 near Larak Island per Iran International citing SNN (named: Abbas Eslami, Ghodrat Zarnagari, Abdolreza Golzari); Pravda/Tasnim says 4; Al Jazeera (Ali Hashem): 'several IRGC Navy personnel killed.' No official Iran MoH update for May 25–26 — figure carried over. HRANA (Apr 7): 3,636. IDF intelligence (Mar 15) claim: 6,000+ IRGC. Hengaw (Apr 8): 6,620+ military. With internet blackout partial lift May 26 (after 87 days / 2,093 hours per NetBlocks — longest in modern history), expect a delayed-reporting catch-up in coming days.",
-      "tooltip": "Iran's Foundation of Martyrs cumulative total = 3,468 as of Apr 19 (7 infants, 376 children, 496 women; 26,500+ injured). No public Hengaw or Iran MoH update May 25–26. CONFLICTING RANGE (per manifest §9, do not synthesize): 1,444 (MissileStrikes.com conservative) / 3,468 (Iran MoH / Foundation of Martyrs via Al Jazeera tracker May 20 — FIGURE UNCHANGED SINCE APR 19, ~37 DAYS STALE) / 3,636 (HRANA Apr 7) / ≥7,650 (Hengaw Apr 8: 6,620 military + 1,030 civilians) / 4,700+ security forces (Iran International) / 6,000+ IRGC, ~15,000 wounded (IDF intelligence Mar 15). Day 88 IRGC Navy KIA assessment: 3 (named) as floor; 4 per Tasnim/Pravda; 'several' per Al Jazeera. Iranian Red Crescent (May 22): aid workers rescued more than 7,200 people from rubble across US/Israeli attacks since the war began.",
+      "label": "Iranians killed (official — Iran Foundation of Martyrs)",
+      "note": "Foundation of Martyrs official figure as of April 19, 2026; HRANA documents 3,636+; Iranian state media claims exceed 5,000 (unverified). Per Al Jazeera live tracker citing Iran's Ministry of Health: 'At least 3,468 people have been killed in US-Israeli attacks on Iran since February 28… The victims were aged between eight months and 88 years. They included seven infants, 376 children and 496 women.'",
+      "tooltip": "Figure not publicly revised since April 19; likely understated given communications damage in western Iran. With internet restoration May 26 expect upward revisions in coming days. CONFLICTING RANGE (per manifest §9, do not synthesize): 1,444 (MissileStrikes.com conservative) / 3,468 (Iran MoH / Foundation of Martyrs via Al Jazeera tracker — FIGURE UNCHANGED SINCE APR 19, ~38 DAYS STALE) / 3,636 (HRANA Apr 7) / ≥7,650 (Hengaw Apr 8: 6,620 military + 1,030 civilians) / 4,700+ security forces (Iran International) / 6,000+ IRGC, ~15,000 wounded (IDF intelligence Mar 15). Day 88 IRGC Navy KIA assessment: 3 (named) as floor; 4 per Tasnim/Pravda; 'several' per Al Jazeera.",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
-      "value": 3185,
-      "label": "Lebanese dead (Lebanese MoH, May 25)",
-      "note": "Day 88: Cumulative figure unchanged from May 25; Lebanese MoH reported 34 killed in past 24h (per NEWS.am citing MoH X post May 26) but had not updated the cumulative tally on its dashboard — implied ~3,219 by May 26 EoD (FLAG: next-cycle reconciliation, manifest §9). Mashghara strike (Bekaa Valley, late May 25/overnight): Lebanese MoH said 11 killed, 15 wounded; Lebanese state NNA / AP reported '12 killed' (12 bodies pulled from rubble) including a woman and two girls. Part of 76 IDF airstrikes on Lebanon May 25 (Antiwar.com). Netanyahu authorized intensified Hezbollah operations after Hezbollah drone killed IDF reservist Staff Sgt. Noam Hamburger May 22; US Amb. Huckabee approved expansion but warned Israel 'not to bring down buildings in Beirut' (Channel 12). Lebanon/Israel direct military talks set for May 29 in Washington.",
-      "tooltip": "Lebanon war cumulative since March 2 = 3,185 killed / 9,633 wounded per WAFA/Lebanese MoH May 25. Discrepancy: '34 killed in past day' May 26 implies cumulative should be ~3,219 by May 26 — flag as DATA LAG. MoPH cumulative breakdown war-to-date: 123 medics, ≥210 children, nearly 300 women among the dead. Reuters (May 7) cites unnamed Hezbollah officials saying 'several thousand' fighters killed, only partially reflected in MoH figures. Internal Hezbollah sources say 1,000+ fighters killed; IDF claims 1,700 killed. Israel: 51 cumulative (23 IDF — incl. Staff Sgt. Noam Hamburger killed May 22 by Hezbollah drone — + 1 MoD contractor + 28 civilians/residents per Wikipedia May 24); 8,631 wounded incl. 792 military. Mashghara strike May 25/26: 11–12 killed including a woman and two girls (Al Jazeera correspondent Zeina Khodr: 'at least 10 attacks in the span of half an hour on an area with residential buildings').",
+      "value": 3244,
+      "label": "Lebanese killed (Lebanese MoH)",
+      "note": "Wikipedia 2026 Lebanon war, citing Lebanese Health Ministry: 'As of 26 May, at least 3,213 people have been killed and 9,737 wounded by Israeli strikes in Lebanon during the war.' +31 killed and 40 wounded in 24 hrs of May 26 night per Lebanese MoH/NNA reported early May 27 → effective May 27 floor ≈ 3,244.",
+      "tooltip": "Internal Hezbollah sources cite 1,000+ Hezbollah fighters killed; IDF claims 1,700 fighter casualties. MoPH cumulative breakdown war-to-date: ~123 medics, ≥210 children, nearly 300 women among the dead. Israel: ~52-53 cumulative (24 IDF including Staff Sgt. Noam Hamburger killed May 22 + 1 MoD contractor + 28 civilians/residents per Wikipedia May 24); 8,631 wounded incl. 792 military. May 27 IDF struck 100+ Hezbollah targets and conducted 120+ strikes across Lebanon May 26; IDF issued new mass evacuation orders for Nabatieh city May 27. Lebanon/Israel direct military talks set for May 29 in Washington.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
-      "value": 1100000,
-      "label": "Displaced (Lebanon, UNHCR-based)",
-      "note": "Day 88: Unchanged. >1.1M displaced in Lebanon since March (over 1/6 of population); millions more displaced inside Iran (per Watson/Britannica).",
-      "tooltip": "UNHCR / Lebanese government figures, late March baseline. >1.6M Lebanon IDPs per Lebanese government / OCHA / CSMonitor (Lebanese share ~1.2M as of May 7). Cross-border into Syria: 306,888 Syrians + 64,865 Lebanese (May 2 baseline, carry-forward). 40,000+ homes destroyed in southern Lebanon; cumulative evacuation orders cover ~1,470 km² (~14% of national territory). Iran IDPs opaque; UNHCR Mar 12 baseline up to ~3.2M (stale).",
+      "value": 4200000,
+      "label": "Displaced persons (regional total)",
+      "note": "Iran ~3.2M (HRANA/UNHCR); Lebanon 1M+ (Lebanese disaster management office); plus Iraq/Gulf migrant worker displacement.",
+      "tooltip": "UN OCHA: 'at least 2,489 people have been killed and 7,719 injured in Lebanon since 2 March, and more than one million people have been internally displaced' (April 23 update; figures since increased). >1.6M Lebanon IDPs per Lebanese government / OCHA / CSMonitor. Cross-border into Syria: 306,888 Syrians + 64,865 Lebanese (May 2 baseline, carry-forward). 40,000+ homes destroyed in southern Lebanon; cumulative evacuation orders cover ~1,470 km² (~14% of national territory). Iran IDPs opaque; UNHCR Mar 12 baseline up to ~3.2M.",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
-      "value": 8000,
-      "label": "Cumulative flights cancelled (Gulf hubs, est.)",
-      "note": "Day 88: No fresh aggregate update May 25–26. KLM Riyadh/Dammam/Dubai suspensions extended to June 28; Lufthansa Group Tel Aviv to June 30, Dubai to July 11, other Mid-East to Oct 24 (The National, May 12).",
-      "tooltip": "FlightAware running figures from war's first weeks: DXB ~4,000 / DOH 2,000+ / AUH 1,000+. Aggregate ~8,000+ remains conservative. AAA holiday-travel survey: 3.66M Americans projected to fly for Memorial Day weekend — a record despite ongoing disruption. Methodological note: 'flights affected' captures cancellations + diversions + multi-hour holds + reroutes + overflight disruptions across all regional FIRs. Gulf carriers continue suspended/rerouted ops; Dubai International at limited capacity.",
+      "value": 47500,
+      "label": "Cumulative regional flights cancelled (Feb 28 – May 27)",
+      "note": "Anchor: Qatar Airways alone cancelled 4,929 flights Feb 28 – Mar 24 per CN Traveler ('nearly 89% of its scheduled service'). Etihad 450+ in early March. Per Bloomberg (March 23, 2026): 'Services to other cities — including Abu Dhabi, Beirut and Tehran — are suspended until Oct. 24, Lufthansa said.' UAE airspace reopened May 2; Qatar/Bahrain/Kuwait reopened in April. Air India suspended Israel flights until May 31. Net cumulative ~47,500 across all carriers per Wego Travel aggregator tracking.",
+      "tooltip": "Aggregated Feb 28 – May 27 across IATA-tracked carriers. KLM Riyadh/Dammam/Dubai suspensions extended to June 28; Lufthansa Group Tel Aviv to June 30, Dubai to July 11, other Mid-East to Oct 24 (The National, May 12). AAA holiday-travel survey: 3.66M Americans projected to fly for Memorial Day weekend — a record despite ongoing disruption. Methodological note: 'flights affected' captures cancellations + diversions + multi-hour holds + reroutes + overflight disruptions across all regional FIRs.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
-      "value": 200,
-      "label": "Children killed in Iran (UNICEF Mar 12 baseline + updates)",
-      "note": "Day 88: UNICEF Mar 12: 200 children killed in Iran, 91 in Lebanon, 4 in Israel, 1 in Kuwait (>1,100 children injured or killed total). HRANA: ≥15% of total war casualties under age 18 (Mar 23). Iran MoH: 376 children dead (Apr 19 cumulative). Lebanese MoPH May 25 cumulative: ≥210 children among 3,185 killed.",
-      "tooltip": "Multiple methodologies; UNICEF figure is the most-cited international baseline. Iran MoH (via Al Jazeera tracker, May 20; STALE since Apr 19): 376 children killed (incl. 7 infants), 496 women. HRANA: ≥254 children among Iranian civilian dead (Apr 7). Lebanese MoPH (May 25): ≥210 children among 3,185 killed since Mar 2. UNICEF (Mar 12): >1,100 children killed/injured regionally (200 Iran + 91 Lebanon + 4 Israel + 1 Kuwait subset) — STALE. Israeli child casualties tracked separately.",
+      "value": 587,
+      "label": "Children killed (verified floor)",
+      "note": "Iran Health Ministry: 376 children + 7 infants killed in US/Israeli strikes; Lebanon ≥98 children (Lebanese MoH); 175 girls and staff killed in Minab school strike Feb 28 (Pentagon-confirmed; some subset included in Iran's 376 count); plus UAE/Bahrain/Iraq additional small numbers.",
+      "tooltip": "Cross-source verified floor — Iran MoH, Lebanese MoH, HRANA, Pentagon Minab investigation. UNESCO condemned Minab strike as largest single-incident civilian casualty event of war. Iran MoH (via Al Jazeera tracker, May 20; STALE since Apr 19): 376 children killed (incl. 7 infants), 496 women. HRANA: ≥254 children among Iranian civilian dead (Apr 7). Lebanese MoPH (May 25-26): ≥210 children among 3,213+ killed since Mar 2. UNICEF (Mar 12): >1,100 children killed/injured regionally — STALE. Israeli child casualties tracked separately.",
       "color": "var(--civilian)"
     }
   }
