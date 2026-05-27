@@ -607,5 +607,12 @@
         "label": "MAY 26, 2026 — DAY 88",
         "headline": "US strikes IRGC boats off Larak; Brent +3.6% to $99.58, S&P 500 record 7,519; Rubio: deal 'few days'; Iran lifts 87-day net blackout",
         "file": "data/briefings/day-88.html"
+    },
+    {
+        "day": 89,
+        "date": "2026-05-27",
+        "label": "MAY 27, 2026 — DAY 89",
+        "headline": "Trump: Iran 'negotiating on fumes'; WH calls Iranian MoU draft 'fabrication'; oil down 3%; AAA gas $4.459; Hormuz strikes",
+        "file": "data/briefings/day-89.html"
     }
 ]
