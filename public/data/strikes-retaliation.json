@@ -3890,5 +3890,54 @@
     "verified": true,
     "verification_confidence": "HIGH",
     "last_updated": "2026-05-26"
+  },
+  {
+    "id": "2026-05-27-kuwait-ballistic-missile",
+    "city": "Kuwait (intercepted over Kuwaiti territory)",
+    "lat": 29.3759,
+    "lng": 47.9774,
+    "type": "iran_retaliation",
+    "actor": "Iran (IRGC)",
+    "first_strike": "2026-05-27",
+    "active_days": [
+      89
+    ],
+    "weapon": "Ballistic missile (1; intercepted by Kuwaiti air defenses)",
+    "casualties_reported": "None reported (missile intercepted)",
+    "casualties_source": "CENTCOM; Kuwait Ministry of Foreign Affairs; Kuwait Army",
+    "notes": "At 10:17 p.m. ET on May 27, Iran launched a ballistic missile toward Kuwait, intercepted by Kuwaiti forces. CENTCOM: 'This egregious ceasefire violation by the Iranian regime occurred hours after Iranian forces launched five one-way attack drones that posed a clear threat in and near the Strait of Hormuz.' Kuwait's Foreign Ministry condemned the 'sinful Iranian attacks'; Kuwait's army said its air defenses were 'responding to hostile missile and drone threats.' The IRGC said it had attacked a U.S. air base in Kuwait in retaliation for U.S. strikes near Bandar Abbas airport (IRIB/IRNA). Occurred the same day as a new U.S. airstrike on a southern-Iran military site and multiple U.S. drone intercepts. Per manifest §3.",
+    "sources": [
+      "Manifest §3",
+      "CENTCOM statement (May 27-28)",
+      "Kuwait Ministry of Foreign Affairs",
+      "IRIB / IRNA (IRGC claim)"
+    ],
+    "verified": true,
+    "verification_confidence": "HIGH",
+    "last_updated": "2026-05-28"
+  },
+  {
+    "id": "2026-05-28-irgc-warning-shots-hormuz",
+    "city": "Strait of Hormuz",
+    "lat": 26.5667,
+    "lng": 56.25,
+    "type": "iran_retaliation",
+    "actor": "Iran (IRGC Navy)",
+    "first_strike": "2026-05-28",
+    "active_days": [
+      90
+    ],
+    "weapon": "Naval gunfire (warning shots at 4 vessels); reported missile fire 'from the south toward designated targets' (Fars)",
+    "casualties_reported": "None reported",
+    "casualties_source": "IRGC-affiliated Telegram; Fars News Agency",
+    "notes": "On May 28, the IRGC Navy fired warning shots at four vessels attempting unauthorized transit of the Strait of Hormuz (IRGC-affiliated Telegram). Fars reported missiles fired 'from the south toward designated targets'; it was unclear whether these were the same incident. The IRGC statement warned that 'any aggression or ceasefire violation' by the U.S. 'will be met with force.' Occurred alongside overnight U.S. shootdowns of 4-5 Iranian one-way attack drones near Hormuz and a U.S. strike on an IRGC drone ground-control station at Bandar Abbas. Single-sourced Iranian state/affiliated media; no independent maritime-tracking confirmation located. Per manifest §3.",
+    "sources": [
+      "Manifest §3",
+      "IRGC-affiliated Telegram",
+      "Fars News Agency"
+    ],
+    "verified": false,
+    "verification_confidence": "MEDIUM",
+    "last_updated": "2026-05-28"
   }
 ]

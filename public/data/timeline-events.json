@@ -7900,5 +7900,95 @@
     "source": "CNBC / Reuters / Benzinga / The Conference Board May 26",
     "time": "Day 88 — first session post-Memorial Day",
     "title": "S&P 500 hits record close at 7,519.12 despite Iran strikes; Micron tops $1T"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Trump: 'Either that, or we'll have to just finish the job'; ruled out sanctions relief for HEU",
+    "date": "2026-05-27",
+    "description": "At a White House Cabinet meeting, President Trump said of the draft U.S.-Iran deal: 'We're not satisfied with it, but we will be. Either that, or we'll have to just finish the job.' He said he would not rush a deal ('I don't care about the midterms') and ruled out sanctions relief in exchange for Iran's highly enriched uranium ('No, no, not at all. Not sanctions relief, no'). Washington Post/Axios reported a 60-day MOU agreed in principle.",
+    "source": "White House Cabinet meeting / Washington Post / Axios (May 27)",
+    "time": "Day 89",
+    "title": "Trump at Cabinet meeting: 'not satisfied' with deal — 'finish the job' if it fails"
+  },
+  {
+    "category": "military",
+    "data_point": "New US airstrike on a southern-Iran military site + multiple Iranian drones intercepted",
+    "date": "2026-05-27",
+    "description": "The U.S. carried out new airstrikes in southern Iran on a military site that officials said posed a threat to U.S. forces and to commercial traffic transiting the Strait of Hormuz; U.S. forces also intercepted/shot down multiple Iranian drones (U.S. official via ABC/CNN). DISPUTED: the IRGC (via Fars) earlier claimed it shot down an MQ-9 Reaper and fired on a second MQ-9 and an F-35 (May 25); U.S. officials call the aircraft-shootdown claims a 'complete fabrication.'",
+    "source": "ABC News / CNN (U.S. official), May 27",
+    "time": "Day 89",
+    "title": "U.S. strikes southern-Iran military site; intercepts multiple Iranian drones"
+  },
+  {
+    "category": "ceasefire_violation",
+    "data_point": "Iran ballistic missile at Kuwait (10:17 p.m. ET, intercepted) — CENTCOM: 'egregious ceasefire violation'",
+    "date": "2026-05-27",
+    "description": "At 10:17 p.m. ET, Iran launched a ballistic missile toward Kuwait, intercepted by Kuwaiti forces. CENTCOM: 'This egregious ceasefire violation by the Iranian regime occurred hours after Iranian forces launched five one-way attack drones that posed a clear threat in and near the Strait of Hormuz.' Kuwait's Foreign Ministry condemned the 'sinful Iranian attacks'; the Kuwaiti army said its air defenses were 'responding to hostile missile and drone threats.' The IRGC said it had struck a U.S. air base in Kuwait in retaliation for U.S. strikes near Bandar Abbas (IRIB/IRNA).",
+    "source": "CENTCOM / Kuwait MoFA / IRIB / IRNA (May 27)",
+    "time": "Day 89 — 10:17 p.m. ET",
+    "title": "Iran fires ballistic missile at Kuwait; intercepted — CENTCOM calls it 'egregious ceasefire violation'"
+  },
+  {
+    "category": "lebanon_escalation",
+    "data_point": "~31 killed in one of the heaviest Israeli bombing days in weeks; forced displacement of ALL of south Lebanon ordered",
+    "date": "2026-05-27",
+    "description": "Israeli strikes killed ~31 people across Tyre, Saida (Sidon), and Nabatieh in one of the heaviest bombing days in weeks; the IDF said it struck 150+ Hezbollah sites. Israel ordered the forced displacement of ALL of south Lebanon (Tyre after Nabatieh); Netanyahu said forces had advanced 'beyond the yellow line.' Lebanese MoH cumulative reported as 3,213 killed (May 26, Wikipedia/The National) and 3,269 (CNN, May 27).",
+    "source": "Lebanese MoH / Al Jazeera / CNN (May 27)",
+    "time": "Day 89",
+    "title": "~31 killed in heaviest Israeli bombing of Lebanon in weeks; forced displacement of all south Lebanon"
+  },
+  {
+    "category": "economic",
+    "data_point": "S&P 500 2nd straight record 7,520.36 (+0.02%); July WTI settles $88.68 (-5.55%, 5-week low)",
+    "date": "2026-05-27",
+    "description": "The S&P 500 closed at a second straight record 7,520.36 (+0.02%); the Dow set a record 50,644.28; Nasdaq 26,674.73. Oil sold off hard on deal optimism — July WTI (CLN26) settled $88.68, down $5.21 (-5.55%), a five-week low (Barchart); Brent ~$93.91 (Yahoo Finance). CNBC: the oil market is 'betting on a swift end' to the war and a Hormuz reopening. Lockheed Martin (LMT) $531.14.",
+    "source": "CNBC / Barchart / Yahoo Finance (May 27)",
+    "time": "Day 89",
+    "title": "S&P 500 sets back-to-back record; oil tumbles 5.55% on deal optimism"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "TENTATIVE 60-day US-Iran MOU reached by negotiators — UNSIGNED; Iran/Tasnim denies finalization",
+    "date": "2026-05-28",
+    "description": "Axios first reported that U.S. and Iranian negotiators reached a tentative 60-day Memorandum of Understanding to extend the ceasefire: 'unrestricted' Hormuz shipping (no tolls, no harassment), Iran clears all mines within 30 days, the U.S. naval blockade lifted proportionally to restored commercial shipping, Iran commits not to pursue a nuclear weapon, and the U.S. to discuss sanctions relief and unfreezing of Iranian assets; the first negotiating issues would be disposal of Iran's highly enriched uranium and enrichment. Lead U.S. envoys: Steve Witkoff and Jared Kushner. CAVEAT: the MOU remained UNSIGNED — it needs Trump's final approval and Iran had NOT confirmed; Iran's Tasnim agency denied an imminent agreement, saying any Western narrative of finalization 'is not valid' until announced to the Pakistani mediator. VP JD Vance: 'We've made a lot of progress… we're making some progress' but 'not there yet.' ABC noted any deal needs Supreme Leader Mojtaba Khamenei's approval.",
+    "source": "Axios / Al Jazeera / ABC (May 28)",
+    "time": "Day 90",
+    "title": "Tentative 60-day U.S.-Iran MOU reported (UNSIGNED) — Trump approval pending, Iran denies finalization"
+  },
+  {
+    "category": "military",
+    "data_point": "Overnight US strike on IRGC drone ground-control station, Bandar Abbas + 4-5 drone shootdowns; IRGC warning shots at 4 Hormuz vessels",
+    "date": "2026-05-28",
+    "description": "Overnight, U.S. forces shot down 4-5 Iranian one-way attack drones near the Strait of Hormuz and struck an Iranian ground control station in Bandar Abbas that officials said was preparing to launch additional drones (CENTCOM; Fox News citing two U.S. officials). The IRGC Navy fired warning shots at four vessels attempting unauthorized transit of the Strait (IRGC-affiliated Telegram); Fars reported missiles fired 'from the south toward designated targets' (unclear whether the same incident). The IRGC warned that 'any aggression or ceasefire violation' by the U.S. 'will be met with force.'",
+    "source": "CENTCOM / Fox News / Fars (May 28)",
+    "time": "Day 90 — overnight",
+    "title": "U.S. strikes Bandar Abbas drone control station, downs 4-5 drones; IRGC fires warning shots at 4 Hormuz vessels"
+  },
+  {
+    "category": "economic",
+    "data_point": "S&P 500 3rd straight record 7,563.63 (+0.58%); oil rebounds ~2.5% (Brent ~$96.63, WTI >$91); AAA gas $4.426",
+    "date": "2026-05-28",
+    "description": "The S&P 500 closed at a third consecutive record 7,563.63 (+0.58%); Nasdaq 26,917.47 (+0.91%); Dow ~50,669; tech led by Snowflake (+30-36%). Oil rebounded ~2.48% on the renewed U.S. strikes — Brent toward ~$96.63, WTI back above $91 — though still tracking a second straight weekly decline; UBS raised its Brent forecast to $105; U.S. crude inventories fell 2.8M barrels (API). AAA national gas eased to $4.426. Lockheed Martin (LMT) $537.21. Markets are pricing a swift, recession-free resolution.",
+    "source": "CNBC / Trading Economics / AAA (May 28)",
+    "time": "Day 90",
+    "title": "S&P 500 sets third straight record 7,563.63; oil rebounds ~2.5% on renewed strikes"
+  },
+  {
+    "category": "lebanon_escalation",
+    "data_point": "Shuwayfat strike kills a woman, her baby, and a Syrian child (+3); IDF claims 135 Hezbollah targets in 24h; Israeli reservist killed",
+    "date": "2026-05-28",
+    "description": "An Israeli strike in Shuwayfat (south of Beirut) killed a woman, her baby daughter, and a Syrian child and wounded 15 (reported target: Ali al-Husni, an Imam Hossein Division missile chief); a separate strike hit a Sidon apartment building. The IDF claimed strikes on 135 Hezbollah targets in 24 hours. Israeli reservist Sgt. Rotem Yanai was killed by a Hezbollah drone in northern Israel.",
+    "source": "Lebanese MoH / Al Jazeera / IDF (May 28)",
+    "time": "Day 90",
+    "title": "Israeli strike in Shuwayfat kills a woman, her baby, and a Syrian child; IDF hits 135 Hezbollah targets"
+  },
+  {
+    "category": "sanctions",
+    "data_point": "Treasury Sec. Bessent threatens Oman with sanctions if it facilitates Hormuz tolls; Kuwait reactivates air defenses",
+    "date": "2026-05-28",
+    "description": "Treasury Secretary Scott Bessent declined to confirm details of the reported MOU and threatened Oman with sanctions if it facilitates Strait of Hormuz transit tolls — a direct counter to the Iran-Oman permanent-tolling mechanism Tehran has sought. Kuwait again activated its air defenses May 28 amid continued Iranian missile and drone threats.",
+    "source": "Reuters / Bloomberg (May 28)",
+    "time": "Day 90",
+    "title": "Bessent threatens Oman with sanctions over potential Hormuz tolls"
   }
 ]
