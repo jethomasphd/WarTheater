@@ -1672,24 +1672,24 @@
   ],
   "toll": {
     "targets_struck": {
-      "value": 35508,
+      "value": 35519,
       "label": "Cumulative targets struck (US+IL on Iran/proxies)",
-      "note": "Day 88: +3 — 2× IRGC mine-laying boats south of Larak Island (Strait of Hormuz) + 1× SAM site, Bandar Abbas. CENTCOM 'self-defense' strikes overnight May 25-26 ended 16-day zero-kinetic streak. CENTCOM (Capt. Tim Hawkins): 'U.S. forces conducted self-defense strikes in southern Iran today to protect our troops from threats posed by Iranian forces. Targets included missile launch sites and Iranian boats attempting to emplace mines.' Adm. Brad Cooper (CENTCOM CDR) prior cumulative reference: 'nearly 2,000' per Wikipedia timeline.",
+      "note": "Day 90: +~11 over the May 27-28 window — Day 89 (May 27): 1× southern-Iran military site struck + multiple Iranian drones intercepted; Day 90 (May 28): 1× IRGC drone ground-control station, Bandar Abbas + 4-5 one-way attack drones shot down near Hormuz (CENTCOM; Fox via two US officials). Drone-shootdown counts approximate. Prior Day 88: +3 (2× IRGC mine-laying boats south of Larak + 1× SAM site Bandar Abbas). Adm. Brad Cooper (CENTCOM CDR) prior cumulative reference: 'nearly 2,000' command-and-control strikes per Wikipedia timeline.",
       "tooltip": "CENTCOM/IDF strikes since Feb 28. Includes 900+ first-12-hour Operation Epic Fury strikes (US+IL). Excludes Iranian retaliation. CENTCOM (May 23 press release): 100 commercial vessels redirected, 4 disabled, 26 humanitarian permitted through under the naval blockade; '15,000+ service members and 200+ aircraft and warships' enforce. Adm. Cooper: blockade 'allowing zero trade into and out of Iranian ports.' Atlantic Council (May 15): US has expended >1,000 JASSMs, >1,000 Tomahawks, ~1,000 Patriot interceptors, ~45% of Precision Strike Missile stockpile and ~50% of THAAD interceptor stockpile. Cumulative US aircraft losses/damage: 42 (CRS via Stars and Stripes May 20). IRGC unverified claim (IRNA/Fars May 26): 1× MQ-9 shot down + 'fired upon' 2nd MQ-9, RQ-4 Global Hawk, F-35 'forcing them to retreat' — US official (NBC/Fox): 'no US aircraft were hit'; CENTCOM silent on platform losses. If MQ-9 loss confirmed, would be 25th of war.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
       "value": 13,
       "label": "US service-member KIA",
-      "note": "Day 88: Unchanged. War Secretary Pete Hegseth at Arlington Memorial Day ceremony May 25 cited '13 souls of Epic Fury.' No US KIA reported in May 25 self-defense strikes (CENTCOM: no US aircraft hit by IRGC SAM fire). 49-day streak of zero-KIA days since 4/7 ceasefire.",
+      "note": "Day 90: Unchanged at 13. No US KIA in the May 27-28 strikes or Hormuz drone-defense; Iran's May 27 ballistic missile at Kuwait was intercepted (no US casualties). 51-day streak of zero-KIA days since the 4/7 ceasefire. President Trump (Arlington, May 25) confirmed '13 souls of Epic Fury.'",
       "tooltip": "Includes 7 servicemembers killed in opening Iranian retaliation wave + 6 USAF airmen in KC-135 crash in western Iraq. Composition: 6 USAF crew (March 13 KC-135 crash western Iraq, CENTCOM ruled non-hostile mid-air collision); 6 Kuwait Camp Arifjan drone attack March 1; 1 Saudi Arabia. US MIA 0. 10 civilian sailors of various nationalities killed in Hormuz-related incidents. Explicit EXECUTIVE CONFIRMATION by President Trump at Arlington National Cemetery May 25: 'In Operation Epic Fury, we lost 13 wonderful souls.' No US casualties reported in May 25 overnight Larak/Bandar Abbas self-defense strikes.",
       "color": "var(--civilian)"
     },
     "us_wia": {
       "value": 520,
       "label": "US WIA (independent est.)",
-      "note": "Day 88: Range: Pentagon 413 (Apr 22, after unexplained removal of 15 WIA) vs The Intercept/Wikipedia 520–538. Held at 520 — no public update May 25–26.",
-      "tooltip": "Discrepancy flagged by analysts. CENTCOM has not issued updated tally. Pentagon-reported 413 (Apr 22 official tally, after unexplained removal of 15 WIA from prior 428). Independent estimates (The Intercept / Wikipedia 2026 Iran war) place 520–538. Manifest cites ~365+ per CENTCOM (last public figure 303 as of March 28; subsequent estimate ~365 widely cited). No new aggregate May 13–26 despite May 25 Bandar Abbas self-defense strikes (no U.S. casualties reported in window).",
+      "note": "Day 90: No new aggregate; held at 520. Conflicting figures span ~140 (Pentagon, March 13) / ~365 (CENTCOM, later trackers) / 413 (Pentagon, Apr 22) / 520–538 (The Intercept/Wikipedia) — UNRECONCILED. No US casualties reported in the May 27–28 window.",
+      "tooltip": "Discrepancy flagged by analysts. CENTCOM has not issued updated tally. Pentagon-reported 413 (Apr 22 official tally, after unexplained removal of 15 WIA from prior 428). Independent estimates (The Intercept / Wikipedia 2026 Iran war) place 520–538. Manifest range: ~140 (Pentagon, March 13) vs ~365 (CENTCOM, later trackers); last public CENTCOM figure 303 as of March 28, subsequent ~365 widely cited — all UNRECONCILED against the higher independent tallies above. No new aggregate May 13–28 despite the May 25–28 self-defense strikes (no U.S. casualties reported in window).",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
