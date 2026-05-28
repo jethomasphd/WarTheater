@@ -1695,35 +1695,35 @@
     "iranian_killed": {
       "value": 3468,
       "label": "Iranian dead (Iran MoH / Foundation of Martyrs, Apr 19)",
-      "note": "Day 88: +3–4 IRGC Navy personnel reported killed May 25 near Larak Island per Iran International citing SNN (named: Abbas Eslami, Ghodrat Zarnagari, Abdolreza Golzari); Pravda/Tasnim says 4; Al Jazeera (Ali Hashem): 'several IRGC Navy personnel killed.' No official Iran MoH update for May 25–26 — figure carried over. HRANA (Apr 7): 3,636. IDF intelligence (Mar 15) claim: 6,000+ IRGC. Hengaw (Apr 8): 6,620+ military. With internet blackout partial lift May 26 (after 87 days / 2,093 hours per NetBlocks — longest in modern history), expect a delayed-reporting catch-up in coming days.",
+      "note": "Day 90: No official Iran MoH update in the May 27–28 window — figure held at 3,468 (no new MoH figure since the May 20 Al Jazeera tracker reading; underlying total UNCHANGED since the Apr 19 Foundation of Martyrs count, now ~39 days old). No confirmed Iranian KIA reported in the May 27 southern-Iran strike or the May 28 Bandar Abbas drone-GCS strike. HRANA (Apr 7): 3,636. IDF intelligence (Mar 15) claim: 6,000+ IRGC. Hengaw (Apr 8): 6,620+ military. A delayed-reporting catch-up remains possible since the May 26 partial internet restoration.",
       "tooltip": "Iran's Foundation of Martyrs cumulative total = 3,468 as of Apr 19 (7 infants, 376 children, 496 women; 26,500+ injured). No public Hengaw or Iran MoH update May 25–26. CONFLICTING RANGE (per manifest §9, do not synthesize): 1,444 (MissileStrikes.com conservative) / 3,468 (Iran MoH / Foundation of Martyrs via Al Jazeera tracker May 20 — FIGURE UNCHANGED SINCE APR 19, ~37 DAYS STALE) / 3,636 (HRANA Apr 7) / ≥7,650 (Hengaw Apr 8: 6,620 military + 1,030 civilians) / 4,700+ security forces (Iran International) / 6,000+ IRGC, ~15,000 wounded (IDF intelligence Mar 15). Day 88 IRGC Navy KIA assessment: 3 (named) as floor; 4 per Tasnim/Pravda; 'several' per Al Jazeera. Iranian Red Crescent (May 22): aid workers rescued more than 7,200 people from rubble across US/Israeli attacks since the war began.",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
-      "value": 3185,
-      "label": "Lebanese dead (Lebanese MoH, May 25)",
-      "note": "Day 88: Cumulative figure unchanged from May 25; Lebanese MoH reported 34 killed in past 24h (per NEWS.am citing MoH X post May 26) but had not updated the cumulative tally on its dashboard — implied ~3,219 by May 26 EoD (FLAG: next-cycle reconciliation, manifest §9). Mashghara strike (Bekaa Valley, late May 25/overnight): Lebanese MoH said 11 killed, 15 wounded; Lebanese state NNA / AP reported '12 killed' (12 bodies pulled from rubble) including a woman and two girls. Part of 76 IDF airstrikes on Lebanon May 25 (Antiwar.com). Netanyahu authorized intensified Hezbollah operations after Hezbollah drone killed IDF reservist Staff Sgt. Noam Hamburger May 22; US Amb. Huckabee approved expansion but warned Israel 'not to bring down buildings in Beirut' (Channel 12). Lebanon/Israel direct military talks set for May 29 in Washington.",
+      "value": 3269,
+      "label": "Lebanese dead (CNN citing Lebanese MoH, May 27)",
+      "note": "Day 90: Sources conflict by reporting time — Lebanese MoH cumulative 3,213 killed / 9,737 wounded as of May 26 (Wikipedia / The National); CNN cited 3,269 killed / 9,840 wounded on May 27 (headline figure here) — FLAG DISCREPANCY, both shown with dates. Day 89 (May 27): ~31 killed across Tyre, Saida (Sidon), and Nabatieh in one of the heaviest Israeli bombing days in weeks (IDF struck 150+ Hezbollah sites; forced-displacement order for ALL of south Lebanon). Day 90 (May 28): Shuwayfat strike (south of Beirut) killed a woman, her baby daughter, and a Syrian child (+3), wounded 15; Sidon apartment-building strike; IDF claimed 135 Hezbollah targets in 24h. No consolidated May 28 MoH bulletin captured. War-to-date breakdown (May 19): 211 children, 292 women, 116 medics among the dead.",
       "tooltip": "Lebanon war cumulative since March 2 = 3,185 killed / 9,633 wounded per WAFA/Lebanese MoH May 25. Discrepancy: '34 killed in past day' May 26 implies cumulative should be ~3,219 by May 26 — flag as DATA LAG. MoPH cumulative breakdown war-to-date: 123 medics, ≥210 children, nearly 300 women among the dead. Reuters (May 7) cites unnamed Hezbollah officials saying 'several thousand' fighters killed, only partially reflected in MoH figures. Internal Hezbollah sources say 1,000+ fighters killed; IDF claims 1,700 killed. Israel: 51 cumulative (23 IDF — incl. Staff Sgt. Noam Hamburger killed May 22 by Hezbollah drone — + 1 MoD contractor + 28 civilians/residents per Wikipedia May 24); 8,631 wounded incl. 792 military. Mashghara strike May 25/26: 11–12 killed including a woman and two girls (Al Jazeera correspondent Zeina Khodr: 'at least 10 attacks in the span of half an hour on an area with residential buildings').",
       "color": "var(--hezbollah)"
     },
     "displaced": {
-      "value": 1100000,
+      "value": 1200000,
       "label": "Displaced (Lebanon, UNHCR-based)",
-      "note": "Day 88: Unchanged. >1.1M displaced in Lebanon since March (over 1/6 of population); millions more displaced inside Iran (per Watson/Britannica).",
+      "note": "Day 90: Updated to >1.2 million displaced in Lebanon — ~22.6% of the 5.3M population per UN OCHA's flash report (up from ~2% in Jan 2025); Israel ordered forced displacement of ALL of south Lebanon on May 27 (Tyre after Nabatieh). Millions more displaced inside Iran (opaque; per Watson/Britannica).",
       "tooltip": "UNHCR / Lebanese government figures, late March baseline. >1.6M Lebanon IDPs per Lebanese government / OCHA / CSMonitor (Lebanese share ~1.2M as of May 7). Cross-border into Syria: 306,888 Syrians + 64,865 Lebanese (May 2 baseline, carry-forward). 40,000+ homes destroyed in southern Lebanon; cumulative evacuation orders cover ~1,470 km² (~14% of national territory). Iran IDPs opaque; UNHCR Mar 12 baseline up to ~3.2M (stale).",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 8000,
       "label": "Cumulative flights cancelled (Gulf hubs, est.)",
-      "note": "Day 88: No fresh aggregate update May 25–26. KLM Riyadh/Dammam/Dubai suspensions extended to June 28; Lufthansa Group Tel Aviv to June 30, Dubai to July 11, other Mid-East to Oct 24 (The National, May 12).",
+      "note": "Day 90: No fresh aggregate update May 27–28; held at ~8,000+. KLM Riyadh/Dammam/Dubai suspensions extended to June 28; Lufthansa Group Tel Aviv to June 30, Dubai to July 11, other Mid-East to Oct 24 (The National, May 12).",
       "tooltip": "FlightAware running figures from war's first weeks: DXB ~4,000 / DOH 2,000+ / AUH 1,000+. Aggregate ~8,000+ remains conservative. AAA holiday-travel survey: 3.66M Americans projected to fly for Memorial Day weekend — a record despite ongoing disruption. Methodological note: 'flights affected' captures cancellations + diversions + multi-hour holds + reroutes + overflight disruptions across all regional FIRs. Gulf carriers continue suspended/rerouted ops; Dubai International at limited capacity.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
       "value": 200,
       "label": "Children killed in Iran (UNICEF Mar 12 baseline + updates)",
-      "note": "Day 88: UNICEF Mar 12: 200 children killed in Iran, 91 in Lebanon, 4 in Israel, 1 in Kuwait (>1,100 children injured or killed total). HRANA: ≥15% of total war casualties under age 18 (Mar 23). Iran MoH: 376 children dead (Apr 19 cumulative). Lebanese MoPH May 25 cumulative: ≥210 children among 3,185 killed.",
+      "note": "Day 90: No new aggregate. Iran MoH 376 children dead (Apr 19 cumulative; surfaced May 20 tracker — STALE). Lebanese MoH war-to-date ≥211 children among the dead (May 19 breakdown). UNICEF Mar 12 baseline: 200 in Iran, 91 in Lebanon, 4 in Israel, 1 in Kuwait (>1,100 children killed/injured regionally).",
       "tooltip": "Multiple methodologies; UNICEF figure is the most-cited international baseline. Iran MoH (via Al Jazeera tracker, May 20; STALE since Apr 19): 376 children killed (incl. 7 infants), 496 women. HRANA: ≥254 children among Iranian civilian dead (Apr 7). Lebanese MoPH (May 25): ≥210 children among 3,185 killed since Mar 2. UNICEF (Mar 12): >1,100 children killed/injured regionally (200 Iran + 91 Lebanon + 4 Israel + 1 Kuwait subset) — STALE. Israeli child casualties tracked separately.",
       "color": "var(--civilian)"
     }
