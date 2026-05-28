@@ -7900,5 +7900,50 @@
     "source": "CNBC / Reuters / Benzinga / The Conference Board May 26",
     "time": "Day 88 — first session post-Memorial Day",
     "title": "S&P 500 hits record close at 7,519.12 despite Iran strikes; Micron tops $1T"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Trump: 'Either that, or we'll have to just finish the job'; ruled out sanctions relief for HEU",
+    "date": "2026-05-27",
+    "description": "At a White House Cabinet meeting, President Trump said of the draft U.S.-Iran deal: 'We're not satisfied with it, but we will be. Either that, or we'll have to just finish the job.' He said he would not rush a deal ('I don't care about the midterms') and ruled out sanctions relief in exchange for Iran's highly enriched uranium ('No, no, not at all. Not sanctions relief, no'). Washington Post/Axios reported a 60-day MOU agreed in principle.",
+    "source": "White House Cabinet meeting / Washington Post / Axios (May 27)",
+    "time": "Day 89",
+    "title": "Trump at Cabinet meeting: 'not satisfied' with deal — 'finish the job' if it fails"
+  },
+  {
+    "category": "military",
+    "data_point": "New US airstrike on a southern-Iran military site + multiple Iranian drones intercepted",
+    "date": "2026-05-27",
+    "description": "The U.S. carried out new airstrikes in southern Iran on a military site that officials said posed a threat to U.S. forces and to commercial traffic transiting the Strait of Hormuz; U.S. forces also intercepted/shot down multiple Iranian drones (U.S. official via ABC/CNN). DISPUTED: the IRGC (via Fars) earlier claimed it shot down an MQ-9 Reaper and fired on a second MQ-9 and an F-35 (May 25); U.S. officials call the aircraft-shootdown claims a 'complete fabrication.'",
+    "source": "ABC News / CNN (U.S. official), May 27",
+    "time": "Day 89",
+    "title": "U.S. strikes southern-Iran military site; intercepts multiple Iranian drones"
+  },
+  {
+    "category": "ceasefire_violation",
+    "data_point": "Iran ballistic missile at Kuwait (10:17 p.m. ET, intercepted) — CENTCOM: 'egregious ceasefire violation'",
+    "date": "2026-05-27",
+    "description": "At 10:17 p.m. ET, Iran launched a ballistic missile toward Kuwait, intercepted by Kuwaiti forces. CENTCOM: 'This egregious ceasefire violation by the Iranian regime occurred hours after Iranian forces launched five one-way attack drones that posed a clear threat in and near the Strait of Hormuz.' Kuwait's Foreign Ministry condemned the 'sinful Iranian attacks'; the Kuwaiti army said its air defenses were 'responding to hostile missile and drone threats.' The IRGC said it had struck a U.S. air base in Kuwait in retaliation for U.S. strikes near Bandar Abbas (IRIB/IRNA).",
+    "source": "CENTCOM / Kuwait MoFA / IRIB / IRNA (May 27)",
+    "time": "Day 89 — 10:17 p.m. ET",
+    "title": "Iran fires ballistic missile at Kuwait; intercepted — CENTCOM calls it 'egregious ceasefire violation'"
+  },
+  {
+    "category": "lebanon_escalation",
+    "data_point": "~31 killed in one of the heaviest Israeli bombing days in weeks; forced displacement of ALL of south Lebanon ordered",
+    "date": "2026-05-27",
+    "description": "Israeli strikes killed ~31 people across Tyre, Saida (Sidon), and Nabatieh in one of the heaviest bombing days in weeks; the IDF said it struck 150+ Hezbollah sites. Israel ordered the forced displacement of ALL of south Lebanon (Tyre after Nabatieh); Netanyahu said forces had advanced 'beyond the yellow line.' Lebanese MoH cumulative reported as 3,213 killed (May 26, Wikipedia/The National) and 3,269 (CNN, May 27).",
+    "source": "Lebanese MoH / Al Jazeera / CNN (May 27)",
+    "time": "Day 89",
+    "title": "~31 killed in heaviest Israeli bombing of Lebanon in weeks; forced displacement of all south Lebanon"
+  },
+  {
+    "category": "economic",
+    "data_point": "S&P 500 2nd straight record 7,520.36 (+0.02%); July WTI settles $88.68 (-5.55%, 5-week low)",
+    "date": "2026-05-27",
+    "description": "The S&P 500 closed at a second straight record 7,520.36 (+0.02%); the Dow set a record 50,644.28; Nasdaq 26,674.73. Oil sold off hard on deal optimism — July WTI (CLN26) settled $88.68, down $5.21 (-5.55%), a five-week low (Barchart); Brent ~$93.91 (Yahoo Finance). CNBC: the oil market is 'betting on a swift end' to the war and a Hormuz reopening. Lockheed Martin (LMT) $531.14.",
+    "source": "CNBC / Barchart / Yahoo Finance (May 27)",
+    "time": "Day 89",
+    "title": "S&P 500 sets back-to-back record; oil tumbles 5.55% on deal optimism"
   }
 ]
