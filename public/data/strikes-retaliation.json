@@ -3939,5 +3939,28 @@
     "verified": false,
     "verification_confidence": "MEDIUM",
     "last_updated": "2026-05-28"
+  },
+  {
+    "id": "2026-05-27-iran-hormuz-drones",
+    "city": "Strait of Hormuz (vicinity)",
+    "lat": 26.5667,
+    "lng": 56.25,
+    "type": "iran_retaliation",
+    "actor": "Iran (IRGC)",
+    "first_strike": "2026-05-27",
+    "active_days": [
+      89
+    ],
+    "weapon": "5 one-way attack drones",
+    "casualties_reported": "None — all 5 drones intercepted by U.S. forces; a 6th launch prevented at an Iranian ground-control site in Bandar Abbas (struck May 28)",
+    "casualties_source": "CENTCOM (X)",
+    "notes": "Hours before Iran's intercepted ballistic missile at Kuwait, IRGC launched 5 one-way attack drones that posed a clear threat in and near the Strait of Hormuz — all intercepted by U.S. forces. CENTCOM separately struck an Iranian ground control station in Bandar Abbas overnight to prevent a 6th drone launch. Per manifest §3.",
+    "sources": [
+      "Manifest §3",
+      "CENTCOM (X) May 27-28"
+    ],
+    "verified": true,
+    "verification_confidence": "HIGH",
+    "last_updated": "2026-05-29"
   }
 ]
