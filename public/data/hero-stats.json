@@ -1710,6 +1710,29 @@
       "flights_cancelled": 8000,
       "children_killed": 200,
       "headline": "Day 90 — TENTATIVE 60-DAY US-IRAN MOU REACHED BY NEGOTIATORS (UNSIGNED; TRUMP APPROVAL PENDING; IRAN/TASNIM DENIES FINALIZATION); OVERNIGHT US STRIKE ON IRGC DRONE GROUND-CONTROL STATION AT BANDAR ABBAS + 4-5 DRONE SHOOTDOWNS NEAR HORMUZ; IRGC WARNING SHOTS AT 4 HORMUZ VESSELS; S&P 3RD STRAIGHT RECORD 7,563.63 (+0.58%); OIL REBOUNDS ~2.5% (BRENT ~$96.63, WTI >$91); AAA GAS $4.426; SHUWAYFAT STRIKE KILLS A WOMAN, HER BABY, AND A SYRIAN CHILD: Axios reported US and Iranian negotiators reached a tentative 60-day MOU — unrestricted Hormuz shipping (no tolls/harassment), Iran de-mines within 30 days, US blockade lifted proportionally, Iran pledges no nuclear weapon, US to discuss sanctions relief + frozen assets — but it needs Trump's approval and Iran had NOT confirmed; Tasnim denied finalization. VP Vance: 'making some progress' but 'not there yet.' Treasury Sec. Bessent declined to confirm details, threatened Oman with sanctions over Hormuz tolls. KINETIC: overnight US shot down 4-5 Iranian attack drones near Hormuz + struck an IRGC drone ground-control station at Bandar Abbas; IRGC Navy fired warning shots at 4 vessels attempting unauthorized transit. MARKETS: S&P 500 7,563.63 (+0.58%) record; Nasdaq 26,917.47 (+0.91%); Dow ~50,669; Brent rebounded ~2.48% toward ~$96.63, WTI back above $91 — still tracking a 2nd straight weekly decline; AAA gas eased to $4.426; LMT $537.21; UBS raised its Brent forecast to $105. LEBANON: Shuwayfat strike (south of Beirut) killed a woman, her baby daughter, and a Syrian child (+3), wounded 15; Sidon apartment-building strike; IDF claimed 135 Hezbollah targets in 24h. Israeli reservist Sgt. Rotem Yanai killed by a Hezbollah drone. COST: Pentagon official held ~$29B (Hurst); Bilmes ~$2B/day, ~$1T projected lifetime; AEI ~$260/household."
+    },
+    {
+      "date": "2026-05-29",
+      "war_day": 91,
+      "brent": 91.82,
+      "wti": 87.36,
+      "gas": 4.391,
+      "sp500": 7580.08,
+      "sp500_change_pct": 0.22,
+      "nasdaq": 26972,
+      "dow": 51037,
+      "daily_cost_millions": 100,
+      "total_cost_billions": 72,
+      "targets_struck": 35519,
+      "us_kia": 13,
+      "us_wia": 520,
+      "iranian_killed": 3468,
+      "lebanese_killed": 3269,
+      "displaced": 1200000,
+      "flights_cancelled": 8000,
+      "children_killed": 200,
+      "headline": "Day 91 — TENTATIVE 60-DAY CEASEFIRE EXTENSION REACHED; TRUMP IN SITUATION ROOM FOR 'FINAL DETERMINATION'; BLOCKADE TO BE LIFTED; OIL FALLS ~2%; DOW TOPS 51,000 FOR FIRST TIME. US-Iran negotiators agreed a tentative 60-day ceasefire extension (pending Trump sign-off); Iran says no deal yet and refuses nuclear talks. Trump in the White House Situation Room for a 'final determination'; posted demands (Iran never to have a nuclear weapon; Hormuz immediately open with no tolls; mines removed/detonated; enriched 'nuclear dust' destroyed with IAEA; 'no money will be exchanged, until further notice') and announced the US naval blockade 'will now be lifted' and stranded ships 'may start the process of heading home.' Iran foreign ministry: 'we are focused on ending the war, and there are no negotiations on the nuclear issue.' Speaker/negotiator Ghalibaf: 'we have no trust in guarantees or words — only actions are the measure.' MARKETS: S&P 500 7,580.08 (+0.22%) — 4th straight record + 9th straight weekly gain, longest since 2023; Dow ~51,037 (+0.73%) — first close above 51,000 ever; Nasdaq ~26,972 (+0.26%); Russell 2000 ~2,919 (-0.60%); VIX 15.41. OIL FELL ~2% at 5-6 week lows on deal news — Brent $91.82 (-0.95%), WTI ~$87.36 (-1.73%); Brent ended May -17%, worst month since 2020. AAA gas $4.391 — biggest one-day drop since Nov 22, 2008. Defense names (RTX/LMT/NOC) under pressure; ITA -12% since early March. CENTCOM blockade tally as of May 29: 115 commercial vessels redirected (vs 100 May 23), 4 disabled. COST: Pentagon official ~$29B (Brown Costs of War); ~$72B independent through ~60 days (Semler/SPRI); Bilmes ~$1T projected lifetime; +$40B+ extra fuel costs to U.S. consumers.",
+      "note": "US-Iran negotiators agreed a tentative 60-day ceasefire extension (pending Trump sign-off); Iran says no deal yet and refuses nuclear talks. Dow tops 51,000 for first time."
     }
   ],
   "toll": {
