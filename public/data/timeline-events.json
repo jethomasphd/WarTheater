@@ -8062,5 +8062,59 @@
     "source": "NPR / Lebanese MoPH / UNIFIL (May 30)",
     "time": "Day 92",
     "title": "+1 IDF KIA in southern Lebanon; PM Salam accuses Israel of 'scorched-earth policy'"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Trump tells Fox News (Lara Trump) he is 'in no hurry' and the only guarantee he requires is 'no nuclear weapons'; getting what he wants 'slowly but surely'",
+    "date": "2026-05-31",
+    "description": "President Trump told Fox News (in an interview with Lara Trump airing Saturday night into Sunday) that he is 'in no hurry' and getting what he wants 'slowly but surely.' He added: 'the one guarantee that I have to have is that there will be no nuclear weapons.' The remarks reaffirmed NYT/Axios reporting that he 'toughened the terms' of the tentative 60-day MOU and signal a slowdown in the diplomatic timetable rather than an imminent sign-off.",
+    "source": "Fox News (Lara Trump interview) / Al Jazeera Day 93 live blog (May 31)",
+    "time": "Day 93",
+    "title": "Trump (Fox/Lara Trump): 'in no hurry'; only guarantee required is 'no nuclear weapons'"
+  },
+  {
+    "category": "hormuz",
+    "data_point": "Iran's Khatam al-Anbiya Central Headquarters orders all commercial vessels to use 'designated routes' and obtain advance IRGC Navy authorization before transiting Hormuz",
+    "date": "2026-05-31",
+    "description": "Iran's Khatam al-Anbiya Central Headquarters (the IRGC's operational HQ) ordered all commercial vessels to use 'designated routes' and obtain advance IRGC Navy authorization before transiting the Strait of Hormuz — reasserting Iranian control even as US-Iran deal talks continued. The order followed Treasury's May 28 OFAC SDN designation of Iran's 'Persian Gulf Strait Authority' (the body Tehran set up to charge transit tolls) and Trump's May 29 demand that Hormuz be 'immediately open' with no tolls. The Persian Gulf Strait Authority vowed to continue operations 'without interruption.'",
+    "source": "Al Jazeera Day 93 live blog / IRGC statement (May 31)",
+    "time": "Day 93",
+    "title": "Iran reasserts Hormuz control via Khatam al-Anbiya order; vessels must obtain IRGC authorization"
+  },
+  {
+    "category": "kinetic",
+    "data_point": "IRGC claims (via Fars) it shot down a US drone attempting a 'hostile operation' in Iranian territorial waters — UNVERIFIED by US sources",
+    "date": "2026-05-31",
+    "description": "Iran's IRGC claimed via Fars News Agency that it shot down a US drone attempting a 'hostile operation' in its territorial waters on May 31. The claim is UNVERIFIED by US sources; CENTCOM and US officials have made no public statement on any platform loss in the window. If confirmed, it would be the 25th-26th MQ-9 lost in the war (24 prior per US Congress report cited by EurAsian Times). The claim is consistent with prior unverified Iranian shoot-down claims (e.g., May 26 IRGC claim of MQ-9/F-35/RQ-4 engagements — US: 'no US aircraft were hit').",
+    "source": "Fars News Agency / Al Jazeera Day 93 live blog (May 31)",
+    "time": "Day 93",
+    "title": "IRGC claims downing US drone in Iranian waters — UNVERIFIED"
+  },
+  {
+    "category": "kinetic",
+    "data_point": "US military 'disabled' a Gambia-flagged ship attempting to sail toward an Iranian port (blockade enforcement; CENTCOM tankers-disabled cumulative now 5)",
+    "date": "2026-05-31",
+    "description": "The US military said it 'disabled' a Gambia-flagged ship attempting to sail toward an Iranian port on May 31 — a blockade-enforcement action that brings the CENTCOM cumulative tankers-disabled tally to 5 (up from 4). The intercept came as Trump told Fox News he is 'in no hurry' and rebutted Iranian state media's claim that the draft MOU includes a $12 billion frozen-asset release (the WH called such reports a 'fabrication').",
+    "source": "Al Jazeera Day 93 live blog / CENTCOM (May 31)",
+    "time": "Day 93",
+    "title": "US disables Gambia-flagged ship attempting Iranian port; blockade tally 5"
+  },
+  {
+    "category": "iran_capability",
+    "data_point": "Iran unveils new naval attack craft '27 Rajab' in Tehran's Enqelab Square — claimed 100 knots (185 km/h), cruise-missile capable",
+    "date": "2026-05-31",
+    "description": "Iran unveiled a new naval attack craft named '27 Rajab' (a date in the Islamic calendar) in Tehran's Enqelab Square on May 31, claiming it can reach 100 knots (185 km/h) and is cruise-missile capable. The unveiling — alongside a warning from Rear Admiral Habibollah Sayyari (deputy army commander) that any aggression 'will be met with a response even more forceful than before' — is the highest-profile Iranian asymmetric-naval signal of the ceasefire phase and a hedge against the US-Iran MOU collapsing.",
+    "source": "Fars News Agency / Al Jazeera Day 93 live blog (May 31)",
+    "time": "Day 93",
+    "title": "Iran unveils '27 Rajab' naval attack craft (claimed 100 knots, cruise-missile capable)"
+  },
+  {
+    "category": "humanitarian",
+    "data_point": "Lebanese Ministry of Public Health May 31 bulletin: 3,412 killed / 10,269 wounded / 127 healthcare workers killed",
+    "date": "2026-05-31",
+    "description": "The Lebanese Ministry of Public Health's May 31 bulletin recorded a cumulative tally of 3,412 killed, 10,269 wounded, and 127 healthcare workers killed since the Lebanon war began. The +112 daily delta versus Day 92's NPR-cited ≥3,300 baseline reflects continued intense Israeli strikes on southern Lebanon and the Beirut periphery across the weekend; UN peacekeepers had said Israel launched 3,000+ strikes 'since last Sunday' versus 187 by Hezbollah and allies.",
+    "source": "Lebanese Ministry of Public Health / Al Jazeera (May 31)",
+    "time": "Day 93",
+    "title": "Lebanese MoPH May 31: 3,412 killed / 10,269 wounded / 127 healthcare workers killed"
   }
 ]
