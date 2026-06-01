@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.391,
-  "war_increase": 1.401,
+  "current_gas": 4.35,
+  "war_increase": 1.36,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.58 },
@@ -23,5 +23,5 @@
   ],
   "default_state": "TX",
   "source": "AAA gasprices.aaa.com national average — Day 91 print $4.391 (May 29, 2026), down 3.5¢ from $4.426 on May 28 — AAA's biggest one-day drop since Nov 22, 2008 amid tentative US-Iran ceasefire-extension deal optimism. Down from the ~$4.55 four-year high hit the prior week. Still ~+47% above the $2.99 Feb 28 baseline; ~22¢ below the June 2022 all-time record of $4.61. Pump relief is following the ~$5 collapse in crude (Brent -$0.88 to $91.82, WTI -$1.54 to ~$87.36 on May 29) as the deal news supersedes the May 27-28 Bandar Abbas strike-driven intraday spike. Watson Institute / Costs of War (Brown — Jeff Colgan): cumulative extra fuel costs to U.S. consumers since war start top $40 billion, more than $300 per household. Patrick De Haan (GasBuddy): pump-price relief runs 2-3 weeks behind crude — further declines likely if Trump signs off and Iran confirms.",
-  "last_updated": "2026-05-29"
+  "last_updated": "2026-05-31"
 }

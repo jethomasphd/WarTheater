@@ -3962,5 +3962,29 @@
     "verified": true,
     "verification_confidence": "HIGH",
     "last_updated": "2026-05-29"
+  },
+  {
+    "id": "2026-05-31-irgc-claims-us-drone-downed",
+    "city": "Iranian territorial waters (UNVERIFIED)",
+    "lat": 26.5,
+    "lng": 56.5,
+    "type": "iran_retaliation",
+    "actor": "Iran (IRGC, claim)",
+    "first_strike": "2026-05-31",
+    "active_days": [
+      93
+    ],
+    "weapon": "Surface-to-air engagement (claim)",
+    "casualties_reported": "None reported; IRGC claims shoot-down of US drone — UNVERIFIED by US sources",
+    "casualties_source": "Fars News Agency (Iranian state-affiliated)",
+    "notes": "Day 93 (May 31, Sunday): IRGC claimed via Fars News Agency that it shot down a US drone attempting a 'hostile operation' in its territorial waters. NO US confirmation; CENTCOM and US officials silent on any platform loss in window. If confirmed, would be the 25th-26th MQ-9 lost in the war (24 prior per US Congress report cited by EurAsian Times). Treat as Iranian propaganda until US confirms or imagery emerges; consistent pattern with prior unverified Iranian claims (May 26 IRGC claim of MQ-9/F-35/RQ-4 engagements — US: 'no US aircraft were hit'). Manifest §2-§3.",
+    "sources": [
+      "Manifest §2-§3",
+      "Fars News Agency",
+      "Al Jazeera Day 93 live blog"
+    ],
+    "verified": false,
+    "verification_confidence": "LOW",
+    "last_updated": "2026-05-31"
   }
 ]
