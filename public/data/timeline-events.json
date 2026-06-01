@@ -8017,5 +8017,50 @@
     "source": "Al Jazeera / Washington Post (May 28-29)",
     "time": "Day 91",
     "title": "Lebanon-Israel direct talks in Washington amid intensified Israeli strikes"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Trump's May 29 Situation Room 'final determination' meeting yields NO signed deal; NYT reports Trump 'toughened the terms'; Axios reports he asked for 'several amendments'",
+    "date": "2026-05-30",
+    "description": "The tentative 60-day US-Iran ceasefire-extension MOU remained UNSIGNED into Saturday May 30. The New York Times reported that following his Thursday Situation Room meeting, Trump 'toughened the terms,' and Axios reported he asked for 'several amendments' to the framework his envoys (Witkoff and Kushner) had reached. Iran's Foreign Ministry spokesperson Esmaeil Baghaei publicly said no final agreement has been reached; chief negotiator Mohammad Bagher Ghalibaf said Tehran would 'judge any agreement by actions rather than words' and would not move unless Washington acts first. Treasury Secretary Bessent reiterated sanctions relief is off the table until Hormuz reopens and the HEU is handed over.",
+    "source": "NYT / Axios / Al Jazeera / IRNA (May 30)",
+    "time": "Day 92",
+    "title": "Trump 'toughened the terms'; no signed MOU; Iran says no agreement exists"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "SecWar Hegseth at Shangri-La Dialogue (Singapore): Trump $1.5T defense plan; allies asked for 3.5% of GDP; US 'more than capable' of restarting war",
+    "date": "2026-05-30",
+    "description": "At the Shangri-La Dialogue in Singapore (May 30-31), SecWar Pete Hegseth said President Trump plans a $1.5 trillion defense investment, urged allies to spend 3.5% of GDP on defense, and said the US is 'more than capable' of restarting the war if no satisfactory deal is reached with Iran. The speech marked the most explicit US re-escalation threat of the ceasefire phase and is a marginal positive for defense names ahead of Monday's open.",
+    "source": "Al Jazeera Day 92 live blog / Reuters (May 30)",
+    "time": "Day 92",
+    "title": "Hegseth Shangri-La: Trump $1.5T defense plan; US 'more than capable' of restarting war"
+  },
+  {
+    "category": "hormuz",
+    "data_point": "Oman Maritime Security Centre alerts on a suspected floating mine in Hormuz; not confirmed by US military (NBC); Navy Lookout notes no transiting ship has struck one",
+    "date": "2026-05-30",
+    "description": "Oman's Maritime Security Centre issued an alert on a floating object suspected to be a naval mine, west of the Inshore Traffic Zone in Omani territorial waters. No attribution. The US military has NOT confirmed Iran laid mines (NBC News). Navy Lookout notes no transiting ship has struck one. The alert revives the early-May mining narrative that helped push Brent to four-year highs in late April and keeps UKMTO Hormuz threat level CRITICAL.",
+    "source": "Oman Maritime Security Centre / NBC News / Navy Lookout (May 30)",
+    "time": "Day 92",
+    "title": "Oman reports suspected floating mine in Hormuz; US has not confirmed"
+  },
+  {
+    "category": "us_casualties",
+    "data_point": "Bloomberg discloses ~5 US service members + contractors wounded by debris at Ali Al Salem (Kuwait) when Iran's May 27 Fateh-110 was intercepted; 2 MQ-9 Reapers hit",
+    "date": "2026-05-30",
+    "description": "Bloomberg (May 30, citing a person with direct knowledge) reported that Iran's May 27 Fateh-110 ballistic missile, intercepted by Kuwaiti air defenses, dropped debris that struck Ali Al Salem Air Base — causing minor injuries to ~5 people (US service members and contractors), destroying one MQ-9 Reaper drone, and seriously damaging another (~$30M each). DISCREPANCY FLAG: GlobalSecurity.org's Day-91 update (May 29) reported 'two minor injuries from falling shrapnel' and 'no…US military casualties or asset damage' — accounts may cover different strikes on adjacent dates; UNRESOLVED.",
+    "source": "Bloomberg / GlobalSecurity.org (May 30 / May 29 — discrepancy flagged)",
+    "time": "Day 92",
+    "title": "Bloomberg: ~5 US wounded + 2 MQ-9 Reapers hit by debris at Ali Al Salem on May 27"
+  },
+  {
+    "category": "lebanon_escalation",
+    "data_point": "+1 IDF KIA (age 21) in southern Lebanon; PM Salam accuses Israel of 'scorched-earth policy'; UN peacekeepers say Israel launched 3,000+ strikes 'since last Sunday' vs 187 by Hezbollah and allies",
+    "date": "2026-05-30",
+    "description": "One additional IDF soldier (age 21) was killed in southern Lebanon May 30 in combat operations (four wounded). NPR (May 30) reported the Lebanese Health Ministry's running tally at ≥3,300 killed since the war began (~20% women, children, medics). UN peacekeepers said Israel launched 3,000+ strikes in southern Lebanon 'since last Sunday' versus 187 by Hezbollah and allies. Lebanese PM Nawaf Salam (May 30) accused Israel of pursuing a 'scorched-earth policy.'",
+    "source": "NPR / Lebanese MoPH / UNIFIL (May 30)",
+    "time": "Day 92",
+    "title": "+1 IDF KIA in southern Lebanon; PM Salam accuses Israel of 'scorched-earth policy'"
   }
 ]
