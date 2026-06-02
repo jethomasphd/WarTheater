@@ -8179,5 +8179,41 @@
     "source": "UN / WFP / Lebanese Health Ministry / Manifest §5,§7",
     "time": "Day 94",
     "title": "Israeli strike near Tyre hospital; UN 'deeply alarmed,' WFP warns of emergency"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Trump tells ABC News a deal to reopen Hormuz + extend the ceasefire is reachable 'over the next week'; regional source: talks 'back on track'",
+    "date": "2026-06-02",
+    "description": "Trump told ABC News that a deal to reopen the Strait of Hormuz and extend the ceasefire was reachable 'over the next week,' and a regional source told CNN that negotiations were 'back on track' — a partial walk-back of June 1's suspension. The Pakistan-mediated 60-day ceasefire-extension MOU thus remained in limbo rather than collapse: technically holding but under its heaviest strain since the April 8 formalization. Status: ACTIVE BUT TALKS SUSPENDED, with the next review trigger at Trump's stated 'next week' window (~June 9).",
+    "source": "ABC News / CNN / Manifest §1",
+    "time": "Day 95",
+    "title": "Trump (ABC): deal reachable 'over the next week'; talks 'back on track'"
+  },
+  {
+    "category": "humanitarian",
+    "data_point": "Lebanese MoPH June 2 bulletin: 3,433 killed / 10,395 wounded (+21 killed, +126 wounded vs May 31)",
+    "date": "2026-06-02",
+    "description": "The Lebanese Ministry of Public Health's June 2 bulletin recorded a cumulative 3,433 killed and 10,395 wounded since the Lebanon war began on March 2 — up +21 killed and +126 wounded from the May 31 tally of 3,412 / 10,269, reflecting the intense June 1 fighting around Beaufort Castle, Dahiyeh, and Tyre. (A June 1 figure of 3,355 had circulated but sat below the May 31 bulletin and is flagged for reconciliation.)",
+    "source": "Lebanese Ministry of Public Health / Manifest §7",
+    "time": "Day 95",
+    "title": "Lebanese MoPH June 2: 3,433 killed / 10,395 wounded"
+  },
+  {
+    "category": "infrastructure/environmental",
+    "data_point": "Iran's internet partially restored after ~3-month blackout; Pars Oil & Gas restores production at three offshore platforms",
+    "date": "2026-06-02",
+    "description": "Iran's internet was partially restored after a roughly three-month blackout, though access protocols remained restricted/blocked/'whitelisted' and not all data centers were back online. Separately, Pars Oil and Gas Company's CEO said production had been restored at three offshore platforms following earlier Israeli attacks (Iranian media, reported June 1).",
+    "source": "Iranian media / Manifest §9",
+    "time": "Day 95",
+    "title": "Iran's internet partially restored; Pars restores 3 offshore platforms"
+  },
+  {
+    "category": "force_posture",
+    "data_point": "USNI June 1 tracker: USS Bush (CVN-77) + USS Lincoln (CVN-72) both in the Arabian Sea — sustained two-carrier posture (continuity, not surge); Ford at Norfolk",
+    "date": "2026-06-02",
+    "description": "The June 1 USNI Fleet & Marine Tracker showed USS George H.W. Bush (CVN-77) and USS Abraham Lincoln (CVN-72) both operating in the Arabian Sea under 5th Fleet (Vice Adm. Curt Renshaw) — a sustained dual-carrier presence that has held since at least the May 18 tracker, NOT a fresh late-May surge. USS Gerald R. Ford (CVN-78) remained at Norfolk for an extensive maintenance period, having concluded the longest US carrier deployment since the Vietnam War. A third-carrier surge into 5th Fleet or Ford's redeployment would be the benchmark for genuine escalation.",
+    "source": "USNI Fleet & Marine Tracker (June 1) / Manifest §4",
+    "time": "Day 95",
+    "title": "USNI June 1: sustained two-carrier Arabian Sea posture (Bush + Lincoln); Ford at Norfolk"
   }
 ]
