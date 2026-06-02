@@ -3986,5 +3986,29 @@
     "verified": false,
     "verification_confidence": "LOW",
     "last_updated": "2026-05-31"
+  },
+  {
+    "id": "2026-06-01-kuwait-irgc-attack",
+    "city": "Kuwait (air base, location undisclosed)",
+    "lat": 29.3759,
+    "lng": 47.9774,
+    "type": "iran_retaliation",
+    "actor": "Iran (IRGC)",
+    "first_strike": "2026-06-01",
+    "active_days": [
+      94
+    ],
+    "weapon": "Ballistic missile and drone attack (intercepted)",
+    "casualties_reported": "None reported — Kuwait's air defenses intercepted the incoming missile/drone fire; air-raid sirens sounded",
+    "casualties_source": "KUNA / Kuwait Army / Kuwait Foreign Ministry",
+    "notes": "Day 94 (June 1, Monday): Kuwait's army said its air defenses intercepted 'hostile' missile and drone attacks; the foreign ministry held 'Iran fully responsible for these heinous attacks' and air-raid sirens sounded (KUNA). The IRGC said it struck 'the air base from which the attack originated,' warning that 'if such aggression is repeated, the response will be entirely different.' UNVERIFIED: the specific base struck (the IRGC did not identify it). Follows the May 27 Iranian ballistic-missile strike on Ali Al Salem, whose falling debris caused minor injuries to 4 US service members and 3 contractors (all since returned to duty within 24 hours, per a US official to CBS). Separately, IRGC-linked Tasnim indicated Iran had given its Houthi allies a nod to begin attacking commercial shipping in the Bab el-Mandeb strait — UNVERIFIED; no confirmed Houthi attack on shipping occurred in-window (Houthis have not struck a commercial vessel in 2026). Manifest §3.",
+    "sources": [
+      "Manifest §3",
+      "KUNA / Kuwait Army & Foreign Ministry June 1",
+      "IRGC statement"
+    ],
+    "verified": true,
+    "verification_confidence": "MEDIUM",
+    "last_updated": "2026-06-02"
   }
 ]
