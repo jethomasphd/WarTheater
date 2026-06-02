@@ -8116,5 +8116,68 @@
     "source": "Lebanese Ministry of Public Health / Al Jazeera (May 31)",
     "time": "Day 93",
     "title": "Lebanese MoPH May 31: 3,412 killed / 10,269 wounded / 127 healthcare workers killed"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Iran suspends indirect talks/document exchange; Tasnim says Tehran is 'opening other fronts'",
+    "date": "2026-06-01",
+    "description": "Iran's IRGC-linked Tasnim agency, citing a source close to the negotiating team, said the 60-day ceasefire-extension MOU 'has not yet been finalized or made definitive' and that Tehran was suspending indirect talks and document exchange through mediators and 'opening other fronts' — citing Israeli actions in Lebanon and US ceasefire violations. FM spokesman Esmaeil Baqaei said the US 'is also violating the ceasefire including this morning' and that 'a ceasefire in Lebanon is an essential condition for any deal.' The dispute reportedly centered on Trump's late edits to the MOU regarding the Strait of Hormuz and removal of Iran's highly enriched uranium.",
+    "source": "Tasnim (IRGC-linked) / Iran FM spokesman Esmaeil Baqaei / Manifest §1",
+    "time": "Day 94",
+    "title": "Iran suspends indirect ceasefire talks; Tasnim: Tehran 'opening other fronts'"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Trump: talks 'continuing, at a rapid pace'; tells CNBC 'I really don't care. I couldn't care less'",
+    "date": "2026-06-01",
+    "description": "President Trump contradicted Tehran's suspension, posting on Truth Social that negotiations were 'continuing, at a rapid pace,' and telling CNBC's Eamon Javers 'I really don't care. I couldn't care less' when asked whether negotiations were over. The dueling messages left the Pakistan-mediated MOU in volatile limbo — technically still holding but under its heaviest strain since the April 8 formalization.",
+    "source": "Truth Social / CNBC (Eamon Javers) / Manifest §1",
+    "time": "Day 94",
+    "title": "Trump contradicts Tehran: talks 'at a rapid pace'; 'I couldn't care less'"
+  },
+  {
+    "category": "military",
+    "data_point": "Kuwait intercepts 'hostile' Iranian missile/drone fire; IRGC claims it struck 'the air base from which the attack originated'",
+    "date": "2026-06-01",
+    "description": "Kuwait's army said its air defenses intercepted 'hostile' missile and drone attacks; air-raid sirens sounded and the foreign ministry held 'Iran fully responsible for these heinous attacks' (KUNA). The IRGC said it struck 'the air base from which the attack originated,' warning that 'if such aggression is repeated, the response will be entirely different.' The specific base struck was not identified (UNVERIFIED). The exchange follows the May 27 Iranian ballistic-missile strike on Ali Al Salem, whose debris injured 4 US service members and 3 contractors (all since returned to duty within 24 hours, per a US official to CBS).",
+    "source": "KUNA / Kuwait Army & Foreign Ministry / IRGC / CBS / Manifest §3",
+    "time": "Day 94",
+    "title": "Kuwait intercepts Iranian missile/drone fire; IRGC claims retaliatory strike"
+  },
+  {
+    "category": "financial",
+    "data_point": "Oil surges on conflict fears: Brent settles $94.98 (+4.24%), WTI $92.54 (+5.93%); intraday spike >7%",
+    "date": "2026-06-01",
+    "description": "Crude surged on renewed conflict fears after Iran suspended ceasefire talks and Kuwait intercepted Iranian fire. ICE Brent settled $94.98 (+4.24%) with an intraday spike exceeding 7%; NYMEX WTI settled $92.54 (+5.93%; one CNBC report cited $92.16, flagged for reconciliation). Both benchmarks remained ~30% above pre-war late-February levels; May had been Brent's worst month since 2020 (down >19%).",
+    "source": "CNBC / Trading Economics / Manifest §6",
+    "time": "Day 94",
+    "title": "Oil surges — Brent $94.98 (+4.24%), WTI $92.54 (+5.93%)"
+  },
+  {
+    "category": "markets",
+    "data_point": "S&P 500 record close 7,599.96 (+0.26%); Nasdaq 27,086.81, Dow 51,078.88 — all records on a tech rally",
+    "date": "2026-06-01",
+    "description": "US equities hit record highs even as oil priced in renewed conflict risk. The S&P 500 closed at a record 7,599.96 (+0.26%); the Nasdaq Composite 27,086.81 (+0.42%) and Dow 51,078.88 (+0.09%) also set records. Nvidia rose 6% on a new PC chip; 24 S&P 500 stocks hit 52-week highs; ISM manufacturing came in at 54 (a beat). Energy was the only other green S&P sector. Fuel-sensitive names fell — United Airlines −2.6%, Alaska Air Group −3.3%, Carnival −2.7%; Lockheed Martin −1.25%.",
+    "source": "CNBC / Yahoo Finance / Manifest §6",
+    "time": "Day 94",
+    "title": "S&P 500 record 7,599.96 on tech rally; Nasdaq & Dow also at records"
+  },
+  {
+    "category": "lebanon_escalation",
+    "data_point": "Israel captures Beaufort Castle + hits Dahiyeh; after a heated call Trump says 'all shooting will stop'; Netanyahu/Katz vow to continue",
+    "date": "2026-06-01",
+    "description": "Israel captured Beaufort Castle (Qalaat al-Chakif) — Netanyahu called it a 'dramatic shift' — and ordered strikes on Beirut's southern suburbs (Dahiyeh). After a reportedly heated call, Trump said Israeli forces would not move on Beirut and that 'all shooting will stop,' and Hezbollah agreed to a US ceasefire proposal (per the Lebanese Embassy in Washington). But Netanyahu and Defense Minister Israel Katz said Israel would 'continue to operate as planned in southern Lebanon,' and clashes continued overnight.",
+    "source": "Manifest §5 / Lebanese Embassy Washington / Israeli statements",
+    "time": "Day 94",
+    "title": "Israel captures Beaufort Castle, hits Dahiyeh; Trump says 'all shooting will stop'"
+  },
+  {
+    "category": "humanitarian",
+    "data_point": "Israeli strike hits near a hospital in Tyre; UN 'deeply alarmed'; WFP warns of a 'deepening humanitarian emergency'",
+    "date": "2026-06-01",
+    "description": "An Israeli strike hit near a hospital in Tyre on June 1. The UN said it was 'deeply alarmed,' and the World Food Programme warned of a 'deepening humanitarian emergency' in Lebanon. The Lebanese Health Ministry's June 1 cumulative was reported at 3,355 killed; the June 2 bulletin recorded 3,433 killed / 10,395 wounded since March 2.",
+    "source": "UN / WFP / Lebanese Health Ministry / Manifest §5,§7",
+    "time": "Day 94",
+    "title": "Israeli strike near Tyre hospital; UN 'deeply alarmed,' WFP warns of emergency"
   }
 ]
