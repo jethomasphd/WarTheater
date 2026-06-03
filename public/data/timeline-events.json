@@ -8116,5 +8116,104 @@
     "source": "Lebanese Ministry of Public Health / Al Jazeera (May 31)",
     "time": "Day 93",
     "title": "Lebanese MoPH May 31: 3,412 killed / 10,269 wounded / 127 healthcare workers killed"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Iran suspends indirect talks/document exchange; Tasnim says Tehran is 'opening other fronts'",
+    "date": "2026-06-01",
+    "description": "Iran's IRGC-linked Tasnim agency, citing a source close to the negotiating team, said the 60-day ceasefire-extension MOU 'has not yet been finalized or made definitive' and that Tehran was suspending indirect talks and document exchange through mediators and 'opening other fronts' — citing Israeli actions in Lebanon and US ceasefire violations. FM spokesman Esmaeil Baqaei said the US 'is also violating the ceasefire including this morning' and that 'a ceasefire in Lebanon is an essential condition for any deal.' The dispute reportedly centered on Trump's late edits to the MOU regarding the Strait of Hormuz and removal of Iran's highly enriched uranium.",
+    "source": "Tasnim (IRGC-linked) / Iran FM spokesman Esmaeil Baqaei / Manifest §1",
+    "time": "Day 94",
+    "title": "Iran suspends indirect ceasefire talks; Tasnim: Tehran 'opening other fronts'"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Trump: talks 'continuing, at a rapid pace'; tells CNBC 'I really don't care. I couldn't care less'",
+    "date": "2026-06-01",
+    "description": "President Trump contradicted Tehran's suspension, posting on Truth Social that negotiations were 'continuing, at a rapid pace,' and telling CNBC's Eamon Javers 'I really don't care. I couldn't care less' when asked whether negotiations were over. The dueling messages left the Pakistan-mediated MOU in volatile limbo — technically still holding but under its heaviest strain since the April 8 formalization.",
+    "source": "Truth Social / CNBC (Eamon Javers) / Manifest §1",
+    "time": "Day 94",
+    "title": "Trump contradicts Tehran: talks 'at a rapid pace'; 'I couldn't care less'"
+  },
+  {
+    "category": "military",
+    "data_point": "Kuwait intercepts 'hostile' Iranian missile/drone fire; IRGC claims it struck 'the air base from which the attack originated'",
+    "date": "2026-06-01",
+    "description": "Kuwait's army said its air defenses intercepted 'hostile' missile and drone attacks; air-raid sirens sounded and the foreign ministry held 'Iran fully responsible for these heinous attacks' (KUNA). The IRGC said it struck 'the air base from which the attack originated,' warning that 'if such aggression is repeated, the response will be entirely different.' The specific base struck was not identified (UNVERIFIED). The exchange follows the May 27 Iranian ballistic-missile strike on Ali Al Salem, whose debris injured 4 US service members and 3 contractors (all since returned to duty within 24 hours, per a US official to CBS).",
+    "source": "KUNA / Kuwait Army & Foreign Ministry / IRGC / CBS / Manifest §3",
+    "time": "Day 94",
+    "title": "Kuwait intercepts Iranian missile/drone fire; IRGC claims retaliatory strike"
+  },
+  {
+    "category": "financial",
+    "data_point": "Oil surges on conflict fears: Brent settles $94.98 (+4.24%), WTI $92.54 (+5.93%); intraday spike >7%",
+    "date": "2026-06-01",
+    "description": "Crude surged on renewed conflict fears after Iran suspended ceasefire talks and Kuwait intercepted Iranian fire. ICE Brent settled $94.98 (+4.24%) with an intraday spike exceeding 7%; NYMEX WTI settled $92.54 (+5.93%; one CNBC report cited $92.16, flagged for reconciliation). Both benchmarks remained ~30% above pre-war late-February levels; May had been Brent's worst month since 2020 (down >19%).",
+    "source": "CNBC / Trading Economics / Manifest §6",
+    "time": "Day 94",
+    "title": "Oil surges — Brent $94.98 (+4.24%), WTI $92.54 (+5.93%)"
+  },
+  {
+    "category": "markets",
+    "data_point": "S&P 500 record close 7,599.96 (+0.26%); Nasdaq 27,086.81, Dow 51,078.88 — all records on a tech rally",
+    "date": "2026-06-01",
+    "description": "US equities hit record highs even as oil priced in renewed conflict risk. The S&P 500 closed at a record 7,599.96 (+0.26%); the Nasdaq Composite 27,086.81 (+0.42%) and Dow 51,078.88 (+0.09%) also set records. Nvidia rose 6% on a new PC chip; 24 S&P 500 stocks hit 52-week highs; ISM manufacturing came in at 54 (a beat). Energy was the only other green S&P sector. Fuel-sensitive names fell — United Airlines −2.6%, Alaska Air Group −3.3%, Carnival −2.7%; Lockheed Martin −1.25%.",
+    "source": "CNBC / Yahoo Finance / Manifest §6",
+    "time": "Day 94",
+    "title": "S&P 500 record 7,599.96 on tech rally; Nasdaq & Dow also at records"
+  },
+  {
+    "category": "lebanon_escalation",
+    "data_point": "Israel captures Beaufort Castle + hits Dahiyeh; after a heated call Trump says 'all shooting will stop'; Netanyahu/Katz vow to continue",
+    "date": "2026-06-01",
+    "description": "Israel captured Beaufort Castle (Qalaat al-Chakif) — Netanyahu called it a 'dramatic shift' — and ordered strikes on Beirut's southern suburbs (Dahiyeh). After a reportedly heated call, Trump said Israeli forces would not move on Beirut and that 'all shooting will stop,' and Hezbollah agreed to a US ceasefire proposal (per the Lebanese Embassy in Washington). But Netanyahu and Defense Minister Israel Katz said Israel would 'continue to operate as planned in southern Lebanon,' and clashes continued overnight.",
+    "source": "Manifest §5 / Lebanese Embassy Washington / Israeli statements",
+    "time": "Day 94",
+    "title": "Israel captures Beaufort Castle, hits Dahiyeh; Trump says 'all shooting will stop'"
+  },
+  {
+    "category": "humanitarian",
+    "data_point": "Israeli strike hits near a hospital in Tyre; UN 'deeply alarmed'; WFP warns of a 'deepening humanitarian emergency'",
+    "date": "2026-06-01",
+    "description": "An Israeli strike hit near a hospital in Tyre on June 1. The UN said it was 'deeply alarmed,' and the World Food Programme warned of a 'deepening humanitarian emergency' in Lebanon. The Lebanese Health Ministry's June 1 cumulative was reported at 3,355 killed; the June 2 bulletin recorded 3,433 killed / 10,395 wounded since March 2.",
+    "source": "UN / WFP / Lebanese Health Ministry / Manifest §5,§7",
+    "time": "Day 94",
+    "title": "Israeli strike near Tyre hospital; UN 'deeply alarmed,' WFP warns of emergency"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Trump tells ABC News a deal to reopen Hormuz + extend the ceasefire is reachable 'over the next week'; regional source: talks 'back on track'",
+    "date": "2026-06-02",
+    "description": "Trump told ABC News that a deal to reopen the Strait of Hormuz and extend the ceasefire was reachable 'over the next week,' and a regional source told CNN that negotiations were 'back on track' — a partial walk-back of June 1's suspension. The Pakistan-mediated 60-day ceasefire-extension MOU thus remained in limbo rather than collapse: technically holding but under its heaviest strain since the April 8 formalization. Status: ACTIVE BUT TALKS SUSPENDED, with the next review trigger at Trump's stated 'next week' window (~June 9).",
+    "source": "ABC News / CNN / Manifest §1",
+    "time": "Day 95",
+    "title": "Trump (ABC): deal reachable 'over the next week'; talks 'back on track'"
+  },
+  {
+    "category": "humanitarian",
+    "data_point": "Lebanese MoPH June 2 bulletin: 3,433 killed / 10,395 wounded (+21 killed, +126 wounded vs May 31)",
+    "date": "2026-06-02",
+    "description": "The Lebanese Ministry of Public Health's June 2 bulletin recorded a cumulative 3,433 killed and 10,395 wounded since the Lebanon war began on March 2 — up +21 killed and +126 wounded from the May 31 tally of 3,412 / 10,269, reflecting the intense June 1 fighting around Beaufort Castle, Dahiyeh, and Tyre. (A June 1 figure of 3,355 had circulated but sat below the May 31 bulletin and is flagged for reconciliation.)",
+    "source": "Lebanese Ministry of Public Health / Manifest §7",
+    "time": "Day 95",
+    "title": "Lebanese MoPH June 2: 3,433 killed / 10,395 wounded"
+  },
+  {
+    "category": "infrastructure/environmental",
+    "data_point": "Iran's internet partially restored after ~3-month blackout; Pars Oil & Gas restores production at three offshore platforms",
+    "date": "2026-06-02",
+    "description": "Iran's internet was partially restored after a roughly three-month blackout, though access protocols remained restricted/blocked/'whitelisted' and not all data centers were back online. Separately, Pars Oil and Gas Company's CEO said production had been restored at three offshore platforms following earlier Israeli attacks (Iranian media, reported June 1).",
+    "source": "Iranian media / Manifest §9",
+    "time": "Day 95",
+    "title": "Iran's internet partially restored; Pars restores 3 offshore platforms"
+  },
+  {
+    "category": "force_posture",
+    "data_point": "USNI June 1 tracker: USS Bush (CVN-77) + USS Lincoln (CVN-72) both in the Arabian Sea — sustained two-carrier posture (continuity, not surge); Ford at Norfolk",
+    "date": "2026-06-02",
+    "description": "The June 1 USNI Fleet & Marine Tracker showed USS George H.W. Bush (CVN-77) and USS Abraham Lincoln (CVN-72) both operating in the Arabian Sea under 5th Fleet (Vice Adm. Curt Renshaw) — a sustained dual-carrier presence that has held since at least the May 18 tracker, NOT a fresh late-May surge. USS Gerald R. Ford (CVN-78) remained at Norfolk for an extensive maintenance period, having concluded the longest US carrier deployment since the Vietnam War. A third-carrier surge into 5th Fleet or Ford's redeployment would be the benchmark for genuine escalation.",
+    "source": "USNI Fleet & Marine Tracker (June 1) / Manifest §4",
+    "time": "Day 95",
+    "title": "USNI June 1: sustained two-carrier Arabian Sea posture (Bush + Lincoln); Ford at Norfolk"
   }
 ]
