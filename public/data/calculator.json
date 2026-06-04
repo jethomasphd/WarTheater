@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.322,
-  "war_increase": 1.33,
+  "current_gas": 4.29,
+  "war_increase": 1.30,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.58 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com national average — June 1, 2026 (Day 94) $4.322, easing from the May 29 (Day 91) print of $4.391 as the late-May crude pullback (Brent's worst month since 2020, down >19%) fed through to the pump and ceasefire-extension optimism persisted. Highest states: Hawaii $5.634, Washington DC $4.596. Still ~+45% above the $2.99 Feb 28 baseline and ~29¢ below the June 2022 all-time record of $4.61, even after Brent rebounded to settle $94.98 on June 1 on renewed conflict fears. Watson Institute / Costs of War (Brown — Jeff Colgan, May 18 brief): cumulative extra fuel costs to U.S. consumers since the war began top $40 billion, more than $300 per household. ITEP tracker (May 31): average additional cost per U.S. household $347.72; cumulative ~$46.5 billion paid extra to the oil industry since Feb 28; summer-end forecast $825.02/household. Patrick De Haan (GasBuddy): pump-price relief runs 2-3 weeks behind crude.",
-  "last_updated": "2026-06-02"
+  "source": "AAA gasprices.aaa.com national average — $4.29 on Tuesday June 2, 2026 (Day 95), down from the June 1 (Day 94) print of $4.322 and well off the May peak of $4.536 (May 6, via Fox Business) as May's crude collapse (Brent's worst month since 2020) continued feeding through to the pump; mild upward pressure resumed June 3 as Gulf escalation lifted oil back toward $100. Still ~+43% above the $2.99 Feb 28 baseline. Five states (Alaska, Hawaii, Nevada, Oregon, Washington) remain above $5; California is highest near $6.16. The May peak $4.536 stayed below AAA's all-time record of $5.016 (set June 14, 2022). GasBuddy's Patrick De Haan: 'We won't see those [peak] levels until potentially mid-to-late 2027'; pump relief runs 2-3 weeks behind crude. Watson Institute / Costs of War (Brown): Americans have spent ~$401 more per household on gas and diesel since the war began (via CBS). ITEP tracker (May 31): cumulative ~$46.5 billion paid extra to the oil industry since Feb 28; summer-end forecast $825.02/household.",
+  "last_updated": "2026-06-03"
 }
