@@ -8215,5 +8215,68 @@
     "source": "USNI Fleet & Marine Tracker (June 1) / Manifest §4",
     "time": "Day 95",
     "title": "USNI June 1: sustained two-carrier Arabian Sea posture (Bush + Lincoln); Ford at Norfolk"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Rubio rejects Hormuz-for-sanctions framing; sanctions relief tied only to nuclear concessions; says Mojtaba Khamenei alive and 'increasingly engaged'",
+    "date": "2026-06-02",
+    "description": "At Senate and House hearings, Secretary of State Marco Rubio rejected Iranian state-media accounts of a Hormuz-for-sanctions deal ('That's not been discussed. That's not been offered.'), said supreme leader Mojtaba Khamenei is alive and 'increasingly engaged,' and urged China not to veto a US-Bahrain UN navigation resolution.",
+    "source": "Al Jazeera / RFE/RL / Manifest §5",
+    "time": "Day 95",
+    "title": "Rubio: sanctions relief only for nuclear concessions, not Hormuz"
+  },
+  {
+    "category": "military",
+    "data_point": "CENTCOM self-defense strike on Qeshm ground-control station; 3 one-way attack drones downed; Iranian missiles at Kuwait/Bahrain fail",
+    "date": "2026-06-02",
+    "description": "A CENTCOM self-defense strike hit an Iranian ground-control station on Qeshm Island; US forces defeated multiple Iranian missiles and drones and downed three one-way attack drones targeting civilian shipping. Two Iranian missiles aimed at Kuwait fell short or broke apart and three at Bahrain were intercepted by US and Bahraini air defenses.",
+    "source": "CENTCOM / i24NEWS / Military Times / Manifest §5",
+    "time": "Day 95",
+    "title": "US strikes Qeshm Island; Iran missiles at Kuwait/Bahrain fail"
+  },
+  {
+    "category": "economic",
+    "data_point": "S&P 500 record 7,609.78 (+0.13%, 24th of 2026); Dow 51,307.79 (+228.91); Nasdaq 27,093.90; AI rally (Marvell +25%, HPE +25%)",
+    "date": "2026-06-02",
+    "description": "The S&P 500 set a record close of 7,609.78 (+0.13%), its 24th record of 2026 and first-ever close above 7,600; the Dow rose to 51,307.79 (+228.91/+0.45%) and the Nasdaq to 27,093.90 (+0.03%) on an AI and semiconductor rally led by Marvell Technology (+25%) and Hewlett Packard Enterprise (+25%). The Russell 2000 gained 0.90%.",
+    "source": "CNBC / TheStreet / Motley Fool / Manifest §5",
+    "time": "Day 95",
+    "title": "S&P 500 closes above 7,600 for first time"
+  },
+  {
+    "category": "military",
+    "data_point": "Kuwait airport strike: 1 killed (Indian national), 63+ wounded; terminal and diplomatic missions damaged; airport briefly closed; 2 Iranian diplomats expelled",
+    "date": "2026-06-03",
+    "description": "An Iranian drone and missile strike on Kuwait International Airport killed one Indian national and wounded 63+; a terminal and diplomatic missions were damaged and the airport briefly closed before flights resumed from another terminal. Kuwait's Defense Ministry said it destroyed 12+ missiles and ~12 drones, and Kuwait expelled two Iranian diplomats. The IRGC denied hitting the airport, blaming failed US interceptors; CENTCOM said two missiles fell short or broke up and multiple drones were downed.",
+    "source": "AP/NPR / Al Jazeera / CBC / Manifest §5",
+    "time": "Day 96",
+    "title": "Iranian drone/missile strike on Kuwait airport kills 1"
+  },
+  {
+    "category": "political",
+    "data_point": "House passes Iran war-powers resolution 215-208 (first successful House vote); Reps. Massie, Fitzpatrick, Barrett, Davidson cross; 60% disapprove (PBS/NPR/Marist)",
+    "date": "2026-06-03",
+    "description": "The US House passed an Iran war-powers resolution 215-208 — the first successful such House vote. Representatives Massie, Fitzpatrick, Barrett, and Davidson crossed party lines. The measure is largely symbolic and heads to the Senate; a PBS/NPR/Marist poll found 60% of Americans disapprove of Trump's handling of the conflict.",
+    "source": "NPR / CNN / ABC / Washington Post / Manifest §5",
+    "time": "Day 96",
+    "title": "House passes Iran war powers resolution 215-208"
+  },
+  {
+    "category": "economic",
+    "data_point": "Brent +2.1% to ~$97.98; S&P -0.74%, Dow -620.72 (-1.21%), Nasdaq -0.89%; nine-day record-setting win streak snapped",
+    "date": "2026-06-03",
+    "description": "Gulf escalation lifted oil and Treasury yields: Brent rose +2.1% to ~$97.98 while the S&P 500 fell 0.74%, the Dow dropped 620.72 (-1.21%), and the Nasdaq lost 0.89% — snapping a nine-day record-setting winning streak as defense and oil majors outperformed and travel names fell.",
+    "source": "CNBC / TT News / Analytics Insight / Manifest §5",
+    "time": "Day 96",
+    "title": "Oil climbs toward $100; stocks snap rally"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Trump (podcast): Iran already agreed to no nuclear weapon; MoU still being negotiated with Iranian amendments outstanding; confirms calling Netanyahu 'crazy' over Lebanon",
+    "date": "2026-06-03",
+    "description": "On the 'Pod Force One' podcast, Trump said Iran had already agreed not to have a nuclear weapon and that the memorandum of understanding was still being negotiated with Iranian amendments outstanding; he confirmed having called Prime Minister Netanyahu 'crazy' over Lebanon.",
+    "source": "Al Jazeera / NPR / Reuters / Manifest §5",
+    "time": "Day 96",
+    "title": "Trump: Iran has agreed not to have a nuclear weapon"
   }
 ]
