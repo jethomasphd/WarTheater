@@ -4010,5 +4010,81 @@
     "verified": true,
     "verification_confidence": "MEDIUM",
     "last_updated": "2026-06-02"
+  },
+  {
+    "id": "kuwait-bahrain-jun2",
+    "city": "Kuwait & Bahrain",
+    "lat": 29.3759,
+    "lng": 47.9774,
+    "type": "iran_retaliation",
+    "actor": "Iran (IRGC)",
+    "first_strike": "2026-06-02",
+    "active_days": [
+      95
+    ],
+    "weapon": "Ballistic missiles + drones (all failed/intercepted)",
+    "casualties_reported": "None — all munitions failed or were intercepted",
+    "casualties_source": "CENTCOM",
+    "notes": "Day 95 (June 2, Tuesday): Iran launched ballistic missiles and drones at Kuwait and Bahrain — two missiles aimed at Kuwait fell short or broke apart; three missiles at Bahrain were intercepted by US and Bahraini air defenses; and three one-way attack drones targeting civilian shipping were shot down (CENTCOM). The same day, US forces struck an Iranian ground-control station on Qeshm Island. Manifest §3.",
+    "sources": [
+      "Manifest §3",
+      "CENTCOM June 2",
+      "Military Times",
+      "i24NEWS"
+    ],
+    "verified": true,
+    "verification_confidence": "MEDIUM",
+    "last_updated": "2026-06-03"
+  },
+  {
+    "id": "kuwait-airport-jun3",
+    "city": "Kuwait City (Kuwait International Airport)",
+    "lat": 29.2267,
+    "lng": 47.9689,
+    "type": "iran_retaliation",
+    "actor": "Iran (IRGC)",
+    "first_strike": "2026-06-03",
+    "active_days": [
+      96
+    ],
+    "weapon": "Drones + ballistic missiles",
+    "casualties_reported": "1 killed (an Indian national), 63+ wounded",
+    "casualties_source": "Kuwait Foreign Ministry / KUNA / Indian Embassy",
+    "notes": "Day 96 (June 3, Wednesday): an Iranian drone/missile strike on Kuwait International Airport killed one Indian national and wounded 63+; a terminal was heavily damaged and the airport briefly closed, with vital installations and diplomatic missions hit. Kuwait's Defense Ministry said it destroyed 12+ missiles and ~12 drones; Kuwait expelled two Iranian diplomats. The IRGC denied hitting the airport, blaming failed US interceptors; CENTCOM said two missiles fell short or broke up and multiple drones were downed. Kuwait Airways and Jazeera Airways resumed operations later the same day from a different terminal. Manifest §3.",
+    "sources": [
+      "Manifest §3",
+      "AP / NPR June 3",
+      "Al Jazeera",
+      "CBC",
+      "KUNA / Indian Embassy"
+    ],
+    "verified": true,
+    "verification_confidence": "MEDIUM",
+    "last_updated": "2026-06-03"
+  },
+  {
+    "id": "bahrain-jun3",
+    "city": "Bahrain (NSA Bahrain / Manama area)",
+    "lat": 26.2,
+    "lng": 50.6,
+    "type": "iran_retaliation",
+    "actor": "Iran (IRGC)",
+    "first_strike": "2026-06-03",
+    "active_days": [
+      96
+    ],
+    "weapon": "Ballistic missiles + drones (intercepted)",
+    "casualties_reported": "None confirmed",
+    "casualties_source": "CENTCOM / Bahrain Army",
+    "notes": "Day 96 (June 3, Wednesday): Bahrain's army intercepted three ballistic missiles and several drones. The IRGC claimed strikes on the US 5th Fleet headquarters, an airbase, and helicopters, and warned that 'disrupting the security of the Strait of Hormuz will carry a heavy price for the US military'; CENTCOM denied all the claimed hits as false. Treat the Iranian damage claims as UNVERIFIED. Manifest §3.",
+    "sources": [
+      "Manifest §3",
+      "CENTCOM June 3",
+      "Bahrain Army",
+      "IRGC statement"
+    ],
+    "verified": true,
+    "verification_confidence": "LOW",
+    "last_updated": "2026-06-03"
   }
 ]
