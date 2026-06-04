@@ -1,25 +1,25 @@
 {
-  "last_updated": "2026-06-02",
-  "war_day": 95,
-  "timestamp_label": "LAST UPDATED: JUN 02, 2026 12:19 ET",
+  "last_updated": "2026-06-03",
+  "war_day": 96,
+  "timestamp_label": "LAST UPDATED: JUN 04, 2026 00:46 ET",
   "cost": {
     "brent": {
-      "price": 94.98,
-      "label": "Brent crude — Mon Jun 1 settle (markets reopened; latest settle carried into Day 95)",
-      "change": "+4.24% / +$2.93 vs May 29 ($92.05) — surged on renewed conflict fears after Iran suspended ceasefire talks; intraday spike >7%. June 2 traded near $95. ~+34% above the Feb 27 baseline.",
-      "tooltip": "ICE Brent front-month settled $94.98 on Monday June 1 (+4.24%), rebounding sharply from May's worst month since 2020 (−17%) after Iran (via IRGC-linked Tasnim) suspended indirect ceasefire talks and 'opened other fronts,' and Kuwait intercepted Iranian missile/drone fire; the intraday spike exceeded 7%. June 2 (Tue) traded near $95. Baseline Feb 27 $71.00 — Day 95 war premium ≈ +$23.98 (+33.8%). Sources: CNBC, Trading Economics."
+      "price": 97.98,
+      "label": "Brent crude — Wed Jun 3 intraday ~$97.98 (TT News)",
+      "change": "▲ +$3.00 / +3.16% vs Jun 1 ($94.98); +2.1% on the day (TT News) — a third straight session higher; oil up ~10% on the week. ~+38% above the Feb 27 baseline.",
+      "tooltip": "Brent climbed a third straight session as the US and Iran traded strikes around the Strait of Hormuz — TT News put the front-month near $97.98 (+2.1%) intraday June 3. SOURCE SPREAD (not picked silently): TradingEconomics $96.89, Fortune spot $101.36 (8:45am ET); the official settle was pending at compile time. Baseline Feb 27 $71.00 — Day 96 war premium ≈ +$26.98 (+38%); oil is up ~10% on the week but still well below the war's ~$126 April peak. Sources: TT News, TradingEconomics, Fortune."
     },
     "wti": {
-      "price": 92.54,
-      "label": "WTI crude — Mon Jun 1 settle (markets reopened; carried into Day 95)",
-      "change": "+5.93% / +$5.18 vs May 29 ($87.36) — surged with Brent on the Iran-talks suspension and Kuwait attack. (One CNBC report cited a $92.16 settle — flagged for reconciliation.)",
-      "tooltip": "NYMEX WTI front-month settled $92.54 on Monday June 1 (+5.93%) per CNBC, rebounding from May's ~17% slide (worst since April 2025). DISCREPANCY: a separate CNBC markets recap cited a $92.16 (+5%) settle — flagged for reconciliation. Driven by Iran's suspension of indirect ceasefire talks and the intercepted Iranian missile/drone attack on Kuwait. Baseline Feb 27 $66.50 — Day 95 war premium ≈ +$26.04 (+39.2%). Sources: CNBC."
+      "price": 95.18,
+      "label": "WTI crude — Wed Jun 3 above $95 (TradingEconomics)",
+      "change": "▲ vs Jun 1 ($92.54) — rose for a third session on the Hormuz risk premium; sixth straight weekly US crude drawdown.",
+      "tooltip": "NYMEX WTI rose for a third straight session, trading above $95 on June 3 (TradingEconomics) as US-Iran exchanges around the Strait of Hormuz lifted the risk premium. US commercial crude inventories drew for a sixth straight week (−6.8M to −7.97M bbl). Baseline Feb 27 $66.50 — Day 96 war premium ≈ +$28.68 (+43%). Sources: TradingEconomics, EIA."
     },
     "gas": {
-      "price": 4.322,
-      "label": "AAA national average, regular unleaded — June 1, 2026 (Day 94; held into Day 95)",
-      "change": "−2.9¢ vs May 29 ($4.391); ~+45% vs Feb 28 baseline ($2.99). Pump relief continues to trail the late-May crude pullback even as crude rebounded June 1.",
-      "tooltip": "AAA gasprices.aaa.com national average June 1 (Day 94) = $4.322, easing from $4.391 (May 29) as the late-May crude collapse fed through to the pump. Highest states: Hawaii $5.634, Washington DC $4.596. ~+45% above the $2.99 Feb 28 baseline; ~29¢ below the June 2022 all-time record of $4.61. ITEP tracker (May 31): average additional cost per US household $347.72; cumulative ~$46.5 billion paid extra to the oil industry since Feb 28; summer-end forecast $825.02/household. Watson Institute/Costs of War (Colgan, May 18): extra consumer fuel costs top $40 billion (>$300/household). Patrick De Haan (GasBuddy): pump-price relief runs 2-3 weeks behind crude. Source: gasprices.aaa.com."
+      "price": 4.29,
+      "label": "AAA national average, regular unleaded — June 2, 2026 (Day 95; held into Day 96)",
+      "change": "▼ −3.2¢ vs June 1 ($4.322); +$1.30 vs $2.99 Feb 28 baseline. Pump prices eased off the May peak even as crude rebounded toward $100.",
+      "tooltip": "AAA gasprices.aaa.com national average $4.29 on Tuesday June 2 (Day 95), down from $4.322 (June 1) and well off the May 6 peak of $4.536 (Fox Business). ~+43% above the $2.99 Feb 28 baseline; the May peak stayed below AAA's all-time record of $5.016 (June 14, 2022). Five states (AK, HI, NV, OR, WA) remain above $5; California is highest near $6.16. GasBuddy's Patrick De Haan: 'We won't see those [peak] levels until potentially mid-to-late 2027'; relief runs 2-3 weeks behind crude. Brown University (Costs of War): Americans have spent ~$401 more per household on gas and diesel since the war began. Source: gasprices.aaa.com."
     },
     "sp500": {
       "value": 7599.96,
