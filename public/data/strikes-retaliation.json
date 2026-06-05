@@ -4086,5 +4086,30 @@
     "verified": true,
     "verification_confidence": "LOW",
     "last_updated": "2026-06-03"
+  },
+  {
+    "id": "kuwait-jun4",
+    "city": "Kuwait (US forces / Ali Al Salem AB) — intercepted",
+    "lat": 29.3467,
+    "lng": 47.5231,
+    "type": "iran_retaliation",
+    "actor": "Iran (IRGC / Navy)",
+    "first_strike": "2026-06-04",
+    "active_days": [
+      97
+    ],
+    "weapon": "One-way attack drones (intercepted)",
+    "casualties_reported": "None (all intercepted; no Americans or assets harmed per CENTCOM)",
+    "casualties_source": "CENTCOM",
+    "notes": "Day 97 (June 4, Thursday): CENTCOM said an additional wave of Iranian drones attempted to target US forces in Kuwait but was intercepted, with no Americans or assets harmed. Iran's navy separately claimed it had targeted a US CENTCOM facility 'responsible for recent US actions' — CENTCOM denied the claim. Treat the Iranian strike claims as UNVERIFIED. The day's broader tone was de-escalatory: a US-mediated Israel-Lebanon ceasefire was announced (immediately tested; Hezbollah rejected the terms per AP) and oil eased; Iran FM Araghchi said talks made 'no progress' but channels remain open. Manifest §2.",
+    "sources": [
+      "Manifest §2",
+      "CENTCOM June 4",
+      "Iran Navy statement",
+      "AP June 4"
+    ],
+    "verified": true,
+    "verification_confidence": "LOW",
+    "last_updated": "2026-06-04"
   }
 ]
