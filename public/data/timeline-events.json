@@ -8278,5 +8278,32 @@
     "source": "Al Jazeera / NPR / Reuters / Manifest §5",
     "time": "Day 96",
     "title": "Trump: Iran has agreed not to have a nuclear weapon"
+  },
+  {
+    "category": "military",
+    "data_point": "CENTCOM: additional Iranian drone wave at US forces in Kuwait intercepted, 'no Americans or assets harmed'; Iran navy claims a US CENTCOM facility hit — CENTCOM denies (UNVERIFIED)",
+    "date": "2026-06-04",
+    "description": "CENTCOM said an additional wave of Iranian drones attempted to target US forces in Kuwait on June 4 but was intercepted, with no Americans or assets harmed. Iran's navy separately claimed it had targeted a US CENTCOM facility 'responsible for recent US actions'; CENTCOM denied the claim. No new US strike on Iranian territory was reported in-window.",
+    "source": "CENTCOM / Iran Navy / Manifest §2",
+    "time": "Day 97",
+    "title": "CENTCOM intercepts new Iranian drone wave over Kuwait"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "US-mediated Israel-Lebanon ceasefire announced (Hezbollah to halt fire, withdraw north of the Litani) — immediately tested; Hezbollah rejects the terms (AP)",
+    "date": "2026-06-04",
+    "description": "The US announced that Israel and Lebanon had agreed to implement a ceasefire — an end to Hezbollah fire, a Hezbollah withdrawal south of the Litani, and security zones under exclusive Lebanese control, with negotiations to resume later in the month. It was immediately tested: Israeli strikes continued and Hezbollah had not accepted the terms, rejecting the latest agreement per AP.",
+    "source": "AP / Reuters / Manifest §4",
+    "time": "Day 97",
+    "title": "US announces Israel-Lebanon ceasefire — immediately tested"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Iran FM Araghchi: talks made 'no progress' but channels open; defends Gulf-state attacks as self-defense; Ghalibaf warns of 'confrontation' if Israel keeps striking Lebanon",
+    "date": "2026-06-04",
+    "description": "Iran's Foreign Minister Abbas Araghchi said negotiations had made 'no progress' but that channels remained open, and he defended the attacks on Gulf states as self-defense. Chief negotiator Mohammad Bagher Ghalibaf warned Iran could abandon talks and move to confrontation if Israeli attacks on Lebanon continued. The tentative 60-day US-Iran extension framework remained unsigned.",
+    "source": "Al Jazeera / Jerusalem Post / Manifest §4",
+    "time": "Day 97",
+    "title": "Araghchi: 'no progress' in talks, but channels stay open"
   }
 ]
