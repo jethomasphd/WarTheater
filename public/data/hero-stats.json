@@ -1848,6 +1848,29 @@
       "children_killed": 200,
       "headline": "Day 96 (June 3, Wednesday) — KINETIC EXCHANGES INTENSIFY; HOUSE REBUKES TRUMP 215-208: an Iranian drone/missile strike on Kuwait International Airport killed one Indian national and wounded 63+ (a terminal was briefly closed); the US struck an Iranian oil tanker off Qeshm; Iran's missiles/drones at Kuwait and Bahrain were largely intercepted. The US House passed an Iran war-powers resolution 215-208 — the first successful such vote (four Republicans crossed; 60% public disapproval per PBS/NPR/Marist). MARKETS: oil climbed toward $100 (Brent ~$97.98, +2.1%) and the S&P 500 snapped a nine-day record-setting win streak (-0.74%; Dow -1.21%, Nasdaq -0.89%); defense (LMT +14.9% YTD) and oil majors outperformed. Ceasefire 'tested' but holding; the 60-day extension MoU remains unsigned. Daily burn ~$150M. US KIA 13. Lebanon ~3,473 killed (+5 incl. a child).",
       "note": "Kuwait airport drone/missile strike kills 1 (Indian national), 63+ wounded; US strikes an Iranian tanker off Qeshm; House passes war-powers resolution 215-208; oil nears $100; S&P snaps a nine-day win streak (-0.74%); Lebanon ~3,473 (+5)."
+    },
+    {
+      "date": "2026-06-04",
+      "war_day": 97,
+      "brent": 96.70,
+      "wti": 95.17,
+      "gas": 4.24,
+      "sp500": 7584.31,
+      "sp500_change_pct": 0.41,
+      "nasdaq": 26831,
+      "dow": 51562,
+      "daily_cost_millions": 110,
+      "total_cost_billions": 72,
+      "targets_struck": 35526,
+      "us_kia": 13,
+      "us_wia": 527,
+      "iranian_killed": 3468,
+      "lebanese_killed": 3473,
+      "displaced": 1200000,
+      "flights_cancelled": 8000,
+      "children_killed": 200,
+      "headline": "Day 97 (June 4, Thursday) — DE-ESCALATION TONE AS A US-MEDIATED ISRAEL-LEBANON CEASEFIRE IS ANNOUNCED (IMMEDIATELY TESTED): CENTCOM intercepted an additional wave of Iranian drones aimed at US forces in Kuwait (all intercepted, no US casualties); Iran's navy claimed it struck a US CENTCOM facility — CENTCOM denied it. No new US strike on Iranian territory. DIPLOMACY: Iran's FM Araghchi said talks made 'no progress' but channels stay open; Hezbollah rejected the Lebanon ceasefire terms (AP); Treasury Secretary Bessent testified to the House. MARKETS: oil eased (Brent ~$96.70 −1.1%, WTI ~$95.17) on ceasefire hopes; the S&P 500 rebounded +0.41% to 7,584.31 and the Dow hit a record 51,561.93 (+1.73%) on a value rotation out of chips (Nasdaq −0.09%); AAA gas eased to $4.241. US weekly jobless claims hit their highest since the war began. Daily burn ~$110M. US KIA 13; tracked-category casualties unchanged.",
+      "note": "US-mediated Israel-Lebanon ceasefire announced (immediately tested; Hezbollah rejects terms); CENTCOM intercepts an additional Iranian drone wave at Kuwait (no US losses); Iran navy's US-facility strike claim denied; oil eases (Brent ~$96.70), S&P +0.41% to 7,584.31, Dow record 51,561.93; gas $4.241; US jobless claims at a war-high."
     }
   ],
   "toll": {
