@@ -1,43 +1,43 @@
 {
-  "last_updated": "2026-06-03",
-  "war_day": 96,
-  "timestamp_label": "LAST UPDATED: JUN 04, 2026 00:46 ET",
+  "last_updated": "2026-06-04",
+  "war_day": 97,
+  "timestamp_label": "LAST UPDATED: JUN 04, 2026 21:06 ET",
   "cost": {
     "brent": {
-      "price": 97.98,
-      "label": "Brent crude — Wed Jun 3 intraday ~$97.98 (TT News)",
-      "change": "▲ +$3.00 / +3.16% vs Jun 1 ($94.98); +2.1% on the day (TT News) — a third straight session higher; oil up ~10% on the week. ~+38% above the Feb 27 baseline.",
-      "tooltip": "Brent climbed a third straight session as the US and Iran traded strikes around the Strait of Hormuz — TT News put the front-month near $97.98 (+2.1%) intraday June 3. SOURCE SPREAD (not picked silently): TradingEconomics $96.89, Fortune spot $101.36 (8:45am ET); the official settle was pending at compile time. Baseline Feb 27 $71.00 — Day 96 war premium ≈ +$26.98 (+38%); oil is up ~10% on the week but still well below the war's ~$126 April peak. Sources: TT News, TradingEconomics, Fortune."
+      "price": 96.70,
+      "label": "Brent crude — Thu Jun 4 intraday ~$96.70 (eased)",
+      "change": "▼ −$1.28 / −1.3% vs Jun 3 ($97.98); ~−1.1% on the day — eased on Israel-Lebanon ceasefire hopes after the early-June Gulf-escalation spike. ~+36% above the Feb 27 baseline.",
+      "tooltip": "Brent slipped ~1.1% intraday June 4 to ~$96.70 as a US-mediated Israel-Lebanon ceasefire was announced (though immediately tested) and the early-June risk premium partly unwound; CNBC's June 3 settle was $97.81. Baseline Feb 27 $71.00 — Day 97 war premium ≈ +$25.70 (+36%); still well below the war's ~$126 April-30 peak. Sources: TheStreet/Trading Economics (June 4 intraday), CNBC (June 3 settle)."
     },
     "wti": {
-      "price": 95.18,
-      "label": "WTI crude — Wed Jun 3 above $95 (TradingEconomics)",
-      "change": "▲ vs Jun 1 ($92.54) — rose for a third session on the Hormuz risk premium; sixth straight weekly US crude drawdown.",
-      "tooltip": "NYMEX WTI rose for a third straight session, trading above $95 on June 3 (TradingEconomics) as US-Iran exchanges around the Strait of Hormuz lifted the risk premium. US commercial crude inventories drew for a sixth straight week (−6.8M to −7.97M bbl). Baseline Feb 27 $66.50 — Day 96 war premium ≈ +$28.68 (+43%). Sources: TradingEconomics, EIA."
+      "price": 95.17,
+      "label": "WTI crude — Thu Jun 4 ~$95.17 (eased)",
+      "change": "▼ ~−0.9% on the day to ~$95.17 — eased from June 3's $96.02 settle on Israel-Lebanon ceasefire hopes after a three-session rally.",
+      "tooltip": "NYMEX WTI eased ~0.9% intraday June 4 to ~$95.17 after a three-session, Gulf-escalation-driven rally (June 3 settle $96.02) as ceasefire hopes and a partial unwind of the risk premium pressured crude. US commercial crude inventories had drawn for a sixth straight week (−7.97M bbl). Baseline Feb 27 $66.50 — Day 97 war premium ≈ +$28.67 (+43%). Sources: TheStreet/Trading Economics, CNBC, EIA."
     },
     "gas": {
-      "price": 4.29,
-      "label": "AAA national average, regular unleaded — June 2, 2026 (Day 95; held into Day 96)",
-      "change": "▼ −3.2¢ vs June 1 ($4.322); +$1.30 vs $2.99 Feb 28 baseline. Pump prices eased off the May peak even as crude rebounded toward $100.",
-      "tooltip": "AAA gasprices.aaa.com national average $4.29 on Tuesday June 2 (Day 95), down from $4.322 (June 1) and well off the May 6 peak of $4.536 (Fox Business). ~+43% above the $2.99 Feb 28 baseline; the May peak stayed below AAA's all-time record of $5.016 (June 14, 2022). Five states (AK, HI, NV, OR, WA) remain above $5; California is highest near $6.16. GasBuddy's Patrick De Haan: 'We won't see those [peak] levels until potentially mid-to-late 2027'; relief runs 2-3 weeks behind crude. Brown University (Costs of War): Americans have spent ~$401 more per household on gas and diesel since the war began. Source: gasprices.aaa.com."
+      "price": 4.24,
+      "label": "AAA national average, regular unleaded — June 4, 2026 (Day 97)",
+      "change": "▼ −2.0¢ vs June 3 ($4.261); +$1.25 vs $2.99 Feb 28 baseline. Pump prices kept easing as crude slipped on ceasefire hopes.",
+      "tooltip": "AAA gasprices.aaa.com national average $4.241 on Thursday June 4 (Day 97), down from $4.261 (June 3) and the $4.29 June 2 print. ~+42% above the $2.99 Feb 28 baseline (NBC tracking cites a ~40% rise since the war began); the May 6 peak of $4.536 (Fox Business) stayed below AAA's all-time record of $5.016 (June 14, 2022). Five states (AK, HI, NV, OR, WA) remain above $5; California is highest near $5.82; diesel ~$5.45. Brown University (Costs of War): Americans have spent ~$401 more per household on gas and diesel since the war began. Source: gasprices.aaa.com."
     },
     "sp500": {
-      "value": 7553.47,
-      "label": "S&P 500 — Wed Jun 3 close (Day 96): −0.74%, snapped a nine-day win streak",
-      "change": "▼ −0.74% to ~7,553 — broke a nine-day record-setting win streak as Gulf escalation lifted oil and Treasury yields; Dow −620.72 (−1.21%), Nasdaq −0.89%.",
-      "tooltip": "S&P 500 fell 0.74% on June 3, snapping a NINE-DAY record-setting winning streak (CNN framed it as the longest since 2004; CNBC said a potential 10th straight day would be the longest in 'more than three decades' — use 'nine-day,' do not assert 'three decades' as fact). Dow Jones −620.72 (−1.21%), Nasdaq Composite −0.89%. The reversal came as Iran's strike on Kuwait International Airport and renewed Bahrain attacks pushed Brent +2.1% toward $98 and lifted Treasury yields. War-beneficiaries led: defense (LMT +14.9% YTD) and oil majors (XOM/CVX ~+11% during the crisis); airlines and cruise lines fell. After hours, weak guidance sank Broadcom −13% and CrowdStrike −10%. The prior session (June 2) set a record 7,609.78 (+0.13%). Sources: CNBC, TheStreet, CNN."
+      "value": 7584.31,
+      "label": "S&P 500 — Thu Jun 4 close (Day 97): +0.41% to 7,584.31, partial rebound",
+      "change": "▲ +0.41% to 7,584.31 — a partial bounce a day after the nine-day streak snapped; Dow record close 51,561.93 (+1.73%) on a value rotation out of chips; Nasdaq −0.09%.",
+      "tooltip": "S&P 500 rose 0.41% to 7,584.31 on June 4, recovering part of June 3's 0.74% drop. The Dow surged 1.73% to a record close 51,561.93 — led by UnitedHealth, JPMorgan and Walmart — as money rotated out of semiconductors after Broadcom's ~−15% post-earnings drop; the Nasdaq Composite slipped 0.09% to 26,830.96. Drivers: a US-mediated Israel-Lebanon ceasefire (announced but immediately tested; Hezbollah rejected the terms) and easing oil set a de-escalation tone, while US weekly jobless claims hit their highest level since the war began (AP). The June 3 session had snapped a nine-day record-setting win streak; June 2 set a record 7,609.78. Sources: CNBC, TheStreet, AP."
     },
     "daily_cost": {
-      "value": 150,
-      "label": "Daily War Burn (CSIS ceasefire band, $M) — Day 96",
-      "change": "Ticked up to ~$150M/day on June 3's renewed exchanges (tanker Hellfire strike, drone shootdowns, Kuwait/Bahrain intercepts) — still in the CSIS ceasefire band, far below the major-combat $500M-$2B/day.",
-      "tooltip": "The current ceasefire-period daily burn is ~$150M (CSIS/Cancian band), elevated from the ~$95M quiet floor by June 3's kinetic exchanges — a US Hellfire strike on an Iranian tanker, three one-way attack drones downed, and interceptor expenditure around Kuwait/Bahrain. CONTEXT: the Pentagon's own accrual methodology runs ~$1B/day (first six days $11.3B, ~$1B/day thereafter), which would imply ~$100B over the war versus the $29B official cumulative — the two Pentagon framings do not reconcile (see total cost). Burn could re-spike toward the kinetic-phase $500M-$2B/day if Trump orders resumed strikes, or step down if an MoU is signed and the blockade unwinds. Sources: CSIS, Pentagon."
+      "value": 110,
+      "label": "Daily War Burn (CSIS ceasefire band, $M) — Day 97",
+      "change": "Eased to ~$110M/day as June 4 saw only the interception of an Iranian drone wave (no US offensive strike) — base-protection lift + two-CSG sustainment keep it above the ~$95M quiet floor, far below the major-combat $500M-$2B/day.",
+      "tooltip": "The Day-97 ceasefire-period burn is ~$110M (CSIS/Cancian band) — down from June 3's ~$150M, as the day's kinetic activity was limited to intercepting an additional Iranian drone wave aimed at US forces in Kuwait (no US offensive strike booked) atop blockade-legacy O&M, base-protection lift and Lincoln/Bush CSG sustainment. CONTEXT: the Pentagon's own accrual methodology runs ~$1B/day (first six days $11.3B, ~$1B/day thereafter), which would imply ~$100B over the war versus the $29B official cumulative — the two Pentagon framings do not reconcile (see total cost). Burn could re-spike toward the kinetic-phase $500M-$2B/day if Trump orders resumed strikes, or step down if an MoU is signed and the blockade unwinds. Sources: CSIS, Pentagon."
     },
     "total_cost": {
       "value": 29,
-      "label": "Cumulative US war cost (Pentagon official, $B) — Day 96",
-      "change": "Pentagon official ~$29B (Acting Comptroller Hurst, May 12) — the last official figure; any Day-96 extrapolation beyond $29B is UNVERIFIED (no Pentagon update since May 12).",
-      "tooltip": "Last official Pentagon figure ~$29B direct military (Acting Comptroller Jules W. Hurst III, May 12 House Approps; up from $25B munitions-only) — excludes base-repair and force-flow costs; NO update since May 12, so any higher Day-96 number is UNVERIFIED. Reported separately (do not merge): the broader 'Iran War Cost' portal estimate exceeds $100B including regional/maintenance; independent estimates include Semler/SPRI ~$72B and Penn Wharton ~$42.5B; Harvard's Linda Bilmes projects ~$1T lifetime. Separately, the consumer fuel burden (ITEP, May 31) ran ~$46.5B / $347.72 per household. Sources: Pentagon (Hurst), Brown Costs of War, ITEP."
+      "label": "Cumulative US war cost (Pentagon official, $B) — Day 97",
+      "change": "Pentagon official ~$29B (Acting Comptroller Hurst, May 12) — the last official figure; any Day-97 extrapolation beyond $29B is UNVERIFIED (no Pentagon update since May 12).",
+      "tooltip": "Last official Pentagon figure ~$29B direct military (Acting Comptroller Jules W. Hurst III, May 12 House Approps; up from $25B munitions-only) — excludes base-repair and force-flow costs; NO update since May 12, so any higher Day-97 number is UNVERIFIED. Reported separately (do not merge): the broader 'Iran War Cost' portal estimate exceeds $100B including regional/maintenance; independent estimates include Semler/SPRI ~$72B and Penn Wharton ~$42.5B; Harvard's Linda Bilmes projects ~$1T lifetime. Separately, the consumer fuel burden (ITEP, May 31) ran ~$46.5B / $347.72 per household. Sources: Pentagon (Hurst), Brown Costs of War, ITEP."
     }
   },
   "history": [
@@ -1848,62 +1848,85 @@
       "children_killed": 200,
       "headline": "Day 96 (June 3, Wednesday) — KINETIC EXCHANGES INTENSIFY; HOUSE REBUKES TRUMP 215-208: an Iranian drone/missile strike on Kuwait International Airport killed one Indian national and wounded 63+ (a terminal was briefly closed); the US struck an Iranian oil tanker off Qeshm; Iran's missiles/drones at Kuwait and Bahrain were largely intercepted. The US House passed an Iran war-powers resolution 215-208 — the first successful such vote (four Republicans crossed; 60% public disapproval per PBS/NPR/Marist). MARKETS: oil climbed toward $100 (Brent ~$97.98, +2.1%) and the S&P 500 snapped a nine-day record-setting win streak (-0.74%; Dow -1.21%, Nasdaq -0.89%); defense (LMT +14.9% YTD) and oil majors outperformed. Ceasefire 'tested' but holding; the 60-day extension MoU remains unsigned. Daily burn ~$150M. US KIA 13. Lebanon ~3,473 killed (+5 incl. a child).",
       "note": "Kuwait airport drone/missile strike kills 1 (Indian national), 63+ wounded; US strikes an Iranian tanker off Qeshm; House passes war-powers resolution 215-208; oil nears $100; S&P snaps a nine-day win streak (-0.74%); Lebanon ~3,473 (+5)."
+    },
+    {
+      "date": "2026-06-04",
+      "war_day": 97,
+      "brent": 96.70,
+      "wti": 95.17,
+      "gas": 4.24,
+      "sp500": 7584.31,
+      "sp500_change_pct": 0.41,
+      "nasdaq": 26831,
+      "dow": 51562,
+      "daily_cost_millions": 110,
+      "total_cost_billions": 72,
+      "targets_struck": 35526,
+      "us_kia": 13,
+      "us_wia": 527,
+      "iranian_killed": 3468,
+      "lebanese_killed": 3473,
+      "displaced": 1200000,
+      "flights_cancelled": 8000,
+      "children_killed": 200,
+      "headline": "Day 97 (June 4, Thursday) — DE-ESCALATION TONE AS A US-MEDIATED ISRAEL-LEBANON CEASEFIRE IS ANNOUNCED (IMMEDIATELY TESTED): CENTCOM intercepted an additional wave of Iranian drones aimed at US forces in Kuwait (all intercepted, no US casualties); Iran's navy claimed it struck a US CENTCOM facility — CENTCOM denied it. No new US strike on Iranian territory. DIPLOMACY: Iran's FM Araghchi said talks made 'no progress' but channels stay open; Hezbollah rejected the Lebanon ceasefire terms (AP); Treasury Secretary Bessent testified to the House. MARKETS: oil eased (Brent ~$96.70 −1.1%, WTI ~$95.17) on ceasefire hopes; the S&P 500 rebounded +0.41% to 7,584.31 and the Dow hit a record 51,561.93 (+1.73%) on a value rotation out of chips (Nasdaq −0.09%); AAA gas eased to $4.241. US weekly jobless claims hit their highest since the war began. Daily burn ~$110M. US KIA 13; tracked-category casualties unchanged.",
+      "note": "US-mediated Israel-Lebanon ceasefire announced (immediately tested; Hezbollah rejects terms); CENTCOM intercepts an additional Iranian drone wave at Kuwait (no US losses); Iran navy's US-facility strike claim denied; oil eases (Brent ~$96.70), S&P +0.41% to 7,584.31, Dow record 51,561.93; gas $4.241; US jobless claims at a war-high."
     }
   ],
   "toll": {
     "targets_struck": {
       "value": 35526,
       "label": "Cumulative targets struck (US+IL on Iran/proxies)",
-      "note": "Day 96: Bumped +3 to reflect the June 2-3 US self-defense strikes on an Iranian military ground-control station at Qeshm Island, the June 3 Hellfire strike on an Iranian oil tanker off Qeshm, and associated one-way attack-drone shootdowns. CENTCOM's narrower count of strikes inside Iran exceeds 13,000 over the six weeks of major combat; this counter tracks the broader combined US+Israeli total. The US ended its naval blockade of Iranian ports May 29; CENTCOM tankers-disabled cum = 5. Adm. Brad Cooper prior reference: 'nearly 2,000' command-and-control strikes.",
+      "note": "Day 97: Unchanged at 35,526 — NO new US strikes on Iranian territory June 4; the day's kinetic activity was limited to intercepting an additional Iranian drone wave aimed at US forces in Kuwait (all intercepted). The most recent additions were the June 2-3 US self-defense strikes on an Iranian military ground-control station at Qeshm Island and the Hellfire strike on an Iranian oil tanker off Qeshm. CENTCOM's narrower count of strikes inside Iran exceeds 13,000 over the six weeks of major combat; this counter tracks the broader combined US+Israeli total. The US ended its naval blockade of Iranian ports May 29; CENTCOM tankers-disabled cum = 5. Adm. Brad Cooper prior reference: 'nearly 2,000' command-and-control strikes.",
       "tooltip": "CENTCOM/IDF strikes since Feb 28. Includes 900+ first-12-hour Operation Epic Fury strikes (US+IL). Excludes Iranian retaliation. CENTCOM blockade tally on Day 93: 115 commercial vessels redirected (May 29 carry; ~100 May 23), 5 disabled (Gambia-flagged ship +1 on May 31), 26 humanitarian permitted through under the naval blockade. Trump's May 29 Situation Room announcement that the blockade 'will now be lifted' has NOT been operationalized — over the weekend Trump 'toughened the terms' (NYT) and asked for 'several amendments' (Axios). Atlantic Council (May 15): US has expended >1,000 JASSMs, >1,000 Tomahawks, ~1,000 Patriot interceptors, ~45% of Precision Strike Missile stockpile and ~50% of THAAD interceptor stockpile. Cumulative US aircraft losses/damage: 42 (CRS via Stars and Stripes May 20) — would become 43-44 if the May 27 Bloomberg report of 2 MQ-9 Reapers hit at Ali Al Salem is confirmed. Tomahawk usage updates: WaPo reported >850 TLAMs in the first month, WSJ later updated to >1,000; Stars and Stripes: 'has fired more Tomahawk missiles during Operation Epic Fury than in any other military campaign in history,' ahead of Operation Iraqi Freedom (802) and Desert Storm (288) (CSIS, Cancian & Park).",
       "color": "var(--strike-us)"
     },
     "us_kia": {
       "value": 13,
       "label": "US service-member KIA",
-      "note": "Day 96: Unchanged at 13. No US KIA in the June 2-3 exchanges — the Qeshm strikes drew no US losses, and the Iranian missile/drone attacks on Kuwait and Bahrain were intercepted; the June 3 Kuwait airport strike killed an Indian national, not a US service member. 57-day streak of zero-combat-KIA days since the 4/7 ceasefire. CENTCOM/DCAS one-page also shows 14 (including 1 non-combat death).",
+      "note": "Day 97: Unchanged at 13. No US KIA June 4 — the additional Iranian drone wave aimed at US forces in Kuwait was fully intercepted (CENTCOM: 'no Americans or assets harmed'), and there was no US strike on Iranian territory. 58-day streak of zero-combat-KIA days since the 4/7 ceasefire. CENTCOM/DCAS one-page also shows 14 (including 1 non-combat death).",
       "tooltip": "Includes 7 servicemembers killed in opening Iranian retaliation wave + 6 USAF airmen in KC-135 crash in western Iraq. Composition: 6 USAF crew (March 13 KC-135 crash western Iraq, CENTCOM ruled non-hostile mid-air collision); 6 Kuwait Camp Arifjan drone attack March 1; 1 Saudi Arabia. US MIA 0. CENTCOM 13 KIA + 1 non-combat death; DCAS one-page shows 14. 10 civilian sailors of various nationalities killed in Hormuz-related incidents. Explicit EXECUTIVE CONFIRMATION by President Trump at Arlington National Cemetery May 25: 'In Operation Epic Fury, we lost 13 wonderful souls.' No US KIA in the May 30–31 weekend; the May 27 Iranian ballistic missile at Ali Al Salem (Kuwait) caused ~5 minor injuries per Bloomberg disclosure May 30 but no KIA.",
       "color": "var(--civilian)"
     },
     "us_wia": {
       "value": 527,
       "label": "US WIA (independent est.)",
-      "note": "Day 96: Held at 527 (independent estimate). No new US wounded in the June 2-3 exchanges — the Kuwait and Bahrain missile/drone attacks were intercepted with no reported US casualties. Pentagon/DCAS official cumulative as of May 26: 409 WIA (~90% returned to duty); manifest §1a cites the CENTCOM-confirmed figure as ~365 (303 as of March 28), a narrower official basis than this independent 520-538 range. The Intercept alleges the official count undercounts by ~200+ non-hostile injuries.",
+      "note": "Day 97: Held at 527 (independent estimate). No new US wounded June 4 — the additional Iranian drone wave aimed at US forces in Kuwait was intercepted with no reported US casualties (CENTCOM: 'no Americans or assets harmed'). Pentagon/DCAS official cumulative as of May 26: 409 WIA (~90% returned to duty); manifest §1a cites the CENTCOM-confirmed figure as ~365 (303 as of March 28), a narrower official basis than this independent 520-538 range. The Intercept alleges the official count undercounts by ~200+ non-hostile injuries.",
       "tooltip": "Pentagon/DCAS official: 409 WIA as of May 26 (~90% returned to duty); 15 wounded were removed from the count on April 21 without explanation. Independent estimates (The Intercept / Wikipedia 2026 Iran war) range 520–538. The Intercept alleges the Pentagon figure undercounts by ~200+ non-hostile injuries. Manifest §1a range: ~140 (Pentagon, March 13) vs ~365 (CENTCOM, later trackers); last public CENTCOM figure 303 as of March 28. May 27 Ali Al Salem (Kuwait): a US official told CBS that 4 US service members + 3 contractors (7 total) suffered minor injuries from debris when Iran's Fateh-110 was intercepted by Kuwaiti air defenses; all returned to duty within 24 hours. Bloomberg (May 30) earlier cited ~5 wounded plus one MQ-9 Reaper destroyed and another seriously damaged (~$30M each). DISCREPANCY: GlobalSecurity.org Day-91 said 'no…US military casualties or asset damage' for the same intercept — treat as UNRESOLVED.",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
       "value": 3468,
       "label": "Iranian dead (Iran MoH / Foundation of Martyrs, Apr 19)",
-      "note": "Day 96: No official Iran MoH update — figure held at 3,468 (Apr 19 Foundation of Martyrs count, now ~45 days old / effectively FROZEN). No verified new Iranian deaths in the June 2-3 exchanges, and none published for the June 2-3 Qeshm strikes (Iran issued no casualty tabulation). HRANA (US-based) documents 3,636+ (1,221 military, 1,701 civilian, 714 unclassified). Hengaw: 6,620 military killed (April 8 estimate; highest independent count). The gap between Iran MoH 3,468 and the independent counts remains politically consequential — the government continues to gate casualty data.",
+      "note": "Day 97: No official Iran MoH update — figure held at 3,468 (Apr 19 Foundation of Martyrs count, now ~46 days old / effectively FROZEN). No verified new Iranian deaths June 4, and none published for the June 2-3 Qeshm strikes (Iran issued no casualty tabulation). HRANA (US-based) documents 3,636+ (1,221 military, 1,701 civilian, 714 unclassified). Hengaw: 6,620 military killed (April 8 estimate; highest independent count). The gap between Iran MoH 3,468 and the independent counts remains politically consequential — the government continues to gate casualty data.",
       "tooltip": "Iran's Foundation of Martyrs cumulative total = 3,468 as of Apr 19 (7 infants, 376 children, 496 women; 26,500+ injured). CONFLICTING RANGE (per manifest §9, do not synthesize): 3,468 (Iran MoH / Foundation of Martyrs — FROZEN since April 19 due to documented Iranian government information suppression) / 3,636+ (HRANA: 1,701 civ / 1,221 mil / 714 unclassified) / ~6,620 military KIA in Kurdish provinces by April 8 (Hengaw) / 7,650 cumulative (Hengaw 40-day report incl. 1,030 civilians) / 4,700+ security forces (Iran International) / 6,000+ IRGC (IDF claim). Iranian Red Crescent (May 22): aid workers rescued more than 7,200 people from rubble across US/Israeli attacks since the war began. The true toll is higher (per Hengaw, HRANA) given documented Iranian government concealment.",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
       "value": 3473,
-      "label": "Lebanese dead (Lebanese MoPH, June 3; +5 incl. a child)",
-      "note": "Day 96: Lebanese Ministry of Public Health cumulative reported at 3,468 killed / 10,577 wounded for March 2-June 2 (an upward revision from the 3,433 first logged June 2); +5 killed June 3, including a child, in Burj Shemali, Ebba, and Tibnin → ~3,473 cumulative. Jabal Amel Hospital in Tyre was damaged by an Israeli strike (June 2); MSF flagged a strike near Hiram Hospital the prior day. 127+ healthcare workers killed war-to-date.",
+      "label": "Lebanese dead (Lebanese MoPH, June 3; held June 4)",
+      "note": "Day 97: Held at ~3,473 — an Israeli drone strike on a vehicle on the Zefta-Kfarwa Road wounded several June 4 but no new Lebanese fatalities were confirmed in-window (the nine killed in overnight Israeli air raids were Palestinians, outside this counter), and a US-mediated Israel-Lebanon ceasefire was announced (immediately tested; Hezbollah rejected the terms). PRIOR — Day 96: Lebanese Ministry of Public Health cumulative reported at 3,468 killed / 10,577 wounded for March 2-June 2 (an upward revision from the 3,433 first logged June 2); +5 killed June 3, including a child, in Burj Shemali, Ebba, and Tibnin → ~3,473 cumulative. Jabal Amel Hospital in Tyre was damaged by an Israeli strike (June 2); MSF flagged a strike near Hiram Hospital the prior day. 127+ healthcare workers killed war-to-date.",
       "tooltip": "Lebanon war cumulative since March 2: ~3,473 killed / 10,577 wounded / 127+ healthcare workers killed (Lebanese Ministry of Public Health; the June-2 cumulative was revised up to 3,468, then +5 June 3). MoPH breakdown war-to-date: ≥211 children, nearly 300 women among the dead. Internal Hezbollah sources say 1,000+ fighters killed; IDF claims 1,700 killed. Israel (since March 2): 57 citizens/residents killed (28 soldiers incl. one off-duty and one friendly-fire, 28 civilians, 1 MoD contractor); 8,970+ injured incl. 1,191 military (Wikipedia casualties, June 3). Iraq: at least 118 killed; Iraqi Kurdistan hit by 196+ drone/missile attacks.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
       "value": 1200000,
       "label": "Displaced (Lebanon, UNHCR-based)",
-      "note": "Day 96: Held at >1.2 million displaced in Lebanon (IOM/UN >1M; CSMonitor ~1.2M); UNHCR ~3.2M inside Iran (~1M households); WFP ~1.24M food-insecure. Continued Israeli strikes around Tyre (Burj Shemali, Ebba, Tibnin) and southern Lebanon sustain displacement pressure. Lebanon: 140,000+ in collective shelters; 147,823 crossed to Syria since March 1; ~68,000 Iranians fled to Türkiye, ~30,000 to Afghanistan.",
+      "note": "Day 97: Held at >1.2 million displaced in Lebanon (IOM/UN >1M; CSMonitor ~1.2M); UNHCR ~3.2M inside Iran (~1M households); WFP ~1.24M food-insecure. Continued Israeli strikes in southern Lebanon (a Zefta-Kfarwa road strike June 4) sustain displacement pressure even as a US-mediated Israel-Lebanon ceasefire was announced (immediately tested). Lebanon: 140,000+ in collective shelters; 147,823 crossed to Syria since March 1; ~68,000 Iranians fled to Türkiye, ~30,000 to Afghanistan.",
       "tooltip": "UNHCR / Lebanese government figures. IOM 1M+ displaced in Lebanon; 140,000+ in collective shelters; 147,823 crossed to Syria since March 1; CSMonitor ~1.2M as of May 7. UNHCR ~3.2M inside Iran (~1M households). ~68,000 Iranians fled to Türkiye, ~30,000 to Afghanistan. Cross-border into Syria: 306,888 Syrians + 64,865 Lebanese (May 2 baseline, carry-forward). 40,000+ homes destroyed in southern Lebanon; cumulative evacuation orders cover ~1,470 km² (~14% of national territory).",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 8000,
       "label": "Cumulative flights cancelled (Gulf hubs, est.)",
-      "note": "Day 96: Kuwait International Airport was struck June 3 — a terminal was severely damaged and the airport briefly closed before Kuwait Airways and Jazeera Airways resumed operations from a different terminal the same day. Aggregate held at ~8,000+. KLM Riyadh/Dammam/Dubai suspensions extended to June 28; Lufthansa Group Tel Aviv to June 30, Dubai to July 11 (The National, May 12).",
+      "note": "Day 97: Kuwait International Airport's Terminal 1 — heavily damaged in the June 3 Iranian strike — stayed partially closed for repairs June 4 while Kuwait Airways and Jazeera Airways ran limited operations from an alternate terminal (the airport had only reopened June 1 after a months-long war closure). Aggregate held at ~8,000+. KLM Riyadh/Dammam/Dubai suspensions extended to June 28; Lufthansa Group Tel Aviv to June 30, Dubai to July 11 (The National, May 12).",
       "tooltip": "FlightAware running figures from war's first weeks: DXB ~4,000 / DOH 2,000+ / AUH 1,000+. Aggregate ~8,000+ remains conservative. AAA holiday-travel survey: 3.66M Americans projected to fly for Memorial Day weekend — a record despite ongoing disruption. Methodological note: 'flights affected' captures cancellations + diversions + multi-hour holds + reroutes + overflight disruptions across all regional FIRs. Gulf carriers continue suspended/rerouted ops; Dubai International at limited capacity.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
       "value": 200,
       "label": "Children killed in Iran (UNICEF Mar 12 baseline + updates)",
-      "note": "Day 96: +1 child killed in Lebanon June 3 (Burj Shemali / Ebba / Tibnin). This counter tracks Iran (UNICEF Mar 12 baseline 200, unchanged June 3). Combined regional child toll is 413+ per Time (April): 248 Iran + 165 Lebanon. Iran MoH 376 children dead (Apr 19 cumulative; STALE ~45 days); Lebanese MoPH ≥211 children war-to-date.",
+      "note": "Day 97: No new child fatalities confirmed in-window June 4 (the Zefta-Kfarwa strike wounded several; the nine overnight dead were Palestinians, outside this Iran-focused counter). This counter tracks Iran (UNICEF Mar 12 baseline 200, unchanged). Combined regional child toll is 413+ per Time (April): 248 Iran + 165 Lebanon. Iran MoH 376 children dead (Apr 19 cumulative; STALE ~45 days); Lebanese MoPH ≥211 children war-to-date.",
       "tooltip": "Multiple methodologies; UNICEF figure is the most-cited international baseline. Iran MoH (via Al Jazeera tracker; STALE since Apr 19): 376 children killed (incl. 7 infants), 496 women. HRANA: ≥254 children among Iranian civilian dead (Apr 7). Lebanese MoPH: ≥210-211 children among the dead (war-to-date breakdown May 19); 98+ children killed in Lebanon per manifest. UNICEF (Mar 12): >1,100 children killed/injured regionally (200 Iran + 91 Lebanon + 4 Israel + 1 Kuwait subset) — STALE. Israeli child casualties tracked separately.",
       "color": "var(--civilian)"
     }

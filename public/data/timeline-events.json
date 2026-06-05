@@ -8278,5 +8278,50 @@
     "source": "Al Jazeera / NPR / Reuters / Manifest §5",
     "time": "Day 96",
     "title": "Trump: Iran has agreed not to have a nuclear weapon"
+  },
+  {
+    "category": "military",
+    "data_point": "CENTCOM: additional Iranian drone wave at US forces in Kuwait intercepted, 'no Americans or assets harmed'; Iran navy claims a US CENTCOM facility hit — CENTCOM denies (UNVERIFIED)",
+    "date": "2026-06-04",
+    "description": "CENTCOM said an additional wave of Iranian drones attempted to target US forces in Kuwait on June 4 but was intercepted, with no Americans or assets harmed. Iran's navy separately claimed it had targeted a US CENTCOM facility 'responsible for recent US actions'; CENTCOM denied the claim. No new US strike on Iranian territory was reported in-window.",
+    "source": "CENTCOM / Iran Navy / Manifest §2",
+    "time": "Day 97",
+    "title": "CENTCOM intercepts new Iranian drone wave over Kuwait"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "US-mediated Israel-Lebanon ceasefire announced (Hezbollah to halt fire, withdraw north of the Litani) — immediately tested; Hezbollah rejects the terms (AP)",
+    "date": "2026-06-04",
+    "description": "The US announced that Israel and Lebanon had agreed to implement a ceasefire — an end to Hezbollah fire, a Hezbollah withdrawal south of the Litani, and security zones under exclusive Lebanese control, with negotiations to resume later in the month. It was immediately tested: Israeli strikes continued and Hezbollah had not accepted the terms, rejecting the latest agreement per AP.",
+    "source": "AP / Reuters / Manifest §4",
+    "time": "Day 97",
+    "title": "US announces Israel-Lebanon ceasefire — immediately tested"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Iran FM Araghchi: talks made 'no progress' but channels open; defends Gulf-state attacks as self-defense; Ghalibaf warns of 'confrontation' if Israel keeps striking Lebanon",
+    "date": "2026-06-04",
+    "description": "Iran's Foreign Minister Abbas Araghchi said negotiations had made 'no progress' but that channels remained open, and he defended the attacks on Gulf states as self-defense. Chief negotiator Mohammad Bagher Ghalibaf warned Iran could abandon talks and move to confrontation if Israeli attacks on Lebanon continued. The tentative 60-day US-Iran extension framework remained unsigned.",
+    "source": "Al Jazeera / Jerusalem Post / Manifest §4",
+    "time": "Day 97",
+    "title": "Araghchi: 'no progress' in talks, but channels stay open"
+  },
+  {
+    "category": "economic",
+    "data_point": "Oil eases (Brent ~$96.70 -1.1%, WTI ~$95.17 -0.9%); S&P +0.41% to 7,584.31; Dow record 51,561.93 (+1.73%); Nasdaq -0.09%; AAA gas $4.241; US jobless claims at a war-high",
+    "date": "2026-06-04",
+    "description": "Oil eased on Israel-Lebanon ceasefire hopes — Brent ~$96.70 (-1.1% intraday), WTI ~$95.17 (-0.9%). US equities were mixed in a value rotation out of chips: the S&P 500 rose 0.41% to 7,584.31, the Dow hit a record close 51,561.93 (+1.73%, led by UnitedHealth, JPMorgan and Walmart), and the Nasdaq slipped 0.09% to 26,830.96 after Broadcom's ~-15% drop. AAA national gas eased to $4.241; US weekly jobless claims hit their highest level since the war began.",
+    "source": "CNBC / TheStreet / AAA / AP / Manifest §5",
+    "time": "Day 97",
+    "title": "Oil eases on ceasefire hopes; Dow hits a record"
+  },
+  {
+    "category": "military",
+    "data_point": "Israeli drone strike on a vehicle on the Zefta-Kfarwa Road wounds several; at least nine Palestinians killed in overnight Israeli air raids",
+    "date": "2026-06-04",
+    "description": "Israeli strikes continued in southern Lebanon despite the announced ceasefire: a drone strike on a vehicle on the Zefta-Kfarwa Road wounded several. Separately, at least nine Palestinians were killed in Israeli air raids overnight.",
+    "source": "Al Jazeera / Lebanese MoPH / Manifest §1",
+    "time": "Day 97",
+    "title": "Israeli strikes continue in southern Lebanon"
   }
 ]
