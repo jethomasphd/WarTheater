@@ -8305,5 +8305,23 @@
     "source": "Al Jazeera / Jerusalem Post / Manifest §4",
     "time": "Day 97",
     "title": "Araghchi: 'no progress' in talks, but channels stay open"
+  },
+  {
+    "category": "economic",
+    "data_point": "Oil eases (Brent ~$96.70 -1.1%, WTI ~$95.17 -0.9%); S&P +0.41% to 7,584.31; Dow record 51,561.93 (+1.73%); Nasdaq -0.09%; AAA gas $4.241; US jobless claims at a war-high",
+    "date": "2026-06-04",
+    "description": "Oil eased on Israel-Lebanon ceasefire hopes — Brent ~$96.70 (-1.1% intraday), WTI ~$95.17 (-0.9%). US equities were mixed in a value rotation out of chips: the S&P 500 rose 0.41% to 7,584.31, the Dow hit a record close 51,561.93 (+1.73%, led by UnitedHealth, JPMorgan and Walmart), and the Nasdaq slipped 0.09% to 26,830.96 after Broadcom's ~-15% drop. AAA national gas eased to $4.241; US weekly jobless claims hit their highest level since the war began.",
+    "source": "CNBC / TheStreet / AAA / AP / Manifest §5",
+    "time": "Day 97",
+    "title": "Oil eases on ceasefire hopes; Dow hits a record"
+  },
+  {
+    "category": "military",
+    "data_point": "Israeli drone strike on a vehicle on the Zefta-Kfarwa Road wounds several; at least nine Palestinians killed in overnight Israeli air raids",
+    "date": "2026-06-04",
+    "description": "Israeli strikes continued in southern Lebanon despite the announced ceasefire: a drone strike on a vehicle on the Zefta-Kfarwa Road wounded several. Separately, at least nine Palestinians were killed in Israeli air raids overnight.",
+    "source": "Al Jazeera / Lebanese MoPH / Manifest §1",
+    "time": "Day 97",
+    "title": "Israeli strikes continue in southern Lebanon"
   }
 ]
