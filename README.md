@@ -5,9 +5,10 @@
 [![Live dashboard](https://img.shields.io/badge/dashboard-iranwar.ai-c1121f?style=flat-square)](https://iranwar.ai)
 [![Archive](https://img.shields.io/badge/briefing-archive-555?style=flat-square)](https://iranwar.ai/archive)
 [![Manuscript](https://img.shields.io/badge/manuscript-PDF-1d4ed8?style=flat-square)](ResearchData/IranWar.ai_Manuscript_05132026_PDF.pdf)
+[![Preprint](https://img.shields.io/badge/preprint-SocArXiv-e4562a?style=flat-square)](https://doi.org/10.31235/osf.io/su4ng_v1)
 [![Dataset](https://img.shields.io/badge/dataset-v1.0%20(1%2C653%20events)-2d6a4f?style=flat-square)](ResearchData/iranwar_event_dataset.csv)
 [![DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.20181794-1682d4?style=flat-square)](https://doi.org/10.5281/zenodo.20181794)
-[![Status](https://img.shields.io/badge/release-Zenodo%20live%20%E2%80%A2%20SSRN%20in%20process-2d6a4f?style=flat-square)](#release-status-zenodo--ssrn)
+[![Status](https://img.shields.io/badge/release-SocArXiv%20live%20%E2%80%A2%20Zenodo%20live-2d6a4f?style=flat-square)](#release-status-socarxiv--zenodo)
 
 ---
 
@@ -15,14 +16,15 @@
 
 This repository accompanies the manuscript:
 
-> **Thomas, J. E., Alpysbekova, A., Osei Mensah, E., Masara, N., & Sharma, P. (2026).**
-> *IranWar.ai: An Open-Source Event-Level Dataset of the 2026 US–Iran Conflict.*
+> **Thomas, J. E., Alpysbekova, A., Mensah, E. O., Masara, N., & Sharma, P. (2026).**
+> *IranWar.ai: An Open-Source Event-Level Dataset of the 2026 US–Iran Conflict.* SocArXiv. https://doi.org/10.31235/osf.io/su4ng_v1
 
 The paper is the primary reference for everything in this repository. **Before using the data, the dashboard, or any derived product, read the manuscript.** It documents the design, the two-phase AI-assisted production protocol, the confidence model, the known limitations, and — perhaps most importantly — the epistemic framing under which this work was released into a live information environment.
 
-- **Manuscript PDF (in repo):** [`ResearchData/IranWar.ai_Manuscript_05132026_PDF.pdf`](ResearchData/IranWar.ai_Manuscript_05132026_PDF.pdf)
+- **Preprint (SocArXiv — preferred citation):** **[doi.org/10.31235/osf.io/su4ng_v1](https://doi.org/10.31235/osf.io/su4ng_v1)**. The manuscript was submitted to SocArXiv and accepted. Cite this in academic work.
+- **Archival record (entire repo at release):** the Zenodo deposit — **[doi.org/10.5281/zenodo.20181794](https://doi.org/10.5281/zenodo.20181794)** — a versioned, immutable snapshot of the whole repository (data, code, manuscript) at the state of release.
+- **Manuscript PDF (in repo):** [`ResearchData/IranWar.ai_Manuscript_05132026_PDF.pdf`](ResearchData/IranWar.ai_Manuscript_05132026_PDF.pdf) — convenience copy.
 - **Editable source (DOCX):** [`ResearchData/IranWar.ai_Manuscript_05132026.docx`](ResearchData/IranWar.ai_Manuscript_05132026.docx)
-- **Preferred citable copy:** the Zenodo-indexed release — **[doi.org/10.5281/zenodo.20181794](https://doi.org/10.5281/zenodo.20181794)**. Please cite this DOI in academic work; the in-repo PDF is provided as a convenience copy.
 
 > *"The flood we have described is dual-layered. Its structural layer is largely a byproduct of how information now circulates; its strategic layer is something actors make on purpose. Transparent datasets are a meaningful counter-technology against the structural layer. Against the strategic layer, transparency is necessary but insufficient and must be paired with interpretive expertise."*
 > — Manuscript, §10
@@ -42,15 +44,15 @@ Every layer of this stack is in the public repository. There is no private compa
 
 ---
 
-## Release status: Zenodo & SSRN
+## Release status: SocArXiv & Zenodo
 
 | Channel | Status | Notes |
 |---|---|---|
+| **SocArXiv** | **Live — preprint** | DOI: **[10.31235/osf.io/su4ng_v1](https://doi.org/10.31235/osf.io/su4ng_v1)**. The manuscript was submitted to SocArXiv and accepted. **This is the preferred citation target.** |
+| **Zenodo** | **Live — v1.0** | DOI: **[10.5281/zenodo.20181794](https://doi.org/10.5281/zenodo.20181794)**. Versioned deposit with long-term archival and an immutable content hash — a snapshot of the **entire repository** (data, code, manuscript) at the state of release. Cite this for the repository/dataset as released. |
 | **GitHub** (this repo) | **Live** | Continuously updated; the canonical working copy. |
-| **Zenodo** | **Live — v1.0** | DOI: **[10.5281/zenodo.20181794](https://doi.org/10.5281/zenodo.20181794)**. Versioned deposit with long-term archival, immutable content hash, and the manuscript PDF as an attached object. **This is the preferred citation target.** |
-| **SSRN** | **Submission in process** | The manuscript has been submitted to the Social Science Research Network. Until the SSRN abstract page is public and indexed, please cite the Zenodo DOI. |
 
-**When citing, prefer (in order):** the Zenodo DOI → the SSRN abstract page when live → the in-repo manuscript PDF as a fallback.
+**When citing, prefer (in order):** the SocArXiv preprint DOI → the Zenodo DOI (for the repository/dataset snapshot) → the in-repo manuscript PDF as a fallback.
 
 The citation block is in [Citation](#citation) below.
 
@@ -158,10 +160,18 @@ Contributions follow the [CRediT](https://credit.niso.org/) taxonomy.
 
 ## Citation
 
-**Preferred citation (Zenodo v1.0):**
+**Preferred citation (SocArXiv preprint):**
 
 ```
-Thomas, J. E., Alpysbekova, A., Osei Mensah, E., Masara, N., & Sharma, P. (2026).
+Thomas, J. E., Alpysbekova, A., Mensah, E. O., Masara, N., & Sharma, P. (2026).
+IranWar.ai: An Open-Source Event-Level Dataset of the 2026 US–Iran Conflict.
+SocArXiv. https://doi.org/10.31235/osf.io/su4ng_v1
+```
+
+**Archival record — entire repository at release (Zenodo v1.0):**
+
+```
+Thomas, J. E., Alpysbekova, A., Mensah, E. O., Masara, N., & Sharma, P. (2026).
 IranWar.ai: An Open-Source Event-Level Dataset of the 2026 US–Iran Conflict
 (v1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20181794
 ```
@@ -169,9 +179,20 @@ IranWar.ai: An Open-Source Event-Level Dataset of the 2026 US–Iran Conflict
 **BibTeX:**
 
 ```bibtex
-@dataset{thomas2026iranwar,
+@misc{thomas2026iranwar,
   author       = {Thomas, Jacob E. and Alpysbekova, Aigerim and
-                  Osei Mensah, Eugene and Masara, Nigel and Sharma, Prakhar},
+                  Mensah, Eugene Osei and Masara, Nigel and Sharma, Prakhar},
+  title        = {{IranWar.ai}: An Open-Source Event-Level Dataset of the
+                  2026 {US}--{Iran} Conflict},
+  year         = {2026},
+  howpublished = {SocArXiv preprint},
+  doi          = {10.31235/osf.io/su4ng_v1},
+  url          = {https://doi.org/10.31235/osf.io/su4ng_v1}
+}
+
+@dataset{thomas2026iranwar_data,
+  author       = {Thomas, Jacob E. and Alpysbekova, Aigerim and
+                  Mensah, Eugene Osei and Masara, Nigel and Sharma, Prakhar},
   title        = {{IranWar.ai}: An Open-Source Event-Level Dataset of the
                   2026 {US}--{Iran} Conflict},
   year         = {2026},
@@ -449,7 +470,8 @@ python3 ResearchData/build_dataset.py
 | Briefing archive (`public/data/briefings/`) | **Daily** — one HTML fragment per war day; archive page auto-discovers from `index.json`. |
 | Research dataset (`ResearchData/iranwar_event_dataset.csv`) | **Monthly versioned releases** (v1.0, v1.1, …). Interim correction releases when source updates, major errors, or analytically important reclassifications warrant. |
 | Zenodo deposit | **Per research release.** v1.0 live at [10.5281/zenodo.20181794](https://doi.org/10.5281/zenodo.20181794). |
-| Manuscript revisions | **As-needed** (errata, methodological updates). Versioned in this repository and re-deposited on Zenodo when material. |
+| Preprint (SocArXiv) | **Per manuscript version.** Live at [10.31235/osf.io/su4ng_v1](https://doi.org/10.31235/osf.io/su4ng_v1). |
+| Manuscript revisions | **As-needed** (errata, methodological updates). Versioned in this repository, posted to SocArXiv, and re-deposited on Zenodo when material. |
 
 ---
 

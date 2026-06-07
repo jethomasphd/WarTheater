@@ -11,7 +11,7 @@
       "affiliation": "The IranWar.ai Working Group"
     },
     {
-      "name": "Osei Mensah, Eugene",
+      "name": "Mensah, Eugene Osei",
       "affiliation": "The IranWar.ai Working Group"
     },
     {
@@ -45,6 +45,11 @@
       "identifier": "https://iranwar.ai",
       "relation": "documents",
       "resource_type": "other"
+    },
+    {
+      "identifier": "10.31235/osf.io/su4ng_v1",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint"
     }
   ]
 }
