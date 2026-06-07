@@ -1,43 +1,46 @@
 {
-  "last_updated": "2026-06-04",
-  "war_day": 97,
-  "timestamp_label": "LAST UPDATED: JUN 04, 2026 21:06 ET",
+  "last_updated": "2026-06-07",
+  "war_day": 100,
+  "timestamp_label": "LAST UPDATED: JUN 07, 2026 14:06 ET",
   "cost": {
     "brent": {
-      "price": 96.70,
-      "label": "Brent crude — Thu Jun 4 intraday ~$96.70 (eased)",
-      "change": "▼ −$1.28 / −1.3% vs Jun 3 ($97.98); ~−1.1% on the day — eased on Israel-Lebanon ceasefire hopes after the early-June Gulf-escalation spike. ~+36% above the Feb 27 baseline.",
-      "tooltip": "Brent slipped ~1.1% intraday June 4 to ~$96.70 as a US-mediated Israel-Lebanon ceasefire was announced (though immediately tested) and the early-June risk premium partly unwound; CNBC's June 3 settle was $97.81. Baseline Feb 27 $71.00 — Day 97 war premium ≈ +$25.70 (+36%); still well below the war's ~$126 April-30 peak. Sources: TheStreet/Trading Economics (June 4 intraday), CNBC (June 3 settle)."
+      "price": 93.09,
+      "label": "Brent crude — Fri Jun 5 close $93.09 (Day 98); weekend Jun 6-7 markets closed",
+      "change": "▼ −$1.94 / −2.04% on June 5 (Investing.com close) — down ~2% as US-Iran diplomatic signals and the lowest Chinese crude imports in ten years eased the risk premium; vs the dashboard's prior $96.70 (Jun 4). ~+31% above the Feb 27 $71 baseline.",
+      "tooltip": "ICE Brent front-month close June 5, 2026 $93.09, −2.04% on the day (Investing.com). Weekend June 6-7: physical markets closed, value held. Prior-day basis flagged (sources vary: Fortune intraday $97.44; ICE settle ~$94.66; dashboard prior $96.70). Baseline Feb 27 $71.00 — Day 100 war premium ≈ +$22.09 (+31%); well below the war's ~$126 April-30 peak. Source: Investing.com."
     },
     "wti": {
-      "price": 95.17,
-      "label": "WTI crude — Thu Jun 4 ~$95.17 (eased)",
-      "change": "▼ ~−0.9% on the day to ~$95.17 — eased from June 3's $96.02 settle on Israel-Lebanon ceasefire hopes after a three-session rally.",
-      "tooltip": "NYMEX WTI eased ~0.9% intraday June 4 to ~$95.17 after a three-session, Gulf-escalation-driven rally (June 3 settle $96.02) as ceasefire hopes and a partial unwind of the risk premium pressured crude. US commercial crude inventories had drawn for a sixth straight week (−7.97M bbl). Baseline Feb 27 $66.50 — Day 97 war premium ≈ +$28.67 (+43%). Sources: TheStreet/Trading Economics, CNBC, EIA."
+      "price": 90.54,
+      "label": "WTI crude — Fri Jun 5 settle $90.54 (Day 98); weekend markets closed",
+      "change": "▼ −$2.50 / −2.69% to $90.54 (NYMEX July CLN26 settle, June 5) — fell ~3% on demand worries and stalled Hormuz talks; day range 89.68-93.63.",
+      "tooltip": "NYMEX WTI July contract (CLN26) settle June 5, 2026 $90.54, −2.69% on the day; day range 89.68-93.63 (Investing.com/Oilprice.com). Weekend June 6-7: closed. Baseline Feb 27 $66.50 — Day 100 war premium ≈ +$24.04 (+36%). Source: Investing.com."
     },
     "gas": {
-      "price": 4.24,
-      "label": "AAA national average, regular unleaded — June 4, 2026 (Day 97)",
-      "change": "▼ −2.0¢ vs June 3 ($4.261); +$1.25 vs $2.99 Feb 28 baseline. Pump prices kept easing as crude slipped on ceasefire hopes.",
-      "tooltip": "AAA gasprices.aaa.com national average $4.241 on Thursday June 4 (Day 97), down from $4.261 (June 3) and the $4.29 June 2 print. ~+42% above the $2.99 Feb 28 baseline (NBC tracking cites a ~40% rise since the war began); the May 6 peak of $4.536 (Fox Business) stayed below AAA's all-time record of $5.016 (June 14, 2022). Five states (AK, HI, NV, OR, WA) remain above $5; California is highest near $5.82; diesel ~$5.45. Brown University (Costs of War): Americans have spent ~$401 more per household on gas and diesel since the war began. Source: gasprices.aaa.com."
+      "price": 4.174,
+      "label": "AAA national average, regular unleaded — June 7, 2026 (Day 100)",
+      "change": "▼ −6.6¢ vs June 4 ($4.24); +$1.18 vs $2.99 Feb 28 baseline. Pump prices eased from $4.19 (June 6) and the May 6 peak of $4.536.",
+      "tooltip": "AAA gasprices.aaa.com national average $4.174 as of June 7 (Day 100), eased from $4.19 (June 6) and $4.24 (June 4). ~+40% above the $2.99 Feb 28 baseline; the May 6 peak of $4.536 (Fox Business) stayed below AAA's all-time record of $5.016 (June 14, 2022). Five states (AK, HI, NV, OR, WA) remain above $5; California is highest near $5.82; diesel ~$5.45. Brown University (Costs of War): Americans have spent ~$318 more per household on gasoline and diesel since the war began (early June). Source: gasprices.aaa.com."
     },
     "sp500": {
-      "value": 7584.31,
-      "label": "S&P 500 — Thu Jun 4 close (Day 97): +0.41% to 7,584.31, partial rebound",
-      "change": "▲ +0.41% to 7,584.31 — a partial bounce a day after the nine-day streak snapped; Dow record close 51,561.93 (+1.73%) on a value rotation out of chips; Nasdaq −0.09%.",
-      "tooltip": "S&P 500 rose 0.41% to 7,584.31 on June 4, recovering part of June 3's 0.74% drop. The Dow surged 1.73% to a record close 51,561.93 — led by UnitedHealth, JPMorgan and Walmart — as money rotated out of semiconductors after Broadcom's ~−15% post-earnings drop; the Nasdaq Composite slipped 0.09% to 26,830.96. Drivers: a US-mediated Israel-Lebanon ceasefire (announced but immediately tested; Hezbollah rejected the terms) and easing oil set a de-escalation tone, while US weekly jobless claims hit their highest level since the war began (AP). The June 3 session had snapped a nine-day record-setting win streak; June 2 set a record 7,609.78. Sources: CNBC, TheStreet, AP."
+      "value": 7383.74,
+      "label": "S&P 500 — Fri Jun 5 close (Day 98): −2.64% to 7,383.74, worst day since October",
+      "change": "▼ −2.64% (−200.57) to 7,383.74 — worst day since Oct 10, 2025; Nasdaq −4.18% to 25,709.43; Dow −1.35% to 50,866.78. A chip-led tech rout + hot May jobs (+172,000), NOT a direct war shock.",
+      "tooltip": "S&P 500 fell 2.64% to 7,383.74 on June 5 — its worst day since Oct 10, 2025 — on a chip-led tech selloff (Broadcom/Nvidia/Micron) plus a hot May jobs report (+172,000) that lifted rate-hike odds; the Nasdaq sank 4.18% to 25,709.43 (worst since Apr 2025) and the Dow fell 1.35% to 50,866.78. The June 5 US-Iran Hormuz exchanges barely registered — this was a rates/tech move, not a war shock. The S&P remains +7.9% YTD. Weekend June 6-7: markets closed. Sources: CNBC, AP, TheStreet."
     },
     "daily_cost": {
-      "value": 110,
-      "label": "Daily War Burn (CSIS ceasefire band, $M) — Day 97",
-      "change": "Eased to ~$110M/day as June 4 saw only the interception of an Iranian drone wave (no US offensive strike) — base-protection lift + two-CSG sustainment keep it above the ~$95M quiet floor, far below the major-combat $500M-$2B/day.",
-      "tooltip": "The Day-97 ceasefire-period burn is ~$110M (CSIS/Cancian band) — down from June 3's ~$150M, as the day's kinetic activity was limited to intercepting an additional Iranian drone wave aimed at US forces in Kuwait (no US offensive strike booked) atop blockade-legacy O&M, base-protection lift and Lincoln/Bush CSG sustainment. CONTEXT: the Pentagon's own accrual methodology runs ~$1B/day (first six days $11.3B, ~$1B/day thereafter), which would imply ~$100B over the war versus the $29B official cumulative — the two Pentagon framings do not reconcile (see total cost). Burn could re-spike toward the kinetic-phase $500M-$2B/day if Trump orders resumed strikes, or step down if an MoU is signed and the blockade unwinds. Sources: CSIS, Pentagon."
+      "value": "0.5-1.2",
+      "unit": "B/day",
+      "label": "Est. Daily War Cost",
+      "change": "Range of named estimates: CSIS (Cancian) ~$500M/day sustained; Semler/SPRI ~$1.2B/day over the first 60 days.",
+      "tooltip": "Range of named estimates: CSIS (Mark Cancian) ~$500M/day sustained; Stephen Semler/Security Policy Reform Institute ~$1.2B/day over the first 60 days. No official daily figure; the war is now in a lower-intensity blockade/skirmish phase. Peak rate was ~$1.88B/day in Days 1-6. Sources: CSIS, SPRI.",
+      "note": "No official daily figure; war now in lower-intensity blockade/skirmish phase. Peak rate was ~$1.88B/day in Days 1-6. The dashboard's modeled daily burn ran ~$95-170M/day over June 5-7."
     },
     "total_cost": {
       "value": 29,
-      "label": "Cumulative US war cost (Pentagon official, $B) — Day 97",
-      "change": "Pentagon official ~$29B (Acting Comptroller Hurst, May 12) — the last official figure; any Day-97 extrapolation beyond $29B is UNVERIFIED (no Pentagon update since May 12).",
-      "tooltip": "Last official Pentagon figure ~$29B direct military (Acting Comptroller Jules W. Hurst III, May 12 House Approps; up from $25B munitions-only) — excludes base-repair and force-flow costs; NO update since May 12, so any higher Day-97 number is UNVERIFIED. Reported separately (do not merge): the broader 'Iran War Cost' portal estimate exceeds $100B including regional/maintenance; independent estimates include Semler/SPRI ~$72B and Penn Wharton ~$42.5B; Harvard's Linda Bilmes projects ~$1T lifetime. Separately, the consumer fuel burden (ITEP, May 31) ran ~$46.5B / $347.72 per household. Sources: Pentagon (Hurst), Brown Costs of War, ITEP."
+      "unit": "B",
+      "label": "Cumulative War Cost",
+      "change": "Pentagon official ~$29B direct military (Acting Comptroller Hurst, May 12) — the last official figure; no update since.",
+      "tooltip": "Pentagon acting comptroller Jules Hurst, congressional testimony May 12, 2026 (Stars and Stripes/Military Times). Excludes US base repair. No new official figure since May 12. Independent estimates run higher (reported separately, do not merge): ~$50B (US officials via CBS), $71.8B over 60 days (Semler/SPRI), ~$42.5B (Penn Wharton), ~$1T long-term (Harvard's Linda Bilmes). The consumer fuel burden (ITEP, May 31) ran ~$46.5B / $347.72 per household. Sources: Pentagon (Hurst), CBS, SPRI, ITEP."
     }
   },
   "history": [
