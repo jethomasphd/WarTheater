@@ -8323,5 +8323,86 @@
     "source": "Al Jazeera / Lebanese MoPH / Manifest §1",
     "time": "Day 97",
     "title": "Israeli strikes continue in southern Lebanon"
+  },
+  {
+    "category": "military",
+    "data_point": "CENTCOM downs 4 IRGC drones + strikes coastal radar at Qeshm and Goruk; Iran fires 7 ballistic missiles + drones at US bases in Kuwait and Bahrain — all intercepted, no casualties",
+    "date": "2026-06-05",
+    "description": "After IRGC drones threatened Strait of Hormuz shipping, CENTCOM downed 4 drones and struck Iranian coastal radar at Qeshm Island and Goruk. Iran launched 7 ballistic missiles plus drones at US bases in Kuwait and Bahrain; all were intercepted, with no casualties. Iran condemned the US strikes as a 'clear violation' of the fragile ceasefire.",
+    "source": "CENTCOM / Reuters / ISW-Critical Threats / CBS News / CNN / Manifest §5",
+    "time": "Day 98",
+    "title": "US-Iran exchange fire over Hormuz; Iran calls strikes ceasefire 'violation'"
+  },
+  {
+    "category": "economic",
+    "data_point": "INDOPACOM forces from USS John L. Canley (ESB-6) board the sanctioned tanker MT Davina near Sri Lanka (sixth ship blocked); UANI: Iran's May oil exports fell 93% to 2.01M barrels",
+    "date": "2026-06-05",
+    "description": "INDOPACOM forces from USS John L. Canley (ESB-6) boarded the stateless, sanctioned tanker MT Davina (IMO 9259367, ex-Lenore/Lenoir) on June 4 near Sri Lanka — the sixth ship blocked since the blockade began, extending enforcement east of Hormuz into the Indian Ocean. UANI reported Iran's May oil exports fell 93% to 2.01M barrels.",
+    "source": "USNI News / INDOPACOM / UANI / Reuters / Manifest §5",
+    "time": "Day 98",
+    "title": "US interdicts sanctioned tanker MT Davina in Indian Ocean"
+  },
+  {
+    "category": "economic",
+    "data_point": "S&P 500 -2.64% to 7,383.74; Nasdaq -4.18% to 25,709.43 (worst since Apr 2025); Dow -1.35% to 50,866.78; Brent -2% to $93.09, WTI -2.7% to $90.54 — a chip-led rout + hot jobs, not a war shock",
+    "date": "2026-06-05",
+    "description": "Wall Street had its worst day since October: the S&P 500 fell 2.64% to 7,383.74, the Nasdaq sank 4.18% to 25,709.43 (worst since Apr 2025), and the Dow lost 1.35% to 50,866.78. A chip-led selloff (Broadcom/Nvidia/Micron) plus a hot May jobs report (+172,000) that lifted rate-hike odds drove the move — not a direct war shock. Brent fell ~2% to $93.09 and WTI ~2.7% to $90.54.",
+    "source": "CNBC / AP-BNN Bloomberg / TheStreet / Investing.com / Manifest §5",
+    "time": "Day 98",
+    "title": "Wall Street's worst day since October; oil falls ~3%"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Mohsen Rezaei (adviser to Supreme Leader Mojtaba Khamenei) tells CNN a deal hinges on the US releasing $24B in frozen Iranian assets; says talks are 'at a deadlock'",
+    "date": "2026-06-05",
+    "description": "Mohsen Rezaei, military adviser to Supreme Leader Mojtaba Khamenei, told CNN a peace deal hinges on the US releasing $24B in frozen Iranian assets, said talks are 'at a deadlock,' and that 'the ball is in Trump's court.' Iran demands economic compensation and recognition of Hormuz sovereignty and has suspended talks pending a full Lebanon ceasefire.",
+    "source": "CNN / ISW-Critical Threats / Manifest §5",
+    "time": "Day 98",
+    "title": "Iran ties any deal to release of $24B in frozen assets"
+  },
+  {
+    "category": "military",
+    "data_point": "IDF strike on a LAF vehicle near Kfar Tebnit kills 3 Lebanese Army soldiers, including a brigadier general; IDF says the vehicle moved 'suspiciously' and denies intentional targeting",
+    "date": "2026-06-06",
+    "description": "An IDF strike on a Lebanese Army vehicle near Kfar Tebnit (Nabatieh) killed 3 soldiers, including a brigadier general. The IDF said the vehicle moved 'suspiciously' in an active combat zone and denied intentional targeting. President Aoun, PM Salam, and Speaker Berri condemned the strike. Hezbollah had rejected the US-brokered ceasefire earlier in the week.",
+    "source": "ISW-Critical Threats / LAF / IDF / Manifest §5",
+    "time": "Day 99",
+    "title": "IDF strike kills 3 Lebanese Army soldiers including a brigadier general"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Trump (Wisconsin): the Iran war is 'largely finished ... one way or the other,' to end 'with a piece of paper, or ... a more difficult way'; US again downs 2 Iranian drones near Hormuz",
+    "date": "2026-06-06",
+    "description": "At an event in Wisconsin, Trump said the war is 'largely finished' and would end 'with a piece of paper, or ... a more difficult way,' reiterating his goal of preventing an Iranian nuclear weapon. US forces again downed 2 Iranian drones near the Strait of Hormuz.",
+    "source": "CBS News / ABC News / Manifest §5",
+    "time": "Day 99",
+    "title": "Trump: Iran war 'largely finished ... one way or the other'"
+  },
+  {
+    "category": "economic",
+    "data_point": "Source familiar with Treasury Sec. Bessent's thinking: Treasury will make frozen Iranian assets available to Gulf allies to fund repairs for damage caused by Iran",
+    "date": "2026-06-06",
+    "description": "A source familiar with Treasury Secretary Bessent's thinking told ABC News/Reuters that Treasury will make frozen Iranian assets available to Gulf allies to fund repairs for damage caused by Iran. The mechanism (frozen cash vs. seized tankers) was unspecified.",
+    "source": "ABC News / Reuters / Manifest §5",
+    "time": "Day 99",
+    "title": "US plans to use frozen Iranian assets to rebuild Gulf allies"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "China's MFA (Mao Ning) urges both sides against 'renewed warfare'; Pakistan's interior minister Mohsen Naqvi visits Tehran to continue mediation with FM Araghchi",
+    "date": "2026-06-06",
+    "description": "China's Foreign Ministry (Mao Ning) reiterated 'deep concern' and urged both sides against 'renewed warfare.' Pakistan's interior minister Mohsen Naqvi visited Tehran on June 6 to continue mediation with Iranian FM Araghchi.",
+    "source": "Anadolu / CNN / Tasnim / Manifest §5",
+    "time": "Day 99",
+    "title": "China urges ceasefire; Pakistan mediates in Tehran"
+  },
+  {
+    "category": "political",
+    "data_point": "Iranian state media: US issued visas for the national team and technical staff but withheld them for 15 administrative/management members; team relocated training base to Mexico",
+    "date": "2026-06-06",
+    "description": "Iranian state media said the US issued visas for the national team and technical staff but withheld them for 15 administrative/management members of Iran's World Cup delegation. Iran will pursue the issue via FIFA and relocated its training base to Mexico. Some June 7 reports suggested later issuance — status fluid.",
+    "source": "CBS News / AFP / Manifest §5",
+    "time": "Day 99",
+    "title": "US withholds visas for 15 Iran World Cup delegation members"
   }
 ]
