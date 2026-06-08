@@ -8404,5 +8404,32 @@
     "source": "CBS News / AFP / Manifest §5",
     "time": "Day 99",
     "title": "US withholds visas for 15 Iran World Cup delegation members"
+  },
+  {
+    "category": "military",
+    "data_point": "100 days since Feb 28: the high-intensity campaign (B-2 raids, 1,000+ Tomahawks, Iran's air defenses and navy destroyed) has given way to a Hormuz-centered economic blockade; frozen conflict is now the base case",
+    "date": "2026-06-07",
+    "description": "The war crossed its 100th day having undergone a structural transformation: the high-intensity strike campaign of late February through early May has firmly given way to a blockade-plus-skirmish standoff centered on the Strait of Hormuz, defined less by airstrikes than by economic pressure. With the June 5-6 exchanges producing no casualties on either side, the base case has shifted from resolution toward a frozen conflict; the principal danger is now a 'lucky' Iranian hit on a tanker or base that breaks the zero-casualty pattern.",
+    "source": "CENTCOM / Reuters / ISW / Manifest §2-3",
+    "time": "Day 100",
+    "title": "War crosses 100 days in a blockade-plus-skirmish equilibrium"
+  },
+  {
+    "category": "economic",
+    "data_point": "Iran exported just 2.01M barrels in all of May (avg ~65,000 b/d), valued at $219M — down ~93% — with no crude successfully passing the US blockade",
+    "date": "2026-06-07",
+    "description": "United Against Nuclear Iran (UANI) reported that Iran exported just 2.01 million barrels of crude in all of May — an average of roughly 65,000 barrels a day and a collapse of about 93 percent from April — valued at only $219 million, with no crude successfully departing Iranian waters and running the US blockade. For a state that before the war shipped well over a million barrels a day, overwhelmingly to China, the figure marks a near-total severing of its principal revenue artery.",
+    "source": "UANI May 2026 Tanker Tracker / Manifest §6-7",
+    "time": "Day 100",
+    "title": "UANI: Iran's May oil exports collapsed ~93% to 2.01M barrels"
+  },
+  {
+    "category": "hormuz",
+    "data_point": "Lloyd's List: 40 Hormuz transits May 25-Jun 1 (slowest week of the war), 13 so far this week; 142 non-Iranian ships have exited since March (~25% Chinese-linked); rising 'dark' AIS-off transits",
+    "date": "2026-06-07",
+    "description": "Lloyd's List Intelligence counted 40 transits of the Strait of Hormuz between May 25 and June 1 — the slowest week since the war began — and 13 so far this week, with a marked rise in 'dark,' AIS-off movements. Some 142 non-Iranian ships have exited the strait since March, roughly a quarter of them Chinese-linked, leaving a waterway kept barely functional under Iranian management with Western-allied shipping all but absent.",
+    "source": "Lloyd's List Intelligence / Manifest §6-7",
+    "time": "Day 100",
+    "title": "Hormuz traffic at slowest of the war — 40 transits in a week"
   }
 ]
