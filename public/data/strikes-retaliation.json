@@ -339,7 +339,7 @@
     "weapon": "Anti-ship missiles / drones / naval mines / explosive unmanned surface vessels / coastal batteries",
     "origin": "IRGC Navy / coastal batteries",
     "first_strike": "2026-03-02",
-    "casualties_reported": "20+ confirmed incidents. 4+ seafarer fatalities. 8 bulk carriers (40%), 6 tankers (30%), 4 container ships (20%), 2 service vessels (10%) attacked.",
+    "casualties_reported": "46+ ships/tugs/rigs hit or near a strike site since Feb 28 (IMO cumulative); 11 seafarer fatalities to date. Earlier March breakdown: 8 bulk carriers (40%), 6 tankers (30%), 4 container ships (20%), 2 service vessels (10%) attacked.",
     "casualties_source": "UKMTO / Bloomberg / Precious Shipping / IRGC claims / Windward / CRS",
     "active_days": [
       3,
@@ -362,9 +362,9 @@
       20,
       21
     ],
-    "notes": "UKMTO: 20+ confirmed maritime security incidents since Feb 28. Two additional vessels struck Mar 20. Only 21 tankers have crossed the Strait since Feb 28 vs 100+/day pre-war. Half of March transits by shadow fleet (Lloyd's List). Iran selectively allowing passage: India (2 LPG tankers), Pakistan, Turkey, Saudi each transited with individual approval. War risk premiums: 0.125% to ~5% of vessel value (40x increase). $5M per transit for $100M tanker. VLCC rates hit all-time record $423,736/day. GPS/AIS disruption: 44 injected signal zones, 92 denial areas. IMO emergency session Mar 18-19: negotiating safe maritime corridor for seafarer evacuation.",
+    "notes": "UKMTO: 20+ confirmed maritime security incidents since Feb 28. Two additional vessels struck Mar 20. Only 21 tankers have crossed the Strait since Feb 28 vs 100+/day pre-war. Half of March transits by shadow fleet (Lloyd's List). Iran selectively allowing passage: India (2 LPG tankers), Pakistan, Turkey, Saudi each transited with individual approval. War risk premiums: 0.125% to ~5% of vessel value (40x increase). $5M per transit for $100M tanker. VLCC rates hit all-time record $423,736/day. GPS/AIS disruption: 44 injected signal zones, 92 denial areas. IMO emergency session Mar 18-19: negotiating safe maritime corridor for seafarer evacuation. UPDATE (June 7): IMO cumulative now 46+ ships/tugs/rigs hit or near a strike site since Feb 28, with 11 seafarer deaths to date; most recently the containership MSC Sariska V was damaged by a drone June 1 at Umm Qasr, Iraq (Manifest §3b).",
     "verified": true,
-    "last_updated": "2026-03-20"
+    "last_updated": "2026-06-07"
   },
   {
     "id": "prince-sultan-air-base-saudi",
@@ -4111,5 +4111,79 @@
     "verified": true,
     "verification_confidence": "LOW",
     "last_updated": "2026-06-04"
+  },
+  {
+    "id": "iran-hormuz-drones-20260605",
+    "city": "Strait of Hormuz (maritime) — drones intercepted",
+    "lat": 26.6,
+    "lng": 56.4,
+    "type": "iran_retaliation",
+    "actor": "Iran (IRGC)",
+    "first_strike": "2026-06-05",
+    "active_days": [
+      98
+    ],
+    "weapon": "One-way attack drones (4); IRGC warning shots near Larak Island",
+    "casualties_reported": "None — all 4 drones shot down by CENTCOM; no ships hit",
+    "casualties_source": "CENTCOM; Mehr/Tasnim (Iran)",
+    "notes": "Day 98 (June 5, Friday): CENTCOM shot down 4 IRGC one-way attack drones threatening Strait of Hormuz shipping and US vessels; the IRGC also fired warning shots near Larak Island. The IRGC claimed 4 tankers tried to violate its 'traffic separation scheme' under US 'guidance' and claimed it targeted one vessel it named 'Panaya' — UNVERIFIED (CENTCOM says no US warships were hit). The drone harassment triggered the US coastal-radar strikes at Qeshm Island and Goruk. Manifest §3.",
+    "sources": [
+      "Manifest §3",
+      "CENTCOM June 5-6",
+      "Mehr/Tasnim (Iran)",
+      "Reuters"
+    ],
+    "verified": true,
+    "verification_confidence": "MEDIUM",
+    "last_updated": "2026-06-07"
+  },
+  {
+    "id": "iran-kuwait-bahrain-missiles-20260605",
+    "city": "US bases in Kuwait and Bahrain — intercepted",
+    "lat": 28.5,
+    "lng": 49.5,
+    "type": "iran_retaliation",
+    "actor": "Iran",
+    "first_strike": "2026-06-05",
+    "active_days": [
+      98
+    ],
+    "weapon": "Ballistic missiles (7) + several drones",
+    "casualties_reported": "None — Kuwait intercepted 7 missiles; Bahrain intercepted 3 missiles + several drones; CENTCOM: 6 of 7 shot down, 1 fell short",
+    "casualties_source": "Kuwait Army GHQ; Bahrain Defence Force; CENTCOM; ISW",
+    "notes": "Day 98 (June 5, Friday): Launched after the US coastal-radar strikes, Iran fired 7 ballistic missiles plus several drones at US bases in Kuwait and Bahrain. Kuwait reported intercepting 7 missiles; Bahrain intercepted 3 missiles and several drones and sounded sirens; CENTCOM said 6 of 7 were shot down and 1 fell short. No casualties. Reason for targeting these specific bases unclear (ISW). Manifest §3.",
+    "sources": [
+      "Manifest §3",
+      "Kuwait Army GHQ",
+      "Bahrain Defence Force",
+      "CENTCOM",
+      "ISW/Critical Threats"
+    ],
+    "verified": true,
+    "verification_confidence": "MEDIUM",
+    "last_updated": "2026-06-07"
+  },
+  {
+    "id": "iran-hormuz-drones-20260606",
+    "city": "Strait of Hormuz (maritime) — drones intercepted",
+    "lat": 26.65,
+    "lng": 56.45,
+    "type": "iran_retaliation",
+    "actor": "Iran (IRGC)",
+    "first_strike": "2026-06-06",
+    "active_days": [
+      99
+    ],
+    "weapon": "One-way attack drones (2)",
+    "casualties_reported": "None — both drones shot down by CENTCOM",
+    "casualties_source": "CENTCOM",
+    "notes": "Day 99 (June 6, Saturday): CENTCOM downed 2 more IRGC one-way attack drones near the Strait of Hormuz, bringing the two-day June 5-6 total to 6 drones downed. Manifest §3.",
+    "sources": [
+      "Manifest §3",
+      "CENTCOM June 6"
+    ],
+    "verified": true,
+    "verification_confidence": "MEDIUM",
+    "last_updated": "2026-06-07"
   }
 ]
