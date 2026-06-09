@@ -13,6 +13,42 @@ This document describes the exact schema of every JSON file in `public/data/` as
 
 ---
 
+## Update Log — v1.1 (Day 100, 2026-06-07)
+
+The per-file schemas below were documented at Day 30. By Day 100 the following **schema
+drift** was observed and is handled by `build_dataset.py` (see `CHANGELOG.md`). Record
+counts are illustrative of growth, not fixed.
+
+- **timeline-events.json** — the `category` field is now effectively free-text: ~95 distinct
+  values (snake_case, slash/hyphen compounds). Classification is handled by
+  `classify_timeline()` + `TIMELINE_DOMAIN_KEYWORDS`, **not** the old `CATEGORY_DOMAIN_MAP`.
+  When new categories appear, extend the keyword lists. ~937 records.
+- **strikes-retaliation.json** — ~32 `type` values, including **Israeli/US offensive**
+  actions (`idf_strike`, `israel_strike_lebanon`, `us_counter_action`, …) that must be coded
+  `STRIKE`, plus Houthi/proxy and maritime-incident types. New record fields: `actor`,
+  `confidence`, `verification_confidence`, `sources`. See `RET_TYPE_DOMAIN`/`RET_TYPE_EVENTTYPE`.
+  ~196 records.
+- **strikes-iran.json** — new record fields: `weapon`, `platform`, `outcome`, `date`,
+  `war_day`, `location`, `target` (singular, redundant with `targets[]`), `verification`.
+  `weapon` now populates `weapon_system`; `platform`/`outcome` fold into `strike_notes`.
+  ~105 location records.
+- **hero-stats.json** — history entries gained `nasdaq`, `dow`, `sp500_change_pct`,
+  `headline`, `note`. First three are captured as `snapshot_*` columns; `headline` folds into
+  the snapshot description. ~101 history entries (max war_day 100).
+- **carriers.json** — `type` mixes clean tokens with verbose class strings
+  ("Nimitz-class aircraft carrier", "ballistic missile submarine", "expeditionary sea base",
+  "pre_positioning"); normalized via `normalize_naval_type()`. ~17 records.
+- **historical-comparison.json** — gained a `sources` key and a 5th conflict (Kosovo 1999);
+  the "Iran 2026" label self-updates to the current day.
+- **casualties.json** — still exactly 5 factions (no new factions despite Houthi/Yemen
+  involvement). **markets.json** — still 4 sectors (handled dynamically regardless).
+  **infrastructure.json** — still 7 categories.
+- **Cumulative/reference records** (infrastructure, Hormuz summaries, historical comparison)
+  are now dated dynamically to the latest data day via `compute_as_of()`, replacing the
+  hardcoded `2026-03-29` / Day 30.
+
+---
+
 ## 1. timeline-events.json
 
 **Type**: Array of event objects
