@@ -20,7 +20,7 @@ python3 build_dataset.py
 # If all validation checks pass, commit the updated CSV + codebook
 ```
 
-That's it. The script reads all 17 JSON files, extracts events, and regenerates both `iranwar_event_dataset.csv` and `codebook.csv` from scratch each run.
+That's it. The script reads the 15 extracted JSON files (`calculator.json` and `war-day.json` are dashboard-only and skipped), extracts events, and regenerates both `iranwar_event_dataset.csv` and `codebook.csv` from scratch each run.
 
 ---
 
@@ -94,15 +94,28 @@ The script prints summary stats to stdout. Check:
 - New event types appear if expected
 - Column completeness looks reasonable
 
-### Step 4: Commit
+### Step 4: Freeze the versioned release, then commit
+
+The root files (`iranwar_event_dataset.csv`, `codebook.csv`, `build_dataset.py`,
+`dataset_README.md`) always track the **latest** release. Each release is **also** frozen,
+immutably, under `releases/vN/` so prior analyses stay reproducible (Manuscript §2.1):
+
+1. Bump `DATASET_VERSION` in `build_dataset.py` (e.g. `1.1` → `1.2`).
+2. `mkdir -p releases/vN` and copy in the frozen `iranwar_event_dataset.csv`, `codebook.csv`,
+   `build_dataset.py`, `dataset_README.md`, plus a **source snapshot** of `public/data/`
+   (zip it yourself, or copy the matching `snapshots/*.zip`). Verify the snapshot reproduces
+   the CSV exactly. Write `releases/vN/RELEASE_NOTES.md`.
+3. Add a new entry to `CHANGELOG.md` documenting row/column deltas and every reclassification
+   or mapping change (transparency is the point — see Manuscript §5.1, §6).
 
 ```
-git add iranwar_event_dataset.csv codebook.csv build_dataset.py
-git commit -m "research-data: Monthly update — Day [N] — YYYY-MM-DD
+git add iranwar_event_dataset.csv codebook.csv build_dataset.py dataset_README.md \
+        CHANGELOG.md SOURCE_SCHEMAS.md releases/
+git commit -m "research-data: vN release — Day [N] — YYYY-MM-DD
 
-- [row count] total rows (was [old count])
+- [row count] total rows (was [old count]), [col count] columns
 - [new events] new events since last build
-- [schema changes if any]"
+- [schema changes / reclassifications if any]"
 ```
 
 ---
@@ -121,13 +134,18 @@ git commit -m "research-data: Monthly update — Day [N] — YYYY-MM-DD
 - `date_from_war_day(n)` → converts day number to date
 - `parse_short_date(label)` → parses "Mar 27" or "Feb 5" to date objects
 - `load_json(filename)` → loads from DATA_DIR, returns None on error
-- `empty_row()` → returns dict with all 48 columns set to None
+- `empty_row()` → returns dict with all columns set to None (52 as of v1.1)
+- `compute_as_of()` → (day, date) of the latest day present in the data, for cumulative records
+- `classify_timeline()` / `classify_retaliation_type()` / `normalize_naval_type()` → classifiers
 
 ### Column Schema
 Defined in three lists at module level:
 - `REQUIRED_COLS` (9): event_id, date, datetime_utc, day_of_conflict, event_domain, event_type, event_description, source_file, source_record_id
 - `DOMAIN_COLS` (17): location_*, actor_*, weapon_system, military_asset, casualties_*, infrastructure_target_type, financial_metric_*, escalation_level, data_confidence
-- `EXTRA_COLS` (22): timeline_*, strike_*, naval_*, infrastructure_damage_count, snapshot_*
+- `EXTRA_COLS` (26): timeline_* (incl. `timeline_category_raw`), strike_*, naval_*, infrastructure_damage_count, snapshot_* (incl. `snapshot_nasdaq`/`snapshot_dow`/`snapshot_sp500_change_pct`)
+
+Total: **52 columns** as of v1.1 (was 48 at v1.0). New columns are always **appended** to
+`EXTRA_COLS` so v1.0 column order is preserved (never reorder or rename existing columns).
 
 ### Adding New Columns
 
@@ -139,7 +157,16 @@ Defined in three lists at module level:
 
 Valid domains: `STRIKE`, `RETALIATION`, `NAVAL`, `FINANCIAL`, `DIPLOMATIC`, `HUMANITARIAN`, `CYBER`, `MILITARY`, `OTHER`
 
-For timeline events with `category = "military"`, the script uses regex heuristics to classify into STRIKE vs RETALIATION vs MILITARY. If new categories appear in the timeline, add them to `CATEGORY_DOMAIN_MAP`.
+Timeline events are classified by `classify_timeline()` + `TIMELINE_DOMAIN_KEYWORDS` (an
+ordered keyword mapper; the old fixed `CATEGORY_DOMAIN_MAP` is retired). The verbatim source
+category is preserved in `timeline_category_raw`. **If new timeline categories appear, extend
+`TIMELINE_DOMAIN_KEYWORDS`** (and confirm the residual `OTHER` bucket stays small).
+
+Retaliation-file records are classified by `RET_TYPE_DOMAIN` / `RET_TYPE_EVENTTYPE`
+(+ a token/weapon fallback) — note that Israeli/US offensive `type`s in this file map to
+`STRIKE`. Naval `type`s are normalized by `normalize_naval_type()`. **If new retaliation
+`type`s appear, extend the `RET_TYPE_*` maps.** Cumulative/reference records date themselves
+to `compute_as_of()` (the latest data day), so no hardcoded as-of date needs editing.
 
 ### Explosion Logic
 
@@ -188,11 +215,12 @@ Before overwriting the existing CSV, diff the summary stats against the previous
 ## Monthly Checklist
 
 - [ ] `git pull` latest main
-- [ ] Check for new/changed JSON files in `public/data/` vs `SOURCE_SCHEMAS.md`
-- [ ] If schemas changed, update extraction functions
+- [ ] Check for new/changed JSON files in `public/data/` vs `SOURCE_SCHEMAS.md` (and its Update Log)
+- [ ] If schemas changed, update extraction functions / classifiers; bump `DATASET_VERSION`
 - [ ] `python3 build_dataset.py`
-- [ ] Review summary stats: row count, domain distribution, completeness
-- [ ] Verify 0 duplicate event_ids, 0 missing dates
-- [ ] Update `dataset_README.md` row count and date range
-- [ ] Commit with descriptive message
-- [ ] Push
+- [ ] Review summary stats + validation block (0 dupes, 0 missing, 0 invalid domains, 0 day
+      inconsistencies, sort order OK); confirm `OTHER` didn't balloon and `event_type` stayed controlled
+- [ ] Freeze `releases/vN/` (dataset + codebook + script + source snapshot + notes); verify the
+      snapshot reproduces the CSV exactly
+- [ ] Update `dataset_README.md` (counts, date range), `CHANGELOG.md`, and `SOURCE_SCHEMAS.md` Update Log
+- [ ] Commit with descriptive message and push

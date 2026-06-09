@@ -24,17 +24,10 @@ import pandas as pd
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
-DATASET_VERSION = "1.1"              # see CHANGELOG.md
 CONFLICT_START = date(2026, 2, 28)   # Day 1
 BASELINE_DATE = date(2026, 2, 27)    # Day 0
 DATA_DIR = Path(__file__).resolve().parent.parent / "public" / "data"
 OUT_DIR = Path(__file__).resolve().parent
-
-# As-of point for cumulative / reference records (infrastructure totals, Hormuz
-# summaries, historical comparison). Data-driven, NOT clock-driven: it is the latest
-# day actually present in the source data, recomputed in main(). Defaults are a fallback.
-AS_OF_DAY = 100
-AS_OF_DATE = BASELINE_DATE + timedelta(days=AS_OF_DAY)
 
 # Global event counter
 _event_counter = 0
@@ -54,25 +47,6 @@ def war_day(d: date) -> int:
 
 def date_from_war_day(day: int) -> date:
     return BASELINE_DATE + timedelta(days=day)
-
-
-def compute_as_of() -> tuple[int, date]:
-    """Latest day actually covered by the source data (data-driven, not clock-driven).
-
-    Uses the max war_day in hero-stats history and the max "Day N" in war-costs labels.
-    Cumulative/reference records are dated to this point rather than a hardcoded day."""
-    days = []
-    hs = load_json("hero-stats.json")
-    if hs and hs.get("history"):
-        days += [e.get("war_day") for e in hs["history"] if isinstance(e.get("war_day"), int)]
-    wc = load_json("war-costs.json")
-    if wc and wc.get("labels"):
-        for lab in wc["labels"]:
-            m = re.match(r"Day\s+(\d+)", lab)
-            if m:
-                days.append(int(m.group(1)))
-    day = max(days) if days else AS_OF_DAY
-    return day, date_from_war_day(day)
 
 
 def parse_short_date(label: str, year: int = 2026) -> date:
@@ -128,9 +102,6 @@ EXTRA_COLS = [
     "snapshot_iranian_killed", "snapshot_lebanese_killed",
     "snapshot_displaced", "snapshot_flights_cancelled",
     "snapshot_children_killed",
-    # --- v1.1 additions (appended to preserve v1.0 column order; backward-compatible) ---
-    "timeline_category_raw",
-    "snapshot_nasdaq", "snapshot_dow", "snapshot_sp500_change_pct",
 ]
 
 ALL_COLS = REQUIRED_COLS + DOMAIN_COLS + EXTRA_COLS
@@ -156,9 +127,16 @@ STRIKE_PATTERNS = re.compile(
     re.IGNORECASE,
 )
 
-# NOTE (v1.1): the old fixed CATEGORY_DOMAIN_MAP (8 exact category->domain entries) was
-# replaced by classify_timeline() + TIMELINE_DOMAIN_KEYWORDS below, which handles the
-# ~95 free-text categories the dashboard now emits. Update those when new categories appear.
+CATEGORY_DOMAIN_MAP = {
+    "financial": "FINANCIAL",
+    "economic": "FINANCIAL",
+    "diplomatic": "DIPLOMATIC",
+    "humanitarian": "HUMANITARIAN",
+    "cyber": "CYBER",
+    "political": "DIPLOMATIC",
+    "domestic": "DIPLOMATIC",
+    "summary": "OTHER",
+}
 
 
 def classify_military_event(title: str, desc: str) -> str:
@@ -168,66 +146,6 @@ def classify_military_event(title: str, desc: str) -> str:
     if STRIKE_PATTERNS.search(text):
         return "STRIKE"
     return "MILITARY"
-
-
-# Expanded timeline category -> (domain, normalized event_type) classification (v1.1).
-#
-# At Day 30 the dashboard used 9 timeline `category` values; by Day 100 the free-text
-# field had grown to ~95 distinct, inconsistently formatted values (snake_case, and
-# slash- / hyphen-separated compounds). A naive re-run dumped ~240 of these into OTHER.
-# We map them onto the documented 9-domain taxonomy with an ORDERED keyword precedence,
-# while preserving the verbatim source label in `timeline_category_raw` so no information
-# is lost and any researcher can re-derive an alternative coding.
-#   Precedence (first match wins):
-#     explicit "retaliat*" token  ->  RETALIATION
-#     cyber > humanitarian > naval > financial > diplomatic > military
-#   For a category that resolves to the military bucket, STRIKE / RETALIATION / MILITARY
-#   is then decided from the event text via classify_military_event().
-# Rationale: route compound categories by their most specific non-military facet, and
-# treat classification as a documented interpretive act (Manuscript §3.1, §5.1).
-TIMELINE_DOMAIN_KEYWORDS = [
-    ("CYBER",        "cyber",        ["cyber"]),
-    ("HUMANITARIAN", "humanitarian", ["humanitarian", "casualt", "collateral", "displac",
-                                       "refugee", "aid", "medical", "health", "environment"]),
-    ("NAVAL",        "naval",        ["naval", "maritime", "hormuz", "blockade", "shipping",
-                                       "tanker", "strait", "vessel"]),
-    ("FINANCIAL",    "financial",    ["financ", "econom", "market", "macro", "geoeconomic",
-                                       "consumer", "cost", "energy_geo"]),
-    ("DIPLOMATIC",   "diplomatic",   ["diploma", "politic", "policy", "congress", "legislat",
-                                       "rhetoric", "statement", "alliance", "legal", "attribution",
-                                       "reaction", "response", "war_power", "oversight", "signal",
-                                       "ultimatum", "negotiat", "ceasefire", "treaty", "sanction",
-                                       "threat"]),
-    ("MILITARY",     "military",     ["military", "kinetic", "strike", "force", "posture",
-                                       "logistic", "intelligence", "capability", "milestone",
-                                       "operation", "ground", "missile", "drone", "rocket",
-                                       "siege", "escalation", "lebanon", "front", "spillover",
-                                       "incursion", "interdiction", "offensive", "combat",
-                                       "airstrike", "bombard", "war"]),
-]
-
-
-def classify_timeline(category: str, title: str, desc: str) -> tuple[str, str]:
-    """Return (event_domain, normalized_event_type) for one timeline record."""
-    raw = (category or "other").strip().lower()
-    norm = re.sub(r"[\s/\-]+", "_", raw)  # unify separators for substring matching
-
-    if "retaliat" in norm:
-        return "RETALIATION", "retaliation"
-
-    for domain, etype, keywords in TIMELINE_DOMAIN_KEYWORDS:
-        if any(k in norm for k in keywords):
-            if domain == "MILITARY":
-                resolved = classify_military_event(title, desc)
-                etype = "retaliation" if resolved == "RETALIATION" else "military"
-                return resolved, etype
-            return domain, etype
-
-    if "summary" in norm or "milestone" in norm:
-        return "OTHER", "summary"
-    if "domestic" in norm:
-        return "DIPLOMATIC", "domestic"
-    return "OTHER", "other"
 
 
 def extract_timeline_events() -> list[dict]:
@@ -251,15 +169,16 @@ def extract_timeline_events() -> list[dict]:
         if t:
             row["datetime_utc"] = f"{d.isoformat()}T{t}:00"
 
-        # Domain mapping (v1.1 expanded classifier; raw category preserved)
-        cat = rec.get("category", "other")
-        domain, etype = classify_timeline(
-            cat, rec.get("title", ""), rec.get("description", "")
-        )
-        row["event_domain"] = domain
-        row["event_type"] = etype
-        row["timeline_category_raw"] = cat
+        # Domain mapping
+        cat = rec.get("category", "other").lower()
+        if cat == "military":
+            row["event_domain"] = classify_military_event(
+                rec.get("title", ""), rec.get("description", "")
+            )
+        else:
+            row["event_domain"] = CATEGORY_DOMAIN_MAP.get(cat, "OTHER")
 
+        row["event_type"] = cat
         row["event_description"] = f"{rec.get('title', '')}: {rec.get('description', '')}"
         row["source_file"] = "timeline-events.json"
         row["source_record_id"] = None
@@ -338,18 +257,6 @@ def extract_strikes_iran() -> list[dict]:
         subtype = rec.get("subtype")
         confidence = assess_strike_confidence(rec)
 
-        # v1.1: capture weapon/platform/outcome fields (added to the source after Day 30)
-        weapon = rec.get("weapon")
-        notes_combined = rec.get("notes") or ""
-        _extra = []
-        if rec.get("platform"):
-            _extra.append(f"Platform: {rec['platform']}")
-        if rec.get("outcome"):
-            _extra.append(f"Outcome: {rec['outcome']}")
-        if _extra:
-            notes_combined = (notes_combined + " | " + " | ".join(_extra)).strip(" |")
-        notes_combined = notes_combined or None
-
         for day_num in active_days:
             d = date_from_war_day(day_num)
             for target_desc in targets:
@@ -389,9 +296,8 @@ def extract_strikes_iran() -> list[dict]:
                 if target_desc == targets[0]:
                     row["casualties_reported"] = rec.get("casualties_reported")
 
-                row["weapon_system"] = weapon
                 row["data_confidence"] = confidence
-                row["strike_notes"] = notes_combined
+                row["strike_notes"] = rec.get("notes")
 
                 rows.append(row)
 
@@ -425,119 +331,48 @@ def extract_country(city: str) -> str:
     return "Unknown"
 
 
-# Retaliation/cross-front type maps (v1.1). Day 30 had 5 types; Day 100 has ~32.
-# Israeli/US OFFENSIVE actions that appear in this file are classified STRIKE (not
-# RETALIATION); Iranian/Hezbollah/Houthi/proxy actions are RETALIATION; maritime
-# seizure/blockade incidents are NAVAL; operational losses and other non-retaliatory
-# military actions are MILITARY. Attribution is an interpretive act, documented here
-# (Manuscript §5.1) — the verbatim source `type` is retained in `strike_notes` context
-# and `source_record_id`.
-RET_TYPE_DOMAIN = {
-    "iran_retaliation": "RETALIATION", "iran_retaliation_disputed": "RETALIATION",
-    "iran_claim_unverified": "RETALIATION",
-    "hezbollah_front": "RETALIATION", "hezbollah": "RETALIATION",
-    "hezbollah_attack": "RETALIATION", "hezbollah_kinetic": "RETALIATION",
-    "hezbollah_retaliation": "RETALIATION", "drone_attack_hezbollah": "RETALIATION",
-    "houthi_attack": "RETALIATION",
-    "iran_proxy_kinetic_uae": "RETALIATION", "iran_proxy_kinetic_saudi": "RETALIATION",
-    "iran_proxy_kinetic_lebanon": "RETALIATION", "non_state_actor_kinetic": "RETALIATION",
-    "rocket_drone_tempo": "RETALIATION", "drone_attack_intercepted": "RETALIATION",
-    "drone_incursion_intercept": "RETALIATION", "drone_strike_on_commercial_vessel": "RETALIATION",
-    "lebanon_spillover": "RETALIATION",
-    # US / Israeli offensive actions -> STRIKE
-    "us_strike_on_militia": "STRIKE", "us_counter_action": "STRIKE", "idf_strike": "STRIKE",
-    "israeli_strikes_lebanon": "STRIKE", "israel_kinetic_lebanon": "STRIKE",
-    "israel_strike_lebanon": "STRIKE",
-    # Maritime posture / seizure / blockade -> NAVAL
-    "blockade_incident": "NAVAL", "shipping_incident": "NAVAL", "vessel_seizure": "NAVAL",
-    # Non-retaliatory military -> MILITARY
-    "operational_loss": "MILITARY", "ground_ops_continuation": "MILITARY",
-    "iran_internal_repression_cross_border": "MILITARY", "non_kinetic": "MILITARY",
-}
-RET_TYPE_EVENTTYPE = {
-    "iran_retaliation": "missile_attack", "iran_retaliation_disputed": "missile_attack",
-    "iran_claim_unverified": "missile_attack",
-    "hezbollah_front": "rocket_attack", "hezbollah": "rocket_attack",
-    "hezbollah_attack": "rocket_attack", "hezbollah_kinetic": "rocket_attack",
-    "hezbollah_retaliation": "rocket_attack", "drone_attack_hezbollah": "drone_attack",
-    "houthi_attack": "drone_attack",
-    "iran_proxy_kinetic_uae": "proxy_attack", "iran_proxy_kinetic_saudi": "proxy_attack",
-    "iran_proxy_kinetic_lebanon": "proxy_attack", "non_state_actor_kinetic": "proxy_attack",
-    "rocket_drone_tempo": "rocket_attack", "drone_attack_intercepted": "drone_attack",
-    "drone_incursion_intercept": "drone_attack", "drone_strike_on_commercial_vessel": "maritime_attack",
-    "lebanon_spillover": "rocket_attack",
-    "us_strike_on_militia": "airstrike", "us_counter_action": "airstrike", "idf_strike": "airstrike",
-    "israeli_strikes_lebanon": "airstrike", "israel_kinetic_lebanon": "airstrike",
-    "israel_strike_lebanon": "airstrike",
-    "blockade_incident": "maritime_attack", "shipping_incident": "maritime_attack",
-    "vessel_seizure": "maritime_attack",
-    "operational_loss": "operational_loss", "ground_ops_continuation": "ground_operations",
-    "iran_internal_repression_cross_border": "cross_border_strike", "non_kinetic": "force_posture",
-}
-
-
-def classify_retaliation_type(rec_type: str, weapon: str | None) -> tuple[str, str]:
-    """Resolve (domain, event_type) for a retaliation-file record. Falls back to token
-    and weapon inference for any type not in the explicit maps."""
-    if rec_type in RET_TYPE_DOMAIN:
-        return RET_TYPE_DOMAIN[rec_type], RET_TYPE_EVENTTYPE.get(rec_type, "missile_attack")
-    t = (rec_type or "").lower()
-    w = (weapon or "").lower()
-    if any(k in t for k in ("idf", "israel", "us_strike", "us_counter")):
-        return "STRIKE", "airstrike"
-    if any(k in t for k in ("blockade", "shipping", "vessel", "seizure", "maritime")):
-        return "NAVAL", "maritime_attack"
-    if any(k in t for k in ("operational_loss", "ground_ops", "non_kinetic", "repression")):
-        return "MILITARY", "operational_loss" if "loss" in t else "ground_operations"
-    if "drone" in t or "drone" in w:
-        return "RETALIATION", "drone_attack"
-    if "rocket" in t or "rocket" in w:
-        return "RETALIATION", "rocket_attack"
-    return "RETALIATION", "missile_attack"
-
-
-def assess_retaliation_confidence(rec: dict) -> str:
-    """HIGH if verified; LOW if explicitly unverified or single-source; MEDIUM otherwise."""
-    verified = rec.get("verified")
-    conf = str(rec.get("confidence") or rec.get("verification_confidence") or "").upper()
-    if verified is False:
-        return "LOW"
-    if any(k in conf for k in ("SINGLE-SOURCE", "SINGLE SOURCE", "LOW", "UNVERIFIED", "DISPUTED")):
-        return "LOW"
-    if verified is True:
-        return "HIGH"
-    return "MEDIUM"
-
-
 def extract_strikes_retaliation() -> list[dict]:
-    """Phase 3: Extract retaliation / cross-front / maritime / operational-loss events."""
+    """Phase 3: Extract Iranian retaliation / Hezbollah / operational loss events."""
     data = load_json("strikes-retaliation.json")
     if data is None:
         return []
+
+    type_to_event_type = {
+        "iran_retaliation": "missile_attack",
+        "hezbollah_front": "rocket_attack",
+        "hezbollah": "rocket_attack",
+        "operational_loss": "operational_loss",
+        "us_strike_on_militia": "airstrike",
+    }
+
+    type_to_domain = {
+        "iran_retaliation": "RETALIATION",
+        "hezbollah_front": "RETALIATION",
+        "hezbollah": "RETALIATION",
+        "operational_loss": "MILITARY",
+        "us_strike_on_militia": "STRIKE",
+    }
 
     rows = []
     for rec in data:
         active_days = rec.get("active_days", [])
         rec_type = rec.get("type", "iran_retaliation")
-        weapon = rec.get("weapon")
-        domain, event_type = classify_retaliation_type(rec_type, weapon)
-        confidence = assess_retaliation_confidence(rec)
+        confidence = "HIGH" if rec.get("verified") else "LOW"
         country = extract_country(rec.get("city", ""))
 
-        # Initiating actor: prefer explicit `actor`, then `origin`, then derive from type.
-        actor_init = rec.get("actor") or rec.get("origin")
-        if not actor_init:
-            if domain == "STRIKE":
-                actor_init = "Israel" if ("israel" in rec_type or "idf" in rec_type) else "US"
-            elif "hezbollah" in rec_type:
-                actor_init = "Hezbollah"
-            elif "houthi" in rec_type:
-                actor_init = "Houthi"
-            elif rec_type == "operational_loss":
-                actor_init = None
-            else:
-                actor_init = "Iran"
-        actor_tgt = None if rec_type == "operational_loss" else country
+        # Determine initiating actor from origin or type
+        if rec_type == "us_strike_on_militia":
+            actor_init = "US"
+            actor_tgt = rec.get("city", "")
+        elif rec_type in ("hezbollah_front", "hezbollah"):
+            actor_init = "Hezbollah"
+            actor_tgt = country
+        elif rec_type == "operational_loss":
+            actor_init = None
+            actor_tgt = None
+        else:
+            actor_init = rec.get("origin", "Iran")
+            actor_tgt = country
 
         for day_num in active_days:
             d = date_from_war_day(day_num)
@@ -546,8 +381,8 @@ def extract_strikes_retaliation() -> list[dict]:
             row["date"] = d.isoformat()
             row["datetime_utc"] = None
             row["day_of_conflict"] = day_num
-            row["event_domain"] = domain
-            row["event_type"] = event_type
+            row["event_domain"] = type_to_domain.get(rec_type, "RETALIATION")
+            row["event_type"] = type_to_event_type.get(rec_type, "missile_attack")
             row["event_description"] = (
                 f"{rec.get('city', '')}: {rec.get('weapon', 'Unknown weapon')} — "
                 f"{rec.get('casualties_reported', 'No casualty data')}"
@@ -579,29 +414,6 @@ def extract_strikes_retaliation() -> list[dict]:
     return rows
 
 
-def normalize_naval_type(raw: str | None) -> str:
-    """Collapse free-text carrier `type` values to a controlled naval vocabulary.
-    The source mixes clean tokens ('carrier', 'destroyer') with verbose ones
-    ('Nimitz-class aircraft carrier', 'ballistic missile submarine')."""
-    t = (raw or "naval_asset").lower()
-    if "carrier" in t:
-        return "carrier"
-    if "submarine" in t:
-        return "submarine"
-    if "destroyer" in t:
-        return "destroyer"
-    if "amphibious" in t:
-        return "amphibious"
-    if "littoral" in t:
-        return "littoral_combat_ship"
-    if any(k in t for k in ("sea base", "pre_position", "prepositioning",
-                            "logistics", "support", "expeditionary", "supply")):
-        return "support"
-    if t in ("air", "ground"):
-        return t
-    return re.sub(r"[^a-z0-9]+", "_", t).strip("_") or "naval_asset"
-
-
 def extract_carriers() -> list[dict]:
     """Phase 4a: Extract naval asset deployment/positioning events."""
     data = load_json("carriers.json")
@@ -624,7 +436,7 @@ def extract_carriers() -> list[dict]:
         row["day_of_conflict"] = war_day(d)
 
         row["event_domain"] = "NAVAL"
-        row["event_type"] = normalize_naval_type(rec.get("type"))
+        row["event_type"] = rec.get("type", "naval_asset")
         row["event_description"] = (
             f"{rec.get('name', '')} ({rec.get('hull') or 'N/A'}) — "
             f"{rec.get('status', '')} — {rec.get('mission_summary', '')}"
@@ -745,9 +557,9 @@ def extract_infrastructure() -> list[dict]:
     for rec in data:
         row = empty_row()
         row["event_id"] = next_event_id()
-        row["date"] = AS_OF_DATE.isoformat()  # cumulative as-of latest data day
+        row["date"] = "2026-03-29"  # cumulative as-of date
         row["datetime_utc"] = None
-        row["day_of_conflict"] = AS_OF_DAY
+        row["day_of_conflict"] = 30
         row["event_domain"] = "HUMANITARIAN"
         row["event_type"] = "infrastructure_damage"
         row["event_description"] = rec.get("detail", rec.get("note", ""))
@@ -1034,10 +846,6 @@ def extract_hero_stats_history() -> list[dict]:
         ("displaced", "snapshot_displaced"),
         ("flights_cancelled", "snapshot_flights_cancelled"),
         ("children_killed", "snapshot_children_killed"),
-        # v1.1: fields added to hero-stats history after Day 30
-        ("nasdaq", "snapshot_nasdaq"),
-        ("dow", "snapshot_dow"),
-        ("sp500_change_pct", "snapshot_sp500_change_pct"),
     ]
 
     for entry in history:
@@ -1058,9 +866,6 @@ def extract_hero_stats_history() -> list[dict]:
             val = entry.get(src_key)
             if val is not None:
                 parts.append(f"{src_key}={val}")
-        hl = entry.get("headline") or entry.get("note")
-        if hl:
-            parts.append(f"headline: {hl}")
         row["event_description"] = "; ".join(parts)
 
         # Map snapshot fields
@@ -1114,8 +919,8 @@ def extract_hormuz() -> list[dict]:
     if vessels_attacked:
         row = empty_row()
         row["event_id"] = next_event_id()
-        row["date"] = AS_OF_DATE.isoformat()
-        row["day_of_conflict"] = AS_OF_DAY
+        row["date"] = "2026-03-29"
+        row["day_of_conflict"] = 30
         row["event_domain"] = "RETALIATION"
         row["event_type"] = "maritime_attack_summary"
         row["event_description"] = (
@@ -1136,8 +941,8 @@ def extract_hormuz() -> list[dict]:
     for route in impact.get("alternative_routes", []):
         row = empty_row()
         row["event_id"] = next_event_id()
-        row["date"] = AS_OF_DATE.isoformat()
-        row["day_of_conflict"] = AS_OF_DAY
+        row["date"] = "2026-03-29"
+        row["day_of_conflict"] = 30
         row["event_domain"] = "FINANCIAL"
         row["event_type"] = "alternative_route"
         cap = route.get("capacity_mbd", "?")
@@ -1213,8 +1018,8 @@ def extract_historical_comparison() -> list[dict]:
     for rec in data.get("conflicts", []):
         row = empty_row()
         row["event_id"] = next_event_id()
-        row["date"] = AS_OF_DATE.isoformat()  # reference as-of latest data day
-        row["day_of_conflict"] = AS_OF_DAY
+        row["date"] = "2026-03-29"  # reference date
+        row["day_of_conflict"] = 30
         row["event_domain"] = "OTHER"
         row["event_type"] = "historical_comparison"
         row["event_description"] = (
@@ -1300,11 +1105,11 @@ VARIABLE_METADATA = {
     "datetime_utc": ("Event Datetime", "datetime", "timeline-events.json", "Not available — only timeline events have timestamps",
                      "YYYY-MM-DDTHH:MM:SS. Times are approximate local time, not true UTC. Events span multiple time zones."),
     "day_of_conflict": ("Day of Conflict", "integer", "all", "Should not be missing",
-                        "Day 0 = 2026-02-27 (pre-war baseline). Day 1 = 2026-02-28 (first strikes). Max grows each release; v1.1 covers Day 0-100."),
+                        "Day 0 = 2026-02-27 (pre-war baseline). Day 1 = 2026-02-28 (first strikes). Max = 30."),
     "event_domain": ("Event Domain", "categorical", "all", "Should not be missing",
                      "Primary classification. STRIKE = US/Israeli offensive. RETALIATION = Iranian/proxy response. MILITARY = other military. NAVAL = maritime/fleet. FINANCIAL = economic data. DIPLOMATIC = political/diplomatic. HUMANITARIAN = casualties/damage. CYBER = cyber ops. OTHER = reference/summary."),
     "event_type": ("Event Type (subcategory)", "categorical", "all", "Should not be missing",
-                   "More specific than event_domain. Controlled vocabulary (see valid_values for the full enumerated list). Timeline events carry a normalized type; the verbatim source category is preserved in timeline_category_raw. Key types: airstrike, missile_attack, rocket_attack, drone_attack, proxy_attack, maritime_attack, daily_casualty_report, oil_price, market_index, daily_war_cost, tanker_transit, baseline_metric, daily_aggregate_snapshot."),
+                   "More specific than event_domain. 25 unique values. Key types: airstrike, missile_attack, rocket_attack, daily_casualty_report, oil_price, market_index, daily_war_cost, tanker_transit, baseline_metric, daily_aggregate_snapshot."),
     "event_description": ("Event Description", "text", "all", "Should not be missing",
                           "Free-text description. Format varies by source: timeline events = 'title: description'; strikes = 'city: target'; financial = metric summary."),
     "source_file": ("Source JSON File", "categorical", "all", "Should not be missing",
@@ -1323,8 +1128,8 @@ VARIABLE_METADATA = {
                          "Who carried out the action. Values: US, Israel, US/Israel (joint), Hezbollah, Iran, IRGC Navy, various proxy groups, UK, France."),
     "actor_target": ("Target Actor/Entity", "string", "strikes; retaliation; casualties", "Not applicable",
                      "Who or what was targeted. For casualties, identifies the faction (e.g., 'Iran (military)', 'US (military)')."),
-    "weapon_system": ("Weapon System", "string", "strikes-iran.json; strikes-retaliation.json", "Not applicable or not recorded",
-                      "Weapon/munition. From retaliation records throughout; from strike records where a `weapon` field is present (added to strikes-iran after Day 30). Examples: 'Ballistic missiles / cruise missiles / drones', 'M61 Vulcan 20mm cannon', 'Fattah hypersonic'."),
+    "weapon_system": ("Weapon System", "string", "strikes-retaliation.json", "Not applicable (non-retaliation event or not recorded)",
+                      "Weapon type from retaliation records. Examples: 'Ballistic missiles / cruise missiles / drones', 'Fattah hypersonic'."),
     "military_asset": ("Military Asset", "string", "carriers.json", "Not applicable (non-naval event)",
                        "Vessel name and hull number. Example: 'USS Abraham Lincoln (CVN-72)'."),
     "casualties_reported": ("Casualties Reported", "integer", "strikes; retaliation; casualties; hormuz", "Not recorded or not applicable",
@@ -1389,15 +1194,6 @@ VARIABLE_METADATA = {
                                    "Cumulative commercial flights cancelled due to conflict."),
     "snapshot_children_killed": ("Daily Snapshot: Children Killed (cumulative)", "float", "hero-stats.json", "Not available — reported intermittently",
                                  "Cumulative children killed across Iran and Lebanon. Figures from HRANA/Red Crescent."),
-    # --- v1.1 added columns ---
-    "timeline_category_raw": ("Timeline Source Category (verbatim)", "string", "timeline-events.json", "Not applicable (non-timeline event)",
-                              "The exact, unmodified `category` value from timeline-events.json. event_domain/event_type are derived from this via the documented v1.1 mapper (see CHANGELOG); the raw value is preserved so researchers can re-derive an alternative coding."),
-    "snapshot_nasdaq": ("Daily Snapshot: Nasdaq Composite", "float", "hero-stats.json", "Not available for this day (weekend/holiday or not reported)",
-                        "Nasdaq Composite index from the daily aggregate snapshot. Field added to hero-stats history after Day 30; NULL on non-trading days and for earlier days where not recorded."),
-    "snapshot_dow": ("Daily Snapshot: Dow Jones Industrial Avg", "float", "hero-stats.json", "Not available for this day",
-                     "Dow Jones Industrial Average from the daily aggregate snapshot. Added after Day 30; NULL where not recorded."),
-    "snapshot_sp500_change_pct": ("Daily Snapshot: S&P 500 Daily % Change", "float", "hero-stats.json", "Not available for this day",
-                                  "Reported daily percentage change in the S&P 500 from the snapshot. Added after Day 30; NULL where not recorded."),
 }
 
 
@@ -1458,11 +1254,10 @@ def generate_codebook(df: pd.DataFrame) -> pd.DataFrame:
 # ---------------------------------------------------------------------------
 def print_summary(df: pd.DataFrame):
     print("\n" + "=" * 70)
-    print(f"DATASET SUMMARY STATISTICS — v{DATASET_VERSION}")
+    print("DATASET SUMMARY STATISTICS")
     print("=" * 70)
     print(f"Total rows: {len(df)}")
     print(f"Date range: {df['date'].min()} to {df['date'].max()}")
-    print(f"As-of day: {AS_OF_DAY} ({AS_OF_DATE.isoformat()})")
     print(f"Columns: {len(df.columns)}")
 
     print("\n--- Row counts by event_domain ---")
@@ -1481,41 +1276,13 @@ def print_summary(df: pd.DataFrame):
         if pct > 0:
             print(f"  {col}: {pct:.1f}%")
 
-    print("\n--- Data quality / validation ---")
+    print("\n--- Data quality notes ---")
     dupes = df["event_id"].duplicated().sum()
     print(f"  Duplicate event_ids: {dupes}")
     null_dates = df["date"].isna().sum()
     print(f"  Missing dates: {null_dates}")
     null_domains = df["event_domain"].isna().sum()
     print(f"  Missing event_domain: {null_domains}")
-
-    def _iso_ok(s):
-        try:
-            date.fromisoformat(s)
-            return True
-        except Exception:
-            return False
-    bad_iso = (~df["date"].apply(_iso_ok)).sum()
-    print(f"  Non-ISO dates: {bad_iso}")
-
-    valid_domains = {"STRIKE", "RETALIATION", "NAVAL", "FINANCIAL", "DIPLOMATIC",
-                     "HUMANITARIAN", "CYBER", "MILITARY", "OTHER"}
-    bad_dom = (~df["event_domain"].isin(valid_domains)).sum()
-    print(f"  Invalid event_domain values: {bad_dom}")
-
-    def _day_ok(r):
-        try:
-            return war_day(date.fromisoformat(r["date"])) == int(r["day_of_conflict"])
-        except Exception:
-            return False
-    chk = df.dropna(subset=["date", "day_of_conflict"])
-    inconsistent = (~chk.apply(_day_ok, axis=1)).sum()
-    print(f"  day_of_conflict inconsistent with date: {inconsistent}")
-
-    # Sort-order check (date ASC, then event_domain ASC)
-    expected = df.sort_values(["date", "event_domain"], na_position="first").reset_index(drop=True)
-    sorted_ok = expected["event_id"].equals(df["event_id"])
-    print(f"  Rows in canonical sort order: {sorted_ok}")
 
 
 # ---------------------------------------------------------------------------
@@ -1524,13 +1291,8 @@ def print_summary(df: pd.DataFrame):
 def main():
     print("IranWar.ai Research Dataset Builder")
     print("=" * 40)
-    print(f"Dataset version: {DATASET_VERSION}")
     print(f"Data directory: {DATA_DIR}")
-    print(f"Output directory: {OUT_DIR}")
-
-    global AS_OF_DAY, AS_OF_DATE
-    AS_OF_DAY, AS_OF_DATE = compute_as_of()
-    print(f"As-of (latest data day): Day {AS_OF_DAY} ({AS_OF_DATE.isoformat()})\n")
+    print(f"Output directory: {OUT_DIR}\n")
 
     all_rows = []
 
