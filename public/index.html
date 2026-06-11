@@ -65,7 +65,7 @@
         <div class="disclaimer-body">
 
           <div class="disclaimer-section">
-            <p>This dashboard is updated <strong>once daily</strong>, typically mornings US Eastern. The architecture supports real-time feeds &mdash; that capability is not yet live. What you see may lag current events by hours.</p>
+            <p>This dashboard now updates <strong>twice weekly</strong>, typically mornings US Eastern. It ran on a daily cycle through its first ~100 days; as the pace of the conflict has settled and the media churn around it has cooled, a daily briefing became redundant more often than not. Wider model context windows now let a single human-audited pass cover several days at once without losing event-level detail &mdash; and the cadence returns to daily if the conflict reignites. The architecture supports real-time feeds &mdash; that capability is not yet live. What you see may lag current events, now by a day or two between updates.</p>
           </div>
 
           <div class="disclaimer-section">
@@ -100,7 +100,7 @@
         <div class="disclaimer-action">
           <label class="disclaimer-checkbox-wrap">
             <input type="checkbox" id="disclaimer-agree">
-            <span>I understand this data is AI-assisted, updated daily, and comes with no guarantees of accuracy. I will not rely on it for financial, military, or life-safety decisions.</span>
+            <span>I understand this data is AI-assisted, updated twice weekly, and comes with no guarantees of accuracy. I will not rely on it for financial, military, or life-safety decisions.</span>
           </label>
           <button class="disclaimer-enter" id="disclaimer-enter" disabled>I UNDERSTAND &mdash; ENTER THE THEATER</button>
         </div>
@@ -564,7 +564,7 @@
             <li><strong>Conflict data</strong> is sourced from ACLED, CENTCOM, DoD press releases, CRS reports, OSINT analysts, and verified satellite imagery. Strike coordinates are approximate. Casualty figures draw from multiple sources that frequently contradict each other — because that is the nature of war reporting.</li>
             <li><strong>Humanitarian data</strong> comes from UNHCR, OCHA, ICRC, WHO, the Iranian Red Crescent, and the Lebanese Health Ministry. Displacement figures are conservative estimates by design.</li>
             <li><strong>AI-generated content</strong> includes timeline descriptions, daily briefings, and some enrichment calculations. These are audited by the creator, but <em>models hallucinate with total confidence</em> — errors survive audits. A detailed correction and verification trail is maintained in the project repository.</li>
-            <li><strong>Update cadence</strong> is daily. Each update cycle includes a full audit of all JSON data files against primary sources.</li>
+            <li><strong>Update cadence</strong> is twice weekly as of ~Day 100 &mdash; daily through the opening phase, and it returns to daily if the conflict accelerates. Each update cycle includes a full audit of all JSON data files against primary sources.</li>
             <li><strong>No data on this dashboard should be used for financial, military, or life-safety decisions.</strong> It is built for comprehension, not action.</li>
           </ul>
         </div>
