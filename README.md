@@ -35,7 +35,7 @@ The paper is the primary reference for everything in this repository. **Before u
 
 This is a **single repository hosting four artifacts** that share a provenance trail:
 
-1. **A live public intelligence dashboard** — [iranwar.ai](https://iranwar.ai) — updated daily since Day 1 of the conflict (February 28, 2026).
+1. **A live public intelligence dashboard** — [iranwar.ai](https://iranwar.ai) — updated daily from Day 1 of the conflict (February 28, 2026) through ~Day 100, now on a twice-weekly cadence (returning to daily if the conflict accelerates).
 2. **The structured JSON corpus** that powers the dashboard — 16 files under `public/data/` representing the live source of truth.
 3. **A versioned, event-level research dataset** — extracted from those JSON files on a scheduled cadence, released as CSV with a codebook, an extraction script, and a snapshot of the source data at the time of extraction.
 4. **The manuscript** that documents items 1–3 as a research instrument and as an epistemic object: how it was built, what it knows, what it does not know, and how it should be cited and contested.
@@ -241,7 +241,7 @@ The dashboard and the research dataset are two faces of the same evidence base.
 ╚════════════════════════════════════════════════════════════════════════════╝
 ```
 
-The dashboard is what the public sees. The dataset is what researchers cite. Both come from the same JSON corpus and the same human-audited AI pipeline; only the **release cadence** differs (daily for the dashboard, monthly for versioned CSV releases).
+The dashboard is what the public sees. The dataset is what researchers cite. Both come from the same JSON corpus and the same human-audited AI pipeline; only the **release cadence** differs (twice-weekly for the dashboard as of ~Day 100, monthly for versioned CSV releases).
 
 ---
 
@@ -330,6 +330,8 @@ The absence of a build step is deliberate. Every byte the browser renders is in 
 ---
 
 ## The daily update cycle
+
+> **As of ~Day 100, this cycle runs twice weekly rather than daily** — see [Release cadence](#release-cadence). The two-phase, human-in-the-loop protocol below is unchanged; only its frequency is. It returns to a daily cadence if the conflict accelerates.
 
 ```
  PHASE 1: RESEARCH                       PHASE 2: EXECUTION
@@ -465,13 +467,15 @@ python3 ResearchData/build_dataset.py
 
 | Channel | Cadence |
 |---|---|
-| Live dashboard (`public/data/*.json`) | **Daily.** Pushed to `main`, auto-deployed by Cloudflare Pages. |
+| Live dashboard (`public/data/*.json`) | **Twice weekly** as of ~Day 100 — daily for the first ~100 days; pushed to `main`, auto-deployed by Cloudflare Pages. Returns to daily if the conflict accelerates. |
 | Daily database snapshots (`snapshots/`) | **Daily, 03:00 CT,** via GitHub Action. |
-| Briefing archive (`public/data/briefings/`) | **Daily** — one HTML fragment per war day; archive page auto-discovers from `index.json`. |
+| Briefing archive (`public/data/briefings/`) | **Twice weekly** as of ~Day 100 (daily through the opening phase) — one HTML fragment per briefing; archive page auto-discovers from `index.json`. |
 | Research dataset (`ResearchData/iranwar_event_dataset.csv`) | **Monthly versioned releases** (v1.0, v1.1, …). Interim correction releases when source updates, major errors, or analytically important reclassifications warrant. |
 | Zenodo deposit | **Per research release.** v1.0 live at [10.5281/zenodo.20181794](https://doi.org/10.5281/zenodo.20181794). |
 | Preprint (SocArXiv) | **Per manuscript version.** Live at [10.31235/osf.io/su4ng_v1](https://doi.org/10.31235/osf.io/su4ng_v1). |
 | Manuscript revisions | **As-needed** (errata, methodological updates). Versioned in this repository, posted to SocArXiv, and re-deposited on Zenodo when material. |
+
+> **Cadence note (~Day 100).** The dashboard's daily update cycle was paused around **Day 100** of the conflict and transitioned to a **twice-weekly** cadence. The drivers: the pace of the conflict settled into a lower-tempo equilibrium, the surrounding media cycle cooled, and a daily briefing became redundant more often than not — while wider model context windows now let a single human-in-the-loop pass cover a multi-day window without dropping event-level detail. The two-phase, human-audited protocol is unchanged; only its frequency is. **Should the pace of the conflict accelerate, the dashboard returns to a daily cycle.**
 
 ---
 
