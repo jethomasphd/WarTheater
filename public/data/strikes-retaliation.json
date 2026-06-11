@@ -18,11 +18,12 @@
       5,
       6,
       7,
-      8
+      8,
+      103
     ],
-    "notes": "386th Air Expeditionary Wing hub. Kuwaiti air defenses intercepted initial ballistic missiles on Feb 28; debris fell on base. Satellite imagery confirmed damage to 12+ structures, aircraft shelters, and runway areas. Camp Canada (Canadian forces) bunkers also damaged. On March 2, Kuwaiti F/A-18 shot down 3 US F-15Es in friendly fire incident — all 6 crew ejected safely. Italian 51st Stormo personnel sheltered in bunkers.",
+    "notes": "Day 103 (June 10): the IRGC struck Ali Al Salem Air Base with drones (intercepted) in retaliation for the June 9 US strikes — part of the multi-front June 10 salvo on Bahrain, Kuwait and a NEW Jordan (Azraq) front (see iran-strikes-gulf-bases-20260610). 386th Air Expeditionary Wing hub. Kuwaiti air defenses intercepted initial ballistic missiles on Feb 28; debris fell on base. Satellite imagery confirmed damage to 12+ structures, aircraft shelters, and runway areas. Camp Canada (Canadian forces) bunkers also damaged. On March 2, Kuwaiti F/A-18 shot down 3 US F-15Es in friendly fire incident — all 6 crew ejected safely. Italian 51st Stormo personnel sheltered in bunkers.",
     "verified": true,
-    "last_updated": "2026-03-17"
+    "last_updated": "2026-06-10"
   },
   {
     "id": "al-udeid-qatar",
@@ -111,11 +112,12 @@
       19,
       20,
       21,
-      26
+      26,
+      103
     ],
-    "notes": "US Fifth Fleet / NAVCENT HQ. Day 26 (Mar 25): Bahrain air raid sirens activated. Cumulative since war start: 153 missiles and 301 drones intercepted. IRGC fires 'precision-guided' missiles and drones at US-hosting bases in Bahrain.",
+    "notes": "Day 103 (June 10): the IRGC struck the US Fifth Fleet HQ (NSA Bahrain) with drones (intercepted) in retaliation for the June 9 US strikes — part of the multi-front June 10 salvo on Bahrain, Kuwait and a NEW Jordan (Azraq) front (see iran-strikes-gulf-bases-20260610). US Fifth Fleet / NAVCENT HQ. Day 26 (Mar 25): Bahrain air raid sirens activated. Cumulative since war start: 153 missiles and 301 drones intercepted. IRGC fires 'precision-guided' missiles and drones at US-hosting bases in Bahrain.",
     "verified": true,
-    "last_updated": "2026-03-25"
+    "last_updated": "2026-06-10"
   },
   {
     "id": "erbil-iraq",
@@ -4185,5 +4187,56 @@
     "verified": true,
     "verification_confidence": "MEDIUM",
     "last_updated": "2026-06-07"
+  },
+  {
+    "id": "iran-missiles-israel-20260608",
+    "city": "Beit Shemesh, Haifa, Ramat Gan (central/northern Israel)",
+    "lat": 31.74,
+    "lng": 34.99,
+    "type": "iran_retaliation",
+    "actor": "Iran (IRGC)",
+    "first_strike": "2026-06-08",
+    "active_days": [
+      101
+    ],
+    "weapon": "~30 ballistic missiles (IRGC)",
+    "casualties_reported": "Multiple Israeli civilians killed (Beit Shemesh, Haifa, Ramat Gan); cumulative Iranian-missile death toll in Israel ~20 (Times of Israel)",
+    "casualties_source": "Israeli emergency services; Times of Israel",
+    "notes": "Day 101 (June 8, Monday): First direct Iranian ballistic-missile strike on Israel since the April ceasefire (overnight June 7-8) — ~30 missiles fired in retaliation for Israel's June 7 strike on Beirut's Dahieh suburb, killing Israeli civilians across Beit Shemesh, Haifa and Ramat Gan. The IDF said it intercepted most but 'the defense is not hermetic.' Israel struck back at Tehran, Isfahan, Tabriz and a Mahshahr petrochemical complex; both sides then announced a mutual suspension after Trump called for an 'immediate CEASEFIRE.' Manifest §3.",
+    "sources": [
+      "Manifest §3",
+      "Times of Israel June 8",
+      "GlobalSecurity",
+      "Euronews"
+    ],
+    "verified": true,
+    "verification_confidence": "HIGH",
+    "last_updated": "2026-06-10"
+  },
+  {
+    "id": "iran-strikes-gulf-bases-20260610",
+    "city": "Manama (Bahrain), Ali Al Salem (Kuwait), Azraq/Muwaffaq Salti (Jordan)",
+    "lat": 26.22,
+    "lng": 50.58,
+    "type": "iran_retaliation",
+    "actor": "Iran (IRGC)",
+    "first_strike": "2026-06-10",
+    "active_days": [
+      103
+    ],
+    "weapon": "IRGC drones (Bahrain Fifth Fleet HQ; Kuwait Ali Al Salem); long-range ballistic missiles (Jordan Azraq)",
+    "casualties_reported": "No casualties — Jordan intercepted 5 missiles (debris only); Bahrain & Kuwait intercepted; US reported no casualties or damage",
+    "casualties_source": "Jordanian Armed Forces; Bahrain Defence Force; Kuwait military; US official (anonymous)",
+    "notes": "Day 103 (June 10, Wednesday): Retaliation for the June 9 US strikes on Iran. The IRGC launched drones at the US Fifth Fleet HQ in Bahrain and Ali Al Salem Air Base in Kuwait, and long-range ballistic missiles at Azraq (Muwaffaq Salti) Air Base in Jordan — the war's DEEPEST Iranian reach (~1,000km from the Iranian coast). Jordan intercepted 5 missiles (debris only); Bahrain and Kuwait also reported interceptions. The IRGC claimed 21 US targets struck and 4 destroyed incl. an F-35 hangar at Azraq, plus downing an MQ-9 Reaper over Jam — all UNVERIFIED and disputed by US officials, who reported no US casualties or damage. Iran also claimed (UNVERIFIED) that US strikes hit reservoirs serving 20,000 people. Manifest §3.",
+    "sources": [
+      "Manifest §3",
+      "Euronews June 10",
+      "Al Jazeera",
+      "Jerusalem Post",
+      "Republic World"
+    ],
+    "verified": true,
+    "verification_confidence": "HIGH",
+    "last_updated": "2026-06-10"
   }
 ]
