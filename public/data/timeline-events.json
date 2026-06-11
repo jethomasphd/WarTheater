@@ -8431,5 +8431,59 @@
     "source": "Lloyd's List Intelligence / Manifest §6-7",
     "time": "Day 100",
     "title": "Hormuz traffic at slowest of the war — 40 transits in a week"
+  },
+  {
+    "category": "military",
+    "data_point": "Iran fired ~30 ballistic missiles at Israel — its first direct strike on Israeli soil since the April ceasefire — killing civilians in Beit Shemesh, Haifa and Ramat Gan; Israel struck Tehran, Isfahan, Tabriz and a Mahshahr petrochemical plant; a mutual suspension followed",
+    "date": "2026-06-08",
+    "description": "Iran fired ~30 ballistic missiles at Israel overnight June 7-8, killing Israeli civilians in Beit Shemesh, Haifa and Ramat Gan, retaliating for Israel's June 7 Beirut strike. Israel struck back at Tehran, Isfahan, Tabriz and a Mahshahr petrochemical plant, defying Trump. Both announced a suspension after Trump called for an immediate ceasefire; he claimed 'total victory' within two weeks.",
+    "source": "GlobalSecurity / CNBC / Times of Israel / NPR / Euronews / Manifest §5",
+    "time": "Day 101",
+    "title": "First direct Iran-Israel exchange since April ceasefire; mutual suspension"
+  },
+  {
+    "category": "military",
+    "data_point": "US Army AH-64 Apache downed over Hormuz (both pilots rescued by a 5th Fleet Task Force 59 Corsair USV); CENTCOM launched ~4 hours of self-defense strikes on Iranian air-defense, ground-control and radar sites near the Strait",
+    "date": "2026-06-09",
+    "description": "A US Army AH-64 Apache was downed over the Strait of Hormuz (night June 8-9); both pilots were rescued by a US Navy Corsair uncrewed surface vessel of 5th Fleet's Task Force 59. Trump blamed an Iranian drone; CENTCOM launched self-defense strikes on Iranian air-defense, ground-control and radar sites near the Strait, beginning 5pm ET and concluding within four hours.",
+    "source": "NBC News / Bloomberg / Air & Space Forces Magazine / CENTCOM / TWZ-DefenseScoop / Manifest §5",
+    "time": "Day 102",
+    "title": "US Apache downed over Hormuz; US resumes direct strikes on Iran"
+  },
+  {
+    "category": "military",
+    "data_point": "IRGC drones at Bahrain (5th Fleet) and Kuwait (Ali Al Salem) plus long-range ballistic missiles at Azraq, Jordan (~1,000km — the war's deepest Iranian reach); Jordan intercepted 5 missiles; all three states reported interceptions and no casualties",
+    "date": "2026-06-10",
+    "description": "The IRGC launched drones at the US Fifth Fleet in Bahrain and Ali Al Salem base in Kuwait, and long-range missiles at Azraq Air Base in Jordan — the war's deepest Iranian reach (~1,000km). Jordan intercepted 5 missiles; all three states reported interceptions and no casualties. Iran claimed 21 targets struck and an F-35 hangar destroyed (unverified). Trump vowed Iran would 'pay the price.'",
+    "source": "Euronews / Al Jazeera / Jerusalem Post / Republic World / NPR / Manifest §5",
+    "time": "Day 103",
+    "title": "Iran strikes US bases in Bahrain, Kuwait, Jordan"
+  },
+  {
+    "category": "military",
+    "data_point": "CENTCOM: a US aircraft disabled the Palau-flagged M/T Settebello (Gulf of Oman, 11:14pm June 9) — the 8th vessel disabled since the April 13 blockade began; 3 of 24 Indian crew missing; 134 ships redirected / 42 humanitarian allowed",
+    "date": "2026-06-10",
+    "description": "CENTCOM announced a US aircraft disabled the Palau-flagged M/T Settebello in the Gulf of Oman at 11:14pm June 9 — the 8th vessel disabled since the April 13 blockade began. Three of 24 Indian crew went missing; Oman led search-and-rescue and the IMO chief condemned the strike. CENTCOM cites 134 ships redirected and 42 humanitarian vessels allowed.",
+    "source": "Navy Times / Stars and Stripes / The National / CENTCOM / Manifest §5",
+    "time": "Day 103",
+    "title": "8th tanker disabled under blockade; 3 Indian sailors missing"
+  },
+  {
+    "category": "economic",
+    "data_point": "May CPI +0.5% m/m → 4.2% y/y (highest since April 2023); energy +23.5%, gasoline +40.5% (energy >60% of the monthly gain); core CPI +0.2% m/m (2.9% y/y); S&P -1.62%",
+    "date": "2026-06-10",
+    "description": "May CPI rose 0.5% m/m, putting annual inflation at 4.2% — the highest since April 2023 — with energy +23.5% and gasoline +40.5% (energy accounting for over 60% of the monthly gain). Core CPI was a milder +0.2% m/m (2.9% y/y). Markets fell sharply (S&P -1.62%); the Fed is now less likely to cut rates.",
+    "source": "NPR / CNBC / TheStreet / Trading Economics / Manifest §5-6",
+    "time": "Day 103",
+    "title": "US inflation tops 4% on war-driven energy shock"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Reporting indicated Iran and the US had agreed on four points in peace talks, with Iran refusing to ship uranium abroad — even as Trump threatened strikes on Iran's 'plants and bridges'; the Pakistani mediation channel remained the key variable",
+    "date": "2026-06-10",
+    "description": "Even as strikes intensified, reporting indicated Iran and the US had reached agreement on four points in peace talks, with Iran refusing to ship uranium out of the country. Trump simultaneously threatened strikes on Iran's 'plants and bridges,' underscoring a war-and-talk dynamic. The Pakistani mediation channel (Naqvi's June 7 written message to Khamenei) remained the key diplomatic variable.",
+    "source": "Hindustan Times / GlobalSecurity / Trading Economics / Manifest §5",
+    "time": "Day 103",
+    "title": "Mixed diplomatic signals amid escalation"
   }
 ]
