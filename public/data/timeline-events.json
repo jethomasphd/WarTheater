@@ -8485,5 +8485,50 @@
     "source": "Hindustan Times / GlobalSecurity / Trading Economics / Manifest §5",
     "time": "Day 103",
     "title": "Mixed diplomatic signals amid escalation"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "IAEA Board of Governors resolution passed 21-3-10 (Russia, China, Niger against; 10 abstentions) demanding Iran declare its enriched-uranium stockpile and grant inspector access, citing a ~97-day monitoring blackout; Iran rebuffed it",
+    "date": "2026-06-10",
+    "description": "The IAEA Board of Governors passed a resolution 21-3-10 — with Russia, China and Niger against and 10 abstentions — demanding Iran declare its enriched-uranium stockpile and grant inspector access after a ~97-day monitoring blackout. Iran rebuffed the resolution.",
+    "source": "IAEA / Reuters / Manifest §5",
+    "time": "Day 103",
+    "title": "IAEA board demands Iran disclose uranium stockpile (21-3-10)"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Trump cancelled scheduled strikes the evening of June 11 and claimed a 'great settlement' approved 'by all parties' (US, Israel, Saudi Arabia, UAE, Qatar, Turkey, Pakistan, Bahrain, Kuwait, Jordan, Egypt); no US strikes on Iranian territory after June 11",
+    "date": "2026-06-11",
+    "description": "On the evening of June 11, President Trump cancelled further scheduled strikes on Iran and claimed a 'great settlement' had been approved 'by all parties involved,' listing the US, Israel, Saudi Arabia, UAE, Qatar, Turkey, Pakistan, Bahrain, Kuwait, Jordan and Egypt. The cancellation halted the land war — no US strikes on Iranian territory occurred June 12-15.",
+    "source": "White House / Reuters / Manifest §5",
+    "time": "Day 104",
+    "title": "Trump cancels strikes, declares a 'great settlement'"
+  },
+  {
+    "category": "iranian_statement",
+    "data_point": "Iran FM spokesman Baghaei: 'Iran has not reached a final decision'; PM Netanyahu said Israel is 'not a party' to the MOU",
+    "date": "2026-06-11",
+    "description": "Iran's Foreign Ministry spokesman Esmaeil Baghaei said 'Iran has not reached a final decision,' tempering Trump's settlement claim, while Israeli PM Netanyahu said Israel is 'not a party' to the memorandum of understanding — early signs of contested terms.",
+    "source": "IRNA / Times of Israel / Manifest §5",
+    "time": "Day 104",
+    "title": "Iran and Israel temper Trump's settlement claim"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Pakistan PM Sharif announced a 'final, agreed upon text'; VP Vance told CBS endorsement was 'still TBD'; Treasury Secretary Bessent said a deal could come 'this weekend or Monday'",
+    "date": "2026-06-12",
+    "description": "Pakistan's PM Shehbaz Sharif announced a 'final, agreed upon text' for the US-Iran deal, while VP Vance told CBS that endorsement was 'still TBD' and Treasury Secretary Scott Bessent said a deal could come 'this weekend or Monday' — the Pakistani mediation channel remained central.",
+    "source": "Reuters / CBS / Manifest §5",
+    "time": "Day 105",
+    "title": "Pakistan announces 'final, agreed upon text'"
+  },
+  {
+    "category": "financial",
+    "data_point": "SpaceX (SPCX) debuted on the Nasdaq at $160.95 (+19.22% from its $135 IPO price), raising $75B at a ~$1.75T valuation — the largest IPO in history, eclipsing Saudi Aramco's 2019 record of $25.6B; market cap above $2 trillion",
+    "date": "2026-06-12",
+    "description": "SpaceX (ticker SPCX) debuted on the Nasdaq, settling at $160.95 — up 19.22% from its $135 IPO price. It raised $75B at a ~$1.75T valuation, the largest IPO in history, shattering Saudi Aramco's 2019 record of $25.6B and pushing its market cap above $2 trillion. The debut came as oil hit an eight-week low (Brent $87.33) on deal optimism.",
+    "source": "CNBC / Nasdaq / Manifest §6",
+    "time": "Day 105",
+    "title": "SpaceX IPO is the largest in history ($75B raised)"
   }
 ]
