@@ -102,7 +102,12 @@
     "Day 100",
     "Day 101",
     "Day 102",
-    "Day 103"
+    "Day 103",
+    "Day 104",
+    "Day 105",
+    "Day 106",
+    "Day 107",
+    "Day 108"
   ],
   "daily_cost_millions": [
     3000,
@@ -207,7 +212,12 @@
     95,
     100,
     110,
-    120
+    120,
+    105,
+    95,
+    92,
+    90,
+    90
   ],
   "day_notes": [
     "First strikes — $5.6B munitions in 48 hrs (WaPo)",
@@ -312,7 +322,12 @@
     "Day 100 (June 7, Sunday) — DAY 100: WAR SETTLES INTO A BLOCKADE-PLUS-SKIRMISH EQUILIBRIUM; NO NEW OFFICIAL PENTAGON COST FIGURE; THE CONSUMER FUEL BURDEN AND THE BLOCKADE'S BITE ON IRANIAN EXPORTS REMAIN THE DECISIVE ECONOMIC LEVERS. Daily burn-rate eased to the ~$95M/day weekend floor of the CSIS ceasefire-standby band — blockade O&M, base-protection lift, and Lincoln + Bush CSG sustainment in the Arabian Sea; no US offensive strike booked June 7. DAILY-COST RANGE OF NAMED ESTIMATES: CSIS (Mark Cancian) ~$500M/day sustained; Stephen Semler / Security Policy Reform Institute ~$1.2B/day over the first 60 days. CUMULATIVE OFFICIAL: $29B direct military (Pentagon Acting Comptroller Jules Hurst, congressional testimony May 12; excludes US base repair) — no new official figure since. INDEPENDENT ESTIMATES RUN HIGHER: ~$50B (US officials via CBS); $71.8B over 60 days (Semler/SPRI); ~$1T long-term projection (Linda Bilmes, Harvard). CONSUMER COST (competing trackers, different scopes, NOT merged): Watson Institute / Costs of War ~$41.7B total / ~$318 per household (early June, gasoline+diesel); Moody's ~$60B / $447.19 per household (May 29, incl. jet fuel/airfare); ITEP $46.5B / $347.72 per household (May 31, gasoline+diesel). TANKER TRANSITS (Lloyd's List Intelligence): 40 vessels May 25-Jun 1 (slowest traffic since the war began); 13 so far this week; a rise in 'dark' AIS-off transits. IRAN MAY OIL EXPORTS (UANI Tanker Tracker): just 2.01M barrels (avg 64,921 bpd) — a 93% volume drop from April — valued at $219M (down 94%); per UANI, no crude exports successfully passed through the US blockade. NEXT PRESSURE POINT: House defense-bill markup / Pentagon cost breakdown due ~June 11. ESCALATION RISK INDICATOR: HOLDING-FRAGILE — a frozen-conflict outcome is now the base case.",
     "Day 101 (June 8, Monday) — FIRST DIRECT IRAN-ISRAEL MISSILE EXCHANGE SINCE THE APRIL CEASEFIRE, THEN A MUTUAL SUSPENSION; OIL SPIKES ABOVE $97 INTRADAY THEN EASES; AN F/A-18 FROM USS ABRAHAM LINCOLN DISABLES THE 7TH BLOCKADE TANKER (M/T MARIVEX). Daily burn-rate ~$100M/day — base-protection lift across Gulf installations, two-carrier (Lincoln + Bush) sustainment, and the Marivex tanker-disablement strike, partly offset by the off-theater nature of the Iran-Israel exchange; still within the CSIS ceasefire-standby band and far below the major-combat $500M-$2B/day. CUMULATIVE military cost remains anchored to the Pentagon-confirmed ~$29B (Acting Comptroller Jules Hurst, May 12); no new official disclosure — the dashboard's modeled cumulative estimate is ~$72.0B (distinct from the official figure, NOT merged). MARKETS: S&P 500 7,405.73 (+0.30%), Dow 50,786.01 (-0.16%), Nasdaq 25,929.66 (+0.86%); Brent spiked above $97 intraday before settling $94.25 (+1.25%), WTI $91.30. ESCALATION RISK INDICATOR: RISING — the 'largely finished' framing began to break as Iran and Israel exchanged direct fire for the first time since April.",
     "Day 102 (June 9, Tuesday) — US ARMY APACHE DOWNED OVER HORMUZ (BOTH PILOTS RESCUED); US RESUMES DIRECT STRIKES ON IRAN (AIR-DEFENSE/RADAR/GROUND-CONTROL SITES NEAR THE STRAIT); A US AIRCRAFT DISABLES THE 8TH BLOCKADE TANKER (M/T SETTEBELLO, 3 INDIAN CREW MISSING). Daily burn-rate stepped UP to ~$110M/day — the four-hour CENTCOM self-defense strike package (USAF + Navy fighters, precision munitions), combat search-and-rescue for the downed Apache crew, the Settebello disablement, and elevated force protection. CUMULATIVE anchored to the Pentagon-confirmed ~$29B (no new disclosure); dashboard modeled estimate ~$72.1B (NOT merged). MARKETS: S&P 500 7,386.65 (-0.26%), Dow 50,872.11 (+0.17%), Nasdaq 25,678.82 (-0.97%), VIX 19.87; oil fell ~3% to a 7-week low intraday (WTI ~$88.05, Brent ~$91.37) before the post-close strikes. ESCALATION RISK INDICATOR: HIGH — US-Iran kinetic exchange resumes directly on Iranian territory for the first time in the window.",
-    "Day 103 (June 10, Wednesday) — IRAN STRIKES US BASES IN BAHRAIN, KUWAIT AND JORDAN (THE WAR'S DEEPEST IRANIAN REACH, ~1,000KM); ALL INTERCEPTED, NO CASUALTIES; US CPI TOPS 4% ON THE WAR'S ENERGY SHOCK; MARKETS TUMBLE. Daily burn-rate rose to ~$120M/day — multi-base air-and-missile defense across Bahrain (Fifth Fleet HQ), Kuwait (Ali Al Salem) and Jordan (Azraq), heavy interceptor expenditure (Jordan alone downed 5 ballistic missiles), and continued two-carrier blockade enforcement; still well below the major-combat band but the highest of the re-escalation. DAILY-COST RANGE OF NAMED ESTIMATES (carried): CSIS (Cancian) ~$500M/day sustained; Semler/SPRI ~$1.2B/day over the first 60 days. CUMULATIVE OFFICIAL: $29B direct military (Pentagon Acting Comptroller Jules Hurst, May 12; excludes US base repair) — no new official figure since; the dashboard's modeled cumulative is ~$72.3B (distinct estimate, NOT merged with the official figure). INFLATION SHOCK: US May CPI printed 4.2% y/y — the highest since April 2023 — with energy +23.5% and gasoline +40.5% driving over 60% of the monthly gain; core CPI a milder +0.2% m/m (2.9% y/y); the Fed is now seen as less likely to cut. CONSUMER FUEL BURDEN: AAA national gas eased ~2 cents to $4.151/gal (still ~$1.16/gal above the $2.99 baseline) even as crude rebounded; ITEP/Watson trackers carried (per-household additional cost $347.72; cumulative ~$46.5B). TANKER TRANSITS (Lloyd's/NYT): Western-allied commercial traffic remains near zero via the IRGC lane; the US-guided channel near Oman's coast carried ~70 ships over the three weeks to June 1; DoD estimates lost Iranian oil revenue ~$4.8B. MARKETS: S&P 500 -1.62% to 7,266.99, Dow -1.87% (-953) to 49,918.78, Nasdaq -1.98% to 25,169.50; VIX surged ~11% (~22); WTI settled +2.07% at $90.03, Brent +1.8% at $93.10. ESCALATION RISK INDICATOR: HIGH — a multi-front Iranian strike on three US base-hosting states plus a war-driven inflation print mark the most dangerous econ-military juncture since the opening weeks."
+    "Day 103 (June 10, Wednesday) — IRAN STRIKES US BASES IN BAHRAIN, KUWAIT AND JORDAN (THE WAR'S DEEPEST IRANIAN REACH, ~1,000KM); ALL INTERCEPTED, NO CASUALTIES; US CPI TOPS 4% ON THE WAR'S ENERGY SHOCK; MARKETS TUMBLE. Daily burn-rate rose to ~$120M/day — multi-base air-and-missile defense across Bahrain (Fifth Fleet HQ), Kuwait (Ali Al Salem) and Jordan (Azraq), heavy interceptor expenditure (Jordan alone downed 5 ballistic missiles), and continued two-carrier blockade enforcement; still well below the major-combat band but the highest of the re-escalation. DAILY-COST RANGE OF NAMED ESTIMATES (carried): CSIS (Cancian) ~$500M/day sustained; Semler/SPRI ~$1.2B/day over the first 60 days. CUMULATIVE OFFICIAL: $29B direct military (Pentagon Acting Comptroller Jules Hurst, May 12; excludes US base repair) — no new official figure since; the dashboard's modeled cumulative is ~$72.3B (distinct estimate, NOT merged with the official figure). INFLATION SHOCK: US May CPI printed 4.2% y/y — the highest since April 2023 — with energy +23.5% and gasoline +40.5% driving over 60% of the monthly gain; core CPI a milder +0.2% m/m (2.9% y/y); the Fed is now seen as less likely to cut. CONSUMER FUEL BURDEN: AAA national gas eased ~2 cents to $4.151/gal (still ~$1.16/gal above the $2.99 baseline) even as crude rebounded; ITEP/Watson trackers carried (per-household additional cost $347.72; cumulative ~$46.5B). TANKER TRANSITS (Lloyd's/NYT): Western-allied commercial traffic remains near zero via the IRGC lane; the US-guided channel near Oman's coast carried ~70 ships over the three weeks to June 1; DoD estimates lost Iranian oil revenue ~$4.8B. MARKETS: S&P 500 -1.62% to 7,266.99, Dow -1.87% (-953) to 49,918.78, Nasdaq -1.98% to 25,169.50; VIX surged ~11% (~22); WTI settled +2.07% at $90.03, Brent +1.8% at $93.10. ESCALATION RISK INDICATOR: HIGH — a multi-front Iranian strike on three US base-hosting states plus a war-driven inflation print mark the most dangerous econ-military juncture since the opening weeks.",
+    "Day 104 (June 11, Thursday) — TRUMP CANCELS FURTHER STRIKES; THE LAND WAR STOPS. Daily burn eased to ~$105M/day — a final early-morning CENTCOM strike wave (Sirik, Minab, Bandar Abbas, Qeshm, Gorgan; military surveillance, C2, air-defense, ammunition depots and warehouses) plus continued two-carrier blockade enforcement, before President Trump cancelled additional strikes on the evening of June 11 and claimed a 'great settlement.' No US strikes on Iranian territory occurred after this date. CUMULATIVE OFFICIAL: $29B direct military (Pentagon, May 12) — no new disclosure; the dashboard's modeled cumulative is ~$72.4B (distinct estimate, NOT merged). MARKETS: relief rally — S&P 500 +1.75% to 7,394.30, Dow +1.86% to 50,848.75, Nasdaq +2.54% to 25,809.66; oil fell ~4% in extended trade after the cancellation (Brent ~$89, WTI ~$86.50). The ECB raised rates a quarter-point to 2.25%, the first major central bank to respond to the Iran energy shock. ESCALATION RISK INDICATOR: FALLING — the kinetic phase halts pending a deal.",
+    "Day 105 (June 12, Friday) — STANDBY POSTURE AS A DEAL NEARS; OIL HITS AN EIGHT-WEEK LOW. Daily burn settled to ~$95M/day standby — force protection, two-carrier presence and Hormuz drone interceptions, with no strikes on Iranian territory. CUMULATIVE OFFICIAL: $29B (Pentagon, May 12); modeled ~$72.5B (NOT merged). MARKETS: S&P 500 +0.50% to 7,431.46, Dow +0.70% to 51,202.26, Nasdaq +0.31% to 25,888.84, Russell 2000 2,943.99; Brent settled $87.33 (-3.4%), WTI $84.88 (-3.2%). SpaceX (SPCX) debuted on the Nasdaq at $160.95 (+19.22%), raising $75B at a ~$1.75T valuation — the largest IPO in history. TANKER TRANSITS: AIS traffic remains near zero pending the deal; CENTCOM blockade tally 9 disabled / 142 redirected (June 14). ESCALATION RISK INDICATOR: LOW-MODERATE — diplomacy-dominated.",
+    "Day 106 (June 13, Saturday) — WEEKEND STANDBY; SIGNING TIMELINE FIRMS. Daily burn ~$92M/day standby (no trading; carry). FM Araghchi said signing could happen 'within days,' executed digitally; the White House named VP Vance for a Geneva ceremony and four USAF C-17s reportedly moved to Europe. The US and Iran offered conflicting accounts of terms (US: full nuclear dismantlement; Iran's Mehr 14-point draft: 'no new nuclear commitments'). CUMULATIVE OFFICIAL: $29B (Pentagon, May 12); modeled ~$72.6B (NOT merged). MARKETS CLOSED (weekend). ESCALATION RISK INDICATOR: LOW — deal pending.",
+    "Day 107 (June 14, Sunday) — TRUMP DECLARES THE DEAL 'NOW COMPLETE'; HORMUZ REOPENING + BLOCKADE REMOVAL AUTHORIZED. Daily burn ~$90M/day as the blockade begins to wind down. Trump posted that he authorizes 'the toll free opening of the Strait of Hormuz, and… the immediate removal of the United States Naval blockade,' with formal signing set for June 19 in Switzerland (Vance and envoy Witkoff for the US). Israel struck Beirut's Ghobeiri suburb (3 killed, 16 wounded); Trump called it something that 'should not have happened.' CUMULATIVE OFFICIAL: $29B (Pentagon, May 12); modeled ~$72.7B (NOT merged). MARKETS CLOSED (weekend). ESCALATION RISK INDICATOR: LOW — but Lebanon is a live spoiler.",
+    "Day 108 (June 15, Monday) — DEAL 'ALL SIGNED'; MARKETS HIT RECORDS, OIL AT THREE-MONTH LOWS. Daily burn ~$90M/day standby pending the June 19 signing and blockade removal. At the G7 in Évian-les-Bains, Trump said the US-Iran deal was 'all signed' (Trump and VP Vance signed the MOU digitally) and that Hormuz is 'partially open' now and will be 'completely open' and 'toll free' by Friday. CORE TERMS: toll-free Hormuz; US naval blockade lifted; Iran removes mines within 30 days; ~$24-25B in frozen Iranian assets released; a 60-day nuclear-talks window. CUMULATIVE: $29B official (Pentagon Comptroller Jules Hurst, May 12; no new DoD release in the window); dashboard modeled ~$72.8B, while the militaryspend standby model (~$95M/day) puts it at ~$34.25B (distinct estimates, NOT merged with the official figure). TANKER TRANSITS: Kpler's Matt Wright projected entries to the Persian Gulf could rise to ~12/day (~50% of prewar) in the first 30 days, with 118 tankers stuck in the Gulf able to exit within 15 days; AIS data showed traffic essentially unchanged on June 15 pending the signing. Trump claimed (June 11) the Navy had 'secretly helped 200 commercial ships and more than 100 million barrels of oil through Hormuz over the past month.' MARKETS: S&P 500 +1.65% to 7,554.29, Dow +0.92% to a record 51,671.03, Nasdaq +3.07% to 26,683.94, VIX 16.20 (-8.4%), gold +2.18% to $4,331; Brent -4.76% to $83.17, WTI -4.87% to $80.75 (lowest since March 4). ESCALATION RISK INDICATOR: LOW — pending the June 19 signing; any slip or a Lebanon flare-up would reverse the moves."
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
@@ -422,7 +437,12 @@
       "Jun 7",
       "Jun 8",
       "Jun 9",
-      "Jun 10"
+      "Jun 10",
+      "Jun 11",
+      "Jun 12",
+      "Jun 13",
+      "Jun 14",
+      "Jun 15"
     ],
     "data": [
       50,
@@ -530,9 +550,14 @@
       3,
       2,
       1,
-      2
+      2,
+      1,
+      1,
+      2,
+      2,
+      3
     ],
     "prewar_daily": 50
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-06-15"
 }
