@@ -8530,5 +8530,59 @@
     "source": "CNBC / Nasdaq / Manifest §6",
     "time": "Day 105",
     "title": "SpaceX IPO is the largest in history ($75B raised)"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "FM Araghchi said signing could happen 'within days,' executed digitally; the White House named VP Vance for a Geneva ceremony; four USAF C-17s reportedly moved to Europe; US and Iran gave conflicting term accounts (US: full nuclear dismantlement; Iran's Mehr 14-point draft: 'no new nuclear commitments')",
+    "date": "2026-06-13",
+    "description": "Iran's FM Abbas Araghchi said the deal could be signed 'within days,' executed digitally; the White House named VP Vance for a Geneva ceremony and four USAF C-17s reportedly moved to Europe. The US and Iran offered conflicting accounts of the terms — the US describing full nuclear dismantlement, Iran's Mehr 14-point draft saying 'no new nuclear commitments.'",
+    "source": "Mehr / AP / Manifest §5",
+    "time": "Day 106",
+    "title": "Araghchi: deal could be signed 'within days,' digitally"
+  },
+  {
+    "category": "milestone",
+    "data_point": "Trump declared the deal 'now complete' and authorized 'the toll free opening of the Strait of Hormuz, and… the immediate removal of the United States Naval blockade'; formal signing set for June 19 in Switzerland (Vance and envoy Witkoff for the US)",
+    "date": "2026-06-14",
+    "description": "President Trump declared the US-Iran deal 'now complete,' posting that he authorizes 'the toll free opening of the Strait of Hormuz, and… the immediate removal of the United States Naval blockade.' Formal signing was set for June 19 in Switzerland, with VP Vance and envoy Steve Witkoff representing the US. Iran's FM disputed a Sunday signing and Fars called a June 14 Geneva signing 'completely baseless.'",
+    "source": "Truth Social / Reuters / Fars / Manifest §5",
+    "time": "Day 107",
+    "title": "Trump declares the US-Iran deal 'now complete'"
+  },
+  {
+    "category": "lebanon",
+    "data_point": "Israel struck Beirut's Ghobeiri suburb (3 killed, 16 wounded); Trump called it something that 'should not have happened'; Lebanese MoPH cumulative rose to 3,783 killed / 11,699 wounded",
+    "date": "2026-06-14",
+    "description": "An Israeli strike on Beirut's Ghobeiri suburb killed 3 and wounded 16; Trump said it 'should not have happened.' The Lebanese Ministry of Public Health cumulative toll rose to 3,783 killed / 11,699 wounded. Iran insists Lebanon is covered by the deal ('hostilities end on all fronts, including Lebanon'), making a Lebanon flare-up the most plausible spoiler.",
+    "source": "Al Jazeera / Lebanese MoPH / Manifest §5,7",
+    "time": "Day 107",
+    "title": "Israel strikes Beirut's Ghobeiri; Lebanon toll 3,783"
+  },
+  {
+    "category": "milestone",
+    "data_point": "Trump at the G7 in Évian-les-Bains said the deal was 'all signed' (Trump and VP Vance signed the MOU digitally); Hormuz 'partially open' now, to be 'completely open' and 'toll free' by Friday (June 19); core terms incl. toll-free Hormuz, blockade lifted, mines cleared in 30 days, ~$24-25B frozen assets released, 60-day nuclear-talks window",
+    "date": "2026-06-15",
+    "description": "At the G7 summit in Évian-les-Bains, France, Trump said the US-Iran deal was 'all signed' (a senior official confirmed Trump and VP Vance signed the MOU digitally). He said the Strait of Hormuz is 'partially open' now and will be 'completely open' and 'toll free' by Friday. Core terms: toll-free Hormuz; the US naval blockade lifted; Iran clearing mines within 30 days; ~$24-25B in frozen Iranian assets released; a 60-day nuclear-talks window; Iran committing not to pursue a nuclear weapon; and hostilities ending 'on all fronts, including Lebanon.'",
+    "source": "G7 pool / Reuters / Manifest §5",
+    "time": "Day 108",
+    "title": "Trump at G7: US-Iran deal 'all signed'; Hormuz to reopen toll-free"
+  },
+  {
+    "category": "international_reaction",
+    "data_point": "Macron called the deal 'a very important step for peace of the whole world'; UN Secretary-General Guterres called it 'a critical step'; MOU text to be released within 24-48 hours/after signing",
+    "date": "2026-06-15",
+    "description": "French President Macron called the US-Iran deal 'a very important step for peace of the whole world' and UN Secretary-General António Guterres called it 'a critical step.' Officials said the MOU text would be released within 24-48 hours or after the June 19 signing.",
+    "source": "Reuters / UN / Manifest §5",
+    "time": "Day 108",
+    "title": "Macron and Guterres welcome the US-Iran deal"
+  },
+  {
+    "category": "iranian_statement",
+    "data_point": "Iran's Deputy FM Gharibabadi said the Strait of Hormuz closure continues until the deal is formally signed (June 19); Iran and the US still described different terms (permanent toll-free Hormuz vs. Iranian 'service fees' after the 60-day window)",
+    "date": "2026-06-15",
+    "description": "Iran's Deputy Foreign Minister Kazem Gharibabadi said the Strait of Hormuz closure continues until the deal is formally signed on June 19, tempering Trump's 'partially open' claim. The two sides still publicly described different terms — permanently toll-free Hormuz (US) versus Iranian 'service fees' after the 60-day window (Iran).",
+    "source": "IRNA / Manifest §5",
+    "time": "Day 108",
+    "title": "Iran: Hormuz closure continues until formal signing"
   }
 ]
