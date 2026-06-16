@@ -4238,5 +4238,34 @@
     "verified": true,
     "verification_confidence": "HIGH",
     "last_updated": "2026-06-10"
+  },
+  {
+    "id": "iran-hormuz-closure-vessels-20260611",
+    "city": "Strait of Hormuz (full closure declared; IRGC-claimed strikes on 2 transiting vessels)",
+    "lat": 26.57,
+    "lng": 56.25,
+    "type": "iran_retaliation",
+    "actor": "Iran (IRGC / Khatam al-Anbiya Central HQ)",
+    "first_strike": "2026-06-11",
+    "active_days": [
+      104,
+      105,
+      106
+    ],
+    "weapon": "Declared naval closure; IRGC-claimed strikes on transiting vessels; one-way attack drones (June 12-13)",
+    "casualties_reported": "No confirmed casualties; CENTCOM denied any vessels were struck and said the strait 'remains open for transit'; no Iranian attacks reported June 14-15",
+    "casualties_source": "CENTCOM; IRGC (claims); Jordanian Armed Forces (interception revision)",
+    "notes": "Day 104 (June 11): Iran's Khatam al-Anbiya Central HQ declared the Strait of Hormuz FULLY CLOSED to all vessels, threatening to fire on any ship; the IRGC claimed it struck two vessels attempting transit — CENTCOM DENIED this and said the strait 'remains open for transit.' JORDAN INTERCEPTION DISCREPANCY (do not synthesize): after initial June 10 reports of 5 missiles intercepted at Azraq (Al Jazeera, Euronews), June 11 reports (Jordanian military via Petra/AFP, SANA) said 20 missiles were intercepted; two drones crashed in Jordan (one in Azraq, reportedly wounding a girl) and a THAAD-associated radar was reportedly damaged and slated for replacement. Jordan reported no casualties or material damage and later said Iran had fired 119 projectiles (60 missiles, 59 drones) at it over the course of the week. Days 105-106 (June 12-13): US forces downed Iranian one-way attack drones threatening commercial vessels near Hormuz; CENTCOM said the corridor remained open. NO Iranian attacks reported June 14-15 as a US-Iran deal was finalized; Iran's Deputy FM Gharibabadi said the strait closure continues until the deal is formally signed (June 19). Manifest §3.",
+    "sources": [
+      "Manifest §3",
+      "CENTCOM June 11-13",
+      "Petra / AFP June 11",
+      "SANA June 11",
+      "Al Jazeera",
+      "Reuters"
+    ],
+    "verified": true,
+    "verification_confidence": "MEDIUM",
+    "last_updated": "2026-06-15"
   }
 ]

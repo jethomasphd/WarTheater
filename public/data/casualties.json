@@ -102,7 +102,12 @@
     "Jun 7",
     "Jun 8",
     "Jun 9",
-    "Jun 10"
+    "Jun 10",
+    "Jun 11",
+    "Jun 12",
+    "Jun 13",
+    "Jun 14",
+    "Jun 15"
   ],
   "day_contexts": [
     "Day 1 — First strikes, Minab school (165+ killed), Iranian retaliation",
@@ -206,7 +211,12 @@
     "Day 100 (June 7, Sunday) — DAY 100: NO NEWLY-DOCUMENTED FATALITIES IN THE FIVE TRACKED NATIONAL CATEGORIES; WAR IN A BLOCKADE-PLUS-SKIRMISH EQUILIBRIUM. UNITED STATES: 13 KIA / 365 WIA (CENTCOM) — unchanged; no US casualties in the June 5-6 Hormuz exchanges. IRAN: aggregate unchanged and government-gated — 3,468 killed (Foundation of Martyrs / Health Ministry, ~49 days stale) with 26,500+ injured, vs HRANA 3,636+ (dated, unrefreshed); ~413+ children killed (TIME: 248 Iran, 165 Lebanon). LEBANON: 3,593+ killed (LB Health Ministry / Wikipedia, as of June 6) incl. the +3 LAF soldiers June 6. ISRAEL: 15-23 killed (ranges by source/date; IDF 22 military). IRAQ: 118-119 killed. GULF STATES: ~19-28 killed (incl. the June 3 Kuwait airport fatality). SEAFARERS: 11 deaths since Feb 28 (IMO). Competing tallies are attributed to their reporting bodies and not merged.",
     "Day 101 (June 8, Monday) — FIRST DIRECT IRAN-ISRAEL EXCHANGE SINCE APRIL KILLS ISRAELI CIVILIANS; NO IRANIAN TABULATION FOR THE JUNE 8 STRIKES. ISRAEL: Iran's ~30-missile overnight salvo killed multiple Israeli civilians across Beit Shemesh, Haifa and Ramat Gan (cumulative Iranian-missile deaths in Israel ~20 per Times of Israel; total Israeli citizen/resident deaths ~51 per Al Jazeera tracker); IDF military deaths rose to 24 (from 22). IRAN: Israel struck Tehran, Isfahan, Tabriz and a Mahshahr petrochemical complex — NO Iranian casualty tabulation released; aggregate unchanged and government-gated (3,468 MoH / 3,636+ HRANA, counts not merged). UNITED STATES: 13 KIA — unchanged. LEBANON: cumulative ~3,526 (MoPH, through June 6) / ~3,593 (Wikipedia) — attributed separately, not merged. The Israeli-civilian and seafarer tolls fall outside the five charted national series.",
     "Day 102 (June 9, Tuesday) — US APACHE DOWNED OVER HORMUZ (BOTH PILOTS RESCUED, INJURED NOT KILLED); RESUMED US STRIKES ON IRAN PRODUCE NO RELEASED TABULATION; 3 INDIAN SAILORS MISSING. UNITED STATES: 13 KIA — unchanged; the two AH-64 Apache pilots downed over the Strait were rescued within ~2 hours with non-life-threatening injuries (independent WIA estimate ticks to ~529; Pentagon official WIA 365+). IRAN: CENTCOM self-defense strikes hit air-defense, ground-control and radar sites near the Strait — NO Iranian casualty tabulation released. SEAFARERS: 3 of 24 Indian crew aboard the disabled M/T Settebello went missing in the Gulf of Oman (outside the charted series). SYRIA: Iranian missile debris fell in countryside near Damascus — no casualty figure. ISRAEL: 24 military — unchanged. IRAQ: 118+ killed — unchanged.",
-    "Day 103 (June 10, Wednesday) — IRAN'S MULTI-FRONT STRIKES ON US GULF BASES CAUSE NO CASUALTIES; ALL FIVE CHARTED NATIONAL SERIES FLAT. Iran's drones (Bahrain Fifth Fleet HQ, Kuwait's Ali Al Salem) and long-range ballistic missiles (Azraq, Jordan) were all intercepted — Jordan downed 5 missiles (debris only); the US, Bahrain and Kuwait reported NO casualties or damage. IRGC battle-damage claims (21 targets struck, an F-35 hangar destroyed at Azraq, an MQ-9 downed over Jam) are UNVERIFIED and disputed by US officials. UNITED STATES: 13 KIA / ~529 WIA — unchanged. IRAN: no new tabulation (3,468 MoH / 3,636+ HRANA). ISRAEL: 24 military. LEBANON: ~3,526-3,593 (sources attributed separately). IRAQ: 118+ killed. The window's Israeli-civilian deaths and 3 missing Indian seafarers remain outside the five charted national categories."
+    "Day 103 (June 10, Wednesday) — IRAN'S MULTI-FRONT STRIKES ON US GULF BASES CAUSE NO CASUALTIES; ALL FIVE CHARTED NATIONAL SERIES FLAT. Iran's drones (Bahrain Fifth Fleet HQ, Kuwait's Ali Al Salem) and long-range ballistic missiles (Azraq, Jordan) were all intercepted — Jordan downed 5 missiles (debris only); the US, Bahrain and Kuwait reported NO casualties or damage. IRGC battle-damage claims (21 targets struck, an F-35 hangar destroyed at Azraq, an MQ-9 downed over Jam) are UNVERIFIED and disputed by US officials. UNITED STATES: 13 KIA / ~529 WIA — unchanged. IRAN: no new tabulation (3,468 MoH / 3,636+ HRANA). ISRAEL: 24 military. LEBANON: ~3,526-3,593 (sources attributed separately). IRAQ: 118+ killed. The window's Israeli-civilian deaths and 3 missing Indian seafarers remain outside the five charted national categories.",
+    "Day 104 (June 11, Thursday) — ALL FIVE CHARTED SERIES FLAT AS THE LAND WAR STOPS; TRUMP CANCELS FURTHER STRIKES. UNITED STATES: 13 KIA — unchanged (no new US fatalities). IRAN: the final June 11 CENTCOM strike wave (Sirik, Minab, Bandar Abbas, Qeshm, Gorgan) produced NO released tabulation; aggregate remains government-gated (3,468 MoH / 3,636+ HRANA). LEBANON: ~3,696 (MoPH, attributed separately, not merged). ISRAEL: 24-30 military. On the evening of June 11 Trump cancelled further strikes; no US strikes on Iranian territory occurred after this date.",
+    "Day 105 (June 12, Friday) — NO NEW FATALITIES IN ANY CHARTED SERIES AS A US-IRAN DEAL NEARS. June 12-15 saw only Hormuz drone interceptions (no casualties). UNITED STATES: 13 KIA — unchanged. IRAN: no new tabulation (3,468 MoH / 3,636+ HRANA). LEBANON: ~3,696 (MoPH). ISRAEL: 24-30 military. IRAQ: 118+ killed — unchanged.",
+    "Day 106 (June 13, Saturday) — CHARTED SERIES FLAT; LEBANESE MoPH TICKS UP OFF-CHART. The Lebanese Ministry of Public Health bulletin reached 3,756 killed / 11,632 wounded (cumulative, attributed separately and not merged into the charted Lebanese series). UNITED STATES: 13 KIA — unchanged. IRAN: no new tabulation. ISRAEL: 24-30 military. No new strikes on Iranian territory.",
+    "Day 107 (June 14, Sunday) — ISRAELI STRIKE ON BEIRUT'S GHOBEIRI KILLS 3; LEBANESE MoPH REACHES 3,783. An Israeli strike on Beirut's Ghobeiri suburb killed 3 and wounded 16 (Trump said it 'should not have happened'); the Lebanese MoPH cumulative rose to 3,783 killed / 11,699 wounded. UNITED STATES: 13 KIA — unchanged. IRAN: no new tabulation (3,468 MoH / 3,636+ HRANA). ISRAEL: 24-30 military. The Ghobeiri deaths are the only new charted Lebanese fatalities in the window.",
+    "Day 108 (June 15, Monday) — DEAL DECLARED 'ALL SIGNED'; CASUALTY LEDGERS STATIC ON HARD NUMBERS. UNITED STATES: 13 KIA (DCAS) to 15 (CRS/Wikipedia, incl. the 6 in the March 12 KC-135 crash); WIA 413 (Pentagon) to 520-538 (independent) — no new US fatalities across June 11-15. IRAN: no new official tally for the June 9-11 strikes (3,468 MoH / 3,636 HRANA; both June 9 Apache crew recovered). LEBANON: 3,783 killed / 11,699 wounded (MoPH, June 14) — over 1 million displaced. ISRAEL: 26-30 military, ~26-51 civilians (sources vary). Children-killed (254 HRANA / 216 Iran MoH, early April) and flights-cancelled (~23,000, early March) figures remain stale with no June update."
   ],
   "datasets": {
     "iranian_military": {
@@ -300,6 +310,11 @@
         0,
         0,
         3,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -423,6 +438,11 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffffff"
@@ -463,6 +483,11 @@
         1,
         0,
         2,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -641,6 +666,11 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        3,
         0
       ],
       "color": "#7b3fa0"
@@ -750,10 +780,15 @@
         0,
         2,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffc832"
     }
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-06-15"
 }
