@@ -8584,5 +8584,59 @@
     "source": "IRNA / Manifest §5",
     "time": "Day 108",
     "title": "Iran: Hormuz closure continues until formal signing"
+  },
+  {
+    "category": "milestone",
+    "data_point": "14-point MOU: end of war on all fronts incl. Lebanon; $300B reconstruction fund; sanctions waivers; on-site HEU downblending under IAEA; Hormuz restored to pre-war volume within 30 days; final deal in 60 days via binding UNSC resolution",
+    "date": "2026-06-16",
+    "description": "Bloomberg, NBC and Time published the 14-point US-Iran memorandum: an end to the war on all fronts including Lebanon; mutual respect for sovereignty; a final deal within 60 days confirmed by a binding UN Security Council resolution; the US naval blockade lifted on signing with Hormuz traffic restored to pre-war volume within 30 days; a $300B reconstruction fund framed as private investment; sanctions waivers issued immediately with ~$24-25B in frozen assets released during the 60-day talks; and on-site downblending of Iran's ~440kg of 60% HEU under IAEA supervision. Iran's Tasnim said parts of the published text were 'inaccurate' and the White House said the leaked text did not reflect the actual MOU.",
+    "source": "Bloomberg / NBC News / Time / Manifest §5,12",
+    "time": "Day 109",
+    "title": "14-point MOU text released by Bloomberg, NBC and Time"
+  },
+  {
+    "category": "congressional",
+    "data_point": "Senate war-powers resolution failed 47-48 (9th failure); 4 Republicans — Collins, Cassidy, Murkowski, Paul — in favor; Fetterman against",
+    "date": "2026-06-16",
+    "description": "The US Senate rejected a war-powers resolution 47-48 — the ninth failed attempt of the war. Four Republicans (Collins, Cassidy, Murkowski and Paul) voted for it while Senator Fetterman voted against. Congressional oversight of any final nuclear deal under the 2015 INARA remains an open question.",
+    "source": "CBS News / The Hill / Manifest §5,11",
+    "time": "Day 109",
+    "title": "Senate rejects Iran war-powers resolution 47-48"
+  },
+  {
+    "category": "cost",
+    "data_point": "Brent settled $78.96 (first sub-$80 close since March, -5%); WTI $76.05 (-5.8%); S&P 500 -0.57% to 7,511.35; Dow set a record (+0.64%); oil ~40% below its conflict peak",
+    "date": "2026-06-16",
+    "description": "Brent crude settled $78.96 — the first sub-$80 close since March — and WTI settled $76.05 (-5.8%, a 3.5-month low) after the Wall Street Journal reported Iran could sell crude immediately under the deal. The S&P 500 slipped 0.57% to 7,511.35 as Iran-deal doubts grew, even as the Dow set another record (+0.64%). Oil has now fallen nearly 40% from its conflict peak.",
+    "source": "CNBC / TradingEconomics / Manifest §1,6",
+    "time": "Day 109",
+    "title": "Oil hits a three-month low; Brent settles $78.96, WTI $76.05"
+  },
+  {
+    "category": "lebanon",
+    "data_point": "Israel killed 4 in southern Lebanon June 17 (at least 14 June 16); Trump told Netanyahu to be 'more responsible'; Katz: Israel 'will continue operating in Lebanon regardless'",
+    "date": "2026-06-17",
+    "description": "Two days before the June 19 signing, Israeli forces killed 4 in southern Lebanon (after at least 14 killed June 16). Trump said Netanyahu must be 'more responsible,' while warning he would go 'back to dropping bombs' if Iran 'misbehaves.' Israeli Defense Minister Katz said Israel 'will continue operating in Lebanon regardless.' Continued Israeli strikes are the most plausible deal-breaker before the signing.",
+    "source": "Al Jazeera / Manifest §3,5,11",
+    "time": "Day 110",
+    "title": "Israeli strikes kill 4 in Lebanon; Trump rebukes Netanyahu"
+  },
+  {
+    "category": "iranian_statement",
+    "data_point": "Iran: 84 Israeli truce violations in Lebanon since the MOU; warns of a 'harsh response'; conditions lasting peace on Israeli withdrawal from Lebanon",
+    "date": "2026-06-17",
+    "description": "Iran said Israel has violated the Lebanon truce 84 times since the MOU and warned of a 'harsh response.' Tehran insists lasting peace is conditioned on an Israeli withdrawal from Lebanon — a front excluded from Israel's commitments, since Israel is not a party to the MOU and rejects limits on its Lebanon operations.",
+    "source": "Al Jazeera / Manifest §3,11,12",
+    "time": "Day 110",
+    "title": "Iran says Israel violated the Lebanon truce 84 times, warns of 'harsh response'"
+  },
+  {
+    "category": "cost",
+    "data_point": "Moody's: war has cost US consumers/taxpayers ~$132B so far; AAA gas $4.025 (~$1 above pre-war); higher gas/grocery/flight prices to outlast the war",
+    "date": "2026-06-17",
+    "description": "NPR and the AP reported that higher gas, grocery and flight prices will likely outlast the war. Moody's Analytics estimated the war has cost US consumers and taxpayers about $132 billion so far. AAA's national gas average eased to $4.025, still about $1 above the pre-war baseline; pump relief lags the June crude slide by 2-3 weeks.",
+    "source": "NPR / AP / Moody's Analytics / Manifest §1,6,11",
+    "time": "Day 110",
+    "title": "NPR/AP: higher gas, grocery and flight prices will outlast the war"
   }
 ]

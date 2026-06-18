@@ -107,7 +107,9 @@
     "Day 105",
     "Day 106",
     "Day 107",
-    "Day 108"
+    "Day 108",
+    "Day 109",
+    "Day 110"
   ],
   "daily_cost_millions": [
     3000,
@@ -217,7 +219,9 @@
     95,
     92,
     90,
-    90
+    90,
+    92,
+    95
   ],
   "day_notes": [
     "First strikes — $5.6B munitions in 48 hrs (WaPo)",
@@ -327,7 +331,9 @@
     "Day 105 (June 12, Friday) — STANDBY POSTURE AS A DEAL NEARS; OIL HITS AN EIGHT-WEEK LOW. Daily burn settled to ~$95M/day standby — force protection, two-carrier presence and Hormuz drone interceptions, with no strikes on Iranian territory. CUMULATIVE OFFICIAL: $29B (Pentagon, May 12); modeled ~$72.5B (NOT merged). MARKETS: S&P 500 +0.50% to 7,431.46, Dow +0.70% to 51,202.26, Nasdaq +0.31% to 25,888.84, Russell 2000 2,943.99; Brent settled $87.33 (-3.4%), WTI $84.88 (-3.2%). SpaceX (SPCX) debuted on the Nasdaq at $160.95 (+19.22%), raising $75B at a ~$1.75T valuation — the largest IPO in history. TANKER TRANSITS: AIS traffic remains near zero pending the deal; CENTCOM blockade tally 9 disabled / 142 redirected (June 14). ESCALATION RISK INDICATOR: LOW-MODERATE — diplomacy-dominated.",
     "Day 106 (June 13, Saturday) — WEEKEND STANDBY; SIGNING TIMELINE FIRMS. Daily burn ~$92M/day standby (no trading; carry). FM Araghchi said signing could happen 'within days,' executed digitally; the White House named VP Vance for a Geneva ceremony and four USAF C-17s reportedly moved to Europe. The US and Iran offered conflicting accounts of terms (US: full nuclear dismantlement; Iran's Mehr 14-point draft: 'no new nuclear commitments'). CUMULATIVE OFFICIAL: $29B (Pentagon, May 12); modeled ~$72.6B (NOT merged). MARKETS CLOSED (weekend). ESCALATION RISK INDICATOR: LOW — deal pending.",
     "Day 107 (June 14, Sunday) — TRUMP DECLARES THE DEAL 'NOW COMPLETE'; HORMUZ REOPENING + BLOCKADE REMOVAL AUTHORIZED. Daily burn ~$90M/day as the blockade begins to wind down. Trump posted that he authorizes 'the toll free opening of the Strait of Hormuz, and… the immediate removal of the United States Naval blockade,' with formal signing set for June 19 in Switzerland (Vance and envoy Witkoff for the US). Israel struck Beirut's Ghobeiri suburb (3 killed, 16 wounded); Trump called it something that 'should not have happened.' CUMULATIVE OFFICIAL: $29B (Pentagon, May 12); modeled ~$72.7B (NOT merged). MARKETS CLOSED (weekend). ESCALATION RISK INDICATOR: LOW — but Lebanon is a live spoiler.",
-    "Day 108 (June 15, Monday) — DEAL 'ALL SIGNED'; MARKETS HIT RECORDS, OIL AT THREE-MONTH LOWS. Daily burn ~$90M/day standby pending the June 19 signing and blockade removal. At the G7 in Évian-les-Bains, Trump said the US-Iran deal was 'all signed' (Trump and VP Vance signed the MOU digitally) and that Hormuz is 'partially open' now and will be 'completely open' and 'toll free' by Friday. CORE TERMS: toll-free Hormuz; US naval blockade lifted; Iran removes mines within 30 days; ~$24-25B in frozen Iranian assets released; a 60-day nuclear-talks window. CUMULATIVE: $29B official (Pentagon Comptroller Jules Hurst, May 12; no new DoD release in the window); dashboard modeled ~$72.8B, while the militaryspend standby model (~$95M/day) puts it at ~$34.25B (distinct estimates, NOT merged with the official figure). TANKER TRANSITS: Kpler's Matt Wright projected entries to the Persian Gulf could rise to ~12/day (~50% of prewar) in the first 30 days, with 118 tankers stuck in the Gulf able to exit within 15 days; AIS data showed traffic essentially unchanged on June 15 pending the signing. Trump claimed (June 11) the Navy had 'secretly helped 200 commercial ships and more than 100 million barrels of oil through Hormuz over the past month.' MARKETS: S&P 500 +1.65% to 7,554.29, Dow +0.92% to a record 51,671.03, Nasdaq +3.07% to 26,683.94, VIX 16.20 (-8.4%), gold +2.18% to $4,331; Brent -4.76% to $83.17, WTI -4.87% to $80.75 (lowest since March 4). ESCALATION RISK INDICATOR: LOW — pending the June 19 signing; any slip or a Lebanon flare-up would reverse the moves."
+    "Day 108 (June 15, Monday) — DEAL 'ALL SIGNED'; MARKETS HIT RECORDS, OIL AT THREE-MONTH LOWS. Daily burn ~$90M/day standby pending the June 19 signing and blockade removal. At the G7 in Évian-les-Bains, Trump said the US-Iran deal was 'all signed' (Trump and VP Vance signed the MOU digitally) and that Hormuz is 'partially open' now and will be 'completely open' and 'toll free' by Friday. CORE TERMS: toll-free Hormuz; US naval blockade lifted; Iran removes mines within 30 days; ~$24-25B in frozen Iranian assets released; a 60-day nuclear-talks window. CUMULATIVE: $29B official (Pentagon Comptroller Jules Hurst, May 12; no new DoD release in the window); dashboard modeled ~$72.8B, while the militaryspend standby model (~$95M/day) puts it at ~$34.25B (distinct estimates, NOT merged with the official figure). TANKER TRANSITS: Kpler's Matt Wright projected entries to the Persian Gulf could rise to ~12/day (~50% of prewar) in the first 30 days, with 118 tankers stuck in the Gulf able to exit within 15 days; AIS data showed traffic essentially unchanged on June 15 pending the signing. Trump claimed (June 11) the Navy had 'secretly helped 200 commercial ships and more than 100 million barrels of oil through Hormuz over the past month.' MARKETS: S&P 500 +1.65% to 7,554.29, Dow +0.92% to a record 51,671.03, Nasdaq +3.07% to 26,683.94, VIX 16.20 (-8.4%), gold +2.18% to $4,331; Brent -4.76% to $83.17, WTI -4.87% to $80.75 (lowest since March 4). ESCALATION RISK INDICATOR: LOW — pending the June 19 signing; any slip or a Lebanon flare-up would reverse the moves.",
+    "Day 109 (June 16, Tuesday) — 14-POINT MOU TEXT RELEASED; OIL HITS A THREE-MONTH LOW. Daily burn ~$92M/day standby pending the June 19 signing. Bloomberg, NBC and Time published the 14-point memorandum: end of war on all fronts incl. Lebanon, a $300B reconstruction fund, sanctions waivers, on-site downblending of HEU under IAEA, and Hormuz traffic restored to pre-war volume within 30 days. The Senate rejected a war-powers resolution 47-48 (its ninth failure). Brent settled $78.96 (first sub-$80 close since March) and WTI $76.05 (-5.8%), a 3.5-month low, after the WSJ reported Iran could sell crude immediately. No new official DoD cost figure; $29B (Hurst, May 12) remains the latest official.",
+    "Day 110 (June 17, Wednesday) — STANDBY BURN; CONSUMER COST PEGGED AT ~$132B TWO DAYS BEFORE SIGNING. Daily burn ~$95M/day (CSIS ceasefire-standby phase, under $100M/day); no new official DoD figure — $29B (Pentagon comptroller Jules Hurst, May 12 SASC; '$4B higher than the April figure,' excludes overseas base-repair) remains the latest official direct-military number. Phased-model tracker cumulative ~$34.44B. CONSUMER/TAXPAYER COST: Moody's Analytics estimates the war has cost US consumers and taxpayers ~$132B so far (NPR, June 17); iran-cost-ticker.com logs $113.3B over 108 days. TANKER TRANSIT: only ~7 ships have crossed Hormuz since the June 14 deal (MarineTraffic) with 550+ still stranded; Windward logged ~24 vessels around the strait June 16 (16 in / 8 out, 11 'dark'); IMF PortWatch recorded 0 AIS transits June 14; TankerTrackers (June 17) reported the first Iranian crude exports in two months crossing the old blockade line. Crude transits run ~95% below pre-war and LNG ~99% below. NPR/AP: higher gas, grocery and flight prices will likely outlast the war."
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
@@ -442,7 +448,9 @@
       "Jun 12",
       "Jun 13",
       "Jun 14",
-      "Jun 15"
+      "Jun 15",
+      "Jun 16",
+      "Jun 17"
     ],
     "data": [
       50,
@@ -555,9 +563,11 @@
       1,
       2,
       2,
-      3
+      3,
+      2,
+      2
     ],
     "prewar_daily": 50
   },
-  "last_updated": "2026-06-15"
+  "last_updated": "2026-06-17"
 }
