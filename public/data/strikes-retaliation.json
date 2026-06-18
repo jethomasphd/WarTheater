@@ -4267,5 +4267,25 @@
     "verified": true,
     "verification_confidence": "MEDIUM",
     "last_updated": "2026-06-15"
+  },
+  {
+    "id": "israel-lebanon-strikes-jun14-17",
+    "city": "Beirut (Ghobeiri) & Southern Lebanon",
+    "lat": 33.86,
+    "lng": 35.5,
+    "type": "hezbollah_front",
+    "weapon": "Israeli airstrikes",
+    "origin": "IDF",
+    "first_strike": "2026-06-14",
+    "casualties_reported": "Jun 14 Ghobeiri: 3 killed, 16 wounded; Jun 16: at least 14 killed; Jun 17: 4 killed in southern Lebanon",
+    "casualties_source": "Lebanese MoPH / Al Jazeera / IndexBox",
+    "active_days": [
+      107,
+      109,
+      110
+    ],
+    "notes": "Day 110 (June 17): Israeli strikes on Lebanon continued through the MOU period and now threaten the deal two days before the June 19 signing. June 14: a strike on Beirut's Ghobeiri suburb killed 3 and wounded 16 (Trump said it 'should not have happened'). June 16: at least 14 killed in Israeli strikes (IndexBox). June 17: Israel killed 4 in southern Lebanon, prompting Trump to say Netanyahu must be 'more responsible.' Iran says Israel has violated the Lebanon truce 84 times since the MOU and warned of a 'harsh response,' while Israeli Defense Minister Katz said Israel 'will continue operating in Lebanon regardless.' The active flashpoint has shifted from Iran-US to Israel-Lebanon (Hezbollah).",
+    "verified": true,
+    "last_updated": "2026-06-17"
   }
 ]
