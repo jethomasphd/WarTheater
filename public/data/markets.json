@@ -83,7 +83,8 @@
     "Jun 10",
     "Jun 11",
     "Jun 12",
-    "Jun 15"
+    "Jun 15",
+    "Jun 16"
   ],
   "contexts": [
     "Pre-war close — baseline",
@@ -168,7 +169,8 @@
     "Day 103 (June 10, Wednesday) — STOCKS TUMBLE: S&P 500 -1.62% TO 7,266.99 AS US CPI TOPS 4% AND IRAN STRIKES GULF BASES; VIX SURGES ~11%: S&P 500 7,266.99 (-1.62%, -119.66); Dow Jones Industrial Average 49,918.78 (-1.87%, -953); Nasdaq Composite 25,169.50 (-1.98%); VIX ~22 (+~11%, intraday spike >23). KEY DRIVERS Day 103: (1) INFLATION SHOCK — May CPI printed 4.2% y/y (highest since April 2023); energy +23.5% and gasoline +40.5% drove over 60% of the monthly gain; core CPI a milder +0.2% m/m. (2) RE-ESCALATION — Iran struck US bases in Bahrain, Kuwait and Jordan (all intercepted) in retaliation for the June 9 US strikes; Trump threatened Iran's 'plants and bridges.' (3) RATE PATH — the Fed is now seen as less likely to cut. (4) BREADTH — airlines, defense and industrials all notably lower (Delta ~-2.3%, RTX ~-0.60%, LMT ~-0.08%, Boeing ~-1.01%); oil majors OUTPERFORMED (Chevron +1.17%) as WTI settled +2.07% at $90.03 and Brent +1.8% at $93.10.",
     "Day 104 (June 11, Thursday) — RELIEF RALLY AS TRUMP CANCELS FURTHER STRIKES: S&P 500 +1.75% TO 7,394.30; DOW +1.86% TO 50,848.75; NASDAQ +2.54% TO 25,809.66. Equities rebounded sharply after President Trump cancelled additional strikes on Iran on the evening of June 11 and claimed a 'great settlement,' easing war-risk pricing. Oil rose intraday then fell ~4% in extended trade after the cancellation (Brent ~$89, WTI ~$86.50). The ECB raised rates a quarter-point to 2.25% — the first major central bank to respond to the Iran energy shock. Defense names began to lag on the de-escalation while airlines firmed on the prospect of cheaper jet fuel.",
     "Day 105 (June 12, Friday) — STOCKS EXTEND GAINS, OIL HITS AN EIGHT-WEEK LOW; SPACEX DEBUTS AS THE LARGEST IPO EVER: S&P 500 +0.50% TO 7,431.46; DOW +0.70% TO 51,202.26; NASDAQ +0.31% TO 25,888.84; RUSSELL 2000 2,943.99. Brent settled $87.33 (-3.4%) and WTI $84.88 (-3.2%) as a US-Iran deal looked imminent. SpaceX (SPCX) debuted on the Nasdaq, settling at $160.95 (+19.22% from its $135 IPO price); it raised $75B at a ~$1.75T valuation — the largest IPO in history, eclipsing Saudi Aramco's 2019 record of $25.6B and pushing its market cap above $2 trillion. Defense continued to soften on peace expectations; airlines and consumer names benefited from cheaper crude.",
-    "Day 108 (June 15, Monday) — RECORDS ON THE PEACE DEAL: S&P 500 +1.65% TO 7,554.29; DOW +0.92% TO A RECORD 51,671.03; NASDAQ +3.07% TO 26,683.94; RUSSELL 2000 2,965.09; VIX 16.20 (-8.4%). Markets priced in peace as Trump said at the G7 in Évian-les-Bains the US-Iran deal was 'all signed' and authorized a toll-free reopening of the Strait of Hormuz and removal of the US naval blockade. Brent -4.76% to $83.17 and WTI -4.87% to $80.75 — the lowest settle since March 4; gold +2.18% to $4,331. Defense primes sold off on the peace news (analysts: 'the greatest threat to investors is peace'), oil majors slid with crude, and airlines rallied on fuel relief and the prospect of restored Gulf air traffic."
+    "Day 108 (June 15, Monday) — RECORDS ON THE PEACE DEAL: S&P 500 +1.65% TO 7,554.29; DOW +0.92% TO A RECORD 51,671.03; NASDAQ +3.07% TO 26,683.94; RUSSELL 2000 2,965.09; VIX 16.20 (-8.4%). Markets priced in peace as Trump said at the G7 in Évian-les-Bains the US-Iran deal was 'all signed' and authorized a toll-free reopening of the Strait of Hormuz and removal of the US naval blockade. Brent -4.76% to $83.17 and WTI -4.87% to $80.75 — the lowest settle since March 4; gold +2.18% to $4,331. Defense primes sold off on the peace news (analysts: 'the greatest threat to investors is peace'), oil majors slid with crude, and airlines rallied on fuel relief and the prospect of restored Gulf air traffic.",
+    "Day 109 (June 16, Tuesday) — DEAL DOUBTS vs DOW RECORD: S&P 500 -0.57% to 7,511.35 (-42.94) and the Nasdaq about -1.1% as US-Iran deal doubts grew, even as the Dow set another record (+0.64%); investors weighed warnings that the Hormuz reopening could take months while the Fed's June meeting got underway. Defense and oil-major shares fell as the war premium bled out, while airlines and cruise lines gained on cheaper fuel. SpaceX, public since its June 12 IPO, traded volatile near a ~$2.5T market cap. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)"
   ],
   "datasets": {
     "sp500": {
@@ -242,13 +244,13 @@
         108.42,
         108.42,
         109.08,
-        109.10,
+        109.1,
         109.73,
         109.97,
         109.97,
         109.97,
         110.26,
-        110.40,
+        110.4,
         109.58,
         110.02,
         107.11,
@@ -256,8 +258,9 @@
         107.15,
         105.42,
         107.27,
-        107.80,
-        109.59
+        107.8,
+        109.59,
+        108.97
       ],
       "color": "#ef4444"
     },
@@ -347,7 +350,8 @@
         122.0,
         120.5,
         119.0,
-        116.5
+        116.5,
+        115.3
       ],
       "color": "#22c55e"
     },
@@ -437,7 +441,8 @@
         137.5,
         135.5,
         133.0,
-        129.5
+        129.5,
+        127.0
       ],
       "color": "#d4a020"
     },
@@ -527,10 +532,11 @@
         59.5,
         61.5,
         63.5,
-        66.0
+        66.0,
+        67.3
       ],
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-06-15"
+  "last_updated": "2026-06-17"
 }
