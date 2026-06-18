@@ -107,7 +107,9 @@
     "Jun 12",
     "Jun 13",
     "Jun 14",
-    "Jun 15"
+    "Jun 15",
+    "Jun 16",
+    "Jun 17"
   ],
   "day_contexts": [
     "Day 1 — First strikes, Minab school (165+ killed), Iranian retaliation",
@@ -216,7 +218,9 @@
     "Day 105 (June 12, Friday) — NO NEW FATALITIES IN ANY CHARTED SERIES AS A US-IRAN DEAL NEARS. June 12-15 saw only Hormuz drone interceptions (no casualties). UNITED STATES: 13 KIA — unchanged. IRAN: no new tabulation (3,468 MoH / 3,636+ HRANA). LEBANON: ~3,696 (MoPH). ISRAEL: 24-30 military. IRAQ: 118+ killed — unchanged.",
     "Day 106 (June 13, Saturday) — CHARTED SERIES FLAT; LEBANESE MoPH TICKS UP OFF-CHART. The Lebanese Ministry of Public Health bulletin reached 3,756 killed / 11,632 wounded (cumulative, attributed separately and not merged into the charted Lebanese series). UNITED STATES: 13 KIA — unchanged. IRAN: no new tabulation. ISRAEL: 24-30 military. No new strikes on Iranian territory.",
     "Day 107 (June 14, Sunday) — ISRAELI STRIKE ON BEIRUT'S GHOBEIRI KILLS 3; LEBANESE MoPH REACHES 3,783. An Israeli strike on Beirut's Ghobeiri suburb killed 3 and wounded 16 (Trump said it 'should not have happened'); the Lebanese MoPH cumulative rose to 3,783 killed / 11,699 wounded. UNITED STATES: 13 KIA — unchanged. IRAN: no new tabulation (3,468 MoH / 3,636+ HRANA). ISRAEL: 24-30 military. The Ghobeiri deaths are the only new charted Lebanese fatalities in the window.",
-    "Day 108 (June 15, Monday) — DEAL DECLARED 'ALL SIGNED'; CASUALTY LEDGERS STATIC ON HARD NUMBERS. UNITED STATES: 13 KIA (DCAS) to 15 (CRS/Wikipedia, incl. the 6 in the March 12 KC-135 crash); WIA 413 (Pentagon) to 520-538 (independent) — no new US fatalities across June 11-15. IRAN: no new official tally for the June 9-11 strikes (3,468 MoH / 3,636 HRANA; both June 9 Apache crew recovered). LEBANON: 3,783 killed / 11,699 wounded (MoPH, June 14) — over 1 million displaced. ISRAEL: 26-30 military, ~26-51 civilians (sources vary). Children-killed (254 HRANA / 216 Iran MoH, early April) and flights-cancelled (~23,000, early March) figures remain stale with no June update."
+    "Day 108 (June 15, Monday) — DEAL DECLARED 'ALL SIGNED'; CASUALTY LEDGERS STATIC ON HARD NUMBERS. UNITED STATES: 13 KIA (DCAS) to 15 (CRS/Wikipedia, incl. the 6 in the March 12 KC-135 crash); WIA 413 (Pentagon) to 520-538 (independent) — no new US fatalities across June 11-15. IRAN: no new official tally for the June 9-11 strikes (3,468 MoH / 3,636 HRANA; both June 9 Apache crew recovered). LEBANON: 3,783 killed / 11,699 wounded (MoPH, June 14) — over 1 million displaced. ISRAEL: 26-30 military, ~26-51 civilians (sources vary). Children-killed (254 HRANA / 216 Iran MoH, early April) and flights-cancelled (~23,000, early March) figures remain stale with no June update.",
+    "Day 109 (June 16, Tuesday) — HARD NUMBERS STATIC; 14-POINT MOU TEXT RELEASED. UNITED STATES: 13 KIA (DCAS; up to 15 per CRS/Wikipedia incl. the March 12 KC-135 crew); WIA 413 (Pentagon) to 520-538 (independent) — no new US fatalities. IRAN: no new official tally (3,468 MoH June 10 / 3,636 HRANA; 26,500+ injured). LEBANON remains the active front: Israeli strikes killed at least 14 across southern Lebanon (IndexBox), pushing the toll above the 3,783 logged June 14 (MoPH); 1M+ displaced. ISRAEL: 26-30 military killed, ~7,835 wounded (static). The Senate rejected a war-powers resolution 47-48. No casualty changes on the US-Iran front under the ceasefire/MOU.",
+    "Day 110 (June 17, Wednesday) — LEBANON THE LONE MOVING LEDGER TWO DAYS BEFORE SIGNING. UNITED STATES: 13 KIA; WIA 140 (Pentagon March 10, incl. 64+ concussive at Ain al-Asad) to 413-538 (independent) — no new US fatalities. IRAN: 3,468 killed (MoH June 10; incl. 376 children, 496 women, 7 infants), 26,500+ injured; HRANA documents 1,701 civilian dead. LEBANON: Israeli forces killed 4 in southern Lebanon; Iran says Israel has violated the Lebanon truce 84 times since the MOU; cumulative toll 3,756 (MoPH June 13) to 3,783+ (June 14, after Ghobeiri). ISRAEL: 26 military killed, 7,835 wounded. IRAQ 118, Gulf 28. Sources: Iran MoH (June 10), Lebanon MoPH (June 13-14), Israeli authorities, Iraqi health authorities, CENTCOM, Al Jazeera tracker. (Outlier tracker missilestrikes.com lists only 2,211 total / Iran 1,444 — incompatible methodology, flagged.)"
   ],
   "datasets": {
     "iranian_military": {
@@ -310,6 +314,8 @@
         0,
         0,
         3,
+        0,
+        0,
         0,
         0,
         0,
@@ -443,6 +449,8 @@
         0,
         0,
         0,
+        0,
+        0,
         0
       ],
       "color": "#ffffff"
@@ -483,6 +491,8 @@
         1,
         0,
         2,
+        0,
+        0,
         0,
         0,
         0,
@@ -671,7 +681,9 @@
         0,
         0,
         3,
-        0
+        0,
+        14,
+        4
       ],
       "color": "#7b3fa0"
     },
@@ -785,10 +797,12 @@
         0,
         0,
         0,
+        0,
+        0,
         0
       ],
       "color": "#ffc832"
     }
   },
-  "last_updated": "2026-06-15"
+  "last_updated": "2026-06-17"
 }
