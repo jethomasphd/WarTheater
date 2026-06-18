@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.065,
-  "war_increase": 1.075,
+  "current_gas": 4.025,
+  "war_increase": 1.035,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.58 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com national average — $4.065 on Monday June 15, 2026 (Day 108), down ~9 cents from $4.151 (June 10) as crude fell to three-month lows on the US-Iran peace deal that authorized a toll-free reopening of the Strait of Hormuz and removal of the US naval blockade. Still ~$1.07/gal above the $2.99 Feb 28 baseline (~36% higher). Per Trading Economics' May CPI breakdown, the gasoline component was up 40.5% year-over-year and energy +23.5%, driving over 60% of the monthly inflation gain; pump relief from the June oil slide runs 2-3 weeks behind crude. Brent settled $83.17 and WTI $80.75 on June 15 — the lowest since March 4. Five states (Alaska, Hawaii, Nevada, Oregon, Washington) remain above $5; California is highest near $5.82; diesel ~$5.45. The May peak $4.536 (May 6, via Fox Business) stayed below AAA's all-time record of $5.016 (set June 14, 2022). Watson Institute / Costs of War (Brown): Americans have spent ~$318 more per household on gasoline and diesel since the war began (via CBS). ITEP tracker (May 31): cumulative ~$46.5 billion paid extra to the oil industry since Feb 28; additional cost $347.72 per household; summer-end forecast $825.02/household.",
-  "last_updated": "2026-06-15"
+  "source": "AAA gasprices.aaa.com national average — $4.025 on Wednesday June 17, 2026 (Day 110), down from $4.065 (June 15) as crude fell to three-month lows on the US-Iran peace MOU that authorized a toll-free reopening of the Strait of Hormuz and removal of the US naval blockade. Still ~$1.04/gal above the $2.99 Feb 28 baseline (~35% higher). Brent settled $78.96 (first sub-$80 close since March) and WTI $76.05 on June 16 — a 3.5-month low. Pump relief from the June oil slide runs 2-3 weeks behind crude; NPR/AP (June 17) note higher gas, grocery and flight prices will likely outlast the war. Five states (Alaska, Hawaii, Nevada, Oregon, Washington) remain above $5; California is highest near $5.82; diesel ~$5.45. The May peak $4.536 (May 6, via Fox Business) stayed below AAA's all-time record of $5.016 (set June 14, 2022). Watson Institute / Costs of War (Brown): Americans have spent ~$318 more per household on gasoline and diesel since the war began (via CBS). Moody's Analytics (NPR, June 17) estimates the war has cost US consumers and taxpayers ~$132 billion so far.",
+  "last_updated": "2026-06-17"
 }
