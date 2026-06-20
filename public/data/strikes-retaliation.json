@@ -4287,5 +4287,24 @@
     "notes": "Day 110 (June 17): Israeli strikes on Lebanon continued through the MOU period and now threaten the deal two days before the June 19 signing. June 14: a strike on Beirut's Ghobeiri suburb killed 3 and wounded 16 (Trump said it 'should not have happened'). June 16: at least 14 killed in Israeli strikes (IndexBox). June 17: Israel killed 4 in southern Lebanon, prompting Trump to say Netanyahu must be 'more responsible.' Iran says Israel has violated the Lebanon truce 84 times since the MOU and warned of a 'harsh response,' while Israeli Defense Minister Katz said Israel 'will continue operating in Lebanon regardless.' The active flashpoint has shifted from Iran-US to Israel-Lebanon (Hezbollah).",
     "verified": true,
     "last_updated": "2026-06-17"
+  },
+  {
+    "id": "lebanon-flareup-jun19-20",
+    "city": "Nabatieh, Bekaa Valley (Douris) & Southern Lebanon / Ali al-Taher",
+    "lat": 33.38,
+    "lng": 35.48,
+    "type": "hezbollah_front",
+    "weapon": "Israeli airstrikes; Hezbollah ATGM/rocket/drone fire",
+    "origin": "IDF / Hezbollah",
+    "first_strike": "2026-06-19",
+    "casualties_reported": "Jun 19: at least 47 killed in Lebanon (Lebanese Health Ministry; earlier overnight count 18) + 4 IDF soldiers killed (Hezbollah strike on a tank near Ali al-Taher); Jun 20: at least 7 killed (incl. 2 children) near Nabatieh",
+    "casualties_source": "Lebanese Health Ministry / IDF / Lebanese civil defense / NNA / Al Jazeera / CNN",
+    "active_days": [
+      112,
+      113
+    ],
+    "notes": "Day 112 (June 19): The deadliest post-MOU day on the Lebanon front. Hezbollah struck an IDF tank near the Ali al-Taher hilltop overlooking Nabatieh, killing four Israeli soldiers (IDF), saying it was responding to Israeli ceasefire violations; Israel struck 'Hezbollah infrastructure' in Nabatieh, the Bekaa Valley (Douris) and elsewhere, and the Lebanese Health Ministry reported at least 47 killed (an earlier overnight count was 18). Netanyahu ordered the IDF to strike 'with full force.' Israel and Hezbollah then renewed their ceasefire (~9am ET June 19), mediated by the US, Qatar and Iran; Trump said he phoned Israeli officials to request it, calling it 'a little icing on the cake,' with Israel and Lebanon expected to meet in Washington the following week. Day 113 (June 20): Israeli strikes on Nabatieh-area towns killed at least 7 (incl. 2 children) per Lebanese civil defense/NNA after Hezbollah reportedly fired 50+ projectiles overnight — testing the day-old truce. Because the signed 14-point MOU binds 'all fronts including Lebanon' yet Israel and Hezbollah are not signatories, this is the fault line most likely to collapse the deal; no verified new Iranian attacks on US bases or Gulf states occurred in-window.",
+    "verified": true,
+    "last_updated": "2026-06-20"
   }
 ]
