@@ -2151,6 +2151,29 @@
       "children_killed": 376,
       "headline": "Day 110 (June 17, Wednesday) — Two days before the June 19 signing in Switzerland (the Burgenstock complex over Lake Lucerne), the 14-point US-Iran MOU text was released (Bloomberg/NBC/Time): an end to the war on all fronts including Lebanon, a $300B reconstruction fund, sanctions waivers, on-site downblending of Iran's ~440kg of 60% HEU under IAEA, and Hormuz traffic restored to pre-war volume within 30 days. Oil hit a three-month low — Brent settled $78.96 (first sub-$80 close since March, -5%) and WTI $76.05 (-5.8%) on June 16 — as the S&P 500 slipped 0.57% to 7,511.35 even as the Dow set another record. Physical reality lagged the politics: only ~7 ships have transited Hormuz since the June 14 deal with 550+ stranded. The live spoiler is Lebanon, where Israeli strikes killed 4 on June 17 (at least 14 on June 16); Trump said Netanyahu must be 'more responsible' while warning he would go 'back to dropping bombs' if Iran 'misbehaves,' and Iran said Israel has violated the Lebanon truce 84 times since the MOU. The Senate rejected a war-powers resolution 47-48.",
       "note": "Two days before the Switzerland signing; 14-point MOU text released; Hormuz still effectively closed (~7 ships since the deal); Israel kills 4 in Lebanon, Trump rebukes Netanyahu; oil at 3-month lows."
+    },
+    {
+      "date": "2026-06-20",
+      "war_day": 113,
+      "brent": 80.57,
+      "wti": 77.54,
+      "gas": 3.973,
+      "sp500": 7500.58,
+      "sp500_change_pct": 0,
+      "nasdaq": 26530,
+      "dow": 51565,
+      "daily_cost_millions": 86,
+      "total_cost_billions": 73.3,
+      "targets_struck": 35600,
+      "us_kia": 13,
+      "us_wia": 529,
+      "iranian_killed": 3468,
+      "lebanese_killed": 3837,
+      "displaced": 1200000,
+      "flights_cancelled": 8000,
+      "children_killed": 376,
+      "headline": "Day 113 (June 20, Saturday) — The Iran war is effectively over: the 14-point US-Iran MOU was signed June 17 (Trump at the Palace of Versailles, Pezeshkian in Tehran) and CENTCOM lifted the naval blockade June 18, reopening the Strait of Hormuz toll-free, with >12.5M barrels transiting Wednesday night. But the June 19 Switzerland follow-on ceremony was cancelled, and Lebanon became the residual hot front: at least 47 were killed June 19 (the deadliest post-MOU day) and four IDF soldiers died before a US/Qatar/Iran-mediated Israel-Hezbollah truce was renewed (~9am ET), then strained by June 20 strikes (≥7 killed, incl. 2 children) and a 50+ projectile barrage. Markets priced in peace — Brent ~$80.57 and WTI ~$77.54 (June 19), the S&P 500 at 7,500.58 (June 18 close; markets closed June 19 for Juneteenth), and AAA gas $3.973, the first sustained sub-$4.00 since late March — while Moody's pegged the cumulative US consumer/taxpayer cost at ~$132B. Both carriers (Lincoln, Bush) remain on station in the Arabian Sea; no withdrawal has been ordered.",
+      "note": "War effectively over on the Iran front: MOU signed June 17, blockade lifted June 18, Hormuz reopened toll-free. June 19 Switzerland ceremony cancelled; Lebanon the residual hot front (≥47 killed June 19, 4 IDF KIA, truce renewed then strained June 20). Markets priced in peace; carriers remain on station."
     }
   ],
   "toll": {
