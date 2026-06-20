@@ -304,7 +304,7 @@ WarTheater.Map = {
     polygon.bindPopup(`
       <div style="min-width: 280px;">
         <h4 style="color: #d4a020; margin-bottom: 4px; font-size: 14px;">STRAIT OF HORMUZ</h4>
-        <div style="color: #ef4444; font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px; font-weight: 600;">EFFECTIVELY CLOSED TO COMMERCIAL TRAFFIC</div>
+        <div style="color: ${strait.display_status_color}; font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px; font-weight: 600;">${strait.display_status}</div>
         <div style="font-size: 11px; color: #e0e0e0; margin-bottom: 8px; line-height: 1.7;">
           <strong>${strait.percent_global_oil}%</strong> of global oil passes through this waterway.<br>
           <strong>${strait.percent_global_lng}%</strong> of global LNG transits here.<br>
@@ -321,7 +321,7 @@ WarTheater.Map = {
           </div>
         </div>
         <div style="font-size: 11px; color: #8a8a8a; line-height: 1.6; margin-bottom: 8px;">
-          <strong>Closed since:</strong> ${WarTheater.Utils.formatDateFull(strait.closure_date)}<br>
+          <strong>Status:</strong> ${strait.status_timeline}<br>
           <strong>Method:</strong> ${strait.closure_method}<br>
           <strong>Insurance increase:</strong> <span style="color: #ef4444;">+${impact.insurance_cost_increase_pct}%</span><br>
           <strong>Supply shortfall:</strong> <span style="color: #ef4444;">${impact.shortfall_mbd} million bbl/day</span>
