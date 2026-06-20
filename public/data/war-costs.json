@@ -109,7 +109,10 @@
     "Day 107",
     "Day 108",
     "Day 109",
-    "Day 110"
+    "Day 110",
+    "Day 111",
+    "Day 112",
+    "Day 113"
   ],
   "daily_cost_millions": [
     3000,
@@ -221,7 +224,10 @@
     90,
     90,
     92,
-    95
+    95,
+    90,
+    88,
+    86
   ],
   "day_notes": [
     "First strikes — $5.6B munitions in 48 hrs (WaPo)",
@@ -333,7 +339,10 @@
     "Day 107 (June 14, Sunday) — TRUMP DECLARES THE DEAL 'NOW COMPLETE'; HORMUZ REOPENING + BLOCKADE REMOVAL AUTHORIZED. Daily burn ~$90M/day as the blockade begins to wind down. Trump posted that he authorizes 'the toll free opening of the Strait of Hormuz, and… the immediate removal of the United States Naval blockade,' with formal signing set for June 19 in Switzerland (Vance and envoy Witkoff for the US). Israel struck Beirut's Ghobeiri suburb (3 killed, 16 wounded); Trump called it something that 'should not have happened.' CUMULATIVE OFFICIAL: $29B (Pentagon, May 12); modeled ~$72.7B (NOT merged). MARKETS CLOSED (weekend). ESCALATION RISK INDICATOR: LOW — but Lebanon is a live spoiler.",
     "Day 108 (June 15, Monday) — DEAL 'ALL SIGNED'; MARKETS HIT RECORDS, OIL AT THREE-MONTH LOWS. Daily burn ~$90M/day standby pending the June 19 signing and blockade removal. At the G7 in Évian-les-Bains, Trump said the US-Iran deal was 'all signed' (Trump and VP Vance signed the MOU digitally) and that Hormuz is 'partially open' now and will be 'completely open' and 'toll free' by Friday. CORE TERMS: toll-free Hormuz; US naval blockade lifted; Iran removes mines within 30 days; ~$24-25B in frozen Iranian assets released; a 60-day nuclear-talks window. CUMULATIVE: $29B official (Pentagon Comptroller Jules Hurst, May 12; no new DoD release in the window); dashboard modeled ~$72.8B, while the militaryspend standby model (~$95M/day) puts it at ~$34.25B (distinct estimates, NOT merged with the official figure). TANKER TRANSITS: Kpler's Matt Wright projected entries to the Persian Gulf could rise to ~12/day (~50% of prewar) in the first 30 days, with 118 tankers stuck in the Gulf able to exit within 15 days; AIS data showed traffic essentially unchanged on June 15 pending the signing. Trump claimed (June 11) the Navy had 'secretly helped 200 commercial ships and more than 100 million barrels of oil through Hormuz over the past month.' MARKETS: S&P 500 +1.65% to 7,554.29, Dow +0.92% to a record 51,671.03, Nasdaq +3.07% to 26,683.94, VIX 16.20 (-8.4%), gold +2.18% to $4,331; Brent -4.76% to $83.17, WTI -4.87% to $80.75 (lowest since March 4). ESCALATION RISK INDICATOR: LOW — pending the June 19 signing; any slip or a Lebanon flare-up would reverse the moves.",
     "Day 109 (June 16, Tuesday) — 14-POINT MOU TEXT RELEASED; OIL HITS A THREE-MONTH LOW. Daily burn ~$92M/day standby pending the June 19 signing. Bloomberg, NBC and Time published the 14-point memorandum: end of war on all fronts incl. Lebanon, a $300B reconstruction fund, sanctions waivers, on-site downblending of HEU under IAEA, and Hormuz traffic restored to pre-war volume within 30 days. The Senate rejected a war-powers resolution 47-48 (its ninth failure). Brent settled $78.96 (first sub-$80 close since March) and WTI $76.05 (-5.8%), a 3.5-month low, after the WSJ reported Iran could sell crude immediately. No new official DoD cost figure; $29B (Hurst, May 12) remains the latest official.",
-    "Day 110 (June 17, Wednesday) — STANDBY BURN; CONSUMER COST PEGGED AT ~$132B TWO DAYS BEFORE SIGNING. Daily burn ~$95M/day (CSIS ceasefire-standby phase, under $100M/day); no new official DoD figure — $29B (Pentagon comptroller Jules Hurst, May 12 SASC; '$4B higher than the April figure,' excludes overseas base-repair) remains the latest official direct-military number. Phased-model tracker cumulative ~$34.44B. CONSUMER/TAXPAYER COST: Moody's Analytics estimates the war has cost US consumers and taxpayers ~$132B so far (NPR, June 17); iran-cost-ticker.com logs $113.3B over 108 days. TANKER TRANSIT: only ~7 ships have crossed Hormuz since the June 14 deal (MarineTraffic) with 550+ still stranded; Windward logged ~24 vessels around the strait June 16 (16 in / 8 out, 11 'dark'); IMF PortWatch recorded 0 AIS transits June 14; TankerTrackers (June 17) reported the first Iranian crude exports in two months crossing the old blockade line. Crude transits run ~95% below pre-war and LNG ~99% below. NPR/AP: higher gas, grocery and flight prices will likely outlast the war."
+    "Day 110 (June 17, Wednesday) — STANDBY BURN; CONSUMER COST PEGGED AT ~$132B TWO DAYS BEFORE SIGNING. Daily burn ~$95M/day (CSIS ceasefire-standby phase, under $100M/day); no new official DoD figure — $29B (Pentagon comptroller Jules Hurst, May 12 SASC; '$4B higher than the April figure,' excludes overseas base-repair) remains the latest official direct-military number. Phased-model tracker cumulative ~$34.44B. CONSUMER/TAXPAYER COST: Moody's Analytics estimates the war has cost US consumers and taxpayers ~$132B so far (NPR, June 17); iran-cost-ticker.com logs $113.3B over 108 days. TANKER TRANSIT: only ~7 ships have crossed Hormuz since the June 14 deal (MarineTraffic) with 550+ still stranded; Windward logged ~24 vessels around the strait June 16 (16 in / 8 out, 11 'dark'); IMF PortWatch recorded 0 AIS transits June 14; TankerTrackers (June 17) reported the first Iranian crude exports in two months crossing the old blockade line. Crude transits run ~95% below pre-war and LNG ~99% below. NPR/AP: higher gas, grocery and flight prices will likely outlast the war.",
+    "Day 111 (June 18, Thursday) — BLOCKADE LIFTED; STANDBY BURN AS FORCES STAY ON STATION. CENTCOM ended all naval blockade enforcement and the Strait of Hormuz reopened toll-free (the MOU's 60-day clock started June 18 per VP Vance), yet US warships and both carriers (Lincoln, Bush) remain in the area to police compliance — no withdrawal announced — so the operational burn stays in the CSIS ceasefire-standby band (~$90M/day, under $100M/day). Cumulative consumer/taxpayer cost holds at Moody's Analytics' ~$132B estimate (NPR, June 17); the latest official DoD operational figure is $29B (Pentagon comptroller Jules Hurst, May 12 SASC), with a separate ~$80B supplemental request pending (WSJ). Shipping resumed for the first time in ~110 days: >12.5 million barrels transited Hormuz Wednesday night and ~10 million Thursday, including the first Saudi-owned tankers since the war began.",
+    "Day 112 (June 19, Friday) — SWITZERLAND CEREMONY CANCELLED; BURN DRIFTS LOWER. The Bürgenstock follow-on technical talks were called off and US equity markets were closed for Juneteenth; the daily military burn eases to ~$88M/day as enforcement winds down while carriers hold station. Lebanon's deadliest post-MOU day (≥47 killed; 4 IDF KIA) briefly threatened the deal before a renewed Israel-Hezbollah truce (~9am ET, US/Qatar/Iran-mediated). Cumulative consumer cost steady near Moody's ~$132B; the back-loaded $300B reconstruction fund and full sanctions relief in the 14-point MOU do not trigger until a final deal is reached inside the 60-day window.",
+    "Day 113 (June 20, Saturday) — WIND-DOWN CONTINUES; LEBANON TRUCE STRAINED. Military burn ~$86M/day as the Iran front stays quiet and the blockade stays lifted, though no carrier has been ordered home. Renewed Israeli strikes near Nabatieh killed ≥7 (incl. 2 children) after Hezbollah reportedly fired 50+ projectiles overnight, testing the day-old truce. Headline cumulative figures hold: Moody's ~$132B consumer/taxpayer cost (still 'running'), $29B official DoD operational cost (May 12), and a pending ~$80B Pentagon supplemental; Watson Institute/Costs of War pegs added household gasoline-and-diesel spend at ~$318 since the war began."
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
@@ -450,7 +459,10 @@
       "Jun 14",
       "Jun 15",
       "Jun 16",
-      "Jun 17"
+      "Jun 17",
+      "Jun 18",
+      "Jun 19",
+      "Jun 20"
     ],
     "data": [
       50,
@@ -565,9 +577,12 @@
       2,
       3,
       2,
-      2
+      2,
+      18,
+      10,
+      8
     ],
     "prewar_daily": 50
   },
-  "last_updated": "2026-06-17"
+  "last_updated": "2026-06-20"
 }

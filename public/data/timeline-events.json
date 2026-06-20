@@ -8638,5 +8638,122 @@
     "source": "NPR / AP / Moody's Analytics / Manifest §1,6,11",
     "time": "Day 110",
     "title": "NPR/AP: higher gas, grocery and flight prices will outlast the war"
+  },
+  {
+    "category": "milestone",
+    "data_point": "US-Iran 14-point MOU SIGNED June 17 — Trump at the Palace of Versailles (after the G7 at Évian-les-Bains), Pezeshkian in Tehran; ends the war on all fronts, reopens Hormuz toll-free, opens a 60-day window to a final UN-endorsed deal",
+    "date": "2026-06-17",
+    "description": "CORRECTION TO PRIOR FRAMING: the 14-point US-Iran Memorandum of Understanding was SIGNED on June 17 — by President Trump at the Palace of Versailles following the G7 summit at Évian-les-Bains, and by Iranian President Masoud Pezeshkian in Tehran — not on June 19 in Switzerland. The framework/interim MOU ends the war 'on all fronts, including Lebanon,' reopens the Strait of Hormuz toll-free for 60 days, lifts the US naval blockade, and opens a 60-day window toward a final, UN-endorsed deal; a senior US official cautioned 'either side can walk away at any time until you really have a fulsome binding deal.'",
+    "source": "RFE/RL / CNN / NPR / Wikipedia / Manifest §1,5",
+    "time": "Day 110",
+    "title": "US-Iran 14-point peace MOU SIGNED at Versailles and Tehran (June 17)"
+  },
+  {
+    "category": "markets",
+    "data_point": "Fed's June decision under new Chair Kevin Warsh lands hawkish; S&P 500 -1.21% to 7,420.10, Dow -507 to 51,492.55, Nasdaq -1.34%",
+    "date": "2026-06-17",
+    "description": "The Federal Reserve's June decision under new Chair Kevin Warsh landed hawkish, triggering a broad equity sell-off that overshadowed the day's diplomatic milestone. The S&P 500 fell 1.21% to 7,420.10, the Dow dropped 507 points to 51,492.55, and the Nasdaq lost 1.34%.",
+    "source": "CNBC / FRED / Manifest §6",
+    "time": "Day 110",
+    "title": "Hawkish Fed decision under new Chair Warsh sinks stocks on signing day"
+  },
+  {
+    "category": "regional_diplomacy",
+    "data_point": "China's FM Wang Yi spoke with Iran's FM Araghchi; Beijing welcomed the deal and a reopened Hormuz",
+    "date": "2026-06-17",
+    "description": "China's Foreign Minister Wang Yi spoke with Iranian Foreign Minister Abbas Araghchi as the MOU was signed; Beijing welcomed the agreement and the prospect of a reopened Strait of Hormuz, through which much of China's crude imports flow.",
+    "source": "Manifest §5",
+    "time": "Day 110",
+    "title": "China's Wang Yi speaks with Iran's Araghchi as MOU is signed"
+  },
+  {
+    "category": "milestone",
+    "data_point": "CENTCOM lifts the naval blockade June 18 — 'all U.S. military blockade enforcement efforts have ceased'; Hormuz reopens toll-free; >12.5M barrels transit Wednesday night, ~10M Thursday (first Saudi-owned tankers since the war)",
+    "date": "2026-06-18",
+    "description": "CENTCOM announced that 'all U.S. military blockade enforcement efforts have ceased' and the Strait of Hormuz reopened toll-free, though US warships 'remain in the general area' to police compliance. Shipping resumed for the first time in ~110 days — Lloyd's List logged major owners (Grimaldi, Cosco, Knutsen, NYK) transiting; VP Vance said more than 12.5 million barrels passed Wednesday night and ~10 million Thursday, including the first Saudi-owned tankers since the war began.",
+    "source": "CENTCOM / USNI / Lloyd's List / Al Jazeera / Manifest §1,4",
+    "time": "Day 111",
+    "title": "US lifts the naval blockade; Strait of Hormuz reopens toll-free"
+  },
+  {
+    "category": "us_statement",
+    "data_point": "Vance: MOU's 60-day clock started June 18; 'we have all the cards'; Iran 'will not significantly benefit until it can verify'; criticizes Israeli Lebanon operations",
+    "date": "2026-06-18",
+    "description": "VP JD Vance briefed at the White House that the MOU's 60-day negotiation window started June 18, said the US held 'all the cards,' and noted Iran 'will not significantly benefit until it can verify' — sanctions relief and the $300B reconstruction fund are back-loaded to a final deal, with only export waivers and the blockade lift immediate. Vance also criticized Israel's continued Lebanon operations.",
+    "source": "CNN / ABC / NPR / Manifest §1,5,9",
+    "time": "Day 111",
+    "title": "Vance: 60-day clock starts; sanctions relief back-loaded to a final deal"
+  },
+  {
+    "category": "iran-domestic",
+    "data_point": "New Supreme Leader Mojtaba Khamenei approves the MOU in a written message, cautioning against US 'excessive demands'; Iran's NSC cites a 'reciprocal response' plan if the US violates",
+    "date": "2026-06-18",
+    "description": "Iran's new Supreme Leader Mojtaba Khamenei approved the MOU in a written message but cautioned against US 'excessive demands,' and Iran's National Security Council said it retains a 'reciprocal response' plan if the US violates the agreement.",
+    "source": "Manifest §1,5",
+    "time": "Day 111",
+    "title": "Supreme Leader Mojtaba Khamenei approves the MOU in writing"
+  },
+  {
+    "category": "diplomacy",
+    "data_point": "China praises the deal; senior US officials brief Congress on the MOU and the 60-day track",
+    "date": "2026-06-18",
+    "description": "China publicly praised the agreement, and senior US administration officials briefed members of Congress on the MOU's terms and the 60-day negotiation track toward a final, UN-endorsed deal.",
+    "source": "Manifest §5",
+    "time": "Day 111",
+    "title": "China praises the deal; US officials brief Congress"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "June 19 Switzerland (Bürgenstock) follow-on ceremony CANCELLED — NOT a signing; Swiss FM says talks 'would not proceed'; Vance no longer traveling; Iran declined, insisting Lebanon fighting stop first; Pakistan's Sharif cancelled",
+    "date": "2026-06-19",
+    "description": "The June 19 Bürgenstock (near Lucerne) follow-on technical-talks ceremony was CANCELLED — it was never the signing, which had occurred June 17. Switzerland's foreign ministry said the talks 'would not proceed'; the White House said VP Vance was no longer traveling, citing logistics; Pakistani PM Shehbaz Sharif cancelled (his spokesman said the 'Islamabad Memorandum of Understanding has already been electronically signed... and is now under implementation'); and Iran declined to attend, insisting Lebanon fighting cease first.",
+    "source": "CNBC / Al Jazeera / CBS / Outlook India / Manifest §1,8",
+    "time": "Day 112",
+    "title": "June 19 Switzerland ceremony CANCELLED (it was never the signing)"
+  },
+  {
+    "category": "lebanon",
+    "data_point": "Lebanon's deadliest post-MOU day: at least 47 killed (Lebanese Health Ministry) as Israel struck Nabatieh and the Bekaa Valley; 4 IDF soldiers killed in a Hezbollah strike on a tank near Ali al-Taher",
+    "date": "2026-06-19",
+    "description": "June 19 was the deadliest day on the Lebanon front since the MOU. Hezbollah struck an IDF tank near the Ali al-Taher hilltop overlooking Nabatieh, killing four Israeli soldiers, saying it was responding to Israeli ceasefire violations; Israel struck 'Hezbollah infrastructure' in Nabatieh, the Bekaa Valley (Douris) and elsewhere, and the Lebanese Health Ministry reported at least 47 killed (an earlier overnight count was 18). Netanyahu ordered the IDF to strike 'with full force.'",
+    "source": "CNN / PBS/AP / Al Jazeera / Manifest §3,5",
+    "time": "Day 112",
+    "title": "Lebanon's deadliest post-MOU day: at least 47 killed, 4 IDF soldiers KIA"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Israel and Hezbollah renew their ceasefire (~9am ET June 19), mediated by the US, Qatar and Iran; Trump said he phoned Israeli officials to request it ('a little icing on the cake')",
+    "date": "2026-06-19",
+    "description": "After the morning's escalation, Israel and Hezbollah renewed their ceasefire around 9am ET June 19, mediated by the US, Qatar and Iran. Trump said he phoned Israeli officials to request the truce, calling it 'a little icing on the cake,' with Israel and Lebanon expected to meet in Washington the following week. Because the MOU binds 'all fronts including Lebanon' yet Israel and Hezbollah are not signatories, this remains the deal's likeliest failure mode.",
+    "source": "CNN / CBS / Manifest §3,9",
+    "time": "Day 112",
+    "title": "Israel and Hezbollah renew their ceasefire (US/Qatar/Iran-mediated)"
+  },
+  {
+    "category": "iranian_statement",
+    "data_point": "Chief negotiator Qalibaf says the 60-day talks remain bound by Tehran's 'red lines'; US equity markets closed June 19 for Juneteenth (Trump touts 'RECORD HIGH' market, 'tumbling' oil)",
+    "date": "2026-06-19",
+    "description": "Iranian chief negotiator Mohammad Baqer Qalibaf reiterated that the 60-day talks remain bound by Tehran's 'red lines.' US equity markets were closed June 19 for the Juneteenth holiday; Trump touted a 'RECORD HIGH' market and 'tumbling' oil.",
+    "source": "Al Jazeera / Manifest §1,6",
+    "time": "Day 112",
+    "title": "Qalibaf reiterates Tehran's 'red lines'; US markets closed (Juneteenth)"
+  },
+  {
+    "category": "lebanon",
+    "data_point": "June 20 Israeli strikes near Nabatieh kill at least 7 (incl. 2 children) after Hezbollah reportedly fired 50+ projectiles overnight — testing the day-old truce",
+    "date": "2026-06-20",
+    "description": "Israeli strikes on Nabatieh-area towns killed at least 7 (including 2 children) per Lebanese civil defense and the NNA, after Hezbollah reportedly fired 50+ projectiles overnight — straining the day-old renewed truce. The Lebanon clause remains the fault line most likely to collapse the broader deal.",
+    "source": "Lebanese civil defense / NNA / Al Jazeera / Manifest §3,9",
+    "time": "Day 113",
+    "title": "June 20 Lebanon strikes kill at least 7 as the renewed truce is strained"
+  },
+  {
+    "category": "iran-domestic",
+    "data_point": "Iranian government poll cited June 20: ~60% of Iranians unable to continue financially, ~70% demanding government change",
+    "date": "2026-06-20",
+    "description": "An Iranian government poll cited on June 20 found roughly 60% of Iranians unable to continue financially and about 70% demanding a change of government — a measure of the war's domestic toll as Tehran enters the 60-day talks amid the succession to new Supreme Leader Mojtaba Khamenei.",
+    "source": "Manifest §5",
+    "time": "Day 113",
+    "title": "Iranian poll: ~60% can't continue financially, ~70% want government change"
   }
 ]
