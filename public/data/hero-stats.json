@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-20",
-  "war_day": 113,
-  "timestamp_label": "LAST UPDATED: JUN 20, 2026 07:19 ET",
+  "last_updated": "2026-06-25",
+  "war_day": 118,
+  "timestamp_label": "LAST UPDATED: JUN 25, 2026 09:14 ET",
   "cost": {
     "brent": {
       "price": 73.74,
@@ -2174,6 +2174,29 @@
       "children_killed": 376,
       "headline": "Day 113 (June 20, Saturday) — The Iran war is effectively over: the 14-point US-Iran MOU was signed June 17 (Trump at the Palace of Versailles, Pezeshkian in Tehran) and CENTCOM lifted the naval blockade June 18, reopening the Strait of Hormuz toll-free, with >12.5M barrels transiting Wednesday night. But the June 19 Switzerland follow-on ceremony was cancelled, and Lebanon became the residual hot front: at least 47 were killed June 19 (the deadliest post-MOU day) and four IDF soldiers died before a US/Qatar/Iran-mediated Israel-Hezbollah truce was renewed (~9am ET), then strained by June 20 strikes (≥7 killed, incl. 2 children) and a 50+ projectile barrage. Markets priced in peace — Brent ~$80.57 and WTI ~$77.54 (June 19), the S&P 500 at 7,500.58 (June 18 close; markets closed June 19 for Juneteenth), and AAA gas $3.973, the first sustained sub-$4.00 since late March — while Moody's pegged the cumulative US consumer/taxpayer cost at ~$132B. Both carriers (Lincoln, Bush) remain on station in the Arabian Sea; no withdrawal has been ordered.",
       "note": "War effectively over on the Iran front: MOU signed June 17, blockade lifted June 18, Hormuz reopened toll-free. June 19 Switzerland ceremony cancelled; Lebanon the residual hot front (≥47 killed June 19, 4 IDF KIA, truce renewed then strained June 20). Markets priced in peace; carriers remain on station."
+    },
+    {
+      "date": "2026-06-25",
+      "war_day": 118,
+      "brent": 73.74,
+      "wti": 70.34,
+      "gas": 3.928,
+      "sp500": 7358.22,
+      "sp500_change_pct": -0.1,
+      "nasdaq": 25477,
+      "dow": 51849,
+      "daily_cost_millions": 85,
+      "total_cost_billions": 73.8,
+      "targets_struck": 35600,
+      "us_kia": 13,
+      "us_wia": 543,
+      "iranian_killed": 3468,
+      "lebanese_killed": 4175,
+      "displaced": 1200000,
+      "flights_cancelled": 8000,
+      "children_killed": 376,
+      "headline": "Day 118 (June 25, Thursday) — The oil war-risk premium has collapsed: Brent settled $73.74 and WTI $70.34 (June 24), both at/near pre-war levels and down ~40% from the wartime peak, dragging the AAA national gas average to $3.928 (a sixth straight weekly drop). The OFAC 60-day sanctions waiver (General License X), surging Hormuz transits (~62 vessels June 24) and Brent's flip into bearish contango drove the slide; the S&P 500 eased 0.10% to 7,358.22 after a June 23 tech/chip selloff (Nasdaq -2.21%). CSIS pegged the total Epic Fury cost at ~$40B ($34B-$42B) as the White House requested an $87.6B supplemental ($67.15B DoD) and the Senate passed a historic 50-48 War Powers rebuke. But the ceasefire frayed on two seams: the IRGC reasserted permission-only Hormuz transit and struck the container ship Ever Lovely (the first ship attack since the June 18 reopening), and the fifth Israel-Lebanon round stalled with no signing. Carriers Lincoln and Bush remain on station in the Arabian Sea; no withdrawal has been ordered.",
+      "note": "Oil hits a pre-war low (Brent $73.74); IRGC strikes the Ever Lovely in Hormuz; Senate passes a 50-48 war-powers rebuke; WH seeks an $87.6B supplemental. CSIS total ~$40B. The US-Iran direct front stayed quiet (no strikes since ~June 10-11) but Hormuz and Lebanon remained strained."
     }
   ],
   "toll": {
