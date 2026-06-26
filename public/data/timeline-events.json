@@ -8755,5 +8755,41 @@
     "source": "Manifest §5",
     "time": "Day 113",
     "title": "Iranian poll: ~60% can't continue financially, ~70% want government change"
+  },
+  {
+    "category": "military",
+    "data_point": "Hormuz transits rising after the June 18 reopening; pre-war ~120-130/day",
+    "date": "2026-06-20",
+    "description": "CENTCOM reported that commercial traffic through the Strait of Hormuz was rising following the June 18 toll-free reopening and the lifting of the US naval blockade, though volumes remained well below the ~120-130 vessels/day pre-war baseline and hundreds of ships were still waiting to exit the Gulf.",
+    "source": "CENTCOM",
+    "time": "Day 113",
+    "title": "CENTCOM reports commercial Hormuz traffic rising"
+  },
+  {
+    "category": "economic",
+    "data_point": "CSIS total Epic Fury cost ~$40B (range $34B-$42B); $29B Pentagon comptroller (May 12)",
+    "date": "2026-06-21",
+    "description": "CSIS analysts Mark Cancian and Chris Park estimated the total cost of Operation Epic Fury at 'around $40 billion ($34 billion to $42 billion)' across deployment/redeployment, munitions, operational tempo, equipment losses, base damage and fuel prices — separate from the $29B Pentagon comptroller operational figure (May 12). The Pentagon signaled a supplemental funding request was forthcoming.",
+    "source": "CNN / CSIS (Cancian & Park)",
+    "time": "Day 114",
+    "title": "CSIS pegs DoD war cost ~$40B ($34B-$42B); Pentagon signals supplemental"
+  },
+  {
+    "category": "economic",
+    "data_point": "General License X: 60-day waiver through 12:01am EDT Aug 21, 2026 — broadest Iran relief since 1979",
+    "date": "2026-06-22",
+    "description": "The US Treasury's OFAC issued General License X, a 60-day Iran oil sanctions waiver authorizing the production, sale, delivery and offloading of Iranian-origin crude through 12:01am EDT Aug 21, 2026; it permits USD-denominated payments and US import — the broadest sanctions relief since 1979. Treasury Secretary Bessent tied it to Iran's pledges on Hormuz free transit and the return of IAEA inspectors.",
+    "source": "US Treasury/OFAC / CNBC / AP / ABC / Baker McKenzie",
+    "time": "Day 115",
+    "title": "US Treasury issues 60-day Iran oil sanctions waiver (General License X)"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Roadmap to a 60-day final deal; de-confliction cell established",
+    "date": "2026-06-22",
+    "description": "The first US-Iran implementation talks since the MOU convened at Bürgenstock on Lake Lucerne, Switzerland — Vance, Witkoff and Kushner for the US and Qalibaf and Araghchi for Iran, with Pakistan and Qatar mediating — setting a roadmap toward a 60-day final deal and establishing a de-confliction cell. Trump simultaneously posted Truth Social threats to 'hit Iran very hard again.'",
+    "source": "CNBC / NPR",
+    "time": "Day 115",
+    "title": "First US-Iran implementation talks (Bürgenstock/Lake Lucerne); Trump threatens fresh strikes"
   }
 ]
