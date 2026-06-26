@@ -4,44 +4,44 @@
   "timestamp_label": "LAST UPDATED: JUN 20, 2026 07:19 ET",
   "cost": {
     "brent": {
-      "price": 80.57,
-      "label": "Brent crude — Fri Jun 19 close $80.57 (Day 112); firmed after Switzerland talks cancelled, still ~$30 below the wartime peak",
-      "change": "▲ +0.9% to $80.57 (ICE settlement, June 19) — up from $79.85 (June 18) and $79.55 (June 17) after the Switzerland follow-on ceremony was cancelled; crude was still on track for an ~8-10% weekly fall as wartime gains unwound. ~+13% above the Feb 27 $71 baseline.",
-      "tooltip": "ICE Brent settled $80.57 on June 19, up 0.9% from $79.85 (June 18 close) and $79.55 (June 17 settle), after Switzerland cancelled the June 19 follow-on talks. Crude has erased most wartime gains (peaks topped $110, briefly ~$130 at the war's outset). Source variance: Oilprice.com showed ~$78.95 vs Trading Economics ~$80.57 around June 19. Baseline Feb 27 $71.00 — war premium ≈ +$9.57 (+13%). Source: Trading Economics / CNBC."
+      "price": 73.74,
+      "label": "Brent crude — Wed Jun 24 close $73.74 (Day 117); lowest settle since before the war as Hormuz traffic resumed",
+      "change": "▼ −4.33% to $73.74 (ICE settlement, June 24) — down from ~$77 (June 23) and $77.90 (June 22); the lowest settle since before the Feb 28 war and ~40% below the wartime peak. Now only ~+4% above the Feb 27 $71 baseline.",
+      "tooltip": "ICE Brent settled $73.74 on June 24 (−4.33%), the lowest settle since before the war as the war-risk premium collapsed — Hormuz tanker traffic resumed (~62 vessels June 24), the OFAC 60-day sanctions waiver (General License X) took effect, and Brent's prompt spread flipped into bearish contango (first since the war began). Intraday June 25 hovered ~$75, briefly $72. Baseline Feb 27 $71.00 — war premium now ≈ +$2.74 (+4%). Source: CNBC / CNN."
     },
     "wti": {
-      "price": 77.54,
-      "label": "WTI crude — Fri Jun 19 ~$77.54 intraday (Day 112); no clean settle published",
-      "change": "▲ from $76.60 (June 18 settle) to ~$77.54-78.15 intraday June 19 (no clean settle published). ~+17% above the Feb 27 $66.50 baseline.",
-      "tooltip": "NYMEX WTI settled $76.60 on June 18; on June 19 it traded ~$77.54-78.15 intraday with no clean settle published in the sources reviewed. Crude firmed modestly after Switzerland cancelled the June 19 talks but was set for an ~8-10% weekly decline as the war premium unwound. Baseline Feb 27 $66.50 — war premium ≈ +$11 (+17%). Source: Trading Economics / Investing.com (flagged: no clean WTI settle June 19)."
+      "price": 70.34,
+      "label": "WTI crude — Wed Jun 24 close $70.34 (Day 117); first settle near/below $70 since March 2",
+      "change": "▼ −3.92% to $70.34 (NYMEX settlement, June 24; intraday low $69.63) — the first settle near/below $70 since March 2 and near pre-war levels. Now only ~+6% above the Feb 27 $66.50 baseline.",
+      "tooltip": "NYMEX WTI settled $70.34 on June 24 (−3.92%, intraday low $69.63) — the first settle near/below $70 since March 2, near pre-war levels, as Hormuz traffic surged and the OFAC waiver took effect. Baseline Feb 27 $66.50 — war premium now ≈ +$3.84 (+6%). Source: CNBC / CNN."
     },
     "gas": {
-      "price": 3.973,
-      "label": "AAA national average, regular unleaded — June 19, 2026 (Day 112)",
-      "change": "▼ ~−5¢ vs June 17 ($4.025); +$0.98 vs $2.99 Feb 28 baseline. First sustained sub-$4.00 since late March as crude held near three-month lows.",
-      "tooltip": "AAA gasprices.aaa.com national average $3.973 as of June 19 (Day 112), down from $4.025 (June 17) — the first sustained dip below $4.00 since late March after the MOU reopened Hormuz and CENTCOM lifted the blockade June 18. Source variance: a Finder/AAA daily reading was ~$4.05 (June 18); CNBC cited $3.999 (June 17). ~+33% above the $2.99 Feb 28 baseline; the wartime peak was ~$4.54-4.56. Pump relief lags crude by 2-3 weeks. Source: gasprices.aaa.com."
+      "price": 3.928,
+      "label": "AAA national average, regular unleaded — June 25, 2026 (Day 118)",
+      "change": "▼ ~−4.5¢ vs June 19 ($3.973); +$0.94 vs $2.99 Feb 28 baseline. Sixth straight weekly decline; below $4.00 since June 18 as crude slid to pre-war lows.",
+      "tooltip": "AAA gasprices.aaa.com national average $3.928 as of June 25 (Day 118), a sixth straight weekly decline and below $4.00 since June 18 as crude fell to pre-war lows (Brent $73.74 / WTI $70.34, June 24 settles). ~+31% above the $2.99 Feb 28 baseline (AAA/Finder cite $2.96 on Feb 26); down from the wartime peak of ~$4.55 (May 21). Pump relief lags crude by 2-3 weeks; Trump ordered DOJ to probe alleged 'gouging' June 24. Source: gasprices.aaa.com."
     },
     "sp500": {
-      "value": 7500.58,
-      "label": "S&P 500 — Thu Jun 18 close (Day 111): +1.08% to 7,500.58; markets closed June 19 (Juneteenth)",
-      "change": "▲ +1.08% to 7,500.58 (June 18) — a tech-led rebound (Nasdaq +1.9%, Dow +72) as the blockade lifted. The prior session (June 17) fell 1.21% to 7,420.10 on a hawkish Fed/Warsh decision; markets were closed June 19 (Juneteenth) and June 20 (Saturday).",
-      "tooltip": "S&P 500 closed 7,500.58 on June 18 (+1.08%), a tech-led rebound (Intel +~10% on an Apple chip deal, Micron +8.5%, Nvidia +2.8%; Dow +72) as CENTCOM lifted the naval blockade. June 17 had dropped 1.21% to 7,420.10 (Dow −507 to 51,492.55) on the Fed's hawkish June decision under new Chair Kevin Warsh. US equity markets were CLOSED June 19 (Juneteenth) and June 20 (Saturday). Source: FRED/S&P DJI, CNBC."
+      "value": 7358.22,
+      "label": "S&P 500 — Wed Jun 24 close (Day 117): −0.10% to 7,358.22",
+      "change": "▼ −0.10% to 7,358.22 (June 24) — flat as oil's slide weighed on energy names; the prior session (June 23) fell 1.44% to 7,365.46 in a global tech/chip selloff (Nasdaq −2.21%, KOSPI −9.99%). Dow +0.35% to 51,848.90 on June 24.",
+      "tooltip": "S&P 500 closed 7,358.22 on June 24 (−0.10%); Nasdaq 25,476.64 (−0.43%), Dow 51,848.90 (+0.35%). The prior session (June 23) dropped 1.44% to 7,365.46 in a global tech/chip selloff (Nasdaq −2.21%, KOSPI −9.99%). Gold fell below $4,000 (first since Nov 2025) and Alphabet replaced Verizon in the Dow as the war-risk premium evaporated. Source: CNBC, FRED."
     },
     "daily_cost": {
-      "value": 86,
+      "value": 85,
       "unit": "M/day",
       "label": "Daily War Cost (est.)",
-      "change": "CSIS ceasefire-standby/wind-down — CENTCOM ended blockade enforcement June 18; no new official DoD daily figure.",
-      "tooltip": "CSIS ceasefire-standby/wind-down phase (~under $100M/day); CENTCOM ended blockade enforcement June 18 but carriers remain on station, so the burn eases only gradually. Peak burn was ~$1.88B/day in Days 1-6. Source: CSIS (Cancian).",
-      "note": "Estimate; operational tempo low and easing after the June 18 blockade lift, though no carrier has been ordered home. Peak rate was ~$1.88B/day in Days 1-6; the modeled daily burn is ~$86M/day."
+      "change": "CSIS ceasefire-standby (~$95M/day model) — the Iran front is quiet under the post-MOU standby and no new official DoD daily figure has been released.",
+      "tooltip": "CSIS ceasefire-standby phase; CSIS models a ~$95M/day standby rate while the dashboard's phased model shows the burn easing to ~$85M/day as carriers remain on station but the Iran front stays quiet. Peak burn was ~$1.88B/day in Days 1-6. Source: CSIS (Cancian & Park).",
+      "note": "Estimate; operational tempo low and easing under the post-MOU standby, though no carrier has been ordered home. CSIS cites a ~$95M/day ceasefire-standby rate; the dashboard's phased model is ~$85M/day. Peak rate was ~$1.88B/day in Days 1-6."
     },
     "total_cost": {
-      "value": 34.70,
+      "value": 40,
       "unit": "B",
-      "label": "Cumulative Direct Military Cost (est.)",
-      "change": "Phased-model tracker ~$34.70B (militaryspend.org, Day 113). Latest OFFICIAL figure is $29B (Pentagon comptroller Hurst, May 12); a separate ~$80B supplemental is pending (WSJ).",
-      "tooltip": "Phased-model tracker (militaryspend.org, Day 113) ≈ $34.70B. Latest OFFICIAL figure is $29B (Pentagon comptroller Jules Hurst, Senate Armed Services Cmte, May 12; '$4 billion higher than the administration's April figure,' excludes overseas base-repair costs), with a separate ~$80B Pentagon supplemental request pending (WSJ). Independent estimates run higher and are reported separately (do not merge). Sources: militaryspend.org, Pentagon (Hurst), WSJ.",
-      "note": "Direct military only. Consumer/taxpayer cost est. ~$132B (NPR/Moody's, June 17: 'Moody's Analytics estimates the war has cost U.S. consumers and taxpayers about $132 billion so far'); $113.3B per iran-cost-ticker.com."
+      "label": "Total Epic Fury Military Cost (CSIS est.)",
+      "change": "CSIS pegs the total at ~$40B (range $34B–$42B; Cancian & Park, June). Latest OFFICIAL figure is $29B (Pentagon comptroller, May 12); the White House requested an $87.6B supplemental ($67.15B DoD) on June 24.",
+      "tooltip": "CSIS (Cancian & Park, June) estimate the total cost of Operation Epic Fury at 'around $40 billion ($34 billion to $42 billion)' across deployment/redeployment, munitions, operational tempo, equipment losses, base damage and fuel prices. The latest OFFICIAL operational figure is $29B (Pentagon comptroller Jules Hurst, May 12). On June 24 the White House (OMB Director Vought) requested an $87.6B supplemental, including $67.15B for DoD ($21B munitions, $17.3B operations, $21.1B classified). The militaryspend.org phased tracker reads ~$35B. Sources: CSIS, Pentagon (Hurst), Reuters/PBS/AP. (Estimates are reported separately — do not merge.)",
+      "note": "Direct military/total war cost. Consumer/taxpayer cost est. ~$132B (NPR/Moody's: 'Moody's Analytics estimates the war has cost U.S. consumers and taxpayers about $132 billion so far'); $113.3B per iran-cost-ticker.com."
     }
   },
   "history": [
