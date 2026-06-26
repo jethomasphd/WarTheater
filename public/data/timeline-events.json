@@ -8791,5 +8791,50 @@
     "source": "CNBC / NPR",
     "time": "Day 115",
     "title": "First US-Iran implementation talks (Bürgenstock/Lake Lucerne); Trump threatens fresh strikes"
+  },
+  {
+    "category": "political",
+    "data_point": "Senate 50-48; House 215-208 (June 3); 4 GOP defectors; nonbinding",
+    "date": "2026-06-23",
+    "description": "The Senate passed a War Powers resolution 50-48 — the first time such a resolution cleared both chambers (the House passed it 215-208 on June 3) and, per PBS, the 10th Senate attempt to stop the war. Four Republicans (Cassidy, Collins, Paul, Murkowski) joined Democrats; Fetterman opposed; the absences of McConnell and McCormick aided passage. The measure is nonbinding; Trump called the four Republicans 'losers.'",
+    "source": "PBS / NPR / CNN / Al Jazeera / WaPo / NBC",
+    "time": "Day 116",
+    "title": "Senate passes War Powers resolution 50-48 in rare rebuke"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Trump: Iran agreed to 'highest level' inspections; Iran FM: 'no new commitments'",
+    "date": "2026-06-23",
+    "description": "Trump posted on Truth Social that Iran had 'fully and completely agreed to highest level Nuclear inspections... (Infinity!!!)'. Iran's Foreign Ministry spokesman Baghaei countered there were 'no new commitments' beyond the MOU, and Tasnim disputed the IAEA-access claims — leaving the inspection question unresolved.",
+    "source": "CNN / CNBC",
+    "time": "Day 116",
+    "title": "Trump claims Iran agreed to 'highest level' nuclear inspections; Iran FM denies"
+  },
+  {
+    "category": "economic",
+    "data_point": "$87.6B total / $67.15B DoD ($21B munitions, $17.3B operations, $21.1B classified)",
+    "date": "2026-06-24",
+    "description": "OMB Director Vought sent Speaker Johnson a letter requesting an $87.6B supplemental, including $67.15B for the Pentagon ($21B munitions, $17.3B operations, $21.1B classified), plus $2B for the Coast Guard, $10-11B in farm aid, $1.4B for Ebola response and $1B for Penn Station — down sharply from Defense Secretary Hegseth's earlier ~$200B float.",
+    "source": "Reuters / PBS / AP / Al Jazeera / The Hill",
+    "time": "Day 117",
+    "title": "White House requests $87.6B supplemental ($67.15B DoD) for Iran war"
+  },
+  {
+    "category": "economic",
+    "data_point": "Brent $73.74, WTI $70.34 (June 24 settles) — lowest since before the war",
+    "date": "2026-06-24",
+    "description": "Oil settled at its lowest since before the war — Brent $73.74 and WTI $70.34 (intraday low $69.63) — as surging Hormuz transits, the OFAC sanctions waiver and Brent's flip into contango unwound the war-risk premium. Trump ordered the DOJ to probe alleged 'gouging' by oil companies for not cutting pump prices faster.",
+    "source": "CNBC / CNN",
+    "time": "Day 117",
+    "title": "Oil falls to lowest since before the war (Brent $73.74, WTI $70.34)"
+  },
+  {
+    "category": "political",
+    "data_point": "Embassy operations resumed midnight June 24 after the March suspension",
+    "date": "2026-06-24",
+    "description": "The State Department said US Embassy Kuwait resumed operations at midnight June 24, after a March suspension caused by Iranian drone attacks; Secretary of State Rubio held a flag-raising during a Gulf tour of the UAE, Kuwait and Bahrain aimed at reassuring Gulf allies — a re-establishment, not a drawdown.",
+    "source": "AP / Reuters / CNN",
+    "time": "Day 117",
+    "title": "US Embassy Kuwait reopens; Rubio flag-raising during Gulf tour"
   }
 ]
