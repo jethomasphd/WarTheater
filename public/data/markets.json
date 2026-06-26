@@ -86,7 +86,9 @@
     "Jun 15",
     "Jun 16",
     "Jun 17",
-    "Jun 18"
+    "Jun 18",
+    "Jun 23",
+    "Jun 24"
   ],
   "contexts": [
     "Pre-war close — baseline",
@@ -174,7 +176,9 @@
     "Day 108 (June 15, Monday) — RECORDS ON THE PEACE DEAL: S&P 500 +1.65% TO 7,554.29; DOW +0.92% TO A RECORD 51,671.03; NASDAQ +3.07% TO 26,683.94; RUSSELL 2000 2,965.09; VIX 16.20 (-8.4%). Markets priced in peace as Trump said at the G7 in Évian-les-Bains the US-Iran deal was 'all signed' and authorized a toll-free reopening of the Strait of Hormuz and removal of the US naval blockade. Brent -4.76% to $83.17 and WTI -4.87% to $80.75 — the lowest settle since March 4; gold +2.18% to $4,331. Defense primes sold off on the peace news (analysts: 'the greatest threat to investors is peace'), oil majors slid with crude, and airlines rallied on fuel relief and the prospect of restored Gulf air traffic.",
     "Day 109 (June 16, Tuesday) — DEAL DOUBTS vs DOW RECORD: S&P 500 -0.57% to 7,511.35 (-42.94) and the Nasdaq about -1.1% as US-Iran deal doubts grew, even as the Dow set another record (+0.64%); investors weighed warnings that the Hormuz reopening could take months while the Fed's June meeting got underway. Defense and oil-major shares fell as the war premium bled out, while airlines and cruise lines gained on cheaper fuel. SpaceX, public since its June 12 IPO, traded volatile near a ~$2.5T market cap. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
     "Day 110 (June 17, Wednesday) — FED/WARSH HAWKISH SURPRISE SINKS STOCKS ON SIGNING DAY: S&P 500 -1.21% TO 7,420.10; DOW -507 TO 51,492.55; NASDAQ -1.34%. The Federal Reserve's June decision under new Chair Kevin Warsh landed hawkish, triggering a broad sell-off that overshadowed the day's diplomatic milestone — the 14-point US-Iran peace MOU was signed by Trump at the Palace of Versailles and by President Pezeshkian in Tehran. Oil firmed slightly (Brent ~$79.55 settle, WTI ~$76.79). Rate-sensitive growth names led the decline while defense primes stayed pressured by the peace trade. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
-    "Day 111 (June 18, Thursday) — TECH-LED REBOUND AS THE BLOCKADE LIFTS: S&P 500 +1.08% TO 7,500.58; NASDAQ +1.9%; DOW +72. Stocks recovered as CENTCOM lifted the US naval blockade and the Strait of Hormuz reopened toll-free, with chips leading — Intel +~10% on an Apple chip deal, Micron +8.5%, Nvidia +2.8%. Chevron -2.16% as crude eased (Brent ~$79.85, WTI ~$76.60) and oil majors slid; American Airlines +3.3% on cheaper fuel and the prospect of restored Gulf air traffic. VP Vance said the MOU's 60-day clock started June 18. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)"
+    "Day 111 (June 18, Thursday) — TECH-LED REBOUND AS THE BLOCKADE LIFTS: S&P 500 +1.08% TO 7,500.58; NASDAQ +1.9%; DOW +72. Stocks recovered as CENTCOM lifted the US naval blockade and the Strait of Hormuz reopened toll-free, with chips leading — Intel +~10% on an Apple chip deal, Micron +8.5%, Nvidia +2.8%. Chevron -2.16% as crude eased (Brent ~$79.85, WTI ~$76.60) and oil majors slid; American Airlines +3.3% on cheaper fuel and the prospect of restored Gulf air traffic. VP Vance said the MOU's 60-day clock started June 18. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
+    "Day 116 (June 23, Monday) — TECH/CHIP SELLOFF: S&P 500 -1.44% to 7,365.46; NASDAQ -2.21% in a global chip rout (KOSPI -9.99%) as the war-risk premium kept fading. Energy names slipped with crude; defense little moved. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
+    "Day 117 (June 24, Wednesday) — FLAT AS OIL HITS A PRE-WAR LOW: S&P 500 -0.10% to 7,358.22; NASDAQ -0.43% to 25,476.64; DOW +0.35% to 51,848.90. Brent settled $73.74 and WTI $70.34 — the lowest since before the war — hammering energy names while airlines firmed on cheaper fuel; gold fell below $4,000 for the first time since Nov 2025. Alphabet replaced Verizon in the Dow. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)"
   ],
   "datasets": {
     "sp500": {
@@ -266,7 +270,9 @@
         109.59,
         108.97,
         107.65,
-        108.81
+        108.81,
+        107.07,
+        106.97
       ],
       "color": "#ef4444"
     },
@@ -359,7 +365,9 @@
         116.5,
         115.3,
         114.5,
-        115.0
+        115.0,
+        114.2,
+        114.5
       ],
       "color": "#22c55e"
     },
@@ -452,7 +460,9 @@
         129.5,
         127.0,
         127.8,
-        125.0
+        125.0,
+        122.5,
+        119.0
       ],
       "color": "#d4a020"
     },
@@ -545,10 +555,12 @@
         66.0,
         67.3,
         66.8,
-        69.0
+        69.0,
+        68.5,
+        70.0
       ],
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-06-20"
+  "last_updated": "2026-06-25"
 }
