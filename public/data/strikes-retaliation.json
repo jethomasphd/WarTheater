@@ -341,7 +341,7 @@
     "weapon": "Anti-ship missiles / drones / naval mines / explosive unmanned surface vessels / coastal batteries",
     "origin": "IRGC Navy / coastal batteries",
     "first_strike": "2026-03-02",
-    "casualties_reported": "46+ ships/tugs/rigs hit or near a strike site since Feb 28 (IMO cumulative); 11 seafarer fatalities to date. Earlier March breakdown: 8 bulk carriers (40%), 6 tankers (30%), 4 container ships (20%), 2 service vessels (10%) attacked.",
+    "casualties_reported": "47+ ships/tugs/rigs hit or near a strike site since Feb 28 (IMO cumulative; +1 with the June 25 Ever Lovely strike); 11 seafarer fatalities to date. Earlier March breakdown: 8 bulk carriers (40%), 6 tankers (30%), 4 container ships (20%), 2 service vessels (10%) attacked.",
     "casualties_source": "UKMTO / Bloomberg / Precious Shipping / IRGC claims / Windward / CRS",
     "active_days": [
       3,
@@ -362,11 +362,12 @@
       18,
       19,
       20,
-      21
+      21,
+      118
     ],
-    "notes": "UKMTO: 20+ confirmed maritime security incidents since Feb 28. Two additional vessels struck Mar 20. Only 21 tankers have crossed the Strait since Feb 28 vs 100+/day pre-war. Half of March transits by shadow fleet (Lloyd's List). Iran selectively allowing passage: India (2 LPG tankers), Pakistan, Turkey, Saudi each transited with individual approval. War risk premiums: 0.125% to ~5% of vessel value (40x increase). $5M per transit for $100M tanker. VLCC rates hit all-time record $423,736/day. GPS/AIS disruption: 44 injected signal zones, 92 denial areas. IMO emergency session Mar 18-19: negotiating safe maritime corridor for seafarer evacuation. UPDATE (June 7): IMO cumulative now 46+ ships/tugs/rigs hit or near a strike site since Feb 28, with 11 seafarer deaths to date; most recently the containership MSC Sariska V was damaged by a drone June 1 at Umm Qasr, Iraq (Manifest §3b).",
+    "notes": "UKMTO: 20+ confirmed maritime security incidents since Feb 28. Two additional vessels struck Mar 20. Only 21 tankers have crossed the Strait since Feb 28 vs 100+/day pre-war. Half of March transits by shadow fleet (Lloyd's List). Iran selectively allowing passage: India (2 LPG tankers), Pakistan, Turkey, Saudi each transited with individual approval. War risk premiums: 0.125% to ~5% of vessel value (40x increase). $5M per transit for $100M tanker. VLCC rates hit all-time record $423,736/day. GPS/AIS disruption: 44 injected signal zones, 92 denial areas. IMO emergency session Mar 18-19: negotiating safe maritime corridor for seafarer evacuation. UPDATE (June 7): IMO cumulative now 46+ ships/tugs/rigs hit or near a strike site since Feb 28, with 11 seafarer deaths to date; most recently the containership MSC Sariska V was damaged by a drone June 1 at Umm Qasr, Iraq (Manifest §3b). UPDATE (June 25): after the June 17-18 toll-free reopening, the IRGC reasserted permission-only Hormuz transit (VHF Ch.16 warnings) and struck the Singapore-flagged container ship Ever Lovely (bridge damaged, no casualties) ~7.5nm SE of Dahit, Oman — the first ship attack since the reopening (detail under 2026-06-25-hormuz-ever-lovely); 3 tankers turned back and 3 diverted, and the UN IMO paused its plan to evacuate ~11,000 stranded seafarers. Iran is reportedly seeking ~$40B/yr in transit fees once the 60-day free-passage window lapses (WSJ).",
     "verified": true,
-    "last_updated": "2026-06-07"
+    "last_updated": "2026-06-25"
   },
   {
     "id": "prince-sultan-air-base-saudi",
@@ -4306,5 +4307,23 @@
     "notes": "Day 112 (June 19): The deadliest post-MOU day on the Lebanon front. Hezbollah struck an IDF tank near the Ali al-Taher hilltop overlooking Nabatieh, killing four Israeli soldiers (IDF), saying it was responding to Israeli ceasefire violations; Israel struck 'Hezbollah infrastructure' in Nabatieh, the Bekaa Valley (Douris) and elsewhere, and the Lebanese Health Ministry reported at least 47 killed (an earlier overnight count was 18). Netanyahu ordered the IDF to strike 'with full force.' Israel and Hezbollah then renewed their ceasefire (~9am ET June 19), mediated by the US, Qatar and Iran; Trump said he phoned Israeli officials to request it, calling it 'a little icing on the cake,' with Israel and Lebanon expected to meet in Washington the following week. Day 113 (June 20): Israeli strikes on Nabatieh-area towns killed at least 7 (incl. 2 children) per Lebanese civil defense/NNA after Hezbollah reportedly fired 50+ projectiles overnight — testing the day-old truce. Because the signed 14-point MOU binds 'all fronts including Lebanon' yet Israel and Hezbollah are not signatories, this is the fault line most likely to collapse the deal; no verified new Iranian attacks on US bases or Gulf states occurred in-window.",
     "verified": true,
     "last_updated": "2026-06-20"
+  },
+  {
+    "id": "2026-06-25-hormuz-ever-lovely",
+    "city": "Strait of Hormuz — southern (Omani) corridor, ~7.5nm SE of Dahit, Oman",
+    "lat": 25.8,
+    "lng": 56.9,
+    "type": "iran_retaliation",
+    "weapon": "Unknown projectile (likely a drone, per a maritime-security source)",
+    "origin": "IRGC Navy",
+    "first_strike": "2026-06-25",
+    "casualties_reported": "0 — starboard-side bridge damage, no casualties, no environmental impact; the vessel continued onward.",
+    "casualties_source": "UKMTO / Ambrey",
+    "active_days": [
+      118
+    ],
+    "notes": "Day 118 (June 25): the Singapore-flagged container ship Ever Lovely was struck by an unknown projectile on its starboard side ~7.5nm SE of Dahit, Oman, in the southern (Omani) Hormuz corridor — bridge damaged, no casualties, no environmental impact (UKMTO/Ambrey); the ship continued onward. The strike came hours after the IRGC broadcast VHF Ch.16 warnings that vessels may transit only with Iranian permission along Iranian-designated routes. US officials attributed the strike to the IRGC (WSJ/CBS) — the FIRST ship attack since the June 17-18 toll-free reopening. The same day, 3 oil tankers turned back and 3 diverted after the IRGC warnings (MarineTraffic via AP), and the UN IMO paused its plan to evacuate ~11,000 stranded seafarers. Coordinates approximate. See also hormuz-shipping-attacks.",
+    "verified": true,
+    "last_updated": "2026-06-25"
   }
 ]

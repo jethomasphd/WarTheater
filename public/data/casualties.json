@@ -112,7 +112,12 @@
     "Jun 17",
     "Jun 18",
     "Jun 19",
-    "Jun 20"
+    "Jun 20",
+    "Jun 21",
+    "Jun 22",
+    "Jun 23",
+    "Jun 24",
+    "Jun 25"
   ],
   "day_contexts": [
     "Day 1 — First strikes, Minab school (165+ killed), Iranian retaliation",
@@ -226,7 +231,12 @@
     "Day 110 (June 17, Wednesday) — LEBANON THE LONE MOVING LEDGER TWO DAYS BEFORE SIGNING. UNITED STATES: 13 KIA; WIA 140 (Pentagon March 10, incl. 64+ concussive at Ain al-Asad) to 413-538 (independent) — no new US fatalities. IRAN: 3,468 killed (MoH June 10; incl. 376 children, 496 women, 7 infants), 26,500+ injured; HRANA documents 1,701 civilian dead. LEBANON: Israeli forces killed 4 in southern Lebanon; Iran says Israel has violated the Lebanon truce 84 times since the MOU; cumulative toll 3,756 (MoPH June 13) to 3,783+ (June 14, after Ghobeiri). ISRAEL: 26 military killed, 7,835 wounded. IRAQ 118, Gulf 28. Sources: Iran MoH (June 10), Lebanon MoPH (June 13-14), Israeli authorities, Iraqi health authorities, CENTCOM, Al Jazeera tracker. (Outlier tracker missilestrikes.com lists only 2,211 total / Iran 1,444 — incompatible methodology, flagged.)",
     "Day 111 (June 18, Thursday) — BLOCKADE LIFTS; LEDGERS STATIC EXCEPT LEBANON. UNITED STATES: 13 KIA (CENTCOM; 7 by enemy fire, plus 1 non-combat death in Kuwait), up to 15 per CRS/Wikipedia incl. the March 12 KC-135 crew — no new US fatalities. IRAN: no new official tally — 'more than 3,300' (Iranian state media via NPR) to 3,468 (Health Ministry) to 3,636 (HRANA, April 7; 1,701 civilians), with CFR citing 'over 3,375'; the Iran front held quiet under the signed MOU. LEBANON is the lone moving ledger: continued Israeli strikes ahead of the June 19 flare-up; cumulative 3,756 (MoPH June 13) to 3,826 (authorities via NPR June 17), 1M+ displaced. ISRAEL: 'nearly 60' killed (NPR), 26-30 military. Each figure attributed to its reporting body and never summed across sides.",
     "Day 112 (June 19, Friday) — DEADLIEST POST-MOU DAY IN LEBANON. LEBANON: the Lebanese Health Ministry reported at least 47 killed Friday (an earlier overnight count was 18) as Israel struck Nabatieh, the Bekaa Valley (Douris) and elsewhere, and four IDF soldiers were killed in a Hezbollah strike on a tank — the deadliest day since the MOU — before Israel and Hezbollah renewed their ceasefire (~9am ET, mediated by the US, Qatar and Iran); cumulative ~3,826 (NPR June 17) plus the day's ≥47. UNITED STATES: 13 KIA, no change. IRAN: static (3,300-3,636 range by source); front quiet. ISRAEL: 4 military KIA today (IDF). US equity markets closed (Juneteenth). Per-source ranges only — not reconcilable, never summed.",
-    "Day 113 (June 20, Saturday) — TRUCE STRAINED; LEBANON TOLL EDGES UP. LEBANON: Israeli strikes on Nabatieh-area towns killed at least 7 (incl. 2 children) per Lebanese civil defense/NNA after Hezbollah reportedly fired 50+ projectiles overnight, testing the day-old truce; cumulative remains a sourced range (3,696 Al Jazeera June 10 / 3,756 MoPH June 13 / 3,826 authorities NPR June 17, plus June 19-20 additions), 1M+ displaced (>20% of population). UNITED STATES: 13 KIA (incl. 7 by enemy fire) + 1 non-combat (CENTCOM); no change. IRAN: 'more than 3,300' (state media) to 3,468 (MoH) to 3,636 (HRANA) — unverified; verification inside Iran severely limited. ISRAEL: 'nearly 60' total (NPR). IRAQ: 118+ (mostly PMF). GULF STATES: 'dozens' across Kuwait, Bahrain, UAE, Saudi Arabia. Each figure tagged to its reporting body and date; incompatible tolls are NOT summed."
+    "Day 113 (June 20, Saturday) — TRUCE STRAINED; LEBANON TOLL EDGES UP. LEBANON: Israeli strikes on Nabatieh-area towns killed at least 7 (incl. 2 children) per Lebanese civil defense/NNA after Hezbollah reportedly fired 50+ projectiles overnight, testing the day-old truce; cumulative remains a sourced range (3,696 Al Jazeera June 10 / 3,756 MoPH June 13 / 3,826 authorities NPR June 17, plus June 19-20 additions), 1M+ displaced (>20% of population). UNITED STATES: 13 KIA (incl. 7 by enemy fire) + 1 non-combat (CENTCOM); no change. IRAN: 'more than 3,300' (state media) to 3,468 (MoH) to 3,636 (HRANA) — unverified; verification inside Iran severely limited. ISRAEL: 'nearly 60' total (NPR). IRAQ: 118+ (mostly PMF). GULF STATES: 'dozens' across Kuwait, Bahrain, UAE, Saudi Arabia. Each figure tagged to its reporting body and date; incompatible tolls are NOT summed.",
+    "Day 114 (June 21, Sunday) — QUIET ON THE DIRECT FRONT; RANGES CARRY FORWARD. No new strikes on Iranian soil; the US-Iran direct front stayed quiet. UNITED STATES: 13 KIA (Pentagon) / 15 (CENTCOM-linked aggregation); 543 WIA (CENTCOM) — no change. IRAN: 3,468 (MoH) to 3,636 (HRANA) to 1,700 civilian (CSIS) to 6,000+ (US-Israel est.) — unverified. LEBANON: cumulative range carried forward pending the Health Ministry's next bulletin. Per-source ranges only — not reconcilable, never summed.",
+    "Day 115 (June 22, Monday) — LEBANON HEALTH MINISTRY POSTS A HIGHER CUMULATIVE. LEBANON: the Lebanese Health Ministry (via Al Jazeera) reported 4,175 killed / 12,164 wounded since March 2 — a higher cumulative than prior bulletins, reflecting reconciliation of earlier strikes rather than a single day's toll; >1.2 million displaced (UN OCHA, ~20%+ of the population). UNITED STATES: 13 KIA / 543 WIA, no change. IRAN: front quiet; benchmark range unchanged. Each figure tagged to its reporting body and date; incompatible tolls are NOT summed.",
+    "Day 116 (June 23, Tuesday) — NO NEW CASUALTY FIGURES; POLITICAL FRONT DOMINATES. No new strikes on Iranian soil; the day's headlines were political (Senate War Powers resolution 50-48). UNITED STATES: 13 KIA / 543 WIA, no change. IRAN/ISRAEL/LEBANON: cumulative ranges carried forward. Per-source ranges only — not reconcilable, never summed.",
+    "Day 117 (June 24, Wednesday) — ALHURRA POSTS ~4,192 LEBANESE; GULF AND IRAQ BENCHMARKS RESTATED. LEBANON: ~4,192 killed (Alhurra) / 1.2M+ displaced — within the same Health Ministry series as the June 22 figure. IRAQ: 118-119+ (Iraqi health authorities, mostly PMF). GULF STATES: 'at least 30, mostly civilians' killed across the Gulf states per CSIS (UAE 13, Kuwait 10 among them). UNITED STATES: 13 KIA / 543 WIA, no change. ISRAEL: 57 (cross-source) / 67 (Wikipedia: 38 soldiers + 28 civilians + 1 MoD contractor) / ~40 (CSIS) — three named benchmarks. Each figure tagged to its source; incompatible tolls are NOT summed.",
+    "Day 118 (June 25, Thursday) — TWO KILLED IN LEBANON; IRAN FRONT QUIET. LEBANON: Israeli strikes killed 2 as the fifth Israel-Lebanon round stalled with no signing; no confirmed June 25 cumulative update beyond the ~4,175-4,192 Health Ministry series. UNITED STATES: 13 KIA (Pentagon) / 15 (CENTCOM aggregation); 543 WIA — no new June 24-25. IRAN: 3,468 (Foundation of Martyrs/MoH) / 3,636 (HRANA) / 1,700 civilian (CSIS) / 6,000+ (US-Israel est.) — four named benchmarks, not synthesized. ISRAEL: 57 / 67 / ~40 (CSIS). The US-Iran direct front remained quiet (no strikes since ~June 10-11). Per-source ranges only — not reconcilable, never summed."
   ],
   "datasets": {
     "iranian_military": {
@@ -320,6 +330,11 @@
         0,
         0,
         3,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -463,6 +478,11 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffffff"
@@ -503,6 +523,11 @@
         1,
         0,
         2,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -701,7 +726,12 @@
         4,
         6,
         47,
-        7
+        7,
+        0,
+        0,
+        0,
+        0,
+        2
       ],
       "color": "#7b3fa0"
     },
@@ -820,10 +850,15 @@
         0,
         0,
         4,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffc832"
     }
   },
-  "last_updated": "2026-06-20"
+  "last_updated": "2026-06-25"
 }

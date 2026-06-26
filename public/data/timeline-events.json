@@ -8755,5 +8755,104 @@
     "source": "Manifest §5",
     "time": "Day 113",
     "title": "Iranian poll: ~60% can't continue financially, ~70% want government change"
+  },
+  {
+    "category": "military",
+    "data_point": "Hormuz transits rising after the June 18 reopening; pre-war ~120-130/day",
+    "date": "2026-06-20",
+    "description": "CENTCOM reported that commercial traffic through the Strait of Hormuz was rising following the June 18 toll-free reopening and the lifting of the US naval blockade, though volumes remained well below the ~120-130 vessels/day pre-war baseline and hundreds of ships were still waiting to exit the Gulf.",
+    "source": "CENTCOM",
+    "time": "Day 113",
+    "title": "CENTCOM reports commercial Hormuz traffic rising"
+  },
+  {
+    "category": "economic",
+    "data_point": "CSIS total Epic Fury cost ~$40B (range $34B-$42B); $29B Pentagon comptroller (May 12)",
+    "date": "2026-06-21",
+    "description": "CSIS analysts Mark Cancian and Chris Park estimated the total cost of Operation Epic Fury at 'around $40 billion ($34 billion to $42 billion)' across deployment/redeployment, munitions, operational tempo, equipment losses, base damage and fuel prices — separate from the $29B Pentagon comptroller operational figure (May 12). The Pentagon signaled a supplemental funding request was forthcoming.",
+    "source": "CNN / CSIS (Cancian & Park)",
+    "time": "Day 114",
+    "title": "CSIS pegs DoD war cost ~$40B ($34B-$42B); Pentagon signals supplemental"
+  },
+  {
+    "category": "economic",
+    "data_point": "General License X: 60-day waiver through 12:01am EDT Aug 21, 2026 — broadest Iran relief since 1979",
+    "date": "2026-06-22",
+    "description": "The US Treasury's OFAC issued General License X, a 60-day Iran oil sanctions waiver authorizing the production, sale, delivery and offloading of Iranian-origin crude through 12:01am EDT Aug 21, 2026; it permits USD-denominated payments and US import — the broadest sanctions relief since 1979. Treasury Secretary Bessent tied it to Iran's pledges on Hormuz free transit and the return of IAEA inspectors.",
+    "source": "US Treasury/OFAC / CNBC / AP / ABC / Baker McKenzie",
+    "time": "Day 115",
+    "title": "US Treasury issues 60-day Iran oil sanctions waiver (General License X)"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Roadmap to a 60-day final deal; de-confliction cell established",
+    "date": "2026-06-22",
+    "description": "The first US-Iran implementation talks since the MOU convened at Bürgenstock on Lake Lucerne, Switzerland — Vance, Witkoff and Kushner for the US and Qalibaf and Araghchi for Iran, with Pakistan and Qatar mediating — setting a roadmap toward a 60-day final deal and establishing a de-confliction cell. Trump simultaneously posted Truth Social threats to 'hit Iran very hard again.'",
+    "source": "CNBC / NPR",
+    "time": "Day 115",
+    "title": "First US-Iran implementation talks (Bürgenstock/Lake Lucerne); Trump threatens fresh strikes"
+  },
+  {
+    "category": "political",
+    "data_point": "Senate 50-48; House 215-208 (June 3); 4 GOP defectors; nonbinding",
+    "date": "2026-06-23",
+    "description": "The Senate passed a War Powers resolution 50-48 — the first time such a resolution cleared both chambers (the House passed it 215-208 on June 3) and, per PBS, the 10th Senate attempt to stop the war. Four Republicans (Cassidy, Collins, Paul, Murkowski) joined Democrats; Fetterman opposed; the absences of McConnell and McCormick aided passage. The measure is nonbinding; Trump called the four Republicans 'losers.'",
+    "source": "PBS / NPR / CNN / Al Jazeera / WaPo / NBC",
+    "time": "Day 116",
+    "title": "Senate passes War Powers resolution 50-48 in rare rebuke"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Trump: Iran agreed to 'highest level' inspections; Iran FM: 'no new commitments'",
+    "date": "2026-06-23",
+    "description": "Trump posted on Truth Social that Iran had 'fully and completely agreed to highest level Nuclear inspections... (Infinity!!!)'. Iran's Foreign Ministry spokesman Baghaei countered there were 'no new commitments' beyond the MOU, and Tasnim disputed the IAEA-access claims — leaving the inspection question unresolved.",
+    "source": "CNN / CNBC",
+    "time": "Day 116",
+    "title": "Trump claims Iran agreed to 'highest level' nuclear inspections; Iran FM denies"
+  },
+  {
+    "category": "economic",
+    "data_point": "$87.6B total / $67.15B DoD ($21B munitions, $17.3B operations, $21.1B classified)",
+    "date": "2026-06-24",
+    "description": "OMB Director Vought sent Speaker Johnson a letter requesting an $87.6B supplemental, including $67.15B for the Pentagon ($21B munitions, $17.3B operations, $21.1B classified), plus $2B for the Coast Guard, $10-11B in farm aid, $1.4B for Ebola response and $1B for Penn Station — down sharply from Defense Secretary Hegseth's earlier ~$200B float.",
+    "source": "Reuters / PBS / AP / Al Jazeera / The Hill",
+    "time": "Day 117",
+    "title": "White House requests $87.6B supplemental ($67.15B DoD) for Iran war"
+  },
+  {
+    "category": "economic",
+    "data_point": "Brent $73.74, WTI $70.34 (June 24 settles) — lowest since before the war",
+    "date": "2026-06-24",
+    "description": "Oil settled at its lowest since before the war — Brent $73.74 and WTI $70.34 (intraday low $69.63) — as surging Hormuz transits, the OFAC sanctions waiver and Brent's flip into contango unwound the war-risk premium. Trump ordered the DOJ to probe alleged 'gouging' by oil companies for not cutting pump prices faster.",
+    "source": "CNBC / CNN",
+    "time": "Day 117",
+    "title": "Oil falls to lowest since before the war (Brent $73.74, WTI $70.34)"
+  },
+  {
+    "category": "political",
+    "data_point": "Embassy operations resumed midnight June 24 after the March suspension",
+    "date": "2026-06-24",
+    "description": "The State Department said US Embassy Kuwait resumed operations at midnight June 24, after a March suspension caused by Iranian drone attacks; Secretary of State Rubio held a flag-raising during a Gulf tour of the UAE, Kuwait and Bahrain aimed at reassuring Gulf allies — a re-establishment, not a drawdown.",
+    "source": "AP / Reuters / CNN",
+    "time": "Day 117",
+    "title": "US Embassy Kuwait reopens; Rubio flag-raising during Gulf tour"
+  },
+  {
+    "category": "military",
+    "data_point": "First ship attack since the June 17-18 reopening; IMO pauses ~11,000-seafarer evacuation",
+    "date": "2026-06-25",
+    "description": "The IRGC rejected the Oman/IMO southern corridor announced June 24, insisting on Iranian-designated routes and permission-only transit and calling unauthorized passage 'unacceptable and dangerous,' then struck the Singapore-flagged container ship Ever Lovely (bridge damaged, no casualties) ~7.5nm SE of Dahit, Oman — the first ship attack since the reopening. The UN IMO paused its plan to evacuate ~11,000 stranded seafarers. VP Vance said IRGC and US military reps would be posted in Doha as a de-confliction channel.",
+    "source": "CNBC / Euronews / Jerusalem Post / gCaptain / CBS",
+    "time": "Day 118",
+    "title": "IRGC warns Hormuz routes 'unacceptable and dangerous'; strikes Ever Lovely; IMO pauses evacuation"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Fifth round June 23-25; no agreement signed; Israeli envoy: 'train wreck'",
+    "date": "2026-06-25",
+    "description": "The fifth Israel-Lebanon round (June 23-25 at the State Department, over 'pilot zones' and a partial IDF withdrawal) stalled with no signing. Israeli Ambassador Leiter called it a 'train wreck'; Axios reported 'more regression than steps forward'; Reuters said withdrawal remained a proposal 'awaiting Israeli approval'; Defense Minister Katz said the US had not asked Israel to leave Lebanon. Early reports of a signing ceremony did not materialize.",
+    "source": "Jerusalem Post / Axios / Reuters / Alhurra",
+    "time": "Day 118",
+    "title": "Fifth Israel-Lebanon round stalls; no signing; Israeli envoy calls it 'train wreck'"
   }
 ]
