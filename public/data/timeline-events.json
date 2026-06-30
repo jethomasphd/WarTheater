@@ -8854,5 +8854,59 @@
     "source": "Jerusalem Post / Axios / Reuters / Alhurra",
     "time": "Day 118",
     "title": "Fifth Israel-Lebanon round stalls; no signing; Israeli envoy calls it 'train wreck'"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Military Coordination Group for Lebanon; $100M US humanitarian + $30M to LAF; Hezbollah rejects",
+    "date": "2026-06-26",
+    "description": "Secretary of State Rubio announced a US-brokered Israel-Lebanon trilateral framework agreement ('the beginning of the beginning'), creating a Military Coordination Group for Lebanon and pledging an 'immediate' $100M US humanitarian donation in coordination with the UN plus $30M to reimburse the Lebanese Armed Forces. Hezbollah rejected the deal as 'surrender.'",
+    "source": "State Dept / Al Jazeera / Axios / AP / Times of Israel",
+    "time": "Day 119",
+    "title": "Israel-Lebanon trilateral framework agreement signed"
+  },
+  {
+    "category": "military",
+    "data_point": "First US strike on Iranian soil since the MOU; 4 targets, 6 aircraft",
+    "date": "2026-06-26",
+    "description": "CENTCOM struck missile/drone storage and coastal radar near Sirik in response to the June 25 IRGC drone attack on the M/V Ever Lovely — 4 targets hit by 6 land-based aircraft. It was the first US kinetic strike on Iranian territory since the June 17 MOU; Iranian state media reported infrastructure damage only.",
+    "source": "CENTCOM / Al Jazeera / NPR",
+    "time": "Day 119",
+    "title": "US strikes Iran (Sirik) — first since MOU"
+  },
+  {
+    "category": "military",
+    "data_point": "M/T Kiku (~2M bbl) hit; US strikes 10 targets near Hormuz",
+    "date": "2026-06-27",
+    "description": "An IRGC drone struck the Panama-flagged tanker M/T Kiku (~2M bbl of Qatari crude); CENTCOM responded by striking 10 Iranian military targets in and near the Strait of Hormuz — the largest single-day US package since the MOU. Trump warned that Iran 'will no longer exist' if forced to 'militarily complete the job.'",
+    "source": "CENTCOM / Times of Israel / Reuters",
+    "time": "Day 120",
+    "title": "Kiku tanker hit; US strikes 10 Iranian targets"
+  },
+  {
+    "category": "military",
+    "data_point": "JMIC widens bidirectional route near Oman — new flashpoint with Tehran",
+    "date": "2026-06-27",
+    "description": "The US Navy's Joint Maritime Information Center announced a widened bidirectional transit route near Oman, challenging Iran's claimed control of the strait and Tehran's insistence on IRGC-designated routes near the Iranian coast — a new flashpoint at the heart of the re-escalation.",
+    "source": "Reuters / Wikipedia 2026 Hormuz crisis",
+    "time": "Day 120",
+    "title": "US Navy JMIC widens Hormuz route near Oman"
+  },
+  {
+    "category": "military",
+    "data_point": "Kuwait intercepts 2 ballistic missiles; Bahrain building hit (no deaths); Qatari killed at sea",
+    "date": "2026-06-28",
+    "description": "The IRGC fired missiles and drones at Ali Al Salem Air Base (Kuwait) and US 5th Fleet facilities in Bahrain. Kuwait intercepted 2 ballistic missiles; a Muharraq (Bahrain) residential building was hit, its top floor destroyed, with no deaths. A Qatari national was killed at sea by shrapnel (cause not formally attributed). Iran warned that ceasefire violations would cause 'the complete halt of all diplomatic processes.'",
+    "source": "PBS / CNN / Bahrain Interior Ministry / Qatar MoI",
+    "time": "Day 121",
+    "title": "Iran strikes Kuwait & Bahrain; threatens to halt talks"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "'Stand down for now'; Doha talks announced Jun 30 (Iran unconfirmed); Dow >52,000",
+    "date": "2026-06-29",
+    "description": "A senior US official said 'both sides will stand down for now and vessels can move freely' and 'we decided to stop all the kinetic activity.' Trump announced Doha talks for June 30 (with Witkoff and Kushner attending); Iran's Gharibabadi said reports of Doha technical talks were 'not confirmed.' The Dow closed above 52,000 for the first time.",
+    "source": "Axios / NPR / CNBC / GlobalSecurity Day-122",
+    "time": "Day 122",
+    "title": "US & Iran agree to 'stand down for now'; Doha talks announced"
   }
 ]
