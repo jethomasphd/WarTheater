@@ -88,7 +88,9 @@
     "Jun 17",
     "Jun 18",
     "Jun 23",
-    "Jun 24"
+    "Jun 24",
+    "Jun 26",
+    "Jun 29"
   ],
   "contexts": [
     "Pre-war close — baseline",
@@ -178,7 +180,9 @@
     "Day 110 (June 17, Wednesday) — FED/WARSH HAWKISH SURPRISE SINKS STOCKS ON SIGNING DAY: S&P 500 -1.21% TO 7,420.10; DOW -507 TO 51,492.55; NASDAQ -1.34%. The Federal Reserve's June decision under new Chair Kevin Warsh landed hawkish, triggering a broad sell-off that overshadowed the day's diplomatic milestone — the 14-point US-Iran peace MOU was signed by Trump at the Palace of Versailles and by President Pezeshkian in Tehran. Oil firmed slightly (Brent ~$79.55 settle, WTI ~$76.79). Rate-sensitive growth names led the decline while defense primes stayed pressured by the peace trade. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
     "Day 111 (June 18, Thursday) — TECH-LED REBOUND AS THE BLOCKADE LIFTS: S&P 500 +1.08% TO 7,500.58; NASDAQ +1.9%; DOW +72. Stocks recovered as CENTCOM lifted the US naval blockade and the Strait of Hormuz reopened toll-free, with chips leading — Intel +~10% on an Apple chip deal, Micron +8.5%, Nvidia +2.8%. Chevron -2.16% as crude eased (Brent ~$79.85, WTI ~$76.60) and oil majors slid; American Airlines +3.3% on cheaper fuel and the prospect of restored Gulf air traffic. VP Vance said the MOU's 60-day clock started June 18. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
     "Day 116 (June 23, Monday) — TECH/CHIP SELLOFF: S&P 500 -1.44% to 7,365.46; NASDAQ -2.21% in a global chip rout (KOSPI -9.99%) as the war-risk premium kept fading. Energy names slipped with crude; defense little moved. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
-    "Day 117 (June 24, Wednesday) — FLAT AS OIL HITS A PRE-WAR LOW: S&P 500 -0.10% to 7,358.22; NASDAQ -0.43% to 25,476.64; DOW +0.35% to 51,848.90. Brent settled $73.74 and WTI $70.34 — the lowest since before the war — hammering energy names while airlines firmed on cheaper fuel; gold fell below $4,000 for the first time since Nov 2025. Alphabet replaced Verizon in the Dow. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)"
+    "Day 117 (June 24, Wednesday) — FLAT AS OIL HITS A PRE-WAR LOW: S&P 500 -0.10% to 7,358.22; NASDAQ -0.43% to 25,476.64; DOW +0.35% to 51,848.90. Brent settled $73.74 and WTI $70.34 — the lowest since before the war — hammering energy names while airlines firmed on cheaper fuel; gold fell below $4,000 for the first time since Nov 2025. Alphabet replaced Verizon in the Dow. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
+    "Day 119 (June 26, Friday) — WEEK ENDS LOWER, S&P SLIPS BELOW ITS 50-DAY: S&P 500 closed ~7,355 (intraday range 7,294–7,393), under its 50-day moving average (~7,363) for the first time since early April; for the week the S&P fell ~2% and the NASDAQ ~5%. Crude set fresh post-war lows (WTI ~$69, a 4-month low) even as US-Iran strikes resumed — the war-risk premium has collapsed and supply normalization now dominates the tape. Defense names steadied on the $87.6B supplemental request; oil majors stayed under pressure as crude fell to pre-war levels; airlines firmed on cheaper jet fuel. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
+    "Day 122 (June 29, Monday) — RELIEF RALLY, DOW TOPS 52,000 FOR THE FIRST TIME: S&P 500 +1.16% to 7,440.43; DOW +0.59% to 52,182.74 (first-ever close above 52,000, Alphabet joining the index and rising >4%); NASDAQ +2.07% to 25,820.15; VIX 17.60; Russell 2000 3,010.42. Equities rebounded after the prior week's ~2% loss despite four days of US-Iran strikes — lower oil and yields were net bullish. Defense (LMT, RTX, NOC, GD) rose on the $87.6B supplemental and FY27 $1.15T NDAA tailwind, with Lockheed's $35.3B sole-source THAAD award (aiming to quadruple output to 400 interceptors/yr); oil majors lagged as crude held near pre-war levels. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)"
   ],
   "datasets": {
     "sp500": {
@@ -272,7 +276,9 @@
         107.65,
         108.81,
         107.07,
-        106.97
+        106.97,
+        106.92,
+        108.16
       ],
       "color": "#ef4444"
     },
@@ -367,7 +373,9 @@
         114.5,
         115.0,
         114.2,
-        114.5
+        114.5,
+        114.0,
+        116.5
       ],
       "color": "#22c55e"
     },
@@ -462,7 +470,9 @@
         127.8,
         125.0,
         122.5,
-        119.0
+        119.0,
+        116.5,
+        116.0
       ],
       "color": "#d4a020"
     },
@@ -557,10 +567,12 @@
         66.8,
         69.0,
         68.5,
-        70.0
+        70.0,
+        71.0,
+        72.5
       ],
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-06-25"
+  "last_updated": "2026-06-30"
 }
