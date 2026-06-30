@@ -117,7 +117,12 @@
     "Jun 22",
     "Jun 23",
     "Jun 24",
-    "Jun 25"
+    "Jun 25",
+    "Jun 26",
+    "Jun 27",
+    "Jun 28",
+    "Jun 29",
+    "Jun 30"
   ],
   "day_contexts": [
     "Day 1 — First strikes, Minab school (165+ killed), Iranian retaliation",
@@ -236,7 +241,12 @@
     "Day 115 (June 22, Monday) — LEBANON HEALTH MINISTRY POSTS A HIGHER CUMULATIVE. LEBANON: the Lebanese Health Ministry (via Al Jazeera) reported 4,175 killed / 12,164 wounded since March 2 — a higher cumulative than prior bulletins, reflecting reconciliation of earlier strikes rather than a single day's toll; >1.2 million displaced (UN OCHA, ~20%+ of the population). UNITED STATES: 13 KIA / 543 WIA, no change. IRAN: front quiet; benchmark range unchanged. Each figure tagged to its reporting body and date; incompatible tolls are NOT summed.",
     "Day 116 (June 23, Tuesday) — NO NEW CASUALTY FIGURES; POLITICAL FRONT DOMINATES. No new strikes on Iranian soil; the day's headlines were political (Senate War Powers resolution 50-48). UNITED STATES: 13 KIA / 543 WIA, no change. IRAN/ISRAEL/LEBANON: cumulative ranges carried forward. Per-source ranges only — not reconcilable, never summed.",
     "Day 117 (June 24, Wednesday) — ALHURRA POSTS ~4,192 LEBANESE; GULF AND IRAQ BENCHMARKS RESTATED. LEBANON: ~4,192 killed (Alhurra) / 1.2M+ displaced — within the same Health Ministry series as the June 22 figure. IRAQ: 118-119+ (Iraqi health authorities, mostly PMF). GULF STATES: 'at least 30, mostly civilians' killed across the Gulf states per CSIS (UAE 13, Kuwait 10 among them). UNITED STATES: 13 KIA / 543 WIA, no change. ISRAEL: 57 (cross-source) / 67 (Wikipedia: 38 soldiers + 28 civilians + 1 MoD contractor) / ~40 (CSIS) — three named benchmarks. Each figure tagged to its source; incompatible tolls are NOT summed.",
-    "Day 118 (June 25, Thursday) — TWO KILLED IN LEBANON; IRAN FRONT QUIET. LEBANON: Israeli strikes killed 2 as the fifth Israel-Lebanon round stalled with no signing; no confirmed June 25 cumulative update beyond the ~4,175-4,192 Health Ministry series. UNITED STATES: 13 KIA (Pentagon) / 15 (CENTCOM aggregation); 543 WIA — no new June 24-25. IRAN: 3,468 (Foundation of Martyrs/MoH) / 3,636 (HRANA) / 1,700 civilian (CSIS) / 6,000+ (US-Israel est.) — four named benchmarks, not synthesized. ISRAEL: 57 / 67 / ~40 (CSIS). The US-Iran direct front remained quiet (no strikes since ~June 10-11). Per-source ranges only — not reconcilable, never summed."
+    "Day 118 (June 25, Thursday) — TWO KILLED IN LEBANON; IRAN FRONT QUIET. LEBANON: Israeli strikes killed 2 as the fifth Israel-Lebanon round stalled with no signing; no confirmed June 25 cumulative update beyond the ~4,175-4,192 Health Ministry series. UNITED STATES: 13 KIA (Pentagon) / 15 (CENTCOM aggregation); 543 WIA — no new June 24-25. IRAN: 3,468 (Foundation of Martyrs/MoH) / 3,636 (HRANA) / 1,700 civilian (CSIS) / 6,000+ (US-Israel est.) — four named benchmarks, not synthesized. ISRAEL: 57 / 67 / ~40 (CSIS). The US-Iran direct front remained quiet (no strikes since ~June 10-11). Per-source ranges only — not reconcilable, never summed.",
+    "Day 119 (June 26, Friday) — RE-ESCALATION BEGINS; NO VERIFIED IRAN DEATHS. UNITED STATES: 15 KIA / 538 WIA — no change. IRAN: US strikes near Sirik (4 targets, first on Iranian soil since the MOU) drew Iranian/IRGC reports of infrastructure damage only — NO casualty figures published; benchmarks unchanged (3,468 Foundation of Martyrs / 3,636 HRANA / 6,000+ US-Israel est., not synthesized). LEBANON: continued Israeli strikes (1 logged this window). ISRAEL: no new figure. Per-source ranges only — not reconcilable, never summed.",
+    "Day 120 (June 27, Saturday) — LARGEST US PACKAGE SINCE THE MOU; STILL NO VERIFIED IRAN DEATHS. UNITED STATES: 15 KIA / 538 WIA — no change. IRAN: 10 US targets struck in and near the Strait of Hormuz; IRGC cited a telecom tower and 2 water reservoirs damaged — NO casualty figures published. The tanker M/T Kiku was struck by an IRGC drone (vessel damage, no crew casualties). LEBANON: 1 logged this window. ISRAEL: no new figure. Per-source ranges only — not reconcilable, never summed.",
+    "Day 121 (June 28, Sunday) — IRAN RETALIATES AGAINST KUWAIT & BAHRAIN; FIRST THIRD-COUNTRY DEATH. UNITED STATES: 15 KIA / 538 WIA — no change. GULF STATES: Kuwait intercepted 2 ballistic missiles aimed at Ali Al Salem AB (no damage); a Muharraq (Bahrain) residential building was hit, top floor destroyed, NO deaths. QATAR: 1 national killed at sea by shrapnel (Qatar MoI; cause NOT formally attributed) + 1 injured (stable) — the window's first new third-country death; no Qatari dataset exists, logged here. LEBANON: 1 logged this window. IRAN: no verified figure. Per-source ranges only — not reconcilable, never summed.",
+    "Day 122 (June 29, Monday) — STAND-DOWN; NO NEW DEATHS REPORTED. UNITED STATES: 15 KIA / 538 WIA — no change. A 'stand down for now' halted kinetic activity; no new deaths were reported across the Iran, Gulf or Lebanon fronts this day. IRAN benchmarks unchanged (3,468 / 3,636 / 6,620+ Hengaw / 6,000+ IDF est., not synthesized). Per-source ranges only — not reconcilable, never summed.",
+    "Day 123 (June 30, Tuesday) — TOLL STABLE AS STAND-DOWN HOLDS. UNITED STATES: 15 KIA / 538 WIA — no change. IRAN: NO new verified deaths from the June 26-28 strikes (infrastructure damage only per IRGC; GlobalSecurity confirms no new figures published); cumulative benchmarks remain 3,468 killed + >26,500 wounded incl. 1,621 children (Foundation of Martyrs, official) / 3,636 (HRANA) / 6,620+ (Hengaw) / 6,000+ (IDF est.) — kept attributed, never merged. LEBANESE: 4,000+ killed (≥3 over June 26-28). QATARI: 1 killed (shrapnel at sea, cause unverified). BAHRAINI: 0 deaths. ISRAELI: no new figure. Per-source ranges only — not reconcilable, never summed."
   ],
   "datasets": {
     "iranian_military": {
@@ -330,6 +340,11 @@
         0,
         0,
         3,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -483,6 +498,11 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffffff"
@@ -523,6 +543,11 @@
         1,
         0,
         2,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -731,7 +756,12 @@
         0,
         0,
         0,
-        2
+        2,
+        1,
+        1,
+        1,
+        0,
+        0
       ],
       "color": "#7b3fa0"
     },
@@ -855,10 +885,15 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffc832"
     }
   },
-  "last_updated": "2026-06-25"
+  "last_updated": "2026-06-30"
 }
