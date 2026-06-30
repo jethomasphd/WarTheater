@@ -4,44 +4,44 @@
   "timestamp_label": "LAST UPDATED: JUN 25, 2026 09:14 ET",
   "cost": {
     "brent": {
-      "price": 73.74,
-      "label": "Brent crude — Wed Jun 24 close $73.74 (Day 117); lowest settle since before the war as Hormuz traffic resumed",
-      "change": "▼ −4.33% to $73.74 (ICE settlement, June 24) — down from ~$77 (June 23) and $77.90 (June 22); the lowest settle since before the Feb 28 war and ~40% below the wartime peak. Now only ~+4% above the Feb 27 $71 baseline.",
-      "tooltip": "ICE Brent settled $73.74 on June 24 (−4.33%), the lowest settle since before the war as the war-risk premium collapsed — Hormuz tanker traffic resumed (~62 vessels June 24), the OFAC 60-day sanctions waiver (General License X) took effect, and Brent's prompt spread flipped into bearish contango (first since the war began). Intraday June 25 hovered ~$75, briefly $72. Baseline Feb 27 $71.00 — war premium now ≈ +$2.74 (+4%). Source: CNBC / CNN."
+      "price": 74.01,
+      "label": "Brent crude — ~$74.01 (Jun 30 intraday, Day 123); ticked up on the weekend Hormuz strikes after a post-war low ~$72 (Jun 26)",
+      "change": "≈ flat (+0.14% d/d) to ~$74.01 (June 30 intraday) — Brent settled ~$72 June 26 (lowest since pre-war Feb 28), then firmed to ~$74 on the June 26-28 strikes. Down ~30% on the quarter — its largest quarterly decline since 2020. Now only ~+4% above the Feb 27 $71 baseline.",
+      "tooltip": "Brent settled ~$72 June 26 (lowest since pre-war Feb 28); it ticked up to ~$74 by June 30 on the weekend US-Iran strikes over Hormuz shipping. Q2 logged 'a roughly 30% drop, which represents its largest quarterly decline since 2020' (Trading Economics, June 30). Baseline Feb 27 $71.00 — war premium now ≈ +$3.01 (+4%). Source: Trading Economics / CNBC."
     },
     "wti": {
-      "price": 70.34,
-      "label": "WTI crude — Wed Jun 24 close $70.34 (Day 117); first settle near/below $70 since March 2",
-      "change": "▼ −3.92% to $70.34 (NYMEX settlement, June 24; intraday low $69.63) — the first settle near/below $70 since March 2 and near pre-war levels. Now only ~+6% above the Feb 27 $66.50 baseline.",
-      "tooltip": "NYMEX WTI settled $70.34 on June 24 (−3.92%, intraday low $69.63) — the first settle near/below $70 since March 2, near pre-war levels, as Hormuz traffic surged and the OFAC waiver took effect. Baseline Feb 27 $66.50 — war premium now ≈ +$3.84 (+6%). Source: CNBC / CNN."
+      "price": 70.7,
+      "label": "WTI crude — ~$70.7 (Jun 30 intraday, Day 123); off a fresh 4-month low ~$69 (Jun 26)",
+      "change": "≈ flat to ~$70.7 (June 30 intraday) — WTI hit a fresh 4-month low ~$69 June 26, then firmed with Brent on the weekend strikes. 'On track to decline about 19% for the month and over 24% for the quarter' (Trading Economics, June 30). Now only ~+6% above the Feb 27 $66.50 baseline.",
+      "tooltip": "NYMEX WTI hit a fresh 4-month low ~$69 June 26; it recovered to ~$70.7 by June 30 on the US-Iran Hormuz strikes. It is 'on track to decline about 19% for the month and over 24% for the quarter' (Trading Economics, June 30). Baseline Feb 27 $66.50 — war premium now ≈ +$4.20 (+6%). Source: Trading Economics / CNBC."
     },
     "gas": {
-      "price": 3.928,
-      "label": "AAA national average, regular unleaded — June 25, 2026 (Day 118)",
-      "change": "▼ ~−4.5¢ vs June 19 ($3.973); +$0.94 vs $2.99 Feb 28 baseline. Sixth straight weekly decline; below $4.00 since June 18 as crude slid to pre-war lows.",
-      "tooltip": "AAA gasprices.aaa.com national average $3.928 as of June 25 (Day 118), a sixth straight weekly decline and below $4.00 since June 18 as crude fell to pre-war lows (Brent $73.74 / WTI $70.34, June 24 settles). ~+31% above the $2.99 Feb 28 baseline (AAA/Finder cite $2.96 on Feb 26); down from the wartime peak of ~$4.55 (May 21). Pump relief lags crude by 2-3 weeks; Trump ordered DOJ to probe alleged 'gouging' June 24. Source: gasprices.aaa.com."
+      "price": 3.847,
+      "label": "AAA national average, regular unleaded — June 30, 2026 (Day 123)",
+      "change": "▼ −8.1¢ vs June 25 ($3.928); +$0.86 vs $2.99 Feb 28 baseline. Six-plus straight weeks of declines as crude held near pre-war lows even through the June 25-28 re-escalation.",
+      "tooltip": "AAA gasprices.aaa.com national average $3.847 as of June 30 (Day 123), down from $3.928 (June 25) — a sixth-plus straight weekly decline as crude held near pre-war lows (Brent ~$74 / WTI ~$70.7) even through the June 25-28 Hormuz strikes. ~+29% above the $2.99 Feb 28 baseline (AAA/Finder cite $2.96 on Feb 26); down from the wartime peak of ~$4.55 (May 21). Pump relief lags crude by 2-3 weeks. Source: gasprices.aaa.com."
     },
     "sp500": {
-      "value": 7358.22,
-      "label": "S&P 500 — Wed Jun 24 close (Day 117): −0.10% to 7,358.22",
-      "change": "▼ −0.10% to 7,358.22 (June 24) — flat as oil's slide weighed on energy names; the prior session (June 23) fell 1.44% to 7,365.46 in a global tech/chip selloff (Nasdaq −2.21%, KOSPI −9.99%). Dow +0.35% to 51,848.90 on June 24.",
-      "tooltip": "S&P 500 closed 7,358.22 on June 24 (−0.10%); Nasdaq 25,476.64 (−0.43%), Dow 51,848.90 (+0.35%). The prior session (June 23) dropped 1.44% to 7,365.46 in a global tech/chip selloff (Nasdaq −2.21%, KOSPI −9.99%). Gold fell below $4,000 (first since Nov 2025) and Alphabet replaced Verizon in the Dow as the war-risk premium evaporated. Source: CNBC, FRED."
+      "value": 7440.43,
+      "label": "S&P 500 — Mon Jun 29 close (Day 122): +1.16% to 7,440.43",
+      "change": "▲ +1.16% to 7,440.43 (June 29, +82 pts) — a relief rally after the prior week's ~2% loss; the Dow rose +0.59% to 52,182.74, its first-ever close above 52,000. Lower oil and yields were net bullish despite four days of US-Iran strikes.",
+      "tooltip": "S&P 500 closed 7,440.43 on June 29 (+1.16%); Nasdaq 25,820.15 (+2.07%), Dow 52,182.74 (+0.59%) — the Dow's first close above 52,000, with Alphabet joining the index and rising >4%. VIX 17.60; Russell 2000 3,010.42. Equities rebounded after the prior week's ~2% loss; lower oil and yields offset the June 26-28 re-escalation. Source: CNBC, FRED."
     },
     "daily_cost": {
       "value": 85,
       "unit": "M/day",
       "label": "Daily War Cost (est.)",
-      "change": "CSIS ceasefire-standby (~$95M/day model) — the Iran front is quiet under the post-MOU standby and no new official DoD daily figure has been released.",
-      "tooltip": "CSIS ceasefire-standby phase; CSIS models a ~$95M/day standby rate while the dashboard's phased model shows the burn easing to ~$85M/day as carriers remain on station but the Iran front stays quiet. Peak burn was ~$1.88B/day in Days 1-6. Source: CSIS (Cancian & Park).",
-      "note": "Estimate; operational tempo low and easing under the post-MOU standby, though no carrier has been ordered home. CSIS cites a ~$95M/day ceasefire-standby rate; the dashboard's phased model is ~$85M/day. Peak rate was ~$1.88B/day in Days 1-6."
+      "change": "Back to a ~$85M/day standby after the June 25-28 re-escalation briefly spiked the burn (~$98M-$122M/day on the strike days); the stand-down halted offensive activity June 28-29.",
+      "tooltip": "Methodology-dependent. The dashboard's phased model shows the standby burn at ~$85M/day, which briefly spiked to ~$98M-$122M/day during the June 26-27 strikes before the stand-down. Pentagon-briefing basis: the US spent $1B in the war's first 48 hours and 'initially continued spending at a rate of $1 billion a day' (Fortune, June 24). Moody's/Zandi taxpayer-support basis: ~$50M/day. Peak burn was ~$1.88B/day in Days 1-6. Source: CSIS (Cancian & Park), Fortune, Moody's.",
+      "note": "Estimate; operational tempo eased back to standby after the June 28-29 stand-down, though no carrier has been ordered home. Multiple methodologies: dashboard phased model ~$85M/day; Pentagon-briefing ~$1B/day for the opening; Moody's taxpayer-support basis ~$50M/day. Peak rate was ~$1.88B/day in Days 1-6."
     },
     "total_cost": {
-      "value": 40,
+      "value": 132,
       "unit": "B",
-      "label": "Total Epic Fury Military Cost (CSIS est.)",
-      "change": "CSIS pegs the total at ~$40B (range $34B–$42B; Cancian & Park, June). Latest OFFICIAL figure is $29B (Pentagon comptroller, May 12); the White House requested an $87.6B supplemental ($67.15B DoD) on June 24.",
-      "tooltip": "CSIS (Cancian & Park, June) estimate the total cost of Operation Epic Fury at 'around $40 billion ($34 billion to $42 billion)' across deployment/redeployment, munitions, operational tempo, equipment losses, base damage and fuel prices. The latest OFFICIAL operational figure is $29B (Pentagon comptroller Jules Hurst, May 12). On June 24 the White House (OMB Director Vought) requested an $87.6B supplemental, including $67.15B for DoD ($21B munitions, $17.3B operations, $21.1B classified). The militaryspend.org phased tracker reads ~$35B. Sources: CSIS, Pentagon (Hurst), Reuters/PBS/AP. (Estimates are reported separately — do not merge.)",
-      "note": "Direct military/total war cost. Consumer/taxpayer cost est. ~$132B (NPR/Moody's: 'Moody's Analytics estimates the war has cost U.S. consumers and taxpayers about $132 billion so far'); $113.3B per iran-cost-ticker.com."
+      "label": "Est. cost to US consumers + taxpayers (Moody's)",
+      "change": "Moody's Analytics pegs the cost to US consumers and taxpayers at least $132B (Mark Zandi). Pentagon direct cost $29B; CSIS $34B-$42B; the White House requested an $87.6B supplemental ($67.1B DoD) on June 24.",
+      "tooltip": "'For U.S. taxpayers and consumers, the cost of the war is at least $132 billion, according to Moody's Analytics. That factors in military spending, rising energy and commodity prices and interest rates,' per Mark Zandi, Moody's chief economist (NYT, June 19). Direct military figures are reported separately and not merged: Pentagon operational cost $29B (comptroller Jules Hurst, May 12); CSIS ~$40B ($34B-$42B; Cancian & Park). On June 24 the White House (OMB Director Vought) requested an $87.6B supplemental, of which $67.1B is the DoD share ($21B munitions, $17.3B operations, $12.1B classified). Sources: Moody's/NYT, CSIS, Pentagon, Breaking Defense/PBS. (Estimates are reported separately — do not merge.)",
+      "note": "Headline figure is the Moody's consumer + taxpayer cost (≥$132B). Direct military cost is lower and methodology-dependent: $29B official (Pentagon), ~$40B (CSIS), with a separate $87.6B supplemental request ($67.1B DoD). $113.3B per iran-cost-ticker.com."
     }
   },
   "history": [
