@@ -117,7 +117,12 @@
     "Day 115",
     "Day 116",
     "Day 117",
-    "Day 118"
+    "Day 118",
+    "Day 119",
+    "Day 120",
+    "Day 121",
+    "Day 122",
+    "Day 123"
   ],
   "daily_cost_millions": [
     3000,
@@ -237,7 +242,12 @@
     85,
     85,
     84,
-    84
+    84,
+    98,
+    122,
+    112,
+    90,
+    85
   ],
   "day_notes": [
     "First strikes — $5.6B munitions in 48 hrs (WaPo)",
@@ -357,7 +367,12 @@
     "Day 115 (June 22, Monday) — HORMUZ TRAFFIC SURGES TOWARD NORMAL. ~35-36 ships/day transited the Strait June 22-23 (CBS, 'busiest since the war'); UAE exporting at ~85% of pre-war levels (IEA), though >500 vessels still estimated waiting to exit the Gulf vs the ~120-130/day pre-war baseline. US Treasury issued a 60-day Iran oil sanctions waiver (General License X, valid through Aug 21). Standby burn ~$85M/day.",
     "Day 116 (June 23, Tuesday) — SENATE WAR-POWERS REBUKE; SUPPLEMENTAL LOOMS. The Senate passed a 50-48 War Powers resolution (nonbinding) amid bipartisan war fatigue, signaling eroding political support for the cost trajectory. Standby burn ~$85M/day; the Pentagon signaled a supplemental request was imminent.",
     "Day 117 (June 24, Wednesday) — WHITE HOUSE REQUESTS $87.6B SUPPLEMENTAL. OMB Director Vought's letter to Speaker Johnson sought $87.6B total, including $67.15B for DoD ($21B munitions, $17.3B operations, $21.1B classified), plus $2B Coast Guard, $10-11B farm aid, $1.4B Ebola and $1B for Penn Station — down sharply from Hegseth's earlier ~$200B float. Hormuz traffic hit ~62 vessels (Windward AI), the busiest of the war. Standby burn ~$84M/day.",
-    "Day 118 (June 25, Thursday) — COSTS PLATEAU AS THE OIL PREMIUM EVAPORATES; HORMUZ FRICTION RETURNS. Military burn ~$84M/day on the CSIS ceasefire-standby model (no new DoD daily figure released); the CSIS total holds at ~$40B ($34-42B). The collapse of the oil war-risk premium — Brent $73.74 / WTI $70.34 (June 24 settles), gas $3.928 — is the dominant cost signal, easing the consumer burden even as the $87.6B supplemental ($67.15B DoD) works through Congress. Hormuz traffic, which had surged to ~62 vessels June 24, was disrupted June 25 when the IRGC reasserted permission-only transit and struck the container ship Ever Lovely (3 tankers turned back, 3 diverted); Iran is reportedly seeking ~$40B/yr in transit fees once the 60-day free-passage window lapses. Headline cumulative figures hold: Moody's ~$132B consumer/taxpayer cost (still 'running'), $29B official DoD operational cost (May 12); Watson Institute/Costs of War pegs added household gasoline-and-diesel spend at ~$318 since the war began."
+    "Day 118 (June 25, Thursday) — COSTS PLATEAU AS THE OIL PREMIUM EVAPORATES; HORMUZ FRICTION RETURNS. Military burn ~$84M/day on the CSIS ceasefire-standby model (no new DoD daily figure released); the CSIS total holds at ~$40B ($34-42B). The collapse of the oil war-risk premium — Brent $73.74 / WTI $70.34 (June 24 settles), gas $3.928 — is the dominant cost signal, easing the consumer burden even as the $87.6B supplemental ($67.15B DoD) works through Congress. Hormuz traffic, which had surged to ~62 vessels June 24, was disrupted June 25 when the IRGC reasserted permission-only transit and struck the container ship Ever Lovely (3 tankers turned back, 3 diverted); Iran is reportedly seeking ~$40B/yr in transit fees once the 60-day free-passage window lapses. Headline cumulative figures hold: Moody's ~$132B consumer/taxpayer cost (still 'running'), $29B official DoD operational cost (May 12); Watson Institute/Costs of War pegs added household gasoline-and-diesel spend at ~$318 since the war began.",
+    "Day 119 (June 26, Friday) — RE-ESCALATION RAISES THE BURN. The first US strikes on Iranian soil since the MOU (4 targets near Sirik, 6 aircraft) pushed the estimated daily military burn back up to ~$98M as offensive sortie and munitions costs returned. Markets read it as contained — Brent set fresh post-war lows. Cumulative figures unchanged: Moody's ~$132B consumer/taxpayer; ~$29B official DoD operational; CSIS ~$34-42B.",
+    "Day 120 (June 27, Saturday) — LARGEST PACKAGE SINCE THE MOU SPIKES DAILY COST. CENTCOM struck 10 Iranian targets in and near the Strait of Hormuz — the biggest single-day package since June 17 — lifting the estimated daily burn to ~$122M (sortie, munitions and ISR). The IRGC drone strike on the tanker M/T Kiku added insurance and disruption costs to the Hormuz corridor. Cumulative headline figures hold.",
+    "Day 121 (June 28, Sunday) — DEFENSIVE INTERCEPTS ADD COST AS IRAN RETALIATES. Iranian missiles and drones against Kuwait (2 ballistic missiles intercepted) and Bahrain drove air-defense expenditure; estimated daily burn ~$112M. Interceptor cost is the salient line item — the Payne Institute notes ~198 THAAD interceptors (~40% of US inventory) were fired in the war's first 16 days, underpinning Lockheed's $35.3B sole-source THAAD award (June 24) to quadruple output to 400 interceptors/yr.",
+    "Day 122 (June 29, Monday) — STAND-DOWN PULLS THE BURN BACK DOWN. With both sides agreeing to 'stand down for now,' offensive activity ceased and the estimated daily burn eased to ~$90M. Equities rallied (Dow's first close above 52,000) on lower oil and yields. Cumulative figures unchanged.",
+    "Day 123 (June 30, Tuesday) — STANDBY BURN RESUMES; SUPPLEMENTAL DETAIL SHARPENS. With the stand-down holding, the estimated military burn returns to a ~$85M/day standby level. The headline cost figures remain a set of incompatible, separately-attributed estimates — NOT to be summed: Moody's Analytics at least $132B (US consumers + taxpayers; military spending plus energy/commodity prices and interest rates, per Mark Zandi); Pentagon direct operational cost ~$29B; CSIS ~$34-42B. The White House's June 24 supplemental request totals $87.6B, of which $67.1B is the Defense share — $21B munitions, $17.3B operational costs and $12.1B classified (per OMB Director Russell Vought's letter to Speaker Johnson; Breaking Defense/CNBC/PBS). Note the distinction between the $87.6B total package and the $67.1B Defense-only subset. Hormuz throughput is itself contested: Windward MIOC logged 42 transits June 28 (28 inbound / 14 outbound), while warcosts.org cites 89 'US-assisted' transits under a different methodology."
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
@@ -482,7 +497,8 @@
       "Jun 22",
       "Jun 23",
       "Jun 24",
-      "Jun 25"
+      "Jun 25",
+      "Jun 28"
     ],
     "data": [
       50,
@@ -605,9 +621,10 @@
       35,
       36,
       62,
-      40
+      40,
+      42
     ],
     "prewar_daily": 50
   },
-  "last_updated": "2026-06-25"
+  "last_updated": "2026-06-30"
 }
