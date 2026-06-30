@@ -4325,5 +4325,37 @@
     "notes": "Day 118 (June 25): the Singapore-flagged container ship Ever Lovely was struck by an unknown projectile on its starboard side ~7.5nm SE of Dahit, Oman, in the southern (Omani) Hormuz corridor — bridge damaged, no casualties, no environmental impact (UKMTO/Ambrey); the ship continued onward. The strike came hours after the IRGC broadcast VHF Ch.16 warnings that vessels may transit only with Iranian permission along Iranian-designated routes. US officials attributed the strike to the IRGC (WSJ/CBS) — the FIRST ship attack since the June 17-18 toll-free reopening. The same day, 3 oil tankers turned back and 3 diverted after the IRGC warnings (MarineTraffic via AP), and the UN IMO paused its plan to evacuate ~11,000 stranded seafarers. Coordinates approximate. See also hormuz-shipping-attacks.",
     "verified": true,
     "last_updated": "2026-06-25"
+  },
+  {
+    "id": "hormuz-ship-attacks-2026-06-25-27",
+    "city": "Strait of Hormuz — IRGC drone attacks on commercial shipping (Ever Lovely & Kiku)",
+    "lat": 26.5,
+    "lng": 56.5,
+    "type": "iran_retaliation",
+    "weapon": "One-way attack drones",
+    "origin": "IRGC",
+    "first_strike": "2026-06-25",
+    "casualties_reported": "Vessel damage on both ships; no crew casualties.",
+    "casualties_source": "UKMTO / Ambrey / CENTCOM",
+    "active_days": [118, 120],
+    "notes": "Consolidated record of the IRGC drone attacks on commercial shipping that triggered the June 26-28 US strike cycle: the Singapore-flagged M/V EVER LOVELY (June 25; see dedicated entry 2026-06-25-hormuz-ever-lovely) and the Panama-flagged tanker M/T KIKU carrying ~2M bbl of Qatari crude (June 27). Both sustained vessel damage with no crew casualties. Iran insists vessels use IRGC-designated routes near the Iranian coast rather than the US/JMIC corridor near Oman — the dispute over which route ships use is the central fault line of the re-escalation. UKMTO raised its threat level moderate→substantial June 27; ~60 IRGC high-speed craft were observed in the western strait June 27-28; 4 OFAC-sanctioned vessels transited simultaneously June 28 (Windward). Coordinates approximate.",
+    "verified": true,
+    "last_updated": "2026-06-30"
+  },
+  {
+    "id": "iran-gulf-2026-06-28",
+    "city": "Ali Al Salem Air Base (Kuwait) & US 5th Fleet / NSA Bahrain (Muharraq)",
+    "lat": 26.26,
+    "lng": 50.62,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles + one-way attack drones",
+    "origin": "IRGC Navy / Aerospace Force",
+    "first_strike": "2026-06-28",
+    "casualties_reported": "Kuwait intercepted 2 ballistic missiles (no damage); Bahrain — an 8-story residential building in Muharraq hit, top floor destroyed, no deaths. A Qatari national was killed at sea by shrapnel the same window (cause not formally attributed).",
+    "casualties_source": "Kuwait military / Bahrain Interior Ministry / Qatar MoI",
+    "active_days": [121],
+    "notes": "Day 121 (June 28): the IRGC fired ballistic missiles and drones at Ali Al Salem Air Base (Kuwait) and US 5th Fleet facilities in Bahrain in retaliation for the June 26-27 US strikes on Iranian territory. Kuwait intercepted 2 ballistic missiles (no damage); a Muharraq residential building's top floor was destroyed (no deaths). The IRGC claimed 8 US military sites were struck; a US official said no intended targets were impacted. Bahrain's FM called it a 'dangerous escalation.' A Qatari national was killed at sea by shrapnel during this window (Qatar MoI; cause NOT formally attributed to either US strikes or Iranian drones) plus 1 injured (stable). Coordinates point to the Bahrain (Muharraq) impact site.",
+    "verified": true,
+    "last_updated": "2026-06-30"
   }
 ]
