@@ -691,5 +691,12 @@
         "label": "JUNE 25, 2026 — DAY 118",
         "headline": "Oil hits a pre-war low (Brent $73.74 / WTI $70.34, June 24 settles) and AAA gas falls to $3.928 as the war-risk premium collapses — driven by surging Hormuz transits (~62 vessels June 24), the OFAC 60-day Iran oil-sanctions waiver (General License X, through Aug 21), and Brent's first flip into contango — but the post-MOU ceasefire frays on two seams: the IRGC reasserts permission-only Hormuz transit and strikes the Singapore-flagged container ship Ever Lovely on June 25 (bridge damaged, no casualties; first ship attack since the June 18 reopening; 3 tankers turn back, 3 divert, IMO pauses its ~11,000-seafarer evacuation), and the fifth Israel-Lebanon round (June 23-25) stalls with no signing (Israeli envoy: 'train wreck'); domestically, the Senate passes a historic 50-48 War Powers rebuke (4 GOP defectors) and the White House requests an $87.6B supplemental ($67.15B DoD); CSIS pegs the total Epic Fury cost at ~$40B ($34B-$42B); the US-Iran direct front stays quiet (no strikes since ~June 10-11), the US Embassy in Kuwait reopens June 24, and carriers Lincoln and Bush remain on station in the Arabian Sea with no withdrawal ordered",
         "file": "data/briefings/day-118.html"
+    },
+    {
+        "day": 123,
+        "date": "2026-06-30",
+        "label": "JUNE 30, 2026 — DAY 123",
+        "headline": "Ceasefire re-escalates: US strikes Iran 14 targets Jun 26-27; Iran hits Kuwait & Bahrain; stand-down Jun 29, Doha talks Jun 30; Israel-Lebanon framework signed; oil ~$74, gas $3.85",
+        "file": "data/briefings/day-123.html"
     }
 ]
