@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-25",
-  "war_day": 118,
-  "timestamp_label": "LAST UPDATED: JUN 25, 2026 09:14 ET",
+  "last_updated": "2026-06-30",
+  "war_day": 123,
+  "timestamp_label": "LAST UPDATED: JUN 30, 2026 10:11 ET",
   "cost": {
     "brent": {
       "price": 74.01,
@@ -2197,6 +2197,29 @@
       "children_killed": 376,
       "headline": "Day 118 (June 25, Thursday) — The oil war-risk premium has collapsed: Brent settled $73.74 and WTI $70.34 (June 24), both at/near pre-war levels and down ~40% from the wartime peak, dragging the AAA national gas average to $3.928 (a sixth straight weekly drop). The OFAC 60-day sanctions waiver (General License X), surging Hormuz transits (~62 vessels June 24) and Brent's flip into bearish contango drove the slide; the S&P 500 eased 0.10% to 7,358.22 after a June 23 tech/chip selloff (Nasdaq -2.21%). CSIS pegged the total Epic Fury cost at ~$40B ($34B-$42B) as the White House requested an $87.6B supplemental ($67.15B DoD) and the Senate passed a historic 50-48 War Powers rebuke. But the ceasefire frayed on two seams: the IRGC reasserted permission-only Hormuz transit and struck the container ship Ever Lovely (the first ship attack since the June 18 reopening), and the fifth Israel-Lebanon round stalled with no signing. Carriers Lincoln and Bush remain on station in the Arabian Sea; no withdrawal has been ordered.",
       "note": "Oil hits a pre-war low (Brent $73.74); IRGC strikes the Ever Lovely in Hormuz; Senate passes a 50-48 war-powers rebuke; WH seeks an $87.6B supplemental. CSIS total ~$40B. The US-Iran direct front stayed quiet (no strikes since ~June 10-11) but Hormuz and Lebanon remained strained."
+    },
+    {
+      "date": "2026-06-30",
+      "war_day": 123,
+      "brent": 74.01,
+      "wti": 70.7,
+      "gas": 3.847,
+      "sp500": 7440.43,
+      "sp500_change_pct": 1.16,
+      "nasdaq": 25820,
+      "dow": 52183,
+      "daily_cost_millions": 85,
+      "total_cost_billions": 74.3,
+      "targets_struck": 35614,
+      "us_kia": 13,
+      "us_wia": 543,
+      "iranian_killed": 3468,
+      "lebanese_killed": 4178,
+      "displaced": 1200000,
+      "flights_cancelled": 8000,
+      "children_killed": 376,
+      "headline": "Day 123 (June 30, Tuesday) — The ceasefire re-escalated then stood down: between June 25 and June 28 the US and Iran traded four days of kinetic strikes over Strait of Hormuz shipping — the first US strikes on Iranian soil since the June 17 MOU. After IRGC drones hit the M/V Ever Lovely (June 25) and the tanker M/T Kiku (June 27), CENTCOM struck 14 Iranian targets across June 26-27 (4 near Sirik, then 10 in and near the strait); Iran retaliated against Kuwait (2 ballistic missiles intercepted) and Bahrain (a Muharraq residential building hit, no deaths) on June 28, and a Qatari national was killed at sea by shrapnel. A senior US official announced a 'stand down for now' June 28-29 ('vessels can move freely'); Trump set Doha talks for June 30 (Iran unconfirmed). A US-brokered Israel-Lebanon framework was signed June 26. Markets decoupled from the shooting — Brent set fresh post-war lows (~$72 June 26) before firming to ~$74, and the Dow closed above 52,000 for the first time. Moody's pegs the cost to US consumers and taxpayers at ≥$132B. Carriers Lincoln and Bush held station in the Arabian Sea throughout; no surge or withdrawal.",
+      "note": "Re-escalation June 25-28: four days of US-Iran strikes over Hormuz shipping (14 US targets June 26-27); Iran hit Kuwait & Bahrain June 28; stand-down June 28-29; Doha talks set for June 30 (Iran unconfirmed). Israel-Lebanon framework signed June 26. Oil ~$74, gas $3.847, Dow first close >52,000, Moody's cost ≥$132B. No new US casualties; no verified new Iranian deaths."
     }
   ],
   "toll": {
