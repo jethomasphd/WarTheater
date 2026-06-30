@@ -2224,35 +2224,35 @@
     "iranian_killed": {
       "value": 3468,
       "label": "Iranian dead (Iran MoH / Foundation of Martyrs, Apr 19)",
-      "note": "Day 118: Held at 3,468 (Iran Ministry of Health / Foundation of Martyrs; incl. 376 children, 496 women, 7 infants; 26,500+ injured) — no new tabulation released and the direct Iran front held quiet under the signed MOU. Four named benchmarks (do not synthesize): 3,468 (MoH/Foundation of Martyrs) / 3,636 (HRANA) / 1,700 civilian fatalities (CSIS) / up to 6,000+ (US-Israel estimate). Verification inside Iran remains severely limited; the true toll is likely higher.",
+      "note": "Day 123: Held at 3,468 (Iran Ministry of Health / Foundation of Martyrs; incl. 376 children, 496 women, 7 infants; 26,500+ injured incl. 1,621 children) — NO new verified Iranian deaths from the June 26-28 US strikes; Iranian/IRGC reporting cited infrastructure damage only (a Sirik telecom tower and 2 water reservoirs) and GlobalSecurity confirms no new casualty figures were published. Named benchmarks (do not synthesize): 3,468 (MoH/Foundation of Martyrs) / 3,636 (HRANA) / 6,620+ (Hengaw) / 6,000+ (IDF estimate). Verification inside Iran remains severely limited; the true toll is likely higher.",
       "tooltip": "Iran's Foundation of Martyrs cumulative total = 3,468 as of Apr 19 (7 infants, 376 children, 496 women; 26,500+ injured). CONFLICTING RANGE (per manifest §9, do not synthesize): 3,468 (Iran MoH / Foundation of Martyrs — FROZEN since April 19 due to documented Iranian government information suppression) / 3,636+ (HRANA: 1,701 civ / 1,221 mil / 714 unclassified) / ~6,620 military KIA in Kurdish provinces by April 8 (Hengaw) / 7,650 cumulative (Hengaw 40-day report incl. 1,030 civilians) / 4,700+ security forces (Iran International) / 6,000+ IRGC (IDF claim). Iranian Red Crescent (May 22): aid workers rescued more than 7,200 people from rubble across US/Israeli attacks since the war began. The true toll is higher (per Hengaw, HRANA) given documented Iranian government concealment.",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
-      "value": 4175,
-      "label": "Lebanese dead (Lebanese MoPH, June 22)",
-      "note": "Day 118: Rose to 4,175 killed / 12,164 wounded since March 2 (Lebanese Health Ministry via Al Jazeera, June 22) — a higher cumulative than prior bulletins, reflecting reconciliation of earlier strikes; Alhurra cited ~4,192 (June 24). Israeli strikes killed 2 more in Lebanon June 25 as the fifth Israel-Lebanon round stalled with no signing. >1.2 million displaced (UN OCHA, ~20%+ of the population). Sourced figures (do not merge): 4,175 / 12,164 (MoPH June 22) / ~4,192 (Alhurra June 24).",
+      "value": 4178,
+      "label": "Lebanese dead (Lebanese MoPH series, June 26-28)",
+      "note": "Day 123: ~4,178 killed since March 2 (Lebanese Health Ministry series; ≥3 more killed in continued Israeli strikes June 26-28). A US-brokered Israel-Lebanon trilateral framework was signed June 26 (Rubio: a Military Coordination Group plus an 'immediate' $100M US humanitarian donation and $30M to reimburse the Lebanese Armed Forces), which Hezbollah rejected as 'surrender.' >1.2 million displaced (UN OCHA, ~20%+ of the population). Sourced figures (do not merge): 4,175 / 12,164 (MoPH June 22) / ~4,192 (Alhurra June 24); +≥3 June 26-28.",
       "tooltip": "Lebanon war cumulative since March 2: ~3,473 killed / 10,577 wounded / 127+ healthcare workers killed (Lebanese Ministry of Public Health; the June-2 cumulative was revised up to 3,468, then +5 June 3). MoPH breakdown war-to-date: ≥211 children, nearly 300 women among the dead. Internal Hezbollah sources say 1,000+ fighters killed; IDF claims 1,700 killed. Israel (since March 2): 57 citizens/residents killed (28 soldiers incl. one off-duty and one friendly-fire, 28 civilians, 1 MoD contractor); 8,970+ injured incl. 1,191 military (Wikipedia casualties, June 3). Iraq: at least 118 killed; Iraqi Kurdistan hit by 196+ drone/missile attacks.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
       "value": 1200000,
       "label": "Displaced (Lebanon, UNHCR-based)",
-      "note": "Day 118: Held at >1.2 million displaced in Lebanon (UN OCHA / Alhurra June 24; over one-fifth of the population; some trackers ~1.6M); UNHCR ~3.2M inside Iran; large Iranian internal displacement remains uncounted.",
+      "note": "Day 123: Held at >1.2 million displaced in Lebanon (UN OCHA; over one-fifth of the population; some trackers ~1.6M); UNHCR ~3.2M inside Iran; large Iranian internal displacement remains uncounted. No new aggregate figure was published across the June 26-30 re-escalation window.",
       "tooltip": "UNHCR / Lebanese government figures. IOM 1M+ displaced in Lebanon; 140,000+ in collective shelters; 147,823 crossed to Syria since March 1; CSMonitor ~1.2M as of May 7. UNHCR ~3.2M inside Iran (~1M households). ~68,000 Iranians fled to Türkiye, ~30,000 to Afghanistan. Cross-border into Syria: 306,888 Syrians + 64,865 Lebanese (May 2 baseline, carry-forward). 40,000+ homes destroyed in southern Lebanon; cumulative evacuation orders cover ~1,470 km² (~14% of national territory).",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 8000,
       "label": "Cumulative flights cancelled (Gulf hubs, est.)",
-      "note": "Day 118: UNVERIFIED — no fresh aggregate figure located in-window; the ~8,000+ counter is a conservative early-war aggregate (a larger ~23,000 Cirium early-March figure is stale). With Hormuz reopened June 18 and US Embassy Kuwait back open June 24, Gulf air traffic is recovering, though the June 25 IRGC Hormuz strike is a fresh disruption risk.",
+      "note": "Day 123: UNVERIFIED — no fresh aggregate figure located in-window; the ~8,000+ counter is a conservative early-war aggregate (a larger ~23,000 Cirium early-March figure is stale). The June 25-28 Hormuz re-escalation and the June 28 Iranian strikes on Kuwait/Bahrain posed fresh disruption risk to Gulf air traffic, but no new cancellation tally was published.",
       "tooltip": "FlightAware running figures from war's first weeks: DXB ~4,000 / DOH 2,000+ / AUH 1,000+. Aggregate ~8,000+ remains conservative. AAA holiday-travel survey: 3.66M Americans projected to fly for Memorial Day weekend — a record despite ongoing disruption. Methodological note: 'flights affected' captures cancellations + diversions + multi-hour holds + reroutes + overflight disruptions across all regional FIRs. Gulf carriers continue suspended/rerouted ops; Dubai International at limited capacity.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
       "value": 376,
       "label": "Children killed in Iran (Iran MoH, Apr 19)",
-      "note": "Day 118: Held at 376 (Iran Ministry of Health count among Iran's dead as of April 19, incl. 7 infants) — no new Iranian child tabulation released and the direct Iran front stayed quiet (HRANA estimates ~15% of Iran's casualties are under 18). Lebanon's war-to-date child toll is ≥210-211 (Lebanese MoPH). The Minab school strike alone killed ~165-175 children Feb 28.",
+      "note": "Day 123: Held at 376 (Iran Ministry of Health count among Iran's dead as of April 19, incl. 7 infants) — no new Iranian child tabulation released; the June 26-28 US strikes drew Iranian reports of infrastructure damage only, with no casualty figures (HRANA estimates ~15% of Iran's casualties are under 18). Iran's official cumulative cites 1,621 children among the >26,500 wounded. Lebanon's war-to-date child toll is ≥210-211 (Lebanese MoPH). The Minab school strike alone killed ~165-175 children Feb 28.",
       "tooltip": "Multiple methodologies; UNICEF figure is the most-cited international baseline. Iran MoH (via Al Jazeera tracker; STALE since Apr 19): 376 children killed (incl. 7 infants), 496 women. HRANA: ≥254 children among Iranian civilian dead (Apr 7). Lebanese MoPH: ≥210-211 children among the dead (war-to-date breakdown May 19); 98+ children killed in Lebanon per manifest. UNICEF (Mar 12): >1,100 children killed/injured regionally (200 Iran + 91 Lebanon + 4 Israel + 1 Kuwait subset) — STALE. Israeli child casualties tracked separately.",
       "color": "var(--civilian)"
     }
