@@ -2220,6 +2220,29 @@
       "children_killed": 376,
       "headline": "Day 123 (June 30, Tuesday) — The ceasefire re-escalated then stood down: between June 25 and June 28 the US and Iran traded four days of kinetic strikes over Strait of Hormuz shipping — the first US strikes on Iranian soil since the June 17 MOU. After IRGC drones hit the M/V Ever Lovely (June 25) and the tanker M/T Kiku (June 27), CENTCOM struck 14 Iranian targets across June 26-27 (4 near Sirik, then 10 in and near the strait); Iran retaliated against Kuwait (2 ballistic missiles intercepted) and Bahrain (a Muharraq residential building hit, no deaths) on June 28, and a Qatari national was killed at sea by shrapnel. A senior US official announced a 'stand down for now' June 28-29 ('vessels can move freely'); Trump set Doha talks for June 30 (Iran unconfirmed). A US-brokered Israel-Lebanon framework was signed June 26. Markets decoupled from the shooting — Brent set fresh post-war lows (~$72 June 26) before firming to ~$74, and the Dow closed above 52,000 for the first time. Moody's pegs the cost to US consumers and taxpayers at ≥$132B. Carriers Lincoln and Bush held station in the Arabian Sea throughout; no surge or withdrawal.",
       "note": "Re-escalation June 25-28: four days of US-Iran strikes over Hormuz shipping (14 US targets June 26-27); Iran hit Kuwait & Bahrain June 28; stand-down June 28-29; Doha talks set for June 30 (Iran unconfirmed). Israel-Lebanon framework signed June 26. Oil ~$74, gas $3.847, Dow first close >52,000, Moody's cost ≥$132B. No new US casualties; no verified new Iranian deaths."
+    },
+    {
+      "date": "2026-07-06",
+      "war_day": 129,
+      "brent": 71.73,
+      "wti": 68.44,
+      "gas": 3.804,
+      "sp500": 7483.24,
+      "sp500_change_pct": 0.0,
+      "nasdaq": 25833,
+      "dow": 52900,
+      "daily_cost_millions": 85,
+      "total_cost_billions": 74.8,
+      "targets_struck": 35614,
+      "us_kia": 13,
+      "us_wia": 543,
+      "iranian_killed": 3468,
+      "lebanese_killed": 4301,
+      "displaced": 1200000,
+      "flights_cancelled": 8000,
+      "children_killed": 376,
+      "headline": "Day 129 (July 6, Monday) — Combat froze; diplomacy advanced. The June 29 US-Iran stand-down held for the entire July 1-6 window — zero new kinetic exchanges between the US and Iran. Indirect technical talks in Doha (July 1-2, via Qatari and Pakistani mediators) concluded with 'positive progress': a mechanism to use part of the $6B in frozen, Qatar-held Iranian funds for goods purchases plus a violations-communications channel; talks resume ~July 11 after Ayatollah Khamenei's state funeral (July 4-9; main Tehran procession July 6). Oil and equities leaned toward peace — Brent closed $71.73 and WTI $68.44 (July 6) near pre-war lows after OPEC+ agreed July 5 to add 188,000 bpd in August, while the Dow set a record 52,900.07 (July 2) and topped 53,000 intraday July 6 and AAA gas fell to $3.804. The only new US casualty event was NON-COMBAT: a Navy MH-60S ditched in the Arabian Sea July 1, three of four aircrew recovered and one aircrewman lost (search suspended July 5; presumed dead, not yet KIA). Lebanon stayed the lone kinetic front — Israel struck 10 Hezbollah sites July 3 and the Lebanese toll rose to ~4,301. Carriers Lincoln and Bush held station in the Arabian Sea; no surge or withdrawal.",
+      "note": "Stand-down held all six days (July 1-6): no new US-Iran strikes. Doha talks made 'positive progress' ($6B frozen-funds goods mechanism + violations channel), resume ~July 11 after Khamenei's funeral. Oil near pre-war lows (Brent $71.73 / WTI $68.44) after OPEC+ +188k bpd; Dow record 52,900 (Jul 2), >53,000 intraday Jul 6; gas $3.804. One non-combat US loss (MH-60S aircrewman off the Bush; presumed lost, not yet KIA). Lebanon toll ~4,301. No new Iranian deaths."
     }
   ],
   "toll": {
