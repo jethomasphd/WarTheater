@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 3.847,
-  "war_increase": 0.857,
+  "current_gas": 3.804,
+  "war_increase": 0.814,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.58 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com national average — $3.847 on Tuesday June 30, 2026 (Day 123), down from $3.928 (June 25) — a sixth-plus straight weekly decline as crude held near pre-war lows even through the June 25-28 Hormuz re-escalation. The collapse of the war-risk premium followed surging Strait of Hormuz tanker traffic, the US Treasury/OFAC 60-day Iran oil sanctions waiver (General License X, valid through Aug 21), and Brent's flip into bearish contango. Brent ticked up to ~$74.01 and WTI ~$70.7 on June 30 (intraday) on weekend strikes, but Q2 still logged a ~30% drop — Brent's largest quarterly decline since 2020 (Trading Economics, June 30). Still ~$0.86/gal above the $2.99 Feb 28 baseline (~29% higher; AAA/Finder cite $2.96 on Feb 26). Pump relief from the oil slide lags crude by 2-3 weeks; NPR/AP note higher gas, grocery and flight prices will likely outlast the war. The wartime peak was ~$4.54-4.56/gal (NPR June 17 and CFR's Max Boot cite $4.56; AAA print $4.536 on May 6/21), below AAA's nominal record of $5.016 (June 14, 2022). Trump on June 24 ordered DOJ to probe alleged 'gouging' by oil companies for not cutting pump prices faster. Moody's Analytics (NPR) estimates the war has cost US consumers and taxpayers at least $132 billion so far.",
-  "last_updated": "2026-06-30"
+  "source": "AAA gasprices.aaa.com national average — $3.804 on Sunday July 5, 2026 (Day 128), down from $3.847 (June 30, Day 123) — an extended decline as crude held near pre-war lows during the July 1-6 US-Iran stand-down with no new strikes on either side. The June 29 stand-down held all six days; indirect US-Iran talks in Doha (July 1-2) made 'positive progress' and are set to resume ~July 11 after Ayatollah Khamenei's state funeral (July 4-9). Brent closed $71.73 and WTI $68.44 (July 6), near their lowest since Feb 27 and ~43% below the wartime peak above $120, pressured further by an OPEC+ decision (July 5) to add 188,000 bpd of output in August. Still ~$0.81/gal above the $2.99 Feb 28 baseline (~27% higher; AAA/Finder cite $2.96 on Feb 26). Pump relief from the oil slide lags crude by 2-3 weeks; NPR/AP note higher gas, grocery and flight prices will likely outlast the war. The wartime peak was ~$4.54-4.56/gal (NPR June 17 and CFR's Max Boot cite $4.56; AAA print $4.536 on May 6/21), below AAA's nominal record of $5.016 (June 14, 2022). Trump on June 24 ordered DOJ to probe alleged 'gouging' by oil companies for not cutting pump prices faster. Moody's Analytics (NPR) estimates the war has cost US consumers and taxpayers at least $132 billion so far.",
+  "last_updated": "2026-07-06"
 }

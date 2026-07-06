@@ -8908,5 +8908,95 @@
     "source": "Axios / NPR / CNBC / GlobalSecurity Day-122",
     "time": "Day 122",
     "title": "US & Iran agree to 'stand down for now'; Doha talks announced"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "US & Iran hold separate indirect meetings in Doha; Vance: talks 'going well'",
+    "date": "2026-07-01",
+    "description": "The US and Iran held separate indirect meetings in Doha via Qatari and Pakistani mediators, the first round since the June 29 stand-down. VP Vance said the talks were 'going well'; envoys Steve Witkoff and Jared Kushner met Qatari Emir Sheikh Tamim on the negotiations and Lebanon. President Pezeshkian said Iran expects a first $6B tranche of frozen funds.",
+    "source": "Al Jazeera / CNN / GlobalSecurity Day-124",
+    "time": "Day 124",
+    "title": "Indirect US-Iran talks open in Doha; Vance says talks 'going well'"
+  },
+  {
+    "category": "military",
+    "data_point": "Navy MH-60S ditches in the Arabian Sea; 3 of 4 aircrew recovered, 1 missing",
+    "date": "2026-07-01",
+    "description": "A US Navy MH-60S Sea Hawk of HSC-5 'Nightdippers,' embarked aboard USS George H.W. Bush (CVN-77), made an emergency water landing in the Arabian Sea around 3:30 a.m. local. Three of four aircrew were recovered in stable condition; one aircrewman went missing, with no indication of hostile action.",
+    "source": "US 5th Fleet / Navy Times / USNI News",
+    "time": "Day 124",
+    "title": "Navy MH-60S ditches in the Arabian Sea off USS George H.W. Bush"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Doha round ends with 'positive progress'; $6B goods mechanism + violations channel",
+    "date": "2026-07-02",
+    "description": "The indirect Doha technical round concluded with 'positive progress' (Qatar FM spokesman Majed al-Ansari), agreeing a mechanism to use part of the $6B in frozen, Qatar-held Iranian funds for goods purchases and a communications channel to flag violations. Hormuz tolls, asset-transfer specifics, nuclear inspections and Lebanon stayed unresolved. Iran warned of a 'decisive response' to any US 'miscalculation' in Hormuz.",
+    "source": "Al Jazeera / CNN / GlobalSecurity",
+    "time": "Day 125",
+    "title": "Doha talks conclude with 'positive progress'; frozen-funds mechanism agreed"
+  },
+  {
+    "category": "military",
+    "data_point": "Israel strikes 10 Hezbollah sites in southern Lebanon",
+    "date": "2026-07-03",
+    "description": "Israel struck 10 Hezbollah sites in southern Lebanon (Bint Jbeil, Beit Yahoun, Kounine, Baraashit) in retaliation for a July 2 Hezbollah attack that severely wounded an IDF reservist (679th 'Yiftah' Armored Brigade) near Bint Jbeil; two other soldiers were lightly wounded. US financial markets were closed for Independence Day.",
+    "source": "Times of Israel / Washington Times / JNS",
+    "time": "Day 126",
+    "title": "Israel strikes 10 Hezbollah sites in southern Lebanon"
+  },
+  {
+    "category": "political",
+    "data_point": "Iran opens Khamenei state-funeral tribute ceremony (~40 countries)",
+    "date": "2026-07-03",
+    "description": "Iran opened a tribute ceremony for the late Ayatollah Ali Khamenei attended by delegations from about 40 countries, launching a multi-day state funeral (July 4-9). US-Iran negotiations were reported set to resume around July 11, after the funeral.",
+    "source": "Times of Israel / CBS News",
+    "time": "Day 126",
+    "title": "Iran opens Khamenei state-funeral tribute ceremony"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Iran vows to 'definitely' charge Hormuz transit fees; warns UK and France",
+    "date": "2026-07-04",
+    "description": "As Ayatollah Khamenei's state funeral opened to the public, Iran said it will 'definitely' charge Strait of Hormuz transit fees once the MOU's toll-free window lapses, with 'special treatment' possible for friendly nations, and warned the UK and France. Tolls remained the sharpest unresolved item from the Doha round.",
+    "source": "Times of Israel / Al Arabiya",
+    "time": "Day 127",
+    "title": "Iran vows to charge Hormuz transit tolls; funeral opens to public"
+  },
+  {
+    "category": "economic",
+    "data_point": "OPEC+ agrees +188,000 bpd for August; Saudi Arabia and Russia each +62,000 bpd",
+    "date": "2026-07-05",
+    "description": "Seven OPEC+ producers (Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, Oman) agreed at a virtual meeting to 'implement a production adjustment of 188 thousand barrels per day' for August, with Saudi Arabia and Russia each adding 62,000 bpd; the next meeting is August 2. Crude drifted lower toward pre-war levels.",
+    "source": "Reuters / The National / ANI",
+    "time": "Day 128",
+    "title": "OPEC+ agrees to add 188,000 bpd of output in August"
+  },
+  {
+    "category": "military",
+    "data_point": "Navy suspends MH-60S search after 102+ hours; aircrewman presumed lost",
+    "date": "2026-07-05",
+    "description": "US Naval Forces Central Command suspended the active search for the HSC-5 Sailor missing since the July 1 MH-60S ditching, effective 3:00 p.m. AST, after covering 'more than 102 hours and 14,000 square miles.' The aircrewman is presumed lost but not yet classified KIA pending next-of-kin notification.",
+    "source": "US 5th Fleet (cusnc.navy.mil) / UPI / WAVY",
+    "time": "Day 128",
+    "title": "Navy suspends search for the missing MH-60S aircrewman"
+  },
+  {
+    "category": "political",
+    "data_point": "Main Tehran funeral procession; US-Iran talks to resume ~July 11; Trump: US 'going to win'",
+    "date": "2026-07-06",
+    "description": "Ayatollah Khamenei's main funeral procession moved through Tehran (~10 km from Imam Hossein Square to Azadi Square; Tehran's mayor said attendance could reach 20 million). New Supreme Leader Mojtaba Khamenei did not appear publicly. Trump said the US is 'going to win one way or the other'; indirect US-Iran talks were set to resume around July 11.",
+    "source": "Times of Israel / CBS News / Al Arabiya",
+    "time": "Day 129",
+    "title": "Tehran holds Khamenei funeral procession; US-Iran talks to resume ~July 11"
+  },
+  {
+    "category": "economic",
+    "data_point": "Oil near pre-war lows (Brent $71.73 / WTI $68.44); Dow tops 53,000 intraday",
+    "date": "2026-07-06",
+    "description": "Brent closed $71.73 and WTI $68.44, near their lowest since pre-war February 27 and ~43% below the wartime peak. US equities extended records after the July 3 holiday — the S&P 500 rose ~0.8% and the Dow topped 53,000 intraday as chip stocks recovered; AAA gasoline had eased to $3.804 (July 5).",
+    "source": "Trading Economics / CNBC / Yahoo Finance / AAA",
+    "time": "Day 129",
+    "title": "Oil near pre-war lows; US stocks extend records"
   }
 ]

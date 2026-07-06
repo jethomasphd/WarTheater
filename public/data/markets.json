@@ -90,7 +90,10 @@
     "Jun 23",
     "Jun 24",
     "Jun 26",
-    "Jun 29"
+    "Jun 29",
+    "Jul 1",
+    "Jul 2",
+    "Jul 6"
   ],
   "contexts": [
     "Pre-war close — baseline",
@@ -182,7 +185,10 @@
     "Day 116 (June 23, Monday) — TECH/CHIP SELLOFF: S&P 500 -1.44% to 7,365.46; NASDAQ -2.21% in a global chip rout (KOSPI -9.99%) as the war-risk premium kept fading. Energy names slipped with crude; defense little moved. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
     "Day 117 (June 24, Wednesday) — FLAT AS OIL HITS A PRE-WAR LOW: S&P 500 -0.10% to 7,358.22; NASDAQ -0.43% to 25,476.64; DOW +0.35% to 51,848.90. Brent settled $73.74 and WTI $70.34 — the lowest since before the war — hammering energy names while airlines firmed on cheaper fuel; gold fell below $4,000 for the first time since Nov 2025. Alphabet replaced Verizon in the Dow. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
     "Day 119 (June 26, Friday) — WEEK ENDS LOWER, S&P SLIPS BELOW ITS 50-DAY: S&P 500 closed ~7,355 (intraday range 7,294–7,393), under its 50-day moving average (~7,363) for the first time since early April; for the week the S&P fell ~2% and the NASDAQ ~5%. Crude set fresh post-war lows (WTI ~$69, a 4-month low) even as US-Iran strikes resumed — the war-risk premium has collapsed and supply normalization now dominates the tape. Defense names steadied on the $87.6B supplemental request; oil majors stayed under pressure as crude fell to pre-war levels; airlines firmed on cheaper jet fuel. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
-    "Day 122 (June 29, Monday) — RELIEF RALLY, DOW TOPS 52,000 FOR THE FIRST TIME: S&P 500 +1.16% to 7,440.43; DOW +0.59% to 52,182.74 (first-ever close above 52,000, Alphabet joining the index and rising >4%); NASDAQ +2.07% to 25,820.15; VIX 17.60; Russell 2000 3,010.42. Equities rebounded after the prior week's ~2% loss despite four days of US-Iran strikes — lower oil and yields were net bullish. Defense (LMT, RTX, NOC, GD) rose on the $87.6B supplemental and FY27 $1.15T NDAA tailwind, with Lockheed's $35.3B sole-source THAAD award (aiming to quadruple output to 400 interceptors/yr); oil majors lagged as crude held near pre-war levels. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)"
+    "Day 122 (June 29, Monday) — RELIEF RALLY, DOW TOPS 52,000 FOR THE FIRST TIME: S&P 500 +1.16% to 7,440.43; DOW +0.59% to 52,182.74 (first-ever close above 52,000, Alphabet joining the index and rising >4%); NASDAQ +2.07% to 25,820.15; VIX 17.60; Russell 2000 3,010.42. Equities rebounded after the prior week's ~2% loss despite four days of US-Iran strikes — lower oil and yields were net bullish. Defense (LMT, RTX, NOC, GD) rose on the $87.6B supplemental and FY27 $1.15T NDAA tailwind, with Lockheed's $35.3B sole-source THAAD award (aiming to quadruple output to 400 interceptors/yr); oil majors lagged as crude held near pre-war levels. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
+    "Day 124 (July 1, Wednesday) — QUIET AS THE STAND-DOWN HOLDS: S&P 500 -0.22% to 7,483.23; DOW -0.03% to 52,305.24; NASDAQ 26,040.03. The June 29 US-Iran stand-down held with no new strikes, and indirect talks opened in Doha (VP Vance: talks 'going well'); Brent traded ~$72.5 and WTI ~$69 as the war-risk premium stayed unwound. Defense held firm on the pending $87.6B supplemental; oil majors eased with crude; airlines firmed on cheaper jet fuel and Cathay Pacific's phased Middle East resumption. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
+    "Day 125 (July 2, Thursday) — DOW SETS A RECORD; MARKETS ESSENTIALLY FLAT: S&P 500 +0.01 to 7,483.24 (essentially unchanged); DOW +1.14% to a record 52,900.07; NASDAQ -0.80% to 25,832.67. The indirect Doha talks concluded with 'positive progress' (Qatar's al-Ansari) — a $6B frozen-funds goods mechanism and a violations-communications channel agreed — while a rotation out of chips pressured the NASDAQ. The ITA defense ETF traded ~$247.29 (up ~38% YTD, near a 52-week high); oil majors stayed soft as Brent held ~$71.5; airlines gained on Cathay Pacific's phased Gulf resumption. Markets closed July 3 for Independence Day. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
+    "Day 129 (July 6, Monday) — RECORDS EXTEND AS CHIPS RECOVER (INTRADAY): after the July 3 holiday, stocks rose July 6 — the S&P 500 gained ~0.8% and the DOW topped 53,000 intraday (both fresh records) while the NASDAQ recovered ~1.2% as chip stocks rebounded; figures are intraday (this update posted ~3 PM ET, before the close). Oil settled near pre-war lows (Brent $71.73, WTI $68.44) after OPEC+ agreed July 5 to add 188,000 bpd in August. Backdrop: the US-Iran stand-down held all week and Tehran's main state-funeral procession for Ayatollah Khamenei drew huge crowds, with talks set to resume ~July 11. Defense firmed with the broad tape; oil majors tracked crude lower; airlines held gains on cheaper fuel. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)"
   ],
   "datasets": {
     "sp500": {
@@ -278,7 +284,10 @@
         107.07,
         106.97,
         106.92,
-        108.16
+        108.16,
+        108.79,
+        108.79,
+        109.65
       ],
       "color": "#ef4444"
     },
@@ -375,7 +384,10 @@
         114.2,
         114.5,
         114.0,
-        116.5
+        116.5,
+        117.0,
+        117.5,
+        118.5
       ],
       "color": "#22c55e"
     },
@@ -472,7 +484,10 @@
         122.5,
         119.0,
         116.5,
-        116.0
+        116.0,
+        115.0,
+        114.5,
+        114.0
       ],
       "color": "#d4a020"
     },
@@ -569,10 +584,13 @@
         68.5,
         70.0,
         71.0,
-        72.5
+        72.5,
+        73.5,
+        74.5,
+        75.5
       ],
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-06-30"
+  "last_updated": "2026-07-06"
 }
