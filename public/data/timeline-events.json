@@ -8953,5 +8953,50 @@
     "source": "Times of Israel / CBS News",
     "time": "Day 126",
     "title": "Iran opens Khamenei state-funeral tribute ceremony"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Iran vows to 'definitely' charge Hormuz transit fees; warns UK and France",
+    "date": "2026-07-04",
+    "description": "As Ayatollah Khamenei's state funeral opened to the public, Iran said it will 'definitely' charge Strait of Hormuz transit fees once the MOU's toll-free window lapses, with 'special treatment' possible for friendly nations, and warned the UK and France. Tolls remained the sharpest unresolved item from the Doha round.",
+    "source": "Times of Israel / Al Arabiya",
+    "time": "Day 127",
+    "title": "Iran vows to charge Hormuz transit tolls; funeral opens to public"
+  },
+  {
+    "category": "economic",
+    "data_point": "OPEC+ agrees +188,000 bpd for August; Saudi Arabia and Russia each +62,000 bpd",
+    "date": "2026-07-05",
+    "description": "Seven OPEC+ producers (Saudi Arabia, Russia, Iraq, Kuwait, Kazakhstan, Algeria, Oman) agreed at a virtual meeting to 'implement a production adjustment of 188 thousand barrels per day' for August, with Saudi Arabia and Russia each adding 62,000 bpd; the next meeting is August 2. Crude drifted lower toward pre-war levels.",
+    "source": "Reuters / The National / ANI",
+    "time": "Day 128",
+    "title": "OPEC+ agrees to add 188,000 bpd of output in August"
+  },
+  {
+    "category": "military",
+    "data_point": "Navy suspends MH-60S search after 102+ hours; aircrewman presumed lost",
+    "date": "2026-07-05",
+    "description": "US Naval Forces Central Command suspended the active search for the HSC-5 Sailor missing since the July 1 MH-60S ditching, effective 3:00 p.m. AST, after covering 'more than 102 hours and 14,000 square miles.' The aircrewman is presumed lost but not yet classified KIA pending next-of-kin notification.",
+    "source": "US 5th Fleet (cusnc.navy.mil) / UPI / WAVY",
+    "time": "Day 128",
+    "title": "Navy suspends search for the missing MH-60S aircrewman"
+  },
+  {
+    "category": "political",
+    "data_point": "Main Tehran funeral procession; US-Iran talks to resume ~July 11; Trump: US 'going to win'",
+    "date": "2026-07-06",
+    "description": "Ayatollah Khamenei's main funeral procession moved through Tehran (~10 km from Imam Hossein Square to Azadi Square; Tehran's mayor said attendance could reach 20 million). New Supreme Leader Mojtaba Khamenei did not appear publicly. Trump said the US is 'going to win one way or the other'; indirect US-Iran talks were set to resume around July 11.",
+    "source": "Times of Israel / CBS News / Al Arabiya",
+    "time": "Day 129",
+    "title": "Tehran holds Khamenei funeral procession; US-Iran talks to resume ~July 11"
+  },
+  {
+    "category": "economic",
+    "data_point": "Oil near pre-war lows (Brent $71.73 / WTI $68.44); Dow tops 53,000 intraday",
+    "date": "2026-07-06",
+    "description": "Brent closed $71.73 and WTI $68.44, near their lowest since pre-war February 27 and ~43% below the wartime peak. US equities extended records after the July 3 holiday — the S&P 500 rose ~0.8% and the Dow topped 53,000 intraday as chip stocks recovered; AAA gasoline had eased to $3.804 (July 5).",
+    "source": "Trading Economics / CNBC / Yahoo Finance / AAA",
+    "time": "Day 129",
+    "title": "Oil near pre-war lows; US stocks extend records"
   }
 ]
