@@ -1,47 +1,47 @@
 {
-  "last_updated": "2026-06-30",
-  "war_day": 123,
-  "timestamp_label": "LAST UPDATED: JUN 30, 2026 10:11 ET",
+  "last_updated": "2026-07-06",
+  "war_day": 129,
+  "timestamp_label": "LAST UPDATED: JUL 06, 2026 15:29 ET",
   "cost": {
     "brent": {
-      "price": 74.01,
-      "label": "Brent crude — ~$74.01 (Jun 30 intraday, Day 123); ticked up on the weekend Hormuz strikes after a post-war low ~$72 (Jun 26)",
-      "change": "≈ flat (+0.14% d/d) to ~$74.01 (June 30 intraday) — Brent settled ~$72 June 26 (lowest since pre-war Feb 28), then firmed to ~$74 on the June 26-28 strikes. Down ~30% on the quarter — its largest quarterly decline since 2020. Now only ~+4% above the Feb 27 $71 baseline.",
-      "tooltip": "Brent settled ~$72 June 26 (lowest since pre-war Feb 28); it ticked up to ~$74 by June 30 on the weekend US-Iran strikes over Hormuz shipping. Q2 logged 'a roughly 30% drop, which represents its largest quarterly decline since 2020' (Trading Economics, June 30). Baseline Feb 27 $71.00 — war premium now ≈ +$3.01 (+4%). Source: Trading Economics / CNBC."
+      "price": 71.73,
+      "label": "Brent crude — $71.73 (Jul 6 close, Day 129); near its lowest since pre-war Feb 27 as the stand-down held and OPEC+ raised August output",
+      "change": "▼ −0.51% to $71.73 (July 6) — Brent drifted to near its lowest since Feb 27 during the July 1-6 US-Iran stand-down and after OPEC+ (July 5) agreed to add 188,000 bpd in August. ~43% below the wartime peak above $120; now only ~+1% above the Feb 27 $71 baseline.",
+      "tooltip": "Brent closed $71.73 on July 6 (−0.51%), near its lowest since pre-war Feb 27 and ~43% below the >$120 wartime peak. The June 29 US-Iran stand-down held all week with no new strikes, and OPEC+ agreed July 5 to raise August output by 188,000 bpd. Baseline Feb 27 $71.00 — war premium now ≈ +$0.73 (+1%). Source: Trading Economics / Reuters / Investing.com."
     },
     "wti": {
-      "price": 70.7,
-      "label": "WTI crude — ~$70.7 (Jun 30 intraday, Day 123); off a fresh 4-month low ~$69 (Jun 26)",
-      "change": "≈ flat to ~$70.7 (June 30 intraday) — WTI hit a fresh 4-month low ~$69 June 26, then firmed with Brent on the weekend strikes. 'On track to decline about 19% for the month and over 24% for the quarter' (Trading Economics, June 30). Now only ~+6% above the Feb 27 $66.50 baseline.",
-      "tooltip": "NYMEX WTI hit a fresh 4-month low ~$69 June 26; it recovered to ~$70.7 by June 30 on the US-Iran Hormuz strikes. It is 'on track to decline about 19% for the month and over 24% for the quarter' (Trading Economics, June 30). Baseline Feb 27 $66.50 — war premium now ≈ +$4.20 (+6%). Source: Trading Economics / CNBC."
+      "price": 68.44,
+      "label": "WTI crude — $68.44 (Jul 6 close, Day 129); near a fresh multi-month low as the stand-down held",
+      "change": "▼ −0.47% to $68.44 (July 6) — WTI slid to near a multi-month low during the July 1-6 stand-down and after the OPEC+ August output hike. Now only ~+3% above the Feb 27 $66.50 baseline.",
+      "tooltip": "NYMEX WTI closed $68.44 on July 6 (−0.47%), near its lowest since before the war. The US-Iran stand-down held all week and OPEC+ agreed July 5 to add 188,000 bpd in August (Saudi Arabia and Russia each +62,000 bpd). Baseline Feb 27 $66.50 — war premium now ≈ +$1.94 (+3%). Source: Trading Economics / ANI / Reuters."
     },
     "gas": {
-      "price": 3.847,
-      "label": "AAA national average, regular unleaded — June 30, 2026 (Day 123)",
-      "change": "▼ −8.1¢ vs June 25 ($3.928); +$0.86 vs $2.99 Feb 28 baseline. Six-plus straight weeks of declines as crude held near pre-war lows even through the June 25-28 re-escalation.",
-      "tooltip": "AAA gasprices.aaa.com national average $3.847 as of June 30 (Day 123), down from $3.928 (June 25) — a sixth-plus straight weekly decline as crude held near pre-war lows (Brent ~$74 / WTI ~$70.7) even through the June 25-28 Hormuz strikes. ~+29% above the $2.99 Feb 28 baseline (AAA/Finder cite $2.96 on Feb 26); down from the wartime peak of ~$4.55 (May 21). Pump relief lags crude by 2-3 weeks. Source: gasprices.aaa.com."
+      "price": 3.804,
+      "label": "AAA national average, regular unleaded — July 5, 2026 (Day 128)",
+      "change": "▼ −4.3¢ vs June 30 ($3.847); +$0.81 vs $2.99 Feb 28 baseline. Pump prices kept sliding as crude held near pre-war lows through the July 1-6 US-Iran stand-down.",
+      "tooltip": "AAA gasprices.aaa.com national average $3.804 as of July 5 (Day 128), down from $3.847 (June 30) as crude held near pre-war lows (Brent $71.73 / WTI $68.44) during the July 1-6 US-Iran stand-down. ~+27% above the $2.99 Feb 28 baseline (AAA/Finder cite $2.96 on Feb 26); down from the wartime peak of ~$4.56 (May 21). Pump relief lags crude by 2-3 weeks. Source: gasprices.aaa.com."
     },
     "sp500": {
-      "value": 7440.43,
-      "label": "S&P 500 — Mon Jun 29 close (Day 122): +1.16% to 7,440.43",
-      "change": "▲ +1.16% to 7,440.43 (June 29, +82 pts) — a relief rally after the prior week's ~2% loss; the Dow rose +0.59% to 52,182.74, its first-ever close above 52,000. Lower oil and yields were net bullish despite four days of US-Iran strikes.",
-      "tooltip": "S&P 500 closed 7,440.43 on June 29 (+1.16%); Nasdaq 25,820.15 (+2.07%), Dow 52,182.74 (+0.59%) — the Dow's first close above 52,000, with Alphabet joining the index and rising >4%. VIX 17.60; Russell 2000 3,010.42. Equities rebounded after the prior week's ~2% loss; lower oil and yields offset the June 26-28 re-escalation. Source: CNBC, FRED."
+      "value": 7483.24,
+      "label": "S&P 500 — Thu Jul 2 close (Day 125): +0.01 to a near-flat 7,483.24; markets closed Jul 3 (Independence Day)",
+      "change": "▲ essentially flat at 7,483.24 (July 2) — the Dow set a record 52,900.07 (+1.14%) the same day; markets were closed July 3, and on July 6 stocks rose (S&P ~+0.8%, Dow above 53,000 intraday) as chip stocks recovered.",
+      "tooltip": "S&P 500 closed 7,483.24 on July 2 (+0.01, essentially unchanged); the Dow set a record 52,900.07 (+1.14%) and the Nasdaq eased to 25,832.67 (−0.80%). Markets were closed July 3 for Independence Day; on July 6 all three rose (S&P ~+0.8%, Dow above 53,000 intraday, Nasdaq ~+1.2%) — July 6 figures intraday. The ITA defense ETF traded ~$247.29 (up ~38% YTD). Source: Yahoo Finance, FRED, CNBC."
     },
     "daily_cost": {
       "value": 85,
       "unit": "M/day",
       "label": "Daily War Cost (est.)",
-      "change": "Back to a ~$85M/day standby after the June 25-28 re-escalation briefly spiked the burn (~$98M-$122M/day on the strike days); the stand-down halted offensive activity June 28-29.",
+      "change": "Holding at a ~$85M/day standby: the June 29 stand-down held all six days (July 1-6) with no new strikes, so there were no offensive-tempo spikes in the window.",
       "tooltip": "Methodology-dependent. The dashboard's phased model shows the standby burn at ~$85M/day, which briefly spiked to ~$98M-$122M/day during the June 26-27 strikes before the stand-down. Pentagon-briefing basis: the US spent $1B in the war's first 48 hours and 'initially continued spending at a rate of $1 billion a day' (Fortune, June 24). Moody's/Zandi taxpayer-support basis: ~$50M/day. Peak burn was ~$1.88B/day in Days 1-6. Source: CSIS (Cancian & Park), Fortune, Moody's.",
-      "note": "Estimate; operational tempo eased back to standby after the June 28-29 stand-down, though no carrier has been ordered home. Multiple methodologies: dashboard phased model ~$85M/day; Pentagon-briefing ~$1B/day for the opening; Moody's taxpayer-support basis ~$50M/day. Peak rate was ~$1.88B/day in Days 1-6."
+      "note": "Estimate; the ~$85M/day standby burn held through the July 1-6 stand-down with no strike-day spikes, though no carrier has been ordered home. Multiple methodologies: dashboard phased model ~$85M/day; Pentagon-briefing ~$1B/day for the opening; Moody's taxpayer-support basis ~$50M/day. Peak rate was ~$1.88B/day in Days 1-6."
     },
     "total_cost": {
       "value": 132,
       "unit": "B",
       "label": "Est. cost to US consumers + taxpayers (Moody's)",
-      "change": "Moody's Analytics pegs the cost to US consumers and taxpayers at least $132B (Mark Zandi). Pentagon direct cost $29B; CSIS $34B-$42B; the White House requested an $87.6B supplemental ($67.1B DoD) on June 24.",
+      "change": "Moody's Analytics pegs the cost to US consumers and taxpayers at least $132B (Mark Zandi), who on July 1 reframed the burden at ~$1,000 per US household 'and counting.' Pentagon direct cost $29B; CSIS $34B-$42B; the White House's June 24 $87.6B supplemental ($67.1B DoD) remains pending.",
       "tooltip": "'For U.S. taxpayers and consumers, the cost of the war is at least $132 billion, according to Moody's Analytics. That factors in military spending, rising energy and commodity prices and interest rates,' per Mark Zandi, Moody's chief economist (NYT, June 19). Direct military figures are reported separately and not merged: Pentagon operational cost $29B (comptroller Jules Hurst, May 12); CSIS ~$40B ($34B-$42B; Cancian & Park). On June 24 the White House (OMB Director Vought) requested an $87.6B supplemental, of which $67.1B is the DoD share ($21B munitions, $17.3B operations, $12.1B classified). Sources: Moody's/NYT, CSIS, Pentagon, Breaking Defense/PBS. (Estimates are reported separately — do not merge.)",
-      "note": "Headline figure is the Moody's consumer + taxpayer cost (≥$132B). Direct military cost is lower and methodology-dependent: $29B official (Pentagon), ~$40B (CSIS), with a separate $87.6B supplemental request ($67.1B DoD). $113.3B per iran-cost-ticker.com."
+      "note": "Headline figure is the Moody's consumer + taxpayer cost (≥$132B), reframed by Mark Zandi on July 1 as ~$1,000 per US household ('and counting'). Direct military cost is lower and methodology-dependent: $29B official (Pentagon), ~$40B (CSIS), with a separate $87.6B supplemental request ($67.1B DoD) still pending. $113.3B per iran-cost-ticker.com."
     }
   },
   "history": [
