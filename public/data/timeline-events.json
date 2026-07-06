@@ -8908,5 +8908,50 @@
     "source": "Axios / NPR / CNBC / GlobalSecurity Day-122",
     "time": "Day 122",
     "title": "US & Iran agree to 'stand down for now'; Doha talks announced"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "US & Iran hold separate indirect meetings in Doha; Vance: talks 'going well'",
+    "date": "2026-07-01",
+    "description": "The US and Iran held separate indirect meetings in Doha via Qatari and Pakistani mediators, the first round since the June 29 stand-down. VP Vance said the talks were 'going well'; envoys Steve Witkoff and Jared Kushner met Qatari Emir Sheikh Tamim on the negotiations and Lebanon. President Pezeshkian said Iran expects a first $6B tranche of frozen funds.",
+    "source": "Al Jazeera / CNN / GlobalSecurity Day-124",
+    "time": "Day 124",
+    "title": "Indirect US-Iran talks open in Doha; Vance says talks 'going well'"
+  },
+  {
+    "category": "military",
+    "data_point": "Navy MH-60S ditches in the Arabian Sea; 3 of 4 aircrew recovered, 1 missing",
+    "date": "2026-07-01",
+    "description": "A US Navy MH-60S Sea Hawk of HSC-5 'Nightdippers,' embarked aboard USS George H.W. Bush (CVN-77), made an emergency water landing in the Arabian Sea around 3:30 a.m. local. Three of four aircrew were recovered in stable condition; one aircrewman went missing, with no indication of hostile action.",
+    "source": "US 5th Fleet / Navy Times / USNI News",
+    "time": "Day 124",
+    "title": "Navy MH-60S ditches in the Arabian Sea off USS George H.W. Bush"
+  },
+  {
+    "category": "diplomatic",
+    "data_point": "Doha round ends with 'positive progress'; $6B goods mechanism + violations channel",
+    "date": "2026-07-02",
+    "description": "The indirect Doha technical round concluded with 'positive progress' (Qatar FM spokesman Majed al-Ansari), agreeing a mechanism to use part of the $6B in frozen, Qatar-held Iranian funds for goods purchases and a communications channel to flag violations. Hormuz tolls, asset-transfer specifics, nuclear inspections and Lebanon stayed unresolved. Iran warned of a 'decisive response' to any US 'miscalculation' in Hormuz.",
+    "source": "Al Jazeera / CNN / GlobalSecurity",
+    "time": "Day 125",
+    "title": "Doha talks conclude with 'positive progress'; frozen-funds mechanism agreed"
+  },
+  {
+    "category": "military",
+    "data_point": "Israel strikes 10 Hezbollah sites in southern Lebanon",
+    "date": "2026-07-03",
+    "description": "Israel struck 10 Hezbollah sites in southern Lebanon (Bint Jbeil, Beit Yahoun, Kounine, Baraashit) in retaliation for a July 2 Hezbollah attack that severely wounded an IDF reservist (679th 'Yiftah' Armored Brigade) near Bint Jbeil; two other soldiers were lightly wounded. US financial markets were closed for Independence Day.",
+    "source": "Times of Israel / Washington Times / JNS",
+    "time": "Day 126",
+    "title": "Israel strikes 10 Hezbollah sites in southern Lebanon"
+  },
+  {
+    "category": "political",
+    "data_point": "Iran opens Khamenei state-funeral tribute ceremony (~40 countries)",
+    "date": "2026-07-03",
+    "description": "Iran opened a tribute ceremony for the late Ayatollah Ali Khamenei attended by delegations from about 40 countries, launching a multi-day state funeral (July 4-9). US-Iran negotiations were reported set to resume around July 11, after the funeral.",
+    "source": "Times of Israel / CBS News",
+    "time": "Day 126",
+    "title": "Iran opens Khamenei state-funeral tribute ceremony"
   }
 ]
