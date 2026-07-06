@@ -698,5 +698,12 @@
         "label": "JUNE 30, 2026 — DAY 123",
         "headline": "Ceasefire re-escalates: US strikes Iran 14 targets Jun 26-27; Iran hits Kuwait & Bahrain; stand-down Jun 29, Doha talks Jun 30; Israel-Lebanon framework signed; oil ~$74, gas $3.85",
         "file": "data/briefings/day-123.html"
+    },
+    {
+        "day": 129,
+        "date": "2026-07-06",
+        "label": "JULY 6, 2026 — DAY 129",
+        "headline": "Stand-down holds all week: no new US-Iran strikes Jul 1-6; Doha talks make 'positive progress' ($6B frozen-funds mechanism), resume ~Jul 11 after Khamenei's funeral; oil near pre-war lows (Brent $71.73, WTI $68.44) as OPEC+ adds 188k bpd; Dow record 52,900, gas $3.804; Navy MH-60S lost off the Bush (non-combat); Lebanon toll ~4,301",
+        "file": "data/briefings/day-129.html"
     }
 ]
