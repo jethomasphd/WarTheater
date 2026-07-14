@@ -4,44 +4,44 @@
   "timestamp_label": "LAST UPDATED: JUL 06, 2026 15:29 ET",
   "cost": {
     "brent": {
-      "price": 71.73,
-      "label": "Brent crude — $71.73 (Jul 6 close, Day 129); near its lowest since pre-war Feb 27 as the stand-down held and OPEC+ raised August output",
-      "change": "▼ −0.51% to $71.73 (July 6) — Brent drifted to near its lowest since Feb 27 during the July 1-6 US-Iran stand-down and after OPEC+ (July 5) agreed to add 188,000 bpd in August. ~43% below the wartime peak above $120; now only ~+1% above the Feb 27 $71 baseline.",
-      "tooltip": "Brent closed $71.73 on July 6 (−0.51%), near its lowest since pre-war Feb 27 and ~43% below the >$120 wartime peak. The June 29 US-Iran stand-down held all week with no new strikes, and OPEC+ agreed July 5 to raise August output by 188,000 bpd. Baseline Feb 27 $71.00 — war premium now ≈ +$0.73 (+1%). Source: Trading Economics / Reuters / Investing.com."
+      "price": 83.3,
+      "label": "Brent crude — $83.30 (Jul 13 settle, Day 136); biggest daily % gain since May 2020 after Trump reinstated the Hormuz blockade",
+      "change": "▲ +9.59% (+$7.29) to $83.30 (July 13 settle) — the biggest daily percentage gain since May 2020 and highest settlement since June 12 (Reuters), after Trump reinstated the Hormuz blockade; intraday July 14 ~$85 (+2%). Now ~17% above the Feb 27 $71.00 baseline; still ~31% below the wartime peak of $120.88 (Apr 30).",
+      "tooltip": "ICE Brent front-month settled up $7.29, or 9.59%, to $83.30 on Jul 13 — its biggest daily percentage gain since May 2020 and highest settlement since June 12 (Reuters) — after Trump reinstated the Hormuz blockade. Intraday Jul 14 ~$85 (+2%). Still ~31% below the wartime peak of $120.88 (Apr 30). Baseline $71.00."
     },
     "wti": {
-      "price": 68.44,
-      "label": "WTI crude — $68.44 (Jul 6 close, Day 129); near a fresh multi-month low as the stand-down held",
-      "change": "▼ −0.47% to $68.44 (July 6) — WTI slid to near a multi-month low during the July 1-6 stand-down and after the OPEC+ August output hike. Now only ~+3% above the Feb 27 $66.50 baseline.",
-      "tooltip": "NYMEX WTI closed $68.44 on July 6 (−0.47%), near its lowest since before the war. The US-Iran stand-down held all week and OPEC+ agreed July 5 to add 188,000 bpd in August (Saudi Arabia and Russia each +62,000 bpd). Baseline Feb 27 $66.50 — war premium now ≈ +$1.94 (+3%). Source: Trading Economics / ANI / Reuters."
+      "price": 78.14,
+      "label": "WTI crude — $78.14 (Jul 13 settle, Day 136); biggest jump since early April as the blockade returned",
+      "change": "▲ +9.4% to $78.14 (July 13 settle) — the biggest jump since early April on the blockade reinstatement; intraday July 14 ~$80 (+2.3%). Now ~18% above the Feb 27 $66.50 baseline.",
+      "tooltip": "NYMEX WTI front-month settled $78.14 on Jul 13, biggest jump since early April; intraday Jul 14 ~$80. Baseline $66.50."
     },
     "gas": {
-      "price": 3.804,
-      "label": "AAA national average, regular unleaded — July 5, 2026 (Day 128)",
-      "change": "▼ −4.3¢ vs June 30 ($3.847); +$0.81 vs $2.99 Feb 28 baseline. Pump prices kept sliding as crude held near pre-war lows through the July 1-6 US-Iran stand-down.",
-      "tooltip": "AAA gasprices.aaa.com national average $3.804 as of July 5 (Day 128), down from $3.847 (June 30) as crude held near pre-war lows (Brent $71.73 / WTI $68.44) during the July 1-6 US-Iran stand-down. ~+27% above the $2.99 Feb 28 baseline (AAA/Finder cite $2.96 on Feb 26); down from the wartime peak of ~$4.56 (May 21). Pump relief lags crude by 2-3 weeks. Source: gasprices.aaa.com."
+      "price": 3.872,
+      "label": "AAA national average, regular unleaded — July 13, 2026 (Day 136)",
+      "change": "▲ +6.8¢ vs July 5 ($3.804); +$0.88 vs $2.99 Feb 28 baseline. Pump prices turned back UP as the war reignited (interim read $3.84 on July 9); further increases likely if Brent holds above $80.",
+      "tooltip": "AAA national average $3.872/gal on Jul 13, up from $3.804 (Jul 5) and $3.84 (Jul 9) as the war reignited. Wartime peak $4.56 (May 21). EIA weekly read $3.855 (Jul 13). Source: gasprices.aaa.com."
     },
     "sp500": {
-      "value": 7483.24,
-      "label": "S&P 500 — Thu Jul 2 close (Day 125): +0.01 to a near-flat 7,483.24; markets closed Jul 3 (Independence Day)",
-      "change": "▲ essentially flat at 7,483.24 (July 2) — the Dow set a record 52,900.07 (+1.14%) the same day; markets were closed July 3, and on July 6 stocks rose (S&P ~+0.8%, Dow above 53,000 intraday) as chip stocks recovered.",
-      "tooltip": "S&P 500 closed 7,483.24 on July 2 (+0.01, essentially unchanged); the Dow set a record 52,900.07 (+1.14%) and the Nasdaq eased to 25,832.67 (−0.80%). Markets were closed July 3 for Independence Day; on July 6 all three rose (S&P ~+0.8%, Dow above 53,000 intraday, Nasdaq ~+1.2%) — July 6 figures intraday. The ITA defense ETF traded ~$247.29 (up ~38% YTD). Source: Yahoo Finance, FRED, CNBC."
+      "value": 7515.34,
+      "label": "S&P 500 — Mon Jul 13 close (Day 136): −0.79% to 7,515.34 as oil surged on the blockade news",
+      "change": "▼ −0.79% to 7,515.34 (July 13) — oil surged 9%+ on the blockade reinstatement; NASDAQ −1.55% as SK Hynix (−9%) led a chip rout; energy (XLE, +~3%) was the S&P's best sector. The index had risen intra-week to 7,575.39 (Jul 10).",
+      "tooltip": "S&P 500 closed 7,515.34 on Jul 13 (−0.79%) as oil surged on the blockade news; the index had risen intra-week to 7,575.39 (Jul 10). Jul 6 close was 7,537.43."
     },
     "daily_cost": {
-      "value": 85,
+      "value": 500,
       "unit": "M/day",
-      "label": "Daily War Cost (est.)",
-      "change": "Holding at a ~$85M/day standby: the June 29 stand-down held all six days (July 1-6) with no new strikes, so there were no offensive-tempo spikes in the window.",
-      "tooltip": "Methodology-dependent. The dashboard's phased model shows the standby burn at ~$85M/day, which briefly spiked to ~$98M-$122M/day during the June 26-27 strikes before the stand-down. Pentagon-briefing basis: the US spent $1B in the war's first 48 hours and 'initially continued spending at a rate of $1 billion a day' (Fortune, June 24). Moody's/Zandi taxpayer-support basis: ~$50M/day. Peak burn was ~$1.88B/day in Days 1-6. Source: CSIS (Cancian & Park), Fortune, Moody's.",
-      "note": "Estimate; the ~$85M/day standby burn held through the July 1-6 stand-down with no strike-day spikes, though no carrier has been ordered home. Multiple methodologies: dashboard phased model ~$85M/day; Pentagon-briefing ~$1B/day for the opening; Moody's taxpayer-support basis ~$50M/day. Peak rate was ~$1.88B/day in Days 1-6."
+      "label": "Daily War Cost (est.) — active-ops burn resumed",
+      "change": "ACTIVE-OPS TEMPO RESUMED: the ~$85-95M/day ceasefire-standby rate NO LONGER APPLIES from Jul 7 — five strike waves in six days imply a return to a sustained-operations rate. The $500M/day shown is the LOWER BOUND of CSIS's active-campaign estimate.",
+      "tooltip": "The ~$95M/day ceasefire-standby rate (CSIS, Apr 30) NO LONGER APPLIES from Jul 7. Five strike waves in six days imply a return to a sustained-operations rate — CSIS senior adviser Mark Cancian estimated the active campaign at ~$500M–$1B/day (CSIS: $11.3B at Day 6, ~$1B/day thereafter). No new official DoD daily figure released.",
+      "note": "FLAG FOR MANUAL REVIEW — ceasefire-standby assumption invalid after Jul 7. Displayed $500M/day is the CSIS/Cancian active-ops LOWER BOUND (~$500M–$1B/day), not an official figure."
     },
     "total_cost": {
       "value": 132,
       "unit": "B",
-      "label": "Est. cost to US consumers + taxpayers (Moody's)",
-      "change": "Moody's Analytics pegs the cost to US consumers and taxpayers at least $132B (Mark Zandi), who on July 1 reframed the burden at ~$1,000 per US household 'and counting.' Pentagon direct cost $29B; CSIS $34B-$42B; the White House's June 24 $87.6B supplemental ($67.1B DoD) remains pending.",
-      "tooltip": "'For U.S. taxpayers and consumers, the cost of the war is at least $132 billion, according to Moody's Analytics. That factors in military spending, rising energy and commodity prices and interest rates,' per Mark Zandi, Moody's chief economist (NYT, June 19). Direct military figures are reported separately and not merged: Pentagon operational cost $29B (comptroller Jules Hurst, May 12); CSIS ~$40B ($34B-$42B; Cancian & Park). On June 24 the White House (OMB Director Vought) requested an $87.6B supplemental, of which $67.1B is the DoD share ($21B munitions, $17.3B operations, $12.1B classified). Sources: Moody's/NYT, CSIS, Pentagon, Breaking Defense/PBS. (Estimates are reported separately — do not merge.)",
-      "note": "Headline figure is the Moody's consumer + taxpayer cost (≥$132B), reframed by Mark Zandi on July 1 as ~$1,000 per US household ('and counting'). Direct military cost is lower and methodology-dependent: $29B official (Pentagon), ~$40B (CSIS), with a separate $87.6B supplemental request ($67.1B DoD) still pending. $113.3B per iran-cost-ticker.com."
+      "label": "Est. cost to US consumers + taxpayers — Moody's (mid-June, STALE)",
+      "change": "Moody's Analytics estimated ~$132B combined US consumer + taxpayer cost as of mid-June — now an UNDERCOUNT as it predates the July escalation. No new official cumulative figure released; the $87.6B supplemental (June 24) remains pending.",
+      "tooltip": "Moody's Analytics estimated ~$132B in combined US consumer + taxpayer cost as of mid-June (NPR, Jun 17; first reported NYT Jun 19), combining military spending, energy/raw-material prices and interest-rate burdens — now an undercount as it predates the July escalation. Direct US military operations estimated 'up to $42B,' with munitions alone ~$26B incl. 1,000+ Tomahawks at ~$2.6M each (CSIS Jun 23 via CSMonitor Jul 8). No new official cumulative figure released. (Estimates are reported separately — do not merge.)",
+      "note": "Stale baseline; the July 7-14 escalation is not yet priced in. Headline remains Moody's ≥$132B (consumer + taxpayer); direct military figures reported separately: $29B (Pentagon, May 12) / ~$30B (Vought, Jun 30) / up to $42B (CSIS); $103B first-120-days independent estimate (Popular Information, Jul 8)."
     }
   },
   "history": [
