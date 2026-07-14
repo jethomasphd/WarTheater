@@ -19,11 +19,14 @@
       6,
       7,
       8,
-      103
+      103,
+      131,
+      135,
+      136
     ],
-    "notes": "Day 103 (June 10): the IRGC struck Ali Al Salem Air Base with drones (intercepted) in retaliation for the June 9 US strikes — part of the multi-front June 10 salvo on Bahrain, Kuwait and a NEW Jordan (Azraq) front (see iran-strikes-gulf-bases-20260610). 386th Air Expeditionary Wing hub. Kuwaiti air defenses intercepted initial ballistic missiles on Feb 28; debris fell on base. Satellite imagery confirmed damage to 12+ structures, aircraft shelters, and runway areas. Camp Canada (Canadian forces) bunkers also damaged. On March 2, Kuwaiti F/A-18 shot down 3 US F-15Es in friendly fire incident — all 6 crew ejected safely. Italian 51st Stormo personnel sheltered in bunkers.",
+    "notes": "DAY 137 UPDATE (Jul 8-14): renewed IRGC-claimed strikes on Ali Al Salem AB (and Camp Arifjan) Jul 8-13 after the ceasefire collapse — no US casualties; IRGC claims (2 HIMARS destroyed) unverified; see kuwait-ali-al-salem-arifjan for detail. PRIOR: Day 103 (June 10): the IRGC struck Ali Al Salem Air Base with drones (intercepted) in retaliation for the June 9 US strikes — part of the multi-front June 10 salvo on Bahrain, Kuwait and a NEW Jordan (Azraq) front (see iran-strikes-gulf-bases-20260610). 386th Air Expeditionary Wing hub. Kuwaiti air defenses intercepted initial ballistic missiles on Feb 28; debris fell on base. Satellite imagery confirmed damage to 12+ structures, aircraft shelters, and runway areas. Camp Canada (Canadian forces) bunkers also damaged. On March 2, Kuwaiti F/A-18 shot down 3 US F-15Es in friendly fire incident — all 6 crew ejected safely. Italian 51st Stormo personnel sheltered in bunkers.",
     "verified": true,
-    "last_updated": "2026-06-10"
+    "last_updated": "2026-07-14"
   },
   {
     "id": "al-udeid-qatar",
@@ -113,11 +116,14 @@
       20,
       21,
       26,
-      103
+      103,
+      131,
+      135,
+      136
     ],
-    "notes": "Day 103 (June 10): the IRGC struck the US Fifth Fleet HQ (NSA Bahrain) with drones (intercepted) in retaliation for the June 9 US strikes — part of the multi-front June 10 salvo on Bahrain, Kuwait and a NEW Jordan (Azraq) front (see iran-strikes-gulf-bases-20260610). US Fifth Fleet / NAVCENT HQ. Day 26 (Mar 25): Bahrain air raid sirens activated. Cumulative since war start: 153 missiles and 301 drones intercepted. IRGC fires 'precision-guided' missiles and drones at US-hosting bases in Bahrain.",
+    "notes": "DAY 137 UPDATE (Jul 8-14): renewed IRGC-claimed missile/drone strikes on NSA Bahrain / Juffair and Sheikh Isa AB Jul 8, 12 and 13 after the ceasefire collapse — no US casualties (CENTCOM); downed drones damaged Bahraini homes; see bahrain-nsa-juffair for detail. PRIOR: Day 103 (June 10): the IRGC struck the US Fifth Fleet HQ (NSA Bahrain) with drones (intercepted) in retaliation for the June 9 US strikes — part of the multi-front June 10 salvo on Bahrain, Kuwait and a NEW Jordan (Azraq) front (see iran-strikes-gulf-bases-20260610). US Fifth Fleet / NAVCENT HQ. Day 26 (Mar 25): Bahrain air raid sirens activated. Cumulative since war start: 153 missiles and 301 drones intercepted. IRGC fires 'precision-guided' missiles and drones at US-hosting bases in Bahrain.",
     "verified": true,
-    "last_updated": "2026-06-10"
+    "last_updated": "2026-07-14"
   },
   {
     "id": "erbil-iraq",
@@ -3748,8 +3754,8 @@
   {
     "id": "leb-2026-05-22-southern-border",
     "city": "near Lebanon-Israel border, southern Lebanon",
-    "lat": 33.10,
-    "lng": 35.30,
+    "lat": 33.1,
+    "lng": 35.3,
     "type": "israel_kinetic_lebanon",
     "actor": "Israel Defense Forces (IDF)",
     "first_strike": "2026-05-22",
@@ -3795,8 +3801,8 @@
   {
     "id": "hezbollah-fpv-2026-05-24",
     "city": "northern Israel — Lebanon border zone",
-    "lat": 33.10,
-    "lng": 35.30,
+    "lat": 33.1,
+    "lng": 35.3,
     "type": "hezbollah_retaliation",
     "actor": "Hezbollah",
     "first_strike": "2026-05-24",
@@ -4228,7 +4234,7 @@
     "weapon": "IRGC drones (Bahrain Fifth Fleet HQ; Kuwait Ali Al Salem); long-range ballistic missiles (Jordan Azraq)",
     "casualties_reported": "No casualties — Jordan intercepted 5 missiles (debris only); Bahrain & Kuwait intercepted; US reported no casualties or damage",
     "casualties_source": "Jordanian Armed Forces; Bahrain Defence Force; Kuwait military; US official (anonymous)",
-    "notes": "Day 103 (June 10, Wednesday): Retaliation for the June 9 US strikes on Iran. The IRGC launched drones at the US Fifth Fleet HQ in Bahrain and Ali Al Salem Air Base in Kuwait, and long-range ballistic missiles at Azraq (Muwaffaq Salti) Air Base in Jordan — the war's DEEPEST Iranian reach (~1,000km from the Iranian coast). Jordan intercepted 5 missiles (debris only); Bahrain and Kuwait also reported interceptions. The IRGC claimed 21 US targets struck and 4 destroyed incl. an F-35 hangar at Azraq, plus downing an MQ-9 Reaper over Jam — all UNVERIFIED and disputed by US officials, who reported no US casualties or damage. Iran also claimed (UNVERIFIED) that US strikes hit reservoirs serving 20,000 people. Manifest §3.",
+    "notes": "Day 103 (June 10, Wednesday): Retaliation for the June 9 US strikes on Iran. The IRGC launched drones at the US Fifth Fleet HQ in Bahrain and Ali Al Salem Air Base in Kuwait, and long-range ballistic missiles at Azraq (Muwaffaq Salti) Air Base in Jordan — the war's DEEPEST Iranian reach (~1,000km from the Iranian coast). Jordan intercepted 5 missiles (debris only); Bahrain and Kuwait also reported interceptions. The IRGC claimed 21 US targets struck and 4 destroyed incl. an F-35 hangar at Azraq, plus downing an MQ-9 Reaper over Jam — all UNVERIFIED and disputed by US officials, who reported no US casualties or damage. Iran also claimed (UNVERIFIED) that US strikes hit reservoirs serving 20,000 people. Manifest §3. DAY 137 CROSS-REF (Jul 8-14): renewed Iranian strikes on the same three target sets — NSA Bahrain, Ali Al Salem and Azraq/Prince Hassan (Jordan) — occurred after the Jul 7 ceasefire collapse; see bahrain-nsa-juffair, kuwait-ali-al-salem-arifjan and jordan-prince-hassan-azraq.",
     "sources": [
       "Manifest §3",
       "Euronews June 10",
@@ -4238,7 +4244,7 @@
     ],
     "verified": true,
     "verification_confidence": "HIGH",
-    "last_updated": "2026-06-10"
+    "last_updated": "2026-07-14"
   },
   {
     "id": "iran-hormuz-closure-vessels-20260611",
@@ -4337,7 +4343,10 @@
     "first_strike": "2026-06-25",
     "casualties_reported": "Vessel damage on both ships; no crew casualties.",
     "casualties_source": "UKMTO / Ambrey / CENTCOM",
-    "active_days": [118, 120],
+    "active_days": [
+      118,
+      120
+    ],
     "notes": "Consolidated record of the IRGC drone attacks on commercial shipping that triggered the June 26-28 US strike cycle: the Singapore-flagged M/V EVER LOVELY (June 25; see dedicated entry 2026-06-25-hormuz-ever-lovely) and the Panama-flagged tanker M/T KIKU carrying ~2M bbl of Qatari crude (June 27). Both sustained vessel damage with no crew casualties. Iran insists vessels use IRGC-designated routes near the Iranian coast rather than the US/JMIC corridor near Oman — the dispute over which route ships use is the central fault line of the re-escalation. UKMTO raised its threat level moderate→substantial June 27; ~60 IRGC high-speed craft were observed in the western strait June 27-28; 4 OFAC-sanctioned vessels transited simultaneously June 28 (Windward). Coordinates approximate.",
     "verified": true,
     "last_updated": "2026-06-30"
@@ -4353,9 +4362,162 @@
     "first_strike": "2026-06-28",
     "casualties_reported": "Kuwait intercepted 2 ballistic missiles (no damage); Bahrain — an 8-story residential building in Muharraq hit, top floor destroyed, no deaths. A Qatari national was killed at sea by shrapnel the same window (cause not formally attributed).",
     "casualties_source": "Kuwait military / Bahrain Interior Ministry / Qatar MoI",
-    "active_days": [121],
-    "notes": "Day 121 (June 28): the IRGC fired ballistic missiles and drones at Ali Al Salem Air Base (Kuwait) and US 5th Fleet facilities in Bahrain in retaliation for the June 26-27 US strikes on Iranian territory. Kuwait intercepted 2 ballistic missiles (no damage); a Muharraq residential building's top floor was destroyed (no deaths). The IRGC claimed 8 US military sites were struck; a US official said no intended targets were impacted. Bahrain's FM called it a 'dangerous escalation.' A Qatari national was killed at sea by shrapnel during this window (Qatar MoI; cause NOT formally attributed to either US strikes or Iranian drones) plus 1 injured (stable). Coordinates point to the Bahrain (Muharraq) impact site. DAY 129 UPDATE (July 1-6): NO new Iranian retaliation. This June 28 salvo remains the LAST Iranian kinetic action of the war — the June 29 US-Iran stand-down held for the entire July 1-6 window with no new IRGC ballistic-missile or drone strikes on US bases or Gulf states, and no confirmed Houthi attacks on shipping. Iran issued only verbal warnings (a 'decisive/swift response' over any Hormuz miscalculation; 'harsh and regret-inducing responses' if attacked during Ayatollah Khamenei's state funeral) but took no kinetic action; indirect US-Iran talks in Doha (July 1-2) made 'positive progress' and are set to resume ~July 11.",
+    "active_days": [
+      121
+    ],
+    "notes": "Day 121 (June 28): the IRGC fired ballistic missiles and drones at Ali Al Salem Air Base (Kuwait) and US 5th Fleet facilities in Bahrain in retaliation for the June 26-27 US strikes on Iranian territory. Kuwait intercepted 2 ballistic missiles (no damage); a Muharraq residential building's top floor was destroyed (no deaths). The IRGC claimed 8 US military sites were struck; a US official said no intended targets were impacted. Bahrain's FM called it a 'dangerous escalation.' A Qatari national was killed at sea by shrapnel during this window (Qatar MoI; cause NOT formally attributed to either US strikes or Iranian drones) plus 1 injured (stable). Coordinates point to the Bahrain (Muharraq) impact site. DAY 129 UPDATE (July 1-6): NO new Iranian retaliation. This June 28 salvo remains the LAST Iranian kinetic action of the war — the June 29 US-Iran stand-down held for the entire July 1-6 window with no new IRGC ballistic-missile or drone strikes on US bases or Gulf states, and no confirmed Houthi attacks on shipping. Iran issued only verbal warnings (a 'decisive/swift response' over any Hormuz miscalculation; 'harsh and regret-inducing responses' if attacked during Ayatollah Khamenei's state funeral) but took no kinetic action; indirect US-Iran talks in Doha (July 1-2) made 'positive progress' and are set to resume ~July 11. DAY 137 CORRECTION: the 'last Iranian kinetic action' framing above is OBSOLETE — the ceasefire collapsed Jul 7 when Iran fired on 3 Hormuz-area tankers, and successive Iranian missile/drone waves hit US assets in Bahrain, Kuwait, Jordan, Oman and Qatar plus a Kuwaiti offshore oil platform and 2 UAE tankers over Jul 7-14 (see Jul 7-14 entries). Iran claimed strikes on '80+/85 US sites'; CENTCOM reported NO US casualties; most IRGC battle-damage claims remain unverified.",
     "verified": true,
-    "last_updated": "2026-07-06"
+    "last_updated": "2026-07-14"
+  },
+  {
+    "id": "hormuz-tankers-jul7",
+    "city": "Strait of Hormuz / off Oman (Limah)",
+    "lat": 26.2,
+    "lng": 56.4,
+    "type": "iran_retaliation",
+    "weapon": "Projectiles + one-way attack drone (3 commercial vessels; attribution: Iran/IRGC, not directly claimed)",
+    "origin": "Iran/IRGC (not directly claimed)",
+    "first_strike": "2026-07-07",
+    "casualties_reported": "No casualties; Qatari LNG tanker Al Rekayyat set afire (engine room); Saudi crude tanker Wedyan damaged; third tanker struck by drone",
+    "casualties_source": "UKMTO / Qatar & Saudi Foreign Ministries / Axios",
+    "active_days": [
+      130
+    ],
+    "notes": "TRIGGER for ceasefire collapse. US called it a 'gross violation' of the June 17 MOU, struck Iran in response, and revoked the license authorizing Iranian oil sales the same day.",
+    "verified": true,
+    "last_updated": "2026-07-14"
+  },
+  {
+    "id": "bahrain-nsa-juffair",
+    "city": "NSA Bahrain / Juffair & Sheikh Isa AB",
+    "lat": 26.21,
+    "lng": 50.61,
+    "type": "iran_retaliation",
+    "weapon": "Missiles + one-way attack drones (IRGC-claimed); target: US 5th Fleet HQ area, Sheikh Isa Air Base",
+    "origin": "Iran/IRGC (claimed)",
+    "first_strike": "2026-07-08",
+    "casualties_reported": "No US casualties (CENTCOM); sirens sounded 3x (Jul 8/12/13); downed drones damaged Bahraini homes",
+    "casualties_source": "IRGC claim / Bahrain Interior Ministry / CENTCOM",
+    "active_days": [
+      131,
+      135,
+      136
+    ],
+    "notes": "Part of Iran's claimed '80+/85 US sites' response; damage claims unverified (LOW confidence pending confirmation — CENTCOM reports no US casualties). See also bahrain-nsab (cumulative earlier-phase entry).",
+    "verified": true,
+    "last_updated": "2026-07-14"
+  },
+  {
+    "id": "kuwait-ali-al-salem-arifjan",
+    "city": "Ali Al Salem AB & Camp Arifjan, Kuwait",
+    "lat": 29.3467,
+    "lng": 47.5206,
+    "type": "iran_retaliation",
+    "weapon": "Missiles/drones (IRGC-claimed); target: US air base, HIMARS launchers, ammunition depots",
+    "origin": "Iran/IRGC (claimed)",
+    "first_strike": "2026-07-08",
+    "casualties_reported": "No US casualties; IRGC claimed 2 HIMARS launchers destroyed (unverified); Kuwait army engaged 'hostile aerial targets'",
+    "casualties_source": "IRGC claim / Kuwait General Staff",
+    "active_days": [
+      131,
+      135,
+      136
+    ],
+    "notes": "IRGC named Camp Arifjan and Ali Al Salem AB. Claims unverified by Kuwait/US (LOW confidence pending confirmation). See also ali-al-salem-kuwait (cumulative earlier-phase entry).",
+    "verified": true,
+    "last_updated": "2026-07-14"
+  },
+  {
+    "id": "kuwait-offshore-platform",
+    "city": "Kuwaiti territorial waters (offshore) & northern border posts",
+    "lat": 29.08,
+    "lng": 48.13,
+    "type": "iran_retaliation",
+    "weapon": "Missiles/drones; target: offshore oil drilling platform; 3 northern border posts",
+    "origin": "Iran/IRGC",
+    "first_strike": "2026-07-12",
+    "casualties_reported": "1 worker injured on offshore rig; material damage to 3 border posts",
+    "casualties_source": "Kuwait Defense Ministry (Col. Saud Abdulaziz Al-Atwan)",
+    "active_days": [
+      135
+    ],
+    "notes": "First strike on Kuwaiti offshore energy infrastructure this window; helped drive the oil-price spike.",
+    "verified": true,
+    "last_updated": "2026-07-14"
+  },
+  {
+    "id": "jordan-prince-hassan-azraq",
+    "city": "Prince Hassan AB / Azraq area, Jordan",
+    "lat": 32.16,
+    "lng": 37.15,
+    "type": "iran_retaliation",
+    "weapon": "Missiles (4 intercepted repeatedly, Jul 12-14); target: US command-and-control center, drone hangars",
+    "origin": "Iran/IRGC (claimed)",
+    "first_strike": "2026-07-12",
+    "casualties_reported": "No casualties; Jordan intercepted 4 missiles repeatedly (Jul 12-14); shrapnel fell in several areas",
+    "casualties_source": "Jordan Armed Forces / Petra",
+    "active_days": [
+      135,
+      136,
+      137
+    ],
+    "notes": "Jordan repeatedly reported intercepting 4 missiles entering its airspace from Iran.",
+    "verified": true,
+    "last_updated": "2026-07-14"
+  },
+  {
+    "id": "oman-radar-sites",
+    "city": "Musandam & Al Wusta, Oman",
+    "lat": 26.2,
+    "lng": 56.25,
+    "type": "iran_retaliation",
+    "weapon": "One-way attack drones (IRGC-claimed); target: long-range/vessel-detection radar sites",
+    "origin": "Iran/IRGC (claimed)",
+    "first_strike": "2026-07-12",
+    "casualties_reported": "Damage claimed by IRGC (unverified); Oman summoned Iran's ambassador in protest",
+    "casualties_source": "IRGC claim / Oman Foreign Ministry",
+    "active_days": [
+      135
+    ],
+    "notes": "Oman protested drone attacks on Musandam and Al Wusta governorates.",
+    "verified": true,
+    "last_updated": "2026-07-14"
+  },
+  {
+    "id": "qatar-shrapnel-jul12",
+    "city": "Qatar",
+    "lat": 25.2854,
+    "lng": 51.531,
+    "type": "iran_retaliation",
+    "weapon": "Missiles/drones intercepted over Qatar (falling shrapnel)",
+    "origin": "Iran/IRGC",
+    "first_strike": "2026-07-12",
+    "casualties_reported": "3 injured by falling shrapnel, including 1 child",
+    "casualties_source": "Qatar Ministry of Interior",
+    "active_days": [
+      135
+    ],
+    "notes": "Qatar condemned a 'dangerous escalation.'",
+    "verified": true,
+    "last_updated": "2026-07-14"
+  },
+  {
+    "id": "uae-tankers-jul13",
+    "city": "Strait of Hormuz (Omani territorial waters)",
+    "lat": 26.15,
+    "lng": 56.35,
+    "type": "iran_retaliation",
+    "weapon": "Cruise missiles; target: 2 UAE-flagged oil tankers (al-Bahiya, Mombasa)",
+    "origin": "Iran/IRGC (claimed)",
+    "first_strike": "2026-07-13",
+    "casualties_reported": "1 Indian crew member killed (aboard Mombasa); 6 Indian nationals and 2 Ukrainian citizens injured; UAE Defense Ministry says cruise missiles hit both national tankers in Omani waters",
+    "casualties_source": "UAE Defense Ministry (via CNN) / India MEA",
+    "active_days": [
+      136,
+      137
+    ],
+    "notes": "India summoned Iran's deputy ambassador over the killed sailor. IRGC claimed it 'struck and disabled' two 'rogue supertankers' (Jul 14).",
+    "verified": true,
+    "last_updated": "2026-07-14"
   }
 ]
