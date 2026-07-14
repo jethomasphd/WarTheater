@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 3.804,
-  "war_increase": 0.814,
+  "current_gas": 3.872,
+  "war_increase": 0.882,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.58 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com national average — $3.804 on Sunday July 5, 2026 (Day 128), down from $3.847 (June 30, Day 123) — an extended decline as crude held near pre-war lows during the July 1-6 US-Iran stand-down with no new strikes on either side. The June 29 stand-down held all six days; indirect US-Iran talks in Doha (July 1-2) made 'positive progress' and are set to resume ~July 11 after Ayatollah Khamenei's state funeral (July 4-9). Brent closed $71.73 and WTI $68.44 (July 6), near their lowest since Feb 27 and ~43% below the wartime peak above $120, pressured further by an OPEC+ decision (July 5) to add 188,000 bpd of output in August. Still ~$0.81/gal above the $2.99 Feb 28 baseline (~27% higher; AAA/Finder cite $2.96 on Feb 26). Pump relief from the oil slide lags crude by 2-3 weeks; NPR/AP note higher gas, grocery and flight prices will likely outlast the war. The wartime peak was ~$4.54-4.56/gal (NPR June 17 and CFR's Max Boot cite $4.56; AAA print $4.536 on May 6/21), below AAA's nominal record of $5.016 (June 14, 2022). Trump on June 24 ordered DOJ to probe alleged 'gouging' by oil companies for not cutting pump prices faster. Moody's Analytics (NPR) estimates the war has cost US consumers and taxpayers at least $132 billion so far.",
-  "last_updated": "2026-07-06"
+  "source": "AAA gasprices.aaa.com national average — $3.872 on Monday July 13, 2026 (Day 136), up from $3.84 (July 9) and $3.804 (July 5) as the war reignited; EIA's weekly read printed $3.855 (July 13). The US-Iran ceasefire COLLAPSED in this window: Iran fired on three Hormuz-area tankers July 7, Trump declared the ceasefire 'over' July 8, CENTCOM ran five-plus strike waves against 300+ Iranian targets July 7-14, and the US naval blockade of Iranian ports was reimposed effective July 14 (20:00 GMT). Brent settled +9.59% at $83.30 on July 13 — its biggest daily percentage gain since May 2020 and highest settlement since June 12 (Reuters) — with WTI at $78.14; both traded higher intraday July 14 (~$85 / ~$80). Pump prices lag crude by 2-3 weeks, so further increases are likely if the blockade and tanker attacks sustain Brent above $80. Still ~$0.88/gal above the $2.99 Feb 28 baseline (~30% higher). The wartime peak was ~$4.56/gal (May 21), below AAA's nominal record of $5.016 (June 14, 2022). Moody's Analytics (NPR, mid-June) estimated at least $132 billion in combined US consumer and taxpayer costs — now a stale undercount that predates the July escalation.",
+  "last_updated": "2026-07-13"
 }
