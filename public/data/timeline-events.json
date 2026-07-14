@@ -8998,5 +8998,50 @@
     "source": "Trading Economics / CNBC / Yahoo Finance / AAA",
     "time": "Day 129",
     "title": "Oil near pre-war lows; US stocks extend records"
+  },
+  {
+    "date": "2026-07-05",
+    "time": "Day 128",
+    "title": "[Context] Khamenei funeral; successor Mojtaba absent",
+    "description": "Iran's six-day state funeral for slain Supreme Leader Ali Khamenei ran Jul 4-9, ending with burial in Mashhad Jul 9. Successor Mojtaba Khamenei - reportedly seriously wounded/possibly disfigured in the Feb 28 strike - did not appear publicly, fueling questions over who is actually leading Iran. (Boundary event, just before horizon.)",
+    "category": "political",
+    "source": "Time / CNN / CNBC / Reuters",
+    "data_point": "Six-day state funeral Jul 4-9; successor Mojtaba Khamenei absent — leadership vacuum questions"
+  },
+  {
+    "date": "2026-07-07",
+    "time": "Day 130",
+    "title": "Iran hits 3 tankers; US strikes back; oil license revoked",
+    "description": "Iran's IRGC fired on three commercial vessels near the Strait of Hormuz in Omani waters (Qatari LNG carrier Al Rekayyat, Saudi crude tanker Wedyan, and a third). The US called it a 'gross violation' of the June 17 MOU, launched retaliatory strikes it labeled 'punishment,' and revoked the license authorizing Iranian oil sales.",
+    "category": "military",
+    "source": "CENTCOM / Axios / CNN / NPR / Bloomberg",
+    "data_point": "CEASEFIRE COLLAPSES: 3 tankers struck (Al Rekayyat afire); US retaliates, revokes Iran oil-sales license"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "Day 131",
+    "title": "Trump declares ceasefire 'over'; second US strike wave",
+    "description": "At the NATO summit in Ankara, Trump said the US-Iran ceasefire was 'over,' called Iranian leaders 'scum,' and threatened to 'take Kharg Island.' Overnight, CENTCOM hit Chabahar, Konarak, Bandar Abbas, Bushehr, Sirik, Qeshm and Iranshahr. Iran claimed missile/drone strikes on 80+/85 US sites in Bahrain and Kuwait.",
+    "category": "political",
+    "source": "CENTCOM / CNN / Al Jazeera / CNBC",
+    "data_point": "Trump: ceasefire 'over'; overnight wave hits 7 coastal cities; Iran claims 80+/85 US sites struck"
+  },
+  {
+    "date": "2026-07-09",
+    "time": "Day 132",
+    "title": "Iran reports 14 killed; further US strikes; Gulf allies hit",
+    "description": "Iran's Health Ministry (Hossein Kermanpour) said US strikes on Jul 8-9 across five provinces killed 14 and injured 78; the Iranian Army separately reported 8 military personnel killed at Bandar Abbas/Bushehr. CENTCOM completed a further ~90-target wave. Iran again struck US-allied Gulf states.",
+    "category": "humanitarian",
+    "source": "Iran Health Ministry (via Anadolu) / CENTCOM / NPR / IranWire",
+    "data_point": "Iran Health Ministry: 14 killed / 78 injured Jul 8-9; ~170 targets over Jul 8-9"
+  },
+  {
+    "date": "2026-07-10",
+    "time": "Day 133",
+    "title": "Trump says talks continue; War Powers notice to Congress",
+    "description": "Oil eased as Trump said peace talks with Iran would continue even with the ceasefire 'over.' Trump formally notified Congress (letter dated Jul 10) that US military action against Iran had resumed on Jul 7, invoking the War Powers Resolution to keep forces in combat for another 60 days.",
+    "category": "diplomatic",
+    "source": "Reuters / CNBC / Barchart / Al Jazeera",
+    "data_point": "War Powers notification: combat resumed Jul 7, 60-day window; talks 'continue'"
   }
 ]
