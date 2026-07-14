@@ -8998,5 +8998,95 @@
     "source": "Trading Economics / CNBC / Yahoo Finance / AAA",
     "time": "Day 129",
     "title": "Oil near pre-war lows; US stocks extend records"
+  },
+  {
+    "date": "2026-07-05",
+    "time": "Day 128",
+    "title": "[Context] Khamenei funeral; successor Mojtaba absent",
+    "description": "Iran's six-day state funeral for slain Supreme Leader Ali Khamenei ran Jul 4-9, ending with burial in Mashhad Jul 9. Successor Mojtaba Khamenei - reportedly seriously wounded/possibly disfigured in the Feb 28 strike - did not appear publicly, fueling questions over who is actually leading Iran. (Boundary event, just before horizon.)",
+    "category": "political",
+    "source": "Time / CNN / CNBC / Reuters",
+    "data_point": "Six-day state funeral Jul 4-9; successor Mojtaba Khamenei absent — leadership vacuum questions"
+  },
+  {
+    "date": "2026-07-07",
+    "time": "Day 130",
+    "title": "Iran hits 3 tankers; US strikes back; oil license revoked",
+    "description": "Iran's IRGC fired on three commercial vessels near the Strait of Hormuz in Omani waters (Qatari LNG carrier Al Rekayyat, Saudi crude tanker Wedyan, and a third). The US called it a 'gross violation' of the June 17 MOU, launched retaliatory strikes it labeled 'punishment,' and revoked the license authorizing Iranian oil sales.",
+    "category": "military",
+    "source": "CENTCOM / Axios / CNN / NPR / Bloomberg",
+    "data_point": "CEASEFIRE COLLAPSES: 3 tankers struck (Al Rekayyat afire); US retaliates, revokes Iran oil-sales license"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "Day 131",
+    "title": "Trump declares ceasefire 'over'; second US strike wave",
+    "description": "At the NATO summit in Ankara, Trump said the US-Iran ceasefire was 'over,' called Iranian leaders 'scum,' and threatened to 'take Kharg Island.' Overnight, CENTCOM hit Chabahar, Konarak, Bandar Abbas, Bushehr, Sirik, Qeshm and Iranshahr. Iran claimed missile/drone strikes on 80+/85 US sites in Bahrain and Kuwait.",
+    "category": "political",
+    "source": "CENTCOM / CNN / Al Jazeera / CNBC",
+    "data_point": "Trump: ceasefire 'over'; overnight wave hits 7 coastal cities; Iran claims 80+/85 US sites struck"
+  },
+  {
+    "date": "2026-07-09",
+    "time": "Day 132",
+    "title": "Iran reports 14 killed; further US strikes; Gulf allies hit",
+    "description": "Iran's Health Ministry (Hossein Kermanpour) said US strikes on Jul 8-9 across five provinces killed 14 and injured 78; the Iranian Army separately reported 8 military personnel killed at Bandar Abbas/Bushehr. CENTCOM completed a further ~90-target wave. Iran again struck US-allied Gulf states.",
+    "category": "humanitarian",
+    "source": "Iran Health Ministry (via Anadolu) / CENTCOM / NPR / IranWire",
+    "data_point": "Iran Health Ministry: 14 killed / 78 injured Jul 8-9; ~170 targets over Jul 8-9"
+  },
+  {
+    "date": "2026-07-10",
+    "time": "Day 133",
+    "title": "Trump says talks continue; War Powers notice to Congress",
+    "description": "Oil eased as Trump said peace talks with Iran would continue even with the ceasefire 'over.' Trump formally notified Congress (letter dated Jul 10) that US military action against Iran had resumed on Jul 7, invoking the War Powers Resolution to keep forces in combat for another 60 days.",
+    "category": "diplomatic",
+    "source": "Reuters / CNBC / Barchart / Al Jazeera",
+    "data_point": "War Powers notification: combat resumed Jul 7, 60-day window; talks 'continue'"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "Day 134",
+    "title": "Sen. Lindsey Graham dies at 71",
+    "description": "Senator Lindsey Graham (R-SC), a leading Iran hawk, died Saturday night Jul 11 (announced Jul 12) of an aortic dissection due to arteriosclerotic cardiovascular disease - a natural cause - hours after returning from Kyiv. Despite some outlets juxtaposing his death with prior Iranian threats, no credible source links it to Iran.",
+    "category": "political",
+    "source": "Washington Post / NBC News",
+    "data_point": "Graham dead at 71 — aortic dissection, natural cause; NO credible Iran link"
+  },
+  {
+    "date": "2026-07-12",
+    "time": "Day 135",
+    "title": "~140-target wave; first US combat sea drones; Gulf states hit",
+    "description": "CENTCOM struck ~140 Iranian targets, using one-way attack sea drones (Saronic Corsair USVs) for the first time in combat against the Bandar Abbas Naval Base submarine facility. Iran retaliated against the UAE, Qatar (3 injured incl. a child), Kuwait (offshore oil platform + border posts), Oman and Jordan. Week's cumulative topped 300 targets.",
+    "category": "military",
+    "source": "CENTCOM / USNI News / Breaking Defense / CNN / Al Jazeera",
+    "data_point": "FIRST US COMBAT SEA DRONES (3 Corsair USVs, Bandar Abbas); ~140 targets; 5-country Iranian retaliation"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "Day 136",
+    "title": "Trump reinstates Hormuz blockade + 20% cargo fee; oil spikes",
+    "description": "Trump reimposed the naval blockade of Iranian ports (effective Jul 14, 4pm ET) and declared the US 'THE GUARDIAN OF THE HORMUZ STRAIT,' demanding 20% reimbursement on all cargo - erasing the last MOU concession. Brent settled +9.59% at $83.30, its biggest daily % gain since May 2020; S&P 500 fell 0.79% to 7,515.34. Iran hit two UAE tankers, killing an Indian crew member.",
+    "category": "economic",
+    "source": "Bloomberg / CNBC / NPR / ABC News / Washington Post / Reuters",
+    "data_point": "Blockade reimposed; Brent +9.59% to $83.30 (biggest daily % gain since May 2020); Indian sailor killed on UAE tanker"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "Day 136",
+    "title": "Houthis fire on Saudi Arabia, breaking 4-year truce",
+    "description": "After alleged strikes on Sanaa International Airport (aimed at blocking an Iranian air bridge), Yemen's Houthis fired missiles at Saudi Arabia's Abha airport - their first attack on the kingdom since the March 2022 truce - declaring the 'de-escalation phase' over. Trump reportedly backed the Sanaa strike in a call with MBS.",
+    "category": "military",
+    "source": "Reuters / Japan Times / Jewish Insider / Middle East Eye / Jerusalem Post",
+    "data_point": "Houthi-Saudi truce BREAKS: missiles at Abha airport, first attack on the kingdom since March 2022"
+  },
+  {
+    "date": "2026-07-14",
+    "time": "Day 137",
+    "title": "Blockade takes effect; Trump reverses 20% Hormuz fee",
+    "description": "The US naval blockade of Iran's southern ports began (20:00 GMT, per the Joint Maritime Information Centre). Trump reversed the 20% cargo fee, replacing it with 'Trade and Investment Deals' from Gulf states, and said the strait is 'open to ALL Ship traffic except for Iran.' US struck Kish, Qeshm, Bushehr, Bandar Abbas, Mahshahr and Abadan; Iran hit two more tankers. Iran's parliament introduced a Hormuz-management bill.",
+    "category": "political",
+    "source": "Al Jazeera / CNBC / Fox News / CNN",
+    "data_point": "Blockade effective 20:00 GMT; 20% cargo fee reversed within ~24h; fresh strikes on 6 cities"
   }
 ]

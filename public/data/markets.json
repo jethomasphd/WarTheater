@@ -93,7 +93,12 @@
     "Jun 29",
     "Jul 1",
     "Jul 2",
-    "Jul 6"
+    "Jul 6",
+    "Jul 7",
+    "Jul 8",
+    "Jul 9",
+    "Jul 10",
+    "Jul 13"
   ],
   "contexts": [
     "Pre-war close — baseline",
@@ -188,7 +193,12 @@
     "Day 122 (June 29, Monday) — RELIEF RALLY, DOW TOPS 52,000 FOR THE FIRST TIME: S&P 500 +1.16% to 7,440.43; DOW +0.59% to 52,182.74 (first-ever close above 52,000, Alphabet joining the index and rising >4%); NASDAQ +2.07% to 25,820.15; VIX 17.60; Russell 2000 3,010.42. Equities rebounded after the prior week's ~2% loss despite four days of US-Iran strikes — lower oil and yields were net bullish. Defense (LMT, RTX, NOC, GD) rose on the $87.6B supplemental and FY27 $1.15T NDAA tailwind, with Lockheed's $35.3B sole-source THAAD award (aiming to quadruple output to 400 interceptors/yr); oil majors lagged as crude held near pre-war levels. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
     "Day 124 (July 1, Wednesday) — QUIET AS THE STAND-DOWN HOLDS: S&P 500 -0.22% to 7,483.23; DOW -0.03% to 52,305.24; NASDAQ 26,040.03. The June 29 US-Iran stand-down held with no new strikes, and indirect talks opened in Doha (VP Vance: talks 'going well'); Brent traded ~$72.5 and WTI ~$69 as the war-risk premium stayed unwound. Defense held firm on the pending $87.6B supplemental; oil majors eased with crude; airlines firmed on cheaper jet fuel and Cathay Pacific's phased Middle East resumption. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
     "Day 125 (July 2, Thursday) — DOW SETS A RECORD; MARKETS ESSENTIALLY FLAT: S&P 500 +0.01 to 7,483.24 (essentially unchanged); DOW +1.14% to a record 52,900.07; NASDAQ -0.80% to 25,832.67. The indirect Doha talks concluded with 'positive progress' (Qatar's al-Ansari) — a $6B frozen-funds goods mechanism and a violations-communications channel agreed — while a rotation out of chips pressured the NASDAQ. The ITA defense ETF traded ~$247.29 (up ~38% YTD, near a 52-week high); oil majors stayed soft as Brent held ~$71.5; airlines gained on Cathay Pacific's phased Gulf resumption. Markets closed July 3 for Independence Day. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
-    "Day 129 (July 6, Monday) — RECORDS EXTEND AS CHIPS RECOVER (INTRADAY): after the July 3 holiday, stocks rose July 6 — the S&P 500 gained ~0.8% and the DOW topped 53,000 intraday (both fresh records) while the NASDAQ recovered ~1.2% as chip stocks rebounded; figures are intraday (this update posted ~3 PM ET, before the close). Oil settled near pre-war lows (Brent $71.73, WTI $68.44) after OPEC+ agreed July 5 to add 188,000 bpd in August. Backdrop: the US-Iran stand-down held all week and Tehran's main state-funeral procession for Ayatollah Khamenei drew huge crowds, with talks set to resume ~July 11. Defense firmed with the broad tape; oil majors tracked crude lower; airlines held gains on cheaper fuel. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)"
+    "Day 129 (July 6, Monday) — RECORDS EXTEND AS CHIPS RECOVER (INTRADAY): after the July 3 holiday, stocks rose July 6 — the S&P 500 gained ~0.8% and the DOW topped 53,000 intraday (both fresh records) while the NASDAQ recovered ~1.2% as chip stocks rebounded; figures are intraday (this update posted ~3 PM ET, before the close). Oil settled near pre-war lows (Brent $71.73, WTI $68.44) after OPEC+ agreed July 5 to add 188,000 bpd in August. Backdrop: the US-Iran stand-down held all week and Tehran's main state-funeral procession for Ayatollah Khamenei drew huge crowds, with talks set to resume ~July 11. Defense firmed with the broad tape; oil majors tracked crude lower; airlines held gains on cheaper fuel. (NOTE: defense/oil-major/airline sub-index levels are UNVERIFIED — only directional moves are sourced.)",
+    "Day 130 (July 7, Tuesday) — CEASEFIRE BREAKS; TECH SELLS OFF: S&P 500 -0.45% to 7,503.85 as an AI/chip sell-off dominated the tape; oil jumped ~3% (Brent $74.16) after Iran fired on three commercial tankers near the Strait of Hormuz — the Qatari LNG carrier Al Rekayyat set afire, the Saudi crude tanker Wedyan damaged — and the US called it a 'gross violation' of the June 17 MOU, launched retaliatory strikes and revoked the license authorizing Iranian oil sales.",
+    "Day 131 (July 8, Wednesday) — TRUMP DECLARES CEASEFIRE 'OVER': S&P 500 -0.28% to 7,482.71; DOW -1.09%; Brent settled +5.43% at $78.19 as Trump, at the NATO summit in Ankara, declared the US-Iran ceasefire 'over' and CENTCOM opened an overnight strike wave on Chabahar, Konarak, Bandar Abbas, Bushehr, Sirik, Qeshm and Iranshahr. Energy (XLE) rose while tech fell. (NOTE: defense/oil-major/airline sub-index levels not located this window — data not available; only directional sector moves are sourced.)",
+    "Day 132 (July 9, Thursday) — CHIP REBOUND: S&P 500 +0.81% to 7,543.64 as chip stocks rebounded; oil slid ~2% (Brent $76.30) on mediation hopes even as Iran's Health Ministry reported 14 killed in the Jul 8-9 US strikes and CENTCOM completed a further wave toward ~170 targets over Jul 8-9.",
+    "Day 133 (July 10, Friday) — WEEKLY GAIN; SK HYNIX NASDAQ DEBUT: S&P 500 +0.42% to 7,575.39, closing out a weekly gain; SK Hynix debuted on the Nasdaq. Oil eased (Brent $76.01) as Trump said peace talks with Iran would continue even with the ceasefire 'over,' and formally notified Congress under the War Powers Resolution that US military action against Iran had resumed July 7.",
+    "Day 136 (July 13, Monday) — OIL SPIKES 9.6% ON BLOCKADE NEWS; STOCKS FALL: S&P 500 -0.79% to 7,515.34 after Trump reimposed the naval blockade of Iranian ports (effective July 14) and declared the US 'THE GUARDIAN OF THE HORMUZ STRAIT'; Brent settled +9.59% at $83.30 — its biggest daily percentage gain since May 2020. NASDAQ -1.55% as SK Hynix -9% led a chip rout; energy (XLE) +~3% was the S&P's best sector while tech (XLK) fell ~2%. Iran hit two UAE tankers, killing an Indian crew member. (NOTE: defense/airline sub-index levels not located — data not available.)"
   ],
   "datasets": {
     "sp500": {
@@ -287,7 +297,12 @@
         108.16,
         108.79,
         108.79,
-        109.65
+        109.65,
+        109.09,
+        108.78,
+        109.66,
+        110.13,
+        109.25
       ],
       "color": "#ef4444"
     },
@@ -387,7 +402,12 @@
         116.5,
         117.0,
         117.5,
-        118.5
+        118.5,
+        null,
+        null,
+        null,
+        null,
+        null
       ],
       "color": "#22c55e"
     },
@@ -487,7 +507,12 @@
         116.0,
         115.0,
         114.5,
-        114.0
+        114.0,
+        null,
+        null,
+        null,
+        null,
+        null
       ],
       "color": "#d4a020"
     },
@@ -587,10 +612,15 @@
         72.5,
         73.5,
         74.5,
-        75.5
+        75.5,
+        null,
+        null,
+        null,
+        null,
+        null
       ],
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-07-06"
+  "last_updated": "2026-07-14"
 }
