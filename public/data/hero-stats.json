@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-06",
-  "war_day": 129,
-  "timestamp_label": "LAST UPDATED: JUL 06, 2026 15:29 ET",
+  "last_updated": "2026-07-14",
+  "war_day": 137,
+  "timestamp_label": "LAST UPDATED: JUL 14, 2026 15:23 ET",
   "cost": {
     "brent": {
       "price": 83.3,
@@ -2243,6 +2243,28 @@
       "children_killed": 376,
       "headline": "Day 129 (July 6, Monday) — Combat froze; diplomacy advanced. The June 29 US-Iran stand-down held for the entire July 1-6 window — zero new kinetic exchanges between the US and Iran. Indirect technical talks in Doha (July 1-2, via Qatari and Pakistani mediators) concluded with 'positive progress': a mechanism to use part of the $6B in frozen, Qatar-held Iranian funds for goods purchases plus a violations-communications channel; talks resume ~July 11 after Ayatollah Khamenei's state funeral (July 4-9; main Tehran procession July 6). Oil and equities leaned toward peace — Brent closed $71.73 and WTI $68.44 (July 6) near pre-war lows after OPEC+ agreed July 5 to add 188,000 bpd in August, while the Dow set a record 52,900.07 (July 2) and topped 53,000 intraday July 6 and AAA gas fell to $3.804. The only new US casualty event was NON-COMBAT: a Navy MH-60S ditched in the Arabian Sea July 1, three of four aircrew recovered and one aircrewman lost (search suspended July 5; presumed dead, not yet KIA). Lebanon stayed the lone kinetic front — Israel struck 10 Hezbollah sites July 3 and the Lebanese toll rose to ~4,301. Carriers Lincoln and Bush held station in the Arabian Sea; no surge or withdrawal.",
       "note": "Stand-down held all six days (July 1-6): no new US-Iran strikes. Doha talks made 'positive progress' ($6B frozen-funds goods mechanism + violations channel), resume ~July 11 after Khamenei's funeral. Oil near pre-war lows (Brent $71.73 / WTI $68.44) after OPEC+ +188k bpd; Dow record 52,900 (Jul 2), >53,000 intraday Jul 6; gas $3.804. One non-combat US loss (MH-60S aircrewman off the Bush; presumed lost, not yet KIA). Lebanon toll ~4,301. No new Iranian deaths."
+    },
+    {
+      "date": "2026-07-14",
+      "war_day": 137,
+      "brent": 83.3,
+      "wti": 78.14,
+      "gas": 3.872,
+      "sp500": 7515.34,
+      "sp500_change_pct": -0.79,
+      "nasdaq": null,
+      "dow": null,
+      "daily_cost_millions": 500,
+      "total_cost_billions": null,
+      "targets_struck": 35914,
+      "us_kia": 13,
+      "us_wia": 543,
+      "iranian_killed": 3468,
+      "lebanese_killed": 4321,
+      "displaced": 1200000,
+      "flights_cancelled": 8000,
+      "children_killed": 376,
+      "headline": "Day 137 (July 14, Tuesday) — CEASEFIRE COLLAPSED; HORMUZ BLOCKADE REIMPOSED. Iran fired on 3 Hormuz-area tankers Jul 7; Trump declared the ceasefire 'over' Jul 8; CENTCOM ran five-plus strike waves against 300+ Iranian targets Jul 7-14, including the first US combat use of sea drones (3 Saronic Corsair USVs, Bandar Abbas Naval Base, Jul 12). Iran struck US-linked sites in Bahrain, Kuwait, Jordan, Oman and Qatar, a Kuwaiti offshore oil rig, and 2 UAE tankers (1 Indian sailor killed). The US naval blockade of Iranian ports took effect Jul 14, 20:00 GMT; Trump announced then reversed a 20% Hormuz cargo fee within ~24h. Brent settled +9.59% at $83.30 (Jul 13, biggest daily % gain since May 2020); S&P 500 -0.79% to 7,515.34; AAA gas $3.872. Iranian window tolls conflict by source (Health Ministry 14/78 then 17/115; Army 8; IRGC 3) — kept separate, never summed; cumulative counter held at the frozen 3,468 MoH benchmark. Nasdaq/Dow levels and a post-escalation cumulative cost figure were not published — recorded as null, not estimated. Daily cost $500M/day = CSIS active-ops lower bound, FLAGGED for manual review."
     }
   ],
   "toll": {
