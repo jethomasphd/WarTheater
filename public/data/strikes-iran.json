@@ -2541,5 +2541,189 @@
     "notes": "10 Iranian military targets 'in and near the Strait of Hormuz' — largest single-day US package since the MOU. Response to M/T Kiku drone attack.",
     "verified": true,
     "last_updated": "2026-06-30"
+  },
+  {
+    "id": "iranshahr",
+    "city": "Iranshahr, Sistan & Baluchestan",
+    "lat": 27.2025,
+    "lng": 60.6848,
+    "type": "us_strike",
+    "actor": "us",
+    "weapon": "Precision munitions (CENTCOM)",
+    "first_strike": "2026-07-08",
+    "casualties_reported": "1 firefighter killed at Iranshahr airport; flight-operations building and meteorological station damaged (IRNA/Mehr)",
+    "casualties_source": "IRNA / Mehr",
+    "active_days": [
+      131
+    ],
+    "notes": "Airport heavily bombed; fatality reported by Iranian state media.",
+    "verified": true,
+    "last_updated": "2026-07-14"
+  },
+  {
+    "id": "sirik",
+    "city": "Sirik, Hormozgan",
+    "lat": 26.515,
+    "lng": 57.14,
+    "type": "us_strike",
+    "actor": "us",
+    "weapon": "Precision munitions (CENTCOM)",
+    "first_strike": "2026-07-08",
+    "casualties_reported": "Not specified",
+    "casualties_source": "IRNA / Mehr",
+    "active_days": [
+      131
+    ],
+    "notes": "Two projectiles hit Sirik port per Iran state TV; air defense activated. City-level entry for the renewed (Jul 7+) campaign — see sirik-2026-06-26 and hormuz-strikes-2026-06-27 for the June events.",
+    "verified": true,
+    "last_updated": "2026-07-14"
+  },
+  {
+    "id": "qeshm-island",
+    "city": "Qeshm Island, Hormozgan",
+    "lat": 26.9581,
+    "lng": 56.2719,
+    "type": "us_strike",
+    "actor": "us",
+    "weapon": "Precision munitions (CENTCOM)",
+    "first_strike": "2026-07-08",
+    "casualties_reported": "No casualties on island (IRNA, per Qeshm governor Hossein Amir Teymouri); 10-11 projectiles",
+    "casualties_source": "IRNA",
+    "active_days": [
+      131,
+      135
+    ],
+    "notes": "Largest Gulf island; hosts IRGC naval bases, radars, telecom towers. Hit Jul 8 and again Jul 12. City-level entry for the renewed (Jul 7+) campaign — earlier Qeshm events tracked separately.",
+    "verified": true,
+    "last_updated": "2026-07-14"
+  },
+  {
+    "id": "jask",
+    "city": "Jask, Hormozgan",
+    "lat": 25.6432,
+    "lng": 57.7742,
+    "type": "us_strike",
+    "actor": "us",
+    "weapon": "Precision munitions (CENTCOM)",
+    "first_strike": "2026-07-08",
+    "casualties_reported": "Not specified",
+    "casualties_source": "CENTCOM / IRNA",
+    "active_days": [
+      131,
+      136
+    ],
+    "notes": "CENTCOM named Jask among coastal targets in its five-hour Jul 13 wave.",
+    "verified": true,
+    "last_updated": "2026-07-14"
+  },
+  {
+    "id": "kish-island",
+    "city": "Kish Island, Hormozgan",
+    "lat": 26.5578,
+    "lng": 53.9807,
+    "type": "us_strike",
+    "actor": "us",
+    "weapon": "Precision munitions (CENTCOM)",
+    "first_strike": "2026-07-13",
+    "casualties_reported": "Power generation units damaged (Kish Water & Power Engineering Co., via Fars)",
+    "casualties_source": "Fars",
+    "active_days": [
+      136,
+      137
+    ],
+    "notes": "Resort island that also hosts naval/radar installations and missile/drone-support aviation facilities.",
+    "verified": true,
+    "last_updated": "2026-07-14"
+  },
+  {
+    "id": "larak-island",
+    "city": "Larak Island, Hormozgan",
+    "lat": 26.85,
+    "lng": 56.3667,
+    "type": "us_strike",
+    "actor": "us",
+    "weapon": "Precision munitions (CENTCOM)",
+    "first_strike": "2026-07-13",
+    "casualties_reported": "Not specified",
+    "casualties_source": "WANA / IRNA",
+    "active_days": [
+      136
+    ],
+    "notes": "Explosions reported Jul 13; strategic island near the Hormuz shipping lanes.",
+    "verified": true,
+    "last_updated": "2026-07-14"
+  },
+  {
+    "id": "bandar-e-mahshahr",
+    "city": "Bandar-e Mahshahr, Khuzestan",
+    "lat": 30.5589,
+    "lng": 49.198,
+    "type": "us_strike",
+    "actor": "us",
+    "weapon": "Precision munitions (CENTCOM)",
+    "first_strike": "2026-07-12",
+    "casualties_reported": "1 killed (facility security guard), 4 injured - agricultural water-pumping station (IRNA/Fars)",
+    "casualties_source": "IRNA / Fars",
+    "active_days": [
+      135,
+      137
+    ],
+    "notes": "Iran cited Bandar-e Mahshahr among targets; also hit Jul 14.",
+    "verified": true,
+    "last_updated": "2026-07-14"
+  },
+  {
+    "id": "abu-musa-island",
+    "city": "Abu Musa Island, Hormozgan",
+    "lat": 25.8767,
+    "lng": 55.033,
+    "type": "us_strike",
+    "actor": "us",
+    "weapon": "Precision munitions (CENTCOM)",
+    "first_strike": "2026-07-08",
+    "casualties_reported": "Not specified",
+    "casualties_source": "CENTCOM / IRNA",
+    "active_days": [
+      131
+    ],
+    "notes": "CENTCOM listed Abu Musa among sites struck; disputed island near Hormuz.",
+    "verified": true,
+    "last_updated": "2026-07-14"
+  },
+  {
+    "id": "farur-island",
+    "city": "Farur Island, Hormozgan",
+    "lat": 26.28,
+    "lng": 54.53,
+    "type": "us_strike",
+    "actor": "us",
+    "weapon": "Precision munitions (CENTCOM)",
+    "first_strike": "2026-07-12",
+    "casualties_reported": "1 telecom technician (MCI) killed, 2 injured (IRNA)",
+    "casualties_source": "IRNA",
+    "active_days": [
+      135
+    ],
+    "notes": "Fatality among civilian telecom staff reported by IRNA.",
+    "verified": true,
+    "last_updated": "2026-07-14"
+  },
+  {
+    "id": "omidiyeh",
+    "city": "Omidiyeh, Khuzestan",
+    "lat": 30.746,
+    "lng": 49.6884,
+    "type": "us_strike",
+    "actor": "us",
+    "weapon": "Precision munitions (CENTCOM)",
+    "first_strike": "2026-07-13",
+    "casualties_reported": "At least 4 wounded (Iranian media)",
+    "casualties_source": "Iranian media / Fars",
+    "active_days": [
+      136
+    ],
+    "notes": "Casualties reported in Jul 13 wave.",
+    "verified": true,
+    "last_updated": "2026-07-14"
   }
 ]
