@@ -128,7 +128,15 @@
     "Day 126",
     "Day 127",
     "Day 128",
-    "Day 129"
+    "Day 129",
+    "Day 130",
+    "Day 131",
+    "Day 132",
+    "Day 133",
+    "Day 134",
+    "Day 135",
+    "Day 136",
+    "Day 137"
   ],
   "daily_cost_millions": [
     3000,
@@ -259,7 +267,15 @@
     85,
     85,
     85,
-    85
+    85,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500
   ],
   "day_notes": [
     "First strikes — $5.6B munitions in 48 hrs (WaPo)",
@@ -390,7 +406,15 @@
     "Day 126 (July 3, Friday) — HOLIDAY LULL; LEBANON THE ONLY LIVE COST FRONT. Standby burn ~$85M/day; US financial markets closed for Independence Day. The only kinetic activity was in Lebanon, where Israel struck 10 Hezbollah sites — an Israeli, not US, expenditure. No new US operational costs; cumulative benchmarks unchanged.",
     "Day 127 (July 4, Saturday) — STANDBY BURN; STATE FUNERAL OPENS. Standby burn ~$85M/day. Iran's multi-day state funeral for Ayatollah Khamenei opened to the public (procession July 4-9); Iran said July 4 it will 'definitely' charge Hormuz transit fees once the toll-free window lapses. No new US operational costs; cumulative benchmarks unchanged.",
     "Day 128 (July 5, Sunday) — OPEC+ ADDS SUPPLY; NAVY SEARCH SUSPENDED. Standby burn ~$85M/day. OPEC+ agreed a production increase of 188,000 bpd for August (Saudi Arabia and Russia each +62,000 bpd), pressuring crude further; the US Navy suspended its 102-hour search for the missing MH-60S aircrewman at 3:00 p.m. AST. No new US operational costs; cumulative benchmarks unchanged.",
-    "Day 129 (July 6, Monday) — SIX DAYS OF STANDBY BURN; COST FRAME UNCHANGED. The June 29 stand-down held for the entire July 1-6 window, so the estimated US military burn ran at the ~$85M/day standby level all six days with no offensive-tempo spikes. The headline cost figures remain a set of incompatible, separately-attributed estimates — NOT to be summed: Moody's Analytics at least $132B (US consumers + taxpayers; military spending plus energy/commodity prices and interest rates, per Mark Zandi, who on July 1 reframed the burden at ~$1,000 per US household 'and counting'); Pentagon direct operational cost ~$29B (Comptroller Jules Hurst, unchanged); CSIS ~$34-42B. The White House's June 24 supplemental request ($87.6B total; $67.1B Defense) is still pending with no markup or floor-vote date. Financially the week was defined by de-escalation: oil fell to near pre-war lows (Brent $71.73, WTI $68.44) after OPEC+'s July 5 decision, US equities set records (Dow 52,900.07 July 2, above 53,000 intraday July 6), and AAA gas eased to $3.804. Hormuz throughput recovered toward ~35 transits/day by July 5."
+    "Day 129 (July 6, Monday) — SIX DAYS OF STANDBY BURN; COST FRAME UNCHANGED. The June 29 stand-down held for the entire July 1-6 window, so the estimated US military burn ran at the ~$85M/day standby level all six days with no offensive-tempo spikes. The headline cost figures remain a set of incompatible, separately-attributed estimates — NOT to be summed: Moody's Analytics at least $132B (US consumers + taxpayers; military spending plus energy/commodity prices and interest rates, per Mark Zandi, who on July 1 reframed the burden at ~$1,000 per US household 'and counting'); Pentagon direct operational cost ~$29B (Comptroller Jules Hurst, unchanged); CSIS ~$34-42B. The White House's June 24 supplemental request ($87.6B total; $67.1B Defense) is still pending with no markup or floor-vote date. Financially the week was defined by de-escalation: oil fell to near pre-war lows (Brent $71.73, WTI $68.44) after OPEC+'s July 5 decision, US equities set records (Dow 52,900.07 July 2, above 53,000 intraday July 6), and AAA gas eased to $3.804. Hormuz throughput recovered toward ~35 transits/day by July 5.",
+    "Day 130 (July 7, Tuesday) — CEASEFIRE COLLAPSES; STANDBY COST FRAME INVALIDATED. Iran's IRGC fired on three commercial tankers near the Strait of Hormuz (Qatari LNG carrier Al Rekayyat set afire, Saudi tanker Wedyan damaged, a third struck by drone); the US called it a 'gross violation' of the June 17 MOU, launched retaliatory strikes it labeled 'punishment,' and revoked the license authorizing Iranian oil sales. From today the ~$85-95M/day ceasefire-standby burn rate NO LONGER APPLIES: the $500M/day figure charted for Jul 7-14 is the LOWER BOUND of CSIS senior adviser Mark Cancian's active-campaign estimate (~$500M/day rising toward ~$1B/day; CSIS put the opening campaign at $11.3B by Day 6) — an ESTIMATE FLAGGED FOR MANUAL REVIEW; no new official DoD daily figure has been released. Brent settled +3.0% at $74.16.",
+    "Day 131 (July 8, Wednesday) — TRUMP DECLARES CEASEFIRE 'OVER'; SECOND STRIKE WAVE. At the NATO summit in Ankara, Trump declared the ceasefire 'over' and threatened to 'take Kharg Island'; overnight CENTCOM hit Chabahar, Konarak, Bandar Abbas, Bushehr, Sirik, Qeshm and Iranshahr, and Iran claimed missile/drone strikes on 80+/85 US sites in Bahrain and Kuwait. Brent settled +5.43% at $78.19 — active-ops burn continues at the flagged CSIS ~$500M/day lower-bound estimate.",
+    "Day 132 (July 9, Thursday) — STRIKE TEMPO SUSTAINED (~170 TARGETS JUL 8-9). CENTCOM completed a further wave, bringing Jul 8-9 to ~170 targets; Iran's Health Ministry reported 14 killed / 78 injured. Oil eased -2.2% (Brent $76.30) on mediation hopes. Flagged CSIS ~$500M/day estimate carried.",
+    "Day 133 (July 10, Friday) — WAR POWERS NOTICE; TALKS 'CONTINUE.' Trump formally notified Congress (letter dated Jul 10) that US military action against Iran resumed Jul 7, invoking the War Powers Resolution to keep forces in combat another 60 days, while saying peace talks would continue. Brent eased to $76.01. Flagged CSIS ~$500M/day estimate carried.",
+    "Day 134 (July 11, Saturday) — WEEKEND; TEMPO HOLDS. No major new strike wave reported in-window; markets closed. Sen. Lindsey Graham (R-SC) died of an aortic dissection (natural causes; no credible Iran link). Flagged CSIS ~$500M/day estimate carried.",
+    "Day 135 (July 12, Sunday) — ~140-TARGET WAVE; FIRST US COMBAT SEA DRONES; TRANSITS COLLAPSE. CENTCOM struck ~140 Iranian targets, including the first combat use of one-way attack sea drones (3 Saronic Corsair USVs) against Bandar Abbas Naval Base; Iran retaliated against the UAE, Qatar, Kuwait (offshore oil rig + border posts), Oman and Jordan. Hormuz crossings fell to just 6 ships Sunday — down ~52% week-on-week (Kpler/MarineTraffic, 'defensive routing') — and war-risk premiums rose sharply (Lloyd's List Intelligence). Flagged CSIS ~$500M/day estimate carried.",
+    "Day 136 (July 13, Monday) — BLOCKADE REIMPOSED; OIL +9.59%. Trump reimposed the naval blockade of Iranian ports (effective Jul 14, 4pm ET), declared the US 'THE GUARDIAN OF THE HORMUZ STRAIT' and demanded 20% reimbursement on all cargo. Brent settled +9.59% at $83.30 (biggest daily % gain since May 2020); WTI $78.14; S&P 500 -0.79% to 7,515.34; AAA gas rose to $3.872. Iran hit two UAE tankers, killing an Indian crew member. Flagged CSIS ~$500M/day estimate carried.",
+    "Day 137 (July 14, Tuesday) — BLOCKADE TAKES EFFECT; COST PICTURE STALE ACROSS THE BOARD. The US naval blockade of Iran's southern ports began (20:00 GMT per the Joint Maritime Information Centre); Trump reversed the 20% cargo fee within ~24h, replacing it with 'Trade and Investment Deals,' and said the strait is 'open to ALL Ship traffic except for Iran.' ~22 transits crossed in the 24h before the deadline (14 entering the Gulf: 11 cargo, 3 tankers); traffic is reverting to Iranian/dark routes. COST LEDGER — separately-attributed estimates, NOT to be summed, all pre-dating the July escalation: Moody's Analytics ~$132B combined US consumer + taxpayer cost (mid-June — stale, now an undercount); Pentagon direct operational cost $29B (Comptroller Jules Hurst, May 12) / ~$30B (OMB's Vought, Jun 30 testimony); 'up to $42B' direct military ops with ~$26B munitions incl. 1,000+ Tomahawks at ~$2.6M each (CSIS Jun 23 via CSMonitor Jul 8); $103B first-120-days estimate (Popular Information/Semler, Jul 8); the $87.6B supplemental (submitted Jun 24) remains pending. The charted $500M/day is CSIS/Cancian's active-ops LOWER BOUND — FLAG FOR MANUAL REVIEW; no official daily figure exists."
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
@@ -518,7 +542,11 @@
       "Jun 25",
       "Jun 28",
       "Jul 1",
-      "Jul 5"
+      "Jul 3",
+      "Jul 4",
+      "Jul 5",
+      "Jul 12",
+      "Jul 13"
     ],
     "data": [
       50,
@@ -644,9 +672,13 @@
       40,
       42,
       33,
-      35
+      43,
+      34,
+      31,
+      6,
+      22
     ],
     "prewar_daily": 50
   },
-  "last_updated": "2026-07-06"
+  "last_updated": "2026-07-14"
 }
