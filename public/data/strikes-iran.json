@@ -2550,6 +2550,9 @@
     "type": "us_strike",
     "actor": "us",
     "weapon": "Precision munitions (CENTCOM)",
+    "targets": [
+      "Iranshahr airport — flight-operations building and meteorological station"
+    ],
     "first_strike": "2026-07-08",
     "casualties_reported": "1 firefighter killed at Iranshahr airport; flight-operations building and meteorological station damaged (IRNA/Mehr)",
     "casualties_source": "IRNA / Mehr",
@@ -2568,6 +2571,9 @@
     "type": "us_strike",
     "actor": "us",
     "weapon": "Precision munitions (CENTCOM)",
+    "targets": [
+      "Sirik port (two projectiles per Iran state TV)"
+    ],
     "first_strike": "2026-07-08",
     "casualties_reported": "Not specified",
     "casualties_source": "IRNA / Mehr",
@@ -2586,6 +2592,9 @@
     "type": "us_strike",
     "actor": "us",
     "weapon": "Precision munitions (CENTCOM)",
+    "targets": [
+      "IRGC naval bases, radars and telecom towers (10-11 projectiles)"
+    ],
     "first_strike": "2026-07-08",
     "casualties_reported": "No casualties on island (IRNA, per Qeshm governor Hossein Amir Teymouri); 10-11 projectiles",
     "casualties_source": "IRNA",
@@ -2605,6 +2614,9 @@
     "type": "us_strike",
     "actor": "us",
     "weapon": "Precision munitions (CENTCOM)",
+    "targets": [
+      "Coastal targets (named by CENTCOM in the five-hour Jul 13 wave)"
+    ],
     "first_strike": "2026-07-08",
     "casualties_reported": "Not specified",
     "casualties_source": "CENTCOM / IRNA",
@@ -2624,6 +2636,10 @@
     "type": "us_strike",
     "actor": "us",
     "weapon": "Precision munitions (CENTCOM)",
+    "targets": [
+      "Naval/radar installations and missile/drone-support aviation facilities",
+      "Power-generation units damaged (Kish Water & Power Engineering Co.)"
+    ],
     "first_strike": "2026-07-13",
     "casualties_reported": "Power generation units damaged (Kish Water & Power Engineering Co., via Fars)",
     "casualties_source": "Fars",
@@ -2643,6 +2659,9 @@
     "type": "us_strike",
     "actor": "us",
     "weapon": "Precision munitions (CENTCOM)",
+    "targets": [
+      "Not specified — explosions reported Jul 13 near the Hormuz shipping lanes"
+    ],
     "first_strike": "2026-07-13",
     "casualties_reported": "Not specified",
     "casualties_source": "WANA / IRNA",
@@ -2661,6 +2680,9 @@
     "type": "us_strike",
     "actor": "us",
     "weapon": "Precision munitions (CENTCOM)",
+    "targets": [
+      "Not specified — agricultural water-pumping station struck (IRNA/Fars)"
+    ],
     "first_strike": "2026-07-12",
     "casualties_reported": "1 killed (facility security guard), 4 injured - agricultural water-pumping station (IRNA/Fars)",
     "casualties_source": "IRNA / Fars",
@@ -2680,6 +2702,9 @@
     "type": "us_strike",
     "actor": "us",
     "weapon": "Precision munitions (CENTCOM)",
+    "targets": [
+      "Not specified — CENTCOM listed Abu Musa among sites struck"
+    ],
     "first_strike": "2026-07-08",
     "casualties_reported": "Not specified",
     "casualties_source": "CENTCOM / IRNA",
@@ -2698,6 +2723,9 @@
     "type": "us_strike",
     "actor": "us",
     "weapon": "Precision munitions (CENTCOM)",
+    "targets": [
+      "Not specified — telecom site struck (MCI technician killed, per IRNA)"
+    ],
     "first_strike": "2026-07-12",
     "casualties_reported": "1 telecom technician (MCI) killed, 2 injured (IRNA)",
     "casualties_source": "IRNA",
@@ -2716,6 +2744,9 @@
     "type": "us_strike",
     "actor": "us",
     "weapon": "Precision munitions (CENTCOM)",
+    "targets": [
+      "Not specified (Jul 13 wave)"
+    ],
     "first_strike": "2026-07-13",
     "casualties_reported": "At least 4 wounded (Iranian media)",
     "casualties_source": "Iranian media / Fars",
