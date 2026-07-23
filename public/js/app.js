@@ -156,7 +156,7 @@
       setTimeout(function() {
         intro.remove();
         showDisclaimer();
-      }, 1000);
+      }, 600);
     }
 
     document.getElementById('intro-enter').addEventListener('click', dismiss);

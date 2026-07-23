@@ -32,18 +32,18 @@
   <div class="cinematic-intro" id="cinematic-intro">
     <div class="intro-vignette"></div>
     <div class="intro-inner">
-      <div class="intro-fade" style="animation-delay:0.5s;">
+      <div class="intro-fade" style="animation-delay:0.2s;">
         <p class="intro-eisenhower">"Every gun that is made, every warship launched, every rocket fired signifies, in the final sense, a theft from those who hunger and are not fed, those who are cold and are not clothed."</p>
         <p class="intro-eisenhower-attr">— Dwight D. Eisenhower, 1953</p>
       </div>
-      <div class="intro-fade" style="animation-delay:3.5s;">
+      <div class="intro-fade" style="animation-delay:1.2s;">
         <p class="intro-epigraph" style="margin-bottom:var(--space-xs);">This is not news. This is not commentary.</p>
         <p class="intro-epigraph">This is data.</p>
 
         <div class="intro-title"><span class="iran-text">IRAN</span><span class="warai-text">WAR.AI</span></div>
         <div class="intro-subtitle">A Public Intelligence Dashboard</div>
       </div>
-      <div class="intro-fade intro-enter-wrap" style="animation-delay:4.5s;">
+      <div class="intro-fade intro-enter-wrap" style="animation-delay:1.8s;">
         <button class="intro-enter" id="intro-enter">ENTER THE THEATER</button>
       </div>
     </div>
@@ -65,11 +65,11 @@
         <div class="disclaimer-body">
 
           <div class="disclaimer-section">
-            <p>This dashboard now updates <strong>twice weekly</strong>, typically mornings US Eastern. It ran on a daily cycle through its first ~100 days; as the pace of the conflict has settled and the media churn around it has cooled, a daily briefing became redundant more often than not. Wider model context windows now let a single human-audited pass cover several days at once without losing event-level detail &mdash; and the cadence returns to daily if the conflict reignites. The architecture supports real-time feeds &mdash; that capability is not yet live. What you see may lag current events, now by a day or two between updates.</p>
+            <p>This dashboard now updates <strong>twice weekly</strong>, typically mornings US Eastern. It ran daily through its first ~100 days, but as the conflict settled and the media churn cooled, a daily briefing became redundant more often than not &mdash; and wider model context windows now let one human-audited pass cover several days without losing event-level detail. The cadence returns to daily if the conflict reignites. What you see may lag current events by a day or two.</p>
           </div>
 
           <div class="disclaimer-section">
-            <p>This entire project &mdash; the code, the data pipelines, the enrichment &mdash; was built with AI agents. I audit it. I apply domain-informed guardrails. I catch what I can. But these models hallucinate dates, fabricate figures, and miscalculate with total confidence. <strong>I'm pretty good at this and I still get errors all the time.</strong></p>
+            <p>This entire project &mdash; code, data pipelines, enrichment &mdash; was built with AI agents. I audit it, apply domain-informed guardrails, and catch what I can. But these models hallucinate dates, fabricate figures, and miscalculate with total confidence. <strong>I'm pretty good at this and I still get errors all the time.</strong></p>
           </div>
 
           <div class="disclaimer-section">
@@ -79,14 +79,14 @@
           <div class="disclaimer-divider"></div>
 
           <div class="disclaimer-section disclaimer-flood-section">
-            <p>Here is the harder truth: in a kinetic conflict, accurate information is nearly impossible to obtain. Sources contradict each other. Governments lie. Propaganda is pervasive on every side. The volume of data is overwhelming and much of it is engineered to mislead.</p>
+            <p>Here is the harder truth: in a kinetic conflict, accurate information is nearly impossible to obtain. Sources contradict each other. Governments lie. Propaganda is pervasive on every side, and much of the overwhelming volume of data is engineered to mislead.</p>
             <p>This is <em>the flood</em>.</p>
             <p>No dashboard can drain it. No model can filter it perfectly. What you can do is approach it with <strong>good faith and transparency</strong> &mdash; which is what this project attempts.</p>
           </div>
 
           <div class="disclaimer-section">
-            <p>Every line of code is open. Every data source is cited. The entire repository is public on GitHub. Fork it. Audit it. Improve it. Call it profound, call it naive, call it silly &mdash; the effort is what matters. Sunlight is the only disinfectant that works in the flood.</p>
-            <p>The full methodology, the confidence model, and the known limitations are documented in a preprint. If you're going to use this, read it first.</p>
+            <p>Every line of code is open, every data source cited, the entire repository public on GitHub. Fork it. Audit it. Improve it. Call it profound, call it naive, call it silly &mdash; the effort is what matters. Sunlight is the only disinfectant that works in the flood.</p>
+            <p>The full methodology, confidence model, and known limitations are documented in a preprint. If you're going to use this, read it first.</p>
             <p class="disclaimer-repo"><a href="https://github.com/jethomasphd/WarTheater" target="_blank" rel="noopener">github.com/jethomasphd/WarTheater</a></p>
             <p class="disclaimer-repo"><a href="https://doi.org/10.31235/osf.io/su4ng_v1" target="_blank" rel="noopener">Preprint &mdash; SocArXiv (doi.org/10.31235/osf.io/su4ng_v1)</a></p>
           </div>
@@ -651,10 +651,9 @@
               <div class="member-divider"></div>
             </header>
             <div class="member-bio">
-              <p>Jacob E. Thomas, MA, PhD studies how information environments shape mental health, behavior, and access to opportunity. His research examines how corporations that profit from harmful products (e.g., tobacco, alcohol, and sugar-sweetened beverages) weaponize media against the populations least equipped to resist them. Over more than a decade, he has worked at some of the largest and most consequential hospitals in the country (Bellevue, NewYork-Presbyterian, Parkland) and in university laboratories at NYU, Columbia University, and across the University of Texas System, contributing to NIH-, CDC-, and DoD-funded research totaling over $50 million. He holds a PhD in Health Behavior from UT Austin and an MA in Clinical Psychology from Columbia University, and has received awards and fellowships from The Nathaniel Wharton Fund, the UT-Austin College of Education, the Society for Prevention Research, the Society for Research on Nicotine and Tobacco, and Teachers College.</p>
-              <p>In the technology industry, he serves as a Data Scientist and AI Strategist at one of the world's leading privately held recruitment marketing companies, where he directs a research lab studying the structural informational forces that degrade labor market conditions and, by extension, access to healthcare under the U.S. employer-mediated model. His work in this space has been recognized by the U.S. Army Recruiting Command and as a multi-time finalist for the Digital Job Advertising Excellence Award.</p>
+              <p>Jacob E. Thomas, MA, PhD studies how information environments shape mental health, behavior, and access to opportunity &mdash; in particular, how corporations that profit from harmful products (e.g., tobacco, alcohol, and sugar-sweetened beverages) weaponize media against the populations least equipped to resist them. Over more than a decade, he has worked at some of the country's largest and most consequential hospitals (Bellevue, NewYork-Presbyterian, Parkland) and in university laboratories at NYU, Columbia University, and across the University of Texas System, contributing to NIH-, CDC-, and DoD-funded research totaling over $50 million. He holds a PhD in Health Behavior from UT Austin and an MA in Clinical Psychology from Columbia University, with awards and fellowships from The Nathaniel Wharton Fund, the UT-Austin College of Education, the Society for Prevention Research, the Society for Research on Nicotine and Tobacco, and Teachers College.</p>
+              <p>In the technology industry, he serves as a Data Scientist and AI Strategist at one of the world's leading privately held recruitment marketing companies, directing a research lab that studies the structural informational forces degrading labor market conditions and, by extension, access to healthcare under the U.S. employer-mediated model. His work has been recognized by the U.S. Army Recruiting Command and as a multi-time finalist for the Digital Job Advertising Excellence Award.</p>
               <p>Beyond academia and industry, Dr. Thomas builds open-source research tools and intelligence platforms designed to make the Information Flood (i.e., the media crisis fueled by synthetic data and inhumane algorithms) less overwhelming while critiquing the environment itself. His public projects span conflict intelligence, AI-mediated historical dialogue, and the democratization of data science, each built on the conviction that populations most affected by information asymmetry deserve the same quality of analysis as those who manage it.</p>
-              <p class="member-coda">The best parts of his life are the hours spent at the park during open-sky Texas sunrises with his daughter, during watercolor Hill Country sunsets with his wife and dog, and in solitude reflecting on the spiritual dimensions of life.</p>
             </div>
           </div>
         </article>
