@@ -623,7 +623,7 @@ h4 { font-size: var(--text-lg); }
 .intro-fade {
   opacity: 0;
   transform: translateY(8px);
-  animation: introReveal 1.8s ease-out forwards;
+  animation: introReveal 1s ease-out forwards;
 }
 
 .intro-eisenhower {
@@ -719,7 +719,7 @@ h4 { font-size: var(--text-lg); }
 }
 
 .cinematic-intro.fade-out {
-  animation: introFadeOut 1.2s ease-in forwards;
+  animation: introFadeOut 0.6s ease-in forwards;
 }
 
 @keyframes introFadeOut {
