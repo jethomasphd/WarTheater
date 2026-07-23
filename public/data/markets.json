@@ -98,7 +98,11 @@
     "Jul 8",
     "Jul 9",
     "Jul 10",
-    "Jul 13"
+    "Jul 13",
+    "Jul 16",
+    "Jul 20",
+    "Jul 21",
+    "Jul 22"
   ],
   "contexts": [
     "Pre-war close — baseline",
@@ -198,7 +202,11 @@
     "Day 131 (July 8, Wednesday) — TRUMP DECLARES CEASEFIRE 'OVER': S&P 500 -0.28% to 7,482.71; DOW -1.09%; Brent settled +5.43% at $78.19 as Trump, at the NATO summit in Ankara, declared the US-Iran ceasefire 'over' and CENTCOM opened an overnight strike wave on Chabahar, Konarak, Bandar Abbas, Bushehr, Sirik, Qeshm and Iranshahr. Energy (XLE) rose while tech fell. (NOTE: defense/oil-major/airline sub-index levels not located this window — data not available; only directional sector moves are sourced.)",
     "Day 132 (July 9, Thursday) — CHIP REBOUND: S&P 500 +0.81% to 7,543.64 as chip stocks rebounded; oil slid ~2% (Brent $76.30) on mediation hopes even as Iran's Health Ministry reported 14 killed in the Jul 8-9 US strikes and CENTCOM completed a further wave toward ~170 targets over Jul 8-9.",
     "Day 133 (July 10, Friday) — WEEKLY GAIN; SK HYNIX NASDAQ DEBUT: S&P 500 +0.42% to 7,575.39, closing out a weekly gain; SK Hynix debuted on the Nasdaq. Oil eased (Brent $76.01) as Trump said peace talks with Iran would continue even with the ceasefire 'over,' and formally notified Congress under the War Powers Resolution that US military action against Iran had resumed July 7.",
-    "Day 136 (July 13, Monday) — OIL SPIKES 9.6% ON BLOCKADE NEWS; STOCKS FALL: S&P 500 -0.79% to 7,515.34 after Trump reimposed the naval blockade of Iranian ports (effective July 14) and declared the US 'THE GUARDIAN OF THE HORMUZ STRAIT'; Brent settled +9.59% at $83.30 — its biggest daily percentage gain since May 2020. NASDAQ -1.55% as SK Hynix -9% led a chip rout; energy (XLE) +~3% was the S&P's best sector while tech (XLK) fell ~2%. Iran hit two UAE tankers, killing an Indian crew member. (NOTE: defense/airline sub-index levels not located — data not available.)"
+    "Day 136 (July 13, Monday) — OIL SPIKES 9.6% ON BLOCKADE NEWS; STOCKS FALL: S&P 500 -0.79% to 7,515.34 after Trump reimposed the naval blockade of Iranian ports (effective July 14) and declared the US 'THE GUARDIAN OF THE HORMUZ STRAIT'; Brent settled +9.59% at $83.30 — its biggest daily percentage gain since May 2020. NASDAQ -1.55% as SK Hynix -9% led a chip rout; energy (XLE) +~3% was the S&P's best sector while tech (XLK) fell ~2%. Iran hit two UAE tankers, killing an Indian crew member. (NOTE: defense/airline sub-index levels not located — data not available.)",
+    "Day 139 (July 16, Thursday) — OIL/TECH SELLOFF: S&P 500 -1.01% to 7,457.69 as crude climbed on the 4th straight US strike night and Apple fell ~2%; Nasdaq slid on chip weakness.",
+    "Day 143 (July 20, Monday) — 9TH STRIKE NIGHT, OIL SPIKE: S&P 500 -0.19% to 7,443.28 as Brent jumped and the AAA gas average topped $4; Apple fell ~2%. Nasdaq 25,508.07; Dow 51,839.26; XLE +3.2%.",
+    "Day 144 (July 21, Tuesday) — CHIP RALLY: S&P 500 +0.89% to 7,509.20, breaking a 3-day losing streak on a semiconductor rebound (Palantir target raised to $200). Nasdaq 25,837.21; Dow 52,224.64. Brent settled $91.01.",
+    "Day 145 (July 22, Wednesday) — LITTLE CHANGED, OIL PRESSURE: S&P 500 -0.14% to 7,498.96 ahead of Big Tech earnings as oil rose (Brent $94.07) and the House passed a $95B war blueprint. Nasdaq 25,690.90; Dow 52,218.58."
   ],
   "datasets": {
     "sp500": {
@@ -302,7 +310,11 @@
         108.78,
         109.66,
         110.13,
-        109.25
+        109.25,
+        108.41,
+        108.2,
+        109.16,
+        109.01
       ],
       "color": "#ef4444"
     },
@@ -403,6 +415,10 @@
         117.0,
         117.5,
         118.5,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -512,6 +528,10 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#d4a020"
@@ -617,10 +637,14 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-07-14"
+  "last_updated": "2026-07-23"
 }
