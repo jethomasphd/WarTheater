@@ -712,5 +712,12 @@
         "label": "JULY 14, 2026 — DAY 137",
         "headline": "US-Iran ceasefire collapses; 5+ US strike waves, 300+ targets; Hormuz blockade reimposed; Iran hits Gulf tankers & bases; Brent $83",
         "file": "data/briefings/day-137.html"
+    },
+    {
+        "day": 146,
+        "date": "2026-07-23",
+        "label": "JULY 23, 2026 — DAY 146",
+        "headline": "12th straight US strike night; first combat deaths since March at a Jordan base (US KIA to 17); Houthis open a Red Sea front vs Saudi; blockade actively enforced; Brent nears $100, gas tops $4",
+        "file": "data/briefings/day-146.html"
     }
 ]
