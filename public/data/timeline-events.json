@@ -9142,5 +9142,59 @@
     "category": "military",
     "source": "CENTCOM/Anadolu",
     "data_point": "Brent ~$100 (+6.4%); 12th night"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "Day 139",
+    "title": "Marines board tanker Wen Yao; Hormuz transits hit three-week low",
+    "description": "On a third consecutive strike night, 11th MEU Marines from the USS Boxer amphibious ready group boarded the tanker Wen Yao in the Gulf of Oman as the reimposed blockade tightened. Hormuz transits fell to about eight a day, a three-week low, with traffic reverting to defensive routing.",
+    "category": "military",
+    "source": "USNI News",
+    "data_point": "Hormuz transits ~8/day (3-week low)"
+  },
+  {
+    "date": "2026-07-17",
+    "time": "Day 140",
+    "title": "US severs Bandar Abbas transport links; collapses Chabahar tower",
+    "description": "US strikes cut the Bandar Abbas-Rudan highway and railway bridge, a railway junction, a road tunnel and the Bandar Khamir bridge, killing at least seven and injuring about twenty (IRNA), in what AP assessed was an effort to sever Iran's main port from the routes to Tehran. CENTCOM separately collapsed a maritime surveillance tower at Chabahar, Iran's only oceanic port, saying it was part of an IRGC network tracking commercial vessels.",
+    "category": "military",
+    "source": "AP / CENTCOM / IRNA",
+    "data_point": "≥7-8 killed; port links severed"
+  },
+  {
+    "date": "2026-07-17",
+    "time": "Day 140",
+    "title": "Iran sets two Kuwaiti power-and-desalination plants ablaze",
+    "description": "Iranian Shahed drones and missiles struck two Kuwaiti power-and-desalination plants near Mina Abdullah on consecutive days (July 17-18), setting them ablaze and injuring firefighters and a worker. Kuwait relies on desalination for roughly 90 percent of its drinking water; the strikes marked a shift toward hitting host-nation civilian infrastructure rather than US bases alone.",
+    "category": "humanitarian",
+    "source": "Kuwait fire service / Al Jazeera / CNN",
+    "data_point": "2 desalination plants ablaze"
+  },
+  {
+    "date": "2026-07-18",
+    "time": "Day 141",
+    "title": "Fourth US soldier killed in Iraq; IRGC claims Azraq strike",
+    "description": "A fourth US soldier died in northern Iraq during a controlled detonation of unexploded ordnance, raising US KIA to 17 (sources range 16-18, pending Pentagon reconciliation). The IRGC claimed a strike on Azraq Air Base in Jordan destroying at least five US aircraft — unverified and disputed by the United States — and, unusually, incited Jordanians to attack American troops.",
+    "category": "military",
+    "source": "DoD / IRGC claim (disputed) / GlobalSecurity",
+    "data_point": "US KIA to 17; Azraq claim unverified"
+  },
+  {
+    "date": "2026-07-19",
+    "time": "Day 142",
+    "title": "Strike campaign runs into a second week",
+    "description": "The US strike campaign continued into a second consecutive week with no itemized new casualties reported, keeping the naval blockade of Iranian ports in force. Daily operations held in the active-ops band of roughly $500 million to $1 billion a day (CSIS).",
+    "category": "military",
+    "source": "GlobalSecurity / CSIS",
+    "data_point": "Blockade holds; no new casualties"
+  },
+  {
+    "date": "2026-07-22",
+    "time": "Day 145",
+    "title": "USS Tripoli departs the theater for Okinawa",
+    "description": "The amphibious assault ship USS Tripoli (LHA-7) and the 31st Marine Expeditionary Unit arrived at White Beach Naval Facility, Okinawa, ending their Middle East deployment; the 31st MEU offloaded. The Tripoli ARG had enforced the April blockade through vessel boardings. The Lincoln and Bush carrier strike groups remained on station in the Arabian Sea.",
+    "category": "military",
+    "source": "US Navy via CNN",
+    "data_point": "Tripoli ARG returns to Indo-Pacific"
   }
 ]
