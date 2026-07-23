@@ -136,7 +136,16 @@
     "Day 134",
     "Day 135",
     "Day 136",
-    "Day 137"
+    "Day 137",
+    "Day 138",
+    "Day 139",
+    "Day 140",
+    "Day 141",
+    "Day 142",
+    "Day 143",
+    "Day 144",
+    "Day 145",
+    "Day 146"
   ],
   "daily_cost_millions": [
     3000,
@@ -268,6 +277,15 @@
     85,
     85,
     85,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
     500,
     500,
     500,
@@ -414,7 +432,16 @@
     "Day 134 (July 11, Saturday) — WEEKEND; TEMPO HOLDS. No major new strike wave reported in-window; markets closed. Sen. Lindsey Graham (R-SC) died of an aortic dissection (natural causes; no credible Iran link). Flagged CSIS ~$500M/day estimate carried.",
     "Day 135 (July 12, Sunday) — ~140-TARGET WAVE; FIRST US COMBAT SEA DRONES; TRANSITS COLLAPSE. CENTCOM struck ~140 Iranian targets, including the first combat use of one-way attack sea drones (3 Saronic Corsair USVs) against Bandar Abbas Naval Base; Iran retaliated against the UAE, Qatar, Kuwait (offshore oil rig + border posts), Oman and Jordan. Hormuz crossings fell to just 6 ships Sunday — down ~52% week-on-week (Kpler/MarineTraffic, 'defensive routing') — and war-risk premiums rose sharply (Lloyd's List Intelligence). Flagged CSIS ~$500M/day estimate carried.",
     "Day 136 (July 13, Monday) — BLOCKADE REIMPOSED; OIL +9.59%. Trump reimposed the naval blockade of Iranian ports (effective Jul 14, 4pm ET), declared the US 'THE GUARDIAN OF THE HORMUZ STRAIT' and demanded 20% reimbursement on all cargo. Brent settled +9.59% at $83.30 (biggest daily % gain since May 2020); WTI $78.14; S&P 500 -0.79% to 7,515.34; AAA gas rose to $3.872. Iran hit two UAE tankers, killing an Indian crew member. Flagged CSIS ~$500M/day estimate carried.",
-    "Day 137 (July 14, Tuesday) — BLOCKADE TAKES EFFECT; COST PICTURE STALE ACROSS THE BOARD. The US naval blockade of Iran's southern ports began (20:00 GMT per the Joint Maritime Information Centre); Trump reversed the 20% cargo fee within ~24h, replacing it with 'Trade and Investment Deals,' and said the strait is 'open to ALL Ship traffic except for Iran.' ~22 transits crossed in the 24h before the deadline (14 entering the Gulf: 11 cargo, 3 tankers); traffic is reverting to Iranian/dark routes. COST LEDGER — separately-attributed estimates, NOT to be summed, all pre-dating the July escalation: Moody's Analytics ~$132B combined US consumer + taxpayer cost (mid-June — stale, now an undercount); Pentagon direct operational cost $29B (Comptroller Jules Hurst, May 12) / ~$30B (OMB's Vought, Jun 30 testimony); 'up to $42B' direct military ops with ~$26B munitions incl. 1,000+ Tomahawks at ~$2.6M each (CSIS Jun 23 via CSMonitor Jul 8); $103B first-120-days estimate (Popular Information/Semler, Jul 8); the $87.6B supplemental (submitted Jun 24) remains pending. The charted $500M/day is CSIS/Cancian's active-ops LOWER BOUND — FLAG FOR MANUAL REVIEW; no official daily figure exists."
+    "Day 137 (July 14, Tuesday) — BLOCKADE TAKES EFFECT; COST PICTURE STALE ACROSS THE BOARD. The US naval blockade of Iran's southern ports began (20:00 GMT per the Joint Maritime Information Centre); Trump reversed the 20% cargo fee within ~24h, replacing it with 'Trade and Investment Deals,' and said the strait is 'open to ALL Ship traffic except for Iran.' ~22 transits crossed in the 24h before the deadline (14 entering the Gulf: 11 cargo, 3 tankers); traffic is reverting to Iranian/dark routes. COST LEDGER — separately-attributed estimates, NOT to be summed, all pre-dating the July escalation: Moody's Analytics ~$132B combined US consumer + taxpayer cost (mid-June — stale, now an undercount); Pentagon direct operational cost $29B (Comptroller Jules Hurst, May 12) / ~$30B (OMB's Vought, Jun 30 testimony); 'up to $42B' direct military ops with ~$26B munitions incl. 1,000+ Tomahawks at ~$2.6M each (CSIS Jun 23 via CSMonitor Jul 8); $103B first-120-days estimate (Popular Information/Semler, Jul 8); the $87.6B supplemental (submitted Jun 24) remains pending. The charted $500M/day is CSIS/Cancian's active-ops LOWER BOUND — FLAG FOR MANUAL REVIEW; no official daily figure exists.",
+    "Day 138 (July 15, Wednesday) — BLOCKADE ENFORCED: US disabled the empty tanker Belma off Kharg Island — the first vessel disabled under the reimposed blockade. Daily ops hold at the documented ~$500M/day lower bound (Mark Cancian/CSIS); CSIS models up to ~$1B/day at sustained tempo. Hormuz transits ~15.",
+    "Day 139 (July 16, Thursday) — TRANSITS HIT 3-WEEK LOW: Hormuz transits fell to 8/day, a three-week low, as the strike campaign continued and 11th MEU Marines boarded the tanker Wen Yao. Daily ops ~$500M (lower bound).",
+    "Day 140 (July 17, Friday) — FIRST US KIA SINCE MARCH: An Iranian ballistic-missile strike on Muwaffaq Salti Air Base, Jordan, killed 3 US soldiers (4 medevac'd); US strikes severed Bandar Abbas bridges and hit the Bonji desalination plant at Jask. The human cost dwarfs the daily dollar figure (~$500M lower bound).",
+    "Day 141 (July 18, Saturday) — 4TH US DEATH: A US soldier died in northern Iraq during a controlled detonation of unexploded ordnance; two Kuwaiti power/desalination plants were set ablaze by Iranian strikes. Ops ~$500M/day.",
+    "Day 142 (July 19, Sunday) — SUSTAINED TEMPO: The strike campaign ran into a second week; ops hold at the ~$500M/day lower bound, with the upper end (~$1B/day) supported by 12 strike nights plus blockade and carrier surge.",
+    "Day 143 (July 20, Monday) — GAS TOPS $4; RED SEA FRONT: The AAA national average hit $4.003/gal and the Houthis declared a Red Sea blockade of Saudi Arabia, adding a second chokepoint cost driver. Ops ~$500M/day.",
+    "Day 144 (July 21, Tuesday) — DIPLOMACY STALLS: President Aoun met Trump; Trump threatened Iran's Pickaxe Mountain nuclear site. Brent settled $91.01. Ops ~$500M/day.",
+    "Day 145 (July 22, Wednesday) — HOUSE PASSES $95B BLUEPRINT: The House adopted a Republican-only $95B budget blueprint (>$70B for the Iran war) 216-214, plus a Pentagon funding CR through Dec 4; both go to the Senate. Trump attended the Dover dignified transfer of four fallen. Ops ~$500M/day.",
+    "Day 146 (July 23, Thursday) — NEW COST FIGURES; 12TH STRIKE NIGHT: Defense Secretary Hegseth stated $37.5B in direct US military cost in Senate testimony (replacing the prior $30B official figure); the Brown University Watson Institute tracker estimates ~$71.1B in extra consumer gas+diesel costs since the war began (DO NOT SUM the two). Daily ops sit firmly in the $500M-$1B active-ops band (CSIS Cancian & Park: ~$16.5B through day twelve, ~$1B/day thereafter). Brent neared $100 intraday."
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
@@ -546,7 +573,9 @@
       "Jul 4",
       "Jul 5",
       "Jul 12",
-      "Jul 13"
+      "Jul 13",
+      "Jul 15",
+      "Jul 16"
     ],
     "data": [
       50,
@@ -676,9 +705,11 @@
       34,
       31,
       6,
-      22
+      22,
+      15,
+      8
     ],
     "prewar_daily": 50
   },
-  "last_updated": "2026-07-14"
+  "last_updated": "2026-07-23"
 }
