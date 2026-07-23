@@ -136,7 +136,16 @@
     "Jul 11",
     "Jul 12",
     "Jul 13",
-    "Jul 14"
+    "Jul 14",
+    "Jul 15",
+    "Jul 16",
+    "Jul 17",
+    "Jul 18",
+    "Jul 19",
+    "Jul 20",
+    "Jul 21",
+    "Jul 22",
+    "Jul 23"
   ],
   "day_contexts": [
     "Day 1 — First strikes, Minab school (165+ killed), Iranian retaliation",
@@ -274,7 +283,16 @@
     "Day 134 (July 11, Saturday) — QUIET TOLL DAY. No new verified war fatalities. (US Sen. Lindsey Graham died Saturday night of an aortic dissection due to arteriosclerotic cardiovascular disease — a natural cause; despite some outlets juxtaposing his death with prior Iranian threats, no credible source links it to Iran, and it is NOT counted here.) UNITED STATES: 15 KIA / 538 WIA — no change. Per-source ranges only — not reconcilable, never summed.",
     "Day 135 (July 12, Sunday) — ~140-TARGET US WAVE; IRANIAN CIVILIAN WORKERS KILLED; GULF SHRAPNEL INJURIES. IRAN: a facility security guard was killed and 4 injured at a Bandar-e Mahshahr agricultural water-pumping station, and an MCI telecom technician was killed (2 injured) on Farur Island (IRNA/Fars). GULF THIRD-COUNTRY: 1 worker injured on a Kuwaiti offshore oil rig (Kuwait Defense Ministry); 3 injured by falling shrapnel in Qatar, including 1 child (Qatar Interior Ministry). CENTCOM said NO US personnel were hurt in Iran's Gulf retaliation. UNITED STATES: 15 KIA / 538 WIA — no change. Per-source ranges only — not reconcilable, never summed.",
     "Day 136 (July 13, Monday) — INDIAN SAILOR KILLED ABOARD UAE TANKER; CONFLICT INTERNATIONALIZES. GULF THIRD-COUNTRY: 1 Indian crew member was killed aboard the UAE-flagged tanker Mombasa, with 6 Indian nationals and 2 Ukrainian citizens injured, after cruise missiles hit two UAE tankers in Omani waters (UAE Defense Ministry / India MEA) — no third-country dataset exists, logged here; India summoned Iran's deputy ambassador. IRAN: state media reported 'at least 2 killed' Jul 13 (logged as civilian). UNITED STATES: 15 KIA / 538 WIA — no change. Per-source ranges only — not reconcilable, never summed.",
-    "Day 137 (July 14, Tuesday) — BLOCKADE TAKES EFFECT; 1 KILLED AT MAHSHAHR. IRAN: 1 killed at Mahshahr (Iranian state media) as US strikes hit Kish, Qeshm, Bushehr, Bandar Abbas, Mahshahr and Abadan. WINDOW TOTALS BY SOURCE (Jul 7-14), kept separate per fragmented, conflicting state disclosures (IranWire): Iran Health Ministry 14 killed / 78 injured (Jul 8-9, five provinces) and LATER 17 killed / 115 injured (six cities, ~Jul 10-11) — conflicting, '17/115' likely supersedes but NOT merged; Iranian Army 8 military killed; IRGC 3 killed; state-media single fatalities: firefighter (Jul 8), security guard + telecom technician (Jul 12), 'at least 2' (Jul 13), 1 (Jul 14). UNITED STATES: 15 KIA / 538 WIA — no change; CENTCOM reported no US casualties from Iran's Gulf strikes (Jul 12). GULF: 1 Indian sailor killed (Jul 13). LEBANESE: cumulative reportedly 4,321 through Jul 8 — UNVERIFIED secondhand. Per-source ranges only — not reconcilable, never summed."
+    "Day 137 (July 14, Tuesday) — BLOCKADE TAKES EFFECT; 1 KILLED AT MAHSHAHR. IRAN: 1 killed at Mahshahr (Iranian state media) as US strikes hit Kish, Qeshm, Bushehr, Bandar Abbas, Mahshahr and Abadan. WINDOW TOTALS BY SOURCE (Jul 7-14), kept separate per fragmented, conflicting state disclosures (IranWire): Iran Health Ministry 14 killed / 78 injured (Jul 8-9, five provinces) and LATER 17 killed / 115 injured (six cities, ~Jul 10-11) — conflicting, '17/115' likely supersedes but NOT merged; Iranian Army 8 military killed; IRGC 3 killed; state-media single fatalities: firefighter (Jul 8), security guard + telecom technician (Jul 12), 'at least 2' (Jul 13), 1 (Jul 14). UNITED STATES: 15 KIA / 538 WIA — no change; CENTCOM reported no US casualties from Iran's Gulf strikes (Jul 12). GULF: 1 Indian sailor killed (Jul 13). LEBANESE: cumulative reportedly 4,321 through Jul 8 — UNVERIFIED secondhand. Per-source ranges only — not reconcilable, never summed.",
+    "Day 138 (July 15, Wednesday) — BLOCKADE ENFORCED, NO NEW DEATHS: US disabled the empty tanker Belma off Kharg Island (no casualties). No new confirmed civilian or military deaths itemized.",
+    "Day 139 (July 16, Thursday) — 3RD STRIKE NIGHT: US strikes continued across southern Iran and Marines boarded the tanker Wen Yao. No itemized casualties.",
+    "Day 140 (July 17, Friday) — FIRST US KIA SINCE MARCH; IRANIAN BRIDGE TOLL: An Iranian ballistic-missile strike on Muwaffaq Salti Air Base, Jordan, killed 3 US soldiers (Feehan, Gonzales, Rampersad; 4 medevac'd). US strikes on Bandar Abbas bridges/rail killed ≥7-8 and injured ~20 (IRNA); the Bonji desalination plant at Jask was hit, cutting water to ~10,000. A strike in Erbil killed ≥9 at a Komala facility; a child was wounded by debris in Doha.",
+    "Day 141 (July 18, Saturday) — 4TH US DEATH: A US soldier died in northern Iraq during a controlled detonation of unexploded ordnance. The IRGC claimed a strike on Azraq AB (US-disputed); two Kuwaiti power/desalination plants were set ablaze.",
+    "Day 142 (July 19, Sunday) — NO NEW CONFIRMED DEATHS: The strike campaign continued; no itemized new casualties reported.",
+    "Day 143 (July 20, Monday) — 9TH STRIKE NIGHT: The Houthis declared a Red Sea blockade of Saudi Arabia and the AAA gas average topped $4. No new confirmed deaths itemized.",
+    "Day 144 (July 21, Tuesday) — DIPLOMACY STALLS: Aoun met Trump; Trump threatened Iran's Pickaxe Mountain nuclear site. No new confirmed deaths itemized.",
+    "Day 145 (July 22, Wednesday) — DOVER TRANSFER: Trump attended the dignified transfer of four fallen at Dover; Houthis struck the Saudi tankers Encelia and Layla. No new confirmed Iranian deaths itemized.",
+    "Day 146 (July 23, Thursday) — 12TH STRIKE NIGHT: Iranian state media reported 2 killed at the Shalamcheh border crossing (unconfirmed); Brent neared $100."
   ],
   "datasets": {
     "iranian_military": {
@@ -412,6 +430,15 @@
         0,
         8,
         3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -559,7 +586,16 @@
         0,
         2,
         2,
-        1
+        1,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
       ],
       "color": "#ffffff"
     },
@@ -702,6 +738,15 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#4a9eff"
@@ -840,6 +885,15 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -988,10 +1042,19 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffc832"
     }
   },
-  "last_updated": "2026-07-14"
+  "last_updated": "2026-07-23"
 }

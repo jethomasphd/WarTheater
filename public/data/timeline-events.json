@@ -9088,5 +9088,59 @@
     "category": "political",
     "source": "Al Jazeera / CNBC / Fox News / CNN",
     "data_point": "Blockade effective 20:00 GMT; 20% cargo fee reversed within ~24h; fresh strikes on 6 cities"
+  },
+  {
+    "date": "2026-07-15",
+    "time": "Day 138",
+    "title": "Blockade enforced: CENTCOM disables tanker Belma",
+    "description": "CENTCOM disabled the Curacao-flagged M/T Belma with Hellfire missiles near Kharg Island — the first vessel disabled since the blockade was reimposed Jul 14. The IRGC threatened to halt all Middle East energy exports.",
+    "category": "military",
+    "source": "CENTCOM",
+    "data_point": "1 tanker disabled (Belma)"
+  },
+  {
+    "date": "2026-07-17",
+    "time": "Day 140",
+    "title": "First US combat deaths since March at Muwaffaq Salti",
+    "description": "An Iranian ballistic-missile strike on Muwaffaq Salti Air Base, Jordan, killed three US soldiers (Feehan, Gonzales, Rampersad; 4 medevac'd). A 7th consecutive US strike night hit bridges, a tunnel and the Bonji desalination plant, cutting water to ~10,000 people. A strike in Erbil killed ≥9 at a Komala facility; a child was wounded by debris in Doha.",
+    "category": "military",
+    "source": "CENTCOM",
+    "data_point": "3 US KIA (Jordan)"
+  },
+  {
+    "date": "2026-07-20",
+    "time": "Day 143",
+    "title": "Gas tops $4; Houthis declare Saudi blockade",
+    "description": "The AAA national average hit $4.003/gal, first time above $4 in over a month. The Houthis declared a maritime blockade of Saudi Arabia via Bab el-Mandeb. Mediators floated a 10-day ceasefire including lifting Hormuz restrictions; Trump vowed Iran would pay 'many times over.'",
+    "category": "economic",
+    "source": "AAA/CBS",
+    "data_point": "Gas $4.003/gal"
+  },
+  {
+    "date": "2026-07-21",
+    "time": "Day 144",
+    "title": "Aoun meets Trump; Pickaxe Mountain threat",
+    "description": "Lebanese President Joseph Aoun met Trump, who said Lebanon has a 'Hezbollah problem' but that he would talk to Hezbollah. Trump said the US would strike Iran's Pickaxe Mountain nuclear site 'probably pretty soon'; Iran warned of NPT withdrawal. Brent settled $91.01.",
+    "category": "diplomatic",
+    "source": "AP",
+    "data_point": "Brent $91.01"
+  },
+  {
+    "date": "2026-07-22",
+    "time": "Day 145",
+    "title": "House passes $95B blueprint; Dover transfer; Saudi tankers hit",
+    "description": "The House adopted a Republican-only $95B budget blueprint (>$70B for the Iran war) 216-214, plus a Pentagon funding CR through Dec 4; both go to the Senate. Trump attended the Dover dignified transfer of four fallen. Houthis attacked the Saudi tankers Encelia and Layla in the Red Sea. Brent settled $94.07.",
+    "category": "political",
+    "source": "Washington Post",
+    "data_point": "House 216-214; Brent $94.07"
+  },
+  {
+    "date": "2026-07-23",
+    "time": "Day 146",
+    "title": "12th straight strike night; Brent nears $100",
+    "description": "CENTCOM completed a 12th consecutive night of strikes (maritime, missile/drone storage, coastal surveillance, air defense); Iranian state media reported 2 killed at the Shalamcheh border crossing. Brent spiked toward $100 intraday (+6.4%). Rubio said Iran is 'not serious' about talks; Trump said the US would 'hold Iran responsible' for Houthi attacks.",
+    "category": "military",
+    "source": "CENTCOM/Anadolu",
+    "data_point": "Brent ~$100 (+6.4%); 12th night"
   }
 ]

@@ -4519,5 +4519,115 @@
     "notes": "India summoned Iran's deputy ambassador over the killed sailor. IRGC claimed it 'struck and disabled' two 'rogue supertankers' (Jul 14).",
     "verified": true,
     "last_updated": "2026-07-14"
+  },
+  {
+    "id": "muwaffaq-salti-jul17",
+    "city": "Muwaffaq Salti Air Base, Jordan",
+    "lat": 32.36,
+    "lng": 36.26,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles + drones",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-07-17",
+    "casualties_reported": "3 US KIA (1st Lt. Tyler James Feehan, Pvt. Isabella Gonzales, Sgt. Angel S. Rampersad); 4 medevac'd",
+    "casualties_source": "CENTCOM / Pentagon",
+    "active_days": [
+      140
+    ],
+    "notes": "First US combat deaths since March. At least 2 ballistic missiles struck the base ~80km from Amman, which was used to launch US strikes on Iran. Trump attended the Dover dignified transfer of four fallen on Jul 22.",
+    "verified": true,
+    "last_updated": "2026-07-22"
+  },
+  {
+    "id": "azraq-jul18",
+    "city": "Azraq Air Base, Jordan",
+    "lat": 31.83,
+    "lng": 36.78,
+    "type": "iran_retaliation",
+    "weapon": "Missiles + drones",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-07-18",
+    "casualties_reported": "IRGC claims ≥5 US aircraft destroyed — UNVERIFIED; US did not confirm",
+    "casualties_source": "IRGC claim (disputed)",
+    "active_days": [
+      141
+    ],
+    "notes": "Claimed as the 20th wave of 'Nasr 2.' The IRGC statement also incited Jordanians to attack US troops — unprecedented in the current cycle.",
+    "verified": false,
+    "last_updated": "2026-07-18"
+  },
+  {
+    "id": "kuwait-desal-jul17-18",
+    "city": "Kuwait (Mina Abdullah area / desalination-power plants)",
+    "lat": 29.0,
+    "lng": 48.1,
+    "type": "iran_retaliation",
+    "weapon": "Shahed drones + missiles",
+    "origin": "Iran",
+    "first_strike": "2026-07-17",
+    "casualties_reported": "Firefighters and a worker injured; unspecified military personnel injured",
+    "casualties_source": "Kuwait fire service / Defense Ministry",
+    "active_days": [
+      140,
+      141
+    ],
+    "notes": "Two Kuwaiti power+desalination plants ablaze in two days. Kuwait relies on desalination for 90% of its drinking water (GCC Statistical Center via Al Jazeera; CNN concurs). CNN geolocated a Shahed striking a warehouse near Mina Abdullah.",
+    "verified": true,
+    "last_updated": "2026-07-18"
+  },
+  {
+    "id": "erbil-komala-jul17",
+    "city": "Erbil, Iraqi Kurdistan",
+    "lat": 36.19,
+    "lng": 44.009,
+    "type": "iran_retaliation",
+    "weapon": "Missile/drone strike",
+    "origin": "Iran (unclaimed)",
+    "first_strike": "2026-07-17",
+    "casualties_reported": "≥9 killed at a Komala (Iranian Kurdish opposition) facility",
+    "casualties_source": "Official cited by AP",
+    "active_days": [
+      140
+    ],
+    "notes": "Iran did not immediately claim responsibility but has targeted Komala before. Explosions were also reported over Sulaymaniyah.",
+    "verified": true,
+    "last_updated": "2026-07-18"
+  },
+  {
+    "id": "doha-jul17",
+    "city": "Doha, Qatar",
+    "lat": 25.2854,
+    "lng": 51.531,
+    "type": "iran_retaliation",
+    "weapon": "Missile debris",
+    "origin": "Iran",
+    "first_strike": "2026-07-17",
+    "casualties_reported": "1 child wounded by falling debris",
+    "casualties_source": "Qatari authorities",
+    "active_days": [
+      140
+    ],
+    "notes": "Qatar continued as a mediator despite the strike.",
+    "verified": true,
+    "last_updated": "2026-07-18"
+  },
+  {
+    "id": "redsea-saudi-tankers-jul22",
+    "city": "Red Sea (SW of Al Shuqaiq, Saudi Arabia)",
+    "lat": 17.3,
+    "lng": 41.2,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic + cruise missiles and drones (Houthi); targets: tankers Encelia and Layla",
+    "origin": "Houthi (Yemen)",
+    "first_strike": "2026-07-22",
+    "casualties_reported": "No casualties; Encelia bow fire confirmed (SPA); Layla hit unconfirmed",
+    "casualties_source": "Saudi Press Agency / UKMTO / Houthi claim",
+    "active_days": [
+      145,
+      146
+    ],
+    "notes": "First Houthi vessel attack since they declared a Red Sea blockade of Saudi Arabia (Jul 20). Houthis claimed forcing ~10 ships to retreat. Opens a second chokepoint front vs. Bab el-Mandeb.",
+    "verified": true,
+    "last_updated": "2026-07-23"
   }
 ]
