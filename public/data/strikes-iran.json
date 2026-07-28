@@ -2843,15 +2843,16 @@
     "targets": [
       "Passenger terminal area at Iraq border crossing"
     ],
-    "first_strike": "2026-07-23",
-    "casualties_reported": "2 killed (Iranian state media SNN, citing a security official)",
-    "casualties_source": "SNN / Mehr",
+    "first_strike": "2026-07-22",
+    "casualties_reported": "2 killed, 11 wounded (Iranian state media, per GlobalSecurity Day 149)",
+    "casualties_source": "SNN / Mehr / Iranian state media via GlobalSecurity",
     "active_days": [
+      145,
       146
     ],
-    "notes": "12th consecutive night. Reported by Iranian state media only; independent confirmation pending.",
-    "verified": false,
-    "last_updated": "2026-07-23"
+    "notes": "Struck the night of Jul 22-23 as part of CENTCOM's 12th-13th consecutive night sequence. Casualty figure revised to 2 killed, 11 wounded per Iranian state media compiled by GlobalSecurity. Video of the impact was obtained by ABC News, corroborating that a strike occurred; the casualty count remains Iranian-state-media sourced and independently unconfirmed.",
+    "verified": true,
+    "last_updated": "2026-07-27"
   },
   {
     "id": "kharg-island-belma",
@@ -2905,8 +2906,33 @@
       145,
       146
     ],
-    "notes": "Composite entry for the July cycle's expanded target set; deepest interior reach reported. Explosions also reported in Shiraz and Isfahan (Jul 20).",
+    "notes": "Composite entry for the July cycle's expanded target set; deepest interior reach reported. Explosions also reported in Shiraz and Isfahan (Jul 20). CAMPAIGN STATUS as of Jul 27 (Day 150): PAUSED — CENTCOM concluded its 13th consecutive night of strikes at 9 p.m. ET Jul 23 and announced no strikes on Jul 24, 25, 26 or 27, the first break in two weeks. A DoD source told CNN operations were 'on a hold'; Trump said the pause allows diplomacy but warned strikes would resume 'with greater force' if talks fail. The naval blockade of Iranian ports continues through the pause: 12 commercial vessels redirected, 2 disabled and 2 boarded as of Jul 26 (from 9 redirected / 1 disabled on Jul 24).",
     "verified": true,
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-07-27"
+  },
+  {
+    "id": "ahvaz-jul23",
+    "city": "Ahvaz (vicinity), Khuzestan",
+    "lat": 31.3183,
+    "lng": 48.6706,
+    "type": "us_strike",
+    "actor": "us",
+    "weapon": "Airstrike",
+    "targets": [
+      "Military command centers",
+      "Drone storage facilities",
+      "Communication networks",
+      "Coastal surveillance sites",
+      "Maritime capabilities"
+    ],
+    "first_strike": "2026-07-23",
+    "casualties_reported": "4 killed, 5 wounded (Iranian state media, per GlobalSecurity Day 149)",
+    "casualties_source": "Iranian state media via GlobalSecurity",
+    "active_days": [
+      146
+    ],
+    "notes": "Deaths reported in the 13th and final consecutive night of the campaign, which CENTCOM completed at 9 p.m. ET Jul 23. CENTCOM described the night's targets as military command centers, drone storage facilities, communication networks, coastal surveillance sites and maritime capabilities, but did not provide a target count or confirm casualties. No US strikes were announced Jul 24-27.",
+    "verified": true,
+    "last_updated": "2026-07-27"
   }
 ]
