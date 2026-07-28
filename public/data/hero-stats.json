@@ -2419,6 +2419,28 @@
       "flights_cancelled": 8000,
       "children_killed": 376,
       "headline": "Day 146 (July 23, Thursday) — 12TH STRAIGHT STRIKE NIGHT; BRENT NEARS $100: CENTCOM completed a 12th consecutive night of strikes; Iranian state media reported 2 killed at the Shalamcheh border crossing. Brent spiked toward $100 intraday (+6.4%), first time above $100 since late May; WTI ~$91.24. Rubio said Iran is 'not serious' about talks; Trump said the US would 'hold Iran responsible' for Houthi attacks. New cost figures: $37.5B direct US military (Hegseth); ~$71.1B consumer gas/diesel (Brown/Watson)."
+    },
+    {
+      "date": "2026-07-27",
+      "war_day": 150,
+      "brent": 88.36,
+      "wti": 82.61,
+      "gas": 4.11,
+      "sp500": 7413.18,
+      "sp500_change_pct": 0.02,
+      "nasdaq": 24932.08,
+      "dow": 52210.08,
+      "daily_cost_millions": 500,
+      "total_cost_billions": 37.5,
+      "targets_struck": 35914,
+      "us_kia": 18,
+      "us_wia": 624,
+      "iranian_killed": 3636,
+      "lebanese_killed": 4297,
+      "displaced": 1200000,
+      "flights_cancelled": 8000,
+      "children_killed": 376,
+      "headline": "Day 150 (July 27, Monday) — MUTUAL STRIKE PAUSE HOLDS A THIRD DAY; OIL CRASHES ~9%: CENTCOM's 13-night campaign ended 9 p.m. ET Jul 23 and no US strikes followed Jul 24-27; Iran halted retaliation after its Jul 24 IRGC salvo. Mediators led by Qatar and Pakistan told AP they made 'significant' progress toward restoring the interim ceasefire, though an Al Jazeera source said Jul 26 there was 'not much progress yet'; Iran confirms no direct US talks. Brent settled $88.36 (-8.7%), the biggest one-day drop since Apr 8, off the $101.01 intraday high of Jul 23; WTI $82.61. Gas $4.110. S&P 7,413.18 (+0.02%) as the relief rally faded. Pentagon DCAS restored the toll to 18 killed / 624 wounded under a new split-category accounting. The war's geography widened even as its core cooled: Houthis struck Saudi Aramco at Jizan and Yanbu (Jul 25) and Ukraine struck an Iranian vessel in the Caspian (Jul 25). Trump warns strikes resume 'with greater force' if talks fail."
     }
   ],
   "toll": {
