@@ -1,45 +1,45 @@
 {
-  "last_updated": "2026-07-23",
-  "war_day": 146,
-  "timestamp_label": "LAST UPDATED: JUL 23, 2026 12:19 ET",
+  "last_updated": "2026-07-27",
+  "war_day": 150,
+  "timestamp_label": "LAST UPDATED: JUL 27, 2026 20:17 ET",
   "cost": {
     "brent": {
-      "price": 94.07,
-      "label": "Brent crude — $94.07 (Jul 22 settle, Day 145); highest close in over a month, +3.4%",
-      "change": "▲ +3.4% to $94.07 (July 22 settle) — highest close in over a month. Intraday July 23 spiked to $100.05–$100.08 (+6.4%), first time above $100 since late May, after the Houthis struck two Saudi tankers in the Red Sea; Jul 23 settle pending. Now ~32% above the Feb 27 $71.00 baseline; wartime peak $120.88 (Apr 30).",
-      "tooltip": "ICE Brent front-month settle, Jul 22. Intraday Jul 23 spiked to $100.05–$100.08 (+6.4%, first time above $100 since late May) after Houthis struck two Saudi tankers in the Red Sea; Jul 23 settle pending. Wartime peak $120.88 (Apr 30)."
+      "price": 88.36,
+      "label": "Brent crude — $88.36 (Jul 27 settle, Day 150); biggest one-day drop since Apr 8, −8.7%",
+      "change": "▼ −8.7% to $88.36 (July 27 settle, September contract) — the biggest one-day drop since April 8, as the mutual US-Iran strike pause held a third day. Down from the $101.01 intraday high on July 23, the first break above $100 since late May. Still ~24% above the Feb 27 $71.00 baseline.",
+      "tooltip": "ICE Brent September contract settle, Jul 27 (CNBC). Intraday it fell as much as 7.4%, below $90, before paring (Bloomberg). Trajectory: $101.01 intraday Jul 23 → $97.24 settle Jul 24 (−3.3%) → $88.36 Jul 27. DISCREPANCY: CNN reported $85.87 / −11.3% for the same session; CNBC's figure is used here because it explicitly cites the September contract settle. Both are flagged."
     },
     "wti": {
-      "price": 86.83,
-      "label": "WTI crude — $86.83 (Jul 22 settle, Day 145); ~+3%",
-      "change": "▲ ~+3% to $86.83 (July 22 settle). Intraday July 23 ~$91.24–$91.26 (+5%, highest since Jun 11); settle pending. Now ~31% above the Feb 27 $66.50 baseline.",
-      "tooltip": "NYMEX WTI front-month settle, Jul 22. Intraday Jul 23 ~$91.24–$91.26 (+5%, highest since Jun 11); settle pending."
+      "price": 82.61,
+      "label": "WTI crude — $82.61 (Jul 27 settle, Day 150); −7.5%",
+      "change": "▼ −7.5% to $82.61 (July 27 settle, September contract). Fell ~$5-6 on the US-Iran strike pause plus resumed Caspian Pipeline Consortium loadings. Down from ~$92.31 on July 23; the July 24 settle was $89.31 (−$2.88, −3.1%). Now ~24% above the Feb 27 $66.50 baseline.",
+      "tooltip": "NYMEX WTI September contract settle, Jul 27 (CNBC); Trading Economics logged an intraday low of $82.11. The Jul 24 settle of $89.31 is the official NYMEX close (MarketScreener) — a widely quoted $88.58 was an intraday print, not the settle."
     },
     "gas": {
-      "price": 4.019,
-      "label": "AAA national average, regular unleaded — July 21, 2026 (Day 144); crossed $4 on Jul 20",
-      "change": "▲ Crossed $4 on July 20 ($4.003), first time in over a month; $4.019 on July 21. +$1.03 vs the $2.99 Feb 28 baseline. Diesel $5.11. Further increases likely with Brent near $100.",
-      "tooltip": "AAA regular unleaded crossed $4 on Jul 20 ($4.003), first time in over a month; $4.019 on Jul 21. Diesel $5.11. Wartime peak ~$4.56 (May 21); AAA nominal record $5.016 (Jun 14, 2022)."
+      "price": 4.11,
+      "label": "AAA national average, regular unleaded — July 27, 2026 (Day 150)",
+      "change": "▲ $4.110 on July 27, up $0.091 from $4.019 on July 21. +$1.12 (37%) vs the $2.99 Feb 28 baseline. Diesel $5.11 (last confirmed Jul 21 — STALE). Oil's July 27 crash had not yet reached the pump; pump prices lag crude by 2-3 weeks, so relief is likely if the pause holds.",
+      "tooltip": "AAA (gasprices.aaa.com) national average for regular unleaded, 7/27/26. Wartime peak was ~$4.56 on May 21, below AAA's nominal record of $5.016 (June 14, 2022). Diesel has not been refreshed since Jul 21 and is flagged stale."
     },
     "sp500": {
-      "value": 7498.96,
-      "label": "S&P 500 — Jul 22 close (Day 145): −0.14% to 7,498.96; below the Jul 13 level",
-      "change": "▼ −0.14% to 7,498.96 (July 22) — below the Jul 13 level of 7,515.34. Intraday July 23 down ~0.8–1.1% on the oil spike; close pending. Nasdaq 25,690.90; Dow 52,218.58.",
-      "tooltip": "Last clean close Jul 22; below the Jul 13 level of 7,515.34. Intraday Jul 23 down ~0.8–1.1% on the oil spike; close pending."
+      "value": 7413.18,
+      "label": "S&P 500 — Jul 27 close (Day 150): +0.02% to 7,413.18; relief rally faded",
+      "change": "▲ +0.02% (+1.55) to 7,413.18 (July 27) — barely changed as an opening relief rally on the US-Iran pause faded by the close. Dow +0.51% to 52,210.08; Nasdaq −0.18% to 24,932.08 as chips dragged (SMH −2%, AMD −5%). VIX ~19.53 (+5.1% intraday). Gold $4,080.50.",
+      "tooltip": "S&P 500 close, Jul 27 (CNBC / Washington Post). NOTE: no verified equity closes were available for Jul 23 (Day 146) or Jul 24 (Day 147); those sessions are omitted from the series rather than estimated, so this close follows Jul 22's 7,498.96 directly."
     },
     "daily_cost": {
       "value": 500,
       "unit": "M/day",
-      "label": "Daily War Cost (est.) — active-ops burn, $500M–$1B/day band",
-      "change": "STILL FLAGGED FOR MANUAL REVIEW — but the LOWER bound is now the right call. CSIS senior adviser Mark Cancian estimates the conflict is costing ~$500M/day ('spending far, far less on munitions than the first couple of days'). CSIS (Cancian & Park) separately estimated ~$16.5B through day twelve and ~$1B/day thereafter. With 12 consecutive strike nights, active blockade enforcement and a carrier/ARG surge, ops sit firmly in the $500M–$1B/day active-ops band.",
+      "label": "Daily War Cost (est.) — active-ops burn, $500M–$1B/day band (HELD through the pause)",
+      "change": "HELD at ~$500M/day. No new official daily-rate figure was released this cycle. Strike sorties stopped after July 23, but the burn is driven by force presence, which is unchanged: two carrier strike groups (Lincoln, Bush), the Boxer ARG, 20+ warships and ~14 guided-missile destroyers remain on station enforcing the blockade. SEPARATE MEASURE, DO NOT CONFLATE: $37.5B official cost across 150 days is a blended ~$250M/day, which averages in the war's quiet phases and is not the active-ops rate this figure tracks.",
       "tooltip": "Mark Cancian (CSIS) estimates ~$500M/day; CSIS (Cancian & Park) separately estimated $16.5B through day twelve and ~$1B/day thereafter. 12 consecutive strike nights + blockade enforcement + carrier/ARG surge put ops in the $500M–$1B/day band. Displayed $500M is the documented lower bound.",
       "note": "STILL FLAGGED FOR MANUAL REVIEW; $500M/day is the CSIS/Cancian active-ops LOWER BOUND. Upper end ~$1B/day supported by 12 strike nights + blockade + carrier surge."
     },
     "total_cost": {
-      "value": 132,
+      "value": 37.5,
       "unit": "B",
-      "label": "Est. cost to US consumers + taxpayers — Moody's (mid-June, STALE)",
-      "change": "STALE (Moody's mid-June). New attributed figures, DO NOT SUM: $37.5B direct US military cost (Hegseth Senate testimony, Jul 19-20, replacing the prior $30B official figure); ~$71.1B in extra consumer gas+diesel costs since the war began (Brown University Watson Institute tracker, Jul 20). The House passed a $95B budget blueprint (>$70B for the Iran war) 216-214 on Jul 22 — pending Senate.",
+      "label": "Official direct US military cost — Pentagon (Hegseth, Senate Appropriations, Jul 21)",
+      "change": "$37.5B direct US military cost, stated by Defense Secretary Hegseth to Senate Appropriations on July 21 — supersedes the prior $29B (May) official figure. CBS sources say the true Pentagon figure is higher because it excludes base reconstruction. DO NOT SUM WITH CONSUMER ESTIMATES: Moody's Analytics (chief economist Mark Zandi) puts combined US consumer and taxpayer costs at at least $132B — the dashboard's prior headline figure, retained here as the sourced Moody's baseline and annotated as a pre-July undercount; Al Jazeera (Jul 21) cited a Moody's domestic estimate of up to $150bn, treated as an upper-bound press characterization pending confirmation. Zandi also estimates ~$1,000 per typical US household 'and counting.' A separate $87.6B supplemental ($67.1B to the Pentagon) is pending in Congress with no confirmed markup or vote date.",
       "tooltip": "Moody's ~$132B (mid-June consumer+taxpayer) is now stale. New attributed figures (DO NOT SUM): $37.5B direct US military cost (Hegseth Senate testimony, Jul 19-20); ~$71.1B extra consumer gas+diesel since the war began (Brown University Watson Institute, Jul 20). House passed a $95B blueprint (>$70B for Iran) 216-214 on Jul 22, pending Senate; the $87.6B June 24 supplemental is superseded/pending.",
       "note": "Stale baseline. New per-source figures reported separately (do not merge/sum): $37.5B direct US military (Hegseth, Jul 19-20); ~$71.1B consumer gas/diesel (Brown/Watson, Jul 20)."
     }
