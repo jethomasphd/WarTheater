@@ -4629,5 +4629,41 @@
     "notes": "First Houthi vessel attack since they declared a Red Sea blockade of Saudi Arabia (Jul 20). Houthis claimed forcing ~10 ships to retreat. Opens a second chokepoint front vs. Bab el-Mandeb.",
     "verified": true,
     "last_updated": "2026-07-23"
+  },
+  {
+    "id": "irgc-nasr2-wave27-jul24",
+    "city": "Udairi / Camp Buehring & Ali Al Salem AB (Kuwait), Isa AB & Fifth Fleet HQ (Bahrain), Erbil (Iraq), Jordan",
+    "lat": 29.55,
+    "lng": 47.55,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles, cruise missiles, Arash kamikaze drones",
+    "origin": "Iran / IRGC — 27th wave of Operation Nasr-2",
+    "first_strike": "2026-07-24",
+    "casualties_reported": "None independently confirmed. IRGC CLAIMS (UNVERIFIED) US casualties at Ali Al Salem; CENTCOM did not confirm any facility or person was hit.",
+    "casualties_source": "Mehr News (IRGC statement) / Euronews / AP / GlobalSecurity Day 149",
+    "active_days": [
+      147
+    ],
+    "notes": "IRAN'S FINAL RETALIATORY SALVO BEFORE THE PAUSE. Iran's army said it struck US assets in Bahrain, Jordan and Kuwait. IRGC BATTLE-DAMAGE CLAIMS ARE UNVERIFIED and sourced only to Iranian state media and IRGC statements: 3 ammunition and equipment hangars destroyed at Udairi; heavy damage to the US Fifth Fleet HQ watchtower in Bahrain; an Ali Al Salem ammunition depot destroyed with US casualties; Arash drone hits on fuel tanks and barracks at Isa AB. Euronews reported the US has not confirmed that any of its facilities or personnel were targeted. The only independent corroboration is an AP photo (Stella Martany) showing explosions and black smoke near a US-hosting base at Erbil. Tehran halted retaliation from Jul 25 as the mutual pause with the US took hold; Reuters (Jul 26), citing a senior Iranian official, reported Iran will suspend attacks as long as the US pause holds. ATTRIBUTE ALL DAMAGE FIGURES TO THE IRGC — DO NOT STATE AS FACT.",
+    "verified": false,
+    "last_updated": "2026-07-27"
+  },
+  {
+    "id": "houthi-aramco-jizan-yanbu-jul25",
+    "city": "Saudi Aramco — Jizan refinery & Yanbu oil installations, Saudi Arabia",
+    "lat": 16.89,
+    "lng": 42.55,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles, cruise missiles, drones",
+    "origin": "Houthis (Ansar Allah), Yemen",
+    "first_strike": "2026-07-25",
+    "casualties_reported": "No casualties reported",
+    "casualties_source": "Washington Post / Al Jazeera / Reuters / Times of Israel",
+    "active_days": [
+      148
+    ],
+    "notes": "FIRST HOUTHI STRIKE ON SAUDI OIL FACILITIES SINCE 2022 (spokesman Yahya Saree). Jizan: a large smoke plume and a NASA FIRMS thermal anomaly at ~01:17 UTC confirm a fire at the 400,000 bpd refinery; Saudi Arabia and Aramco issued no official damage or casualty assessment. Yanbu: 2 ballistic missiles were intercepted by a Patriot battery operated by the GREEK military in Saudi Arabia, with no damage reported. STRATEGIC SIGNIFICANCE — Yanbu is Saudi Arabia's primary Hormuz-bypass corridor, handling ~92% of Saudi seaborne crude exports in June 2026 (Kpler/AFP), with loadings hitting a record 4.7M bpd around Jul 13 (Signal Ocean); the strike demonstrates the Houthis can reach it. SEQUENCE — Jul 22: Houthis struck the Saudi tanker Encelia (bow fire confirmed by SPA) and claimed the Layla (unconfirmed). Jul 24: the Saudi-led coalition struck Houthi targets in Hodeidah and on Kamaran Island (2 injured, per Al Masirah). Jul 25: these Aramco strikes, in retaliation. Jul 26: Houthis claimed 'two qualitative operations' on the Red Sea coast, and Saudi Arabia downed Iranian-backed Iraqi-militia drones aimed at petroleum facilities.",
+    "verified": true,
+    "last_updated": "2026-07-27"
   }
 ]

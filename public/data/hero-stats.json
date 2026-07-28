@@ -1,45 +1,45 @@
 {
-  "last_updated": "2026-07-23",
-  "war_day": 146,
-  "timestamp_label": "LAST UPDATED: JUL 23, 2026 12:19 ET",
+  "last_updated": "2026-07-27",
+  "war_day": 150,
+  "timestamp_label": "LAST UPDATED: JUL 27, 2026 20:17 ET",
   "cost": {
     "brent": {
-      "price": 94.07,
-      "label": "Brent crude — $94.07 (Jul 22 settle, Day 145); highest close in over a month, +3.4%",
-      "change": "▲ +3.4% to $94.07 (July 22 settle) — highest close in over a month. Intraday July 23 spiked to $100.05–$100.08 (+6.4%), first time above $100 since late May, after the Houthis struck two Saudi tankers in the Red Sea; Jul 23 settle pending. Now ~32% above the Feb 27 $71.00 baseline; wartime peak $120.88 (Apr 30).",
-      "tooltip": "ICE Brent front-month settle, Jul 22. Intraday Jul 23 spiked to $100.05–$100.08 (+6.4%, first time above $100 since late May) after Houthis struck two Saudi tankers in the Red Sea; Jul 23 settle pending. Wartime peak $120.88 (Apr 30)."
+      "price": 88.36,
+      "label": "Brent crude — $88.36 (Jul 27 settle, Day 150); biggest one-day drop since Apr 8, −8.7%",
+      "change": "▼ −8.7% to $88.36 (July 27 settle, September contract) — the biggest one-day drop since April 8, as the mutual US-Iran strike pause held a third day. Down from the $101.01 intraday high on July 23, the first break above $100 since late May. Still ~24% above the Feb 27 $71.00 baseline.",
+      "tooltip": "ICE Brent September contract settle, Jul 27 (CNBC). Intraday it fell as much as 7.4%, below $90, before paring (Bloomberg). Trajectory: $101.01 intraday Jul 23 → $97.24 settle Jul 24 (−3.3%) → $88.36 Jul 27. DISCREPANCY: CNN reported $85.87 / −11.3% for the same session; CNBC's figure is used here because it explicitly cites the September contract settle. Both are flagged."
     },
     "wti": {
-      "price": 86.83,
-      "label": "WTI crude — $86.83 (Jul 22 settle, Day 145); ~+3%",
-      "change": "▲ ~+3% to $86.83 (July 22 settle). Intraday July 23 ~$91.24–$91.26 (+5%, highest since Jun 11); settle pending. Now ~31% above the Feb 27 $66.50 baseline.",
-      "tooltip": "NYMEX WTI front-month settle, Jul 22. Intraday Jul 23 ~$91.24–$91.26 (+5%, highest since Jun 11); settle pending."
+      "price": 82.61,
+      "label": "WTI crude — $82.61 (Jul 27 settle, Day 150); −7.5%",
+      "change": "▼ −7.5% to $82.61 (July 27 settle, September contract). Fell ~$5-6 on the US-Iran strike pause plus resumed Caspian Pipeline Consortium loadings. Down from ~$92.31 on July 23; the July 24 settle was $89.31 (−$2.88, −3.1%). Now ~24% above the Feb 27 $66.50 baseline.",
+      "tooltip": "NYMEX WTI September contract settle, Jul 27 (CNBC); Trading Economics logged an intraday low of $82.11. The Jul 24 settle of $89.31 is the official NYMEX close (MarketScreener) — a widely quoted $88.58 was an intraday print, not the settle."
     },
     "gas": {
-      "price": 4.019,
-      "label": "AAA national average, regular unleaded — July 21, 2026 (Day 144); crossed $4 on Jul 20",
-      "change": "▲ Crossed $4 on July 20 ($4.003), first time in over a month; $4.019 on July 21. +$1.03 vs the $2.99 Feb 28 baseline. Diesel $5.11. Further increases likely with Brent near $100.",
-      "tooltip": "AAA regular unleaded crossed $4 on Jul 20 ($4.003), first time in over a month; $4.019 on Jul 21. Diesel $5.11. Wartime peak ~$4.56 (May 21); AAA nominal record $5.016 (Jun 14, 2022)."
+      "price": 4.11,
+      "label": "AAA national average, regular unleaded — July 27, 2026 (Day 150)",
+      "change": "▲ $4.110 on July 27, up $0.091 from $4.019 on July 21. +$1.12 (37%) vs the $2.99 Feb 28 baseline. Diesel $5.11 (last confirmed Jul 21 — STALE). Oil's July 27 crash had not yet reached the pump; pump prices lag crude by 2-3 weeks, so relief is likely if the pause holds.",
+      "tooltip": "AAA (gasprices.aaa.com) national average for regular unleaded, 7/27/26. Wartime peak was ~$4.56 on May 21, below AAA's nominal record of $5.016 (June 14, 2022). Diesel has not been refreshed since Jul 21 and is flagged stale."
     },
     "sp500": {
-      "value": 7498.96,
-      "label": "S&P 500 — Jul 22 close (Day 145): −0.14% to 7,498.96; below the Jul 13 level",
-      "change": "▼ −0.14% to 7,498.96 (July 22) — below the Jul 13 level of 7,515.34. Intraday July 23 down ~0.8–1.1% on the oil spike; close pending. Nasdaq 25,690.90; Dow 52,218.58.",
-      "tooltip": "Last clean close Jul 22; below the Jul 13 level of 7,515.34. Intraday Jul 23 down ~0.8–1.1% on the oil spike; close pending."
+      "value": 7413.18,
+      "label": "S&P 500 — Jul 27 close (Day 150): +0.02% to 7,413.18; relief rally faded",
+      "change": "▲ +0.02% (+1.55) to 7,413.18 (July 27) — barely changed as an opening relief rally on the US-Iran pause faded by the close. Dow +0.51% to 52,210.08; Nasdaq −0.18% to 24,932.08 as chips dragged (SMH −2%, AMD −5%). VIX ~19.53 (+5.1% intraday). Gold $4,080.50.",
+      "tooltip": "S&P 500 close, Jul 27 (CNBC / Washington Post). NOTE: no verified equity closes were available for Jul 23 (Day 146) or Jul 24 (Day 147); those sessions are omitted from the series rather than estimated, so this close follows Jul 22's 7,498.96 directly."
     },
     "daily_cost": {
       "value": 500,
       "unit": "M/day",
-      "label": "Daily War Cost (est.) — active-ops burn, $500M–$1B/day band",
-      "change": "STILL FLAGGED FOR MANUAL REVIEW — but the LOWER bound is now the right call. CSIS senior adviser Mark Cancian estimates the conflict is costing ~$500M/day ('spending far, far less on munitions than the first couple of days'). CSIS (Cancian & Park) separately estimated ~$16.5B through day twelve and ~$1B/day thereafter. With 12 consecutive strike nights, active blockade enforcement and a carrier/ARG surge, ops sit firmly in the $500M–$1B/day active-ops band.",
+      "label": "Daily War Cost (est.) — active-ops burn, $500M–$1B/day band (HELD through the pause)",
+      "change": "HELD at ~$500M/day. No new official daily-rate figure was released this cycle. Strike sorties stopped after July 23, but the burn is driven by force presence, which is unchanged: two carrier strike groups (Lincoln, Bush), the Boxer ARG, 20+ warships and ~14 guided-missile destroyers remain on station enforcing the blockade. SEPARATE MEASURE, DO NOT CONFLATE: $37.5B official cost across 150 days is a blended ~$250M/day, which averages in the war's quiet phases and is not the active-ops rate this figure tracks.",
       "tooltip": "Mark Cancian (CSIS) estimates ~$500M/day; CSIS (Cancian & Park) separately estimated $16.5B through day twelve and ~$1B/day thereafter. 12 consecutive strike nights + blockade enforcement + carrier/ARG surge put ops in the $500M–$1B/day band. Displayed $500M is the documented lower bound.",
       "note": "STILL FLAGGED FOR MANUAL REVIEW; $500M/day is the CSIS/Cancian active-ops LOWER BOUND. Upper end ~$1B/day supported by 12 strike nights + blockade + carrier surge."
     },
     "total_cost": {
-      "value": 132,
+      "value": 37.5,
       "unit": "B",
-      "label": "Est. cost to US consumers + taxpayers — Moody's (mid-June, STALE)",
-      "change": "STALE (Moody's mid-June). New attributed figures, DO NOT SUM: $37.5B direct US military cost (Hegseth Senate testimony, Jul 19-20, replacing the prior $30B official figure); ~$71.1B in extra consumer gas+diesel costs since the war began (Brown University Watson Institute tracker, Jul 20). The House passed a $95B budget blueprint (>$70B for the Iran war) 216-214 on Jul 22 — pending Senate.",
+      "label": "Official direct US military cost — Pentagon (Hegseth, Senate Appropriations, Jul 21)",
+      "change": "$37.5B direct US military cost, stated by Defense Secretary Hegseth to Senate Appropriations on July 21 — supersedes the prior $29B (May) official figure. CBS sources say the true Pentagon figure is higher because it excludes base reconstruction. DO NOT SUM WITH CONSUMER ESTIMATES: Moody's Analytics (chief economist Mark Zandi) puts combined US consumer and taxpayer costs at at least $132B — the dashboard's prior headline figure, retained here as the sourced Moody's baseline and annotated as a pre-July undercount; Al Jazeera (Jul 21) cited a Moody's domestic estimate of up to $150bn, treated as an upper-bound press characterization pending confirmation. Zandi also estimates ~$1,000 per typical US household 'and counting.' A separate $87.6B supplemental ($67.1B to the Pentagon) is pending in Congress with no confirmed markup or vote date.",
       "tooltip": "Moody's ~$132B (mid-June consumer+taxpayer) is now stale. New attributed figures (DO NOT SUM): $37.5B direct US military cost (Hegseth Senate testimony, Jul 19-20); ~$71.1B extra consumer gas+diesel since the war began (Brown University Watson Institute, Jul 20). House passed a $95B blueprint (>$70B for Iran) 216-214 on Jul 22, pending Senate; the $87.6B June 24 supplemental is superseded/pending.",
       "note": "Stale baseline. New per-source figures reported separately (do not merge/sum): $37.5B direct US military (Hegseth, Jul 19-20); ~$71.1B consumer gas/diesel (Brown/Watson, Jul 20)."
     }
@@ -2419,63 +2419,85 @@
       "flights_cancelled": 8000,
       "children_killed": 376,
       "headline": "Day 146 (July 23, Thursday) — 12TH STRAIGHT STRIKE NIGHT; BRENT NEARS $100: CENTCOM completed a 12th consecutive night of strikes; Iranian state media reported 2 killed at the Shalamcheh border crossing. Brent spiked toward $100 intraday (+6.4%), first time above $100 since late May; WTI ~$91.24. Rubio said Iran is 'not serious' about talks; Trump said the US would 'hold Iran responsible' for Houthi attacks. New cost figures: $37.5B direct US military (Hegseth); ~$71.1B consumer gas/diesel (Brown/Watson)."
+    },
+    {
+      "date": "2026-07-27",
+      "war_day": 150,
+      "brent": 88.36,
+      "wti": 82.61,
+      "gas": 4.11,
+      "sp500": 7413.18,
+      "sp500_change_pct": 0.02,
+      "nasdaq": 24932.08,
+      "dow": 52210.08,
+      "daily_cost_millions": 500,
+      "total_cost_billions": 37.5,
+      "targets_struck": 35914,
+      "us_kia": 18,
+      "us_wia": 624,
+      "iranian_killed": 3636,
+      "lebanese_killed": 4297,
+      "displaced": 1200000,
+      "flights_cancelled": 8000,
+      "children_killed": 376,
+      "headline": "Day 150 (July 27, Monday) — MUTUAL STRIKE PAUSE HOLDS A THIRD DAY; OIL CRASHES ~9%: CENTCOM's 13-night campaign ended 9 p.m. ET Jul 23 and no US strikes followed Jul 24-27; Iran halted retaliation after its Jul 24 IRGC salvo. Mediators led by Qatar and Pakistan told AP they made 'significant' progress toward restoring the interim ceasefire, though an Al Jazeera source said Jul 26 there was 'not much progress yet'; Iran confirms no direct US talks. Brent settled $88.36 (-8.7%), the biggest one-day drop since Apr 8, off the $101.01 intraday high of Jul 23; WTI $82.61. Gas $4.110. S&P 7,413.18 (+0.02%) as the relief rally faded. Pentagon DCAS restored the toll to 18 killed / 624 wounded under a new split-category accounting. The war's geography widened even as its core cooled: Houthis struck Saudi Aramco at Jizan and Yanbu (Jul 25) and Ukraine struck an Iranian vessel in the Caspian (Jul 25). Trump warns strikes resume 'with greater force' if talks fail."
     }
   ],
   "toll": {
     "targets_struck": {
       "value": 35914,
       "label": "Cumulative targets struck (US+IL on Iran/proxies)",
-      "note": "Day 146: HELD at 35,914 — CENTCOM stopped publishing cumulative totals. Standing reference: 'more than 300 Iranian sites struck since Jul 7.' Twelve consecutive strike nights (Jul 11/12–22, through the night of Jul 22–23) hit maritime capabilities, missile/drone storage, coastal surveillance, air-defense, bridges, tunnels, and port/desalination infrastructure across southern and central Iran — deepest interior reach of the July cycle (Konarak, Sirik, Lar, Yazd, Iranshahr; explosions in Shiraz and Isfahan Jul 20). Exact increment for Jul 15–23 UNVERIFIED — do not invent movement.",
-      "tooltip": "CENTCOM/IDF strikes since Feb 28. Includes 900+ first-12-hour Operation Epic Fury strikes (US+IL). Excludes Iranian retaliation. Day 137: +300 window increment per CENTCOM public releases Jul 7-14 (300+ targets across the first three nights of the renewed campaign; ~140 on Jul 12). CENTCOM blockade tally at the June 18 lift: 9 tankers disabled, 142 vessels redirected; the naval blockade of Iranian ports was REIMPOSED effective Jul 14, 20:00 GMT.",
+      "note": "Day 150: HELD at 35,914 — CENTCOM still publishes no cumulative totals. The strike campaign is PAUSED: CENTCOM completed its 13th consecutive night at 9 p.m. ET Jul 23 and announced no strikes Jul 24, 25, 26 or 27, the first break in two weeks. The 13th night hit military command centers, drone storage, communication networks, coastal surveillance sites and maritime capabilities; CENTCOM gave no target count. Standing reference: 'more than 300 Iranian sites struck since Jul 7.' CONFLICTING BASIS (flagged, not merged): this cycle's manifest cites '>6,000 cumulative since Feb 28,' which is irreconcilable with the published 35,914 and appears to use a different counting basis — held pending analyst reconciliation. Exact increment for Jul 15-23 UNVERIFIED — do not invent movement.",
+      "tooltip": "CENTCOM stopped publishing cumulative target totals, so this counter is held rather than incremented. No US strikes were announced Jul 24-27. The naval blockade of Iranian ports continued through the pause: 12 commercial vessels redirected, 2 disabled and 2 boarded as of Jul 26 (from 9 redirected / 1 disabled on Jul 24). Two competing cumulative bases exist (35,914 published vs. >6,000 in the Day 150 manifest) — flagged for reconciliation, never summed.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
-      "value": 17,
-      "label": "US service-member KIA",
-      "note": "Day 146: 17 (was 13; +4) — FIRST US COMBAT DEATHS SINCE MARCH. A Jul 17 Iranian ballistic-missile attack on Muwaffaq Salti Air Base, Jordan, killed 1st Lt. Tyler James Feehan (25, Hawaii), Pvt. Isabella Gonzales (19, Texas), and Sgt. Angel S. Rampersad (28, NY — initially missing, later confirmed KIA). A 4th soldier died Jul 18 in northern Iraq during a controlled detonation of unexploded ordnance. Trump attended the Dover dignified transfer of four on Jul 22. DISCREPANCY: CNN/Britannica cite 16; Time cites 18; GlobalSecurity had 14 confirmed on Jul 18 before all IDs. Using 17 pending Pentagon reconciliation.",
-      "tooltip": "First US combat deaths since March: 3 killed at Muwaffaq Salti Air Base, Jordan (Jul 17 Iranian ballistic-missile attack) — 1st Lt. Tyler James Feehan (25, Hawaii), Pvt. Isabella Gonzales (19, Texas), Sgt. Angel S. Rampersad (28, NY); a 4th soldier died Jul 18 in northern Iraq during a controlled ordnance detonation; 4 medevac'd. Trump attended the Dover dignified transfer of four on Jul 22. Prior composition (13): 6 KC-135 crew (Mar 13, western Iraq), 6 Kuwait Camp Arifjan (Mar 1), 1 Saudi. DISCREPANCY: CNN/Britannica 16; Time 18; GlobalSecurity 14 confirmed Jul 18 before all IDs. Using 17 pending Pentagon reconciliation.",
+      "value": 18,
+      "label": "US service-member KIA (Pentagon DCAS, Jul 26)",
+      "note": "Day 150: 18 (was 17; +1) — Pentagon DCAS restored Jul 25-26. Composition: 14 through Jul 17, plus 1st Lt. Tyler James Feehan (25), Pvt. Isabella Gonzales (19) and Sgt. Angel S. Rampersad (28), all killed in the Jul 17 Iranian ballistic-missile strike on a barracks at Muwaffaq Salti Air Base, Jordan, plus Staff Sgt. Michael Emmanuel Swinton, killed in an Erbil, Iraq drone detonation on Jul 19. Trump attended the Dover dignified transfer of four on Jul 22. DATA-INTEGRITY WARNING: the Pentagon briefly listed only 14 KIA on Jul 23 before restoring 18 after congressional and media scrutiny — the same underlying events produced tolls of 14 and 18 within days.",
+      "tooltip": "Defense Casualty Analysis System (DCAS) figure as restored Jul 26 and reported by CNN, ABC News and Military Times. Note the Jul 19 Erbil death is dated Jul 18 in this dashboard's per-day casualty series, a one-day discrepancy carried from earlier reporting and flagged for reconciliation. No US deaths occurred during the Jul 24-27 strike pause.",
       "color": "var(--civilian)"
     },
     "us_wia": {
-      "value": 543,
-      "label": "US WIA (CENTCOM)",
-      "note": "Day 146: HELD at 543 (CENTCOM) + footnote. The Pentagon (Sean Parnell) said 'nearly 100' service members suffered some injury since Jul 7 (96% returned to duty; mostly minor concussions), with 4 medevac'd from the Jul 17 Jordan attack. Not cleanly additive: CENTCOM's 543 baseline vs. GlobalSecurity's 427 use different reporting bases. HOLD 543 pending a reconciled CENTCOM figure.",
-      "tooltip": "Pentagon/DCAS official: 409 WIA as of May 26 (~90% returned to duty); 15 wounded were removed from the count on April 21 without explanation. Independent estimates (The Intercept / Wikipedia 2026 Iran war) range 520–538. The Intercept alleges the Pentagon figure undercounts by ~200+ non-hostile injuries. Manifest §1a range: ~140 (Pentagon, March 13) vs ~365 (CENTCOM, later trackers); last public CENTCOM figure 303 as of March 28. May 27 Ali Al Salem (Kuwait): a US official told CBS that 4 US service members + 3 contractors (7 total) suffered minor injuries from debris when Iran's Fateh-110 was intercepted by Kuwaiti air defenses; all returned to duty within 24 hours. Bloomberg (May 30) earlier cited ~5 wounded plus one MQ-9 Reaper destroyed and another seriously damaged (~$30M each). DISCREPANCY: GlobalSecurity.org Day-91 said 'no…US military casualties or asset damage' for the same intercept — treat as UNRESOLVED.",
+      "value": 624,
+      "label": "US WIA (Pentagon DCAS, Jul 26)",
+      "note": "Day 150: 624 (was 543; +81) — Pentagon DCAS Jul 26 update added 140+ wounded. Composition: 207 logged under a NEW 'Overseas Operations (since Jul 7)' category plus the Operation Epic Fury totals = 624. Prior peak was 482 under the old single-category basis. ACCOUNTING-METHODOLOGY CHANGE — DATA-INTEGRITY RISK: splitting the war's wounded across two DCAS categories is unprecedented, briefly produced a LOWER apparent toll (14 KIA / 420 WIA) before restoration, and drew criticism from lawmakers and media as obscuring the war's true cost. Future DCAS pulls may diverge again.",
+      "tooltip": "Pentagon DCAS as of Jul 26 (CNN, ABC News, The Hill). The 'Overseas Operations (since Jul 7)' category is separate from Operation Epic Fury; the 624 figure is the combined total since Feb 28. Earlier bases are not comparable: CENTCOM's 543, DCAS's 409 as of May 26, and GlobalSecurity's 427 each use different reporting rules. Use the Jul 26 restored figures and surface the methodology dispute rather than a single unqualified number.",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
-      "value": 3468,
-      "label": "Iranian dead (Iran MoH / Foundation of Martyrs, Apr 19)",
-      "note": "Day 146: HELD at 3,468 (Foundation of Martyrs, Apr 19 benchmark). Independent monitor HRANA now cites 3,636 cumulative war deaths. New-wave toll since the Jun 22 Switzerland talks: Iranian authorities ≥46 killed / 400+ wounded; HRANA's ten-day report (Jul 18) ≥48 killed / 68 injured, including a 1-year-old in Bandar. Incompatible tallies kept separate — never merged.",
-      "tooltip": "Iran's Foundation of Martyrs cumulative total = 3,468 as of Apr 19 (7 infants, 376 children, 496 women; 26,500+ injured). CONFLICTING RANGE (per manifest §9, do not synthesize): 3,468 (Iran MoH / Foundation of Martyrs — FROZEN since April 19 due to documented Iranian government information suppression) / 3,636+ (HRANA: 1,701 civ / 1,221 mil / 714 unclassified) / ~6,620 military KIA in Kurdish provinces by April 8 (Hengaw) / 7,650 cumulative (Hengaw 40-day report incl. 1,030 civilians) / 4,700+ security forces (Iran International) / 6,000+ IRGC (IDF claim). Iranian Red Crescent (May 22): aid workers rescued more than 7,200 people from rubble across US/Israeli attacks since the war began. The true toll is higher (per Hengaw, HRANA) given documented Iranian government concealment.",
+      "value": 3636,
+      "label": "Iranian dead (HRANA, cumulative — competing tallies, never merged)",
+      "note": "Day 150: 3,636 (HRANA) — headline reporting body switched to HRANA, whose cumulative documentation (1,701 civilian / 1,221 military / 714 unclassified) is the most current. IRRECONCILABLE TALLIES, DISPLAY SEPARATELY, NEVER SUM OR AVERAGE: 3,636 (HRANA) · 3,468 (Iran Foundation of Martyrs, Apr 19 benchmark) · 6,000+ (US-Israeli estimate). Iran Health Ministry period tally for US strikes since Jun 27 rose to 59 killed / 666 injured / 32 hospitalized on Jul 27, from 55 / 629 — a rise of 4 deaths with no strikes in the interval, consistent with deaths of the previously wounded rather than new casualties. Latest strike deaths: Ahvaz Jul 23 (4 killed, 5 wounded); Shalamcheh Jul 22 (2 killed, 11 wounded), both Iranian-state-media sourced.",
+      "tooltip": "Injured range is equally contested: 15,000 (US/Israel) to 26,500 (Iranian Health Ministry). One Iranian sailor was also killed and another injured on Jul 25 when Ukraine struck an Iranian commercial vessel in the Caspian Sea — a Russia-Ukraine war casualty, counted separately from US strike tolls. Per manifest §9, do not synthesize a single Iranian death toll.",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
-      "value": 4321,
-      "label": "Lebanese dead (reported through Jul 8 — UNVERIFIED)",
-      "note": "Day 146: HELD at 4,321 — STALE, UNVERIFIED. No new primary Lebanese Ministry of Public Health release in this window; GlobalSecurity cites a lower 'at least 4,219 killed since Mar 2.' Both are secondhand aggregation.",
-      "tooltip": "FLAG: the 4,321 figure (through Jul 8) is UNVERIFIED — sourced only via aggregated secondhand reporting; no primary Lebanese MoPH statement located. Lebanon war cumulative since March 2: ~3,473 killed / 10,577 wounded / 127+ healthcare workers killed (Lebanese Ministry of Public Health; the June-2 cumulative was revised up to 3,468, then +5 June 3). MoPH breakdown war-to-date: ≥211 children, nearly 300 women among the dead. Internal Hezbollah sources say 1,000+ fighters killed; IDF claims 1,700 killed. Israel (since March 2): 57 citizens/residents killed (28 soldiers incl. one off-duty and one friendly-fire, 28 civilians, 1 MoD contractor); 8,970+ injured incl. 1,191 military (Wikipedia casualties, June 3). Iraq: at least 118 killed; Iraqi Kurdistan hit by 196+ drone/missile attacks.",
+      "value": 4297,
+      "label": "Lebanese dead since Mar 2 (Lebanese Ministry of Public Health, Jul 2)",
+      "note": "Day 150: 4,297 (was 4,321) — REVISED DOWN TO A PRIMARY SOURCE, not a data regression. The prior 4,321 was flagged UNVERIFIED secondhand aggregation with no locatable primary release; 4,297 killed / 12,196 wounded comes from a Lebanese Ministry of Public Health statement dated Jul 2. No confirmed change this cycle. Cross-source compilations cite 4,219+.",
+      "tooltip": "Lebanese MoPH, Jul 2 statement: 4,297 killed / 12,196 wounded since Mar 2. The Ministry does not distinguish civilians from combatants. Trump authorized the resumption of US carrier direct flights to Lebanon on Jul 21, barred since 1985 — a directional easing, not a change to this toll.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
       "value": 1200000,
       "label": "Displaced (Lebanon, UNHCR-based)",
-      "note": "Day 146: HELD at >1.2 million displaced in Lebanon (UN OCHA). No major new figure this window; trackers still cite ~1.6M (Lebanon), with UNHCR ~3.2M inside Iran and ~3M internally displaced.",
+      "note": "Day 150: HELD at >1.2 million displaced in Lebanon (UN OCHA). NO CONFIRMED UPDATE this cycle — no new displacement figure surfaced Jul 21-27. FLAGGED: do not invent movement. Trackers still cite ~1.6M (Lebanon), with UNHCR ~3.2M inside Iran and ~3M internally displaced.",
       "tooltip": "UNHCR / Lebanese government figures. IOM 1M+ displaced in Lebanon; 140,000+ in collective shelters; 147,823 crossed to Syria since March 1; CSMonitor ~1.2M as of May 7. UNHCR ~3.2M inside Iran (~1M households). ~68,000 Iranians fled to Türkiye, ~30,000 to Afghanistan. Cross-border into Syria: 306,888 Syrians + 64,865 Lebanese (May 2 baseline, carry-forward). 40,000+ homes destroyed in southern Lebanon; cumulative evacuation orders cover ~1,470 km² (~14% of national territory).",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 8000,
       "label": "Cumulative flights cancelled (Gulf hubs, est.)",
-      "note": "Day 146: HELD at ~8,000+ — STALE. No updated aggregate cancellation figure published in this window.",
+      "note": "Day 150: HELD at ~8,000+ — STALE. NO CONFIRMED UPDATE: no new aggregate cancellation figure was published this cycle. FLAGGED. Directional easing only: Trump authorized the resumption of US carrier direct flights to Lebanon on Jul 21, barred since 1985 — a policy change, not a counter movement.",
       "tooltip": "FlightAware running figures from war's first weeks: DXB ~4,000 / DOH 2,000+ / AUH 1,000+. Aggregate ~8,000+ remains conservative. AAA holiday-travel survey: 3.66M Americans projected to fly for Memorial Day weekend — a record despite ongoing disruption. Methodological note: 'flights affected' captures cancellations + diversions + multi-hour holds + reroutes + overflight disruptions across all regional FIRs. Gulf carriers continue suspended/rerouted ops; Dubai International at limited capacity.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
       "value": 376,
-      "label": "Children killed in Iran (Iran MoH, Apr 19)",
-      "note": "Day 146: HELD at 376 (Iran MoH, Apr 19) — STALE. New child casualties reported (a 1-year-old in Bandar per HRANA; a child wounded by falling debris in Doha, Jul 17) but no updated aggregate. Iran MoHME's Apr 3 count of 216 uses a different body/date.",
-      "tooltip": "Multiple methodologies; UNICEF figure is the most-cited international baseline. Iran MoH (via Al Jazeera tracker; STALE since Apr 19): 376 children killed (incl. 7 infants), 496 women. HRANA: ≥254 children among Iranian civilian dead (Apr 7). Lebanese MoPH: ≥210-211 children among the dead (war-to-date breakdown May 19); 98+ children killed in Lebanon per manifest. UNICEF (Mar 12): >1,100 children killed/injured regionally (200 Iran + 91 Lebanon + 4 Israel + 1 Kuwait subset) — STALE. Israeli child casualties tracked separately.",
+      "label": "Children killed in Iran (Iran MoH, Apr 19 — competing lower claim, see note)",
+      "note": "Day 150: HELD at 376 (Iran MoH, Apr 19) — STALE but retained as the better-attributed figure. CONFLICTING FIGURE FLAGGED FOR ANALYST REVIEW: this cycle's manifest cites 168 children killed, an Iranian cumulative claim relayed via NPR and explicitly marked independently UNVERIFIED. It was NOT adopted here because replacing a dated, body-attributed 376 (Iran MoH, Apr 19) with a lower unverified relay would regress a published counter without a primary source; the manifest itself notes the figures conflict (HRANA documented 181 children in the war's first days alone). Both are Iranian-attributed claims. Analyst decision required on which body headlines this counter.",
+      "tooltip": "Multiple methodologies, none reconciled. Iran MoH (via Al Jazeera tracker, STALE since Apr 19): 376 children killed, including 7 infants, plus 496 women. Competing: 168 (Iran cumulative claim via NPR, Jul); HRANA 181 children in the first days (Mar); HRANA >=254 children among Iranian civilian dead (Apr 7); Iran MoHME 216 (Apr 3, different body and date). Lebanese MoPH: >=210-211 children among the dead. All Iranian child-casualty figures are Iranian-source attributed and independently unverified.",
       "color": "var(--civilian)"
     }
   }
