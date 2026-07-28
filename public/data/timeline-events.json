@@ -9196,5 +9196,23 @@
     "category": "military",
     "source": "US Navy via CNN",
     "data_point": "Tripoli ARG returns to Indo-Pacific"
+  },
+  {
+    "date": "2026-07-24",
+    "time": "Day 147",
+    "title": "US pauses Iran strikes after 13 straight nights",
+    "description": "CENTCOM did not announce a strike on Iran for the first time in two weeks, ending a run of 13 consecutive nights that had concluded at 9 p.m. ET on July 23. A Defense Department source told CNN operations were 'on a hold.' Iran had rejected a US ceasefire proposal delivered via the Iraqi prime minister on July 23; Vice President Vance and Joint Chiefs Chairman Gen. Caine reportedly cautioned Trump against further escalation, citing the state of the US munitions stockpile. Trump said the pause allows diplomacy but warned strikes would resume 'with greater force' if talks fail. The naval blockade of Iranian ports continued throughout.",
+    "category": "military",
+    "source": "CNN / CENTCOM / GlobalSecurity / ABC News",
+    "data_point": "13-night strike campaign ends; first night off in two weeks"
+  },
+  {
+    "date": "2026-07-24",
+    "time": "Day 147",
+    "title": "Iran's final retaliation: IRGC strikes Gulf bases",
+    "description": "Iran's IRGC launched its '27th wave of Operation Nasr-2,' claiming strikes on US bases at Udairi and Ali Al Salem in Kuwait, Isa Air Base and the Fifth Fleet's Bahrain watchtower, plus targets in Jordan and Erbil, Iraq, using ballistic missiles, cruise missiles and Arash kamikaze drones. CENTCOM did not confirm that any facility or person was hit, and Euronews reported the US has not confirmed its facilities or personnel were targeted; the IRGC's battle-damage claims remain unverified. The only independent corroboration is an AP photo showing explosions and black smoke near a US-hosting base at Erbil. This was Iran's last salvo before the mutual pause — Tehran halted retaliation from July 25.",
+    "category": "military",
+    "source": "Mehr News / Euronews / AP / GlobalSecurity",
+    "data_point": "27th Nasr-2 wave; all battle damage IRGC-claimed, unverified"
   }
 ]
