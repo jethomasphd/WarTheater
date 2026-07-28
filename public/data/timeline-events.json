@@ -9232,5 +9232,23 @@
     "category": "political",
     "source": "Reuters / Al Jazeera / CNBC / Defense News / Marine Insight",
     "data_point": "Middle East and Ukraine wars overlap in the Caspian"
+  },
+  {
+    "date": "2026-07-26",
+    "time": "Day 149",
+    "title": "Pentagon changes Iran-war casualty accounting; toll tops 600",
+    "description": "The Pentagon updated its Defense Casualty Analysis System, restoring the four recently killed soldiers and adding more than 140 wounded, but created a new 'Overseas Operations (since July 7)' category separate from Operation Epic Fury, with 207 of the wounded logged under it. Combined, the toll since February 28 is 18 killed and 624 wounded, against a prior wounded peak of 482. The reorganization had briefly shown a lower toll of 14 killed and 420 wounded before restoration, and the split drew criticism from lawmakers and media as obscuring the war's true cost. The episode is a standing data-integrity risk: the same underlying events produced tolls of 14 and 18 killed within days.",
+    "category": "political",
+    "source": "CNN / ABC News / The Hill / Military Times",
+    "data_point": "18 killed, 624 wounded since Feb 28 (DCAS restored)"
+  },
+  {
+    "date": "2026-07-27",
+    "time": "Day 150",
+    "title": "Mediators cite progress; Oman-Iran Hormuz talks advance",
+    "description": "Regional officials told AP that mediators led by Qatar and Pakistan had made 'significant' progress toward restoring the collapsed interim ceasefire, after three days without strikes from either side. Iran and Oman held talks on July 24-25 on a mechanism to manage Strait of Hormuz transit, with Iran asserting the interim deal entitles it to manage the waterway and objecting to the US-supported Oman-side route. Iran's Foreign Ministry spokesman Baghaei stressed there were 'no direct negotiations' with the US, only messages via mediators, and an Al Jazeera mediator source had said on July 26 there was 'not much progress yet' amid 'fundamental differences' and 'deep mistrust.' Trump said he had 'plenty of time' and saw a good chance of a deal, but warned strikes would resume 'with greater force' if talks fail. Netanyahu arrived in Washington with Iran atop the agenda.",
+    "category": "diplomatic",
+    "source": "AP / CBS News / Iran International / CNN",
+    "data_point": "3 days without strikes; mediation progress disputed"
   }
 ]
