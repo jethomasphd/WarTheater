@@ -719,5 +719,12 @@
         "label": "JULY 23, 2026 — DAY 146",
         "headline": "12th straight US strike night; first combat deaths since March at a Jordan base (US KIA to 17); Houthis open a Red Sea front vs Saudi; blockade actively enforced; Brent nears $100, gas tops $4",
         "file": "data/briefings/day-146.html"
+    },
+    {
+        "day": 150,
+        "date": "2026-07-27",
+        "label": "JULY 27, 2026 — DAY 150",
+        "headline": "US-Iran strikes pause holds 3rd day; oil crashes ~8%; Houthis hit Saudi Aramco; mediators cite progress",
+        "file": "data/briefings/day-150.html"
     }
 ]
