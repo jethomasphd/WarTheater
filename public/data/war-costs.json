@@ -145,7 +145,11 @@
     "Day 143",
     "Day 144",
     "Day 145",
-    "Day 146"
+    "Day 146",
+    "Day 147",
+    "Day 148",
+    "Day 149",
+    "Day 150"
   ],
   "daily_cost_millions": [
     3000,
@@ -277,6 +281,10 @@
     85,
     85,
     85,
+    500,
+    500,
+    500,
+    500,
     500,
     500,
     500,
@@ -441,7 +449,11 @@
     "Day 143 (July 20, Monday) — GAS TOPS $4; RED SEA FRONT: The AAA national average hit $4.003/gal and the Houthis declared a Red Sea blockade of Saudi Arabia, adding a second chokepoint cost driver. Ops ~$500M/day.",
     "Day 144 (July 21, Tuesday) — DIPLOMACY STALLS: President Aoun met Trump; Trump threatened Iran's Pickaxe Mountain nuclear site. Brent settled $91.01. Ops ~$500M/day.",
     "Day 145 (July 22, Wednesday) — HOUSE PASSES $95B BLUEPRINT: The House adopted a Republican-only $95B budget blueprint (>$70B for the Iran war) 216-214, plus a Pentagon funding CR through Dec 4; both go to the Senate. Trump attended the Dover dignified transfer of four fallen. Ops ~$500M/day.",
-    "Day 146 (July 23, Thursday) — NEW COST FIGURES; 12TH STRIKE NIGHT: Defense Secretary Hegseth stated $37.5B in direct US military cost in Senate testimony (replacing the prior $30B official figure); the Brown University Watson Institute tracker estimates ~$71.1B in extra consumer gas+diesel costs since the war began (DO NOT SUM the two). Daily ops sit firmly in the $500M-$1B active-ops band (CSIS Cancian & Park: ~$16.5B through day twelve, ~$1B/day thereafter). Brent neared $100 intraday."
+    "Day 146 (July 23, Thursday) — NEW COST FIGURES; 12TH STRIKE NIGHT: Defense Secretary Hegseth stated $37.5B in direct US military cost in Senate testimony (replacing the prior $30B official figure); the Brown University Watson Institute tracker estimates ~$71.1B in extra consumer gas+diesel costs since the war began (DO NOT SUM the two). Daily ops sit firmly in the $500M-$1B active-ops band (CSIS Cancian & Park: ~$16.5B through day twelve, ~$1B/day thereafter). Brent neared $100 intraday.",
+    "Day 147 (July 24, Friday) — STRIKES STOP, BURN RATE DOES NOT: CENTCOM announced no strike on Iran for the first time in two weeks, ending a 13-night run that concluded at 9 p.m. ET July 23. Strike sorties are only one component of the daily burn — two carrier strike groups (Lincoln, Bush), the Boxer ARG, 20+ warships and ~14 guided-missile destroyers remain on station enforcing the naval blockade, so ops are held in the $500M/day active band pending a new official rate. Iran's IRGC fired its 27th wave of Operation Nasr-2 at Gulf bases, its last salvo before the pause. Brent settled $97.24 (-3.3%), WTI $89.31 (-3.1%) — the first crack in the war premium.",
+    "Day 148 (July 25, Saturday) — PAUSE HOLDS; RED SEA RISK REPRICES: A second day with no US strikes and no Iranian retaliation. The cost story shifted to the Red Sea: Houthi missiles and drones hit Saudi Aramco at Jizan (400,000 bpd refinery, fire confirmed by NASA FIRMS thermal imagery) and were intercepted at Yanbu by a Greek-operated Patriot battery. Yanbu is Saudi Arabia's Hormuz-bypass lifeline — ~92% of June seaborne crude exports (Kpler/AFP) and record loadings of 4.7M bpd around July 13 (Signal Ocean) — so the strike puts a price on the one corridor that had been absorbing Hormuz's throttling. War-risk premiums for the Red Sea had already risen from ~0.3% to ~0.75% of vessel value after the Encelia attack, with 5 tankers rerouted by July 22 and Asian buyers weighing Suez and Cape of Good Hope diversions.",
+    "Day 149 (July 26, Sunday) — SUPPLEMENTAL STILL PENDING: A third day of mutual pause. The $87.6B supplemental request ($67.1B of it to the Pentagon) remains before Congress with no confirmed markup or vote date, following the House's July 22 adoption of a $95B budget blueprint (216-214) and a Pentagon funding CR through December 4, both now with the Senate. No new official daily-rate figure was released. The Pentagon's DCAS revision the same day raised the human ledger to 18 killed and 624 wounded since February 28.",
+    "Day 150 (July 27, Monday) — WAR PREMIUM UNWINDS: A fourth day without strikes. Oil gave up most of its war premium — Brent settled $88.36 (-8.7%), the biggest one-day drop since April 8, after touching $101.01 intraday on July 23; WTI settled $82.61 (-7.5%), helped further by Caspian Pipeline Consortium loadings resuming. The official direct US military cost stands at $37.5B (Defense Secretary Hegseth, Senate Appropriations, July 21), superseding the $29B May figure; CBS sources say the true Pentagon figure is higher because it excludes base reconstruction. Across 150 days that is a blended ~$250M/day, well below the $500M-$1B active-strike-phase band this series tracks — the two are different measures and should not be conflated. Moody's Analytics (chief economist Mark Zandi) puts combined US consumer and taxpayer costs at at least $132B, a pre-July estimate that undercounts the escalation; Al Jazeera (July 21) cited a Moody's domestic figure of up to $150bn, and Zandi estimates ~$1,000 per typical US household 'and counting.' DO NOT SUM the Pentagon and Moody's figures — they measure different things. Hormuz traffic remains at roughly 8 transits/day against more than 100 pre-war; Iranian state TV said the IRGC navy stopped 6 vessels on non-approved routes on July 27. No dated transit count was published for July 24-27, so no new tanker data point is recorded this cycle."
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
@@ -711,5 +723,5 @@
     ],
     "prewar_daily": 50
   },
-  "last_updated": "2026-07-23"
+  "last_updated": "2026-07-27"
 }
