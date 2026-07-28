@@ -9214,5 +9214,23 @@
     "category": "military",
     "source": "Mehr News / Euronews / AP / GlobalSecurity",
     "data_point": "27th Nasr-2 wave; all battle damage IRGC-claimed, unverified"
+  },
+  {
+    "date": "2026-07-25",
+    "time": "Day 148",
+    "title": "Houthis strike Saudi Aramco at Jizan and Yanbu",
+    "description": "Yemen's Houthis fired ballistic missiles, cruise missiles and drones at Saudi Aramco facilities in Jizan, where a large smoke plume and a NASA FIRMS thermal anomaly confirmed a fire at the 400,000 bpd refinery, and at Yanbu, where two ballistic missiles were intercepted by a Patriot battery operated by the Greek military in Saudi Arabia. Saudi Arabia and Aramco issued no official damage or casualty assessment. It was the first Houthi strike on Saudi oil facilities since 2022, announced by spokesman Yahya Saree as retaliation for Saudi-led strikes on Hodeidah and Kamaran Island the previous day. The strike opens a Red Sea front against Saudi Arabia's main Hormuz-bypass export corridor: Yanbu handled roughly 92% of Saudi seaborne crude exports in June 2026.",
+    "category": "military",
+    "source": "Washington Post / Al Jazeera / Tech Times / Times of Israel",
+    "data_point": "First Houthi strike on Saudi oil since 2022"
+  },
+  {
+    "date": "2026-07-25",
+    "time": "Day 148",
+    "title": "Ukraine strikes Iranian vessel in Caspian Sea; 1 sailor killed",
+    "description": "Iran's Foreign Ministry accused Ukraine of striking an Iranian commercial vessel in the Caspian Sea, killing one sailor and injuring another, and summoned Ukraine's charge d'affaires. President Zelenskyy said Ukrainian forces had hit 'vessels used in military cargo shipments involving Iran' as well as a warship. Foreign Minister Araghchi said the attack 'cannot go unanswered,' accusing Israel of provoking it. The strike is the clearest overlap yet between the Middle East and Ukraine wars, and opens a theater far from the Gulf in which Iran has promised a response.",
+    "category": "political",
+    "source": "Reuters / Al Jazeera / CNBC / Defense News / Marine Insight",
+    "data_point": "Middle East and Ukraine wars overlap in the Caspian"
   }
 ]
