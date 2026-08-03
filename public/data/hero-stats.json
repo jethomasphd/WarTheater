@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-27",
-  "war_day": 150,
-  "timestamp_label": "LAST UPDATED: JUL 27, 2026 20:17 ET",
+  "last_updated": "2026-08-03",
+  "war_day": 157,
+  "timestamp_label": "LAST UPDATED: AUG 03, 2026 11:18 ET",
   "cost": {
     "brent": {
       "price": 83.0,
@@ -2441,6 +2441,28 @@
       "flights_cancelled": 8000,
       "children_killed": 376,
       "headline": "Day 150 (July 27, Monday) — MUTUAL STRIKE PAUSE HOLDS A THIRD DAY; OIL CRASHES ~9%: CENTCOM's 13-night campaign ended 9 p.m. ET Jul 23 and no US strikes followed Jul 24-27; Iran halted retaliation after its Jul 24 IRGC salvo. Mediators led by Qatar and Pakistan told AP they made 'significant' progress toward restoring the interim ceasefire, though an Al Jazeera source said Jul 26 there was 'not much progress yet'; Iran confirms no direct US talks. Brent settled $88.36 (-8.7%), the biggest one-day drop since Apr 8, off the $101.01 intraday high of Jul 23; WTI $82.61. Gas $4.110. S&P 7,413.18 (+0.02%) as the relief rally faded. Pentagon DCAS restored the toll to 18 killed / 624 wounded under a new split-category accounting. The war's geography widened even as its core cooled: Houthis struck Saudi Aramco at Jizan and Yanbu (Jul 25) and Ukraine struck an Iranian vessel in the Caspian (Jul 25). Trump warns strikes resume 'with greater force' if talks fail."
+    },
+    {
+      "date": "2026-08-03",
+      "war_day": 157,
+      "brent": 83.0,
+      "wti": 78.97,
+      "gas": 4.11,
+      "sp500": 7537,
+      "sp500_change_pct": 0.63,
+      "nasdaq": 25560.74,
+      "dow": 53071.98,
+      "daily_cost_millions": 500,
+      "total_cost_billions": 37.5,
+      "targets_struck": 35914,
+      "us_kia": 18,
+      "us_wia": 624,
+      "iranian_killed": 3636,
+      "lebanese_killed": 4297,
+      "displaced": 1200000,
+      "flights_cancelled": 8000,
+      "children_killed": 376,
+      "headline": "Day 157 (August 3, Monday) — TRUMP CALLS OFF 'BIGGEST ATTACK SINCE WWII,' ANNOUNCES IRAN TALKS; OIL SLUMPS ~6%: The fourth escalate-then-pause cycle since June ran its full course in seven days. Iran's IRGC broke a multi-day lull with an attempted surprise missile attack on US forces at 5:45 p.m. ET Jul 28 (all intercepted; Jordan downed five), and US and Saudi forces struck Iran-aligned groups in eastern Iraq the same day — the first public Saudi participation in US operations. CENTCOM answered with a 'heavy wave' completed 10 p.m. ET Jul 29 against dozens of IRGC targets; Iranian media reported a family of three killed on Qeshm Island and the IRGC named three personnel killed. Iran struck Jordan and Kuwait Jul 30 (1 killed in Kuwait); Saudi Arabia convened 40+ nations on a naval coalition; the IRGC claimed two Hormuz tanker strikes Jul 31 (UNVERIFIED — Kpler still logged two VLCCs exiting). Then Trump canceled a planned major strike on Iranian energy infrastructure late Aug 1, saying 'the perimeters of a deal has been agreed to' including the 'Immediate, Complete, and Total OPENING OF THE HORMUZ STRAIT'; Iran's Mehr called it 'simply a new lie' Aug 2; Trump said Aug 3 that negotiations begin. Markets whipsawed on the diplomacy, not the fighting: Brent $90.74 Jul 29 → ~$83 Aug 3; WTI ~$79; S&P ~7,537 (+0.63%) after a first red July since 2014. Toll counters HELD — no cumulative revisions issued; US WIA 624 (DCAS via The Hill) against AP's 642 under a new 'Overseas Operations' category. Hormuz traffic still ~12/day. PROVISIONAL: Aug 3 oil and equity values are intraday."
     }
   ],
   "toll": {
