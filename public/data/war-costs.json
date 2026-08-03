@@ -149,7 +149,14 @@
     "Day 147",
     "Day 148",
     "Day 149",
-    "Day 150"
+    "Day 150",
+    "Day 151",
+    "Day 152",
+    "Day 153",
+    "Day 154",
+    "Day 155",
+    "Day 156",
+    "Day 157"
   ],
   "daily_cost_millions": [
     3000,
@@ -281,6 +288,13 @@
     85,
     85,
     85,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
     500,
     500,
     500,
@@ -453,7 +467,14 @@
     "Day 147 (July 24, Friday) — STRIKES STOP, BURN RATE DOES NOT: CENTCOM announced no strike on Iran for the first time in two weeks, ending a 13-night run that concluded at 9 p.m. ET July 23. Strike sorties are only one component of the daily burn — two carrier strike groups (Lincoln, Bush), the Boxer ARG, 20+ warships and ~14 guided-missile destroyers remain on station enforcing the naval blockade, so ops are held in the $500M/day active band pending a new official rate. Iran's IRGC fired its 27th wave of Operation Nasr-2 at Gulf bases, its last salvo before the pause. Brent settled $97.24 (-3.3%), WTI $89.31 (-3.1%) — the first crack in the war premium.",
     "Day 148 (July 25, Saturday) — PAUSE HOLDS; RED SEA RISK REPRICES: A second day with no US strikes and no Iranian retaliation. The cost story shifted to the Red Sea: Houthi missiles and drones hit Saudi Aramco at Jizan (400,000 bpd refinery, fire confirmed by NASA FIRMS thermal imagery) and were intercepted at Yanbu by a Greek-operated Patriot battery. Yanbu is Saudi Arabia's Hormuz-bypass lifeline — ~92% of June seaborne crude exports (Kpler/AFP) and record loadings of 4.7M bpd around July 13 (Signal Ocean) — so the strike puts a price on the one corridor that had been absorbing Hormuz's throttling. War-risk premiums for the Red Sea had already risen from ~0.3% to ~0.75% of vessel value after the Encelia attack, with 5 tankers rerouted by July 22 and Asian buyers weighing Suez and Cape of Good Hope diversions.",
     "Day 149 (July 26, Sunday) — SUPPLEMENTAL STILL PENDING: A third day of mutual pause. The $87.6B supplemental request ($67.1B of it to the Pentagon) remains before Congress with no confirmed markup or vote date, following the House's July 22 adoption of a $95B budget blueprint (216-214) and a Pentagon funding CR through December 4, both now with the Senate. No new official daily-rate figure was released. The Pentagon's DCAS revision the same day raised the human ledger to 18 killed and 624 wounded since February 28.",
-    "Day 150 (July 27, Monday) — WAR PREMIUM UNWINDS: A fourth day without strikes. Oil gave up most of its war premium — Brent settled $88.36 (-8.7%), the biggest one-day drop since April 8, after touching $101.01 intraday on July 23; WTI settled $82.61 (-7.5%), helped further by Caspian Pipeline Consortium loadings resuming. The official direct US military cost stands at $37.5B (Defense Secretary Hegseth, Senate Appropriations, July 21), superseding the $29B May figure; CBS sources say the true Pentagon figure is higher because it excludes base reconstruction. Across 150 days that is a blended ~$250M/day, well below the $500M-$1B active-strike-phase band this series tracks — the two are different measures and should not be conflated. Moody's Analytics (chief economist Mark Zandi) puts combined US consumer and taxpayer costs at at least $132B, a pre-July estimate that undercounts the escalation; Al Jazeera (July 21) cited a Moody's domestic figure of up to $150bn, and Zandi estimates ~$1,000 per typical US household 'and counting.' DO NOT SUM the Pentagon and Moody's figures — they measure different things. Hormuz traffic remains at roughly 8 transits/day against more than 100 pre-war; Iranian state TV said the IRGC navy stopped 6 vessels on non-approved routes on July 27. No dated transit count was published for July 24-27, so no new tanker data point is recorded this cycle."
+    "Day 150 (July 27, Monday) — WAR PREMIUM UNWINDS: A fourth day without strikes. Oil gave up most of its war premium — Brent settled $88.36 (-8.7%), the biggest one-day drop since April 8, after touching $101.01 intraday on July 23; WTI settled $82.61 (-7.5%), helped further by Caspian Pipeline Consortium loadings resuming. The official direct US military cost stands at $37.5B (Defense Secretary Hegseth, Senate Appropriations, July 21), superseding the $29B May figure; CBS sources say the true Pentagon figure is higher because it excludes base reconstruction. Across 150 days that is a blended ~$250M/day, well below the $500M-$1B active-strike-phase band this series tracks — the two are different measures and should not be conflated. Moody's Analytics (chief economist Mark Zandi) puts combined US consumer and taxpayer costs at at least $132B, a pre-July estimate that undercounts the escalation; Al Jazeera (July 21) cited a Moody's domestic figure of up to $150bn, and Zandi estimates ~$1,000 per typical US household 'and counting.' DO NOT SUM the Pentagon and Moody's figures — they measure different things. Hormuz traffic remains at roughly 8 transits/day against more than 100 pre-war; Iranian state TV said the IRGC navy stopped 6 vessels on non-approved routes on July 27. No dated transit count was published for July 24-27, so no new tanker data point is recorded this cycle.",
+    "Day 151 (July 28, Tuesday) — PAUSE BREAKS; SAUDI ARABIA JOINS THE STRIKE COLUMN: The IRGC fired ballistic missiles at US forces at 5:45 p.m. ET; all were intercepted, five by Jordan. Interception is not free — each engagement burns interceptors from stocks the Atlantic Council already flags as depleted (roughly 1,000 Patriot interceptors and about half the THAAD inventory expended earlier in the war), and replacement lead times run years, so a zero-casualty night still carries real cost. The structurally larger item is that US and Saudi forces jointly struck Iran-aligned groups in eastern Iraq — the first public Saudi participation in US operations, which shifts part of the coalition's cost base onto Riyadh while widening the war's political liability. No new official daily-rate figure was released; the $500M/day active-phase estimate is HELD. Hormuz traffic ran about 14 commercial ships in 24 hours (CNN/MarineTraffic) against more than 100 pre-war.",
+    "Day 152 (July 29, Wednesday) — HEAVY WAVE, AND THE MACRO BILL ARRIVES: CENTCOM completed a heavy wave at 10 p.m. ET against dozens of IRGC targets — command centers, missile and drone facilities, coastal surveillance and defense sites, maritime capabilities. CENTCOM published no munitions count, so the $500M/day estimate is HELD rather than raised, and the real expenditure for a wave of this size is likely above it. The day's clearest cost signal was financial rather than military: Brent settled $90.74 (+7.9%) and WTI $84.46 (+6.6%), the biggest daily jump in more than two weeks; the Fed held rates amid oil-driven inflation fears; the 30-year Treasury yield touched roughly a two-decade high; and the S&P 500 fell 1.52% in the worst Dow session since April 2025. Higher long-term yields raise the carrying cost of the $67.1B Pentagon supplemental and the $87.6B request around it — the war is now visibly repricing the debt that funds it.",
+    "Day 153 (July 30, Thursday) — 40 NATIONS ASKED TO SHARE THE ESCORT BILL: Saudi Arabia convened representatives of more than 40 countries to discuss a multinational naval coalition to protect Red Sea and Hormuz shipping. Read as a cost story, this is an attempt to mutualize an expense the US Navy has been carrying alone — escort, blockade enforcement and interception across two chokepoints, anchored by two carrier strike groups. Oil eased on the proposal (Brent $89.03, WTI $83.59) and equities recovered 1.70%, the market pricing shared burden as de-risking. Iran struck Jordan and Kuwait the same day, one killed in Kuwait, a reminder that the escort problem is not only maritime. Daily rate HELD at $500M.",
+    "Day 154 (July 31, Friday) — JULY CLOSES AS THE MOST EXPENSIVE MONTH FOR ENERGY: Brent settled $90.12 and WTI $84.67, closing Brent's biggest monthly gain since March at roughly +20% — the consumer-facing cost of the war compounding even on a day with no US strikes. The State Department warned US citizens across the Middle East, and the IRGC claimed it hit two tankers under US escort and turned four others back (UNVERIFIED; Kpler still logged two VLCCs exiting the Gulf). Unverified or not, the claim itself is expensive: war-risk premiums price on perceived escort failure, and coverage for a $100M tanker has already gone from about $200,000 to multiples of that. Equities closed the month lower — the S&P 500's first red July since 2014. Daily rate HELD at $500M.",
+    "Day 155 (August 1, Saturday) — THE MOST EXPENSIVE STRIKE OF THE WAR WAS THE ONE NOT FLOWN: The US and Israel had prepared what CBS sources called one of the harshest bombing campaigns of the war, aimed at Iranian energy infrastructure. Trump canceled it late Saturday, calling it the 'biggest attack since World War II' and saying regional states had asked him to hold off because 'the perimeters of a deal has been agreed to' — a framework he said would include the 'Immediate, Complete, and Total OPENING OF THE HORMUZ STRAIT' and an end to Iran's nuclear threat. Saudi Crown Prince Mohammed bin Salman reportedly urged restraint; US forces remained 'locked and loaded.' A strike on Iranian energy infrastructure would have been the single largest cost event of the war on both sides of the ledger — munitions expenditure plus an oil-price response that flows straight to US pump prices. Daily rate HELD at $500M.",
+    "Day 156 (August 2, Sunday) — THE POLITICAL COST SURFACES: No strikes. Iran's Mehr agency dismissed Trump's framework claim as 'simply a new lie,' and Tehran confirms no direct US talks, so the deal that justified standing down the strike is not corroborated by the other party. The domestic ledger moved instead: an AP-NORC poll (July 23-27, 1,165 adults, ±3.7 points) found 64% of US adults say the war is not worth the risks against 33% who say it is, and Trump's approval on Iran fell to 28%. Set against Moody's estimate of roughly $1,000 per typical US household 'and counting' (Mark Zandi), the polling is the political price of the economic one. Daily rate HELD at $500M.",
+    "Day 157 (August 3, Monday) — THE WAR PREMIUM UNWINDS ON AN ANNOUNCEMENT: Trump said negotiations would begin — 'We're talking to them in the form of a negotiation.' Oil slumped roughly 5-7% on the words alone: WTI near $79, Brent near $83, an ~8% round trip from the July 29 settle of $90.74. Equities rose (Dow +1.1%, Nasdaq +0.7%). That is the cleanest measure yet of how much of the current energy cost is war premium rather than physical shortage, and it is the dashboard's most market-moving variable: a signed deal plus verified sustained Hormuz transits would likely break Brent below $80, while a collapse of talks re-prices it back toward $90+. Traffic has not yet confirmed the optimism — about 12 transits August 3 (Windward: 5 inbound, 7 outbound, 6 running dark) against a pre-war baseline this series tracks at 50/day. NOTE ON BASELINES: alternative pre-war estimates exist — roughly 138 vessels/day on an EIA-based analysis and about 88/day per IMF PortWatch — so the percentage collapse varies with the denominator; this series holds 50/day for continuity. Hormuz normally carries about 20 mb/d of crude and products, roughly 25% of seaborne oil trade (IEA), and EIA reports Q1 2026 flows already down about 30% year-on-year to 14.6 mb/d. Blockade 2.0 continues: 20 commercial vessels redirected as of July 29, 2 disabled kinetically, 2 boarded (UANI/CENTCOM). Direct US military cost remains $37.5B (Hegseth, Senate Appropriations, July 21) with no new official figure in the window; daily rate HELD at $500M."
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
@@ -587,7 +608,9 @@
       "Jul 12",
       "Jul 13",
       "Jul 15",
-      "Jul 16"
+      "Jul 16",
+      "Jul 29",
+      "Aug 3"
     ],
     "data": [
       50,
@@ -719,9 +742,11 @@
       6,
       22,
       15,
-      8
+      8,
+      14,
+      12
     ],
     "prewar_daily": 50
   },
-  "last_updated": "2026-07-27"
+  "last_updated": "2026-08-03"
 }

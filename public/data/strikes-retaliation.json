@@ -4665,5 +4665,59 @@
     "notes": "FIRST HOUTHI STRIKE ON SAUDI OIL FACILITIES SINCE 2022 (spokesman Yahya Saree). Jizan: a large smoke plume and a NASA FIRMS thermal anomaly at ~01:17 UTC confirm a fire at the 400,000 bpd refinery; Saudi Arabia and Aramco issued no official damage or casualty assessment. Yanbu: 2 ballistic missiles were intercepted by a Patriot battery operated by the GREEK military in Saudi Arabia, with no damage reported. STRATEGIC SIGNIFICANCE — Yanbu is Saudi Arabia's primary Hormuz-bypass corridor, handling ~92% of Saudi seaborne crude exports in June 2026 (Kpler/AFP), with loadings hitting a record 4.7M bpd around Jul 13 (Signal Ocean); the strike demonstrates the Houthis can reach it. SEQUENCE — Jul 22: Houthis struck the Saudi tanker Encelia (bow fire confirmed by SPA) and claimed the Layla (unconfirmed). Jul 24: the Saudi-led coalition struck Houthi targets in Hodeidah and on Kamaran Island (2 injured, per Al Masirah). Jul 25: these Aramco strikes, in retaliation. Jul 26: Houthis claimed 'two qualitative operations' on the Red Sea coast, and Saudi Arabia downed Iranian-backed Iraqi-militia drones aimed at petroleum facilities.",
     "verified": true,
     "last_updated": "2026-07-27"
+  },
+  {
+    "id": "iran-missiles-jordan-20260728",
+    "city": "US bases in Jordan",
+    "lat": 31.9522,
+    "lng": 35.9333,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-07-28",
+    "casualties_reported": "0 (all intercepted; Jordan intercepted 5 missiles)",
+    "casualties_source": "CENTCOM; Jordanian Armed Forces",
+    "active_days": [
+      151
+    ],
+    "notes": "IRGC 'attempted surprise attack' at 5:45 p.m. ET Jul 28 on US forces in the Middle East; all missiles were intercepted, ending a multi-day mutual pause. The IRGC, via Press TV, said it had targeted US forces in Jordan. The attack triggered the US 'heavy wave' of Jul 29.",
+    "verified": true,
+    "last_updated": "2026-08-03"
+  },
+  {
+    "id": "iran-strikes-jordan-kuwait-20260730",
+    "city": "Jordan / Kuwait",
+    "lat": 29.3759,
+    "lng": 47.9774,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles / drones",
+    "origin": "Iran",
+    "first_strike": "2026-07-30",
+    "casualties_reported": "1 killed (Kuwait)",
+    "casualties_source": "Al Jazeera; Kuwait / Jordan authorities",
+    "active_days": [
+      153
+    ],
+    "notes": "After the US 'heavy wave' of Jul 29, Iran struck Jordan and Kuwait; Kuwait reported one person killed. This was the last confirmed Iranian strike on Gulf host nations before the Aug 1 cancellation of the planned US strike and the Aug 3 announcement of talks.",
+    "verified": true,
+    "last_updated": "2026-08-03"
+  },
+  {
+    "id": "iran-tanker-strikes-hormuz-20260731",
+    "city": "Strait of Hormuz",
+    "lat": 26.5667,
+    "lng": 56.25,
+    "type": "iran_retaliation",
+    "weapon": "Anti-ship missiles",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-07-31",
+    "casualties_reported": "Not specified; 2 tankers reported hit, 4 turned back",
+    "casualties_source": "Iranian state media (Press TV); IRGC — NOT confirmed by US/UK maritime authorities",
+    "active_days": [
+      154
+    ],
+    "notes": "UNVERIFIED. The IRGC said it hit two tankers transiting the Strait of Hormuz under US military escort and forced four others to reverse course. US and UK maritime security organizations had not confirmed the claim, and Kpler data still showed two VLCCs successfully exiting the Gulf on Jul 31. Treat as an Iranian claim pending independent maritime confirmation.",
+    "verified": false,
+    "last_updated": "2026-08-03"
   }
 ]

@@ -103,7 +103,12 @@
     "Jul 20",
     "Jul 21",
     "Jul 22",
-    "Jul 27"
+    "Jul 27",
+    "Jul 28",
+    "Jul 29",
+    "Jul 30",
+    "Jul 31",
+    "Aug 3"
   ],
   "contexts": [
     "Pre-war close — baseline",
@@ -209,7 +214,12 @@
     "Day 143 (July 20, Monday) — 9TH STRIKE NIGHT, OIL SPIKE: S&P 500 -0.19% to 7,443.28 as Brent jumped and the AAA gas average topped $4; Apple fell ~2%. Nasdaq 25,508.07; Dow 51,839.26; XLE +3.2%.",
     "Day 144 (July 21, Tuesday) — CHIP RALLY: S&P 500 +0.89% to 7,509.20, breaking a 3-day losing streak on a semiconductor rebound (Palantir target raised to $200). Nasdaq 25,837.21; Dow 52,224.64. Brent settled $91.01.",
     "Day 145 (July 22, Wednesday) — LITTLE CHANGED, OIL PRESSURE: S&P 500 -0.14% to 7,498.96 ahead of Big Tech earnings as oil rose (Brent $94.07) and the House passed a $95B war blueprint. Nasdaq 25,690.90; Dow 52,218.58.",
-    "Day 150 (July 27, Monday) — RELIEF RALLY FADES AS OIL CRASHES: S&P 500 essentially flat, +0.02% (+1.55) to 7,413.18, giving back an opening pop on the three-day US-Iran strike pause. Dow +0.51% to 52,210.08; Nasdaq -0.18% to 24,932.08 as chips dragged (SMH -2%, AMD -5%); VIX ~19.53 (+5.1% intraday). Oil majors fell with crude — Brent -8.7% to $88.36, its biggest one-day drop since April 8. Gold $4,080.50. NOTE: no verified equity closes were available for July 23 (Day 146) or July 24 (Day 147); those sessions are omitted rather than estimated, so this point follows July 22 directly."
+    "Day 150 (July 27, Monday) — RELIEF RALLY FADES AS OIL CRASHES: S&P 500 essentially flat, +0.02% (+1.55) to 7,413.18, giving back an opening pop on the three-day US-Iran strike pause. Dow +0.51% to 52,210.08; Nasdaq -0.18% to 24,932.08 as chips dragged (SMH -2%, AMD -5%); VIX ~19.53 (+5.1% intraday). Oil majors fell with crude — Brent -8.7% to $88.36, its biggest one-day drop since April 8. Gold $4,080.50. NOTE: no verified equity closes were available for July 23 (Day 146) or July 24 (Day 147); those sessions are omitted rather than estimated, so this point follows July 22 directly.",
+    "Day 151 (July 28, Tuesday) — QUIET SESSION, LOUD EVENING: S&P 500 +0.21% to 7,428.78 as markets traded the de-escalation narrative through the day. Dow 52,747.32; Nasdaq 24,876.91. The session closed before the IRGC's 5:45 p.m. ET missile launch at US forces; the reaction landed after hours, with WTI +4.4% to $82.73 in evening trade. Equity closes therefore understate the day's news.",
+    "Day 152 (July 29, Wednesday) — WORST DOW DAY SINCE APRIL 2025: S&P 500 -1.52% to 7,316.15 in a session hit from three directions — the overnight Iranian attack, a Fed that held rates amid oil-driven inflation fears, and a chip-stock rout that pushed the Nasdaq 100 into technical correction. Dow 51,594.14; Nasdaq 24,442.94. The 30-year Treasury yield touched roughly a two-decade high. Brent settled $90.74 (+7.9%), its biggest daily jump in more than two weeks.",
+    "Day 153 (July 30, Thursday) — REBOUND ON THE NAVAL COALITION: S&P 500 +1.70% to 7,437.63, recovering the prior session's loss after Saudi Arabia convened representatives of more than 40 countries to discuss a maritime coalition protecting Red Sea and Hormuz shipping. Dow 52,208.06; Nasdaq 25,122.18. Oil eased on the news — Brent settled $89.03, WTI $83.59 — even as Iran struck Jordan and Kuwait.",
+    "Day 154 (July 31, Friday) — FIRST RED JULY SINCE 2014: S&P 500 +0.70% to 7,489.72 to end a volatile month that still closed lower — the index's first losing July since 2014. Dow 52,485.03; Nasdaq 25,373.85; VIX 15.99. Brent settled $90.12 and WTI $84.67, capping Brent's biggest monthly gain (~20%) since March. The State Department warned US citizens across the Middle East and the IRGC claimed two tanker strikes in Hormuz (unconfirmed), while reports emerged that the US and Israel were preparing a major strike on Iranian energy infrastructure over the weekend.",
+    "Day 157 (August 3, Monday) — DE-ESCALATION RALLY: S&P 500 ~7,537 (+0.63%) after Trump canceled the planned weekend strike on Iranian energy infrastructure and said negotiations would begin. Dow 53,071.98 (+1.1%); Nasdaq 25,560.74 (+0.7%); VIX 16.02; gold 4,087.50. Oil slumped in the mirror image — WTI near $79, Brent near $83, down roughly 5-7%. PROVISIONAL: these are intraday values captured before the close; replace with official closes when published. No trading Aug 1-2 (weekend)."
   ],
   "datasets": {
     "sp500": {
@@ -318,7 +328,12 @@
         108.2,
         109.16,
         109.01,
-        107.77
+        107.77,
+        108.0,
+        106.38,
+        108.13,
+        108.89,
+        109.58
       ],
       "color": "#ef4444"
     },
@@ -419,6 +434,11 @@
         117.0,
         117.5,
         118.5,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -538,6 +558,11 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#d4a020"
@@ -648,10 +673,15 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-07-27"
+  "last_updated": "2026-08-03"
 }

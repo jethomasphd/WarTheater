@@ -726,5 +726,12 @@
         "label": "JULY 27, 2026 — DAY 150",
         "headline": "US-Iran strikes pause holds 3rd day; oil crashes ~8%; Houthis hit Saudi Aramco; mediators cite progress",
         "file": "data/briefings/day-150.html"
+    },
+    {
+        "day": 157,
+        "date": "2026-08-03",
+        "label": "AUGUST 3, 2026 — DAY 157",
+        "headline": "Iran's surprise missile attack punctures pause; US 'heavy wave' hits IRGC; Trump cancels planned strike, announces talks; oil slumps ~6%",
+        "file": "data/briefings/day-157.html"
     }
 ]
