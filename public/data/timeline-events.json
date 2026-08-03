@@ -9250,5 +9250,68 @@
     "category": "diplomatic",
     "source": "AP / CBS News / Iran International / CNN",
     "data_point": "3 days without strikes; mediation progress disputed"
+  },
+  {
+    "date": "2026-07-28",
+    "time": "Day 151",
+    "title": "Iran's attempted 'surprise attack' punctures pause; US-Saudi strikes in Iraq",
+    "description": "At 5:45 p.m. ET the IRGC fired multiple ballistic missiles at US forces in the Middle East; all were intercepted, with Jordan downing five, ending a multi-day mutual pause. The IRGC said via Press TV that it had targeted US forces in Jordan. Separately, US and Saudi forces conducted joint strikes on Iran-aligned groups in eastern Iraq — the first time Riyadh publicly joined US operations, a structural widening of Gulf-state involvement. Trump met Netanyahu at the White House the same day and vowed to 'beat the f---ing s--- out of them.' No casualties were reported from the missile attack.",
+    "category": "military",
+    "source": "CENTCOM / CNN / Bloomberg / CNBC",
+    "data_point": "All missiles intercepted; Jordan downed 5; first public Saudi participation"
+  },
+  {
+    "date": "2026-07-29",
+    "time": "Day 152",
+    "title": "US launches 'heavy wave' of strikes on IRGC after Trump vows 'beating'",
+    "description": "CENTCOM completed a 'heavy wave' at 10 p.m. ET striking dozens of IRGC targets — command centers, missile and drone facilities, coastal surveillance and maritime capabilities — the first US strikes on Iran since the July 23 pause. Iranian media reported a family of three killed on Qeshm Island, and the IRGC reported three personnel killed; explosions were also reported at Kish Island, Ahvaz and Abadan, with power outages in Ahvaz. Trump said it was 'our turn' to hit Iran. Markets took it badly: the S&P 500 fell 1.52% in the worst Dow session since April 2025 as the Fed held rates, and Brent settled $90.74 (+7.9%).",
+    "category": "military",
+    "source": "CENTCOM / Al Jazeera / Times of Israel / Express Tribune",
+    "data_point": "Dozens of IRGC targets; 3 civilians + 3 IRGC killed; Brent $90.74"
+  },
+  {
+    "date": "2026-07-30",
+    "time": "Day 153",
+    "title": "Saudi Arabia proposes multinational naval coalition",
+    "description": "Saudi Arabia convened representatives of more than 40 countries to discuss a maritime coalition to protect Red Sea and Strait of Hormuz shipping amid Houthi and Iranian attacks — an attempt to mutualize an escort burden the US Navy has carried largely alone. Oil eased on the news, with Brent settling $89.03 and WTI $83.59, and the S&P 500 rebounded 1.70%. Iran struck Jordan and Kuwait the same day; Kuwait reported one person killed.",
+    "category": "diplomatic",
+    "source": "CNBC / Saudi Defense Ministry / Al Jazeera",
+    "data_point": "40+ nations convened; Brent $89.03; 1 killed in Kuwait"
+  },
+  {
+    "date": "2026-07-31",
+    "time": "Day 154",
+    "title": "State Dept warns US citizens region-wide; Iran claims tanker strikes",
+    "description": "The State Department issued warnings to US citizens across the Middle East. The IRGC said it struck two tankers transiting the Strait of Hormuz under US escort and forced four others to turn back — UNVERIFIED, with US and UK maritime security organizations declining to confirm and Kpler still recording two VLCCs exiting the Gulf that day. Reports emerged that the US and Israel were preparing a major strike on Iranian energy infrastructure over the weekend. Brent settled $90.12 and WTI $84.67, capping Brent's biggest monthly gain since March at roughly 20%; the S&P 500 rose 0.70% to 7,489.72 but closed its first red July since 2014.",
+    "category": "political",
+    "source": "CNN / CNBC / CBS News",
+    "data_point": "2 tankers claimed hit (unverified); Brent +20% for July"
+  },
+  {
+    "date": "2026-08-01",
+    "time": "Day 155",
+    "title": "Trump cancels 'biggest attack since WWII,' cites deal framework",
+    "description": "After the US and Israel had planned what CBS sources called one of the harshest bombing campaigns of the war against Iranian energy infrastructure, Trump said late Saturday he had canceled the attack — which he called the 'biggest attack since World War II' — saying Iran and other Middle Eastern countries had asked him to hold off because 'the perimeters of a deal has been agreed to.' The proposed deal would include the 'Immediate, Complete, and Total OPENING OF THE HORMUZ STRAIT, and an end to Iran's nuclear threat.' Saudi Crown Prince Mohammed bin Salman reportedly urged restraint. The US military remained 'locked and loaded.'",
+    "category": "diplomatic",
+    "source": "CNN / CBS News / NPR / Bloomberg",
+    "data_point": "Planned energy-infrastructure strike called off; Hormuz opening in deal terms"
+  },
+  {
+    "date": "2026-08-02",
+    "time": "Day 156",
+    "title": "Iran dismisses Trump deal claim as 'a new lie'",
+    "description": "Iran's semi-official Mehr agency dismissed Trump's account as 'simply a new lie,' citing unnamed military officials; the defense minister said Iran was 'neither surprised nor passive' and remained on alert, and Tehran continues to deny any direct talks with Washington. An AP-NORC poll found 64% of US adults said the war is not worth the risks against 33% who said it is (conducted July 23-27, 1,165 adults, ±3.7 points), and Trump's approval on his handling of Iran fell to 28%.",
+    "category": "political",
+    "source": "NPR / Bloomberg / OPB / AP-NORC / The Hill",
+    "data_point": "64% say war not worth the risks; Iran approval 28%"
+  },
+  {
+    "date": "2026-08-03",
+    "time": "Day 157",
+    "title": "Trump says US-Iran negotiations to begin; oil slumps",
+    "description": "Trump said negotiations with Iran were set to begin Monday — 'We're talking to them in the form of a negotiation' and 'Get to work, everybody, and get it DONE.' Oil fell sharply on the announcement alone, with WTI near $79 and Brent near $83, down roughly 5-7%, and equities rose on de-escalation hopes (Dow +1.1%, Nasdaq +0.7%). Hormuz traffic had not yet confirmed the optimism: about 12 transits were recorded (Windward — 5 inbound, 7 outbound, 6 running dark). Tehran has not corroborated the framework Trump described.",
+    "category": "diplomatic",
+    "source": "CBS News / TheStreet / Yahoo Finance / Bloomberg",
+    "data_point": "Brent ~$83, WTI ~$79 (-5-7%); ~12 Hormuz transits"
   }
 ]
