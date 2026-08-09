@@ -1,46 +1,46 @@
 {
-  "last_updated": "2026-08-03",
-  "war_day": 157,
-  "timestamp_label": "LAST UPDATED: AUG 03, 2026 11:18 ET",
+  "last_updated": "2026-08-09",
+  "war_day": 163,
+  "timestamp_label": "LAST UPDATED: AUG 09, 2026 12:59 ET",
   "cost": {
     "brent": {
-      "price": 83.0,
-      "label": "Brent crude — ~$83.00 (Aug 3 intraday, Day 157); PROVISIONAL, −5-7% on Iran talks",
-      "change": "▼ roughly −5% to −7%, to about $83.00 (August 3 intraday, October contract) as Trump called off a planned strike on Iranian energy infrastructure and announced talks with Iran. That is an ~8% round trip off the July 29 settle of $90.74 and the July 31 settle of $90.12, which had capped Brent's biggest monthly gain since March at about +20% for July. Still ~17% above the Feb 27 $71.00 baseline. PROVISIONAL — official settle pending.",
-      "tooltip": "Slumped ~5-7% Aug 3 after Trump called off a planned strike and announced Iran talks; off a Jul 29 settle of $90.74 and a Jul 31 settle of $90.12. The contract rolled from September to October at month-end, so Aug 3 is not contract-continuous with the July series. Intraday quote (Bloomberg/CNBC), not a confirmed settle — replace when the official ICE settle publishes. Trajectory: $88.36 Jul 27 → ~$84.09 Jul 28 (derived) → $90.74 Jul 29 (+7.9%) → $89.03 Jul 30 → $90.12 Jul 31 → ~$83.00 Aug 3."
+      "price": 83.55,
+      "label": "Brent crude - ~$83.55 (Fri Aug 7 close, carried over weekend; -7% on the week)",
+      "change": "▲ Brent ended Fri Aug 7 near $83.55 but fell more than 7% on the week (from the $90.12 Jul 31 settle) as Iran-Oman Hormuz-reopening hopes competed with fresh vessel attacks. Weekend hold (no Sat/Sun trading). Intraday sources span $82.04 (Forbes) to $84.78 (Vantage) by timestamp/instrument; official Aug 7 ICE settle to confirm. Still ~18% above the $71.00 Feb 27 baseline.",
+      "tooltip": "International benchmark. Fell hard the week of Aug 3 on progress toward an Iran-Oman deal to restore Strait of Hormuz shipping, but stayed elevated on continued attacks on tankers."
     },
     "wti": {
-      "price": 78.97,
-      "label": "WTI crude — $78.97 (Aug 3 intraday, Day 157); PROVISIONAL, −6.73%",
-      "change": "▼ −6.73% to $78.97 (August 3 intraday, September contract), falling with Brent on the de-escalation announcement. The last confirmed settle was $84.67 on July 31; the July 29 settle of $84.46 (+6.6%) was the biggest daily jump in more than two weeks. Now ~19% above the Feb 27 $66.50 baseline. PROVISIONAL — official settle pending.",
-      "tooltip": "Fell with Brent on de-escalation; last confirmed settle $84.67 (Jul 31). Aug 3 value is an intraday quote (Yahoo Finance), not a NYMEX settle — replace when the official close publishes. Trajectory: $82.61 Jul 27 → ~$79.23 Jul 28 (derived) → $84.46 Jul 29 → $83.59 Jul 30 → $84.67 Jul 31 → $78.97 Aug 3."
+      "price": 78.16,
+      "label": "WTI crude - ~$78.16 (Fri Aug 7 close, carried over weekend)",
+      "change": "▲ WTI near $78.16 Fri Aug 7 (Vantage), down with Brent on the week. Weekend hold. ~17% above the $66.50 Feb 27 baseline. Official Aug 7 NYMEX settle to confirm.",
+      "tooltip": "US benchmark. Tracked Brent lower over the week on Hormuz de-escalation hopes."
     },
     "gas": {
-      "price": 4.11,
-      "label": "AAA national average, regular unleaded — July 27, 2026 (HELD, STALE at Day 157)",
-      "change": "◆ HELD at $4.110 — no new AAA daily figure was located for July 28-August 3, so this is the July 27 reading carried forward and flagged STALE. +$1.12 (37%) vs the $2.99 Feb 28 baseline. Diesel $5.11 (last confirmed Jul 21 — STALE). Direction is flat-to-down: crude rose July 29-31 then fell ~5-7% on August 3, and the pump lags crude by 2-3 weeks.",
-      "tooltip": "+$1.12 (37%) vs the $2.99 Feb 28 baseline. Lagging indicator; oil rose Jul 29-31 then fell Aug 3, so near-term direction flat-to-down. Last confirmed AAA (gasprices.aaa.com) national average for regular unleaded is 7/27/26 — this counter is HELD, not refreshed. Wartime peak was ~$4.56 on May 21, below AAA's nominal record of $5.016 (June 14, 2022)."
+      "price": 4.1,
+      "label": "AAA national average, regular unleaded - ~$4.10 (Aug 3, HELD through Day 163)",
+      "change": "◆ AAA national average $4.095 as of Aug 3 (NerdWallet/AAA). No daily AAA figure located for Aug 4-9, so held at ~$4.10 and flagged. Down slightly from the $4.110 Jul 27 reading; direction is flat-to-down as crude eased and the pump lags crude 2-3 weeks. +$1.11 (37%) vs the $2.99 Feb 28 baseline.",
+      "tooltip": "State range Aug 3: Indiana $3.605 to California $5.659 (AAA)."
     },
     "sp500": {
-      "value": 7537,
-      "label": "S&P 500 — ~7,537 (Aug 3 intraday, Day 157): +0.63% on Iran de-escalation; PROVISIONAL",
-      "change": "▲ +0.63% to about 7,537 (August 3 intraday) after Trump canceled the planned strike on Iranian energy infrastructure and announced talks. Dow +1.1% to 53,071.98; Nasdaq +0.7% to 25,560.74; VIX 16.02; gold $4,087.50. The last confirmed close was 7,489.72 on July 31 (FRED), which ended the S&P 500's first red July since 2014. PROVISIONAL — official close pending.",
-      "tooltip": "Rallied to close a volatile July — first red July since 2014 — then rose Aug 3 on Iran de-escalation. Aug 3 values are intraday and PROVISIONAL; replace with official closes when published. July sessions (confirmed closes): 7,428.78 Jul 28 (+0.21%), 7,316.15 Jul 29 (−1.52%, worst Dow day since Apr 2025 as the Fed held rates and chips sold off), 7,437.63 Jul 30 (+1.70%), 7,489.72 Jul 31 (+0.70%). No trading Aug 1-2."
+      "value": 7757.64,
+      "label": "S&P 500 - 7,757.64 (record close Fri Aug 7, carried over weekend): +3.6% on the week",
+      "change": "▲ Record close 7,757.64 (+0.62%) Fri Aug 7; +3.6% on the week, the strongest since April. Weekend hold. Rally driven by Iran de-escalation plus a dovish July jobs report (Aug 7): the economy unexpectedly LOST 23,000 jobs, taking a September Fed hike off the table.",
+      "tooltip": "Dow 54,036.93 (+0.28%); Nasdaq 26,690.62 (+1.30%); Russell 2000 3,034.49 (+1.10%); VIX 14.90. S&P first closed above 7,700 on Tue Aug 4."
     },
     "daily_cost": {
       "value": 500,
       "unit": "M/day",
-      "label": "Daily War Cost (est.) — active-ops burn, $500M–$1B/day band (HELD at Day 157)",
-      "change": "HELD at ~$500M/day. No new official daily-rate figure was released this cycle. The window included a full escalate-then-pause cycle — Iran's July 28 missile attack, CENTCOM's July 29 'heavy wave' against dozens of IRGC targets, Iranian strikes on Jordan and Kuwait July 30 — but CENTCOM published no munitions count, so the rate is held rather than raised; a wave of that size likely ran above this floor. Force presence, which drives the baseline burn, is unchanged: two carrier strike groups (Lincoln, Bush), the Boxer ARG, 20+ warships and ~14 guided-missile destroyers remain on station enforcing the blockade. SEPARATE MEASURE, DO NOT CONFLATE: $37.5B official cost across 157 days is a blended ~$239M/day, which averages in the war's quiet phases and is not the active-ops rate this figure tracks.",
-      "tooltip": "Mark Cancian (CSIS) estimates ~$500M/day; CSIS (Cancian & Park) separately estimated $16.5B through day twelve and ~$1B/day thereafter. 12 consecutive strike nights + blockade enforcement + carrier/ARG surge put ops in the $500M–$1B/day band. Displayed $500M is the documented lower bound.",
+      "label": "Daily War Cost (est.) - active-ops burn, $500M-$1B/day band (HELD at Day 163)",
+      "change": "HELD at ~$500M/day. No new official daily-rate figure this cycle. The Aug 1-3 pause held through Aug 9 with no new US strikes on Iranian territory, so active-ops burn was likely at or below this floor; force presence (two CSGs, Boxer ARG, renewed blockade) is unchanged. DO NOT CONFLATE with the separate '$500M/day' figure the US cites for the cost the blockade imposes ON Iran.",
+      "tooltip": "No CENTCOM munitions count published for Aug 4-9; pause in effect.",
       "note": "STILL FLAGGED FOR MANUAL REVIEW; $500M/day is the CSIS/Cancian active-ops LOWER BOUND. Upper end ~$1B/day supported by 12 strike nights + blockade + carrier surge."
     },
     "total_cost": {
       "value": 37.5,
       "unit": "B",
-      "label": "Official direct US military cost — Pentagon (Hegseth, Senate Appropriations, Jul 21; HELD at Day 157)",
-      "change": "HELD — no new official figure was released July 28-August 3. $37.5B direct US military cost, stated by Defense Secretary Hegseth to Senate Appropriations on July 21 — supersedes the prior $29B (May) official figure. CBS sources say the true Pentagon figure is higher because it excludes base reconstruction. DO NOT SUM WITH CONSUMER ESTIMATES: Moody's Analytics (chief economist Mark Zandi) puts combined US consumer and taxpayer costs at at least $132B — the dashboard's prior headline figure, retained here as the sourced Moody's baseline and annotated as a pre-July undercount; Al Jazeera (Jul 21) cited a Moody's domestic estimate of up to $150bn, treated as an upper-bound press characterization pending confirmation. Zandi also estimates ~$1,000 per typical US household 'and counting.' A separate $87.6B supplemental ($67.1B to the Pentagon) is pending in Congress with no confirmed markup or vote date.",
-      "tooltip": "Moody's ~$132B (mid-June consumer+taxpayer) is now stale. New attributed figures (DO NOT SUM): $37.5B direct US military cost (Hegseth Senate testimony, Jul 19-20); ~$71.1B extra consumer gas+diesel since the war began (Brown University Watson Institute, Jul 20). House passed a $95B blueprint (>$70B for Iran) 216-214 on Jul 22, pending Senate; the $87.6B June 24 supplemental is superseded/pending.",
+      "label": "Official direct US military cost - Pentagon (Hegseth, Jul 21; HELD at Day 163)",
+      "change": "HELD. $37.5B direct US military cost (Hegseth, Senate Appropriations, Jul 21). No new official figure Aug 4-9. Do not sum with consumer estimates: Moody's/Zandi combined US consumer + taxpayer cost >= $132B (pre-July, an undercount).",
+      "tooltip": "A separate $87.6B supplemental remains pending in Congress with no confirmed vote date.",
       "note": "Stale baseline. New per-source figures reported separately (do not merge/sum): $37.5B direct US military (Hegseth, Jul 19-20); ~$71.1B consumer gas/diesel (Brown/Watson, Jul 20)."
     }
   },
@@ -2463,6 +2463,28 @@
       "flights_cancelled": 8000,
       "children_killed": 376,
       "headline": "Day 157 (August 3, Monday) — TRUMP CALLS OFF 'BIGGEST ATTACK SINCE WWII,' ANNOUNCES IRAN TALKS; OIL SLUMPS ~6%: The fourth escalate-then-pause cycle since June ran its full course in seven days. Iran's IRGC broke a multi-day lull with an attempted surprise missile attack on US forces at 5:45 p.m. ET Jul 28 (all intercepted; Jordan downed five), and US and Saudi forces struck Iran-aligned groups in eastern Iraq the same day — the first public Saudi participation in US operations. CENTCOM answered with a 'heavy wave' completed 10 p.m. ET Jul 29 against dozens of IRGC targets; Iranian media reported a family of three killed on Qeshm Island and the IRGC named three personnel killed. Iran struck Jordan and Kuwait Jul 30 (1 killed in Kuwait); Saudi Arabia convened 40+ nations on a naval coalition; the IRGC claimed two Hormuz tanker strikes Jul 31 (UNVERIFIED — Kpler still logged two VLCCs exiting). Then Trump canceled a planned major strike on Iranian energy infrastructure late Aug 1, saying 'the perimeters of a deal has been agreed to' including the 'Immediate, Complete, and Total OPENING OF THE HORMUZ STRAIT'; Iran's Mehr called it 'simply a new lie' Aug 2; Trump said Aug 3 that negotiations begin. Markets whipsawed on the diplomacy, not the fighting: Brent $90.74 Jul 29 → ~$83 Aug 3; WTI ~$79; S&P ~7,537 (+0.63%) after a first red July since 2014. Toll counters HELD — no cumulative revisions issued; US WIA 624 (DCAS via The Hill) against AP's 642 under a new 'Overseas Operations' category. Hormuz traffic still ~12/day. PROVISIONAL: Aug 3 oil and equity values are intraday."
+    },
+    {
+      "date": "2026-08-09",
+      "war_day": 163,
+      "brent": 83.55,
+      "wti": 78.16,
+      "gas": 4.1,
+      "sp500": 7757.64,
+      "sp500_change_pct": 0.0,
+      "nasdaq": 26690.62,
+      "dow": 54036.93,
+      "daily_cost_millions": 500,
+      "total_cost_billions": 37.5,
+      "targets_struck": 35914,
+      "us_kia": 18,
+      "us_wia": 687,
+      "iranian_killed": 3636,
+      "lebanese_killed": 4297,
+      "displaced": 1200000,
+      "flights_cancelled": 8000,
+      "children_killed": 376,
+      "headline": "Day 163 (August 9, Sunday) - HORMUZ TALKS GRIND ON AS IRAN HARDENS TERMS: The Aug 1-3 pause held a full week with no new US strikes on Iranian soil. Iran's SNSC issued formal preconditions Aug 8 (lift the blockade, withdraw US forces, permanently end the war, war-damage compensation); a UAE/ADNOC tanker was struck by an Iranian missile Aug 8 and left burning. Oman calls talks 'constructive' but warns the vessel attacks threaten them; CJCS Caine reportedly presses for an 'off-ramp.' US and Iran are passing messages via intermediaries. Markets closed the week at records (S&P 7,757.64, +3.6%) on Iran de-escalation and a soft jobs report; Brent fell ~7% on the week to ~$83.55."
     }
   ],
   "toll": {
