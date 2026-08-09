@@ -4719,5 +4719,59 @@
     "notes": "UNVERIFIED. The IRGC said it hit two tankers transiting the Strait of Hormuz under US military escort and forced four others to reverse course. US and UK maritime security organizations had not confirmed the claim, and Kpler data still showed two VLCCs successfully exiting the Gulf on Jul 31. Treat as an Iranian claim pending independent maritime confirmation.",
     "verified": false,
     "last_updated": "2026-08-03"
+  },
+  {
+    "id": "usv-strike-almukha-redsea-20260804",
+    "city": "Off Al Mukha, Bab al-Mandeb (Red Sea)",
+    "lat": 13.32,
+    "lng": 43.25,
+    "type": "houthi_proxy_attack",
+    "weapon": "Uncrewed surface vessel (USV)",
+    "origin": "Houthi (Yemen)",
+    "first_strike": "2026-08-04",
+    "casualties_reported": "Not specified; vessel sank after a USV strike sparked an onboard fire",
+    "casualties_source": "UK Maritime Trade Operations (UKMTO)",
+    "active_days": [
+      158
+    ],
+    "notes": "UKMTO reported a vessel struck by an uncrewed surface vessel about 9 nautical miles off Al Mukha, Yemen; a fire broke out and the ship subsequently sank. First reported Tue Aug 4. type value 'houthi_proxy_attack' may need normalizing to your taxonomy.",
+    "verified": true,
+    "last_updated": "2026-08-09"
+  },
+  {
+    "id": "houthi-strike-saudi-tanker-redsea-20260805",
+    "city": "Red Sea (Saudi-aligned tanker)",
+    "lat": 16.0,
+    "lng": 42.0,
+    "type": "houthi_proxy_attack",
+    "weapon": "Missile / USV (claimed)",
+    "origin": "Houthi (Yemen)",
+    "first_strike": "2026-08-05",
+    "casualties_reported": "Not specified",
+    "casualties_source": "Houthi claim (via CNN Aug 5 live blog); not independently confirmed",
+    "active_days": [
+      159
+    ],
+    "notes": "UNVERIFIED. Yemen's Iran-backed Houthis claimed a strike on a Saudi-aligned oil tanker in the Red Sea. Brent ticked up ~1% intraday Aug 5 partly on the claim. Treat as a claim pending independent confirmation. Coordinates are approximate (Red Sea placeholder); refine if a specific position surfaces.",
+    "verified": false,
+    "last_updated": "2026-08-09"
+  },
+  {
+    "id": "iran-strike-uae-tanker-hormuz-20260808",
+    "city": "Strait of Hormuz (UAE / ADNOC tanker)",
+    "lat": 26.5667,
+    "lng": 56.25,
+    "type": "iran_retaliation",
+    "weapon": "Anti-ship missile",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-08-08",
+    "casualties_reported": "Vessel struck and burning in the US-supported shipping route; specific casualties for this strike not confirmed. War-to-date cumulative: 15 ADNOC vessels attacked, 1 crew member killed and 20 injured (CNN, Aug 8).",
+    "casualties_source": "ADNOC / UAE (attribution); CNN; IRGC Sepah News (claim)",
+    "active_days": [
+      162
+    ],
+    "notes": "A UAE oil tanker came under attack Sat Aug 8 and was reported burning; ADNOC did not specify the exact location. The UAE blamed Tehran; IRGC-linked Sepah News reported the tanker was hit in the 'US-supported shipping route.' This attack, alongside Iran's new SNSC demands the same day, is what Oman warned threatens the Hormuz talks.",
+    "verified": true,
+    "last_updated": "2026-08-09"
   }
 ]
