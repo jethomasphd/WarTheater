@@ -156,7 +156,13 @@
     "Day 154",
     "Day 155",
     "Day 156",
-    "Day 157"
+    "Day 157",
+    "Day 158",
+    "Day 159",
+    "Day 160",
+    "Day 161",
+    "Day 162",
+    "Day 163"
   ],
   "daily_cost_millions": [
     3000,
@@ -288,6 +294,12 @@
     85,
     85,
     85,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
     500,
     500,
     500,
@@ -474,7 +486,13 @@
     "Day 154 (July 31, Friday) — JULY CLOSES AS THE MOST EXPENSIVE MONTH FOR ENERGY: Brent settled $90.12 and WTI $84.67, closing Brent's biggest monthly gain since March at roughly +20% — the consumer-facing cost of the war compounding even on a day with no US strikes. The State Department warned US citizens across the Middle East, and the IRGC claimed it hit two tankers under US escort and turned four others back (UNVERIFIED; Kpler still logged two VLCCs exiting the Gulf). Unverified or not, the claim itself is expensive: war-risk premiums price on perceived escort failure, and coverage for a $100M tanker has already gone from about $200,000 to multiples of that. Equities closed the month lower — the S&P 500's first red July since 2014. Daily rate HELD at $500M.",
     "Day 155 (August 1, Saturday) — THE MOST EXPENSIVE STRIKE OF THE WAR WAS THE ONE NOT FLOWN: The US and Israel had prepared what CBS sources called one of the harshest bombing campaigns of the war, aimed at Iranian energy infrastructure. Trump canceled it late Saturday, calling it the 'biggest attack since World War II' and saying regional states had asked him to hold off because 'the perimeters of a deal has been agreed to' — a framework he said would include the 'Immediate, Complete, and Total OPENING OF THE HORMUZ STRAIT' and an end to Iran's nuclear threat. Saudi Crown Prince Mohammed bin Salman reportedly urged restraint; US forces remained 'locked and loaded.' A strike on Iranian energy infrastructure would have been the single largest cost event of the war on both sides of the ledger — munitions expenditure plus an oil-price response that flows straight to US pump prices. Daily rate HELD at $500M.",
     "Day 156 (August 2, Sunday) — THE POLITICAL COST SURFACES: No strikes. Iran's Mehr agency dismissed Trump's framework claim as 'simply a new lie,' and Tehran confirms no direct US talks, so the deal that justified standing down the strike is not corroborated by the other party. The domestic ledger moved instead: an AP-NORC poll (July 23-27, 1,165 adults, ±3.7 points) found 64% of US adults say the war is not worth the risks against 33% who say it is, and Trump's approval on Iran fell to 28%. Set against Moody's estimate of roughly $1,000 per typical US household 'and counting' (Mark Zandi), the polling is the political price of the economic one. Daily rate HELD at $500M.",
-    "Day 157 (August 3, Monday) — THE WAR PREMIUM UNWINDS ON AN ANNOUNCEMENT: Trump said negotiations would begin — 'We're talking to them in the form of a negotiation.' Oil slumped roughly 5-7% on the words alone: WTI near $79, Brent near $83, an ~8% round trip from the July 29 settle of $90.74. Equities rose (Dow +1.1%, Nasdaq +0.7%). That is the cleanest measure yet of how much of the current energy cost is war premium rather than physical shortage, and it is the dashboard's most market-moving variable: a signed deal plus verified sustained Hormuz transits would likely break Brent below $80, while a collapse of talks re-prices it back toward $90+. Traffic has not yet confirmed the optimism — about 12 transits August 3 (Windward: 5 inbound, 7 outbound, 6 running dark) against a pre-war baseline this series tracks at 50/day. NOTE ON BASELINES: alternative pre-war estimates exist — roughly 138 vessels/day on an EIA-based analysis and about 88/day per IMF PortWatch — so the percentage collapse varies with the denominator; this series holds 50/day for continuity. Hormuz normally carries about 20 mb/d of crude and products, roughly 25% of seaborne oil trade (IEA), and EIA reports Q1 2026 flows already down about 30% year-on-year to 14.6 mb/d. Blockade 2.0 continues: 20 commercial vessels redirected as of July 29, 2 disabled kinetically, 2 boarded (UANI/CENTCOM). Direct US military cost remains $37.5B (Hegseth, Senate Appropriations, July 21) with no new official figure in the window; daily rate HELD at $500M."
+    "Day 157 (August 3, Monday) — THE WAR PREMIUM UNWINDS ON AN ANNOUNCEMENT: Trump said negotiations would begin — 'We're talking to them in the form of a negotiation.' Oil slumped roughly 5-7% on the words alone: WTI near $79, Brent near $83, an ~8% round trip from the July 29 settle of $90.74. Equities rose (Dow +1.1%, Nasdaq +0.7%). That is the cleanest measure yet of how much of the current energy cost is war premium rather than physical shortage, and it is the dashboard's most market-moving variable: a signed deal plus verified sustained Hormuz transits would likely break Brent below $80, while a collapse of talks re-prices it back toward $90+. Traffic has not yet confirmed the optimism — about 12 transits August 3 (Windward: 5 inbound, 7 outbound, 6 running dark) against a pre-war baseline this series tracks at 50/day. NOTE ON BASELINES: alternative pre-war estimates exist — roughly 138 vessels/day on an EIA-based analysis and about 88/day per IMF PortWatch — so the percentage collapse varies with the denominator; this series holds 50/day for continuity. Hormuz normally carries about 20 mb/d of crude and products, roughly 25% of seaborne oil trade (IEA), and EIA reports Q1 2026 flows already down about 30% year-on-year to 14.6 mb/d. Blockade 2.0 continues: 20 commercial vessels redirected as of July 29, 2 disabled kinetically, 2 boarded (UANI/CENTCOM). Direct US military cost remains $37.5B (Hegseth, Senate Appropriations, July 21) with no new official figure in the window; daily rate HELD at $500M.",
+    "Day 158 (August 4, Tuesday) — PAUSE HOLDS, MARKETS TO RECORDS: No new US strikes. Trump warned the Strait of Hormuz would open 'very soon or they are going to get hit very hard.' Oil eased while equities set records (S&P 7,736.52, first record in two months; Dow above 54,000). Daily rate HELD at $500M.",
+    "Day 159 (August 5, Wednesday) — FRAMEWORK NEAR, SHIPPING STILL HIT: Iran and Oman were reported near a framework to manage Strait traffic; Yemen's Houthis claimed a Red Sea tanker strike and a USV-struck vessel off Al Mukha sank. Daily rate HELD at $500M.",
+    "Day 160 (August 6, Thursday) — 'THEATER DIPLOMACY': Iran called US diplomacy 'theater' as the two sides gave conflicting accounts of whether talks were happening; Iran's parliament weighed stricter Hormuz terms (a 20% cargo-value penalty; full reopening only after the US lifts its blockade). Daily rate HELD at $500M.",
+    "Day 161 (August 7, Friday) — SOFT JOBS REPORT, RECORD WEEK: July payrolls unexpectedly fell 23,000, taking a September Fed hike off the table; the S&P closed at a record 7,757.64 (+3.6% on the week). Brent ended the week down about 7%. FM Araghchi praised Iran's armed forces. Daily rate HELD at $500M.",
+    "Day 162 (August 8, Saturday) — IRAN HARDENS TERMS AS A TANKER BURNS: Iran's SNSC issued formal reopening preconditions (lift the blockade, withdraw US forces, end the war, war-damage compensation); a UAE/ADNOC oil tanker was struck by an Iranian missile and left burning in the US-supported shipping route. CENTCOM said it had redirected 51 commercial vessels under the renewed blockade; the State Department added crypto-linked sanctions; CJCS Gen. Caine reportedly told advisers Washington needs an off-ramp. Daily rate HELD at $500M.",
+    "Day 163 (August 9, Sunday) — INTO A SECOND WEEK: US and Iran are passing messages via intermediaries, with the pause holding into a second week and no new US strikes on Iranian territory. Separately, PM Netanyahu said Israel would reject the 15-point Gaza proposal from Trump's Board of Peace. Daily rate HELD at $500M."
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
@@ -610,7 +628,13 @@
       "Jul 15",
       "Jul 16",
       "Jul 29",
-      "Aug 3"
+      "Aug 3",
+      "Aug 4",
+      "Aug 5",
+      "Aug 6",
+      "Aug 7",
+      "Aug 8",
+      "Aug 9"
     ],
     "data": [
       50,
@@ -744,9 +768,15 @@
       15,
       8,
       14,
-      12
+      12,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ],
     "prewar_daily": 50
   },
-  "last_updated": "2026-08-03"
+  "last_updated": "2026-08-09"
 }

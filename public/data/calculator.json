@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.110,
-  "war_increase": 1.12,
+  "current_gas": 4.095,
+  "war_increase": 1.105,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.58 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA gasprices.aaa.com national average $4.110 as of Monday July 27, 2026 (Day 150), up $0.091 from $4.019 on July 21 (Day 144) and up $1.12 (37%) from the $2.99 pre-war baseline of February 28. Diesel $5.11 (last confirmed July 21 — stale, no AAA diesel update this cycle). Pump prices are still catching up to the crude spike that peaked while they were rising: Brent broke $100 intraday on July 23 ($101.01, first time since late May) at the end of a 13-consecutive-night US strike campaign against Iran, then collapsed once the strikes stopped — Brent settled $97.24 on July 24 (-3.3%) and $88.36 on July 27 (-8.7%, the biggest one-day drop since April 8); WTI settled $89.31 then $82.61 (-7.5%). The US announced no strikes July 24-27 and Iran halted retaliation after its July 24 IRGC salvo, a mutual pause that has now held three days while Qatari and Pakistani mediators report progress toward restoring the collapsed interim ceasefire. Crude's July 27 crash had not yet reached the pump; because prices lag crude by 2-3 weeks, downside relief is likely if the pause holds — and a fast re-spike if it fails. The wartime peak was ~$4.56/gal (May 21), below AAA's nominal record of $5.016 (June 14, 2022). Moody's Analytics (Zandi) estimated at least $132 billion in combined US consumer and taxpayer costs — a pre-July figure that undercounts the escalation, with Al Jazeera (July 21) citing a Moody's domestic estimate of up to $150 billion.",
-  "last_updated": "2026-07-27"
+  "source": "AAA national average $4.095 as of Sunday Aug 3, 2026 (Day 157), essentially flat and drifting slightly down from $4.110 on Jul 27; state range Aug 3 was Indiana $3.605 to California $5.659. Crude fell more than 7% the week of Aug 3 on Iran-Oman Hormuz-deal hopes; because pump prices lag crude 2-3 weeks, downside relief is likely if the pause holds. No daily AAA national figure was located for Aug 4-9.",
+  "last_updated": "2026-08-09"
 }

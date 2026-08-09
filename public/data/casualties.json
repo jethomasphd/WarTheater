@@ -156,7 +156,13 @@
     "Jul 31",
     "Aug 1",
     "Aug 2",
-    "Aug 3"
+    "Aug 3",
+    "Aug 4",
+    "Aug 5",
+    "Aug 6",
+    "Aug 7",
+    "Aug 8",
+    "Aug 9"
   ],
   "day_contexts": [
     "Day 1 — First strikes, Minab school (165+ killed), Iranian retaliation",
@@ -315,7 +321,13 @@
     "Day 154 (July 31, Friday) — TANKER STRIKES CLAIMED, CASUALTIES UNSPECIFIED: The IRGC said it struck two tankers transiting the Strait of Hormuz under US escort and forced four others to reverse course. No casualty figures were given, US and UK maritime security organizations did not confirm the claim, and Kpler still recorded two VLCCs exiting the Gulf that day — so no deaths or injuries are recorded against this date. The State Department issued warnings to US citizens across the Middle East. Reports emerged that the US and Israel were preparing a major strike on Iranian energy infrastructure over the weekend, a package that would have carried substantial civilian-casualty risk had it run.",
     "Day 155 (August 1, Saturday) — PLANNED STRIKE CANCELED; NO NEW DEATHS: No US strikes and no Iranian retaliation. Late Saturday Trump said he had called off the planned attack on Iranian energy infrastructure — which he characterized as the 'biggest attack since World War II' — saying Iran and other regional states had asked him to hold off because 'the perimeters of a deal has been agreed to.' Saudi Crown Prince Mohammed bin Salman reportedly urged restraint. No casualties recorded.",
     "Day 156 (August 2, Sunday) — DIPLOMATIC PAUSE HOLDS: No strikes on either side and no new deaths. Iran's semi-official Mehr agency dismissed Trump's account of an agreed framework as 'simply a new lie,' citing unnamed military officials, and the defense minister said Iran was 'neither surprised nor passive.' An AP-NORC poll (conducted July 23-27, 1,165 adults, ±3.7 points) found 64% of US adults say the war is not worth the risks against 33% who say it is, with Trump's approval on his handling of Iran at 28%.",
-    "Day 157 (August 3, Monday) — PAUSE HOLDS AS TALKS ARE ANNOUNCED; HUMANITARIAN DATA GOING STALE: A third consecutive day without strikes; Trump said negotiations would begin. No new deaths recorded on any tracked line. STALENESS FLAGS: the Lebanese toll here is unchanged at the Lebanese Ministry of Public Health's July 2 figure of 4,297 killed, against a mid-July L'Orient Today attribution of 4,321 killed / 12,207 wounded, with no statement dated July 28-August 3 located; displacement (1.2M, UN OCHA), cancelled flights (8,000) and children killed (376, Iran MoH April 19) are all weeks old. Cumulative Iranian tolls remain irreconcilable and must be shown by reporting body, never merged or averaged: 3,636 (HRANA — 1,701 civilian / 1,221 military / 714 unclassified) against 3,468 (Iran Foundation of Martyrs), with the Health Ministry's 'since June 27' period tally a different scope entirely. US 18 killed / 624 wounded (DCAS via The Hill, July 28), with AP's 642 flagged as a category-split artifact."
+    "Day 157 (August 3, Monday) — PAUSE HOLDS AS TALKS ARE ANNOUNCED; HUMANITARIAN DATA GOING STALE: A third consecutive day without strikes; Trump said negotiations would begin. No new deaths recorded on any tracked line. STALENESS FLAGS: the Lebanese toll here is unchanged at the Lebanese Ministry of Public Health's July 2 figure of 4,297 killed, against a mid-July L'Orient Today attribution of 4,321 killed / 12,207 wounded, with no statement dated July 28-August 3 located; displacement (1.2M, UN OCHA), cancelled flights (8,000) and children killed (376, Iran MoH April 19) are all weeks old. Cumulative Iranian tolls remain irreconcilable and must be shown by reporting body, never merged or averaged: 3,636 (HRANA — 1,701 civilian / 1,221 military / 714 unclassified) against 3,468 (Iran Foundation of Martyrs), with the Health Ministry's 'since June 27' period tally a different scope entirely. US 18 killed / 624 wounded (DCAS via The Hill, July 28), with AP's 642 flagged as a category-split artifact.",
+    "Day 158 (August 4, Tuesday) — PAUSE HOLDS: No new deaths on any tracked national line. The Pentagon's DCAS database (via CNN) recorded 18 US troops killed and 687 wounded since Feb 28, including 270 wounded on or after July 7 under the new 'Overseas Operations' category (superseding the prior 624). These five series track national military and civilian deaths only and were unchanged.",
+    "Day 159 (August 5, Wednesday) — NO NEW NATIONAL-TALLY DEATHS: The Iran front stayed quiet; Yemen's Houthis claimed a Red Sea tanker strike and a USV-struck vessel off Al Mukha sank. Merchant-seafarer casualties from Red Sea and Hormuz vessel attacks are NOT captured by these five national categories.",
+    "Day 160 (August 6, Thursday) — NO NEW DEATHS RECORDED: Diplomacy over Hormuz continued with no strikes on either front. The cumulative Iranian (HRANA 3,636) and Lebanese (MoPH 4,297, July 2) tallies were not refreshed this cycle and are increasingly stale.",
+    "Day 161 (August 7, Friday) — NO NEW NATIONAL-TALLY DEATHS: The pause held into its second week with no strikes. Displacement (1.2M), cancelled flights (8,000) and children killed (376, Iran MoH April 19) remain weeks to months old.",
+    "Day 162 (August 8, Saturday) — UAE TANKER STRUCK, BUT OUTSIDE THESE CATEGORIES: A UAE/ADNOC oil tanker was struck by an Iranian missile and left burning in the Strait of Hormuz. War-to-date 15 ADNOC vessels have been attacked with 1 crew member killed and 20 injured (CNN, Aug 8); these merchant-seafarer casualties are tracked in hormuz.json, not in these five national military and civilian series, which logged no new deaths.",
+    "Day 163 (August 9, Sunday) — PAUSE INTO A SECOND WEEK; DATA STALE: No new deaths on any tracked national line as the US-Iran pause held and messages passed via intermediaries. STALENESS FLAGS: the Iranian (HRANA 3,636) and Lebanese (MoPH 4,297, July 2) cumulative tolls were not refreshed this cycle; displacement (1.2M), cancelled flights (8,000) and children killed (376) are weeks to months old. Cumulative tallies must be shown by reporting body, never merged. Merchant-seafarer losses from the Red Sea and Hormuz vessel attacks are structurally missing from these five national categories."
   ],
   "datasets": {
     "iranian_military": {
@@ -473,6 +485,12 @@
         0,
         0,
         3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -640,6 +658,12 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffffff"
@@ -803,6 +827,12 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#4a9eff"
@@ -941,6 +971,12 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -1129,10 +1165,16 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffc832"
     }
   },
-  "last_updated": "2026-08-03"
+  "last_updated": "2026-08-09"
 }
