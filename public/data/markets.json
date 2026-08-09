@@ -108,7 +108,11 @@
     "Jul 29",
     "Jul 30",
     "Jul 31",
-    "Aug 3"
+    "Aug 3",
+    "Aug 4",
+    "Aug 5",
+    "Aug 6",
+    "Aug 7"
   ],
   "contexts": [
     "Pre-war close — baseline",
@@ -219,7 +223,11 @@
     "Day 152 (July 29, Wednesday) — WORST DOW DAY SINCE APRIL 2025: S&P 500 -1.52% to 7,316.15 in a session hit from three directions — the overnight Iranian attack, a Fed that held rates amid oil-driven inflation fears, and a chip-stock rout that pushed the Nasdaq 100 into technical correction. Dow 51,594.14; Nasdaq 24,442.94. The 30-year Treasury yield touched roughly a two-decade high. Brent settled $90.74 (+7.9%), its biggest daily jump in more than two weeks.",
     "Day 153 (July 30, Thursday) — REBOUND ON THE NAVAL COALITION: S&P 500 +1.70% to 7,437.63, recovering the prior session's loss after Saudi Arabia convened representatives of more than 40 countries to discuss a maritime coalition protecting Red Sea and Hormuz shipping. Dow 52,208.06; Nasdaq 25,122.18. Oil eased on the news — Brent settled $89.03, WTI $83.59 — even as Iran struck Jordan and Kuwait.",
     "Day 154 (July 31, Friday) — FIRST RED JULY SINCE 2014: S&P 500 +0.70% to 7,489.72 to end a volatile month that still closed lower — the index's first losing July since 2014. Dow 52,485.03; Nasdaq 25,373.85; VIX 15.99. Brent settled $90.12 and WTI $84.67, capping Brent's biggest monthly gain (~20%) since March. The State Department warned US citizens across the Middle East and the IRGC claimed two tanker strikes in Hormuz (unconfirmed), while reports emerged that the US and Israel were preparing a major strike on Iranian energy infrastructure over the weekend.",
-    "Day 157 (August 3, Monday) — DE-ESCALATION RALLY: S&P 500 ~7,537 (+0.63%) after Trump canceled the planned weekend strike on Iranian energy infrastructure and said negotiations would begin. Dow 53,071.98 (+1.1%); Nasdaq 25,560.74 (+0.7%); VIX 16.02; gold 4,087.50. Oil slumped in the mirror image — WTI near $79, Brent near $83, down roughly 5-7%. PROVISIONAL: these are intraday values captured before the close; replace with official closes when published. No trading Aug 1-2 (weekend)."
+    "Day 157 (August 3, Monday) — DE-ESCALATION RALLY: S&P 500 ~7,537 (+0.63%) after Trump canceled the planned weekend strike on Iranian energy infrastructure and said negotiations would begin. Dow 53,071.98 (+1.1%); Nasdaq 25,560.74 (+0.7%); VIX 16.02; gold 4,087.50. Oil slumped in the mirror image — WTI near $79, Brent near $83, down roughly 5-7%. PROVISIONAL: these are intraday values captured before the close; replace with official closes when published. No trading Aug 1-2 (weekend).",
+    "Day 158 (August 4, Tuesday) — FIRST RECORD IN TWO MONTHS: S&P 500 +1.79% to a record 7,736.52; the Dow closed above 54,000 for the first time (54,085.88, +1.71%) and the Nasdaq rose +2.59% to 26,584.99. Oil eased on Hormuz-deal hopes; Palantir and Caterpillar earnings led tech and industrials. Trump said the strait would open 'very soon or they are going to get hit very hard.'",
+    "Day 159 (August 5, Wednesday) — DOW EXTENDS ITS RECORD RUN: the Dow logged another record in a fifth straight winning session as Iran and Oman were reported near a framework to manage Strait traffic; Yemen's Houthis claimed a Red Sea tanker strike, nudging oil up ~1%. The S&P 500 close was not located this cycle (PENDING official confirmation).",
+    "Day 160 (August 6, Thursday) — STRICTER HORMUZ TERMS WEIGHED: Iran's parliament reviewed a draft markets read as stricter than expected (a penalty equal to 20% of a vessel's cargo value; full reopening only after the US lifts its blockade), and Tehran called Trump's diplomacy 'theater.' The S&P 500 close was not located this cycle (PENDING official confirmation).",
+    "Day 161 (August 7, Friday) — RECORD CLOSE, STRONGEST WEEK SINCE APRIL: S&P 500 +0.62% to a record 7,757.64, up 3.6% on the week, after July payrolls unexpectedly fell 23,000 and took a September Fed hike off the table. Dow 54,036.93; Nasdaq 26,690.62; Russell 2000 3,034.49; VIX 14.90."
   ],
   "datasets": {
     "sp500": {
@@ -333,7 +341,11 @@
         106.38,
         108.13,
         108.89,
-        109.58
+        109.58,
+        111.55,
+        null,
+        null,
+        111.85
       ],
       "color": "#ef4444"
     },
@@ -434,6 +446,10 @@
         117.0,
         117.5,
         118.5,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -563,6 +579,10 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#d4a020"
@@ -678,10 +698,14 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-08-03"
+  "last_updated": "2026-08-07"
 }
