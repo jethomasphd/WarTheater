@@ -1,0 +1,5 @@
+phase,days,strikes_per_day,retal_per_day,strike_retal_ratio,ccf_strike_leads_r+1,ccf_retal_leads_s+1
+Major Combat,1-40,7.02,10.3,0.682,0.331,0.319
+First Ceasefire,41-129,0.57,1.79,0.321,0.054,0.114
+Resumption,130-152,2.35,1.65,1.421,-0.06,0.445
+Diplomatic Pause,153-170,0.0,0.67,0.0,,

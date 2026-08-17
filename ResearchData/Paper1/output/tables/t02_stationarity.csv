@@ -1,0 +1,9 @@
+sample,series,adf_stat,adf_p,adf_stationary,kpss_stat,kpss_p,kpss_stationary
+full (Days 1-170),strikes,-2.407,0.1397,False,1.031,0.01,False
+full (Days 1-170),retal,-3.409,0.0107,True,1.396,0.01,False
+full (Days 1-170),killed,-2.679,0.0777,False,1.323,0.01,False
+full (Days 1-170),diplomatic,-2.248,0.1894,False,0.926,0.01,False
+combat (Days 1-40),strikes,-4.489,0.0002,True,0.57,0.0258,False
+combat (Days 1-40),retal,-3.434,0.0099,True,0.609,0.0218,False
+combat (Days 1-40),killed,-1.547,0.5101,False,0.565,0.0271,False
+combat (Days 1-40),diplomatic,-1.236,0.6577,False,0.846,0.01,False

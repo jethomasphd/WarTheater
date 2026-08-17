@@ -1,0 +1,9 @@
+sample,family,term,coef,IRR,p_value
+combat 1-40,NegBin(alpha=1),strikes_L0,0.0709,1.073,0.1484
+combat 1-40,NegBin(alpha=1),strikes_L1,-0.0346,0.966,0.559
+combat 1-40,NegBin(alpha=1),strikes_L2,0.0294,1.03,0.5486
+combat 1-40,NegBin(alpha=1),retal_L1,0.03,1.03,0.6319
+full 1-170,NegBin(alpha=1),strikes_L0,0.1315,1.141,0.0008
+full 1-170,NegBin(alpha=1),strikes_L1,-0.0901,0.914,0.0688
+full 1-170,NegBin(alpha=1),strikes_L2,0.0308,1.031,0.4105
+full 1-170,NegBin(alpha=1),retal_L1,0.1571,1.17,0.0001

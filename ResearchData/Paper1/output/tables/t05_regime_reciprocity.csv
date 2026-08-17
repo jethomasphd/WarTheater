@@ -1,0 +1,5 @@
+phase,days,n,contemp_r,contemp_p,granger_lag,p_strikes->retal,p_retal->strikes
+Major Combat,1-40,40,0.687,0.0,1.0,0.7765,0.4409
+First Ceasefire,41-129,89,0.178,0.09527,1.0,0.8814,0.4498
+Resumption,130-152,23,0.662,0.00057,1.0,0.0848,0.0264
+Diplomatic Pause,153-170,18,,,,,

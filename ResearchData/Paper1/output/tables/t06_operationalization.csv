@@ -1,0 +1,7 @@
+measure,sample,contemp_r,p_value,strike_total,retal_total
+primary (dedup-loc),combat 1-40,0.687,0.0,281,412
+primary (dedup-loc),full 1-170,0.831,0.0,386,621
+raw event-rows,combat 1-40,0.62,2e-05,739,413
+raw event-rows,full 1-170,0.796,0.0,967,622
+timeline-only,combat 1-40,0.336,0.03419,29,94
+timeline-only,full 1-170,0.348,0.0,53,162

@@ -1,0 +1,5 @@
+phase,days,violence_per_day,diplomatic_per_day,share_days_diplomacy
+Major Combat,1-40,17.32,2.62,0.95
+First Ceasefire,41-129,2.36,3.22,0.899
+Resumption,130-152,4.0,0.39,0.391
+Diplomatic Pause,153-170,0.67,0.72,0.667
