@@ -162,7 +162,14 @@
     "Aug 6",
     "Aug 7",
     "Aug 8",
-    "Aug 9"
+    "Aug 9",
+    "Aug 10",
+    "Aug 11",
+    "Aug 12",
+    "Aug 13",
+    "Aug 14",
+    "Aug 15",
+    "Aug 16"
   ],
   "day_contexts": [
     "Day 1 — First strikes, Minab school (165+ killed), Iranian retaliation",
@@ -327,7 +334,14 @@
     "Day 160 (August 6, Thursday) — NO NEW DEATHS RECORDED: Diplomacy over Hormuz continued with no strikes on either front. The cumulative Iranian (HRANA 3,636) and Lebanese (MoPH 4,297, July 2) tallies were not refreshed this cycle and are increasingly stale.",
     "Day 161 (August 7, Friday) — NO NEW NATIONAL-TALLY DEATHS: The pause held into its second week with no strikes. Displacement (1.2M), cancelled flights (8,000) and children killed (376, Iran MoH April 19) remain weeks to months old.",
     "Day 162 (August 8, Saturday) — UAE TANKER STRUCK, BUT OUTSIDE THESE CATEGORIES: A UAE/ADNOC oil tanker was struck by an Iranian missile and left burning in the Strait of Hormuz. War-to-date 15 ADNOC vessels have been attacked with 1 crew member killed and 20 injured (CNN, Aug 8); these merchant-seafarer casualties are tracked in hormuz.json, not in these five national military and civilian series, which logged no new deaths.",
-    "Day 163 (August 9, Sunday) — PAUSE INTO A SECOND WEEK; DATA STALE: No new deaths on any tracked national line as the US-Iran pause held and messages passed via intermediaries. STALENESS FLAGS: the Iranian (HRANA 3,636) and Lebanese (MoPH 4,297, July 2) cumulative tolls were not refreshed this cycle; displacement (1.2M), cancelled flights (8,000) and children killed (376) are weeks to months old. Cumulative tallies must be shown by reporting body, never merged. Merchant-seafarer losses from the Red Sea and Hormuz vessel attacks are structurally missing from these five national categories."
+    "Day 163 (August 9, Sunday) — PAUSE INTO A SECOND WEEK; DATA STALE: No new deaths on any tracked national line as the US-Iran pause held and messages passed via intermediaries. STALENESS FLAGS: the Iranian (HRANA 3,636) and Lebanese (MoPH 4,297, July 2) cumulative tolls were not refreshed this cycle; displacement (1.2M), cancelled flights (8,000) and children killed (376) are weeks to months old. Cumulative tallies must be shown by reporting body, never merged. Merchant-seafarer losses from the Red Sea and Hormuz vessel attacks are structurally missing from these five national categories.",
+    "Day 164 (August 10, Monday) — No new deaths on any tracked national line during the strike pause; the front was maritime (tanker attacks, 0 crew deaths in-window) and diplomatic.",
+    "Day 165 (August 11, Tuesday) — No new deaths on any tracked national line during the strike pause; the front was maritime (tanker attacks, 0 crew deaths in-window) and diplomatic.",
+    "Day 166 (August 12, Wednesday) — No new deaths on any tracked national line during the strike pause; the front was maritime (tanker attacks, 0 crew deaths in-window) and diplomatic.",
+    "Day 167 (August 13, Thursday) — No new deaths on any tracked national line during the strike pause; the front was maritime (tanker attacks, 0 crew deaths in-window) and diplomatic.",
+    "Day 168 (August 14, Friday) — No new deaths on any tracked national line during the strike pause; the front was maritime (tanker attacks, 0 crew deaths in-window) and diplomatic.",
+    "Day 169 (August 15, Saturday) — Israeli strikes on south Lebanon killed at least 11 (incl. 3+ children) and wounded 19 (Lebanese Health Ministry). Hezbollah drone attacks the same window seriously wounded 3 Israeli troops (no IDF KIA).",
+    "Day 170 (August 16, Sunday) — No new confirmed toll beyond Aug 15; Israel named a killed Hezbollah commander and warned of continued strikes."
   ],
   "datasets": {
     "iranian_military": {
@@ -485,6 +499,13 @@
         0,
         0,
         3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -664,6 +685,13 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffffff"
@@ -812,6 +840,13 @@
         0,
         3,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -1002,6 +1037,13 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        11,
         0
       ],
       "color": "#7b3fa0"
@@ -1171,10 +1213,17 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffc832"
     }
   },
-  "last_updated": "2026-08-09"
+  "last_updated": "2026-08-16"
 }
