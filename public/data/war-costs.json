@@ -162,7 +162,14 @@
     "Day 160",
     "Day 161",
     "Day 162",
-    "Day 163"
+    "Day 163",
+    "Day 164",
+    "Day 165",
+    "Day 166",
+    "Day 167",
+    "Day 168",
+    "Day 169",
+    "Day 170"
   ],
   "daily_cost_millions": [
     3000,
@@ -294,6 +301,13 @@
     85,
     85,
     85,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
     500,
     500,
     500,
@@ -492,7 +506,14 @@
     "Day 160 (August 6, Thursday) — 'THEATER DIPLOMACY': Iran called US diplomacy 'theater' as the two sides gave conflicting accounts of whether talks were happening; Iran's parliament weighed stricter Hormuz terms (a 20% cargo-value penalty; full reopening only after the US lifts its blockade). Daily rate HELD at $500M.",
     "Day 161 (August 7, Friday) — SOFT JOBS REPORT, RECORD WEEK: July payrolls unexpectedly fell 23,000, taking a September Fed hike off the table; the S&P closed at a record 7,757.64 (+3.6% on the week). Brent ended the week down about 7%. FM Araghchi praised Iran's armed forces. Daily rate HELD at $500M.",
     "Day 162 (August 8, Saturday) — IRAN HARDENS TERMS AS A TANKER BURNS: Iran's SNSC issued formal reopening preconditions (lift the blockade, withdraw US forces, end the war, war-damage compensation); a UAE/ADNOC oil tanker was struck by an Iranian missile and left burning in the US-supported shipping route. CENTCOM said it had redirected 51 commercial vessels under the renewed blockade; the State Department added crypto-linked sanctions; CJCS Gen. Caine reportedly told advisers Washington needs an off-ramp. Daily rate HELD at $500M.",
-    "Day 163 (August 9, Sunday) — INTO A SECOND WEEK: US and Iran are passing messages via intermediaries, with the pause holding into a second week and no new US strikes on Iranian territory. Separately, PM Netanyahu said Israel would reject the 15-point Gaza proposal from Trump's Board of Peace. Daily rate HELD at $500M."
+    "Day 163 (August 9, Sunday) — INTO A SECOND WEEK: US and Iran are passing messages via intermediaries, with the pause holding into a second week and no new US strikes on Iranian territory. Separately, PM Netanyahu said Israel would reject the 15-point Gaza proposal from Trump's Board of Peace. Daily rate HELD at $500M.",
+    "Day 164 (August 10, Monday) — PAUSE HOLDS, OIL JUMPS ON DEAL DOUBTS: The US-Iran strike pause held; the naval blockade and vessel-escort operations continued with no strike sorties on Iranian territory. Crude jumped about 5% after Trump told Axios the US was 'only semi-negotiating,' and Iran's SNSC secretary Rezaei demanded frozen funds be released as a condition for reopening Hormuz. Daily rate HELD at $500M.",
+    "Day 165 (August 11, Tuesday) — IRAN HARDENS HORMUZ TERMS: Tehran pressed its demand that Iranian funds be unfrozen before any Strait of Hormuz reopening, and FM spokesman Baghaei said no reopening was possible while the blockade continued; talks strained and markets slipped modestly from the record. Daily rate HELD at $500M.",
+    "Day 166 (August 12, Wednesday) — DECOY-FLIGHT DISCLOSURE; IN-LINE CPI: The Washington Post reported Rubio and Bessent had flown a decoy aircraft out of the July NATO summit after an Iranian threat; in-line July CPI eased Fed-hike fears and markets held steady. Daily rate HELD at $500M.",
+    "Day 167 (August 13, Thursday) — TWO ADNOC TANKERS DRONE-STRUCK; S&P RECORD: Two ADNOC-affiliated tankers were attacked by drones while transiting the Strait of Hormuz (minor damage, no injuries); the UAE blamed the IRGC. The S&P 500 closed at a record 7,798.99, its first close above 7,800. Daily rate HELD at $500M.",
+    "Day 168 (August 14, Friday) — US THREATENS 'ECONOMIC ISOLATION': Treasury Secretary Bessent warned of measures aimed at the 'economic isolation' of Iran and DefSec Hegseth said US forces could hold an indefinite blockade of Iranian ports; oil rose about 5-6% on the week (Brent $88.52), and equities eased from Thursday's record on weak July retail sales. Daily rate HELD at $500M.",
+    "Day 169 (August 15, Saturday) — DEADLIEST LEBANON DAY SINCE JUNE: Israeli strikes killed at least 11 and wounded 19 in south Lebanon (Ansar and Deir ez-Zahrani), the deadliest day there since the June framework, after Hezbollah drone attacks wounded three Israeli troops; the US-Iran pause itself held. Daily rate HELD at $500M.",
+    "Day 170 (August 16, Sunday) — MESSAGING CONTINUES; CARRIER RELIEF SAILS: The US and Iran continued exchanging messages via intermediaries as Jared Kushner toured the region; the Navy's USS George Washington began sailing to relieve the USS Abraham Lincoln (240+ days at sea), pulling the last US carrier from the western Pacific. Daily rate HELD at $500M."
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
@@ -634,7 +655,12 @@
       "Aug 6",
       "Aug 7",
       "Aug 8",
-      "Aug 9"
+      "Aug 9",
+      "Aug 10",
+      "Aug 11",
+      "Aug 12",
+      "Aug 13",
+      "Aug 14"
     ],
     "data": [
       50,
@@ -774,9 +800,14 @@
       null,
       null,
       null,
+      null,
+      8,
+      null,
+      null,
+      null,
       null
     ],
     "prewar_daily": 50
   },
-  "last_updated": "2026-08-09"
+  "last_updated": "2026-08-16"
 }

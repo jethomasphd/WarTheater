@@ -9376,5 +9376,77 @@
     "category": "diplomatic",
     "source": "ABC News live",
     "data_point": "Messages via intermediaries; no new strikes"
+  },
+  {
+    "date": "2026-08-10",
+    "time": "",
+    "title": "Oil jumps ~5% as deal doubts grow; Trump says US 'only semi-negotiating'",
+    "description": "Crude surged to open the week after Trump told Axios the US was 'only semi-negotiating' with Iran and would lean on the naval blockade rather than new airstrikes. Iran's SNSC secretary Mohsen Rezaei demanded the US unfreeze Iranian funds as a condition for reopening Hormuz; FM spokesman Baghaei said no reopening was possible while the blockade continued. WTI settled $82.13, Brent $87.72.",
+    "category": "economic",
+    "source": "CNBC; Al Jazeera",
+    "data_point": "WTI $82.13 / Brent $87.72 (Aug 10 settle)"
+  },
+  {
+    "date": "2026-08-12",
+    "time": "",
+    "title": "Report: Rubio and Bessent flew a decoy plane out of the July NATO summit after an Iranian threat",
+    "description": "The Washington Post reported that Secretary of State Marco Rubio and Treasury Secretary Scott Bessent flew out of the July 8 NATO summit in Ankara on what was effectively a decoy aircraft while President Trump was quietly moved onto a smaller military jet, following an Iranian threat. Separately, in-line July CPI helped lift the S&P 0.26% to 7,748.50.",
+    "category": "political",
+    "source": "Washington Post; CNBC",
+    "data_point": "Disclosed Aug 12; incident dated Jul 8 (Ankara)"
+  },
+  {
+    "date": "2026-08-13",
+    "time": "",
+    "title": "S&P 500 clears 7,800 for the first time; two ADNOC tankers struck in Hormuz",
+    "description": "The S&P 500 closed at a record 7,798.99 (+0.65%), its first close above 7,800 and 27th record of 2026, as oil eased on Energy Secretary Chris Wright's claim that ~9M bpd is still flowing through Hormuz (crude settled Brent $87.07 / WTI $81.25). That evening, two ADNOC-affiliated tankers were attacked by drones while transiting the strait; UKMTO logged two UAV strikes with minor damage and no casualties. The UAE blamed the IRGC.",
+    "category": "military",
+    "source": "CNBC; UAE MoFA/WAM; UKMTO; Al Jazeera",
+    "data_point": "S&P record 7,798.99; 2 ADNOC tankers hit (0 injuries)"
+  },
+  {
+    "date": "2026-08-14",
+    "time": "",
+    "title": "US signals 'economic isolation' of Iran; oil up ~5-6% on the week, stocks slip from record",
+    "description": "Treasury Secretary Bessent (Newsmax) warned of unprecedented measures aimed at the 'economic isolation' of Iran, and Defense Secretary Hegseth said US forces could hold an indefinite blockade of Iranian ports; the IEA warned of the widest global supply deficit in five years. Brent settled $88.52 (+1.67%) and WTI $82.40 (+1.42%), both up ~5-6% on the week. Equities eased from Thursday's record — S&P 7,785.76 (-0.17%), a 3rd straight weekly gain — after July retail sales fell 0.6% and preliminary UMich consumer sentiment dropped to 51.0. AAA gas averaged $4.08.",
+    "category": "economic",
+    "source": "CNBC; DTN/Barchart; Reuters; TradingEconomics; AP",
+    "data_point": "Brent $88.52 / WTI $82.40; S&P 7,785.76; gas $4.08"
+  },
+  {
+    "date": "2026-08-14",
+    "time": "",
+    "title": "Talks stall; Trump vows to make Hormuz 'US territory,' Iran says it 'cannot be seized with a tweet'",
+    "description": "With US-Iran talks stalled, mediation widened to European players. Trump said he would declare the Strait of Hormuz US territory after the war; Iran's FM Abbas Araghchi replied that the strait 'cannot be seized with a tweet' and said Tehran had not decided whether to resume talks, blaming Washington for the return to Hormuz violence. Iran and Oman had still not reached a route agreement despite earlier optimism.",
+    "category": "diplomatic",
+    "source": "CNN live blog; Al Jazeera; ABC News",
+    "data_point": "Talks stalled; Hormuz sovereignty rhetoric escalates"
+  },
+  {
+    "date": "2026-08-15",
+    "time": "",
+    "title": "Israeli strikes kill at least 11 in south Lebanon — deadliest since the June framework",
+    "description": "Israeli air strikes killed at least 11 and wounded 19 in southern Lebanon (7 killed at Ansar, including 3 children; 4 killed at Deir ez-Zahrani), the Lebanese Health Ministry said. Israel said it hit Hezbollah infrastructure in a 'security zone' after Hezbollah explosive-drone attacks along the Ali al-Taher ridge seriously wounded three Israeli troops. Hezbollah urged Beirut to abandon US-mediated talks and warned of an 'appropriate response'; President Aoun called the strikes a 'clear message' aimed at the negotiations. Cumulative Lebanon toll since Mar 2: at least ~4,300.",
+    "category": "humanitarian",
+    "source": "Reuters; Al Jazeera; France 24",
+    "data_point": "at least 11 killed, 19 wounded (Lebanese Health Ministry)"
+  },
+  {
+    "date": "2026-08-15",
+    "time": "",
+    "title": "US pulls its last carrier from Asia to sustain the Iran deployment",
+    "description": "The USS George Washington began departing the western Pacific to replace the USS Abraham Lincoln in the Middle East, leaving the western Pacific without a US carrier as China grows more assertive. The Lincoln has been at sea a record 240+ days — extended past its May return date — amid reported mental-health and supply strain and congressional scrutiny. Trump said the Lincoln's record time at sea was 'not nearly long enough.'",
+    "category": "military",
+    "source": "AP (via Boston Globe / PBS / ABC / US News)",
+    "data_point": "CVN-73 relieving CVN-72; W. Pacific carrier gap"
+  },
+  {
+    "date": "2026-08-16",
+    "time": "",
+    "title": "Messages continue via intermediaries as Kushner tours the region; Israel vows more Hezbollah strikes",
+    "description": "The US and Iran continued exchanging messages through intermediaries with the strike pause into a third week, while Jared Kushner traveled in the region (Egypt/Israel). Israel vowed to strike Hezbollah again if threatened and named a commander it said was killed Aug 15; Israel's Channel 12 reported the military was preparing for several days of intensified fighting in Lebanon. Qatar said it had recovered the remains of an Iranian pilot after an airspace violation and was coordinating a handover with Tehran.",
+    "category": "diplomatic",
+    "source": "ABC News; Al Jazeera; Al Arabiya; AnewZ",
+    "data_point": "Indirect messaging continues; Lebanon escalation risk"
   }
 ]

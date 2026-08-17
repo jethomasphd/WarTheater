@@ -369,11 +369,14 @@
       19,
       20,
       21,
-      118
+      118,
+      162,
+      167,
+      168
     ],
-    "notes": "UKMTO: 20+ confirmed maritime security incidents since Feb 28. Two additional vessels struck Mar 20. Only 21 tankers have crossed the Strait since Feb 28 vs 100+/day pre-war. Half of March transits by shadow fleet (Lloyd's List). Iran selectively allowing passage: India (2 LPG tankers), Pakistan, Turkey, Saudi each transited with individual approval. War risk premiums: 0.125% to ~5% of vessel value (40x increase). $5M per transit for $100M tanker. VLCC rates hit all-time record $423,736/day. GPS/AIS disruption: 44 injected signal zones, 92 denial areas. IMO emergency session Mar 18-19: negotiating safe maritime corridor for seafarer evacuation. UPDATE (June 7): IMO cumulative now 46+ ships/tugs/rigs hit or near a strike site since Feb 28, with 11 seafarer deaths to date; most recently the containership MSC Sariska V was damaged by a drone June 1 at Umm Qasr, Iraq (Manifest §3b). UPDATE (June 25): after the June 17-18 toll-free reopening, the IRGC reasserted permission-only Hormuz transit (VHF Ch.16 warnings) and struck the Singapore-flagged container ship Ever Lovely (bridge damaged, no casualties) ~7.5nm SE of Dahit, Oman — the first ship attack since the reopening (detail under 2026-06-25-hormuz-ever-lovely); 3 tankers turned back and 3 diverted, and the UN IMO paused its plan to evacuate ~11,000 stranded seafarers. Iran is reportedly seeking ~$40B/yr in transit fees once the 60-day free-passage window lapses (WSJ).",
+    "notes": "UKMTO: 20+ confirmed maritime security incidents since Feb 28. Two additional vessels struck Mar 20. Only 21 tankers have crossed the Strait since Feb 28 vs 100+/day pre-war. Half of March transits by shadow fleet (Lloyd's List). Iran selectively allowing passage: India (2 LPG tankers), Pakistan, Turkey, Saudi each transited with individual approval. War risk premiums: 0.125% to ~5% of vessel value (40x increase). $5M per transit for $100M tanker. VLCC rates hit all-time record $423,736/day. GPS/AIS disruption: 44 injected signal zones, 92 denial areas. IMO emergency session Mar 18-19: negotiating safe maritime corridor for seafarer evacuation. UPDATE (June 7): IMO cumulative now 46+ ships/tugs/rigs hit or near a strike site since Feb 28, with 11 seafarer deaths to date; most recently the containership MSC Sariska V was damaged by a drone June 1 at Umm Qasr, Iraq (Manifest §3b). UPDATE (June 25): after the June 17-18 toll-free reopening, the IRGC reasserted permission-only Hormuz transit (VHF Ch.16 warnings) and struck the Singapore-flagged container ship Ever Lovely (bridge damaged, no casualties) ~7.5nm SE of Dahit, Oman — the first ship attack since the reopening (detail under 2026-06-25-hormuz-ever-lovely); 3 tankers turned back and 3 diverted, and the UN IMO paused its plan to evacuate ~11,000 stranded seafarers. Iran is reportedly seeking ~$40B/yr in transit fees once the 60-day free-passage window lapses (WSJ). DAY 170 UPDATE (Aug 16): IRGC-attributed vessel attacks have continued into mid-August — a UAE/ADNOC tanker hit by missile Aug 8 and two ADNOC tankers drone-struck Aug 13 (0 injuries), plus renewed Houthi Red Sea targeting of Saudi Aramco's Jazan refinery Aug 14. ADNOC reports ~15-17 of its vessels attacked since Feb 28 (running total disputed).",
     "verified": true,
-    "last_updated": "2026-06-25"
+    "last_updated": "2026-08-16"
   },
   {
     "id": "prince-sultan-air-base-saudi",
@@ -4660,11 +4663,12 @@
     "casualties_reported": "No casualties reported",
     "casualties_source": "Washington Post / Al Jazeera / Reuters / Times of Israel",
     "active_days": [
-      148
+      148,
+      168
     ],
-    "notes": "FIRST HOUTHI STRIKE ON SAUDI OIL FACILITIES SINCE 2022 (spokesman Yahya Saree). Jizan: a large smoke plume and a NASA FIRMS thermal anomaly at ~01:17 UTC confirm a fire at the 400,000 bpd refinery; Saudi Arabia and Aramco issued no official damage or casualty assessment. Yanbu: 2 ballistic missiles were intercepted by a Patriot battery operated by the GREEK military in Saudi Arabia, with no damage reported. STRATEGIC SIGNIFICANCE — Yanbu is Saudi Arabia's primary Hormuz-bypass corridor, handling ~92% of Saudi seaborne crude exports in June 2026 (Kpler/AFP), with loadings hitting a record 4.7M bpd around Jul 13 (Signal Ocean); the strike demonstrates the Houthis can reach it. SEQUENCE — Jul 22: Houthis struck the Saudi tanker Encelia (bow fire confirmed by SPA) and claimed the Layla (unconfirmed). Jul 24: the Saudi-led coalition struck Houthi targets in Hodeidah and on Kamaran Island (2 injured, per Al Masirah). Jul 25: these Aramco strikes, in retaliation. Jul 26: Houthis claimed 'two qualitative operations' on the Red Sea coast, and Saudi Arabia downed Iranian-backed Iraqi-militia drones aimed at petroleum facilities.",
+    "notes": "FIRST HOUTHI STRIKE ON SAUDI OIL FACILITIES SINCE 2022 (spokesman Yahya Saree). Jizan: a large smoke plume and a NASA FIRMS thermal anomaly at ~01:17 UTC confirm a fire at the 400,000 bpd refinery; Saudi Arabia and Aramco issued no official damage or casualty assessment. Yanbu: 2 ballistic missiles were intercepted by a Patriot battery operated by the GREEK military in Saudi Arabia, with no damage reported. STRATEGIC SIGNIFICANCE — Yanbu is Saudi Arabia's primary Hormuz-bypass corridor, handling ~92% of Saudi seaborne crude exports in June 2026 (Kpler/AFP), with loadings hitting a record 4.7M bpd around Jul 13 (Signal Ocean); the strike demonstrates the Houthis can reach it. SEQUENCE — Jul 22: Houthis struck the Saudi tanker Encelia (bow fire confirmed by SPA) and claimed the Layla (unconfirmed). Jul 24: the Saudi-led coalition struck Houthi targets in Hodeidah and on Kamaran Island (2 injured, per Al Masirah). Jul 25: these Aramco strikes, in retaliation. Jul 26: Houthis claimed 'two qualitative operations' on the Red Sea coast, and Saudi Arabia downed Iranian-backed Iraqi-militia drones aimed at petroleum facilities. DAY 168 (Aug 14): Houthi forces again targeted Saudi Aramco's Jazan refinery in the Red Sea / Bab-el-Mandeb corridor, one of the supply-side headlines cited in the Aug 14 oil rally (TradingEconomics).",
     "verified": true,
-    "last_updated": "2026-07-27"
+    "last_updated": "2026-08-16"
   },
   {
     "id": "iran-missiles-jordan-20260728",
@@ -4770,8 +4774,26 @@
     "active_days": [
       162
     ],
-    "notes": "A UAE oil tanker came under attack Sat Aug 8 and was reported burning; ADNOC did not specify the exact location. The UAE blamed Tehran; IRGC-linked Sepah News reported the tanker was hit in the 'US-supported shipping route.' This attack, alongside Iran's new SNSC demands the same day, is what Oman warned threatens the Hormuz talks.",
+    "notes": "A UAE oil tanker came under attack Sat Aug 8 and was reported burning; ADNOC did not specify the exact location. The UAE blamed Tehran; IRGC-linked Sepah News reported the tanker was hit in the 'US-supported shipping route.' This attack, alongside Iran's new SNSC demands the same day, is what Oman warned threatens the Hormuz talks. FOLLOW-ON: a second, larger ADNOC incident (two tankers, drones, no injuries) followed Aug 13 — see iran-strike-uae-adnoc-tankers-hormuz-20260813.",
     "verified": true,
-    "last_updated": "2026-08-09"
+    "last_updated": "2026-08-16"
+  },
+  {
+    "id": "iran-strike-uae-adnoc-tankers-hormuz-20260813",
+    "city": "Strait of Hormuz (outbound transit; UAE/ADNOC vessels)",
+    "lat": 26.5667,
+    "lng": 56.25,
+    "type": "iran_retaliation",
+    "weapon": "One-way attack drones (UAV)",
+    "origin": "Iranian coast (IRGC-attributed by UAE)",
+    "first_strike": "2026-08-13",
+    "casualties_reported": "No injuries; minor damage to two vessels, situation brought under control (ADNOC/WAM). UKMTO logged two identical UAV strikes on outbound tankers in Hormuz, crew safe, no environmental impact.",
+    "casualties_source": "UAE Ministry of Foreign Affairs / ADNOC via WAM; UKMTO",
+    "active_days": [
+      167
+    ],
+    "notes": "DAY 168 UPDATE: Two ADNOC-affiliated tankers attacked by drones while transiting the Strait of Hormuz on the evening of Thu Aug 13 (reported early Fri Aug 14). UAE FM condemned it as 'piracy' by the IRGC and a 'flagrant violation' of UNSC Resolution 2817; GCC Sec-Gen al-Budaiwi, Qatar and Saudi Arabia condemned it. Iran did not immediately comment. ADNOC says it has now had ~15-17 vessels attacked since Feb 28 (running total disputed) — three within the week of Aug 8, which ADNOC said collectively killed one crew member and injured ~20 (those crew casualties are seafarers not captured in the five national casualty datasets). DISCREPANCY: CNN's Aug 15 live page frames this as a 'Friday night' attack; the weight of sourcing (Al Jazeera, AP7am, anews, UKMTO) dates it Thursday evening Aug 13 — treated here as a single Aug 13 event, not two.",
+    "verified": true,
+    "last_updated": "2026-08-16"
   }
 ]
