@@ -740,5 +740,12 @@
         "label": "AUGUST 9, 2026 — DAY 163",
         "headline": "Hormuz talks grind on as Iran hardens terms; UAE tanker struck; CENTCOM at 51 vessels; CJCS presses for off-ramp; stocks close at records, Brent -7% on the week",
         "file": "data/briefings/day-163.html"
+    },
+    {
+        "day": 170,
+        "date": "2026-08-16",
+        "label": "AUGUST 16, 2026 — DAY 170",
+        "headline": "Strike pause holds a 2nd week; 2 ADNOC tankers drone-struck in Hormuz; talks stall as Trump claims the strait as 'US territory'; oil +5-6% (Brent $88.52); Navy pulls its last Asia carrier to relieve USS Lincoln",
+        "file": "data/briefings/day-170.html"
     }
 ]
