@@ -13,6 +13,37 @@ This document describes the exact schema of every JSON file in `public/data/` as
 
 ---
 
+## Update Log — v1.2 (Day 170, 2026-08-16)
+
+Schemas were largely stable between Day 100 and Day 170. The following **new source values**
+appeared and are handled by `build_dataset.py` (see `CHANGELOG.md`); the v1.1 classifiers
+already handled everything else. Record counts are illustrative of growth.
+
+- **strikes-retaliation.json** — one new `type`, `houthi_proxy_attack` (Houthi USV/missile
+  strikes on Red Sea shipping) → `RETALIATION` / `maritime_attack` (added to
+  `RET_TYPE_DOMAIN` / `RET_TYPE_EVENTTYPE`). ~227 location records; 18 carry `verified=false`.
+- **strikes-iran.json** — new fields `notes_addendum` (folded into `strike_notes`),
+  `days_since_last_incident`, and a `type` value `israeli_strike` (still coded `STRIKE`; the
+  initiating actor comes from the `actor` field, all values covered by the actor map).
+  ~129 location records.
+- **infrastructure.json** — a new 8th category, "Water/Desalination Facilities Struck",
+  mapped to a new `infrastructure_target_type` = `water_infrastructure`.
+- **carriers.json** — two new `type` tokens, `mine_countermeasures` and
+  `unmanned_surface_vessel`, added as explicit branches in `normalize_naval_type()`.
+  ~21 records.
+- **timeline-events.json** — ~98 distinct `category` values (up from ~95); all resolve under
+  the existing keyword classifier. Residual `OTHER` = 35 daily `summary` records + 3
+  documented singletons. ~1,050 records.
+- **historical-comparison.json** — the "Iran 2026" label self-updates to "(Day 170)";
+  comparison labels now describe each conflict's campaign window (e.g. "Iraq 2003 (43-day
+  major combat phase)"). Still 5 conflicts.
+- **hormuz.json** — `day_NN_events` narratives span day_22–day_45 (dashboard stopped adding
+  daily Hormuz narratives after Day 45); extracted generically regardless.
+- **casualties.json** — still exactly 5 factions (170 daily points each). **markets.json** —
+  still 4 sectors. **hero-stats.json** — no new history fields (max war_day 170).
+
+---
+
 ## Update Log — v1.1 (Day 100, 2026-06-07)
 
 The per-file schemas below were documented at Day 30. By Day 100 the following **schema
