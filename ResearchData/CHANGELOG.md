@@ -7,6 +7,92 @@ snapshot. Dataset versions are independent of the dashboard's daily update caden
 
 ---
 
+## v1.2 — 2026-08-17 (data through Day 170, 2026-08-16)
+
+**Summary.** Second scheduled extension. Rebuilds the dataset over the full Day 1–170
+window (~70 additional days beyond v1.1). Source schemas were largely stable since Day 100:
+the v1.1 classifiers already handle the great majority of the new records correctly. This
+release adds four small, surgical refinements so that source values which first appeared
+after Day 100 are coded correctly rather than dropped into fallback buckets. Relative to a
+naive re-run of the v1.1 script on the Day-170 data, v1.2 changes exactly **30 cells**
+(2 `event_type`, 1 `infrastructure_target_type`, 27 `strike_notes`); everything else is
+byte-identical. v1.0 and v1.1 are preserved unchanged in `releases/`.
+
+### Headline numbers
+| | v1.1 | v1.2 |
+|---|---|---|
+| Rows | 3,587 | 4,612 |
+| Columns | 52 | 52 |
+| Coverage | Day 0–100 | Day 0–170 |
+| Date range | 2026-01-02 → 2026-06-07 | 2026-01-02 → 2026-08-16 |
+| event_type values | 44 | 46 |
+
+### Source growth (records extracted)
+timeline-events 937→1,050 · strikes-iran 735→902 · strikes-retaliation 421→480 ·
+casualties 500→850 · markets 312→398 · war-costs 203→303 · oil-prices 178→275 ·
+hero-stats 101→126 · briefings 94→107 · global-bases 15→25 · carriers 17→21 ·
+infrastructure 7→8 · hormuz 34→34 · historical-comparison 5→5 · baselines 28→28.
+
+### Row deltas by domain
+FINANCIAL 879→1,178 (+299) · STRIKE 790→967 (+177) · HUMANITARIAN 561→915 (+354) ·
+RETALIATION 551→622 (+71) · DIPLOMATIC 361→414 (+53) · OTHER 238→276 (+38) ·
+MILITARY 123→152 (+29) · NAVAL 80→84 (+4) · CYBER 4→4 (+0).
+
+### Added
+- **No new columns** (schema stable at 52; v1.0/v1.1 column names and order preserved).
+- **2 new `event_type` values** — `mine_countermeasures` and `unmanned_surface_vessel` —
+  for two naval asset classes that entered `carriers.json` after Day 100. Added as explicit
+  branches in `normalize_naval_type()` (the prior regex fallback already produced the same
+  tokens, so this is a documentation/robustness change with no output delta).
+- **New `infrastructure_target_type` value `water_infrastructure`** for the new
+  `infrastructure.json` category "Water/Desalination Facilities Struck" (1 row that a naive
+  re-run left as `other`). Parallels the existing `power_grid` / `oil_infrastructure` utility
+  categories.
+
+### Changed — classification (the substantive work)
+- **Retaliation type `houthi_proxy_attack`** (new after Day 100: Houthi USV/missile strikes
+  on Red Sea shipping, e.g. off Bab al-Mandeb and against a Saudi-aligned tanker) is now
+  explicitly coded `RETALIATION` / `maritime_attack` (2 rows). Previously it fell to the
+  token/weapon fallback, which returned `RETALIATION` / `missile_attack`; the domain was
+  already correct, and this fixes the `event_type` to match the established
+  `drone_strike_on_commercial_vessel` → `maritime_attack` convention.
+- **`strikes-iran.json` `notes_addendum`** (new field after Day 100) is folded into
+  `strike_notes`, alongside the existing `platform` / `outcome` handling, so no source text
+  is discarded (Manuscript §3.1). Affects the 27 exploded rows of the `kharg-island` record
+  (a Day-72 oil-spill addendum).
+- **Codebook notes** refreshed: `day_of_conflict` now states "v1.2 covers Day 0-170";
+  `strike_verified` now states "18 of 227 retaliation locations are unverified";
+  `infrastructure_target_type` valid-values note lists `water_infrastructure`.
+- **Codebook enumeration cap** raised (40 → 80) so every categorical's `valid_values` is
+  listed in full — `event_type` now has 46 values and the codebook's own note promises the
+  full list. Codebook-only change; the dataset CSV is byte-identical (same MD5).
+
+### Not changed (verified stable)
+- **Casualty factions** remain exactly 5 (iranian_military, iranian_civilian, us_military,
+  lebanese, israeli_military) despite continued Houthi/Red Sea involvement. **Market sectors**
+  remain 4 (handled dynamically regardless). **hero-stats** history carries no new fields.
+- **Timeline categories** grew to 98 distinct values but all resolve correctly under the
+  existing `classify_timeline()` + `TIMELINE_DOMAIN_KEYWORDS`. The residual `OTHER` bucket is
+  38 rows: 35 intentional daily `summary` records + the 3 documented singletons
+  (`aviation_civil`, `us_iran_direct`, `regional_disruption`), unchanged from v1.1.
+- **As-of dating** is dynamic (`compute_as_of()`); cumulative/reference records
+  (infrastructure, Hormuz summaries, historical comparison) date to Day 170 / 2026-08-16.
+
+### Reproducibility
+- The frozen `releases/v1.2/source_snapshot_2026-08-17_Day1-170.zip` regenerates the v1.2
+  CSV and codebook **byte-for-byte** (verified; identical MD5). The daily snapshot in
+  `snapshots/` was taken at a slightly different moment than extraction, so the frozen
+  snapshot is built from the exact `public/data/` bytes used for the build.
+
+### Notes for the next monthly maintainer
+- New retaliation `type` / timeline `category` / infrastructure category / naval `type`
+  values: extend `RET_TYPE_*`, `TIMELINE_DOMAIN_KEYWORDS`, `infra_type_map`, or
+  `normalize_naval_type()` respectively (see `AGENT_PROTOCOL.md`).
+- Watch `casualties.json` for new factions and `markets.json` for new sectors.
+- `event_id` renumbers each build; it is not a stable cross-version key.
+
+---
+
 ## v1.1 — 2026-06-09 (data through Day 100, 2026-06-07)
 
 **Summary.** First scheduled extension after v1.0. Rebuilds the dataset over the full
