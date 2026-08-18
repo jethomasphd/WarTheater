@@ -1,0 +1,9 @@
+ordering,variable,shock_source,fevd_h1,fevd_h6,fevd_h12
+strikes -> retal,strikes,strikes,1.0,0.978,0.978
+strikes -> retal,strikes,retal,0.0,0.022,0.022
+strikes -> retal,retal,strikes,0.385,0.408,0.408
+strikes -> retal,retal,retal,0.615,0.592,0.592
+retal -> strikes,retal,retal,1.0,0.998,0.998
+retal -> strikes,retal,strikes,0.0,0.002,0.002
+retal -> strikes,strikes,retal,0.385,0.437,0.437
+retal -> strikes,strikes,strikes,0.615,0.563,0.563

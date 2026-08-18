@@ -1,0 +1,15 @@
+sample,family,term,coef,IRR,p_value
+combat 1-40,NegBin(alpha=1),strikes_L0,0.0086,1.009,0.8901
+combat 1-40,NegBin(alpha=1),strikes_L1,0.0369,1.038,0.5156
+combat 1-40,NegBin(alpha=1),strikes_L2,-0.0106,0.989,0.8594
+combat 1-40,NegBin(alpha=1),retal_L0,0.0018,1.002,0.9777
+combat 1-40,NegBin(alpha=1),retal_L1,-0.0101,0.99,0.8734
+combat 1-40,NegBin(alpha=1),retal_L2,-0.0064,0.994,0.9248
+combat 1-40,NegBin(alpha=1),killed_L1,0.0059,1.006,0.187
+full 1-170,NegBin(alpha=1),strikes_L0,-0.0204,0.98,0.6485
+full 1-170,NegBin(alpha=1),strikes_L1,0.0923,1.097,0.0396
+full 1-170,NegBin(alpha=1),strikes_L2,-0.1825,0.833,0.0
+full 1-170,NegBin(alpha=1),retal_L0,0.0391,1.04,0.367
+full 1-170,NegBin(alpha=1),retal_L1,0.1166,1.124,0.008
+full 1-170,NegBin(alpha=1),retal_L2,-0.0023,0.998,0.9576
+full 1-170,NegBin(alpha=1),killed_L1,0.0195,1.02,0.0

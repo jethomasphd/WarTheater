@@ -1,0 +1,5 @@
+sample,lag,direction,F,df,p_value,granger_causal_05
+combat (1-40),1,strikes -> retal,0.081,"(1, 72)",0.7765,False
+combat (1-40),1,retal -> strikes,0.601,"(1, 72)",0.4409,False
+full (1-170),9,strikes -> retal,1.142,"(9, 284)",0.3327,False
+full (1-170),9,retal -> strikes,4.05,"(9, 284)",0.0001,True
