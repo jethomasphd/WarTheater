@@ -1,0 +1,18 @@
+day,source,scope,value,event_id,anchor_text
+7,Iranian Red Crescent / state media,civilian,400,EVT-0043,over 400 civilian deaths
+15,Iran Health Ministry,total,1444,EVT-0094,"1,444 killed"
+20,Hengaw (5th report),total,5300,EVT-0157,"5,300 killed"
+20,Hengaw (5th report),civilian,511,EVT-0157,511 civilians
+20,Hengaw (5th report),children,120,EVT-0157,120
+29,Iran deputy UN representative,total,1750,EVT-0287,"1,750"
+29,HRANA (as of Mar 17),total,3114,EVT-0287,"3,114 deaths"
+29,HRANA (as of Mar 17),civilian,1354,EVT-0287,"1,354 civilians"
+29,HRANA (as of Mar 17),children,217,EVT-0287,217 children
+45,Iran Health Ministry,total,2000,EVT-0455,"~2,000+ killed"
+45,HRANA (Apr 7),total,3636,EVT-0455,"3,636 total"
+45,HRANA (Apr 7),civilian,1701,EVT-0455,"1,701 civilians"
+45,Hengaw (Apr 8),total,7650,EVT-0455,"7,650 total"
+45,Hengaw (Apr 8),civilian,1030,EVT-0455,"1,030 civilians"
+45,IDF claim,military,6000,EVT-0455,"6,000+ IRGC killed"
+53,Iran Legal Medicine Organization,total,3375,EVT-0521,"3,375 killed"
+53,Iran Legal Medicine Organization,children,383,EVT-0521,383 children

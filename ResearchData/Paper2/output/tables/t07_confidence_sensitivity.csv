@@ -1,0 +1,16 @@
+variant,term,coef,se_hac,p,sig
+all,const,-1.13837,0.36519,0.00183,**
+all,strikes_milfac,-0.47118,0.36527,0.19707,
+all,strikes_civfac,2.07141,0.37308,0.0,***
+all,retal,0.89414,0.25979,0.00058,***
+all,_R2,0.6519,,,
+high_only,const,-1.1071,0.36746,0.00259,**
+high_only,strikes_milfac,-0.55637,0.53176,0.29543,
+high_only,strikes_civfac,1.59527,1.18233,0.17725,
+high_only,retal,1.23093,0.2797,1e-05,***
+high_only,_R2,0.58389,,,
+weighted,const,-1.1594,0.36419,0.00145,**
+weighted,strikes_milfac,-0.57315,0.39424,0.14599,
+weighted,strikes_civfac,2.35595,0.51513,0.0,***
+weighted,retal,0.97301,0.26797,0.00028,***
+weighted,_R2,0.64746,,,

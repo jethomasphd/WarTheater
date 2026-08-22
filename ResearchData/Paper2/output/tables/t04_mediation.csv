@@ -1,0 +1,5 @@
+sample,outcome,n_days,a_X_to_M,b_M_to_Y,c_total,c_prime_direct,indirect_ab,boot_ci_lo,boot_ci_hi,boot_significant,sobel_z,sobel_p,prop_mediated,n_boot,seed
+full,iran_civ,170,0.33014,3.07378,1.49697,0.48219,1.01479,0.59802,1.83744,True,6.60272,0.0,0.67789,10000,42
+major_combat,iran_civ,40,0.07535,1.73122,0.15175,0.02129,0.13045,-0.02932,0.67692,False,0.93353,0.35055,0.85967,10000,42
+full,killed_total,170,0.33014,20.25466,13.28908,6.60215,6.68694,3.92251,11.81641,True,5.70412,0.0,0.50319,10000,42
+major_combat,killed_total,40,0.07535,4.44195,1.6657,1.33098,0.33472,-0.71085,2.52517,False,0.68849,0.49114,0.20095,10000,42
