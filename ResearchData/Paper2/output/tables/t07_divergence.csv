@@ -1,0 +1,7 @@
+day,scope,n_sources,min_value,min_source,max_value,max_source,divergence_ratio
+29,total,2,1750,Iran deputy UN representative,3114,HRANA (as of Mar 17),1.779
+45,total,3,2000,Iran Health Ministry,7650,Hengaw (Apr 8),3.825
+45,civilian,2,1030,Hengaw (Apr 8),1701,HRANA (Apr 7),1.651
+170,dataset-internal (Iran),2,3166,daily series (sum),3636,dashboard snapshot,1.148
+170,dataset-internal (Lebanon),2,2993,daily series (sum),4308,dashboard snapshot,1.439
+57,dashboard re-anchoring (Iran),2,3375,post-re-anchor (LMO-aligned),9226,pre-re-anchor peak (Day 56),2.734

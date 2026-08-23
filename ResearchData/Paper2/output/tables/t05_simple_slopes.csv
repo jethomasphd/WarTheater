@@ -1,0 +1,17 @@
+moderator,sample,at_W,W_centered,slope,se,t,p,sig
+hssi_pct,full,-1SD,-31.35423,0.45223,0.26205,1.72573,0.08626,
+hssi_pct,full,mean,0.0,0.63611,0.25636,2.48137,0.01408,*
+hssi_pct,full,+1SD,31.35423,0.82,0.36351,2.25576,0.02539,*
+hssi_pct,full,JN_boundary,,,,,,crossing near W_c = [-24.57]
+hssi_pct,kinetic_days,-1SD,-32.7649,0.41127,0.26925,1.52749,0.129,
+hssi_pct,kinetic_days,mean,0.0,0.68038,0.26925,2.52697,0.01267,*
+hssi_pct,kinetic_days,+1SD,32.7649,0.94949,0.39881,2.38082,0.01868,*
+hssi_pct,kinetic_days,JN_boundary,,,,,,crossing near W_c = [-22.37]
+facil_damage_pct,full,-1SD,-30.65884,0.18195,0.23472,0.77519,0.43933,
+facil_damage_pct,full,mean,0.0,0.62635,0.27691,2.26196,0.025,*
+facil_damage_pct,full,+1SD,30.65884,1.07075,0.3878,2.7611,0.00641,**
+facil_damage_pct,full,JN_boundary,,,,,,crossing near W_c = [-8.31]
+facil_damage_pct,kinetic_days,-1SD,-33.14801,0.10703,0.23997,0.44601,0.65631,
+facil_damage_pct,kinetic_days,mean,0.0,0.59668,0.27387,2.17874,0.0311,*
+facil_damage_pct,kinetic_days,+1SD,33.14801,1.08634,0.3931,2.76354,0.00652,**
+facil_damage_pct,kinetic_days,JN_boundary,,,,,,crossing near W_c = [-5.54]

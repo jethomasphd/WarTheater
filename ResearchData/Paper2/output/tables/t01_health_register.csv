@@ -1,0 +1,22 @@
+event_id,day_of_conflict,date,health_category,data_confidence,event_description
+EVT-1564,3,2026-03-02,facility_attack,MEDIUM,"Tehran: Gandhi Hospital (damaged by nearby strike on state TV tower, Mar 2 — IVF department destroyed)"
+EVT-0060,11,2026-03-10,wash_disruption,HIGH,"Iranian infrastructure damage assessment — power, water, fuel: The ICRC reports significant damage to Iranian civilian infrastructure including power generation"
+EVT-0077,13,2026-03-12,facility_attack,HIGH,"Iranian state media claims hospital hit in Ahvaz: Iranian state television broadcasts footage of a damaged hospital in Ahvaz, claiming a US airstrike struck the"
+EVT-2185,26,2026-03-25,facility_attack,HIGH,"Habbaniyah, Anbar Province, Iraq: US strike — 7 Iraqi soldiers killed, 13 wounded in Habbaniyah Military Clinic strike."
+EVT-0294,30,2026-03-29,workforce_harm,HIGH,"IDF strikes ~170 Hezbollah sites — 800+ Hezbollah killed — 3 journalists and 9 paramedics killed: IDF struck approximately 170 Hezbollah sites over the weekend,"
+EVT-0303,31,2026-03-30,wash_disruption,HIGH,"Iran strikes chemical plant, Haifa refinery, Kuwait water plant: Iran struck a chemical plant in Ne'ot Hovav (Israel), an oil refinery in Haifa, and a water/ele"
+EVT-0324,33,2026-04-01,workforce_harm,HIGH,"Israel strikes Tofigh Daru pharmaceutical factory — 10 nurses killed: Israel struck the Tofigh Daru pharmaceutical factory in Tehran, claiming the plant supplie"
+EVT-1769,33,2026-04-01,wash_disruption,MEDIUM,Qeshm Island: Qeshm Island desalination plant
+EVT-1770,34,2026-04-02,facility_attack,MEDIUM,Tehran: Century-old medical research center
+EVT-1773,34,2026-04-02,supply_disruption,HIGH,Tehran (bridge near capital): Pharmaceutical facilities
+EVT-2282,37,2026-04-05,wash_disruption,HIGH,"Multiple Gulf States (Kuwait, Qatar, UAE, Saudi Arabia, Bahrain): Cruise missiles and drones — Fires at Borouge petrochemicals UAE (interceptor debris); GPIC an"
+EVT-0452,45,2026-04-13,workforce_harm,HIGH,"IDF captures Bint Jbeil — 100+ Hezbollah killed — Red Cross paramedic killed by drone: The IDF reports it is close to capturing Bint Jbeil, Hezbollah's historic"
+EVT-0457,45,2026-04-13,access_disruption,HIGH,Humanitarian access collapsing — WHO Dubai hub ON HOLD: Humanitarian access is collapsing. WHO's Dubai logistics hub — the global health emergency hub — is on h
+EVT-0464,46,2026-04-14,facility_attack,HIGH,Battle of Bint Jbeil Day 5-6 — IDF 98th Division within 300-400m of stadium: The Battle of Bint Jbeil continued for a fifth-sixth day. The IDF 98th Division app
+EVT-0506,51,2026-04-19,workforce_harm,HIGH,"Lebanon Sunday: ≥35 killed including Red Cross paramedic during 10-day truce: At least 35 people were killed in Lebanon on Sunday, Apr 19, including a Lebanese "
+EVT-0548,55,2026-04-23,access_disruption,HIGH,Iranian Red Crescent: US-seized cargo ship was carrying 'lifesaving medical supplies': The Iranian Red Crescent issued a statement on Apr 23 claiming that a car
+EVT-0633,62,2026-04-30,workforce_harm,HIGH,"Lebanon 'Black Wednesday' — 28 killed in southern Lebanon Israeli strikes: Israeli airstrikes across southern Lebanon killed at least 28 people in 24h, includin"
+EVT-0726,73,2026-05-11,workforce_harm,HIGH,"IDF orders evacuation of Deir al-Zahrani, Jarjouh, Sajjad (Jezzine district): IDF Arabic-language spokesman Avichay Adraee posted evacuation orders on X for the"
+EVT-0909,94,2026-06-01,facility_attack,HIGH,"Israeli strike near Tyre hospital; UN 'deeply alarmed,' WFP warns of emergency: An Israeli strike hit near a hospital in Tyre on June 1. The UN said it was 'dee"
+EVT-1019,140,2026-07-17,wash_disruption,HIGH,Iran sets two Kuwaiti power-and-desalination plants ablaze: Iranian Shahed drones and missiles struck two Kuwaiti power-and-desalination plants near Mina Abdull
+EVT-1854,140,2026-07-17,wash_disruption,MEDIUM,"Jask, Hormozgan: Bonji desalination plant intake station"

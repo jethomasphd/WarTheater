@@ -1,0 +1,6 @@
+event_id,day,event,population_exposure,in_insult_register
+EVT-3311,140,Bonji (Jask) desalination plant intake station destroyed,"~10,000 people across 20 villages lost drinking water (Iran, Hormozgan)",False
+EVT-1019,140,"Two Kuwaiti power-and-desalination plants struck, ablaze",Kuwait relies on desalination for ~90% of potable water,True
+EVT-1769,33,Qeshm Island desalination plant struck (Days 33-34),Island population depends on desalinated supply,True
+EVT-0303,31,Kuwait water/electrical plant struck,First strike on Gulf water infrastructure,True
+EVT-0060,11,ICRC: 30-40% of Iranian power generation degraded,"Nationwide power, water and fuel systems degraded (ICRC assessment)",True
