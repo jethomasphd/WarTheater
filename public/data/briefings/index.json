@@ -747,5 +747,12 @@
         "label": "AUGUST 16, 2026 — DAY 170",
         "headline": "Strike pause holds a 2nd week; 2 ADNOC tankers drone-struck in Hormuz; talks stall as Trump claims the strait as 'US territory'; oil +5-6% (Brent $88.52); Navy pulls its last Asia carrier to relieve USS Lincoln",
         "file": "data/briefings/day-170.html"
+    },
+    {
+        "day": 178,
+        "date": "2026-08-24",
+        "label": "AUGUST 24, 2026 — DAY 178",
+        "headline": "Strike pause hits its 24th night as Trump declares 'economic D-Day' and calls Hormuz 'US territory'; Bessent unveils the sanctions offensive; USS George Washington relieves the Lincoln after a record 241-day deployment; fatal Hormuz tanker strike",
+        "file": "data/briefings/day-178.html"
     }
 ]
