@@ -117,7 +117,12 @@
     "Aug 11",
     "Aug 12",
     "Aug 13",
-    "Aug 14"
+    "Aug 14",
+    "Aug 17",
+    "Aug 18",
+    "Aug 19",
+    "Aug 20",
+    "Aug 21"
   ],
   "contexts": [
     "Pre-war close — baseline",
@@ -237,7 +242,12 @@
     "Day 165 (August 11, Tuesday) — Second modest drop from the record: S&P 7,728.20 (-0.32%), Nasdaq 26,445.45 (-0.6%); On Holding -20%. Oil +6% on week as Iran hardens Hormuz terms.",
     "Day 166 (August 12, Wednesday) — In-line July CPI eases Fed-hike fears: S&P +0.26% to 7,748.50; Nasdaq 26,588.49.",
     "Day 167 (August 13, Thursday) — RECORD: S&P clears 7,800 for the first time, closing 7,798.99 (+0.65%), 27th record of 2026; Nasdaq 26,803.03; Dow 53,839.99. Oil eases on Wright's 9M bpd claim.",
-    "Day 168 (August 14, Friday) — Slips from record on weak July retail sales (-0.6%) and soft UMich sentiment (51.0): S&P 7,785.76 (-0.17%), Nasdaq 26,729.16, Dow 53,732.41 — still a 3rd straight weekly gain. Oil +~5-6% on week."
+    "Day 168 (August 14, Friday) — Slips from record on weak July retail sales (-0.6%) and soft UMich sentiment (51.0): S&P 7,785.76 (-0.17%), Nasdaq 26,729.16, Dow 53,732.41 — still a 3rd straight weekly gain. Oil +~5-6% on week.",
+    "Day 171 (August 17, Monday) — Risk-off as the 60-day MOU window expires with no deal and Trump threatens to bomb Oman over Hormuz: S&P 7,745.06 (-0.52%), Dow 53,459.78 (-272.63), Nasdaq 26,644.91 (-0.32%). Brent ~$91.",
+    "Day 172 (August 18, Tuesday) — Trump posts that no talks are underway or scheduled; UAE reports two ballistic missiles from Iran and suspends all trade with Tehran; a bulk carrier is struck fatally exiting Hormuz. S&P 7,691.76 (-0.69%), Dow 53,343.40 (-0.22%), Nasdaq 26,289.71 (-1.33%). Brent ~$92.42.",
+    "Day 173 (August 19, Wednesday) — Trump declares an 'ECONOMIC D-DAY' against Iran — 'the most crushing economic operation ever taken against any country' — warning any nation offering Tehran a lifeline faces 'tremendous economic consequences.' Brent tops $93 and WTI settles at a 4-week high, but equities steady: S&P 7,707.98 (+0.21%), Dow 53,463.05 (+0.22%), Nasdaq 26,331.09 (+0.16%).",
+    "Day 174 (August 20, Thursday) — Dow drops 703.84 points (-1.32%) to 52,759.21 as Walmart slides ~9% on a US sales miss; Bessent tells CNBC the US will impose the 'toughest sanctions in history' to collapse the Tehran regime and that there will 'likely' be no large-scale kinetic restart. S&P 7,641.16 (-0.87%), Nasdaq 26,067.17 (-1.00%). Brent peaks ~$95.40.",
+    "Day 175 (August 21, Friday) — Rebound into the weekend: Dow +517.80 (+0.98%) to 53,277.01, S&P 7,674.37 (+0.43%), Nasdaq 26,180.46 (+0.43%). Still a losing week — S&P -1.4%, Nasdaq -2%, Dow -0.8%, snapping a three-week win streak and leaving the S&P 1.6% below its Aug 13 record close of 7,816.70. Brent settles $94.39 (+0.65%) and WTI $87.06 (+0.26%), both up ~6% on the week. Macro backdrop: the 30-year Treasury yield hit ~5.3%, near a 19-year high, and gross federal debt passed $40 trillion. SECTORS: oil majors banked outsized profits — Global Witness reports the 'big five' (BP, Shell, TotalEnergies, ExxonMobil, Chevron) recorded $48 billion of profit in Q2 2026, their most lucrative quarter since the 2022 energy crisis and the equivalent of $535 million every day between April and June; defense names remain elevated; airlines are pressured by jet-fuel costs. NOTE: Aug 24 (Day 178) closes are NOT yet confirmed and are deliberately omitted — intraday the Dow was the lone gainer (~+0.2%) while the S&P (~-0.3%) and Nasdaq (~-0.6/0.8%) slipped on a chip selloff (Micron, SanDisk, Seagate) ahead of Nvidia earnings and Jackson Hole."
   ],
   "datasets": {
     "sp500": {
@@ -360,7 +370,12 @@
         111.43,
         111.72,
         112.45,
-        112.26
+        112.26,
+        111.67,
+        110.9,
+        111.14,
+        110.18,
+        110.65
       ],
       "color": "#ef4444"
     },
@@ -461,6 +476,11 @@
         117.0,
         117.5,
         118.5,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -608,6 +628,11 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#d4a020"
@@ -732,10 +757,15 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-08-16"
+  "last_updated": "2026-08-24"
 }

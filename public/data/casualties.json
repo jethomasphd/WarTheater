@@ -169,7 +169,15 @@
     "Aug 13",
     "Aug 14",
     "Aug 15",
-    "Aug 16"
+    "Aug 16",
+    "Aug 17",
+    "Aug 18",
+    "Aug 19",
+    "Aug 20",
+    "Aug 21",
+    "Aug 22",
+    "Aug 23",
+    "Aug 24"
   ],
   "day_contexts": [
     "Day 1 — First strikes, Minab school (165+ killed), Iranian retaliation",
@@ -341,7 +349,15 @@
     "Day 167 (August 13, Thursday) — No new deaths on any tracked national line during the strike pause; the front was maritime (tanker attacks, 0 crew deaths in-window) and diplomatic.",
     "Day 168 (August 14, Friday) — No new deaths on any tracked national line during the strike pause; the front was maritime (tanker attacks, 0 crew deaths in-window) and diplomatic.",
     "Day 169 (August 15, Saturday) — Israeli strikes on south Lebanon killed at least 11 (incl. 3+ children) and wounded 19 (Lebanese Health Ministry). Hezbollah drone attacks the same window seriously wounded 3 Israeli troops (no IDF KIA).",
-    "Day 170 (August 16, Sunday) — No new confirmed toll beyond Aug 15; Israel named a killed Hezbollah commander and warned of continued strikes."
+    "Day 170 (August 16, Sunday) — No new confirmed toll beyond Aug 15; Israel named a killed Hezbollah commander and warned of continued strikes.",
+    "Day 171 (August 17, Monday) — No new deaths on any tracked national line. The 60-day US-Iran MOU window expired with no deal; the US strike pause on Iranian territory held into its third week.",
+    "Day 172 (August 18, Tuesday) — No new deaths on any tracked national line, but the first shipping fatality of the window: one crew member was killed when the Liberia-flagged bulk carrier Minoan Dignity was struck by an unknown projectile exiting the Strait of Hormuz off Limah, Oman (UKMTO Warning 115-26). Civilian seafarer deaths are tracked in hormuz.json, not on a national line here. The UAE reported two ballistic missiles from Iran (Iran denied; no casualties).",
+    "Day 173 (August 19, Wednesday) — No new deaths on any tracked national line. Trump declared an 'economic D-Day' against Iran; the escalation was financial, not kinetic.",
+    "Day 174 (August 20, Thursday) — No new deaths on any tracked national line. Treasury Secretary Bessent said maximum economic pressure meant there would 'likely' be no large-scale kinetic restart.",
+    "Day 175 (August 21, Friday) — No new deaths on any tracked national line. The Pentagon's DCAS wounded total was revised to ~775 via Stars and Stripes (up from 687), combining Operation Epic Fury with the new 'Overseas Operations' category; independent tallies still put the true wounded figure above 900, and GlobalSecurity's Day 177 dashboard still cites 687 'as updated 4 August.' The DCAS accounting dispute is unresolved — wounded are not plotted on this chart, which tracks deaths only.",
+    "Day 176 (August 22, Saturday) — Israeli strikes on Nabatiyeh and south Lebanon killed a further number of Lebanese; the Lebanese Health Ministry did not itemise the toll, and reporting from Bayt al-Sayyad described 'no house undamaged' with phosphorus munitions reported (Lebanon NNA). The +11 plotted here is DERIVED by reconciling the manifest's revised cumulative (~4,319) against the 4,308 previously carried — it is NOT an itemised Health Ministry count and should be replaced when a dated figure is published. Lebanon remains a parallel front, decoupled from the Iran strike pause.",
+    "Day 177 (August 23, Sunday) — No new deaths on any tracked national line. A fourth consecutive night with zero Iranian ballistic-missile launches against any Gulf state, and a fifth with no Iran or proxy drone attack on Gulf, Iraqi or Israeli targets (GlobalSecurity OPREP Day 177).",
+    "Day 178 (August 24, Monday) — No new deaths on any tracked national line. STANDING RANGES, published with attribution rather than merged: Iranian dead — HRANA 3,636 (1,701 civilian including at least 254 children, 1,221 military, 714 unclassified), Iran's Foundation of Martyrs 3,468, Al Jazeera's Aug 12 compilation at least 3,527, US/Israeli estimates 6,000+. US — 18 KIA (unchanged; the most recent death was July 18 at Erbil, Iraq, in a controlled detonation of a downed Iranian drone) and ~775 WIA per DCAS, against independent tallies above 900. Israeli — at least 32 IDF KIA and at least 60 total deaths including civilians from Iranian and Hezbollah attacks (Al Jazeera, Aug 12). Lebanese — at least 4,300 since Mar 2 per the Lebanese Health Ministry, ~4,319 including the Aug 15 and Aug 22 strikes. Iraqi — ~119+, unchanged in-window. TRACKED SEPARATELY, not war deaths: at least 901 people have been executed in Iran since January 2026, 28 of them in August (Abdorrahman Boroumand Center)."
   ],
   "datasets": {
     "iranian_military": {
@@ -499,6 +515,14 @@
         0,
         0,
         3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -692,6 +716,14 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffffff"
@@ -840,6 +872,14 @@
         0,
         3,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -1044,6 +1084,14 @@
         0,
         0,
         11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        11,
+        0,
         0
       ],
       "color": "#7b3fa0"
@@ -1220,10 +1268,18 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffc832"
     }
   },
-  "last_updated": "2026-08-16"
+  "last_updated": "2026-08-24"
 }

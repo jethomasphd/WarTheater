@@ -1,47 +1,47 @@
 {
-  "last_updated": "2026-08-16",
-  "war_day": 170,
-  "timestamp_label": "LAST UPDATED: AUG 16, 2026 11:15 ET",
+  "last_updated": "2026-08-24",
+  "war_day": 178,
+  "timestamp_label": "LAST UPDATED: AUG 24, 2026 13:49 ET",
   "cost": {
     "brent": {
-      "price": 88.52,
-      "label": "Brent crude - $88.52 (Fri Aug 14 ICE settle, +1.67%; +5.7% wk)",
-      "change": "▲ Brent settled $88.52 Fri Aug 14 (ICE, +1.67% / +$1.45), up ~5.7% on the week. Rose on US economic-pressure signals (Bessent 'economic isolation'; Hegseth indefinite blockade) and renewed ADNOC tanker attacks, even as Iran-Oman talks stayed deadlocked. Weekend hold (no Sat/Sun trading). ~25% above the $71.00 Feb 27 baseline.",
-      "tooltip": "International benchmark. Reversed higher this week after a Wed-Thu dip, as hopes for a Hormuz-reopening deal faded and Washington escalated economic pressure on Tehran."
+      "price": 94.39,
+      "label": "Brent crude - $94.39 (Fri Aug 21 ICE settle, +0.65%; +~6% wk)",
+      "change": "▲ Brent settled $94.39 Fri Aug 21 (ICE, +0.65% / +$0.61), a second straight weekly gain of about 6%. Aug 24 traded ~$93.10 intraday (-1.13%) ahead of the Treasury sanctions rollout. Weekend hold Aug 22-23 (no trading). ~33% above the $71.00 Feb 27 baseline, vs ~$66 immediately pre-war and a March peak of ~$119.11.",
+      "tooltip": "International benchmark. Front-month ICE settle, Fri Aug 21 2026 (Reuters/CNBC). The gain reflects a sanctions and geopolitical risk premium — Trump's 'economic D-Day' and Bessent's sanctions package — rather than any new physical supply loss. DISCREPANCY: a GlobalSecurity secondary carried $93.40/$93.82 for Aug 21; the Reuters/CNBC settle is used here."
     },
     "wti": {
-      "price": 82.4,
-      "label": "WTI crude - $82.40 (Fri Aug 14 NYMEX settle, +1.42%; +5% wk)",
-      "change": "▲ WTI settled $82.40 Fri Aug 14 (NYMEX Sept, +1.42% / +$1.15); +5% on the week. Both benchmarks dipped ~2% Thursday then rebounded Friday. ~24% above the $66.50 Feb 27 baseline. NOTE: Sept (CLU26) is now front month — do not treat as contract-continuous with the earlier August-contract series.",
-      "tooltip": "US benchmark. Tracked Brent's weekly gain on Hormuz risk and US pressure."
+      "price": 87.06,
+      "label": "WTI crude - $87.06 (Fri Aug 21 NYMEX settle, +0.26%; +~5.7% wk)",
+      "change": "▲ WTI settled $87.06 Fri Aug 21 (NYMEX, +0.26% / +$0.23), up ~5.7% on the week after touching a 4-week high Wednesday. Aug 24 traded ~$85.89 intraday (-1.60%), PROVISIONAL. ~31% above the $66.50 Feb 27 baseline.",
+      "tooltip": "US benchmark. NYMEX front-month settle, Fri Aug 21 2026. NOTE: after the September roll the front month is the Oct 2026 contract (CLV26) — do not treat the Aug 17-24 segment as contract-continuous with the earlier September-contract series."
     },
     "gas": {
-      "price": 4.08,
-      "label": "AAA national average, regular unleaded - $4.08 (Aug 14)",
-      "change": "◆ AAA national average $4.08 as of Aug 14 (via AP/TT), down slightly from ~$4.10 (Aug 3). ~92 cents/gal above a year ago. +$1.09 (+36.5%) vs the $2.99 Feb 28 baseline. Pump lags crude 2-3 weeks, so this week's crude rebound has not yet flowed through.",
-      "tooltip": "Diesel/gasoline futures rose sharply on the week (RBOB +~7%, ULSD +~10%), pointing to modest pump upside into late August if crude holds."
+      "price": 4.09,
+      "label": "AAA national average, regular unleaded - $4.09 (Aug 23)",
+      "change": "◆ AAA national average $4.09 as of Aug 23, easing from $4.11 on Aug 21. Up roughly $0.97-1.10 vs a year ago and +$1.10 (+36.8%) vs the $2.99 Feb 28 baseline. Pump prices lag crude by 2-3 weeks, so Brent's ~6% weekly gain has not yet fed through.",
+      "tooltip": "AAA national average for regular unleaded, up ~37% since the war began. State highs: California $5.59, Hawaii $5.43, Washington $5.24."
     },
     "sp500": {
-      "value": 7785.76,
-      "label": "S&P 500 - 7,785.76 (Fri Aug 14 close; record 7,798.99 set Aug 13)",
-      "change": "▲ S&P 500 closed 7,785.76 Fri Aug 14 (-0.17%), off Thursday's record 7,798.99 (first-ever close above 7,800; 27th record of 2026). Still a 3rd straight weekly gain. Friday's dip came on a weak July retail-sales print (-0.6%) and soft preliminary UMich consumer sentiment (51.0 vs 55.2). Nasdaq 26,729.16; Dow 53,732.41.",
-      "tooltip": "Rally cooled Friday but the index still logged its 3rd straight weekly gain, helped by in-line July CPI (Aug 12) and easing Fed-hike fears."
+      "value": 7674.37,
+      "label": "S&P 500 - 7,674.37 (Fri Aug 21 close, +0.43%; -1.4% wk)",
+      "change": "▲ S&P 500 closed 7,674.37 Fri Aug 21 (+0.43%), rebounding with the Dow's +517.80 after Thursday's 703.84-point drop. Still -1.4% on the week — the first losing week in four — and 1.6% below the Aug 13 record close of 7,816.70. Down from 7,785.76 on Aug 16. Aug 24 closes are NOT yet confirmed.",
+      "tooltip": "The index fell 1.4% on the week, snapping a three-week win streak, as Walmart's ~9% slide and a chip selloff compounded the war's risk premium. Markets now carry a compound risk: the war premium is layering onto a genuine bond-market stress event (30-year Treasury yield ~5.3%, near a 19-year high; gross federal debt past $40 trillion)."
     },
     "daily_cost": {
       "value": 500,
       "unit": "M/day",
       "label": "Estimated daily war cost",
-      "change": "HELD at ~$500M/day - maintained steady-state during the strike pause; naval blockade and carrier/escort ops continue with no strike sorties on Iran in-window.",
-      "tooltip": "HELD at ~$500M/day — the maintained steady-state during the strike pause (naval blockade + carrier/escort ops continue; no strike sorties on Iran in-window).",
+      "change": "HELD at ~$500M/day - the sustained-operations model, unchanged through the strike pause. The naval blockade, Hormuz escort mission and 20+ supporting warships continue, but no strike sorties have been flown against Iran since ~Aug 1.",
+      "tooltip": "CSIS senior adviser Mark Cancian estimated the campaign was costing the US 'about half a billion dollars every day' (Irish Times, Apr 7). NOTE: the strike pause since ~Aug 1 implies a lower 'standby' burn — CSIS assessed 'under $100 million/day' during the earlier ceasefire standby (Apr 30) — though the naval blockade continues. Figure held pending a Pentagon update.",
       "note": "METHOD CARRY-FORWARD, not a new sourced figure. No new AEI/CSIS daily estimate surfaced in-window; the $500M/day convention from Days 157-163 is extended."
     },
     "total_cost": {
-      "value": 41.0,
+      "value": 41.3,
       "unit": "B",
       "label": "Cumulative estimated war cost",
-      "change": "EXTRAPOLATED to ~$41.0B through Day 170 ($37.5B at Day 163 + 7 x $0.5B). Modeled, not a new sourced figure.",
-      "tooltip": "~$41.0B through Day 170.",
-      "note": "EXTRAPOLATED: $37.5B (Day 163) + 7 x $0.5B = $41.0B. Flag as modeled, not sourced."
+      "change": "~$41.3B on the independent phased tracker through Day 178 (militaryspend.org logged $40.80B at Day 176). Modeled/independent, not an official figure.",
+      "tooltip": "~$41.3B through Day 178 on the independent tracker. The Pentagon's official figure was $29B (Comptroller Hurst, May 12); the Penn Wharton Budget Model estimated $27-28B in direct costs over the first 32 days with a base-case two-month total of ~$42.5B; independent and economist estimates of the broader economic cost run $50-100B+.",
+      "note": "INDEPENDENT TRACKER: ~$41.3B at Day 178 (militaryspend.org $40.80B at Day 176). Flag as modeled/independent, not an official Pentagon figure."
     }
   },
   "history": [
@@ -2507,63 +2507,85 @@
       "flights_cancelled": 8000,
       "children_killed": 379,
       "headline": "Day 170 (August 16, Sunday) - TALKS STALL, TANKERS BURN, CARRIER LEAVES ASIA: The strike pause held a second full week (no US strikes on Iranian soil since ~Aug 1), but Hormuz stayed violent — Iran drone-struck two ADNOC tankers Aug 13 (no injuries; ADNOC ~15-17 vessels hit since Feb). Talks stalled: Trump vowed to make Hormuz 'US territory,' FM Araghchi said it 'cannot be seized with a tweet' and left resumption undecided; mediation widened to European players as Kushner toured the region. Bessent threatened 'economic isolation' of Iran; Hegseth floated an indefinite blockade. Oil rose ~5-6% on the week (Brent $88.52, WTI $82.40); the S&P hit a record 7,798.99 Thu before easing to 7,785.76 Fri (3rd weekly gain) on weak July retail sales. Israel killed at least 11 in south Lebanon Aug 15 (deadliest since June). The Navy pulled its last carrier from Asia — USS George Washington sailing to relieve the USS Lincoln (240+ days at sea)."
+    },
+    {
+      "date": "2026-08-24",
+      "war_day": 178,
+      "brent": 94.39,
+      "wti": 87.06,
+      "gas": 4.09,
+      "sp500": 7674.37,
+      "sp500_change_pct": 0.43,
+      "nasdaq": 26180.46,
+      "dow": 53277.01,
+      "daily_cost_millions": 500,
+      "total_cost_billions": 41.3,
+      "targets_struck": 35914,
+      "us_kia": 18,
+      "us_wia": 775,
+      "iranian_killed": 3636,
+      "lebanese_killed": 4319,
+      "displaced": 1200000,
+      "flights_cancelled": 8000,
+      "children_killed": 379,
+      "headline": "Day 178 (August 24, Monday) - THE WAR GOES FINANCIAL: The US strike pause on Iranian territory reached its 24th night as Washington swapped ordnance for sanctions. Trump declared an 'ECONOMIC D-DAY' on Aug 19 and called the Strait of Hormuz 'American territory' on Aug 22; Treasury Secretary Bessent promised the 'toughest sanctions in history,' said there would 'likely' be no large-scale kinetic restart, and unveiled what he called the single greatest financial offensive ever on Aug 24. The 60-day MOU window expired Aug 17 with no deal. At sea, USS George Washington arrived in CENTCOM Aug 19 and relieved USS Abraham Lincoln, which departed after a record 241+ consecutive days at sea - leaving no US carrier in the Pacific. The bulk carrier Minoan Dignity was struck exiting Hormuz Aug 18, killing one crew member. Brent settled $94.39 (+~6% on the week) and the S&P fell 1.4%, snapping a three-week win streak."
     }
   ],
   "toll": {
     "targets_struck": {
       "value": 35914,
       "label": "Cumulative targets struck (US+IL on Iran/proxies)",
-      "note": "Day 170: HELD at 35,914. No US strikes on Iranian territory Aug 9-16 (pause held a 2nd week). CENTCOM published no new cumulative. Do not increment.",
-      "tooltip": "Counter held during the strike pause. The only US kinetic posture in-window was maritime (blockade + vessel-escort expansion), not strikes on Iran.",
+      "note": "Day 178: HELD at 35,914. No US or Israeli strike on Iranian soil since ~Aug 1 — 24 consecutive nights by Aug 22-23. CENTCOM published no new cumulative. Do not increment.",
+      "tooltip": "Counter FROZEN during the 24-night strike pause. GlobalSecurity's standing reference is 'more than 300 Iranian sites struck since 7 July.' The campaign's pressure moved to Treasury sanctions in this window, not ordnance.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
       "value": 18,
-      "label": "US service-member KIA (Pentagon DCAS via CNN, Aug 4)",
-      "note": "Day 170: HELD at 18. No new US service-member deaths reported Aug 9-16.",
-      "tooltip": "No change in-window.",
+      "label": "US service-member KIA (Pentagon DCAS)",
+      "note": "Day 178: HELD at 18. No US military death reported Aug 17-24.",
+      "tooltip": "Per the Pentagon's Defense Casualty Analysis System. The most recent death was July 18 at Erbil, Iraq, in a controlled detonation of a downed Iranian drone.",
       "color": "var(--civilian)"
     },
     "us_wia": {
-      "value": 687,
-      "label": "US service-member WIA",
-      "note": "Day 170: HELD at 687. No new figure in-window.",
-      "tooltip": "No change in-window.",
+      "value": 775,
+      "label": "US service-member WIA (Pentagon DCAS via Stars and Stripes, Aug 21)",
+      "note": "Day 178: 687 -> ~775 (+~60 wounded added by the Pentagon; DCAS via Stars and Stripes, Aug 21). The DCAS figure now combines Operation Epic Fury with the newer 'Overseas Operations' category. DISCREPANCY, UNRESOLVED: independent tallies exceed 900, while GlobalSecurity's Day 177 dashboard still cites 687 per DCAS 'as updated 4 August.' 775 is used as the current official DCAS figure.",
+      "tooltip": "Pentagon DCAS total as reported by Stars and Stripes, Aug 21, combining Operation Epic Fury and 'Overseas Operations.' Independent tallies put the true figure above 900; the Pentagon's accounting change remains a live transparency dispute.",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
       "value": 3636,
       "label": "Iranian killed (cumulative, tracked line)",
-      "note": "Day 170: HELD at 3,636 - STALE. No US/Israeli strikes on Iran in-window and no new Iranian death reporting located. Flag as stale, do not invent movement.",
-      "tooltip": "No in-window Iranian casualty reporting during the pause.",
+      "note": "Day 178: HELD at 3,636 (HRANA total: 1,701 civilian including at least 254 children, 1,221 military, 714 unclassified). No new strike casualties in-window — the pause held. RANGE PUBLISHED WITH ATTRIBUTION, NOT MERGED: Iran's Foundation of Martyrs confirms 3,468; Al Jazeera's Aug 12 compilation at least 3,527; US/Israeli estimates 6,000+. Do not synthesize a single number.",
+      "tooltip": "HRANA's documented total. Competing counts: Foundation of Martyrs 3,468, Al Jazeera at least 3,527, US/Israel 6,000+. Tracked separately and NOT counted as war dead: at least 901 people have been executed in Iran since January 2026, 28 of them in August (Abdorrahman Boroumand Center).",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
-      "value": 4308,
+      "value": 4319,
       "label": "Lebanese killed (cumulative, all)",
-      "note": "Day 170: 4,297 -> ~4,308 (+11 from Israeli strikes in south Lebanon Aug 15, incl. 3+ children; Lebanese Health Ministry via Reuters/Al Jazeera). Reuters rounds the cumulative to 'at least 4,300 since Mar 2' - the +11 is within reporting noise; flag.",
-      "tooltip": "Aug 15 was the deadliest day in Lebanon since the June framework: strikes on Ansar (7 killed) and Deir ez-Zahrani (4 killed).",
+      "note": "Day 178: 4,308 -> ~4,319. The Lebanese Health Ministry reported at least 4,300 killed since Mar 2 (Reuters, Aug 15); further deaths followed in the Aug 22 Nabatiyeh and south Lebanon strikes, which the Ministry has not itemised. The +11 is DERIVED from reconciling the revised cumulative and should be replaced when a dated figure is published. Lebanon is a parallel front, decoupled from the Iran strike pause.",
+      "tooltip": "Lebanese Health Ministry cumulative since Mar 2. Israeli operations against Hezbollah continue independently of the Iran pause; strikes on Nabatiyeh and south Lebanon on Aug 22 reportedly left 'no house undamaged' at Bayt al-Sayyad, with phosphorus munitions reported (Lebanon NNA).",
       "color": "var(--hezbollah)"
     },
     "displaced": {
       "value": 1200000,
       "label": "Displaced (cumulative)",
-      "note": "Day 170: HELD at 1,200,000. No new quantified figure. LIKELY UNDERCOUNT - fresh south-Lebanon evacuations (columns of cars fleeing Sidon/south, Aug 15, AFP) are not yet quantified. Flag rather than estimate.",
-      "tooltip": "Figure held pending a new displacement estimate.",
+      "note": "Day 178: HELD at 1,200,000 (Lebanon-weighted). No new quantified figure in-window. LIKELY UNDERCOUNT — Iran separately has roughly 3.2 million internally displaced (UNHCR), which this counter does not include. Flag rather than estimate.",
+      "tooltip": "Lebanon-weighted cumulative, held pending a new quantified figure. Iran separately has ~3.2 million internally displaced (UNHCR), not included here.",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 8000,
       "label": "Flights cancelled (cumulative)",
-      "note": "Day 170: HELD at 8,000. No new figure in-window.",
+      "note": "Day 178: HELD at 8,000. No new figure reported in-window.",
       "tooltip": "No change in-window.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
       "value": 379,
       "label": "Children killed (cumulative, tracked)",
-      "note": "Day 170: 376 -> ~379 (+3 confirmed children killed at Ansar, south Lebanon, Aug 15; reports of 'several children' suggest possibly more). Flag as a floor.",
-      "tooltip": "At least 3 children among the Aug 15 south-Lebanon dead.",
+      "note": "Day 178: HELD at 379 (regional aggregate). HRANA documents at least 254 children killed in Iran alone; AOAV counts at least 212 across nine countries from English-language incident tracking (176 Iran, 24 Lebanon, 10 Israel, 1 Iraq). These are differently-scoped counts, not competing totals. Treat 379 as a floor.",
+      "tooltip": "Regional aggregate, held in-window. HRANA documents at least 254 children killed in Iran; AOAV's English-language incident tracking counts at least 212 across nine countries. A floor, not a ceiling.",
       "color": "var(--civilian)"
     }
   }
