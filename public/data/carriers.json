@@ -329,13 +329,13 @@
     "aircraft": null,
     "escorts": [],
     "independently_deployed_destroyers": [],
-    "status": "SAN DIEGO PIERSIDE (HOMEPORT) — WORKUPS COMPLETE",
+    "status": "SAN DIEGO PIERSIDE (HOMEPORT) — NEXT TO DEPLOY, DATE CLASSIFIED. WORKUPS COMPLETE.",
     "mission_summary": "Returned San Diego Thursday May 14, 2026 after Eastern Pacific workups/training cycle that began Apr 15; reportedly outfitted with new Raytheon Coyote 8-cell counter-UAS launcher. CSG removed from forward-deployed underway list per USNI Fleet Tracker May 18.",
     "deployed_since": "2026-04-15",
     "operation_start_date": null,
-    "notes": "Day 76 (May 14, Thursday): SAN DIEGO HOMECOMING. USS Theodore Roosevelt CSG returned to NAS North Island after Eastern Pacific workups cycle. Per USNI Fleet Tracker May 18: CSG removed from forward-deployed underway list. Prior: TWZ Apr 20 — departed San Diego Apr 15 for 3rd Fleet AOR routine ops/training; reportedly outfitted with new Raytheon Coyote 8-cell counter-UAS launcher.",
-    "source": "USNI Fleet & Marine Tracker May 18; TWZ Carrier Tracker",
-    "last_verified": "2026-05-18"
+    "notes": "Day 178 (August 24, Monday): NEXT IN THE PIPELINE. The Theodore Roosevelt remains pierside at San Diego and is the next carrier scheduled to deploy, though the date is classified. With the George Washington pulled west to CENTCOM, the TR's deployment date is the key indicator of when the PACOM carrier gap closes. PRIOR — Day 76 (May 14, Thursday): SAN DIEGO HOMECOMING. USS Theodore Roosevelt CSG returned to NAS North Island after Eastern Pacific workups cycle. Per USNI Fleet Tracker May 18: CSG removed from forward-deployed underway list. Prior: TWZ Apr 20 — departed San Diego Apr 15 for 3rd Fleet AOR routine ops/training; reportedly outfitted with new Raytheon Coyote 8-cell counter-UAS launcher.",
+    "source": "USNI News (Aug 22, 2026). PRIOR — USNI Fleet & Marine Tracker May 18; TWZ Carrier Tracker",
+    "last_verified": "2026-08-22"
   },
   {
     "id": "ssbn-732",
@@ -434,5 +434,25 @@
     "notes": "Day 137 (July 14, Tuesday): MILITARY-HISTORY FIRST — CENTCOM (Jul 13): 'Three Corsair unmanned surface vessels hit the port at Bandar Abbas Naval Base, marking the first time American forces have employed sea drones in combat operations.' The strike hit the submarine/ship-maintenance facility; a Ghadir-class midget submarine was imaged on a gantry at the struck pier (CENTCOM video). A US defense official told USNI the operation was a CENTCOM mission, NOT 5th Fleet's CTF-59 and not overseen by the Navy — command relationship HIGH confidence (USNI primary). Task Force 59 began fielding Corsairs in theater in late March 2026 (no exact fielding date published — deployed_since recorded as 2026-03-31 to represent 'late March 2026' for display). Likely recurring asset; track whether CENTCOM (vs Navy/CTF-59) retains control.",
     "source": "CENTCOM statement Jul 13; USNI News (Jul 13); Breaking Defense; Saronic / CENTCOM spox Capt. Tim Hawkins",
     "last_verified": "2026-07-13"
+  },
+  {
+    "id": "cvn-70",
+    "name": "USS Carl Vinson",
+    "hull": "CVN-70",
+    "type": "Nimitz-class aircraft carrier",
+    "strike_group": "Carl Vinson CSG / CVW-2",
+    "lat": 32.71,
+    "lng": -117.18,
+    "area": "EASTERN PACIFIC — departed San Diego (NAS North Island) Aug 10, 2026 for workups. Lat/lng are the San Diego departure point, NOT a current fix; no positional data published.",
+    "aircraft": "Carrier Air Wing 2 (composition to confirm)",
+    "escorts": [],
+    "status": "AT SEA — EASTERN PACIFIC WORKUPS (DEPARTED SAN DIEGO AUG 10). NOT IN CENTCOM THEATER.",
+    "mission_summary": "Pre-deployment workup cycle; not assigned to Operation Epic Fury.",
+    "deployed_since": null,
+    "operation_start_date": null,
+    "notes": "Day 178 (August 24, Monday): BENCH/PIPELINE. The Carl Vinson departed San Diego on Aug 10, 2026 for workups. It is tracked here as pipeline capacity behind the USS Theodore Roosevelt, not as a theater asset — it has no CENTCOM assignment.",
+    "source": "USNI News (Aug 22, 2026)",
+    "last_verified": "2026-08-22",
+    "position_confidence": "LOW — departure point plotted; no current fix published"
   }
 ]
