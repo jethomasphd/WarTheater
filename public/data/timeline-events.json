@@ -9484,5 +9484,32 @@
     "category": "economic",
     "source": "CNBC; Times of Israel; AP",
     "data_point": "Brent >$93; pivot from kinetic to economic pressure"
+  },
+  {
+    "date": "2026-08-20",
+    "time": "",
+    "title": "Bessent vows 'toughest sanctions in history'; Dow drops ~700 points",
+    "description": "Treasury Secretary Bessent told CNBC the US would impose maximum economic pressure to 'collapse' the Tehran regime and that there would 'likely' be no large-scale kinetic restart — the clearest official statement yet of how Washington intends the economic and military instruments to relate. The Dow fell 703.84 points (-1.32%) to 52,759.21 as Walmart slid about 9% on a US sales miss; the S&P closed 7,641.16 (-0.87%). USS George Washington had arrived in the CENTCOM AOR the previous day and was transiting the Arabian Sea.",
+    "category": "economic",
+    "source": "CNBC; Reuters; RFE/RL",
+    "data_point": "Dow -703.84 (52,759.21); 'likely' no kinetic restart"
+  },
+  {
+    "date": "2026-08-22",
+    "time": "",
+    "title": "Trump calls Hormuz 'American territory,' war a 'little detour'",
+    "description": "At a South Carolina rally Trump said he views the Strait of Hormuz as US territory and described the war as a 'little detour.' Iran's SNSC secretary Mohsen Rezai warned that any country joining US economic measures would be treated as an 'enemy.' France's Macron and Saudi Crown Prince Mohammed bin Salman met in Paris and placed Hormuz-bypass routes on the agenda of a new bilateral council. USNI News reported the same day that USS Abraham Lincoln had left the Middle East for 7th Fleet after a record 241+ consecutive days at sea. Israeli strikes hit Nabatiyeh and south Lebanon.",
+    "category": "political",
+    "source": "GlobalSecurity OPREP; The National; Reuters; USNI News",
+    "data_point": "24th night of the strike pause; Lincoln departs theater"
+  },
+  {
+    "date": "2026-08-24",
+    "time": "",
+    "title": "Bessent unveils 'single greatest financial offensive ever'",
+    "description": "After a Financial Times op-ed declaring that 'at dawn begins an economic D-Day,' Bessent held an afternoon press conference to roll out sanctions targeting Iran's trade partners. Iran threatened to seize vessels violating its Hormuz transit rules — the specific event most likely to break the calm. The S&P 500 and Nasdaq slipped at the open on a chip selloff ahead of Nvidia earnings and Jackson Hole; Brent traded ~$93.10 intraday, off ~1%. China's response is the swing variable and Washington's real leverage test.",
+    "category": "economic",
+    "source": "CNBC; Al Jazeera; Reuters",
+    "data_point": "Sanctions rollout; Iran threatens vessel seizures"
   }
 ]
