@@ -9448,5 +9448,41 @@
     "category": "diplomatic",
     "source": "ABC News; Al Jazeera; Al Arabiya; AnewZ",
     "data_point": "Indirect messaging continues; Lebanon escalation risk"
+  },
+  {
+    "date": "2026-08-17",
+    "time": "",
+    "title": "60-day MOU deadline expires; Trump threatens Oman over Hormuz",
+    "description": "The 60-day US-Iran memorandum window closed with no deal, shutting the formal truce mechanism. Trump told Fox News the US would 'bomb the shit out of' Oman if it interfered in the Strait of Hormuz, and said he liked the idea of declaring the strait US territory. Jared Kushner met Netanyahu for more than four hours on the Gaza plan. Equities sold off: S&P 7,745.06 (-0.52%), Dow 53,459.78 (-272.63).",
+    "category": "diplomatic",
+    "source": "CNN; CBS News; Fox News",
+    "data_point": "MOU window expired; no deal, no successor mechanism"
+  },
+  {
+    "date": "2026-08-17",
+    "time": "",
+    "title": "Houthis strike Saudi military ship in the Red Sea",
+    "description": "Houthi military spokesman Yahya Saree said the group had hit a Saudi military vessel and four escort ships with missiles, part of the Red Sea blockade of Saudi Arabia it declared on July 20. No independent damage assessment or Saudi confirmation was published. The claim follows the Aug 11 Bab el-Mandeb attack on the Egyptian-owned Tihamah, which killed six — the first shipping deaths of the war.",
+    "category": "military",
+    "source": "Middle East Eye; Democracy Now",
+    "data_point": "Houthi claim: 1 Saudi warship + 4 escorts targeted (unconfirmed)"
+  },
+  {
+    "date": "2026-08-18",
+    "time": "",
+    "title": "Trump denies talks; UAE reports Iranian missiles; fatal Hormuz tanker strike",
+    "description": "Trump posted that no talks were underway or scheduled. The UAE said its air defences detected two ballistic missiles launched from Iran — Tehran denied it and called the report a 'false flag,' and no US or CENTCOM corroboration had appeared by Aug 23 — and suspended all trade and financial dealings with Iran. The Liberia-flagged bulk carrier Minoan Dignity was struck by an unknown projectile while exiting the strait off Limah, Oman, damaging its engine room and killing one crew member (UKMTO Warning 115-26). The Houthis separately claimed a drone attack on the Saudi Aramco refinery at Jazan.",
+    "category": "military",
+    "source": "CNN; CNBC; CBS News; UKMTO",
+    "data_point": "1 seafarer killed; 2 ballistic missiles claimed by UAE (Iran denies)"
+  },
+  {
+    "date": "2026-08-19",
+    "time": "",
+    "title": "Trump declares 'ECONOMIC D-DAY' against Iran",
+    "description": "Trump announced 'the most crushing economic operation ever taken against any country,' warning that any nation providing Iran a 'lifeline' would face 'tremendous economic consequences.' Brent topped $93 and WTI settled at a four-week high, though equities held roughly flat: S&P 7,707.98 (+0.21%). The declaration marked the campaign's formal pivot from ordnance to sanctions.",
+    "category": "economic",
+    "source": "CNBC; Times of Israel; AP",
+    "data_point": "Brent >$93; pivot from kinetic to economic pressure"
   }
 ]
