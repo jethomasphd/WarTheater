@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-08-24",
   "war_day": 178,
-  "timestamp_label": "LAST UPDATED: AUG 16, 2026 11:15 ET",
+  "timestamp_label": "LAST UPDATED: AUG 24, 2026 13:49 ET",
   "cost": {
     "brent": {
       "price": 94.39,
@@ -2507,6 +2507,28 @@
       "flights_cancelled": 8000,
       "children_killed": 379,
       "headline": "Day 170 (August 16, Sunday) - TALKS STALL, TANKERS BURN, CARRIER LEAVES ASIA: The strike pause held a second full week (no US strikes on Iranian soil since ~Aug 1), but Hormuz stayed violent — Iran drone-struck two ADNOC tankers Aug 13 (no injuries; ADNOC ~15-17 vessels hit since Feb). Talks stalled: Trump vowed to make Hormuz 'US territory,' FM Araghchi said it 'cannot be seized with a tweet' and left resumption undecided; mediation widened to European players as Kushner toured the region. Bessent threatened 'economic isolation' of Iran; Hegseth floated an indefinite blockade. Oil rose ~5-6% on the week (Brent $88.52, WTI $82.40); the S&P hit a record 7,798.99 Thu before easing to 7,785.76 Fri (3rd weekly gain) on weak July retail sales. Israel killed at least 11 in south Lebanon Aug 15 (deadliest since June). The Navy pulled its last carrier from Asia — USS George Washington sailing to relieve the USS Lincoln (240+ days at sea)."
+    },
+    {
+      "date": "2026-08-24",
+      "war_day": 178,
+      "brent": 94.39,
+      "wti": 87.06,
+      "gas": 4.09,
+      "sp500": 7674.37,
+      "sp500_change_pct": 0.43,
+      "nasdaq": 26180.46,
+      "dow": 53277.01,
+      "daily_cost_millions": 500,
+      "total_cost_billions": 41.3,
+      "targets_struck": 35914,
+      "us_kia": 18,
+      "us_wia": 775,
+      "iranian_killed": 3636,
+      "lebanese_killed": 4319,
+      "displaced": 1200000,
+      "flights_cancelled": 8000,
+      "children_killed": 379,
+      "headline": "Day 178 (August 24, Monday) - THE WAR GOES FINANCIAL: The US strike pause on Iranian territory reached its 24th night as Washington swapped ordnance for sanctions. Trump declared an 'ECONOMIC D-DAY' on Aug 19 and called the Strait of Hormuz 'American territory' on Aug 22; Treasury Secretary Bessent promised the 'toughest sanctions in history,' said there would 'likely' be no large-scale kinetic restart, and unveiled what he called the single greatest financial offensive ever on Aug 24. The 60-day MOU window expired Aug 17 with no deal. At sea, USS George Washington arrived in CENTCOM Aug 19 and relieved USS Abraham Lincoln, which departed after a record 241+ consecutive days at sea - leaving no US carrier in the Pacific. The bulk carrier Minoan Dignity was struck exiting Hormuz Aug 18, killing one crew member. Brent settled $94.39 (+~6% on the week) and the S&P fell 1.4%, snapping a three-week win streak."
     }
   ],
   "toll": {
