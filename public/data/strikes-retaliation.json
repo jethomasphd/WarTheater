@@ -4795,5 +4795,77 @@
     "notes": "DAY 168 UPDATE: Two ADNOC-affiliated tankers attacked by drones while transiting the Strait of Hormuz on the evening of Thu Aug 13 (reported early Fri Aug 14). UAE FM condemned it as 'piracy' by the IRGC and a 'flagrant violation' of UNSC Resolution 2817; GCC Sec-Gen al-Budaiwi, Qatar and Saudi Arabia condemned it. Iran did not immediately comment. ADNOC says it has now had ~15-17 vessels attacked since Feb 28 (running total disputed) — three within the week of Aug 8, which ADNOC said collectively killed one crew member and injured ~20 (those crew casualties are seafarers not captured in the five national casualty datasets). DISCREPANCY: CNN's Aug 15 live page frames this as a 'Friday night' attack; the weight of sourcing (Al Jazeera, AP7am, anews, UKMTO) dates it Thursday evening Aug 13 — treated here as a single Aug 13 event, not two.",
     "verified": true,
     "last_updated": "2026-08-16"
+  },
+  {
+    "id": "redsea-saudi-ship-20260817",
+    "city": "Red Sea (off Saudi Arabia)",
+    "lat": 15.0,
+    "lng": 42.0,
+    "type": "houthi_attack",
+    "weapon": "Ballistic missiles",
+    "origin": "Yemen (Houthis / Ansar Allah)",
+    "first_strike": "2026-08-17",
+    "casualties_reported": "None confirmed; no damage assessment published",
+    "casualties_source": "Houthi military spokesman Yahya Saree via Middle East Eye / Democracy Now",
+    "active_days": [
+      171
+    ],
+    "notes": "Houthi military spokesman Yahya Saree said the group had targeted a Saudi military vessel and four escort ships with missiles, part of the Red Sea blockade of Saudi Arabia the group declared on Jul 20. No independent damage assessment or Saudi confirmation was published. Follows the Aug 11 Bab el-Mandeb attack on the Egyptian-owned Tihamah, which killed 6 — the first shipping deaths of the war.",
+    "verified": false,
+    "last_updated": "2026-08-24"
+  },
+  {
+    "id": "hormuz-tanker-minoan-dignity-20260818",
+    "city": "Strait of Hormuz, off Limah, Oman",
+    "lat": 26.2,
+    "lng": 56.4,
+    "type": "iran_retaliation",
+    "weapon": "Unknown projectile (suspected IRGC missile)",
+    "origin": "Unclaimed; suspected Iranian coast (IRGC)",
+    "first_strike": "2026-08-18",
+    "casualties_reported": "1 crew member killed; engine room damaged. Omani Coast Guard assisted the remaining crew.",
+    "casualties_source": "UKMTO Warning 115-26 via gCaptain/INTERCARGO; CNBC",
+    "active_days": [
+      172
+    ],
+    "notes": "The Liberia-flagged bulk carrier MINOAN DIGNITY, exiting the Strait of Hormuz southbound, was 'struck by an unknown projectile that damaged its engine room and resulted in a crew casualty' (UKMTO Warning 115-26). This was the FIRST FATAL TANKER ATTACK of the Aug 17-24 window and the first shipping death in Hormuz since the strike pause began. No actor claimed the attack; suspicion falls on the IRGC but there is no CENTCOM attribution. Trump claimed hours later that the strait was 'open and operating.'",
+    "verified": true,
+    "last_updated": "2026-08-24"
+  },
+  {
+    "id": "uae-ballistic-threat-20260818",
+    "city": "United Arab Emirates",
+    "lat": 24.4,
+    "lng": 54.4,
+    "type": "iran_retaliation_disputed",
+    "weapon": "2 ballistic missiles (detected)",
+    "origin": "Iran (UAE assertion) — DENIED by Tehran as a 'false flag'",
+    "first_strike": "2026-08-18",
+    "casualties_reported": "None; no impact or damage reported",
+    "casualties_source": "UAE Defense Ministry",
+    "active_days": [
+      172
+    ],
+    "notes": "UNVERIFIED — REPORTED AS A UAE CLAIM WITH AN IRANIAN DENIAL. The UAE said its air defences detected two ballistic missiles launched from Iran; Iran denied any launch and called the report a 'false flag.' No US or CENTCOM corroboration had appeared as of Aug 23, a sixth day. The UAE responded by suspending ALL trade and financial dealings with Iran. If confirmed, these would be the only Iranian missiles fired at a Gulf state since the May 4 Fujairah strike. Do not treat as an established Iranian launch.",
+    "verified": false,
+    "last_updated": "2026-08-24"
+  },
+  {
+    "id": "jazan-refinery-drone-20260818",
+    "city": "Jazan, Saudi Arabia",
+    "lat": 16.9,
+    "lng": 42.6,
+    "type": "iran_proxy_kinetic_saudi",
+    "weapon": "Drone",
+    "origin": "Yemen (Houthis)",
+    "first_strike": "2026-08-18",
+    "casualties_reported": "Not reported; no damage assessment published",
+    "casualties_source": "Houthi claim via GlobalSecurity.org OPREP",
+    "active_days": [
+      172
+    ],
+    "notes": "Claimed Houthi drone attack on the Saudi Aramco refinery at Jazan — the most recent Houthi claim in the Aug 17-24 window. Claim-only: no Saudi Aramco confirmation, damage assessment or independent corroboration was located.",
+    "verified": false,
+    "last_updated": "2026-08-24"
   }
 ]
