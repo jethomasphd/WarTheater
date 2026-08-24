@@ -169,7 +169,15 @@
     "Day 167",
     "Day 168",
     "Day 169",
-    "Day 170"
+    "Day 170",
+    "Day 171",
+    "Day 172",
+    "Day 173",
+    "Day 174",
+    "Day 175",
+    "Day 176",
+    "Day 177",
+    "Day 178"
   ],
   "daily_cost_millions": [
     3000,
@@ -301,6 +309,14 @@
     85,
     85,
     85,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
     500,
     500,
     500,
@@ -513,7 +529,15 @@
     "Day 167 (August 13, Thursday) — TWO ADNOC TANKERS DRONE-STRUCK; S&P RECORD: Two ADNOC-affiliated tankers were attacked by drones while transiting the Strait of Hormuz (minor damage, no injuries); the UAE blamed the IRGC. The S&P 500 closed at a record 7,798.99, its first close above 7,800. Daily rate HELD at $500M.",
     "Day 168 (August 14, Friday) — US THREATENS 'ECONOMIC ISOLATION': Treasury Secretary Bessent warned of measures aimed at the 'economic isolation' of Iran and DefSec Hegseth said US forces could hold an indefinite blockade of Iranian ports; oil rose about 5-6% on the week (Brent $88.52), and equities eased from Thursday's record on weak July retail sales. Daily rate HELD at $500M.",
     "Day 169 (August 15, Saturday) — DEADLIEST LEBANON DAY SINCE JUNE: Israeli strikes killed at least 11 and wounded 19 in south Lebanon (Ansar and Deir ez-Zahrani), the deadliest day there since the June framework, after Hezbollah drone attacks wounded three Israeli troops; the US-Iran pause itself held. Daily rate HELD at $500M.",
-    "Day 170 (August 16, Sunday) — MESSAGING CONTINUES; CARRIER RELIEF SAILS: The US and Iran continued exchanging messages via intermediaries as Jared Kushner toured the region; the Navy's USS George Washington began sailing to relieve the USS Abraham Lincoln (240+ days at sea), pulling the last US carrier from the western Pacific. Daily rate HELD at $500M."
+    "Day 170 (August 16, Sunday) — MESSAGING CONTINUES; CARRIER RELIEF SAILS: The US and Iran continued exchanging messages via intermediaries as Jared Kushner toured the region; the Navy's USS George Washington began sailing to relieve the USS Abraham Lincoln (240+ days at sea), pulling the last US carrier from the western Pacific. Daily rate HELD at $500M.",
+    "Day 171 (August 17, Monday) — MOU WINDOW EXPIRES, TRUMP THREATENS OMAN: The 60-day US-Iran memorandum window closed with no deal, shutting the formal truce mechanism. Trump told Fox News the US would 'bomb the shit out of' Oman if it interfered in Hormuz and said he liked the idea of declaring the strait US territory. Jared Kushner met Netanyahu for more than four hours on the Gaza plan. Daily rate HELD at $500M.",
+    "Day 172 (August 18, Tuesday) — NO TALKS, UAE MISSILE CLAIM, FATAL TANKER STRIKE: Trump posted that no talks were underway or scheduled. The UAE said its air defences detected two ballistic missiles launched from Iran, denied by Tehran as a 'false flag' and uncorroborated by CENTCOM, and suspended all trade and financial dealings with Iran. The bulk carrier Minoan Dignity was struck exiting Hormuz, killing one crew member. Daily rate HELD at $500M.",
+    "Day 173 (August 19, Wednesday) — 'ECONOMIC D-DAY': Trump announced 'the most crushing economic operation ever taken against any country,' warning that any nation providing Iran a 'lifeline' would face 'tremendous economic consequences.' Brent topped $93 and US equities sold off. The campaign's centre of gravity moved from ordnance to sanctions. Daily rate HELD at $500M.",
+    "Day 174 (August 20, Thursday) — BESSENT: 'TOUGHEST SANCTIONS IN HISTORY': Treasury Secretary Bessent told CNBC the US would apply maximum economic pressure to 'collapse' the Tehran regime and that there would 'likely' be no large-scale kinetic restart — the clearest official statement yet of how Washington intends the economic and military instruments to relate. The Dow fell 703.84 points as Walmart slid about 9% on a US sales miss. Daily rate HELD at $500M.",
+    "Day 175 (August 21, Friday) — HORMUZ TRAFFIC STILL A FIFTH OF NORMAL: CNN analysis of UKMTO data counted 103 vessels inbound and 89 outbound over the seven days to Aug 21 — up 27% week-on-week but still only about 20% of the pre-war seven-day average. Kpler logged just 7 commodity vessels on Aug 21, with no VLCC and no LNG carrier, against roughly 130 daily transits of all types before the war; only ~2-3 VLCCs a day have moved since Jul 7. CENTCOM enforcement under the reimposed blockade stands at 68 vessels redirected, 3 disabled and 2 boarded, with 20+ warships in support; the US says it has helped move more than 660 million barrels through Hormuz since early May. Brent settled $94.39 and WTI $87.06, both up ~6% on the week. Daily rate HELD at $500M.",
+    "Day 176 (August 22, Saturday) — 'AMERICAN TERRITORY': At a South Carolina rally Trump said he views the Strait of Hormuz as US territory and called the war a 'little detour.' Iran's SNSC secretary Mohsen Rezai warned that any country joining US economic measures would be treated as an 'enemy.' France's Macron and Saudi Crown Prince Mohammed bin Salman met in Paris and put Hormuz-bypass routes on the agenda of a new bilateral council. Israeli strikes hit Nabatiyeh and south Lebanon. Daily rate HELD at $500M.",
+    "Day 177 (August 23, Sunday) — 24TH QUIET NIGHT: No US or Israeli strike on Iranian territory — the pause that began ~Aug 1 reached 24 consecutive nights. A fourth consecutive night passed with zero Iranian ballistic-missile launches against any Gulf state and a fifth with no Iran or proxy drone attack on Gulf, Iraqi or Israeli targets (GlobalSecurity OPREP Day 177). Daily rate HELD at $500M.",
+    "Day 178 (August 24, Monday) — 'THE SINGLE GREATEST FINANCIAL OFFENSIVE EVER': After a Financial Times op-ed declaring that 'at dawn begins an economic D-Day,' Bessent held an afternoon press conference to roll out sanctions targeting Iran's trade partners; Iran threatened to seize vessels violating its Hormuz transit rules. COST BASIS: the $500M/day rate is CSIS senior adviser Mark Cancian's sustained-operations estimate ('about half a billion dollars every day,' Irish Times, Apr 7) and is HELD here pending a Pentagon update. It is very likely an OVERSTATEMENT of the current burn: CSIS assessed 'under $100 million/day' for the earlier ceasefire standby posture (Apr 30), and the US has not struck Iranian territory since ~Aug 1 — though the naval blockade, escort mission and 20+ supporting warships continue to cost. CUMULATIVE: ~$41.3B on the independent phased tracker (militaryspend.org logged $40.80B at Day 176), against a Pentagon official figure of $29B (Comptroller Hurst, May 12), a Penn Wharton Budget Model estimate of $27-28B in direct costs over the first 32 days with a base-case two-month total of ~$42.5B, and independent economist estimates of the broader economic cost running $50-100B+. Daily rate HELD at $500M."
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
@@ -660,7 +684,17 @@
       "Aug 11",
       "Aug 12",
       "Aug 13",
-      "Aug 14"
+      "Aug 14",
+      "Aug 15",
+      "Aug 16",
+      "Aug 17",
+      "Aug 18",
+      "Aug 19",
+      "Aug 20",
+      "Aug 21",
+      "Aug 22",
+      "Aug 23",
+      "Aug 24"
     ],
     "data": [
       50,
@@ -805,9 +839,19 @@
       null,
       null,
       null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      7,
+      null,
+      null,
       null
     ],
     "prewar_daily": 50
   },
-  "last_updated": "2026-08-16"
+  "last_updated": "2026-08-24"
 }
