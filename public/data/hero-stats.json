@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-16",
-  "war_day": 170,
+  "last_updated": "2026-08-24",
+  "war_day": 178,
   "timestamp_label": "LAST UPDATED: AUG 16, 2026 11:15 ET",
   "cost": {
     "brent": {
@@ -2534,36 +2534,36 @@
     "iranian_killed": {
       "value": 3636,
       "label": "Iranian killed (cumulative, tracked line)",
-      "note": "Day 170: HELD at 3,636 - STALE. No US/Israeli strikes on Iran in-window and no new Iranian death reporting located. Flag as stale, do not invent movement.",
-      "tooltip": "No in-window Iranian casualty reporting during the pause.",
+      "note": "Day 178: HELD at 3,636 (HRANA total: 1,701 civilian including at least 254 children, 1,221 military, 714 unclassified). No new strike casualties in-window — the pause held. RANGE PUBLISHED WITH ATTRIBUTION, NOT MERGED: Iran's Foundation of Martyrs confirms 3,468; Al Jazeera's Aug 12 compilation at least 3,527; US/Israeli estimates 6,000+. Do not synthesize a single number.",
+      "tooltip": "HRANA's documented total. Competing counts: Foundation of Martyrs 3,468, Al Jazeera at least 3,527, US/Israel 6,000+. Tracked separately and NOT counted as war dead: at least 901 people have been executed in Iran since January 2026, 28 of them in August (Abdorrahman Boroumand Center).",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
-      "value": 4308,
+      "value": 4319,
       "label": "Lebanese killed (cumulative, all)",
-      "note": "Day 170: 4,297 -> ~4,308 (+11 from Israeli strikes in south Lebanon Aug 15, incl. 3+ children; Lebanese Health Ministry via Reuters/Al Jazeera). Reuters rounds the cumulative to 'at least 4,300 since Mar 2' - the +11 is within reporting noise; flag.",
-      "tooltip": "Aug 15 was the deadliest day in Lebanon since the June framework: strikes on Ansar (7 killed) and Deir ez-Zahrani (4 killed).",
+      "note": "Day 178: 4,308 -> ~4,319. The Lebanese Health Ministry reported at least 4,300 killed since Mar 2 (Reuters, Aug 15); further deaths followed in the Aug 22 Nabatiyeh and south Lebanon strikes, which the Ministry has not itemised. The +11 is DERIVED from reconciling the revised cumulative and should be replaced when a dated figure is published. Lebanon is a parallel front, decoupled from the Iran strike pause.",
+      "tooltip": "Lebanese Health Ministry cumulative since Mar 2. Israeli operations against Hezbollah continue independently of the Iran pause; strikes on Nabatiyeh and south Lebanon on Aug 22 reportedly left 'no house undamaged' at Bayt al-Sayyad, with phosphorus munitions reported (Lebanon NNA).",
       "color": "var(--hezbollah)"
     },
     "displaced": {
       "value": 1200000,
       "label": "Displaced (cumulative)",
-      "note": "Day 170: HELD at 1,200,000. No new quantified figure. LIKELY UNDERCOUNT - fresh south-Lebanon evacuations (columns of cars fleeing Sidon/south, Aug 15, AFP) are not yet quantified. Flag rather than estimate.",
-      "tooltip": "Figure held pending a new displacement estimate.",
+      "note": "Day 178: HELD at 1,200,000 (Lebanon-weighted). No new quantified figure in-window. LIKELY UNDERCOUNT — Iran separately has roughly 3.2 million internally displaced (UNHCR), which this counter does not include. Flag rather than estimate.",
+      "tooltip": "Lebanon-weighted cumulative, held pending a new quantified figure. Iran separately has ~3.2 million internally displaced (UNHCR), not included here.",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 8000,
       "label": "Flights cancelled (cumulative)",
-      "note": "Day 170: HELD at 8,000. No new figure in-window.",
+      "note": "Day 178: HELD at 8,000. No new figure reported in-window.",
       "tooltip": "No change in-window.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
       "value": 379,
       "label": "Children killed (cumulative, tracked)",
-      "note": "Day 170: 376 -> ~379 (+3 confirmed children killed at Ansar, south Lebanon, Aug 15; reports of 'several children' suggest possibly more). Flag as a floor.",
-      "tooltip": "At least 3 children among the Aug 15 south-Lebanon dead.",
+      "note": "Day 178: HELD at 379 (regional aggregate). HRANA documents at least 254 children killed in Iran alone; AOAV counts at least 212 across nine countries from English-language incident tracking (176 Iran, 24 Lebanon, 10 Israel, 1 Iraq). These are differently-scoped counts, not competing totals. Treat 379 as a floor.",
+      "tooltip": "Regional aggregate, held in-window. HRANA documents at least 254 children killed in Iran; AOAV's English-language incident tracking counts at least 212 across nine countries. A floor, not a ceiling.",
       "color": "var(--civilian)"
     }
   }
