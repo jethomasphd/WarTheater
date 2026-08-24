@@ -40,18 +40,20 @@
     "name": "USS George Washington",
     "hull": "CVN-73",
     "type": "carrier",
-    "strike_group": "Carrier Strike Group (forward-deployed, Yokosuka)",
+    "strike_group": "George Washington CSG / CVW-5 (forward-deployed, Yokosuka)",
     "lat": 20.0,
     "lng": 64.0,
-    "area": "IN TRANSIT — departing the western Pacific (forward-deployed out of Yokosuka, Japan) and expected to replace USS Abraham Lincoln in the Middle East / 5th Fleet AOR. Its departure leaves the western Pacific with NO US carrier on station for the first time in this cycle — a gap analysts flag as significant given rising Chinese assertiveness; the Navy may backfill with another carrier 'in the next couple of months.'",
+    "area": "Arabian Sea / 5th Fleet AOR — arrived in the US CENTCOM AOR Aug 19 and was transiting the Arabian Sea Aug 20 (CENTCOM via X; USNI News), relieving the USS Abraham Lincoln in place. Its westward move leaves NO US carrier in the Pacific/PACOM. Lat/lng remain a PLACEHOLDER pending a USNI Fleet Tracker fix — refine when positional data appears.",
     "aircraft": "Carrier Air Wing 5 (forward-deployed air wing): F/A-18E/F Super Hornets, EA-18G Growlers, E-2D Hawkeye, MH-60R/S Seahawk (composition to confirm at arrival)",
     "escorts": [
-      "To confirm on arrival in AOR"
+      "CG-62 USS Robert Smalls",
+      "DDG-86 USS Shoup"
     ],
-    "status": "TRANSITING TO CENTCOM AOR — RELIEF FOR CVN-72",
-    "notes": "AP (Aug 15): 'US pulls last aircraft carrier in Asia as Trump focuses on Iran and the Western Hemisphere.' Context: USS Gerald R. Ford (CVN-78) returned home in mid-May after an 11-month deployment (longest since Vietnam). Lat/lng here are a PLACEHOLDER pending a USNI Fleet Tracker fix — refine when positional data appears.",
-    "source": "AP (Ben Finley/Didi Tang), Aug 15-16, via Boston Globe/PBS/ABC/US News",
-    "last_verified": "2026-08-16"
+    "status": "DAY 174 (AUG 20): ARRIVED IN US CENTCOM AOR AUG 19; TRANSITING THE ARABIAN SEA AUG 20 — RELIEVING USS ABRAHAM LINCOLN (RELIEF-IN-PLACE). ESCORTED BY USS ROBERT SMALLS (CG-62) AND USS SHOUP (DDG-86); USS BENFOLD (DDG-65) DID NOT ACCOMPANY, LEAVING THE CSG ONE ESCORT SHORT. ITS DEPARTURE LEAVES NO US CARRIER IN PACOM. PRIOR — TRANSITING TO CENTCOM AOR — RELIEF FOR CVN-72",
+    "notes": "Day 174 (August 20, Thursday): ON STATION IN CENTCOM. The George Washington arrived in the US CENTCOM AOR on Aug 19 and was transiting the Arabian Sea on Aug 20 (CENTCOM via X; USNI News), taking over from the USS Abraham Lincoln in a relief-in-place. It is escorted by the cruiser USS Robert Smalls (CG-62) and the destroyer USS Shoup (DDG-86). The destroyer USS Benfold (DDG-65) did NOT accompany the strike group: it lost power for four days in late July and was towed to Subic Bay, the Philippines, for repairs — leaving the CSG one escort short. As the Japan-based forward-deployed carrier, its westward move leaves ZERO US carriers in the Pacific/PACOM, a real strategic cost of sustaining the Iran commitment; the USS Theodore Roosevelt's (classified) deployment date is the key indicator of when that gap closes. PRIOR — AP (Aug 15): 'US pulls last aircraft carrier in Asia as Trump focuses on Iran and the Western Hemisphere.' Context: USS Gerald R. Ford (CVN-78) returned home in mid-May after an 11-month deployment (longest since Vietnam). Lat/lng here are a PLACEHOLDER pending a USNI Fleet Tracker fix — refine when positional data appears.",
+    "source": "USNI News / CENTCOM via X (Aug 19-22, 2026). PRIOR — AP (Ben Finley/Didi Tang), Aug 15-16, via Boston Globe/PBS/ABC/US News",
+    "last_verified": "2026-08-20",
+    "homeport": "Yokosuka, Japan"
   },
   {
     "id": "cvn-77",
