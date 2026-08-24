@@ -2513,22 +2513,22 @@
     "targets_struck": {
       "value": 35914,
       "label": "Cumulative targets struck (US+IL on Iran/proxies)",
-      "note": "Day 170: HELD at 35,914. No US strikes on Iranian territory Aug 9-16 (pause held a 2nd week). CENTCOM published no new cumulative. Do not increment.",
-      "tooltip": "Counter held during the strike pause. The only US kinetic posture in-window was maritime (blockade + vessel-escort expansion), not strikes on Iran.",
+      "note": "Day 178: HELD at 35,914. No US or Israeli strike on Iranian soil since ~Aug 1 — 24 consecutive nights by Aug 22-23. CENTCOM published no new cumulative. Do not increment.",
+      "tooltip": "Counter FROZEN during the 24-night strike pause. GlobalSecurity's standing reference is 'more than 300 Iranian sites struck since 7 July.' The campaign's pressure moved to Treasury sanctions in this window, not ordnance.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
       "value": 18,
-      "label": "US service-member KIA (Pentagon DCAS via CNN, Aug 4)",
-      "note": "Day 170: HELD at 18. No new US service-member deaths reported Aug 9-16.",
-      "tooltip": "No change in-window.",
+      "label": "US service-member KIA (Pentagon DCAS)",
+      "note": "Day 178: HELD at 18. No US military death reported Aug 17-24.",
+      "tooltip": "Per the Pentagon's Defense Casualty Analysis System. The most recent death was July 18 at Erbil, Iraq, in a controlled detonation of a downed Iranian drone.",
       "color": "var(--civilian)"
     },
     "us_wia": {
-      "value": 687,
-      "label": "US service-member WIA",
-      "note": "Day 170: HELD at 687. No new figure in-window.",
-      "tooltip": "No change in-window.",
+      "value": 775,
+      "label": "US service-member WIA (Pentagon DCAS via Stars and Stripes, Aug 21)",
+      "note": "Day 178: 687 -> ~775 (+~60 wounded added by the Pentagon; DCAS via Stars and Stripes, Aug 21). The DCAS figure now combines Operation Epic Fury with the newer 'Overseas Operations' category. DISCREPANCY, UNRESOLVED: independent tallies exceed 900, while GlobalSecurity's Day 177 dashboard still cites 687 per DCAS 'as updated 4 August.' 775 is used as the current official DCAS figure.",
+      "tooltip": "Pentagon DCAS total as reported by Stars and Stripes, Aug 21, combining Operation Epic Fury and 'Overseas Operations.' Independent tallies put the true figure above 900; the Pentagon's accounting change remains a live transparency dispute.",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
