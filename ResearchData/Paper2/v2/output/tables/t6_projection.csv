@@ -1,0 +1,9 @@
+population,scenario,ratio_indirect_to_direct,note,direct_lower,direct_upper,indirect_lower,indirect_upper,total_lower,total_upper
+Iran,floor_1to1,1.0,Very conservative floor,3166,3636,3166,3636,6332,7272
+Iran,low_3to1,3.0,Low end of Geneva Declaration (2008) range,3166,3636,9498,10908,12664,14544
+Iran,avg_4to1,4.0,Geneva Declaration (2008) cross-conflict average,3166,3636,12664,14544,15830,18180
+Iran,high_15to1,15.0,Upper end of reported range (weakest health systems),3166,3636,47490,54540,50656,58176
+Lebanon,floor_1to1,1.0,Very conservative floor,2993,4308,2993,4308,5986,8616
+Lebanon,low_3to1,3.0,Low end of Geneva Declaration (2008) range,2993,4308,8979,12924,11972,17232
+Lebanon,avg_4to1,4.0,Geneva Declaration (2008) cross-conflict average,2993,4308,11972,17232,14965,21540
+Lebanon,high_15to1,15.0,Upper end of reported range (weakest health systems),2993,4308,44895,64620,47888,68928

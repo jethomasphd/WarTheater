@@ -1,0 +1,21 @@
+{
+  "argument": "The war killed fast and early; the health system gradually lost its ability to absorb further shocks; and the deaths we can count may only represent part of the real human toll.",
+  "finding_1_frontloading": {
+    "death_share_major_combat_pct": 79.6,
+    "day_share_major_combat_pct": 23.5,
+    "phase_eta2_all_faction": 0.757,
+    "lethality_collapse_hedges_g": 1.333
+  },
+  "finding_5_resilience_erosion": {
+    "simple_slope_low_damage": 0.182,
+    "simple_slope_mean_damage": 0.626,
+    "simple_slope_high_damage": 1.071,
+    "interaction_p_facility_damage": 0.0059
+  },
+  "finding_6_indirect_floor": {
+    "iran_direct_lower": 3166,
+    "iran_direct_upper": 3636,
+    "iran_total_4to1_lower": 15830,
+    "iran_total_4to1_upper": 18180
+  }
+}
