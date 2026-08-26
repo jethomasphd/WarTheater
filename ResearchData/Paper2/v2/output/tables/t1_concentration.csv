@@ -1,0 +1,12 @@
+metric,value
+total_documented_deaths,6213.0
+major_combat_deaths,4944.0
+major_combat_share_of_deaths_pct,79.6
+major_combat_share_of_days_pct,23.5
+day_cumulative_toll_crossed_50pct,21.0
+day_cumulative_toll_crossed_80pct,42.0
+temporal_concentration_ratio,0.638
+cum_share_through_Major_Combat_pct,79.6
+cum_share_through_First_Ceasefire_pct,99.1
+cum_share_through_Resumption_pct,99.8
+cum_share_through_Diplomatic_Pause_pct,100.0

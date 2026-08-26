@@ -1,0 +1,6 @@
+phase,days,n_days,strikes_mean,civfac_strikes_mean,health_insults_total,iran_civ_mean,iran_civ_total,iran_mil_total,leb_mean,leb_total,killed_total_mean,killed_total_sd,killed_total_total
+Major Combat,1-40,40,7.02,2.6,11,13.08,523,2602,44.52,1781,123.6,47.05,4944
+First Ceasefire,41-129,89,0.57,0.09,8,0.0,0,3,13.48,1200,13.65,21.85,1215
+Resumption,130-152,23,2.35,0.91,2,0.87,20,18,0.04,1,1.87,3.14,43
+Diplomatic Pause,153-170,18,0.0,0.0,0,0.0,0,0,0.61,11,0.61,2.59,11
+Full war,1-170,170,2.27,0.78,21,3.19,543,2623,17.61,2993,36.55,55.97,6213

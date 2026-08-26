@@ -1,0 +1,5 @@
+phase,n_strike_days,strikes_per_day,iran_killed_per_day,lethality_mean,lethality_median,lethality_sd,combat_vs_resumption_U,combat_vs_resumption_p,combat_vs_resumption_g
+Major Combat,39,7.2051,78.7692,15.4076,10.8333,12.8415,623.0,0.0,1.3333
+First Ceasefire,34,1.5,0.0882,0.0882,0.0,0.5145,623.0,0.0,1.3333
+Resumption,16,3.375,2.3125,0.683,0.2143,1.0036,623.0,0.0,1.3333
+Diplomatic Pause,0,,,,,,623.0,0.0,1.3333
