@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
   "current_gas": 4.09,
-  "war_increase": 1.10,
+  "war_increase": 1.09,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.58 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA national average $4.09 as of Aug 23, 2026 (Day 177); $4.11 on Aug 21. Up roughly $0.97-1.10 vs a year ago and vs $2.99 pre-war (~+37%). State highs reported this cycle: California $5.59, Hawaii $5.43, Washington $5.24. Brent settled $94.39 on Fri Aug 21 (+~6% on the week), so further pump upside is possible into early September given the 2-3 week lag. No state-level AAA breakdown re-collected this cycle - state premiums carried unchanged.",
-  "last_updated": "2026-08-24"
+  "source": "AAA national average $4.09 (Aug 27, 2026 release; $4.08 on Aug 28, Day 182); roughly flat on the week (-$0.01). Up ~$1.09 / +36.5% vs $2.99 pre-war baseline. May 21 peak was $4.55. Per AAA (Aug 27 release): 'For the first time ever, the national average in August has been above $4 per gallon every day. This month is poised to set a new record as the most expensive August at the pump, surpassing the previous August record set in 2022.' Brent fell into the $80s ($88.58 Aug 25 settle, ~-5% on the week) as the market reframed Iran as a sanctions story rather than a supply shock, easing further pump upside. No state-level AAA breakdown re-collected this cycle - state premiums carried unchanged.",
+  "last_updated": "2026-08-30"
 }
