@@ -754,5 +754,12 @@
         "label": "AUGUST 24, 2026 — DAY 178",
         "headline": "Strike pause hits its 24th night as Trump declares 'economic D-Day' and calls Hormuz 'US territory'; Bessent unveils the sanctions offensive; USS George Washington relieves the Lincoln after a record 241-day deployment; fatal Hormuz tanker strike",
         "file": "data/briefings/day-178.html"
+    },
+    {
+        "day": 184,
+        "date": "2026-08-30",
+        "label": "AUGUST 30, 2026 — DAY 184",
+        "headline": "Strike pause holds ~30+ nights; Iran-Oman Hormuz revenue deal; oil falls to $80s; Treasury 'Economic Outcast' bites",
+        "file": "data/briefings/day-184.html"
     }
 ]

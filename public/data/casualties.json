@@ -177,7 +177,13 @@
     "Aug 21",
     "Aug 22",
     "Aug 23",
-    "Aug 24"
+    "Aug 24",
+    "Aug 25",
+    "Aug 26",
+    "Aug 27",
+    "Aug 28",
+    "Aug 29",
+    "Aug 30"
   ],
   "day_contexts": [
     "Day 1 — First strikes, Minab school (165+ killed), Iranian retaliation",
@@ -357,7 +363,13 @@
     "Day 175 (August 21, Friday) — No new deaths on any tracked national line. The Pentagon's DCAS wounded total was revised to ~775 via Stars and Stripes (up from 687), combining Operation Epic Fury with the new 'Overseas Operations' category; independent tallies still put the true wounded figure above 900, and GlobalSecurity's Day 177 dashboard still cites 687 'as updated 4 August.' The DCAS accounting dispute is unresolved — wounded are not plotted on this chart, which tracks deaths only.",
     "Day 176 (August 22, Saturday) — Israeli strikes on Nabatiyeh and south Lebanon killed a further number of Lebanese; the Lebanese Health Ministry did not itemise the toll, and reporting from Bayt al-Sayyad described 'no house undamaged' with phosphorus munitions reported (Lebanon NNA). The +11 plotted here is DERIVED by reconciling the manifest's revised cumulative (~4,319) against the 4,308 previously carried — it is NOT an itemised Health Ministry count and should be replaced when a dated figure is published. Lebanon remains a parallel front, decoupled from the Iran strike pause.",
     "Day 177 (August 23, Sunday) — No new deaths on any tracked national line. A fourth consecutive night with zero Iranian ballistic-missile launches against any Gulf state, and a fifth with no Iran or proxy drone attack on Gulf, Iraqi or Israeli targets (GlobalSecurity OPREP Day 177).",
-    "Day 178 (August 24, Monday) — No new deaths on any tracked national line. STANDING RANGES, published with attribution rather than merged: Iranian dead — HRANA 3,636 (1,701 civilian including at least 254 children, 1,221 military, 714 unclassified), Iran's Foundation of Martyrs 3,468, Al Jazeera's Aug 12 compilation at least 3,527, US/Israeli estimates 6,000+. US — 18 KIA (unchanged; the most recent death was July 18 at Erbil, Iraq, in a controlled detonation of a downed Iranian drone) and ~775 WIA per DCAS, against independent tallies above 900. Israeli — at least 32 IDF KIA and at least 60 total deaths including civilians from Iranian and Hezbollah attacks (Al Jazeera, Aug 12). Lebanese — at least 4,300 since Mar 2 per the Lebanese Health Ministry, ~4,319 including the Aug 15 and Aug 22 strikes. Iraqi — ~119+, unchanged in-window. TRACKED SEPARATELY, not war deaths: at least 901 people have been executed in Iran since January 2026, 28 of them in August (Abdorrahman Boroumand Center)."
+    "Day 178 (August 24, Monday) — No new deaths on any tracked national line. STANDING RANGES, published with attribution rather than merged: Iranian dead — HRANA 3,636 (1,701 civilian including at least 254 children, 1,221 military, 714 unclassified), Iran's Foundation of Martyrs 3,468, Al Jazeera's Aug 12 compilation at least 3,527, US/Israeli estimates 6,000+. US — 18 KIA (unchanged; the most recent death was July 18 at Erbil, Iraq, in a controlled detonation of a downed Iranian drone) and ~775 WIA per DCAS, against independent tallies above 900. Israeli — at least 32 IDF KIA and at least 60 total deaths including civilians from Iranian and Hezbollah attacks (Al Jazeera, Aug 12). Lebanese — at least 4,300 since Mar 2 per the Lebanese Health Ministry, ~4,319 including the Aug 15 and Aug 22 strikes. Iraqi — ~119+, unchanged in-window. TRACKED SEPARATELY, not war deaths: at least 901 people have been executed in Iran since January 2026, 28 of them in August (Abdorrahman Boroumand Center).",
+    "Day 179 (August 25, Tuesday) — No new deaths on any tracked national line. Two tankers were struck by unattributed projectiles in the Strait of Hormuz near Oman, but all crews were reported safe with no casualties (UKMTO Warnings 120-26, 121-26). The US/Israeli strike pause on Iranian soil held and there was no Iranian or proxy missile or drone attack on Gulf, Iraqi or Israeli targets.",
+    "Day 180 (August 26, Wednesday) — No new deaths on any tracked national line. The strike pause held; Iran and Oman announced a Strait of Hormuz revenue-sharing framework while the strait stayed closed.",
+    "Day 181 (August 27, Thursday) — No new deaths on any tracked national line. Qatar's prime minister visited Tehran to de-escalate. DCAS (via Spectrum News) updated the US wounded total to 759 (417 Epic Fury + 342 overseas since Jul 7).",
+    "Day 182 (August 28, Friday) — No new deaths on any tracked national line. SIX-MONTH MARK. STANDING RANGES, published with attribution rather than merged: Iranian dead — HRANA 3,636 (1,701 civilian including at least 254 children, 1,221 military, 714 unclassified), Iran's Foundation of Martyrs 3,468, Al Jazeera's six-month compilation at least 3,527, US/Israeli estimates 6,000+. US — 18 KIA (14 Epic Fury + 4 overseas operations per DCAS; unchanged, most recent death July 18 at Erbil) and 759 WIA per DCAS (Spectrum News, Aug 27: 417 Epic Fury + 342 overseas since Jul 7); Al Jazeera cites 757 (Pentagon). Do not merge the DCAS and Al Jazeera figures. Israeli — at least 32 IDF KIA and at least 60 total deaths including 28 civilians from Iranian and Hezbollah attacks (Al Jazeera six-month). Lebanese — at least 4,350 killed and 12,510 injured since Mar 2 per the Lebanese Health Ministry (Al Jazeera six-month, Aug 28), up from ~4,319 on continued Israeli strikes independent of the Iran pause. Gulf states — 28-51 across the UAE, Kuwait, Bahrain, Saudi Arabia and Oman. Iraqi — ~119+, unchanged in-window. ACTIVITY (ACLED): at least 3,580 US/Israeli attacks on Iran and ~2,053 Iranian attacks region-wide since Feb 28. TRACKED SEPARATELY, not war deaths: at least 901 people have been executed in Iran since January 2026, 28 of them in August (Abdorrahman Boroumand Center).",
+    "Day 183 (August 29, Saturday) — No new deaths on any tracked national line. New Supreme Leader Mojtaba Khamenei urged Iran to gradually phase out the US dollar; President Pezeshkian said Iranian trade had fallen 25-35%.",
+    "Day 184 (August 30, Sunday) — No new deaths on any tracked national line. The Strait of Hormuz remained closed and the strike pause on Iranian soil held at roughly 30+ consecutive nights."
   ],
   "datasets": {
     "iranian_military": {
@@ -515,6 +527,12 @@
         0,
         0,
         3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -724,6 +742,12 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffffff"
@@ -872,6 +896,12 @@
         0,
         3,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -1092,6 +1122,12 @@
         0,
         11,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#7b3fa0"
@@ -1276,10 +1312,16 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffc832"
     }
   },
-  "last_updated": "2026-08-24"
+  "last_updated": "2026-08-30"
 }
