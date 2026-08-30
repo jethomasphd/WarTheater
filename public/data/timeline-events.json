@@ -9506,10 +9506,64 @@
   {
     "date": "2026-08-24",
     "time": "",
-    "title": "Bessent unveils 'single greatest financial offensive ever'",
-    "description": "After a Financial Times op-ed declaring that 'at dawn begins an economic D-Day,' Bessent held an afternoon press conference to roll out sanctions targeting Iran's trade partners. Iran threatened to seize vessels violating its Hormuz transit rules — the specific event most likely to break the calm. The S&P 500 and Nasdaq slipped at the open on a chip selloff ahead of Nvidia earnings and Jackson Hole; Brent traded ~$93.10 intraday, off ~1%. China's response is the swing variable and Washington's real leverage test.",
+    "title": "Treasury launches 'Operation Economic Outcast'",
+    "description": "Treasury Secretary Bessent announced a whole-of-government sanctions campaign, 'Operation Economic Outcast,' after a Financial Times op-ed declaring that 'at dawn begins an economic D-Day.' OFAC designated more than 60 entities, individuals and vessels and issued five sectoral determinations under EO 13902 (digital assets, technology, gold, aviation, shipping). Bessent: 'we are launching an economic onslaught against Iran's financial connections around the globe... That era [of American enforcement as negotiable] is over.' Iran threatened to seize vessels violating its Hormuz transit rules - the specific event most likely to break the calm. The S&P 500 and Nasdaq slipped at the open on a chip selloff ahead of Nvidia earnings and Jackson Hole; Brent traded ~$93.10 intraday. China's response is the swing variable and Washington's real leverage test.",
     "category": "economic",
-    "source": "CNBC; Al Jazeera; Reuters",
-    "data_point": "Sanctions rollout; Iran threatens vessel seizures"
+    "source": "US Treasury SB0613; State Dept; Al Jazeera; Atlantic Council; CNBC; Reuters",
+    "data_point": "Operation Economic Outcast; 60+ OFAC designations; 5 EO 13902 determinations"
+  },
+  {
+    "date": "2026-08-25",
+    "time": "",
+    "title": "Two tankers struck in Strait of Hormuz",
+    "description": "UKMTO reported two tankers hit by 'unknown projectiles' near Oman (Warnings 120-26, 121-26); fires were extinguished and all crews were safe. Axios, citing US officials, attributed the strikes to at least two IRGC missiles; Reuters named one as the Qatari LNG tanker Al Rekayyat and the other a Saudi-flagged crude tanker. Attribution remains officially UNCONFIRMED. Oil fell ~4% as traders judged the risk of renewed fighting had eased.",
+    "category": "military",
+    "source": "UKMTO; Al Jazeera/Axios; OANN; CNBC",
+    "data_point": "Two tankers hit; Brent -3.9% to $88.58; attribution unconfirmed"
+  },
+  {
+    "date": "2026-08-26",
+    "time": "",
+    "title": "Iran and Oman agree Hormuz revenue-sharing",
+    "description": "IRGC spokesman Hossein Mohebbi said Iran and Oman had agreed each country's share of the strait's waters and transit revenue (Sepah News), going beyond an Aug 25 joint foreign-ministry 'interim framework' statement. Iran stressed the strait will NOT reopen until the US meets MOU terms - lifting sanctions and the blockade and unfreezing assets.",
+    "category": "diplomatic",
+    "source": "Bloomberg; Reuters via Marine Insight; CNBC",
+    "data_point": "Hormuz revenue-sharing deal; strait stays closed"
+  },
+  {
+    "date": "2026-08-27",
+    "time": "",
+    "title": "Qatari PM in Tehran to de-escalate",
+    "description": "Qatar's prime minister visited Iran to lower tensions after the Hormuz tanker attacks. Iran called on countries to defy US sanctions and said diplomacy was 'not impossible.' On markets, Nvidia's upbeat guidance powered a tech rally.",
+    "category": "diplomatic",
+    "source": "CNBC",
+    "data_point": "Qatari mediation; Nvidia rally lifts stocks"
+  },
+  {
+    "date": "2026-08-28",
+    "time": "",
+    "title": "Trump announces Venezuela 65-billion-barrel oil deal",
+    "description": "Trump on Truth Social: 'THE BIGGEST OIL DEAL IN WORLD HISTORY... majority US control of more than 65 BILLION BARRELS of proven Oil Reserves in Venezuela, at no cost to the American Taxpayer.' AP reported the deal gives the US ~55% effective output via a US-government/private joint venture; Venezuela's Delcy Rodriguez said it covers 17 fields, more than $100B of investment and over $209B in projected tax revenue. It follows the Jan 2026 operation that captured Maduro. Analysts flagged it as aspirational, and crude fell despite the news.",
+    "category": "economic",
+    "source": "CNBC; AP; NPR; CBS",
+    "data_point": "Venezuela oil deal (aspirational); crude falls"
+  },
+  {
+    "date": "2026-08-28",
+    "time": "",
+    "title": "Six months of war; markets accustomed to stalemate",
+    "description": "Al Jazeera's six-month tally: at least 4,350 killed in Lebanon, 3,527 in Iran, 28 in Gulf states, 60 Israelis and 18 US service members; the Pentagon reported 757 US personnel wounded. ACLED counted at least 3,580 US/Israeli attacks on Iran and ~2,053 Iranian attacks region-wide since Feb 28. CNBC framed the anniversary as markets becoming 'accustomed to stalemate' - VIX 14.43, the S&P near its record.",
+    "category": "political",
+    "source": "Al Jazeera; ACLED; CNBC",
+    "data_point": "Six-month mark; VIX 14.43; S&P near record"
+  },
+  {
+    "date": "2026-08-29",
+    "time": "",
+    "title": "New Supreme Leader urges dropping the dollar",
+    "description": "Mojtaba Khamenei - Supreme Leader since Mar 8, 2026, after his father Ayatollah Ali Khamenei was killed Feb 28 - urged Iran to 'gradually phase out the US dollar' and build a 'Resistance Economy' centred on domestic production. President Pezeshkian said Iranian trade had fallen 25-35%, with crude export loadings down more than 80% year-on-year (Kpler).",
+    "category": "political",
+    "source": "CNBC; Press TV; Kpler",
+    "data_point": "Dollar phase-out call; trade -25-35%; exports -80% y/y"
   }
 ]
