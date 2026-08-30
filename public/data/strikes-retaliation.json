@@ -4867,5 +4867,23 @@
     "notes": "Claimed Houthi drone attack on the Saudi Aramco refinery at Jazan — the most recent Houthi claim in the Aug 17-24 window. Claim-only: no Saudi Aramco confirmation, damage assessment or independent corroboration was located.",
     "verified": false,
     "last_updated": "2026-08-24"
+  },
+  {
+    "id": "hormuz-tanker-strikes-20260825",
+    "city": "Strait of Hormuz (off Khasab/Musandam, Oman)",
+    "lat": 26.18,
+    "lng": 56.25,
+    "type": "iran_retaliation",
+    "weapon": "Unknown projectile (Axios/US officials: at least two IRGC missiles)",
+    "origin": "Unattributed / unclaimed; suspected Iran (Axios: IRGC, per two unnamed US officials)",
+    "first_strike": "2026-08-25",
+    "casualties_reported": "Crews safe (0 casualties); two ships suffered significant damage",
+    "casualties_source": "UKMTO Warnings 120-26 & 121-26; Reuters; Al Jazeera citing Axios",
+    "active_days": [
+      179
+    ],
+    "notes": "Two commercial tankers were struck by 'unknown projectiles' in the Strait of Hormuz near Khasab/Musandam, Oman, on Aug 25 (UKMTO Warnings 120-26 and 121-26); fires were extinguished, all crews were safe and there was no pollution. Per Al Jazeera citing Axios: 'citing two unnamed US officials, news outlet Axios reported that Iran's Islamic Revolutionary Guard Corps (IRGC) fired at least two missiles at commercial ships... two ships suffered significant damage but there were no casualties.' Reuters sources named one as the Qatari LNG tanker Al Rekayyat and the other a Saudi-flagged crude tanker. Attribution is officially UNCONFIRMED ('unknown projectile'). Oil fell ~4% as traders judged the strikes lowered rather than raised the odds of renewed fighting; these were the only kinetic incidents of the Aug 25-30 window, and the strike pause on Iranian soil held.",
+    "verified": true,
+    "last_updated": "2026-08-30"
   }
 ]
