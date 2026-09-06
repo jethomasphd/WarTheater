@@ -17,10 +17,17 @@ WarTheater.Map = {
       attributionControl: false
     });
 
-    // Dark base tiles
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      subdomains: 'abcd',
-      maxZoom: 19
+    // Dark base tiles (Esri World Dark Gray — no API key required).
+    // Replaces CARTO dark_all, which now returns an "API KEY REQUIRED" placeholder
+    // after CARTO deprecated keyless basemap access.
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Tiles &copy; Esri',
+      maxZoom: 16
+    }).addTo(this.map);
+
+    // Place-name labels overlay (keeps the labels the CARTO basemap carried)
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+      maxZoom: 16
     }).addTo(this.map);
 
     // Track cursor coordinates
