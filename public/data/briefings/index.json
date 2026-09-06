@@ -761,5 +761,12 @@
         "label": "AUGUST 30, 2026 — DAY 184",
         "headline": "Strike pause holds ~30+ nights; Iran-Oman Hormuz revenue deal; oil falls to $80s; Treasury 'Economic Outcast' bites",
         "file": "data/briefings/day-184.html"
+    },
+    {
+        "day": 191,
+        "date": "2026-09-06",
+        "label": "SEPTEMBER 6, 2026 — DAY 191",
+        "headline": "Strike pause collapses: US-Iran strikes resume; Iran targets a US carrier; oil +9%; 3 Iranian tankers destroyed",
+        "file": "data/briefings/day-191.html"
     }
 ]
