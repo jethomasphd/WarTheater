@@ -4885,5 +4885,79 @@
     "notes": "Two commercial tankers were struck by 'unknown projectiles' in the Strait of Hormuz near Khasab/Musandam, Oman, on Aug 25 (UKMTO Warnings 120-26 and 121-26); fires were extinguished, all crews were safe and there was no pollution. Per Al Jazeera citing Axios: 'citing two unnamed US officials, news outlet Axios reported that Iran's Islamic Revolutionary Guard Corps (IRGC) fired at least two missiles at commercial ships... two ships suffered significant damage but there were no casualties.' Reuters sources named one as the Qatari LNG tanker Al Rekayyat and the other a Saudi-flagged crude tanker. Attribution is officially UNCONFIRMED ('unknown projectile'). Oil fell ~4% as traders judged the strikes lowered rather than raised the odds of renewed fighting; these were the only kinetic incidents of the Aug 25-30 window, and the strike pause on Iranian soil held.",
     "verified": true,
     "last_updated": "2026-08-30"
+  },
+  {
+    "id": "iran-missiles-jordan-base-20260830",
+    "city": "US military base, Jordan",
+    "lat": 31.83,
+    "lng": 36.78,
+    "type": "iran_retaliation",
+    "weapon": "8 ballistic missiles (all intercepted per US)",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-08-30",
+    "casualties_reported": "None (all 8 intercepted per Trump/CENTCOM)",
+    "casualties_source": "President Trump (Truth Social), CENTCOM (via Townhall)",
+    "active_days": [
+      184,
+      185
+    ],
+    "notes": "Weekend strike that helped trigger the US resumption. Trump: the US strikes were 'in retaliation for the Iranians shooting eight missiles, all successfully knocked down, at our Military Base in Jordan' and Iran's failed sea-mine attempt.",
+    "verified": true,
+    "last_updated": "2026-09-06"
+  },
+  {
+    "id": "iran-strikes-gulf-bases-20260902",
+    "city": "Jordan / Bahrain / Kuwait / Iraq (multi-country wave)",
+    "lat": 29.3,
+    "lng": 47.9,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles and drones",
+    "origin": "Iran (IRGC Aerospace Force)",
+    "first_strike": "2026-09-02",
+    "casualties_reported": "No confirmed casualties reported by host nations; IRGC CLAIMS (unverified) it killed 'a large number of' US troops at Camp Titin (Jordan) and Shaikh Isa Air Base (Bahrain) and downed a US MQ-9 Reaper",
+    "casualties_source": "Jordan Ministry of Defense, host-nation statements, IRGC/Sepah News (via Washington Times, GlobalSecurity, Times of Israel, Asharq Al-Awsat)",
+    "active_days": [
+      186,
+      187
+    ],
+    "notes": "The most expansive Iranian round since fighting resumed. Jordan confirmed 13 missiles entered its airspace targeting the King Hussein and Al-Azraq air bases (3 impacts in remote areas, no damage); Iran also claimed Camp Titin (Marine training facility, Jordan) and Muwaffaq Salti Air Base. Kuwait and Bahrain (Shaikh Isa) reported attacks with no casualties. In Iraq, Kurdish authorities intercepted 10 explosive drones near Erbil; Iranian TV claimed US bases at Erbil were targeted. Newly appointed Supreme National Security Council head Mohsen Rezaei warned Iran's 'new strategy... will shatter your foundations.'",
+    "verified": true,
+    "last_updated": "2026-09-06"
+  },
+  {
+    "id": "iran-strikes-kuwait-20260903",
+    "city": "Kuwait",
+    "lat": 29.37,
+    "lng": 47.98,
+    "type": "iran_retaliation",
+    "weapon": "Missiles and drones (defended against)",
+    "origin": "Iran",
+    "first_strike": "2026-09-03",
+    "casualties_reported": "No casualties reported; attacks defended against",
+    "casualties_source": "Kuwaiti army (via Vantage, TradingEconomics)",
+    "active_days": [
+      188
+    ],
+    "notes": "Kuwait's army said Thursday it was fending off Iranian missile and drone attacks, a day after Trump said the renewed hostilities 'would not run much longer.' See also the standing Wikipedia entry '2026 Iranian strikes on Kuwait' for cumulative Kuwait-front losses.",
+    "verified": true,
+    "last_updated": "2026-09-06"
+  },
+  {
+    "id": "iran-missiles-us-carrier-destroyer-20260905",
+    "city": "Gulf of Oman / Strait of Hormuz approaches",
+    "lat": 25.0,
+    "lng": 57.5,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-09-05",
+    "casualties_reported": "No US ship hit; no service members injured (CENTCOM)",
+    "casualties_source": "CENTCOM (via ABC News); IRGC Navy statement",
+    "active_days": [
+      190
+    ],
+    "notes": "Significant escalation: the IRGC launched ballistic missiles at a US aircraft carrier and a destroyer; both missed. CENTCOM called the apparent targeting of a carrier 'a notable provocation' and retaliated by destroying/disabling 3 Iranian tankers. Separately, the IRGC Navy claimed Saturday it had targeted 3 tankers on an 'unauthorized route' in Hormuz plus 3 US-affiliated vessels elsewhere, and warned all Gulf shipping. WHICH CARRIER: not specified by sources - hull unconfirmed.",
+    "verified": true,
+    "last_updated": "2026-09-06"
   }
 ]
