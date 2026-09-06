@@ -183,7 +183,14 @@
     "Day 181",
     "Day 182",
     "Day 183",
-    "Day 184"
+    "Day 184",
+    "Day 185",
+    "Day 186",
+    "Day 187",
+    "Day 188",
+    "Day 189",
+    "Day 190",
+    "Day 191"
   ],
   "daily_cost_millions": [
     3000,
@@ -315,6 +322,13 @@
     85,
     85,
     85,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
     500,
     500,
     500,
@@ -555,7 +569,14 @@
     "Day 181 (August 27, Thursday) — Qatar's prime minister visited Tehran to de-escalate. PortWatch counted just 3 Hormuz transits on Aug 23 (vs ~85/day pre-crisis), though US escort operations helped move more than 15 million barrels out on one day (~8M bpd on a 7-day average, per Energy Sec. Chris Wright), with Goldman Sachs estimating Persian Gulf exports had recovered to ~15-16M bpd (vs a ~5-6M March trough and 22-24M pre-war). CUMULATIVE: ~$42.8B. Daily rate HELD at $500M (likely overstated during the pause).",
     "Day 182 (August 28, Friday) — SIX-MONTH MARK. Markets grew 'accustomed to stalemate' (CNBC): VIX 14.43, the S&P ~1.3% below its record, Brent down ~5% on the week. Trump touted a Venezuela oil-reserves deal (aspirational, no near-term output). CUMULATIVE: ~$43.3B on the independent phased tracker, against a Pentagon official figure of ~$29B and independent broader-economic-cost estimates of $50-100B+. Daily rate HELD at $500M (flagged as likely overstated: no strikes on Iranian soil in six-plus months of standby, though blockade/escort costs persist).",
     "Day 183 (August 29, Saturday) — New Supreme Leader Mojtaba Khamenei urged Iran to gradually phase out the US dollar; President Pezeshkian said Iranian trade had fallen 25-35% and crude export loadings were down more than 80% year-on-year (Kpler). CUMULATIVE: ~$43.8B. Daily rate HELD at $500M (likely overstated during the pause).",
-    "Day 184 (August 30, Sunday) — The Strait of Hormuz remained closed and the strike pause on Iranian soil held at roughly 30+ consecutive nights; the conflict ran entirely on sanctions and diplomacy. CUMULATIVE: ~$44.3B on the independent phased tracker. Daily rate HELD at $500M (flagged as likely overstated during the strike pause — an independent, unofficial model)."
+    "Day 184 (August 30, Sunday) — The Strait of Hormuz remained closed and the strike pause on Iranian soil held at roughly 30+ consecutive nights; the conflict ran entirely on sanctions and diplomacy. CUMULATIVE: ~$44.3B on the independent phased tracker. Daily rate HELD at $500M (flagged as likely overstated during the strike pause — an independent, unofficial model).",
+    "Day 185 (August 31, Monday) — The strike pause breaks: over the weekend the IRGC tried to mine the Strait of Hormuz, CENTCOM struck Iranian rocket launchers in response, and Iran fired eight missiles at a US base in Jordan (all intercepted). Kinetic operations resumed atop the standing naval blockade and Hormuz escort mission, so the modeled ~$500M/day rate again reflects active strike and naval sorties. Cumulative ~$44.8B (modeled).",
+    "Day 186 (September 1, Tuesday) — CENTCOM formally announced resumed strikes to protect Hormuz shipping; a US wave on southern/western Iran (incl. a Kuhestak/Sirik wedding-area strike and Khuzestan) killed at least 18 (Iran Health Ministry). Modeled ~$500M/day; cumulative ~$45.3B.",
+    "Day 187 (September 2, Wednesday) — Iran struck Gulf and allied bases (13 missiles into Jordan; attacks on Kuwait, Bahrain and near Erbil) and the US began striking Iran's tanker fleet ('tanker for tanker,' 2 tankers Sep 2). Only 6 commodity vessels transited Hormuz Wed vs 11 Tue and a 10-day average near 13. Modeled ~$500M/day; cumulative ~$45.8B.",
+    "Day 188 (September 3, Thursday) — Kuwait's army fended off Iranian missile and drone attacks; VP Vance ruled out talks unless Iran stops attacking Hormuz shipping, and Israel threatened 'crippling' infrastructure strikes. Modeled ~$500M/day; cumulative ~$46.3B.",
+    "Day 189 (September 4, Friday) — Oil capped its strongest week since mid-July (Brent ~$96, +~8-9% wk; WTI ~$91.5, +~10% wk) while equities fell on a hot August jobs report. Modeled ~$500M/day; cumulative ~$46.8B.",
+    "Day 190 (September 5, Saturday) — The IRGC launched ballistic missiles at a US aircraft carrier and a destroyer (both missed); CENTCOM destroyed/disabled 3 Iranian tankers in response (incl. M/T Kylo/'Noxen'), extending the 'tanker for tanker' economic-strike doctrine. Modeled ~$500M/day; cumulative ~$47.3B.",
+    "Day 191 (September 6, Sunday) — Iran's parliament speaker Ghalibaf declared 'the era of proportionate responses is over,' calling the week's strikes on US bases 'only the beginning'; OPEC+ met, widely expected to hold October output steady. Modeled ~$500M/day; cumulative ~$47.8B."
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
@@ -712,7 +733,12 @@
       "Aug 21",
       "Aug 22",
       "Aug 23",
-      "Aug 24"
+      "Aug 24",
+      "Aug 31",
+      "Sep 1",
+      "Sep 2",
+      "Sep 3",
+      "Sep 4"
     ],
     "data": [
       50,
@@ -867,9 +893,14 @@
       7,
       null,
       3,
+      null,
+      null,
+      11,
+      6,
+      null,
       null
     ],
     "prewar_daily": 50
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-06"
 }
