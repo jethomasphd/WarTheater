@@ -9565,5 +9565,68 @@
     "category": "political",
     "source": "CNBC; Press TV; Kpler",
     "data_point": "Dollar phase-out call; trade -25-35%; exports -80% y/y"
+  },
+  {
+    "date": "2026-08-31",
+    "time": "",
+    "title": "US resumes strikes on Iran after ~30-night pause",
+    "description": "Over the weekend the IRGC attempted to lay sea mines in the Strait of Hormuz; CENTCOM struck Iranian rocket launchers in response, and Iran fired eight missiles at a US base in Jordan, all intercepted. It was the first US strike on Iran-associated targets in about a month, ending the kinetic pause that had held since ~Aug 1.",
+    "category": "military",
+    "source": "CENTCOM; NPR; Townhall; Axios",
+    "data_point": "Strike pause ends (~30 nights); 8 Iranian missiles intercepted"
+  },
+  {
+    "date": "2026-09-01",
+    "time": "",
+    "title": "CENTCOM formally announces resumed strikes; US hits southern Iran",
+    "description": "CENTCOM said it resumed strikes on IRGC targets to protect Hormuz shipping and US forces. Trump said the US was 'striking Iranian Targets near the Strait of Hormuz.' A US wave on southern/western Iran killed at least 18 and wounded 142 (Iran Health Ministry), including a strike near a wedding in Kuhestak/Sirik. At the SCO summit in Kyrgyzstan, President Pezeshkian offered to restore the June interim ceasefire if Washington reciprocated.",
+    "category": "military",
+    "source": "CENTCOM; NPR; GlobalSecurity; Iran Health Ministry/IRIB",
+    "data_point": "US wave on southern Iran; 18 killed (Iran MoH); wedding strike"
+  },
+  {
+    "date": "2026-09-02",
+    "time": "",
+    "title": "Iran strikes Gulf/allied bases; US begins striking Iranian tankers",
+    "description": "Iran fired 13 missiles into Jordan (King Hussein and Al-Azraq; 3 impacts, no damage) and attacked Kuwait, Bahrain (Shaikh Isa) and US positions near Erbil, where 10 explosive drones were intercepted. The IRGC claimed strikes on Camp Titin and a downed US MQ-9. The US struck two Iranian government tankers under a 'tanker for tanker' policy. Iran accused the US of bombing a wedding in Kuhestak, killing at least five.",
+    "category": "military",
+    "source": "Washington Times; GlobalSecurity; Asharq Al-Awsat; Times of Israel; CBS News",
+    "data_point": "Iran hits Gulf bases; US 'tanker for tanker' (2 tankers)"
+  },
+  {
+    "date": "2026-09-03",
+    "time": "",
+    "title": "Vance rules out talks; Israel threatens 'crippling' strikes; Kuwait attacked",
+    "description": "VP JD Vance said the US will not negotiate with Tehran unless Iran stops attacking commercial shipping in the Strait of Hormuz, and said he would not call the conflict a war. Israel's defense minister threatened 'crippling' strikes on Iran's military and energy infrastructure. Kuwait's army said it was fending off Iranian missile and drone attacks.",
+    "category": "diplomatic",
+    "source": "CNBC; Vantage; TradingEconomics; CBS News",
+    "data_point": "Vance: no talks until Hormuz attacks stop; Israel threat"
+  },
+  {
+    "date": "2026-09-04",
+    "time": "",
+    "title": "Trump calls Iran 'small potatoes'; oil posts strongest week since mid-July",
+    "description": "Trump said the war is 'small potatoes' and that the US has 'essentially' taken over Iran, downplaying active strikes. Oil capped its best week since mid-July (Brent ~$96, WTI ~$91.5, both up ~8-10%). US equities instead fell on a hotter-than-expected August jobs report (162,000 vs ~55,000 expected) that raised September Fed rate-hike odds to ~58%; the S&P 500 slipped 0.38% to 7,718.60.",
+    "category": "economic",
+    "source": "ABC News; TradingEconomics; CNBC; Bloomberg; Washington Post",
+    "data_point": "Oil +~9% wk; S&P -0.38% on hot jobs report"
+  },
+  {
+    "date": "2026-09-05",
+    "time": "",
+    "title": "Iran targets US carrier; US destroys/disables three Iranian tankers",
+    "description": "The IRGC launched ballistic missiles at a US aircraft carrier and a destroyer in the Gulf of Oman area; neither was hit. CENTCOM retaliated by permanently disabling two Iranian oil tankers and destroying a third (including M/T Kylo/'Noxen'). Adm. Brad Cooper framed it as an economic-cost doctrine: 'If you shoot at two of our ships... taking out three of yours.' The IRGC Navy claimed it had hit three tankers on an 'unauthorized route' plus three US-affiliated vessels.",
+    "category": "military",
+    "source": "CENTCOM; ABC News; AP",
+    "data_point": "IRGC targets US carrier (missed); US destroys 3 tankers"
+  },
+  {
+    "date": "2026-09-06",
+    "time": "",
+    "title": "Iran: 'the era of proportionate responses is over'; OPEC+ meets",
+    "description": "Iran's chief negotiator and parliament speaker Mohammad Bagher Ghalibaf said 'the era of proportionate responses is over' and called this week's strikes on US bases 'only the beginning,' warning of 'faster, heavier, and more painful' responses. OPEC+ met, widely expected to keep October output unchanged after a 188,000 b/d September addition by seven members.",
+    "category": "diplomatic",
+    "source": "ABC News; Vantage; Reuters",
+    "data_point": "Ghalibaf: proportionate responses 'over'; OPEC+ holds"
   }
 ]

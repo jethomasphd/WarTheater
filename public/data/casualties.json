@@ -183,7 +183,14 @@
     "Aug 27",
     "Aug 28",
     "Aug 29",
-    "Aug 30"
+    "Aug 30",
+    "Aug 31",
+    "Sep 1",
+    "Sep 2",
+    "Sep 3",
+    "Sep 4",
+    "Sep 5",
+    "Sep 6"
   ],
   "day_contexts": [
     "Day 1 — First strikes, Minab school (165+ killed), Iranian retaliation",
@@ -369,7 +376,14 @@
     "Day 181 (August 27, Thursday) — No new deaths on any tracked national line. Qatar's prime minister visited Tehran to de-escalate. DCAS (via Spectrum News) updated the US wounded total to 759 (417 Epic Fury + 342 overseas since Jul 7).",
     "Day 182 (August 28, Friday) — No new deaths on any tracked national line. SIX-MONTH MARK. STANDING RANGES, published with attribution rather than merged: Iranian dead — HRANA 3,636 (1,701 civilian including at least 254 children, 1,221 military, 714 unclassified), Iran's Foundation of Martyrs 3,468, Al Jazeera's six-month compilation at least 3,527, US/Israeli estimates 6,000+. US — 18 KIA (14 Epic Fury + 4 overseas operations per DCAS; unchanged, most recent death July 18 at Erbil) and 759 WIA per DCAS (Spectrum News, Aug 27: 417 Epic Fury + 342 overseas since Jul 7); Al Jazeera cites 757 (Pentagon). Do not merge the DCAS and Al Jazeera figures. Israeli — at least 32 IDF KIA and at least 60 total deaths including 28 civilians from Iranian and Hezbollah attacks (Al Jazeera six-month). Lebanese — at least 4,350 killed and 12,510 injured since Mar 2 per the Lebanese Health Ministry (Al Jazeera six-month, Aug 28), up from ~4,319 on continued Israeli strikes independent of the Iran pause. Gulf states — 28-51 across the UAE, Kuwait, Bahrain, Saudi Arabia and Oman. Iraqi — ~119+, unchanged in-window. ACTIVITY (ACLED): at least 3,580 US/Israeli attacks on Iran and ~2,053 Iranian attacks region-wide since Feb 28. TRACKED SEPARATELY, not war deaths: at least 901 people have been executed in Iran since January 2026, 28 of them in August (Abdorrahman Boroumand Center).",
     "Day 183 (August 29, Saturday) — No new deaths on any tracked national line. New Supreme Leader Mojtaba Khamenei urged Iran to gradually phase out the US dollar; President Pezeshkian said Iranian trade had fallen 25-35%.",
-    "Day 184 (August 30, Sunday) — No new deaths on any tracked national line. The Strait of Hormuz remained closed and the strike pause on Iranian soil held at roughly 30+ consecutive nights."
+    "Day 184 (August 30, Sunday) — No new deaths on any tracked national line. The Strait of Hormuz remained closed and the strike pause on Iranian soil held at roughly 30+ consecutive nights.",
+    "Day 185 (August 31, Monday) — Weekend strikes begin as the ~30-night pause breaks; no confirmed deaths on any tracked national line. Over the weekend the IRGC tried to mine the Strait of Hormuz, CENTCOM struck Iranian rocket launchers in response, and Iran fired eight missiles at a US base in Jordan (all intercepted).",
+    "Day 186 (September 1, Tuesday) — A US wave on southern/western Iran killed at least 18 and wounded 142 (Iran Health Ministry), including at least 5 at a wedding in Kuhestak/Sirik and ~4 IRGC Aerospace among 7 killed in Khuzestan. The 4-military / 14-civilian split shown here is an APPROXIMATE, unreconciled apportionment of the Health Ministry's 18 (AFP earlier said 11); figures are attributed to Iranian authorities and not independently verified.",
+    "Day 187 (September 2, Wednesday) — Iran's strikes on Gulf and allied bases caused no confirmed host-nation deaths; IRGC claims of US dead at Camp Titin and Shaikh Isa are UNVERIFIED. The US struck two Iranian government tankers with no crew casualties. No new confirmed deaths on tracked lines.",
+    "Day 188 (September 3, Thursday) — No confirmed new deaths on tracked national lines. Kuwait's army said it was fending off Iranian missile and drone attacks; VP Vance ruled out talks unless Iran stops attacking Hormuz shipping.",
+    "Day 189 (September 4, Friday) — An Israeli strike on Tyre, Nabatieh and the Bekaa reportedly killed 3 and wounded 23 (Lebanese MoH via militaryspend), logged here on the Lebanese line; it is not yet folded into a new MoH cumulative. Lebanon remains a parallel front, decoupled from the Iran strikes.",
+    "Day 190 (September 5, Saturday) — The IRGC launched ballistic missiles at a US aircraft carrier and destroyer (both missed); the US destroyed/disabled 3 Iranian tankers in response. No reported casualties in the naval exchange.",
+    "Day 191 (September 6, Sunday) — No new confirmed deaths on tracked national lines. Iran's parliament speaker Ghalibaf declared 'the era of proportionate responses is over,' calling the week's strikes on US bases 'only the beginning.'"
   ],
   "datasets": {
     "iranian_military": {
@@ -554,6 +568,13 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
         0,
         0,
         0,
@@ -748,6 +769,13 @@
         0,
         0,
         0,
+        0,
+        0,
+        14,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffffff"
@@ -896,6 +924,13 @@
         0,
         3,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -1128,6 +1163,13 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
         0
       ],
       "color": "#7b3fa0"
@@ -1318,10 +1360,17 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffc832"
     }
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-06"
 }

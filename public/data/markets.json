@@ -126,7 +126,12 @@
     "Aug 25",
     "Aug 26",
     "Aug 27",
-    "Aug 28"
+    "Aug 28",
+    "Aug 31",
+    "Sep 1",
+    "Sep 2",
+    "Sep 3",
+    "Sep 4"
   ],
   "contexts": [
     "Pre-war close — baseline",
@@ -255,7 +260,12 @@
     "Day 179 (August 25, Tuesday) — Stocks edged up as the market reframed Iran from a supply shock to a sanctions story: S&P 500 +0.32% to 7,677.28, Nasdaq +0.66% to 26,151.30, Dow +0.3% to 53,577.40. Treasury yields fell and chipmakers rallied ahead of Nvidia's earnings. WTI dropped ~3% and Brent fell 3.9% to $88.58 after Treasury launched 'Operation Economic Outcast' and as two Strait of Hormuz tanker strikes were judged to lower, not raise, the odds of renewed fighting. The war premium kept compressing.",
     "Day 180 (August 26, Wednesday) — A quiet, range-bound session before Nvidia: S&P 500 -0.02% to 7,675.70, Nasdaq -0.08% to 26,130.20, Dow -0.21% to 53,463.88. July PCE inflation ran hotter than expected at 3.7% y/y (core 3.3%), tempering rate-cut hopes. Oil came off its lows after Iran and Oman announced a Strait of Hormuz revenue-sharing framework, though the strait stayed closed. Equities remained largely decoupled from the conflict.",
     "Day 181 (August 27, Thursday) — Nvidia's upbeat revenue guidance powered a tech rally: Nasdaq +1.57% to 26,541.35, S&P 500 +0.72% to 7,730.99, Dow +0.2% to 53,569.44. Qatar's prime minister visited Tehran to de-escalate after the Hormuz tanker attacks. With the strike pause holding and oil in the $80s, stocks pushed back toward record territory.",
-    "Day 182 (August 28, Friday) — Stocks slipped on a hawkish Jackson Hole: S&P 500 -0.25% to 7,711.76, Nasdaq -0.52% to 26,402.42, Dow -0.02% to 53,559.99. Fed Chair Warsh's speech pushed September rate-hike odds to ~50%. On the war's six-month mark, the VIX closed at 14.43 and the S&P sat ~1.3% below its Aug 13 record (7,816.70) — CNBC framed it as markets becoming 'accustomed to stalemate.' Brent ended the week down ~5%."
+    "Day 182 (August 28, Friday) — Stocks slipped on a hawkish Jackson Hole: S&P 500 -0.25% to 7,711.76, Nasdaq -0.52% to 26,402.42, Dow -0.02% to 53,559.99. Fed Chair Warsh's speech pushed September rate-hike odds to ~50%. On the war's six-month mark, the VIX closed at 14.43 and the S&P sat ~1.3% below its Aug 13 record (7,816.70) — CNBC framed it as markets becoming 'accustomed to stalemate.' Brent ended the week down ~5%.",
+    "Day 185 (August 31, Monday) — Energy and tech shares jumped to start the week as the US-Iran strike pause broke over the weekend (TheStreet: 'Energy, tech jump as Iran conflict disrupts stocks'). PROVISIONAL: the Aug 31 close was not individually confirmed this cycle.",
+    "Day 186 (September 1, Tuesday) — The Nasdaq and Russell 2000 dipped as CENTCOM confirmed resumed strikes on Iranian targets near the Strait of Hormuz (TheStreet: 'Nasdaq, Russell 2000 dip as US strikes Iranian targets'). PROVISIONAL: close not individually confirmed.",
+    "Day 187 (September 2, Wednesday) — The S&P 500 rebounded after back-to-back losses even as Iran struck Gulf and allied bases and the US began striking Iranian tankers (CNBC/TheStreet). PROVISIONAL: close not individually confirmed.",
+    "Day 188 (September 3, Thursday) — Equities rose a second day: S&P 500 +1.06% to 7,747.71, Nasdaq 26,584.06, Dow 53,686.11 (CNBC/Yahoo). VP Vance ruled out talks with Tehran unless Iran stops attacking Hormuz shipping and Israel threatened 'crippling' strikes on Iran's infrastructure; markets stayed largely decoupled from the war.",
+    "Day 189 (September 4, Friday) — Stocks fell on a hotter-than-expected August jobs report (162K vs ~55K expected; unemployment 4.1%) that lifted September Fed rate-hike odds to ~58% (CME FedWatch); Treasury 2-yr yields hit their highest since Jan 2025. The S&P 500 (-0.38% to 7,718.60), Dow (-0.51% to 53,414.25) and Nasdaq (-0.29% to 26,506.99) all fell, though equities notably decoupled from the renewed war; Russell 2000 2,975.65, VIX 14.53. On the week: S&P ~+0.1%, Dow -0.3%, Nasdaq +0.4%. US markets closed Mon Sep 7 for Labor Day."
   ],
   "datasets": {
     "sp500": {
@@ -387,7 +397,12 @@
         110.69,
         110.67,
         111.47,
-        111.19
+        111.19,
+        111.5,
+        110.9,
+        110.6,
+        111.72,
+        111.3
       ],
       "color": "#ef4444"
     },
@@ -488,6 +503,11 @@
         117.0,
         117.5,
         118.5,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -653,6 +673,11 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#d4a020"
@@ -786,10 +811,15 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-08-30"
+  "last_updated": "2026-09-06"
 }
