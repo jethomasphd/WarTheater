@@ -1,47 +1,47 @@
 {
-  "last_updated": "2026-08-30",
-  "war_day": 184,
-  "timestamp_label": "LAST UPDATED: AUG 30, 2026 19:12 ET",
+  "last_updated": "2026-09-06",
+  "war_day": 191,
+  "timestamp_label": "LAST UPDATED: SEP 06, 2026 16:28 ET",
   "cost": {
     "brent": {
-      "price": 88.58,
-      "label": "Brent crude (Oct) - $88.58 (Aug 25 ICE settle, -3.9%; -~5% wk)",
-      "change": "▼ Brent settled $88.58 on Aug 25 (ICE Oct-2026 front month, -3.9% on the day), down $5.81 from the $94.39 Aug 21 settle and about 5% on the week. The market reframed Iran as a sanctions story rather than a supply shock after Treasury's 'Operation Economic Outcast' launch, and two Hormuz tanker strikes were read as lowering, not raising, the odds of renewed fighting. Aug 26-28 quotes (~$87.65-88.80) are PROVISIONAL. ~25% above the $71.00 Feb 27 baseline, well off the ~$119 March peak.",
-      "tooltip": "International benchmark, ICE Brent front-month (now the Oct 2026 contract). Fell ~5% on the week as the market reframed Iran as a sanctions story rather than a supply crisis. Aug 25 is the last CONFIRMED settle; Aug 26-28 are provisional."
+      "price": 96.28,
+      "label": "Brent crude (Oct) - ~$96.28 (Sep 4, +0.8% day; +~8-9% wk) - PROVISIONAL",
+      "change": "▲ Brent traded ~$96.28 on Sep 4 (ICE Oct-2026 front month; TradingEconomics CFD close, +0.8% on the day), up from the $88.58 Aug 25 settle and about 8-9% on the week - its strongest week since mid-July. Intraday Sep 4 ranged ~$95.22 (Vantage open) to $96.90 (Fortune 9am ET) to $97.36 (Vantage 09:56 GMT+8). The move reversed the late-Aug 'sanctions story' compression: US-Iran strikes resumed Aug 31-Sep 1 for the first time in ~a month, Iran retaliated against Gulf bases and Hormuz shipping, and on Sep 5 targeted a US carrier. ~35% above the $71.00 Feb 27 baseline. NOTE: not an official ICE settle - refine when the Sep 4 ICE Brent Oct settle is located.",
+      "tooltip": "ICE Brent front-month (Oct 2026). Up ~8-9% on the week as the kinetic war reignited after a ~30-night pause; strongest weekly gain since mid-July. Sep 4 figure is a CFD close, provisional."
     },
     "wti": {
-      "price": 82.36,
-      "label": "WTI crude (Oct) - $82.36 (Aug 25 NYMEX settle, -3.1%; Oct futures $83.40 Aug 28)",
-      "change": "▼ WTI settled $82.36 on Aug 25 (NYMEX Oct-2026 front month, -3.1% on the day), down $4.70 from the $87.06 Aug 21 settle. The Oct contract closed $83.40 on Aug 28 (Yahoo). ~24% above the $66.50 Feb 27 baseline.",
-      "tooltip": "US benchmark, NYMEX WTI front-month (Oct 2026 contract). Aug 25 is the last CONFIRMED settle; Aug 26-28 are provisional, with the Oct contract at $83.40 on Aug 28."
+      "price": 91.48,
+      "label": "WTI crude (Oct) - ~$91.48 (Sep 4 NYMEX Oct ref, +0.2% day; +~10% wk)",
+      "change": "▲ WTI (NYMEX Oct-2026) ~$91.48 on Sep 4 (Yahoo Oct-contract quote, +0.2% on the day), up from the $82.36 Aug 25 settle. Oilprice.com: 'October WTI... $91.80 Thursday night, up $8.36 or 10.02% for the week so far.' ~38% above the $66.50 Feb 27 baseline. NOTE: verify against the official NYMEX Oct settle.",
+      "tooltip": "NYMEX WTI front-month (Oct 2026). Up ~10% on the week on the resumption of US-Iran strikes and renewed Hormuz risk. Sep 4 figure is a quote/CFD reference, provisional."
     },
     "gas": {
-      "price": 4.09,
-      "label": "AAA national average, regular unleaded - $4.09 (Aug 27 release)",
-      "change": "◆ AAA national average $4.09 (Aug 27 release; $4.08 on Aug 28), essentially flat on the week (-$0.01). Up ~$1.09 / +36.5% vs the $2.99 Feb baseline; the May 21 peak was $4.55. With Brent back in the $80s, further pump upside has eased.",
-      "tooltip": "AAA national average for regular unleaded, up ~37% since the war began (+$1.09 / +36.5% vs $2.99). Per AAA (Aug 27): 'For the first time ever, the national average in August has been above $4 per gallon every day... poised to set a new record as the most expensive August at the pump.' State highs: California $5.59, Hawaii $5.43, Washington $5.24."
+      "price": 4.15,
+      "label": "AAA national average, regular unleaded - $4.15 (Sep 4-6)",
+      "change": "◆ AAA national average ~$4.15 (AAA live $4.1473; MacroMicro Sep 6 $4.15 flat; Choose Energy $4.15 on Sep 4; Finder $4.17 on Sep 3). Up only ~$0.06-0.07 on the week despite the oil spike - the pump lags crude and the seasonal winter-blend switch is near. Up ~$1.16 / +38.8% vs the $2.99 Feb baseline; the May 21 peak was $4.55.",
+      "tooltip": "AAA national average for regular unleaded, up ~39% since the war began (+$1.16 vs $2.99). Rose only modestly this week even as crude jumped ~8-10% - a lag effect. State highs (Sep 4): California $5.81, Hawaii ~$5.43, Washington ~$5.13."
     },
     "sp500": {
-      "value": 7711.76,
-      "label": "S&P 500 - 7,711.76 (Aug 28 close, -0.25%; +0.49% wk)",
-      "change": "▲ S&P 500 closed 7,711.76 on Aug 28 (-0.25% on the day), up +0.49% from 7,674.37 on Aug 21. The index sits ~1.3% below its Aug 13 record close of 7,816.70. Markets stayed calm at the six-month mark, the VIX closing at 14.43 as equities decoupled from the conflict.",
-      "tooltip": "S&P 500 at the six-month mark: ~1.3% below the Aug 13 record (7,816.70), VIX 14.43. CNBC framed it as markets becoming 'accustomed to stalemate' - the war premium is compressing as Iran is priced as a sanctions story rather than a supply shock."
+      "value": 7718.6,
+      "label": "S&P 500 - 7,718.60 (Sep 4 close, -0.38%; ~+0.1% wk)",
+      "change": "▲ S&P 500 closed 7,718.60 on Sep 4 (-0.38% on the day), up just ~+0.1% on the week and +0.09% from 7,711.76 on Aug 28. Equities DECOUPLED from the war: the index rose on Wed-Thu, then slipped Friday on a hot August jobs report (162K vs ~55K expected) that pushed September Fed rate-HIKE odds to ~58% (CME FedWatch). VIX 14.53. The war premium stayed compressed even as strikes resumed. Still ~1.3% below the Aug 13 record close of 7,816.70.",
+      "tooltip": "S&P 500 at Day 191, VIX 14.53. Markets largely ignored the renewed strikes and traded on macro instead - the Fri decline was a jobs-report/rate-hike story, not a war story. Nasdaq 26,506.99 (-0.29%), Dow 53,414.25 (-0.51%) on Sep 4."
     },
     "daily_cost": {
       "value": 500,
       "unit": "M/day",
       "label": "Estimated daily war cost",
-      "change": "HELD at ~$500M/day (modeled) - but LIKELY OVERSTATED: kinetic operations against Iran have been paused ~30+ nights. The naval blockade, Hormuz escort mission and 20+ supporting warships continue, but no strike sorties have been flown against Iranian soil since ~Aug 1.",
-      "tooltip": "CSIS senior adviser Mark Cancian estimated the campaign was costing ~'half a billion dollars every day' (Irish Times, Apr 7). LIKELY OVERSTATED during the strike pause - CSIS assessed 'under $100 million/day' for a comparable standby posture (Apr 30), though the naval blockade continues. Held pending a Pentagon update; independent/unofficial.",
-      "note": "METHOD CARRY-FORWARD, not a new sourced figure, and likely overstated during the strike pause. No new AEI/CSIS daily estimate surfaced in-window; the $500M/day convention is extended with a pause caveat."
+      "change": "HELD at ~$500M/day (modeled). The 'likely overstated during the pause' caveat is REMOVED this cycle: kinetic operations RESUMED (US strikes on southern Iran plus 5 Iranian tankers Sep 1-5, Iranian strikes on Gulf bases), so active strike sorties and naval strikes are again being flown atop the standing naval blockade and Hormuz escort mission.",
+      "tooltip": "CSIS's Cancian estimated ~'half a billion dollars every day' (Irish Times, Apr 7). With the strike pause broken and both sides exchanging fire, the daily-rate convention is again defensible. Modeled/independent, not an official Pentagon figure.",
+      "note": "METHOD CARRY-FORWARD at $500M/day. Reverse the pause caveat: kinetic ops resumed Aug 31-Sep 1."
     },
     "total_cost": {
-      "value": 44.3,
+      "value": 47.8,
       "unit": "B",
       "label": "Cumulative estimated war cost",
-      "change": "~$44.3B through Day 184 on the independent phased tracker (modeled: ~$41.3B at Day 178 + 6x$500M). Modeled/independent, not an official figure, and likely overstated given the kinetic pause.",
-      "tooltip": "~$44.3B through Day 184 on the independent tracker (modeled). The Pentagon's official figure was $29B (Comptroller Hurst, May 12); the Penn Wharton Budget Model estimated a ~$42.5B base-case two-month total; broader economic-cost estimates run $50-100B+. The daily-rate model likely overstates the current burn during the strike pause.",
-      "note": "INDEPENDENT TRACKER (modeled): ~$44.3B at Day 184, extended from ~$41.3B at Day 178 at the $500M/day convention. Flag as modeled/independent and likely overstated during the pause - not an official Pentagon figure."
+      "change": "~$47.8B through Day 191 on the independent phased tracker (modeled: ~$44.3B at Day 184 + 7 x $500M). Modeled/independent, not an official figure.",
+      "tooltip": "~$47.8B through Day 191 (modeled). Pentagon official was $29B (Comptroller Hurst, May 12); Penn Wharton estimated a ~$42.5B two-month base case; an AEI estimate put cumulative Epic Fury costs above $42B in June. The daily-rate model is again defensible now that strikes have resumed.",
+      "note": "INDEPENDENT TRACKER (modeled): ~$47.8B at Day 191, extended from ~$44.3B at Day 184 at $500M/day."
     }
   },
   "history": [
