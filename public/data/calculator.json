@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.09,
-  "war_increase": 1.09,
+  "current_gas": 4.15,
+  "war_increase": 1.16,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.58 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA national average $4.09 (Aug 27, 2026 release; $4.08 on Aug 28, Day 182); roughly flat on the week (-$0.01). Up ~$1.09 / +36.5% vs $2.99 pre-war baseline. May 21 peak was $4.55. Per AAA (Aug 27 release): 'For the first time ever, the national average in August has been above $4 per gallon every day. This month is poised to set a new record as the most expensive August at the pump, surpassing the previous August record set in 2022.' Brent fell into the $80s ($88.58 Aug 25 settle, ~-5% on the week) as the market reframed Iran as a sanctions story rather than a supply shock, easing further pump upside. No state-level AAA breakdown re-collected this cycle - state premiums carried unchanged.",
-  "last_updated": "2026-08-30"
+  "source": "AAA national average $4.15 (AAA live $4.1473; MacroMicro Sep 6 $4.15 flat; Choose Energy $4.15 on Sep 4; Finder $4.17 on Sep 3), up ~+$0.06 on the week despite the oil spike - the pump lags crude and the seasonal winter-blend switch is near. Up ~$1.16 / +38.8% vs the $2.99 pre-war baseline; the May 21 peak was $4.55. The ~30-night US-Iran strike pause broke Aug 31 and Brent jumped back near $96 (+~8-9% on the week) on the war's resumption, so further pump upside is likely once the crude move filters through the retail chain. State highs (Choose Energy, Sep 4): California $5.81, Hawaii ~$5.43, Washington ~$5.13. No state-level AAA breakdown re-collected this cycle - state premiums carried unchanged.",
+  "last_updated": "2026-09-06"
 }
