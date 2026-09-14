@@ -1,0 +1,2 @@
+sample,residual_correlation,shared_same_day_share_rho2,note
+"combat (Days 1-40), VAR(1)",0.62,0.385,rho^2 equals the h=1 share credited to whichever series is ordered first

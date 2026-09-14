@@ -1,0 +1,7 @@
+measure,sample,same_day_r,p_value,strike_total,retal_total
+primary (distinct locations),combat (Days 1-40),0.687,9.57e-07,281,412
+primary (distinct locations),full (Days 1-170),0.831,1.18e-44,386,621
+raw event rows,combat (Days 1-40),0.62,1.98e-05,739,413
+raw event rows,full (Days 1-170),0.796,1.51e-38,967,622
+timeline-only discrete events,combat (Days 1-40),0.336,0.0342,29,94
+timeline-only discrete events,full (Days 1-170),0.348,3.36e-06,53,162

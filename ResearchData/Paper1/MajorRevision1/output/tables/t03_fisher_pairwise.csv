@@ -1,0 +1,4 @@
+comparison,r_a,n_a,r_b,n_b,z,p_raw,p_holm
+Major Combat vs First Ceasefire,0.687,40,0.178,89,3.374,0.0007,0.0021
+First Ceasefire vs Resumption,0.178,89,0.662,23,-2.487,0.0129,0.0258
+Major Combat vs Resumption,0.687,40,0.662,23,0.165,0.8686,0.8686

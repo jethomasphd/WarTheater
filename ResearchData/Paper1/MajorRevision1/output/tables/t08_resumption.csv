@@ -1,0 +1,5 @@
+sample,measure,n_days,lag_criterion,lag,n_obs_used,direction,F,df,p_value,significant_05,ccf_retal_leads_strikes_1d,ccf_strikes_lead_retal_1d,status
+Resumption (Days 130-152),primary (distinct locations),23,BIC (min 1),1,22,strikes -> retal,3.132,"(1, 38)",0.0848,False,0.445,-0.06,"suggestive: 23 days, ~22 usable observations"
+Resumption (Days 130-152),primary (distinct locations),23,BIC (min 1),1,22,retal -> strikes,5.341,"(1, 38)",0.0264,True,0.445,-0.06,"suggestive: 23 days, ~22 usable observations"
+Resumption (Days 130-152),raw event rows,23,BIC (min 1),1,22,strikes -> retal,0.957,"(1, 38)",0.334,False,0.188,-0.064,"suggestive: 23 days, ~22 usable observations"
+Resumption (Days 130-152),raw event rows,23,BIC (min 1),1,22,retal -> strikes,0.081,"(1, 38)",0.7774,False,0.188,-0.064,"suggestive: 23 days, ~22 usable observations"

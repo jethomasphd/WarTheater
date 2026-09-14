@@ -1,0 +1,6 @@
+finding,claim,statistic
+1,"Reciprocity is same-day, not lagged",same-day r = 0.69 in combat; every criterion selects lag 0; Granger p = 0.78 and 0.44
+2,The coupling switches with the political regime,r = 0.69 (combat) vs 0.18 (ceasefire) vs 0.66 (resumption); Fisher z p = 0.0007
+3,Who set the tempo is not identified at daily resolution,FEVD 41% vs 2% under one ordering; 44% vs 0.2% under the other
+4,The balance flipped and retaliation's reach saturated early,"strike:retaliation ratio 0.68 -> 1.42; 13 countries by Day 22, none after"
+5,"Diplomacy moves with the regime, not the week","weekly r = 0.06 (n.s.); diplomacy/day 3.22 (ceasefire) vs 0.39 (resumption), Kruskal-Wallis p < 0.001"

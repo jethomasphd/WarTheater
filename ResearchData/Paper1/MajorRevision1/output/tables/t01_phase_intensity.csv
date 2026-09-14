@@ -1,0 +1,5 @@
+phase,days,n_days,strikes_per_day,retal_per_day,strike_retal_ratio,diplomatic_per_day,killed_per_day,pct_days_with_strike,pct_days_with_retal
+Major Combat,1-40,40,7.02,10.3,0.68,2.62,123.6,97.5,100.0
+First Ceasefire,41-129,89,0.57,1.79,0.32,3.22,13.7,38.2,74.2
+Resumption,130-152,23,2.35,1.65,1.42,0.39,1.9,69.6,52.2
+Diplomatic Pause,153-170,18,0.0,0.67,0.0,0.72,0.6,0.0,44.4

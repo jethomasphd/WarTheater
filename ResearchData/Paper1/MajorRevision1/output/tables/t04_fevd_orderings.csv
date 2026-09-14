@@ -1,0 +1,9 @@
+ordering,variable,shock_source,share_h1,share_h6,share_h12
+"strikes first, then retaliation",strikes,strikes,1.0,0.978,0.978
+"strikes first, then retaliation",strikes,retal,0.0,0.022,0.022
+"strikes first, then retaliation",retal,strikes,0.385,0.408,0.408
+"strikes first, then retaliation",retal,retal,0.615,0.592,0.592
+"retaliation first, then strikes",retal,retal,1.0,0.998,0.998
+"retaliation first, then strikes",retal,strikes,0.0,0.002,0.002
+"retaliation first, then strikes",strikes,retal,0.385,0.437,0.437
+"retaliation first, then strikes",strikes,strikes,0.615,0.563,0.563

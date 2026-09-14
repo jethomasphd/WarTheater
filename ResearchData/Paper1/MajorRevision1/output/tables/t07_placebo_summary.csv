@@ -1,0 +1,4 @@
+null,n_draws,observed_k,observed_bic_gain,share_selecting_k1,share_selecting_k6,median_k_selected,median_bic_gain,p95_bic_gain,max_bic_gain,p_value_gain_ge_observed
+shuffled days (no time structure),1000,6,170.3,0.28,0.072,3.0,2.3,15.5,40.2,0.001
+"persistent AR(1), phi=0.71 (whole-series), no level shifts",1000,6,170.3,0.0,0.991,6.0,65.9,107.9,157.3,0.001
+"persistent AR(1), phi=0.29 (within-regime), no level shifts",1000,6,170.3,0.018,0.599,6.0,12.3,29.7,40.4,0.001

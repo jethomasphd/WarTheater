@@ -1,0 +1,12 @@
+{
+  "name": "paper1-major-revision1-manuscript",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Builds the Word manuscript for Paper 1 Major Revision 1 from the markdown source and the regenerated pipeline outputs.",
+  "scripts": {
+    "build": "node make_docx.js"
+  },
+  "dependencies": {
+    "docx": "9.7.1"
+  }
+}
