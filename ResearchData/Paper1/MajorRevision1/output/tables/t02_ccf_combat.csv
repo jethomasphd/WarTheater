@@ -1,0 +1,12 @@
+lag_days,ccf,outside_95_band,note
+-5,0.004,False,lag>0: strikes lead retaliation; lag<0: retaliation leads strikes
+-4,0.164,False,lag>0: strikes lead retaliation; lag<0: retaliation leads strikes
+-3,-0.031,False,lag>0: strikes lead retaliation; lag<0: retaliation leads strikes
+-2,0.062,False,lag>0: strikes lead retaliation; lag<0: retaliation leads strikes
+-1,0.319,True,lag>0: strikes lead retaliation; lag<0: retaliation leads strikes
+0,0.687,True,lag>0: strikes lead retaliation; lag<0: retaliation leads strikes
+1,0.331,True,lag>0: strikes lead retaliation; lag<0: retaliation leads strikes
+2,0.378,True,lag>0: strikes lead retaliation; lag<0: retaliation leads strikes
+3,0.302,False,lag>0: strikes lead retaliation; lag<0: retaliation leads strikes
+4,0.252,False,lag>0: strikes lead retaliation; lag<0: retaliation leads strikes
+5,0.111,False,lag>0: strikes lead retaliation; lag<0: retaliation leads strikes

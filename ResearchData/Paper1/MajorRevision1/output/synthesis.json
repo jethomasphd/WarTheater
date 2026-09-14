@@ -1,0 +1,144 @@
+{
+  "argument": "Strikes and retaliation moved together within the day, not across days; the coupling switched on in combat, off in the ceasefire, and on again at the resumption; which side set the tempo cannot be identified from daily data; the balance of the exchange flipped and retaliation's reach saturated by Day 22; and diplomacy tracked the regime, not the week.",
+  "finding_1_same_day": {
+    "same_day_r_combat": 0.687,
+    "ci95_combat": [
+      0.478,
+      0.823
+    ],
+    "same_day_r_full": 0.831,
+    "lag_selected_combat": {
+      "aic": 0,
+      "bic": 0,
+      "hqic": 0,
+      "fpe": 0
+    },
+    "granger_p_strikes_to_retal_combat": 0.7765,
+    "granger_p_retal_to_strikes_combat": 0.4409,
+    "irf_impact_retal_to_strike_shock": 2.28,
+    "irf_impact_ci95": [
+      1.26,
+      3.34
+    ],
+    "irf_cumulative_7day": 4.55,
+    "irf_first_horizon_band_includes_zero": 1
+  },
+  "finding_2_regime_switch": {
+    "r_combat": 0.687,
+    "r_ceasefire": 0.178,
+    "r_resumption": 0.662,
+    "p_ceasefire": 0.09527,
+    "fisher_z_combat_vs_ceasefire": 3.374,
+    "fisher_p_combat_vs_ceasefire": 0.0007,
+    "fisher_p_ceasefire_vs_resumption": 0.0129,
+    "fisher_p_combat_vs_resumption": 0.8686,
+    "holm_p_combat_vs_ceasefire": 0.0021
+  },
+  "finding_3_under_identification": {
+    "strikes_first__strike_shocks_share_of_retal_var": 0.408,
+    "strikes_first__retal_shocks_share_of_strike_var": 0.022,
+    "retal_first__retal_shocks_share_of_strike_var": 0.437,
+    "retal_first__strike_shocks_share_of_retal_var": 0.002,
+    "residual_correlation": 0.62,
+    "shared_same_day_share_rho2": 0.385
+  },
+  "finding_4_asymmetry_reach": {
+    "ratio_combat": 0.68,
+    "ratio_combat_ci95": [
+      0.59,
+      0.77
+    ],
+    "ratio_ceasefire": 0.32,
+    "ratio_resumption": 1.42,
+    "ratio_resumption_ci95": [
+      0.94,
+      2.32
+    ],
+    "countries_max": 13,
+    "day_all_countries_reached": 22,
+    "new_countries_after": 0,
+    "days_observed_after": 148
+  },
+  "finding_5_diplomacy": {
+    "weekly_r": 0.06,
+    "weekly_p": 0.7764,
+    "n_weeks": 25,
+    "weekly_spearman_rho": 0.36,
+    "granger_p_violence_to_diplomacy": 0.7495,
+    "granger_p_diplomacy_to_violence": 0.9102,
+    "diplomacy_per_day_by_phase": {
+      "Major Combat": 2.62,
+      "First Ceasefire": 3.22,
+      "Resumption": 0.39,
+      "Diplomatic Pause": 0.72
+    },
+    "kruskal_wallis_H_diplomacy": 54.98,
+    "kruskal_wallis_p_diplomacy": 6.94e-12,
+    "kruskal_wallis_eps2_diplomacy": 0.325
+  },
+  "regimes_and_placebo": {
+    "k_selected": 6,
+    "break_days": [
+      7,
+      23,
+      40,
+      131,
+      147
+    ],
+    "gaps_to_documented_boundaries": [
+      -34,
+      -18,
+      -1,
+      1,
+      -6
+    ],
+    "bic_gain_observed": 170.3,
+    "placebo": {
+      "shuffled days (no time structure)": {
+        "share_selecting_k6": 0.072,
+        "max_bic_gain": 40.2,
+        "p_value": 0.001
+      },
+      "persistent AR(1), phi=0.71 (whole-series), no level shifts": {
+        "share_selecting_k6": 0.991,
+        "max_bic_gain": 157.3,
+        "p_value": 0.001
+      },
+      "persistent AR(1), phi=0.29 (within-regime), no level shifts": {
+        "share_selecting_k6": 0.599,
+        "max_bic_gain": 40.4,
+        "p_value": 0.001
+      }
+    },
+    "macro_breaks_recovered_under_criteria": {
+      "parent": 3,
+      "yao": 3,
+      "lwz": 1
+    }
+  },
+  "scoping": {
+    "resumption_n_days": 23,
+    "resumption_n_obs_used": 22,
+    "resumption_p_retal_to_strikes_primary": 0.0264,
+    "resumption_p_strikes_to_retal_primary": 0.0848,
+    "resumption_p_retal_to_strikes_raw_rows": 0.7774,
+    "resumption_ccf_retal_leads": 0.445,
+    "resumption_ccf_strikes_lead": -0.06,
+    "full_naive_p_retal_to_strikes_aic": 0.0001,
+    "full_demeaned4_p_retal_to_strikes_aic": 0.0013,
+    "full_demeaned4_p_retal_to_strikes_lag1": 0.0552,
+    "full_demeaned6_p_retal_to_strikes_aic": 0.0009,
+    "full_demeaned6_p_retal_to_strikes_lag1": 0.2578,
+    "any_strikes_to_retal_significant": false
+  },
+  "robustness": {
+    "same_day_r_combat_by_measure": {
+      "primary (distinct locations)": 0.687,
+      "raw event rows": 0.62,
+      "timeline-only discrete events": 0.336
+    },
+    "nb_full_same_day_strikes_IRR": 1.141,
+    "nb_full_same_day_strikes_p": 0.0008,
+    "casualty_combat_min_p": 0.187
+  }
+}

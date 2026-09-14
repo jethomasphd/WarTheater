@@ -1,0 +1,6 @@
+detected_break_day,detected_date,nearest_documented_boundary,gap_days,macro_transition
+7,2026-03-06,41,-34,False
+23,2026-03-22,41,-18,False
+40,2026-04-08,41,-1,True
+131,2026-07-08,130,1,True
+147,2026-07-24,153,-6,True

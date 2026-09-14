@@ -1,0 +1,4 @@
+series,k_selected,break_days,n_macro_recovered_within_7d
+strikes,6,"7,23,40,131,147",3
+retal,6,"7,17,23,40,75",1
+strikes + retal,6,"7,31,40,135,141",2

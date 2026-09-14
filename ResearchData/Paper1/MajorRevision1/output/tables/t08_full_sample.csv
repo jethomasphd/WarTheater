@@ -1,0 +1,15 @@
+sample,lag_criterion,demeaning,lag,n_obs_used,direction,F,df,p_value,significant_05
+"Full sample, naive (levels)",AIC = 9,none,9,161,strikes -> retal,1.142,"(9, 284)",0.3327,False
+"Full sample, naive (levels)",AIC = 9,none,9,161,retal -> strikes,4.05,"(9, 284)",0.0001,True
+"Full sample, naive (levels)",BIC = 2,none,2,168,strikes -> retal,0.188,"(2, 326)",0.8287,False
+"Full sample, naive (levels)",BIC = 2,none,2,168,retal -> strikes,10.439,"(2, 326)",0.0,True
+"Full sample, regime-demeaned (4 documented phases)",AIC = 4,4 documented phases,4,166,strikes -> retal,1.295,"(4, 314)",0.2718,False
+"Full sample, regime-demeaned (4 documented phases)",AIC = 4,4 documented phases,4,166,retal -> strikes,4.583,"(4, 314)",0.0013,True
+"Full sample, regime-demeaned (4 documented phases)",HQIC = 1,4 documented phases,1,169,strikes -> retal,0.067,"(1, 332)",0.7965,False
+"Full sample, regime-demeaned (4 documented phases)",HQIC = 1,4 documented phases,1,169,retal -> strikes,3.703,"(1, 332)",0.0552,False
+"Full sample, regime-demeaned (4 documented phases)",BIC = 0 (lag 1 used: minimum feasible),4 documented phases,1,169,strikes -> retal,0.067,"(1, 332)",0.7965,False
+"Full sample, regime-demeaned (4 documented phases)",BIC = 0 (lag 1 used: minimum feasible),4 documented phases,1,169,retal -> strikes,3.703,"(1, 332)",0.0552,False
+"Full sample, regime-demeaned (6 detected regimes)",AIC = 4,"6 detected regimes (breaks [7, 23, 40, 131, 147])",4,166,strikes -> retal,0.887,"(4, 314)",0.4721,False
+"Full sample, regime-demeaned (6 detected regimes)",AIC = 4,"6 detected regimes (breaks [7, 23, 40, 131, 147])",4,166,retal -> strikes,4.833,"(4, 314)",0.0009,True
+"Full sample, regime-demeaned (6 detected regimes)",BIC = 0 (lag 1 used: minimum feasible),"6 detected regimes (breaks [7, 23, 40, 131, 147])",1,169,strikes -> retal,0.319,"(1, 332)",0.5729,False
+"Full sample, regime-demeaned (6 detected regimes)",BIC = 0 (lag 1 used: minimum feasible),"6 detected regimes (breaks [7, 23, 40, 131, 147])",1,169,retal -> strikes,1.285,"(1, 332)",0.2578,False

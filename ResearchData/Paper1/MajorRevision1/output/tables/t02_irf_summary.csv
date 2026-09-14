@@ -1,0 +1,5 @@
+shock,response,impact_response_h0,cumulative_7day,first_horizon_band_includes_zero,impact_ci95_low,impact_ci95_high
+strikes,retal,2.28,4.55,1,1.26,3.34
+retal,strikes,0.0,1.11,0,0.0,0.0
+strikes,strikes,3.82,5.92,1,2.97,4.67
+retal,retal,2.88,5.15,1,2.21,3.54

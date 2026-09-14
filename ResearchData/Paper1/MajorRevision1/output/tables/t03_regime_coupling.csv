@@ -1,0 +1,5 @@
+phase,days,n,pearson_r,ci95_low,ci95_high,p_value,note
+Major Combat,1-40,40,0.687,0.478,0.823,0.0,
+First Ceasefire,41-129,89,0.178,-0.031,0.372,0.09527,
+Resumption,130-152,23,0.662,0.344,0.844,0.00057,
+Diplomatic Pause,153-170,18,,,,,not estimable: no strikes in phase

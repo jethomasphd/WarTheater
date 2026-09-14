@@ -1,0 +1,5 @@
+sample,lag,n_obs_used,direction,F,df,p_value,significant_05
+combat (Days 1-40),1,39,strikes -> retal,0.081,"(1, 72)",0.7765,False
+combat (Days 1-40),1,39,retal -> strikes,0.601,"(1, 72)",0.4409,False
+"full (Days 1-170), naive",9,161,strikes -> retal,1.142,"(9, 284)",0.3327,False
+"full (Days 1-170), naive",9,161,retal -> strikes,4.05,"(9, 284)",0.0001,True
