@@ -190,7 +190,14 @@
     "Day 188",
     "Day 189",
     "Day 190",
-    "Day 191"
+    "Day 191",
+    "Day 192",
+    "Day 193",
+    "Day 194",
+    "Day 195",
+    "Day 196",
+    "Day 197",
+    "Day 198"
   ],
   "daily_cost_millions": [
     3000,
@@ -322,6 +329,13 @@
     85,
     85,
     85,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
     500,
     500,
     500,
@@ -576,7 +590,14 @@
     "Day 188 (September 3, Thursday) — Kuwait's army fended off Iranian missile and drone attacks; VP Vance ruled out talks unless Iran stops attacking Hormuz shipping, and Israel threatened 'crippling' infrastructure strikes. Modeled ~$500M/day; cumulative ~$46.3B.",
     "Day 189 (September 4, Friday) — Oil capped its strongest week since mid-July (Brent ~$96, +~8-9% wk; WTI ~$91.5, +~10% wk) while equities fell on a hot August jobs report. Modeled ~$500M/day; cumulative ~$46.8B.",
     "Day 190 (September 5, Saturday) — The IRGC launched ballistic missiles at a US aircraft carrier and a destroyer (both missed); CENTCOM destroyed/disabled 3 Iranian tankers in response (incl. M/T Kylo/'Noxen'), extending the 'tanker for tanker' economic-strike doctrine. Modeled ~$500M/day; cumulative ~$47.3B.",
-    "Day 191 (September 6, Sunday) — Iran's parliament speaker Ghalibaf declared 'the era of proportionate responses is over,' calling the week's strikes on US bases 'only the beginning'; OPEC+ met, widely expected to hold October output steady. Modeled ~$500M/day; cumulative ~$47.8B."
+    "Day 191 (September 6, Sunday) — Iran's parliament speaker Ghalibaf declared 'the era of proportionate responses is over,' calling the week's strikes on US bases 'only the beginning'; OPEC+ met, widely expected to hold October output steady. Modeled ~$500M/day; cumulative ~$47.8B.",
+    "Day 192 (September 7, Monday) — Labor Day: US markets and the NYMEX floor were closed. AAA pegged regular gas at a record $4.15 and OPEC+ agreed to hold October output steady. Modeled ~$500M/day; cumulative ~$48.3B.",
+    "Day 193 (September 8, Tuesday) — The US destroyed five Iranian oil tankers (Kaviz, Charminar, Horizon 1, Riesco, Derya) after the IRGC twice targeted a US warship; Brent neared $100. Modeled ~$500M/day; cumulative ~$48.8B.",
+    "Day 194 (September 9, Wednesday) — An IRGC ballistic salvo hit the Muwaffaq Salti (Al-Azraq) base in Jordan, damaging an A-10 and about eight F-15Es; Brent topped $101 (highest close since May 22). Modeled ~$500M/day; cumulative ~$49.3B.",
+    "Day 195 (September 10, Thursday) — Brent settled $107.63 / WTI $102.48 (highest close since May 19); drones from Iraq struck the Saudi East-West pipeline and Houthis pressed on Bab el-Mandeb. Modeled ~$500M/day; cumulative ~$49.8B.",
+    "Day 196 (September 11, Friday) — Houthis seized Mayun (Perim) Island, taking control of Bab el-Mandeb; Saudi shut the East-West pipeline and US diesel topped $6/gal for the first time. Modeled ~$500M/day; cumulative ~$50.3B.",
+    "Day 197 (September 12, Saturday) — Markets closed. The BRICS Delhi Declaration urged restraint on civilian and nuclear infrastructure; Iraq seized a drone-launch platform in Maysan. Modeled ~$500M/day; cumulative ~$50.8B.",
+    "Day 198 (September 13, Sunday) — An unidentified projectile struck an Iranian merchant vessel near Hengam Island (one seafarer killed); a GCC-Iran ministerial was set for Salalah on Sep 14. Modeled ~$500M/day; cumulative ~$51.3B."
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
@@ -738,7 +759,11 @@
       "Sep 1",
       "Sep 2",
       "Sep 3",
-      "Sep 4"
+      "Sep 4",
+      "Sep 7",
+      "Sep 8",
+      "Sep 9",
+      "Sep 10"
     ],
     "data": [
       50,
@@ -898,9 +923,13 @@
       11,
       6,
       null,
-      null
+      null,
+      5,
+      11,
+      6,
+      7
     ],
     "prewar_daily": 50
   },
-  "last_updated": "2026-09-06"
+  "last_updated": "2026-09-13"
 }
