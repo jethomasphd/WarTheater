@@ -190,7 +190,14 @@
     "Sep 3",
     "Sep 4",
     "Sep 5",
-    "Sep 6"
+    "Sep 6",
+    "Sep 7",
+    "Sep 8",
+    "Sep 9",
+    "Sep 10",
+    "Sep 11",
+    "Sep 12",
+    "Sep 13"
   ],
   "day_contexts": [
     "Day 1 — First strikes, Minab school (165+ killed), Iranian retaliation",
@@ -383,7 +390,14 @@
     "Day 188 (September 3, Thursday) — No confirmed new deaths on tracked national lines. Kuwait's army said it was fending off Iranian missile and drone attacks; VP Vance ruled out talks unless Iran stops attacking Hormuz shipping.",
     "Day 189 (September 4, Friday) — An Israeli strike on Tyre, Nabatieh and the Bekaa reportedly killed 3 and wounded 23 (Lebanese MoH via militaryspend), logged here on the Lebanese line; it is not yet folded into a new MoH cumulative. Lebanon remains a parallel front, decoupled from the Iran strikes.",
     "Day 190 (September 5, Saturday) — The IRGC launched ballistic missiles at a US aircraft carrier and destroyer (both missed); the US destroyed/disabled 3 Iranian tankers in response. No reported casualties in the naval exchange.",
-    "Day 191 (September 6, Sunday) — No new confirmed deaths on tracked national lines. Iran's parliament speaker Ghalibaf declared 'the era of proportionate responses is over,' calling the week's strikes on US bases 'only the beginning.'"
+    "Day 191 (September 6, Sunday) — No new confirmed deaths on tracked national lines. Iran's parliament speaker Ghalibaf declared 'the era of proportionate responses is over,' calling the week's strikes on US bases 'only the beginning.'",
+    "Day 192 (September 7, Monday) — Labor Day. No new confirmed deaths on tracked national lines; the front stayed maritime and economic as OPEC+ held October output steady and gas hit a record $4.15.",
+    "Day 193 (September 8, Tuesday) — No tracked deaths: the US destroyed five Iranian tankers at sea, but crews were directed to abandon ship beforehand and no fatalities were reported. The war's kinetic load has moved decisively to shipping.",
+    "Day 194 (September 9, Wednesday) — The IRGC's ballistic salvo on the Muwaffaq Salti (Al-Azraq) base in Jordan damaged aircraft (an A-10 and about eight F-15Es) but killed no US personnel — equipment damage only, zero deaths on tracked lines.",
+    "Day 195 (September 10, Thursday) — No tracked national-line deaths. The day's violence hit infrastructure — the Saudi East-West pipeline (drone strikes, injuries undisclosed) and Bab el-Mandeb — rather than people; Saudi pipeline injuries are not an Iran-nationality dataset.",
+    "Day 196 (September 11, Friday) — No new confirmed deaths on tracked lines. Diesel topped $6/gal for the first time as the energy shock, not the body count, defined the week.",
+    "Day 197 (September 12, Saturday) — No tracked deaths. BRICS adopted a Delhi Declaration urging restraint on civilian and nuclear infrastructure; the fighting remained economic and maritime.",
+    "Day 198 (September 13, Sunday) — The window's first tracked death in a week: seafarer Jamshid Rajabi was killed and four crew wounded when an unidentified projectile struck an Iranian merchant vessel near Hengam Island. Attribution is UNVERIFIED, so the death is logged on the Iranian civilian line pending confirmation."
   ],
   "datasets": {
     "iranian_military": {
@@ -575,6 +589,13 @@
         0,
         0,
         4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -776,7 +797,14 @@
         0,
         0,
         0,
-        0
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
       ],
       "color": "#ffffff"
     },
@@ -924,6 +952,13 @@
         0,
         3,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -1170,6 +1205,13 @@
         0,
         3,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#7b3fa0"
@@ -1367,10 +1409,17 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffc832"
     }
   },
-  "last_updated": "2026-09-06"
+  "last_updated": "2026-09-13"
 }
