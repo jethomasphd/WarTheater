@@ -1,0 +1,4 @@
+outcome,label,strike_days_n,strike_days_mean,strike_days_sd,strike_days_total,non_strike_days_n,non_strike_days_mean,non_strike_days_sd,non_strike_days_total,welch_t,p,hedges_g
+iran_civ,Iranian civilian deaths per day,89,6.0,8.4248,534,81,0.1111,0.8944,9,6.5538,0.0,0.9566
+iran_mil,Iranian military deaths per day,89,28.9663,36.0594,2578,81,0.5556,5.0,45,7.3556,0.0,1.0744
+leb_all,Lebanese deaths per day,89,25.7753,35.932,2294,81,8.6296,15.042,699,4.1222,0.0001,0.6096

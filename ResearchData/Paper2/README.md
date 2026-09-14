@@ -24,6 +24,14 @@ moderation), and every number in the manuscript regenerates from one command.
 > across data-confidence weighting variants: the counter-technology, extended from data
 > publication to data analysis.
 
+## Editions
+
+- **v3 (current drafting edition):** [`v3/`](v3/README.md) — plain language, three
+  tools only (means comparison, correlation, regression), the first author's
+  review comments built in, and a Word drafting document with notes. Start there.
+- **v2:** [`v2/`](v2/README.md) — the three-finding re-narration.
+- **Parent paper (this directory):** the full eight-finding study below.
+
 ## Reproduce everything (~1 minute)
 
 ```bash

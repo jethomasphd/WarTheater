@@ -1,0 +1,9 @@
+check,moderator,n,interaction_b,interaction_p_ols,interaction_p_hac,slope_at_min_damage,slope_at_min_p_hac,slope_at_100pct_damage,slope_at_100pct_p_hac,r_squared,note
+primary: all days,facil_damage_pct,170,0.0145,0.0,0.00591,-0.59991,0.11536,0.8399,0.01061,0.69435,
+strike days only,facil_damage_pct,89,0.01673,7e-05,0.00356,-0.61616,0.09839,1.04528,0.00896,0.63428,
+kinetic days only (strikes or retaliation),facil_damage_pct,138,0.01477,0.0,0.00546,-0.60322,0.11266,0.86407,0.01046,0.67825,
+Major Combat only (Days 1-40),facil_damage_pct,40,0.01453,0.07464,0.01186,-0.50493,0.18365,0.93876,0.01547,0.18722,the one phase with sustained strikes and rising damage
+Days 1-60,facil_damage_pct,60,0.01801,0.00053,0.00021,-0.57012,0.10797,1.21842,0.00016,0.56142,
+HSSI (21-event index) as the damage measure,hssi_pct,170,0.00586,0.07786,0.32348,0.21638,0.60466,0.80286,0.02334,0.62723,"coarser measure; same direction, interaction not significant"
+"HSSI, strike days only",hssi_pct,89,0.01322,0.01544,0.04933,-0.18692,0.59708,1.13487,0.03147,0.60141,
+phase check: strikes x Resumption (Major Combat + Resumption days),phase (Resumption = 1),63,0.05377,0.92792,0.89404,0.27938,0.41184,0.33314,,0.46456,Resumption baseline lower by -10.7 deaths/day (HAC p = 0.0000); slope columns = Major Combat slope and Resumption slope

@@ -1,0 +1,23 @@
+metric,value
+total_documented_deaths_daily_series,6213
+deaths_in_major_combat_days_1_40,4944
+major_combat_share_of_deaths_pct,79.6
+major_combat_share_of_days_pct,23.5
+day_cumulative_deaths_reached_50pct,21
+day_cumulative_deaths_reached_80pct,42
+day_cumulative_deaths_reached_90pct,87
+iran_deaths_daily_series_total,3166
+iran_deaths_by_day_40,3125
+iran_deaths_by_day_40_pct,98.7
+iran_civilian_deaths_total,543
+iran_civilian_deaths_by_day_40,523
+iran_civilian_deaths_by_day_40_pct,96.3
+lebanon_deaths_daily_series_total,2993
+lebanon_deaths_by_day_40,1781
+lebanon_deaths_by_day_40_pct,59.5
+iran_civilian_deaths_first_ceasefire_days_41_129,0
+deadliest_day_all_faction,40
+deadliest_day_all_faction_deaths,257
+deadliest_day_iran_civilian,12
+deadliest_day_iran_civilian_deaths,45
+top5_days_all_faction,Day 40: 257; Day 8: 215; Day 13: 206; Day 5: 189; Day 14: 186

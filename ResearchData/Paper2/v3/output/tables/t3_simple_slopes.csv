@@ -1,0 +1,9 @@
+damage_level_pct,facilities_damaged,first_day_at_level,basis,slope,se_hac,t,p_hac,sig
+10.0324,31,15.0,observed level (v3),-0.4642,0.3416,-1.3588,0.1761,
+50.1618,155,26.0,observed level (v3),0.1175,0.2373,0.4952,0.6211,
+75.0809,232,33.0,observed level (v3),0.4787,0.2524,1.8963,0.0597,
+99.3528,307,39.0,observed level (v3),0.8305,0.3226,2.5745,0.0109,*
+54.6086,169,27.0,mean - 1 SD (v2 convention),0.1819,0.2347,0.7752,0.4393,
+85.2675,263,36.0,mean (v2 convention),0.6264,0.2769,2.262,0.025,*
+115.9263,358,,mean + 1 SD (v2 convention; outside observed range),1.0708,0.3878,2.7611,0.0064,**
+76.9701,238,33.0,threshold: slope significant (p < .05) at and above this level,0.5061,,,,

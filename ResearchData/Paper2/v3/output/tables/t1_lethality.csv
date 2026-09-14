@@ -1,0 +1,5 @@
+phase,n_strike_days,strike_locations_per_day,iran_deaths_per_day,deaths_per_location_mean,deaths_per_location_median,deaths_per_location_sd,combat_vs_resumption_mean_diff,combat_vs_resumption_diff_ci95_low,combat_vs_resumption_diff_ci95_high,combat_vs_resumption_welch_t,combat_vs_resumption_welch_df,combat_vs_resumption_p,combat_vs_resumption_hedges_g,combat_vs_resumption_pct_decline,mann_whitney_U_check,mann_whitney_p_check
+Major Combat,39,7.2051,78.7692,15.4076,10.8333,12.8415,14.7246,10.5349,18.9142,7.1081,39.1181,0.0,1.3333,95.5669,623.0,0.0
+First Ceasefire,34,1.5,0.0882,0.0882,0.0,0.5145,14.7246,10.5349,18.9142,7.1081,39.1181,0.0,1.3333,95.5669,623.0,0.0
+Resumption,16,3.375,2.3125,0.683,0.2143,1.0036,14.7246,10.5349,18.9142,7.1081,39.1181,0.0,1.3333,95.5669,623.0,0.0
+Diplomatic Pause,0,,,,,,14.7246,10.5349,18.9142,7.1081,39.1181,0.0,1.3333,95.5669,623.0,0.0

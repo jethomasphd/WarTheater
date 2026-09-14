@@ -1,0 +1,9 @@
+population,phase,days,daily_series_deaths_added,counter_at_phase_start,counter_at_phase_end,counter_change,gap_at_phase_end,gap_pct_at_phase_end
+Iran,Major Combat,1-40,3125,,9100,,5975,191.2
+Iran,First Ceasefire,41-129,3,9100.0,3468,-5632.0,340,10.9
+Iran,Resumption,130-152,38,3468.0,3636,168.0,470,14.8
+Iran,Diplomatic Pause,153-170,0,3636.0,3636,0.0,470,14.8
+Lebanon,Major Combat,1-40,1781,,1751,,-30,-1.7
+Lebanon,First Ceasefire,41-129,1200,1751.0,4301,2550.0,1320,44.3
+Lebanon,Resumption,130-152,1,4301.0,4297,-4.0,1315,44.1
+Lebanon,Diplomatic Pause,153-170,11,4297.0,4308,11.0,1315,43.9

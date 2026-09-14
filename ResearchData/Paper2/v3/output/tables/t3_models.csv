@@ -1,0 +1,16 @@
+model,sample,term,coef,se_ols,p_ols,se_hac,p_hac,sig_hac
+M1 strikes only,all days,const,0.3173,0.46128,0.49249,0.50856,0.53268,
+M1 strikes only,all days,strikes,1.26699,0.10923,0.0,0.25093,0.0,***
+M1 strikes only,all days,_R2,0.44473,,,,,
+M1 strikes only,all days,_N,170.0,,,,,
+M2 strikes + damage,all days,const,14.91834,1.59772,0.0,3.85961,0.00011,***
+M2 strikes + damage,all days,strikes,0.32772,0.13354,0.01515,0.38798,0.39829,
+M2 strikes + damage,all days,damage_pct,-0.14623,0.01556,0.0,0.03743,9e-05,***
+M2 strikes + damage,all days,_R2,0.63687,,,,,
+M2 strikes + damage,all days,_N,170.0,,,,,
+M3 strikes x damage (interaction),all days,const,4.37469,0.35905,0.0,0.75284,0.0,***
+M3 strikes x damage (interaction),all days,strikes_c,0.62635,0.134,1e-05,0.27691,0.0237,*
+M3 strikes x damage (interaction),all days,damage_c,-0.19103,0.01641,0.0,0.0375,0.0,***
+M3 strikes x damage (interaction),all days,strikes_x_damage,0.0145,0.00259,0.0,0.00527,0.00591,**
+M3 strikes x damage (interaction),all days,_R2,0.69435,,,,,
+M3 strikes x damage (interaction),all days,_N,170.0,,,,,

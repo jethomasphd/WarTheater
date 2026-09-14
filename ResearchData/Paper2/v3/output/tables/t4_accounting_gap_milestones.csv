@@ -1,0 +1,23 @@
+population,day,phase,daily_series_cumulative,dashboard_counter,gap,gap_pct_of_daily,counter_observed_that_day
+Iran,20,Major Combat,1966,5300,3334,169.6,True
+Lebanon,20,Major Combat,1016,968,-48,-4.7,True
+Iran,40,Major Combat,3125,9100,5975,191.2,True
+Lebanon,40,Major Combat,1781,1751,-30,-1.7,True
+Iran,56,First Ceasefire,3125,9226,6101,195.2,True
+Lebanon,56,First Ceasefire,2132,2491,359,16.8,True
+Iran,57,First Ceasefire,3125,3375,250,8.0,True
+Lebanon,57,First Ceasefire,2136,2495,359,16.8,True
+Iran,66,First Ceasefire,3125,3636,511,16.4,True
+Lebanon,66,First Ceasefire,2208,2696,488,22.1,True
+Iran,80,First Ceasefire,3125,3636,511,16.4,True
+Lebanon,80,First Ceasefire,2373,3020,647,27.3,True
+Iran,100,First Ceasefire,3128,3468,340,10.9,True
+Lebanon,100,First Ceasefire,2772,3593,821,29.6,True
+Iran,118,First Ceasefire,3128,3468,340,10.9,True
+Lebanon,118,First Ceasefire,2855,4175,1320,46.2,True
+Iran,129,First Ceasefire,3128,3468,340,10.9,True
+Lebanon,129,First Ceasefire,2981,4301,1320,44.3,True
+Iran,150,Resumption,3160,3636,476,15.1,True
+Lebanon,150,Resumption,2982,4297,1315,44.1,True
+Iran,170,Diplomatic Pause,3166,3636,470,14.8,True
+Lebanon,170,Diplomatic Pause,2993,4308,1315,43.9,True

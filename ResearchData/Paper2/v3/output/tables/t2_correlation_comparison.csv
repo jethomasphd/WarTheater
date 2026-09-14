@@ -1,0 +1,9 @@
+sample,period_1,r_1,n_1,period_2,r_2,n_2,fisher_z,p
+all days in period,A,-0.406,15,C,0.5238,131,-3.3535,0.0008
+all days in period,A,-0.406,15,B,0.435,24,-2.4785,0.0132
+all days in period,B,0.435,24,C,0.5238,131,-0.4908,0.6236
+all days in period,A,-0.406,15,C-resumption,0.4907,23,-2.6507,0.008
+strike days only,A,-0.406,15,C,0.5208,51,-3.1243,0.0018
+strike days only,A,-0.406,15,B,0.4184,23,-2.4006,0.0164
+strike days only,B,0.4184,23,C,0.5208,51,-0.4951,0.6205
+strike days only,A,-0.406,15,C-resumption,0.4268,16,-2.2154,0.0267
