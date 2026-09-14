@@ -131,7 +131,11 @@
     "Sep 1",
     "Sep 2",
     "Sep 3",
-    "Sep 4"
+    "Sep 4",
+    "Sep 8",
+    "Sep 9",
+    "Sep 10",
+    "Sep 11"
   ],
   "contexts": [
     "Pre-war close — baseline",
@@ -265,7 +269,11 @@
     "Day 186 (September 1, Tuesday) — The Nasdaq and Russell 2000 dipped as CENTCOM confirmed resumed strikes on Iranian targets near the Strait of Hormuz (TheStreet: 'Nasdaq, Russell 2000 dip as US strikes Iranian targets'). PROVISIONAL: close not individually confirmed.",
     "Day 187 (September 2, Wednesday) — The S&P 500 rebounded after back-to-back losses even as Iran struck Gulf and allied bases and the US began striking Iranian tankers (CNBC/TheStreet). PROVISIONAL: close not individually confirmed.",
     "Day 188 (September 3, Thursday) — Equities rose a second day: S&P 500 +1.06% to 7,747.71, Nasdaq 26,584.06, Dow 53,686.11 (CNBC/Yahoo). VP Vance ruled out talks with Tehran unless Iran stops attacking Hormuz shipping and Israel threatened 'crippling' strikes on Iran's infrastructure; markets stayed largely decoupled from the war.",
-    "Day 189 (September 4, Friday) — Stocks fell on a hotter-than-expected August jobs report (162K vs ~55K expected; unemployment 4.1%) that lifted September Fed rate-hike odds to ~58% (CME FedWatch); Treasury 2-yr yields hit their highest since Jan 2025. The S&P 500 (-0.38% to 7,718.60), Dow (-0.51% to 53,414.25) and Nasdaq (-0.29% to 26,506.99) all fell, though equities notably decoupled from the renewed war; Russell 2000 2,975.65, VIX 14.53. On the week: S&P ~+0.1%, Dow -0.3%, Nasdaq +0.4%. US markets closed Mon Sep 7 for Labor Day."
+    "Day 189 (September 4, Friday) — Stocks fell on a hotter-than-expected August jobs report (162K vs ~55K expected; unemployment 4.1%) that lifted September Fed rate-hike odds to ~58% (CME FedWatch); Treasury 2-yr yields hit their highest since Jan 2025. The S&P 500 (-0.38% to 7,718.60), Dow (-0.51% to 53,414.25) and Nasdaq (-0.29% to 26,506.99) all fell, though equities notably decoupled from the renewed war; Russell 2000 2,975.65, VIX 14.53. On the week: S&P ~+0.1%, Dow -0.3%, Nasdaq +0.4%. US markets closed Mon Sep 7 for Labor Day.",
+    "Day 193 (September 8, Tuesday) — The S&P 500 fell a 2nd straight session (-0.58% to 7,673.52) as Brent neared $100 and the 10-year yield tested ~4.8%; US markets reopened after Labor Day (Nasdaq 26,421.41, Dow 52,787.00). CENTCOM destroyed five Iranian tankers after IRGC missile attacks on a US warship.",
+    "Day 194 (September 9, Wednesday) — A 3rd straight decline (-0.48% to 7,636.36) as Brent topped $101 (highest close since May 22) and the 10-year yield hit its highest since 2023; the IRGC struck the Muwaffaq Salti (Al-Azraq) air base in Jordan (Nasdaq 26,253.34, Dow 52,380.66).",
+    "Day 195 (September 10, Thursday) — A 4th straight decline (-0.58% to 7,591.70) as WTI topped $100 and Brent settled $107.63 (highest close since May 19); drones from Iraq struck the Saudi East-West pipeline and Houthis pressed on Bab el-Mandeb (Nasdaq 26,081.72, Dow 52,064.10).",
+    "Day 196 (September 11, Friday) — The S&P 500 snapped its 4-day slide (+0.86% to 7,656.98) on an in-line August CPI (3.4% y/y); VIX 15.84 and oil pulled back on Hormuz diplomacy, with a September Fed hike ~90% priced (Nasdaq 26,333.04, Dow 52,573.29)."
   ],
   "datasets": {
     "sp500": {
@@ -402,7 +410,11 @@
         110.9,
         110.6,
         111.72,
-        111.3
+        111.3,
+        110.65,
+        110.11,
+        109.47,
+        110.41
       ],
       "color": "#ef4444"
     },
@@ -503,6 +515,10 @@
         117.0,
         117.5,
         118.5,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -678,6 +694,10 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#d4a020"
@@ -816,10 +836,14 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-09-06"
+  "last_updated": "2026-09-13"
 }
