@@ -4956,8 +4956,65 @@
     "active_days": [
       190
     ],
-    "notes": "Significant escalation: the IRGC launched ballistic missiles at a US aircraft carrier and a destroyer; both missed. CENTCOM called the apparent targeting of a carrier 'a notable provocation' and retaliated by destroying/disabling 3 Iranian tankers. Separately, the IRGC Navy claimed Saturday it had targeted 3 tankers on an 'unauthorized route' in Hormuz plus 3 US-affiliated vessels elsewhere, and warned all Gulf shipping. WHICH CARRIER: not specified by sources - hull unconfirmed.",
+    "notes": "Significant escalation: the IRGC launched ballistic missiles at a US aircraft carrier and a destroyer; both missed. CENTCOM called the apparent targeting of a carrier 'a notable provocation' and retaliated by destroying/disabling 3 Iranian tankers. Separately, the IRGC Navy claimed Saturday it had targeted 3 tankers on an 'unauthorized route' in Hormuz plus 3 US-affiliated vessels elsewhere, and warned all Gulf shipping. WHICH CARRIER: not specified by sources - hull unconfirmed. Follow-on: the IRGC attempted a further ballistic attack on a US warship over Sep 6-8 (per WSJ and US officials; the Pentagon has not publicly acknowledged it), precipitating the Sep 8 US tanker strikes. (Source: CNBC/Bloomberg.)",
     "verified": true,
-    "last_updated": "2026-09-06"
+    "last_updated": "2026-09-13"
+  },
+  {
+    "id": "iran-missiles-jordan-alazraq-20260909",
+    "city": "Muwaffaq Salti Air Base (Al-Azraq), Jordan",
+    "lat": 31.84,
+    "lng": 36.78,
+    "type": "iran_retaliation",
+    "weapon": "~20 ballistic missiles",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-09-09",
+    "casualties_reported": "No US personnel killed; 1 A-10 Thunderbolt II severely damaged (missing wing), ~8 F-15E Strike Eagles lightly damaged and returned to service. Jordan engaged 20 missiles and destroyed 18; 2 fell in open areas",
+    "casualties_source": "CBS News / Reuters / Air & Space Forces Magazine / Jordanian Armed Forces; IRGC via Tasnim",
+    "active_days": [
+      194
+    ],
+    "notes": "Overnight Sep 8-9 IRGC ballistic salvo on MSAB (Al-Azraq) in retaliation for the US destruction of five Iranian tankers. US and Jordanian forces fired 30+ Patriot interceptors. The IRGC also claimed strikes on destroyers DDG-119 (Delbert D. Black) and DDG-53 (John Paul Jones) and a US naval drone; no US confirmation of ship damage. Trump publicly denied the aircraft damage on Sep 10, contradicted by CBS/Reuters/AFM reporting. Heaviest single salvo since ~25 missiles at Jordan/Kuwait bases Sep 1-2, and the last confirmed Iranian ballistic launch of the window (a 4-day pause followed — the longest of the resumed war).",
+    "verified": true,
+    "last_updated": "2026-09-13"
+  },
+  {
+    "id": "unclaimed-drones-saudi-eastwest-pipeline-20260910",
+    "city": "Saudi East-West (Petroline) pipeline, Riyadh & Madinah regions",
+    "lat": 24.5,
+    "lng": 39.6,
+    "type": "iran_retaliation",
+    "weapon": "Several drones (launched from Maysan province, Iraq)",
+    "origin": "Iraq (Maysan province); unclaimed — Trump attributed to Iran, Iran-aligned Iraqi militias deny",
+    "first_strike": "2026-09-10",
+    "casualties_reported": "Undisclosed number injured; pumping station(s) damaged; Saudi energy sources place the loss at ~700,000 bpd",
+    "casualties_source": "Saudi Ministry of Foreign Affairs / Ministry of Energy; CNN; Al Jazeera; Reuters",
+    "active_days": [
+      195,
+      196
+    ],
+    "notes": "UNCLAIMED. Drone strikes Sep 10-11 hit pumping stations on Saudi Arabia's 1,200km East-West pipeline (Petroline) — the kingdom's principal Hormuz bypass to Yanbu — forcing a precautionary shutdown. The IEA lists the Abqaiq-Yanbu system as two lines with a total design capacity of 5 mb/d of crude, which Aramco reported raising to 7 mb/d in March 2025 'but sustainable flows have not been tested at this level.' Saudi FM said the drones came from Iraq but named no state; Iraq confirmed the launch point in Maysan, dismissed a military commander, seized the launch platform and approved an Iranian request to join the investigation. In Dublin (Sep 12-13) Trump said 'I think they are. Probably they are' when asked if Iran was responsible. State attribution is UNVERIFIED.",
+    "verified": false,
+    "last_updated": "2026-09-13"
+  },
+  {
+    "id": "houthi-redsea-babelmandeb-offensive-20260910",
+    "city": "Mokha, Dhubab & Mayun (Perim) Island, Yemen / Bab el-Mandeb",
+    "lat": 12.65,
+    "lng": 43.4,
+    "type": "iran_retaliation",
+    "weapon": "Ground offensive + coastal/island seizure",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-09-10",
+    "casualties_reported": "Houthi Health Ministry: 82 killed or injured from Saudi-led strikes since Sep 3; Saudi airstrikes hit Mokha airport (no confirmed casualties)",
+    "casualties_source": "AP / Al Jazeera / NPR / Euronews / NBC News",
+    "active_days": [
+      195,
+      196,
+      197
+    ],
+    "notes": "Houthis seized Mokha port (Sep 10-11), the town of Dhubab, and Mayun/Perim Island in mid-channel (confirmed Sep 11-12), taking effective control of the Bab el-Mandeb strait — through which about 4.2M bbl/day of crude and petroleum liquids crossed pre-disruption (IEA 2025), roughly 5% of global production. Houthi spokesman Yahya Saree: navigation is 'safe for all companies except Saudi ships.' Crown Prince MBS twice phoned Trump requesting US strikes on the Houthis; Trump declined direct action, saying the Houthis 'called us, and they don't want to fight with us,' and offered only intelligence/targeting support. Parallel front that boosts Iran's leverage over oil prices.",
+    "verified": true,
+    "last_updated": "2026-09-13"
   }
 ]

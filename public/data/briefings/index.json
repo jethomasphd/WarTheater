@@ -768,5 +768,12 @@
         "label": "SEPTEMBER 6, 2026 — DAY 191",
         "headline": "Strike pause collapses: US-Iran strikes resume; Iran targets a US carrier; oil +9%; 3 Iranian tankers destroyed",
         "file": "data/briefings/day-191.html"
+    },
+    {
+        "day": 198,
+        "date": "2026-09-13",
+        "label": "SEPTEMBER 13, 2026 — DAY 198",
+        "headline": "US sinks 5 Iranian tankers; IRGC hits Jordan base, damaging an A-10 & F-15s; Houthis seize Bab el-Mandeb; Saudi pipeline struck and Brent tops $107; GCC-Iran talks set for Salalah",
+        "file": "data/briefings/day-198.html"
     }
 ]

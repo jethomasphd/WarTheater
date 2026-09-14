@@ -9628,5 +9628,86 @@
     "category": "diplomatic",
     "source": "ABC News; Vantage; Reuters",
     "data_point": "Ghalibaf: proportionate responses 'over'; OPEC+ holds"
+  },
+  {
+    "date": "2026-09-08",
+    "time": "evening",
+    "title": "US destroys five Iranian oil tankers",
+    "description": "CENTCOM struck and sank/disabled five IRGC-linked crude tankers (Kaviz, Charminar, Horizon 1, Riesco, Derya) in the Gulf of Oman and near Kharg Island after two attempted IRGC missile attacks on a US warship. Crews were warned to abandon ship; no US personnel were harmed.",
+    "category": "military",
+    "source": "CENTCOM via Al Jazeera / NBC News / Bloomberg",
+    "data_point": "5 tankers destroyed"
+  },
+  {
+    "date": "2026-09-09",
+    "time": "overnight",
+    "title": "IRGC ballistic strike damages US aircraft at Al-Azraq, Jordan",
+    "description": "An IRGC ballistic salvo (~20 missiles) hit Muwaffaq Salti Air Base; one A-10 lost a wing and about eight F-15Es were lightly damaged. Jordan destroyed 18 of 20 missiles and 30+ Patriots were fired. Trump denied the aircraft damage the next day, contradicting CBS/Reuters reporting.",
+    "category": "military",
+    "source": "CBS News / Reuters / Air & Space Forces Magazine",
+    "data_point": "1 A-10 + ~8 F-15E damaged"
+  },
+  {
+    "date": "2026-09-09",
+    "time": "afternoon",
+    "title": "Trump: Iran talks possible, war to end after election; claims 9 tankers sunk",
+    "description": "At Joint Base Andrews, Trump said talks with Iran were possible and predicted the war would end after the midterm election, while claiming nine Iranian ships had been sunk. Vice President Vance had said on Sep 3 the US would not talk to Iran 'unless they stop shooting at commercial shipping.'",
+    "category": "diplomatic",
+    "source": "Al Jazeera / Washington Times",
+    "data_point": "No active US-Iran talks"
+  },
+  {
+    "date": "2026-09-10",
+    "time": "morning",
+    "title": "Drones from Iraq strike Saudi East-West pipeline",
+    "description": "Several drones launched from Maysan province, Iraq, hit pumping stations on Saudi Arabia's East-West (Petroline) pipeline in the Riyadh and Madinah regions, injuring an undisclosed number and forcing a precautionary shutdown of the kingdom's main Hormuz bypass to Yanbu (~700,000 bpd loss). No group claimed responsibility.",
+    "category": "military",
+    "source": "Saudi MoFA/Energy Ministry / CNN / Al Jazeera / Reuters",
+    "data_point": "~700,000 bpd bypass offline"
+  },
+  {
+    "date": "2026-09-11",
+    "time": "morning",
+    "title": "US diesel tops $6/gal for the first time; gas at $4.29",
+    "description": "AAA reported the national average diesel price surpassed $6 ($6.05-6.06), a record and up ~60% since the war began; regular gasoline averaged $4.29. The Institute on Taxation and Economic Policy estimated the average additional fuel cost per US household at $675.13 to date, forecast to reach $1,011.88 by end of autumn.",
+    "category": "economic",
+    "source": "AAA / NBC News / NPR / GasBuddy",
+    "data_point": "Diesel $6.06; gas $4.29"
+  },
+  {
+    "date": "2026-09-11",
+    "time": "day",
+    "title": "Houthis seize Mayun Island, take control of Bab el-Mandeb",
+    "description": "Iran-aligned Houthis captured Mokha port, the town of Dhubab, and Mayun/Perim Island in the middle of the Bab el-Mandeb strait — a corridor that carried about 4.2M bbl/day of crude and petroleum liquids pre-disruption (IEA) — giving them a physical foothold over a key global chokepoint. A Houthi spokesman said navigation is safe 'except Saudi ships.' Saudi jets struck Mokha airport.",
+    "category": "military",
+    "source": "AP / Al Jazeera / NPR / Euronews",
+    "data_point": "Bab el-Mandeb under Houthi control"
+  },
+  {
+    "date": "2026-09-12",
+    "time": "day",
+    "title": "BRICS Delhi Declaration urges restraint",
+    "description": "BRICS leaders, with Saudi Arabia, adopted a Delhi Declaration expressing serious concern over deliberate attacks on civilian infrastructure and nuclear facilities and calling for restraint, without naming any country. Xi, Putin and Pezeshkian attended; the text bridged Iranian and UAE positions after talks ran to ~4am.",
+    "category": "diplomatic",
+    "source": "Reuters / Al Jazeera",
+    "data_point": "No country named"
+  },
+  {
+    "date": "2026-09-13",
+    "time": "05:00",
+    "title": "Iranian merchant vessel struck near Hengam Island",
+    "description": "An Iranian-crewed commercial vessel (10 crew) was hit by an unidentified projectile near Hengam Island off Qeshm, killing seafarer Jamshid Rajabi and wounding four, with a fire aboard. The Qeshm governor blamed a 'terrorist enemy'; the US neither confirmed nor addressed it. UKMTO confirmed a vessel hit by a projectile.",
+    "category": "military",
+    "source": "IRNA / UKMTO / GlobalSecurity",
+    "data_point": "1 killed, 4 wounded"
+  },
+  {
+    "date": "2026-09-13",
+    "time": "day",
+    "title": "GCC-Iran ministerial set for Salalah, Oman on Sep 14",
+    "description": "Foreign ministers of the six GCC states and Iran are to meet in Salalah on Monday Sep 14 — the first such gathering since the war began — to weigh a temporary Hormuz arrangement under which inbound vessels use Iranian territorial waters and outbound vessels transit mostly Omani waters.",
+    "category": "diplomatic",
+    "source": "Reuters / GlobalSecurity",
+    "data_point": "First GCC-Iran talks since Feb"
   }
 ]
