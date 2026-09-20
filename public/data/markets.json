@@ -135,7 +135,12 @@
     "Sep 8",
     "Sep 9",
     "Sep 10",
-    "Sep 11"
+    "Sep 11",
+    "Sep 14",
+    "Sep 15",
+    "Sep 16",
+    "Sep 17",
+    "Sep 18"
   ],
   "contexts": [
     "Pre-war close — baseline",
@@ -273,7 +278,12 @@
     "Day 193 (September 8, Tuesday) — The S&P 500 fell a 2nd straight session (-0.58% to 7,673.52) as Brent neared $100 and the 10-year yield tested ~4.8%; US markets reopened after Labor Day (Nasdaq 26,421.41, Dow 52,787.00). CENTCOM destroyed five Iranian tankers after IRGC missile attacks on a US warship.",
     "Day 194 (September 9, Wednesday) — A 3rd straight decline (-0.48% to 7,636.36) as Brent topped $101 (highest close since May 22) and the 10-year yield hit its highest since 2023; the IRGC struck the Muwaffaq Salti (Al-Azraq) air base in Jordan (Nasdaq 26,253.34, Dow 52,380.66).",
     "Day 195 (September 10, Thursday) — A 4th straight decline (-0.58% to 7,591.70) as WTI topped $100 and Brent settled $107.63 (highest close since May 19); drones from Iraq struck the Saudi East-West pipeline and Houthis pressed on Bab el-Mandeb (Nasdaq 26,081.72, Dow 52,064.10).",
-    "Day 196 (September 11, Friday) — The S&P 500 snapped its 4-day slide (+0.86% to 7,656.98) on an in-line August CPI (3.4% y/y); VIX 15.84 and oil pulled back on Hormuz diplomacy, with a September Fed hike ~90% priced (Nasdaq 26,333.04, Dow 52,573.29)."
+    "Day 196 (September 11, Friday) — The S&P 500 snapped its 4-day slide (+0.86% to 7,656.98) on an in-line August CPI (3.4% y/y); VIX 15.84 and oil pulled back on Hormuz diplomacy, with a September Fed hike ~90% priced (Nasdaq 26,333.04, Dow 52,573.29).",
+    "Day 199 (September 14, Monday) — The S&P 500 slipped 0.5% to 7,619.98 as oil retreated from its mid-week spike on easing Saudi pipeline fears and traders positioned ahead of the Fed; energy ETF XLE closed $64.53 and airlines (JETS) $28.18 (24/7 Wall St. logged an outlier 7,621.54 close).",
+    "Day 200 (September 15, Tuesday) — The S&P 500 fell 0.45% to 7,585.73 into the Fed decision as Brent settled $108.75 — its highest close since May 19 — on the Saudi pipeline outage; XLE rose to $65.93, JETS eased to $27.88.",
+    "Day 201 (September 16, Wednesday) — The Federal Reserve raised rates 25 bps to 3.75-4% (a 12-0 vote), its first hike since July 2023, and the S&P 500 eased 0.45% to 7,551.81; Chair Kevin Warsh said 'inflation is too high and has been for too long,' citing Middle East energy costs; XLE $64.03, JETS $27.80.",
+    "Day 202 (September 17, Thursday) — The S&P 500 rebounded to 7,637.76 in a post-Fed relief rally as oil eased (Brent $104.82 settle); the dot-plot showed 16 of 18 FOMC participants projecting another 2026 hike (median year-end 4.1%); XLE $64.48, JETS $28.17.",
+    "Day 203 (September 18, Friday) — The S&P 500 edged up 0.17% to 7,650.50 as Brent slid to a $103.87 settle; defense ETF ITA closed ~$213.84 (many defense names off 20%+ since the Iran fighting began) and energy XLE $64.31 (JETS Sep 18 close not confirmed)."
   ],
   "datasets": {
     "sp500": {
@@ -414,7 +424,12 @@
         110.65,
         110.11,
         109.47,
-        110.41
+        110.41,
+        109.88,
+        109.38,
+        108.89,
+        110.13,
+        110.32
       ],
       "color": "#ef4444"
     },
@@ -515,6 +530,11 @@
         117.0,
         117.5,
         118.5,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -698,6 +718,11 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#d4a020"
@@ -840,10 +865,15 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-09-13"
+  "last_updated": "2026-09-20"
 }
