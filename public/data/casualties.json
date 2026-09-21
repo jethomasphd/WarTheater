@@ -197,7 +197,14 @@
     "Sep 10",
     "Sep 11",
     "Sep 12",
-    "Sep 13"
+    "Sep 13",
+    "Sep 14",
+    "Sep 15",
+    "Sep 16",
+    "Sep 17",
+    "Sep 18",
+    "Sep 19",
+    "Sep 20"
   ],
   "day_contexts": [
     "Day 1 — First strikes, Minab school (165+ killed), Iranian retaliation",
@@ -397,7 +404,14 @@
     "Day 195 (September 10, Thursday) — No tracked national-line deaths. The day's violence hit infrastructure — the Saudi East-West pipeline (drone strikes, injuries undisclosed) and Bab el-Mandeb — rather than people; Saudi pipeline injuries are not an Iran-nationality dataset.",
     "Day 196 (September 11, Friday) — No new confirmed deaths on tracked lines. Diesel topped $6/gal for the first time as the energy shock, not the body count, defined the week.",
     "Day 197 (September 12, Saturday) — No tracked deaths. BRICS adopted a Delhi Declaration urging restraint on civilian and nuclear infrastructure; the fighting remained economic and maritime.",
-    "Day 198 (September 13, Sunday) — The window's first tracked death in a week: seafarer Jamshid Rajabi was killed and four crew wounded when an unidentified projectile struck an Iranian merchant vessel near Hengam Island. Attribution is UNVERIFIED, so the death is logged on the Iranian civilian line pending confirmation."
+    "Day 198 (September 13, Sunday) — The window's first tracked death in a week: seafarer Jamshid Rajabi was killed and four crew wounded when an unidentified projectile struck an Iranian merchant vessel near Hengam Island. Attribution is UNVERIFIED, so the death is logged on the Iranian civilian line pending confirmation.",
+    "Day 199 (September 14, Monday) — No verified new casualties in the fire pause; US forces destroyed two IRGC boats in the Strait of Hormuz with no casualty figure published by either side (Axios/GlobalSecurity).",
+    "Day 200 (September 15, Tuesday) — No verified new casualties; the US House voted 220-204 to limit the President's strike authority, and Iran's two-day fire into Iraqi-Kurdish areas ended without renewal.",
+    "Day 201 (September 16, Wednesday) — No verified new war-front casualties; widespread unrest across Iranian Kurdistan on the Mahsa Amini anniversary prompted a domestic crackdown (protest-death toll tracked cumulatively, not as a war-front increment).",
+    "Day 202 (September 17, Thursday) — The UN Independent International Fact-Finding Mission issued report A/HRC/63/61, finding 'reasonable grounds to believe' the US committed war crimes in two Feb 28 strikes — the Minab Shajareh Tayyebeh primary school (at least 157 killed incl 120 children and 26 staff, 95 wounded) and a Lamerd sports center (22 killed) — and that Iran committed crimes against humanity in suppressing winter protests (377 deaths incl 56 children; UN News separately cites 221+ children). These findings re-document February casualties and the protest crackdown, not new in-window deaths.",
+    "Day 203 (September 18, Friday) — No verified new casualties; the White House rejected the UN findings, calling the Human Rights Council's work 'unserious nonsense' and asserting 'the only party committing war crimes in the conflict has been the Iranian regime.'",
+    "Day 204 (September 19, Saturday) — No verified new casualties in the fire pause: 10 consecutive days without an Iranian host-state ballistic-missile salvo and 14 without a drone attack (GlobalSecurity, Day 204).",
+    "Day 205 (September 20, Sunday) — No verified new casualties. US KIA held at 18 (DCAS); Israeli military 32+; Iranian tallies remain source-divergent (HRANA 3,636; Foundation of Martyrs 3,468; Al Jazeera >=3,527; JINSA 3,724+; US/Israel estimate 6,000+) and are not summed."
   ],
   "datasets": {
     "iranian_military": {
@@ -589,6 +603,13 @@
         0,
         0,
         4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -804,7 +825,14 @@
         0,
         0,
         0,
-        1
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
       "color": "#ffffff"
     },
@@ -952,6 +980,13 @@
         0,
         3,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -1212,6 +1247,13 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#7b3fa0"
@@ -1416,10 +1458,17 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "color": "#ffc832"
     }
   },
-  "last_updated": "2026-09-13"
+  "last_updated": "2026-09-20"
 }

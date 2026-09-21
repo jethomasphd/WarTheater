@@ -775,5 +775,12 @@
         "label": "SEPTEMBER 13, 2026 — DAY 198",
         "headline": "US sinks 5 Iranian tankers; IRGC hits Jordan base, damaging an A-10 & F-15s; Houthis seize Bab el-Mandeb; Saudi pipeline struck and Brent tops $107; GCC-Iran talks set for Salalah",
         "file": "data/briefings/day-198.html"
+    },
+    {
+        "day": 205,
+        "date": "2026-09-20",
+        "label": "SEPTEMBER 20, 2026 — DAY 205",
+        "headline": "Fire pause holds — no US strike ashore in ~12 periods; US sinks two IRGC boats in Hormuz; UN finds US war crimes in the Feb 28 strikes; Fed's first hike since 2023; Lincoln CSG departs the Middle East",
+        "file": "data/briefings/day-205.html"
     }
 ]

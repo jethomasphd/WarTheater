@@ -5016,5 +5016,60 @@
     "notes": "Houthis seized Mokha port (Sep 10-11), the town of Dhubab, and Mayun/Perim Island in mid-channel (confirmed Sep 11-12), taking effective control of the Bab el-Mandeb strait — through which about 4.2M bbl/day of crude and petroleum liquids crossed pre-disruption (IEA 2025), roughly 5% of global production. Houthi spokesman Yahya Saree: navigation is 'safe for all companies except Saudi ships.' Crown Prince MBS twice phoned Trump requesting US strikes on the Houthis; Trump declined direct action, saying the Houthis 'called us, and they don't want to fight with us,' and offered only intelligence/targeting support. Parallel front that boosts Iran's leverage over oil prices.",
     "verified": true,
     "last_updated": "2026-09-13"
+  },
+  {
+    "id": "iran-fire-iraqi-kurdistan-20260914",
+    "city": "Iraqi Kurdistan (border areas)",
+    "lat": 36.19,
+    "lng": 44.01,
+    "type": "iran_retaliation",
+    "weapon": "Cross-border artillery / missile & drone fire",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-09-14",
+    "casualties_reported": "No verified casualty figure published in-window",
+    "casualties_source": "GlobalSecurity (Day 204)",
+    "active_days": [
+      199,
+      200
+    ],
+    "notes": "Iran conducted a two-day sequence of cross-border fire into Iraqi-Kurdish areas ending Sep 15; it was not renewed afterward. Widespread strikes and unrest then swept Iranian Kurdistan on the Mahsa Amini anniversary (Sep 16), prompting a domestic crackdown. One of the few Iranian kinetic actions during an otherwise de-escalatory 'fire pause' — no Iranian ballistic-missile salvo at any host state for 10 consecutive days through Sep 19, and no drone attack on a host state for 14 days (last host-state salvo: ~20 ballistic missiles at Muwaffaq Salti/Al-Azraq, Jordan, Sep 8-9).",
+    "verified": true,
+    "last_updated": "2026-09-20"
+  },
+  {
+    "id": "houthi-strikes-saudi-mecca-20260916",
+    "city": "Khamis Mushait, Abha, Taif & Mecca approaches, Saudi Arabia",
+    "lat": 18.3,
+    "lng": 42.73,
+    "type": "iran_retaliation",
+    "weapon": "Drones + ballistic missiles",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-09-16",
+    "casualties_reported": "No confirmed casualties published; Saudi air defenses intercepted a drone targeting Mecca",
+    "casualties_source": "CNBC / AGBI",
+    "active_days": [
+      201
+    ],
+    "notes": "Iran-backed Houthis struck Saudi Arabia with drones and ballistic missiles at Khamis Mushait, Abha and Taif, and a drone targeting Mecca was intercepted on Sep 16 (CNBC/AGBI). The Houthis continued to press the Bab el-Mandeb positions seized the prior week. Houthi activity was the most active proxy front while Iran itself held a host-state fire pause.",
+    "verified": true,
+    "last_updated": "2026-09-20"
+  },
+  {
+    "id": "irgc-claims-mq9-shootdowns-20260916",
+    "city": "Qeshm Island / southern Iran airspace (claimed)",
+    "lat": 26.75,
+    "lng": 55.9,
+    "type": "iran_retaliation",
+    "weapon": "Claimed integrated surface-to-air air-defense system",
+    "origin": "Iran (IRGC) — CLAIM",
+    "first_strike": "2026-09-16",
+    "casualties_reported": "None (unmanned aircraft claimed downed)",
+    "casualties_source": "IRGC statements (UNVERIFIED)",
+    "active_days": [
+      201
+    ],
+    "notes": "UNVERIFIED. The IRGC claimed four US MQ-9 Reaper shootdowns in three days, including over Qeshm Island on Sep 16, allegedly using a new integrated air-defense system. No imagery, wreckage, serial number, or CENTCOM confirmation exists (GlobalSecurity flags it as unconfirmed). If accurate it would be the first Iranian surface-to-air engagement of an American aircraft over water in the resumed war and would bear on CENTCOM's standing (March) assessment of ~90% air-defense degradation.",
+    "verified": false,
+    "last_updated": "2026-09-20"
   }
 ]

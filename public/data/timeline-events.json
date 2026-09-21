@@ -9709,5 +9709,131 @@
     "category": "diplomatic",
     "source": "Reuters / GlobalSecurity",
     "data_point": "First GCC-Iran talks since Feb"
+  },
+  {
+    "date": "2026-09-14",
+    "time": "day",
+    "title": "US destroys two IRGC boats in the Strait of Hormuz",
+    "description": "US forces destroyed two IRGC boats in the Strait of Hormuz. A US official told Axios (Sep 15) the IRGC had used the boats in an attempt to capture a US Navy patrol drone. No casualty figure was published by either side. It was the most significant kinetic event of an otherwise de-escalatory fire pause, with no US strike on Iranian territory ashore for ~12 consecutive operational periods.",
+    "category": "military",
+    "source": "Axios / GlobalSecurity",
+    "data_point": "2 IRGC boats destroyed"
+  },
+  {
+    "date": "2026-09-15",
+    "time": "day",
+    "title": "US House votes 220-204 to limit strikes on Iran",
+    "description": "The US House voted 220-204 to limit the President's power to strike Iran — the third war-powers resolution of the conflict — with several Republicans switching to yes. The measure was sponsored by Rep. Seth Moulton (D-MA).",
+    "category": "war_powers",
+    "source": "GlobalSecurity / Patch",
+    "data_point": "220-204"
+  },
+  {
+    "date": "2026-09-15",
+    "time": "day",
+    "title": "Massie files articles of impeachment against Hegseth",
+    "description": "Rep. Thomas Massie introduced articles of impeachment against Defense Secretary Pete Hegseth, escalating congressional pressure over the conduct of the war.",
+    "category": "congress",
+    "source": "GlobalSecurity / Patch",
+    "data_point": "Articles introduced"
+  },
+  {
+    "date": "2026-09-15",
+    "time": "day",
+    "title": "VP Vance says war will enter 'a different phase'",
+    "description": "Vice President Vance said the war would enter 'a different phase' in the coming months. No strike on Iranian nuclear sites has been reported since July 7.",
+    "category": "us_statement",
+    "source": "GlobalSecurity",
+    "data_point": "'a different phase'"
+  },
+  {
+    "date": "2026-09-16",
+    "time": "14:00",
+    "title": "Federal Reserve raises rates 25 bps to 3.75-4%",
+    "description": "The Federal Reserve raised the federal funds rate 25 bps to a 3.75-4% target — its first hike since July 2023 — on a 12-0 vote. Chair Kevin Warsh said 'inflation is too high and has been for too long,' citing persistent inflation partly tied to Middle East energy costs; 16 of 18 FOMC participants' dot-plot projected another 2026 hike (median year-end 4.1%).",
+    "category": "economic_policy",
+    "source": "Fox Business / CNBC",
+    "data_point": "3.75-4% (12-0)"
+  },
+  {
+    "date": "2026-09-16",
+    "time": "day",
+    "title": "GCC-Iran ministerial postponed; Guterres offers platform",
+    "description": "The Gulf-Iran foreign ministers' meeting was postponed after Bahrain's withdrawal. UN Secretary-General Guterres offered a negotiating platform 'but they have to want it.' Iran's FM Araghchi, in Beijing, claimed a plan with Oman to reopen Hormuz — not confirmed by any Omani official (UNVERIFIED; TASS reported it Sep 16).",
+    "category": "diplomatic",
+    "source": "Reuters / TASS / GlobalSecurity",
+    "data_point": "Meeting postponed"
+  },
+  {
+    "date": "2026-09-16",
+    "time": "day",
+    "title": "Mahsa Amini anniversary unrest sweeps Iranian Kurdistan",
+    "description": "Widespread strikes and unrest across Iranian Kurdistan on the Mahsa Amini anniversary prompted a domestic crackdown. Iran's two-day cross-border fire into Iraqi-Kurdish areas ended Sep 15 and was not renewed.",
+    "category": "domestic-iran",
+    "source": "GlobalSecurity",
+    "data_point": "Anniversary crackdown"
+  },
+  {
+    "date": "2026-09-16",
+    "time": "day",
+    "title": "Houthis strike Saudi Arabia; Mecca drone intercepted",
+    "description": "Iran-backed Houthis struck Saudi Arabia with drones and ballistic missiles at Khamis Mushait, Abha and Taif, and a drone targeting Mecca was intercepted on Sep 16. The Houthis continued to press positions near the Bab el-Mandeb strait.",
+    "category": "iran_retaliation",
+    "source": "CNBC / AGBI",
+    "data_point": "Mecca drone intercepted"
+  },
+  {
+    "date": "2026-09-17",
+    "time": "day",
+    "title": "UN Fact-Finding Mission finds US committed war crimes",
+    "description": "The UN Independent International Fact-Finding Mission on Iran issued report A/HRC/63/61, finding 'reasonable grounds to believe' US forces committed war crimes in two Feb 28 strikes — on the Shajareh Tayyebeh primary school in Minab (at least 157 killed incl 120 children and 26 staff, 95 wounded) and a sports center in Lamerd (22 killed) — and that Iranian authorities committed crimes against humanity in suppressing winter protests (377 deaths incl 56 children).",
+    "category": "international_law_humanitarian",
+    "source": "Reuters / AP / NBC / UN News",
+    "data_point": "A/HRC/63/61"
+  },
+  {
+    "date": "2026-09-17",
+    "time": "day",
+    "title": "Trump says US 'nearing the end' of the war",
+    "description": "President Trump said the US was 'nearing the end' of the war and claimed direct talks with Tehran. House Speaker Mike Johnson declared the Iran nuclear issue 'taken care of.'",
+    "category": "political",
+    "source": "Al Jazeera / CBS",
+    "data_point": "'nearing the end'"
+  },
+  {
+    "date": "2026-09-18",
+    "time": "day",
+    "title": "White House rejects UN war-crimes findings",
+    "description": "The White House rejected the UN findings, stating the UN Human Rights Council 'has accomplished nothing for human rights while spouting unserious nonsense for decades' and that 'the only party committing war crimes in the conflict has been the Iranian regime.'",
+    "category": "us_statement",
+    "source": "GlobalSecurity",
+    "data_point": "WH rejects report"
+  },
+  {
+    "date": "2026-09-18",
+    "time": "day",
+    "title": "Basij show-of-force mobilizes up to 330,000 in Tehran",
+    "description": "A Basij show-of-force ('313,000-Strong Exercise of Iran's Jan-Fadayans') took place in Tehran on a stated scale of up to 330,000, with indefinite pro-regime street deployments announced.",
+    "category": "domestic-iran",
+    "source": "GlobalSecurity",
+    "data_point": "~330,000 mobilized"
+  },
+  {
+    "date": "2026-09-19",
+    "time": "day",
+    "title": "USS Abraham Lincoln CSG pulls into Guam",
+    "description": "The USS Abraham Lincoln (CVN-72) CSG, having departed the Middle East after 8+ months, transited from the South China Sea with CVW-9 and destroyer USS Frank E. Petersen Jr. (DDG-121) and pulled into Guam on Saturday Sep 19, en route to San Diego.",
+    "category": "naval-disposition",
+    "source": "USNI News",
+    "data_point": "Lincoln CSG to Guam"
+  },
+  {
+    "date": "2026-09-20",
+    "time": "day",
+    "title": "War settles into a de-escalatory fire pause / attrition phase",
+    "description": "Per CRS (R48887), as of September 2026 the conflict 'appears to have become a war of attrition.' The Sep 14-20 window was defined by the absence of US strikes ashore and a 10-14 day Iranian host-state fire pause, punctuated only by the Sep 14 IRGC-boat engagement in Hormuz. Cumulative modeled cost ~$54.8B; US KIA held at 18.",
+    "category": "milestone",
+    "source": "CRS R48887 / GlobalSecurity",
+    "data_point": "Attrition phase"
   }
 ]

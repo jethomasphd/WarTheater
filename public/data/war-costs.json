@@ -197,7 +197,14 @@
     "Day 195",
     "Day 196",
     "Day 197",
-    "Day 198"
+    "Day 198",
+    "Day 199",
+    "Day 200",
+    "Day 201",
+    "Day 202",
+    "Day 203",
+    "Day 204",
+    "Day 205"
   ],
   "daily_cost_millions": [
     3000,
@@ -329,6 +336,13 @@
     85,
     85,
     85,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
     500,
     500,
     500,
@@ -597,7 +611,14 @@
     "Day 195 (September 10, Thursday) — Brent settled $107.63 / WTI $102.48 (highest close since May 19); drones from Iraq struck the Saudi East-West pipeline and Houthis pressed on Bab el-Mandeb. Modeled ~$500M/day; cumulative ~$49.8B.",
     "Day 196 (September 11, Friday) — Houthis seized Mayun (Perim) Island, taking control of Bab el-Mandeb; Saudi shut the East-West pipeline and US diesel topped $6/gal for the first time. Modeled ~$500M/day; cumulative ~$50.3B.",
     "Day 197 (September 12, Saturday) — Markets closed. The BRICS Delhi Declaration urged restraint on civilian and nuclear infrastructure; Iraq seized a drone-launch platform in Maysan. Modeled ~$500M/day; cumulative ~$50.8B.",
-    "Day 198 (September 13, Sunday) — An unidentified projectile struck an Iranian merchant vessel near Hengam Island (one seafarer killed); a GCC-Iran ministerial was set for Salalah on Sep 14. Modeled ~$500M/day; cumulative ~$51.3B."
+    "Day 198 (September 13, Sunday) — An unidentified projectile struck an Iranian merchant vessel near Hengam Island (one seafarer killed); a GCC-Iran ministerial was set for Salalah on Sep 14. Modeled ~$500M/day; cumulative ~$51.3B.",
+    "Day 199 (September 14, Monday) — US forces destroyed two IRGC boats in the Strait of Hormuz (Axios: the IRGC had used them to try to capture a US Navy patrol drone); no casualty figure published, and no US strike on Iranian territory ashore in-window. Modeled ~$500M/day; cumulative ~$51.8B.",
+    "Day 200 (September 15, Tuesday) — The US House voted 220-204 to limit the President's authority to strike Iran; Brent settled $108.75 (highest close since May 19) on the Saudi East-West pipeline outage. Modeled ~$500M/day; cumulative ~$52.3B.",
+    "Day 201 (September 16, Wednesday) — The Federal Reserve raised rates 25 bps to 3.75-4% (its first hike since July 2023), citing Middle East energy costs; Mahsa Amini anniversary unrest spread across Iranian Kurdistan. Modeled ~$500M/day; cumulative ~$52.8B.",
+    "Day 202 (September 17, Thursday) — The UN Fact-Finding Mission (report A/HRC/63/61) found 'reasonable grounds to believe' the US committed war crimes in two Feb 28 strikes; Trump said the US was 'nearing the end' of the war. Modeled ~$500M/day; cumulative ~$53.3B.",
+    "Day 203 (September 18, Friday) — The White House rejected the UN findings; a Basij show-of-force mobilized up to 330,000 in Tehran. Brent slid to a $103.87 settle. Modeled ~$500M/day; cumulative ~$53.8B.",
+    "Day 204 (September 19, Saturday) — The USS Abraham Lincoln CSG, having departed the Middle East, pulled into Guam en route to San Diego after 8+ months on station; the fire pause held (10 days without an Iranian host-state missile salvo). Modeled ~$500M/day; cumulative ~$54.3B.",
+    "Day 205 (September 20, Sunday) — Cost context: the Pentagon comptroller placed direct costs at $29B as of the earlier fighting pause, incl. ~$24B to repair/replace 42 US aircraft catalogued lost/damaged by CRS (DoD IG counted ~57 through June 30); a CSIS assessment estimated Patriot interceptors down ~65% (from ~2,330 to 759-827) and THAAD from 452 to 234-278. Independent modeled tracker ~$500M/day; cumulative ~$54.8B."
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
@@ -763,7 +784,8 @@
       "Sep 7",
       "Sep 8",
       "Sep 9",
-      "Sep 10"
+      "Sep 10",
+      "Sep 15"
     ],
     "data": [
       50,
@@ -927,9 +949,10 @@
       5,
       11,
       6,
-      7
+      7,
+      4
     ],
     "prewar_daily": 50
   },
-  "last_updated": "2026-09-13"
+  "last_updated": "2026-09-20"
 }

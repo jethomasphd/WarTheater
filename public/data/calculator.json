@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 4.29,
-  "war_increase": 1.30,
+  "current_gas": 4.48,
+  "war_increase": 1.49,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.58 },
@@ -22,6 +22,6 @@
     { "code": "NC", "label": "North Carolina", "premium": -0.05 }
   ],
   "default_state": "TX",
-  "source": "AAA national average regular $4.29 on Sep 11 (up ~15c on the week from the $4.15 Labor Day record) as the crude spike finally filtered through to the pump; diesel hit a record $6.05-6.06 the same day (context only, not the regular-gas field). Up ~$1.30 / +43.5% vs the $2.99 pre-war baseline; the May 21 peak was $4.55. The Institute on Taxation and Economic Policy estimated the average added fuel cost per US household at $675.13 to date, forecast to reach $1,011.88 by end of autumn. State highs remain led by California, Hawaii and Washington; no state-level AAA breakdown re-collected this cycle - state premiums carried unchanged. Source: AAA / NBC / NPR / GasBuddy.",
-  "last_updated": "2026-09-13"
+  "source": "AAA national average regular $4.4761 on Sep 20 (from $4.29 on Sep 11 and $4.44 on Sep 17), up ~$1.49 / +49.7% vs the $2.99 pre-war baseline as the mid-September crude spike filtered fully through to the pump; the May 21 wartime peak was $4.55, now within ~7c. Diesel ran ~$6.31/gal national (Sep 16, AAA via MacroMicro) and remains above $6.30 (context only, not the regular-gas field). The Institute on Taxation and Economic Policy estimated the average added fuel cost per US household at $675.13 to date, forecast to reach $1,011.88 by end of autumn. State highs remain led by California, Hawaii and Washington; no state-level AAA breakdown re-collected this cycle - state premiums carried unchanged. Source: AAA / Finder / MacroMicro / GlobalSecurity.",
+  "last_updated": "2026-09-20"
 }
