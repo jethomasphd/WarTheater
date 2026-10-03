@@ -782,5 +782,12 @@
         "label": "SEPTEMBER 20, 2026 — DAY 205",
         "headline": "Fire pause holds — no US strike ashore in ~12 periods; US sinks two IRGC boats in Hormuz; UN finds US war crimes in the Feb 28 strikes; Fed's first hike since 2023; Lincoln CSG departs the Middle East",
         "file": "data/briefings/day-205.html"
+    },
+    {
+        "day": 216,
+        "date": "2026-10-01",
+        "label": "OCTOBER 1, 2026 — DAY 216",
+        "headline": "Trump rejects Iran 7-day Hormuz plan; US replies via Qatar; 3rd carrier ordered to Gulf; Brent jumps 4.4% to $102",
+        "file": "data/briefings/day-216.html"
     }
 ]
