@@ -3151,35 +3151,35 @@
       "value": 3636,
       "label": "Iranian killed (cumulative, tracked line)",
       "note": "HELD (HRANA)",
-      "tooltip": "HRANA 3,636; Foundation of Martyrs 3,468; Al Jazeera compilation ≥3,527; JINSA 3,724+; Iran International 4,700+ security personnel; US/Israel estimate 6,000+. Sources not reconciled; do not synthesize.",
+      "tooltip": "HRANA cumulative 3,636: 1,701 civilians, 1,221 military, 714 unclassified; no new aggregate published this window. Iranian Health Ministry: at least 2,362 civilians killed and 32,314 injured (separate series, not combined). Other tallies: Foundation of Martyrs 3,468; Al Jazeera compilation ≥3,527; JINSA 3,724+; US/Israel estimate 6,000+. Sources not reconciled; do not synthesize.",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
-      "value": 4350,
+      "value": 4386,
       "label": "Lebanese killed (cumulative, all)",
-      "note": "HELD",
-      "tooltip": "No verified change; Lebanese front produced no fire in either direction for two consecutive days over Rosh Hashanah.",
+      "note": "+36 — Lebanese MoPH through Sep 17",
+      "tooltip": "Lebanese Ministry of Public Health cumulative since Hezbollah joined the war on Mar 2: 4,386 killed and 12,407 injured through Sep 17, 2026 (8,953 killed since Oct 8, 2023, per Palinfo citing MoPH). No later ministry total was located; Israeli strikes continued afterwards, so the figure understates the current toll.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
       "value": 1200000,
       "label": "Displaced (cumulative)",
-      "note": "HELD",
-      "tooltip": "Lebanon-weighted; Iran ~3.2M IDPs tracked separately. No verified change.",
+      "note": "HELD — no new figure located",
+      "tooltip": "Carried forward; Lebanon-weighted, Iran ~3.2M IDPs tracked separately. No new UNHCR, IOM or OCHA figure for Sep 18 to Oct 2. The UN envoy reports new displacement in Taiz, Yemen, where most recently displaced Yemenis are sheltering. Verify against the latest UNHCR/IOM release.",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 8000,
       "label": "Flights cancelled (cumulative)",
-      "note": "HELD",
-      "tooltip": "No new verified figure in-window.",
+      "note": "HELD — no new aggregate located",
+      "tooltip": "Carried forward. No new Cirium or FlightAware aggregate in-window. A Flydubai incident on Oct 1 is unverified.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
       "value": 379,
       "label": "Children killed (cumulative, tracked)",
       "note": "HELD (UN FFM documents 120 at Minab alone)",
-      "tooltip": "Regional floor; HRANA Iran-only ≥254. The UN Fact-Finding Mission report A/HRC/63/61 (Sep 17) documented at least 120 children killed in the Feb 28 Minab Shajareh Tayyebeh school strike and 56 children in the protest crackdown (UN News separately cites 221+ children). No verified in-window increment.",
+      "tooltip": "Carried forward; no new UNICEF figure for the window. Regional floor; HRANA Iran-only ≥254. The UN Fact-Finding Mission report A/HRC/63/61 (Sep 17) documented at least 120 children killed in the Feb 28 Minab Shajareh Tayyebeh school strike and 56 children in the protest crackdown (UN News separately cites 221+ children).",
       "color": "var(--civilian)"
     }
   }
