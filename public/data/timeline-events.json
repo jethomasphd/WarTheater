@@ -9835,5 +9835,77 @@
     "category": "milestone",
     "source": "CRS R48887 / GlobalSecurity",
     "data_point": "Attrition phase"
+  },
+  {
+    "date": "2026-09-21",
+    "time": "day",
+    "title": "Trump signals openness to Iran talks at UN, holds off on Houthi strikes",
+    "description": "Trump told Fox News he would probably be open to meeting President Pezeshkian at the UN General Assembly. Administration officials told the NYT he had decided against bombing the Houthis for now despite Saudi pleas.",
+    "category": "diplomatic",
+    "source": "CNBC / New York Times via CNBC",
+    "data_point": "WTI back below $100"
+  },
+  {
+    "date": "2026-09-22",
+    "time": "day",
+    "title": "US and Iranian delegations meet for three hours at UNGA",
+    "description": "Trump said US officials had a very good three-hour meeting with Iran's delegation on the UN sidelines, and told the General Assembly he faces a big decision between a deal and annihilating Iran. He said he expects a deal right after the midterms. Yahoo News reported that envoy Steve Witkoff and Jared Kushner handled back-channel exchanges with Araghchi through Qatari intermediaries.",
+    "category": "diplomatic",
+    "source": "CNBC / Yahoo News",
+    "data_point": "3-hour UNGA meeting"
+  },
+  {
+    "date": "2026-09-23",
+    "time": "day",
+    "title": "Pezeshkian tells UN Iran cannot be made to surrender",
+    "description": "In his General Assembly address, Iranian President Masoud Pezeshkian said Iran's enemies had learned that Iran cannot be made to surrender. Brent rose 3.9% to $103.08, ending a five-session losing streak.",
+    "category": "diplomatic",
+    "source": "CNBC / Al Jazeera",
+    "data_point": "Brent +3.9% to $103.08"
+  },
+  {
+    "date": "2026-09-24",
+    "time": "day",
+    "title": "Iran submits written road map; Houthis fire missiles at Taif and Yanbu",
+    "description": "Iran gave the US a written road map with a regionwide ceasefire of up to 60 days, phased reopening of Hormuz and an end to the US blockade. The same day the Saudi-led coalition said it intercepted six Houthi ballistic missiles aimed at Taif and Yanbu as the East-West pipeline restarted.",
+    "category": "military",
+    "source": "GlobalSecurity.org / AP / Reuters / Al Jazeera",
+    "data_point": "6 ballistic missiles intercepted"
+  },
+  {
+    "date": "2026-09-25",
+    "time": "day",
+    "title": "Araghchi unveils seven-day plan to reopen Hormuz",
+    "description": "At the UN, Foreign Minister Abbas Araghchi said Iran would reopen the Strait within seven days if the US releases frozen funds (over $12 billion, per the Washington Times), waives oil sanctions, ends the blockade and accepts a regional ceasefire including Lebanon. He said Iran was not in a hurry.",
+    "category": "diplomatic",
+    "source": "CNBC / Al Jazeera / RFE/RL / Washington Times",
+    "data_point": "7-day reopening offer"
+  },
+  {
+    "date": "2026-09-26",
+    "time": "day",
+    "title": "Trump rejects Iran's seven-day Hormuz plan",
+    "description": "Trump said he was rejecting the plan as unacceptable and claimed 29 ships crossed Hormuz in the past day. The WSJ reported he has told aides he expects to resume bombing Iran after the November midterms.",
+    "category": "diplomatic",
+    "source": "Al Jazeera / RFE/RL / CNBC / Haaretz/Reuters",
+    "data_point": "Plan rejected"
+  },
+  {
+    "date": "2026-09-27",
+    "time": "day",
+    "title": "NBC reveals 8 Marines hurt in undisclosed Sep 14 Iranian missile strike",
+    "description": "Three US officials told NBC News that an Iranian cruise missile struck a vessel carrying US Marines in the Strait of Hormuz on Sep 14, injuring eight. The Pentagon had also quietly added 29 Navy sailors to its DCAS wounded list in September.",
+    "category": "military",
+    "source": "NBC News / The Media Line / Antiwar.com",
+    "data_point": "US WIA 861 (DCAS)"
+  },
+  {
+    "date": "2026-09-27",
+    "time": "day",
+    "title": "Theodore Roosevelt Carrier Strike Group deploys toward Middle East",
+    "description": "USS Theodore Roosevelt left San Diego and is expected to relieve USS George Washington in CENTCOM. The Makin Island ARG with the 13th MEU got underway the next day.",
+    "category": "military",
+    "source": "USNI News / The War Zone",
+    "data_point": "Third CSG deploys"
   }
 ]
