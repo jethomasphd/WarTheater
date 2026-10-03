@@ -4,44 +4,44 @@
   "timestamp_label": "LAST UPDATED: SEP 20, 2026 15:06 ET",
   "cost": {
     "brent": {
-      "price": 103.87,
+      "price": 102.31,
       "label": "Brent Crude ($/bbl)",
-      "change": "-0.9% Sep 18 settle; +5.95 vs Sep 4 ($97.92)",
-      "tooltip": "ICE Brent front-month settle Fri Sep 18 $103.87 (CNBC); peaked at $108.75 on Sep 15 (highest close since May 19) on the Saudi East-West pipeline outage, then eased as Riyadh restored capacity via Oman ship-to-ship transfers. GlobalSecurity logged a lower Sep 18 Brent $102.41 (flagged secondary variant). Source: CNBC/GlobalSecurity."
+      "change": "+4.4% Oct 1 settle (Dec contract); +31.31 (+44.1%) vs pre-war $71.00",
+      "tooltip": "ICE Brent December 2026 contract settle Thu Oct 1 $102.31 (+4.28 / +4.4% on the day; CNBC) on the report that a third US carrier strike group is headed to the Middle East. The November contract expired Sep 30 at $103.50, so the series rolls to December here (roll gap ~$5.47; Oct 1 is not directly comparable with Sep 30). In-window range $99.25 (Sep 22) to $106.60 (Sep 24). FRED Dated Brent spot ran $113.96-$120.92 over Sep 23-29 (physical premium; the dashboard tracks futures). Pre-war baseline $71.00 (Feb 27). Source: CNBC / Reuters via Rio Times."
     },
     "wti": {
-      "price": 100.3,
+      "price": 92.87,
       "label": "WTI Crude ($/bbl)",
-      "change": "+0.17 since Sep 11; peaked $105.83 Sep 15",
-      "tooltip": "NYMEX WTI settle Fri Sep 18 $100.30 (CNBC); peaked at $105.83 on Sep 15 (highest since May 19). The Sep 14 settle is conflicting (~$101.4-$102.2). Source: CNBC."
+      "change": "+2.7% Oct 1 settle (Nov contract); +26.37 (+39.7%) vs pre-war $66.50",
+      "tooltip": "NYMEX WTI November 2026 contract settle Thu Oct 1 $92.87 (+2.45 / +2.7% on the day; CNBC). WTI rolled from October to November after Sep 22 expiry, so the apparent Sep 23 drop is a roll artifact. The Brent-WTI spread is about $9.44, among its widest in four months (Reuters). Pre-war baseline $66.50. Source: CNBC / Reuters."
     },
     "gas": {
-      "price": 4.48,
+      "price": 4.41,
       "label": "US Avg Gas ($/gal)",
-      "change": "+0.19 since Sep 11",
-      "tooltip": "AAA national average regular $4.4761 on Sep 20 (from $4.29 Sep 11 and $4.44 Sep 17), within ~7c of the May 21 wartime peak of $4.55; diesel ~$6.31/gal. Source: AAA/Finder/MacroMicro."
+      "change": "-0.07 week on week; +1.42 (+47.5%) vs pre-war $2.99",
+      "tooltip": "AAA national average regular $4.41 on Oct 1, 2026, down nearly 7 cents week on week (AAA Newsroom); the AAA site showed $4.4558 on Sep 30. September averaged $4.33, a record for the month. Wartime peak was $4.55 on May 21. Diesel $6.4391/gal (Sep 30). Source: AAA."
     },
     "sp500": {
-      "value": 7650.5,
+      "value": 7666.45,
       "label": "S&P 500",
-      "change": "-0.08% since Sep 11; Fed hiked Sep 16",
-      "tooltip": "Close Fri Sep 18 7,650.50 (+0.17% on the day). The Fed raised rates 25 bps to 3.75-4% on Sep 16 (first hike since July 2023); the index recovered in a post-Fed relief rally after dipping to 7,551.81 on the hike. Source: Yahoo Finance/CNBC/FRED."
+      "change": "+0.19% Oct 1; +787.57 (+11.4%) vs pre-war 6,878.88",
+      "tooltip": "Close Thu Oct 1 7,666.45 (+14.91 / +0.19%) as Treasury yields eased from multiyear highs (CNBC, Yahoo Finance). The index fell 0.5% in September (CNBC) but gained 2% in Q3. Sep 30 close 7,651.54 (-0.25%, AP). Several late-September closes were not located this cycle. Pre-war baseline 6,878.88 (Feb 27). Source: CNBC / Yahoo Finance / AP."
     },
     "daily_cost": {
       "value": 500,
       "unit": "M/day",
       "label": "Daily War Cost ($M/day)",
       "change": "HELD",
-      "tooltip": "Modeled $500M/day; HELD — no verified change.",
-      "note": "METHOD CARRY-FORWARD at $500M/day through Day 205 (modeled). Kinetic tempo ebbed in the Sep 14-20 fire pause; the Sep 14 destruction of two IRGC boats in the Strait of Hormuz was the window's main action."
+      "tooltip": "Estimated daily US operating cost, modeled $500M/day. No new CSIS, CBO, Watson Institute or Pentagon figure was published Sep 18 to Oct 2, 2026, so the existing rate is carried forward.",
+      "note": "DERIVED: unchanged methodology, $500M/day carried forward through Day 216. A third carrier strike group (Theodore Roosevelt) and the Makin Island ARG deploying toward CENTCOM will raise run-rate costs once they arrive (USNI, WSJ)."
     },
     "total_cost": {
-      "value": 54.8,
+      "value": 60.3,
       "unit": "B",
       "label": "Cumulative Cost ($B)",
-      "change": "+3.5 since Day 198",
-      "tooltip": "MODELED: ~$54.8B at Day 205 ($51.3B at Day 198 + 7 × $500M). Not an official Treasury/DoD figure.",
-      "note": "INDEPENDENT TRACKER (modeled): ~$54.8B at Day 205, extended from ~$51.3B at Day 198 at $500M/day."
+      "change": "+5.5 since Day 205",
+      "tooltip": "MODELED: ~$60.3B at Day 216 ($54.8B at Day 205 + 11 × $500M). Cumulative estimated US cost since Feb 28, 2026. Last official anchor: Acting Pentagon Comptroller testimony of $29 billion to date (May 12, 2026). Not an official Treasury/DoD figure.",
+      "note": "DERIVED: accrued at the carried-forward $500M/day through Oct 1 (~$60.3B at Day 216). Flag for replacement when a new official estimate appears."
     }
   },
   "history": [
