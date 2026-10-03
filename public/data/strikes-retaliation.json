@@ -5037,6 +5037,24 @@
     "last_updated": "2026-09-20"
   },
   {
+    "id": "strait-of-hormuz-2026-09-14-marines",
+    "city": "Strait of Hormuz (maritime)",
+    "lat": 26.5667,
+    "lng": 56.25,
+    "type": "iran_retaliation",
+    "weapon": "Anti-ship cruise missile",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-09-14",
+    "casualties_reported": "8 US Marines injured (smoke inhalation, possible TBI), all returned to duty (NBC News, citing three US officials)",
+    "casualties_source": "NBC News",
+    "active_days": [
+      199
+    ],
+    "notes": "Missile struck a maritime vessel, not a US Navy ship, carrying a battalion landing team detail (seven enlisted, one officer). The Pentagon did not disclose it at the time; injuries were entered in DCAS about 10 days later and reported Sep 27-28 (NBC News, The Media Line). Confirmed by three anonymous US officials; no on-record Pentagon statement.",
+    "verified": true,
+    "last_updated": "2026-10-02"
+  },
+  {
     "id": "houthi-strikes-saudi-mecca-20260916",
     "city": "Khamis Mushait, Abha, Taif & Mecca approaches, Saudi Arabia",
     "lat": 18.3,
@@ -5071,24 +5089,6 @@
     "notes": "UNVERIFIED. The IRGC claimed four US MQ-9 Reaper shootdowns in three days, including over Qeshm Island on Sep 16, allegedly using a new integrated air-defense system. No imagery, wreckage, serial number, or CENTCOM confirmation exists (GlobalSecurity flags it as unconfirmed). If accurate it would be the first Iranian surface-to-air engagement of an American aircraft over water in the resumed war and would bear on CENTCOM's standing (March) assessment of ~90% air-defense degradation.",
     "verified": false,
     "last_updated": "2026-09-20"
-  },
-  {
-    "id": "strait-of-hormuz-2026-09-14-marines",
-    "city": "Strait of Hormuz (maritime)",
-    "lat": 26.5667,
-    "lng": 56.25,
-    "type": "iran_retaliation",
-    "weapon": "Anti-ship cruise missile",
-    "origin": "Iran (IRGC)",
-    "first_strike": "2026-09-14",
-    "casualties_reported": "8 US Marines injured (smoke inhalation, possible TBI), all returned to duty (NBC News, citing three US officials)",
-    "casualties_source": "NBC News",
-    "active_days": [
-      199
-    ],
-    "notes": "Missile struck a maritime vessel, not a US Navy ship, carrying a battalion landing team detail (seven enlisted, one officer). The Pentagon did not disclose it at the time; injuries were entered in DCAS about 10 days later and reported Sep 27-28 (NBC News, The Media Line). Confirmed by three anonymous US officials; no on-record Pentagon statement.",
-    "verified": true,
-    "last_updated": "2026-10-02"
   },
   {
     "id": "taif-2026-09-24",
