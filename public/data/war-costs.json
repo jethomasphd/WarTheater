@@ -204,7 +204,18 @@
     "Day 202",
     "Day 203",
     "Day 204",
-    "Day 205"
+    "Day 205",
+    "Day 206",
+    "Day 207",
+    "Day 208",
+    "Day 209",
+    "Day 210",
+    "Day 211",
+    "Day 212",
+    "Day 213",
+    "Day 214",
+    "Day 215",
+    "Day 216"
   ],
   "daily_cost_millions": [
     3000,
@@ -336,6 +347,17 @@
     85,
     85,
     85,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
     500,
     500,
     500,
@@ -618,7 +640,18 @@
     "Day 202 (September 17, Thursday) — The UN Fact-Finding Mission (report A/HRC/63/61) found 'reasonable grounds to believe' the US committed war crimes in two Feb 28 strikes; Trump said the US was 'nearing the end' of the war. Modeled ~$500M/day; cumulative ~$53.3B.",
     "Day 203 (September 18, Friday) — The White House rejected the UN findings; a Basij show-of-force mobilized up to 330,000 in Tehran. Brent slid to a $103.87 settle. Modeled ~$500M/day; cumulative ~$53.8B.",
     "Day 204 (September 19, Saturday) — The USS Abraham Lincoln CSG, having departed the Middle East, pulled into Guam en route to San Diego after 8+ months on station; the fire pause held (10 days without an Iranian host-state missile salvo). Modeled ~$500M/day; cumulative ~$54.3B.",
-    "Day 205 (September 20, Sunday) — Cost context: the Pentagon comptroller placed direct costs at $29B as of the earlier fighting pause, incl. ~$24B to repair/replace 42 US aircraft catalogued lost/damaged by CRS (DoD IG counted ~57 through June 30); a CSIS assessment estimated Patriot interceptors down ~65% (from ~2,330 to 759-827) and THAAD from 452 to 234-278. Independent modeled tracker ~$500M/day; cumulative ~$54.8B."
+    "Day 205 (September 20, Sunday) — Cost context: the Pentagon comptroller placed direct costs at $29B as of the earlier fighting pause, incl. ~$24B to repair/replace 42 US aircraft catalogued lost/damaged by CRS (DoD IG counted ~57 through June 30); a CSIS assessment estimated Patriot interceptors down ~65% (from ~2,330 to 759-827) and THAAD from 452 to 234-278. Independent modeled tracker ~$500M/day; cumulative ~$54.8B.",
+    "Day 206 (September 21, Monday) — Trump signalled openness to meeting Pezeshkian at the UNGA and, per the NYT, held off on bombing the Houthis despite Saudi pleas. No new official cost estimate. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$55.3B.",
+    "Day 207 (September 22, Tuesday) — US and Iranian delegations met for three hours on the UN sidelines; no change in force posture. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$55.8B.",
+    "Day 208 (September 23, Wednesday) — DCAS wounded count reached 861 (Washington Post). No new CSIS, CBO, Watson Institute or Pentagon estimate. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$56.3B.",
+    "Day 209 (September 24, Thursday) — Iran gave the US a written road map (regionwide ceasefire of up to 60 days, phased Hormuz reopening, end of the blockade); Houthi missiles at Taif and Yanbu intercepted. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$56.8B.",
+    "Day 210 (September 25, Friday) — Araghchi unveiled a seven-day Hormuz reopening plan at the UN. Tanker transit point: Trump said 29 ships crossed Hormuz in the past day (UNVERIFIED; RFE/RL, Seoul Economic Daily); a US official said nearly 40 million barrels transited in the prior 48 hours (NBC via OAN); Goldman Sachs estimates Gulf oil exports recovered to 23.3 mb/d in the week to Sep 29 (CNBC/Reuters). No independent Lloyd's List or Kpler daily count located. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$57.3B.",
+    "Day 211 (September 26, Saturday) — Trump rejected Iran's seven-day plan; the WSJ reported he expects to resume bombing after the Nov 3 midterms. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$57.8B.",
+    "Day 212 (September 27, Sunday) — USS Theodore Roosevelt deployed from San Diego toward CENTCOM to relieve USS George Washington (USNI via TWZ). Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$58.3B.",
+    "Day 213 (September 28, Monday) — The Makin Island ARG with the 13th MEU got underway from San Diego (USNI via TWZ). Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$58.8B.",
+    "Day 214 (September 29, Tuesday) — No new official cost estimate; methodology unchanged. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$59.3B.",
+    "Day 215 (September 30, Wednesday) — The last US troops of the anti-ISIL mission left Iraq, ending a 23-year presence (DoD via Al Jazeera). Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$59.8B.",
+    "Day 216 (October 1, Thursday) — No new official estimate Sep 18 to Oct 1; methodology unchanged. Force buildup (third CSG, second ARG/MEU, 9,000 to 10,000 more sailors and Marines on top of 50,000+ already in the region) announced Oct 1, arriving by end of November (WSJ) - run-rate costs will rise once they arrive. Last official anchor remains the Acting Pentagon Comptroller's $29B to date (May 12). Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$60.3B."
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
@@ -785,7 +818,8 @@
       "Sep 8",
       "Sep 9",
       "Sep 10",
-      "Sep 15"
+      "Sep 15",
+      "Sep 25"
     ],
     "data": [
       50,
@@ -950,9 +984,10 @@
       11,
       6,
       7,
-      4
+      4,
+      29
     ],
     "prewar_daily": 50
   },
-  "last_updated": "2026-09-20"
+  "last_updated": "2026-10-02"
 }
