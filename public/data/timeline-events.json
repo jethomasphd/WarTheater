@@ -9907,5 +9907,59 @@
     "category": "military",
     "source": "USNI News / The War Zone",
     "data_point": "Third CSG deploys"
+  },
+  {
+    "date": "2026-09-28",
+    "time": "day",
+    "title": "UK thwarts suspected plot against RAF Fairford bomber base",
+    "description": "British police arrested five men after three suspicious vans were reported heading toward RAF Fairford, which US bombers use for Iran strikes. Trump said the plotters sought big damage, and investigators are probing possible Iran links. On Oct 1 UK police arrested a dual British-Iranian national and Iran summoned the British ambassador.",
+    "category": "military",
+    "source": "Air and Space Forces Magazine / Ynet / The Media Line / Al Jazeera",
+    "data_point": "5 arrests"
+  },
+  {
+    "date": "2026-09-28",
+    "time": "day",
+    "title": "Iranian committee approves Hormuz seizure clause; CENTCOM rejects control claim",
+    "description": "Iran's parliamentary National Security Committee approved a navigation article providing for vessel seizure and 20 percent cargo confiscation. CENTCOM rejected Iran's claim to control the strait, saying Iran has no navy. Trump confirmed indirect talks but denied offering sanctions relief.",
+    "category": "political",
+    "source": "GlobalSecurity.org / Kurdistan24",
+    "data_point": "20% cargo confiscation clause"
+  },
+  {
+    "date": "2026-09-30",
+    "time": "day",
+    "title": "Iran receives formal US response via Qatar",
+    "description": "Government spokeswoman Fatemeh Mohajerani said Araghchi presented the US proposal to President Pezeshkian at a cabinet meeting. Tehran did not disclose its contents. Trump said the war would end very soon and denied reports that he would ease sanctions.",
+    "category": "diplomatic",
+    "source": "CBS News / IRNA via CBS / Jerusalem Post / ABC News",
+    "data_point": "US reply delivered"
+  },
+  {
+    "date": "2026-09-30",
+    "time": "day",
+    "title": "Last US troops of anti-ISIL mission leave Iraq",
+    "description": "The Defense Department confirmed the final American troops deployed to Iraq for the anti-ISIL mission had left, ending a 23-year presence. Iran-backed Iraqi militias said they do not plan to disarm.",
+    "category": "military",
+    "source": "Al Jazeera / CBS News / Fox News",
+    "data_point": "23-year presence ends"
+  },
+  {
+    "date": "2026-10-01",
+    "time": "day",
+    "title": "US sending third carrier and 9,000 to 10,000 more troops to Middle East",
+    "description": "US officials cited by the WSJ said the Theodore Roosevelt CSG, Marine ships and 9,000 to 10,000 more troops will arrive by end of November, on top of more than 50,000 already in the region, as Trump weighs renewed strikes after the midterms. Brent jumped 4.4% to $102.31 as Reuters also reported China had suspended oil product exports.",
+    "category": "military",
+    "source": "CNBC / Reuters via Yahoo Finance / Fox News / Al Jazeera / Euronews",
+    "data_point": "Brent +4.4% to $102.31"
+  },
+  {
+    "date": "2026-10-01",
+    "time": "day",
+    "title": "China and Russia veto UN panel to monitor Iran snapback sanctions",
+    "description": "China and Russia vetoed a US-led Security Council draft establishing an expert panel to monitor snapback sanctions on Iran; US Ambassador Mike Waltz condemned the veto. Treasury sanctioned the A7 crypto shadow-banking network and Iranian rail and auto conglomerates, and Bessent said Iran loaded zero crude onto tankers in September.",
+    "category": "economic",
+    "source": "Al Jazeera",
+    "data_point": "Zero Iranian crude loadings in Sept"
   }
 ]
