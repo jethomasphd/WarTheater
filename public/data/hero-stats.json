@@ -3130,21 +3130,21 @@
       "value": 35914,
       "label": "Cumulative targets struck (US+IL on Iran/proxies)",
       "note": "HELD — no new CENTCOM cumulative",
-      "tooltip": "No CENTCOM cumulative issued in-window; standing reference ~400+ Iranian sites struck since 7 July. No US strike ashore in Iran announced for ~12 consecutive operational periods; the Sep 14 destruction of two IRGC boats in the Strait of Hormuz was the window's main kinetic action.",
+      "tooltip": "Cumulative targets struck per CENTCOM; no change this cycle. No new US or Israeli strikes on Iranian territory confirmed Sep 18 to Oct 2; the last CENTCOM-announced strikes on Iranian soil were on Sep 1, and the Sep 5 tanker strikes were at sea. Claims of late-September strikes on Tehran, Semnan and Darkhovin are recycled July events and were rejected.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
-      "value": 18,
+      "value": 19,
       "label": "US service-member KIA (Pentagon DCAS)",
-      "note": "HELD",
-      "tooltip": "18 US military KIA since Feb 28; most recent death July 18 (northern Iraq). DCAS/JINSA/GlobalSecurity. DoD IG records 14 killed / 417 wounded through June 30; no departmental reconciliation. (Wikipedia infobox cites 19 + 1 contractor — discrepancy logged §9.)",
+      "note": "+1 — 19th death (non-hostile) entered in DCAS Sep 21",
+      "tooltip": "Official Pentagon DCAS total including non-hostile deaths, cited by the Washington Post and Stars and Stripes; 11 are recorded as hostile (The Intercept). The 19th, a non-hostile death, was entered in DCAS on Sep 21 (via GlobalSecurity). Trump cited 18 on Sep 30 (ABC News). The Washington Post (Sep 26) reported that as many as five military fatalities are not reflected in DCAS; Newsweek says officials told the Post at least 22 service members had died. Official counts lag.",
       "color": "var(--civilian)"
     },
     "us_wia": {
-      "value": 794,
-      "label": "US service-member WIA (Pentagon DCAS via militaryspend, Sep 4)",
-      "note": "HELD (official); wider tallies higher",
-      "tooltip": "DCAS official 794; Reuters Sep 11 'over 800'; an independent compilation put the official count at 820 as of Sep 8; The Intercept 'above 900.' No departmental reconciliation of the increase over ~697 in early August.",
+      "value": 861,
+      "label": "US service-member WIA (Pentagon DCAS via Washington Post, Sep 23)",
+      "note": "DCAS 861 as of Sep 23; incl. 8 Marines hurt Sep 14",
+      "tooltip": "DCAS total as of Sep 23 (Washington Post). The Pentagon added 37 troops in September (29 Navy sailors and 8 Marines), bringing the total to 861; the Post said DCAS does not explain how or when these 37 were wounded, and a Navy official said all the sailors returned to duty. The Marines were hurt when an Iranian cruise missile struck their vessel in the Strait of Hormuz on Sep 14, disclosed only on Sep 27 (NBC News). The Pentagon has added casualties retroactively, so there are lags.",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
