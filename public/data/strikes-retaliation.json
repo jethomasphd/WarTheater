@@ -5037,6 +5037,24 @@
     "last_updated": "2026-09-20"
   },
   {
+    "id": "strait-of-hormuz-2026-09-14-marines",
+    "city": "Strait of Hormuz (maritime)",
+    "lat": 26.5667,
+    "lng": 56.25,
+    "type": "iran_retaliation",
+    "weapon": "Anti-ship cruise missile",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-09-14",
+    "casualties_reported": "8 US Marines injured (smoke inhalation, possible TBI), all returned to duty (NBC News, citing three US officials)",
+    "casualties_source": "NBC News",
+    "active_days": [
+      199
+    ],
+    "notes": "Missile struck a maritime vessel, not a US Navy ship, carrying a battalion landing team detail (seven enlisted, one officer). The Pentagon did not disclose it at the time; injuries were entered in DCAS about 10 days later and reported Sep 27-28 (NBC News, The Media Line). Confirmed by three anonymous US officials; no on-record Pentagon statement.",
+    "verified": true,
+    "last_updated": "2026-10-02"
+  },
+  {
     "id": "houthi-strikes-saudi-mecca-20260916",
     "city": "Khamis Mushait, Abha, Taif & Mecca approaches, Saudi Arabia",
     "lat": 18.3,
@@ -5071,5 +5089,114 @@
     "notes": "UNVERIFIED. The IRGC claimed four US MQ-9 Reaper shootdowns in three days, including over Qeshm Island on Sep 16, allegedly using a new integrated air-defense system. No imagery, wreckage, serial number, or CENTCOM confirmation exists (GlobalSecurity flags it as unconfirmed). If accurate it would be the first Iranian surface-to-air engagement of an American aircraft over water in the resumed war and would bear on CENTCOM's standing (March) assessment of ~90% air-defense degradation.",
     "verified": false,
     "last_updated": "2026-09-20"
+  },
+  {
+    "id": "taif-2026-09-24",
+    "city": "Taif, Makkah Province, Saudi Arabia",
+    "lat": 21.2703,
+    "lng": 40.4158,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-09-24",
+    "casualties_reported": "None reported (Saudi-led coalition)",
+    "casualties_source": "Saudi-led coalition / Saudi Press Agency",
+    "active_days": [
+      209
+    ],
+    "notes": "Coalition spokesman Maj. Gen. Turki al-Malki said six ballistic missiles aimed at Taif and Yanbu were intercepted (AP, Reuters, Al Jazeera). AP could not independently verify. Attempted and intercepted per the coalition.",
+    "verified": true,
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "yanbu-2026-09-24",
+    "city": "Yanbu, Madinah Province, Saudi Arabia",
+    "lat": 24.089,
+    "lng": 38.0618,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles, cruise missiles, drones (Houthi claim)",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-09-24",
+    "casualties_reported": "None reported (Saudi-led coalition)",
+    "casualties_source": "Saudi-led coalition",
+    "active_days": [
+      209
+    ],
+    "notes": "Part of the six-missile salvo. Reuters reported that a Greek-crewed air defence system intercepted a ballistic missile and a drone in the wider Yanbu region. The Houthis claimed hits on Aramco facilities in Yanbu; Saudi Arabia has not confirmed (claimed hits UNVERIFIED). The attack came as the East-West pipeline was restarting (Reuters).",
+    "verified": true,
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "riyadh-2026-09-24",
+    "city": "Riyadh, Riyadh Province, Saudi Arabia",
+    "lat": 24.7136,
+    "lng": 46.6753,
+    "type": "iran_retaliation",
+    "weapon": "Missiles and drones (Houthi claim)",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-09-24",
+    "casualties_reported": "None reported",
+    "casualties_source": "Houthi military spokesman Yahya Saree (claim)",
+    "active_days": [
+      209,
+      211
+    ],
+    "notes": "UNVERIFIED Houthi claim of a strike on a 'sensitive target' in Riyadh on Sep 24; Saudi civil defence issued no Riyadh alert that day (Reuters). On Sep 26 the coalition said it shot down two drones heading for the Riyadh area (Euronews).",
+    "verified": false,
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "jazan-2026-09-24",
+    "city": "Jazan Province, Saudi Arabia",
+    "lat": 16.8892,
+    "lng": 42.5511,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles and drones (Houthi claim)",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-09-24",
+    "casualties_reported": "Not reported",
+    "casualties_source": "Houthi military spokesman Yahya Saree (claim)",
+    "active_days": [
+      209
+    ],
+    "notes": "UNVERIFIED. The Houthis claimed dozens of missiles and drones against Saudi military sites in Jazan; no Saudi confirmation (Reuters, AP).",
+    "verified": false,
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "khamis-mushait-2026-09-26",
+    "city": "Khamis Mushait, Asir Province, Saudi Arabia",
+    "lat": 18.3,
+    "lng": 42.7333,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-09-26",
+    "casualties_reported": "None reported (Saudi-led coalition)",
+    "casualties_source": "Saudi-led coalition",
+    "active_days": [
+      211
+    ],
+    "notes": "Coalition said air defences intercepted two ballistic missiles targeting Khamis Mushait (Euronews). Attempted and intercepted per the coalition.",
+    "verified": true,
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "medina-2026-10-01",
+    "city": "Medina, Madinah Province, Saudi Arabia",
+    "lat": 24.5247,
+    "lng": 39.5692,
+    "type": "iran_retaliation",
+    "weapon": "Not specified",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-10-01",
+    "casualties_reported": "Not reported",
+    "casualties_source": "Saudi-led coalition",
+    "active_days": [
+      216
+    ],
+    "notes": "The coalition said the Houthis targeted a power distribution station in Medina; it also reported destroying four Houthi drones over southern Saudi Arabia the same day (Al Jazeera). Damage not reported.",
+    "verified": true,
+    "last_updated": "2026-10-02"
   }
 ]

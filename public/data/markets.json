@@ -140,7 +140,16 @@
     "Sep 15",
     "Sep 16",
     "Sep 17",
-    "Sep 18"
+    "Sep 18",
+    "Sep 21",
+    "Sep 22",
+    "Sep 23",
+    "Sep 24",
+    "Sep 25",
+    "Sep 28",
+    "Sep 29",
+    "Sep 30",
+    "Oct 1"
   ],
   "contexts": [
     "Pre-war close — baseline",
@@ -283,7 +292,16 @@
     "Day 200 (September 15, Tuesday) — The S&P 500 fell 0.45% to 7,585.73 into the Fed decision as Brent settled $108.75 — its highest close since May 19 — on the Saudi pipeline outage; XLE rose to $65.93, JETS eased to $27.88.",
     "Day 201 (September 16, Wednesday) — The Federal Reserve raised rates 25 bps to 3.75-4% (a 12-0 vote), its first hike since July 2023, and the S&P 500 eased 0.45% to 7,551.81; Chair Kevin Warsh said 'inflation is too high and has been for too long,' citing Middle East energy costs; XLE $64.03, JETS $27.80.",
     "Day 202 (September 17, Thursday) — The S&P 500 rebounded to 7,637.76 in a post-Fed relief rally as oil eased (Brent $104.82 settle); the dot-plot showed 16 of 18 FOMC participants projecting another 2026 hike (median year-end 4.1%); XLE $64.48, JETS $28.17.",
-    "Day 203 (September 18, Friday) — The S&P 500 edged up 0.17% to 7,650.50 as Brent slid to a $103.87 settle; defense ETF ITA closed ~$213.84 (many defense names off 20%+ since the Iran fighting began) and energy XLE $64.31 (JETS Sep 18 close not confirmed)."
+    "Day 203 (September 18, Friday) — The S&P 500 edged up 0.17% to 7,650.50 as Brent slid to a $103.87 settle; defense ETF ITA closed ~$213.84 (many defense names off 20%+ since the Iran fighting began) and energy XLE $64.31 (JETS Sep 18 close not confirmed).",
+    "Day 206 (September 21, Monday) — S&P 500 close NOT LOCATED this cycle. U.S. crude fell back below $100 (WTI $95.78 settle, Brent $100.34) after Trump said he would probably be open to meeting President Pezeshkian at the UN General Assembly; administration officials told the NYT he had decided against bombing the Houthis for now.",
+    "Day 207 (September 22, Tuesday) — S&P 500 close NOT LOCATED. U.S. and Iranian delegations met for three hours on the UNGA sidelines; Brent posted a fifth straight loss to a $99.25 settle (WTI $94.59).",
+    "Day 208 (September 23, Wednesday) — S&P 500 close NOT LOCATED. President Pezeshkian told the UN that Iran cannot be made to surrender; Brent rose 3.9% to $103.08, snapping a five-session losing streak (WTI rolled to the November contract).",
+    "Day 209 (September 24, Thursday) — S&P 500 close NOT LOCATED. The Saudi-led coalition said it intercepted six Houthi ballistic missiles aimed at Taif and Yanbu as the East-West pipeline restarted; Brent rose 3.4% to $106.60 (intraday high $108.23).",
+    "Day 210 (September 25, Friday) — S&P 500 ~7,743.41 is DERIVED from the AP week-to-date figure (S&P down 91.87 points through Sep 30), not a confirmed close. Foreign Minister Araghchi unveiled a seven-day plan to reopen Hormuz at the UN; U.S. crude fell nearly 8% on the week (Brent $104.32 settle).",
+    "Day 213 (September 28, Monday) — S&P 500 close NOT LOCATED. NBC disclosed that eight Marines were hurt in an undisclosed Sep 14 Iranian missile strike; UK police thwarted a suspected plot against RAF Fairford; Trump confirmed indirect talks via Qatar.",
+    "Day 214 (September 29, Tuesday) — S&P 500 ~7,670.84 is DERIVED from the AP Sep 30 change of -19.30, not a confirmed close. Consumer confidence fell to a 12-year low (TheStreet); oil pulled back on recovering Gulf exports (WTI ~$89.38).",
+    "Day 215 (September 30, Wednesday) — The S&P 500 fell 0.25% to 7,651.54 (AP, CNBC); the Dow lost 0.9% to 50,906.05 and the Nasdaq rose 0.2% to 26,861.06. The S&P fell 0.5% in September (CNBC) but gained 2% for Q3; XLK was the only sector up in September (eOption). Iran received the formal U.S. response via Qatar.",
+    "Day 216 (October 1, Thursday) — The S&P 500 rose 0.19% (+14.91) to 7,666.45 as Treasury yields eased from multiyear highs; the Dow closed at 50,926.56 and the Nasdaq at 26,871.60 (Yahoo Finance, CNBC). Brent jumped 4.4% to $102.31 on the report that a third carrier strike group is headed to the Middle East. ITA, XLE and JETS closes were NOT LOCATED for any day Sep 21-Oct 1."
   ],
   "datasets": {
     "sp500": {
@@ -429,7 +447,16 @@
         109.38,
         108.89,
         110.13,
-        110.32
+        110.32,
+        null,
+        null,
+        null,
+        null,
+        111.66,
+        null,
+        110.61,
+        110.33,
+        110.55
       ],
       "color": "#ef4444"
     },
@@ -530,6 +557,15 @@
         117.0,
         117.5,
         118.5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -723,6 +759,15 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#d4a020"
@@ -870,10 +915,19 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-09-20"
+  "last_updated": "2026-10-02"
 }

@@ -9835,5 +9835,131 @@
     "category": "milestone",
     "source": "CRS R48887 / GlobalSecurity",
     "data_point": "Attrition phase"
+  },
+  {
+    "date": "2026-09-21",
+    "time": "day",
+    "title": "Trump signals openness to Iran talks at UN, holds off on Houthi strikes",
+    "description": "Trump told Fox News he would probably be open to meeting President Pezeshkian at the UN General Assembly. Administration officials told the NYT he had decided against bombing the Houthis for now despite Saudi pleas.",
+    "category": "diplomatic",
+    "source": "CNBC / New York Times via CNBC",
+    "data_point": "WTI back below $100"
+  },
+  {
+    "date": "2026-09-22",
+    "time": "day",
+    "title": "US and Iranian delegations meet for three hours at UNGA",
+    "description": "Trump said US officials had a very good three-hour meeting with Iran's delegation on the UN sidelines, and told the General Assembly he faces a big decision between a deal and annihilating Iran. He said he expects a deal right after the midterms. Yahoo News reported that envoy Steve Witkoff and Jared Kushner handled back-channel exchanges with Araghchi through Qatari intermediaries.",
+    "category": "diplomatic",
+    "source": "CNBC / Yahoo News",
+    "data_point": "3-hour UNGA meeting"
+  },
+  {
+    "date": "2026-09-23",
+    "time": "day",
+    "title": "Pezeshkian tells UN Iran cannot be made to surrender",
+    "description": "In his General Assembly address, Iranian President Masoud Pezeshkian said Iran's enemies had learned that Iran cannot be made to surrender. Brent rose 3.9% to $103.08, ending a five-session losing streak.",
+    "category": "diplomatic",
+    "source": "CNBC / Al Jazeera",
+    "data_point": "Brent +3.9% to $103.08"
+  },
+  {
+    "date": "2026-09-24",
+    "time": "day",
+    "title": "Iran submits written road map; Houthis fire missiles at Taif and Yanbu",
+    "description": "Iran gave the US a written road map with a regionwide ceasefire of up to 60 days, phased reopening of Hormuz and an end to the US blockade. The same day the Saudi-led coalition said it intercepted six Houthi ballistic missiles aimed at Taif and Yanbu as the East-West pipeline restarted.",
+    "category": "military",
+    "source": "GlobalSecurity.org / AP / Reuters / Al Jazeera",
+    "data_point": "6 ballistic missiles intercepted"
+  },
+  {
+    "date": "2026-09-25",
+    "time": "day",
+    "title": "Araghchi unveils seven-day plan to reopen Hormuz",
+    "description": "At the UN, Foreign Minister Abbas Araghchi said Iran would reopen the Strait within seven days if the US releases frozen funds (over $12 billion, per the Washington Times), waives oil sanctions, ends the blockade and accepts a regional ceasefire including Lebanon. He said Iran was not in a hurry.",
+    "category": "diplomatic",
+    "source": "CNBC / Al Jazeera / RFE/RL / Washington Times",
+    "data_point": "7-day reopening offer"
+  },
+  {
+    "date": "2026-09-26",
+    "time": "day",
+    "title": "Trump rejects Iran's seven-day Hormuz plan",
+    "description": "Trump said he was rejecting the plan as unacceptable and claimed 29 ships crossed Hormuz in the past day. The WSJ reported he has told aides he expects to resume bombing Iran after the November midterms.",
+    "category": "diplomatic",
+    "source": "Al Jazeera / RFE/RL / CNBC / Haaretz/Reuters",
+    "data_point": "Plan rejected"
+  },
+  {
+    "date": "2026-09-27",
+    "time": "day",
+    "title": "NBC reveals 8 Marines hurt in undisclosed Sep 14 Iranian missile strike",
+    "description": "Three US officials told NBC News that an Iranian cruise missile struck a vessel carrying US Marines in the Strait of Hormuz on Sep 14, injuring eight. The Pentagon had also quietly added 29 Navy sailors to its DCAS wounded list in September.",
+    "category": "military",
+    "source": "NBC News / The Media Line / Antiwar.com",
+    "data_point": "US WIA 861 (DCAS)"
+  },
+  {
+    "date": "2026-09-27",
+    "time": "day",
+    "title": "Theodore Roosevelt Carrier Strike Group deploys toward Middle East",
+    "description": "USS Theodore Roosevelt left San Diego and is expected to relieve USS George Washington in CENTCOM. The Makin Island ARG with the 13th MEU got underway the next day.",
+    "category": "military",
+    "source": "USNI News / The War Zone",
+    "data_point": "Third CSG deploys"
+  },
+  {
+    "date": "2026-09-28",
+    "time": "day",
+    "title": "UK thwarts suspected plot against RAF Fairford bomber base",
+    "description": "British police arrested five men after three suspicious vans were reported heading toward RAF Fairford, which US bombers use for Iran strikes. Trump said the plotters sought big damage, and investigators are probing possible Iran links. On Oct 1 UK police arrested a dual British-Iranian national and Iran summoned the British ambassador.",
+    "category": "military",
+    "source": "Air and Space Forces Magazine / Ynet / The Media Line / Al Jazeera",
+    "data_point": "5 arrests"
+  },
+  {
+    "date": "2026-09-28",
+    "time": "day",
+    "title": "Iranian committee approves Hormuz seizure clause; CENTCOM rejects control claim",
+    "description": "Iran's parliamentary National Security Committee approved a navigation article providing for vessel seizure and 20 percent cargo confiscation. CENTCOM rejected Iran's claim to control the strait, saying Iran has no navy. Trump confirmed indirect talks but denied offering sanctions relief.",
+    "category": "political",
+    "source": "GlobalSecurity.org / Kurdistan24",
+    "data_point": "20% cargo confiscation clause"
+  },
+  {
+    "date": "2026-09-30",
+    "time": "day",
+    "title": "Iran receives formal US response via Qatar",
+    "description": "Government spokeswoman Fatemeh Mohajerani said Araghchi presented the US proposal to President Pezeshkian at a cabinet meeting. Tehran did not disclose its contents. Trump said the war would end very soon and denied reports that he would ease sanctions.",
+    "category": "diplomatic",
+    "source": "CBS News / IRNA via CBS / Jerusalem Post / ABC News",
+    "data_point": "US reply delivered"
+  },
+  {
+    "date": "2026-09-30",
+    "time": "day",
+    "title": "Last US troops of anti-ISIL mission leave Iraq",
+    "description": "The Defense Department confirmed the final American troops deployed to Iraq for the anti-ISIL mission had left, ending a 23-year presence. Iran-backed Iraqi militias said they do not plan to disarm.",
+    "category": "military",
+    "source": "Al Jazeera / CBS News / Fox News",
+    "data_point": "23-year presence ends"
+  },
+  {
+    "date": "2026-10-01",
+    "time": "day",
+    "title": "US sending third carrier and 9,000 to 10,000 more troops to Middle East",
+    "description": "US officials cited by the WSJ said the Theodore Roosevelt CSG, Marine ships and 9,000 to 10,000 more troops will arrive by end of November, on top of more than 50,000 already in the region, as Trump weighs renewed strikes after the midterms. Brent jumped 4.4% to $102.31 as Reuters also reported China had suspended oil product exports.",
+    "category": "military",
+    "source": "CNBC / Reuters via Yahoo Finance / Fox News / Al Jazeera / Euronews",
+    "data_point": "Brent +4.4% to $102.31"
+  },
+  {
+    "date": "2026-10-01",
+    "time": "day",
+    "title": "China and Russia veto UN panel to monitor Iran snapback sanctions",
+    "description": "China and Russia vetoed a US-led Security Council draft establishing an expert panel to monitor snapback sanctions on Iran; US Ambassador Mike Waltz condemned the veto. Treasury sanctioned the A7 crypto shadow-banking network and Iranian rail and auto conglomerates, and Bessent said Iran loaded zero crude onto tankers in September.",
+    "category": "economic",
+    "source": "Al Jazeera",
+    "data_point": "Zero Iranian crude loadings in Sept"
   }
 ]
