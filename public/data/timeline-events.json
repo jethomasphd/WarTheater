@@ -10359,6 +10359,24 @@
     "data_point": "19M+ barrels moved (CENTCOM)"
   },
   {
+    "date": "2026-10-12",
+    "time": "day",
+    "title": "Saudis vow response; Houthis encircle Taiz",
+    "description": "Saudi Energy Minister Prince Abdulaziz bin Salman promised an 'equally serious' response and Riyadh opened an inquiry into why air defenses failed; GACA extended King Khalid's closure. Houthi forces fully encircled Taiz City (CTP-ISW).",
+    "category": "military",
+    "source": "CBS News / Critical Threats Project",
+    "data_point": "Taiz encircled"
+  },
+  {
+    "date": "2026-10-12",
+    "time": "day",
+    "title": "27 countries condemn Iranian hostile activity",
+    "description": "The US, UK, Australia, Canada and 23 other countries condemned Iranian hostile activity; the UK sanctioned two Iranians. UK PM Andy Burnham said the RAF Fairford incident was 'highly likely' coordinated in Iran; Iran denied it.",
+    "category": "diplomatic",
+    "source": "CBS News",
+    "data_point": "27-country statement"
+  },
+  {
     "date": "2026-10-13",
     "time": "day",
     "title": "Report: Netanyahu pressed Trump to renew war",
@@ -10380,27 +10398,99 @@
     "date": "2026-10-13",
     "time": "day",
     "title": "Houthi attack damages Aramco HQ tower",
-    "description": "Houthi missile and drone attacks hit Saudi Aramco's headquarters in Dhahran, causing a limited fire and no casualties; a ballistic missile damaged the top three floors of an office tower. Dated Oct 13 local time; some reporting places it Oct 14. The coalition intercepted another missile aimed at Riyadh on Oct 14.",
+    "description": "Houthi missile and drone attacks hit Saudi Aramco's headquarters in Dhahran. Reuters sources said fire spread across several floors and the top three floors, including CEO Amin Nasser's office, were severely damaged; the energy ministry called it a limited fire with no casualties. Some reporting dates it Oct 14.",
     "category": "military",
     "source": "Reuters / AP",
     "data_point": "Top 3 floors damaged"
   },
   {
+    "date": "2026-10-13",
+    "time": "day",
+    "title": "Saudi-led strikes on Houthi oil sites; Riyadh debris injures 4",
+    "description": "The coalition confirmed strikes on oil sites in Sanaa, Dhamar and Saada and intercepted at least eight Houthi missiles plus drones aimed at Riyadh, Dhahran, Haradh and al-Kharj; debris injured four and damaged 15 homes in Riyadh. Trump said the Houthis are acting 'probably at the behest of Iran.'",
+    "category": "military",
+    "source": "CBS News / Critical Threats Project",
+    "data_point": "8+ missiles intercepted"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "day",
+    "title": "Iran and Oman reach temporary shipping-route understanding",
+    "description": "Iran reached a temporary understanding with Oman on a Hormuz shipping route. A US official told Reuters Iran uses small boats with spotters to pick targets after losing much of its radar; Rezaei claimed Iran strikes about five 'smuggling ships' nightly.",
+    "category": "diplomatic",
+    "source": "CBS News / Reuters via CTP",
+    "data_point": "Temporary route deal"
+  },
+  {
     "date": "2026-10-14",
     "time": "day",
-    "title": "Container ship sinks south of Hormuz",
-    "description": "The IRGC Navy said a container ship with more than 2,500 containers sank after hitting a mine; maritime security sources told Reuters a projectile was responsible. Critical Threats reports two Emirati cargo vessels sank, the first sinkings since March.",
+    "title": "Container ship GFS Pride sinks near Hormuz",
+    "description": "The Singapore-flagged container ship GFS Pride sank near the strait after a projectile strike; all 21 crew were evacuated. The IRGC claimed a container ship with 2,500 containers hit a mine; CENTCOM (Oct 15) said the IRGC struck it. The bulk carrier Cape Dao, hit Sep 23, also sank. Ten ships were attacked Oct 11-13, 23 since Oct 1.",
     "category": "military",
-    "source": "Gulf News / Reuters / Critical Threats Project",
-    "data_point": "First sinkings since March"
+    "source": "Singapore MPA / CENTCOM / Reuters / Fox News / CBS News",
+    "data_point": "2 ships sunk"
+  },
+  {
+    "date": "2026-10-14",
+    "time": "day",
+    "title": "September CPI hits 3.7% as gasoline surges",
+    "description": "US consumer prices rose 0.6% in September and 3.7% year over year (from 3.4%); gasoline was up 34.2% y/y and energy 20.4%. White House adviser Kevin Hassett blamed Houthi attacks on Saudi oil assets.",
+    "category": "economic",
+    "source": "BLS via CBS News / Fox News",
+    "data_point": "CPI 3.7% y/y"
+  },
+  {
+    "date": "2026-10-14",
+    "time": "day",
+    "title": "Trump: leakers 'should be shot'",
+    "description": "At an Arizona rally Trump said leakers 'should be shot,' claiming leaked timing compromised a B-2 mission against Iran. Netanyahu said Iran's regime 'must go' but that he does not favor a preemptive strike before Israel's Oct 27 vote.",
+    "category": "political",
+    "source": "Fox News / CBS News",
+    "data_point": "B-2 mission 'compromised'"
   },
   {
     "date": "2026-10-15",
     "time": "day",
     "title": "US drafts new Iran strike plans, including MOAB",
-    "description": "CNN reported the military is preparing strike options against Iranian energy and nuclear sites, including the GBU-43/B MOAB. Axios reported Hegseth and CENTCOM favor resuming the war; the White House reiterated the pre-midterm pledge. Reported plans, not decisions.",
+    "description": "CNN, then CBS, reported the White House and Pentagon prepared options to use the GBU-43/B MOAB against Iranian energy, nuclear and military sites if Trump orders it. Axios reported Hegseth and CENTCOM favor resuming the war; the White House declined to comment and reiterated the pre-midterm pledge. Plans, not decisions.",
     "category": "military",
-    "source": "CNN / Axios via Asharq Al-Awsat",
+    "source": "CNN / CBS News / Axios via Asharq Al-Awsat",
     "data_point": "GBU-43/B MOAB options"
+  },
+  {
+    "date": "2026-10-15",
+    "time": "day",
+    "title": "CENTCOM: IRGC sank GFS Pride; rejects Iran's Hormuz claims",
+    "description": "CENTCOM said the IRGC struck the Singapore-flagged container ship GFS Pride, which sank under tow (all 21 crew evacuated), rejected Iranian claims of a mine strike, of control of the strait and of hundreds of US troops killed in Jordan, and said 40+ vessels transited in 24 hours. Rear Adm. Sayyari: 'The Strait of Hormuz is closed.'",
+    "category": "military",
+    "source": "CENTCOM via Fox News / CBS News / Singapore MPA",
+    "data_point": "40+ transits in 24 hours"
+  },
+  {
+    "date": "2026-10-15",
+    "time": "day",
+    "title": "Saudis: 20 October attacks on Riyadh airport killed 17",
+    "description": "Coalition spokesman Turki al-Maliki said the Houthis attacked King Khalid airport 20 times in October, killing 17 and wounding 333, and that Abha airport attacks killed 3 and injured 28. A Houthi missile hit Aden's al-Maashiq palace (2-4 killed); the coalition intercepted a missile over Medina.",
+    "category": "humanitarian",
+    "source": "Saudi-led coalition via Fox News / CBS News",
+    "data_point": "17 killed, 333 wounded"
+  },
+  {
+    "date": "2026-10-15",
+    "time": "day",
+    "title": "Treasury sanctions; US weighs shadow-fleet relief",
+    "description": "Treasury sanctioned 16 individuals and 10 entities tied to Iran, including an Iraqi bank. Reuters reported the US is considering easing sanctions on Iran's shadow-fleet tankers to cut record freight costs. IEA members pledged to complete the outstanding 100M-barrel release; Brent settled $105.92, WTI +3% to $97.97.",
+    "category": "economic",
+    "source": "Fox News / Reuters via CBS News / Rigzone",
+    "data_point": "Brent $105.92, WTI $97.97"
+  },
+  {
+    "date": "2026-10-15",
+    "time": "day",
+    "title": "EU-GCC Riyadh summit postponed",
+    "description": "The EU-Gulf summit planned for Oct 24 in Riyadh was postponed amid security concerns; the Six Kings Slam and Saudi International were also moved. EU foreign policy chief Kallas urged more ships for Operation Aspides.",
+    "category": "diplomatic",
+    "source": "European Council via CBS News / Fox News",
+    "data_point": "Oct 24 summit postponed"
   }
 ]
