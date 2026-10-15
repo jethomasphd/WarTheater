@@ -9961,5 +9961,131 @@
     "category": "economic",
     "source": "Al Jazeera",
     "data_point": "Zero Iranian crude loadings in Sept"
+  },
+  {
+    "date": "2026-10-01",
+    "time": "day",
+    "title": "Tehran confirms receipt of US reply to seven-point plan",
+    "description": "Iran confirmed it had received a formal US response to its seven-condition proposal, presented at the UN General Assembly, to reopen the Strait of Hormuz within seven days. Trump had publicly said he rejected the proposal days earlier.",
+    "category": "diplomatic",
+    "source": "Reuters / Global Arab Network",
+    "data_point": "US reply to 7-condition plan received"
+  },
+  {
+    "date": "2026-10-01",
+    "time": "day",
+    "title": "Gas dips to $4.41 after record September",
+    "description": "AAA reported the national average fell nearly 7 cents in a week to $4.41. September averaged $4.33 per gallon, 50 cents above the previous September record set in 2023.",
+    "category": "economic",
+    "source": "AAA Newsroom",
+    "data_point": "$4.41/gal; Sept avg $4.33 record"
+  },
+  {
+    "date": "2026-10-02",
+    "time": "day",
+    "title": "Top officials meet at Camp David on Iran and Yemen",
+    "description": "Senior Trump administration officials met for hours at Camp David to discuss renewed strikes on Iran and the Saudi-Houthi conflict. Trump told a rally in Mobile, Alabama the war would end very soon, probably right after the midterms.",
+    "category": "political",
+    "source": "Axios / CBS News / Iran International",
+    "data_point": "War to end 'right after the midterms'"
+  },
+  {
+    "date": "2026-10-03",
+    "time": "day",
+    "title": "Fires at Aramco Riyadh refinery; Sanaa struck",
+    "description": "Critical Threats assessed the Houthis likely struck Saudi Aramco's Riyadh refinery, with Reuters reporting large fires. Saudi or Yemeni government-aligned forces conducted at least 13 airstrikes on Sanaa the same day.",
+    "category": "military",
+    "source": "Critical Threats Project / Reuters",
+    "data_point": "13+ airstrikes on Sanaa"
+  },
+  {
+    "date": "2026-10-03",
+    "time": "day",
+    "title": "Third carrier strike group heads toward Middle East",
+    "description": "The Theodore Roosevelt CSG and Makin Island ARG were reported deploying toward the Middle East, with naval presence projected above 20,000 sailors and Marines by end of October. USNI placed Roosevelt in the western Pacific as of Oct 13.",
+    "category": "military",
+    "source": "GlobalSecurity.org (citing EA WorldView) / USNI News",
+    "data_point": "20,000+ sailors and Marines projected"
+  },
+  {
+    "date": "2026-10-04",
+    "time": "day",
+    "title": "B-1 bombers withdrawn from RAF Fairford",
+    "description": "All 12 US B-1B bombers left RAF Fairford in the UK amid drone-strike intelligence. A Pentagon spokesman said all US bombers deployed to Fairford re-deployed to their home stations in the United States.",
+    "category": "military",
+    "source": "AP / Defense News",
+    "data_point": "12 B-1Bs withdrawn"
+  },
+  {
+    "date": "2026-10-04",
+    "time": "day",
+    "title": "Saudi East-West pipeline halted again",
+    "description": "An attack damaged a pumping station at Khurais, east of Riyadh, halting flows on the pipeline carrying Saudi crude to Yanbu, per an AFP energy-sector source. Houthi spokesman Yahya Saree claimed two operations against Aramco.",
+    "category": "military",
+    "source": "AFP / Turkiye Today",
+    "data_point": "Hormuz bypass flows halted"
+  },
+  {
+    "date": "2026-10-04",
+    "time": "day",
+    "title": "Araghchi says no military solution to war",
+    "description": "Iran's foreign minister said only negotiations based on justice and fairness could end the war and warned any renewed attack would meet a stronger response, as talks remained at an impasse.",
+    "category": "diplomatic",
+    "source": "CBS News / Times of Israel",
+    "data_point": "Talks at impasse"
+  },
+  {
+    "date": "2026-10-05",
+    "time": "day",
+    "title": "CRS updates US aircraft combat loss report",
+    "description": "The Congressional Research Service updated its report on US aircraft losses in Operation Epic Fury, noting strikes resumed after the April ceasefire and conditions remain fluid. It added damage from the Sep 9 to 10 Iranian strike on Muwaffaq Salti Air Base, Jordan. CRS now counts 81 US aircraft lost or damaged, including at least 45 MQ-9s.",
+    "category": "military",
+    "source": "Congressional Research Service IN12692 / USNI News / The Defense Post",
+    "data_point": "81 US aircraft lost or damaged"
+  },
+  {
+    "date": "2026-10-06",
+    "time": "day",
+    "title": "EIA raises 4Q26 Brent forecast to $105",
+    "description": "EIA's October STEO raised its fourth-quarter Brent forecast to $105 per barrel, $14 above last month, citing East-West pipeline attacks and extreme diesel tightness. It expects Brent to average $84 in 2027.",
+    "category": "economic",
+    "source": "EIA Short-Term Energy Outlook",
+    "data_point": "4Q26 Brent $105 (+$14)"
+  },
+  {
+    "date": "2026-10-06",
+    "time": "day",
+    "title": "US destroys IRGC-linked spotter dhow",
+    "description": "US forces destroyed an Iranian-affiliated dhow in the Gulf of Oman that CENTCOM said was surveilling and targeting US Navy ships; the crew was removed first. CENTCOM disclosed it on Oct 14.",
+    "category": "military",
+    "source": "CENTCOM / Reuters",
+    "data_point": "Disclosed Oct 14"
+  },
+  {
+    "date": "2026-10-06",
+    "time": "day",
+    "title": "Houthi strikes on Abha and Riyadh airports kill 3",
+    "description": "Saudi authorities said Houthi attacks on Abha and King Khalid airports killed three foreign nationals and injured 36. Al Jazeera dates the attacks to Tuesday Oct 6 (used here); other summaries say Oct 7.",
+    "category": "military",
+    "source": "Al Jazeera / Saudi authorities",
+    "data_point": "3 killed, 36 injured"
+  },
+  {
+    "date": "2026-10-08",
+    "time": "day",
+    "title": "Trump rules out Iran strikes before midterms",
+    "description": "Trump said the US will not attack Iran before the Nov 3 midterms, while the naval blockade stays in full force. The pledge reversed remarks the prior evening that pre-election strikes were under consideration.",
+    "category": "political",
+    "source": "CNN / Axios / CNBC / The Hill",
+    "data_point": "No strikes before Nov 3"
+  },
+  {
+    "date": "2026-10-08",
+    "time": "day",
+    "title": "Abraham Lincoln CSG returns after 321 days",
+    "description": "USS Abraham Lincoln returned to San Diego after a 321-day deployment including about eight months in the Arabian Sea. USNI ranks it the fourth-longest carrier deployment since 1964, behind the Ford, Midway and Coral Sea; Navy Times calls it the second-longest since Vietnam.",
+    "category": "military",
+    "source": "USNI News / Navy Times",
+    "data_point": "321-day deployment"
   }
 ]
