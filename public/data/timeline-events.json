@@ -9990,6 +9990,33 @@
     "data_point": "War to end 'right after the midterms'"
   },
   {
+    "date": "2026-10-02",
+    "time": "day",
+    "title": "G7 agrees 100M-barrel emergency release, diesel front-loaded",
+    "description": "After a G7 video call, members set a 100-million-barrel release over four months with diesel front-loaded within 20 days; Trump said Europe agreed to release a 'massive amount' of diesel. Axios reported two more Patriot batteries were sent to Saudi Arabia and Qatar to protect oil and gas sites.",
+    "category": "economic",
+    "source": "CBS News / Axios",
+    "data_point": "100M barrels over 4 months"
+  },
+  {
+    "date": "2026-10-02",
+    "time": "day",
+    "title": "FlyDubai co-pilot attack; Trump floats IRGC link",
+    "description": "A co-pilot allegedly stabbed the captain and tried to crash a Dubai-to-Tel Aviv flight carrying 174 people. Trump said the co-pilot 'could've been' working with the IRGC; Netanyahu said authorities were checking whether he was 'dispatched.' Unverified link.",
+    "category": "political",
+    "source": "CBS News",
+    "data_point": "174 aboard"
+  },
+  {
+    "date": "2026-10-02",
+    "time": "day",
+    "title": "Tanker hit in Hormuz, fourth that week",
+    "description": "UKMTO reported a tanker struck in the Strait of Hormuz, causing a small fire and blackout with no casualties. Kpler said weekly Gulf flows reached 21.8M bpd against a 23.3M pre-war baseline.",
+    "category": "military",
+    "source": "UKMTO via CBS News / Kpler",
+    "data_point": "4th vessel hit that week"
+  },
+  {
     "date": "2026-10-03",
     "time": "day",
     "title": "Fires at Aramco Riyadh refinery; Sanaa struck",
@@ -10006,6 +10033,24 @@
     "category": "military",
     "source": "GlobalSecurity.org (citing EA WorldView) / USNI News",
     "data_point": "20,000+ sailors and Marines projected"
+  },
+  {
+    "date": "2026-10-03",
+    "time": "day",
+    "title": "Sixth RAF Fairford suspect arrested",
+    "description": "A 25-year-old dual UK-Iranian national was arrested in Westminster and bailed; five men had been found near the base with oil drums of gasoline but no explosives. UK PM Andy Burnham cited 'strong indications' of Iranian involvement; Iran denies it.",
+    "category": "military",
+    "source": "CBS News",
+    "data_point": "6th arrest"
+  },
+  {
+    "date": "2026-10-03",
+    "time": "day",
+    "title": "Hegseth calls Hormuz blockade 'ironclad'",
+    "description": "Hegseth said the US blockade is 'ironclad' and Trump has 'all the options he needs on the table.' A tanker was struck about 4 nautical miles east of Oman, the fifth that week; crew safe. Houthi outlet Al-Masirah counted 26 Saudi strikes on Sanaa, the first on the capital since July.",
+    "category": "military",
+    "source": "CBS News / UKMTO",
+    "data_point": "5th tanker hit that week"
   },
   {
     "date": "2026-10-04",
@@ -10035,6 +10080,33 @@
     "data_point": "Talks at impasse"
   },
   {
+    "date": "2026-10-04",
+    "time": "day",
+    "title": "OPEC+ holds November output steady; Brent tops $100",
+    "description": "Seven OPEC+ exporters including Saudi Arabia, Russia and Iraq agreed to hold November production steady and meet again Nov 1. Energy Secretary Chris Wright predicted falling prices within four weeks.",
+    "category": "economic",
+    "source": "CBS News",
+    "data_point": "Next meeting Nov 1"
+  },
+  {
+    "date": "2026-10-04",
+    "time": "day",
+    "title": "Yemen launches offensive as Taiz fighting kills 70+",
+    "description": "Presidential council head Rashad al-Alimi announced operations to retake remaining Houthi-held territory. More than 70 were killed in one day around Taiz (34 government troops, 39 Houthi fighters) after the Houthis cut the city's main supply route.",
+    "category": "military",
+    "source": "CBS News / AFP",
+    "data_point": "70+ killed in one day"
+  },
+  {
+    "date": "2026-10-04",
+    "time": "day",
+    "title": "Trump: Iran decision 'the easy way, or the hard way'",
+    "description": "Trump said at the White House he had a decision on Iran and it would be 'the easy way, or the hard way.' Iran's deputy FM Gharibabadi said Tehran was reviewing a US message passed via intermediaries.",
+    "category": "political",
+    "source": "CBS News",
+    "data_point": "Iran reviewing US message"
+  },
+  {
     "date": "2026-10-05",
     "time": "day",
     "title": "CRS updates US aircraft combat loss report",
@@ -10042,6 +10114,42 @@
     "category": "military",
     "source": "Congressional Research Service IN12692 / USNI News / The Defense Post",
     "data_point": "81 US aircraft lost or damaged"
+  },
+  {
+    "date": "2026-10-05",
+    "time": "day",
+    "title": "CENTCOM: 13 commercial ships destroyed in 12 weeks",
+    "description": "CENTCOM said US forces destroyed 13 commercial ships in Hormuz over 12 weeks and, since the Jul 14 blockade, disabled three and redirected 130. UKMTO reported three tankers (two crude carriers, one LNG carrier) hit by unknown projectiles over the weekend.",
+    "category": "military",
+    "source": "CENTCOM / UKMTO via CBS News",
+    "data_point": "130 redirected since Jul 14"
+  },
+  {
+    "date": "2026-10-05",
+    "time": "day",
+    "title": "Houthis hit Jazan and Najran airports, claim Rabigh",
+    "description": "GACA said King Abdullah bin Abdulaziz (Jazan) and Najran airports were attacked, causing three minor injuries. The Houthis claimed strikes on Riyadh's King Khalid airport and the Aramco refinery at Rabigh (unverified), and warned airlines Saudi airspace is 'unsafe.'",
+    "category": "military",
+    "source": "GACA / CBS News",
+    "data_point": "3 minor injuries"
+  },
+  {
+    "date": "2026-10-05",
+    "time": "day",
+    "title": "Kpler: Gulf exports ex-Iran top pre-war average",
+    "description": "Kpler said Middle East oil exports excluding Iran exceeded the pre-war average of 18M bpd the prior week, with about 40% bypassing Hormuz. Shell put flows near 80% of pre-war; CNBC/Kpler later (Oct 9) put shipments ~10% below pre-war. Measures differ.",
+    "category": "economic",
+    "source": "Kpler via CBS News / Shell",
+    "data_point": "18M bpd pre-war average"
+  },
+  {
+    "date": "2026-10-05",
+    "time": "day",
+    "title": "Pezeshkian calls US talks 'meaningless'",
+    "description": "Iran's president called negotiations with Washington meaningless, citing three US attacks after past talks. Turkey and Pakistan agreed to deploy troops to Saudi Arabia under their new mutual defense alliance.",
+    "category": "diplomatic",
+    "source": "CBS News",
+    "data_point": "Turkey, Pakistan troops to Saudi"
   },
   {
     "date": "2026-10-06",
@@ -10069,6 +10177,42 @@
     "category": "military",
     "source": "Al Jazeera / Saudi authorities",
     "data_point": "3 killed, 36 injured"
+  },
+  {
+    "date": "2026-10-06",
+    "time": "day",
+    "title": "Tanker On Peace struck off Oman; 12 crew wounded",
+    "description": "The Panama-flagged MT On Peace was struck off Oman; 12 of its 19 crew were wounded, 11 of them Indian nationals, and evacuated to Khasab. UKMTO said another tanker leaving Hormuz was struck and one turned back under threat.",
+    "category": "military",
+    "source": "UKMTO via CBS News",
+    "data_point": "12 of 19 crew wounded"
+  },
+  {
+    "date": "2026-10-06",
+    "time": "day",
+    "title": "More than 270 killed in a day of Yemen fighting",
+    "description": "AFP reported more than 270 killed in 24 hours (115 government troops, 160 Houthi fighters per each side's sources). CENTCOM denied an Iranian state media report that a US Navy MH-60R was downed in the Red Sea.",
+    "category": "military",
+    "source": "AFP via CBS News / CENTCOM",
+    "data_point": "270+ killed in 24 hours"
+  },
+  {
+    "date": "2026-10-06",
+    "time": "day",
+    "title": "US official: Fairford plot aimed to kill troops, destroy planes",
+    "description": "A US official said Iran-linked threats against RAF Fairford intended to kill troops and destroy aircraft; the bombers had already left. A 22-year-old British man became the seventh arrest.",
+    "category": "military",
+    "source": "CBS News",
+    "data_point": "7th arrest"
+  },
+  {
+    "date": "2026-10-07",
+    "time": "day",
+    "title": "Pentagon develops pre-election strike options",
+    "description": "The Atlantic reported the Pentagon was developing strike options against Iran, and Trump said pre-election strikes were under consideration - remarks he reversed the next day. The Saudi coalition said it intercepted a Houthi missile north of Riyadh.",
+    "category": "political",
+    "source": "The Atlantic via Fox News / CBS News",
+    "data_point": "Reversed Oct 8"
   },
   {
     "date": "2026-10-08",
