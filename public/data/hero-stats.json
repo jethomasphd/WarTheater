@@ -3371,57 +3371,57 @@
     "targets_struck": {
       "value": 35914,
       "label": "Cumulative targets struck (US+IL on Iran/proxies)",
-      "note": "HELD — no new CENTCOM cumulative",
-      "tooltip": "Cumulative targets struck per CENTCOM; no change this cycle. No new US or Israeli strikes on Iranian territory confirmed Sep 18 to Oct 2; the last CENTCOM-announced strikes on Iranian soil were on Sep 1, and the Sep 5 tanker strikes were at sea. Claims of late-September strikes on Tehran, Semnan and Darkhovin are recycled July events and were rejected.",
+      "note": "HELD — no strikes on Iranian territory; pre-midterm pledge",
+      "tooltip": "Cumulative targets struck per CENTCOM; no change this cycle. CENTCOM stopped releasing cumulative strike data after May 5. No verified US or Israeli strike on Iranian territory Oct 1-15; Trump pledged Oct 8 that the US will not attack Iran before the Nov 3 midterms. US maritime actions (e.g. the Oct 6 destruction of an IRGC-linked dhow) are not counted here. CNN (Oct 15) reports strike plans including the GBU-43/B MOAB - plans, not decisions.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
-      "value": 19,
+      "value": 21,
       "label": "US service-member KIA (Pentagon DCAS)",
-      "note": "+1 — 19th death (non-hostile) entered in DCAS Sep 21",
-      "tooltip": "Official Pentagon DCAS total including non-hostile deaths, cited by the Washington Post and Stars and Stripes; 11 are recorded as hostile (The Intercept). The 19th, a non-hostile death, was entered in DCAS on Sep 21 (via GlobalSecurity). Trump cited 18 on Sep 30 (ABC News). The Washington Post (Sep 26) reported that as many as five military fatalities are not reflected in DCAS; Newsweek says officials told the Post at least 22 service members had died. Official counts lag.",
+      "note": "+2 — DCAS revision Oct 9 (two noncombat deaths added)",
+      "tooltip": "Official Pentagon DCAS count, combat and noncombat. On Oct 9 DCAS raised the toll from 19 to 21 by adding two noncombat deaths: Maj. Sorffly Davius (died in Kuwait Mar 6) and an unidentified Navy sailor (September) (UPI, The Hill, Military.com). Washington Post sources reported at least 22 in September; Hegseth called the reporting 'a complete lie' and the Pentagon disputes it. Trump cited 18 on Oct 2. DCAS cut 18 to 14 in April (The Intercept). The Pentagon says Operation Epic Fury ended May 5 and now classifies casualties as 'overseas operations in the CENTCOM area of responsibility' (CBS News). Official counts lag and are revised without announcement.",
       "color": "var(--civilian)"
     },
     "us_wia": {
-      "value": 861,
-      "label": "US service-member WIA (Pentagon DCAS via Washington Post, Sep 23)",
-      "note": "DCAS 861 as of Sep 23; incl. 8 Marines hurt Sep 14",
-      "tooltip": "DCAS total as of Sep 23 (Washington Post). The Pentagon added 37 troops in September (29 Navy sailors and 8 Marines), bringing the total to 861; the Post said DCAS does not explain how or when these 37 were wounded, and a Navy official said all the sailors returned to duty. The Marines were hurt when an Iranian cruise missile struck their vessel in the Strait of Hormuz on Sep 14, disclosed only on Sep 27 (NBC News). The Pentagon has added casualties retroactively, so there are lags.",
+      "value": 865,
+      "label": "US service-member WIA (Pentagon DCAS, Oct 9)",
+      "note": "+4 — DCAS 865 as of Oct 9",
+      "tooltip": "Official DCAS count as of Oct 9, split into an Epic Fury category and a post-July 7 'overseas operations in the CENTCOM area of responsibility' category; 448 wounded and 6 deaths have occurred since July 7 (UPI). Previously 861 as of Sep 23 (Washington Post), incl. 8 Marines hurt Sep 14 in the Strait of Hormuz. The Pentagon has added casualties retroactively, so there are lags.",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
       "value": 3636,
       "label": "Iranian killed (cumulative, tracked line)",
-      "note": "HELD (HRANA)",
-      "tooltip": "HRANA cumulative 3,636: 1,701 civilians, 1,221 military, 714 unclassified; no new aggregate published this window. Iranian Health Ministry: at least 2,362 civilians killed and 32,314 injured (separate series, not combined). Other tallies: Foundation of Martyrs 3,468; Al Jazeera compilation ≥3,527; JINSA 3,724+; US/Israel estimate 6,000+. Sources not reconciled; do not synthesize.",
+      "note": "HELD (HRANA, through Apr 7)",
+      "tooltip": "HRANA cumulative 3,636 as of Apr 7: 1,701 civilians, 1,221 military, 714 unclassified. No authoritative update for later phases located. Iran's Foundation of Martyrs: 3,468. Iranian Health Ministry: at least 2,362 civilians killed and 32,314 injured (separate series). Other tallies: Al Jazeera compilation ≥3,527; JINSA 3,724+; US/Israel estimate 6,000+. Attribute to the reporting body; HRANA, Hengaw and Iranian government figures are not merged. Oct 14: three fishermen seriously injured by an unattributed drone off Hormozgan (Reuters).",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
-      "value": 4386,
+      "value": 4389,
       "label": "Lebanese killed (cumulative, all)",
-      "note": "+36 — Lebanese MoPH through Sep 17",
-      "tooltip": "Lebanese Ministry of Public Health cumulative since Hezbollah joined the war on Mar 2: 4,386 killed and 12,407 injured through Sep 17, 2026 (8,953 killed since Oct 8, 2023, per Palinfo citing MoPH). No later ministry total was located; Israeli strikes continued afterwards, so the figure understates the current toll.",
+      "note": "+3 — Lebanese MoPH through Oct 12",
+      "tooltip": "Lebanese Ministry of Public Health cumulative since the Mar 2 escalation: 4,389 killed and 12,424 injured through Oct 12, 2026 (ABNA; 4,386 on Oct 10 per Ahram, 4,387 on Oct 11 per TASS). Total since Oct 8, 2023: 8,956 killed. DISCREPANCY: a Sep 17 report also cited 4,386 and TRT cited 4,381; the latest dated figure is used.",
       "color": "var(--hezbollah)"
     },
     "displaced": {
       "value": 1200000,
       "label": "Displaced (cumulative)",
       "note": "HELD — no new figure located",
-      "tooltip": "Carried forward; Lebanon-weighted, Iran ~3.2M IDPs tracked separately. No new UNHCR, IOM or OCHA figure for Sep 18 to Oct 2. The UN envoy reports new displacement in Taiz, Yemen, where most recently displaced Yemenis are sheltering. Verify against the latest UNHCR/IOM release.",
+      "tooltip": "Carried forward; Lebanon-weighted, Iran ~3.2M IDPs tracked separately. No new UNHCR, IOM or OCHA displacement figure located for Oct 2-15. Verify against the latest UNHCR/IOM release.",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 8000,
       "label": "Flights cancelled (cumulative)",
-      "note": "HELD — no new aggregate located",
-      "tooltip": "Carried forward. No new Cirium or FlightAware aggregate in-window. A Flydubai incident on Oct 1 is unverified.",
+      "note": "HELD — Riyadh closure not added to cumulative",
+      "tooltip": "Carried forward; no new Cirium or FlightAware cumulative aggregate. New data point (not added, scope of the counter unconfirmed): at least 291 flights at Riyadh's King Khalid International Airport were cancelled in the 24 hours after the Oct 10 Houthi strike (FlightAware via CBS/AP); a NOTAM keeps the airport closed until at least Oct 17 (CNN).",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
       "value": 379,
       "label": "Children killed (cumulative, tracked)",
       "note": "HELD (UN FFM documents 120 at Minab alone)",
-      "tooltip": "Carried forward; no new UNICEF figure for the window. Regional floor; HRANA Iran-only ≥254. The UN Fact-Finding Mission report A/HRC/63/61 (Sep 17) documented at least 120 children killed in the Feb 28 Minab Shajareh Tayyebeh school strike and 56 children in the protest crackdown (UN News separately cites 221+ children).",
+      "tooltip": "Carried forward; no new verified cumulative figure (UNICEF or other) for Oct 2-15. Regional floor; HRANA Iran-only ≥254. The UN Fact-Finding Mission report A/HRC/63/61 (Sep 17) documented at least 120 children killed in the Feb 28 Minab Shajareh Tayyebeh school strike and 56 children in the protest crackdown (UN News separately cites 221+ children).",
       "color": "var(--civilian)"
     }
   }
