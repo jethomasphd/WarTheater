@@ -10233,6 +10233,24 @@
     "data_point": "321-day deployment"
   },
   {
+    "date": "2026-10-08",
+    "time": "day",
+    "title": "Houthi missile kills 3 Saudis at Riyadh airport, incl. Saudia captain",
+    "description": "A Houthi missile killed three Saudi civilians at King Khalid International Airport, among them Saudia captain Hamoud Ali Alkalthami; a second strike hit an empty Saudia aircraft. The US Embassy restricted staff use of the airport.",
+    "category": "military",
+    "source": "GACA / CBS News / Al Jazeera",
+    "data_point": "3 killed"
+  },
+  {
+    "date": "2026-10-08",
+    "time": "day",
+    "title": "Pezeshkian says Iran revised its negotiating proposals",
+    "description": "Iran's president said Tehran had revised its proposals and accused Washington of attacking whenever talks progressed. Trump's no-strikes post cited oil flowing through Hormuz and 'productive conversations'; Brent fell from ~$105 to ~$103 intraday after it.",
+    "category": "diplomatic",
+    "source": "CBS News",
+    "data_point": "Brent ~$105 to ~$103 intraday"
+  },
+  {
     "date": "2026-10-09",
     "time": "day",
     "title": "Pentagon raises US death toll to 21",
@@ -10242,21 +10260,75 @@
     "data_point": "21 dead, 865 wounded (DCAS)"
   },
   {
+    "date": "2026-10-09",
+    "time": "day",
+    "title": "IRGC strikes LPG tanker NV Sunshine",
+    "description": "The IRGC said its navy struck the LPG tanker NV Sunshine in the Strait of Hormuz for using a US-backed route near the Omani coast; IRGC adviser Naqdi said the strait stays closed until Iran's 'legitimate demands' are met.",
+    "category": "military",
+    "source": "IRGC via CBS News",
+    "data_point": "LPG tanker struck"
+  },
+  {
+    "date": "2026-10-09",
+    "time": "day",
+    "title": "Russian diesel release and sanctions waiver; Germany taps reserves",
+    "description": "Trump announced Russia would release diesel (300,000 tons immediately, rising to 3 million tons) as Treasury waived sanctions on Russia's energy sector; Germany said it would release up to 15M barrels under the G7 plan. AAA diesel averaged $6.28/gal (record $6.53 on Sep 22).",
+    "category": "economic",
+    "source": "CBS News / AAA",
+    "data_point": "Diesel $6.28/gal"
+  },
+  {
+    "date": "2026-10-09",
+    "time": "day",
+    "title": "Airlines suspend Riyadh flights; Western travel advisories",
+    "description": "Lufthansa, Air India, PIA, flydubai, Etihad, Emirates and Air Arabia suspended Riyadh flights and EASA advised against parts of Saudi airspace; the UK, France, Germany, Australia and Canada issued travel advisories. Pakistan said it has 'substantial' forces in Riyadh for defense.",
+    "category": "economic",
+    "source": "CBS News",
+    "data_point": "7 airlines suspend Riyadh"
+  },
+  {
+    "date": "2026-10-09",
+    "time": "day",
+    "title": "Yemeni government claims recapture of Bab el-Mandeb",
+    "description": "Saudi Ambassador Mohammed Al Jaber said government forces with coalition air support retook the Bab el-Mandeb Strait and Mayyun Island; the Houthis disputed it, and AFP reported forces had advanced but not secured the waterway.",
+    "category": "military",
+    "source": "CBS News / AFP",
+    "data_point": "Disputed"
+  },
+  {
     "date": "2026-10-10",
     "time": "day",
     "title": "Houthi strike on Riyadh airport kills 12",
-    "description": "A Houthi missile struck King Khalid International Airport, killing at least 12 people including one American and injuring 309, per Saudi GACA. It was the third attack on the airport that week; CNN reports 13 dead after an Indian national died of wounds.",
+    "description": "A Houthi missile struck King Khalid International Airport, killing at least 12 people and injuring 309 per Saudi GACA; CNN and CBS later reported 13 dead after an Indian national died of wounds. Victims included an American, four Saudis, two Bangladeshis and nationals of Egypt, Jordan, Syria, Palestine and Sudan. It was the deadliest attack on Saudi soil in more than a decade; FlightAware counted 324 cancelled flights.",
     "category": "military",
     "source": "Al Jazeera / CBS News/AP / CNN",
-    "data_point": "12 killed, 309 injured"
+    "data_point": "12-13 killed, 309 injured"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "day",
+    "title": "US jet disables tanker Ocean Molica in Gulf of Oman",
+    "description": "CENTCOM said a US fighter jet disabled the Panama-flagged M/V Ocean Molica (Arika Sun) after it left an Iranian port; crew unharmed. Since the Jul 14 blockade CENTCOM counts four vessels disabled, 135 turned back and 10 shadow-fleet tankers destroyed.",
+    "category": "military",
+    "source": "CENTCOM via CBS News",
+    "data_point": "135 turned back since Jul 14"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "day",
+    "title": "Trump says US 'may' join Saudi fight; Putin relays Iran's views",
+    "description": "Leaving for a Tennessee rally, Trump said the US 'may' join Saudi Arabia against the Houthis and would 'take a look' at his pre-midterm pause. Rubio called the Houthis 'terrorist.' The Kremlin said Putin relayed Iran's views on a settlement to Trump in a Friday call.",
+    "category": "political",
+    "source": "CBS News",
+    "data_point": "US 'may' join Saudi campaign"
   },
   {
     "date": "2026-10-11",
     "time": "day",
     "title": "Iran calls US reply to its conditions insufficient",
-    "description": "SNSC Secretary Mohsen Rezaei said Washington accepted some of Iran's seven conditions but its reply, delivered via Qatar, was insufficient, and Iran is no longer responding. He said Hormuz stays closed to US vessels until conditions are met.",
+    "description": "SNSC Secretary Mohsen Rezaei said Washington accepted some of Iran's seven conditions but its reply, delivered via Qatar, was insufficient, and Iran is no longer responding. He said Hormuz stays closed to US vessels until conditions are met. Rezaei threatened regional 'cables, data centers, AI facilities' if fighting resumes; contacts continue through mediators.",
     "category": "diplomatic",
-    "source": "Reuters / Iran International",
+    "source": "Reuters / Iran International / CBS News",
     "data_point": "Iran no longer responding"
   },
   {
@@ -10267,6 +10339,15 @@
     "category": "military",
     "source": "CNN / UKMTO via Gulf News",
     "data_point": "6 vessels in one day (war high)"
+  },
+  {
+    "date": "2026-10-11",
+    "time": "day",
+    "title": "Riyadh terminal hit again; Dammam airport struck",
+    "description": "A projectile hit King Khalid's domestic terminals, killing a Pakistani national and injuring 11; King Fahd International Airport in Dammam was also struck. Saudi Arabia, Egypt, Pakistan and Turkey called the attacks a 'blatant violation of international law.'",
+    "category": "military",
+    "source": "CBS News / US Embassy / GACA",
+    "data_point": "1 killed, 11 injured"
   },
   {
     "date": "2026-10-12",
