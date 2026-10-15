@@ -5198,5 +5198,99 @@
     "notes": "The coalition said the Houthis targeted a power distribution station in Medina; it also reported destroying four Houthi drones over southern Saudi Arabia the same day (Al Jazeera). Damage not reported.",
     "verified": true,
     "last_updated": "2026-10-02"
+  },
+  {
+    "id": "riyadh-aramco-refinery",
+    "city": "Saudi Aramco Riyadh Refinery, Riyadh, Saudi Arabia",
+    "lat": 24.7136,
+    "lng": 46.6753,
+    "type": "iran_retaliation",
+    "weapon": "Not specified (UNVERIFIED)",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-10-03",
+    "casualties_reported": "None reported",
+    "casualties_source": "Critical Threats Project",
+    "active_days": [
+      218
+    ],
+    "notes": "Critical Threats assesses the Houthis likely struck the refinery; Houthi media showed fires at storage tanks without an explicit claim; Reuters reported large fires near an Aramco facility in Riyadh. Saudi or Yemeni government-aligned forces conducted at least 13 airstrikes on Sanaa the same day. Attribution assessed, not claimed. Lat/lng are Riyadh city-level coordinates (refinery coordinates not sourced).",
+    "verified": false,
+    "last_updated": "2026-10-15"
+  },
+  {
+    "id": "khurais-east-west-pipeline-pumping-station",
+    "city": "Khurais pumping station, East-West Pipeline, Riyadh Province, Saudi Arabia",
+    "lat": 25.07,
+    "lng": 48.04,
+    "type": "iran_retaliation",
+    "weapon": "Not specified (UNVERIFIED)",
+    "origin": "Houthis (Ansar Allah), Iran-aligned (claimed operations against Aramco)",
+    "first_strike": "2026-10-04",
+    "casualties_reported": "None reported",
+    "casualties_source": "AFP (Saudi energy-sector source)",
+    "active_days": [
+      219
+    ],
+    "notes": "AFP energy-sector source: the Khurais pumping station east of Riyadh was attacked Oct 4 with 'big damage', halting flows again on the pipeline carrying Saudi crude to Yanbu - the kingdom's principal Hormuz bypass. Houthi spokesman Yahya Saree claimed two operations against Aramco without naming Khurais. The pipeline was previously shut Sep 11 after drones launched from Iraq (see unclaimed-drones-saudi-eastwest-pipeline-20260910). EIA's Oct 6 STEO cited the pipeline attacks in raising its 4Q26 Brent forecast to $105. Lat/lng approximate (Khurais area).",
+    "verified": true,
+    "last_updated": "2026-10-15"
+  },
+  {
+    "id": "riyadh-king-khalid-airport",
+    "city": "King Khalid International Airport, Riyadh, Saudi Arabia",
+    "lat": 24.9576,
+    "lng": 46.6988,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles and drones",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-10-06",
+    "casualties_reported": "At least 18 killed across strikes this window: 12 killed and 309 injured on Oct 10 (Saudi GACA), including one American; at least 3 Saudi citizens including a pilot killed on Oct 8 (GACA via Al Jazeera); 3 killed and 36 injured across Riyadh and Abha airports on Oct 6/7 (Saudi authorities)",
+    "casualties_source": "Saudi General Authority of Civil Aviation (GACA); US State Department (American death)",
+    "active_days": [
+      221,
+      222,
+      223,
+      225,
+      226
+    ],
+    "notes": "The Oct 10 strike was the deadliest attack on Saudi Arabia in more than a decade (CNN) and the third on the airport that week; CNN reports 13 dead after an Indian national died of wounds (GACA figure of 12 used). Hit again Oct 11; NOTAM closure until at least Oct 17 (CNN); at least 291 flights cancelled in the 24 hours after the Oct 10 strike (FlightAware via CBS/AP). Trump said the US may join Saudi strikes on the Houthis (PTI, Oct 10). On Oct 14 the Saudi-led coalition intercepted another Houthi ballistic missile aimed at Riyadh (AP). DATE NOTE: the first Abha/Riyadh airport attack is dated Oct 6 by Al Jazeera and Oct 7 by other summaries - Oct 6 used pending human check. No prior King Khalid entry existed (the Sep 19 fuel-storage fire there was not logged).",
+    "verified": true,
+    "last_updated": "2026-10-15"
+  },
+  {
+    "id": "abha-international-airport",
+    "city": "Abha International Airport, Asir Province, Saudi Arabia",
+    "lat": 18.2404,
+    "lng": 42.6566,
+    "type": "iran_retaliation",
+    "weapon": "Drones",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-10-06",
+    "casualties_reported": "2 killed (a Moroccan and an Algerian), 28 injured",
+    "casualties_source": "Saudi authorities via Al Jazeera",
+    "active_days": [
+      221
+    ],
+    "notes": "Combined Abha and Riyadh airport attacks killed 3 and injured 36 (Al Jazeera). DATE DISCREPANCY: Al Jazeera dates the attack to Tuesday Oct 6; other summaries (Wikipedia) say Oct 7 - Oct 6 used pending human check.",
+    "verified": true,
+    "last_updated": "2026-10-15"
+  },
+  {
+    "id": "dhahran-aramco-headquarters",
+    "city": "Saudi Aramco Headquarters, Dhahran, Eastern Province, Saudi Arabia",
+    "lat": 26.2361,
+    "lng": 50.0393,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missile and drones",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-10-13",
+    "casualties_reported": "No casualties",
+    "casualties_source": "Saudi authorities via Reuters",
+    "active_days": [
+      228
+    ],
+    "notes": "Limited fire; a company source told Reuters a ballistic missile damaged the top three floors of an office tower. DATE DISCREPANCY: Oct 13 local time vs Oct 14 in some reporting - Oct 13 used pending confirmation. Lat/lng are Dhahran city-level coordinates.",
+    "verified": true,
+    "last_updated": "2026-10-15"
   }
 ]
