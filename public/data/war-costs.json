@@ -215,7 +215,21 @@
     "Day 213",
     "Day 214",
     "Day 215",
-    "Day 216"
+    "Day 216",
+    "Day 217",
+    "Day 218",
+    "Day 219",
+    "Day 220",
+    "Day 221",
+    "Day 222",
+    "Day 223",
+    "Day 224",
+    "Day 225",
+    "Day 226",
+    "Day 227",
+    "Day 228",
+    "Day 229",
+    "Day 230"
   ],
   "daily_cost_millions": [
     3000,
@@ -347,6 +361,20 @@
     85,
     85,
     85,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
     500,
     500,
     500,
@@ -651,7 +679,21 @@
     "Day 213 (September 28, Monday) — The Makin Island ARG with the 13th MEU got underway from San Diego (USNI via TWZ). Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$58.8B.",
     "Day 214 (September 29, Tuesday) — No new official cost estimate; methodology unchanged. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$59.3B.",
     "Day 215 (September 30, Wednesday) — The last US troops of the anti-ISIL mission left Iraq, ending a 23-year presence (DoD via Al Jazeera). Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$59.8B.",
-    "Day 216 (October 1, Thursday) — No new official estimate Sep 18 to Oct 1; methodology unchanged. Force buildup (third CSG, second ARG/MEU, 9,000 to 10,000 more sailors and Marines on top of 50,000+ already in the region) announced Oct 1, arriving by end of November (WSJ) - run-rate costs will rise once they arrive. Last official anchor remains the Acting Pentagon Comptroller's $29B to date (May 12). Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$60.3B."
+    "Day 216 (October 1, Thursday) — No new official estimate Sep 18 to Oct 1; methodology unchanged. Force buildup (third CSG, second ARG/MEU, 9,000 to 10,000 more sailors and Marines on top of 50,000+ already in the region) announced Oct 1, arriving by end of November (WSJ) - run-rate costs will rise once they arrive. Last official anchor remains the Acting Pentagon Comptroller's $29B to date (May 12). Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$60.3B.",
+    "Day 217 (October 2, Friday) — Camp David meeting of senior officials on renewed Iran strikes and the Saudi-Houthi conflict (Axios, CBS). NEW OFFICIAL ANCHOR: the Pentagon told Congress the war cost $43.6B through Sep 3 ($28.1B munitions replacement, $11.2B operations, $4.3B equipment losses; Bloomberg Government), or $45.1B including $1.5B fuel (CNN); excludes base repair - comptroller Jules Hurst III: 'we don't have a great estimate for what it would take to reconstitute those facilities.' CBO: $38.1B through Aug 1, plus $2B-$3B per month thereafter (~$83M/day midpoint). The modeled series reached ~$46.3B at Day 188 (Sep 3), within ~3% of the $45.1B official figure, so the methodology is kept per the manifest; but the CBO post-August run-rate implies the carried $500M/day likely OVERSTATES the current blockade/standby posture - FLAGGED FOR ANALYST REVIEW (manifest alternative: $45.1B + $83.3M/day = ~$48.6B at Day 230). The administration's June supplemental request was $87.6B, incl. $67.1B for the Pentagon (The Defense Post). Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$60.8B.",
+    "Day 218 (October 3, Saturday) — Third carrier strike group (Theodore Roosevelt) and Makin Island ARG reported deploying toward the Middle East; naval presence projected above 20,000 sailors and Marines by end of October (GlobalSecurity citing EA WorldView). Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$61.3B.",
+    "Day 219 (October 4, Sunday) — All 12 US B-1B bombers withdrawn from RAF Fairford to home stations amid drone-strike intelligence (AP, Defense News). Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$61.8B.",
+    "Day 220 (October 5, Monday) — CRS updated its report on US aircraft combat losses (IN12692): 81 US aircraft lost or damaged, including at least 45 MQ-9s; CBO puts replacement costs at up to $3.3B (The Defense Post, Oct 12). Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$62.3B.",
+    "Day 221 (October 6, Tuesday) — US forces destroyed an IRGC-linked spotter dhow in the Gulf of Oman (CENTCOM, disclosed Oct 14). TANKER TRANSITS: Kpler via CNN counted 7 tankers through Hormuz on Tue Oct 6, less than half the 7-day average and the lowest since Jul 23 (may be revised up; many ships switch off AIS) - plotted. Lloyd's List Intelligence via USNI: 143 total transits Sep 28-Oct 7, up 3 week on week, with tanker and gas-carrier transits down 10.2% (weekly all-vessel metric, not plotted). Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$62.8B.",
+    "Day 222 (October 7, Wednesday) — No new cost data. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$63.3B.",
+    "Day 223 (October 8, Thursday) — Trump pledged no strikes on Iran before the Nov 3 midterms; blockade stays 'in full force and effect.' USS Abraham Lincoln returned to San Diego after a 321-day deployment. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$63.8B.",
+    "Day 224 (October 9, Friday) — Pentagon DCAS raised the US toll to 21 dead / 865 wounded. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$64.3B.",
+    "Day 225 (October 10, Saturday) — No new cost data. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$64.8B.",
+    "Day 226 (October 11, Sunday) — No new cost data. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$65.3B.",
+    "Day 227 (October 12, Monday) — CENTCOM: US forces helped Gulf partners move 19M+ barrels through Hormuz. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$65.8B.",
+    "Day 228 (October 13, Tuesday) — Moody's Analytics (Zandi): the war has cost US consumers ~$265B, ~$2,000 per household (~$1,100 energy, ~$540 higher rates, ~$360 military costs) - a consumer cost, not a military outlay. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$66.3B.",
+    "Day 229 (October 14, Wednesday) — CENTCOM disclosed the Oct 6 dhow strike. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$66.8B.",
+    "Day 230 (October 15, Thursday) — CNN reports strike plans including the GBU-43/B MOAB; USS George H.W. Bush in the Arabian Sea, USS George Washington remains on station. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$67.3B."
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
@@ -819,7 +861,8 @@
       "Sep 9",
       "Sep 10",
       "Sep 15",
-      "Sep 25"
+      "Sep 25",
+      "Oct 6"
     ],
     "data": [
       50,
@@ -985,9 +1028,10 @@
       6,
       7,
       4,
-      29
+      29,
+      7
     ],
     "prewar_daily": 50
   },
-  "last_updated": "2026-10-02"
+  "last_updated": "2026-10-15"
 }

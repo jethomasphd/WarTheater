@@ -149,7 +149,16 @@
     "Sep 28",
     "Sep 29",
     "Sep 30",
-    "Oct 1"
+    "Oct 1",
+    "Oct 2",
+    "Oct 5",
+    "Oct 6",
+    "Oct 7",
+    "Oct 8",
+    "Oct 9",
+    "Oct 12",
+    "Oct 13",
+    "Oct 14"
   ],
   "contexts": [
     "Pre-war close — baseline",
@@ -301,7 +310,16 @@
     "Day 213 (September 28, Monday) — S&P 500 close NOT LOCATED. NBC disclosed that eight Marines were hurt in an undisclosed Sep 14 Iranian missile strike; UK police thwarted a suspected plot against RAF Fairford; Trump confirmed indirect talks via Qatar.",
     "Day 214 (September 29, Tuesday) — S&P 500 ~7,670.84 is DERIVED from the AP Sep 30 change of -19.30, not a confirmed close. Consumer confidence fell to a 12-year low (TheStreet); oil pulled back on recovering Gulf exports (WTI ~$89.38).",
     "Day 215 (September 30, Wednesday) — The S&P 500 fell 0.25% to 7,651.54 (AP, CNBC); the Dow lost 0.9% to 50,906.05 and the Nasdaq rose 0.2% to 26,861.06. The S&P fell 0.5% in September (CNBC) but gained 2% for Q3; XLK was the only sector up in September (eOption). Iran received the formal U.S. response via Qatar.",
-    "Day 216 (October 1, Thursday) — The S&P 500 rose 0.19% (+14.91) to 7,666.45 as Treasury yields eased from multiyear highs; the Dow closed at 50,926.56 and the Nasdaq at 26,871.60 (Yahoo Finance, CNBC). Brent jumped 4.4% to $102.31 on the report that a third carrier strike group is headed to the Middle East. ITA, XLE and JETS closes were NOT LOCATED for any day Sep 21-Oct 1."
+    "Day 216 (October 1, Thursday) — The S&P 500 rose 0.19% (+14.91) to 7,666.45 as Treasury yields eased from multiyear highs; the Dow closed at 50,926.56 and the Nasdaq at 26,871.60 (Yahoo Finance, CNBC). Brent jumped 4.4% to $102.31 on the report that a third carrier strike group is headed to the Middle East. ITA, XLE and JETS closes were NOT LOCATED for any day Sep 21-Oct 1. UPDATE 2026-10-15: Oct 1 sector proxy closes located - ITA 208.04 (+0.42%), XLE 62.70 (+1.95%), JETS 28.09 (-0.46%) (StockAnalysis.com, cross-checked with Investing.com/iShares/State Street/Yahoo Finance). Sector chart series (RTX+LMT / XOM+CVX / DAL+UAL indices) remain null; ITA/XLE/JETS are logged in contexts only because they lack a matching Feb 27 index base.",
+    "Day 217 (October 2, Friday) — The S&P 500 rose 0.73% to 7,722.72 (Investing.com). Sector proxies: ITA (defense) 207.79 (-0.12%), XLE (oil majors) 62.82 (+0.19%), JETS (airlines) 28.14 (+0.18%) (StockAnalysis.com). Senior Trump administration officials met for hours at Camp David on renewed Iran strikes and the Saudi-Houthi conflict; Trump told a Mobile, Alabama rally the war would end 'very soon, probably right after the midterms.' Brent December settled 102.25 (-0.06%), WTI 91.11 (-1.90%).",
+    "Day 220 (October 5, Monday) — The S&P 500 rose 0.66% to 7,773.95 (Investing.com). Sector proxies: ITA (defense) 206.98 (-0.39%), XLE (oil majors) 63.45 (+1.00%), JETS (airlines) 27.89 (-0.89%) (StockAnalysis.com). Saudi East-West pipeline flows halted again after the Oct 4 attack on the Khurais pumping station (AFP); Houthis claimed two operations against Aramco. All 12 US B-1B bombers left RAF Fairford Oct 4. Brent 100.32 (-1.89%), WTI 89.43 (-1.84%). iShares filed Oct 5 for an ITA forward split (record date Nov 3) - adjusted ITA history will change.",
+    "Day 221 (October 6, Tuesday) — The S&P 500 rose 0.58% to 7,818.93 (Investing.com). Sector proxies: ITA (defense) 208.26 (+0.62%), XLE (oil majors) 63.75 (+0.47%), JETS (airlines) 28.10 (+0.75%) (StockAnalysis.com). EIA's October STEO raised its 4Q26 Brent forecast to $105 (+$14 m/m), citing East-West pipeline attacks and extreme diesel tightness. Houthi drones struck Abha airport (Al Jazeera date; other summaries say Oct 7). Kpler: only 7 tankers transited Hormuz, the lowest since Jul 23. Brent 100.58 (+0.26%), WTI 89.44 (+0.01%).",
+    "Day 222 (October 7, Wednesday) — The S&P 500 fell 0.22% to 7,801.77 (Investing.com). Sector proxies: ITA (defense) 203.60 (-2.24%), XLE (oil majors) 63.36 (-0.61%), JETS (airlines) 27.67 (-1.53%) (StockAnalysis.com). Houthi strikes on Abha and Riyadh airports killed 3 and injured 36 (Saudi authorities); Trump said pre-election strikes on Iran were under consideration. ITA -2.24%, JETS -1.53%. Brent 100.20 (-0.38%), WTI 88.28 (-1.30%).",
+    "Day 223 (October 8, Thursday) — The S&P 500 fell 0.47% to 7,765.36 (Investing.com). Sector proxies: ITA (defense) 204.88 (+0.63%), XLE (oil majors) 65.24 (+2.97%), JETS (airlines) 27.48 (-0.69%) (StockAnalysis.com). Trump pledged the US 'will not be attacking Iran at any time prior to the Midterm Elections' (Nov 3) while keeping the naval blockade 'in full force and effect.' Brent +4.07% to 104.28, WTI +3.64% to 91.49; XLE +2.97%. USS Abraham Lincoln returned to San Diego after 321 days.",
+    "Day 224 (October 9, Friday) — The S&P 500 rose 0.59% to 7,811.54 (Investing.com). Sector proxies: ITA (defense) 206.65 (+0.86%), XLE (oil majors) 65.08 (-0.25%), JETS (airlines) 27.45 (-0.11%) (StockAnalysis.com). Pentagon DCAS raised the US toll to 21 dead and 865 wounded. Near-daily Hormuz ship strikes (USNI). CNBC/Kpler: Hormuz exports ~8.5M bpd, ~40% below normal; Middle East shipments 15.3M bpd, ~10% below pre-war. Brent 104.72, WTI 91.85. DISCREPANCY: XLE 65.08 (StockAnalysis) vs 65.35 (Investing.com, thin volume, likely partial-day print) - 65.08 used, flagged.",
+    "Day 227 (October 12, Monday) — The S&P 500 fell 0.06% to 7,807.24 (Investing.com). Sector proxies: ITA (defense) 206.03 (-0.30%), XLE (oil majors) 66.01 (+1.43%), JETS (airlines) 27.02 (-1.57%) (StockAnalysis.com). First session after the weekend: a Houthi missile killed 12 (incl. one American) and injured 309 at Riyadh's King Khalid airport on Oct 10 (Saudi GACA); six commercial vessels were struck near Hormuz Oct 11, the most in a day of the war; Iran called the US reply to its seven conditions insufficient. IRGC said a third supertanker hit a mine. Brent +1.84% to 106.65, WTI +2.06% to 93.74; JETS -1.57%.",
+    "Day 228 (October 13, Tuesday) — The S&P 500 fell 0.02% to 7,805.45 (Investing.com). Sector proxies: ITA (defense) 204.00 (-0.99%), XLE (oil majors) 67.20 (+1.80%), JETS (airlines) 26.80 (-0.81%) (StockAnalysis.com). Israel's Channel 12 reported Netanyahu pressed Trump to renew the war before the Oct 27 Israeli and Nov 3 US elections (his office denied it); Trump said he would decide on Iran 'very soon.' Moody's (Zandi): war has cost US consumers $265B, ~$2,000 per household. Brent 105.69 (-0.90%), WTI 94.14 (+0.43%).",
+    "Day 229 (October 14, Wednesday) — The S&P 500 fell 1.10% to 7,719.54 (Investing.com). Sector proxies: ITA (defense) 204.24 (+0.12%), XLE (oil majors) 67.63 (+0.64%), JETS (airlines) 25.84 (-3.58%) (StockAnalysis.com). Largest one-day S&P drop of the window. A container ship sank south of Hormuz - the first sinkings since March (cause disputed: IRGC says mine, Reuters sources say projectile); a Houthi attack damaged Aramco's Dhahran HQ tower; CENTCOM disclosed the Oct 6 destruction of an IRGC-linked dhow. JETS -3.58%. Brent 106.06 (+0.35%), WTI 95.09 (+1.01%). Oct 15 (Day 230) closes NOT YET AVAILABLE - intraday S&P ~7,732 (+0.17%) and XLE 66.70 (-1.38%) at 11:37 ET; do not treat as closes. WINDOW TAKEAWAY (Oct 1-14): XLE +7.9%, JETS -8.0%, ITA ~-1.8% - markets are pricing an energy-supply shock, not a renewed US combat campaign."
   ],
   "datasets": {
     "sp500": {
@@ -456,7 +474,16 @@
         null,
         110.61,
         110.33,
-        110.55
+        110.55,
+        111.36,
+        112.1,
+        112.75,
+        112.5,
+        111.98,
+        112.64,
+        112.58,
+        112.55,
+        111.32
       ],
       "color": "#ef4444"
     },
@@ -557,6 +584,15 @@
         117.0,
         117.5,
         118.5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -768,6 +804,15 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#d4a020"
@@ -924,10 +969,19 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-10-02"
+  "last_updated": "2026-10-15"
 }
