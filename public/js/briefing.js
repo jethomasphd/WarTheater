@@ -12,7 +12,9 @@ WarTheater.Briefing = {
     }
 
     try {
-      var resp = await fetch('data/briefings/index.json');
+      // cache: 'no-cache' forces revalidation so a new day's briefing appears
+      // immediately instead of after the 5-minute /data/* max-age expires.
+      var resp = await fetch('data/briefings/index.json', { cache: 'no-cache' });
       if (!resp.ok) throw new Error('HTTP ' + resp.status);
       var index = await resp.json();
 
@@ -22,7 +24,7 @@ WarTheater.Briefing = {
       if (!latest) throw new Error('Empty briefing index');
 
       // Fetch the briefing HTML fragment
-      var htmlResp = await fetch(latest.file);
+      var htmlResp = await fetch(latest.file, { cache: 'no-cache' });
       if (!htmlResp.ok) throw new Error('HTTP ' + htmlResp.status + ' loading ' + latest.file);
       var html = await htmlResp.text();
 
