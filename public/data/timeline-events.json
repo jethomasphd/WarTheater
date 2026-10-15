@@ -10087,5 +10087,95 @@
     "category": "military",
     "source": "USNI News / Navy Times",
     "data_point": "321-day deployment"
+  },
+  {
+    "date": "2026-10-09",
+    "time": "day",
+    "title": "Pentagon raises US death toll to 21",
+    "description": "The Pentagon added two noncombat deaths to its casualty database, raising the official toll to 21 dead and 865 wounded. It followed Washington Post reporting of undercounting that Hegseth had called a complete lie.",
+    "category": "humanitarian",
+    "source": "UPI / The Hill / The Intercept / Military.com",
+    "data_point": "21 dead, 865 wounded (DCAS)"
+  },
+  {
+    "date": "2026-10-10",
+    "time": "day",
+    "title": "Houthi strike on Riyadh airport kills 12",
+    "description": "A Houthi missile struck King Khalid International Airport, killing at least 12 people including one American and injuring 309, per Saudi GACA. It was the third attack on the airport that week; CNN reports 13 dead after an Indian national died of wounds.",
+    "category": "military",
+    "source": "Al Jazeera / CBS News/AP / CNN",
+    "data_point": "12 killed, 309 injured"
+  },
+  {
+    "date": "2026-10-11",
+    "time": "day",
+    "title": "Iran calls US reply to its conditions insufficient",
+    "description": "SNSC Secretary Mohsen Rezaei said Washington accepted some of Iran's seven conditions but its reply, delivered via Qatar, was insufficient, and Iran is no longer responding. He said Hormuz stays closed to US vessels until conditions are met.",
+    "category": "diplomatic",
+    "source": "Reuters / Iran International",
+    "data_point": "Iran no longer responding"
+  },
+  {
+    "date": "2026-10-11",
+    "time": "day",
+    "title": "Six ships struck in a single day near Hormuz",
+    "description": "Six commercial vessels were reportedly struck in and around the strait, the most in a single day of the war. UKMTO reported a product tanker, crude tanker and container ship hit by projectiles.",
+    "category": "military",
+    "source": "CNN / UKMTO via Gulf News",
+    "data_point": "6 vessels in one day (war high)"
+  },
+  {
+    "date": "2026-10-12",
+    "time": "day",
+    "title": "IRGC says supertanker hit mine in Hormuz",
+    "description": "The IRGC Navy said a supertanker transiting with its navigation off struck a mine, the third vessel since Oct 10 on the prohibited route. CENTCOM said US forces helped Gulf partners move more than 19 million barrels through Hormuz that day.",
+    "category": "military",
+    "source": "Anadolu/Bernama / CENTCOM via Reuters",
+    "data_point": "19M+ barrels moved (CENTCOM)"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "day",
+    "title": "Report: Netanyahu pressed Trump to renew war",
+    "description": "Israel's Channel 12 reported Netanyahu urged Trump to renew fighting before the Oct 27 Israeli and Nov 3 US elections; his office denied it. Trump said he would decide on Iran very soon.",
+    "category": "political",
+    "source": "Times of Israel / Axios",
+    "data_point": "Oct 27 / Nov 3 elections"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "day",
+    "title": "Moody's: war cost US consumers $265B",
+    "description": "Moody's Analytics economist Mark Zandi estimated the war has cost US consumers $265 billion, about $2,000 per household: roughly $1,100 in energy, $540 from higher rates and $360 in military costs. Qatar's emir said state revenues fell 42 percent in the first half.",
+    "category": "economic",
+    "source": "CNN / The Hill / Times of Israel",
+    "data_point": "~$2,000 per household"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "day",
+    "title": "Houthi attack damages Aramco HQ tower",
+    "description": "Houthi missile and drone attacks hit Saudi Aramco's headquarters in Dhahran, causing a limited fire and no casualties; a ballistic missile damaged the top three floors of an office tower. Dated Oct 13 local time; some reporting places it Oct 14. The coalition intercepted another missile aimed at Riyadh on Oct 14.",
+    "category": "military",
+    "source": "Reuters / AP",
+    "data_point": "Top 3 floors damaged"
+  },
+  {
+    "date": "2026-10-14",
+    "time": "day",
+    "title": "Container ship sinks south of Hormuz",
+    "description": "The IRGC Navy said a container ship with more than 2,500 containers sank after hitting a mine; maritime security sources told Reuters a projectile was responsible. Critical Threats reports two Emirati cargo vessels sank, the first sinkings since March.",
+    "category": "military",
+    "source": "Gulf News / Reuters / Critical Threats Project",
+    "data_point": "First sinkings since March"
+  },
+  {
+    "date": "2026-10-15",
+    "time": "day",
+    "title": "US drafts new Iran strike plans, including MOAB",
+    "description": "CNN reported the military is preparing strike options against Iranian energy and nuclear sites, including the GBU-43/B MOAB. Axios reported Hegseth and CENTCOM favor resuming the war; the White House reiterated the pre-midterm pledge. Reported plans, not decisions.",
+    "category": "military",
+    "source": "CNN / Axios via Asharq Al-Awsat",
+    "data_point": "GBU-43/B MOAB options"
   }
 ]
