@@ -1,19 +1,19 @@
 {
   "last_updated": "2026-10-15",
   "war_day": 230,
-  "timestamp_label": "LAST UPDATED: OCT 15, 2026 18:45 ET",
+  "timestamp_label": "LAST UPDATED: OCT 15, 2026 19:21 ET",
   "cost": {
     "brent": {
-      "price": 106.06,
+      "price": 105.92,
       "label": "Brent Crude ($/bbl)",
-      "change": "+0.35% Oct 14 settle (Dec contract); +35.06 (+49.4%) vs pre-war $71.00",
-      "tooltip": "ICE Brent December 2026 (LCOZ6) front-month close Wed Oct 14 $106.06 (+0.35% on the day; Investing.com), up $3.75 from the Oct 1 close of $102.31. Window range $100.20 (Oct 7) to $106.65 (Oct 12); Oct 8 +4.07% on Trump's no-strikes-before-midterms pledge with the blockade kept in force. Oct 15 is PROVISIONAL, not a settle: traded $103.42-$106.97 intraday as an equity selloff weighed on risk assets (Bloomberg: 'slid below $104'). DISCREPANCY: TradingEconomics CFD $105.94; Fortune $108.70 at 7:15 a.m. ET - $106.06 used. EIA (Oct 6 STEO) raised its 4Q26 Brent forecast to $105. Pre-war baseline $71.00 (Feb 27). Source: Investing.com / Bloomberg / EIA."
+      "change": "-0.13% Oct 15 settle (Dec contract); +34.92 (+49.2%) vs pre-war $71.00",
+      "tooltip": "ICE Brent December 2026 (LCOZ6) settle Thu Oct 15 $105.92 (-0.1%; Rigzone), after $106.06 on Oct 14; up $3.61 from the Oct 1 close of $102.31. Window range $100.20 (Oct 7) to $106.65 (Oct 12); Oct 8 +4.07% on Trump's no-strikes-before-midterms pledge with the blockade kept in force. IEA members pledged Oct 15 to complete the outstanding 100M-barrel emergency release. EIA (Oct 6 STEO) raised its 4Q26 Brent forecast to $105. Pre-war baseline $71.00 (Feb 27). Source: Rigzone / Investing.com / EIA."
     },
     "wti": {
-      "price": 95.09,
+      "price": 97.97,
       "label": "WTI Crude ($/bbl)",
-      "change": "+1.01% Oct 14 settle (Nov contract); +28.59 (+43.0%) vs pre-war $66.50",
-      "tooltip": "NYMEX WTI November 2026 front-month close Wed Oct 14 $95.09 (+1.01% on the day; Investing.com), up $2.22 from the Oct 1 close of $92.87; an earlier Investing.com snapshot showed $95.49 ($95.09 used). Oct 15 intraday ~$96.40-$96.96, not a settle. Brent-WTI spread ~$11. Pre-war baseline $66.50. Source: Investing.com."
+      "change": "+3.03% Oct 15 settle (Nov contract); +31.47 (+47.3%) vs pre-war $66.50",
+      "tooltip": "NYMEX WTI November 2026 settle Thu Oct 15 $97.97 (+3%; Rigzone), up from $95.09 on Oct 14 and $92.87 on Oct 1. WTI has decoupled from Brent (spread now ~$8) as US export shipping became cheaper, with heavy positioning to roll ahead of next week's November expiry (TD Securities). Pre-war baseline $66.50. Source: Rigzone / Investing.com."
     },
     "gas": {
       "price": 4.33,
@@ -22,10 +22,10 @@
       "tooltip": "AAA national average regular $4.3344 on Oct 15, 2026 (AAA Today's State Averages), down from $4.41 on Oct 1 and $4.36 on Oct 8 (AAA Newsroom: 'still a record for autumn'). EIA weekly (FRED GASREGW): $4.354 Oct 5, $4.331 Oct 12. September averaged a record $4.33. Wartime peak $4.55 on May 21. National diesel for Oct 15 not located (CA diesel $8.45). Source: AAA / EIA."
     },
     "sp500": {
-      "value": 7719.54,
+      "value": 7744.06,
       "label": "S&P 500",
-      "change": "-1.10% Oct 14; +840.66 (+12.2%) vs pre-war 6,878.88",
-      "tooltip": "Close Wed Oct 14 7,719.54 (-1.10%; Investing.com), the largest one-day drop of the Oct 1-14 window, as a container ship sank near Hormuz and a Houthi attack hit Aramco's Dhahran HQ. Window high 7,818.93 (Oct 6). Oct 15 close NOT YET AVAILABLE (intraday ~7,732, +0.17%, at 11:37 ET). Sector proxies Oct 1-14: XLE +7.9%, JETS -8.0%, ITA ~-1.8% - priced as an energy-supply shock, not a renewed US combat campaign. Pre-war baseline 6,878.88 (Feb 27). Source: Investing.com / StockAnalysis.com."
+      "change": "+0.33% Oct 15; +865.18 (+12.6%) vs pre-war 6,878.88",
+      "tooltip": "Close Thu Oct 15 7,744.06 (+0.33%; AP, CNN) after erasing an early loss; Oct 14 close 7,718.94 (-1.11%, S&P DJI via FRED) was the window's largest drop, after a hot September CPI (3.7% y/y) and as a container ship sank near Hormuz. Window high 7,818.93 (Oct 6). Sector proxies Oct 1-14: XLE +7.9%, JETS -8.0%, ITA ~-1.8% - priced as an energy-supply shock, not a renewed US combat campaign. Pre-war baseline 6,878.88 (Feb 27). Source: AP / CNN / FRED / StockAnalysis.com."
     },
     "daily_cost": {
       "value": 500,
@@ -3130,7 +3130,7 @@
       "brent": 100.34,
       "wti": 95.78,
       "gas": 4.48,
-      "sp500": null,
+      "sp500": 7764.7,
       "sp500_change_pct": null,
       "nasdaq": null,
       "dow": null,
@@ -3152,7 +3152,7 @@
       "brent": 99.25,
       "wti": 94.59,
       "gas": 4.48,
-      "sp500": null,
+      "sp500": 7764.64,
       "sp500_change_pct": null,
       "nasdaq": null,
       "dow": null,
@@ -3174,7 +3174,7 @@
       "brent": 103.08,
       "wti": 92.16,
       "gas": 4.48,
-      "sp500": null,
+      "sp500": 7706.03,
       "sp500_change_pct": null,
       "nasdaq": null,
       "dow": null,
@@ -3196,7 +3196,7 @@
       "brent": 106.6,
       "wti": 94.61,
       "gas": 4.48,
-      "sp500": null,
+      "sp500": 7704.13,
       "sp500_change_pct": null,
       "nasdaq": null,
       "dow": null,
@@ -3284,7 +3284,7 @@
       "brent": null,
       "wti": 92.6,
       "gas": 4.48,
-      "sp500": null,
+      "sp500": 7683.69,
       "sp500_change_pct": null,
       "nasdaq": null,
       "dow": null,
@@ -3636,10 +3636,10 @@
       "brent": 106.06,
       "wti": 95.09,
       "gas": 4.36,
-      "sp500": 7719.54,
-      "sp500_change_pct": -1.1,
-      "nasdaq": null,
-      "dow": null,
+      "sp500": 7718.94,
+      "sp500_change_pct": -1.11,
+      "nasdaq": 26692.87,
+      "dow": 51621.48,
       "daily_cost_millions": 500,
       "total_cost_billions": 66.8,
       "targets_struck": 35914,
@@ -3655,13 +3655,13 @@
     {
       "date": "2026-10-15",
       "war_day": 230,
-      "brent": 106.06,
-      "wti": 95.09,
+      "brent": 105.92,
+      "wti": 97.97,
       "gas": 4.33,
-      "sp500": 7719.54,
-      "sp500_change_pct": null,
-      "nasdaq": null,
-      "dow": null,
+      "sp500": 7744.06,
+      "sp500_change_pct": 0.33,
+      "nasdaq": 26713.03,
+      "dow": 52177.69,
       "daily_cost_millions": 500,
       "total_cost_billions": 67.3,
       "targets_struck": 35914,
@@ -3672,7 +3672,7 @@
       "displaced": 1200000,
       "flights_cancelled": 8000,
       "children_killed": 379,
-      "headline": "Day 230 (October 15, Thursday) - CNN: US drafts Iran strike plans incl. MOAB; White House reiterates pre-midterm pledge. Market values are Oct 14 closes; gas is AAA Oct 15"
+      "headline": "Day 230 (October 15, Thursday) - CENTCOM says the IRGC struck the sunken GFS Pride and rejects Iran's Hormuz claims; Saudis say 20 October attacks on Riyadh's airport killed 17; CNN reports MOAB strike plans; Brent settles $105.92, WTI +3% to $97.97"
     }
   ],
   "toll": {
@@ -3685,9 +3685,9 @@
     },
     "us_kia": {
       "value": 21,
-      "label": "US service-member KIA (Pentagon DCAS)",
+      "label": "US service-member deaths (Pentagon DCAS, all causes)",
       "note": "+2 — DCAS revision Oct 9 (two noncombat deaths added)",
-      "tooltip": "Official Pentagon DCAS count, combat and noncombat. On Oct 9 DCAS raised the toll from 19 to 21 by adding two noncombat deaths: Maj. Sorffly Davius (died in Kuwait Mar 6) and an unidentified Navy sailor (September) (UPI, The Hill, Military.com). Washington Post sources reported at least 22 in September; Hegseth called the reporting 'a complete lie' and the Pentagon disputes it. Trump cited 18 on Oct 2. DCAS cut 18 to 14 in April (The Intercept). The Pentagon says Operation Epic Fury ended May 5 and now classifies casualties as 'overseas operations in the CENTCOM area of responsibility' (CBS News). Official counts lag and are revised without announcement.",
+      "tooltip": "Official Pentagon DCAS count of US service-member deaths, combat AND noncombat (not killed-in-action only). On Oct 9 DCAS raised the toll from 19 to 21 by adding two noncombat deaths: Maj. Sorffly Davius (died in Kuwait Mar 6) and an unidentified Navy sailor (September) (UPI, The Hill, Military.com). Washington Post sources reported at least 22 in September; Hegseth called the reporting 'a complete lie' and the Pentagon disputes it. Trump cited 18 on Oct 2. DCAS cut 18 to 14 in April (The Intercept). The Pentagon says Operation Epic Fury ended May 5 and now classifies casualties as 'overseas operations in the CENTCOM area of responsibility' (CBS News). Official counts lag and are revised without announcement. CENTCOM (Oct 15) rejected an Iranian claim that hundreds of US troops were killed in Jordan; three US service members were killed in action there in July.",
       "color": "var(--civilian)"
     },
     "us_wia": {
@@ -3715,14 +3715,14 @@
       "value": 1200000,
       "label": "Displaced (cumulative)",
       "note": "HELD — no new figure located",
-      "tooltip": "Carried forward; Lebanon-weighted, Iran ~3.2M IDPs tracked separately. No new UNHCR, IOM or OCHA displacement figure located for Oct 2-15. Verify against the latest UNHCR/IOM release.",
+      "tooltip": "Carried forward; Lebanon-weighted, Iran ~3.2M IDPs tracked separately. No new UNHCR, IOM or OCHA displacement figure located for Oct 2-15. Verify against the latest UNHCR/IOM release. Not added (separate theater): UNFPA reports more than 145,000 people displaced in Yemen by the renewed Saudi-Houthi fighting (CBS, Oct 2), and UNHCR said ~3,000 fled Yemen to Djibouti in under a week in mid-September.",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 8000,
       "label": "Flights cancelled (cumulative)",
       "note": "HELD — Riyadh closure not added to cumulative",
-      "tooltip": "Carried forward; no new Cirium or FlightAware cumulative aggregate. New data point (not added, scope of the counter unconfirmed): at least 291 flights at Riyadh's King Khalid International Airport were cancelled in the 24 hours after the Oct 10 Houthi strike (FlightAware via CBS/AP); a NOTAM keeps the airport closed until at least Oct 17 (CNN).",
+      "tooltip": "Carried forward; no new Cirium or FlightAware cumulative aggregate. New data points (not added; the counter's scope is unconfirmed): FlightAware counted 291-324 cancelled flights at Riyadh's King Khalid International Airport after the Oct 10 Houthi strike (182 of them Saudia; CBS/AP). The airport is closed until at least Oct 17 after 20 attacks in October (Saudi-led coalition). Lufthansa, Air India, PIA, flydubai, Etihad, Emirates and Air Arabia suspended Riyadh flights; Delta delayed its Atlanta-Riyadh launch to March 2027; EASA advised against parts of Saudi airspace; King Fahd International Airport, Dammam, was also struck Oct 10-11.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {

@@ -12,7 +12,7 @@ WarTheater.Data = {
   async loadLocal(path) {
     if (this.cache[path]) return this.cache[path];
     try {
-      const resp = await fetch(path);
+      const resp = await fetch(path, { cache: 'no-cache' });
       if (!resp.ok) throw new Error(`Failed to load ${path}: ${resp.status}`);
       const data = await resp.json();
       this.cache[path] = data;

@@ -5139,11 +5139,13 @@
     "casualties_source": "Houthi military spokesman Yahya Saree (claim)",
     "active_days": [
       209,
-      211
+      211,
+      228,
+      229
     ],
-    "notes": "UNVERIFIED Houthi claim of a strike on a 'sensitive target' in Riyadh on Sep 24; Saudi civil defence issued no Riyadh alert that day (Reuters). On Sep 26 the coalition said it shot down two drones heading for the Riyadh area (Euronews).",
+    "notes": "UNVERIFIED Houthi claim of a strike on a 'sensitive target' in Riyadh on Sep 24; Saudi civil defence issued no Riyadh alert that day (Reuters). On Sep 26 the coalition said it shot down two drones heading for the Riyadh area (Euronews). UPDATE Oct 13-14: the coalition intercepted missiles and drones aimed at Riyadh and al-Kharj; debris injured four people and damaged 15 homes in Riyadh on Oct 13 (Saudi Civil Defense, CBS); another Houthi ballistic missile aimed at Riyadh was intercepted Oct 14 (AP).",
     "verified": false,
-    "last_updated": "2026-10-02"
+    "last_updated": "2026-10-15"
   },
   {
     "id": "jazan-2026-09-24",
@@ -5193,11 +5195,12 @@
     "casualties_reported": "Not reported",
     "casualties_source": "Saudi-led coalition",
     "active_days": [
-      216
+      216,
+      230
     ],
-    "notes": "The coalition said the Houthis targeted a power distribution station in Medina; it also reported destroying four Houthi drones over southern Saudi Arabia the same day (Al Jazeera). Damage not reported.",
+    "notes": "The coalition said the Houthis targeted a power distribution station in Medina; it also reported destroying four Houthi drones over southern Saudi Arabia the same day (Al Jazeera). Damage not reported. Oct 15: the coalition said it intercepted a Houthi missile over Medina (reported as ballistic in one statement, cruise in another); the Houthis called the claim 'a shameless and brazen lie.' Houthis say Mecca and Medina are excluded from their targeting.",
     "verified": true,
-    "last_updated": "2026-10-02"
+    "last_updated": "2026-10-15"
   },
   {
     "id": "riyadh-aramco-refinery",
@@ -5236,6 +5239,42 @@
     "last_updated": "2026-10-15"
   },
   {
+    "id": "jazan-najran-airports-2026-10-05",
+    "city": "King Abdullah bin Abdulaziz Airport (Jazan) and Najran Airport, Saudi Arabia",
+    "lat": 16.9011,
+    "lng": 42.5858,
+    "type": "iran_retaliation",
+    "weapon": "Not specified",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-10-05",
+    "casualties_reported": "3 minor injuries",
+    "casualties_source": "Saudi GACA via CBS News",
+    "active_days": [
+      220
+    ],
+    "notes": "GACA said both airports were attacked on Monday Oct 5, causing three minor injuries. The Houthis the same day warned airlines that Saudi airspace is 'unsafe.' Marker placed at Jazan airport (Najran airport ~17.61N, 44.42E). Lat/lng approximate.",
+    "verified": true,
+    "last_updated": "2026-10-15"
+  },
+  {
+    "id": "rabigh-aramco-refinery-claim-2026-10-05",
+    "city": "Saudi Aramco Rabigh refinery, Makkah Province, Saudi Arabia",
+    "lat": 22.72,
+    "lng": 39.03,
+    "type": "iran_retaliation",
+    "weapon": "Not specified (Houthi claim)",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-10-05",
+    "casualties_reported": "Not reported",
+    "casualties_source": "Houthi claim via CBS News",
+    "active_days": [
+      220
+    ],
+    "notes": "UNVERIFIED Houthi claim of strikes on the Aramco refinery at Rabigh, King Khalid airport and smaller airports on Oct 5; no Saudi confirmation of damage at Rabigh. Lat/lng approximate (Rabigh city).",
+    "verified": false,
+    "last_updated": "2026-10-15"
+  },
+  {
     "id": "riyadh-king-khalid-airport",
     "city": "King Khalid International Airport, Riyadh, Saudi Arabia",
     "lat": 24.9576,
@@ -5244,16 +5283,18 @@
     "weapon": "Ballistic missiles and drones",
     "origin": "Houthis (Ansar Allah), Iran-aligned",
     "first_strike": "2026-10-06",
-    "casualties_reported": "At least 18 killed across strikes this window: 12 killed and 309 injured on Oct 10 (Saudi GACA), including one American; at least 3 Saudi citizens including a pilot killed on Oct 8 (GACA via Al Jazeera); 3 killed and 36 injured across Riyadh and Abha airports on Oct 6/7 (Saudi authorities)",
-    "casualties_source": "Saudi General Authority of Civil Aviation (GACA); US State Department (American death)",
+    "casualties_reported": "Saudi-led coalition (al-Maliki, Oct 15): 20 Houthi attacks on the airport in October killed 17 and wounded 333. Component reports: 3 killed across Riyadh and Abha airports Oct 6-7 (incl. a Sudanese national); 3 Saudis incl. Saudia captain Hamoud Ali Alkalthami killed Oct 8; 12 killed (GACA; 13 per CNN/CBS after an Indian national died of wounds) incl. one American and 309 injured Oct 10; 1 Pakistani killed and 11 injured at the domestic terminal Oct 11",
+    "casualties_source": "Saudi-led coalition; Saudi GACA; US State Department (American death); CBS News",
     "active_days": [
       221,
       222,
       223,
       225,
-      226
+      226,
+      227,
+      229
     ],
-    "notes": "The Oct 10 strike was the deadliest attack on Saudi Arabia in more than a decade (CNN) and the third on the airport that week; CNN reports 13 dead after an Indian national died of wounds (GACA figure of 12 used). Hit again Oct 11; NOTAM closure until at least Oct 17 (CNN); at least 291 flights cancelled in the 24 hours after the Oct 10 strike (FlightAware via CBS/AP). Trump said the US may join Saudi strikes on the Houthis (PTI, Oct 10). On Oct 14 the Saudi-led coalition intercepted another Houthi ballistic missile aimed at Riyadh (AP). DATE NOTE: the first Abha/Riyadh airport attack is dated Oct 6 by Al Jazeera and Oct 7 by other summaries - Oct 6 used pending human check. No prior King Khalid entry existed (the Sep 19 fuel-storage fire there was not logged).",
+    "notes": "The Oct 10 strike was the deadliest attack on Saudi Arabia in more than a decade (CNN) and the third on the airport that week; CNN reports 13 dead after an Indian national died of wounds (GACA figure of 12 used). Hit again Oct 11; NOTAM closure until at least Oct 17 (CNN); at least 291 flights cancelled in the 24 hours after the Oct 10 strike (FlightAware via CBS/AP). Trump said the US may join Saudi strikes on the Houthis (PTI, Oct 10). On Oct 14 the Saudi-led coalition intercepted another Houthi ballistic missile aimed at Riyadh (AP). DATE NOTE: the first Abha/Riyadh airport attack is dated Oct 6 by Al Jazeera and Oct 7 by other summaries - Oct 6 used pending human check. No prior King Khalid entry existed (the Sep 19 fuel-storage fire there was not logged). UPDATE Oct 15: the coalition says the airport was attacked 20 times in October; Oct 12 the Houthis claimed another ballistic-missile hit (coalition reported an interception) and Oct 14 the Houthis again named the airport as a target while Saudi forces intercepted a missile aimed at Riyadh. FlightAware counted 324 cancellations (182 Saudia) after Oct 10. Saudi Arabia opened an inquiry into the air-defense failures (Oct 12); Reuters reported its missile warning system went silent days before the strikes.",
     "verified": true,
     "last_updated": "2026-10-15"
   },
@@ -5266,12 +5307,31 @@
     "weapon": "Drones",
     "origin": "Houthis (Ansar Allah), Iran-aligned",
     "first_strike": "2026-10-06",
-    "casualties_reported": "2 killed (a Moroccan and an Algerian), 28 injured",
+    "casualties_reported": "2 killed (a Moroccan and an Algerian), 28 injured; Saudi-led coalition (Oct 15) gives Abha airport attacks as 3 killed, 28 injured",
     "casualties_source": "Saudi authorities via Al Jazeera",
     "active_days": [
       221
     ],
-    "notes": "Combined Abha and Riyadh airport attacks killed 3 and injured 36 (Al Jazeera). DATE DISCREPANCY: Al Jazeera dates the attack to Tuesday Oct 6; other summaries (Wikipedia) say Oct 7 - Oct 6 used pending human check.",
+    "notes": "Combined Abha and Riyadh airport attacks killed 3 and injured 36 (Al Jazeera). DATE DISCREPANCY: Al Jazeera dates the attack to Tuesday Oct 6; other summaries (Wikipedia) say Oct 7 - Oct 6 used pending human check. DISCREPANCY: the coalition's Oct 15 tally attributes 3 deaths to Abha attacks vs 2 in the initial report.",
+    "verified": true,
+    "last_updated": "2026-10-15"
+  },
+  {
+    "id": "dammam-king-fahd-airport-2026-10-10",
+    "city": "King Fahd International Airport, Dammam, Eastern Province, Saudi Arabia",
+    "lat": 26.4712,
+    "lng": 49.7979,
+    "type": "iran_retaliation",
+    "weapon": "Projectiles (type not specified)",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-10-10",
+    "casualties_reported": "Injuries unclear",
+    "casualties_source": "Saudi-led coalition; US Embassy; GACA (via CBS News)",
+    "active_days": [
+      225,
+      226
+    ],
+    "notes": "The coalition said a projectile landed near the airport on Oct 10; on Oct 11 projectiles struck it in what the US Embassy called a 'targeted attack', about 400 miles from Riyadh. GACA said it was assessing damage. Lat/lng approximate.",
     "verified": true,
     "last_updated": "2026-10-15"
   },
@@ -5289,7 +5349,7 @@
     "active_days": [
       228
     ],
-    "notes": "Limited fire; a company source told Reuters a ballistic missile damaged the top three floors of an office tower. DATE DISCREPANCY: Oct 13 local time vs Oct 14 in some reporting - Oct 13 used pending confirmation. Lat/lng are Dhahran city-level coordinates.",
+    "notes": "Limited fire; a company source told Reuters a ballistic missile damaged the top three floors of an office tower. DATE DISCREPANCY: Oct 13 local time vs Oct 14 in some reporting - Oct 13 used pending confirmation. Lat/lng are Dhahran city-level coordinates. UPDATE: Reuters sources said fire spread across several floors and the top three floors, including CEO Amin Nasser's office, were severely damaged; the energy ministry called it a 'limited fire'. On Oct 13 the coalition also intercepted a ballistic missile aimed at Dhahran.",
     "verified": true,
     "last_updated": "2026-10-15"
   }
