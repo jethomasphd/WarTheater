@@ -10753,5 +10753,77 @@
     "category": "diplomatic",
     "source": "EA WorldView (UNSC)",
     "data_point": "440kg HEU unverified"
+  },
+  {
+    "date": "2026-10-28",
+    "time": "day",
+    "title": "US tells allies to prepare for a short, intense campaign",
+    "description": "US officials told Gulf and other allies to prepare for possible renewed strikes on Iran after the midterms, lasting perhaps several days, and for Iranian retaliation on energy facilities (AP). WSJ reported munitions restocking, a Patriot battery shipped from Texas to Israel and troops moved off vulnerable bases.",
+    "category": "military",
+    "source": "WSJ / AP via CBS News",
+    "data_point": "Allies warned"
+  },
+  {
+    "date": "2026-10-28",
+    "time": "day",
+    "title": "Vance letter revealed; Iran calls Qatari ideas unacceptable",
+    "description": "Trump said he approved Vance's contact but framed it as medical aid. A senior Iranian official told Reuters the Qatari mediation offered only unacceptable ideas, while Araghchi said Iran is reviewing ideas to implement its seven-day plan even faster.",
+    "category": "diplomatic",
+    "source": "WSJ / ABC News / Reuters / CBS News",
+    "data_point": "Talks probe"
+  },
+  {
+    "date": "2026-10-28",
+    "time": "day",
+    "title": "Houthis hit Aden airport; Saudi strikes hit al-Hazm market",
+    "description": "A Houthi missile fell inside Aden airport's perimeter, the sixth attack on it, while a Saudi military cargo plane was on the ground (not hit). The Houthi Health Ministry said Saudi-led strikes on a market and petrol station in al-Hazm, al-Jawf, killed 14 and wounded 15 (unverified by AP).",
+    "category": "humanitarian",
+    "source": "AFP / AP / CTP-ISW",
+    "data_point": "14 killed (Houthi claim)"
+  },
+  {
+    "date": "2026-10-28",
+    "time": "day",
+    "title": "Kuwait summons Iran's ambassador",
+    "description": "Kuwait summoned Iran's envoy after Tehran denied an Iranian citizen's role in a plot to assassinate Kuwait's interior minister; a Kuwaiti court had sentenced three men to death for spying for Iran and Hezbollah membership.",
+    "category": "diplomatic",
+    "source": "AFP via CBS News",
+    "data_point": "Envoy summoned"
+  },
+  {
+    "date": "2026-10-29",
+    "time": "day",
+    "title": "Pentagon toll rises to 23 US deaths",
+    "description": "DCAS updates on Oct 28 and 29 added two Air Force nonhostile deaths (one illness, one under investigation), raising the toll to 23: 11 hostile, 12 nonhostile. Wounded unchanged at 865.",
+    "category": "humanitarian",
+    "source": "Newsweek / Washington Post via CBS",
+    "data_point": "23 deaths"
+  },
+  {
+    "date": "2026-10-29",
+    "time": "day",
+    "title": "Iran claims four tankers hit mines; CENTCOM rejects",
+    "description": "The IRGC said three tankers using the US-promoted southern route hit mines and burned, and Iran's navy claimed a fourth; CENTCOM called the claims false and the IRGC challenged it to prove its mine clearance. UKMTO separately reported a tanker struck by a projectile on the southern route, with no injuries.",
+    "category": "military",
+    "source": "IRGC / Iranian navy via CBS; CENTCOM via Fox; UKMTO",
+    "data_point": "Claims disputed"
+  },
+  {
+    "date": "2026-10-29",
+    "time": "day",
+    "title": "Limpet-type attack disables tanker Louise 1 off Khasab",
+    "description": "At 2212 UTC a small boat attached two explosive devices to the tanker Louise 1 25 NM northeast of Khasab, briefly disabling it; crew safe, no pollution. Reuters sources called it the first known successful use of such mines in the war.",
+    "category": "military",
+    "source": "UKMTO / Reuters / Vanguard Tech",
+    "data_point": "Louise 1 disabled"
+  },
+  {
+    "date": "2026-10-29",
+    "time": "day",
+    "title": "Hegseth fires Joint Staff J5",
+    "description": "Defense Secretary Hegseth fired Lt. Gen. Brett Sylvia, the Joint Staff's top strategy and plans officer; a Pentagon official told CBS he was accused of leaking classified information about the Iran war.",
+    "category": "political",
+    "source": "CBS News / Fox News / EA WorldView",
+    "data_point": "J5 fired"
   }
 ]
