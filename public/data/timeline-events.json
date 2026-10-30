@@ -10582,5 +10582,95 @@
     "category": "political",
     "source": "State Department via EA WorldView",
     "data_point": "Worldwide caution"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "day",
+    "title": "Iran tells Pakistan's Munir: no talks until demands met",
+    "description": "President Pezeshkian discussed mediation with Field Marshal Asim Munir in Tehran, but Iranian media said Tehran told him there would be no talks with Washington until its demands are met; Speaker Qalibaf said the US could not regain Iran's trust. Brent hit $111.99 intraday, then settled $108.79.",
+    "category": "diplomatic",
+    "source": "Reuters via BusinessDay / Dunya News",
+    "data_point": "Brent $108.79"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "day",
+    "title": "UK to intercept Houthi projectiles over Saudi Arabia",
+    "description": "The UK Defence Ministry said RAF aircraft will intercept Houthi projectiles over Saudi Arabia and it will add advisers and a transport aircraft. Saudi defenses downed a missile and drone aimed at Riyadh; coalition jets then destroyed the launcher.",
+    "category": "military",
+    "source": "UK MoD via CTP-ISW / Saudi JFC",
+    "data_point": "UK joins Saudi air defense"
+  },
+  {
+    "date": "2026-10-21",
+    "time": "day",
+    "title": "Houthi attacks kill 2 at Shaybah and 2 at Dammam airport",
+    "description": "Debris from a drone intercepted over Aramco's Shaybah oilfield killed two foreign workers and injured two (Saudi Energy Ministry). An attack on King Fahd International Airport in Dammam killed a Saudi citizen and an Indian resident and injured eight (Saudi aviation authorities).",
+    "category": "humanitarian",
+    "source": "Shafaq News / The DeepDraft / Khaleej Times",
+    "data_point": "4 killed"
+  },
+  {
+    "date": "2026-10-21",
+    "time": "day",
+    "title": "Trump: US not negotiating; post-midterm strike plans reported",
+    "description": "Trump said the US was not negotiating with Iran and that something would happen fairly soon. US officials told the New York Times the US and Israel have plans for fresh strikes after the midterms.",
+    "category": "political",
+    "source": "CNBC / NYT via Oil Monitor",
+    "data_point": "Post-midterm plans"
+  },
+  {
+    "date": "2026-10-21",
+    "time": "day",
+    "title": "Kuwaiti tanker Al Dasma struck off Oman",
+    "description": "The Kuwait-flagged products tanker Al Dasma, with 21 Indian crew, was hit by an unknown projectile about 11 NM west of Bukha, Oman. The fire was extinguished and all crew were safe. A tanker was also reported hit near Iraq.",
+    "category": "military",
+    "source": "UKMTO / Times Kuwait / Seatrade Maritime",
+    "data_point": "21 crew safe"
+  },
+  {
+    "date": "2026-10-22",
+    "time": "day",
+    "title": "Aramco evacuates Dhahran HQ; Brent jumps 4%",
+    "description": "Aramco ordered staff out of its Dhahran headquarters and the US ordered some diplomats' families out of Saudi Arabia. An LPG tanker was struck off Limah, Oman, with no casualties. Brent rose 4% to $113.17; the S&P 500 fell 1.21%.",
+    "category": "economic",
+    "source": "Reuters / Gulf News / FRED",
+    "data_point": "Brent $113.17"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "day",
+    "title": "Brent settles $116.72, highest since April",
+    "description": "Brent rose $3.55 to $116.72 and WTI $3.80 to $103.27 after Houthi attacks in Saudi Arabia and an oil spill off Umm Al Quwain, UAE; Brent gained 6% on the week. DOE authorized an SPR exchange of up to 400,000 barrels.",
+    "category": "economic",
+    "source": "Reuters",
+    "data_point": "+6% week"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "day",
+    "title": "Barrack: weekend strike on Iran 'absolutely' possible",
+    "description": "US Ambassador to Turkey Tom Barrack told a podcaster a US strike on Iran could come that weekend and ruled out regime change as the aim; Trump told reporters he knew nothing about it. No strike followed.",
+    "category": "political",
+    "source": "Times of Israel / Iran International / Mediaite",
+    "data_point": "No strike followed"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "day",
+    "title": "Outbound tanker disabled in Hormuz; coalition downs 11 drones",
+    "description": "UKMTO's time-late report 182-26 (issued Oct 26) said an outbound tanker was struck by an unknown projectile and disabled at 0839 UTC; crew safe. An Iranian claim that seven tankers were hit is unverified. The Saudi-led coalition said it intercepted 11 Houthi drones and a ballistic missile.",
+    "category": "military",
+    "source": "UKMTO 182-26 / Oil Monitor / Bernama",
+    "data_point": "Tanker disabled"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "day",
+    "title": "European and regional ministers urge diplomacy",
+    "description": "Foreign ministers of four European and four regional states, including Saudi Arabia, met in Istanbul and urged US-Iran diplomacy over renewed strikes. DNI Jay Clayton warned in a memo that Iran has substantially increased efforts to target US personnel.",
+    "category": "diplomatic",
+    "source": "Al Jazeera via EA WorldView / CTP-ISW (DNI memo)",
+    "data_point": "8-nation meeting"
   }
 ]
