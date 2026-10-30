@@ -10672,5 +10672,86 @@
     "category": "diplomatic",
     "source": "Al Jazeera via EA WorldView / CTP-ISW (DNI memo)",
     "data_point": "8-nation meeting"
+  },
+  {
+    "date": "2026-10-25",
+    "time": "day",
+    "title": "Qatar delivers draft deal and Vance letter to Tehran",
+    "description": "Qatari mediators handed Iran a new draft deal to end the war and delivered a letter from VP Vance to SNSC Secretary Rezaei proposing direct talks led by Vance with the nuclear file on the table from the outset (Reuters; WSJ/NYT, reported Oct 28). Riyadh's King Khalid airport resumed some operations; missile debris injured two in Khamis Mushait.",
+    "category": "diplomatic",
+    "source": "Reuters via CBS / WSJ / NYT / Shafaq News",
+    "data_point": "Vance-Rezaei channel"
+  },
+  {
+    "date": "2026-10-26",
+    "time": "day",
+    "title": "Tehran hosts Saudi, Pakistani and Turkish officials",
+    "description": "Saudi Defence Minister Khalid bin Salman, Pakistan's Asim Munir and Turkish intelligence chief Ibrahim Kalin met Iranian leaders on Yemen and a regional non-aggression network; regional sources said no progress. Oman's FM called for a Gulf non-aggression pact, and Egypt's parliament approved defensive military support for Saudi Arabia.",
+    "category": "diplomatic",
+    "source": "Reuters / Free Press Journal / The National / CTP-ISW",
+    "data_point": "Non-aggression talks"
+  },
+  {
+    "date": "2026-10-26",
+    "time": "day",
+    "title": "Trump calls the summer truce 'a waste of time'",
+    "description": "At a rally in Corinth, Mississippi, Trump said the summer ceasefire with Iran, which let some ships through Hormuz, was sort of a waste of time and that the war would end soon.",
+    "category": "political",
+    "source": "TASS / Kurdistan24 / World Israel News",
+    "data_point": "Rally remarks"
+  },
+  {
+    "date": "2026-10-26",
+    "time": "day",
+    "title": "Vessel ablaze off Iraq's Al-Faw",
+    "description": "UKMTO received third-party reports of a vessel on fire 63 NM southeast of Al-Faw (warning 183-26); cause and crew status unconfirmed. INTERTANKO said Hormuz transits exceed 30 a day despite the attacks.",
+    "category": "military",
+    "source": "UKMTO 183-26 / Seatrade / Safety4Sea",
+    "data_point": "Unconfirmed"
+  },
+  {
+    "date": "2026-10-27",
+    "time": "day",
+    "title": "Israel's election ends without a majority",
+    "description": "Israel voted with no bloc reaching 61 seats; Netanyahu then alleged the vote was stolen by Arab parties and demanded a Shin Bet probe, while Eisenkot urged the military to resist political pressure on Iran. Final results were published Oct 29-30.",
+    "category": "political",
+    "source": "CBS News / Times of Israel",
+    "data_point": "No majority"
+  },
+  {
+    "date": "2026-10-27",
+    "time": "day",
+    "title": "Houthis claim Ras Tanura strike",
+    "description": "The Houthis claimed a ballistic missile hit Ras Tanura, their first claim against the site in this fighting. NASA FIRMS data showed a fire at the export terminal; Saudi Arabia did not confirm. Saudi JFC intercepted 5 ballistic missiles and 4 drones.",
+    "category": "military",
+    "source": "Reuters / Petroleum News / CTP-ISW",
+    "data_point": "5 BMs + 4 drones intercepted"
+  },
+  {
+    "date": "2026-10-27",
+    "time": "day",
+    "title": "Iraqi militia drones probe US Embassy Baghdad",
+    "description": "Embassy defenses intercepted two drones that CTP-ISW assesses Iran-backed militias used to surveil the compound as a deterrent signal; an Iraqi security source said they carried no explosives.",
+    "category": "military",
+    "source": "CTP-ISW / Alsumaria",
+    "data_point": "2 drones intercepted"
+  },
+  {
+    "date": "2026-10-27",
+    "time": "day",
+    "title": "War cost estimate rises to $47B",
+    "description": "A CENTCOM estimate obtained by CBS puts the war's cost at about $47B through mid-October: roughly $29B munitions, $11.9B operations and $6B equipment losses, excluding base damage. ABC reported the same Pentagon figure ($47.1B) on Oct 28.",
+    "category": "economic",
+    "source": "CBS News / ABC News / EA WorldView",
+    "data_point": "$47.1B"
+  },
+  {
+    "date": "2026-10-27",
+    "time": "day",
+    "title": "Grossi: no access to Iran's HEU",
+    "description": "IAEA chief Rafael Grossi told the UN Security Council the agency has seen no repair or reconstruction at facilities damaged in 2025-26 and Iran has not provided access to verify about 440kg of highly enriched uranium.",
+    "category": "diplomatic",
+    "source": "EA WorldView (UNSC)",
+    "data_point": "440kg HEU unverified"
   }
 ]
