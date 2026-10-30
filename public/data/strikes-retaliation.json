@@ -5358,5 +5358,186 @@
     "notes": "Limited fire; a company source told Reuters a ballistic missile damaged the top three floors of an office tower. DATE DISCREPANCY: Oct 13 local time vs Oct 14 in some reporting - Oct 13 used pending confirmation. Lat/lng are Dhahran city-level coordinates. UPDATE: Reuters sources said fire spread across several floors and the top three floors, including CEO Amin Nasser's office, were severely damaged; the energy ministry called it a 'limited fire'. On Oct 13 the coalition also intercepted a ballistic missile aimed at Dhahran. UPDATE (Oct 22): Aramco ordered staff to evacuate the Dhahran headquarters (Reuters); the US ordered some diplomats' families out of Saudi Arabia the same day.",
     "verified": true,
     "last_updated": "2026-10-30"
+  },
+  {
+    "id": "taiz-province-2026-10-18",
+    "city": "Taiz Province, Yemen",
+    "lat": 13.58,
+    "lng": 44.02,
+    "type": "houthi_attack",
+    "weapon": "Not specified",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-10-18",
+    "casualties_reported": "At least 8 killed, 6 wounded (local authorities)",
+    "casualties_source": "Local authorities via EA WorldView",
+    "active_days": [
+      233
+    ],
+    "notes": "Single aggregator source; needs wire confirmation. Houthis continue to encircle Taiz City (CTP-ISW); OCHA reports aid now reaches Taiz only via narrow mountain routes. Lat/lng approximate.",
+    "verified": false,
+    "last_updated": "2026-10-30"
+  },
+  {
+    "id": "yanbu-aramco-claim-2026-10-19",
+    "city": "Saudi Aramco site, Yanbu, Madinah Province, Saudi Arabia",
+    "lat": 24.09,
+    "lng": 38.06,
+    "type": "iran_retaliation",
+    "weapon": "Not specified (Houthi claim)",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-10-19",
+    "casualties_reported": "Not reported",
+    "casualties_source": "Houthi claim via Reuters / PFL Petroleum",
+    "active_days": [
+      234
+    ],
+    "notes": "UNVERIFIED Houthi claim of an attack on an Aramco facility at Yanbu, Saudi Arabia's main Hormuz-bypass export hub; Saudi authorities did not immediately confirm. Lat/lng approximate.",
+    "verified": false,
+    "last_updated": "2026-10-30"
+  },
+  {
+    "id": "shaybah-oilfield-2026-10-21",
+    "city": "Shaybah oilfield (Saudi Aramco), Eastern Province (Empty Quarter), Saudi Arabia",
+    "lat": 22.51,
+    "lng": 53.95,
+    "type": "iran_retaliation",
+    "weapon": "Drone (intercepted; debris impact)",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-10-19",
+    "casualties_reported": "2 foreign workers killed, 2 injured by debris from an intercepted drone near an Aramco facility (Oct 21)",
+    "casualties_source": "Saudi Energy Ministry via Shafaq News / The DeepDraft",
+    "active_days": [
+      234,
+      236
+    ],
+    "notes": "Oct 19: UNVERIFIED Houthi claim of an attack on Shaybah (no Saudi confirmation, Reuters). Oct 21: Saudi air defenses intercepted a drone targeting the field; falling debris killed two foreign workers and injured two (Saudi Energy Ministry). Facility damage not reported. OilPrice.com later (about Oct 28) referenced further attacks near Shaybah; details not retrieved.",
+    "verified": true,
+    "last_updated": "2026-10-30"
+  },
+  {
+    "id": "marib-city-bm-2026-10-19",
+    "city": "Marib City, Yemen",
+    "lat": 15.46,
+    "lng": 45.32,
+    "type": "houthi_attack",
+    "weapon": "Ballistic missile barrage",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-10-19",
+    "casualties_reported": "Not reported",
+    "casualties_source": "Yemeni government media via CTP-ISW",
+    "active_days": [
+      234
+    ],
+    "notes": "CTP-ISW assesses the Houthis likely fired several ballistic missiles to blunt government counteroffensives in Marib; targets unclear.",
+    "verified": false,
+    "last_updated": "2026-10-30"
+  },
+  {
+    "id": "khamis-mushait-ahad-rafidah-2026-10-25",
+    "city": "Khamis Mushait and Ahad Rafidah, Asir Province, Saudi Arabia",
+    "lat": 18.3,
+    "lng": 42.73,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles (2, intercepted) and a cruise missile (intercepted)",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-10-25",
+    "casualties_reported": "2 injured; 3 residential buildings and 7 vehicles damaged by debris",
+    "casualties_source": "Saudi Civil Defense / Saudi-led coalition via Shafaq News / TASS",
+    "active_days": [
+      240
+    ],
+    "notes": "Debris from two ballistic missiles intercepted over Khamis Mushait and Ahad Rafidah injured two people. The coalition also intercepted a cruise missile aimed at Khamis Mushait (home to King Khalid Air Base) and a ballistic missile aimed at Riyadh the same day.",
+    "verified": true,
+    "last_updated": "2026-10-30"
+  },
+  {
+    "id": "ras-tanura-refinery-2026-10-27",
+    "city": "Ras Tanura refinery and export terminal, Eastern Province, Saudi Arabia",
+    "lat": 26.64,
+    "lng": 50.16,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missile (Houthi claim)",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-10-27",
+    "casualties_reported": "Not reported",
+    "casualties_source": "Houthi claim via Reuters; NASA FIRMS thermal data via Petroleum News",
+    "active_days": [
+      242
+    ],
+    "notes": "UNVERIFIED. The Houthis claimed their first strike on Ras Tanura (~550,000 bpd, Saudi Arabia's largest refinery) in the 2026 fighting. NASA FIRMS thermal data from Oct 27 indicated a fire at the export terminal; reporting says a fire near Aramco facilities was contained. Saudi authorities did not confirm. CTP-ISW links the escalation to failed Saudi-Houthi ceasefire talks in Tehran on Oct 26. Saudi JFC intercepted 5 ballistic missiles and 4 drones nationwide that day.",
+    "verified": false,
+    "last_updated": "2026-10-30"
+  },
+  {
+    "id": "us-embassy-baghdad-drones-2026-10-27",
+    "city": "US Embassy, Baghdad, Iraq",
+    "lat": 33.2988,
+    "lng": 44.3966,
+    "type": "drone_incursion_intercept",
+    "weapon": "Two drones (no explosives, per Iraqi security source)",
+    "origin": "Iranian-backed Iraqi militias (assessed by CTP-ISW)",
+    "first_strike": "2026-10-27",
+    "casualties_reported": "None",
+    "casualties_source": "CTP-ISW / Alsumaria",
+    "active_days": [
+      242
+    ],
+    "notes": "Embassy defenses intercepted both drones. CTP-ISW assesses surveillance and deterrent signaling against renewed US strikes on Iran. Context: DNI Jay Clayton's Oct 23 memo warned Iran has substantially increased efforts to target US personnel.",
+    "verified": true,
+    "last_updated": "2026-10-30"
+  },
+  {
+    "id": "aden-international-airport-2026-10-28",
+    "city": "Aden International Airport, Aden, Yemen",
+    "lat": 12.83,
+    "lng": 45.03,
+    "type": "houthi_attack",
+    "weapon": "Ballistic missile(s); CTP-ISW reports at least two",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-10-28",
+    "casualties_reported": "None reported; staff evacuated beforehand",
+    "casualties_source": "CTP-ISW; Yemen Ministry of Transport via Asharq; AFP police source via CBS",
+    "active_days": [
+      243
+    ],
+    "notes": "The sixth Houthi missile attack on Aden airport (Yemen transport ministry). A missile fell inside the perimeter while a Saudi military cargo aircraft was on the ground; the aircraft was not hit and took off (AFP police source). The Houthis had issued an evacuation call claiming the plane carried weapons. CTP-ISW assesses the attacks aim to disrupt Saudi resupply to a co-located government base.",
+    "verified": true,
+    "last_updated": "2026-10-30"
+  },
+  {
+    "id": "eastern-province-bm-intercept-2026-10-29",
+    "city": "Eastern Province (Dhahran area), Saudi Arabia",
+    "lat": 26.3,
+    "lng": 50.1,
+    "type": "drone_attack_intercepted",
+    "weapon": "Ballistic missile (intercepted)",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-10-29",
+    "casualties_reported": "None reported",
+    "casualties_source": "Saudi-led coalition (Turki al-Malki) via AFP / CBS / Gulf News",
+    "active_days": [
+      244
+    ],
+    "notes": "The coalition said it destroyed a Houthi ballistic missile aimed at the Eastern Province early Oct 29. Lat/lng approximate.",
+    "verified": true,
+    "last_updated": "2026-10-30"
+  },
+  {
+    "id": "mecca-drone-claim-2026-10-30",
+    "city": "Mecca region, Makkah Province, Saudi Arabia",
+    "lat": 21.42,
+    "lng": 39.83,
+    "type": "drone_attack_intercepted",
+    "weapon": "Drone (coalition claim)",
+    "origin": "Houthis (Ansar Allah), Iran-aligned (DISPUTED)",
+    "first_strike": "2026-10-30",
+    "casualties_reported": "None reported",
+    "casualties_source": "Saudi-led coalition via AFP/CBS; Houthi denial (Yahya Saree) via EA WorldView",
+    "active_days": [
+      245
+    ],
+    "notes": "DISPUTED. The coalition said it intercepted and destroyed a Houthi drone in the Mecca region. Houthi spokesman Yahya Saree denied launching it, saying the group targets only Saudi oil facilities and military bases.",
+    "verified": false,
+    "last_updated": "2026-10-30"
   }
 ]
