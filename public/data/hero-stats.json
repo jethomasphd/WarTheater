@@ -3679,22 +3679,22 @@
     "targets_struck": {
       "value": 35914,
       "label": "Cumulative targets struck (US+IL on Iran/proxies)",
-      "note": "HELD — no strikes on Iranian territory; pre-midterm pledge",
-      "tooltip": "Cumulative targets struck per CENTCOM; no change this cycle. CENTCOM stopped releasing cumulative strike data after May 5. No verified US or Israeli strike on Iranian territory Oct 1-15; Trump pledged Oct 8 that the US will not attack Iran before the Nov 3 midterms. US maritime actions (e.g. the Oct 6 destruction of an IRGC-linked dhow) are not counted here. CNN (Oct 15) reports strike plans including the GBU-43/B MOAB - plans, not decisions.",
+      "note": "HELD — no strikes on Iranian territory Oct 16-30; pre-midterm pledge",
+      "tooltip": "Cumulative targets struck per CENTCOM; no change this cycle (CENTCOM stopped releasing cumulative strike data after May 5). AP (Oct 29): the US has not struck Iran since early September; last strike ashore Sep 1. The US has told allies to prepare for a possible short, intense campaign after the Nov 3 midterms (WSJ, AP) - plans, not decisions. IRGC claims to have captured a US MQM-170 drone and downed an MQ-1 near Hormuz (Oct 29-30) are unverified and not counted.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
-      "value": 21,
+      "value": 23,
       "label": "US service-member deaths (Pentagon DCAS, all causes)",
-      "note": "+2 — DCAS revision Oct 9 (two noncombat deaths added)",
-      "tooltip": "Official Pentagon DCAS count of US service-member deaths, combat AND noncombat (not killed-in-action only). On Oct 9 DCAS raised the toll from 19 to 21 by adding two noncombat deaths: Maj. Sorffly Davius (died in Kuwait Mar 6) and an unidentified Navy sailor (September) (UPI, The Hill, Military.com). Washington Post sources reported at least 22 in September; Hegseth called the reporting 'a complete lie' and the Pentagon disputes it. Trump cited 18 on Oct 2. DCAS cut 18 to 14 in April (The Intercept). The Pentagon says Operation Epic Fury ended May 5 and now classifies casualties as 'overseas operations in the CENTCOM area of responsibility' (CBS News). Official counts lag and are revised without announcement. CENTCOM (Oct 15) rejected an Iranian claim that hundreds of US troops were killed in Jordan; three US service members were killed in action there in July.",
+      "note": "+2 — DCAS updates Oct 28-29 (two Air Force nonhostile deaths)",
+      "tooltip": "Official DCAS count of US service-member deaths, combat and noncombat: 23 total, 11 hostile and 12 nonhostile. Epic Fury 15; 'Overseas Operations' (from Jul 7) 8. DCAS updates on Wed Oct 28 and Thu Oct 29 added two Air Force deaths: one from illness, one under investigation (Newsweek / Washington Post via CBS, Oct 30). Prior: 21 (Oct 9 revision). Official counts lag and are revised without announcement.",
       "color": "var(--civilian)"
     },
     "us_wia": {
       "value": 865,
-      "label": "US service-member WIA (Pentagon DCAS, Oct 9)",
-      "note": "+4 — DCAS 865 as of Oct 9",
-      "tooltip": "Official DCAS count as of Oct 9, split into an Epic Fury category and a post-July 7 'overseas operations in the CENTCOM area of responsibility' category; 448 wounded and 6 deaths have occurred since July 7 (UPI). Previously 861 as of Sep 23 (Washington Post), incl. 8 Marines hurt Sep 14 in the Strait of Hormuz. The Pentagon has added casualties retroactively, so there are lags.",
+      "label": "US service-member WIA (Pentagon DCAS)",
+      "note": "HELD — DCAS 865 (417 Epic Fury + 448 Overseas Ops)",
+      "tooltip": "Official DCAS wounded count: 417 under Operation Epic Fury and 448 under 'Overseas Operations' since Jul 7 (Newsweek, Oct 30). Unchanged since Oct 9. The Pentagon has added casualties retroactively, so counts lag.",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
