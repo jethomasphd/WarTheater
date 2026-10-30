@@ -10492,5 +10492,95 @@
     "category": "diplomatic",
     "source": "European Council via CBS News / Fox News",
     "data_point": "Oct 24 summit postponed"
+  },
+  {
+    "date": "2026-10-16",
+    "time": "day",
+    "title": "Cooper: blockade has halted Iran's crude exports",
+    "description": "CENTCOM commander Adm. Brad Cooper said the naval blockade has halted roughly $25B in Iranian crude exports, straining IRGC finances and proxy salary payments.",
+    "category": "military",
+    "source": "CENTCOM via Wikipedia (US naval blockade of Iran)",
+    "data_point": "~$25B exports halted"
+  },
+  {
+    "date": "2026-10-16",
+    "time": "day",
+    "title": "Iran denies role in Houthi attacks, offers mediation",
+    "description": "Foreign Ministry spokesman Esmaeil Baqaei rejected Saudi accusations that Tehran is behind Houthi strikes on the kingdom and offered to act as a bridge between the Houthis and Riyadh.",
+    "category": "diplomatic",
+    "source": "CBS News",
+    "data_point": "Mediation offer"
+  },
+  {
+    "date": "2026-10-16",
+    "time": "day",
+    "title": "Brent at five-month high; tanker reportedly hit by RPG",
+    "description": "Brent December settled about $109.86 (derived) and the S&P 500 fell 1.09% to 7,659.44. A market note reported a small-boat RPG strike on the tanker Loyalty; a separate tally logs an RPG strike off Jubail on Oct 17, possibly the same incident (not UKMTO-confirmed).",
+    "category": "economic",
+    "source": "Reuters / FRED / Cornerstone Futures / Global Energy Flow",
+    "data_point": "Brent ~$109.86"
+  },
+  {
+    "date": "2026-10-17",
+    "time": "day",
+    "title": "CENTCOM: 138 vessels redirected under the blockade",
+    "description": "CENTCOM said 138 commercial vessels had been redirected since the blockade resumed Jul 14, as USS Rafael Peralta transited regional waters in support. Hegseth told ROTC cadets Iran must choose between concessions at the table or devastation.",
+    "category": "military",
+    "source": "CENTCOM via Kurdistan24 / Seatrade Maritime",
+    "data_point": "138 redirected"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "day",
+    "title": "Araghchi: seven-day Hormuz plan still on the table",
+    "description": "Iran's foreign minister said Tehran's conditions for reopening the strait stand and it could open within days if they are met. Yemen's foreign minister rejected Iran's mediation offer. VP Vance told CBS the US wants a final, decisive commitment that Iran will not rebuild its nuclear program.",
+    "category": "diplomatic",
+    "source": "CBS News / Kurdistan24",
+    "data_point": "7-day plan"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "day",
+    "title": "IRGC claims tanker exploded after mine strike",
+    "description": "Iranian media quoted the IRGC saying an oil tanker caught fire and exploded after hitting a mine in the southern strait. No independent confirmation; CENTCOM has called similar claims false. EA WorldView logged the claim Oct 17.",
+    "category": "military",
+    "source": "Iranian media via Reuters / EA WorldView",
+    "data_point": "UNVERIFIED claim"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "day",
+    "title": "Houthi attack in Taiz kills at least 8",
+    "description": "Local authorities said a Houthi attack in Taiz Province killed at least eight and wounded six. The Houthi Health Ministry said Saudi strikes in Dhamar killed three children on Oct 16.",
+    "category": "humanitarian",
+    "source": "EA WorldView (local authorities; Houthi Health Ministry)",
+    "data_point": "8 killed"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "day",
+    "title": "Houthis claim Yanbu and Shaybah strikes",
+    "description": "The Houthis claimed attacks on an Aramco site in Yanbu and the Shaybah oilfield; Saudi authorities did not confirm. Yemeni government media reported a ballistic missile barrage on Marib City.",
+    "category": "military",
+    "source": "Reuters / CTP-ISW",
+    "data_point": "Saudi unconfirmed"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "day",
+    "title": "Kpler: Hormuz-region crude flows drop to ~8.5M bpd",
+    "description": "Kpler said crude flows through the region averaged about 8.5M bpd over the prior week, down from more than 20M bpd. Brent settled $109.55; the expiring November WTI contract rose to $103.66.",
+    "category": "economic",
+    "source": "Reuters",
+    "data_point": "~8.5M bpd"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "day",
+    "title": "State Department widens Middle East warning",
+    "description": "The US widened its security alert, warning that Iran and aligned groups may target US interests and businesses overseas.",
+    "category": "political",
+    "source": "State Department via EA WorldView",
+    "data_point": "Worldwide caution"
   }
 ]
