@@ -4,44 +4,44 @@
   "timestamp_label": "LAST UPDATED: OCT 15, 2026 19:21 ET",
   "cost": {
     "brent": {
-      "price": 105.92,
+      "price": 114.88,
       "label": "Brent Crude ($/bbl)",
-      "change": "-0.13% Oct 15 settle (Dec contract); +34.92 (+49.2%) vs pre-war $71.00",
-      "tooltip": "ICE Brent December 2026 (LCOZ6) settle Thu Oct 15 $105.92 (-0.1%; Rigzone), after $106.06 on Oct 14; up $3.61 from the Oct 1 close of $102.31. Window range $100.20 (Oct 7) to $106.65 (Oct 12); Oct 8 +4.07% on Trump's no-strikes-before-midterms pledge with the blockade kept in force. IEA members pledged Oct 15 to complete the outstanding 100M-barrel emergency release. EIA (Oct 6 STEO) raised its 4Q26 Brent forecast to $105. Pre-war baseline $71.00 (Feb 27). Source: Rigzone / Investing.com / EIA."
+      "change": "-0.38% Oct 29 settle (Dec contract, expires Oct 30); +43.88 (+61.8%) vs pre-war $71.00",
+      "tooltip": "ICE Brent December 2026 (LCOZ6) settled $114.88 on Thu Oct 29 (-$0.44; CNBC) as the Vance outreach to Tehran eased supply fears. Window settles ranged from $108.79 (Oct 20) to $116.72 (Oct 23, the highest since Apr 29; Reuters). Brent gained about 6% in the week to Oct 23 on Houthi attacks in Saudi Arabia and an oil spill off the UAE. The December contract expires Oct 30 and traded near $117.67 early that day; January sits about $4-5 lower, so the series will show an artificial drop at the roll. Pre-war baseline $71.00 (Feb 27). Source: CNBC / Reuters / Admiral Markets / Cornerstone Futures."
     },
     "wti": {
-      "price": 97.97,
+      "price": 102.0,
       "label": "WTI Crude ($/bbl)",
-      "change": "+3.03% Oct 15 settle (Nov contract); +31.47 (+47.3%) vs pre-war $66.50",
-      "tooltip": "NYMEX WTI November 2026 settle Thu Oct 15 $97.97 (+3%; Rigzone), up from $95.09 on Oct 14 and $92.87 on Oct 1. WTI has decoupled from Brent (spread now ~$8) as US export shipping became cheaper, with heavy positioning to roll ahead of next week's November expiry (TD Securities). Pre-war baseline $66.50. Source: Rigzone / Investing.com."
+      "change": "-0.76% Oct 29 settle (Dec contract); +35.50 (+53.4%) vs pre-war $66.50",
+      "tooltip": "NYMEX WTI December 2026 settled $102.00 on Oct 29 (-$0.78; CNBC). The November contract expired Oct 20 after settling $103.66 on Oct 19, its highest since Sep 15 (Reuters); the series rolls to December from Oct 20. Best December close of the window: $103.27 (Oct 23). Brent-WTI spread about $12.90. Pre-war baseline $66.50. Source: CNBC / Reuters / Investing.com."
     },
     "gas": {
-      "price": 4.33,
+      "price": 4.2,
       "label": "US Avg Gas ($/gal)",
-      "change": "-0.08 vs Oct 1 ($4.41); +1.34 (+45.0%) vs pre-war $2.99",
-      "tooltip": "AAA national average regular $4.3344 on Oct 15, 2026 (AAA Today's State Averages), down from $4.41 on Oct 1 and $4.36 on Oct 8 (AAA Newsroom: 'still a record for autumn'). EIA weekly (FRED GASREGW): $4.354 Oct 5, $4.331 Oct 12. September averaged a record $4.33. Wartime peak $4.55 on May 21. National diesel for Oct 15 not located (CA diesel $8.45). Source: AAA / EIA."
+      "change": "-0.13 vs Oct 15 ($4.33); +1.21 (+40.6%) vs pre-war $2.99",
+      "tooltip": "AAA national average regular $4.2046 on Oct 30, down from $4.3344 on Oct 15, $4.27 on Oct 22 and $4.22 on Oct 29 as the winter-blend switch offset crude above $100 (AAA). Wartime peak $4.55 (May 21). California regular $5.93, California diesel $8.39. State premiums recomputed on the same Oct 30 AAA timestamp (see calculator.json). Source: AAA."
     },
     "sp500": {
-      "value": 7744.06,
+      "value": 7720.39,
       "label": "S&P 500",
-      "change": "+0.33% Oct 15; +865.18 (+12.6%) vs pre-war 6,878.88",
-      "tooltip": "Close Thu Oct 15 7,744.06 (+0.33%; AP, CNN) after erasing an early loss; Oct 14 close 7,718.94 (-1.11%, S&P DJI via FRED) was the window's largest drop, after a hot September CPI (3.7% y/y) and as a container ship sank near Hormuz. Window high 7,818.93 (Oct 6). Sector proxies Oct 1-14: XLE +7.9%, JETS -8.0%, ITA ~-1.8% - priced as an energy-supply shock, not a renewed US combat campaign. Pre-war baseline 6,878.88 (Feb 27). Source: AP / CNN / FRED / StockAnalysis.com."
+      "change": "-0.30% Oct 29; +841.51 (+12.2%) vs pre-war 6,878.88",
+      "tooltip": "Close Thu Oct 29 7,720.39 (-0.30%; AP), the first drop in four sessions, driven by a record one-day fall in Alphabet after earnings rather than by the war; Nasdaq -1.4% to 26,184.72, Dow -0.3% to 52,342.56. Window low 7,623.68 (Oct 23) after declines of 1.21% on Oct 22 and 0.52% on Oct 23 as Aramco evacuated its Dhahran HQ and Brent hit a six-month high; window high 7,757.17 (Oct 21). Roughly flat over the window (Oct 15: 7,744.06). Pre-war 6,878.88. Source: AP / FRED (S&P Dow Jones Indices)."
     },
     "daily_cost": {
       "value": 500,
       "unit": "M/day",
       "label": "Daily War Cost ($M/day)",
       "change": "HELD",
-      "tooltip": "Estimated daily US operating cost, modeled $500M/day (methodology unchanged). NEW OFFICIAL DATA: the Pentagon told Congress the war cost $43.6B through Sep 3 ($28.1B munitions replacement, $11.2B operations, $4.3B equipment losses), $45.1B with $1.5B fuel (CNN, Bloomberg Government). CBO projects $2B-$3B per month after Aug 1 (~$83M/day midpoint) for the current blockade/standby posture with no active strike campaign - well below the modeled rate. The Pentagon says Operation Epic Fury ended May 5 and now classifies operations as 'overseas operations in the CENTCOM area of responsibility' (CBS News).",
-      "note": "DERIVED: unchanged methodology, $500M/day carried forward through Day 230 per the manifest instruction to keep the file's established rate. FLAGGED FOR ANALYST REVIEW: the CBO post-August run-rate (~$83M/day) implies the modeled rate overstates current standby costs. Be ready to raise it if strikes resume after Nov 3; the TR CSG and Makin Island ARG arriving by late October will lift run-rate costs."
+      "tooltip": "Estimated daily US operating cost, modeled at $500M/day (methodology unchanged). NEW OFFICIAL DATA: a CENTCOM/Pentagon estimate (CBS, Oct 27; ABC, Oct 28) puts the war's cost at about $47.1B through mid-October (Oct 16 per EA WorldView): ~$29B munitions, $11.9B operations, $6B equipment losses, excluding base damage. That is $3.5B above the prior $43.6B figure, implying ~$80M-$120M/day depending on whether $43.6B was dated Sep 3 or mid-September - consistent with CBO's $2B-$3B/month estimate and far below the modeled rate.",
+      "note": "DERIVED: $500M/day carried forward through Day 245. RECALIBRATION RECOMMENDED: the modeled series now exceeds the official anchor by about $26.5B. Costs will rise if strikes resume after Nov 3: WSJ reports munitions restocking, a Patriot battery shipped to Israel and an additional CSG and Marine unit en route."
     },
     "total_cost": {
-      "value": 67.3,
+      "value": 74.8,
       "unit": "B",
       "label": "Cumulative Cost ($B)",
-      "change": "+7.0 since Day 216",
-      "tooltip": "MODELED: ~$67.3B at Day 230 ($60.3B at Day 216 + 14 × $500M). Not an official figure. NEW OFFICIAL ANCHOR: the Pentagon told Congress $45.1B through Sep 3 ($43.6B plus $1.5B fuel; CNN), excluding the cost of repairing damaged bases - comptroller Jules Hurst III: 'we don't have a great estimate for what it would take to reconstitute those facilities.' The modeled series stood at ~$46.3B on Sep 3, within ~3% of that figure; it has since diverged from the CBO run-rate. Moody's (Zandi) estimates a separate ~$265B cost to US consumers.",
-      "note": "DERIVED: accrued at the carried-forward $500M/day through Oct 15 (~$67.3B at Day 230). FLAGGED: official-only alternative is $45.1B (Pentagon, through Sep 3); the manifest's CBO-midpoint alternative is ~$48.6B at Day 230 ($45.1B + 42 days × $83.3M)."
+      "change": "+7.5 since Day 230",
+      "tooltip": "MODELED: about $74.8B at Day 245 ($67.3B at Day 230 + 15 × $500M). Not an official figure. Official anchor: $47.1B through about Oct 16 (CENTCOM/Pentagon via CBS and ABC), excluding base reconstruction. Official-anchored alternative: about $48.3B at Day 245 ($47.1B + 14 days × ~$83M CBO midpoint).",
+      "note": "DERIVED: accrued at $500M/day. FLAGGED: official-only alternative $47.1B (Oct 16); CBO-anchored alternative ~$48.3B (Oct 30)."
     }
   },
   "history": [
