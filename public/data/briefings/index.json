@@ -796,5 +796,12 @@
         "label": "OCTOBER 15, 2026 — DAY 230",
         "headline": "Houthi strike kills 12 at Riyadh airport; Trump rules out pre-midterm Iran strikes; Hormuz ship sunk; US toll 21",
         "file": "data/briefings/day-230.html"
+    },
+    {
+        "day": 245,
+        "date": "2026-10-30",
+        "label": "OCTOBER 30, 2026 — DAY 245",
+        "headline": "Vance letter tests Iran talks; US warns Gulf of short strike campaign; limpet attack off Khasab; US deaths 23",
+        "file": "data/briefings/day-245.html"
     }
 ]
