@@ -10825,5 +10825,86 @@
     "category": "political",
     "source": "CBS News / Fox News / EA WorldView",
     "data_point": "J5 fired"
+  },
+  {
+    "date": "2026-10-29",
+    "time": "day",
+    "title": "Riyadh targeted again; Saudi strike reported in Taiz",
+    "description": "Saudi defenses downed two ballistic missiles fired at Riyadh after at least eight explosions were heard, with alerts in Kharj and Najran. The Houthi Health Ministry said a Saudi strike on homes in Al-Barah, Maqbana district, Taiz, killed 12.",
+    "category": "military",
+    "source": "AFP via CBS News",
+    "data_point": "2 BMs intercepted"
+  },
+  {
+    "date": "2026-10-29",
+    "time": "day",
+    "title": "Reuters: Iran's agency network slips hardware past blockade",
+    "description": "A Reuters investigation found Iran used some 5,000 military agencies to import at least $2B in drone and missile components since 2025, evading sanctions and the US blockade.",
+    "category": "economic",
+    "source": "Reuters via CBS News",
+    "data_point": "~$2B components"
+  },
+  {
+    "date": "2026-10-29",
+    "time": "day",
+    "title": "Iran open to faster seven-day plan; Ghalibaf holds to conditions",
+    "description": "Araghchi said Tehran remains in contact with mediators and could accelerate its seven-day plan; Speaker Ghalibaf said any deal requires US acceptance of Iran's seven conditions. Tasnim said the Vance letter had not yet been answered.",
+    "category": "diplomatic",
+    "source": "Gulf News via GlobalSecurity / Fox News / CBS News",
+    "data_point": "7 conditions"
+  },
+  {
+    "date": "2026-10-29",
+    "time": "day",
+    "title": "Oil eases; S&P slips 0.3%",
+    "description": "Brent fell 44 cents to $114.88 and WTI 78 cents to $102.00 on the Vance outreach. The S&P 500 fell 0.3% to 7,720.39 on an Alphabet sell-off. Macron tied France's cost-of-living protests to the war; the UN estimates $1.4T for regional reconstruction.",
+    "category": "economic",
+    "source": "CNBC / AP / ABC News / WSJ via Just Security",
+    "data_point": "Brent $114.88"
+  },
+  {
+    "date": "2026-10-30",
+    "time": "day",
+    "title": "Israel's final results: no majority for either bloc",
+    "description": "Final Central Elections Committee results give Netanyahu's bloc 53 seats, Eisenkot's bloc 48 and Arab parties a record 19; Likud 27, Yashar 21. Turnout was 77.9%; the Knesset is to be sworn in Nov 10.",
+    "category": "political",
+    "source": "Times of Israel / Jerusalem Post / NBC News",
+    "data_point": "53 / 48 / 19"
+  },
+  {
+    "date": "2026-10-30",
+    "time": "day",
+    "title": "Qatari delegation returns to Tehran",
+    "description": "A Qatari delegation led by a senior adviser to the prime minister arrived in Tehran, reportedly to receive Iran's response; Iran confirmed receiving the Vance letter but has not formally replied. Officials floated talks as soon as next week in Doha or Istanbul.",
+    "category": "diplomatic",
+    "source": "IRNA via Washington Times / Al Jazeera / Foreign Policy",
+    "data_point": "Reply pending"
+  },
+  {
+    "date": "2026-10-30",
+    "time": "day",
+    "title": "IRGC stops two tankers; Mecca drone disputed",
+    "description": "The IRGC said it stopped two tankers on unauthorized routes and claimed three tankers hit. The Saudi-led coalition said it downed a drone in the Mecca region; the Houthis denied launching it.",
+    "category": "military",
+    "source": "The American Conservative / ABC News / AFP via CBS / EA WorldView",
+    "data_point": "UNVERIFIED claims"
+  },
+  {
+    "date": "2026-10-30",
+    "time": "day",
+    "title": "Iran inflation hits 88.7%",
+    "description": "Iran's Statistical Center put annual point-to-point inflation at 88.7% (4.4% monthly). AAA's national average fell to $4.2046 while Brent's expiring December contract traded near $117.67.",
+    "category": "economic",
+    "source": "EA WorldView / AAA / Cornerstone Futures",
+    "data_point": "88.7% inflation"
+  },
+  {
+    "date": "2026-10-30",
+    "time": "day",
+    "title": "OCHA: 281,000 displaced in Yemen since August",
+    "description": "OCHA said more than 281,000 people have been displaced by fighting since August and access has worsened, with aid reaching Taiz only via mountain routes.",
+    "category": "humanitarian",
+    "source": "OCHA via EA WorldView",
+    "data_point": "281,000+ displaced"
   }
 ]
