@@ -159,7 +159,17 @@
     "Oct 12",
     "Oct 13",
     "Oct 14",
-    "Oct 15"
+    "Oct 15",
+    "Oct 16",
+    "Oct 19",
+    "Oct 20",
+    "Oct 21",
+    "Oct 22",
+    "Oct 23",
+    "Oct 26",
+    "Oct 27",
+    "Oct 28",
+    "Oct 29"
   ],
   "contexts": [
     "Pre-war close — baseline",
@@ -321,7 +331,17 @@
     "Day 227 (October 12, Monday) — The S&P 500 fell 0.06% to 7,807.24 (Investing.com). Sector proxies: ITA (defense) 206.03 (-0.30%), XLE (oil majors) 66.01 (+1.43%), JETS (airlines) 27.02 (-1.57%) (StockAnalysis.com). First session after the weekend: a Houthi missile killed 12 (incl. one American) and injured 309 at Riyadh's King Khalid airport on Oct 10 (Saudi GACA); six commercial vessels were struck near Hormuz Oct 11, the most in a day of the war; Iran called the US reply to its seven conditions insufficient. IRGC said a third supertanker hit a mine. Brent +1.84% to 106.65, WTI +2.06% to 93.74; JETS -1.57%.",
     "Day 228 (October 13, Tuesday) — The S&P 500 fell 0.02% to 7,805.45 (Investing.com). Sector proxies: ITA (defense) 204.00 (-0.99%), XLE (oil majors) 67.20 (+1.80%), JETS (airlines) 26.80 (-0.81%) (StockAnalysis.com). Israel's Channel 12 reported Netanyahu pressed Trump to renew the war before the Oct 27 Israeli and Nov 3 US elections (his office denied it); Trump said he would decide on Iran 'very soon.' Moody's (Zandi): war has cost US consumers $265B, ~$2,000 per household. Brent 105.69 (-0.90%), WTI 94.14 (+0.43%).",
     "Day 229 (October 14, Wednesday) — The S&P 500 fell 1.11% to 7,718.94 (S&P Dow Jones Indices via FRED; CORRECTED from the 7,719.54 Investing.com print). Sector proxies: ITA (defense) 204.24 (+0.12%), XLE (oil majors) 67.63 (+0.64%), JETS (airlines) 25.84 (-3.58%) (StockAnalysis.com). Largest one-day S&P drop of the window. A container ship sank south of Hormuz - the first sinkings since March (cause disputed: IRGC says mine, Reuters sources say projectile); a Houthi attack damaged Aramco's Dhahran HQ tower; CENTCOM disclosed the Oct 6 destruction of an IRGC-linked dhow. JETS -3.58%. Brent 106.06 (+0.35%), WTI 95.09 (+1.01%). Oct 15 (Day 230) closes NOT YET AVAILABLE - intraday S&P ~7,732 (+0.17%) and XLE 66.70 (-1.38%) at 11:37 ET; do not treat as closes. WINDOW TAKEAWAY (Oct 1-14): XLE +7.9%, JETS -8.0%, ITA ~-1.8% - markets are pricing an energy-supply shock, not a renewed US combat campaign.",
-    "Day 230 (October 15, Thursday) — The S&P 500 rose 0.33% to 7,744.06, erasing an early loss; the Dow gained ~1.1% to 52,177.69 and the Nasdaq ~0.1% to 26,713.03 (AP, CNN) as an inflation-driven tech sell-off rotated. Brent December settled $105.92 (-0.1%) while WTI November jumped 3% to $97.97 on cheaper US export shipping and positioning ahead of next week's expiry (Rigzone); IEA members pledged to complete the outstanding 100M-barrel release. Reuters reported the US is weighing easing sanctions on Iran's shadow-fleet tankers to cut record freight costs; Treasury sanctioned 16 individuals and 10 entities linked to Iran. Sector ETF (ITA/XLE/JETS) closes NOT LOCATED. Context: September CPI (released Oct 14) rose 3.7% y/y, gasoline +34.2% y/y."
+    "Day 230 (October 15, Thursday) — The S&P 500 rose 0.33% to 7,744.06, erasing an early loss; the Dow gained ~1.1% to 52,177.69 and the Nasdaq ~0.1% to 26,713.03 (AP, CNN) as an inflation-driven tech sell-off rotated. Brent December settled $105.92 (-0.1%) while WTI November jumped 3% to $97.97 on cheaper US export shipping and positioning ahead of next week's expiry (Rigzone); IEA members pledged to complete the outstanding 100M-barrel release. Reuters reported the US is weighing easing sanctions on Iran's shadow-fleet tankers to cut record freight costs; Treasury sanctioned 16 individuals and 10 entities linked to Iran. Sector ETF (ITA/XLE/JETS) closes NOT LOCATED. Context: September CPI (released Oct 14) rose 3.7% y/y, gasoline +34.2% y/y.",
+    "Day 231 (October 16, Friday) — S&P 500 -1.09% to 7,659.44 (FRED). Brent ~$109.86 (derived), a five-month high, on a wartime-high week of Hormuz attacks; Cooper says the blockade has halted ~$25B in Iranian crude exports.",
+    "Day 234 (October 19, Monday) — S&P +0.41% to 7,690.73. Brent -0.3% to $109.55; expiring Nov WTI +2.2% to $103.66. Houthis claim Yanbu/Shaybah strikes; Kpler puts regional crude flows at ~8.5M bpd.",
+    "Day 235 (October 20, Tuesday) — S&P +0.28% to 7,712.57 (AP). Brent touched $111.99 then settled -0.69% at $108.79 as Iran's president met Pakistan's army chief on mediation. UK will intercept Houthi fire over Saudi Arabia. Nov WTI expires.",
+    "Day 236 (October 21, Wednesday) — S&P +0.58% to 7,757.17, the window high. Brent $108.82, WTI (Dec) $97.15; EIA crude draw 3.06M bbl. Drone debris kills 2 at Shaybah; Dammam airport attack kills 2. Trump says the US is not negotiating; NYT reports post-midterm strike plans.",
+    "Day 237 (October 22, Thursday) — S&P -1.21% to 7,663.43; VIX 19.03. Brent +4% to $113.17 as Aramco evacuates its Dhahran HQ and the US pulls diplomats' families from Saudi Arabia.",
+    "Day 238 (October 23, Friday) — S&P -0.52% to 7,623.68, the window low (-0.5% on the week). Brent +$3.55 to $116.72, highest since Apr 29 (+6% week); WTI $103.27. Houthi attacks in Saudi Arabia, a UAE oil spill and envoy Barrack's weekend-strike comment; 10-yr yield near 5%.",
+    "Day 241 (October 26, Monday) — S&P +0.70% to 7,676.77. Brent -$0.91 to $115.81, WTI $101.76 as Saudi, Pakistani and Turkish officials meet Iranian leaders in Tehran.",
+    "Day 242 (October 27, Tuesday) — S&P +0.60% to 7,722.60. Brent -$1.93 to $113.88 on regional diplomacy despite the Houthi Ras Tanura claim.",
+    "Day 243 (October 28, Wednesday) — S&P +0.28% to 7,743.98 (FOMC day; decision not verified here). Brent ~$115.32 (derived); API crude draw 2.03M bbl. WSJ: US warns Gulf of a short, intense post-midterm campaign.",
+    "Day 244 (October 29, Thursday) — S&P -0.30% to 7,720.39 (AP), first drop in four days, on a record one-day fall in Alphabet; Nasdaq -1.4% to 26,184.72, Dow -0.3% to 52,342.56, Russell 2000 +1%. Brent -$0.44 to $114.88, WTI $102.00 on the Vance outreach."
   ],
   "datasets": {
     "sp500": {
@@ -486,7 +506,17 @@
         112.58,
         112.55,
         111.31,
-        111.67
+        111.67,
+        110.45,
+        110.9,
+        111.22,
+        111.86,
+        110.51,
+        109.93,
+        110.7,
+        111.36,
+        111.67,
+        111.33
       ],
       "color": "#ef4444"
     },
@@ -587,6 +617,16 @@
         117.0,
         117.5,
         118.5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -818,6 +858,16 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#d4a020"
@@ -984,10 +1034,20 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-10-15"
+  "last_updated": "2026-10-30"
 }
