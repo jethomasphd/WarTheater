@@ -10492,5 +10492,419 @@
     "category": "diplomatic",
     "source": "European Council via CBS News / Fox News",
     "data_point": "Oct 24 summit postponed"
+  },
+  {
+    "date": "2026-10-16",
+    "time": "day",
+    "title": "Cooper: blockade has halted Iran's crude exports",
+    "description": "CENTCOM commander Adm. Brad Cooper said the naval blockade has halted roughly $25B in Iranian crude exports, straining IRGC finances and proxy salary payments.",
+    "category": "military",
+    "source": "CENTCOM via Wikipedia (US naval blockade of Iran)",
+    "data_point": "~$25B exports halted"
+  },
+  {
+    "date": "2026-10-16",
+    "time": "day",
+    "title": "Iran denies role in Houthi attacks, offers mediation",
+    "description": "Foreign Ministry spokesman Esmaeil Baqaei rejected Saudi accusations that Tehran is behind Houthi strikes on the kingdom and offered to act as a bridge between the Houthis and Riyadh.",
+    "category": "diplomatic",
+    "source": "CBS News",
+    "data_point": "Mediation offer"
+  },
+  {
+    "date": "2026-10-16",
+    "time": "day",
+    "title": "Brent at five-month high; tanker reportedly hit by RPG",
+    "description": "Brent December settled about $109.86 (derived) and the S&P 500 fell 1.09% to 7,659.44. A market note reported a small-boat RPG strike on the tanker Loyalty; a separate tally logs an RPG strike off Jubail on Oct 17, possibly the same incident (not UKMTO-confirmed).",
+    "category": "economic",
+    "source": "Reuters / FRED / Cornerstone Futures / Global Energy Flow",
+    "data_point": "Brent ~$109.86"
+  },
+  {
+    "date": "2026-10-17",
+    "time": "day",
+    "title": "CENTCOM: 138 vessels redirected under the blockade",
+    "description": "CENTCOM said 138 commercial vessels had been redirected since the blockade resumed Jul 14, as USS Rafael Peralta transited regional waters in support. Hegseth told ROTC cadets Iran must choose between concessions at the table or devastation.",
+    "category": "military",
+    "source": "CENTCOM via Kurdistan24 / Seatrade Maritime",
+    "data_point": "138 redirected"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "day",
+    "title": "Araghchi: seven-day Hormuz plan still on the table",
+    "description": "Iran's foreign minister said Tehran's conditions for reopening the strait stand and it could open within days if they are met. Yemen's foreign minister rejected Iran's mediation offer. VP Vance told CBS the US wants a final, decisive commitment that Iran will not rebuild its nuclear program.",
+    "category": "diplomatic",
+    "source": "CBS News / Kurdistan24",
+    "data_point": "7-day plan"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "day",
+    "title": "IRGC claims tanker exploded after mine strike",
+    "description": "Iranian media quoted the IRGC saying an oil tanker caught fire and exploded after hitting a mine in the southern strait. No independent confirmation; CENTCOM has called similar claims false. EA WorldView logged the claim Oct 17.",
+    "category": "military",
+    "source": "Iranian media via Reuters / EA WorldView",
+    "data_point": "UNVERIFIED claim"
+  },
+  {
+    "date": "2026-10-18",
+    "time": "day",
+    "title": "Houthi attack in Taiz kills at least 8",
+    "description": "Local authorities said a Houthi attack in Taiz Province killed at least eight and wounded six. The Houthi Health Ministry said Saudi strikes in Dhamar killed three children on Oct 16.",
+    "category": "humanitarian",
+    "source": "EA WorldView (local authorities; Houthi Health Ministry)",
+    "data_point": "8 killed"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "day",
+    "title": "Houthis claim Yanbu and Shaybah strikes",
+    "description": "The Houthis claimed attacks on an Aramco site in Yanbu and the Shaybah oilfield; Saudi authorities did not confirm. Yemeni government media reported a ballistic missile barrage on Marib City.",
+    "category": "military",
+    "source": "Reuters / CTP-ISW",
+    "data_point": "Saudi unconfirmed"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "day",
+    "title": "Kpler: Hormuz-region crude flows drop to ~8.5M bpd",
+    "description": "Kpler said crude flows through the region averaged about 8.5M bpd over the prior week, down from more than 20M bpd. Brent settled $109.55; the expiring November WTI contract rose to $103.66.",
+    "category": "economic",
+    "source": "Reuters",
+    "data_point": "~8.5M bpd"
+  },
+  {
+    "date": "2026-10-19",
+    "time": "day",
+    "title": "State Department widens Middle East warning",
+    "description": "The US widened its security alert, warning that Iran and aligned groups may target US interests and businesses overseas.",
+    "category": "political",
+    "source": "State Department via EA WorldView",
+    "data_point": "Worldwide caution"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "day",
+    "title": "Iran tells Pakistan's Munir: no talks until demands met",
+    "description": "President Pezeshkian discussed mediation with Field Marshal Asim Munir in Tehran, but Iranian media said Tehran told him there would be no talks with Washington until its demands are met; Speaker Qalibaf said the US could not regain Iran's trust. Brent hit $111.99 intraday, then settled $108.79.",
+    "category": "diplomatic",
+    "source": "Reuters via BusinessDay / Dunya News",
+    "data_point": "Brent $108.79"
+  },
+  {
+    "date": "2026-10-20",
+    "time": "day",
+    "title": "UK to intercept Houthi projectiles over Saudi Arabia",
+    "description": "The UK Defence Ministry said RAF aircraft will intercept Houthi projectiles over Saudi Arabia and it will add advisers and a transport aircraft. Saudi defenses downed a missile and drone aimed at Riyadh; coalition jets then destroyed the launcher.",
+    "category": "military",
+    "source": "UK MoD via CTP-ISW / Saudi JFC",
+    "data_point": "UK joins Saudi air defense"
+  },
+  {
+    "date": "2026-10-21",
+    "time": "day",
+    "title": "Houthi attacks kill 2 at Shaybah and 2 at Dammam airport",
+    "description": "Debris from a drone intercepted over Aramco's Shaybah oilfield killed two foreign workers and injured two (Saudi Energy Ministry). An attack on King Fahd International Airport in Dammam killed a Saudi citizen and an Indian resident and injured eight (Saudi aviation authorities).",
+    "category": "humanitarian",
+    "source": "Shafaq News / The DeepDraft / Khaleej Times",
+    "data_point": "4 killed"
+  },
+  {
+    "date": "2026-10-21",
+    "time": "day",
+    "title": "Trump: US not negotiating; post-midterm strike plans reported",
+    "description": "Trump said the US was not negotiating with Iran and that something would happen fairly soon. US officials told the New York Times the US and Israel have plans for fresh strikes after the midterms.",
+    "category": "political",
+    "source": "CNBC / NYT via Oil Monitor",
+    "data_point": "Post-midterm plans"
+  },
+  {
+    "date": "2026-10-21",
+    "time": "day",
+    "title": "Kuwaiti tanker Al Dasma struck off Oman",
+    "description": "The Kuwait-flagged products tanker Al Dasma, with 21 Indian crew, was hit by an unknown projectile about 11 NM west of Bukha, Oman. The fire was extinguished and all crew were safe. A tanker was also reported hit near Iraq.",
+    "category": "military",
+    "source": "UKMTO / Times Kuwait / Seatrade Maritime",
+    "data_point": "21 crew safe"
+  },
+  {
+    "date": "2026-10-22",
+    "time": "day",
+    "title": "Aramco evacuates Dhahran HQ; Brent jumps 4%",
+    "description": "Aramco ordered staff out of its Dhahran headquarters and the US ordered some diplomats' families out of Saudi Arabia. An LPG tanker was struck off Limah, Oman, with no casualties. Brent rose 4% to $113.17; the S&P 500 fell 1.21%.",
+    "category": "economic",
+    "source": "Reuters / Gulf News / FRED",
+    "data_point": "Brent $113.17"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "day",
+    "title": "Brent settles $116.72, highest since April",
+    "description": "Brent rose $3.55 to $116.72 and WTI $3.80 to $103.27 after Houthi attacks in Saudi Arabia and an oil spill off Umm Al Quwain, UAE; Brent gained 6% on the week. DOE authorized an SPR exchange of up to 400,000 barrels.",
+    "category": "economic",
+    "source": "Reuters",
+    "data_point": "+6% week"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "day",
+    "title": "Barrack: weekend strike on Iran 'absolutely' possible",
+    "description": "US Ambassador to Turkey Tom Barrack told a podcaster a US strike on Iran could come that weekend and ruled out regime change as the aim; Trump told reporters he knew nothing about it. No strike followed.",
+    "category": "political",
+    "source": "Times of Israel / Iran International / Mediaite",
+    "data_point": "No strike followed"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "day",
+    "title": "Outbound tanker disabled in Hormuz; coalition downs 11 drones",
+    "description": "UKMTO's time-late report 182-26 (issued Oct 26) said an outbound tanker was struck by an unknown projectile and disabled at 0839 UTC; crew safe. An Iranian claim that seven tankers were hit is unverified. The Saudi-led coalition said it intercepted 11 Houthi drones and a ballistic missile.",
+    "category": "military",
+    "source": "UKMTO 182-26 / Oil Monitor / Bernama",
+    "data_point": "Tanker disabled"
+  },
+  {
+    "date": "2026-10-23",
+    "time": "day",
+    "title": "European and regional ministers urge diplomacy",
+    "description": "Foreign ministers of four European and four regional states, including Saudi Arabia, met in Istanbul and urged US-Iran diplomacy over renewed strikes. DNI Jay Clayton warned in a memo that Iran has substantially increased efforts to target US personnel.",
+    "category": "diplomatic",
+    "source": "Al Jazeera via EA WorldView / CTP-ISW (DNI memo)",
+    "data_point": "8-nation meeting"
+  },
+  {
+    "date": "2026-10-25",
+    "time": "day",
+    "title": "Qatar delivers draft deal and Vance letter to Tehran",
+    "description": "Qatari mediators handed Iran a new draft deal to end the war and delivered a letter from VP Vance to SNSC Secretary Rezaei proposing direct talks led by Vance with the nuclear file on the table from the outset (Reuters; WSJ/NYT, reported Oct 28). Riyadh's King Khalid airport resumed some operations; missile debris injured two in Khamis Mushait.",
+    "category": "diplomatic",
+    "source": "Reuters via CBS / WSJ / NYT / Shafaq News",
+    "data_point": "Vance-Rezaei channel"
+  },
+  {
+    "date": "2026-10-26",
+    "time": "day",
+    "title": "Tehran hosts Saudi, Pakistani and Turkish officials",
+    "description": "Saudi Defence Minister Khalid bin Salman, Pakistan's Asim Munir and Turkish intelligence chief Ibrahim Kalin met Iranian leaders on Yemen and a regional non-aggression network; regional sources said no progress. Oman's FM called for a Gulf non-aggression pact, and Egypt's parliament approved defensive military support for Saudi Arabia.",
+    "category": "diplomatic",
+    "source": "Reuters / Free Press Journal / The National / CTP-ISW",
+    "data_point": "Non-aggression talks"
+  },
+  {
+    "date": "2026-10-26",
+    "time": "day",
+    "title": "Trump calls the summer truce 'a waste of time'",
+    "description": "At a rally in Corinth, Mississippi, Trump said the summer ceasefire with Iran, which let some ships through Hormuz, was sort of a waste of time and that the war would end soon.",
+    "category": "political",
+    "source": "TASS / Kurdistan24 / World Israel News",
+    "data_point": "Rally remarks"
+  },
+  {
+    "date": "2026-10-26",
+    "time": "day",
+    "title": "Vessel ablaze off Iraq's Al-Faw",
+    "description": "UKMTO received third-party reports of a vessel on fire 63 NM southeast of Al-Faw (warning 183-26); cause and crew status unconfirmed. INTERTANKO said Hormuz transits exceed 30 a day despite the attacks.",
+    "category": "military",
+    "source": "UKMTO 183-26 / Seatrade / Safety4Sea",
+    "data_point": "Unconfirmed"
+  },
+  {
+    "date": "2026-10-27",
+    "time": "day",
+    "title": "Israel's election ends without a majority",
+    "description": "Israel voted with no bloc reaching 61 seats; Netanyahu then alleged the vote was stolen by Arab parties and demanded a Shin Bet probe, while Eisenkot urged the military to resist political pressure on Iran. Final results were published Oct 29-30.",
+    "category": "political",
+    "source": "CBS News / Times of Israel",
+    "data_point": "No majority"
+  },
+  {
+    "date": "2026-10-27",
+    "time": "day",
+    "title": "Houthis claim Ras Tanura strike",
+    "description": "The Houthis claimed a ballistic missile hit Ras Tanura, their first claim against the site in this fighting. NASA FIRMS data showed a fire at the export terminal; Saudi Arabia did not confirm. Saudi JFC intercepted 5 ballistic missiles and 4 drones.",
+    "category": "military",
+    "source": "Reuters / Petroleum News / CTP-ISW",
+    "data_point": "5 BMs + 4 drones intercepted"
+  },
+  {
+    "date": "2026-10-27",
+    "time": "day",
+    "title": "Iraqi militia drones probe US Embassy Baghdad",
+    "description": "Embassy defenses intercepted two drones that CTP-ISW assesses Iran-backed militias used to surveil the compound as a deterrent signal; an Iraqi security source said they carried no explosives.",
+    "category": "military",
+    "source": "CTP-ISW / Alsumaria",
+    "data_point": "2 drones intercepted"
+  },
+  {
+    "date": "2026-10-27",
+    "time": "day",
+    "title": "War cost estimate rises to $47B",
+    "description": "A CENTCOM estimate obtained by CBS puts the war's cost at about $47B through mid-October: roughly $29B munitions, $11.9B operations and $6B equipment losses, excluding base damage. ABC reported the same Pentagon figure ($47.1B) on Oct 28.",
+    "category": "economic",
+    "source": "CBS News / ABC News / EA WorldView",
+    "data_point": "$47.1B"
+  },
+  {
+    "date": "2026-10-27",
+    "time": "day",
+    "title": "Grossi: no access to Iran's HEU",
+    "description": "IAEA chief Rafael Grossi told the UN Security Council the agency has seen no repair or reconstruction at facilities damaged in 2025-26 and Iran has not provided access to verify about 440kg of highly enriched uranium.",
+    "category": "diplomatic",
+    "source": "EA WorldView (UNSC)",
+    "data_point": "440kg HEU unverified"
+  },
+  {
+    "date": "2026-10-28",
+    "time": "day",
+    "title": "US tells allies to prepare for a short, intense campaign",
+    "description": "US officials told Gulf and other allies to prepare for possible renewed strikes on Iran after the midterms, lasting perhaps several days, and for Iranian retaliation on energy facilities (AP). WSJ reported munitions restocking, a Patriot battery shipped from Texas to Israel and troops moved off vulnerable bases.",
+    "category": "military",
+    "source": "WSJ / AP via CBS News",
+    "data_point": "Allies warned"
+  },
+  {
+    "date": "2026-10-28",
+    "time": "day",
+    "title": "Vance letter revealed; Iran calls Qatari ideas unacceptable",
+    "description": "Trump said he approved Vance's contact but framed it as medical aid. A senior Iranian official told Reuters the Qatari mediation offered only unacceptable ideas, while Araghchi said Iran is reviewing ideas to implement its seven-day plan even faster.",
+    "category": "diplomatic",
+    "source": "WSJ / ABC News / Reuters / CBS News",
+    "data_point": "Talks probe"
+  },
+  {
+    "date": "2026-10-28",
+    "time": "day",
+    "title": "Houthis hit Aden airport; Saudi strikes hit al-Hazm market",
+    "description": "A Houthi missile fell inside Aden airport's perimeter, the sixth attack on it, while a Saudi military cargo plane was on the ground (not hit). The Houthi Health Ministry said Saudi-led strikes on a market and petrol station in al-Hazm, al-Jawf, killed 14 and wounded 15 (unverified by AP).",
+    "category": "humanitarian",
+    "source": "AFP / AP / CTP-ISW",
+    "data_point": "14 killed (Houthi claim)"
+  },
+  {
+    "date": "2026-10-28",
+    "time": "day",
+    "title": "Kuwait summons Iran's ambassador",
+    "description": "Kuwait summoned Iran's envoy after Tehran denied an Iranian citizen's role in a plot to assassinate Kuwait's interior minister; a Kuwaiti court had sentenced three men to death for spying for Iran and Hezbollah membership.",
+    "category": "diplomatic",
+    "source": "AFP via CBS News",
+    "data_point": "Envoy summoned"
+  },
+  {
+    "date": "2026-10-29",
+    "time": "day",
+    "title": "Pentagon toll rises to 23 US deaths",
+    "description": "DCAS updates on Oct 28 and 29 added two Air Force nonhostile deaths (one illness, one under investigation), raising the toll to 23: 11 hostile, 12 nonhostile. Wounded unchanged at 865.",
+    "category": "humanitarian",
+    "source": "Newsweek / Washington Post via CBS",
+    "data_point": "23 deaths"
+  },
+  {
+    "date": "2026-10-29",
+    "time": "day",
+    "title": "Iran claims four tankers hit mines; CENTCOM rejects",
+    "description": "The IRGC said three tankers using the US-promoted southern route hit mines and burned, and Iran's navy claimed a fourth; CENTCOM called the claims false and the IRGC challenged it to prove its mine clearance. UKMTO separately reported a tanker struck by a projectile on the southern route, with no injuries.",
+    "category": "military",
+    "source": "IRGC / Iranian navy via CBS; CENTCOM via Fox; UKMTO",
+    "data_point": "Claims disputed"
+  },
+  {
+    "date": "2026-10-29",
+    "time": "day",
+    "title": "Limpet-type attack disables tanker Louise 1 off Khasab",
+    "description": "At 2212 UTC a small boat attached two explosive devices to the tanker Louise 1 25 NM northeast of Khasab, briefly disabling it; crew safe, no pollution. Reuters sources called it the first known successful use of such mines in the war.",
+    "category": "military",
+    "source": "UKMTO / Reuters / Vanguard Tech",
+    "data_point": "Louise 1 disabled"
+  },
+  {
+    "date": "2026-10-29",
+    "time": "day",
+    "title": "Hegseth fires Joint Staff J5",
+    "description": "Defense Secretary Hegseth fired Lt. Gen. Brett Sylvia, the Joint Staff's top strategy and plans officer; a Pentagon official told CBS he was accused of leaking classified information about the Iran war.",
+    "category": "political",
+    "source": "CBS News / Fox News / EA WorldView",
+    "data_point": "J5 fired"
+  },
+  {
+    "date": "2026-10-29",
+    "time": "day",
+    "title": "Riyadh targeted again; Saudi strike reported in Taiz",
+    "description": "Saudi defenses downed two ballistic missiles fired at Riyadh after at least eight explosions were heard, with alerts in Kharj and Najran. The Houthi Health Ministry said a Saudi strike on homes in Al-Barah, Maqbana district, Taiz, killed 12.",
+    "category": "military",
+    "source": "AFP via CBS News",
+    "data_point": "2 BMs intercepted"
+  },
+  {
+    "date": "2026-10-29",
+    "time": "day",
+    "title": "Reuters: Iran's agency network slips hardware past blockade",
+    "description": "A Reuters investigation found Iran used some 5,000 military agencies to import at least $2B in drone and missile components since 2025, evading sanctions and the US blockade.",
+    "category": "economic",
+    "source": "Reuters via CBS News",
+    "data_point": "~$2B components"
+  },
+  {
+    "date": "2026-10-29",
+    "time": "day",
+    "title": "Iran open to faster seven-day plan; Ghalibaf holds to conditions",
+    "description": "Araghchi said Tehran remains in contact with mediators and could accelerate its seven-day plan; Speaker Ghalibaf said any deal requires US acceptance of Iran's seven conditions. Tasnim said the Vance letter had not yet been answered.",
+    "category": "diplomatic",
+    "source": "Gulf News via GlobalSecurity / Fox News / CBS News",
+    "data_point": "7 conditions"
+  },
+  {
+    "date": "2026-10-29",
+    "time": "day",
+    "title": "Oil eases; S&P slips 0.3%",
+    "description": "Brent fell 44 cents to $114.88 and WTI 78 cents to $102.00 on the Vance outreach. The S&P 500 fell 0.3% to 7,720.39 on an Alphabet sell-off. Macron tied France's cost-of-living protests to the war; the UN estimates $1.4T for regional reconstruction.",
+    "category": "economic",
+    "source": "CNBC / AP / ABC News / WSJ via Just Security",
+    "data_point": "Brent $114.88"
+  },
+  {
+    "date": "2026-10-30",
+    "time": "day",
+    "title": "Israel's final results: no majority for either bloc",
+    "description": "Final Central Elections Committee results give Netanyahu's bloc 53 seats, Eisenkot's bloc 48 and Arab parties a record 19; Likud 27, Yashar 21. Turnout was 77.9%; the Knesset is to be sworn in Nov 10.",
+    "category": "political",
+    "source": "Times of Israel / Jerusalem Post / NBC News",
+    "data_point": "53 / 48 / 19"
+  },
+  {
+    "date": "2026-10-30",
+    "time": "day",
+    "title": "Qatari delegation returns to Tehran",
+    "description": "A Qatari delegation led by a senior adviser to the prime minister arrived in Tehran, reportedly to receive Iran's response; Iran confirmed receiving the Vance letter but has not formally replied. Officials floated talks as soon as next week in Doha or Istanbul.",
+    "category": "diplomatic",
+    "source": "IRNA via Washington Times / Al Jazeera / Foreign Policy",
+    "data_point": "Reply pending"
+  },
+  {
+    "date": "2026-10-30",
+    "time": "day",
+    "title": "IRGC stops two tankers; Mecca drone disputed",
+    "description": "The IRGC said it stopped two tankers on unauthorized routes and claimed three tankers hit. The Saudi-led coalition said it downed a drone in the Mecca region; the Houthis denied launching it.",
+    "category": "military",
+    "source": "The American Conservative / ABC News / AFP via CBS / EA WorldView",
+    "data_point": "UNVERIFIED claims"
+  },
+  {
+    "date": "2026-10-30",
+    "time": "day",
+    "title": "Iran inflation hits 88.7%",
+    "description": "Iran's Statistical Center put annual point-to-point inflation at 88.7% (4.4% monthly). AAA's national average fell to $4.2046 while Brent's expiring December contract traded near $117.67.",
+    "category": "economic",
+    "source": "EA WorldView / AAA / Cornerstone Futures",
+    "data_point": "88.7% inflation"
+  },
+  {
+    "date": "2026-10-30",
+    "time": "day",
+    "title": "OCHA: 281,000 displaced in Yemen since August",
+    "description": "OCHA said more than 281,000 people have been displaced by fighting since August and access has worsened, with aid reaching Taiz only via mountain routes.",
+    "category": "humanitarian",
+    "source": "OCHA via EA WorldView",
+    "data_point": "281,000+ displaced"
   }
 ]
