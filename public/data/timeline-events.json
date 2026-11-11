@@ -11401,5 +11401,149 @@
     "category": "diplomatic",
     "source": "Iran International / Washington Post via Times of Israel",
     "data_point": "2 crossings"
+  },
+  {
+    "date": "2026-11-08",
+    "time": "day",
+    "title": "Trump: Iron Gate 'in full force and effect'",
+    "description": "Trump posted that Task Force Iron Gate is 'in full force and effect' and 'Very little gets into, or out of, Iran!' In a 60 Minutes interview aired Sunday he said he sees 'no reason' to escalate; the IRGC dismissed Iron Gate as 'a play on words.'",
+    "category": "political",
+    "source": "Truth Social via Al Jazeera / CBS News / Fars",
+    "data_point": "Land blockade"
+  },
+  {
+    "date": "2026-11-08",
+    "time": "day",
+    "title": "Araghchi: White House must make its own choice",
+    "description": "Araghchi said the midterms sent a message and it is time for the White House to make its own choice, adding that Iran's two-day proposal stands if the US ends the war on all fronts. He said mediated talks have made no progress since the midterm results.",
+    "category": "diplomatic",
+    "source": "Tasnim / Middle East Eye",
+    "data_point": "2-day offer stands"
+  },
+  {
+    "date": "2026-11-08",
+    "time": "day",
+    "title": "Rubio: no breakthrough with Iran",
+    "description": "Rubio said the US and Iran are not 'at the verge of a breakthrough,' calling Tehran's demands unacceptable and talks unproductive.",
+    "category": "diplomatic",
+    "source": "CBS News / Anadolu",
+    "data_point": "No breakthrough"
+  },
+  {
+    "date": "2026-11-08",
+    "time": "day",
+    "title": "Herzog gives Eisenkot mandate",
+    "description": "President Herzog tasked Gadi Eisenkot with forming Israel's next government (67 MKs backed him, per Times of Israel), as Netanyahu demanded a unity government. Defense Minister Katz said Iran is seeking to renew its nuclear weapons effort and warned Hezbollah against joining any attack.",
+    "category": "political",
+    "source": "Times of Israel / Iran International",
+    "data_point": "67 MKs"
+  },
+  {
+    "date": "2026-11-08",
+    "time": "day",
+    "title": "Intercept debris damages Aramco tower in Riyadh",
+    "description": "Saudi defenses intercepted 3 ballistic missiles, 2 cruise missiles and a drone; falling shrapnel caused minor damage to a Saudi Aramco administrative tower in Riyadh's King Abdullah Financial District, with no casualties (Saudi Energy Ministry); the Houthis claimed the attack. In Iraqi Kurdistan, a suspected drone hit the LPG storage unit at the Khor Mor gas field, halting production.",
+    "category": "military",
+    "source": "Saudi Energy Ministry via Reuters / ABC News / CBS News; Dana Gas via Long War Journal",
+    "data_point": "Aramco hit"
+  },
+  {
+    "date": "2026-11-08",
+    "time": "day",
+    "title": "Burning tanker off Khasab; IRGC halts four",
+    "description": "UKMTO reclassified the Nov 7 tanker fire about 8 NM northwest of Khasab as an attack; IRIB said four tankers were halted in 24 hours, and the IRGC claimed three tankers on an 'illegal' route exploded (unverified).",
+    "category": "military",
+    "source": "UKMTO via CBS News / IRIB / LBCI",
+    "data_point": "4 halted (claim)"
+  },
+  {
+    "date": "2026-11-08",
+    "time": "day",
+    "title": "Iran executes three over January unrest",
+    "description": "Iran executed three men convicted over armed unrest in January's protests, accused of operations for Israel and the US (Reuters); Baluch man Mohammad Aref Shahbakhsh was executed in Zahedan on Nov 7.",
+    "category": "humanitarian",
+    "source": "Reuters via Times of Israel / Mizan",
+    "data_point": "3 executed"
+  },
+  {
+    "date": "2026-11-09",
+    "time": "day",
+    "title": "Qatar's PM meets Vance and Trump",
+    "description": "Qatari PM Sheikh Mohammed bin Abdulrahman Al Thani met Vance and then Trump at the White House and welcomed 'positive discussions'; Axios said he sought more time for diplomacy.",
+    "category": "diplomatic",
+    "source": "Axios via CBS News / Iran International",
+    "data_point": "White House talks"
+  },
+  {
+    "date": "2026-11-09",
+    "time": "day",
+    "title": "Trump: war 'militarily effectively over'",
+    "description": "In unscheduled briefing-room remarks, Trump said the Iran war 'militarily, is effectively over... We're just keeping it the status quo,' at Gulf partners' behest, with a 'good chance' of a deal; he told Reuters 'we're ready to go anytime we want.' The FT reported Netanyahu has been calling Trump daily urging a resumption.",
+    "category": "political",
+    "source": "AP via 1News / Reuters / CBS News / FT via Times of Israel",
+    "data_point": "'Status quo'"
+  },
+  {
+    "date": "2026-11-09",
+    "time": "day",
+    "title": "Rezaei: 'Time to SURRENDER' to seven conditions",
+    "description": "Rezaei accused Washington of 'manufacturing fake news about imaginary talks' and said it is 'time to surrender to the seven conditions'; an Iranian security official said there will be no talks until they are met.",
+    "category": "diplomatic",
+    "source": "Rezaei on X via CBS News / Times of Israel / Middle East Eye",
+    "data_point": "7 conditions"
+  },
+  {
+    "date": "2026-11-09",
+    "time": "day",
+    "title": "Baqaei: uranium removal off the table",
+    "description": "Spokesman Baqaei said removing enriched uranium from Iran is not on the table and called the two-day plan a 'sign of goodwill' that must include the June Islamabad terms. He said the IAEA inspected a site at Bushehr 'a few days ago.'",
+    "category": "diplomatic",
+    "source": "CBS News / Iran International",
+    "data_point": "IAEA at Bushehr"
+  },
+  {
+    "date": "2026-11-09",
+    "time": "day",
+    "title": "Massie files Hegseth impeachment articles",
+    "description": "Rep. Thomas Massie introduced a 34-page, eight-article impeachment resolution against Hegseth, three articles accusing him of waging war on Iran without congressional authorization. Hegseth said he is 'not worried.'",
+    "category": "political",
+    "source": "CBS News / 1News",
+    "data_point": "8 articles"
+  },
+  {
+    "date": "2026-11-09",
+    "time": "day",
+    "title": "France blames IRGC for supermarket fridge hack",
+    "description": "The Paris prosecutor said an IRGC cyber unit was behind the Oct 11 hack of refrigeration at about 700 supermarkets that caused about 20 fires; similar hacks hit Belgium, Luxembourg and Sweden. France's foreign minister said Iran's ambassador would be summoned and EU sanctions sought.",
+    "category": "diplomatic",
+    "source": "Paris prosecutor via CBS News / Times of Israel / Iran International",
+    "data_point": "~700 stores"
+  },
+  {
+    "date": "2026-11-09",
+    "time": "day",
+    "title": "Brent settles at $92.57; gas near $4",
+    "description": "Brent fell 5.85% to $92.57, its lowest since Aug 31, after a 13.3% drop the prior week. AAA's national average was $4.0093, down more than 36 cents in a month.",
+    "category": "economic",
+    "source": "Reuters via Gulf News / Trading Economics / AAA via CBS News",
+    "data_point": "Brent $92.57"
+  },
+  {
+    "date": "2026-11-09",
+    "time": "day",
+    "title": "Erdogan urged no strikes; Gargash sees long haul",
+    "description": "Turkey's intelligence chief said Erdogan urged Trump not to launch new strikes while mediators work on a seven-point plan. UAE adviser Anwar Gargash said a resolution is unlikely for a 'long period.'",
+    "category": "diplomatic",
+    "source": "Middle East Eye / CBS News",
+    "data_point": "Regional pressure"
+  },
+  {
+    "date": "2026-11-09",
+    "time": "day",
+    "title": "Pipeline fire in Medina; spill closes UAE beach",
+    "description": "Saudi Arabia's energy ministry reported a 'limited fire' on the East-West pipeline in the Medina region with no casualties or disruption. Khor Fakkan closed a beach after an oil spill about 20 miles south of the Strait.",
+    "category": "military",
+    "source": "Saudi Energy Ministry via CBS News",
+    "data_point": "Limited fire"
   }
 ]
