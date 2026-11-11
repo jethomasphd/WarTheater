@@ -169,7 +169,16 @@
     "Oct 26",
     "Oct 27",
     "Oct 28",
-    "Oct 29"
+    "Oct 29",
+    "Oct 30",
+    "Nov 2",
+    "Nov 3",
+    "Nov 4",
+    "Nov 5",
+    "Nov 6",
+    "Nov 9",
+    "Nov 10",
+    "Nov 11"
   ],
   "contexts": [
     "Pre-war close — baseline",
@@ -341,7 +350,16 @@
     "Day 241 (October 26, Monday) — S&P +0.70% to 7,676.77. Brent -$0.91 to $115.81, WTI $101.76 as Saudi, Pakistani and Turkish officials meet Iranian leaders in Tehran.",
     "Day 242 (October 27, Tuesday) — S&P +0.60% to 7,722.60. Brent -$1.93 to $113.88 on regional diplomacy despite the Houthi Ras Tanura claim.",
     "Day 243 (October 28, Wednesday) — S&P +0.28% to 7,743.98 (FOMC day; decision not verified here). Brent ~$115.32 (derived); API crude draw 2.03M bbl. WSJ: US warns Gulf of a short, intense post-midterm campaign.",
-    "Day 244 (October 29, Thursday) — S&P -0.30% to 7,720.39 (AP), first drop in four days, on a record one-day fall in Alphabet; Nasdaq -1.4% to 26,184.72, Dow -0.3% to 52,342.56, Russell 2000 +1%. Brent -$0.44 to $114.88, WTI $102.00 on the Vance outreach."
+    "Day 244 (October 29, Thursday) — S&P -0.30% to 7,720.39 (AP), first drop in four days, on a record one-day fall in Alphabet; Nasdaq -1.4% to 26,184.72, Dow -0.3% to 52,342.56, Russell 2000 +1%. Brent -$0.44 to $114.88, WTI $102.00 on the Vance outreach.",
+    "Day 245 (October 30, Friday) — S&P -1.82% to 7,580.07, its worst day since June, on an Intel collapse (-29%) and AI-spending fears; Nasdaq -2.9% to 25,437.00, Dow -1.1% to 51,770.31 (-0.6% on the week). Brent's expiring December contract settled $117.64 (+$2.76, six-month high; January LCOF7 $113.43) and WTI $104.12 (+$2.12) on post-midterm strike risk and Houthi claims on Saudi energy; Qatari LNG carrier Al Mayeda struck near Hormuz.",
+    "Day 248 (November 2, Monday) — S&P -0.51% to 7,541.40 after erasing an early 1.1% gain (Marvell -12.7%); Dow +0.4% to 51,983.98, Nasdaq -1.1% to 25,164.32; airlines rose. Brent (January, first day as front month) -7.63% to $104.77 and WTI -7.36% to $96.46 on Qatari mediation and Iran's offer to cut its Hormuz plan from seven days to two; that evening the US struck an IRGC SAM launcher on Qeshm after the IRGC fired on a US jet.",
+    "Day 249 (November 3, Tuesday, Election Day) — S&P +0.36% to 7,568.92 on an AI rebound despite an Apple margin warning; Nasdaq +0.8%, Dow -0.4%. Brent -1.1% to $103.60 (lowest settle since Oct 7), WTI $96.09 as Speaker Ghalibaf said Iran sent a 'firm and rational' reply via Qatar.",
+    "Day 250 (November 4, Wednesday) — S&P +1.58% to 7,688.62 and Dow +3.0% (+1,569.40) to 53,356.12 after Democrats won both chambers; defense (LMT -6.9%) and oil majors (XOM -4.9%) fell. Brent -8.7% (-$8.98) to $94.62 and WTI -8.3% to $88.12, both lowest since Aug 31, as Trump told the FT there are no immediate strike plans; EIA crude stocks -865k bbl to 409.8M.",
+    "Day 251 (November 5, Thursday) — S&P -4.36% to 7,353.73, its worst day since April 2025, in an AI data-centre rout on moratorium fears after the Democratic wins (Nvidia -9.3%, AMD -17.3%); Nasdaq -5.5% to 24,315.00, Dow -3.4%; 10-yr 4.84%. Brent +3.88% to $98.29 and WTI +2.72% to $90.52 after tanker attacks (one seafarer killed on Velos Sapphire) and Trump's 'you'll know soon enough.'",
+    "Day 252 (November 6, Friday) — S&P +0.31% to 7,376.86 on an AI bounce and a strong jobs report (-2.7% on the week; Nasdaq -3.4%); Dow -0.5%. Brent +$0.03 to $98.32, WTI $90.83; that night the US struck an air-defence site at Suza, Qeshm Island, the first strike since the midterms.",
+    "Day 255 (November 9, Monday) — S&P +2.35% to 7,549.94, best day since Apr 8, with all 11 sectors up; Nasdaq +2.7%, Dow +2.2%. Brent -5.85% to $92.57 and WTI -4.38% to $86.85 after Trump said new strikes were 'highly unlikely' while talks continue and that the war 'militarily, is effectively over.' Brent's prior week was -16% on the continuous front month (Reuters), the steepest weekly fall since early COVID.",
+    "Day 256 (November 10, Tuesday) — S&P -0.38% to 7,520.93 on a hot October CPI (+0.4% m/m, core +0.3%) that pushed the 10-yr back above 5% (Nvidia -5%). Brent -1.17% to $91.49 after touching $89.16 intraday, its first dip below $90 since August; WTI $86.04. EIA's November STEO sees Brent near $100 in Nov-Dec. Rubio at the G7: 'no need for major combat operations.'",
+    "Day 257 (November 11, Wednesday, Veterans Day; bond market closed) — S&P +1.31% to 7,619.38 on an AI rebound led by CoreWeave results, within 2.6% of the Oct 6 record (7,818.93); Nasdaq +1.6% to 25,466.19, Dow +0.5% to 52,486.49. Brent +1.39% to $92.76 and WTI +0.57% to $86.53 (PROVISIONAL settles) as Iran denied talks were under way and ships were hit off Lima, Oman."
   ],
   "datasets": {
     "sp500": {
@@ -516,7 +534,16 @@
         110.7,
         111.36,
         111.67,
-        111.33
+        111.33,
+        109.31,
+        108.75,
+        109.15,
+        110.87,
+        106.04,
+        106.38,
+        108.87,
+        108.45,
+        109.87
       ],
       "color": "#ef4444"
     },
@@ -617,6 +644,15 @@
         117.0,
         117.5,
         118.5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -868,6 +904,15 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#d4a020"
@@ -1044,10 +1089,19 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-10-30"
+  "last_updated": "2026-11-11"
 }
