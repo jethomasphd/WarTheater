@@ -1,47 +1,47 @@
 {
-  "last_updated": "2026-10-30",
-  "war_day": 245,
+  "last_updated": "2026-11-11",
+  "war_day": 257,
   "timestamp_label": "LAST UPDATED: OCT 30, 2026 12:25 ET",
   "cost": {
     "brent": {
-      "price": 114.88,
+      "price": 92.76,
       "label": "Brent Crude ($/bbl)",
-      "change": "-0.38% Oct 29 settle (Dec contract, expires Oct 30); +43.88 (+61.8%) vs pre-war $71.00",
-      "tooltip": "ICE Brent December 2026 (LCOZ6) settled $114.88 on Thu Oct 29 (-$0.44; CNBC) as the Vance outreach to Tehran eased supply fears. Window settles ranged from $108.79 (Oct 20) to $116.72 (Oct 23, the highest since Apr 29; Reuters). Brent gained about 6% in the week to Oct 23 on Houthi attacks in Saudi Arabia and an oil spill off the UAE. The December contract expires Oct 30 and traded near $117.67 early that day; January sits about $4-5 lower, so the series will show an artificial drop at the roll. Pre-war baseline $71.00 (Feb 27). Source: CNBC / Reuters / Admiral Markets / Cornerstone Futures."
+      "change": "+1.39% Nov 11 settle (Jan contract, PROVISIONAL); +21.76 (+30.6%) vs pre-war $71.00",
+      "tooltip": "ICE Brent January 2027 (LCOF7) settled ~$92.76 on Wed Nov 11 (+$1.27; Xinhua/AP, PROVISIONAL, confirm vs ICE) as Iran denied talks were under way and ships were hit off Lima, Oman. Brent has fallen ~21% since the expiring December contract's $117.64 final settle on Oct 30, a six-month high. The fall followed Democratic wins in both chambers and Trump signalling restraint: Nov 4 -8.7% to $94.62 (lowest since Aug 31); Nov 9 -5.85% after Trump called strikes 'highly unlikely'; Nov 10 settle $91.49 after touching $89.16 intraday, the first sub-$90 print since August. Front month rolled Dec→Jan at the Oct 30 expiry (roll gap $4.21). EIA November STEO: ~$100 in Nov-Dec."
     },
     "wti": {
-      "price": 102.0,
+      "price": 86.53,
       "label": "WTI Crude ($/bbl)",
-      "change": "-0.76% Oct 29 settle (Dec contract); +35.50 (+53.4%) vs pre-war $66.50",
-      "tooltip": "NYMEX WTI December 2026 settled $102.00 on Oct 29 (-$0.78; CNBC). The November contract expired Oct 20 after settling $103.66 on Oct 19, its highest since Sep 15 (Reuters); the series rolls to December from Oct 20. Best December close of the window: $103.27 (Oct 23). Brent-WTI spread about $12.90. Pre-war baseline $66.50. Source: CNBC / Reuters / Investing.com."
+      "change": "+0.57% Nov 11 settle (Dec contract, PROVISIONAL); +20.03 (+30.1%) vs pre-war $66.50",
+      "tooltip": "NYMEX WTI December 2026 (CLZ26) settled ~$86.53 on Nov 11 (+$0.49; PROVISIONAL), down from $104.12 on Oct 30. Confirmed Nov 10 settle: $86.04. Nov 4: $88.12 (-8.3%), lowest since Aug 31. The December contract expires ~Nov 19-20. The Brent-WTI spread has narrowed to ~$5.45 (Nov 10) from ~$12.90 in late October."
     },
     "gas": {
-      "price": 4.2,
+      "price": 3.94,
       "label": "US Avg Gas ($/gal)",
-      "change": "-0.13 vs Oct 15 ($4.33); +1.21 (+40.6%) vs pre-war $2.99",
-      "tooltip": "AAA national average regular $4.2046 on Oct 30, down from $4.3344 on Oct 15, $4.27 on Oct 22 and $4.22 on Oct 29 as the winter-blend switch offset crude above $100 (AAA). Wartime peak $4.55 (May 21). California regular $5.93, California diesel $8.39. State premiums recomputed on the same Oct 30 AAA timestamp (see calculator.json). Source: AAA."
+      "change": "-0.26 vs Oct 30 ($4.20); +0.95 (+31.9%) vs pre-war $2.99",
+      "tooltip": "AAA national average regular $3.9429 on Nov 11, after falling below $4 on Nov 10 ($3.9788). Earlier: $4.1239 Nov 4; $4.1003 Nov 5 (AAA weekly release); $4.2046 Oct 30; month-ago $4.3585. AAA (Nov 5): November pump prices are the highest ever for this time of year. National diesel $6.1306; California diesel $8.0836. EIA weekly retail $3.995 (week of Nov 9). EIA November STEO: US gasoline averages $3.89 in 2026."
     },
     "sp500": {
-      "value": 7720.39,
+      "value": 7619.38,
       "label": "S&P 500",
-      "change": "-0.30% Oct 29; +841.51 (+12.2%) vs pre-war 6,878.88",
-      "tooltip": "Close Thu Oct 29 7,720.39 (-0.30%; AP), the first drop in four sessions, driven by a record one-day fall in Alphabet after earnings rather than by the war; Nasdaq -1.4% to 26,184.72, Dow -0.3% to 52,342.56. Window low 7,623.68 (Oct 23) after declines of 1.21% on Oct 22 and 0.52% on Oct 23 as Aramco evacuated its Dhahran HQ and Brent hit a six-month high; window high 7,757.17 (Oct 21). Roughly flat over the window (Oct 15: 7,744.06). Pre-war 6,878.88. Source: AP / FRED (S&P Dow Jones Indices)."
+      "change": "+1.31% Nov 11; +740.50 (+10.8%) vs pre-war 6,878.88",
+      "tooltip": "Close Wed Nov 11 7,619.38 (+1.31%; AP) on an AI rebound led by CoreWeave, within 2.6% of the Oct 6 record (7,818.93). Window low Nov 5: 7,353.73 (-4.36%, the worst day since April 2025), an AI data-centre rout on moratorium fears after the Democratic sweep. Nov 4: +1.58% and the Dow +3.0% on the midterm result as defense and oil majors fell. Nov 9: +2.35%, best day since Apr 8, after Trump called new strikes 'highly unlikely'. A hot October CPI (Nov 10) pushed the 10-yr back above 5%."
     },
     "daily_cost": {
       "value": 500,
       "unit": "M/day",
       "label": "Daily War Cost ($M/day)",
       "change": "HELD",
-      "tooltip": "Estimated daily US operating cost, modeled at $500M/day (methodology unchanged). NEW OFFICIAL DATA: a CENTCOM/Pentagon estimate (CBS, Oct 27; ABC, Oct 28) puts the war's cost at about $47.1B through mid-October (Oct 16 per EA WorldView): ~$29B munitions, $11.9B operations, $6B equipment losses, excluding base damage. That is $3.5B above the prior $43.6B figure, implying ~$80M-$120M/day depending on whether $43.6B was dated Sep 3 or mid-September - consistent with CBO's $2B-$3B/month estimate and far below the modeled rate.",
-      "note": "DERIVED: $500M/day carried forward through Day 245. RECALIBRATION RECOMMENDED: the modeled series now exceeds the official anchor by about $26.5B. Costs will rise if strikes resume after Nov 3: WSJ reports munitions restocking, a Patriot battery shipped to Israel and an additional CSG and Marine unit en route."
+      "tooltip": "Estimated daily US operating cost, modeled at $500M/day (methodology unchanged). No new official Pentagon, CBO, CRS or CSIS figure since the $47.1B estimate through mid-October (CBS Oct 27; ABC Oct 28): ~$29B munitions, $11.9B operations, $6B equipment losses, excluding base damage. That implies ~$80M-$120M/day, consistent with CBO's $2B-$3B/month and far below the modeled rate. Hegseth urged Congress (Nov 5) to approve at least $350B in defense funding; a $95B White House package (war plus other priorities) is pending with no vote reported.",
+      "note": "DERIVED: $500M/day carried forward through Day 257. RECALIBRATION RECOMMENDED: the modeled series now runs ~$31.5B above the official-anchored path."
     },
     "total_cost": {
-      "value": 74.8,
+      "value": 80.8,
       "unit": "B",
       "label": "Cumulative Cost ($B)",
-      "change": "+7.5 since Day 230",
-      "tooltip": "MODELED: about $74.8B at Day 245 ($67.3B at Day 230 + 15 × $500M). Not an official figure. Official anchor: $47.1B through about Oct 16 (CENTCOM/Pentagon via CBS and ABC), excluding base reconstruction. Official-anchored alternative: about $48.3B at Day 245 ($47.1B + 14 days × ~$83M CBO midpoint).",
-      "note": "DERIVED: accrued at $500M/day. FLAGGED: official-only alternative $47.1B (Oct 16); CBO-anchored alternative ~$48.3B (Oct 30)."
+      "change": "+6.0 since Day 245",
+      "tooltip": "MODELED: about $80.8B at Day 257 ($74.8B at Day 245 + 12 × $500M). Not an official figure.",
+      "note": "DERIVED: accrued at $500M/day. FLAGGED: official-only alternative $47.1B (through ~Oct 16); official-anchored alternative ~$49.3B at Day 257 (~$48.3B at Day 245 + 12 × ~$86M/day, CBO $2-3B/month)."
     }
   },
   "history": [
