@@ -11293,5 +11293,113 @@
     "category": "military",
     "source": "CBS News",
     "data_point": "Missile intercepted"
+  },
+  {
+    "date": "2026-11-06",
+    "time": "day",
+    "title": "US hits Qeshm air defenses; Trump calls it 'minor'",
+    "description": "US forces struck Iranian air defenses on Qeshm Island, the first strike since the midterms; Tasnim and IRNA said two missiles hit the Suza area. Trump called it 'minor,' saying an anti-aircraft site was knocked out 'in about 15 minutes, maybe five.' Iran said it shot down a US MQ-1 over Qeshm (unverified).",
+    "category": "military",
+    "source": "Tasnim / IRNA via Reuters / Times of Israel / Fox News / CTP-ISW",
+    "data_point": "1st post-midterm strike"
+  },
+  {
+    "date": "2026-11-06",
+    "time": "day",
+    "title": "Trump calls Qatar's emir; Doha denies collapse",
+    "description": "The emir's office said Trump called to discuss de-escalation, and Qatar's media office rejected reports the PM said talks had failed. Trump said 'We are doing very well with Iran' and that Iran wants a deal 'very badly.'",
+    "category": "diplomatic",
+    "source": "QNA via The New Arab / Fox News / Middle East Eye",
+    "data_point": "Talks continue"
+  },
+  {
+    "date": "2026-11-06",
+    "time": "day",
+    "title": "Tehran demands action, not paper",
+    "description": "SNSC deputy Ali Bagheri said Iran will no longer rely on written US commitments and needs practical steps first (IRNA). IRGC aerospace adviser Ali Balali said any country helping a new US attack would be a legitimate target.",
+    "category": "diplomatic",
+    "source": "IRNA via Iran International / Tasnim via Fox News",
+    "data_point": "Hard line"
+  },
+  {
+    "date": "2026-11-06",
+    "time": "day",
+    "title": "Treasury targets Canadian exchangers, MEXC",
+    "description": "Treasury sanctioned eight Canada-based money services businesses accused of helping Iran evade restrictions, including IRGC-linked crypto activity, and barred US banks from dealing with exchange MEXC Global. Bessent: 'Canada cannot be a safe haven for illicit financial facilitators.'",
+    "category": "economic",
+    "source": "US Treasury via Fox News / Middle East Eye",
+    "data_point": "8 firms"
+  },
+  {
+    "date": "2026-11-06",
+    "time": "day",
+    "title": "US offers $20M for nuclear program tips",
+    "description": "CENTCOM announced a Rewards for Justice offer of up to $20M, plus possible relocation, for information on Iran's nuclear facilities, equipment, personnel and material movements.",
+    "category": "political",
+    "source": "CENTCOM / State Dept via Fox News / Times of Israel",
+    "data_point": "$20M reward"
+  },
+  {
+    "date": "2026-11-06",
+    "time": "day",
+    "title": "Iodine pills near Bushehr; new digging seen",
+    "description": "The Times reported iodine tablets being distributed near Iranian nuclear sites; Iran's health ministry denied any link to strike fears. BBC Verify said satellite images show new digging and construction at the Garmdarreh base in Karaj and at Shahrud.",
+    "category": "humanitarian",
+    "source": "The Times via Fox News / YJC via Middle East Monitor / BBC Verify",
+    "data_point": "Bushehr"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "day",
+    "title": "CENTCOM launches Task Force Iron Gate",
+    "description": "Adm. Cooper ordered a roughly 20-person task force based in Tampa to disrupt weapons, sanctioned material and illicit revenue moving across Iran's land borders and Caspian routes, reinforcing what he called the 'ironclad blockade against Iran at sea.'",
+    "category": "military",
+    "source": "CENTCOM / Reuters / Stars and Stripes / Al Jazeera",
+    "data_point": "~20 personnel"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "day",
+    "title": "US aircraft disable blockade runner Huda",
+    "description": "CENTCOM said US aircraft disabled the cargo vessel M/V Huda in the Gulf of Oman after its crew ignored repeated warnings while trying to break the blockade.",
+    "category": "military",
+    "source": "CENTCOM / CBS News",
+    "data_point": "Huda disabled"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "day",
+    "title": "IRGC lifts missile range cap",
+    "description": "IRGC spokesman Mohebbi said range limits on Iran's missiles have been lifted on the Supreme Leader's order and told Fars the IRGC would establish 'the necessary readiness' if leaders change the nuclear doctrine. The IRGC also announced underground complexes to sustain missile and drone production under bombardment.",
+    "category": "military",
+    "source": "Fars via Middle East Eye / Iran International / Al Jazeera",
+    "data_point": "Range cap lifted"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "day",
+    "title": "NBC: aides urge restart before new Congress",
+    "description": "NBC reported Trump's advisers told him to restart major combat before the new Congress is sworn in in January; WSJ said Vance and Witkoff favor diplomacy, Hegseth and Cooper renewed strikes, and Rubio and Bessent economic pressure. Trump said a new offensive is 'highly unlikely' if talks progress.",
+    "category": "political",
+    "source": "NBC News / WSJ via Fox News / Times of Israel",
+    "data_point": "Advisers split"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "day",
+    "title": "Tankers hit off Khasab; blasts across Hormozgan",
+    "description": "UKMTO reported a tanker on fire 8 NM northwest of Khasab and another hit by a projectile leaving the Strait; CTP-ISW assessed Iran likely attacked. Iranian state media reported explosions on eastern Qeshm and in Jask, Sirik and Bandar Abbas, cause unclear.",
+    "category": "military",
+    "source": "UKMTO / CTP-ISW / Iranian state media via Middle East Eye",
+    "data_point": "2 tankers hit"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "day",
+    "title": "Iraq says US asked it to shut Iran crossings",
+    "description": "Iraqi FM Fuad Hussein said the US asked Baghdad to close all but two border crossings with Iran. David Ignatius reported Bessent asked China to use its influence with Tehran to end the war.",
+    "category": "diplomatic",
+    "source": "Iran International / Washington Post via Times of Israel",
+    "data_point": "2 crossings"
   }
 ]
