@@ -10906,5 +10906,122 @@
     "category": "humanitarian",
     "source": "OCHA via EA WorldView",
     "data_point": "281,000+ displaced"
+  },
+  {
+    "date": "2026-10-30",
+    "time": "day",
+    "title": "Qatari LNG carrier Al Mayeda struck near Hormuz",
+    "description": "Nakilat said its Marshall Islands-flagged LNG carrier Al Mayeda, sailing from Qatar to Pakistan, was struck by 'unidentified objects' on the evening of Oct 30 while approaching the Strait; all 25 crew were safe and the ship remained operational. Bloomberg reported Iran had cleared its passage hours earlier at Pakistan's request. Qatar condemned the attack and said it reserves the right to take 'all necessary measures'; the UAE also condemned it.",
+    "category": "military",
+    "source": "Nakilat / QNA / Bloomberg via gCaptain / Al Jazeera / Khaleej Times",
+    "data_point": "25 crew safe"
+  },
+  {
+    "date": "2026-10-30",
+    "time": "day",
+    "title": "Oman evacuates 25 from burning tanker RITI",
+    "description": "Oman's Maritime Security Centre said the Panama-flagged tanker RITI was targeted and caught fire 1.6 NM off Musandam; the Royal Navy of Oman evacuated all 25 crew. UKMTO separately reported a ship hit by an unknown projectile 40 NM south of Iran's Lavan Island with a fire on board, and a crude tanker struck while exiting the Strait.",
+    "category": "military",
+    "source": "Oman MSC via Reuters / Oman Observer / UKMTO",
+    "data_point": "25 evacuated"
+  },
+  {
+    "date": "2026-10-30",
+    "time": "day",
+    "title": "Friday prayers air call to revisit nuclear doctrine",
+    "description": "Tehran's interim Friday prayer leader called a revision of Iran's nuclear doctrine a 'national demand' (BBC Persian). SNSC Secretary Rezaei said Europe must now pay the costs of the war.",
+    "category": "political",
+    "source": "BBC Persian / Iran International",
+    "data_point": "Doctrine debate"
+  },
+  {
+    "date": "2026-10-30",
+    "time": "day",
+    "title": "Iran claims drone and USV kills; CENTCOM denies",
+    "description": "The IRGC said it downed and captured a US MQM-170 drone over Qeshm using electronic warfare, and Iran's navy said it destroyed an 'enemy' unmanned vessel east of Hormuz. CENTCOM denied losing any vessel.",
+    "category": "military",
+    "source": "Iran International / Middle East Monitor",
+    "data_point": "UNVERIFIED claims"
+  },
+  {
+    "date": "2026-10-31",
+    "time": "day",
+    "title": "Iranian team in Doha; Araghchi rules out US meeting",
+    "description": "Iranian negotiators held talks with Qatari mediators in Doha a day after a 12-hour session in Tehran (Reuters). Araghchi told Al Jazeera the US outreach was 'a positive step' but Iran sees 'no need to meet with the Americans at this stage'; he said the current proposal cuts Iran's Hormuz reopening timeline to two days, after Qatar proposed five.",
+    "category": "diplomatic",
+    "source": "Reuters via The National / Al Jazeera",
+    "data_point": "2-day plan"
+  },
+  {
+    "date": "2026-10-31",
+    "time": "day",
+    "title": "Rezaei: Vance letter studied, not answered",
+    "description": "SNSC Secretary Mohsen Rezaei told state TV he had studied the Vance letter but not replied, calling Washington's changed tone a good sign, and said Iran will not resume talks or reopen Hormuz until its seven conditions are met. He said officials are discussing whether to keep Iran's nuclear policy if war resumes, but no decision has been made.",
+    "category": "diplomatic",
+    "source": "IRIB via The National / Iran International",
+    "data_point": "7 conditions"
+  },
+  {
+    "date": "2026-10-31",
+    "time": "day",
+    "title": "Rubio: no strike decision, no deadline",
+    "description": "At a G20 foreign ministers' meeting in Atlanta, Rubio said Trump had set no deadline for diplomacy and made no decision on further strikes; any deal must address core US security concerns and the US retains the military option.",
+    "category": "political",
+    "source": "The National / i24NEWS / Al Jazeera",
+    "data_point": "No deadline"
+  },
+  {
+    "date": "2026-10-31",
+    "time": "day",
+    "title": "Khamenei reportedly orders wider target list",
+    "description": "Armed forces chief Maj. Gen. Ali Abdollahi said Iran would answer any attack with 'immense force' and no geographic limits on Supreme Leader Mojtaba Khamenei's orders; Khamenei reportedly told commanders to expand the list of US and Israeli targets (CTP-ISW). Army spokesman Akraminia said Iran will receive Russian Su-35s after the war.",
+    "category": "military",
+    "source": "Al Jazeera / The National / CTP-ISW / Tabnak",
+    "data_point": "No geographic limits"
+  },
+  {
+    "date": "2026-10-31",
+    "time": "day",
+    "title": "Iran says US fired on fishing boats off Qeshm",
+    "description": "Iranian state media said US forces attacked two fishing boats off Qeshm, leaving two missing and one wounded; there was no US confirmation. Iran's navy claimed a tanker caught fire after hitting mines east of the Strait.",
+    "category": "military",
+    "source": "Iranian state media via Express Tribune / Al Arabiya",
+    "data_point": "UNVERIFIED"
+  },
+  {
+    "date": "2026-11-01",
+    "time": "day",
+    "title": "Doha round ends; Tehran cites shuttle diplomacy",
+    "description": "Iranian negotiators ended three days of talks with Qatari mediators in Doha with a draft proposal circulating (BBC Persian). Araghchi said Tehran is pursuing shuttle diplomacy through Qatari and Pakistani mediators and no meeting with US officials is planned.",
+    "category": "diplomatic",
+    "source": "BBC Persian / Anadolu",
+    "data_point": "3 days of talks"
+  },
+  {
+    "date": "2026-11-01",
+    "time": "day",
+    "title": "Iran blacklists Royal Navy and RAF",
+    "description": "Iran's Foreign Ministry designated the UK's Royal Navy and Royal Air Force terrorist organizations and MI6 a hostile group, citing Britain's 'illegal and hostile actions'. UK Defence Secretary Wes Streeting called it 'bare-faced cheek' on Nov 2.",
+    "category": "diplomatic",
+    "source": "Iranian MFA via Middle East Monitor / ITV / The JC",
+    "data_point": "RN, RAF listed"
+  },
+  {
+    "date": "2026-11-01",
+    "time": "day",
+    "title": "Trump: Iran may need 'the hammer'",
+    "description": "At a rally in Dubuque, Iowa, two days before the midterms, Trump said he was holding back to save lives but 'at some point we're going to have to give them the hammer.' He also said 'Either they'll make a deal, or we'll just end it,' after what he called a 'very good talk' with Netanyahu on Saturday.",
+    "category": "political",
+    "source": "AFP via EWN / CBS News / Axios",
+    "data_point": "Pre-midterm threat"
+  },
+  {
+    "date": "2026-11-01",
+    "time": "day",
+    "title": "Vessel holed off Lima; IRGC claims two tankers",
+    "description": "UKMTO said a vessel hit by an unknown projectile about 9 NM off Lima, Oman, was holed on its starboard side; all crew were safe. The IRGC Navy said two tankers exploded after hitting mines in Hormuz.",
+    "category": "military",
+    "source": "UKMTO via CBS News / IRGC via Middle East Eye",
+    "data_point": "IRGC claim UNVERIFIED"
   }
 ]
