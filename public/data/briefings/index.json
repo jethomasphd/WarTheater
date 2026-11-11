@@ -803,5 +803,12 @@
         "label": "OCTOBER 30, 2026 — DAY 245",
         "headline": "Vance letter tests Iran talks; US warns Gulf of short strike campaign; limpet attack off Khasab; US deaths 23",
         "file": "data/briefings/day-245.html"
+    },
+    {
+        "day": 257,
+        "date": "2026-11-11",
+        "label": "NOVEMBER 11, 2026 — DAY 257",
+        "headline": "Democrats win Congress; US hits Qeshm twice; Trump: war 'effectively over'; Brent sinks 21% as ship attacks persist",
+        "file": "data/briefings/day-257.html"
     }
 ]
