@@ -11545,5 +11545,149 @@
     "category": "military",
     "source": "Saudi Energy Ministry via CBS News",
     "data_point": "Limited fire"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "day",
+    "title": "Rubio at G7: 'no need' for major combat",
+    "description": "After G7 foreign ministers met in Paris, Rubio said Trump 'has concluded that for the time being there is no need for major combat operations because we are achieving the same objective by economic means,' warning Iran would 'pay a terrible price' if it crosses red lines. Host Jean-Noel Barrot said the risk of escalation 'has not been completely ruled out'; Qatar's PM joined Saudi and European ministers in Paris.",
+    "category": "diplomatic",
+    "source": "AFP via Yahoo / CBS News / C-SPAN / Al Arabiya",
+    "data_point": "Economic track"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "day",
+    "title": "Hegseth: 'We control the Strait of Hormuz'",
+    "description": "At a Pentagon news conference, Hegseth cited more than 13,000 targets struck in under 40 days, over 80% of Iran's nuclear industrial base destroyed and 18 Americans killed, and said the US remains 'locked and loaded' with CENTCOM. He called the impeachment push 'sabotage.'",
+    "category": "political",
+    "source": "Foreign Policy (transcript) / CBS News / White House",
+    "data_point": "13,000+ targets"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "day",
+    "title": "House GOP blocks Hegseth impeachment",
+    "description": "House Republicans blocked Massie's effort to impeach Hegseth in a near party-line procedural vote that evening (Stars and Stripes); the vote tally was not independently verified.",
+    "category": "political",
+    "source": "Stars and Stripes / Yahoo News / 1News",
+    "data_point": "Impeachment blocked"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "day",
+    "title": "Poll: 71% want Congress to end the war",
+    "description": "A Reuters/Ipsos poll of 1,705 US adults found 71%, including 93% of Democrats and 51% of Republicans, want the new Congress to pass a law ending the Iran war; 26% approve of Trump's handling of it.",
+    "category": "political",
+    "source": "Reuters/Ipsos via Iran International / The Hill / US News",
+    "data_point": "71%"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "day",
+    "title": "26th Knesset sworn in",
+    "description": "Israel's new Knesset was sworn in; Netanyahu told the session toppling Iran's regime is the only way to end its threat and accused Arab parties of seeking Israel's destruction. Eisenkot's bloc nominated Matan Kahana for speaker.",
+    "category": "political",
+    "source": "Times of Israel / Iran International",
+    "data_point": "46 new MKs"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "day",
+    "title": "US charges three over RAF Fairford plot",
+    "description": "The Justice Department charged three alleged Iran-backed operatives over a September attempted attack on RAF Fairford; FBI Director Patel said they were linked to 'nearly 20 attempted attacks' in Europe and the US. WSJ said US aircraft were moved from RAF Mildenhall over a possible Iranian threat.",
+    "category": "political",
+    "source": "DOJ via CBS News / WSJ via Times of Israel",
+    "data_point": "3 charged"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "day",
+    "title": "Iran rejects France hack charge; EU vows response",
+    "description": "Iran's foreign ministry rejected France's 'baseless accusations' and Araghchi mocked France as 'unable to manage fridges'; the EU promised a 'swift and united response.' Canada reimposed sanctions on Iranian entities, citing nuclear reporting non-compliance.",
+    "category": "diplomatic",
+    "source": "CBS News / Anadolu",
+    "data_point": "EU response pledged"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "day",
+    "title": "Tanker and ADNOC vessel hit",
+    "description": "UKMTO said a tanker was hit by a projectile off Oman's northeast coast, about 19 NM northeast of Lima, with no injuries; the IRGC claimed three tankers hit mines. WAM said an ADNOC Logistics vessel was damaged in an attack in UAE territorial waters.",
+    "category": "military",
+    "source": "UKMTO via CBS News / IRIB / WAM",
+    "data_point": "ADNOC vessel hit"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "day",
+    "title": "Brent briefly dips below $90",
+    "description": "Brent briefly fell below $90 for the first time since late August and US crude traded near $84.94 after Trump's remarks on no new strikes.",
+    "category": "economic",
+    "source": "CBS News / Gulf News",
+    "data_point": "Brent <$90"
+  },
+  {
+    "date": "2026-11-11",
+    "time": "day",
+    "title": "Trump at Arlington: 'total victory'",
+    "description": "At a Veterans Day event at Arlington, Trump said the US has won and the end is 'just a question of when we want to end it,' adding he wants 'a total victory, not a 93% victory' and that Iran would need 25 years to rebuild.",
+    "category": "political",
+    "source": "CBS News / Yahoo News",
+    "data_point": "Veterans Day"
+  },
+  {
+    "date": "2026-11-11",
+    "time": "day",
+    "title": "Rezaei: no 'single particle' of HEU leaves Iran",
+    "description": "Rezaei said Iran 'will not remove even a single particle of enriched nuclear material' from the country (IRIB). He told Al Mayadeen Iran would strike US bases in Europe if used for attacks, that an attack on Pickaxe Mountain would bring strikes on all US bases, and that a new war would last '4 to 5 days.'",
+    "category": "diplomatic",
+    "source": "IRIB / Al Mayadeen via CBS News / Yahoo News",
+    "data_point": "HEU stays"
+  },
+  {
+    "date": "2026-11-11",
+    "time": "day",
+    "title": "Bessent moved to military base after threats",
+    "description": "Treasury said Bessent moved from his Washington-area home to a military base after Iranian threats against his life and 'will not be deterred'; a source blamed a WSJ photo that let his Georgetown home be geolocated.",
+    "category": "political",
+    "source": "CBS News / Iran International",
+    "data_point": "Relocated"
+  },
+  {
+    "date": "2026-11-11",
+    "time": "day",
+    "title": "Pezeshkian decries MOAB threat; meets Sharif",
+    "description": "Pezeshkian accused the US of 'diplomacy through threats' over the 'mother of all bombs.' Pakistani PM Shehbaz Sharif met him at the COP31 summit in Turkey and urged dialogue and building on June's interim US-Iran deal.",
+    "category": "diplomatic",
+    "source": "CBS News",
+    "data_point": "COP31"
+  },
+  {
+    "date": "2026-11-11",
+    "time": "day",
+    "title": "Iran rejects Hegseth's damage figures",
+    "description": "Iran's Defense Ministry called Hegseth's figures 'deceptive' and said its stockpiles remain substantial, and a spokesman said the war ends only when Iran's demands are accepted or the enemy surrenders. Araghchi called the $20M US reward for nuclear information 'repugnant' and urged the UN and IAEA to condemn it.",
+    "category": "diplomatic",
+    "source": "CBS News / Iran International / Dawn",
+    "data_point": "Claims disputed"
+  },
+  {
+    "date": "2026-11-11",
+    "time": "day",
+    "title": "Allianz: Gulf war damage tops $200B",
+    "description": "Allianz Trade put physical damage to Gulf states at just over $200B, mostly energy infrastructure, with total GCC costs of up to $790B in lost output through 2030. US winter heating costs are projected up 7.1% to $1,002, and 70.2% to $2,977 for heating oil (NEADA).",
+    "category": "economic",
+    "source": "Allianz Trade / NEADA via CBS News",
+    "data_point": "$200B+"
+  },
+  {
+    "date": "2026-11-11",
+    "time": "day",
+    "title": "Tankers hit mines; Houthi missiles at Riyadh",
+    "description": "The IRGC said two tankers on an unauthorized route struck mines and caught fire, and UKMTO reported an incident involving a tanker in the eastern Strait. The Saudi-led coalition said it destroyed three Houthi cruise missiles aimed at Riyadh.",
+    "category": "military",
+    "source": "IRGC via CBS News / UKMTO via Arab News / Saudi-led coalition",
+    "data_point": "3 missiles intercepted"
   }
 ]
