@@ -11149,5 +11149,149 @@
     "category": "political",
     "source": "AP",
     "data_point": "Eisenkot recommended"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "day",
+    "title": "Vance: 'The reason we lost is the war'",
+    "description": "Vance posted that 'The reason we lost is the war,' citing 2024 Trump voters who backed Democrats; Trump called that 'largely true' but said he 'would have done it again.' Trump told the FT he has no immediate plan to strike, saying he is 'locked and loaded' but 'there may be no reason for it.'",
+    "category": "political",
+    "source": "Spokesman-Review / CBS News / FT / WSJ",
+    "data_point": "'Largely true'"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "day",
+    "title": "Schumer: Iran war 'must end'",
+    "description": "Schumer said 'We are going to end the war' and suggested Congress could use its funding power; Rep. Jason Crow said Congress has voted on seven war powers resolutions and passed two. Democrats lack veto-proof majorities, and the new Congress convenes Jan 3.",
+    "category": "political",
+    "source": "CBS News / Al Jazeera",
+    "data_point": "7 WPR votes"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "day",
+    "title": "Khamenei: no US shift after midterms",
+    "description": "In a written statement on the anniversary of the 1979 embassy seizure, Supreme Leader Mojtaba Khamenei said anyone expecting a US policy change was 'seriously mistaken' and warned renewed attacks would bring a much wider war. He has not appeared publicly since his father was killed in February; rallies outside the former US embassy included a mock execution of Trump aired on state TV.",
+    "category": "political",
+    "source": "Al Jazeera / AFP / CBS News / Iran International",
+    "data_point": "Embassy anniversary"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "day",
+    "title": "Tehran hails 'NO TO WAR' verdict",
+    "description": "Ghalibaf said 'Americans said NO TO WAR,' warning Iran's 'NO' comes with a 'Nightmare' if ignored; Rezaei said Iran handed Trump a 'strategic defeat' and Mokhber said Trump was 'slapped in the face by his own people.' IRGC adviser Moghadamfar threatened targets in the UAE and Bahrain if they host attacks.",
+    "category": "diplomatic",
+    "source": "Al Jazeera / CBS News",
+    "data_point": "Rhetoric"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "day",
+    "title": "Brent sinks below $95",
+    "description": "Brent settled near $94.62, down $8.98 (8.7%), and WTI near $88.12, both the lowest since Aug 31, on the midterm result and Trump's comments on no immediate strikes.",
+    "category": "economic",
+    "source": "Reuters via Business Day / Trading Economics / CBS News",
+    "data_point": "Brent $94.62"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "day",
+    "title": "Treasury widens 'Economic Outcast' sanctions",
+    "description": "Treasury sanctioned Indian nationals Suniel Kumar Sharma and Jaspreet Preeti Shahid for a maritime-fraud network aiding Iran's shadow fleet, plus Turkish firms; Bessent cited 'Operation Economic Outcast.'",
+    "category": "economic",
+    "source": "US Treasury via CBS News / The New Arab",
+    "data_point": "New designations"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "day",
+    "title": "Trump asks advisers about Hegseth's future",
+    "description": "Sources told CBS Trump has asked advisers whether Defense Secretary Hegseth should stay, with some aides inclined to blame Adm. Cooper and Gen. Caine; no decision was made.",
+    "category": "political",
+    "source": "CBS News",
+    "data_point": "No decision"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "day",
+    "title": "China, Lebanon urge restraint",
+    "description": "China's foreign ministry said preventing renewed hostilities is a 'top priority' and an envoy will visit Iran, Oman and Saudi Arabia this month. Lebanese PM Nawaf Salam warned against dragging Lebanon into the 'risks of renewed war.'",
+    "category": "diplomatic",
+    "source": "CBS News",
+    "data_point": "Envoy trip"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "day",
+    "title": "ICRC reaches Taiz hospitals",
+    "description": "The ICRC delivered four trucks of medical supplies to Taiz, its first delivery to the city's hospitals since Sept 23.",
+    "category": "humanitarian",
+    "source": "ICRC via CBS News",
+    "data_point": "4 trucks"
+  },
+  {
+    "date": "2026-11-05",
+    "time": "day",
+    "title": "Trump weighs renewed war: 'You'll know soon enough'",
+    "description": "After national security meetings on Nov 4 and 5, Trump said in the Oval Office he would 'rather not destroy the rest of the country' but 'maybe I'll have to,' adding 'You'll know soon enough.' A US official said CENTCOM is finalizing preparations to resume major combat but has no new directive.",
+    "category": "political",
+    "source": "AP via Khaleej Times / Gulf News / Axios",
+    "data_point": "Decision 'soon'"
+  },
+  {
+    "date": "2026-11-05",
+    "time": "day",
+    "title": "Iran sends nuclear proposal via Qatar",
+    "description": "A senior Iranian official said Tehran sent a nuclear proposal to Washington via Qatar, conditioned on its seven demands; NYT reported Iran reviewing 'concrete proposals' after two rounds in Tehran, one in Doha and talks in Armenia. Fox said it seeks sanctions relief, war-damage compensation and a smaller US presence; Trump said 'They're not doing anything without our approval.'",
+    "category": "diplomatic",
+    "source": "Arab News / NYT via Boston Globe / Fox News",
+    "data_point": "Proposal sent"
+  },
+  {
+    "date": "2026-11-05",
+    "time": "day",
+    "title": "Rezaei delivers Khamenei message to Putin",
+    "description": "Rezaei met Putin at the Kremlin, delivering a message from Mojtaba Khamenei and discussing post-war regional security and a gas pipeline; he briefed Putin on the late-October four-nation Tehran meeting. Russia's Foreign Ministry advised citizens not to travel to Iran, citing the 'risk of a new escalation.'",
+    "category": "diplomatic",
+    "source": "Al Jazeera / Tasnim / TASS / CBS News",
+    "data_point": "Kremlin meeting"
+  },
+  {
+    "date": "2026-11-05",
+    "time": "day",
+    "title": "Oman and Iran work on Hormuz control system",
+    "description": "Oman said it is still working with Iran on a joint mechanism to manage Hormuz traffic that could 'end the state of war.' Araghchi held calls with regional counterparts including Pakistan, Saudi Arabia, the UAE, Turkey, Qatar and Kuwait; Iran called EU foreign policy chief Kallas's accusation that it backs the Houthis 'baseless.'",
+    "category": "diplomatic",
+    "source": "CBS News / Al Jazeera",
+    "data_point": "Joint mechanism"
+  },
+  {
+    "date": "2026-11-05",
+    "time": "day",
+    "title": "Third carrier group en route via Singapore",
+    "description": "The USS Theodore Roosevelt strike group will call at Singapore and is at least two weeks from the Middle East, where two carrier groups are already deployed. Hegseth, in a video outside the Pentagon, called the war historic and urged Congress to approve at least $350B in defense funding.",
+    "category": "military",
+    "source": "CBS News / Fox News / Iran International",
+    "data_point": "3rd CSG"
+  },
+  {
+    "date": "2026-11-05",
+    "time": "day",
+    "title": "Tanker hit north of Qatar; IRGC claims more",
+    "description": "UKMTO said a tanker was hit by two projectiles about 50 NM north of Madinat ash Shamal, Qatar; manager Velos Tankers said one seafarer aboard MT Velos Sapphire was killed (Reuters/gCaptain). The IRGC claimed two tankers and a tug caught fire and said it downed two US MQM-170 drones (unverified).",
+    "category": "military",
+    "source": "UKMTO / Velos Tankers via Reuters / gCaptain / IRGC via CBS News",
+    "data_point": "1 killed"
+  },
+  {
+    "date": "2026-11-05",
+    "time": "day",
+    "title": "Houthis target Dammam and Medina",
+    "description": "The Houthis claimed a drone attack disrupted air traffic at King Fahd International Airport in Dammam (unverified), and the Saudi-led coalition said it intercepted a missile fired at the Medina region; the Houthis denied targeting Medina.",
+    "category": "military",
+    "source": "CBS News",
+    "data_point": "Missile intercepted"
   }
 ]
