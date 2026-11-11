@@ -244,7 +244,19 @@
     "Day 242",
     "Day 243",
     "Day 244",
-    "Day 245"
+    "Day 245",
+    "Day 246",
+    "Day 247",
+    "Day 248",
+    "Day 249",
+    "Day 250",
+    "Day 251",
+    "Day 252",
+    "Day 253",
+    "Day 254",
+    "Day 255",
+    "Day 256",
+    "Day 257"
   ],
   "daily_cost_millions": [
     3000,
@@ -376,6 +388,18 @@
     85,
     85,
     85,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
     500,
     500,
     500,
@@ -738,7 +762,19 @@
     "Day 242 (October 27, Tuesday) — OFFICIAL: CENTCOM estimate ~$47B through mid-October obtained by CBS (~$29B munitions). TWZ: TR CSG and Makin Island ARG reportedly ME-bound. Modeled ~$500M/day; cumulative ~$73.3B.",
     "Day 243 (October 28, Wednesday) — OFFICIAL: Pentagon $47.1B through ~Oct 16 (~$29B munitions, $11.9B ops, $6B equipment losses; ABC News). WSJ: munitions restocking, Patriot to Israel, extra CSG and Marine unit en route. Modeled ~$500M/day; cumulative ~$73.8B. FLAG: ~$26B above the official anchor.",
     "Day 244 (October 29, Thursday) — No new cost data. Modeled ~$500M/day; cumulative ~$74.3B.",
-    "Day 245 (October 30, Friday) — No new cost data. Modeled ~$500M/day (DERIVED); cumulative ~$74.8B. Official-anchored alternative ~$48.3B."
+    "Day 245 (October 30, Friday) — No new cost data. Modeled ~$500M/day (DERIVED); cumulative ~$74.8B. Official-anchored alternative ~$48.3B.",
+    "Day 246 (October 31, Saturday) — Iranian negotiators in Doha; Rubio says no strike decision and no deadline. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$75.3B.",
+    "Day 247 (November 1, Sunday) — Doha round ends without a breakthrough; Trump threatens 'the hammer.' Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$75.8B.",
+    "Day 248 (November 2, Monday) — First acknowledged US strike on Iranian soil since Sep 1 (Qeshm SAM launcher, Nov 2), described as limited and defensive; no change to the modeled rate. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$76.3B.",
+    "Day 249 (November 3, Tuesday) — Midterm elections; Democrats win both chambers. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$76.8B.",
+    "Day 250 (November 4, Wednesday) — No new official cost data. A $95B White House package (war plus other priorities) remains before Congress with no vote reported (Daily Sabah, Oct 28). Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$77.3B.",
+    "Day 251 (November 5, Thursday) — Hegseth urges Congress to approve at least $350B in defense funding (video, Nov 5); CENTCOM reported finalizing preparations to resume major combat, with no new directive. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$77.8B.",
+    "Day 252 (November 6, Friday) — Limited US strike on a Qeshm air-defence site (Nov 6). Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$78.3B.",
+    "Day 253 (November 7, Saturday) — CENTCOM stands up Task Force Iron Gate (~20 staff, Tampa); US aircraft disable M/V Huda (blockade enforcement). Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$78.8B.",
+    "Day 254 (November 8, Sunday) — Iran claims a further US strike on Qeshm (unconfirmed). No new cost data. Tanker transits: Kpler counted 14 vessels including 4 crude tankers about Sun Nov 8 (via Reuters; PROVISIONAL). Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$79.3B.",
+    "Day 255 (November 9, Monday) — Trump: the war 'militarily, is effectively over'; posture held at 'status quo.' Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$79.8B.",
+    "Day 256 (November 10, Tuesday) — Hegseth Pentagon briefing: more than 13,000 targets struck in under 40 days and 'locked and loaded.' No new official cost figure. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$80.3B.",
+    "Day 257 (November 11, Wednesday) — No new official Pentagon, CBO, CRS or CSIS figure located since the $47.1B anchor through ~Oct 16 (~$29B munitions, $11.9B operations, $6B equipment losses; ABC News via Daily Sabah). Official-anchored alternative ~$49.3B (Day 245 ~$48.3B + 12 days × ~$86M/day, CBO's $2-3B/month). FLAG: the modeled series now runs ~$31.5B above the official anchor; recalibration recommended. Modeled ~$500M/day (DERIVED, carried forward); cumulative ~$80.8B."
   ],
   "median_home_price_millions": 0.42,
   "tanker_transits": {
@@ -907,7 +943,8 @@
       "Sep 10",
       "Sep 15",
       "Sep 25",
-      "Oct 6"
+      "Oct 6",
+      "Nov 8"
     ],
     "data": [
       50,
@@ -1074,9 +1111,10 @@
       7,
       4,
       29,
-      7
+      7,
+      14
     ],
     "prewar_daily": 50
   },
-  "last_updated": "2026-10-30"
+  "last_updated": "2026-11-11"
 }

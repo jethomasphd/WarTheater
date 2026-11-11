@@ -5201,11 +5201,12 @@
     "casualties_source": "Saudi-led coalition",
     "active_days": [
       216,
-      230
+      230,
+      251
     ],
-    "notes": "The coalition said the Houthis targeted a power distribution station in Medina; it also reported destroying four Houthi drones over southern Saudi Arabia the same day (Al Jazeera). Damage not reported. Oct 15: the coalition said it intercepted a Houthi missile over Medina (reported as ballistic in one statement, cruise in another); the Houthis called the claim 'a shameless and brazen lie.' Houthis say Mecca and Medina are excluded from their targeting.",
+    "notes": "The coalition said the Houthis targeted a power distribution station in Medina; it also reported destroying four Houthi drones over southern Saudi Arabia the same day (Al Jazeera). Damage not reported. Oct 15: the coalition said it intercepted a Houthi missile over Medina (reported as ballistic in one statement, cruise in another); the Houthis called the claim 'a shameless and brazen lie.' Houthis say Mecca and Medina are excluded from their targeting. Nov 5: the coalition said it intercepted a ballistic missile aimed at the Medina region; the Houthis denied targeting Medina (DISPUTED). The Nov 9 East-West pipeline fire in the Medina region is logged separately (east-west-pipeline-medina-2026-11-09).",
     "verified": true,
-    "last_updated": "2026-10-15"
+    "last_updated": "2026-11-11"
   },
   {
     "id": "riyadh-aramco-refinery",
@@ -5534,10 +5535,189 @@
     "casualties_reported": "None reported",
     "casualties_source": "Saudi-led coalition via AFP/CBS; Houthi denial (Yahya Saree) via EA WorldView",
     "active_days": [
-      245
+      245,
+      249,
+      252,
+      257
     ],
-    "notes": "DISPUTED. The coalition said it intercepted and destroyed a Houthi drone in the Mecca region. Houthi spokesman Yahya Saree denied launching it, saying the group targets only Saudi oil facilities and military bases.",
+    "notes": "DISPUTED. The coalition said it intercepted and destroyed a Houthi drone in the Mecca region. Houthi spokesman Yahya Saree denied launching it, saying the group targets only Saudi oil facilities and military bases. Nov 3: Saudi JFC (al-Maliki) said one drone was intercepted over Mecca Province. Nov 6: a drone was intercepted in the Mecca region (CTP-ISW). Nov 11: the coalition said two drones toward Mecca and the south were intercepted, with Civil Defence alerts in Taif, Yanbu and Khamis Mushait; the Houthis denied targeting Mecca (Reuters). Still DISPUTED.",
     "verified": false,
-    "last_updated": "2026-10-30"
+    "last_updated": "2026-11-11"
+  },
+  {
+    "id": "irgc-sam-us-fighter-qeshm-2026-11-02",
+    "city": "Strait of Hormuz / Qeshm Island, Hormozgan, Iran",
+    "lat": 26.85,
+    "lng": 55.9,
+    "type": "iran_retaliation",
+    "weapon": "Surface-to-air missile (IRGC); separately, a missile fired from Qeshm at commercial shipping",
+    "origin": "Iran (IRGC), Qeshm Island",
+    "first_strike": "2026-11-02",
+    "casualties_reported": "None; the US fighter was not hit and the anti-ship missile was intercepted",
+    "casualties_source": "Two US military officials via WSJ / CNN / CBS / NBC (Nov 2-3); CTP-ISW Iran Update (Nov 3)",
+    "active_days": [
+      248
+    ],
+    "notes": "An IRGC surface-to-air missile was fired at a US fighter over the Strait of Hormuz, and the jet struck the launcher (see strikes-iran us-strike-qeshm-sam-launcher-20261102). The same day the US intercepted an IRGC missile fired from Qeshm at commercial shipping. A US official said the IRGC 'has routinely targeted and shot at US manned and unmanned aircraft' in recent weeks. IRGC/Army drone claims are UNVERIFIED and not logged separately: two MQM-170s 'grounded' and the '55th MQ-9' downed (Nov 2), an MQ-1 (Nov 4), two LUCAS drones seized by electronic warfare (Nov 5), two more MQM-170s (Nov 5), an MQ-1 (Nov 6), and an MQ-9 with a 'new system' (Nov 6-7). CENTCOM rejected a separate capture claim. Coordinates approximate.",
+    "verified": true,
+    "last_updated": "2026-11-11"
+  },
+  {
+    "id": "velos-sapphire-central-gulf-2026-11-05",
+    "city": "Central Arabian Gulf, ~50 nm north of Madinat ash Shamal, Qatar",
+    "lat": 26.96,
+    "lng": 51.2,
+    "type": "iran_retaliation",
+    "weapon": "Two unidentified projectiles (suspected missile)",
+    "origin": "Unclaimed; suspected Iran (attribution unconfirmed)",
+    "first_strike": "2026-11-05",
+    "casualties_reported": "1 seafarer killed; no other injuries (Velos Tankers)",
+    "casualties_source": "UKMTO; Velos Tankers via Reuters / gCaptain / Baird Maritime / Maritime Executive (Nov 5-6)",
+    "active_days": [
+      251
+    ],
+    "notes": "MT Velos Sapphire, a Marshall Islands-flag, Greek-managed products tanker sailing unladen to Bahrain, was hit at 23:13-23:20 UTC Nov 4 (about 02:20 local Nov 5). The fire was extinguished and the ship was taken to Khalifa Bin Salman Port, Bahrain. This is the deepest-in-Gulf attack of the window, far from Hormuz. The Philippine Department of Migrant Workers reports the victim as Filipino (PROVISIONAL, from search snippets; the Reuters text gives no nationality). Logged once despite the Nov 4 (UTC) / Nov 5 (local) dating. Coordinates approximate.",
+    "verified": true,
+    "last_updated": "2026-11-11"
+  },
+  {
+    "id": "hormuz-ship-attacks-2026-10-30-to-11-11",
+    "city": "Strait of Hormuz approaches (Musandam: Khasab and Lima, Oman), UAE waters and Gulf of Oman",
+    "lat": 26.2,
+    "lng": 56.4,
+    "type": "iran_retaliation",
+    "weapon": "Unidentified projectiles and UAVs; naval mines claimed by Iran",
+    "origin": "Mostly unclaimed; suspected Iran. The IRGC claims daily mine strikes; CENTCOM (Oct 30) says the mines Iran laid early in the war were cleared.",
+    "first_strike": "2026-10-30",
+    "casualties_reported": "1 Indian seafarer killed and 13 rescued from the dhow MSV Al Jusufi, struck off Oman on Nov 2 (India MEA; UKMTO). No casualties reported in the other logged incidents.",
+    "casualties_source": "UKMTO / Ambrey / Nakilat / ADNOC via WAM / India MEA; via Middle East Eye, gCaptain, Maritime Executive, Riviera, Asharq Al-Awsat, Gulf News",
+    "active_days": [
+      245,
+      247,
+      248,
+      252,
+      253,
+      256,
+      257
+    ],
+    "notes": "Confirmed incidents, all excluding Velos Sapphire (logged separately): Oct 30 (evening): LNG carrier Al Mayeda (Nakilat) hit ~13 nm west of Al Jazirah Al Hamra, Ras al-Khaimah. Fire extinguished; all 25 crew safe. Nov 1: unnamed vessel holed on the starboard side by a projectile off Lima, Oman. Nov 2: Indian-crewed dhow MSV Al Jusufi struck off Oman during an outbound transit. 1 killed; 13 rescued by the Royal Navy of Oman. Nov 6: unnamed tanker had an explosion at the waterline while leaving the strait. Crew safe. Nov 7: two outbound tankers hit, ~15 nm north and ~8 nm northwest of Khasab. UKMTO 199-26 was reclassified as an attack; OSINT tentatively names Navig8 Messi (UNVERIFIED). Nov 10: Barbados-flag tanker SEA 1 hit by a UAV ~19 nm northeast of Lima (UKMTO 201-26). Nov 10: an ADNOC L&S vessel was damaged in UAE waters (ADNOC/WAM; the UAE called it a 'grave threat'). Nov 11: a merchant vessel was disabled by a projectile in its engine room ~7 nm northeast of Lima (Ambrey). It may be the Saudi-flag NCC Fajr (UKMTO 202-26 'suspicious activity'; 3 Indian crew safe). The UKMTO weekly report (week to ~Nov 4-6) counts 11 ships attacked and 3 sunk (unnamed). Also reported but NOT counted pending dedupe: on Oct 30 the Panama-flag tanker RITI was targeted and set afire 1.6 NM off Musandam, and all 25 crew were evacuated by the Royal Navy of Oman (Oman MSC via Reuters / Oman Observer; same crew count as Al Mayeda, so possible conflation). UKMTO via CBS also reported a ship hit 40 NM south of Lavan Island (Oct 30) and a tanker hit by two projectiles 72 NM east of Ras al-Khafji (Nov 2). Iranian mine and 'halted' claims are UNVERIFIED and excluded: about 25-30 hulls claimed Oct 31-Nov 11, with heavy overlap. The 'four tankers on fire after mines' claim is dated Wed Nov 4. Coordinates are a regional centroid.",
+    "verified": true,
+    "last_updated": "2026-11-11"
+  },
+  {
+    "id": "riyadh-houthi-salvos-2026-11",
+    "city": "Riyadh, Saudi Arabia (incl. King Abdullah Financial District)",
+    "lat": 24.7646,
+    "lng": 46.6412,
+    "type": "iran_retaliation",
+    "weapon": "Ballistic missiles, cruise missiles and drones",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-11-02",
+    "casualties_reported": "None reported. Intercept shrapnel caused minor damage to a Saudi Aramco administrative tower in KAFD on Nov 8.",
+    "casualties_source": "Saudi Joint Forces Command (Maj. Gen. al-Maliki) via Anadolu / ABC News / Gulf News / Reuters; Saudi Energy Ministry (KAFD damage)",
+    "active_days": [
+      248,
+      253,
+      254,
+      256,
+      257
+    ],
+    "notes": "Confirmed intercepts: Nov 2: two drones over Riyadh Province, plus a ballistic missile over southern Saudi Arabia. Nov 7: a missile toward Riyadh Province and a ballistic missile toward the Eastern Region. Nov 8: 3 ballistic missiles, 2 cruise missiles and 1 drone, including 2 ballistic and 2 cruise missiles at Riyadh. Falling shrapnel caused 'minor damage' to an Aramco administrative tower in King Abdullah Financial District, with no casualties (Saudi Energy Ministry). A Reuters witness saw blown-out windows across several floors. Houthi spokesman Saree claimed the attack. Nov 10: a ballistic missile at Riyadh was intercepted; explosions were heard. Nov 11: 3 cruise missiles toward Riyadh were intercepted (Reuters). UNVERIFIED Houthi claims, not logged as separate entries: King Khalid International Airport 'extensive damage' (Nov 4), Aramco storage tanks and Abqaiq (Nov 8), and 'several pumping stations' near Riyadh (Nov 10). Coordinates: KAFD.",
+    "verified": true,
+    "last_updated": "2026-11-11"
+  },
+  {
+    "id": "najran-bm-intercept-2026-11-06",
+    "city": "Najran, Najran Province, Saudi Arabia",
+    "lat": 17.4924,
+    "lng": 44.1277,
+    "type": "drone_attack_intercepted",
+    "weapon": "Two ballistic missiles (intercepted)",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-11-06",
+    "casualties_reported": "None reported; debris fell and a damage assessment was under way",
+    "casualties_source": "Saudi-led coalition via CBS News; CTP-ISW Iran Update (Nov 6)",
+    "active_days": [
+      252
+    ],
+    "notes": "Two Houthi ballistic missiles were intercepted near Najran, with debris falling and civil-defence alerts. Damage to Najran airport facilities is NOT confirmed, so the airports count is unchanged.",
+    "verified": true,
+    "last_updated": "2026-11-11"
+  },
+  {
+    "id": "east-west-pipeline-medina-2026-11-09",
+    "city": "East-West (Petroline) pipeline, Medina region, Saudi Arabia",
+    "lat": 24.5,
+    "lng": 39.6,
+    "type": "iran_retaliation",
+    "weapon": "Not specified",
+    "origin": "Unattributed: the Saudi Energy Ministry named no perpetrator; occurred amid the Houthi campaign on Saudi energy",
+    "first_strike": "2026-11-09",
+    "casualties_reported": "None",
+    "casualties_source": "Saudi Energy Ministry via Saudi Press Agency / AFP / Gulf News / Okaz (Nov 9)",
+    "active_days": [
+      255
+    ],
+    "notes": "An energy ministry official said the pipeline was 'targeted' and a 'limited fire' broke out. It was extinguished, with no casualties and no disruption to operations. Cause under investigation. This follows the Oct 4 Khurais pumping-station hit (khurais-east-west-pipeline-pumping-station) and the September drone strike on the line. Exact location NOT published; coordinates are the Medina-region centroid.",
+    "verified": true,
+    "last_updated": "2026-11-11"
+  },
+  {
+    "id": "qatabah-dhale-camp-2026-11-04",
+    "city": "Qatabah District, Al Dhale Governorate, Yemen",
+    "lat": 13.86,
+    "lng": 44.7,
+    "type": "houthi_attack",
+    "weapon": "Ballistic missile",
+    "origin": "Houthis (Ansar Allah), Iran-aligned",
+    "first_strike": "2026-11-04",
+    "casualties_reported": "At least 11 government soldiers killed and at least 60 wounded",
+    "casualties_source": "Yemeni media and journalists via CTP-ISW Iran Update (Nov 4)",
+    "active_days": [
+      250
+    ],
+    "notes": "A Houthi ballistic missile hit a Yemeni government military camp. Casualty figures come from Yemeni media and were not independently verified. Wider Yemen front in-window: government forces took Jabal Huwayshiyan near al-Hazm (Oct 31). Houthis took Souq al-Roubah (Nov 1) and Jabal Irf (Nov 2); government forces retook Jabal Irf (Nov 3) and gained ground at Jabal Dahida, al-Jawf (Nov 2-6), with Saudi Apache and air support. Coordinates approximate.",
+    "verified": false,
+    "last_updated": "2026-11-11"
+  },
+  {
+    "id": "khor-mor-gas-field-2026-11-08",
+    "city": "Khor Mor gas field, Chamchamal, Kurdistan Region, Iraq",
+    "lat": 35.06,
+    "lng": 44.74,
+    "type": "non_state_actor_kinetic",
+    "weapon": "Suspected drone",
+    "origin": "Unclaimed. A security source told Rudaw it was launched from east of Tuz Khurmatu. A Nov 7 statement by Kataib Hezbollah security chief Abu Mujahid al-Assaf hinted at grievances against the UAE; operator Dana Gas is UAE-based.",
+    "first_strike": "2026-11-08",
+    "casualties_reported": "None",
+    "casualties_source": "Dana Gas; Iraqi prime minister's office; KRG Electricity Ministry; via Long War Journal / Jerusalem Post (Nov 9)",
+    "active_days": [
+      254
+    ],
+    "notes": "At 23:10 local on Sun Nov 8, a suspected drone hit the LPG storage and truck-loading unit. The fire was extinguished. Production was suspended, and about 2,800 MW of generation in the Kurdistan Region was lost (KRG Electricity Ministry). US envoy Tom Barrack condemned the attack. Attribution is UNVERIFIED. No militia attacks on US forces or Kuwait were found in-window. Coordinates approximate.",
+    "verified": true,
+    "last_updated": "2026-11-11"
+  },
+  {
+    "id": "south-lebanon-israeli-strikes-2026-11",
+    "city": "Qabrikha (Marjayoun) and villages across southern Lebanon",
+    "lat": 33.24,
+    "lng": 35.49,
+    "type": "israel_kinetic_lebanon",
+    "weapon": "Israeli drone and air strikes; artillery",
+    "origin": "Israel (IDF)",
+    "first_strike": "2026-11-04",
+    "casualties_reported": "1 killed (Muhammad Nasser Yousef, a paramedic with the Amal-affiliated Risala Scouts) and 1 wounded at Qabrikha, Nov 4. Olive harvesters injured Nov 9 (number not reported).",
+    "casualties_source": "Lebanese Health Ministry via Times of Israel (Nov 5); CFR Global Conflict Tracker; Janoubia via APA (Nov 9)",
+    "active_days": [
+      250,
+      252,
+      253,
+      255,
+      256
+    ],
+    "notes": "Times of Israel calls the Nov 4 drone strike at Qabrikha 'the first Israeli airstrike in southern Lebanon in weeks.' CFR reports the same Nov 4 event as an airstrike on a motorcycle. Nov 4: shelling of al-Mansouri and Wadi Zibqin. Nov 6: airstrike on Bint Jbeil. Nov 7: detonation and shelling in Bani Hayyan; shelling of Zawtar al-Sharqiyah. Nov 9: airstrikes on Kfar Tibnit, Mayfadun, Markaba, Tallousa and al-Qantara; drone strikes on Deir Mimas and al-Jarmaq; artillery on Majdal Zoun, Haddatha, Haris and al-Majadel. Nov 10: airstrike on Qantara; artillery near al-Mansouri and Majdal Zoun. No Hezbollah attacks were reported (CTP-ISW; CFR). Israel-Lebanon talks remain stalled over Hezbollah disarmament. Do NOT confuse with a Nov 5, 2023 Aynata car strike that resurfaces in searches. Coordinates: Qabrikha, approximate.",
+    "verified": true,
+    "last_updated": "2026-11-11"
   }
 ]

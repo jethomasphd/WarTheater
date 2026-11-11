@@ -10906,5 +10906,788 @@
     "category": "humanitarian",
     "source": "OCHA via EA WorldView",
     "data_point": "281,000+ displaced"
+  },
+  {
+    "date": "2026-10-30",
+    "time": "day",
+    "title": "Qatari LNG carrier Al Mayeda struck near Hormuz",
+    "description": "Nakilat said its Marshall Islands-flagged LNG carrier Al Mayeda, sailing from Qatar to Pakistan, was struck by 'unidentified objects' on the evening of Oct 30 while approaching the Strait; all 25 crew were safe and the ship remained operational. Bloomberg reported Iran had cleared its passage hours earlier at Pakistan's request. Qatar condemned the attack and said it reserves the right to take 'all necessary measures'; the UAE also condemned it.",
+    "category": "military",
+    "source": "Nakilat / QNA / Bloomberg via gCaptain / Al Jazeera / Khaleej Times",
+    "data_point": "25 crew safe"
+  },
+  {
+    "date": "2026-10-30",
+    "time": "day",
+    "title": "Oman evacuates 25 from burning tanker RITI",
+    "description": "Oman's Maritime Security Centre said the Panama-flagged tanker RITI was targeted and caught fire 1.6 NM off Musandam; the Royal Navy of Oman evacuated all 25 crew. UKMTO separately reported a ship hit by an unknown projectile 40 NM south of Iran's Lavan Island with a fire on board, and a crude tanker struck while exiting the Strait.",
+    "category": "military",
+    "source": "Oman MSC via Reuters / Oman Observer / UKMTO",
+    "data_point": "25 evacuated"
+  },
+  {
+    "date": "2026-10-30",
+    "time": "day",
+    "title": "Friday prayers air call to revisit nuclear doctrine",
+    "description": "Tehran's interim Friday prayer leader called a revision of Iran's nuclear doctrine a 'national demand' (BBC Persian). SNSC Secretary Rezaei said Europe must now pay the costs of the war.",
+    "category": "political",
+    "source": "BBC Persian / Iran International",
+    "data_point": "Doctrine debate"
+  },
+  {
+    "date": "2026-10-30",
+    "time": "day",
+    "title": "Iran claims drone and USV kills; CENTCOM denies",
+    "description": "The IRGC said it downed and captured a US MQM-170 drone over Qeshm using electronic warfare, and Iran's navy said it destroyed an 'enemy' unmanned vessel east of Hormuz. CENTCOM denied losing any vessel.",
+    "category": "military",
+    "source": "Iran International / Middle East Monitor",
+    "data_point": "UNVERIFIED claims"
+  },
+  {
+    "date": "2026-10-31",
+    "time": "day",
+    "title": "Iranian team in Doha; Araghchi rules out US meeting",
+    "description": "Iranian negotiators held talks with Qatari mediators in Doha a day after a 12-hour session in Tehran (Reuters). Araghchi told Al Jazeera the US outreach was 'a positive step' but Iran sees 'no need to meet with the Americans at this stage'; he said the current proposal cuts Iran's Hormuz reopening timeline to two days, after Qatar proposed five.",
+    "category": "diplomatic",
+    "source": "Reuters via The National / Al Jazeera",
+    "data_point": "2-day plan"
+  },
+  {
+    "date": "2026-10-31",
+    "time": "day",
+    "title": "Rezaei: Vance letter studied, not answered",
+    "description": "SNSC Secretary Mohsen Rezaei told state TV he had studied the Vance letter but not replied, calling Washington's changed tone a good sign, and said Iran will not resume talks or reopen Hormuz until its seven conditions are met. He said officials are discussing whether to keep Iran's nuclear policy if war resumes, but no decision has been made.",
+    "category": "diplomatic",
+    "source": "IRIB via The National / Iran International",
+    "data_point": "7 conditions"
+  },
+  {
+    "date": "2026-10-31",
+    "time": "day",
+    "title": "Rubio: no strike decision, no deadline",
+    "description": "At a G20 foreign ministers' meeting in Atlanta, Rubio said Trump had set no deadline for diplomacy and made no decision on further strikes; any deal must address core US security concerns and the US retains the military option.",
+    "category": "political",
+    "source": "The National / i24NEWS / Al Jazeera",
+    "data_point": "No deadline"
+  },
+  {
+    "date": "2026-10-31",
+    "time": "day",
+    "title": "Khamenei reportedly orders wider target list",
+    "description": "Armed forces chief Maj. Gen. Ali Abdollahi said Iran would answer any attack with 'immense force' and no geographic limits on Supreme Leader Mojtaba Khamenei's orders; Khamenei reportedly told commanders to expand the list of US and Israeli targets (CTP-ISW). Army spokesman Akraminia said Iran will receive Russian Su-35s after the war.",
+    "category": "military",
+    "source": "Al Jazeera / The National / CTP-ISW / Tabnak",
+    "data_point": "No geographic limits"
+  },
+  {
+    "date": "2026-10-31",
+    "time": "day",
+    "title": "Iran says US fired on fishing boats off Qeshm",
+    "description": "Iranian state media said US forces attacked two fishing boats off Qeshm, leaving two missing and one wounded; there was no US confirmation. Iran's navy claimed a tanker caught fire after hitting mines east of the Strait.",
+    "category": "military",
+    "source": "Iranian state media via Express Tribune / Al Arabiya",
+    "data_point": "UNVERIFIED"
+  },
+  {
+    "date": "2026-11-01",
+    "time": "day",
+    "title": "Doha round ends; Tehran cites shuttle diplomacy",
+    "description": "Iranian negotiators ended three days of talks with Qatari mediators in Doha with a draft proposal circulating (BBC Persian). Araghchi said Tehran is pursuing shuttle diplomacy through Qatari and Pakistani mediators and no meeting with US officials is planned.",
+    "category": "diplomatic",
+    "source": "BBC Persian / Anadolu",
+    "data_point": "3 days of talks"
+  },
+  {
+    "date": "2026-11-01",
+    "time": "day",
+    "title": "Iran blacklists Royal Navy and RAF",
+    "description": "Iran's Foreign Ministry designated the UK's Royal Navy and Royal Air Force terrorist organizations and MI6 a hostile group, citing Britain's 'illegal and hostile actions'. UK Defence Secretary Wes Streeting called it 'bare-faced cheek' on Nov 2.",
+    "category": "diplomatic",
+    "source": "Iranian MFA via Middle East Monitor / ITV / The JC",
+    "data_point": "RN, RAF listed"
+  },
+  {
+    "date": "2026-11-01",
+    "time": "day",
+    "title": "Trump: Iran may need 'the hammer'",
+    "description": "At a rally in Dubuque, Iowa, two days before the midterms, Trump said he was holding back to save lives but 'at some point we're going to have to give them the hammer.' He also said 'Either they'll make a deal, or we'll just end it,' after what he called a 'very good talk' with Netanyahu on Saturday.",
+    "category": "political",
+    "source": "AFP via EWN / CBS News / Axios",
+    "data_point": "Pre-midterm threat"
+  },
+  {
+    "date": "2026-11-01",
+    "time": "day",
+    "title": "Vessel holed off Lima; IRGC claims two tankers",
+    "description": "UKMTO said a vessel hit by an unknown projectile about 9 NM off Lima, Oman, was holed on its starboard side; all crew were safe. The IRGC Navy said two tankers exploded after hitting mines in Hormuz.",
+    "category": "military",
+    "source": "UKMTO via CBS News / IRGC via Middle East Eye",
+    "data_point": "IRGC claim UNVERIFIED"
+  },
+  {
+    "date": "2026-11-02",
+    "time": "day",
+    "title": "Oil plunges 7.6% on deal hopes",
+    "description": "Brent settled at $104.77, down $8.66 (7.63%), after Trump posted that Iran 'wants a settlement, as soon as possible' and a deal 'could happen'. Vance said there had been 'some progress' and he and Trump 'feel pretty good' about a negotiated settlement.",
+    "category": "economic",
+    "source": "Reuters via Nation Thailand / CBS News / NYT",
+    "data_point": "Brent $104.77"
+  },
+  {
+    "date": "2026-11-02",
+    "time": "day",
+    "title": "Iran offers two-day timeline; 'ball in US court'",
+    "description": "Araghchi said talks were 'proceeding very intensively' and Tehran had proposed cutting the deal's implementation period from seven days to two. Spokesman Baqaei said the plan could be implemented within two days if Washington lifts the blockade and ends hostilities, adding 'the ball is in the U.S. court.' First VP Aref claimed intermediaries' messages showed US acknowledgment of Iran's 'victory.'",
+    "category": "diplomatic",
+    "source": "CBS News / Al Jazeera / Iran International",
+    "data_point": "7 days to 2"
+  },
+  {
+    "date": "2026-11-02",
+    "time": "day",
+    "title": "US strikes Qeshm after IRGC fires on aircraft",
+    "description": "US officials said limited defensive strikes hit Iranian targets on Qeshm Island late Monday after the IRGC fired surface-to-air missiles at a US aircraft; WSJ first reported them, and an official said it was not 'the start of expanded strikes.' IRNA reported explosions on Qeshm and Fars in Bandar Lengeh; the IRGC claimed it captured two US MQM-170s and downed an MQ-9 (unverified).",
+    "category": "military",
+    "source": "WSJ / AP / Fox News via Al Jazeera / CBS News / IRNA",
+    "data_point": "Limited strikes"
+  },
+  {
+    "date": "2026-11-02",
+    "time": "day",
+    "title": "AP: Netanyahu presses for post-midterm strikes",
+    "description": "AP, citing regional officials, reported Netanyahu is pressing Trump for another wave of strikes after the midterms; Axios said Trump preferred to let negotiations play out. At the Lincoln Memorial Trump said 'it's not a war.'",
+    "category": "political",
+    "source": "AP / Axios via CBS News",
+    "data_point": "Strike pressure"
+  },
+  {
+    "date": "2026-11-02",
+    "time": "day",
+    "title": "Indian sailor killed as vessel hit off Oman",
+    "description": "India said an unidentified aerial object struck an Indian vessel off Oman; one Indian national was killed and 13 were rescued by Oman's coast guard. CBS identified the vessel as the dhow MSV Al Jusufi; no one claimed responsibility.",
+    "category": "humanitarian",
+    "source": "India MEA via AP / CBS News",
+    "data_point": "1 killed"
+  },
+  {
+    "date": "2026-11-02",
+    "time": "day",
+    "title": "Record October for ship attacks",
+    "description": "CBS, citing UKMTO, said October saw a record 30 attacks on commercial vessels; Iran's IRIB claimed 11 tankers caught fire in nine days, disputing CENTCOM's Adm. Cooper that routes were clear. UKMTO reported a tanker hit by two projectiles 72 NM east of Ras al-Khafji.",
+    "category": "military",
+    "source": "UKMTO via CBS News / IRIB / Khaama Press",
+    "data_point": "30 attacks in Oct"
+  },
+  {
+    "date": "2026-11-02",
+    "time": "day",
+    "title": "Iran warns of winter gas shortages",
+    "description": "First Vice President Aref said Iran faces gas shortages, partly from war damage, and asked the public to conserve, warning of higher prices for heavy users. AFP reported Tehran residents crowding cafes amid inflation and war anxiety.",
+    "category": "economic",
+    "source": "Iran International / AFP via CBS News",
+    "data_point": "Gas shortfall"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "day",
+    "title": "Democrats sweep Congress in war-shadowed midterms",
+    "description": "Democrats won both chambers: by early Nov 4, AP tallies showed a 54-44 Senate majority after seven flips (Alaska, Mississippi outstanding) and a 228-139 House lead, up 19, with races uncalled. An AP Election Day poll found about 60% of voters called the Iran war the 'wrong decision' and about a third said it was a key factor.",
+    "category": "political",
+    "source": "AP / NPR / NBC News / The Week",
+    "data_point": "Senate 54-44"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "day",
+    "title": "Ghalibaf: Iran sent 'firm and rational response'",
+    "description": "Chief negotiator and Speaker Ghalibaf said Tehran had delivered a 'firm and rational response' and it is up to Washington to prevent new fighting, with Iran's 'finger on the trigger.' Rezaei called the US response 'not convincing,' and Baqaei said any deal must halt the war on all fronts, including Lebanon.",
+    "category": "diplomatic",
+    "source": "AP / CBS News",
+    "data_point": "Reply delivered"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "day",
+    "title": "Qatar expects feedback within 36 hours",
+    "description": "A Qatari official told Reuters both sides were studying mediators' new suggestions, with feedback expected within 36 hours. Spokesman Majed Al Ansari said Qatar remains hopeful for an interim deal after its delegation returned from Tehran.",
+    "category": "diplomatic",
+    "source": "Reuters / Qatar MFA via CBS News",
+    "data_point": "36 hours"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "day",
+    "title": "Iran 'retains the right' to respond after Qeshm strikes",
+    "description": "Deputy FM Gharibabadi said Iran retains the right to self-defense after the US strikes, and the IRGC said the Supreme Leader's orders had been conveyed and Iran will set the 'time and conditions' for ending attacks. UKMTO said two projectiles hit a tanker's engine room off northeast Oman (no injuries); the IRGC claimed three tankers hit mines.",
+    "category": "military",
+    "source": "CBS News / UKMTO / CTP-ISW",
+    "data_point": "Engine room hit"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "day",
+    "title": "Trump: $4B annual aid to Israel to end",
+    "description": "Trump told Fox News the US will stop its roughly $4B a year in aid to Israel by year's end while still selling arms, saying it was agreed with Netanyahu: 'You can consider it barter.'",
+    "category": "political",
+    "source": "AP / Fox News / CBS News",
+    "data_point": "$4B/yr"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "day",
+    "title": "Aramco Q3 profit jumps 35%",
+    "description": "Saudi Aramco's third-quarter net profit rose 35% to $36.3B on an average realized price of $95.20 a barrel, versus $70.10 a year earlier. The AFC moved the 2027 Asian Cup in Saudi Arabia forward to Dec 23.",
+    "category": "economic",
+    "source": "CBS News",
+    "data_point": "$36.3B"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "day",
+    "title": "Israeli opposition backs Eisenkot",
+    "description": "Israel's opposition leaders met for the first time since the Oct 27 election and agreed to recommend Yashar leader Gadi Eisenkot to form the first coalition.",
+    "category": "political",
+    "source": "AP",
+    "data_point": "Eisenkot recommended"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "day",
+    "title": "Vance: 'The reason we lost is the war'",
+    "description": "Vance posted that 'The reason we lost is the war,' citing 2024 Trump voters who backed Democrats; Trump called that 'largely true' but said he 'would have done it again.' Trump told the FT he has no immediate plan to strike, saying he is 'locked and loaded' but 'there may be no reason for it.'",
+    "category": "political",
+    "source": "Spokesman-Review / CBS News / FT / WSJ",
+    "data_point": "'Largely true'"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "day",
+    "title": "Schumer: Iran war 'must end'",
+    "description": "Schumer said 'We are going to end the war' and suggested Congress could use its funding power; Rep. Jason Crow said Congress has voted on seven war powers resolutions and passed two. Democrats lack veto-proof majorities, and the new Congress convenes Jan 3.",
+    "category": "political",
+    "source": "CBS News / Al Jazeera",
+    "data_point": "7 WPR votes"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "day",
+    "title": "Khamenei: no US shift after midterms",
+    "description": "In a written statement on the anniversary of the 1979 embassy seizure, Supreme Leader Mojtaba Khamenei said anyone expecting a US policy change was 'seriously mistaken' and warned renewed attacks would bring a much wider war. He has not appeared publicly since his father was killed in February; rallies outside the former US embassy included a mock execution of Trump aired on state TV.",
+    "category": "political",
+    "source": "Al Jazeera / AFP / CBS News / Iran International",
+    "data_point": "Embassy anniversary"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "day",
+    "title": "Tehran hails 'NO TO WAR' verdict",
+    "description": "Ghalibaf said 'Americans said NO TO WAR,' warning Iran's 'NO' comes with a 'Nightmare' if ignored; Rezaei said Iran handed Trump a 'strategic defeat' and Mokhber said Trump was 'slapped in the face by his own people.' IRGC adviser Moghadamfar threatened targets in the UAE and Bahrain if they host attacks.",
+    "category": "diplomatic",
+    "source": "Al Jazeera / CBS News",
+    "data_point": "Rhetoric"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "day",
+    "title": "Brent sinks below $95",
+    "description": "Brent settled near $94.62, down $8.98 (8.7%), and WTI near $88.12, both the lowest since Aug 31, on the midterm result and Trump's comments on no immediate strikes.",
+    "category": "economic",
+    "source": "Reuters via Business Day / Trading Economics / CBS News",
+    "data_point": "Brent $94.62"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "day",
+    "title": "Treasury widens 'Economic Outcast' sanctions",
+    "description": "Treasury sanctioned Indian nationals Suniel Kumar Sharma and Jaspreet Preeti Shahid for a maritime-fraud network aiding Iran's shadow fleet, plus Turkish firms; Bessent cited 'Operation Economic Outcast.'",
+    "category": "economic",
+    "source": "US Treasury via CBS News / The New Arab",
+    "data_point": "New designations"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "day",
+    "title": "Trump asks advisers about Hegseth's future",
+    "description": "Sources told CBS Trump has asked advisers whether Defense Secretary Hegseth should stay, with some aides inclined to blame Adm. Cooper and Gen. Caine; no decision was made.",
+    "category": "political",
+    "source": "CBS News",
+    "data_point": "No decision"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "day",
+    "title": "China, Lebanon urge restraint",
+    "description": "China's foreign ministry said preventing renewed hostilities is a 'top priority' and an envoy will visit Iran, Oman and Saudi Arabia this month. Lebanese PM Nawaf Salam warned against dragging Lebanon into the 'risks of renewed war.'",
+    "category": "diplomatic",
+    "source": "CBS News",
+    "data_point": "Envoy trip"
+  },
+  {
+    "date": "2026-11-04",
+    "time": "day",
+    "title": "ICRC reaches Taiz hospitals",
+    "description": "The ICRC delivered four trucks of medical supplies to Taiz, its first delivery to the city's hospitals since Sept 23.",
+    "category": "humanitarian",
+    "source": "ICRC via CBS News",
+    "data_point": "4 trucks"
+  },
+  {
+    "date": "2026-11-05",
+    "time": "day",
+    "title": "Trump weighs renewed war: 'You'll know soon enough'",
+    "description": "After national security meetings on Nov 4 and 5, Trump said in the Oval Office he would 'rather not destroy the rest of the country' but 'maybe I'll have to,' adding 'You'll know soon enough.' A US official said CENTCOM is finalizing preparations to resume major combat but has no new directive.",
+    "category": "political",
+    "source": "AP via Khaleej Times / Gulf News / Axios",
+    "data_point": "Decision 'soon'"
+  },
+  {
+    "date": "2026-11-05",
+    "time": "day",
+    "title": "Iran sends nuclear proposal via Qatar",
+    "description": "A senior Iranian official said Tehran sent a nuclear proposal to Washington via Qatar, conditioned on its seven demands; NYT reported Iran reviewing 'concrete proposals' after two rounds in Tehran, one in Doha and talks in Armenia. Fox said it seeks sanctions relief, war-damage compensation and a smaller US presence; Trump said 'They're not doing anything without our approval.'",
+    "category": "diplomatic",
+    "source": "Arab News / NYT via Boston Globe / Fox News",
+    "data_point": "Proposal sent"
+  },
+  {
+    "date": "2026-11-05",
+    "time": "day",
+    "title": "Rezaei delivers Khamenei message to Putin",
+    "description": "Rezaei met Putin at the Kremlin, delivering a message from Mojtaba Khamenei and discussing post-war regional security and a gas pipeline; he briefed Putin on the late-October four-nation Tehran meeting. Russia's Foreign Ministry advised citizens not to travel to Iran, citing the 'risk of a new escalation.'",
+    "category": "diplomatic",
+    "source": "Al Jazeera / Tasnim / TASS / CBS News",
+    "data_point": "Kremlin meeting"
+  },
+  {
+    "date": "2026-11-05",
+    "time": "day",
+    "title": "Oman and Iran work on Hormuz control system",
+    "description": "Oman said it is still working with Iran on a joint mechanism to manage Hormuz traffic that could 'end the state of war.' Araghchi held calls with regional counterparts including Pakistan, Saudi Arabia, the UAE, Turkey, Qatar and Kuwait; Iran called EU foreign policy chief Kallas's accusation that it backs the Houthis 'baseless.'",
+    "category": "diplomatic",
+    "source": "CBS News / Al Jazeera",
+    "data_point": "Joint mechanism"
+  },
+  {
+    "date": "2026-11-05",
+    "time": "day",
+    "title": "Third carrier group en route via Singapore",
+    "description": "The USS Theodore Roosevelt strike group will call at Singapore and is at least two weeks from the Middle East, where two carrier groups are already deployed. Hegseth, in a video outside the Pentagon, called the war historic and urged Congress to approve at least $350B in defense funding.",
+    "category": "military",
+    "source": "CBS News / Fox News / Iran International",
+    "data_point": "3rd CSG"
+  },
+  {
+    "date": "2026-11-05",
+    "time": "day",
+    "title": "Tanker hit north of Qatar; IRGC claims more",
+    "description": "UKMTO said a tanker was hit by two projectiles about 50 NM north of Madinat ash Shamal, Qatar; manager Velos Tankers said one seafarer aboard MT Velos Sapphire was killed (Reuters/gCaptain). The IRGC claimed two tankers and a tug caught fire and said it downed two US MQM-170 drones (unverified).",
+    "category": "military",
+    "source": "UKMTO / Velos Tankers via Reuters / gCaptain / IRGC via CBS News",
+    "data_point": "1 killed"
+  },
+  {
+    "date": "2026-11-05",
+    "time": "day",
+    "title": "Houthis target Dammam and Medina",
+    "description": "The Houthis claimed a drone attack disrupted air traffic at King Fahd International Airport in Dammam (unverified), and the Saudi-led coalition said it intercepted a missile fired at the Medina region; the Houthis denied targeting Medina.",
+    "category": "military",
+    "source": "CBS News",
+    "data_point": "Missile intercepted"
+  },
+  {
+    "date": "2026-11-06",
+    "time": "day",
+    "title": "US hits Qeshm air defenses; Trump calls it 'minor'",
+    "description": "US forces struck Iranian air defenses on Qeshm Island, the first strike since the midterms; Tasnim and IRNA said two missiles hit the Suza area. Trump called it 'minor,' saying an anti-aircraft site was knocked out 'in about 15 minutes, maybe five.' Iran said it shot down a US MQ-1 over Qeshm (unverified).",
+    "category": "military",
+    "source": "Tasnim / IRNA via Reuters / Times of Israel / Fox News / CTP-ISW",
+    "data_point": "1st post-midterm strike"
+  },
+  {
+    "date": "2026-11-06",
+    "time": "day",
+    "title": "Trump calls Qatar's emir; Doha denies collapse",
+    "description": "The emir's office said Trump called to discuss de-escalation, and Qatar's media office rejected reports the PM said talks had failed. Trump said 'We are doing very well with Iran' and that Iran wants a deal 'very badly.'",
+    "category": "diplomatic",
+    "source": "QNA via The New Arab / Fox News / Middle East Eye",
+    "data_point": "Talks continue"
+  },
+  {
+    "date": "2026-11-06",
+    "time": "day",
+    "title": "Tehran demands action, not paper",
+    "description": "SNSC deputy Ali Bagheri said Iran will no longer rely on written US commitments and needs practical steps first (IRNA). IRGC aerospace adviser Ali Balali said any country helping a new US attack would be a legitimate target.",
+    "category": "diplomatic",
+    "source": "IRNA via Iran International / Tasnim via Fox News",
+    "data_point": "Hard line"
+  },
+  {
+    "date": "2026-11-06",
+    "time": "day",
+    "title": "Treasury targets Canadian exchangers, MEXC",
+    "description": "Treasury sanctioned eight Canada-based money services businesses accused of helping Iran evade restrictions, including IRGC-linked crypto activity, and barred US banks from dealing with exchange MEXC Global. Bessent: 'Canada cannot be a safe haven for illicit financial facilitators.'",
+    "category": "economic",
+    "source": "US Treasury via Fox News / Middle East Eye",
+    "data_point": "8 firms"
+  },
+  {
+    "date": "2026-11-06",
+    "time": "day",
+    "title": "US offers $20M for nuclear program tips",
+    "description": "CENTCOM announced a Rewards for Justice offer of up to $20M, plus possible relocation, for information on Iran's nuclear facilities, equipment, personnel and material movements.",
+    "category": "political",
+    "source": "CENTCOM / State Dept via Fox News / Times of Israel",
+    "data_point": "$20M reward"
+  },
+  {
+    "date": "2026-11-06",
+    "time": "day",
+    "title": "Iodine pills near Bushehr; new digging seen",
+    "description": "The Times reported iodine tablets being distributed near Iranian nuclear sites; Iran's health ministry denied any link to strike fears. BBC Verify said satellite images show new digging and construction at the Garmdarreh base in Karaj and at Shahrud.",
+    "category": "humanitarian",
+    "source": "The Times via Fox News / YJC via Middle East Monitor / BBC Verify",
+    "data_point": "Bushehr"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "day",
+    "title": "CENTCOM launches Task Force Iron Gate",
+    "description": "Adm. Cooper ordered a roughly 20-person task force based in Tampa to disrupt weapons, sanctioned material and illicit revenue moving across Iran's land borders and Caspian routes, reinforcing what he called the 'ironclad blockade against Iran at sea.'",
+    "category": "military",
+    "source": "CENTCOM / Reuters / Stars and Stripes / Al Jazeera",
+    "data_point": "~20 personnel"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "day",
+    "title": "US aircraft disable blockade runner Huda",
+    "description": "CENTCOM said US aircraft disabled the cargo vessel M/V Huda in the Gulf of Oman after its crew ignored repeated warnings while trying to break the blockade.",
+    "category": "military",
+    "source": "CENTCOM / CBS News",
+    "data_point": "Huda disabled"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "day",
+    "title": "IRGC lifts missile range cap",
+    "description": "IRGC spokesman Mohebbi said range limits on Iran's missiles have been lifted on the Supreme Leader's order and told Fars the IRGC would establish 'the necessary readiness' if leaders change the nuclear doctrine. The IRGC also announced underground complexes to sustain missile and drone production under bombardment.",
+    "category": "military",
+    "source": "Fars via Middle East Eye / Iran International / Al Jazeera",
+    "data_point": "Range cap lifted"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "day",
+    "title": "NBC: aides urge restart before new Congress",
+    "description": "NBC reported Trump's advisers told him to restart major combat before the new Congress is sworn in in January; WSJ said Vance and Witkoff favor diplomacy, Hegseth and Cooper renewed strikes, and Rubio and Bessent economic pressure. Trump said a new offensive is 'highly unlikely' if talks progress.",
+    "category": "political",
+    "source": "NBC News / WSJ via Fox News / Times of Israel",
+    "data_point": "Advisers split"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "day",
+    "title": "Tankers hit off Khasab; blasts across Hormozgan",
+    "description": "UKMTO reported a tanker on fire 8 NM northwest of Khasab and another hit by a projectile leaving the Strait; CTP-ISW assessed Iran likely attacked. Iranian state media reported explosions on eastern Qeshm and in Jask, Sirik and Bandar Abbas, cause unclear.",
+    "category": "military",
+    "source": "UKMTO / CTP-ISW / Iranian state media via Middle East Eye",
+    "data_point": "2 tankers hit"
+  },
+  {
+    "date": "2026-11-07",
+    "time": "day",
+    "title": "Iraq says US asked it to shut Iran crossings",
+    "description": "Iraqi FM Fuad Hussein said the US asked Baghdad to close all but two border crossings with Iran. David Ignatius reported Bessent asked China to use its influence with Tehran to end the war.",
+    "category": "diplomatic",
+    "source": "Iran International / Washington Post via Times of Israel",
+    "data_point": "2 crossings"
+  },
+  {
+    "date": "2026-11-08",
+    "time": "day",
+    "title": "Trump: Iron Gate 'in full force and effect'",
+    "description": "Trump posted that Task Force Iron Gate is 'in full force and effect' and 'Very little gets into, or out of, Iran!' In a 60 Minutes interview aired Sunday he said he sees 'no reason' to escalate; the IRGC dismissed Iron Gate as 'a play on words.'",
+    "category": "political",
+    "source": "Truth Social via Al Jazeera / CBS News / Fars",
+    "data_point": "Land blockade"
+  },
+  {
+    "date": "2026-11-08",
+    "time": "day",
+    "title": "Araghchi: White House must make its own choice",
+    "description": "Araghchi said the midterms sent a message and it is time for the White House to make its own choice, adding that Iran's two-day proposal stands if the US ends the war on all fronts. He said mediated talks have made no progress since the midterm results.",
+    "category": "diplomatic",
+    "source": "Tasnim / Middle East Eye",
+    "data_point": "2-day offer stands"
+  },
+  {
+    "date": "2026-11-08",
+    "time": "day",
+    "title": "Rubio: no breakthrough with Iran",
+    "description": "Rubio said the US and Iran are not 'at the verge of a breakthrough,' calling Tehran's demands unacceptable and talks unproductive.",
+    "category": "diplomatic",
+    "source": "CBS News / Anadolu",
+    "data_point": "No breakthrough"
+  },
+  {
+    "date": "2026-11-08",
+    "time": "day",
+    "title": "Herzog gives Eisenkot mandate",
+    "description": "President Herzog tasked Gadi Eisenkot with forming Israel's next government (67 MKs backed him, per Times of Israel), as Netanyahu demanded a unity government. Defense Minister Katz said Iran is seeking to renew its nuclear weapons effort and warned Hezbollah against joining any attack.",
+    "category": "political",
+    "source": "Times of Israel / Iran International",
+    "data_point": "67 MKs"
+  },
+  {
+    "date": "2026-11-08",
+    "time": "day",
+    "title": "Intercept debris damages Aramco tower in Riyadh",
+    "description": "Saudi defenses intercepted 3 ballistic missiles, 2 cruise missiles and a drone; falling shrapnel caused minor damage to a Saudi Aramco administrative tower in Riyadh's King Abdullah Financial District, with no casualties (Saudi Energy Ministry); the Houthis claimed the attack. In Iraqi Kurdistan, a suspected drone hit the LPG storage unit at the Khor Mor gas field, halting production.",
+    "category": "military",
+    "source": "Saudi Energy Ministry via Reuters / ABC News / CBS News; Dana Gas via Long War Journal",
+    "data_point": "Aramco hit"
+  },
+  {
+    "date": "2026-11-08",
+    "time": "day",
+    "title": "Burning tanker off Khasab; IRGC halts four",
+    "description": "UKMTO reclassified the Nov 7 tanker fire about 8 NM northwest of Khasab as an attack; IRIB said four tankers were halted in 24 hours, and the IRGC claimed three tankers on an 'illegal' route exploded (unverified).",
+    "category": "military",
+    "source": "UKMTO via CBS News / IRIB / LBCI",
+    "data_point": "4 halted (claim)"
+  },
+  {
+    "date": "2026-11-08",
+    "time": "day",
+    "title": "Iran executes three over January unrest",
+    "description": "Iran executed three men convicted over armed unrest in January's protests, accused of operations for Israel and the US (Reuters); Baluch man Mohammad Aref Shahbakhsh was executed in Zahedan on Nov 7.",
+    "category": "humanitarian",
+    "source": "Reuters via Times of Israel / Mizan",
+    "data_point": "3 executed"
+  },
+  {
+    "date": "2026-11-09",
+    "time": "day",
+    "title": "Qatar's PM meets Vance and Trump",
+    "description": "Qatari PM Sheikh Mohammed bin Abdulrahman Al Thani met Vance and then Trump at the White House and welcomed 'positive discussions'; Axios said he sought more time for diplomacy.",
+    "category": "diplomatic",
+    "source": "Axios via CBS News / Iran International",
+    "data_point": "White House talks"
+  },
+  {
+    "date": "2026-11-09",
+    "time": "day",
+    "title": "Trump: war 'militarily effectively over'",
+    "description": "In unscheduled briefing-room remarks, Trump said the Iran war 'militarily, is effectively over... We're just keeping it the status quo,' at Gulf partners' behest, with a 'good chance' of a deal; he told Reuters 'we're ready to go anytime we want.' The FT reported Netanyahu has been calling Trump daily urging a resumption.",
+    "category": "political",
+    "source": "AP via 1News / Reuters / CBS News / FT via Times of Israel",
+    "data_point": "'Status quo'"
+  },
+  {
+    "date": "2026-11-09",
+    "time": "day",
+    "title": "Rezaei: 'Time to SURRENDER' to seven conditions",
+    "description": "Rezaei accused Washington of 'manufacturing fake news about imaginary talks' and said it is 'time to surrender to the seven conditions'; an Iranian security official said there will be no talks until they are met.",
+    "category": "diplomatic",
+    "source": "Rezaei on X via CBS News / Times of Israel / Middle East Eye",
+    "data_point": "7 conditions"
+  },
+  {
+    "date": "2026-11-09",
+    "time": "day",
+    "title": "Baqaei: uranium removal off the table",
+    "description": "Spokesman Baqaei said removing enriched uranium from Iran is not on the table and called the two-day plan a 'sign of goodwill' that must include the June Islamabad terms. He said the IAEA inspected a site at Bushehr 'a few days ago.'",
+    "category": "diplomatic",
+    "source": "CBS News / Iran International",
+    "data_point": "IAEA at Bushehr"
+  },
+  {
+    "date": "2026-11-09",
+    "time": "day",
+    "title": "Massie files Hegseth impeachment articles",
+    "description": "Rep. Thomas Massie introduced a 34-page, eight-article impeachment resolution against Hegseth, three articles accusing him of waging war on Iran without congressional authorization. Hegseth said he is 'not worried.'",
+    "category": "political",
+    "source": "CBS News / 1News",
+    "data_point": "8 articles"
+  },
+  {
+    "date": "2026-11-09",
+    "time": "day",
+    "title": "France blames IRGC for supermarket fridge hack",
+    "description": "The Paris prosecutor said an IRGC cyber unit was behind the Oct 11 hack of refrigeration at about 700 supermarkets that caused about 20 fires; similar hacks hit Belgium, Luxembourg and Sweden. France's foreign minister said Iran's ambassador would be summoned and EU sanctions sought.",
+    "category": "diplomatic",
+    "source": "Paris prosecutor via CBS News / Times of Israel / Iran International",
+    "data_point": "~700 stores"
+  },
+  {
+    "date": "2026-11-09",
+    "time": "day",
+    "title": "Brent settles at $92.57; gas near $4",
+    "description": "Brent fell 5.85% to $92.57, its lowest since Aug 31, after a 13.3% drop the prior week. AAA's national average was $4.0093, down more than 36 cents in a month.",
+    "category": "economic",
+    "source": "Reuters via Gulf News / Trading Economics / AAA via CBS News",
+    "data_point": "Brent $92.57"
+  },
+  {
+    "date": "2026-11-09",
+    "time": "day",
+    "title": "Erdogan urged no strikes; Gargash sees long haul",
+    "description": "Turkey's intelligence chief said Erdogan urged Trump not to launch new strikes while mediators work on a seven-point plan. UAE adviser Anwar Gargash said a resolution is unlikely for a 'long period.'",
+    "category": "diplomatic",
+    "source": "Middle East Eye / CBS News",
+    "data_point": "Regional pressure"
+  },
+  {
+    "date": "2026-11-09",
+    "time": "day",
+    "title": "Pipeline fire in Medina; spill closes UAE beach",
+    "description": "Saudi Arabia's energy ministry reported a 'limited fire' on the East-West pipeline in the Medina region with no casualties or disruption. Khor Fakkan closed a beach after an oil spill about 20 miles south of the Strait.",
+    "category": "military",
+    "source": "Saudi Energy Ministry via CBS News",
+    "data_point": "Limited fire"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "day",
+    "title": "Rubio at G7: 'no need' for major combat",
+    "description": "After G7 foreign ministers met in Paris, Rubio said Trump 'has concluded that for the time being there is no need for major combat operations because we are achieving the same objective by economic means,' warning Iran would 'pay a terrible price' if it crosses red lines. Host Jean-Noel Barrot said the risk of escalation 'has not been completely ruled out'; Qatar's PM joined Saudi and European ministers in Paris.",
+    "category": "diplomatic",
+    "source": "AFP via Yahoo / CBS News / C-SPAN / Al Arabiya",
+    "data_point": "Economic track"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "day",
+    "title": "Hegseth: 'We control the Strait of Hormuz'",
+    "description": "At a Pentagon news conference, Hegseth cited more than 13,000 targets struck in under 40 days, over 80% of Iran's nuclear industrial base destroyed and 18 Americans killed, and said the US remains 'locked and loaded' with CENTCOM. He called the impeachment push 'sabotage.'",
+    "category": "political",
+    "source": "Foreign Policy (transcript) / CBS News / White House",
+    "data_point": "13,000+ targets"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "day",
+    "title": "House GOP blocks Hegseth impeachment",
+    "description": "House Republicans blocked Massie's effort to impeach Hegseth in a near party-line procedural vote that evening (Stars and Stripes); the vote tally was not independently verified.",
+    "category": "political",
+    "source": "Stars and Stripes / Yahoo News / 1News",
+    "data_point": "Impeachment blocked"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "day",
+    "title": "Poll: 71% want Congress to end the war",
+    "description": "A Reuters/Ipsos poll of 1,705 US adults found 71%, including 93% of Democrats and 51% of Republicans, want the new Congress to pass a law ending the Iran war; 26% approve of Trump's handling of it.",
+    "category": "political",
+    "source": "Reuters/Ipsos via Iran International / The Hill / US News",
+    "data_point": "71%"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "day",
+    "title": "26th Knesset sworn in",
+    "description": "Israel's new Knesset was sworn in; Netanyahu told the session toppling Iran's regime is the only way to end its threat and accused Arab parties of seeking Israel's destruction. Eisenkot's bloc nominated Matan Kahana for speaker.",
+    "category": "political",
+    "source": "Times of Israel / Iran International",
+    "data_point": "46 new MKs"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "day",
+    "title": "US charges three over RAF Fairford plot",
+    "description": "The Justice Department charged three alleged Iran-backed operatives over a September attempted attack on RAF Fairford; FBI Director Patel said they were linked to 'nearly 20 attempted attacks' in Europe and the US. WSJ said US aircraft were moved from RAF Mildenhall over a possible Iranian threat.",
+    "category": "political",
+    "source": "DOJ via CBS News / WSJ via Times of Israel",
+    "data_point": "3 charged"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "day",
+    "title": "Iran rejects France hack charge; EU vows response",
+    "description": "Iran's foreign ministry rejected France's 'baseless accusations' and Araghchi mocked France as 'unable to manage fridges'; the EU promised a 'swift and united response.' Canada reimposed sanctions on Iranian entities, citing nuclear reporting non-compliance.",
+    "category": "diplomatic",
+    "source": "CBS News / Anadolu",
+    "data_point": "EU response pledged"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "day",
+    "title": "Tanker and ADNOC vessel hit",
+    "description": "UKMTO said a tanker was hit by a projectile off Oman's northeast coast, about 19 NM northeast of Lima, with no injuries; the IRGC claimed three tankers hit mines. WAM said an ADNOC Logistics vessel was damaged in an attack in UAE territorial waters.",
+    "category": "military",
+    "source": "UKMTO via CBS News / IRIB / WAM",
+    "data_point": "ADNOC vessel hit"
+  },
+  {
+    "date": "2026-11-10",
+    "time": "day",
+    "title": "Brent briefly dips below $90",
+    "description": "Brent briefly fell below $90 for the first time since late August and US crude traded near $84.94 after Trump's remarks on no new strikes.",
+    "category": "economic",
+    "source": "CBS News / Gulf News",
+    "data_point": "Brent <$90"
+  },
+  {
+    "date": "2026-11-11",
+    "time": "day",
+    "title": "Trump at Arlington: 'total victory'",
+    "description": "At a Veterans Day event at Arlington, Trump said the US has won and the end is 'just a question of when we want to end it,' adding he wants 'a total victory, not a 93% victory' and that Iran would need 25 years to rebuild.",
+    "category": "political",
+    "source": "CBS News / Yahoo News",
+    "data_point": "Veterans Day"
+  },
+  {
+    "date": "2026-11-11",
+    "time": "day",
+    "title": "Rezaei: no 'single particle' of HEU leaves Iran",
+    "description": "Rezaei said Iran 'will not remove even a single particle of enriched nuclear material' from the country (IRIB). He told Al Mayadeen Iran would strike US bases in Europe if used for attacks, that an attack on Pickaxe Mountain would bring strikes on all US bases, and that a new war would last '4 to 5 days.'",
+    "category": "diplomatic",
+    "source": "IRIB / Al Mayadeen via CBS News / Yahoo News",
+    "data_point": "HEU stays"
+  },
+  {
+    "date": "2026-11-11",
+    "time": "day",
+    "title": "Bessent moved to military base after threats",
+    "description": "Treasury said Bessent moved from his Washington-area home to a military base after Iranian threats against his life and 'will not be deterred'; a source blamed a WSJ photo that let his Georgetown home be geolocated.",
+    "category": "political",
+    "source": "CBS News / Iran International",
+    "data_point": "Relocated"
+  },
+  {
+    "date": "2026-11-11",
+    "time": "day",
+    "title": "Pezeshkian decries MOAB threat; meets Sharif",
+    "description": "Pezeshkian accused the US of 'diplomacy through threats' over the 'mother of all bombs.' Pakistani PM Shehbaz Sharif met him at the COP31 summit in Turkey and urged dialogue and building on June's interim US-Iran deal.",
+    "category": "diplomatic",
+    "source": "CBS News",
+    "data_point": "COP31"
+  },
+  {
+    "date": "2026-11-11",
+    "time": "day",
+    "title": "Iran rejects Hegseth's damage figures",
+    "description": "Iran's Defense Ministry called Hegseth's figures 'deceptive' and said its stockpiles remain substantial, and a spokesman said the war ends only when Iran's demands are accepted or the enemy surrenders. Araghchi called the $20M US reward for nuclear information 'repugnant' and urged the UN and IAEA to condemn it.",
+    "category": "diplomatic",
+    "source": "CBS News / Iran International / Dawn",
+    "data_point": "Claims disputed"
+  },
+  {
+    "date": "2026-11-11",
+    "time": "day",
+    "title": "Allianz: Gulf war damage tops $200B",
+    "description": "Allianz Trade put physical damage to Gulf states at just over $200B, mostly energy infrastructure, with total GCC costs of up to $790B in lost output through 2030. US winter heating costs are projected up 7.1% to $1,002, and 70.2% to $2,977 for heating oil (NEADA).",
+    "category": "economic",
+    "source": "Allianz Trade / NEADA via CBS News",
+    "data_point": "$200B+"
+  },
+  {
+    "date": "2026-11-11",
+    "time": "day",
+    "title": "Tankers hit mines; Houthi missiles at Riyadh",
+    "description": "The IRGC said two tankers on an unauthorized route struck mines and caught fire, and UKMTO reported an incident involving a tanker in the eastern Strait. The Saudi-led coalition said it destroyed three Houthi cruise missiles aimed at Riyadh.",
+    "category": "military",
+    "source": "IRGC via CBS News / UKMTO via Arab News / Saudi-led coalition",
+    "data_point": "3 missiles intercepted"
   }
 ]
