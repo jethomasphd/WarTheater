@@ -4031,35 +4031,35 @@
       "value": 3636,
       "label": "Iranian killed (cumulative, tracked line)",
       "note": "HELD (HRANA, through Apr 7)",
-      "tooltip": "HRANA cumulative 3,636 as of Apr 7: 1,701 civilians, 1,221 military, 714 unclassified. No authoritative later update located; no coalition strike on Iranian soil Oct 16-30. Other series (Foundation of Martyrs 3,468; Iranian Health Ministry 2,362+ civilians) are not merged.",
+      "tooltip": "HRANA cumulative 3,636 as of Apr 7: 1,701 civilians, 1,221 military, 714 unclassified. No authoritative later update located. The US strikes on Qeshm (Nov 2, Nov 6) and the strike Iran claims for Nov 8 reported no casualties; Hormozgan deputy governor Ahmad Nafisi said the Nov 8 targets were outside residential and commercial areas. Other series (Foundation of Martyrs 3,468; Iranian Health Ministry 2,362+ civilians) are not merged.",
       "color": "var(--strike-iran)"
     },
     "lebanese_killed": {
-      "value": 4389,
+      "value": 4390,
       "label": "Lebanese killed (cumulative, all)",
-      "note": "HELD — Lebanese MoPH through Oct 12; no later figure located",
-      "tooltip": "Lebanese Ministry of Public Health cumulative since Mar 2: 4,389 killed and 12,424 injured through Oct 12 (YPA). Total since Oct 8, 2023: 8,956. No MoPH cumulative update for Oct 13-30 located despite repeated searches. Hezbollah's Naim Qassem (Oct 28) ruled out disarmament while Israeli 'occupation' continues.",
+      "note": "+1 — Israeli drone strike at Qabrikha, Nov 4 (Lebanese MoPH)",
+      "tooltip": "Lebanese Ministry of Public Health cumulative since Mar 2: 4,390 killed and 12,429 injured, per a Nov 5 MoPH update cited by the Daily Caller (secondary; primary release not located). This is consistent with the prior 4,389 (through Oct 12) plus the Nov 4 death at Qabrikha, Marjayoun, of a Risala Scouts paramedic, reported by the Health Ministry via Times of Israel, which called it the first Israeli airstrike in southern Lebanon in weeks. MoPH total since Oct 2023: almost 9,000 (CBS, Nov 4).",
       "color": "var(--hezbollah)"
     },
     "displaced": {
       "value": 1200000,
       "label": "Displaced (cumulative)",
       "note": "HELD — no new UNHCR/IOM figure",
-      "tooltip": "Carried forward; Lebanon-weighted, Iran ~3.2M IDPs tracked separately. Not added (separate theater): OCHA (Oct 30) says more than 281,000 people have been displaced in Yemen since August, with humanitarian access worsening.",
+      "tooltip": "Carried forward; Lebanon-weighted. Iran's up to ~3.2M IDPs (UNHCR, Mar 12) are tracked separately. Latest Lebanon IOM DTM round (118, Oct 1): 329,686 internally displaced, 877,203 returned. Yemen is a separate theater and is not added: OCHA counts more than 313,000 displaced since August (Nov 9).",
       "color": "var(--humanitarian)"
     },
     "flights_cancelled": {
       "value": 8000,
       "label": "Flights cancelled (cumulative)",
       "note": "HELD",
-      "tooltip": "Carried forward; no new Cirium or FlightAware aggregate. Riyadh's King Khalid International was shut about two weeks and resumed some operations Oct 25. Dammam's King Fahd International was hit Oct 21 (2 killed, 8 injured). flydubai extended Saudi cancellations to Oct 29; the US Embassy (Oct 28-29) warned of further airport attacks.",
+      "tooltip": "Carried forward; no new cumulative Cirium or FlightAware aggregate. Saudi suspensions extended (The National, Nov 6): Etihad Riyadh/Dammam to Nov 19; flydubai Riyadh/Abha to Nov 16; Lufthansa Riyadh to Nov 18 and Dammam to Nov 30; KLM to Nov 27; Air France Riyadh to Dec 12; British Airways London-Riyadh to Jan 11, 2027; Cathay Pacific Riyadh to Jan 31, 2027. Riyadh King Khalid has operated under restrictions since its partial reopening on Oct 25. The cumulative is likely understated.",
       "color": "var(--text-secondary)"
     },
     "children_killed": {
       "value": 379,
       "label": "Children killed (cumulative, tracked)",
       "note": "HELD",
-      "tooltip": "Carried forward; no new verified cumulative figure (UNICEF or other). Not added (Yemen theater, Houthi-sourced, unverified by AP): 3 children killed in Saudi strikes in Dhamar (Oct 16) and 3 among 14 killed at al-Hazm market, al-Jawf (Oct 28).",
+      "tooltip": "Carried forward; no new verified cumulative figure (UNICEF or other). The Yemen theater is not added (e.g., 13 children among 33 killed at al-Shariya on Nov 7, per the Houthi Health Ministry, unverified).",
       "color": "var(--civilian)"
     }
   }
