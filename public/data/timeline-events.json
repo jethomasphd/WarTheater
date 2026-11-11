@@ -11023,5 +11023,131 @@
     "category": "military",
     "source": "UKMTO via CBS News / IRGC via Middle East Eye",
     "data_point": "IRGC claim UNVERIFIED"
+  },
+  {
+    "date": "2026-11-02",
+    "time": "day",
+    "title": "Oil plunges 7.6% on deal hopes",
+    "description": "Brent settled at $104.77, down $8.66 (7.63%), after Trump posted that Iran 'wants a settlement, as soon as possible' and a deal 'could happen'. Vance said there had been 'some progress' and he and Trump 'feel pretty good' about a negotiated settlement.",
+    "category": "economic",
+    "source": "Reuters via Nation Thailand / CBS News / NYT",
+    "data_point": "Brent $104.77"
+  },
+  {
+    "date": "2026-11-02",
+    "time": "day",
+    "title": "Iran offers two-day timeline; 'ball in US court'",
+    "description": "Araghchi said talks were 'proceeding very intensively' and Tehran had proposed cutting the deal's implementation period from seven days to two. Spokesman Baqaei said the plan could be implemented within two days if Washington lifts the blockade and ends hostilities, adding 'the ball is in the U.S. court.' First VP Aref claimed intermediaries' messages showed US acknowledgment of Iran's 'victory.'",
+    "category": "diplomatic",
+    "source": "CBS News / Al Jazeera / Iran International",
+    "data_point": "7 days to 2"
+  },
+  {
+    "date": "2026-11-02",
+    "time": "day",
+    "title": "US strikes Qeshm after IRGC fires on aircraft",
+    "description": "US officials said limited defensive strikes hit Iranian targets on Qeshm Island late Monday after the IRGC fired surface-to-air missiles at a US aircraft; WSJ first reported them, and an official said it was not 'the start of expanded strikes.' IRNA reported explosions on Qeshm and Fars in Bandar Lengeh; the IRGC claimed it captured two US MQM-170s and downed an MQ-9 (unverified).",
+    "category": "military",
+    "source": "WSJ / AP / Fox News via Al Jazeera / CBS News / IRNA",
+    "data_point": "Limited strikes"
+  },
+  {
+    "date": "2026-11-02",
+    "time": "day",
+    "title": "AP: Netanyahu presses for post-midterm strikes",
+    "description": "AP, citing regional officials, reported Netanyahu is pressing Trump for another wave of strikes after the midterms; Axios said Trump preferred to let negotiations play out. At the Lincoln Memorial Trump said 'it's not a war.'",
+    "category": "political",
+    "source": "AP / Axios via CBS News",
+    "data_point": "Strike pressure"
+  },
+  {
+    "date": "2026-11-02",
+    "time": "day",
+    "title": "Indian sailor killed as vessel hit off Oman",
+    "description": "India said an unidentified aerial object struck an Indian vessel off Oman; one Indian national was killed and 13 were rescued by Oman's coast guard. CBS identified the vessel as the dhow MSV Al Jusufi; no one claimed responsibility.",
+    "category": "humanitarian",
+    "source": "India MEA via AP / CBS News",
+    "data_point": "1 killed"
+  },
+  {
+    "date": "2026-11-02",
+    "time": "day",
+    "title": "Record October for ship attacks",
+    "description": "CBS, citing UKMTO, said October saw a record 30 attacks on commercial vessels; Iran's IRIB claimed 11 tankers caught fire in nine days, disputing CENTCOM's Adm. Cooper that routes were clear. UKMTO reported a tanker hit by two projectiles 72 NM east of Ras al-Khafji.",
+    "category": "military",
+    "source": "UKMTO via CBS News / IRIB / Khaama Press",
+    "data_point": "30 attacks in Oct"
+  },
+  {
+    "date": "2026-11-02",
+    "time": "day",
+    "title": "Iran warns of winter gas shortages",
+    "description": "First Vice President Aref said Iran faces gas shortages, partly from war damage, and asked the public to conserve, warning of higher prices for heavy users. AFP reported Tehran residents crowding cafes amid inflation and war anxiety.",
+    "category": "economic",
+    "source": "Iran International / AFP via CBS News",
+    "data_point": "Gas shortfall"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "day",
+    "title": "Democrats sweep Congress in war-shadowed midterms",
+    "description": "Democrats won both chambers: by early Nov 4, AP tallies showed a 54-44 Senate majority after seven flips (Alaska, Mississippi outstanding) and a 228-139 House lead, up 19, with races uncalled. An AP Election Day poll found about 60% of voters called the Iran war the 'wrong decision' and about a third said it was a key factor.",
+    "category": "political",
+    "source": "AP / NPR / NBC News / The Week",
+    "data_point": "Senate 54-44"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "day",
+    "title": "Ghalibaf: Iran sent 'firm and rational response'",
+    "description": "Chief negotiator and Speaker Ghalibaf said Tehran had delivered a 'firm and rational response' and it is up to Washington to prevent new fighting, with Iran's 'finger on the trigger.' Rezaei called the US response 'not convincing,' and Baqaei said any deal must halt the war on all fronts, including Lebanon.",
+    "category": "diplomatic",
+    "source": "AP / CBS News",
+    "data_point": "Reply delivered"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "day",
+    "title": "Qatar expects feedback within 36 hours",
+    "description": "A Qatari official told Reuters both sides were studying mediators' new suggestions, with feedback expected within 36 hours. Spokesman Majed Al Ansari said Qatar remains hopeful for an interim deal after its delegation returned from Tehran.",
+    "category": "diplomatic",
+    "source": "Reuters / Qatar MFA via CBS News",
+    "data_point": "36 hours"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "day",
+    "title": "Iran 'retains the right' to respond after Qeshm strikes",
+    "description": "Deputy FM Gharibabadi said Iran retains the right to self-defense after the US strikes, and the IRGC said the Supreme Leader's orders had been conveyed and Iran will set the 'time and conditions' for ending attacks. UKMTO said two projectiles hit a tanker's engine room off northeast Oman (no injuries); the IRGC claimed three tankers hit mines.",
+    "category": "military",
+    "source": "CBS News / UKMTO / CTP-ISW",
+    "data_point": "Engine room hit"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "day",
+    "title": "Trump: $4B annual aid to Israel to end",
+    "description": "Trump told Fox News the US will stop its roughly $4B a year in aid to Israel by year's end while still selling arms, saying it was agreed with Netanyahu: 'You can consider it barter.'",
+    "category": "political",
+    "source": "AP / Fox News / CBS News",
+    "data_point": "$4B/yr"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "day",
+    "title": "Aramco Q3 profit jumps 35%",
+    "description": "Saudi Aramco's third-quarter net profit rose 35% to $36.3B on an average realized price of $95.20 a barrel, versus $70.10 a year earlier. The AFC moved the 2027 Asian Cup in Saudi Arabia forward to Dec 23.",
+    "category": "economic",
+    "source": "CBS News",
+    "data_point": "$36.3B"
+  },
+  {
+    "date": "2026-11-03",
+    "time": "day",
+    "title": "Israeli opposition backs Eisenkot",
+    "description": "Israel's opposition leaders met for the first time since the Oct 27 election and agreed to recommend Yashar leader Gadi Eisenkot to form the first coalition.",
+    "category": "political",
+    "source": "AP",
+    "data_point": "Eisenkot recommended"
   }
 ]
