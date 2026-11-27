@@ -5658,7 +5658,7 @@
     "active_days": [
       255
     ],
-    "notes": "An energy ministry official said the pipeline was 'targeted' and a 'limited fire' broke out. It was extinguished, with no casualties and no disruption to operations. Cause under investigation. This follows the Oct 4 Khurais pumping-station hit (khurais-east-west-pipeline-pumping-station) and the September drone strike on the line. Exact location NOT published; coordinates are the Medina-region centroid.",
+    "notes": "An energy ministry official said the pipeline was 'targeted' and a 'limited fire' broke out. It was extinguished, with no casualties and no disruption to operations. Cause under investigation. This follows the Oct 4 Khurais pumping-station hit (khurais-east-west-pipeline-pumping-station) and the September drone strike on the line. Exact location NOT published; coordinates are the Medina-region centroid. UPDATE Nov 27: No new attack on the pipeline located Nov 12-27.",
     "verified": true,
     "last_updated": "2026-11-11"
   },
@@ -5719,5 +5719,228 @@
     "notes": "Times of Israel calls the Nov 4 drone strike at Qabrikha 'the first Israeli airstrike in southern Lebanon in weeks.' CFR reports the same Nov 4 event as an airstrike on a motorcycle. Nov 4: shelling of al-Mansouri and Wadi Zibqin. Nov 6: airstrike on Bint Jbeil. Nov 7: detonation and shelling in Bani Hayyan; shelling of Zawtar al-Sharqiyah. Nov 9: airstrikes on Kfar Tibnit, Mayfadun, Markaba, Tallousa and al-Qantara; drone strikes on Deir Mimas and al-Jarmaq; artillery on Majdal Zoun, Haddatha, Haris and al-Majadel. Nov 10: airstrike on Qantara; artillery near al-Mansouri and Majdal Zoun. No Hezbollah attacks were reported (CTP-ISW; CFR). Israel-Lebanon talks remain stalled over Hezbollah disarmament. Do NOT confuse with a Nov 5, 2023 Aynata car strike that resurfaces in searches. Coordinates: Qabrikha, approximate.",
     "verified": true,
     "last_updated": "2026-11-11"
+  },
+  {
+    "id": "bahrain-us-radar-2026-11-13",
+    "city": "Bahrain (US early-warning radar)",
+    "lat": 26.27,
+    "lng": 50.61,
+    "type": "iran_retaliation",
+    "weapon": "Drones (2)",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-11-13",
+    "casualties_reported": "None reported (CENTCOM)",
+    "casualties_source": "CENTCOM / IRGC claim",
+    "active_days": [
+      259
+    ],
+    "notes": "IRGC claimed a hit on a US early-warning radar; CENTCOM said two drones were launched and both were shot down.",
+    "verified": true,
+    "last_updated": "2026-11-27"
+  },
+  {
+    "id": "riffa-air-base-2026-11-15",
+    "city": "Riffa Air Base, Bahrain",
+    "lat": 26.12,
+    "lng": 50.56,
+    "type": "iran_retaliation",
+    "weapon": "Drones (6, per Iran)",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-11-15",
+    "casualties_reported": "None reported (Bahrain)",
+    "casualties_source": "Bahrain Defence Force / IRGC claim",
+    "active_days": [
+      261
+    ],
+    "notes": "Iran said it fired six drones at a US radar; Bahrain said it intercepted them.",
+    "verified": true,
+    "last_updated": "2026-11-27"
+  },
+  {
+    "id": "sheikh-isa-air-base-2026-11-17",
+    "city": "Sheikh Isa Air Base, Bahrain",
+    "lat": 25.92,
+    "lng": 50.59,
+    "type": "iran_retaliation",
+    "weapon": "Combat drones",
+    "origin": "Iran (IRGC)",
+    "first_strike": "2026-11-17",
+    "casualties_reported": "None reported",
+    "casualties_source": "IRGC Sepah news / AP",
+    "active_days": [
+      263,
+      264
+    ],
+    "notes": "IRGC claimed a 'precision operation' on a US-operated radar; this triggered the US Qeshm strike. Bahrain intercepted further Iranian attacks early Nov 18 (Bahrain News Agency). Al Jazeera: four Iranian attacks on Bahrain in six days.",
+    "verified": true,
+    "last_updated": "2026-11-27"
+  },
+  {
+    "id": "ali-al-salem-2026-11-18",
+    "city": "Ali Al Salem Air Base, Kuwait",
+    "lat": 29.35,
+    "lng": 47.52,
+    "type": "iran_retaliation",
+    "weapon": "Drones",
+    "origin": "Iran",
+    "first_strike": "2026-11-18",
+    "casualties_reported": "None reported; CENTCOM said no US forces injured",
+    "casualties_source": "Kuwait Army / CENTCOM",
+    "active_days": [
+      264
+    ],
+    "notes": "Kuwait's first air-defense activation since early September (Al Jazeera). Iran said its drones targeted Patriot batteries. Kuwait's Foreign Ministry called the attacks 'criminal.'",
+    "verified": true,
+    "last_updated": "2026-11-27"
+  },
+  {
+    "id": "bahrain-industrial-site-2026-11-22",
+    "city": "Bahrain (civilian industrial site)",
+    "lat": 26.15,
+    "lng": 50.62,
+    "type": "iran_retaliation",
+    "weapon": "Drone/missile (unspecified)",
+    "origin": "Iran",
+    "first_strike": "2026-11-22",
+    "casualties_reported": "2 injured, 1 critically (Bahrain)",
+    "casualties_source": "Bahrain authorities via IranWarLive Day 268 (secondary)",
+    "active_days": [
+      268
+    ],
+    "notes": "First Iranian strike in this cycle to wound civilians in a Gulf state; Arab states condemned it. Site location not published; coordinates approximate. MEDIUM confidence.",
+    "verified": true,
+    "last_updated": "2026-11-27"
+  },
+  {
+    "id": "kuwait-vital-site-2026-11-26",
+    "city": "Kuwait (air-defense installation, 'vital site')",
+    "lat": 29.3,
+    "lng": 47.9,
+    "type": "iran_retaliation_disputed",
+    "weapon": "Drones (intercepted; casualties from falling debris)",
+    "origin": "Iran (per Kuwait; Iran denies)",
+    "first_strike": "2026-11-26",
+    "casualties_reported": "2 killed (Italian nationals), 2 injured (1 Kuwaiti, 1 Pakistani) (Kuwait MoD)",
+    "casualties_source": "Kuwait Army / Kuwait MoD / Italian PM Meloni",
+    "active_days": [
+      272
+    ],
+    "notes": "Iran armed forces spokesman Shekarchi 'categorically' denied any operation and alleged a false flag; Araghchi called it 'suspicious,' a 'pre-cooked recipe for war,' and offered cooperation on a probe. Attribution DISPUTED. Coordinates approximate (site undisclosed).",
+    "verified": true,
+    "last_updated": "2026-11-27"
+  },
+  {
+    "id": "riyadh-kafd-tower-2026-11-19",
+    "city": "Riyadh (King Abdullah Financial District)",
+    "lat": 24.76,
+    "lng": 46.64,
+    "type": "houthi_attack",
+    "weapon": "Ballistic/cruise missile (debris per coalition)",
+    "origin": "Yemen (Houthis)",
+    "first_strike": "2026-11-19",
+    "casualties_reported": "0 injured on Nov 19; 11 injured on Nov 24 (Saudi authorities)",
+    "casualties_source": "Saudi Civil Defense / SPA / Saudi MOFA / CNN",
+    "active_days": [
+      265,
+      270
+    ],
+    "notes": "Damage to several floors of the 80-floor tower housing PIF HQ (AFP witnesses, SPA). Struck again Nov 24 (Houthi drone per coalition), 11 injured including 2 Indians (India MEA). Houthi spokesman Saree describes a three-phase campaign on the district. Houthis also claimed King Khalid Intl Airport on Nov 18 (unconfirmed by Saudi officials).",
+    "verified": true,
+    "last_updated": "2026-11-27"
+  },
+  {
+    "id": "ras-tanura-refinery-2026-11-25",
+    "city": "Ras Tanura",
+    "lat": 26.64,
+    "lng": 50.16,
+    "type": "houthi_attack",
+    "weapon": "Drones (4 intercepted per coalition)",
+    "origin": "Yemen (Houthis)",
+    "first_strike": "2026-11-25",
+    "casualties_reported": "No injuries reported (Saudi-led coalition)",
+    "casualties_source": "Saudi-led coalition / Reuters source / Argus",
+    "active_days": [
+      271
+    ],
+    "notes": "Coalition said it destroyed four drones and did not acknowledge a hit. NASA and Planet Labs imagery showed thick black smoke. Reuters cited a source with knowledge of the matter who 'confirmed an attack on the refinery.' Middle East Eye, citing Argus Media, said the Houthis 'landed two successful blows on the facility, one at the refinery and one at the export terminal' (refinery capacity 550,000 b/d). Saudi Arabia/Aramco have not confirmed damage.",
+    "verified": true,
+    "last_updated": "2026-11-27"
+  },
+  {
+    "id": "jazan-refinery-2026-11-26",
+    "city": "Jazan",
+    "lat": 16.75,
+    "lng": 42.6,
+    "type": "houthi_attack",
+    "weapon": "Aerial projectile (ballistic missile per coalition)",
+    "origin": "Yemen (Houthis)",
+    "first_strike": "2026-11-25",
+    "casualties_reported": "1 killed (Nepali worker), several injured of various nationalities (Saudi Ministry of Energy)",
+    "casualties_source": "Saudi Ministry of Energy via SPA/QNA / Al Jazeera / CNN",
+    "active_days": [
+      271,
+      272
+    ],
+    "notes": "Nov 25: projectile fell at Jazan port, minor damage (coalition). Nov 26: the Saudi Energy Ministry said the refinery strike 'resulted in the death of a Nepalese worker and left several others of various nationalities with injuries of varying severity,' with 'temporary suspension of some of the refinery's operational activities.' Arab News gives the refinery's capacity as 400,000 b/d. Coalition said it destroyed the Hodeidah launch platform used.",
+    "verified": true,
+    "last_updated": "2026-11-27"
+  },
+  {
+    "id": "jeddah-port-2026-11-25",
+    "city": "Jeddah port",
+    "lat": 21.46,
+    "lng": 39.17,
+    "type": "houthi_attack",
+    "weapon": "Drone; cruise missile intercepted in the west",
+    "origin": "Yemen (Houthis)",
+    "first_strike": "2026-11-25",
+    "casualties_reported": "None reported",
+    "casualties_source": "Saudi-led coalition / The National",
+    "active_days": [
+      271
+    ],
+    "notes": "Houthis claimed a hit; coalition said it intercepted the drone. No confirmation that Jeddah was hit.",
+    "verified": true,
+    "last_updated": "2026-11-27"
+  },
+  {
+    "id": "riyadh-bm-intercept-2026-11-21",
+    "city": "Riyadh",
+    "lat": 24.71,
+    "lng": 46.68,
+    "type": "houthi_attack",
+    "weapon": "Ballistic missiles",
+    "origin": "Yemen (Houthis)",
+    "first_strike": "2026-11-21",
+    "casualties_reported": "None reported",
+    "casualties_source": "Saudi-led coalition / AFP",
+    "active_days": [
+      267,
+      268,
+      273
+    ],
+    "notes": "Three missiles intercepted Nov 21; missiles and a drone intercepted Nov 22; two ballistic missiles intercepted around midnight Nov 26-27.",
+    "verified": true,
+    "last_updated": "2026-11-27"
+  },
+  {
+    "id": "southern-saudi-intercepts-2026-11-19",
+    "city": "Jazan / Abha / Khamis Mushait region",
+    "lat": 18.3,
+    "lng": 42.73,
+    "type": "houthi_attack",
+    "weapon": "Drones (2) and ballistic missile",
+    "origin": "Yemen (Houthis)",
+    "first_strike": "2026-11-18",
+    "casualties_reported": "None reported",
+    "casualties_source": "Saudi-led coalition spokesman Turki al-Maliki / CBS",
+    "active_days": [
+      264,
+      265,
+      266
+    ],
+    "notes": "Nov 18: BM intercepted and Saada launch platform destroyed. Nov 19: two drones intercepted. Nov 20: BM intercepted; civil defense alerts for Jizan, Abha, Khamis Mushait.",
+    "verified": true,
+    "last_updated": "2026-11-27"
   }
 ]
