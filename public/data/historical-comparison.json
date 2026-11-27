@@ -1,11 +1,11 @@
 {
   "conflicts": [
     {
-      "label": "Iran 2026 (Day 257)",
+      "label": "Iran 2026 (Day 273)",
       "targets_struck": 35914,
       "us_kia": 23,
       "daily_cost_millions": 500,
-      "note": "Operation Epic Fury / 2026 Iran war — Day 257 (November 11, 2026). After Democrats won both chambers on Nov 3, the expected post-midterm campaign did not begin. The US carried out limited 'self-defense' strikes on Qeshm Island (Nov 2, Nov 6) and expanded the blockade to land routes (Task Force Iron Gate, Nov 7). Trump says the war is 'militarily, effectively over'; Rubio: 'no need for major combat operations.' Targets struck held at the CENTCOM/JINSA cumulative; US deaths per DCAS (23, all causes); daily cost modeled at $500M/day (official-anchored ~$86M/day; see war-costs)."
+      "note": "Operation Epic Fury / 2026 Iran war — Day 273 (November 27, 2026). The 'effectively over' framing of Nov 9-11 did not hold: Iranian drones struck at US radar and Patriot sites in Bahrain and Kuwait (Nov 13-22), the US hit an IRGC missile site on Qeshm (Nov 17), and Kuwait blamed Iran for drone debris that killed two Italians on Nov 26 (Iran denies). Two carriers in theater (Bush, Roosevelt) after George Washington's exit. Targets struck held (no new CENTCOM/JINSA cumulative); US deaths per DCAS (23, all causes). Daily cost modeled at $500M/day; the Pentagon's $48.3B as of Nov 13 (disclosed Nov 19) implies a ~$26M/day recent run-rate (see war-costs)."
     },
     {
       "label": "Iraq 2003 (43-day major combat phase)",
@@ -36,6 +36,6 @@
       "note": "Operation Allied Force — NATO air campaign over Yugoslavia (Mar 24 – Jun 10, 1999 = 78 days). ~38,000 sorties. US KIA: 2 (Apache helicopter crash, training accident in Albania). Cost: ~$3B nominal / ~$5.6B 2026 dollars over 78 days = ~$72M/day average. NATO no-fly zone enforcement + strikes on Yugoslav targets to halt Kosovo operations."
     }
   ],
-  "sources": "Comparison conflicts use FULL-CONFLICT TOTALS (not Day-21 snapshots). Sources: CRS R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya), RL30374 (Kosovo). Costs inflation-adjusted to 2026 dollars using BLS CPI-U. APPROXIMATIONS: Sortie-counts vs. distinct-target-counts are not always cleanly separable in DoD records; figures cited are best-available open-source estimates and should be read as orders of magnitude. Iraq 2003 cost row reflects ~43-day major combat phase only — full OIF 2003-2011 totals are materially higher (~$815B nominal). Libya 2011 'targets_struck' reflects US strike contribution only (NATO total sorties ~26,500). Iran 2026 row is current state at Day 230 (in progress) and will be updated daily until ceasefire is formalized.",
-  "last_updated": "2026-11-11"
+  "sources": "Comparison conflicts use FULL-CONFLICT TOTALS (not Day-21 snapshots). Sources: CRS R44116 (Iraq), RL33110 (Gulf War), R41725 (Libya), RL30374 (Kosovo). Costs inflation-adjusted to 2026 dollars using BLS CPI-U. APPROXIMATIONS: Sortie-counts vs. distinct-target-counts are not always cleanly separable in DoD records; figures cited are best-available open-source estimates and should be read as orders of magnitude. Iraq 2003 cost row reflects ~43-day major combat phase only — full OIF 2003-2011 totals are materially higher (~$815B nominal). Libya 2011 'targets_struck' reflects US strike contribution only (NATO total sorties ~26,500). Iran 2026 row is current state at Day 273 (in progress) and will be updated daily until ceasefire is formalized.",
+  "last_updated": "2026-11-27"
 }
