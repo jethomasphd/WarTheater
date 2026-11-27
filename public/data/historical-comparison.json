@@ -4,8 +4,8 @@
       "label": "Iran 2026 (Day 273)",
       "targets_struck": 35914,
       "us_kia": 23,
-      "daily_cost_millions": 500,
-      "note": "Operation Epic Fury / 2026 Iran war — Day 273 (November 27, 2026). The 'effectively over' framing of Nov 9-11 did not hold: Iranian drones struck at US radar and Patriot sites in Bahrain and Kuwait (Nov 13-22), the US hit an IRGC missile site on Qeshm (Nov 17), and Kuwait blamed Iran for drone debris that killed two Italians on Nov 26 (Iran denies). Two carriers in theater (Bush, Roosevelt) after George Washington's exit. Targets struck held (no new CENTCOM/JINSA cumulative); US deaths per DCAS (23, all causes). Daily cost modeled at $500M/day; the Pentagon's $48.3B as of Nov 13 (disclosed Nov 19) implies a ~$26M/day recent run-rate (see war-costs)."
+      "daily_cost_millions": 179,
+      "note": "Operation Epic Fury / 2026 Iran war — Day 273 (November 27, 2026). The 'effectively over' framing of Nov 9-11 did not hold: Iranian drones struck at US radar and Patriot sites in Bahrain and Kuwait (Nov 13-22), the US hit an IRGC missile site on Qeshm (Nov 17), and Kuwait blamed Iran for drone debris that killed two Italians on Nov 26 (Iran denies). Two carriers in theater (Bush, Roosevelt) after George Washington's exit. Targets struck held (no new CENTCOM/JINSA cumulative); US deaths per DCAS (23, all causes). Daily cost is the full-conflict average on the official-anchored path ($48.9B / 273 days = ~$179M/day), comparable to the other rows' full-conflict averages; the current run-rate is ~$43M/day (Pentagon, Oct 16-Nov 13)."
     },
     {
       "label": "Iraq 2003 (43-day major combat phase)",
