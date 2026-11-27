@@ -4273,22 +4273,22 @@
     "targets_struck": {
       "value": 35914,
       "label": "Cumulative targets struck (US+IL on Iran/proxies)",
-      "note": "HELD — two acknowledged US strikes on Qeshm (Nov 2, Nov 6); no CENTCOM tally",
-      "tooltip": "Cumulative targets struck per CENTCOM; no change this cycle (CENTCOM stopped releasing cumulative strike data after May 5). The US acknowledged limited self-defense strikes on Qeshm Island against an IRGC surface-to-air missile launcher (Nov 2) and an air-defence system (Nov 6), with no CENTCOM tally. Iran claims a third strike on the night of Nov 8 (unconfirmed). WSJ reports earlier smaller strikes were kept secret. Hegseth (Nov 10) cited 'more than 13,000 targets in under 40 days', a US-only major-combat figure that is not comparable with this combined cumulative. IRGC drone-shootdown claims are unverified and not counted.",
+      "note": "HELD — no new CENTCOM/JINSA cumulative; Nov 17 Qeshm strike not yet reflected",
+      "tooltip": "Cumulative targets struck per CENTCOM/JINSA; no change this cycle (CENTCOM stopped releasing cumulative strike data after May 5). The only acknowledged US strike on Iranian territory Nov 12-27 hit an IRGC missile launch site on Qeshm (Nov 17), after IRGC drones targeted a US radar in Bahrain. CENTCOM denied an Iranian report of a further US strike near Qeshm city on Nov 20. Blockade enforcement (M/V Pacific Archer disabled Nov 26; 158 redirected / 6 disabled since July) is tracked separately.",
       "color": "var(--strike-us)"
     },
     "us_kia": {
       "value": 23,
       "label": "US service-member deaths (Pentagon DCAS, all causes)",
-      "note": "HELD — no DCAS change Oct 30-Nov 11",
-      "tooltip": "Official DCAS count of US service-member deaths, combat and noncombat: 23 total, 11 hostile and 12 nonhostile (unchanged; Euronews Nov 9, Newsweek Nov 11). Hegseth (Nov 10) and Trump (Nov 11) cite 18 Americans killed, a hostile-action framing that does not match DCAS. On Nov 9 Trump said 'we haven't lost anybody' in recent months. No US casualties were reported in the Nov 2 and Nov 6 Qeshm strikes.",
+      "note": "HELD — no new DCAS death located Nov 12-27",
+      "tooltip": "Official DCAS count of US service-member deaths, combat and noncombat: 23 total, 11 hostile and 12 nonhostile (Epic Fury + Overseas Operations), unchanged. CENTCOM said no US forces were injured in the Nov 13-18 Iranian drone attacks on Bahrain and Kuwait.",
       "color": "var(--civilian)"
     },
     "us_wia": {
       "value": 865,
       "label": "US service-member WIA (Pentagon DCAS)",
-      "note": "HELD — DCAS 865 (417 Epic Fury + 448 Overseas Ops)",
-      "tooltip": "Official DCAS wounded count: 417 under Operation Epic Fury and 448 under 'Overseas Operations' (Newsweek, Nov 11, citing the late-October update). A Daily Caller report (Nov 11) gives 866 'per DCAS' with no as-of date; it is not adopted (single source).",
+      "note": "HELD — DCAS 865 (417 Epic Fury + 448 Overseas Ops); 866 per Defense News, verify",
+      "tooltip": "Official DCAS wounded count: 417 under Operation Epic Fury and 448 under 'Overseas Operations'. DISCREPANCY: Defense News (Nov 4) reported 866 (417 + 449); held at 865 pending a live DCAS check. No US injuries reported in the Nov 13-18 attacks (CENTCOM).",
       "color": "var(--civilian)"
     },
     "iranian_killed": {
