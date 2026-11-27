@@ -146,8 +146,6 @@ WarTheater.Financial = {
             ...defaults.plugins.tooltip,
             callbacks: {
               title: function(items) {
-                var idx = items[0].dataIndex;
-                if (contexts[idx]) return items[0].label + ' — ' + contexts[idx];
                 return items[0].label;
               },
               label: function(item) {
@@ -158,7 +156,9 @@ WarTheater.Financial = {
               },
               afterBody: function(items) {
                 var idx = items[0].dataIndex;
-                return contexts[idx] ? ['\n' + contexts[idx]] : [];
+                if (!contexts[idx]) return [];
+                var U = WarTheater.Utils, w = window.innerWidth < 600 ? 42 : 70;
+                return [''].concat(U.wrap(U.latest(contexts[idx], 420), w));
               }
             }
           }
@@ -288,7 +288,10 @@ WarTheater.Financial = {
             borderColor: '#ef4444',
             borderWidth: 2,
             tension: 0.3,
-            pointRadius: labels.map(function(_, i) { return i === labels.length - 1 ? 5 : 0; }),
+            pointRadius: labels.map(function(_, i) {
+              if (i === labels.length - 1) return 5;
+              return (warCostsData.official_anchors || []).some(function(x) { return x.war_day === i + 1; }) ? 4 : 0;
+            }),
             pointBackgroundColor: '#ef4444',
             yAxisID: 'y1'
           }
@@ -310,7 +313,10 @@ WarTheater.Financial = {
                 var lines = [
                   'Running total: $' + (total / 1000).toFixed(1) + 'B'
                 ];
-                if (dayNotes[idx]) lines.push(dayNotes[idx]);
+                var U = WarTheater.Utils, w = window.innerWidth < 600 ? 42 : 70;
+                if (dayNotes[idx]) lines = lines.concat([''], U.wrap(U.latest(dayNotes[idx], 360), w));
+                var anchor = (warCostsData.official_anchors || []).filter(function(x) { return x.war_day === idx + 1; })[0];
+                if (anchor) lines = lines.concat([''], U.wrap('◆ OFFICIAL ANCHOR: $' + anchor.cumulative_billions + 'B as of ' + anchor.as_of + ' — ' + anchor.source, w));
                 var homes = Math.round(costs[idx] / homePrice);
                 lines.push('This day alone = ' + WarTheater.Utils.formatNumber(homes) + ' median US homes');
                 return lines;

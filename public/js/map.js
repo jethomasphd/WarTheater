@@ -120,7 +120,7 @@ WarTheater.Map = {
             <strong>Active:</strong> ${dayLabel} (${dayCount} day${dayCount > 1 ? 's' : ''} of strikes)<br>
             <strong>Source:</strong> ${s.casualties_source}
           </div>
-          ${s.notes ? '<div style="font-size: 10px; color: #d4782a; margin-top: 8px; padding-top: 6px; border-top: 1px solid #1a1a1a; font-style: italic;">' + s.notes + '</div>' : ''}
+          ${s.notes ? '<div style="font-size: 10px; color: #d4782a; margin-top: 8px; padding-top: 6px; border-top: 1px solid #1a1a1a; font-style: italic;">' + WarTheater.Utils.latest(s.notes, 420) + '</div>' : ''}
         </div>
       `;
       marker.bindPopup(popupContent, { maxWidth: 300 });
@@ -157,7 +157,13 @@ WarTheater.Map = {
       const dayCount = s.active_days.length;
       const dayLabel = dayCount === 1 ? 'Day ' + s.active_days[0] : 'Days ' + s.active_days[0] + '–' + s.active_days[s.active_days.length - 1];
 
-      const typeLabel = isHez ? 'HEZBOLLAH FRONT' : 'IRANIAN RETALIATION';
+      const t = String(s.type || '');
+      const typeLabel = isHez ? 'HEZBOLLAH FRONT'
+        : /disputed/.test(t) ? 'DISPUTED ATTRIBUTION'
+        : /houthi/.test(t) ? 'HOUTHI ATTACK'
+        : /israel|idf/.test(t) ? 'ISRAELI STRIKE — LEBANON'
+        : /hezbollah/.test(t) ? 'HEZBOLLAH FRONT'
+        : 'IRANIAN RETALIATION';
 
       const popupContent = `
         <div style="min-width: 220px;">
@@ -175,7 +181,7 @@ WarTheater.Map = {
             <strong>Active:</strong> ${dayLabel}<br>
             <strong>Source:</strong> ${s.casualties_source}
           </div>
-          ${s.notes ? '<div style="font-size: 10px; color: ' + color + '; margin-top: 8px; padding-top: 6px; border-top: 1px solid #1a1a1a; font-style: italic;">' + s.notes + '</div>' : ''}
+          ${s.notes ? '<div style="font-size: 10px; color: ' + color + '; margin-top: 8px; padding-top: 6px; border-top: 1px solid #1a1a1a; font-style: italic;">' + WarTheater.Utils.latest(s.notes, 420) + '</div>' : ''}
         </div>
       `;
       marker.bindPopup(popupContent, { maxWidth: 300 });
@@ -265,13 +271,13 @@ WarTheater.Map = {
         '<div style="font-size:11px;color:#8a8a8a;line-height:1.7;">' +
         '<strong>Hull:</strong> ' + c.hull + '<br>' +
         '<strong>Formation:</strong> ' + c.strike_group + '<br>' +
-        '<strong>Area:</strong> ' + c.area + '<br>' +
-        '<strong>Status:</strong> <span style="color:#22c55e;">' + c.status + '</span><br>' +
+        '<strong>Area:</strong> ' + WarTheater.Utils.latest(c.area, 220) + '<br>' +
+        '<strong>Status:</strong> <span style="color:#22c55e;">' + WarTheater.Utils.latest(c.status, 260) + '</span><br>' +
         (c.aircraft !== 'N/A' ? '<strong>Air Wing:</strong> ' + c.aircraft + '<br>' : '') +
         '<strong>Deployed:</strong> ' + WarTheater.Utils.formatDateFull(c.deployed_since) +
         '</div>' +
         escortsHtml +
-        (c.notes ? '<div style="font-size:10px;color:' + color + ';margin-top:8px;font-style:italic;">' + c.notes + '</div>' : '') +
+        (c.notes ? '<div style="font-size:10px;color:' + color + ';margin-top:8px;font-style:italic;">' + WarTheater.Utils.latest(c.notes, 420) + '</div>' : '') +
         classifiedNote +
         '</div>';
 
@@ -304,7 +310,7 @@ WarTheater.Map = {
     const altRoutesHtml = impact.alternative_routes.map(r =>
       '<div style="padding: 2px 0;">' +
       '<span style="color: #d4a020;">' + r.name + '</span>: ' +
-      r.capacity_mbd + ' mbd — <span style="color: #555;">' + r.status + '</span>' +
+      r.capacity_mbd + ' mbd — <span style="color: #555;">' + WarTheater.Utils.latest(r.status, 140) + '</span>' +
       '</div>'
     ).join('');
 
@@ -328,8 +334,8 @@ WarTheater.Map = {
           </div>
         </div>
         <div style="font-size: 11px; color: #8a8a8a; line-height: 1.6; margin-bottom: 8px;">
-          <strong>Status:</strong> ${strait.status_timeline}<br>
-          <strong>Method:</strong> ${strait.closure_method}<br>
+          <strong>Status:</strong> ${WarTheater.Utils.latest(strait.status, 360)}<br>
+          <strong>Method:</strong> ${WarTheater.Utils.latest(strait.closure_method, 200)}<br>
           <strong>Insurance increase:</strong> <span style="color: #ef4444;">+${impact.insurance_cost_increase_pct}%</span><br>
           <strong>Supply shortfall:</strong> <span style="color: #ef4444;">${impact.shortfall_mbd} million bbl/day</span>
         </div>
@@ -460,7 +466,7 @@ WarTheater.Map = {
         '<div style="min-width:200px;">' +
         '<h4 style="color:' + c + ';margin-bottom:4px;font-size:13px;">' + b.name + '</h4>' +
         '<div style="color:' + c + ';font-size:9px;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:8px;font-weight:600;">' + (labels[b.type] || '') + '</div>' +
-        '<div style="font-size:11px;color:#8a8a8a;line-height:1.6;">' + b.note + '</div>' +
+        '<div style="font-size:11px;color:#8a8a8a;line-height:1.6;">' + WarTheater.Utils.latest(b.note, 420) + '</div>' +
         '</div>', { maxWidth: 260 }
       );
       layer.addLayer(m);

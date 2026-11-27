@@ -322,3 +322,85 @@
     border-left: 1px solid var(--border);
   }
 }
+
+/* ═══ READABILITY FIXES (Nov 27, 2026 audit) ═══════════════════ */
+
+/* Hero values: scale with viewport so six cost metrics never overlap */
+.metrics-grid .hero-metric { min-width: 0; }
+.hero-metric .value {
+  font-size: clamp(1.5rem, 2.5vw, var(--text-hero));
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media (max-width: 768px) {
+  .hero-metric .value { font-size: clamp(1.25rem, 6.4vw, var(--text-2xl)); }
+  .hero-metric .change { font-size: 11px; max-height: 6.5em; }
+}
+
+/* Chart captions (methodology notes under charts) */
+.chart-caption {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  line-height: 1.6;
+  color: var(--text-dim);
+  margin-top: var(--space-sm);
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--border);
+}
+
+/* Charts never force horizontal scroll */
+.chart-container, .chart-wrapper { min-width: 0; max-width: 100%; }
+
+/* Infrastructure cards: latest update visible, background collapsible */
+.infra-more { margin-top: 8px; text-align: left; border-top: 1px solid var(--border); padding-top: 6px; }
+.infra-more summary {
+  cursor: pointer;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+.infra-more p { font-size: 10px; line-height: 1.55; color: var(--text-secondary); margin-top: 6px; }
+
+/* Map popups: cap height, scroll inside */
+.leaflet-popup-content { max-height: 55vh; overflow-y: auto; overscroll-behavior: contain; }
+@media (max-width: 768px) {
+  .leaflet-popup-content { max-width: 72vw !important; }
+}
+
+/* Timeline + briefing: long words/URLs wrap instead of overflowing */
+.timeline-event .event-content, .briefing-container, .briefing-section { min-width: 0; overflow-wrap: anywhere; }
+
+/* Toll panel: 8 counters as a clean 4×2 (2×4 on phones) so large values fit */
+#humanitarian-metrics { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 768px) {
+  #humanitarian-metrics { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Header timestamp: keep on one line beside the logo on phones */
+@media (max-width: 768px) {
+  #last-updated { font-size: 9px; letter-spacing: 0.04em; white-space: nowrap; text-align: right; }
+}
+@media (max-width: 420px) {
+  #last-updated { font-size: 8px; }
+}
+
+/* Collapsible map overlays on phones (see js/map-mobile.js) */
+.map-toggle {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 2px 0;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  text-align: left;
+  cursor: pointer;
+}
+.map-collapsible.collapsed > :not(.map-toggle) { display: none !important; }
+.map-collapsible.collapsed { padding: 6px 10px; }

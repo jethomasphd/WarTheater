@@ -5,6 +5,34 @@
 const WarTheater = window.WarTheater || {};
 
 WarTheater.Utils = {
+  // Return only the most recent update from an accumulating note field.
+  // Data notes append history as "LATEST ... PRIOR — OLDER ... PRIOR — OLDEST";
+  // display surfaces show the latest segment, trimmed at a word boundary.
+  latest(text, max) {
+    if (text == null) return '';
+    var s = String(text);
+    var cut = s.search(/\s*PRIOR\s*[—-]\s/);
+    if (cut > 0) s = s.slice(0, cut);
+    s = s.trim();
+    if (max && s.length > max) {
+      var t = s.slice(0, max);
+      var sp = t.lastIndexOf(' ');
+      s = (sp > max * 0.6 ? t.slice(0, sp) : t).replace(/[\s,;:(—-]+$/, '') + '…';
+    }
+    return s;
+  },
+
+  // Split text into lines of roughly `width` characters (for canvas tooltips).
+  wrap(text, width) {
+    var words = String(text || '').split(/\s+/), lines = [], line = '';
+    words.forEach(function(w) {
+      if ((line + ' ' + w).trim().length > width && line) { lines.push(line); line = w; }
+      else line = (line + ' ' + w).trim();
+    });
+    if (line) lines.push(line);
+    return lines;
+  },
+
   // Format numbers with commas
   formatNumber(n) {
     if (n == null) return '—';

@@ -22,9 +22,9 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 
   <!-- Design System -->
-  <link rel="stylesheet" href="css/design-system.css?v=20260413">
+  <link rel="stylesheet" href="css/design-system.css?v=20261127">
   <link rel="stylesheet" href="css/animations.css?v=20260318">
-  <link rel="stylesheet" href="css/responsive.css?v=20260413">
+  <link rel="stylesheet" href="css/responsive.css?v=20261127">
 </head>
 <body>
 
@@ -281,7 +281,7 @@
         </div>
 
         <!-- Charts -->
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 1px; background: var(--border); margin-top: 1px;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr)); gap: 1px; background: var(--border); margin-top: 1px;">
 
           <!-- Oil Price Timeline -->
           <div class="chart-container">
@@ -308,11 +308,12 @@
           </div>
 
           <!-- Cost Per Day -->
-          <div class="chart-container">
-            <div class="chart-title">Estimated Daily US Military Cost</div>
+          <div class="chart-container" style="grid-column: 1 / -1;">
+            <div class="chart-title">Daily US Military Cost — Official-Anchored</div>
             <div class="chart-wrapper" style="height: 280px;">
-              <canvas id="chart-daily-cost" aria-label="Chart showing estimated daily military operational cost"></canvas>
+              <canvas id="chart-daily-cost" aria-label="Chart showing daily US military cost calibrated to official Pentagon cumulative figures"></canvas>
             </div>
+            <div class="chart-caption">Cumulative line passes through each Pentagon disclosure (dots): $11.3B (Day 6), $25B (Apr 29), $29B (May 12), $37.5B (Jul 21), $43.6B (Sep 3), $47.1B (Oct 16), $48.3B (Nov 13). Days in between follow the shape of the earlier model; after the latest figure the official run-rate is carried forward. Excludes base repair and economy-wide costs. Recalibrated Nov 27, 2026 — the earlier flat $500M/day model overstated the total by about $109B on this chart.</div>
           </div>
         </div>
 
@@ -394,7 +395,7 @@
         </div>
 
         <!-- Charts -->
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 1px; background: var(--border); margin-top: 1px;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr)); gap: 1px; background: var(--border); margin-top: 1px;">
 
           <!-- Casualty Timeline -->
           <div class="chart-container">
@@ -407,7 +408,7 @@
           <!-- Infrastructure Damage -->
           <div class="chart-container">
             <div class="chart-title">Civilian Infrastructure Damaged or Destroyed</div>
-            <div class="infrastructure-grid" id="infrastructure-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-md); padding: var(--space-md) 0;">
+            <div class="infrastructure-grid" id="infrastructure-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); gap: var(--space-md); padding: var(--space-md) 0;">
               <!-- Populated by JS -->
             </div>
           </div>
@@ -417,7 +418,7 @@
         <div class="chart-container" style="margin-top: 1px;">
           <div class="chart-title">Historical Comparison — Day 273 of Conflict</div>
           <div class="chart-wrapper" style="height: 250px;">
-            <canvas id="chart-historical" aria-label="Chart comparing Day 11 metrics with past US conflicts"></canvas>
+            <canvas id="chart-historical" aria-label="Chart comparing current metrics with past US conflicts"></canvas>
           </div>
         </div>
 
@@ -814,14 +815,15 @@
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
   <!-- Application JS -->
-  <script src="js/utils.js?v=20260317"></script>
+  <script src="js/utils.js?v=20261127"></script>
   <script src="js/data.js?v=20261015"></script>
-  <script src="js/map.js?v=20260317"></script>
-  <script src="js/financial.js?v=20260317"></script>
-  <script src="js/humanitarian.js?v=20260317"></script>
+  <script src="js/map.js?v=20261127"></script>
+  <script src="js/financial.js?v=20261127"></script>
+  <script src="js/humanitarian.js?v=20261127"></script>
   <script src="js/briefing.js?v=20261015"></script>
   <script src="js/timeline.js?v=20260317"></script>
   <script src="js/calculator.js?v=20260317"></script>
-  <script src="js/app.js?v=20260317"></script>
+  <script src="js/map-mobile.js?v=20261127"></script>
+  <script src="js/app.js?v=20261127"></script>
 </body>
 </html>
