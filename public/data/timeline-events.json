@@ -11689,5 +11689,104 @@
     "category": "military",
     "source": "IRGC via CBS News / UKMTO via Arab News / Saudi-led coalition",
     "data_point": "3 missiles intercepted"
+  },
+  {
+    "date": "2026-11-12",
+    "time": "day",
+    "title": "Trump: US does not need a deal with Iran",
+    "description": "Trump wrote that ending the war does not require a deal with Iran and told Vance to focus on domestic priorities. The blockade stays in place. Rezaei vowed no enriched uranium will leave Iran.",
+    "category": "political",
+    "source": "Bloomberg via Rigzone / IranWarLive Day 258",
+    "data_point": "Blockade maintained"
+  },
+  {
+    "date": "2026-11-13",
+    "time": "day",
+    "title": "IRGC drones target US radar in Bahrain",
+    "description": "The IRGC claimed a strike on a US early-warning radar in Bahrain. CENTCOM said two drones were launched and both were shot down. This was the first Iranian fire on a Gulf host state in weeks.",
+    "category": "military",
+    "source": "CENTCOM / IranWarLive Day 259",
+    "data_point": "2 drones downed"
+  },
+  {
+    "date": "2026-11-16",
+    "time": "day",
+    "title": "Iran bars IAEA from damaged sites; LPG tanker burns",
+    "description": "Iran said IAEA inspectors cannot access damaged sites until the war ends. The LPG tanker TARA GAS was struck twice outbound in Hormuz and left burning, with one Indian seafarer missing.",
+    "category": "humanitarian",
+    "source": "gCaptain / Riviera / IranWarLive Day 262",
+    "data_point": "1 seafarer missing"
+  },
+  {
+    "date": "2026-11-17",
+    "time": "day",
+    "title": "US jets strike IRGC missile site on Qeshm",
+    "description": "US fighters used precision munitions on an IRGC missile launch site on Qeshm after Iranian drones targeted a US radar at Sheikh Isa Air Base. IRNA reported no serious damage. Araghchi met Oman's Busaidi in Muscat, and Qatar hosted Iranian officials the same day.",
+    "category": "military",
+    "source": "AFP / AP / RFE/RL / Al Jazeera",
+    "data_point": "1 IRGC site struck"
+  },
+  {
+    "date": "2026-11-17",
+    "time": "day",
+    "title": "ADNOC tanker hit north of Khasab",
+    "description": "An ADNOC L&S tanker was struck by an unknown projectile 13 nm north of Khasab, injuring 11 crew, with one Jordanian missing. ADNOC confirmed on Nov 26 that he was found dead.",
+    "category": "humanitarian",
+    "source": "UKMTO / ADNOC L&S / Splash247",
+    "data_point": "1 dead, 11 injured"
+  },
+  {
+    "date": "2026-11-18",
+    "time": "day",
+    "title": "Iran strikes back at Kuwait and Bahrain",
+    "description": "Kuwait activated air defenses against drones near Ali Al Salem Air Base for the first time since September, and Bahrain intercepted multiple Iranian attacks. CENTCOM said no US forces were injured.",
+    "category": "military",
+    "source": "Al Jazeera / Bahrain News Agency / AP",
+    "data_point": "0 US injured"
+  },
+  {
+    "date": "2026-11-18",
+    "time": "day",
+    "title": "Trump alleges Iranian chemical/bio work",
+    "description": "Trump told Fox in Shenzhen there are 'indications' Iran is looking at chemical and biological weapons and said 'we'll see what happens after January 1.' Iran's foreign ministry compared the claim to Colin Powell's 2003 UN presentation.",
+    "category": "political",
+    "source": "CBS News / Fox News",
+    "data_point": "Claim unverified"
+  },
+  {
+    "date": "2026-11-19",
+    "time": "day",
+    "title": "Houthi strike damages Riyadh financial tower",
+    "description": "A Houthi attack damaged several floors of the tallest tower in Riyadh's King Abdullah Financial District, home to PIF, with no injuries. Trump met Xi and Putin in Shenzhen, and their declaration did not mention Iran.",
+    "category": "military",
+    "source": "Saudi Civil Defense / SPA / AFP / CBS",
+    "data_point": "0 injured"
+  },
+  {
+    "date": "2026-11-19",
+    "time": "day",
+    "title": "Senate rejects Iran war powers resolution 48-51",
+    "description": "Collins, Murkowski and Paul voted with Democrats; Fetterman voted no. This was the first vote by either chamber on the war since the midterms.",
+    "category": "political",
+    "source": "CBS News",
+    "data_point": "48-51"
+  },
+  {
+    "date": "2026-11-19",
+    "time": "day",
+    "title": "Pentagon: war cost $48.3 billion as of Nov 13",
+    "description": "Deputy comptroller Arthur Miller told senators at his Navy nomination hearing, 'As of Nov 13, it was $48.3 billion,' covering munitions, equipment replacement and operations (AFP). AFP noted this is about 26% above CBO's $38B estimate as of Aug 1. The figure excludes base damage and is the first update since the $47.1B mid-October estimate.",
+    "category": "economic",
+    "source": "CBS News / AFP via Dawn",
+    "data_point": "$48.3B (Nov 13)"
+  },
+  {
+    "date": "2026-11-19",
+    "time": "day",
+    "title": "Trump 'not rushing' Iran decision",
+    "description": "Trump told Channel 12 he is not rushing and will 'see what happens after the new year starts.' NYT and Bloomberg reported Netanyahu pressing for a joint 4-to-7-day strike campaign. Iran's IAEA envoy said cooperation will be case-by-case.",
+    "category": "diplomatic",
+    "source": "CBS News / Channel 12 / NYT / Bloomberg",
+    "data_point": "Decision deferred"
   }
 ]
