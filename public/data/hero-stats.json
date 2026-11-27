@@ -29,11 +29,11 @@
     },
     "daily_cost": {
       "value": 43,
-      "unit": "M/day",
+      "unit": "M",
       "label": "Daily War Cost ($M/day)",
       "change": "RECALIBRATED from $500M",
       "tooltip": "Current run-rate implied by the two most recent Pentagon disclosures: $47.1B through Oct 16 (ABC News) to $48.3B as of Nov 13 (deputy comptroller Arthur Miller, Senate testimony Nov 19) = $1.2B over 28 days, about $43M/day. Reflects the current blockade-and-standby posture with occasional limited strikes; it would rise sharply if a strike campaign resumes (the July strike campaign ran at roughly $250M/day on the official path). The legacy $500M/day figure was set during the July campaign and carried forward unchanged, overstating the cost by about $40B; it is retired.",
-      "note": "RECALIBRATED Nov 27: official run-rate ~$43M/day (Oct 16-Nov 13), replacing the legacy $500M/day model."
+      "note": "Official run-rate, Oct 16-Nov 13 (Pentagon). Replaces the legacy $500M/day model."
     },
     "total_cost": {
       "value": 48.9,
