@@ -84,8 +84,7 @@ WarTheater.Humanitarian = {
             ...defaults.plugins.tooltip,
             callbacks: {
               title: function(items) {
-                var idx = items[0].dataIndex;
-                return dayContexts[idx] || items[0].label;
+                return items[0].label;
               },
               afterBody: function(items) {
                 var idx = items[0].dataIndex;
@@ -93,6 +92,10 @@ WarTheater.Humanitarian = {
                 items.forEach(function(item) { total += item.raw; });
                 var lines = ['', 'Total this day: ~' + total + ' estimated casualties'];
                 if (idx === 0) lines.push('Includes 165+ killed at Minab girls\' school');
+                if (dayContexts[idx]) {
+                  var U = WarTheater.Utils, w = window.innerWidth < 600 ? 42 : 70;
+                  lines = lines.concat([''], U.wrap(U.latest(dayContexts[idx], 420), w));
+                }
                 return lines;
               },
               footer: function() {
@@ -122,12 +125,18 @@ WarTheater.Humanitarian = {
     var grid = document.getElementById('infrastructure-grid');
     if (!grid || !infraData) return;
 
+    var U = WarTheater.Utils;
     grid.innerHTML = infraData.map(function(item) {
-      return '<div class="card" style="text-align: center; padding: var(--space-lg);" title="' + item.detail.replace(/"/g, '&quot;') + '">' +
+      var latestNote = U.latest(item.note);
+      var shortNote = U.latest(item.note, 220);
+      var detail = U.latest(item.detail);
+      return '<div class="card infra-card" style="text-align: center; padding: var(--space-lg);">' +
         '<div class="font-data" style="font-size: var(--text-2xl); color: var(--humanitarian); line-height: 1;">' + item.count + '</div>' +
         '<div style="font-family: \'Barlow Condensed\', sans-serif; font-size: var(--text-sm); text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-primary); margin-top: 8px;">' + item.label + '</div>' +
-        '<div style="font-size: 10px; color: var(--text-dim); margin-top: 4px;">' + item.note + '</div>' +
-        '<div style="font-size: 10px; color: var(--text-secondary); margin-top: 8px; padding-top: 6px; border-top: 1px solid var(--border); text-align: left; line-height: 1.5;">' + item.detail + '</div>' +
+        '<div style="font-size: 10px; color: var(--text-dim); margin-top: 4px; text-align: left; line-height: 1.5;">' + shortNote + '</div>' +
+        '<details class="infra-more"><summary>Latest update &amp; background</summary>' +
+        (latestNote.length > shortNote.length ? '<p>' + latestNote + '</p>' : '') +
+        '<p>' + detail + '</p></details>' +
         '<div style="font-size: 9px; color: var(--text-dim); margin-top: 6px; font-family: \'JetBrains Mono\', monospace;">Source: ' + item.source + '</div>' +
         '</div>';
     }).join('');
@@ -185,7 +194,9 @@ WarTheater.Humanitarian = {
               },
               afterBody: function(items) {
                 var idx = items[0].dataIndex;
-                return conflictNotes[idx] ? ['\n' + conflictNotes[idx]] : [];
+                if (!conflictNotes[idx]) return [];
+                var U = WarTheater.Utils, w = window.innerWidth < 600 ? 42 : 70;
+                return [''].concat(U.wrap(conflictNotes[idx], w));
               },
               footer: function() {
                 return 'Sources: CRS, DoD historical data, ACLED, CBO';

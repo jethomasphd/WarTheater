@@ -178,7 +178,18 @@
     "Nov 6",
     "Nov 9",
     "Nov 10",
-    "Nov 11"
+    "Nov 11",
+    "Nov 12",
+    "Nov 13",
+    "Nov 16",
+    "Nov 17",
+    "Nov 18",
+    "Nov 19",
+    "Nov 20",
+    "Nov 23",
+    "Nov 24",
+    "Nov 25",
+    "Nov 27"
   ],
   "contexts": [
     "Pre-war close — baseline",
@@ -359,7 +370,18 @@
     "Day 252 (November 6, Friday) — S&P +0.31% to 7,376.86 on an AI bounce and a strong jobs report (-2.7% on the week; Nasdaq -3.4%); Dow -0.5%. Brent +$0.03 to $98.32, WTI $90.83; that night the US struck an air-defence site at Suza, Qeshm Island, the first strike since the midterms.",
     "Day 255 (November 9, Monday) — S&P +2.35% to 7,549.94, best day since Apr 8, with all 11 sectors up; Nasdaq +2.7%, Dow +2.2%. Brent -5.85% to $92.57 and WTI -4.38% to $86.85 after Trump said new strikes were 'highly unlikely' while talks continue and that the war 'militarily, is effectively over.' Brent's prior week was -16% on the continuous front month (Reuters), the steepest weekly fall since early COVID.",
     "Day 256 (November 10, Tuesday) — S&P -0.38% to 7,520.93 on a hot October CPI (+0.4% m/m, core +0.3%) that pushed the 10-yr back above 5% (Nvidia -5%). Brent -1.17% to $91.49 after touching $89.16 intraday, its first dip below $90 since August; WTI $86.04. EIA's November STEO sees Brent near $100 in Nov-Dec. Rubio at the G7: 'no need for major combat operations.'",
-    "Day 257 (November 11, Wednesday, Veterans Day; bond market closed) — S&P +1.31% to 7,619.38 on an AI rebound led by CoreWeave results, within 2.6% of the Oct 6 record (7,818.93); Nasdaq +1.6% to 25,466.19, Dow +0.5% to 52,486.49. Brent +1.39% to $92.76 and WTI +0.57% to $86.53 (PROVISIONAL settles) as Iran denied talks were under way and ships were hit off Lima, Oman."
+    "Day 257 (November 11, Wednesday, Veterans Day; bond market closed) — S&P +1.31% to 7,619.38 on an AI rebound led by CoreWeave results, within 2.6% of the Oct 6 record (7,818.93); Nasdaq +1.6% to 25,466.19, Dow +0.5% to 52,486.49. Brent +1.39% to $92.76 and WTI +0.57% to $86.53 (PROVISIONAL settles) as Iran denied talks were under way and ships were hit off Lima, Oman.",
+    "Day 258 (November 12, Thursday) — S&P -0.35% to 7,592.40 (DERIVED from the Nov 13 close and reported change), the first of seven straight losses. Brent $95.82 / WTI (Dec) $88.74.",
+    "Day 259 (November 13, Friday) — S&P -0.4% to 7,561.67; Dow 52,347.55; Nasdaq 25,136.27 (AP). Brent settled flat at $95.84; WTI (Dec) $88.56.",
+    "Day 262 (November 16, Monday) — S&P -1.9% to 7,416.59; Dow 51,608.17; Nasdaq 24,509.76 (Zacks/Yahoo). Brent -$3.40 to $92.44 and WTI -$2.84 to $85.72 as recovering Middle East exports bolstered the surplus outlook (Reuters).",
+    "Day 263 (November 17, Tuesday) — S&P -1.0% to 7,340.53; Dow 50,759.42 (AP). Brent $93.14 / WTI $86.01 (both DERIVED).",
+    "Day 264 (November 18, Wednesday) — S&P close NOT LOCATED this cycle (null; fill next cycle). Brent -$1.19 to $91.95; WTI (Dec) -$2.75 to $83.26, its lowest close since Aug 26, after a 3.4M-barrel US crude build.",
+    "Day 265 (November 19, Thursday) — S&P 7,175.83 (DERIVED from the Nov 20 close and points change); Dow 49,097.06; Nasdaq 23,879.20. Brent $91.98 (+0.03) / WTI (Dec) $83.21 (-0.05).",
+    "Day 266 (November 20, Friday) — S&P -3.70% to 6,910.39, its seventh straight loss, entering a correction 11.6% below the Oct 6 record (7,818.93) on an AI/chip selloff (Nvidia -14%) and Fed policy worries; VIX 35.89; Dow 48,147.33; Nasdaq 22,617.73 (-5.3%). The S&P lost 8.6% on the week (CNBC/AP). Brent $92.57; WTI December contract expired at $83.98.",
+    "Day 269 (November 23, Monday) — S&P +4.73% to 7,237.17 (DERIVED), its best day since Apr 2025, on an Nvidia rebound. Brent fell to a three-month low of $89.37; WTI (Jan) $80.17 (-3.24) as Gulf flows recovered.",
+    "Day 270 (November 24, Tuesday) — S&P -0.50% to 7,201.09; Dow 50,018.70, its first close above 50,000; Nasdaq 23,733.54 (-1.48%) on a tech selloff (AP). Brent +$2.03 to $91.40; WTI +$1.88 to $82.05 (CNBC).",
+    "Day 271 (November 25, Wednesday) — S&P -0.25% to 7,182.78; Dow 50,182.95; Nasdaq 23,585.80. Brent +3.5% to $94.61 and WTI $83.68 (DERIVED). Markets closed Nov 26 for Thanksgiving (Brent settled $96.57 on ICE; no WTI settle).",
+    "Day 273 (November 27, Friday, half-day session to 1 pm ET) — PROVISIONAL: S&P ~+1.6% to ~7,297.7 (quotes 7,284.57-7,304.78; Yahoo Finance live blog), Dow ~50,775, Nasdaq ~24,130, as AI stocks rebounded; energy led sectors. WTI (Jan) $84.91 (+1.23, PROVISIONAL); no confirmed Brent settle at publication. Confirm all closes against AP final."
   ],
   "datasets": {
     "sp500": {
@@ -543,7 +565,18 @@
         106.38,
         108.87,
         108.45,
-        109.87
+        109.87,
+        110.37,
+        109.93,
+        107.82,
+        106.71,
+        null,
+        104.32,
+        100.46,
+        105.21,
+        104.68,
+        104.42,
+        106.09
       ],
       "color": "#ef4444"
     },
@@ -644,6 +677,17 @@
         117.0,
         117.5,
         118.5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -913,6 +957,17 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#d4a020"
@@ -1098,10 +1153,21 @@
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "color": "#7b3fa0"
     }
   },
-  "last_updated": "2026-11-11"
+  "last_updated": "2026-11-27"
 }

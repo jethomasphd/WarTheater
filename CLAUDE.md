@@ -133,5 +133,13 @@ Both the main dashboard and the archive page load briefings dynamically from
 - Cloudflare Pages (static hosting)
 - Data: static JSON files versioned in git
 
+## War Cost Methodology
+Since 2026-11-27 the war-cost series is **official-anchored**: `scripts/recalibrate-costs.py`
+scales the daily series so the cumulative passes through each Pentagon disclosure
+(listed in `war-costs.json` → `official_anchors`), preserving the legacy series' shape,
+and carries the latest official run-rate forward. The old flat $500M/day model is
+retired (kept as `legacy_daily_cost_millions` for audit). When a new official
+figure appears, add it to ANCHORS and re-run the script.
+
 ## War Day Calculation
 Day 1 = February 28, 2026. Use `./scripts/war-day.sh` or: `(today - 2026-02-28) + 1`

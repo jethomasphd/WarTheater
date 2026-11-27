@@ -810,5 +810,12 @@
         "label": "NOVEMBER 11, 2026 — DAY 257",
         "headline": "Democrats win Congress; US hits Qeshm twice; Trump: war 'effectively over'; Brent sinks 21% as ship attacks persist",
         "file": "data/briefings/day-257.html"
+    },
+    {
+        "day": 273,
+        "date": "2026-11-27",
+        "label": "NOVEMBER 27, 2026 — DAY 273",
+        "headline": "US strikes Qeshm; Kuwait says Iranian drones killed 2 Italians; Houthis hit Ras Tanura; war cost recalibrated to $48.9B",
+        "file": "data/briefings/day-273.html"
     }
 ]

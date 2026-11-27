@@ -1,7 +1,7 @@
 {
   "pre_war_gas": 2.99,
-  "current_gas": 3.94,
-  "war_increase": 0.95,
+  "current_gas": 3.59,
+  "war_increase": 0.60,
   "states": [
     { "code": "avg", "label": "National Average", "premium": 0 },
     { "code": "CA", "label": "California", "premium": 1.73 },
@@ -9,19 +9,19 @@
     { "code": "TX", "label": "Texas", "premium": -0.52 },
     { "code": "FL", "label": "Florida", "premium": -0.20 },
     { "code": "NY", "label": "New York", "premium": 0.27 },
-    { "code": "PA", "label": "Pennsylvania", "premium": 0.37 },
-    { "code": "OH", "label": "Ohio", "premium": -0.25 },
+    { "code": "PA", "label": "Pennsylvania", "premium": 0.43 },
+    { "code": "OH", "label": "Ohio", "premium": -0.47 },
     { "code": "IL", "label": "Illinois", "premium": 0.44 },
     { "code": "AZ", "label": "Arizona", "premium": 0.25 },
-    { "code": "GA", "label": "Georgia", "premium": -0.51 },
+    { "code": "GA", "label": "Georgia", "premium": -0.47 },
     { "code": "WA", "label": "Washington", "premium": 1.00 },
     { "code": "MI", "label": "Michigan", "premium": 0.07 },
     { "code": "NJ", "label": "New Jersey", "premium": 0.07 },
     { "code": "VA", "label": "Virginia", "premium": -0.14 },
     { "code": "CO", "label": "Colorado", "premium": -0.16 },
-    { "code": "NC", "label": "North Carolina", "premium": -0.73 }
+    { "code": "NC", "label": "North Carolina", "premium": -0.67 }
   ],
   "default_state": "TX",
-  "source": "AAA national average regular $3.9429 on Nov 11, 2026 (AAA State Gas Price Averages, single timestamp 11/11/26). All 16 state premiums recomputed against $3.9429 on that timestamp. Largest moves vs Oct 30: MI +0.42 to +0.07 and OH +0.01 to -0.25 (Midwest price cycling), CO +0.10 to -0.16, HI +1.46 to +1.68, NY +0.15 to +0.27. Up $0.95 / +31.9% vs the $2.99 pre-war baseline; wartime peak $4.55 (May 21). The national average fell below $4 on Nov 10 ($3.9788); $4.1239 on Nov 4; AAA weekly release $4.1003 on Nov 5 ('highest ever for this time of year'). National diesel $6.1306; CA diesel $8.0836. EIA weekly retail $3.995 (week of Nov 9). Re-pull weekly from the same AAA page. Source: AAA.",
-  "last_updated": "2026-11-11"
+  "source": "AAA national average regular $3.5866 on Nov 25, 2026 (AAA published no Fuel Report on Thanksgiving Nov 26). Up $0.60 / +20.1% vs the $2.99 pre-war baseline; wartime peak $4.55 (May 21). CNN review of AAA data: the national average fell 56 cents in the first 24 days of November, the most on record. AAA series this window: Nov 12 $3.9081; Nov 18 ~$3.75; Nov 19 $3.7212; Nov 20 $3.69; Nov 23 $3.6366; Nov 24 $3.62; Nov 25 $3.5866; one month earlier (Oct 19) $4.2953. STATE PREMIUMS: TX (-0.52), NC (-0.67), OH (-0.47), GA (-0.47), PA (+0.43) recomputed vs AAA Nov 19 national $3.72 (TX 3.20, NC 3.05, OH 3.25, GA 3.25, PA 4.15). AAA Nov 25 bands: highest $3.8767-$5.5829 (AK, HI, CA, WA); lowest $2.9321-$3.2698 (TX, NC, GA, OH). STALE: CA, HI, FL, NY, IL, AZ, WA, MI, NJ, VA, CO premiums HELD from Nov 11 (computed vs $3.9429); exact state values not obtained this cycle - re-pull from the AAA State Gas Price Averages page. PRIOR (Nov 11): national $3.9429. Source: AAA.",
+  "last_updated": "2026-11-27"
 }
