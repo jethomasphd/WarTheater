@@ -133,6 +133,14 @@ YOUR MISSION
 
    GLOBAL UPDATES → Update file-level metadata fields as specified.
 
+   WAR COSTS (official-anchored) → Append new days at the current official
+   run-rate (hero-stats daily_cost.value). If the manifest reports a NEW official
+   cumulative anchor, add it to ANCHORS in `scripts/recalibrate-costs.py`, run
+   `python3 scripts/recalibrate-costs.py`, then update the hero cost panel
+   (daily_cost = new run-rate, total_cost = new cumulative) and the Iran row of
+   historical-comparison.json (full-conflict average = total / war_day). Never
+   reintroduce a flat modeled rate.
+
 4. After all data modifications:
    - Update `last_updated` / `timestamp_label` fields in each modified file
    - Update `war_day` in hero-stats.json

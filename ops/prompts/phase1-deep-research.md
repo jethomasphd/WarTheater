@@ -231,6 +231,19 @@ New trading day entry for markets.json (S&P 500, defense, oil majors, airlines i
 #### 6c. WAR COSTS
 New day entry for war-costs.json (daily cost, cumulative, note) + tanker transit data point.
 
+COST METHODOLOGY (official-anchored, since 2026-11-27): the daily series is
+recalibrated so its cumulative passes through every official Pentagon/comptroller
+disclosure (see `official_anchors` and `cost_methodology` in war-costs.json).
+- Daily cost for new days = the latest official run-rate (increment between the two
+  most recent anchors / days between them). Do NOT use a flat modeled rate such as
+  the retired $500M/day.
+- If a NEW official cumulative figure is published, report it as a new anchor:
+  {war_day, as_of date, cumulative_billions, source}. Phase 2 adds it to
+  `scripts/recalibrate-costs.py` ANCHORS and re-runs the script, which rewrites the
+  daily series, hero-stats history and the run-rate.
+- Report independent estimates (CBO, CSIS, Moody's, Brown/Watson) as context only;
+  never merge them into the official series.
+
 #### 6d. CALCULATOR
 Updated gas prices for calculator.json if changed (current_gas, war_increase).
 
